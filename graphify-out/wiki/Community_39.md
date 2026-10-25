@@ -1,51 +1,54 @@
 # Community 39
 
-> 37 nodes · cohesion 0.18
+> 36 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **auth.js** (52 connections) — `src/data/auth.js`
-- **json()** (31 connections) — `src/data/auth.js`
-- **callBackend()** (28 connections) — `src/data/auth.js`
-- **DealerDashboard.jsx** (23 connections) — `src/pages/DealerDashboard.jsx`
-- **broadcastAuthChange()** (13 connections) — `src/data/auth.js`
-- **EmailVerificationPrompt.jsx** (10 connections) — `src/components/EmailVerificationPrompt.jsx`
-- **applyAuthResponse()** (9 connections) — `src/data/auth.js`
-- **finalizeDealerRegistration()** (7 connections) — `src/data/auth.js`
-- **staffSignup()** (7 connections) — `src/data/auth.js`
-- **logout()** (6 connections) — `src/data/auth.js`
-- **verifyEmailOtp()** (6 connections) — `src/data/auth.js`
-- **fetchMe()** (5 connections) — `src/data/auth.js`
-- **googleLogin()** (5 connections) — `src/data/auth.js`
-- **login()** (5 connections) — `src/data/auth.js`
-- **lookupStaffCode()** (5 connections) — `src/data/auth.js`
-- **requestEmailOtp()** (5 connections) — `src/data/auth.js`
-- **signup()** (5 connections) — `src/data/auth.js`
-- **staffTogglePrice()** (5 connections) — `src/data/auth.js`
-- **staffTogglePriceAll()** (5 connections) — `src/data/auth.js`
-- **verifyOtp()** (5 connections) — `src/data/auth.js`
-- **verifyPhoneOtp()** (5 connections) — `src/data/auth.js`
-- **persistTokens()** (4 connections) — `src/data/auth.js`
-- **requestOtp()** (4 connections) — `src/data/auth.js`
-- **requestPhoneOtp()** (4 connections) — `src/data/auth.js`
-- **staffApprove()** (4 connections) — `src/data/auth.js`
-- *... and 12 more nodes in this community*
+- **n()** (33 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
+- **t()** (18 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
+- **s()** (15 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
+- **hh()** (9 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
+- **yh()** (9 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
+- **c()** (8 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
+- **cs()** (7 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
+- **hn()** (7 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
+- **mh()** (7 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
+- **O()** (7 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
+- **fh()** (6 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
+- **Mp()** (6 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
+- **ph()** (6 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
+- **Sh()** (6 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
+- **bh()** (5 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
+- **Ih()** (5 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
+- **j()** (5 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
+- **Ka()** (5 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
+- **th()** (5 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
+- **x()** (5 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
+- **ee()** (4 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
+- **M()** (4 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
+- **qs()** (4 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
+- **rs()** (4 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
+- **vh()** (4 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
+- *... and 11 more nodes in this community*
 
 ## Relationships
 
-- [[Project Readme & Layout]] (48 shared connections)
-- [[Community 96]] (9 shared connections)
-- [[Design System & UI Tokens]] (8 shared connections)
+- [[Price Presentation & Product UI]] (46 shared connections)
+- [[Dependencies & Package Config]] (19 shared connections)
+- [[Community 38]] (14 shared connections)
+- [[Product Brand & Business Vision]] (12 shared connections)
+- [[Mobile Responsive UI Skill]] (10 shared connections)
+- [[Live Pricing Audit Tool]] (7 shared connections)
+- [[Architecture Doc Generator]] (4 shared connections)
+- [[Community 45]] (2 shared connections)
 
 ## Source Files
 
-- `src/components/EmailVerificationPrompt.jsx`
-- `src/data/auth.js`
-- `src/pages/DealerDashboard.jsx`
+- `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
 
 ## Audit Trail
 
-- EXTRACTED: 303 (100%)
+- EXTRACTED: 224 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

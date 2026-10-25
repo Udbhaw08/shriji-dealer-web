@@ -4,15 +4,15 @@
 
 ## Key Concepts
 
-- **Playing video** (6 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
-- **Integrating with the TV app** (3 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
-- **playing-video.md** (1 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
-- **Exiting playback** (1 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
-- **Loading content** (1 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
+- **Primary Commands** (5 connections) — `.agents/skills/graphify/SKILL.md`
+- **Graphify Knowledge Graph Skill** (4 connections) — `.agents/skills/graphify/SKILL.md`
+- **SKILL.md** (1 connections) — `.agents/skills/graphify/SKILL.md`
+- **1. Query the Graph (Context-Efficient)** (1 connections) — `.agents/skills/graphify/SKILL.md`
+- **2. Trace Relationships (Shortest Path)** (1 connections) — `.agents/skills/graphify/SKILL.md`
+- **3. Explain a Node or Symbol** (1 connections) — `.agents/skills/graphify/SKILL.md`
+- **4. Update the Graph (AST Re-Extraction)** (1 connections) — `.agents/skills/graphify/SKILL.md`
+- **Key Output Artifacts in `graphify-out/`** (1 connections) — `.agents/skills/graphify/SKILL.md`
+- **Why Use Graphify** (1 connections) — `.agents/skills/graphify/SKILL.md`
 
 ## Relationships
 
@@ -20,7 +20,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/playing-video.md`
+- `.agents/skills/graphify/SKILL.md`
 
 ## Audit Trail
 

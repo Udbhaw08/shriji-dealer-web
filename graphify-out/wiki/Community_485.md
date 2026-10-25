@@ -1,10 +1,12 @@
 # Community 485
 
-> 1 nodes · cohesion 1.00
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **build.gradle** (0 connections) — `android/capacitor-cordova-android-plugins/build.gradle`
+- **Content Security Policy (CSP) Directives** (2 connections) — `docs/security/content-security-policy.md`
+- **content-security-policy.md** (1 connections) — `docs/security/content-security-policy.md`
+- **Directives** (1 connections) — `docs/security/content-security-policy.md`
 
 ## Relationships
 
@@ -12,11 +14,11 @@
 
 ## Source Files
 
-- `android/capacitor-cordova-android-plugins/build.gradle`
+- `docs/security/content-security-policy.md`
 
 ## Audit Trail
 
-- EXTRACTED: 0 (0%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

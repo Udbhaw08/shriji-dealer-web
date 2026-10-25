@@ -1,74 +1,54 @@
 # Product Brand & Business Vision
 
-> 50 nodes · cohesion 0.08
+> 53 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **server.js** (39 connections) — `backend/src/server.js`
-- **pool.js** (33 connections) — `backend/src/db/pool.js`
-- **env.js** (16 connections) — `backend/src/config/env.js`
-- **catalog.js** (16 connections) — `backend/src/services/catalog.js`
-- **webhooks.js** (14 connections) — `backend/src/routes/webhooks.js`
-- **logger.js** (14 connections) — `backend/src/utils/logger.js`
-- **env** (13 connections) — `backend/src/config/env.js`
-- **crmPoll.js** (13 connections) — `backend/src/jobs/crmPoll.js`
-- **log** (13 connections) — `backend/src/utils/logger.js`
-- **applyCrmAccountState()** (12 connections) — `backend/src/services/dealerApp.js`
-- **index.js** (11 connections) — `backend/src/jobs/index.js`
-- **catalogSync.js** (9 connections) — `backend/src/jobs/catalogSync.js`
-- **health.js** (8 connections) — `backend/src/routes/health.js`
-- **syncCatalog()** (7 connections) — `backend/src/services/catalog.js`
-- **migrate.js** (6 connections) — `backend/src/db/migrate.js`
-- **prices.js** (6 connections) — `backend/src/routes/prices.js`
-- **crmPoll()** (5 connections) — `backend/src/jobs/crmPoll.js`
-- **isCommerceConfigured()** (5 connections) — `backend/src/services/commerceClient.js`
-- **migrate()** (4 connections) — `backend/src/db/migrate.js`
-- **catalogFor()** (4 connections) — `backend/src/services/catalog.js`
-- **loadCatalog()** (4 connections) — `backend/src/services/catalog.js`
-- **applied()** (3 connections) — `backend/src/db/migrate.js`
-- **catalogSync()** (3 connections) — `backend/src/jobs/catalogSync.js`
-- **tokenCleanup()** (3 connections) — `backend/src/jobs/catalogSync.js`
-- **markPollRun()** (3 connections) — `backend/src/jobs/crmPoll.js`
-- *... and 25 more nodes in this community*
+- **al()** (40 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
+- **get()** (27 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
+- **U()** (19 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
+- **bc()** (18 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
+- **ct()** (16 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
+- **la()** (15 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
+- **aa()** (12 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
+- **Dn()** (12 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
+- **ia()** (11 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
+- **il()** (11 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
+- **no()** (11 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
+- **na()** (10 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
+- **ta()** (10 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
+- **so()** (9 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
+- **kc()** (8 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
+- **ma()** (8 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
+- **jc()** (7 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
+- **oo()** (7 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
+- **ra()** (7 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
+- **dc()** (6 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
+- **Do()** (6 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
+- **lh()** (6 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
+- **xe()** (6 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
+- **ao()** (5 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
+- **rl()** (5 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
+- *... and 28 more nodes in this community*
 
 ## Relationships
 
-- [[Graphify Agent Rules]] (37 shared connections)
-- [[Mobile Responsive UI Skill]] (22 shared connections)
-- [[Community 50]] (11 shared connections)
-- [[Community 142]] (10 shared connections)
-- [[Product Pages Specification]] (8 shared connections)
-- [[Community 161]] (8 shared connections)
-- [[Community 83]] (3 shared connections)
-- [[Community 248]] (2 shared connections)
-- [[Community 227]] (1 shared connections)
-- [[Community 395]] (1 shared connections)
+- [[Price Presentation & Product UI]] (57 shared connections)
+- [[Community 38]] (25 shared connections)
+- [[Mobile Responsive UI Skill]] (23 shared connections)
+- [[Dependencies & Package Config]] (22 shared connections)
+- [[Live Pricing Audit Tool]] (16 shared connections)
+- [[Community 45]] (14 shared connections)
+- [[Architecture Doc Generator]] (14 shared connections)
+- [[Community 39]] (12 shared connections)
 
 ## Source Files
 
-- `backend/scripts/migrate-content.js`
-- `backend/src/config/env.js`
-- `backend/src/db/migrate.js`
-- `backend/src/db/pool.js`
-- `backend/src/jobs/catalogSync.js`
-- `backend/src/jobs/crmPoll.js`
-- `backend/src/jobs/index.js`
-- `backend/src/routes/auth.js`
-- `backend/src/routes/dealers.js`
-- `backend/src/routes/health.js`
-- `backend/src/routes/prices.js`
-- `backend/src/routes/webhooks.js`
-- `backend/src/server.js`
-- `backend/src/services/catalog.js`
-- `backend/src/services/commerceClient.js`
-- `backend/src/services/dealerApp.js`
-- `backend/src/utils/logger.js`
-- `backend/test/crmSync.test.mjs`
-- `backend/test/priceGate.test.mjs`
+- `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
 
 ## Audit Trail
 
-- EXTRACTED: 305 (100%)
+- EXTRACTED: 383 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

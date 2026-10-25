@@ -4,25 +4,25 @@
 
 ## Key Concepts
 
-- **dataflow.schema.json** (7 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **$id** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **required** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **$schema** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **title** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **Text views** (5 connections) — `.agents/skills/apple-design/references/hig/text-views.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/text-views.md`
+- **text-views.md** (1 connections) — `.agents/skills/apple-design/references/hig/text-views.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/text-views.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/text-views.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/text-views.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/text-views.md`
 
 ## Relationships
 
-- [[Community 116]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/dataflow.schema.json`
+- `.agents/skills/apple-design/references/hig/text-views.md`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

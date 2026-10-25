@@ -1,35 +1,30 @@
 # Community 248
 
-> 8 nodes · cohesion 0.57
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **securityPhase2.test.mjs** (11 connections) — `backend/test/securityPhase2.test.mjs`
-- **og.js** (7 connections) — `api/og.js`
-- **htmlEscape.js** (6 connections) — `api/_lib/htmlEscape.js`
-- **escapeHtml()** (6 connections) — `api/_lib/htmlEscape.js`
-- **sanitizeUrl()** (6 connections) — `api/_lib/htmlEscape.js`
-- **handler()** (5 connections) — `api/og.js`
-- **sanitizeHost()** (4 connections) — `api/_lib/htmlEscape.js`
-- **mockWebhookAuthCheck()** (1 connections) — `backend/test/securityPhase2.test.mjs`
+- **relationship-permalink.test.mjs** (8 connections) — `.agents/skills/archify/test/relationship-permalink.test.mjs`
+- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/relationship-permalink.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/relationship-permalink.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/relationship-permalink.test.mjs`
+- **fixture()** (1 connections) — `.agents/skills/archify/test/relationship-permalink.test.mjs`
+- **relationshipKey()** (1 connections) — `.agents/skills/archify/test/relationship-permalink.test.mjs`
+- **run()** (1 connections) — `.agents/skills/archify/test/relationship-permalink.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/relationship-permalink.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/relationship-permalink.test.mjs`
 
 ## Relationships
 
-- [[Community 166]] (5 shared connections)
-- [[Community 227]] (4 shared connections)
-- [[Community 130]] (2 shared connections)
-- [[Product Brand & Business Vision]] (2 shared connections)
-- [[Community 57]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `api/_lib/htmlEscape.js`
-- `api/og.js`
-- `backend/test/securityPhase2.test.mjs`
+- `.agents/skills/archify/test/relationship-permalink.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 46 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

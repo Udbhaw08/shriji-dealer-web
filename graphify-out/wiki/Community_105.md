@@ -1,46 +1,44 @@
 # Community 105
 
-> 17 nodes · cohesion 0.18
+> 18 nodes · cohesion 0.23
 
 ## Key Concepts
 
-- **n()** (33 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **t()** (18 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **cs()** (7 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **go()** (7 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **O()** (7 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **j()** (5 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **x()** (5 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **ee()** (4 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **M()** (4 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **qo()** (4 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **rs()** (4 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **ba()** (3 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **ho()** (3 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **ms()** (3 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **te()** (3 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **xa()** (3 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **nf()** (2 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **output-path.mjs** (22 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **resolveOutputPath()** (11 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **futurePathsAlias()** (6 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **pathsAlias()** (6 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **canonicalFuturePath()** (5 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **sameFileIdentity()** (5 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **probeDirectorySemantics()** (4 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **canonicalize()** (3 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **directoryIdentityKey()** (3 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **hasFileIdentity()** (3 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **pathIsInside()** (3 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **probeNamesAlias()** (3 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **sameDirectory()** (3 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **nearestExistingDirectory()** (2 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **OutputPathError** (2 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **splitAbsolute()** (2 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **directorySemanticsCache** (1 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **.constructor()** (1 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (25 shared connections)
-- [[Master Codebase Architecture Reference]] (12 shared connections)
-- [[Zoho Backend & Proxy Endpoints]] (10 shared connections)
-- [[Architecture Doc Generator]] (7 shared connections)
-- [[Roles & Customer Sharing Spec]] (6 shared connections)
-- [[Community 51]] (4 shared connections)
-- [[Community 42]] (2 shared connections)
-- [[Community 41]] (1 shared connections)
+- [[Community 48]] (4 shared connections)
+- [[Pricing Regression Test Suite]] (4 shared connections)
+- [[Community 63]] (3 shared connections)
+- [[Community 299]] (2 shared connections)
+- [[Community 211]] (2 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- `.agents/skills/archify/renderers/shared/output-path.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 115 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 82 (96%)
+- INFERRED: 3 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

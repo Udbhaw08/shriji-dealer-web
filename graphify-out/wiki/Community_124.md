@@ -1,35 +1,37 @@
 # Community 124
 
-> 14 nodes · cohesion 0.23
+> 15 nodes · cohesion 0.19
 
 ## Key Concepts
 
-- **web-DKV-N4CX.js** (13 connections) — `android/app/src/main/assets/public/assets/web-DKV-N4CX.js`
-- **applyPrefix()** (4 connections) — `android/app/src/main/assets/public/assets/web-DKV-N4CX.js`
-- **keys()** (4 connections) — `android/app/src/main/assets/public/assets/web-DKV-N4CX.js`
-- **get()** (3 connections) — `android/app/src/main/assets/public/assets/web-DKV-N4CX.js`
-- **migrate()** (3 connections) — `android/app/src/main/assets/public/assets/web-DKV-N4CX.js`
-- **rawKeys()** (3 connections) — `android/app/src/main/assets/public/assets/web-DKV-N4CX.js`
-- **clear()** (2 connections) — `android/app/src/main/assets/public/assets/web-DKV-N4CX.js`
-- **remove()** (2 connections) — `android/app/src/main/assets/public/assets/web-DKV-N4CX.js`
-- **removeOld()** (2 connections) — `android/app/src/main/assets/public/assets/web-DKV-N4CX.js`
-- **set()** (2 connections) — `android/app/src/main/assets/public/assets/web-DKV-N4CX.js`
-- **configure()** (1 connections) — `android/app/src/main/assets/public/assets/web-DKV-N4CX.js`
-- **constructor()** (1 connections) — `android/app/src/main/assets/public/assets/web-DKV-N4CX.js`
-- **impl()** (1 connections) — `android/app/src/main/assets/public/assets/web-DKV-N4CX.js`
-- **prefix()** (1 connections) — `android/app/src/main/assets/public/assets/web-DKV-N4CX.js`
+- **items** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **sources** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **additionalProperties** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **required** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **boundaries** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **connections** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **maxItems** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **minItems** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Claude Agent Instructions]] (5 shared connections)
+- [[Community 81]] (3 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/web-DKV-N4CX.js`
+- `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 42 (100%)
+- EXTRACTED: 48 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

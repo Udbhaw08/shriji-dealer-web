@@ -4,11 +4,11 @@
 
 ## Key Concepts
 
-- **Feedback** (4 connections) — `.agents/skills/apple-design/references/hig/feedback.md`
-- **feedback.md** (1 connections) — `.agents/skills/apple-design/references/hig/feedback.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/feedback.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/feedback.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/feedback.md`
+- **Agent Operating Guidelines & Zero-Token Context Strategy** (3 connections) — `GEMINI.md`
+- **Shriji Domestic Appliances — Sunshine Dealer Web** (2 connections) — `GEMINI.md`
+- **GEMINI.md** (1 connections) — `GEMINI.md`
+- **Mandatory Context Rule: Knowledge Graph First** (1 connections) — `GEMINI.md`
+- **Project Hard Rules** (1 connections) — `GEMINI.md`
 
 ## Relationships
 
@@ -16,7 +16,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/feedback.md`
+- `GEMINI.md`
 
 ## Audit Trail
 

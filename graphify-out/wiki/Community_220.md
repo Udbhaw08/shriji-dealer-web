@@ -4,15 +4,15 @@
 
 ## Key Concepts
 
-- **Scroll views** (6 connections) — `.agents/skills/apple-design/references/hig/scroll-views.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/scroll-views.md`
-- **scroll-views.md** (1 connections) — `.agents/skills/apple-design/references/hig/scroll-views.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/scroll-views.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/scroll-views.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/scroll-views.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/scroll-views.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/scroll-views.md`
-- **Scroll edge effects** (1 connections) — `.agents/skills/apple-design/references/hig/scroll-views.md`
+- **Designing for games** (8 connections) — `.agents/skills/apple-design/references/hig/designing-for-games.md`
+- **designing-for-games.md** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-games.md`
+- **Adopt Apple technologies** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-games.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-games.md`
+- **Enable intuitive interactions** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-games.md`
+- **Jump into gameplay** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-games.md`
+- **Look stunning on every display** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-games.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-games.md`
+- **Welcome everyone** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-games.md`
 
 ## Relationships
 
@@ -20,7 +20,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/scroll-views.md`
+- `.agents/skills/apple-design/references/hig/designing-for-games.md`
 
 ## Audit Trail
 

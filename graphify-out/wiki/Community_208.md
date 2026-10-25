@@ -1,30 +1,33 @@
 # Community 208
 
-> 9 nodes · cohesion 0.22
+> 10 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **web-WguWp9Wm.js** (8 connections) — `android/app/src/main/assets/public/assets/web-WguWp9Wm.js`
-- **constructor()** (1 connections) — `android/app/src/main/assets/public/assets/web-WguWp9Wm.js`
-- **exitApp()** (1 connections) — `android/app/src/main/assets/public/assets/web-WguWp9Wm.js`
-- **getAppLanguage()** (1 connections) — `android/app/src/main/assets/public/assets/web-WguWp9Wm.js`
-- **getInfo()** (1 connections) — `android/app/src/main/assets/public/assets/web-WguWp9Wm.js`
-- **getLaunchUrl()** (1 connections) — `android/app/src/main/assets/public/assets/web-WguWp9Wm.js`
-- **getState()** (1 connections) — `android/app/src/main/assets/public/assets/web-WguWp9Wm.js`
-- **minimizeApp()** (1 connections) — `android/app/src/main/assets/public/assets/web-WguWp9Wm.js`
-- **toggleBackButtonHandler()** (1 connections) — `android/app/src/main/assets/public/assets/web-WguWp9Wm.js`
+- **renderBlock()** (11 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **renderAside()** (4 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **renderBlocks()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **renderTable()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **renderList()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **renderRow()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **renderTabs()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **renderTermList()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **resolveSpans()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **trimBlankEdges()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 76]] (10 shared connections)
+- [[Community 207]] (2 shared connections)
+- [[Community 277]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/web-WguWp9Wm.js`
+- `.agents/skills/apple-design/scripts/pull-hig.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 33 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

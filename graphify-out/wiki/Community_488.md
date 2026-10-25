@@ -1,10 +1,12 @@
 # Community 488
 
-> 1 nodes · cohesion 1.00
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **context.md** (0 connections) — `design/context.md`
+- **Rate Limiting Strategies & Brute-Force Defense** (2 connections) — `docs/security/rate-limiting-strategies.md`
+- **rate-limiting-strategies.md** (1 connections) — `docs/security/rate-limiting-strategies.md`
+- **Security Thresholds** (1 connections) — `docs/security/rate-limiting-strategies.md`
 
 ## Relationships
 
@@ -12,11 +14,11 @@
 
 ## Source Files
 
-- `design/context.md`
+- `docs/security/rate-limiting-strategies.md`
 
 ## Audit Trail
 
-- EXTRACTED: 0 (0%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

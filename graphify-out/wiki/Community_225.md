@@ -4,15 +4,15 @@
 
 ## Key Concepts
 
-- **Virtual keyboards** (7 connections) — `.agents/skills/apple-design/references/hig/virtual-keyboards.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/virtual-keyboards.md`
-- **virtual-keyboards.md** (1 connections) — `.agents/skills/apple-design/references/hig/virtual-keyboards.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/virtual-keyboards.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/virtual-keyboards.md`
-- **Custom input views** (1 connections) — `.agents/skills/apple-design/references/hig/virtual-keyboards.md`
-- **Custom keyboards** (1 connections) — `.agents/skills/apple-design/references/hig/virtual-keyboards.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/virtual-keyboards.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/virtual-keyboards.md`
+- **Playing audio** (6 connections) — `.agents/skills/apple-design/references/hig/playing-audio.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/playing-audio.md`
+- **playing-audio.md** (1 connections) — `.agents/skills/apple-design/references/hig/playing-audio.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/playing-audio.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/playing-audio.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/playing-audio.md`
+- **Handling interruptions** (1 connections) — `.agents/skills/apple-design/references/hig/playing-audio.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/playing-audio.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/playing-audio.md`
 
 ## Relationships
 
@@ -20,7 +20,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/virtual-keyboards.md`
+- `.agents/skills/apple-design/references/hig/playing-audio.md`
 
 ## Audit Trail
 

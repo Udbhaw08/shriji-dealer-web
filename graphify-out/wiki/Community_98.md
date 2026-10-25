@@ -1,39 +1,48 @@
 # Community 98
 
-> 18 nodes · cohesion 0.11
+> 18 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **DESIGN.md — the design system as actually built** (8 connections) — `docs/DESIGN.md`
-- **4. Components already built — reuse these** (7 connections) — `docs/DESIGN.md`
-- **2. Tokens** (4 connections) — `docs/DESIGN.md`
-- **DESIGN.md** (1 connections) — `docs/DESIGN.md`
-- **1. The direction in one paragraph** (1 connections) — `docs/DESIGN.md`
-- **3. Layout primitives** (1 connections) — `docs/DESIGN.md`
-- **5. Icons** (1 connections) — `docs/DESIGN.md`
-- **6. Responsive rules** (1 connections) — `docs/DESIGN.md`
-- **7. Motion and accessibility** (1 connections) — `docs/DESIGN.md`
-- **Actions** (1 connections) — `docs/DESIGN.md`
-- **Colour** (1 connections) — `docs/DESIGN.md`
-- **Content** (1 connections) — `docs/DESIGN.md`
-- **Detail** (1 connections) — `docs/DESIGN.md`
-- **Listing sidebar** (1 connections) — `docs/DESIGN.md`
-- **Navigation and filtering** (1 connections) — `docs/DESIGN.md`
-- **Product** (1 connections) — `docs/DESIGN.md`
-- **Spacing, radius, shadow, motion** (1 connections) — `docs/DESIGN.md`
-- **Type** (1 connections) — `docs/DESIGN.md`
+- **securityPhase1.test.mjs** (16 connections) — `backend/test/securityPhase1.test.mjs`
+- **uploads.js** (8 connections) — `backend/src/routes/uploads.js`
+- **download.js** (6 connections) — `api/download.js`
+- **handler()** (5 connections) — `api/download.js`
+- **ssrf.js** (5 connections) — `api/_lib/ssrf.js`
+- **validateSafeDownloadUrl()** (5 connections) — `api/_lib/ssrf.js`
+- **uploadsRouter** (4 connections) — `backend/src/routes/uploads.js`
+- **safeFetchWithRedirects()** (3 connections) — `api/download.js`
+- **isPrivateOrReservedIp()** (3 connections) — `api/_lib/ssrf.js`
+- **wrapJpegInPdf()** (2 connections) — `api/download.js`
+- **ALLOWED_REMOTE_HOSTS** (1 connections) — `api/_lib/ssrf.js`
+- **ALLOWED_FOLDERS** (1 connections) — `backend/src/routes/uploads.js`
+- **MIME_TYPES** (1 connections) — `backend/src/routes/uploads.js`
+- **json()** (1 connections) — `backend/test/securityPhase1.test.mjs`
+- **sendFile()** (1 connections) — `backend/test/securityPhase1.test.mjs`
+- **setHeader()** (1 connections) — `backend/test/securityPhase1.test.mjs`
+- **status()** (1 connections) — `backend/test/securityPhase1.test.mjs`
+- **validateMagicBytes()** (1 connections) — `backend/test/securityPhase1.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 43]] (4 shared connections)
+- [[Community 153]] (3 shared connections)
+- [[Community 146]] (3 shared connections)
+- [[Community 189]] (2 shared connections)
+- [[Community 59]] (1 shared connections)
+- [[Oxlint Linter Configuration]] (1 shared connections)
+- [[Community 89]] (1 shared connections)
 
 ## Source Files
 
-- `docs/DESIGN.md`
+- `api/_lib/ssrf.js`
+- `api/download.js`
+- `backend/src/routes/uploads.js`
+- `backend/test/securityPhase1.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 34 (100%)
+- EXTRACTED: 65 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

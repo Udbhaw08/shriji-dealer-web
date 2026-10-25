@@ -1,8 +1,8 @@
 # CODEBASE.md — Project Architecture & Feature Guide
 
 > **Auto-generated documentation**
-> Last synchronized: 2026-10-25T04:43:59.353+05:30 (GMT+5:30)
-> Total Project Files: 1954
+> Last synchronized: 2026-10-25T14:13:33.241+05:30 (GMT+5:30)
+> Total Project Files: 2090
 
 ---
 
@@ -140,7 +140,7 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 - **`src/data/pricing.test.mjs`** (4.2 KB)
 - **`src/data/products.js`** (1.8 KB)
 - **`src/data/productsStore.js`** (6.2 KB)
-- **`src/data/productsStore.test.mjs`** (0.4 KB)
+- **`src/data/productsStore.test.mjs`** (5.0 KB)
 - **`src/data/searchHelper.js`** (9.8 KB)
 - **`src/data/searchHelper.test.mjs`** (0.9 KB)
 - **`src/data/session.js`** (9.0 KB)
@@ -174,7 +174,7 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 - **`scripts/generate-codebase-doc.mjs`** (9.1 KB)
 - **`scripts/get-refresh-token.mjs`** (2.3 KB)
 - **`scripts/make-scheme-pdfs.mjs`** (2.2 KB)
-- **`scripts/sync-all.mjs`** (1.8 KB)
+- **`scripts/sync-all.mjs`** (2.0 KB)
 - **`scripts/test-supabase.mjs`** (0.6 KB)
 - **`scripts/test-zoho-api.mjs`** (1.4 KB)
 - **`scripts/verify-all.mjs`** (0.3 KB)

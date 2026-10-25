@@ -1,11 +1,12 @@
 # Community 466
 
-> 2 nodes · cohesion 1.00
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **esm-Eoj6eAye.js** (1 connections) — `ios/App/App/public/assets/esm-Eoj6eAye.js`
-- **__vite__mapDeps()** (1 connections) — `ios/App/App/public/assets/esm-Eoj6eAye.js`
+- **Navigation and presentation** (2 connections) — `.agents/skills/swiftui-pro/references/navigation.md`
+- **navigation.md** (1 connections) — `.agents/skills/swiftui-pro/references/navigation.md`
+- **Alerts, confirmation dialogs, and sheets** (1 connections) — `.agents/skills/swiftui-pro/references/navigation.md`
 
 ## Relationships
 
@@ -13,11 +14,11 @@
 
 ## Source Files
 
-- `ios/App/App/public/assets/esm-Eoj6eAye.js`
+- `.agents/skills/swiftui-pro/references/navigation.md`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -2,7 +2,7 @@
 
 > God node · 76 connections · `backend/src/db/pool.js`
 
-**Community:** [[Graphify Agent Rules]]
+**Community:** [[Oxlint Linter Configuration]]
 
 ## Connections by Relation
 

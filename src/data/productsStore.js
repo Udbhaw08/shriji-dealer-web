@@ -1,7 +1,7 @@
 import { useSyncExternalStore } from "react";
-import { CATEGORIES as INITIAL_CATEGORIES } from "./products";
-import { apiFetch, apiUrl } from "./api";
-import { getAccessToken } from "./auth";
+import { CATEGORIES as INITIAL_CATEGORIES } from "./products.js";
+import { apiFetch, apiUrl } from "./api.js";
+import { getAccessToken } from "./auth.js";
 
 const CACHE_KEY_PREFIX = "shriji.zoho.products.v6";
 

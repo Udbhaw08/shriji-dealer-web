@@ -1,17 +1,17 @@
 # Community 292
 
-> 8 nodes · cohesion 0.25
+> 8 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **story-director-strip.test.mjs** (7 connections) — `.agents/skills/archify/test/story-director-strip.test.mjs`
-- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/story-director-strip.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/story-director-strip.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/story-director-strip.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/story-director-strip.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/story-director-strip.test.mjs`
-- **template** (1 connections) — `.agents/skills/archify/test/story-director-strip.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/story-director-strip.test.mjs`
+- **stable-update-manifest.test.mjs** (7 connections) — `.agents/skills/archify/test/stable-update-manifest.test.mjs`
+- **annotatedTaggerTime()** (2 connections) — `.agents/skills/archify/test/stable-update-manifest.test.mjs`
+- **git()** (2 connections) — `.agents/skills/archify/test/stable-update-manifest.test.mjs`
+- **checker** (1 connections) — `.agents/skills/archify/test/stable-update-manifest.test.mjs`
+- **here** (1 connections) — `.agents/skills/archify/test/stable-update-manifest.test.mjs`
+- **repoRoot** (1 connections) — `.agents/skills/archify/test/stable-update-manifest.test.mjs`
+- **runCheck()** (1 connections) — `.agents/skills/archify/test/stable-update-manifest.test.mjs`
+- **writeJson()** (1 connections) — `.agents/skills/archify/test/stable-update-manifest.test.mjs`
 
 ## Relationships
 
@@ -19,11 +19,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/story-director-strip.test.mjs`
+- `.agents/skills/archify/test/stable-update-manifest.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

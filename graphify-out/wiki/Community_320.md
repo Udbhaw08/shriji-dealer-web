@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **chapter-handoff.test.mjs** (6 connections) — `.agents/skills/archify/test/chapter-handoff.test.mjs`
-- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/chapter-handoff.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/chapter-handoff.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/chapter-handoff.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/chapter-handoff.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/chapter-handoff.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/chapter-handoff.test.mjs`
+- **Visual Workflow** (6 connections) — `.agents/skills/refero-design/references/visual-workflow.md`
+- **visual-workflow.md** (1 connections) — `.agents/skills/refero-design/references/visual-workflow.md`
+- **Generated Assets** (1 connections) — `.agents/skills/refero-design/references/visual-workflow.md`
+- **Image Generation Capability** (1 connections) — `.agents/skills/refero-design/references/visual-workflow.md`
+- **Three Visual Directions** (1 connections) — `.agents/skills/refero-design/references/visual-workflow.md`
+- **Visual QA** (1 connections) — `.agents/skills/refero-design/references/visual-workflow.md`
+- **Visual Target Gate** (1 connections) — `.agents/skills/refero-design/references/visual-workflow.md`
 
 ## Relationships
 
@@ -18,7 +18,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/chapter-handoff.test.mjs`
+- `.agents/skills/refero-design/references/visual-workflow.md`
 
 ## Audit Trail
 

@@ -1,49 +1,54 @@
 # Community 38
 
-> 38 nodes · cohesion 0.07
+> 36 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **update-notifier.test.mjs** (43 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **operationPath()** (5 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **stateDirectory()** (4 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **fixture()** (3 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **remoteReleaseForVersion()** (3 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **runCheckInChild()** (3 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **statePath()** (3 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **writeCompactCommittedState()** (3 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **assertUnsafeCacheStateIsIgnored()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **committedStateFiles()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **compactStateSource()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **localRelease()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **pauseOpenOnce()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **pauseRenameMatchingOnce()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **pauseRenameOnce()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **pauseWriteOnce()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **remoteRelease()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **writeJson()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **writePendingOperation()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **baseTime** (1 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **cachedStateWithHistory()** (1 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **cachedUpdateState()** (1 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **cancel()** (1 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **candidateStateForDigest()** (1 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- **checkerPath** (1 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
-- *... and 13 more nodes in this community*
+- **yc()** (19 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
+- **ic()** (15 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
+- **Md()** (15 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
+- **nc()** (12 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
+- **bi()** (10 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
+- **nl()** (10 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
+- **co()** (9 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
+- **ha()** (9 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
+- **kd()** (9 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
+- **wc()** (9 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
+- **gs()** (8 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
+- **pa()** (8 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
+- **rc()** (8 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
+- **Si()** (8 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
+- **ec()** (7 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
+- **fa()** (7 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
+- **Id()** (7 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
+- **oc()** (7 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
+- **yi()** (7 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
+- **zc()** (7 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
+- **ac()** (6 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
+- **dh()** (6 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
+- **qi()** (6 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
+- **xc()** (6 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
+- **xi()** (6 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
+- *... and 11 more nodes in this community*
 
 ## Relationships
 
-- [[Community 67]] (3 shared connections)
-- [[Community 111]] (2 shared connections)
-- [[Community 49]] (1 shared connections)
+- [[Price Presentation & Product UI]] (42 shared connections)
+- [[Product Brand & Business Vision]] (25 shared connections)
+- [[Community 39]] (14 shared connections)
+- [[Architecture Doc Generator]] (11 shared connections)
+- [[Mobile Responsive UI Skill]] (11 shared connections)
+- [[Dependencies & Package Config]] (8 shared connections)
+- [[Community 45]] (7 shared connections)
+- [[Live Pricing Audit Tool]] (6 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/update-notifier.test.mjs`
+- `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
 
 ## Audit Trail
 
-- EXTRACTED: 108 (100%)
+- EXTRACTED: 264 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

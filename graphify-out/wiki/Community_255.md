@@ -4,14 +4,14 @@
 
 ## Key Concepts
 
-- **Gauges** (6 connections) — `.agents/skills/apple-design/references/hig/gauges.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/gauges.md`
-- **gauges.md** (1 connections) — `.agents/skills/apple-design/references/hig/gauges.md`
-- **Anatomy** (1 connections) — `.agents/skills/apple-design/references/hig/gauges.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/gauges.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/gauges.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/gauges.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/gauges.md`
+- **Disclosure controls** (6 connections) — `.agents/skills/apple-design/references/hig/disclosure-controls.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/disclosure-controls.md`
+- **disclosure-controls.md** (1 connections) — `.agents/skills/apple-design/references/hig/disclosure-controls.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/disclosure-controls.md`
+- **Disclosure buttons** (1 connections) — `.agents/skills/apple-design/references/hig/disclosure-controls.md`
+- **Disclosure triangles** (1 connections) — `.agents/skills/apple-design/references/hig/disclosure-controls.md`
+- **Mobile (iOS, iPadOS, visionOS)** (1 connections) — `.agents/skills/apple-design/references/hig/disclosure-controls.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/disclosure-controls.md`
 
 ## Relationships
 
@@ -19,7 +19,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/gauges.md`
+- `.agents/skills/apple-design/references/hig/disclosure-controls.md`
 
 ## Audit Trail
 

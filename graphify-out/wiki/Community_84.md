@@ -27,9 +27,9 @@
 
 ## Relationships
 
-- [[Community 66]] (20 shared connections)
-- [[Community 48]] (2 shared connections)
-- [[Zoho Integration Architecture]] (2 shared connections)
+- [[Community 60]] (20 shared connections)
+- [[Community 299]] (2 shared connections)
+- [[Graphify Knowledge Graph Skill]] (2 shared connections)
 
 ## Source Files
 

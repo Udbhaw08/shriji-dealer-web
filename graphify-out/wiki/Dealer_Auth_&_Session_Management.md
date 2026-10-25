@@ -1,55 +1,55 @@
 # Dealer Auth & Session Management
 
-> 92 nodes · cohesion 0.04
+> 101 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **_()** (448 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **wc()** (9 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **ga()** (7 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **request()** (7 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **os()** (6 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **ps()** (6 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **Cc()** (5 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **eh()** (5 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **es()** (5 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **jl()** (5 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **js()** (5 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **Pd()** (5 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **th()** (5 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **ts()** (5 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **unavailable()** (5 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **ys()** (5 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **bs()** (4 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **De()** (4 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **ds()** (4 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **fs()** (4 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **ke()** (4 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **ls()** (4 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **ns()** (4 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **Oe()** (4 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **pf()** (4 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- *... and 67 more nodes in this community*
+- **_()** (448 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
+- **n()** (33 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
+- **t()** (18 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
+- **ma()** (8 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
+- **cs()** (7 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
+- **ga()** (7 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
+- **go()** (7 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
+- **O()** (7 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
+- **request()** (7 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
+- **os()** (6 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
+- **ps()** (6 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
+- **eh()** (5 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
+- **es()** (5 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
+- **j()** (5 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
+- **jl()** (5 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
+- **js()** (5 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
+- **Pd()** (5 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
+- **th()** (5 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
+- **ts()** (5 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
+- **unavailable()** (5 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
+- **x()** (5 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
+- **De()** (4 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
+- **ds()** (4 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
+- **ee()** (4 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
+- **fs()** (4 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
+- *... and 76 more nodes in this community*
 
 ## Relationships
 
-- [[Zoho Backend & Proxy Endpoints]] (88 shared connections)
-- [[Master Codebase Architecture Reference]] (58 shared connections)
-- [[Roles & Customer Sharing Spec]] (56 shared connections)
-- [[Architecture Doc Generator]] (55 shared connections)
-- [[Community 42]] (40 shared connections)
-- [[Community 41]] (37 shared connections)
-- [[Community 51]] (34 shared connections)
-- [[Community 105]] (25 shared connections)
-- [[Community 165]] (12 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (86 shared connections)
+- [[Design System & UI Tokens]] (69 shared connections)
+- [[Product Requirements Documentation]] (68 shared connections)
+- [[Pricing & Roles Skill]] (60 shared connections)
+- [[Community 42]] (41 shared connections)
+- [[Community 40]] (38 shared connections)
+- [[Community 66]] (31 shared connections)
+- [[Community 145]] (16 shared connections)
+- [[Community 179]] (12 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- `ios/App/App/public/assets/index-CqsxiKMB.js`
 
 ## Audit Trail
 
-- EXTRACTED: 706 (100%)
+- EXTRACTED: 790 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

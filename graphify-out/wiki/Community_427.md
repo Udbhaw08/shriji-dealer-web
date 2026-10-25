@@ -4,22 +4,22 @@
 
 ## Key Concepts
 
-- **cursor-onboarding.test.mjs** (3 connections) — `.agents/skills/archify/test/cursor-onboarding.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/cursor-onboarding.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/cursor-onboarding.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/cursor-onboarding.test.mjs`
+- **toCol** (4 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **maximum** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **minimum** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 33]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/cursor-onboarding.test.mjs`
+- `.agents/skills/archify/schemas/workflow.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 7 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

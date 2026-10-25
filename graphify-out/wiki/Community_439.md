@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **Swift** (2 connections) — `.agents/skills/swiftui-pro/references/swift.md`
-- **swift.md** (1 connections) — `.agents/skills/swiftui-pro/references/swift.md`
-- **Swift Concurrency** (1 connections) — `.agents/skills/swiftui-pro/references/swift.md`
+- **OpenAPI 3.0 Specification Summary** (2 connections) — `docs/api/swagger-openapi-spec.md`
+- **swagger-openapi-spec.md** (1 connections) — `docs/api/swagger-openapi-spec.md`
+- **Services** (1 connections) — `docs/api/swagger-openapi-spec.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `.agents/skills/swiftui-pro/references/swift.md`
+- `docs/api/swagger-openapi-spec.md`
 
 ## Audit Trail
 

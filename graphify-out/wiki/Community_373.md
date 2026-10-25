@@ -4,11 +4,11 @@
 
 ## Key Concepts
 
-- **Dock menus** (4 connections) — `.agents/skills/apple-design/references/hig/dock-menus.md`
-- **dock-menus.md** (1 connections) — `.agents/skills/apple-design/references/hig/dock-menus.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/dock-menus.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/dock-menus.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/dock-menus.md`
+- **CLAUDE.md — read this before touching anything** (4 connections) — `CLAUDE.md`
+- **CLAUDE.md** (1 connections) — `CLAUDE.md`
+- **Commands** (1 connections) — `CLAUDE.md`
+- **Doc map** (1 connections) — `CLAUDE.md`
+- **Hard rules (these exist to stop hallucination)** (1 connections) — `CLAUDE.md`
 
 ## Relationships
 
@@ -16,7 +16,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/dock-menus.md`
+- `CLAUDE.md`
 
 ## Audit Trail
 

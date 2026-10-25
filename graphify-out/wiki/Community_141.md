@@ -1,36 +1,39 @@
 # Community 141
 
-> 13 nodes · cohesion 0.15
+> 13 nodes · cohesion 0.27
 
 ## Key Concepts
 
-- **audit_prices.mjs** (14 connections) — `scripts/audit_prices.mjs`
-- **run()** (2 connections) — `scripts/audit_prices.mjs`
-- **content** (1 connections) — `scripts/audit_prices.mjs`
-- **csvItems** (1 connections) — `scripts/audit_prices.mjs`
-- **idIdx** (1 connections) — `scripts/audit_prices.mjs`
-- **lines** (1 connections) — `scripts/audit_prices.mjs`
-- **lpIdx** (1 connections) — `scripts/audit_prices.mjs`
-- **nameIdx** (1 connections) — `scripts/audit_prices.mjs`
-- **parseCSVLine()** (1 connections) — `scripts/audit_prices.mjs`
-- **parsedHeader** (1 connections) — `scripts/audit_prices.mjs`
-- **showIdx** (1 connections) — `scripts/audit_prices.mjs`
-- **spIdx** (1 connections) — `scripts/audit_prices.mjs`
-- **statusIdx** (1 connections) — `scripts/audit_prices.mjs`
+- **fail()** (15 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **usage()** (11 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **runNode()** (9 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandDemo()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **exitFrom()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandBrands()** (5 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandCheck()** (5 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandExamples()** (5 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandVisualCheck()** (5 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandDoctor()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **extractMigrationOptions()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandGuide()** (2 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **listBrandMarks()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
 
 ## Relationships
 
-- [[Community 130]] (2 shared connections)
-- [[Community 57]] (1 shared connections)
+- [[Community 48]] (27 shared connections)
+- [[Testing & Workflow Skill]] (3 shared connections)
+- [[Community 299]] (3 shared connections)
+- [[Community 49]] (2 shared connections)
 
 ## Source Files
 
-- `scripts/audit_prices.mjs`
+- `.agents/skills/archify/bin/archify.mjs`
+- `.agents/skills/archify/renderers/shared/brand-marks.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 27 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 73 (95%)
+- INFERRED: 4 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

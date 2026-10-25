@@ -4,16 +4,16 @@
 
 ## Key Concepts
 
-- **Settings** (8 connections) — `.agents/skills/apple-design/references/hig/settings.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/settings.md`
-- **settings.md** (1 connections) — `.agents/skills/apple-design/references/hig/settings.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/settings.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/settings.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/settings.md`
-- **General settings** (1 connections) — `.agents/skills/apple-design/references/hig/settings.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/settings.md`
-- **System settings** (1 connections) — `.agents/skills/apple-design/references/hig/settings.md`
-- **Task-specific options** (1 connections) — `.agents/skills/apple-design/references/hig/settings.md`
+- **AirPlay** (6 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
+- **Using AirPlay icons** (4 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
+- **airplay.md** (1 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
+- **Black AirPlay icon** (1 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
+- **Custom color AirPlay icon** (1 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
+- **Referring to AirPlay** (1 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
+- **White AirPlay icon** (1 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
 
 ## Relationships
 
@@ -21,7 +21,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/settings.md`
+- `.agents/skills/apple-design/references/hig/airplay.md`
 
 ## Audit Trail
 

@@ -1,40 +1,33 @@
 # Community 161
 
-> 12 nodes · cohesion 0.21
+> 12 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **errorHandler.js** (9 connections) — `backend/src/middleware/errorHandler.js`
-- **securityPhase3.test.mjs** (9 connections) — `backend/test/securityPhase3.test.mjs`
-- **admin.js** (8 connections) — `backend/src/routes/admin.js`
-- **rateLimit.js** (7 connections) — `backend/src/middleware/rateLimit.js`
-- **rateLimit()** (6 connections) — `backend/src/middleware/rateLimit.js`
-- **errorHandler()** (3 connections) — `backend/src/middleware/errorHandler.js`
-- **adminRouter** (3 connections) — `backend/src/routes/admin.js`
-- **buckets** (1 connections) — `backend/src/middleware/rateLimit.js`
-- **loginRateLimit** (1 connections) — `backend/src/routes/admin.js`
-- **atomicRotate()** (1 connections) — `backend/test/securityPhase3.test.mjs`
-- **json()** (1 connections) — `backend/test/securityPhase3.test.mjs`
-- **status()** (1 connections) — `backend/test/securityPhase3.test.mjs`
+- **Inclusion** (11 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
+- **inclusion.md** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
+- **Accessibility** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
+- **Avoiding stereotypes** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
+- **Being approachable** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
+- **Gender identity** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
+- **Inclusive by design** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
+- **Languages** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
+- **People and settings** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
+- **Welcoming language** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
 
 ## Relationships
 
-- [[Product Brand & Business Vision]] (8 shared connections)
-- [[Product Pages Specification]] (5 shared connections)
-- [[Graphify Agent Rules]] (5 shared connections)
-- [[Mobile Responsive UI Skill]] (2 shared connections)
-- [[Community 50]] (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `backend/src/middleware/errorHandler.js`
-- `backend/src/middleware/rateLimit.js`
-- `backend/src/routes/admin.js`
-- `backend/test/securityPhase3.test.mjs`
+- `.agents/skills/apple-design/references/hig/inclusion.md`
 
 ## Audit Trail
 
-- EXTRACTED: 50 (100%)
+- EXTRACTED: 22 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

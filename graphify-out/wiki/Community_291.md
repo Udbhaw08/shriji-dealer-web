@@ -4,14 +4,14 @@
 
 ## Key Concepts
 
-- **story-carrier.test.mjs** (7 connections) — `.agents/skills/archify/test/story-carrier.test.mjs`
-- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/story-carrier.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/story-carrier.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/story-carrier.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/story-carrier.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/story-carrier.test.mjs`
-- **template** (1 connections) — `.agents/skills/archify/test/story-carrier.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/story-carrier.test.mjs`
+- **share-card-export.test.mjs** (7 connections) — `.agents/skills/archify/test/share-card-export.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/share-card-export.test.mjs`
+- **here** (1 connections) — `.agents/skills/archify/test/share-card-export.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/share-card-export.test.mjs`
+- **repoRoot** (1 connections) — `.agents/skills/archify/test/share-card-export.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/share-card-export.test.mjs`
+- **svgBlock()** (1 connections) — `.agents/skills/archify/test/share-card-export.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/share-card-export.test.mjs`
 
 ## Relationships
 
@@ -19,7 +19,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/story-carrier.test.mjs`
+- `.agents/skills/archify/test/share-card-export.test.mjs`
 
 ## Audit Trail
 

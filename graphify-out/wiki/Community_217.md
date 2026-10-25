@@ -4,15 +4,15 @@
 
 ## Key Concepts
 
-- **Playing audio** (6 connections) — `.agents/skills/apple-design/references/hig/playing-audio.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/playing-audio.md`
-- **playing-audio.md** (1 connections) — `.agents/skills/apple-design/references/hig/playing-audio.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/playing-audio.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/playing-audio.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/playing-audio.md`
-- **Handling interruptions** (1 connections) — `.agents/skills/apple-design/references/hig/playing-audio.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/playing-audio.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/playing-audio.md`
+- **2. Customer vs. Dealer Price Resolution (`src/data/dealer.js`)** (4 connections) — `docs/PRICING-ARCHITECTURE.md`
+- **PRICING-ARCHITECTURE.md — Pricing Engine & Audit Specification** (4 connections) — `docs/PRICING-ARCHITECTURE.md`
+- **1. Source of Truth: Live Zoho Commerce Store API** (2 connections) — `docs/PRICING-ARCHITECTURE.md`
+- **PRICING-ARCHITECTURE.md** (1 connections) — `docs/PRICING-ARCHITECTURE.md`
+- **2.1 Customer View** (1 connections) — `docs/PRICING-ARCHITECTURE.md`
+- **2.2 Dealer View** (1 connections) — `docs/PRICING-ARCHITECTURE.md`
+- **2.3 Share Link Invariant** (1 connections) — `docs/PRICING-ARCHITECTURE.md`
+- **3. Automated Pricing Regression Protection** (1 connections) — `docs/PRICING-ARCHITECTURE.md`
+- **Rate Priority Hierarchy** (1 connections) — `docs/PRICING-ARCHITECTURE.md`
 
 ## Relationships
 
@@ -20,7 +20,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/playing-audio.md`
+- `docs/PRICING-ARCHITECTURE.md`
 
 ## Audit Trail
 

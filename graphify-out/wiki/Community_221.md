@@ -4,15 +4,15 @@
 
 ## Key Concepts
 
-- **Segmented controls** (6 connections) — `.agents/skills/apple-design/references/hig/segmented-controls.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/segmented-controls.md`
-- **segmented-controls.md** (1 connections) — `.agents/skills/apple-design/references/hig/segmented-controls.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/segmented-controls.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/segmented-controls.md`
-- **Content** (1 connections) — `.agents/skills/apple-design/references/hig/segmented-controls.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/segmented-controls.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/segmented-controls.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/segmented-controls.md`
+- **Drag and drop** (6 connections) — `.agents/skills/apple-design/references/hig/drag-and-drop.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/drag-and-drop.md`
+- **drag-and-drop.md** (1 connections) — `.agents/skills/apple-design/references/hig/drag-and-drop.md`
+- **Accepting drops** (1 connections) — `.agents/skills/apple-design/references/hig/drag-and-drop.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/drag-and-drop.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/drag-and-drop.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/drag-and-drop.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/drag-and-drop.md`
+- **Providing feedback** (1 connections) — `.agents/skills/apple-design/references/hig/drag-and-drop.md`
 
 ## Relationships
 
@@ -20,7 +20,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/segmented-controls.md`
+- `.agents/skills/apple-design/references/hig/drag-and-drop.md`
 
 ## Audit Trail
 

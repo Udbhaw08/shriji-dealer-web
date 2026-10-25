@@ -1,38 +1,33 @@
 # Community 165
 
-> 11 nodes · cohesion 0.27
+> 12 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **tf()** (10 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **ef()** (7 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **lf()** (7 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **uf()** (7 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **of()** (6 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **sf()** (5 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **cf()** (4 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **jf()** (4 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **vf()** (4 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **Wf()** (3 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **hp()** (2 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **Search fields** (6 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
+- **Phone (iOS)** (4 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
+- **search-fields.md** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
+- **Scope bars and tokens** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
+- **Search as a tab** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
+- **Search as an inline field** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
+- **Search in a toolbar** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
+- **Tablet and desktop (iPadOS, macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (12 shared connections)
-- [[Architecture Doc Generator]] (6 shared connections)
-- [[Roles & Customer Sharing Spec]] (5 shared connections)
-- [[Community 42]] (2 shared connections)
-- [[Community 41]] (2 shared connections)
-- [[Community 51]] (1 shared connections)
-- [[Master Codebase Architecture Reference]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- `.agents/skills/apple-design/references/hig/search-fields.md`
 
 ## Audit Trail
 
-- EXTRACTED: 59 (100%)
+- EXTRACTED: 22 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

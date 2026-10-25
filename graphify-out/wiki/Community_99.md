@@ -1,39 +1,46 @@
 # Community 99
 
-> 18 nodes · cohesion 0.11
+> 18 nodes · cohesion 0.21
 
 ## Key Concepts
 
-- **Standard icons** (10 connections) — `.agents/skills/apple-design/references/hig/icons.md`
-- **Icons** (6 connections) — `.agents/skills/apple-design/references/hig/icons.md`
-- **Desktop (macOS)** (2 connections) — `.agents/skills/apple-design/references/hig/icons.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/icons.md`
-- **icons.md** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
-- **Document icons** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
-- **Editing** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
-- **Layer ordering** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
-- **Other** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
-- **Ratings** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
-- **Search** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
-- **Selection** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
-- **Sharing and exporting** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
-- **Text formatting** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
-- **Users and accounts** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **productsStore.js** (25 connections) — `src/data/productsStore.js`
+- **apiFetch()** (20 connections) — `src/data/api.js`
+- **api.js** (11 connections) — `src/data/api.js`
+- **apiUrl()** (9 connections) — `src/data/api.js`
+- **fetchLiveProducts()** (7 connections) — `src/data/productsStore.js`
+- **syncPricebookWithSession()** (7 connections) — `src/data/productsStore.js`
+- **products.js** (5 connections) — `src/data/products.js`
+- **loadCached()** (4 connections) — `src/data/productsStore.js`
+- **getAccessToken()** (3 connections) — `src/data/auth.js`
+- **emit()** (3 connections) — `src/data/productsStore.js`
+- **syncTagsLive()** (3 connections) — `src/data/productsStore.js`
+- **CATEGORIES** (2 connections) — `src/data/products.js`
+- **getCacheKey()** (2 connections) — `src/data/productsStore.js`
+- **sanitizeCategories()** (2 connections) — `src/data/productsStore.js`
+- **PRODUCTS** (1 connections) — `src/data/products.js`
+- **listeners** (1 connections) — `src/data/productsStore.js`
+- **PREFERRED_ORDER** (1 connections) — `src/data/productsStore.js`
+- **storeState** (1 connections) — `src/data/productsStore.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Project Readme & Layout]] (14 shared connections)
+- [[Master Codebase Architecture Reference]] (11 shared connections)
+- [[Community 36]] (9 shared connections)
+- [[Community 47]] (5 shared connections)
+- [[Community 54]] (4 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/icons.md`
+- `src/data/api.js`
+- `src/data/auth.js`
+- `src/data/products.js`
+- `src/data/productsStore.js`
 
 ## Audit Trail
 
-- EXTRACTED: 34 (100%)
+- EXTRACTED: 107 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

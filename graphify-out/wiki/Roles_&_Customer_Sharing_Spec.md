@@ -1,55 +1,60 @@
 # Roles & Customer Sharing Spec
 
-> 49 nodes · cohesion 0.10
+> 51 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **ff()** (26 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **Tu()** (19 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **gl()** (15 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **fi()** (13 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **uu()** (13 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **delete()** (11 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **lu()** (11 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **vu()** (11 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **zl()** (10 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **ep()** (9 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **hl()** (9 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **Iu()** (9 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **ku()** (9 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **l()** (9 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **mu()** (9 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **ui()** (9 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **wl()** (9 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **jd()** (8 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **Sp()** (8 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **wa()** (8 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **bl()** (7 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **cu()** (7 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **Eu()** (7 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **hc()** (7 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **yl()** (7 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- *... and 24 more nodes in this community*
+- **render-architecture.mjs** (122 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **renderLegend()** (7 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **grid.mjs** (6 connections) — `.agents/skills/archify/renderers/architecture/grid.mjs`
+- **alignFacingPorts()** (6 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **buildLayoutReport()** (6 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **layoutBoundaryTitles()** (5 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **sideAwareBridgeCandidates()** (5 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **relationshipLegendObstacles()** (5 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
+- **resolveComponentPos()** (4 connections) — `.agents/skills/archify/renderers/architecture/grid.mjs`
+- **validateGridPlacement()** (4 connections) — `.agents/skills/archify/renderers/architecture/grid.mjs`
+- **boundaryLabelWidth()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **measureBoundaryTitle()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **resolveBoundaryTitles()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **routeClearsComponents()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **routeClearsEndpointComponents()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **minimumReadableSourceTextPx()** (4 connections) — `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
+- **layout-report.mjs** (4 connections) — `.agents/skills/archify/renderers/shared/layout-report.mjs`
+- **grid.test.mjs** (4 connections) — `.agents/skills/archify/test/grid.test.mjs`
+- **gridLayout()** (3 connections) — `.agents/skills/archify/renderers/architecture/grid.mjs`
+- **autoViewBoxFor()** (3 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **expandBoundaryForReadableTitle()** (3 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **resolvedViewBoxWidth()** (3 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **connectionPath()** (3 connections) — `.agents/skills/archify/renderers/shared/layout-report.mjs`
+- **connectionEndpointSide()** (2 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **legendY()** (2 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- *... and 26 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (56 shared connections)
-- [[Master Codebase Architecture Reference]] (20 shared connections)
-- [[Architecture Doc Generator]] (13 shared connections)
-- [[Zoho Backend & Proxy Endpoints]] (11 shared connections)
-- [[Community 42]] (8 shared connections)
-- [[Community 105]] (6 shared connections)
-- [[Community 165]] (5 shared connections)
-- [[Community 51]] (5 shared connections)
-- [[Community 41]] (2 shared connections)
+- [[Product Pages Specification]] (35 shared connections)
+- [[Graphify Knowledge Graph Skill]] (21 shared connections)
+- [[Community 35]] (19 shared connections)
+- [[Community 41]] (14 shared connections)
+- [[Pricing Regression Test Suite]] (5 shared connections)
+- [[Community 107]] (4 shared connections)
+- [[Community 49]] (3 shared connections)
+- [[Testing & Workflow Skill]] (1 shared connections)
+- [[Community 82]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- `.agents/skills/archify/renderers/architecture/grid.mjs`
+- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
+- `.agents/skills/archify/renderers/shared/layout-report.mjs`
+- `.agents/skills/archify/renderers/shared/legend.mjs`
+- `.agents/skills/archify/test/grid.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 354 (100%)
+- EXTRACTED: 253 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

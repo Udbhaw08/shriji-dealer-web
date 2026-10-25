@@ -4,21 +4,21 @@
 
 ## Key Concepts
 
-- **9. Line Length (Measure)** (3 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Guidelines** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Implementation** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Zoho CRM Webhook Event Payloads** (2 connections) — `docs/api/webhook-event-types.md`
+- **webhook-event-types.md** (1 connections) — `docs/api/webhook-event-types.md`
+- **Event: dealer.approved** (1 connections) — `docs/api/webhook-event-types.md`
 
 ## Relationships
 
-- [[Community 229]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/refero-design/references/typography.md`
+- `docs/api/webhook-event-types.md`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

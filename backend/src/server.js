@@ -33,6 +33,9 @@ const defaultOrigins = [
    'https://restor.in',
   'https://www.restor.in',
   'https://test.restor.in',
+  'https://astro.in',
+  'https://www.astro.in',
+  'https://test.astro.in',
 ];
 
 const envOrigins = (process.env.FRONTEND_ORIGINS || '')

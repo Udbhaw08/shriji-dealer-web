@@ -4,11 +4,11 @@
 
 ## Key Concepts
 
-- **Gyroscope and accelerometer** (4 connections) — `.agents/skills/apple-design/references/hig/gyro-and-accelerometer.md`
-- **gyro-and-accelerometer.md** (1 connections) — `.agents/skills/apple-design/references/hig/gyro-and-accelerometer.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/gyro-and-accelerometer.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/gyro-and-accelerometer.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/gyro-and-accelerometer.md`
+- **Column views** (4 connections) — `.agents/skills/apple-design/references/hig/column-views.md`
+- **column-views.md** (1 connections) — `.agents/skills/apple-design/references/hig/column-views.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/column-views.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/column-views.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/column-views.md`
 
 ## Relationships
 
@@ -16,7 +16,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/gyro-and-accelerometer.md`
+- `.agents/skills/apple-design/references/hig/column-views.md`
 
 ## Audit Trail
 

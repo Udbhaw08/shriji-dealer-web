@@ -1,54 +1,55 @@
 # Product Requirements Documentation
 
-> 62 nodes · cohesion 0.07
+> 56 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **D()** (22 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
-- **.addEventListener()** (19 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
-- **np()** (19 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
-- **b()** (17 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
-- **fp()** (14 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
-- **jt()** (14 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
-- **bm()** (13 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
-- **h()** (13 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
-- **lm()** (13 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
-- **.removeEventListener()** (12 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
-- **vn()** (11 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
-- **Zt()** (11 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
-- **am()** (10 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
-- **ip()** (9 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
-- **mm()** (9 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
-- **fn()** (8 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
-- **ln()** (8 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
-- **om()** (8 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
-- **tm()** (8 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
-- **tp()** (8 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
-- **jm()** (7 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
-- **lp()** (7 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
-- **tn()** (7 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
-- **zm()** (7 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
-- **cm()** (6 connections) — `ios/App/App/public/assets/index-CnGpWhyw.js`
-- *... and 37 more nodes in this community*
+- **get()** (27 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
+- **at()** (21 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
+- **k()** (20 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
+- **U()** (19 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
+- **ct()** (16 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
+- **la()** (15 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
+- **A()** (12 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
+- **Dn()** (12 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
+- **pt()** (12 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
+- **dt()** (11 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
+- **mt()** (11 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
+- **no()** (11 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
+- **ye()** (11 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
+- **so()** (9 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
+- **st()** (9 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
+- **xt()** (9 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
+- **kf()** (8 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
+- **lt()** (8 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
+- **tt()** (8 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
+- **Gt()** (7 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
+- **it()** (7 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
+- **jc()** (7 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
+- **je()** (7 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
+- **jn()** (7 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
+- **oo()** (7 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
+- *... and 31 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (58 shared connections)
-- [[Graphify Knowledge Graph Skill]] (19 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (18 shared connections)
-- [[Dependencies & Package Config]] (17 shared connections)
-- [[Community 34]] (17 shared connections)
-- [[Community 61]] (7 shared connections)
-- [[Community 33]] (5 shared connections)
-- [[Community 55]] (3 shared connections)
+- [[Dealer Auth & Session Management]] (68 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (38 shared connections)
+- [[Community 42]] (20 shared connections)
+- [[Design System & UI Tokens]] (17 shared connections)
+- [[Pricing & Roles Skill]] (14 shared connections)
+- [[Community 66]] (8 shared connections)
+- [[Community 40]] (8 shared connections)
+- [[Community 145]] (6 shared connections)
+- [[Community 179]] (6 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-CnGpWhyw.js`
+- `ios/App/App/public/assets/index-CqsxiKMB.js`
 
 ## Audit Trail
 
-- EXTRACTED: 424 (100%)
+- EXTRACTED: 413 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

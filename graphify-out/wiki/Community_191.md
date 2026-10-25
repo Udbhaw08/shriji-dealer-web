@@ -4,16 +4,16 @@
 
 ## Key Concepts
 
-- **Notifications** (9 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
-- **notifications.md** (1 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
-- **Anatomy** (1 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
-- **Badging** (1 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
-- **Content** (1 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
-- **Notification actions** (1 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
+- **Accessibility** (9 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
+- **accessibility.md** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
+- **Cognitive** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
+- **Hearing** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
+- **Mobility** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
+- **Speech** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
+- **Vision** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
 
 ## Relationships
 
@@ -21,7 +21,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/notifications.md`
+- `.agents/skills/apple-design/references/hig/accessibility.md`
 
 ## Audit Trail
 

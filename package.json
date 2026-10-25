@@ -10,7 +10,7 @@
     "watch:sync": "node scripts/watch-sync.mjs",
     "lint": "oxlint",
     "preview": "vite preview",
-    "test": "node --test src/data/dealer.test.mjs && node src/data/pricing.test.mjs && node --test src/data/auth-session.test.mjs && node --test src/data/video-banner.test.mjs",
+    "test": "oxlint && node --test src/data/dealer.test.mjs && node src/data/pricing.test.mjs && node --test src/data/auth-session.test.mjs && node --test src/data/productsStore.test.mjs && node --test src/data/video-banner.test.mjs",
     "docs": "node scripts/generate-codebase-doc.mjs",
     "graphify:update": "graphify update . && python scripts/build_wiki.py",
     "cap:sync": "node scripts/generate-codebase-doc.mjs && vite build && cap sync",

@@ -1,10 +1,12 @@
 # Community 489
 
-> 1 nodes · cohesion 1.00
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **cordova.js** (0 connections) — `ios/App/App/public/cordova.js`
+- **XSS Prevention & Content Sanitization Guidelines** (2 connections) — `docs/security/xss-and-content-sanitization.md`
+- **xss-and-content-sanitization.md** (1 connections) — `docs/security/xss-and-content-sanitization.md`
+- **Guidelines** (1 connections) — `docs/security/xss-and-content-sanitization.md`
 
 ## Relationships
 
@@ -12,11 +14,11 @@
 
 ## Source Files
 
-- `ios/App/App/public/cordova.js`
+- `docs/security/xss-and-content-sanitization.md`
 
 ## Audit Trail
 
-- EXTRACTED: 0 (0%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

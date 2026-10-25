@@ -1,59 +1,54 @@
 # Mobile Responsive UI Skill
 
-> 45 nodes · cohesion 0.14
+> 46 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **dealerApp.js** (44 connections) — `backend/src/services/dealerApp.js`
-- **crmClient.js** (34 connections) — `backend/src/services/crmClient.js`
-- **normalizePhone()** (19 connections) — `backend/src/utils/phone.js`
-- **normalizeEmail()** (18 connections) — `backend/src/utils/validators.js`
-- **notifications.js** (16 connections) — `backend/src/services/notifications.js`
-- **validators.js** (15 connections) — `backend/src/utils/validators.js`
-- **crmFetch()** (14 connections) — `backend/src/services/crmClient.js`
-- **requestDealerRegistrationOtp()** (14 connections) — `backend/src/services/dealerApp.js`
-- **finalizeDealerRegistration()** (12 connections) — `backend/src/services/dealerApp.js`
-- **isValidPhone()** (11 connections) — `backend/src/utils/validators.js`
-- **cleanName()** (9 connections) — `backend/src/utils/validators.js`
-- **httpError()** (8 connections) — `backend/src/middleware/errorHandler.js`
-- **crmConfigured()** (8 connections) — `backend/src/services/crmClient.js`
-- **validators.test.mjs** (8 connections) — `backend/test/validators.test.mjs`
-- **verifyDealerRegistrationOtp()** (7 connections) — `backend/src/services/dealerApp.js`
-- **sendWhatsAppOtp()** (7 connections) — `backend/src/services/notifications.js`
-- **phone.js** (7 connections) — `backend/src/utils/phone.js`
-- **isValidEmail()** (7 connections) — `backend/src/utils/validators.js`
-- **interconnection.test.mjs** (6 connections) — `backend/test/interconnection.test.mjs`
-- **isValidName()** (6 connections) — `backend/src/utils/validators.js`
-- **createDealerAccount()** (5 connections) — `backend/src/services/crmClient.js`
-- **createDealerContact()** (5 connections) — `backend/src/services/crmClient.js`
-- **findOwnerContactInAccount()** (5 connections) — `backend/src/services/crmClient.js`
-- **updateContactDetails()** (5 connections) — `backend/src/services/crmClient.js`
-- **updateDealerCodeInCrm()** (5 connections) — `backend/src/services/crmClient.js`
-- *... and 20 more nodes in this community*
+- **at()** (21 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
+- **k()** (20 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
+- **A()** (12 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
+- **pt()** (12 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
+- **dt()** (11 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
+- **mt()** (11 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
+- **ye()** (11 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
+- **tf()** (10 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
+- **st()** (9 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
+- **xt()** (9 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
+- **kf()** (8 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
+- **lt()** (8 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
+- **tt()** (8 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
+- **ef()** (7 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
+- **Gt()** (7 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
+- **it()** (7 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
+- **je()** (7 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
+- **jn()** (7 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
+- **lf()** (7 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
+- **rt()** (7 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
+- **uf()** (7 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
+- **F()** (6 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
+- **hf()** (6 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
+- **of()** (6 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
+- **qt()** (6 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
+- *... and 21 more nodes in this community*
 
 ## Relationships
 
-- [[Product Pages Specification]] (30 shared connections)
-- [[Graphify Agent Rules]] (27 shared connections)
-- [[Product Brand & Business Vision]] (22 shared connections)
-- [[Community 161]] (2 shared connections)
-- [[Community 142]] (2 shared connections)
+- [[Price Presentation & Product UI]] (50 shared connections)
+- [[Product Brand & Business Vision]] (23 shared connections)
+- [[Community 45]] (17 shared connections)
+- [[Dependencies & Package Config]] (13 shared connections)
+- [[Community 38]] (11 shared connections)
+- [[Community 39]] (10 shared connections)
+- [[Live Pricing Audit Tool]] (8 shared connections)
+- [[Architecture Doc Generator]] (6 shared connections)
 
 ## Source Files
 
-- `backend/src/middleware/errorHandler.js`
-- `backend/src/routes/auth.js`
-- `backend/src/services/crmClient.js`
-- `backend/src/services/dealerApp.js`
-- `backend/src/services/notifications.js`
-- `backend/src/utils/phone.js`
-- `backend/src/utils/validators.js`
-- `backend/test/interconnection.test.mjs`
-- `backend/test/validators.test.mjs`
+- `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
 
 ## Audit Trail
 
-- EXTRACTED: 355 (100%)
+- EXTRACTED: 308 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

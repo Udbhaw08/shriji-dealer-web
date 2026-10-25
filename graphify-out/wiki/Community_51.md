@@ -1,55 +1,48 @@
 # Community 51
 
-> 29 nodes · cohesion 0.11
+> 29 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **s()** (15 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **bi()** (10 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **co()** (9 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **hh()** (9 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **yh()** (9 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **c()** (8 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **Si()** (8 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **mh()** (7 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **yi()** (7 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **dh()** (6 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **fh()** (6 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **lh()** (6 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **Mp()** (6 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **ph()** (6 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **Sh()** (6 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **xi()** (6 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **ao()** (5 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **bh()** (5 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **Ih()** (5 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **Ka()** (5 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **vi()** (5 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **Ca()** (4 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **lo()** (4 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **qs()** (4 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **ut()** (4 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **AppDelegate** (10 connections) — `ios/App/App/AppDelegate.swift`
+- **.application()** (7 connections) — `ios/App/App/AppDelegate.swift`
+- **.scene()** (7 connections) — `ios/App/App/SceneDelegate.swift`
+- **UIApplication** (6 connections) — `ios/App/App/AppDelegate.swift`
+- **SceneDelegate** (5 connections) — `ios/App/App/SceneDelegate.swift`
+- **AppDelegate.swift** (3 connections) — `ios/App/App/AppDelegate.swift`
+- **SceneDelegate.swift** (3 connections) — `ios/App/App/SceneDelegate.swift`
+- **.applicationDidBecomeActive()** (2 connections) — `ios/App/App/AppDelegate.swift`
+- **.applicationDidEnterBackground()** (2 connections) — `ios/App/App/AppDelegate.swift`
+- **.applicationWillEnterForeground()** (2 connections) — `ios/App/App/AppDelegate.swift`
+- **.applicationWillResignActive()** (2 connections) — `ios/App/App/AppDelegate.swift`
+- **.applicationWillTerminate()** (2 connections) — `ios/App/App/AppDelegate.swift`
+- **Capacitor** (2 connections) — `ios/App/App/SceneDelegate.swift`
+- **UIWindow** (2 connections) — `ios/App/App/SceneDelegate.swift`
+- **UIKit** (2 connections) — `ios/App/App/SceneDelegate.swift`
+- **UIResponder** (2 connections)
+- **Any** (1 connections) — `ios/App/App/AppDelegate.swift`
+- **Bool** (1 connections) — `ios/App/App/AppDelegate.swift`
+- **UIScene** (1 connections) — `ios/App/App/AppDelegate.swift`
+- **UISceneSession** (1 connections) — `ios/App/App/AppDelegate.swift`
+- **UIWindow** (1 connections) — `ios/App/App/AppDelegate.swift`
+- **UIScene** (1 connections) — `ios/App/App/SceneDelegate.swift`
+- **UISceneSession** (1 connections) — `ios/App/App/SceneDelegate.swift`
+- **NSUserActivity** (1 connections) — `ios/App/App/SceneDelegate.swift`
+- **Set** (1 connections) — `ios/App/App/SceneDelegate.swift`
 - *... and 4 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (34 shared connections)
-- [[Zoho Backend & Proxy Endpoints]] (23 shared connections)
-- [[Architecture Doc Generator]] (11 shared connections)
-- [[Master Codebase Architecture Reference]] (5 shared connections)
-- [[Roles & Customer Sharing Spec]] (5 shared connections)
-- [[Community 105]] (4 shared connections)
-- [[Community 41]] (3 shared connections)
-- [[Community 165]] (1 shared connections)
-- [[Community 42]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- `ios/App/App/AppDelegate.swift`
+- `ios/App/App/SceneDelegate.swift`
 
 ## Audit Trail
 
-- EXTRACTED: 177 (100%)
+- EXTRACTED: 72 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

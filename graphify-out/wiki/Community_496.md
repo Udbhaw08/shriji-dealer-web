@@ -1,10 +1,12 @@
 # Community 496
 
-> 1 nodes · cohesion 1.00
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **site-language-integration.mjs** (0 connections) — `.agents/skills/archify/test/site-language-integration.mjs`
+- **cryptoUtils.js** (2 connections) — `backend/src/utils/cryptoUtils.js`
+- **generateSecureOtp()** (1 connections) — `backend/src/utils/cryptoUtils.js`
+- **generateSecureToken()** (1 connections) — `backend/src/utils/cryptoUtils.js`
 
 ## Relationships
 
@@ -12,11 +14,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/site-language-integration.mjs`
+- `backend/src/utils/cryptoUtils.js`
 
 ## Audit Trail
 
-- EXTRACTED: 0 (0%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

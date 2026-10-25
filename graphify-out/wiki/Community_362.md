@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **authoring-safety-contract.test.mjs** (5 connections) — `.agents/skills/archify/test/authoring-safety-contract.test.mjs`
-- **authoringContract** (1 connections) — `.agents/skills/archify/test/authoring-safety-contract.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/authoring-safety-contract.test.mjs`
-- **schemaReadme** (1 connections) — `.agents/skills/archify/test/authoring-safety-contract.test.mjs`
-- **skill** (1 connections) — `.agents/skills/archify/test/authoring-safety-contract.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/authoring-safety-contract.test.mjs`
+- **CacheManager** (4 connections) — `backend/src/services/cacheManager.js`
+- **cacheManager.js** (2 connections) — `backend/src/services/cacheManager.js`
+- **.constructor()** (1 connections) — `backend/src/services/cacheManager.js`
+- **.get()** (1 connections) — `backend/src/services/cacheManager.js`
+- **.set()** (1 connections) — `backend/src/services/cacheManager.js`
+- **globalCache** (1 connections) — `backend/src/services/cacheManager.js`
 
 ## Relationships
 
@@ -17,7 +17,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/authoring-safety-contract.test.mjs`
+- `backend/src/services/cacheManager.js`
 
 ## Audit Trail
 

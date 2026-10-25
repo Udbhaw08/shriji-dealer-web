@@ -1,56 +1,74 @@
 # Master Codebase Architecture Reference
 
-> 62 nodes · cohesion 0.07
+> 62 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **D()** (22 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **.addEventListener()** (19 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **np()** (19 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **b()** (17 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **fp()** (14 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **jt()** (14 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **bm()** (13 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **h()** (13 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **.removeEventListener()** (12 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **r()** (11 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **vn()** (11 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **Zt()** (11 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **am()** (10 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **ip()** (9 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **mm()** (9 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **fn()** (8 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **ln()** (8 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **om()** (8 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **tm()** (8 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **tp()** (8 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **hn()** (7 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **jm()** (7 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **lp()** (7 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **tn()** (7 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
-- **zm()** (7 connections) — `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- **main.jsx** (50 connections) — `src/main.jsx`
+- **ui.jsx** (45 connections) — `src/ui.jsx`
+- **useSession()** (38 connections) — `src/data/session.js`
+- **useLanguage()** (31 connections) — `src/data/i18n.js`
+- **Home.jsx** (26 connections) — `src/pages/Home.jsx`
+- **site.js** (24 connections) — `src/data/site.js`
+- **Icon()** (20 connections) — `src/ui.jsx`
+- **isDealer()** (18 connections) — `src/data/dealer.js`
+- **t()** (18 connections) — `src/data/i18n.js`
+- **Schemes.jsx** (17 connections) — `src/pages/Schemes.jsx`
+- **MobileBottomNav.jsx** (16 connections) — `src/components/MobileBottomNav.jsx`
+- **COMPANY** (16 connections) — `src/data/site.js`
+- **Support.jsx** (16 connections) — `src/pages/Support.jsx`
+- **isPortalGated()** (14 connections) — `src/data/portalGate.js`
+- **dealerById()** (12 connections) — `src/data/dealer.js`
+- **HeroSlider.jsx** (11 connections) — `src/components/HeroSlider.jsx`
+- **Favorites()** (9 connections) — `src/pages/Favorites.jsx`
+- **Products()** (9 connections) — `src/pages/Products.jsx`
+- **Header()** (9 connections) — `src/ui.jsx`
+- **MobileBottomNav()** (8 connections) — `src/components/MobileBottomNav.jsx`
+- **UnderMaintenance.jsx** (8 connections) — `src/components/UnderMaintenance.jsx`
+- **portalGate.js** (8 connections) — `src/data/portalGate.js`
+- **Home()** (8 connections) — `src/pages/Home.jsx`
+- **Login()** (7 connections) — `src/pages/Login.jsx`
+- **DealerPending.jsx** (6 connections) — `src/pages/DealerPending.jsx`
 - *... and 37 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (58 shared connections)
-- [[Roles & Customer Sharing Spec]] (20 shared connections)
-- [[Architecture Doc Generator]] (18 shared connections)
-- [[Zoho Backend & Proxy Endpoints]] (18 shared connections)
-- [[Community 105]] (12 shared connections)
-- [[Community 41]] (8 shared connections)
-- [[Community 42]] (7 shared connections)
-- [[Community 51]] (5 shared connections)
-- [[Community 165]] (1 shared connections)
+- [[Community 47]] (60 shared connections)
+- [[Project Readme & Layout]] (35 shared connections)
+- [[Community 54]] (27 shared connections)
+- [[Community 99]] (11 shared connections)
+- [[Community 36]] (8 shared connections)
+- [[Community 154]] (8 shared connections)
+- [[Community 155]] (2 shared connections)
+- [[Community 399]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+- `src/components/EmailVerificationPrompt.jsx`
+- `src/components/HeroSlider.jsx`
+- `src/components/MobileBottomNav.jsx`
+- `src/components/NativeBackHandler.jsx`
+- `src/components/UnderMaintenance.jsx`
+- `src/data/dealer.js`
+- `src/data/i18n.js`
+- `src/data/portalGate.js`
+- `src/data/session.js`
+- `src/data/site.js`
+- `src/main.jsx`
+- `src/pages/DealerApply.jsx`
+- `src/pages/DealerDashboard.jsx`
+- `src/pages/DealerPending.jsx`
+- `src/pages/Favorites.jsx`
+- `src/pages/Home.jsx`
+- `src/pages/LegalPrivacy.jsx`
+- `src/pages/LegalTerms.jsx`
+- `src/pages/Login.jsx`
+- `src/pages/PrivacyPolicy.jsx`
 
 ## Audit Trail
 
-- EXTRACTED: 423 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 550 (100%)
+- INFERRED: 2 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

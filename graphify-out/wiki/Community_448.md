@@ -4,21 +4,21 @@
 
 ## Key Concepts
 
-- **stage** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **minimum** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **Zoho Commerce Inventory Synchronization** (2 connections) — `docs/architecture/zoho-inventory-sync.md`
+- **zoho-inventory-sync.md** (1 connections) — `docs/architecture/zoho-inventory-sync.md`
+- **Strategy** (1 connections) — `docs/architecture/zoho-inventory-sync.md`
 
 ## Relationships
 
-- [[Zoho API Diagnostic Script]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/dataflow.schema.json`
+- `docs/architecture/zoho-inventory-sync.md`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,33 +1,38 @@
 # Community 179
 
-> 11 nodes · cohesion 0.25
+> 11 nodes · cohesion 0.27
 
 ## Key Concepts
 
-- **items** (5 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **items** (5 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **items** (5 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **states** (4 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **additionalProperties** (3 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **required** (3 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **type** (3 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **transitions** (3 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **minItems** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **tf()** (10 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
+- **ef()** (7 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
+- **lf()** (7 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
+- **uf()** (7 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
+- **of()** (6 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
+- **sf()** (5 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
+- **cf()** (4 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
+- **jf()** (4 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
+- **vf()** (4 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
+- **Wf()** (3 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
+- **hp()** (2 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
 
 ## Relationships
 
-- [[Claude Agent Instructions]] (3 shared connections)
-- [[Community 123]] (3 shared connections)
+- [[Dealer Auth & Session Management]] (12 shared connections)
+- [[Product Requirements Documentation]] (6 shared connections)
+- [[Pricing & Roles Skill]] (5 shared connections)
+- [[Community 42]] (2 shared connections)
+- [[Community 40]] (2 shared connections)
+- [[Community 66]] (1 shared connections)
+- [[Design System & UI Tokens]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/lifecycle.schema.json`
+- `ios/App/App/public/assets/index-CqsxiKMB.js`
 
 ## Audit Trail
 
-- EXTRACTED: 34 (100%)
+- EXTRACTED: 59 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,8 +1,8 @@
 # al()
 
-> God node · 40 connections · `android/app/src/main/assets/public/assets/index-CnGpWhyw.js`
+> God node · 40 connections · `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
 
-**Community:** [[Zoho Backend & Proxy Endpoints]]
+**Community:** [[Product Brand & Business Vision]]
 
 ## Connections by Relation
 

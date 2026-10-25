@@ -14,6 +14,10 @@ export const ALLOWED_REMOTE_HOSTS = new Set([
   'cdn2.zohoecommerce.com',
   'restor.in',
   'www.restor.in',
+  'test.restor.in',
+  'astro.in',
+  'www.astro.in',
+  'test.astro.in',
   'shrijidomestic.com',
   'www.shrijidomestic.com',
 ]);

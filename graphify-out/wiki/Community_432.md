@@ -4,10 +4,10 @@
 
 ## Key Concepts
 
-- **vercel.json** (3 connections) — `vercel.json`
-- **framework** (1 connections) — `vercel.json`
-- **headers** (1 connections) — `vercel.json`
-- **rewrites** (1 connections) — `vercel.json`
+- **cursor-onboarding.test.mjs** (3 connections) — `.agents/skills/archify/test/cursor-onboarding.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/cursor-onboarding.test.mjs`
+- **repoRoot** (1 connections) — `.agents/skills/archify/test/cursor-onboarding.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/cursor-onboarding.test.mjs`
 
 ## Relationships
 
@@ -15,7 +15,7 @@
 
 ## Source Files
 
-- `vercel.json`
+- `.agents/skills/archify/test/cursor-onboarding.test.mjs`
 
 ## Audit Trail
 

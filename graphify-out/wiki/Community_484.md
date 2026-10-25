@@ -1,10 +1,12 @@
 # Community 484
 
-> 1 nodes · cohesion 1.00
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **capacitor.build.gradle** (0 connections) — `android/app/capacitor.build.gradle`
+- **check-env.mjs** (2 connections) — `scripts/check-env.mjs`
+- **missing** (1 connections) — `scripts/check-env.mjs`
+- **requiredEnv** (1 connections) — `scripts/check-env.mjs`
 
 ## Relationships
 
@@ -12,11 +14,11 @@
 
 ## Source Files
 
-- `android/app/capacitor.build.gradle`
+- `scripts/check-env.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 0 (0%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

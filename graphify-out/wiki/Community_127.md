@@ -1,23 +1,23 @@
 # Community 127
 
-> 14 nodes · cohesion 0.14
+> 14 nodes · cohesion 0.23
 
 ## Key Concepts
 
-- **File management** (7 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
-- **Desktop (macOS)** (3 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
-- **Mobile (iOS, iPadOS)** (3 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
-- **file-management.md** (1 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
-- **Creating and opening files** (1 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
-- **Custom file management** (1 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
-- **Document launcher** (1 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
-- **File provider app extension** (1 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
-- **Finder Sync extensions** (1 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
-- **Quick Look previews** (1 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
-- **Saving work** (1 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
+- **web-BRVCiDk9.js** (13 connections) — `android/app/src/main/assets/public/assets/web-BRVCiDk9.js`
+- **applyPrefix()** (4 connections) — `android/app/src/main/assets/public/assets/web-BRVCiDk9.js`
+- **keys()** (4 connections) — `android/app/src/main/assets/public/assets/web-BRVCiDk9.js`
+- **get()** (3 connections) — `android/app/src/main/assets/public/assets/web-BRVCiDk9.js`
+- **migrate()** (3 connections) — `android/app/src/main/assets/public/assets/web-BRVCiDk9.js`
+- **rawKeys()** (3 connections) — `android/app/src/main/assets/public/assets/web-BRVCiDk9.js`
+- **clear()** (2 connections) — `android/app/src/main/assets/public/assets/web-BRVCiDk9.js`
+- **remove()** (2 connections) — `android/app/src/main/assets/public/assets/web-BRVCiDk9.js`
+- **removeOld()** (2 connections) — `android/app/src/main/assets/public/assets/web-BRVCiDk9.js`
+- **set()** (2 connections) — `android/app/src/main/assets/public/assets/web-BRVCiDk9.js`
+- **configure()** (1 connections) — `android/app/src/main/assets/public/assets/web-BRVCiDk9.js`
+- **constructor()** (1 connections) — `android/app/src/main/assets/public/assets/web-BRVCiDk9.js`
+- **impl()** (1 connections) — `android/app/src/main/assets/public/assets/web-BRVCiDk9.js`
+- **prefix()** (1 connections) — `android/app/src/main/assets/public/assets/web-BRVCiDk9.js`
 
 ## Relationships
 
@@ -25,11 +25,11 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/file-management.md`
+- `android/app/src/main/assets/public/assets/web-BRVCiDk9.js`
 
 ## Audit Trail
 
-- EXTRACTED: 26 (100%)
+- EXTRACTED: 42 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -23,11 +23,14 @@ function run(cmd, desc, { fatal = false } = {}) {
   }
 }
 
-// 1. Update CODEBASE.md
-run("node scripts/generate-codebase-doc.mjs", "1/4 Synchronizing CODEBASE.md Documentation");
+// 1. Run Unit Tests & Reference Safety Checks (Fatal if broken)
+run("npm test", "1/5 Running Unit Tests & Reference Safety Checks", { fatal: true });
 
-// 2. Build Web Bundle (Fatal if it fails)
-run("npx vite build", "2/4 Building Web Production Assets", { fatal: true });
+// 2. Update CODEBASE.md
+run("node scripts/generate-codebase-doc.mjs", "2/5 Synchronizing CODEBASE.md Documentation");
+
+// 3. Build Web Bundle (Fatal if it fails)
+run("npx vite build", "3/5 Building Web Production Assets", { fatal: true });
 
 // If building on Vercel, skip mobile app syncing and local graphify tools
 if (isVercel) {
@@ -38,11 +41,11 @@ if (isVercel) {
   process.exit(0);
 }
 
-// 3. Sync Native Android & iOS Apps
-run("npx cap sync", "3/4 Synchronizing Android & iOS Native Folders");
+// 4. Sync Native Android & iOS Apps
+run("npx cap sync", "4/5 Synchronizing Android & iOS Native Folders");
 
-// 4. Update Knowledge Graph
-run("graphify update . && python scripts/build_wiki.py", "4/4 Updating Graphify Knowledge Base");
+// 5. Update Knowledge Graph
+run("graphify update . && python scripts/build_wiki.py", "5/5 Updating Graphify Knowledge Base");
 
 console.log("==========================================");
 console.log("🎉 ALL IN SYNC: Web, Android, iOS & Docs Updated!");

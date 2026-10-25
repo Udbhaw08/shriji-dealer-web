@@ -4,15 +4,15 @@
 
 ## Key Concepts
 
-- **authored-reachability.test.mjs** (8 connections) — `.agents/skills/archify/test/authored-reachability.test.mjs`
-- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/authored-reachability.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/authored-reachability.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/authored-reachability.test.mjs`
-- **reachabilityFunction()** (1 connections) — `.agents/skills/archify/test/authored-reachability.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/authored-reachability.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/authored-reachability.test.mjs`
-- **template** (1 connections) — `.agents/skills/archify/test/authored-reachability.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/authored-reachability.test.mjs`
+- **Archify JSON IR Schemas** (7 connections) — `.agents/skills/archify/schemas/README.md`
+- **Files** (2 connections) — `.agents/skills/archify/schemas/README.md`
+- **README.md** (1 connections) — `.agents/skills/archify/schemas/README.md`
+- **Error format** (1 connections) — `.agents/skills/archify/schemas/README.md`
+- **Legend presentation contract** (1 connections) — `.agents/skills/archify/schemas/README.md`
+- **Runtime validation** (1 connections) — `.agents/skills/archify/schemas/README.md`
+- **schema_version policy** (1 connections) — `.agents/skills/archify/schemas/README.md`
+- **Shared definitions (common.schema.json)** (1 connections) — `.agents/skills/archify/schemas/README.md`
+- **Visual quality and engineering truth** (1 connections) — `.agents/skills/archify/schemas/README.md`
 
 ## Relationships
 
@@ -20,7 +20,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/authored-reachability.test.mjs`
+- `.agents/skills/archify/schemas/README.md`
 
 ## Audit Trail
 

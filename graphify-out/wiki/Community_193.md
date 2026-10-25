@@ -4,16 +4,16 @@
 
 ## Key Concepts
 
-- **Windows** (5 connections) — `.agents/skills/apple-design/references/hig/windows.md`
-- **Desktop (macOS)** (3 connections) — `.agents/skills/apple-design/references/hig/windows.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/windows.md`
-- **windows.md** (1 connections) — `.agents/skills/apple-design/references/hig/windows.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/windows.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/windows.md`
-- **macOS window anatomy** (1 connections) — `.agents/skills/apple-design/references/hig/windows.md`
-- **macOS window states** (1 connections) — `.agents/skills/apple-design/references/hig/windows.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/windows.md`
-- **Tablet (iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/windows.md`
+- **App Shortcuts** (6 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
+- **Best practices** (2 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
+- **app-shortcuts.md** (1 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
+- **Editorial guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
+- **Responding to App Shortcuts** (1 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
 
 ## Relationships
 
@@ -21,7 +21,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/windows.md`
+- `.agents/skills/apple-design/references/hig/app-shortcuts.md`
 
 ## Audit Trail
 

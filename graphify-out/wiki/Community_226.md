@@ -4,15 +4,15 @@
 
 ## Key Concepts
 
-- **web-WguWp9Wm.js** (8 connections) — `ios/App/App/public/assets/web-WguWp9Wm.js`
-- **constructor()** (1 connections) — `ios/App/App/public/assets/web-WguWp9Wm.js`
-- **exitApp()** (1 connections) — `ios/App/App/public/assets/web-WguWp9Wm.js`
-- **getAppLanguage()** (1 connections) — `ios/App/App/public/assets/web-WguWp9Wm.js`
-- **getInfo()** (1 connections) — `ios/App/App/public/assets/web-WguWp9Wm.js`
-- **getLaunchUrl()** (1 connections) — `ios/App/App/public/assets/web-WguWp9Wm.js`
-- **getState()** (1 connections) — `ios/App/App/public/assets/web-WguWp9Wm.js`
-- **minimizeApp()** (1 connections) — `ios/App/App/public/assets/web-WguWp9Wm.js`
-- **toggleBackButtonHandler()** (1 connections) — `ios/App/App/public/assets/web-WguWp9Wm.js`
+- **Playing video** (6 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
+- **Integrating with the TV app** (3 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
+- **playing-video.md** (1 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
+- **Exiting playback** (1 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
+- **Loading content** (1 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/playing-video.md`
 
 ## Relationships
 
@@ -20,7 +20,7 @@
 
 ## Source Files
 
-- `ios/App/App/public/assets/web-WguWp9Wm.js`
+- `.agents/skills/apple-design/references/hig/playing-video.md`
 
 ## Audit Trail
 

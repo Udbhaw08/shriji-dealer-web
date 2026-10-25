@@ -4,15 +4,15 @@
 
 ## Key Concepts
 
-- **generate-validators.mjs** (8 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
-- **ajv** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
-- **diagramTypes** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
-- **output** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
-- **root** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
-- **schemaIds** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
-- **schemasDir** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
-- **validatorCode** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
+- **web-C30Nl5Oq.js** (8 connections) — `ios/App/App/public/assets/web-C30Nl5Oq.js`
+- **constructor()** (1 connections) — `ios/App/App/public/assets/web-C30Nl5Oq.js`
+- **exitApp()** (1 connections) — `ios/App/App/public/assets/web-C30Nl5Oq.js`
+- **getAppLanguage()** (1 connections) — `ios/App/App/public/assets/web-C30Nl5Oq.js`
+- **getInfo()** (1 connections) — `ios/App/App/public/assets/web-C30Nl5Oq.js`
+- **getLaunchUrl()** (1 connections) — `ios/App/App/public/assets/web-C30Nl5Oq.js`
+- **getState()** (1 connections) — `ios/App/App/public/assets/web-C30Nl5Oq.js`
+- **minimizeApp()** (1 connections) — `ios/App/App/public/assets/web-C30Nl5Oq.js`
+- **toggleBackButtonHandler()** (1 connections) — `ios/App/App/public/assets/web-C30Nl5Oq.js`
 
 ## Relationships
 
@@ -20,7 +20,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/scripts/generate-validators.mjs`
+- `ios/App/App/public/assets/web-C30Nl5Oq.js`
 
 ## Audit Trail
 

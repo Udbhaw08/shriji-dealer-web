@@ -1,58 +1,66 @@
 # Community 43
 
-> 35 nodes · cohesion 0.11
+> 34 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **workflow-migration.test.mjs** (22 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
-- **workflow-v2.mjs** (21 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- **migrateWorkflowDocument()** (15 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- **compileWorkflow()** (13 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **workflow-migration-geometry.mjs** (10 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
-- **createMappedWorkflowCandidate()** (9 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
-- **intrinsicWorkflow()** (8 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
-- **planningWorkflow()** (7 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
-- **clone()** (4 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- **legacyLayoutProbe()** (4 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- **legacyRequirementProbe()** (4 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- **createHorizontalRankMapper()** (4 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
-- **expandableViewBox()** (3 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- **requiredViewBoxFrom()** (3 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- **schemaDiagnostics()** (3 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- **workflow-semantic-contract.test.mjs** (3 connections) — `.agents/skills/archify/test/workflow-semantic-contract.test.mjs`
-- **clone()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
-- **mapExplicitCoordinates()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
-- **diagnostic()** (2 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- **result()** (2 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- **cli** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
-- **copyFixture()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
-- **explicitPinConflictWorkflow()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
-- **fixture** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
-- *... and 10 more nodes in this community*
+- **server.js** (39 connections) — `backend/src/server.js`
+- **upload.js** (11 connections) — `backend/src/routes/upload.js`
+- **errorHandler.js** (9 connections) — `backend/src/middleware/errorHandler.js`
+- **securityPhase3.test.mjs** (9 connections) — `backend/test/securityPhase3.test.mjs`
+- **admin.js** (8 connections) — `backend/src/routes/admin.js`
+- **health.js** (8 connections) — `backend/src/routes/health.js`
+- **rateLimit.js** (7 connections) — `backend/src/middleware/rateLimit.js`
+- **migrate.js** (6 connections) — `backend/src/db/migrate.js`
+- **rateLimit()** (6 connections) — `backend/src/middleware/rateLimit.js`
+- **migrate()** (4 connections) — `backend/src/db/migrate.js`
+- **uploadRouter** (4 connections) — `backend/src/routes/upload.js`
+- **applied()** (3 connections) — `backend/src/db/migrate.js`
+- **startJobs()** (3 connections) — `backend/src/jobs/index.js`
+- **errorHandler()** (3 connections) — `backend/src/middleware/errorHandler.js`
+- **adminRouter** (3 connections) — `backend/src/routes/admin.js`
+- **start()** (3 connections) — `backend/src/server.js`
+- **authRouter** (2 connections) — `backend/src/routes/auth.js`
+- **dealersRouter** (2 connections) — `backend/src/routes/dealers.js`
+- **healthRouter** (2 connections) — `backend/src/routes/health.js`
+- **dir** (1 connections) — `backend/src/db/migrate.js`
+- **buckets** (1 connections) — `backend/src/middleware/rateLimit.js`
+- **loginRateLimit** (1 connections) — `backend/src/routes/admin.js`
+- **ALLOWED_FOLDERS** (1 connections) — `backend/src/routes/upload.js`
+- **SAFE_EXTENSIONS** (1 connections) — `backend/src/routes/upload.js`
+- **validateMagicBytes()** (1 connections) — `backend/src/routes/upload.js`
+- *... and 9 more nodes in this community*
 
 ## Relationships
 
-- [[Community 53]] (9 shared connections)
-- [[Community 40]] (4 shared connections)
-- [[Community 79]] (3 shared connections)
-- [[Pricing Regression Test Suite]] (3 shared connections)
-- [[Community 146]] (2 shared connections)
-- [[Community 64]] (2 shared connections)
-- [[Community 58]] (1 shared connections)
+- [[Community 59]] (14 shared connections)
+- [[Oxlint Linter Configuration]] (14 shared connections)
+- [[Community 37]] (7 shared connections)
+- [[Community 146]] (5 shared connections)
+- [[Community 74]] (4 shared connections)
+- [[Community 98]] (4 shared connections)
+- [[Community 113]] (2 shared connections)
+- [[Zoho Integration Architecture]] (2 shared connections)
+- [[Community 89]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/migrations/workflow-v2.mjs`
-- `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
-- `.agents/skills/archify/test/workflow-migration.test.mjs`
-- `.agents/skills/archify/test/workflow-semantic-contract.test.mjs`
+- `backend/src/db/migrate.js`
+- `backend/src/jobs/index.js`
+- `backend/src/middleware/errorHandler.js`
+- `backend/src/middleware/rateLimit.js`
+- `backend/src/routes/admin.js`
+- `backend/src/routes/auth.js`
+- `backend/src/routes/dealers.js`
+- `backend/src/routes/health.js`
+- `backend/src/routes/upload.js`
+- `backend/src/server.js`
+- `backend/test/securityPhase3.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 156 (99%)
-- INFERRED: 2 (1%)
+- EXTRACTED: 147 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,30 +1,33 @@
 # Community 211
 
-> 9 nodes · cohesion 0.22
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **Context menus** (6 connections) — `.agents/skills/apple-design/references/hig/context-menus.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/context-menus.md`
-- **context-menus.md** (1 connections) — `.agents/skills/apple-design/references/hig/context-menus.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/context-menus.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/context-menus.md`
-- **Content** (1 connections) — `.agents/skills/apple-design/references/hig/context-menus.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/context-menus.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/context-menus.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/context-menus.md`
+- **output-path.test.mjs** (16 connections) — `.agents/skills/archify/test/output-path.test.mjs`
+- **baseFixture** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
+- **cli** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
+- **copyInstalledSkill()** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
+- **directoryAliasesNames()** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
+- **headFixture** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
+- **here** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
+- **run()** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
+- **workflowFixture** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Pricing Regression Test Suite]] (3 shared connections)
+- [[Community 63]] (2 shared connections)
+- [[Community 105]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/context-menus.md`
+- `.agents/skills/archify/test/output-path.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 25 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

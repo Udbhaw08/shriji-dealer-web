@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **renderer-diagnostic-boundary.test.mjs** (2 connections) — `.agents/skills/archify/test/renderer-diagnostic-boundary.test.mjs`
-- **crashingRenderer()** (1 connections) — `.agents/skills/archify/test/renderer-diagnostic-boundary.test.mjs`
-- **runCrashingRenderer()** (1 connections) — `.agents/skills/archify/test/renderer-diagnostic-boundary.test.mjs`
+- **Zoho Commerce API Rate Limiting & Multi-Tier Caching** (2 connections) — `docs/guides/zoho-rate-limits-and-caching.md`
+- **zoho-rate-limits-and-caching.md** (1 connections) — `docs/guides/zoho-rate-limits-and-caching.md`
+- **Rate Limits** (1 connections) — `docs/guides/zoho-rate-limits-and-caching.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/renderer-diagnostic-boundary.test.mjs`
+- `docs/guides/zoho-rate-limits-and-caching.md`
 
 ## Audit Trail
 

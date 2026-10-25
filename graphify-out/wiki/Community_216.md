@@ -4,15 +4,15 @@
 
 ## Key Concepts
 
-- **Multitasking** (5 connections) — `.agents/skills/apple-design/references/hig/multitasking.md`
-- **Platform considerations** (4 connections) — `.agents/skills/apple-design/references/hig/multitasking.md`
-- **multitasking.md** (1 connections) — `.agents/skills/apple-design/references/hig/multitasking.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/multitasking.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/multitasking.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/multitasking.md`
-- **Phone (iOS)** (1 connections) — `.agents/skills/apple-design/references/hig/multitasking.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/multitasking.md`
-- **Tablet (iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/multitasking.md`
+- **web-C30Nl5Oq.js** (8 connections) — `android/app/src/main/assets/public/assets/web-C30Nl5Oq.js`
+- **constructor()** (1 connections) — `android/app/src/main/assets/public/assets/web-C30Nl5Oq.js`
+- **exitApp()** (1 connections) — `android/app/src/main/assets/public/assets/web-C30Nl5Oq.js`
+- **getAppLanguage()** (1 connections) — `android/app/src/main/assets/public/assets/web-C30Nl5Oq.js`
+- **getInfo()** (1 connections) — `android/app/src/main/assets/public/assets/web-C30Nl5Oq.js`
+- **getLaunchUrl()** (1 connections) — `android/app/src/main/assets/public/assets/web-C30Nl5Oq.js`
+- **getState()** (1 connections) — `android/app/src/main/assets/public/assets/web-C30Nl5Oq.js`
+- **minimizeApp()** (1 connections) — `android/app/src/main/assets/public/assets/web-C30Nl5Oq.js`
+- **toggleBackButtonHandler()** (1 connections) — `android/app/src/main/assets/public/assets/web-C30Nl5Oq.js`
 
 ## Relationships
 
@@ -20,7 +20,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/multitasking.md`
+- `android/app/src/main/assets/public/assets/web-C30Nl5Oq.js`
 
 ## Audit Trail
 
