@@ -1,54 +1,56 @@
 # Price Presentation & Product UI
 
-> 82 nodes · cohesion 0.04
+> 79 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **_()** (448 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
-- **ga()** (7 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
-- **request()** (7 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
-- **os()** (6 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
-- **ps()** (6 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
-- **Cc()** (5 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
-- **eh()** (5 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
-- **es()** (5 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
-- **js()** (5 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
-- **Pd()** (5 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
-- **ts()** (5 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
-- **unavailable()** (5 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
-- **ys()** (5 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
-- **bs()** (4 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
-- **De()** (4 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
-- **ds()** (4 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
-- **fs()** (4 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
-- **ke()** (4 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
-- **ls()** (4 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
-- **ns()** (4 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
-- **Oe()** (4 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
-- **removeWindowListener()** (4 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
-- **us()** (4 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
-- **vs()** (4 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
-- **xs()** (4 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
-- *... and 57 more nodes in this community*
+- **_()** (446 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
+- **wc()** (9 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
+- **fn()** (8 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
+- **fa()** (7 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
+- **hn()** (7 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
+- **request()** (7 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
+- **xc()** (6 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
+- **Cc()** (5 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
+- **df()** (5 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
+- **eh()** (5 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
+- **jl()** (5 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
+- **Pd()** (5 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
+- **unavailable()** (5 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
+- **Wd()** (5 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
+- **De()** (4 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
+- **ke()** (4 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
+- **Oe()** (4 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
+- **pf()** (4 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
+- **removeWindowListener()** (4 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
+- **Sc()** (4 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
+- **ue()** (4 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
+- **xl()** (4 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
+- **Ad()** (3 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
+- **addListener()** (3 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
+- **addWindowListener()** (3 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
+- *... and 54 more nodes in this community*
 
 ## Relationships
 
-- [[Dependencies & Package Config]] (62 shared connections)
-- [[Product Brand & Business Vision]] (57 shared connections)
-- [[Live Pricing Audit Tool]] (55 shared connections)
-- [[Architecture Doc Generator]] (53 shared connections)
-- [[Mobile Responsive UI Skill]] (50 shared connections)
-- [[Community 39]] (46 shared connections)
-- [[Community 38]] (42 shared connections)
-- [[Community 45]] (37 shared connections)
+- [[Product Pages Specification]] (61 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (61 shared connections)
+- [[Client Products Data Store]] (60 shared connections)
+- [[Mobile Responsive UI Skill]] (57 shared connections)
+- [[Architecture Doc Generator]] (55 shared connections)
+- [[Community 47]] (35 shared connections)
+- [[Community 53]] (31 shared connections)
+- [[Community 76]] (25 shared connections)
+- [[Community 96]] (23 shared connections)
+- [[Community 177]] (12 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
+- `ios/App/App/public/assets/index-D7iXOTum.js`
 
 ## Audit Trail
 
-- EXTRACTED: 665 (100%)
+- EXTRACTED: 661 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,53 +1,56 @@
 # Client Products Data Store
 
-> 55 nodes · cohesion 0.08
+> 54 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **zoho.js** (59 connections) — `api/_lib/zoho.js`
-- **fetchZohoProductById()** (18 connections) — `api/_lib/zoho.js`
-- **fetchZohoProducts()** (14 connections) — `api/_lib/zoho.js`
-- **getZohoConfig()** (10 connections) — `api/_lib/zoho.js`
-- **createDealerContact()** (9 connections) — `api/_lib/zoho.js`
-- **fetchZohoWithRetry()** (9 connections) — `api/_lib/zoho.js`
-- **syncRecentProductTags()** (7 connections) — `api/_lib/zoho.js`
-- **fetchAllRawZohoProducts()** (6 connections) — `api/_lib/zoho.js`
-- **fetchZohoPricebookItems()** (6 connections) — `api/_lib/zoho.js`
-- **getAccessToken()** (6 connections) — `api/_lib/zoho.js`
-- **normalizeProduct()** (6 connections) — `api/_lib/zoho.js`
-- **readTagCache()** (6 connections) — `api/_lib/zoho.js`
-- **getCategoryVisibilityMap()** (5 connections) — `api/_lib/zoho.js`
-- **resolvePricebookId()** (5 connections) — `api/_lib/zoho.js`
-- **fetchZohoPricebooks()** (4 connections) — `api/_lib/zoho.js`
-- **fetchZohoRawCategories()** (4 connections) — `api/_lib/zoho.js`
-- **getDealerById()** (4 connections) — `api/_lib/zoho.js`
-- **loadEnv()** (4 connections) — `api/_lib/zoho.js`
-- **updateCachedProductTags()** (4 connections) — `api/_lib/zoho.js`
-- **sync-tags.js** (4 connections) — `api/products/sync-tags.js`
-- **test-zoho-api.mjs** (4 connections) — `scripts/test-zoho-api.mjs`
-- **apply.js** (3 connections) — `api/dealer/apply.js`
-- **getCachedProductTags()** (3 connections) — `api/_lib/zoho.js`
-- **isItemOnline()** (3 connections) — `api/_lib/zoho.js`
-- **readProductDetailsDiskCache()** (3 connections) — `api/_lib/zoho.js`
-- *... and 30 more nodes in this community*
+- **ic()** (15 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
+- **Md()** (15 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
+- **s()** (15 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
+- **co()** (12 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
+- **nc()** (12 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
+- **pa()** (12 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
+- **bi()** (10 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
+- **nl()** (10 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
+- **ha()** (9 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
+- **hh()** (9 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
+- **kd()** (9 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
+- **l()** (9 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
+- **yh()** (9 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
+- **c()** (8 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
+- **gs()** (8 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
+- **rc()** (8 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
+- **Si()** (8 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
+- **ec()** (7 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
+- **mh()** (7 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
+- **oc()** (7 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
+- **yi()** (7 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
+- **zc()** (7 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
+- **ac()** (6 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
+- **dh()** (6 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
+- **fh()** (6 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
+- *... and 29 more nodes in this community*
 
 ## Relationships
 
-- [[Community 153]] (13 shared connections)
-- [[Community 146]] (8 shared connections)
-- [[Community 148]] (3 shared connections)
-- [[Community 89]] (2 shared connections)
+- [[Price Presentation & Product UI]] (60 shared connections)
+- [[Mobile Responsive UI Skill]] (19 shared connections)
+- [[Community 53]] (12 shared connections)
+- [[Community 47]] (12 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (11 shared connections)
+- [[Architecture Doc Generator]] (9 shared connections)
+- [[Product Pages Specification]] (8 shared connections)
+- [[Community 76]] (7 shared connections)
+- [[Community 96]] (5 shared connections)
+- [[Community 177]] (1 shared connections)
 
 ## Source Files
 
-- `api/_lib/zoho.js`
-- `api/dealer/apply.js`
-- `api/products/sync-tags.js`
-- `scripts/test-zoho-api.mjs`
+- `ios/App/App/public/assets/index-D7iXOTum.js`
 
 ## Audit Trail
 
-- EXTRACTED: 250 (100%)
+- EXTRACTED: 354 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

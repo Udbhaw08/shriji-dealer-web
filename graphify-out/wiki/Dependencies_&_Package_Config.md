@@ -1,54 +1,65 @@
 # Dependencies & Package Config
 
-> 67 nodes · cohesion 0.07
+> 68 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **D()** (22 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
-- **.addEventListener()** (19 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
-- **np()** (19 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
-- **Tu()** (19 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
-- **b()** (17 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
-- **fp()** (14 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
-- **jt()** (14 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
-- **bm()** (13 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
-- **h()** (13 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
-- **lm()** (13 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
-- **.removeEventListener()** (12 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
-- **r()** (11 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
-- **vn()** (11 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
-- **Zt()** (11 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
-- **am()** (10 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
-- **ep()** (9 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
-- **ip()** (9 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
-- **mm()** (9 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
-- **fn()** (8 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
-- **ln()** (8 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
-- **om()** (8 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
-- **tm()** (8 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
-- **tp()** (8 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
-- **bl()** (7 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
-- **jm()** (7 connections) — `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
-- *... and 42 more nodes in this community*
+- **geometry.mjs** (75 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **compileWorkflowInternal()** (67 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **asArray()** (43 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **geometry.test.mjs** (34 connections) — `.agents/skills/archify/test/geometry.test.mjs`
+- **validateArchitecture()** (22 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **validateDataflow()** (22 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **validateLifecycle()** (22 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **cleanCrossingProblems()** (18 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **isFinitePoint()** (18 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **cleanFlowProblems()** (17 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **rectsOverlap()** (16 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **validateSequence()** (15 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- **cleanAmbiguousCorridorProblems()** (15 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **cleanBorderRunProblems()** (15 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **cleanRouteRhythmProblems()** (15 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **labelPoint()** (15 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **cleanEndpointSideProblems()** (14 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **cleanLabelRouteClearanceProblems()** (14 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **brandTopRailProblem()** (13 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **collectLabelRouteClearance()** (12 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **segmentIntersectsRect()** (12 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **suggestLabelObstacleFix()** (12 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **availableNodeTextWidth()** (11 connections) — `.agents/skills/archify/renderers/shared/text-fit.mjs`
+- **collectBorderRuns()** (10 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **normalizeRoutePoints()** (10 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- *... and 43 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (62 shared connections)
-- [[Live Pricing Audit Tool]] (24 shared connections)
-- [[Product Brand & Business Vision]] (22 shared connections)
-- [[Community 39]] (19 shared connections)
-- [[Mobile Responsive UI Skill]] (13 shared connections)
-- [[Architecture Doc Generator]] (9 shared connections)
-- [[Community 38]] (8 shared connections)
-- [[Community 45]] (6 shared connections)
+- [[Community 61]] (48 shared connections)
+- [[Design System & UI Tokens]] (44 shared connections)
+- [[Community 52]] (39 shared connections)
+- [[Community 43]] (34 shared connections)
+- [[Zoho Integration Skill]] (33 shared connections)
+- [[Master Codebase Architecture Reference]] (12 shared connections)
+- [[Community 84]] (9 shared connections)
+- [[Graphify Knowledge Graph Skill]] (6 shared connections)
+- [[Community 301]] (3 shared connections)
+- [[Graphify Agent Rules]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
+- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- `.agents/skills/archify/renderers/shared/diagnostics.mjs`
+- `.agents/skills/archify/renderers/shared/geometry.mjs`
+- `.agents/skills/archify/renderers/shared/text-fit.mjs`
+- `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- `.agents/skills/archify/test/geometry.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 475 (100%)
+- EXTRACTED: 705 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

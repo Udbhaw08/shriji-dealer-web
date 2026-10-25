@@ -1,44 +1,50 @@
 # Community 96
 
-> 19 nodes · cohesion 0.26
+> 19 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **cacheRename()** (13 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **cacheRm()** (10 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **captureMutationParentSnapshots()** (10 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **invalidateCacheToken()** (9 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **prepareCacheDirectory()** (9 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **resolveCacheTarget()** (9 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **stableCacheEntry()** (9 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **verifyCacheToken()** (9 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **guardedCacheMutation()** (7 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **assertSafeDirectory()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **isSameFile()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **cacheMkdirWithToken()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **stablePreparedDirectory()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **verifyDirectorySnapshots()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **verifyMutationContext()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **verifyMutationParentSnapshots()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **assertCacheTargetAbsent()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **canonicalizeTrustedDirectoryPrefix()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **isWithinDirectory()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **yc()** (18 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
+- **zd()** (13 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
+- **Nd()** (11 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
+- **qd()** (11 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
+- **nt()** (8 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
+- **Xd()** (8 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
+- **Gd()** (7 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
+- **cl()** (6 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
+- **Rd()** (6 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
+- **Bd()** (5 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
+- **sl()** (5 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
+- **mf()** (4 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
+- **Zo()** (4 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
+- **Hd()** (3 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
+- **Ja()** (3 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
+- **Ud()** (3 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
+- **Vd()** (3 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
+- **Ym()** (3 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
+- **Fd()** (2 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
 
 ## Relationships
 
-- [[Community 50]] (21 shared connections)
-- [[Community 104]] (14 shared connections)
-- [[Community 112]] (7 shared connections)
-- [[Community 213]] (1 shared connections)
+- [[Price Presentation & Product UI]] (23 shared connections)
+- [[Mobile Responsive UI Skill]] (9 shared connections)
+- [[Community 76]] (6 shared connections)
+- [[Architecture Doc Generator]] (6 shared connections)
+- [[Client Products Data Store]] (5 shared connections)
+- [[Product Pages Specification]] (4 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (3 shared connections)
+- [[Community 53]] (3 shared connections)
+- [[Community 177]] (2 shared connections)
+- [[Community 47]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/scripts/check-update.mjs`
+- `ios/App/App/public/assets/index-D7iXOTum.js`
 
 ## Audit Trail
 
-- EXTRACTED: 130 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 123 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

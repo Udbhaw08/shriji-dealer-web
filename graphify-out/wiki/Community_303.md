@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **Entering data** (5 connections) — `.agents/skills/apple-design/references/hig/entering-data.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/entering-data.md`
-- **entering-data.md** (1 connections) — `.agents/skills/apple-design/references/hig/entering-data.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/entering-data.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/entering-data.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/entering-data.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/entering-data.md`
+- **MockStorage** (6 connections) — `src/data/productsStore.test.mjs`
+- **productsStore.test.mjs** (1 connections) — `src/data/productsStore.test.mjs`
+- **.clear()** (1 connections) — `src/data/productsStore.test.mjs`
+- **.constructor()** (1 connections) — `src/data/productsStore.test.mjs`
+- **.getItem()** (1 connections) — `src/data/productsStore.test.mjs`
+- **.removeItem()** (1 connections) — `src/data/productsStore.test.mjs`
+- **.setItem()** (1 connections) — `src/data/productsStore.test.mjs`
 
 ## Relationships
 
@@ -18,7 +18,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/entering-data.md`
+- `src/data/productsStore.test.mjs`
 
 ## Audit Trail
 

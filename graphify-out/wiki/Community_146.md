@@ -1,46 +1,37 @@
 # Community 146
 
-> 13 nodes · cohesion 0.31
+> 13 nodes · cohesion 0.28
 
 ## Key Concepts
 
-- **compatibilitySuite.test.mjs** (20 connections) — `backend/test/compatibilitySuite.test.mjs`
-- **dealerPricingAuth.js** (9 connections) — `api/_lib/dealerPricingAuth.js`
-- **getDealerPricingEligibility()** (8 connections) — `api/_lib/dealerPricingAuth.js`
-- **index.js** (7 connections) — `api/products/index.js`
-- **fetchZohoCategories()** (6 connections) — `api/_lib/zoho.js`
-- **[id].js** (6 connections) — `api/products/[id].js`
-- **maskCatalogPricing()** (5 connections) — `api/_lib/dealerPricingAuth.js`
-- **maskProductPricing()** (5 connections) — `api/_lib/dealerPricingAuth.js`
-- **handler()** (5 connections) — `api/products/index.js`
-- **handler()** (4 connections) — `api/products/[id].js`
-- **contentRouter** (4 connections) — `backend/src/routes/content.js`
-- **json()** (1 connections) — `backend/test/compatibilitySuite.test.mjs`
-- **status()** (1 connections) — `backend/test/compatibilitySuite.test.mjs`
+- **guided-views-browser.test.mjs** (17 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **run()** (8 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **point()** (4 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **settled()** (4 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **activate()** (3 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **click()** (3 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **hash()** (3 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **load()** (3 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **move()** (3 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **key()** (2 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **snapshot()** (2 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **variant()** (1 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
 
 ## Relationships
 
-- [[Client Products Data Store]] (8 shared connections)
-- [[Community 153]] (6 shared connections)
-- [[Community 43]] (5 shared connections)
-- [[Community 59]] (4 shared connections)
-- [[Oxlint Linter Configuration]] (3 shared connections)
-- [[Community 98]] (3 shared connections)
-- [[Community 89]] (2 shared connections)
-- [[Community 189]] (2 shared connections)
+- [[Community 85]] (5 shared connections)
+- [[Community 62]] (3 shared connections)
+- [[Community 45]] (1 shared connections)
+- [[Community 214]] (1 shared connections)
 
 ## Source Files
 
-- `api/_lib/dealerPricingAuth.js`
-- `api/_lib/zoho.js`
-- `api/products/[id].js`
-- `api/products/index.js`
-- `backend/src/routes/content.js`
-- `backend/test/compatibilitySuite.test.mjs`
+- `.agents/skills/archify/test/guided-views-browser.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 81 (100%)
+- EXTRACTED: 54 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

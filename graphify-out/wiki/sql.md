@@ -2,7 +2,7 @@
 
 > God node · 76 connections · `backend/src/db/pool.js`
 
-**Community:** [[Oxlint Linter Configuration]]
+**Community:** [[Community 31]]
 
 ## Connections by Relation
 

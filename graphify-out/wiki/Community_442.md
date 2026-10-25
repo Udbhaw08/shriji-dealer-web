@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **Repository Architecture Audit Report** (2 connections) — `docs/architecture/final-audit-report.md`
-- **final-audit-report.md** (1 connections) — `docs/architecture/final-audit-report.md`
-- **Verification Summary** (1 connections) — `docs/architecture/final-audit-report.md`
+- **Zoho CRM Webhook Event Payloads** (2 connections) — `docs/api/webhook-event-types.md`
+- **webhook-event-types.md** (1 connections) — `docs/api/webhook-event-types.md`
+- **Event: dealer.approved** (1 connections) — `docs/api/webhook-event-types.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/architecture/final-audit-report.md`
+- `docs/api/webhook-event-types.md`
 
 ## Audit Trail
 

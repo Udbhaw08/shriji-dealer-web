@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **validationHelper.test.mjs** (0 connections) — `backend/test/validationHelper.test.mjs`
+- **resendEmailTemplate.test.mjs** (0 connections) — `backend/test/resendEmailTemplate.test.mjs`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `backend/test/validationHelper.test.mjs`
+- `backend/test/resendEmailTemplate.test.mjs`
 
 ## Audit Trail
 

@@ -1,59 +1,55 @@
 # Project Readme & Layout
 
-> 43 nodes · cohesion 0.11
+> 44 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **session.js** (51 connections) — `src/data/session.js`
-- **Login.jsx** (43 connections) — `src/pages/Login.jsx`
-- **DealerApply.jsx** (26 connections) — `src/pages/DealerApply.jsx`
-- **BrandApplyFlow.jsx** (21 connections) — `src/components/BrandApplyFlow.jsx`
-- **StaffJoin.jsx** (14 connections) — `src/pages/StaffJoin.jsx`
-- **revalidateSession()** (13 connections) — `src/data/session.js`
-- **loginCode.js** (11 connections) — `src/data/loginCode.js`
-- **setSession()** (10 connections) — `src/data/session.js`
-- **validators.js** (10 connections) — `src/data/validators.js`
-- **registerDealer()** (7 connections) — `src/data/dealer.js`
-- **signOut()** (7 connections) — `src/data/session.js`
-- **applyAsDealer()** (6 connections) — `src/data/auth.js`
-- **formatLoginCode()** (6 connections) — `src/data/loginCode.js`
-- **isValidEmail()** (6 connections) — `src/data/validators.js`
-- **requestDealerRegistrationOtp()** (5 connections) — `src/data/auth.js`
-- **verifyDealerRegistrationOtp()** (5 connections) — `src/data/auth.js`
-- **switchToDealerSession()** (5 connections) — `src/data/session.js`
-- **isValidName()** (5 connections) — `src/data/validators.js`
-- **isValidPhone()** (5 connections) — `src/data/validators.js`
-- **BrandApplyFlow()** (4 connections) — `src/components/BrandApplyFlow.jsx`
-- **hasSession()** (4 connections) — `src/data/auth.js`
-- **GST_TREATMENT_OPTIONS** (4 connections) — `src/data/loginCode.js`
-- **switchToViewerSession()** (4 connections) — `src/data/session.js`
-- **isValidGstin()** (4 connections) — `src/data/validators.js`
-- **isValidPincode()** (4 connections) — `src/data/validators.js`
-- *... and 18 more nodes in this community*
+- **properties** (33 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **fromCol** (4 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **toCol** (4 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **label** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **brand** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **channelX** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **channelY** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **fromSide** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **id** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **labelAt** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **labelDx** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **labelDy** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **lane** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **role** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **route** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **sublabel** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **tag** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **toSide** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **type** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **yOffset** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **maximum** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **minimum** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- *... and 19 more nodes in this community*
 
 ## Relationships
 
-- [[Community 36]] (48 shared connections)
-- [[Master Codebase Architecture Reference]] (35 shared connections)
-- [[Community 99]] (14 shared connections)
-- [[Community 47]] (10 shared connections)
-- [[Community 54]] (2 shared connections)
+- [[Community 135]] (5 shared connections)
+- [[Community 98]] (2 shared connections)
+- [[Community 428]] (1 shared connections)
+- [[Community 429]] (1 shared connections)
+- [[Community 485]] (1 shared connections)
+- [[Community 486]] (1 shared connections)
+- [[Community 487]] (1 shared connections)
+- [[Community 82]] (1 shared connections)
+- [[Community 488]] (1 shared connections)
 
 ## Source Files
 
-- `src/components/BrandApplyFlow.jsx`
-- `src/data/auth.js`
-- `src/data/dealer.js`
-- `src/data/loginCode.js`
-- `src/data/session.js`
-- `src/data/validators.js`
-- `src/pages/DealerApply.jsx`
-- `src/pages/Login.jsx`
-- `src/pages/StaffJoin.jsx`
+- `.agents/skills/archify/schemas/workflow.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 309 (100%)
+- EXTRACTED: 100 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

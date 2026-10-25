@@ -4,15 +4,15 @@
 
 ## Key Concepts
 
-- **Playing audio** (6 connections) — `.agents/skills/apple-design/references/hig/playing-audio.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/playing-audio.md`
-- **playing-audio.md** (1 connections) — `.agents/skills/apple-design/references/hig/playing-audio.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/playing-audio.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/playing-audio.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/playing-audio.md`
-- **Handling interruptions** (1 connections) — `.agents/skills/apple-design/references/hig/playing-audio.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/playing-audio.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/playing-audio.md`
+- **Right to left** (8 connections) — `.agents/skills/apple-design/references/hig/right-to-left.md`
+- **right-to-left.md** (1 connections) — `.agents/skills/apple-design/references/hig/right-to-left.md`
+- **Controls** (1 connections) — `.agents/skills/apple-design/references/hig/right-to-left.md`
+- **Images** (1 connections) — `.agents/skills/apple-design/references/hig/right-to-left.md`
+- **Interface icons** (1 connections) — `.agents/skills/apple-design/references/hig/right-to-left.md`
+- **Numbers and characters** (1 connections) — `.agents/skills/apple-design/references/hig/right-to-left.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/right-to-left.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/right-to-left.md`
+- **Text alignment** (1 connections) — `.agents/skills/apple-design/references/hig/right-to-left.md`
 
 ## Relationships
 
@@ -20,7 +20,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/playing-audio.md`
+- `.agents/skills/apple-design/references/hig/right-to-left.md`
 
 ## Audit Trail
 

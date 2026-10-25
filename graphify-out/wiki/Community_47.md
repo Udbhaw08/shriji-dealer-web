@@ -1,58 +1,55 @@
 # Community 47
 
-> 33 nodes · cohesion 0.16
+> 31 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **Product.jsx** (34 connections) — `src/pages/Product.jsx`
-- **dealer.js** (29 connections) — `src/data/dealer.js`
-- **Favorites.jsx** (20 connections) — `src/pages/Favorites.jsx`
-- **ProductCard.jsx** (19 connections) — `src/components/ProductCard.jsx`
-- **dealer.test.mjs** (18 connections) — `src/data/dealer.test.mjs`
-- **PriceBlock.jsx** (15 connections) — `src/components/PriceBlock.jsx`
-- **ProductCard()** (15 connections) — `src/components/ProductCard.jsx`
-- **Product()** (15 connections) — `src/pages/Product.jsx`
-- **priceFor()** (14 connections) — `src/data/dealer.js`
-- **useFavorites()** (13 connections) — `src/data/favoritesStore.js`
-- **inr()** (12 connections) — `src/data/dealer.js`
-- **viewerFor()** (8 connections) — `src/data/dealer.js`
-- **CustomerPrice()** (7 connections) — `src/components/PriceBlock.jsx`
-- **productSlug()** (7 connections) — `src/data/dealer.js`
-- **shareLink()** (7 connections) — `src/data/dealer.js`
-- **tagFor()** (6 connections) — `src/data/dealer.js`
-- **DealerPrice()** (5 connections) — `src/components/PriceBlock.jsx`
-- **formatWhatsAppPhone()** (4 connections) — `src/data/dealer.js`
-- **slugifyProduct()** (4 connections) — `src/data/dealer.js`
-- **tierOf()** (4 connections) — `src/data/dealer.js`
-- **DEALERS** (3 connections) — `src/data/dealer.js`
-- **PriceBlock()** (2 connections) — `src/components/PriceBlock.jsx`
-- **price99()** (2 connections) — `src/data/dealer.js`
-- **BAND** (1 connections) — `src/data/dealer.js`
-- **hash()** (1 connections) — `src/data/dealer.js`
-- *... and 8 more nodes in this community*
+- **n()** (33 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
+- **t()** (18 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
+- **ma()** (8 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
+- **cs()** (7 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
+- **go()** (7 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
+- **O()** (7 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
+- **os()** (6 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
+- **ps()** (6 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
+- **es()** (5 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
+- **j()** (5 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
+- **js()** (5 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
+- **ts()** (5 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
+- **x()** (5 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
+- **ds()** (4 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
+- **ee()** (4 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
+- **fs()** (4 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
+- **Ko()** (4 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
+- **ls()** (4 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
+- **M()** (4 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
+- **ns()** (4 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
+- **qo()** (4 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
+- **rs()** (4 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
+- **us()** (4 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
+- **as()** (3 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
+- **ho()** (3 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
+- *... and 6 more nodes in this community*
 
 ## Relationships
 
-- [[Master Codebase Architecture Reference]] (60 shared connections)
-- [[Community 54]] (17 shared connections)
-- [[Project Readme & Layout]] (10 shared connections)
-- [[Community 155]] (6 shared connections)
-- [[Community 99]] (5 shared connections)
-- [[Community 108]] (3 shared connections)
+- [[Price Presentation & Product UI]] (35 shared connections)
+- [[Product Pages Specification]] (12 shared connections)
+- [[Client Products Data Store]] (12 shared connections)
+- [[Mobile Responsive UI Skill]] (7 shared connections)
+- [[Community 53]] (7 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (5 shared connections)
+- [[Community 76]] (3 shared connections)
+- [[Community 96]] (2 shared connections)
+- [[Architecture Doc Generator]] (1 shared connections)
 
 ## Source Files
 
-- `src/components/PriceBlock.jsx`
-- `src/components/ProductCard.jsx`
-- `src/data/dealer.js`
-- `src/data/dealer.test.mjs`
-- `src/data/favoritesStore.js`
-- `src/pages/Favorites.jsx`
-- `src/pages/Product.jsx`
+- `ios/App/App/public/assets/index-D7iXOTum.js`
 
 ## Audit Trail
 
-- EXTRACTED: 273 (100%)
+- EXTRACTED: 178 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
