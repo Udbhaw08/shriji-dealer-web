@@ -1,41 +1,46 @@
 # Community 93
 
-> 19 nodes · cohesion 0.11
+> 19 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **The menu bar** (15 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
-- **Desktop (macOS)** (2 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
-- **the-menu-bar.md** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
-- **Anatomy** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
-- **App menu** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
-- **App-specific menus** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
-- **Dynamic menu items** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
-- **Edit menu** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
-- **File menu** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
-- **Format menu** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
-- **Help menu** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
-- **Menu bar extras** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
-- **Tablet (iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
-- **View menu** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
-- **Window menu** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
+- **finder-browser.test.mjs** (12 connections) — `.agents/skills/archify/test/finder-browser.test.mjs`
+- **route-probe-browser.test.mjs** (12 connections) — `.agents/skills/archify/test/route-probe-browser.test.mjs`
+- **run()** (6 connections) — `.agents/skills/archify/test/finder-browser.test.mjs`
+- **run()** (6 connections) — `.agents/skills/archify/test/route-probe-browser.test.mjs`
+- **viewer-click.mjs** (4 connections) — `.agents/skills/archify/test/helpers/viewer-click.mjs`
+- **createViewerClick()** (4 connections) — `.agents/skills/archify/test/helpers/viewer-click.mjs`
+- **load()** (3 connections) — `.agents/skills/archify/test/finder-browser.test.mjs`
+- **search()** (3 connections) — `.agents/skills/archify/test/finder-browser.test.mjs`
+- **load()** (3 connections) — `.agents/skills/archify/test/route-probe-browser.test.mjs`
+- **key()** (2 connections) — `.agents/skills/archify/test/finder-browser.test.mjs`
+- **opened()** (2 connections) — `.agents/skills/archify/test/finder-browser.test.mjs`
+- **snapshot()** (2 connections) — `.agents/skills/archify/test/finder-browser.test.mjs`
+- **hash()** (2 connections) — `.agents/skills/archify/test/route-probe-browser.test.mjs`
+- **key()** (2 connections) — `.agents/skills/archify/test/route-probe-browser.test.mjs`
+- **route()** (2 connections) — `.agents/skills/archify/test/route-probe-browser.test.mjs`
+- **snapshot()** (2 connections) — `.agents/skills/archify/test/route-probe-browser.test.mjs`
+- **installClickObserver()** (1 connections) — `.agents/skills/archify/test/helpers/viewer-click.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/finder-browser.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/route-probe-browser.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 85]] (8 shared connections)
+- [[Community 45]] (2 shared connections)
+- [[Community 150]] (2 shared connections)
+- [[Community 214]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/the-menu-bar.md`
+- `.agents/skills/archify/test/finder-browser.test.mjs`
+- `.agents/skills/archify/test/helpers/viewer-click.mjs`
+- `.agents/skills/archify/test/route-probe-browser.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 36 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 69 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -6,6 +6,45 @@ import { parseVideoUrl } from "../utils/video";
 
 const BANNER_CACHE_KEY = "shriji_supabase_banners_v4";
 
+export const DEFAULT_HERO_BANNERS = [
+  {
+    id: "hero-restor-hob-luxury",
+    src: "/img/restor-hero-hob-luxury.jpg",
+    alt: "Sunshine ReSTOR — Luxury Built-in Hob Series",
+    title: "Sunshine ReSTOR — Luxury Built-in Hob Series",
+    subtitle: "Engineered with Italian Beveled Tempered Glass & High-Output Forged Brass Burners. Uncompromising Culinary Precision.",
+    bgColor: "#0c1926",
+    link: "/products",
+    order: 1,
+    duration_seconds: 6,
+    duration: 6,
+  },
+  {
+    id: "hero-restor-chimney-smart",
+    src: "/img/restor-hero-chimney-smart.jpg",
+    alt: "Sunshine ReSTOR — Smart BLDC Chimney Hood",
+    title: "Sunshine ReSTOR — Smart BLDC Chimney Hood",
+    subtitle: "Whisper-Quiet BLDC Inverter Technology, Motion-Sensor Wave Controls & High-Efficiency Thermal Auto-Clean.",
+    bgColor: "#0b1a2a",
+    link: "/products",
+    order: 2,
+    duration_seconds: 6,
+    duration: 6,
+  },
+  {
+    id: "hero-restor-integrated-suite",
+    src: "/img/restor-hero-integrated-suite.jpg",
+    alt: "Sunshine ReSTOR — The Complete Built-in Suite",
+    title: "Sunshine ReSTOR — The Complete Built-in Suite",
+    subtitle: "Reimagine Your Modern Kitchen. Architecturally Integrated Hobs, Ovens & Silent Ventilation for Discerning Homes.",
+    bgColor: "#132030",
+    link: "/products",
+    order: 3,
+    duration_seconds: 6,
+    duration: 6,
+  },
+];
+
 const getCachedBanners = () => {
   try {
     const raw = sessionStorage.getItem(BANNER_CACHE_KEY);
@@ -17,17 +56,17 @@ const getCachedBanners = () => {
       }
     }
   } catch {}
-  return [];
+  return DEFAULT_HERO_BANNERS;
 };
 
 export default function HeroSlider({ isGated = true }) {
   const [banners, setBanners] = useState(() => getCachedBanners());
   const [sliderSettings, setSliderSettings] = useState({
-    autoplay_interval: 5,
+    autoplay_interval: 6,
     autoplay_enabled: true,
     pause_on_hover: true,
   });
-  const [loading, setLoading] = useState(() => banners.length === 0);
+  const [loading, setLoading] = useState(false);
   const [activeIdx, setActiveIdx] = useState(0);
   const [isHovered, setIsHovered] = useState(false);
   const [activeModalVideo, setActiveModalVideo] = useState(null); // { embedUrl, title, type }
@@ -36,7 +75,7 @@ export default function HeroSlider({ isGated = true }) {
   const touchStartYRef = useRef(0);
   const isSwipingRef = useRef(false);
 
-  // Fetch dynamic banners and slider settings from Supabase
+  // Fetch dynamic banners and slider settings from Supabase / API
   useEffect(() => {
     let active = true;
     apiFetch("/api/banners")
@@ -53,13 +92,16 @@ export default function HeroSlider({ isGated = true }) {
             sessionStorage.setItem(BANNER_CACHE_KEY, JSON.stringify(data.banners));
           } catch {}
         } else {
-          setBanners([]);
+          setBanners((curr) => (curr.length > 0 ? curr : DEFAULT_HERO_BANNERS));
           setLoading(false);
         }
       })
       .catch((err) => {
         console.warn("Failed to load live banners:", err);
-        if (active) setLoading(false);
+        if (active) {
+          setBanners((curr) => (curr.length > 0 ? curr : DEFAULT_HERO_BANNERS));
+          setLoading(false);
+        }
       });
 
     return () => {

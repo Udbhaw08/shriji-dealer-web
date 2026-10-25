@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **make-scheme-pdfs.mjs** (1 connections) — `scripts/make-scheme-pdfs.mjs`
-- **createPdfWithJpg()** (1 connections) — `scripts/make-scheme-pdfs.mjs`
+- **localization.md** (1 connections) — `.agents/skills/swiftui-pro/references/localization.md`
+- **Localization** (1 connections) — `.agents/skills/swiftui-pro/references/localization.md`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `scripts/make-scheme-pdfs.mjs`
+- `.agents/skills/swiftui-pro/references/localization.md`
 
 ## Audit Trail
 

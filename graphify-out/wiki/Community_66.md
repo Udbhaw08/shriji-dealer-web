@@ -1,52 +1,46 @@
 # Community 66
 
-> 24 nodes · cohesion 0.12
+> 24 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **s()** (15 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **hh()** (9 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **yh()** (9 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **c()** (8 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **mh()** (7 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **fh()** (6 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **lh()** (6 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **Mp()** (6 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **ph()** (6 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **Sh()** (6 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **ao()** (5 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **bh()** (5 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **Ih()** (5 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **Ka()** (5 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **ys()** (5 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **bs()** (4 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **Ca()** (4 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **qs()** (4 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **vh()** (4 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **vs()** (4 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **xs()** (4 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **et()** (3 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **Xm()** (3 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **zh()** (2 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
+- **properties** (11 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **viewBox** (6 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **title** (3 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **animation** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **locale** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **output** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **quality_profile** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **subtitle** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **views** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **visual_preset** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **minLength** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **items** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **maxItems** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **minItems** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **prefixItems** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (31 shared connections)
-- [[Zoho Backend & Proxy Endpoints]] (17 shared connections)
-- [[Product Requirements Documentation]] (8 shared connections)
-- [[Design System & UI Tokens]] (4 shared connections)
-- [[Pricing & Roles Skill]] (4 shared connections)
-- [[Community 145]] (1 shared connections)
-- [[Community 179]] (1 shared connections)
-- [[Community 40]] (1 shared connections)
+- [[Community 201]] (1 shared connections)
+- [[Community 118]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-CqsxiKMB.js`
+- `.agents/skills/archify/schemas/lifecycle.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 135 (100%)
+- EXTRACTED: 48 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **corsPolicy.test.mjs** (0 connections) — `backend/test/corsPolicy.test.mjs`
+- **verify-all.mjs** (0 connections) — `scripts/verify-all.mjs`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `backend/test/corsPolicy.test.mjs`
+- `scripts/verify-all.mjs`
 
 ## Audit Trail
 

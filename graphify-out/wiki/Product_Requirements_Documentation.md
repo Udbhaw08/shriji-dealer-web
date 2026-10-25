@@ -1,55 +1,73 @@
 # Product Requirements Documentation
 
-> 56 nodes · cohesion 0.07
+> 56 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **get()** (27 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **at()** (21 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **k()** (20 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **U()** (19 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **ct()** (16 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **la()** (15 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **A()** (12 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **Dn()** (12 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **pt()** (12 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **dt()** (11 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **mt()** (11 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **no()** (11 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **ye()** (11 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **so()** (9 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **st()** (9 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **xt()** (9 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **kf()** (8 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **lt()** (8 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **tt()** (8 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **Gt()** (7 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **it()** (7 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **jc()** (7 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **je()** (7 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **jn()** (7 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **oo()** (7 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
+- **server.js** (39 connections) — `backend/src/server.js`
+- **pool.js** (34 connections) — `backend/src/db/pool.js`
+- **compatibilitySuite.test.mjs** (20 connections) — `backend/test/compatibilitySuite.test.mjs`
+- **env.js** (16 connections) — `backend/src/config/env.js`
+- **securityPhase1.test.mjs** (16 connections) — `backend/test/securityPhase1.test.mjs`
+- **webhooks.js** (14 connections) — `backend/src/routes/webhooks.js`
+- **env** (13 connections) — `backend/src/config/env.js`
+- **upload.js** (11 connections) — `backend/src/routes/upload.js`
+- **admin.js** (8 connections) — `backend/src/routes/admin.js`
+- **health.js** (8 connections) — `backend/src/routes/health.js`
+- **uploads.js** (8 connections) — `backend/src/routes/uploads.js`
+- **rateLimit.js** (7 connections) — `backend/src/middleware/rateLimit.js`
+- **migrate.js** (6 connections) — `backend/src/db/migrate.js`
+- **rateLimit()** (6 connections) — `backend/src/middleware/rateLimit.js`
+- **migrate()** (4 connections) — `backend/src/db/migrate.js`
+- **contentRouter** (4 connections) — `backend/src/routes/content.js`
+- **uploadRouter** (4 connections) — `backend/src/routes/upload.js`
+- **uploadsRouter** (4 connections) — `backend/src/routes/uploads.js`
+- **applied()** (3 connections) — `backend/src/db/migrate.js`
+- **startJobs()** (3 connections) — `backend/src/jobs/index.js`
+- **adminRouter** (3 connections) — `backend/src/routes/admin.js`
+- **migrate-content.js** (3 connections) — `backend/scripts/migrate-content.js`
+- **test-storage.js** (3 connections) — `backend/scripts/test-storage.js`
+- **start()** (3 connections) — `backend/src/server.js`
+- **authRouter** (2 connections) — `backend/src/routes/auth.js`
 - *... and 31 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (68 shared connections)
-- [[Zoho Backend & Proxy Endpoints]] (38 shared connections)
-- [[Community 42]] (20 shared connections)
-- [[Design System & UI Tokens]] (17 shared connections)
-- [[Pricing & Roles Skill]] (14 shared connections)
-- [[Community 66]] (8 shared connections)
-- [[Community 40]] (8 shared connections)
-- [[Community 145]] (6 shared connections)
-- [[Community 179]] (6 shared connections)
+- [[Community 31]] (30 shared connections)
+- [[Product Brand & Business Vision]] (18 shared connections)
+- [[Community 104]] (17 shared connections)
+- [[Community 71]] (9 shared connections)
+- [[Community 91]] (6 shared connections)
+- [[Community 187]] (5 shared connections)
+- [[Community 233]] (5 shared connections)
+- [[Community 253]] (3 shared connections)
+- [[Community 149]] (2 shared connections)
+- [[Community 402]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-CqsxiKMB.js`
+- `backend/scripts/migrate-content.js`
+- `backend/scripts/test-storage.js`
+- `backend/src/config/env.js`
+- `backend/src/db/migrate.js`
+- `backend/src/db/pool.js`
+- `backend/src/jobs/index.js`
+- `backend/src/middleware/rateLimit.js`
+- `backend/src/routes/admin.js`
+- `backend/src/routes/auth.js`
+- `backend/src/routes/content.js`
+- `backend/src/routes/dealers.js`
+- `backend/src/routes/health.js`
+- `backend/src/routes/upload.js`
+- `backend/src/routes/uploads.js`
+- `backend/src/routes/webhooks.js`
+- `backend/src/server.js`
+- `backend/test/compatibilitySuite.test.mjs`
+- `backend/test/securityPhase1.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 413 (100%)
+- EXTRACTED: 276 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

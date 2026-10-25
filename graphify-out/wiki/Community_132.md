@@ -1,23 +1,23 @@
 # Community 132
 
-> 14 nodes · cohesion 0.23
+> 14 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **web-BRVCiDk9.js** (13 connections) — `ios/App/App/public/assets/web-BRVCiDk9.js`
-- **applyPrefix()** (4 connections) — `ios/App/App/public/assets/web-BRVCiDk9.js`
-- **keys()** (4 connections) — `ios/App/App/public/assets/web-BRVCiDk9.js`
-- **get()** (3 connections) — `ios/App/App/public/assets/web-BRVCiDk9.js`
-- **migrate()** (3 connections) — `ios/App/App/public/assets/web-BRVCiDk9.js`
-- **rawKeys()** (3 connections) — `ios/App/App/public/assets/web-BRVCiDk9.js`
-- **clear()** (2 connections) — `ios/App/App/public/assets/web-BRVCiDk9.js`
-- **remove()** (2 connections) — `ios/App/App/public/assets/web-BRVCiDk9.js`
-- **removeOld()** (2 connections) — `ios/App/App/public/assets/web-BRVCiDk9.js`
-- **set()** (2 connections) — `ios/App/App/public/assets/web-BRVCiDk9.js`
-- **configure()** (1 connections) — `ios/App/App/public/assets/web-BRVCiDk9.js`
-- **constructor()** (1 connections) — `ios/App/App/public/assets/web-BRVCiDk9.js`
-- **impl()** (1 connections) — `ios/App/App/public/assets/web-BRVCiDk9.js`
-- **prefix()** (1 connections) — `ios/App/App/public/assets/web-BRVCiDk9.js`
+- **.oxlintrc.json** (6 connections) — `.oxlintrc.json`
+- **env** (4 connections) — `.oxlintrc.json`
+- **rules** (4 connections) — `.oxlintrc.json`
+- **globals** (2 connections) — `.oxlintrc.json`
+- **browser** (1 connections) — `.oxlintrc.json`
+- **builtin** (1 connections) — `.oxlintrc.json`
+- **node** (1 connections) — `.oxlintrc.json`
+- **Archify** (1 connections) — `.oxlintrc.json`
+- **ignorePatterns** (1 connections) — `.oxlintrc.json`
+- **plugins** (1 connections) — `.oxlintrc.json`
+- **no-undef** (1 connections) — `.oxlintrc.json`
+- **react/only-export-components** (1 connections) — `.oxlintrc.json`
+- **react/rules-of-hooks** (1 connections) — `.oxlintrc.json`
+- **$schema** (1 connections) — `.oxlintrc.json`
 
 ## Relationships
 
@@ -25,11 +25,11 @@
 
 ## Source Files
 
-- `ios/App/App/public/assets/web-BRVCiDk9.js`
+- `.oxlintrc.json`
 
 ## Audit Trail
 
-- EXTRACTED: 42 (100%)
+- EXTRACTED: 26 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

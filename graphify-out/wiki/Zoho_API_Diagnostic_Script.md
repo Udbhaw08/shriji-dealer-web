@@ -1,52 +1,60 @@
 # Zoho API Diagnostic Script
 
-> 43 nodes · cohesion 0.05
+> 43 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **properties** (28 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **label** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **labelSegment** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **brand** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **channelX** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **channelY** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **classification** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **from** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **fromSide** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **id** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **labelAt** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **labelDx** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **labelDy** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **route** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **sublabel** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **tag** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **to** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **toSide** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **type** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **variant** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **yOffset** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **session.js** (51 connections) — `src/data/session.js`
+- **Login.jsx** (43 connections) — `src/pages/Login.jsx`
+- **DealerApply.jsx** (26 connections) — `src/pages/DealerApply.jsx`
+- **BrandApplyFlow.jsx** (21 connections) — `src/components/BrandApplyFlow.jsx`
+- **apiFetch()** (20 connections) — `src/data/api.js`
+- **StaffJoin.jsx** (14 connections) — `src/pages/StaffJoin.jsx`
+- **revalidateSession()** (13 connections) — `src/data/session.js`
+- **loginCode.js** (11 connections) — `src/data/loginCode.js`
+- **setSession()** (10 connections) — `src/data/session.js`
+- **validators.js** (10 connections) — `src/data/validators.js`
+- **apiUrl()** (9 connections) — `src/data/api.js`
+- **signOut()** (7 connections) — `src/data/session.js`
+- **applyAsDealer()** (6 connections) — `src/data/auth.js`
+- **formatLoginCode()** (6 connections) — `src/data/loginCode.js`
+- **isValidEmail()** (6 connections) — `src/data/validators.js`
+- **requestDealerRegistrationOtp()** (5 connections) — `src/data/auth.js`
+- **verifyDealerRegistrationOtp()** (5 connections) — `src/data/auth.js`
+- **switchToDealerSession()** (5 connections) — `src/data/session.js`
+- **isValidName()** (5 connections) — `src/data/validators.js`
+- **isValidPhone()** (5 connections) — `src/data/validators.js`
+- **BrandApplyFlow()** (4 connections) — `src/components/BrandApplyFlow.jsx`
+- **hasSession()** (4 connections) — `src/data/auth.js`
+- **GST_TREATMENT_OPTIONS** (4 connections) — `src/data/loginCode.js`
+- **switchToViewerSession()** (4 connections) — `src/data/session.js`
+- **isValidGstin()** (4 connections) — `src/data/validators.js`
 - *... and 18 more nodes in this community*
 
 ## Relationships
 
-- [[Community 202]] (3 shared connections)
-- [[Community 473]] (1 shared connections)
-- [[Community 474]] (1 shared connections)
-- [[Community 475]] (1 shared connections)
-- [[Community 419]] (1 shared connections)
-- [[Community 420]] (1 shared connections)
+- [[Community 38]] (54 shared connections)
+- [[Community 50]] (22 shared connections)
+- [[Oxlint Linter Configuration]] (21 shared connections)
+- [[Community 40]] (12 shared connections)
+- [[Community 46]] (10 shared connections)
+- [[Community 168]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/dataflow.schema.json`
+- `src/components/BrandApplyFlow.jsx`
+- `src/data/api.js`
+- `src/data/auth.js`
+- `src/data/loginCode.js`
+- `src/data/session.js`
+- `src/data/validators.js`
+- `src/pages/DealerApply.jsx`
+- `src/pages/Login.jsx`
+- `src/pages/StaffJoin.jsx`
 
 ## Audit Trail
 
-- EXTRACTED: 92 (100%)
+- EXTRACTED: 328 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

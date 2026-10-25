@@ -3,14 +3,25 @@ import { env } from '../config/env.js';
 
 const dbUrl = env.databaseUrl;
 
-export const sql = postgres(dbUrl, {
-  max: 10,
-  idle_timeout: 30,
-  connect_timeout: 10,
-  ssl: 'require',
-  onnotice: () => {},
-});
+function createSafeSql() {
+  if (!dbUrl || typeof dbUrl !== 'string' || !dbUrl.trim()) {
+    const dummy = async () => [];
+    dummy.begin = async (fn) => fn(dummy);
+    dummy.end = async () => {};
+    return dummy;
+  }
+  return postgres(dbUrl, {
+    max: 10,
+    idle_timeout: 30,
+    connect_timeout: 10,
+    ssl: 'require',
+    onnotice: () => {},
+  });
+}
+
+export const sql = createSafeSql();
 
 export async function tx(fn) {
-  return sql.begin(fn);
+  return typeof sql.begin === 'function' ? sql.begin(fn) : fn(sql);
 }
+

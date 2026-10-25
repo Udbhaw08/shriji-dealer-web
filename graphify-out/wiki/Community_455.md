@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **GSTIN Verification Flow** (2 connections) — `docs/guides/gstin-verification-flow.md`
-- **gstin-verification-flow.md** (1 connections) — `docs/guides/gstin-verification-flow.md`
-- **State Code Resolution** (1 connections) — `docs/guides/gstin-verification-flow.md`
+- **Dealer Onboarding & Approval Lifecycle** (2 connections) — `docs/guides/dealer-onboarding-flow.md`
+- **dealer-onboarding-flow.md** (1 connections) — `docs/guides/dealer-onboarding-flow.md`
+- **Lifecycle States** (1 connections) — `docs/guides/dealer-onboarding-flow.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/guides/gstin-verification-flow.md`
+- `docs/guides/dealer-onboarding-flow.md`
 
 ## Audit Trail
 

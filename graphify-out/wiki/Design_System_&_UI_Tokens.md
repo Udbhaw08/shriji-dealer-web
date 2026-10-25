@@ -1,56 +1,62 @@
 # Design System & UI Tokens
 
-> 62 nodes · cohesion 0.07
+> 57 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **D()** (22 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **.addEventListener()** (19 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **np()** (19 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **b()** (17 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **fp()** (14 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **jt()** (14 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **bm()** (13 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **h()** (13 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **.removeEventListener()** (12 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **r()** (11 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **vn()** (11 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **Zt()** (11 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **am()** (10 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **ip()** (9 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **mm()** (9 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **fn()** (8 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **ln()** (8 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **om()** (8 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **tm()** (8 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **tp()** (8 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **hn()** (7 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **jm()** (7 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **lp()** (7 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **tn()** (7 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **zm()** (7 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- *... and 37 more nodes in this community*
+- **render-architecture.mjs** (122 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **pathFor()** (10 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **routeHonorsEndpointSides()** (9 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **variantAccent()** (9 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **renderConnectionLabel()** (8 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **renderLegend()** (7 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **routeVia()** (7 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **grid.mjs** (6 connections) — `.agents/skills/archify/renderers/architecture/grid.mjs`
+- **alignFacingPorts()** (6 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **buildLayoutReport()** (6 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **layoutBoundaryTitles()** (5 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **sideAwareBridgeCandidates()** (5 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **relationshipLegendObstacles()** (5 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
+- **resolveComponentPos()** (4 connections) — `.agents/skills/archify/renderers/architecture/grid.mjs`
+- **validateGridPlacement()** (4 connections) — `.agents/skills/archify/renderers/architecture/grid.mjs`
+- **boundaryLabelWidth()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **componentContext()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **measureBoundaryTitle()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **resolveBoundaryTitles()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **routeClearsComponents()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **routeClearsEndpointComponents()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **minimumReadableSourceTextPx()** (4 connections) — `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
+- **layout-report.mjs** (4 connections) — `.agents/skills/archify/renderers/shared/layout-report.mjs`
+- **grid.test.mjs** (4 connections) — `.agents/skills/archify/test/grid.test.mjs`
+- **gridLayout()** (3 connections) — `.agents/skills/archify/renderers/architecture/grid.mjs`
+- *... and 32 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (69 shared connections)
-- [[Pricing & Roles Skill]] (20 shared connections)
-- [[Product Requirements Documentation]] (17 shared connections)
-- [[Zoho Backend & Proxy Endpoints]] (17 shared connections)
-- [[Community 40]] (8 shared connections)
-- [[Community 42]] (7 shared connections)
-- [[Community 145]] (4 shared connections)
-- [[Community 66]] (4 shared connections)
-- [[Community 179]] (1 shared connections)
+- [[Dependencies & Package Config]] (44 shared connections)
+- [[Zoho Integration Skill]] (22 shared connections)
+- [[Community 52]] (12 shared connections)
+- [[Community 61]] (11 shared connections)
+- [[Community 84]] (10 shared connections)
+- [[Community 43]] (8 shared connections)
+- [[Master Codebase Architecture Reference]] (5 shared connections)
+- [[Community 164]] (3 shared connections)
+- [[Graphify Agent Rules]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-CqsxiKMB.js`
+- `.agents/skills/archify/renderers/architecture/grid.mjs`
+- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
+- `.agents/skills/archify/renderers/shared/geometry.mjs`
+- `.agents/skills/archify/renderers/shared/layout-report.mjs`
+- `.agents/skills/archify/renderers/shared/legend.mjs`
+- `.agents/skills/archify/test/grid.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 423 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 299 (100%)
+- INFERRED: 1 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

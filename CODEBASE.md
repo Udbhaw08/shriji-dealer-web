@@ -1,8 +1,8 @@
 # CODEBASE.md — Project Architecture & Feature Guide
 
 > **Auto-generated documentation**
-> Last synchronized: 2026-10-25T14:13:33.241+05:30 (GMT+5:30)
-> Total Project Files: 2090
+> Last synchronized: 2026-10-25T14:36:46.720+05:30 (GMT+5:30)
+> Total Project Files: 2113
 
 ---
 
@@ -115,7 +115,7 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 - **`src/components/EmailVerificationPrompt.jsx`** (10.0 KB)
 - **`src/components/ErrorBoundary.jsx`** (0.8 KB)
 - **`src/components/FileOrUrlInput.jsx`** (15.2 KB)
-- **`src/components/HeroSlider.jsx`** (17.3 KB)
+- **`src/components/HeroSlider.jsx`** (18.8 KB)
 - **`src/components/MobileBottomNav.jsx`** (5.0 KB)
 - **`src/components/NativeBackHandler.jsx`** (3.7 KB)
 - **`src/components/NetworkStatusBadge.jsx`** (0.8 KB)
@@ -140,7 +140,7 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 - **`src/data/pricing.test.mjs`** (4.2 KB)
 - **`src/data/products.js`** (1.8 KB)
 - **`src/data/productsStore.js`** (6.2 KB)
-- **`src/data/productsStore.test.mjs`** (5.0 KB)
+- **`src/data/productsStore.test.mjs`** (5.2 KB)
 - **`src/data/searchHelper.js`** (9.8 KB)
 - **`src/data/searchHelper.test.mjs`** (0.9 KB)
 - **`src/data/session.js`** (9.0 KB)
@@ -152,12 +152,12 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 
 ### 4.4 Zoho API & Serverless Handlers (`api/`)
 - **`api/admin/login.js`** (2.5 KB)
-- **`api/content.js`** (4.8 KB)
+- **`api/content.js`** (6.6 KB)
 - **`api/dealer/apply.js`** (1.0 KB)
 - **`api/dealer/info.js`** (2.0 KB)
 - **`api/download.js`** (8.3 KB)
 - **`api/og.js`** (5.1 KB)
-- **`api/products/index.js`** (1.9 KB)
+- **`api/products/index.js`** (2.7 KB)
 - **`api/products/sync-tags.js`** (0.9 KB)
 - **`api/products/[id].js`** (2.0 KB)
 - **`api/upload.js`** (10.9 KB)

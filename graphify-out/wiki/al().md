@@ -1,18 +1,16 @@
 # al()
 
-> God node · 40 connections · `android/app/src/main/assets/public/assets/index-CqsxiKMB.js`
+> God node · 39 connections · `android/app/src/main/assets/public/assets/index-D7iXOTum.js`
 
-**Community:** [[Product Brand & Business Vision]]
+**Community:** [[Roles & Customer Sharing Spec]]
 
 ## Connections by Relation
 
 ### calls
-- [[la()]] `EXTRACTED`
+- [[aa()]] `EXTRACTED`
 - [[fp()]] `EXTRACTED`
 - [[lm()]] `EXTRACTED`
-- [[aa()]] `EXTRACTED`
 - [[il()]] `EXTRACTED`
-- [[no()]] `EXTRACTED`
 - [[r()]] `EXTRACTED`
 - [[ye()]] `EXTRACTED`
 - [[nl()]] `EXTRACTED`
@@ -24,8 +22,10 @@
 - [[fa()]] `EXTRACTED`
 - [[ga()]] `EXTRACTED`
 - [[hc()]] `EXTRACTED`
+- [[la()]] `EXTRACTED`
+- [[ro()]] `EXTRACTED`
+- [[ao()]] `EXTRACTED`
 - [[jc()]] `EXTRACTED`
-- [[oo()]] `EXTRACTED`
 - [[mo()]] `EXTRACTED`
 
 ### contains

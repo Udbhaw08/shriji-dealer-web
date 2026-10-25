@@ -4,10 +4,10 @@
 
 ## Key Concepts
 
-- **Shriji Testing & Workflow Skill** (3 connections) — `.agents/skills/shriji-testing-and-workflow/SKILL.md`
-- **SKILL.md** (1 connections) — `.agents/skills/shriji-testing-and-workflow/SKILL.md`
-- **Daily Development Commands** (1 connections) — `.agents/skills/shriji-testing-and-workflow/SKILL.md`
-- **Hard Workflow Rules** (1 connections) — `.agents/skills/shriji-testing-and-workflow/SKILL.md`
+- **sync-all.mjs** (3 connections) — `scripts/sync-all.mjs`
+- **isVercel** (1 connections) — `scripts/sync-all.mjs`
+- **rootDir** (1 connections) — `scripts/sync-all.mjs`
+- **run()** (1 connections) — `scripts/sync-all.mjs`
 
 ## Relationships
 
@@ -15,7 +15,7 @@
 
 ## Source Files
 
-- `.agents/skills/shriji-testing-and-workflow/SKILL.md`
+- `scripts/sync-all.mjs`
 
 ## Audit Trail
 

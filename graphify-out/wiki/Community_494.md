@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **OWASP Top 10 Security Checklist** (2 connections) — `docs/testing/security-penetration-testing-notes.md`
-- **security-penetration-testing-notes.md** (1 connections) — `docs/testing/security-penetration-testing-notes.md`
-- **Verified Protections** (1 connections) — `docs/testing/security-penetration-testing-notes.md`
+- **XSS Prevention & Content Sanitization Guidelines** (2 connections) — `docs/security/xss-and-content-sanitization.md`
+- **xss-and-content-sanitization.md** (1 connections) — `docs/security/xss-and-content-sanitization.md`
+- **Guidelines** (1 connections) — `docs/security/xss-and-content-sanitization.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/testing/security-penetration-testing-notes.md`
+- `docs/security/xss-and-content-sanitization.md`
 
 ## Audit Trail
 

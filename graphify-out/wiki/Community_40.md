@@ -1,54 +1,59 @@
 # Community 40
 
-> 36 nodes · cohesion 0.13
+> 35 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **Or()** (23 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **jr()** (22 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **gf()** (21 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **af()** (10 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **Ar()** (9 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **hr()** (9 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **mr()** (8 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **qr()** (8 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **Fr()** (7 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **Oi()** (7 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **xr()** (7 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **Ir()** (6 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **pr()** (6 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **Rr()** (6 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **wr()** (6 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **bn()** (5 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **br()** (5 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **qf()** (5 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **sm()** (5 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **ur()** (5 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **Vr()** (5 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **xn()** (5 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **gr()** (4 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **Ld()** (4 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **Lr()** (4 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- *... and 11 more nodes in this community*
+- **Product.jsx** (34 connections) — `src/pages/Product.jsx`
+- **dealer.js** (29 connections) — `src/data/dealer.js`
+- **Favorites.jsx** (20 connections) — `src/pages/Favorites.jsx`
+- **ProductCard.jsx** (19 connections) — `src/components/ProductCard.jsx`
+- **dealer.test.mjs** (18 connections) — `src/data/dealer.test.mjs`
+- **PriceBlock.jsx** (15 connections) — `src/components/PriceBlock.jsx`
+- **ProductCard()** (15 connections) — `src/components/ProductCard.jsx`
+- **Product()** (15 connections) — `src/pages/Product.jsx`
+- **priceFor()** (14 connections) — `src/data/dealer.js`
+- **useFavorites()** (13 connections) — `src/data/favoritesStore.js`
+- **inr()** (12 connections) — `src/data/dealer.js`
+- **viewerFor()** (8 connections) — `src/data/dealer.js`
+- **CustomerPrice()** (7 connections) — `src/components/PriceBlock.jsx`
+- **productSlug()** (7 connections) — `src/data/dealer.js`
+- **registerDealer()** (7 connections) — `src/data/dealer.js`
+- **shareLink()** (7 connections) — `src/data/dealer.js`
+- **tagFor()** (6 connections) — `src/data/dealer.js`
+- **DealerPrice()** (5 connections) — `src/components/PriceBlock.jsx`
+- **formatWhatsAppPhone()** (4 connections) — `src/data/dealer.js`
+- **slugifyProduct()** (4 connections) — `src/data/dealer.js`
+- **tierOf()** (4 connections) — `src/data/dealer.js`
+- **DEALERS** (3 connections) — `src/data/dealer.js`
+- **isFavorite()** (3 connections) — `src/data/favoritesStore.js`
+- **PriceBlock()** (2 connections) — `src/components/PriceBlock.jsx`
+- **price99()** (2 connections) — `src/data/dealer.js`
+- *... and 10 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (38 shared connections)
-- [[Zoho Backend & Proxy Endpoints]] (11 shared connections)
-- [[Product Requirements Documentation]] (8 shared connections)
-- [[Design System & UI Tokens]] (8 shared connections)
-- [[Community 42]] (3 shared connections)
-- [[Community 179]] (2 shared connections)
-- [[Pricing & Roles Skill]] (2 shared connections)
-- [[Community 66]] (1 shared connections)
+- [[Community 50]] (42 shared connections)
+- [[Oxlint Linter Configuration]] (19 shared connections)
+- [[Community 46]] (15 shared connections)
+- [[Zoho API Diagnostic Script]] (12 shared connections)
+- [[Community 168]] (5 shared connections)
+- [[Community 167]] (5 shared connections)
+- [[Community 109]] (3 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-CqsxiKMB.js`
+- `src/components/PriceBlock.jsx`
+- `src/components/ProductCard.jsx`
+- `src/data/dealer.js`
+- `src/data/dealer.test.mjs`
+- `src/data/favoritesStore.js`
+- `src/pages/Favorites.jsx`
+- `src/pages/Product.jsx`
 
 ## Audit Trail
 
-- EXTRACTED: 237 (100%)
+- EXTRACTED: 283 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

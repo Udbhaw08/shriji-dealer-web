@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **renderer-diagnostic-boundary.test.mjs** (2 connections) — `.agents/skills/archify/test/renderer-diagnostic-boundary.test.mjs`
-- **crashingRenderer()** (1 connections) — `.agents/skills/archify/test/renderer-diagnostic-boundary.test.mjs`
-- **runCrashingRenderer()** (1 connections) — `.agents/skills/archify/test/renderer-diagnostic-boundary.test.mjs`
+- **Content Security Policy (CSP) Directives** (2 connections) — `docs/security/content-security-policy.md`
+- **content-security-policy.md** (1 connections) — `docs/security/content-security-policy.md`
+- **Directives** (1 connections) — `docs/security/content-security-policy.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/renderer-diagnostic-boundary.test.mjs`
+- `docs/security/content-security-policy.md`
 
 ## Audit Trail
 

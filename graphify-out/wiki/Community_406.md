@@ -4,10 +4,10 @@
 
 ## Key Concepts
 
-- **Pricing Calculation & Zero-Leakage Rules Specification** (3 connections) — `docs/guides/pricing-rules.md`
-- **pricing-rules.md** (1 connections) — `docs/guides/pricing-rules.md`
-- **Overview** (1 connections) — `docs/guides/pricing-rules.md`
-- **Role Gating Rules** (1 connections) — `docs/guides/pricing-rules.md`
+- **Shriji Dealer Web — Agent Guidelines** (3 connections) — `AGENTS.md`
+- **AGENTS.md** (1 connections) — `AGENTS.md`
+- **Hard Rules** (1 connections) — `AGENTS.md`
+- **Specialized Skills Available** (1 connections) — `AGENTS.md`
 
 ## Relationships
 
@@ -15,7 +15,7 @@
 
 ## Source Files
 
-- `docs/guides/pricing-rules.md`
+- `AGENTS.md`
 
 ## Audit Trail
 

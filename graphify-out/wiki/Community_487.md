@@ -4,21 +4,21 @@
 
 ## Key Concepts
 
-- **Payment Data Isolation & Compliance Notes** (2 connections) — `docs/security/pci-dss-compliance-notes.md`
-- **pci-dss-compliance-notes.md** (1 connections) — `docs/security/pci-dss-compliance-notes.md`
-- **Architecture** (1 connections) — `docs/security/pci-dss-compliance-notes.md`
+- **variant** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **enum** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Project Readme & Layout]] (1 shared connections)
 
 ## Source Files
 
-- `docs/security/pci-dss-compliance-notes.md`
+- `.agents/skills/archify/schemas/workflow.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 5 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

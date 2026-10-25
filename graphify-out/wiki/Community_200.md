@@ -1,31 +1,32 @@
 # Community 200
 
-> 10 nodes · cohesion 0.20
+> 10 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **Viewer Runtime reference** (6 connections) — `.agents/skills/archify/references/viewer-runtime.md`
-- **Canonical exports** (4 connections) — `.agents/skills/archify/references/viewer-runtime.md`
-- **viewer-runtime.md** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
-- **Exploration** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
-- **Guided views and story** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
-- **Motion and presentation** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
-- **Reach Share Card** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
-- **Route Share Card** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
-- **Share Card** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
-- **Truth boundary** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
+- **items** (5 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **stages** (5 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **additionalProperties** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **required** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **type** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **maxItems** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **minItems** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Vercel Deployment Routing]] (3 shared connections)
+- [[Community 117]] (3 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/references/viewer-runtime.md`
+- `.agents/skills/archify/schemas/dataflow.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (100%)
+- EXTRACTED: 32 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

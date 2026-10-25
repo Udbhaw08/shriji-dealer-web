@@ -1,35 +1,33 @@
 # Community 155
 
-> 12 nodes · cohesion 0.26
+> 12 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **favoritesStore.js** (18 connections) — `src/data/favoritesStore.js`
-- **persist()** (5 connections) — `src/data/favoritesStore.js`
-- **addFavorite()** (3 connections) — `src/data/favoritesStore.js`
-- **isFavorite()** (3 connections) — `src/data/favoritesStore.js`
-- **removeFavorite()** (3 connections) — `src/data/favoritesStore.js`
-- **toggleFavorite()** (3 connections) — `src/data/favoritesStore.js`
-- **clearFavorites()** (2 connections) — `src/data/favoritesStore.js`
-- **notify()** (2 connections) — `src/data/favoritesStore.js`
-- **favoritesState** (1 connections) — `src/data/favoritesStore.js`
-- **getFavorites()** (1 connections) — `src/data/favoritesStore.js`
-- **listeners** (1 connections) — `src/data/favoritesStore.js`
-- **loadFromStorage()** (1 connections) — `src/data/favoritesStore.js`
+- **Generative AI** (11 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
+- **generative-ai.md** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
+- **Continuous improvement** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
+- **Inputs** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
+- **Models and datasets** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
+- **Outputs** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
+- **Privacy** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
+- **Transparency** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
 
 ## Relationships
 
-- [[Community 47]] (6 shared connections)
-- [[Master Codebase Architecture Reference]] (2 shared connections)
-- [[Community 54]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `src/data/favoritesStore.js`
+- `.agents/skills/apple-design/references/hig/generative-ai.md`
 
 ## Audit Trail
 
-- EXTRACTED: 43 (100%)
+- EXTRACTED: 22 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

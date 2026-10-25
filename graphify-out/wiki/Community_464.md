@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **iOS Code Signing & TestFlight Deployment** (2 connections) — `docs/mobile/ios-provisioning-and-signing.md`
-- **ios-provisioning-and-signing.md** (1 connections) — `docs/mobile/ios-provisioning-and-signing.md`
-- **Overview** (1 connections) — `docs/mobile/ios-provisioning-and-signing.md`
+- **Android Release Keystore & Bundle Guide** (2 connections) — `docs/mobile/android-keystore-generation.md`
+- **android-keystore-generation.md** (1 connections) — `docs/mobile/android-keystore-generation.md`
+- **Commands** (1 connections) — `docs/mobile/android-keystore-generation.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/mobile/ios-provisioning-and-signing.md`
+- `docs/mobile/android-keystore-generation.md`
 
 ## Audit Trail
 

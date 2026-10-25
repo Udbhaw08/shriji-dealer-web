@@ -4,10 +4,10 @@
 
 ## Key Concepts
 
-- **cursor-onboarding.test.mjs** (3 connections) — `.agents/skills/archify/test/cursor-onboarding.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/cursor-onboarding.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/cursor-onboarding.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/cursor-onboarding.test.mjs`
+- **Shriji Testing & Workflow Skill** (3 connections) — `.agents/skills/shriji-testing-and-workflow/SKILL.md`
+- **SKILL.md** (1 connections) — `.agents/skills/shriji-testing-and-workflow/SKILL.md`
+- **Daily Development Commands** (1 connections) — `.agents/skills/shriji-testing-and-workflow/SKILL.md`
+- **Hard Workflow Rules** (1 connections) — `.agents/skills/shriji-testing-and-workflow/SKILL.md`
 
 ## Relationships
 
@@ -15,7 +15,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/cursor-onboarding.test.mjs`
+- `.agents/skills/shriji-testing-and-workflow/SKILL.md`
 
 ## Audit Trail
 

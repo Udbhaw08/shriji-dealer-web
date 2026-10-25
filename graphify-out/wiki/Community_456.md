@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **PIN Code Serviceability Matrix** (2 connections) — `docs/guides/pincode-serviceability-matrix.md`
-- **pincode-serviceability-matrix.md** (1 connections) — `docs/guides/pincode-serviceability-matrix.md`
-- **Logistics Coverage** (1 connections) — `docs/guides/pincode-serviceability-matrix.md`
+- **Developer Cheat Sheet** (2 connections) — `docs/guides/developer-cheat-sheet.md`
+- **developer-cheat-sheet.md** (1 connections) — `docs/guides/developer-cheat-sheet.md`
+- **Common Commands** (1 connections) — `docs/guides/developer-cheat-sheet.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/guides/pincode-serviceability-matrix.md`
+- `docs/guides/developer-cheat-sheet.md`
 
 ## Audit Trail
 

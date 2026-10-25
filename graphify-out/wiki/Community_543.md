@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **slugify.js** (1 connections) — `backend/src/utils/slugify.js`
-- **slugify()** (1 connections) — `backend/src/utils/slugify.js`
+- **dateUtils.js** (1 connections) — `src/utils/dateUtils.js`
+- **formatRelativeTime()** (1 connections) — `src/utils/dateUtils.js`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `backend/src/utils/slugify.js`
+- `src/utils/dateUtils.js`
 
 ## Audit Trail
 

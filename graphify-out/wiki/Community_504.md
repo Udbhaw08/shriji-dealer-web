@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **stringUtils.js** (2 connections) — `src/utils/stringUtils.js`
-- **titleCase()** (1 connections) — `src/utils/stringUtils.js`
-- **truncate()** (1 connections) — `src/utils/stringUtils.js`
+- **maskSensitiveData.js** (2 connections) — `backend/src/utils/maskSensitiveData.js`
+- **maskEmail()** (1 connections) — `backend/src/utils/maskSensitiveData.js`
+- **maskPhoneNumber()** (1 connections) — `backend/src/utils/maskSensitiveData.js`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `src/utils/stringUtils.js`
+- `backend/src/utils/maskSensitiveData.js`
 
 ## Audit Trail
 

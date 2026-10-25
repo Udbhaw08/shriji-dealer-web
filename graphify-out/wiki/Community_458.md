@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **Zoho Commerce API Rate Limiting & Multi-Tier Caching** (2 connections) — `docs/guides/zoho-rate-limits-and-caching.md`
-- **zoho-rate-limits-and-caching.md** (1 connections) — `docs/guides/zoho-rate-limits-and-caching.md`
-- **Rate Limits** (1 connections) — `docs/guides/zoho-rate-limits-and-caching.md`
+- **PIN Code Serviceability Matrix** (2 connections) — `docs/guides/pincode-serviceability-matrix.md`
+- **pincode-serviceability-matrix.md** (1 connections) — `docs/guides/pincode-serviceability-matrix.md`
+- **Logistics Coverage** (1 connections) — `docs/guides/pincode-serviceability-matrix.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/guides/zoho-rate-limits-and-caching.md`
+- `docs/guides/pincode-serviceability-matrix.md`
 
 ## Audit Trail
 

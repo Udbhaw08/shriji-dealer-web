@@ -1,4 +1,4 @@
-import { fetchZohoProducts, fetchZohoCategories } from "../_lib/zoho.js";
+import { fetchZohoProducts, fetchZohoCategories, readProductsDiskCache } from "../_lib/zoho.js";
 import { getDealerPricingEligibility, maskCatalogPricing } from "../_lib/dealerPricingAuth.js";
 
 export default async function handler(req, res) {
@@ -20,14 +20,37 @@ export default async function handler(req, res) {
     const refresh = req.query?.refresh === "true";
 
     // Enforce server-side authorization: only verified approved dealers/staff get wholesale pricing
-    const { eligible, pricebookId } = await getDealerPricingEligibility(req);
+    let eligible = false;
+    let pricebookId = null;
+    try {
+      const authResult = await getDealerPricingEligibility(req);
+      eligible = Boolean(authResult?.eligible);
+      pricebookId = authResult?.pricebookId || null;
+    } catch (authErr) {
+      console.warn("[api/products] auth check failed, defaulting to customer view:", authErr.message);
+    }
 
     const targetPricebookId = eligible && pricebookId ? pricebookId : "3334672000000547177";
 
-    const [rawProducts, categories] = await Promise.all([
-      fetchZohoProducts({ refresh, pricebookId: targetPricebookId }),
-      fetchZohoCategories({ refresh }),
-    ]);
+    let rawProducts = [];
+    let categories = [];
+    try {
+      const results = await Promise.all([
+        fetchZohoProducts({ refresh, pricebookId: targetPricebookId }),
+        fetchZohoCategories({ refresh }),
+      ]);
+      rawProducts = results[0] || [];
+      categories = results[1] || [];
+    } catch (fetchErr) {
+      console.warn("[api/products] Zoho fetch failed, attempting cache fallback:", fetchErr.message);
+      const diskData = readProductsDiskCache();
+      if (diskData?.products?.length) {
+        rawProducts = diskData.products;
+        categories = diskData.categories || [];
+      } else {
+        throw fetchErr;
+      }
+    }
 
     // Mask restricted wholesale & internal purchase pricing for ineligible visitors
     const products = maskCatalogPricing(rawProducts, eligible);

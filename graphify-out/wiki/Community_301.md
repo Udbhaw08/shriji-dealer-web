@@ -1,29 +1,34 @@
 # Community 301
 
-> 7 nodes · cohesion 0.29
+> 8 nodes · cohesion 0.43
 
 ## Key Concepts
 
-- **MockStorage** (6 connections) — `src/data/productsStore.test.mjs`
-- **productsStore.test.mjs** (1 connections) — `src/data/productsStore.test.mjs`
-- **.clear()** (1 connections) — `src/data/productsStore.test.mjs`
-- **.constructor()** (1 connections) — `src/data/productsStore.test.mjs`
-- **.getItem()** (1 connections) — `src/data/productsStore.test.mjs`
-- **.removeItem()** (1 connections) — `src/data/productsStore.test.mjs`
-- **.setItem()** (1 connections) — `src/data/productsStore.test.mjs`
+- **workflow-migration-geometry.mjs** (10 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
+- **createMappedWorkflowCandidate()** (9 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
+- **intrinsicWorkflow()** (8 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
+- **planningWorkflow()** (7 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
+- **createHorizontalRankMapper()** (4 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
+- **clone()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
+- **mapExplicitCoordinates()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
+- **mappedNumber()** (1 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 131]] (8 shared connections)
+- [[Community 139]] (5 shared connections)
+- [[Community 61]] (4 shared connections)
+- [[Dependencies & Package Config]] (3 shared connections)
+- [[Community 85]] (1 shared connections)
 
 ## Source Files
 
-- `src/data/productsStore.test.mjs`
+- `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 44 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

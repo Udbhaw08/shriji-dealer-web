@@ -1,40 +1,37 @@
 # Community 145
 
-> 13 nodes · cohesion 0.15
+> 13 nodes · cohesion 0.31
 
 ## Key Concepts
 
-- **bc()** (18 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **wc()** (9 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **dc()** (6 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **Cc()** (5 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **pf()** (4 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **ro()** (4 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **Sc()** (4 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **Lc()** (3 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **po()** (3 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **render()** (3 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **componentDidCatch()** (2 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **mc()** (2 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
-- **uo()** (2 connections) — `ios/App/App/public/assets/index-CqsxiKMB.js`
+- **focus-browser.test.mjs** (17 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
+- **run()** (8 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
+- **stable()** (6 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
+- **click()** (4 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
+- **load()** (4 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
+- **point()** (4 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
+- **key()** (3 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
+- **move()** (3 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
+- **select()** (3 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
+- **focus()** (2 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
+- **snapshot()** (2 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
+- **variant()** (1 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (16 shared connections)
-- [[Zoho Backend & Proxy Endpoints]] (9 shared connections)
-- [[Product Requirements Documentation]] (6 shared connections)
-- [[Design System & UI Tokens]] (4 shared connections)
-- [[Pricing & Roles Skill]] (3 shared connections)
-- [[Community 42]] (2 shared connections)
-- [[Community 66]] (1 shared connections)
+- [[Community 85]] (5 shared connections)
+- [[Community 62]] (3 shared connections)
+- [[Community 45]] (1 shared connections)
+- [[Community 214]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-CqsxiKMB.js`
+- `.agents/skills/archify/test/focus-browser.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 65 (100%)
+- EXTRACTED: 58 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

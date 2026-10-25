@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **context.md** (0 connections) — `design/context.md`
+- **cordova.variables.gradle** (0 connections) — `android/capacitor-cordova-android-plugins/cordova.variables.gradle`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `design/context.md`
+- `android/capacitor-cordova-android-plugins/cordova.variables.gradle`
 
 ## Audit Trail
 

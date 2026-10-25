@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **smsFallback.js** (1 connections) — `backend/src/services/smsFallback.js`
-- **sendSmsOtpFallback()** (1 connections) — `backend/src/services/smsFallback.js`
+- **make-scheme-pdfs.mjs** (1 connections) — `scripts/make-scheme-pdfs.mjs`
+- **createPdfWithJpg()** (1 connections) — `scripts/make-scheme-pdfs.mjs`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `backend/src/services/smsFallback.js`
+- `scripts/make-scheme-pdfs.mjs`
 
 ## Audit Trail
 

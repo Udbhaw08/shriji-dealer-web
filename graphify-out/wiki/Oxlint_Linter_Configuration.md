@@ -1,70 +1,69 @@
 # Oxlint Linter Configuration
 
-> 45 nodes · cohesion 0.09
+> 47 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **sql** (76 connections) — `backend/src/db/pool.js`
-- **dealers.js** (46 connections) — `backend/src/routes/dealers.js`
-- **staff.js** (23 connections) — `backend/src/services/staff.js`
-- **audit()** (18 connections) — `backend/src/utils/audit.js`
-- **auth.js** (12 connections) — `backend/src/middleware/auth.js`
-- **generateUniqueDealerCode()** (10 connections) — `backend/src/utils/loginCode.js`
-- **applyDealer()** (7 connections) — `backend/src/services/dealerApp.js`
-- **audit.js** (7 connections) — `backend/src/utils/audit.js`
-- **sync-supabase-content.js** (6 connections) — `backend/scripts/sync-supabase-content.js`
-- **provisionDealerInCrm()** (6 connections) — `backend/src/services/dealerApp.js`
-- **createInvite()** (6 connections) — `backend/src/services/staff.js`
-- **jwtAuth()** (5 connections) — `backend/src/middleware/auth.js`
-- **requireAdmin()** (5 connections) — `backend/src/middleware/auth.js`
-- **seed-content.js** (4 connections) — `backend/scripts/seed-content.js`
-- **deactivateDealer()** (4 connections) — `backend/src/services/dealerApp.js`
-- **approveStaff()** (4 connections) — `backend/src/services/staff.js`
-- **deleteStaff()** (4 connections) — `backend/src/services/staff.js`
-- **holdStaff()** (4 connections) — `backend/src/services/staff.js`
-- **resumeStaff()** (4 connections) — `backend/src/services/staff.js`
-- **revokeStaff()** (4 connections) — `backend/src/services/staff.js`
-- **toggleAllStaffPrice()** (4 connections) — `backend/src/services/staff.js`
-- **toggleStaffPrice()** (4 connections) — `backend/src/services/staff.js`
-- **info.js** (3 connections) — `api/dealer/info.js`
-- **requireApprovedDealer()** (3 connections) — `backend/src/middleware/auth.js`
-- **inspect-db.js** (3 connections) — `backend/scripts/inspect-db.js`
-- *... and 20 more nodes in this community*
+- **ui.jsx** (45 connections) — `src/ui.jsx`
+- **Home.jsx** (26 connections) — `src/pages/Home.jsx`
+- **site.js** (24 connections) — `src/data/site.js`
+- **Icon()** (20 connections) — `src/ui.jsx`
+- **Schemes.jsx** (17 connections) — `src/pages/Schemes.jsx`
+- **COMPANY** (16 connections) — `src/data/site.js`
+- **Support.jsx** (16 connections) — `src/pages/Support.jsx`
+- **HeroSlider.jsx** (12 connections) — `src/components/HeroSlider.jsx`
+- **ContentAdminDashboard.jsx** (12 connections) — `src/pages/ContentAdminDashboard.jsx`
+- **api.js** (11 connections) — `src/data/api.js`
+- **UnderMaintenance.jsx** (8 connections) — `src/components/UnderMaintenance.jsx`
+- **UnderMaintenance()** (5 connections) — `src/components/UnderMaintenance.jsx`
+- **LegalPrivacy.jsx** (5 connections) — `src/pages/LegalPrivacy.jsx`
+- **LegalTerms.jsx** (5 connections) — `src/pages/LegalTerms.jsx`
+- **PrivacyPolicy.jsx** (5 connections) — `src/pages/PrivacyPolicy.jsx`
+- **TermsOfService.jsx** (5 connections) — `src/pages/TermsOfService.jsx`
+- **video.js** (5 connections) — `src/utils/video.js`
+- **FileOrUrlInput.jsx** (4 connections) — `src/components/FileOrUrlInput.jsx`
+- **EnquiryButtons()** (4 connections) — `src/ui.jsx`
+- **parseVideoUrl()** (4 connections) — `src/utils/video.js`
+- **HeroSlider()** (3 connections) — `src/components/HeroSlider.jsx`
+- **SCHEMES** (3 connections) — `src/data/site.js`
+- **STATS** (3 connections) — `src/data/site.js`
+- **video-banner.test.mjs** (3 connections) — `src/data/video-banner.test.mjs`
+- **FileOrUrlInput()** (2 connections) — `src/components/FileOrUrlInput.jsx`
+- *... and 22 more nodes in this community*
 
 ## Relationships
 
-- [[Community 37]] (33 shared connections)
-- [[Community 59]] (27 shared connections)
-- [[Community 43]] (14 shared connections)
-- [[Zoho Integration Architecture]] (14 shared connections)
-- [[Community 89]] (11 shared connections)
-- [[Community 74]] (10 shared connections)
-- [[Community 113]] (4 shared connections)
-- [[Community 146]] (3 shared connections)
-- [[Community 189]] (2 shared connections)
-- [[Community 98]] (1 shared connections)
+- [[Community 50]] (46 shared connections)
+- [[Zoho API Diagnostic Script]] (21 shared connections)
+- [[Community 40]] (19 shared connections)
+- [[Community 46]] (11 shared connections)
+- [[Community 168]] (5 shared connections)
+- [[Community 38]] (3 shared connections)
+- [[Community 167]] (1 shared connections)
 
 ## Source Files
 
-- `api/dealer/info.js`
-- `backend/scripts/check-readiness.js`
-- `backend/scripts/inspect-db.js`
-- `backend/scripts/seed-content.js`
-- `backend/scripts/setup-buckets.js`
-- `backend/scripts/setup-policies.js`
-- `backend/scripts/sync-supabase-content.js`
-- `backend/src/db/pool.js`
-- `backend/src/middleware/auth.js`
-- `backend/src/routes/dealers.js`
-- `backend/src/services/dealerApp.js`
-- `backend/src/services/staff.js`
-- `backend/src/utils/audit.js`
-- `backend/src/utils/loginCode.js`
+- `src/components/FileOrUrlInput.jsx`
+- `src/components/HeroSlider.jsx`
+- `src/components/UnderMaintenance.jsx`
+- `src/data/api.js`
+- `src/data/site.js`
+- `src/data/video-banner.test.mjs`
+- `src/pages/ContentAdminDashboard.jsx`
+- `src/pages/Home.jsx`
+- `src/pages/LegalPrivacy.jsx`
+- `src/pages/LegalTerms.jsx`
+- `src/pages/PrivacyPolicy.jsx`
+- `src/pages/Schemes.jsx`
+- `src/pages/Support.jsx`
+- `src/pages/TermsOfService.jsx`
+- `src/ui.jsx`
+- `src/utils/video.js`
 
 ## Audit Trail
 
-- EXTRACTED: 303 (99%)
-- INFERRED: 4 (1%)
+- EXTRACTED: 295 (100%)
+- INFERRED: 1 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

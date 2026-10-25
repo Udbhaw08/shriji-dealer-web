@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **Autocannon Load Test Benchmarks** (2 connections) — `docs/testing/load-testing-benchmarks.md`
-- **load-testing-benchmarks.md** (1 connections) — `docs/testing/load-testing-benchmarks.md`
-- **Targets** (1 connections) — `docs/testing/load-testing-benchmarks.md`
+- **Rate Limiting Strategies & Brute-Force Defense** (2 connections) — `docs/security/rate-limiting-strategies.md`
+- **rate-limiting-strategies.md** (1 connections) — `docs/security/rate-limiting-strategies.md`
+- **Security Thresholds** (1 connections) — `docs/security/rate-limiting-strategies.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/testing/load-testing-benchmarks.md`
+- `docs/security/rate-limiting-strategies.md`
 
 ## Audit Trail
 

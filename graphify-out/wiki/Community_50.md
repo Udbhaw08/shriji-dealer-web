@@ -1,52 +1,72 @@
 # Community 50
 
-> 30 nodes · cohesion 0.09
+> 29 nodes · cohesion 0.21
 
 ## Key Concepts
 
-- **check-update.mjs** (99 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **encodeRecoverableState()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **guardedCacheEntryRead()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **notification()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **operationIsActive()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **stateAfterFailedCheck()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **stateWithFailureCheck()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **assertSafeCacheEntry()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **cancelResponseBody()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **corruptClaimStatus()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **encodeBoundedState()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **eventKeyForDigest()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **metadataIsWithinLease()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **nextFailedCheck()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **readBoundedBody()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **stateAfterAcknowledgement()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **assertRenameableCacheEntry()** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **assertSafeRegularFile()** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **CacheOperationRaceError** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **CachePathChangedError** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **defaultCacheDirectory()** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **defaultReleasePath** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **FileIdentityChangedError** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **isMainModule()** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **MAX_CACHE_HORIZON_MS** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- *... and 5 more nodes in this community*
+- **main.jsx** (50 connections) — `src/main.jsx`
+- **useSession()** (38 connections) — `src/data/session.js`
+- **useLanguage()** (31 connections) — `src/data/i18n.js`
+- **isDealer()** (18 connections) — `src/data/dealer.js`
+- **t()** (18 connections) — `src/data/i18n.js`
+- **MobileBottomNav.jsx** (16 connections) — `src/components/MobileBottomNav.jsx`
+- **isPortalGated()** (14 connections) — `src/data/portalGate.js`
+- **dealerById()** (12 connections) — `src/data/dealer.js`
+- **Favorites()** (9 connections) — `src/pages/Favorites.jsx`
+- **Products()** (9 connections) — `src/pages/Products.jsx`
+- **Header()** (9 connections) — `src/ui.jsx`
+- **MobileBottomNav()** (8 connections) — `src/components/MobileBottomNav.jsx`
+- **portalGate.js** (8 connections) — `src/data/portalGate.js`
+- **Home()** (8 connections) — `src/pages/Home.jsx`
+- **Login()** (7 connections) — `src/pages/Login.jsx`
+- **DealerPending.jsx** (6 connections) — `src/pages/DealerPending.jsx`
+- **Schemes()** (6 connections) — `src/pages/Schemes.jsx`
+- **AccountLink()** (6 connections) — `src/ui.jsx`
+- **Footer()** (6 connections) — `src/ui.jsx`
+- **Support()** (5 connections) — `src/pages/Support.jsx`
+- **EmailVerificationPrompt()** (3 connections) — `src/components/EmailVerificationPrompt.jsx`
+- **DealerApply()** (3 connections) — `src/pages/DealerApply.jsx`
+- **DealerDashboard()** (3 connections) — `src/pages/DealerDashboard.jsx`
+- **DealerPending()** (3 connections) — `src/pages/DealerPending.jsx`
+- **ConditionalBottomNav()** (3 connections) — `src/main.jsx`
+- *... and 4 more nodes in this community*
 
 ## Relationships
 
-- [[Community 96]] (21 shared connections)
-- [[Community 112]] (19 shared connections)
-- [[Community 104]] (19 shared connections)
-- [[Community 62]] (16 shared connections)
-- [[Community 34]] (1 shared connections)
+- [[Oxlint Linter Configuration]] (46 shared connections)
+- [[Community 40]] (42 shared connections)
+- [[Zoho API Diagnostic Script]] (22 shared connections)
+- [[Community 46]] (11 shared connections)
+- [[Community 38]] (6 shared connections)
+- [[Community 168]] (4 shared connections)
+- [[Community 167]] (1 shared connections)
+- [[Community 403]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/scripts/check-update.mjs`
+- `src/components/EmailVerificationPrompt.jsx`
+- `src/components/MobileBottomNav.jsx`
+- `src/components/NativeBackHandler.jsx`
+- `src/data/dealer.js`
+- `src/data/i18n.js`
+- `src/data/portalGate.js`
+- `src/data/session.js`
+- `src/main.jsx`
+- `src/pages/DealerApply.jsx`
+- `src/pages/DealerDashboard.jsx`
+- `src/pages/DealerPending.jsx`
+- `src/pages/Favorites.jsx`
+- `src/pages/Home.jsx`
+- `src/pages/Login.jsx`
+- `src/pages/Products.jsx`
+- `src/pages/Schemes.jsx`
+- `src/pages/Support.jsx`
+- `src/ui.jsx`
 
 ## Audit Trail
 
-- EXTRACTED: 152 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 306 (100%)
+- INFERRED: 1 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

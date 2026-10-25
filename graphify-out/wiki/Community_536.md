@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **clipboard.js** (1 connections) — `src/utils/clipboard.js`
-- **copyToClipboard()** (1 connections) — `src/utils/clipboard.js`
+- **checkout-line-endings.test.mjs** (1 connections) — `.agents/skills/archify/test/checkout-line-endings.test.mjs`
+- **repoRoot** (1 connections) — `.agents/skills/archify/test/checkout-line-endings.test.mjs`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `src/utils/clipboard.js`
+- `.agents/skills/archify/test/checkout-line-endings.test.mjs`
 
 ## Audit Trail
 

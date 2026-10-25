@@ -4,19 +4,19 @@
 
 ## Key Concepts
 
-- **Shriji Dealer Backend — Render Deployment Runbook** (7 connections) — `docs/RENDER-DEPLOYMENT-RUNBOOK.md`
-- **5. Connecting Frontend to the Live Backend** (4 connections) — `docs/RENDER-DEPLOYMENT-RUNBOOK.md`
-- **2. Choosing Your Deployment Method** (3 connections) — `docs/RENDER-DEPLOYMENT-RUNBOOK.md`
-- **RENDER-DEPLOYMENT-RUNBOOK.md** (1 connections) — `docs/RENDER-DEPLOYMENT-RUNBOOK.md`
-- **1. In Vercel (or production frontend host):** (1 connections) — `docs/RENDER-DEPLOYMENT-RUNBOOK.md`
-- **1. Summary of Changes Made to Prepare the Codebase** (1 connections) — `docs/RENDER-DEPLOYMENT-RUNBOOK.md`
-- **2. In Local `.env.local` (for testing):** (1 connections) — `docs/RENDER-DEPLOYMENT-RUNBOOK.md`
-- **3. Environment Variables Reference** (1 connections) — `docs/RENDER-DEPLOYMENT-RUNBOOK.md`
-- **3. In Zoho CRM Workflow (Dealer Approval Webhook):** (1 connections) — `docs/RENDER-DEPLOYMENT-RUNBOOK.md`
-- **4. Free vs. Starter Plan Note** (1 connections) — `docs/RENDER-DEPLOYMENT-RUNBOOK.md`
-- **6. How to Verify After Deployment** (1 connections) — `docs/RENDER-DEPLOYMENT-RUNBOOK.md`
-- **Method A: One-Click Render Blueprint (Recommended)** (1 connections) — `docs/RENDER-DEPLOYMENT-RUNBOOK.md`
-- **Method B: Manual Web Service Setup (Step-by-Step)** (1 connections) — `docs/RENDER-DEPLOYMENT-RUNBOOK.md`
+- **Product** (12 connections) — `PRODUCT.md`
+- **PRODUCT.md** (1 connections) — `PRODUCT.md`
+- **Accessibility & Inclusion** (1 connections) — `PRODUCT.md`
+- **Brand Commitments** (1 connections) — `PRODUCT.md`
+- **Capabilities and Constraints** (1 connections) — `PRODUCT.md`
+- **Evidence on Hand** (1 connections) — `PRODUCT.md`
+- **Operating Context** (1 connections) — `PRODUCT.md`
+- **Platform** (1 connections) — `PRODUCT.md`
+- **Positioning** (1 connections) — `PRODUCT.md`
+- **Product Principles** (1 connections) — `PRODUCT.md`
+- **Product Purpose** (1 connections) — `PRODUCT.md`
+- **Stack** (1 connections) — `PRODUCT.md`
+- **Users** (1 connections) — `PRODUCT.md`
 
 ## Relationships
 
@@ -24,7 +24,7 @@
 
 ## Source Files
 
-- `docs/RENDER-DEPLOYMENT-RUNBOOK.md`
+- `PRODUCT.md`
 
 ## Audit Trail
 

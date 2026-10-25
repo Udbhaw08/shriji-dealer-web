@@ -1,48 +1,41 @@
 # Community 98
 
-> 18 nodes · cohesion 0.16
+> 19 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **securityPhase1.test.mjs** (16 connections) — `backend/test/securityPhase1.test.mjs`
-- **uploads.js** (8 connections) — `backend/src/routes/uploads.js`
-- **download.js** (6 connections) — `api/download.js`
-- **handler()** (5 connections) — `api/download.js`
-- **ssrf.js** (5 connections) — `api/_lib/ssrf.js`
-- **validateSafeDownloadUrl()** (5 connections) — `api/_lib/ssrf.js`
-- **uploadsRouter** (4 connections) — `backend/src/routes/uploads.js`
-- **safeFetchWithRedirects()** (3 connections) — `api/download.js`
-- **isPrivateOrReservedIp()** (3 connections) — `api/_lib/ssrf.js`
-- **wrapJpegInPdf()** (2 connections) — `api/download.js`
-- **ALLOWED_REMOTE_HOSTS** (1 connections) — `api/_lib/ssrf.js`
-- **ALLOWED_FOLDERS** (1 connections) — `backend/src/routes/uploads.js`
-- **MIME_TYPES** (1 connections) — `backend/src/routes/uploads.js`
-- **json()** (1 connections) — `backend/test/securityPhase1.test.mjs`
-- **sendFile()** (1 connections) — `backend/test/securityPhase1.test.mjs`
-- **setHeader()** (1 connections) — `backend/test/securityPhase1.test.mjs`
-- **status()** (1 connections) — `backend/test/securityPhase1.test.mjs`
-- **validateMagicBytes()** (1 connections) — `backend/test/securityPhase1.test.mjs`
+- **workflow.schema.json** (8 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **semanticRelation** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **$defs** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **from** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **to** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **properties** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **side** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **$id** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **required** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **$schema** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **required** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **enum** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **title** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
 
 ## Relationships
 
-- [[Community 43]] (4 shared connections)
-- [[Community 153]] (3 shared connections)
-- [[Community 146]] (3 shared connections)
-- [[Community 189]] (2 shared connections)
-- [[Community 59]] (1 shared connections)
-- [[Oxlint Linter Configuration]] (1 shared connections)
-- [[Community 89]] (1 shared connections)
+- [[Project Readme & Layout]] (2 shared connections)
+- [[Community 83]] (1 shared connections)
 
 ## Source Files
 
-- `api/_lib/ssrf.js`
-- `api/download.js`
-- `backend/src/routes/uploads.js`
-- `backend/test/securityPhase1.test.mjs`
+- `.agents/skills/archify/schemas/workflow.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 65 (100%)
+- EXTRACTED: 39 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

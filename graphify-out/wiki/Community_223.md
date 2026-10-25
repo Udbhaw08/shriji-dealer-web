@@ -4,15 +4,15 @@
 
 ## Key Concepts
 
-- **Materials** (6 connections) — `.agents/skills/apple-design/references/hig/materials.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/materials.md`
-- **materials.md** (1 connections) — `.agents/skills/apple-design/references/hig/materials.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/materials.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/materials.md`
-- **Liquid Glass** (1 connections) — `.agents/skills/apple-design/references/hig/materials.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/materials.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/materials.md`
-- **Standard materials** (1 connections) — `.agents/skills/apple-design/references/hig/materials.md`
+- **Playing audio** (6 connections) — `.agents/skills/apple-design/references/hig/playing-audio.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/playing-audio.md`
+- **playing-audio.md** (1 connections) — `.agents/skills/apple-design/references/hig/playing-audio.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/playing-audio.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/playing-audio.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/playing-audio.md`
+- **Handling interruptions** (1 connections) — `.agents/skills/apple-design/references/hig/playing-audio.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/playing-audio.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/playing-audio.md`
 
 ## Relationships
 
@@ -20,7 +20,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/materials.md`
+- `.agents/skills/apple-design/references/hig/playing-audio.md`
 
 ## Audit Trail
 
