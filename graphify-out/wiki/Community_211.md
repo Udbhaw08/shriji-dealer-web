@@ -1,19 +1,18 @@
 # Community 211
 
-> 10 nodes · cohesion 0.22
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **whatsappOtp.test.mjs** (9 connections) — `backend/test/whatsappOtp.test.mjs`
-- **resetConfig()** (2 connections) — `backend/test/whatsappOtp.test.mjs`
-- **resetDb()** (2 connections) — `backend/test/whatsappOtp.test.mjs`
-- **app** (1 connections) — `backend/test/whatsappOtp.test.mjs`
-- **db** (1 connections) — `backend/test/whatsappOtp.test.mjs`
-- **logEntries** (1 connections) — `backend/test/whatsappOtp.test.mjs`
-- **mockSql()** (1 connections) — `backend/test/whatsappOtp.test.mjs`
-- **startServer()** (1 connections) — `backend/test/whatsappOtp.test.mjs`
-- **stopServer()** (1 connections) — `backend/test/whatsappOtp.test.mjs`
-- **testEnv** (1 connections) — `backend/test/whatsappOtp.test.mjs`
+- **web-COHTIiiH.js** (8 connections) — `android/app/src/main/assets/public/assets/web-COHTIiiH.js`
+- **constructor()** (1 connections) — `android/app/src/main/assets/public/assets/web-COHTIiiH.js`
+- **exitApp()** (1 connections) — `android/app/src/main/assets/public/assets/web-COHTIiiH.js`
+- **getAppLanguage()** (1 connections) — `android/app/src/main/assets/public/assets/web-COHTIiiH.js`
+- **getInfo()** (1 connections) — `android/app/src/main/assets/public/assets/web-COHTIiiH.js`
+- **getLaunchUrl()** (1 connections) — `android/app/src/main/assets/public/assets/web-COHTIiiH.js`
+- **getState()** (1 connections) — `android/app/src/main/assets/public/assets/web-COHTIiiH.js`
+- **minimizeApp()** (1 connections) — `android/app/src/main/assets/public/assets/web-COHTIiiH.js`
+- **toggleBackButtonHandler()** (1 connections) — `android/app/src/main/assets/public/assets/web-COHTIiiH.js`
 
 ## Relationships
 
@@ -21,11 +20,11 @@
 
 ## Source Files
 
-- `backend/test/whatsappOtp.test.mjs`
+- `android/app/src/main/assets/public/assets/web-COHTIiiH.js`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

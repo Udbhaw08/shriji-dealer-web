@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **OWASP Top 10 Security Checklist** (2 connections) — `docs/testing/security-penetration-testing-notes.md`
-- **security-penetration-testing-notes.md** (1 connections) — `docs/testing/security-penetration-testing-notes.md`
-- **Verified Protections** (1 connections) — `docs/testing/security-penetration-testing-notes.md`
+- **maskSensitiveData.js** (2 connections) — `backend/src/utils/maskSensitiveData.js`
+- **maskEmail()** (1 connections) — `backend/src/utils/maskSensitiveData.js`
+- **maskPhoneNumber()** (1 connections) — `backend/src/utils/maskSensitiveData.js`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/testing/security-penetration-testing-notes.md`
+- `backend/src/utils/maskSensitiveData.js`
 
 ## Audit Trail
 

@@ -1,60 +1,55 @@
 # Product Brand & Business Vision
 
-> 54 nodes · cohesion 0.12
+> 54 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **auth.js** (52 connections) — `backend/src/routes/auth.js`
-- **dealerApp.js** (44 connections) — `backend/src/services/dealerApp.js`
-- **crmClient.js** (34 connections) — `backend/src/services/crmClient.js`
-- **normalizePhone()** (19 connections) — `backend/src/utils/phone.js`
-- **normalizeEmail()** (18 connections) — `backend/src/utils/validators.js`
-- **notifications.js** (16 connections) — `backend/src/services/notifications.js`
-- **validators.js** (15 connections) — `backend/src/utils/validators.js`
-- **crmFetch()** (14 connections) — `backend/src/services/crmClient.js`
-- **requestDealerRegistrationOtp()** (14 connections) — `backend/src/services/dealerApp.js`
-- **finalizeDealerRegistration()** (12 connections) — `backend/src/services/dealerApp.js`
-- **isValidPhone()** (11 connections) — `backend/src/utils/validators.js`
-- **cleanName()** (9 connections) — `backend/src/utils/validators.js`
-- **httpError()** (8 connections) — `backend/src/middleware/errorHandler.js`
-- **crmConfigured()** (8 connections) — `backend/src/services/crmClient.js`
-- **validators.test.mjs** (8 connections) — `backend/test/validators.test.mjs`
-- **verifyDealerRegistrationOtp()** (7 connections) — `backend/src/services/dealerApp.js`
-- **sendWhatsAppOtp()** (7 connections) — `backend/src/services/notifications.js`
-- **phone.js** (7 connections) — `backend/src/utils/phone.js`
-- **isValidEmail()** (7 connections) — `backend/src/utils/validators.js`
-- **interconnection.test.mjs** (6 connections) — `backend/test/interconnection.test.mjs`
-- **isValidName()** (6 connections) — `backend/src/utils/validators.js`
-- **issueSession()** (5 connections) — `backend/src/routes/auth.js`
-- **createDealerAccount()** (5 connections) — `backend/src/services/crmClient.js`
-- **createDealerContact()** (5 connections) — `backend/src/services/crmClient.js`
-- **findOwnerContactInAccount()** (5 connections) — `backend/src/services/crmClient.js`
+- **at()** (21 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
+- **k()** (20 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
+- **U()** (19 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
+- **ct()** (16 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
+- **A()** (12 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
+- **Dn()** (12 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
+- **pt()** (12 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
+- **dt()** (11 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
+- **mt()** (11 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
+- **ye()** (11 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
+- **so()** (10 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
+- **st()** (9 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
+- **xt()** (9 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
+- **kf()** (8 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
+- **lt()** (8 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
+- **tt()** (8 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
+- **Gt()** (7 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
+- **I()** (7 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
+- **Id()** (7 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
+- **it()** (7 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
+- **je()** (7 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
+- **jn()** (7 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
+- **P()** (7 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
+- **ro()** (7 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
+- **rt()** (7 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
 - *... and 29 more nodes in this community*
 
 ## Relationships
 
-- [[Community 31]] (37 shared connections)
-- [[Product Requirements Documentation]] (18 shared connections)
-- [[Community 104]] (17 shared connections)
-- [[Pricing Regression Test Suite]] (16 shared connections)
-- [[Community 71]] (4 shared connections)
+- [[Price Presentation & Product UI]] (62 shared connections)
+- [[Community 30]] (26 shared connections)
+- [[Pricing & Roles Skill]] (18 shared connections)
+- [[Community 54]] (14 shared connections)
+- [[Product Pages Specification]] (12 shared connections)
+- [[Architecture Doc Generator]] (10 shared connections)
+- [[Community 50]] (6 shared connections)
+- [[Community 175]] (6 shared connections)
+- [[Community 39]] (6 shared connections)
 
 ## Source Files
 
-- `backend/src/middleware/errorHandler.js`
-- `backend/src/routes/auth.js`
-- `backend/src/routes/dealers.js`
-- `backend/src/services/crmClient.js`
-- `backend/src/services/dealerApp.js`
-- `backend/src/services/notifications.js`
-- `backend/src/utils/phone.js`
-- `backend/src/utils/validators.js`
-- `backend/test/interconnection.test.mjs`
-- `backend/test/validators.test.mjs`
+- `ios/App/App/public/assets/index-B_clvtkR.js`
 
 ## Audit Trail
 
-- EXTRACTED: 428 (100%)
+- EXTRACTED: 380 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

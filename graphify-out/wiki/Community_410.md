@@ -4,10 +4,10 @@
 
 ## Key Concepts
 
-- **Pricing Calculation & Zero-Leakage Rules Specification** (3 connections) — `docs/guides/pricing-rules.md`
-- **pricing-rules.md** (1 connections) — `docs/guides/pricing-rules.md`
-- **Overview** (1 connections) — `docs/guides/pricing-rules.md`
-- **Role Gating Rules** (1 connections) — `docs/guides/pricing-rules.md`
+- **Cross-platform translation** (3 connections) — `.agents/skills/apple-design/references/cross-platform.md`
+- **cross-platform.md** (1 connections) — `.agents/skills/apple-design/references/cross-platform.md`
+- **Conventions to check** (1 connections) — `.agents/skills/apple-design/references/cross-platform.md`
+- **Vocabulary** (1 connections) — `.agents/skills/apple-design/references/cross-platform.md`
 
 ## Relationships
 
@@ -15,7 +15,7 @@
 
 ## Source Files
 
-- `docs/guides/pricing-rules.md`
+- `.agents/skills/apple-design/references/cross-platform.md`
 
 ## Audit Trail
 

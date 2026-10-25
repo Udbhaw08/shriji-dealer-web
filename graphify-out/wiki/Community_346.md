@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **ErrorBoundary** (5 connections) — `src/components/ErrorBoundary.jsx`
-- **ErrorBoundary.jsx** (1 connections) — `src/components/ErrorBoundary.jsx`
-- **.componentDidCatch()** (1 connections) — `src/components/ErrorBoundary.jsx`
-- **.constructor()** (1 connections) — `src/components/ErrorBoundary.jsx`
-- **.getDerivedStateFromError()** (1 connections) — `src/components/ErrorBoundary.jsx`
-- **.render()** (1 connections) — `src/components/ErrorBoundary.jsx`
+- **Activity views** (5 connections) — `.agents/skills/apple-design/references/hig/activity-views.md`
+- **activity-views.md** (1 connections) — `.agents/skills/apple-design/references/hig/activity-views.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/activity-views.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/activity-views.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/activity-views.md`
+- **Share and action extensions** (1 connections) — `.agents/skills/apple-design/references/hig/activity-views.md`
 
 ## Relationships
 
@@ -17,7 +17,7 @@
 
 ## Source Files
 
-- `src/components/ErrorBoundary.jsx`
+- `.agents/skills/apple-design/references/hig/activity-views.md`
 
 ## Audit Trail
 

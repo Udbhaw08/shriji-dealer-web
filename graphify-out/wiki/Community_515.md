@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **NetworkStatusBadge.jsx** (1 connections) — `src/components/NetworkStatusBadge.jsx`
-- **NetworkStatusBadge()** (1 connections) — `src/components/NetworkStatusBadge.jsx`
+- **requestLogger.js** (1 connections) — `backend/src/middleware/requestLogger.js`
+- **requestLogger()** (1 connections) — `backend/src/middleware/requestLogger.js`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `src/components/NetworkStatusBadge.jsx`
+- `backend/src/middleware/requestLogger.js`
 
 ## Audit Trail
 

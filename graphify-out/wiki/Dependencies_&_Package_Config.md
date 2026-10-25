@@ -33,15 +33,14 @@
 
 ## Relationships
 
-- [[Community 61]] (48 shared connections)
-- [[Design System & UI Tokens]] (44 shared connections)
-- [[Community 52]] (39 shared connections)
-- [[Community 43]] (34 shared connections)
-- [[Zoho Integration Skill]] (33 shared connections)
-- [[Master Codebase Architecture Reference]] (12 shared connections)
-- [[Community 84]] (9 shared connections)
-- [[Graphify Knowledge Graph Skill]] (6 shared connections)
-- [[Community 301]] (3 shared connections)
+- [[Community 38]] (49 shared connections)
+- [[Community 63]] (48 shared connections)
+- [[Product Requirements Documentation]] (41 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (40 shared connections)
+- [[Community 32]] (29 shared connections)
+- [[Design System & UI Tokens]] (12 shared connections)
+- [[Mobile Responsive UI Skill]] (6 shared connections)
+- [[Community 298]] (3 shared connections)
 - [[Graphify Agent Rules]] (1 shared connections)
 
 ## Source Files

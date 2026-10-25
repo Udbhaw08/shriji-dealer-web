@@ -1,35 +1,37 @@
 # Community 144
 
-> 13 nodes · cohesion 0.15
+> 13 nodes · cohesion 0.28
 
 ## Key Concepts
 
-- **audit_prices.mjs** (14 connections) — `scripts/audit_prices.mjs`
-- **run()** (2 connections) — `scripts/audit_prices.mjs`
-- **content** (1 connections) — `scripts/audit_prices.mjs`
-- **csvItems** (1 connections) — `scripts/audit_prices.mjs`
-- **idIdx** (1 connections) — `scripts/audit_prices.mjs`
-- **lines** (1 connections) — `scripts/audit_prices.mjs`
-- **lpIdx** (1 connections) — `scripts/audit_prices.mjs`
-- **nameIdx** (1 connections) — `scripts/audit_prices.mjs`
-- **parseCSVLine()** (1 connections) — `scripts/audit_prices.mjs`
-- **parsedHeader** (1 connections) — `scripts/audit_prices.mjs`
-- **showIdx** (1 connections) — `scripts/audit_prices.mjs`
-- **spIdx** (1 connections) — `scripts/audit_prices.mjs`
-- **statusIdx** (1 connections) — `scripts/audit_prices.mjs`
+- **guided-views-browser.test.mjs** (17 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **run()** (8 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **point()** (4 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **settled()** (4 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **activate()** (3 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **click()** (3 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **hash()** (3 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **load()** (3 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **move()** (3 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **key()** (2 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **snapshot()** (2 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **variant()** (1 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
 
 ## Relationships
 
-- [[Community 123]] (2 shared connections)
-- [[Community 44]] (1 shared connections)
+- [[Community 83]] (5 shared connections)
+- [[Community 64]] (3 shared connections)
+- [[Community 48]] (1 shared connections)
+- [[Community 212]] (1 shared connections)
 
 ## Source Files
 
-- `scripts/audit_prices.mjs`
+- `.agents/skills/archify/test/guided-views-browser.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 27 (100%)
+- EXTRACTED: 54 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

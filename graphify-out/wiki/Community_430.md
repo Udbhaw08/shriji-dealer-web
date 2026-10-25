@@ -4,10 +4,10 @@
 
 ## Key Concepts
 
-- **sync-all.mjs** (3 connections) — `scripts/sync-all.mjs`
-- **isVercel** (1 connections) — `scripts/sync-all.mjs`
-- **rootDir** (1 connections) — `scripts/sync-all.mjs`
-- **run()** (1 connections) — `scripts/sync-all.mjs`
+- **community-proof-intake.test.mjs** (3 connections) — `.agents/skills/archify/test/community-proof-intake.test.mjs`
+- **here** (1 connections) — `.agents/skills/archify/test/community-proof-intake.test.mjs`
+- **read()** (1 connections) — `.agents/skills/archify/test/community-proof-intake.test.mjs`
+- **repoRoot** (1 connections) — `.agents/skills/archify/test/community-proof-intake.test.mjs`
 
 ## Relationships
 
@@ -15,7 +15,7 @@
 
 ## Source Files
 
-- `scripts/sync-all.mjs`
+- `.agents/skills/archify/test/community-proof-intake.test.mjs`
 
 ## Audit Trail
 

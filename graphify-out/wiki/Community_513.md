@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **README.md** (1 connections) — `ios/App/CapApp-SPM/README.md`
-- **CapApp-SPM** (1 connections) — `ios/App/CapApp-SPM/README.md`
+- **esm-u0Ew0OZy.js** (1 connections) — `ios/App/App/public/assets/esm-u0Ew0OZy.js`
+- **__vite__mapDeps()** (1 connections) — `ios/App/App/public/assets/esm-u0Ew0OZy.js`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `ios/App/CapApp-SPM/README.md`
+- `ios/App/App/public/assets/esm-u0Ew0OZy.js`
 
 ## Audit Trail
 

@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **repository-language-metadata.test.mjs** (2 connections) — `.agents/skills/archify/test/repository-language-metadata.test.mjs`
-- **linguistGenerated()** (1 connections) — `.agents/skills/archify/test/repository-language-metadata.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/repository-language-metadata.test.mjs`
+- **cryptoUtils.js** (2 connections) — `backend/src/utils/cryptoUtils.js`
+- **generateSecureOtp()** (1 connections) — `backend/src/utils/cryptoUtils.js`
+- **generateSecureToken()** (1 connections) — `backend/src/utils/cryptoUtils.js`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/repository-language-metadata.test.mjs`
+- `backend/src/utils/cryptoUtils.js`
 
 ## Audit Trail
 

@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **esm-BMOvFyIi.js** (1 connections) — `android/app/src/main/assets/public/assets/esm-BMOvFyIi.js`
-- **__vite__mapDeps()** (1 connections) — `android/app/src/main/assets/public/assets/esm-BMOvFyIi.js`
+- **NetworkStatusBadge.jsx** (1 connections) — `src/components/NetworkStatusBadge.jsx`
+- **NetworkStatusBadge()** (1 connections) — `src/components/NetworkStatusBadge.jsx`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/esm-BMOvFyIi.js`
+- `src/components/NetworkStatusBadge.jsx`
 
 ## Audit Trail
 

@@ -4,26 +4,26 @@
 
 ## Key Concepts
 
-- **wraps** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **via** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **$ref** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **items** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **items** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **minItems** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **crmProvisioningReliability.test.mjs** (7 connections) — `backend/test/crmProvisioningReliability.test.mjs`
+- **crmCalls** (1 connections) — `backend/test/crmProvisioningReliability.test.mjs`
+- **db** (1 connections) — `backend/test/crmProvisioningReliability.test.mjs`
+- **mockCrm** (1 connections) — `backend/test/crmProvisioningReliability.test.mjs`
+- **mockSql()** (1 connections) — `backend/test/crmProvisioningReliability.test.mjs`
+- **resetCrm()** (1 connections) — `backend/test/crmProvisioningReliability.test.mjs`
+- **resetDb()** (1 connections) — `backend/test/crmProvisioningReliability.test.mjs`
+- **testEnv** (1 connections) — `backend/test/crmProvisioningReliability.test.mjs`
 
 ## Relationships
 
-- [[Community 30]] (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/architecture.schema.json`
+- `backend/test/crmProvisioningReliability.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

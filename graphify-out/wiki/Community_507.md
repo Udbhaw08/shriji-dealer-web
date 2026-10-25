@@ -1,12 +1,11 @@
 # Community 507
 
-> 3 nodes · cohesion 1.00
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **sanitize.js** (2 connections) — `backend/src/utils/sanitize.js`
-- **sanitizeInput()** (2 connections) — `backend/src/utils/sanitize.js`
-- **sanitizeObject()** (2 connections) — `backend/src/utils/sanitize.js`
+- **Package.swift** (1 connections) — `ios/App/CapApp-SPM/Package.swift`
+- **PackageDescription** (1 connections) — `ios/App/CapApp-SPM/Package.swift`
 
 ## Relationships
 
@@ -14,11 +13,11 @@
 
 ## Source Files
 
-- `backend/src/utils/sanitize.js`
+- `ios/App/CapApp-SPM/Package.swift`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 2 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

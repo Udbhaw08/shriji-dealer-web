@@ -4,14 +4,14 @@
 
 ## Key Concepts
 
-- **Motion** (7 connections) — `.agents/skills/apple-design/references/hig/motion.md`
-- **motion.md** (1 connections) — `.agents/skills/apple-design/references/hig/motion.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/motion.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/motion.md`
-- **Leveraging platform capabilities** (1 connections) — `.agents/skills/apple-design/references/hig/motion.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/motion.md`
-- **Providing feedback** (1 connections) — `.agents/skills/apple-design/references/hig/motion.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/motion.md`
+- **Page controls** (6 connections) — `.agents/skills/apple-design/references/hig/page-controls.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/page-controls.md`
+- **page-controls.md** (1 connections) — `.agents/skills/apple-design/references/hig/page-controls.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/page-controls.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/page-controls.md`
+- **Customizing indicators** (1 connections) — `.agents/skills/apple-design/references/hig/page-controls.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/page-controls.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/page-controls.md`
 
 ## Relationships
 
@@ -19,7 +19,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/motion.md`
+- `.agents/skills/apple-design/references/hig/page-controls.md`
 
 ## Audit Trail
 

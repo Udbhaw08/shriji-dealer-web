@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **clipboard.js** (1 connections) — `src/utils/clipboard.js`
-- **copyToClipboard()** (1 connections) — `src/utils/clipboard.js`
+- **paginationHelper.js** (1 connections) — `backend/src/utils/paginationHelper.js`
+- **paginate()** (1 connections) — `backend/src/utils/paginationHelper.js`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `src/utils/clipboard.js`
+- `backend/src/utils/paginationHelper.js`
 
 ## Audit Trail
 

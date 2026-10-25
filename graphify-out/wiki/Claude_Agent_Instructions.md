@@ -33,7 +33,7 @@
 
 ## Relationships
 
-- [[Master Codebase Architecture Reference]] (1 shared connections)
+- [[Design System & UI Tokens]] (1 shared connections)
 
 ## Source Files
 

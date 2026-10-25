@@ -1,56 +1,55 @@
 # Product Pages Specification
 
-> 61 nodes · cohesion 0.08
+> 64 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **D()** (22 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
-- **.addEventListener()** (19 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
-- **np()** (19 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
-- **b()** (17 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
-- **fp()** (14 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
-- **jt()** (14 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
-- **bm()** (13 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
-- **h()** (13 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
-- **lm()** (13 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
-- **.removeEventListener()** (12 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
-- **r()** (11 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
-- **vn()** (11 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
-- **Zt()** (11 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
-- **am()** (10 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
-- **ip()** (9 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
-- **mm()** (9 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
-- **ln()** (8 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
-- **om()** (8 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
-- **tm()** (8 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
-- **tp()** (8 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
-- **jm()** (7 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
-- **lp()** (7 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
-- **tn()** (7 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
-- **zm()** (7 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
-- **cm()** (6 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
-- *... and 36 more nodes in this community*
+- **D()** (22 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
+- **.addEventListener()** (19 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
+- **np()** (19 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
+- **yc()** (18 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
+- **b()** (17 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
+- **fp()** (14 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
+- **jt()** (14 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
+- **h()** (13 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
+- **lm()** (13 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
+- **.removeEventListener()** (12 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
+- **vn()** (11 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
+- **Zt()** (11 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
+- **am()** (10 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
+- **ip()** (9 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
+- **mm()** (9 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
+- **fn()** (8 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
+- **ln()** (8 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
+- **om()** (8 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
+- **tm()** (8 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
+- **tp()** (8 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
+- **jm()** (7 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
+- **lp()** (7 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
+- **tn()** (7 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
+- **zm()** (7 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
+- **cm()** (6 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
+- *... and 39 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (61 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (24 shared connections)
-- [[Community 47]] (12 shared connections)
-- [[Community 53]] (11 shared connections)
-- [[Community 76]] (9 shared connections)
-- [[Mobile Responsive UI Skill]] (9 shared connections)
-- [[Client Products Data Store]] (8 shared connections)
-- [[Architecture Doc Generator]] (7 shared connections)
-- [[Community 96]] (4 shared connections)
-- [[Community 177]] (1 shared connections)
+- [[Price Presentation & Product UI]] (66 shared connections)
+- [[Architecture Doc Generator]] (28 shared connections)
+- [[Community 50]] (14 shared connections)
+- [[Community 54]] (13 shared connections)
+- [[Community 30]] (12 shared connections)
+- [[Product Brand & Business Vision]] (12 shared connections)
+- [[Pricing & Roles Skill]] (9 shared connections)
+- [[Community 39]] (8 shared connections)
+- [[Community 175]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-D7iXOTum.js`
+- `ios/App/App/public/assets/index-B_clvtkR.js`
 
 ## Audit Trail
 
-- EXTRACTED: 424 (100%)
+- EXTRACTED: 439 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

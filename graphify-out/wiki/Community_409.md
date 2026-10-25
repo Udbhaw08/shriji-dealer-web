@@ -4,10 +4,10 @@
 
 ## Key Concepts
 
-- **REST API Endpoints Specification** (3 connections) — `docs/api/endpoints-spec.md`
-- **endpoints-spec.md** (1 connections) — `docs/api/endpoints-spec.md`
-- **Authentication Endpoints** (1 connections) — `docs/api/endpoints-spec.md`
-- **Catalog Endpoints** (1 connections) — `docs/api/endpoints-spec.md`
+- **Using modern SwiftUI API** (3 connections) — `.agents/skills/swiftui-pro/references/api.md`
+- **api.md** (1 connections) — `.agents/skills/swiftui-pro/references/api.md`
+- **Toolbars** (1 connections) — `.agents/skills/swiftui-pro/references/api.md`
+- **Using ObservableObject** (1 connections) — `.agents/skills/swiftui-pro/references/api.md`
 
 ## Relationships
 
@@ -15,7 +15,7 @@
 
 ## Source Files
 
-- `docs/api/endpoints-spec.md`
+- `.agents/skills/swiftui-pro/references/api.md`
 
 ## Audit Trail
 

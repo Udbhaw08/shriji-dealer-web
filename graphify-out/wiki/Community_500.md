@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **Automated Testing & Quality Assurance Strategy** (2 connections) — `docs/testing/testing-strategy.md`
-- **testing-strategy.md** (1 connections) — `docs/testing/testing-strategy.md`
-- **Testing Layers** (1 connections) — `docs/testing/testing-strategy.md`
+- **numberUtils.js** (2 connections) — `src/utils/numberUtils.js`
+- **calculateDiscountPercentage()** (1 connections) — `src/utils/numberUtils.js`
+- **clamp()** (1 connections) — `src/utils/numberUtils.js`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/testing/testing-strategy.md`
+- `src/utils/numberUtils.js`
 
 ## Audit Trail
 

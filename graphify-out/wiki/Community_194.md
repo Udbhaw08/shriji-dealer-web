@@ -4,16 +4,16 @@
 
 ## Key Concepts
 
-- **Maps** (7 connections) — `.agents/skills/apple-design/references/hig/maps.md`
-- **Place cards** (3 connections) — `.agents/skills/apple-design/references/hig/maps.md`
-- **maps.md** (1 connections) — `.agents/skills/apple-design/references/hig/maps.md`
-- **Adding place cards outside of a map** (1 connections) — `.agents/skills/apple-design/references/hig/maps.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/maps.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/maps.md`
-- **Custom information** (1 connections) — `.agents/skills/apple-design/references/hig/maps.md`
-- **Displaying place cards in a map** (1 connections) — `.agents/skills/apple-design/references/hig/maps.md`
-- **Indoor maps** (1 connections) — `.agents/skills/apple-design/references/hig/maps.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/maps.md`
+- **Settings** (8 connections) — `.agents/skills/apple-design/references/hig/settings.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/settings.md`
+- **settings.md** (1 connections) — `.agents/skills/apple-design/references/hig/settings.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/settings.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/settings.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/settings.md`
+- **General settings** (1 connections) — `.agents/skills/apple-design/references/hig/settings.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/settings.md`
+- **System settings** (1 connections) — `.agents/skills/apple-design/references/hig/settings.md`
+- **Task-specific options** (1 connections) — `.agents/skills/apple-design/references/hig/settings.md`
 
 ## Relationships
 
@@ -21,7 +21,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/maps.md`
+- `.agents/skills/apple-design/references/hig/settings.md`
 
 ## Audit Trail
 

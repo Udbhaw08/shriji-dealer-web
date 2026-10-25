@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **diagram-guide.test.mjs** (6 connections) — `.agents/skills/archify/test/diagram-guide.test.mjs`
-- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/diagram-guide.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/diagram-guide.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/diagram-guide.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/diagram-guide.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/diagram-guide.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/diagram-guide.test.mjs`
+- **motion-governor.test.mjs** (6 connections) — `.agents/skills/archify/test/motion-governor.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/motion-governor.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/motion-governor.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/motion-governor.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/motion-governor.test.mjs`
+- **svgBlock()** (1 connections) — `.agents/skills/archify/test/motion-governor.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/motion-governor.test.mjs`
 
 ## Relationships
 
@@ -18,7 +18,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/diagram-guide.test.mjs`
+- `.agents/skills/archify/test/motion-governor.test.mjs`
 
 ## Audit Trail
 

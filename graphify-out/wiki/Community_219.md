@@ -4,15 +4,15 @@
 
 ## Key Concepts
 
-- **Drag and drop** (6 connections) — `.agents/skills/apple-design/references/hig/drag-and-drop.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/drag-and-drop.md`
-- **drag-and-drop.md** (1 connections) — `.agents/skills/apple-design/references/hig/drag-and-drop.md`
-- **Accepting drops** (1 connections) — `.agents/skills/apple-design/references/hig/drag-and-drop.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/drag-and-drop.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/drag-and-drop.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/drag-and-drop.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/drag-and-drop.md`
-- **Providing feedback** (1 connections) — `.agents/skills/apple-design/references/hig/drag-and-drop.md`
+- **Materials** (6 connections) — `.agents/skills/apple-design/references/hig/materials.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/materials.md`
+- **materials.md** (1 connections) — `.agents/skills/apple-design/references/hig/materials.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/materials.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/materials.md`
+- **Liquid Glass** (1 connections) — `.agents/skills/apple-design/references/hig/materials.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/materials.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/materials.md`
+- **Standard materials** (1 connections) — `.agents/skills/apple-design/references/hig/materials.md`
 
 ## Relationships
 
@@ -20,7 +20,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/drag-and-drop.md`
+- `.agents/skills/apple-design/references/hig/materials.md`
 
 ## Audit Trail
 

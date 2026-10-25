@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **analytics.js** (1 connections) — `src/utils/analytics.js`
-- **trackEvent()** (1 connections) — `src/utils/analytics.js`
+- **envValidator.js** (1 connections) — `backend/src/utils/envValidator.js`
+- **requireEnv()** (1 connections) — `backend/src/utils/envValidator.js`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `src/utils/analytics.js`
+- `backend/src/utils/envValidator.js`
 
 ## Audit Trail
 

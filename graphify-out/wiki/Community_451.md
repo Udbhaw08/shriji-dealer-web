@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **Vercel Production Deployment Checklist** (2 connections) — `docs/deployment/vercel-production-checklist.md`
-- **vercel-production-checklist.md** (1 connections) — `docs/deployment/vercel-production-checklist.md`
-- **Environment Variables** (1 connections) — `docs/deployment/vercel-production-checklist.md`
+- **Customer Share Link (?from=) Specification** (2 connections) — `docs/guides/customer-share-link-spec.md`
+- **customer-share-link-spec.md** (1 connections) — `docs/guides/customer-share-link-spec.md`
+- **Behavior** (1 connections) — `docs/guides/customer-share-link-spec.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/deployment/vercel-production-checklist.md`
+- `docs/guides/customer-share-link-spec.md`
 
 ## Audit Trail
 

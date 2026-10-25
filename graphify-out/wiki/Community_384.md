@@ -4,11 +4,11 @@
 
 ## Key Concepts
 
-- **iCloud** (4 connections) — `.agents/skills/apple-design/references/hig/icloud.md`
-- **icloud.md** (1 connections) — `.agents/skills/apple-design/references/hig/icloud.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/icloud.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/icloud.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/icloud.md`
+- **Outline views** (4 connections) — `.agents/skills/apple-design/references/hig/outline-views.md`
+- **outline-views.md** (1 connections) — `.agents/skills/apple-design/references/hig/outline-views.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/outline-views.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/outline-views.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/outline-views.md`
 
 ## Relationships
 
@@ -16,7 +16,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/icloud.md`
+- `.agents/skills/apple-design/references/hig/outline-views.md`
 
 ## Audit Trail
 

@@ -1,40 +1,35 @@
 # Community 123
 
-> 15 nodes · cohesion 0.28
+> 14 nodes · cohesion 0.23
 
 ## Key Concepts
 
-- **fetchZohoProductById()** (18 connections) — `api/_lib/zoho.js`
-- **fetchZohoProducts()** (14 connections) — `api/_lib/zoho.js`
-- **getZohoConfig()** (10 connections) — `api/_lib/zoho.js`
-- **fetchZohoWithRetry()** (9 connections) — `api/_lib/zoho.js`
-- **fetchAllRawZohoProducts()** (6 connections) — `api/_lib/zoho.js`
-- **fetchZohoPricebookItems()** (6 connections) — `api/_lib/zoho.js`
-- **getCategoryVisibilityMap()** (5 connections) — `api/_lib/zoho.js`
-- **readProductsDiskCache()** (5 connections) — `api/_lib/zoho.js`
-- **resolvePricebookId()** (5 connections) — `api/_lib/zoho.js`
-- **fetchZohoPricebooks()** (4 connections) — `api/_lib/zoho.js`
-- **fetchZohoRawCategories()** (4 connections) — `api/_lib/zoho.js`
-- **getDealerById()** (4 connections) — `api/_lib/zoho.js`
-- **readProductDetailsDiskCache()** (3 connections) — `api/_lib/zoho.js`
-- **writeProductDetailDiskCache()** (3 connections) — `api/_lib/zoho.js`
-- **writeProductsDiskCache()** (2 connections) — `api/_lib/zoho.js`
+- **web-C59RYwco.js** (13 connections) — `android/app/src/main/assets/public/assets/web-C59RYwco.js`
+- **applyPrefix()** (4 connections) — `android/app/src/main/assets/public/assets/web-C59RYwco.js`
+- **keys()** (4 connections) — `android/app/src/main/assets/public/assets/web-C59RYwco.js`
+- **get()** (3 connections) — `android/app/src/main/assets/public/assets/web-C59RYwco.js`
+- **migrate()** (3 connections) — `android/app/src/main/assets/public/assets/web-C59RYwco.js`
+- **rawKeys()** (3 connections) — `android/app/src/main/assets/public/assets/web-C59RYwco.js`
+- **clear()** (2 connections) — `android/app/src/main/assets/public/assets/web-C59RYwco.js`
+- **remove()** (2 connections) — `android/app/src/main/assets/public/assets/web-C59RYwco.js`
+- **removeOld()** (2 connections) — `android/app/src/main/assets/public/assets/web-C59RYwco.js`
+- **set()** (2 connections) — `android/app/src/main/assets/public/assets/web-C59RYwco.js`
+- **configure()** (1 connections) — `android/app/src/main/assets/public/assets/web-C59RYwco.js`
+- **constructor()** (1 connections) — `android/app/src/main/assets/public/assets/web-C59RYwco.js`
+- **impl()** (1 connections) — `android/app/src/main/assets/public/assets/web-C59RYwco.js`
+- **prefix()** (1 connections) — `android/app/src/main/assets/public/assets/web-C59RYwco.js`
 
 ## Relationships
 
-- [[Community 44]] (19 shared connections)
-- [[Community 149]] (7 shared connections)
-- [[Community 233]] (7 shared connections)
-- [[Community 255]] (5 shared connections)
-- [[Community 144]] (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `api/_lib/zoho.js`
+- `android/app/src/main/assets/public/assets/web-C59RYwco.js`
 
 ## Audit Trail
 
-- EXTRACTED: 98 (100%)
+- EXTRACTED: 42 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

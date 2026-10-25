@@ -1,50 +1,51 @@
 # Community 71
 
-> 23 nodes · cohesion 0.19
+> 23 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **commerceClient.js** (22 connections) — `backend/src/services/commerceClient.js`
-- **catalog.js** (16 connections) — `backend/src/services/catalog.js`
-- **ensureContactPricebookForCrmAccount()** (9 connections) — `backend/src/services/commerceClient.js`
-- **syncCatalog()** (7 connections) — `backend/src/services/catalog.js`
-- **prices.js** (6 connections) — `backend/src/routes/prices.js`
-- **fetchCatalog()** (6 connections) — `backend/src/services/commerceClient.js`
-- **booksFetch()** (5 connections) — `backend/src/services/commerceClient.js`
-- **commerceConfigured()** (5 connections) — `backend/src/services/commerceClient.js`
-- **commerceFetch()** (5 connections) — `backend/src/services/commerceClient.js`
-- **isCommerceConfigured()** (5 connections) — `backend/src/services/commerceClient.js`
-- **resolvePricebookId()** (5 connections) — `backend/src/services/commerceClient.js`
-- **catalogFor()** (4 connections) — `backend/src/services/catalog.js`
-- **loadCatalog()** (4 connections) — `backend/src/services/catalog.js`
-- **assignPricebookToContact()** (4 connections) — `backend/src/services/commerceClient.js`
-- **priceView()** (3 connections) — `backend/src/services/catalog.js`
-- **deactivateCommerceContact()** (3 connections) — `backend/src/services/commerceClient.js`
-- **fetchCommercePricebooks()** (3 connections) — `backend/src/services/commerceClient.js`
-- **fetchPricebookRates()** (3 connections) — `backend/src/services/commerceClient.js`
-- **getAccessToken()** (3 connections) — `backend/src/services/commerceClient.js`
-- **priceGate.test.mjs** (3 connections) — `backend/test/priceGate.test.mjs`
-- **pricesRouter** (2 connections) — `backend/src/routes/prices.js`
-- **parseRate()** (2 connections) — `backend/src/services/commerceClient.js`
-- **CATALOG** (1 connections) — `backend/test/priceGate.test.mjs`
+- **yc()** (18 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
+- **zd()** (13 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
+- **Nd()** (11 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
+- **qd()** (11 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
+- **wc()** (9 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
+- **nt()** (8 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
+- **Xd()** (8 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
+- **Gd()** (7 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
+- **Rd()** (6 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
+- **xc()** (6 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
+- **Bd()** (5 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
+- **Cc()** (5 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
+- **df()** (5 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
+- **Wd()** (5 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
+- **mf()** (4 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
+- **Sc()** (4 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
+- **Zo()** (4 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
+- **Hd()** (3 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
+- **Ja()** (3 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
+- **Ud()** (3 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
+- **componentDidCatch()** (2 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
+- **Fd()** (2 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
+- **uo()** (2 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
 
 ## Relationships
 
-- [[Community 31]] (10 shared connections)
-- [[Product Requirements Documentation]] (9 shared connections)
-- [[Community 104]] (7 shared connections)
-- [[Product Brand & Business Vision]] (4 shared connections)
+- [[Dealer Auth & Session Management]] (26 shared connections)
+- [[Oxlint Linter Configuration]] (14 shared connections)
+- [[Zoho Integration Architecture]] (8 shared connections)
+- [[Graphify Knowledge Graph Skill]] (7 shared connections)
+- [[Live Pricing Audit Tool]] (6 shared connections)
+- [[Community 79]] (5 shared connections)
+- [[Community 44]] (4 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (2 shared connections)
 
 ## Source Files
 
-- `backend/src/routes/prices.js`
-- `backend/src/services/catalog.js`
-- `backend/src/services/commerceClient.js`
-- `backend/test/priceGate.test.mjs`
+- `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
 
 ## Audit Trail
 
-- EXTRACTED: 126 (100%)
+- EXTRACTED: 144 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

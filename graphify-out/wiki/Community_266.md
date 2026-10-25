@@ -4,14 +4,14 @@
 
 ## Key Concepts
 
-- **Offering help** (6 connections) — `.agents/skills/apple-design/references/hig/offering-help.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/offering-help.md`
-- **offering-help.md** (1 connections) — `.agents/skills/apple-design/references/hig/offering-help.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/offering-help.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/offering-help.md`
-- **Creating tips** (1 connections) — `.agents/skills/apple-design/references/hig/offering-help.md`
-- **Desktop (macOS, visionOS)** (1 connections) — `.agents/skills/apple-design/references/hig/offering-help.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/offering-help.md`
+- **Pickers** (5 connections) — `.agents/skills/apple-design/references/hig/pickers.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/pickers.md`
+- **pickers.md** (1 connections) — `.agents/skills/apple-design/references/hig/pickers.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/pickers.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/pickers.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/pickers.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/pickers.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/pickers.md`
 
 ## Relationships
 
@@ -19,7 +19,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/offering-help.md`
+- `.agents/skills/apple-design/references/hig/pickers.md`
 
 ## Audit Trail
 

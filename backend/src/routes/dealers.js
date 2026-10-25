@@ -2,7 +2,7 @@ import { Router } from 'express';
 import { sql } from '../db/pool.js';
 import { jwtAuth, requireApprovedDealer } from '../middleware/auth.js';
 import { httpError } from '../middleware/errorHandler.js';
-import { rateLimit } from '../middleware/rateLimit.js';
+import { rateLimit, getClientIp } from '../middleware/rateLimit.js';
 import {
   applyDealer,
   applyCrmAccountState,
@@ -21,8 +21,18 @@ import { isValidName, cleanName, isValidGstin, isValidPhone } from '../utils/val
 
 export const dealersRouter = Router();
 
-const strictLimit = rateLimit({ windowMs: 60_000, max: 10 });
-const otpRequestLimit = rateLimit({ windowMs: 10 * 60_000, max: 6 });
+const strictLimit = rateLimit({ windowMs: 60_000, max: 20, prefix: 'dealer_strict' });
+const otpRequestLimit = rateLimit({
+  windowMs: 10 * 60_000,
+  max: 6,
+  prefix: 'dealer_reg_otp',
+  keyFn: (req) => {
+    const raw = req.body?.phone || req.body?.email;
+    if (raw) return `target:${String(raw).trim().toLowerCase()}`;
+    return `ip:${getClientIp(req)}`;
+  },
+  message: 'Too many registration verification attempts. Please wait a few minutes before trying again.',
+});
 
 /* ==========================================================================
  * Public Dealer Registration (Guest Form-First, Verify-Both-Channels)

@@ -4,14 +4,14 @@
 
 ## Key Concepts
 
-- **Launching** (6 connections) — `.agents/skills/apple-design/references/hig/launching.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/launching.md`
-- **launching.md** (1 connections) — `.agents/skills/apple-design/references/hig/launching.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/launching.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/launching.md`
-- **Launch screens** (1 connections) — `.agents/skills/apple-design/references/hig/launching.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/launching.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/launching.md`
+- **Onboarding** (7 connections) — `.agents/skills/apple-design/references/hig/onboarding.md`
+- **onboarding.md** (1 connections) — `.agents/skills/apple-design/references/hig/onboarding.md`
+- **Additional content** (1 connections) — `.agents/skills/apple-design/references/hig/onboarding.md`
+- **Additional requests** (1 connections) — `.agents/skills/apple-design/references/hig/onboarding.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/onboarding.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/onboarding.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/onboarding.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/onboarding.md`
 
 ## Relationships
 
@@ -19,7 +19,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/launching.md`
+- `.agents/skills/apple-design/references/hig/onboarding.md`
 
 ## Audit Trail
 

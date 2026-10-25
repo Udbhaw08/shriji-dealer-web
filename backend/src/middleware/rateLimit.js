@@ -1,20 +1,47 @@
-// Minimal in-memory sliding-window rate limiter. Good enough for one node;
-// swap the store for Redis when the service scales horizontally.
-// Disabled under NODE_ENV=test — the test suite would exhaust the shared
-// per-IP budget across tests and fail spuriously.
+// Sliding-window in-memory rate limiter with namespace isolation.
+// Automatically resolves real client IPs behind Cloudflare and Render reverse proxies.
 const buckets = new Map(); // key → [timestamps]
 
-export function rateLimit({ windowMs = 60_000, max = 30, keyFn = (req) => req.ip } = {}) {
+/**
+ * Extract true client IP, prioritizing Cloudflare and standard reverse proxy headers.
+ */
+export function getClientIp(req) {
+  if (!req) return '127.0.0.1';
+  const cf = req.headers?.['cf-connecting-ip'];
+  if (cf) return (Array.isArray(cf) ? cf[0] : cf).split(',')[0].trim();
+  const real = req.headers?.['x-real-ip'];
+  if (real) return (Array.isArray(real) ? real[0] : real).split(',')[0].trim();
+  const fwd = req.headers?.['x-forwarded-for'];
+  if (fwd) {
+    const val = Array.isArray(fwd) ? fwd[0] : fwd;
+    return val.split(',')[0].trim();
+  }
+  return req.ip || req.socket?.remoteAddress || '127.0.0.1';
+}
+
+export function rateLimit({
+  windowMs = 60_000,
+  max = 30,
+  prefix = 'rl',
+  keyFn = (req) => getClientIp(req),
+  message = 'Too many requests. Please wait a moment before trying again.',
+} = {}) {
   return (req, res, next) => {
     if (process.env.NODE_ENV === 'test' && process.env.TEST_RATE_LIMIT !== 'true') {
       return next();
     }
     const effectiveMax = process.env.TEST_RATE_LIMIT === 'true' ? max : (process.env.NODE_ENV !== 'production' && process.env.NODE_ENV !== 'test' ? Math.max(max, 500) : max);
-    const key = keyFn(req);
+    const rawKey = keyFn(req);
+    const key = `${prefix}:${rawKey}`;
     const now = Date.now();
     const arr = (buckets.get(key) || []).filter((t) => now - t < windowMs);
     if (arr.length >= effectiveMax) {
-      return res.status(429).json({ error: 'rate_limited', retry_after_seconds: Math.ceil((arr[0] + windowMs - now) / 1000) });
+      const retryAfter = Math.ceil((arr[0] + windowMs - now) / 1000);
+      return res.status(429).json({
+        error: 'rate_limited',
+        message,
+        retry_after_seconds: retryAfter,
+      });
     }
     arr.push(now);
     buckets.set(key, arr);
@@ -39,3 +66,4 @@ setInterval(() => {
     else buckets.delete(key);
   }
 }, 10 * 60_000).unref();
+

@@ -1,55 +1,54 @@
 # Community 47
 
-> 31 nodes · cohesion 0.10
+> 33 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **n()** (33 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
-- **t()** (18 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
-- **ma()** (8 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
-- **cs()** (7 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
-- **go()** (7 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
-- **O()** (7 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
-- **os()** (6 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
-- **ps()** (6 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
-- **es()** (5 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
-- **j()** (5 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
-- **js()** (5 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
-- **ts()** (5 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
-- **x()** (5 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
-- **ds()** (4 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
-- **ee()** (4 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
-- **fs()** (4 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
-- **Ko()** (4 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
-- **ls()** (4 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
-- **M()** (4 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
-- **ns()** (4 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
-- **qo()** (4 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
-- **rs()** (4 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
-- **us()** (4 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
-- **as()** (3 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
-- **ho()** (3 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
-- *... and 6 more nodes in this community*
+- **zoho.js** (59 connections) — `api/_lib/zoho.js`
+- **syncRecentProductTags()** (7 connections) — `api/_lib/zoho.js`
+- **normalizeProduct()** (6 connections) — `api/_lib/zoho.js`
+- **readTagCache()** (6 connections) — `api/_lib/zoho.js`
+- **updateCachedProductTags()** (4 connections) — `api/_lib/zoho.js`
+- **sync-tags.js** (4 connections) — `api/products/sync-tags.js`
+- **getCachedProductTags()** (3 connections) — `api/_lib/zoho.js`
+- **isItemOnline()** (3 connections) — `api/_lib/zoho.js`
+- **handler()** (3 connections) — `api/products/sync-tags.js`
+- **isItemCategoryOnline()** (2 connections) — `api/_lib/zoho.js`
+- **parseRate()** (2 connections) — `api/_lib/zoho.js`
+- **slugifyCategory()** (2 connections) — `api/_lib/zoho.js`
+- **slugifyProduct()** (2 connections) — `api/_lib/zoho.js`
+- **writeProductsDiskCache()** (2 connections) — `api/_lib/zoho.js`
+- **writeTagCache()** (2 connections) — `api/_lib/zoho.js`
+- **cachedPricebooks** (1 connections) — `api/_lib/zoho.js`
+- **cachedProductDetails** (1 connections) — `api/_lib/zoho.js`
+- **cachedProductsByPricebook** (1 connections) — `api/_lib/zoho.js`
+- **clearDiskCache()** (1 connections) — `api/_lib/zoho.js`
+- **DEFAULT_SCHEMES** (1 connections) — `api/_lib/zoho.js`
+- **DEFAULT_STORE_BANNERS** (1 connections) — `api/_lib/zoho.js`
+- **isBannerItem()** (1 connections) — `api/_lib/zoho.js`
+- **isLogoItem()** (1 connections) — `api/_lib/zoho.js`
+- **isSchemeItem()** (1 connections) — `api/_lib/zoho.js`
+- **localCacheFile** (1 connections) — `api/_lib/zoho.js`
+- *... and 8 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (35 shared connections)
-- [[Product Pages Specification]] (12 shared connections)
-- [[Client Products Data Store]] (12 shared connections)
-- [[Mobile Responsive UI Skill]] (7 shared connections)
-- [[Community 53]] (7 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (5 shared connections)
-- [[Community 76]] (3 shared connections)
-- [[Community 96]] (2 shared connections)
-- [[Architecture Doc Generator]] (1 shared connections)
+- [[Community 140]] (18 shared connections)
+- [[Community 252]] (6 shared connections)
+- [[Community 196]] (4 shared connections)
+- [[Community 147]] (3 shared connections)
+- [[Community 89]] (2 shared connections)
+- [[Community 250]] (1 shared connections)
+- [[Community 142]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-D7iXOTum.js`
+- `api/_lib/zoho.js`
+- `api/products/sync-tags.js`
 
 ## Audit Trail
 
-- EXTRACTED: 178 (100%)
+- EXTRACTED: 125 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

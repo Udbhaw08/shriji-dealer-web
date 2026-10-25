@@ -4,26 +4,26 @@
 
 ## Key Concepts
 
-- **Code audit** (5 connections) — `.agents/skills/apple-design/references/code-audit.md`
-- **Apple Pay and payment marks** (3 connections) — `.agents/skills/apple-design/references/code-audit.md`
-- **code-audit.md** (1 connections) — `.agents/skills/apple-design/references/code-audit.md`
-- **How to run it** (1 connections) — `.agents/skills/apple-design/references/code-audit.md`
-- **iPhone Duo readiness in code** (1 connections) — `.agents/skills/apple-design/references/code-audit.md`
-- **Liquid Glass in code** (1 connections) — `.agents/skills/apple-design/references/code-audit.md`
-- **What replaces it** (1 connections) — `.agents/skills/apple-design/references/code-audit.md`
-- **What to search for** (1 connections) — `.agents/skills/apple-design/references/code-audit.md`
+- **wraps** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **via** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **$ref** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **items** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **items** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **minItems** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Project Readme & Layout]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/code-audit.md`
+- `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

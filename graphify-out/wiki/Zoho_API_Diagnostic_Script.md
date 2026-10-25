@@ -33,12 +33,12 @@
 
 ## Relationships
 
-- [[Community 38]] (54 shared connections)
-- [[Community 50]] (22 shared connections)
-- [[Oxlint Linter Configuration]] (21 shared connections)
-- [[Community 40]] (12 shared connections)
-- [[Community 46]] (10 shared connections)
-- [[Community 168]] (1 shared connections)
+- [[Community 43]] (50 shared connections)
+- [[Master Codebase Architecture Reference]] (43 shared connections)
+- [[Community 41]] (13 shared connections)
+- [[Community 49]] (10 shared connections)
+- [[Community 136]] (3 shared connections)
+- [[Community 166]] (1 shared connections)
 
 ## Source Files
 

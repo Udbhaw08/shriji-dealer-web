@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **Color wells** (4 connections) — `.agents/skills/apple-design/references/hig/color-wells.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/color-wells.md`
-- **color-wells.md** (1 connections) — `.agents/skills/apple-design/references/hig/color-wells.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/color-wells.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/color-wells.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/color-wells.md`
+- **Printing** (4 connections) — `.agents/skills/apple-design/references/hig/printing.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/printing.md`
+- **printing.md** (1 connections) — `.agents/skills/apple-design/references/hig/printing.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/printing.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/printing.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/printing.md`
 
 ## Relationships
 
@@ -17,7 +17,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/color-wells.md`
+- `.agents/skills/apple-design/references/hig/printing.md`
 
 ## Audit Trail
 

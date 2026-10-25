@@ -7,7 +7,7 @@ import { rateLimit } from '../middleware/rateLimit.js';
 export const adminRouter = Router();
 
 // Strict rate limit for admin authentication attempts: 5 per 15 minutes per IP
-const loginRateLimit = rateLimit({ windowMs: 15 * 60_000, max: 5 });
+const loginRateLimit = rateLimit({ windowMs: 15 * 60_000, max: 5, prefix: 'admin_login' });
 
 /**
  * POST /api/admin/login

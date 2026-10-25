@@ -1,12 +1,11 @@
 # Community 505
 
-> 3 nodes · cohesion 0.67
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **numberUtils.js** (2 connections) — `src/utils/numberUtils.js`
-- **calculateDiscountPercentage()** (1 connections) — `src/utils/numberUtils.js`
-- **clamp()** (1 connections) — `src/utils/numberUtils.js`
+- **esm-u0Ew0OZy.js** (1 connections) — `android/app/src/main/assets/public/assets/esm-u0Ew0OZy.js`
+- **__vite__mapDeps()** (1 connections) — `android/app/src/main/assets/public/assets/esm-u0Ew0OZy.js`
 
 ## Relationships
 
@@ -14,11 +13,11 @@
 
 ## Source Files
 
-- `src/utils/numberUtils.js`
+- `android/app/src/main/assets/public/assets/esm-u0Ew0OZy.js`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 2 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

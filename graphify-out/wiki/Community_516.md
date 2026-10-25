@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **SkipToContent.jsx** (1 connections) — `src/components/SkipToContent.jsx`
-- **SkipToContent()** (1 connections) — `src/components/SkipToContent.jsx`
+- **securityHeaders.js** (1 connections) — `backend/src/middleware/securityHeaders.js`
+- **securityHeaders()** (1 connections) — `backend/src/middleware/securityHeaders.js`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `src/components/SkipToContent.jsx`
+- `backend/src/middleware/securityHeaders.js`
 
 ## Audit Trail
 

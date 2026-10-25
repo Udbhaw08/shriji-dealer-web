@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **healthService.js** (1 connections) — `backend/src/services/healthService.js`
-- **getSystemHealth()** (1 connections) — `backend/src/services/healthService.js`
+- **a11y.js** (1 connections) — `src/utils/a11y.js`
+- **trapFocus()** (1 connections) — `src/utils/a11y.js`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `backend/src/services/healthService.js`
+- `src/utils/a11y.js`
 
 ## Audit Trail
 

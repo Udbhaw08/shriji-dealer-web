@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **Customer Share Link (?from=) Specification** (2 connections) — `docs/guides/customer-share-link-spec.md`
-- **customer-share-link-spec.md** (1 connections) — `docs/guides/customer-share-link-spec.md`
-- **Behavior** (1 connections) — `docs/guides/customer-share-link-spec.md`
+- **GSTIN Verification Flow** (2 connections) — `docs/guides/gstin-verification-flow.md`
+- **gstin-verification-flow.md** (1 connections) — `docs/guides/gstin-verification-flow.md`
+- **State Code Resolution** (1 connections) — `docs/guides/gstin-verification-flow.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/guides/customer-share-link-spec.md`
+- `docs/guides/gstin-verification-flow.md`
 
 ## Audit Trail
 

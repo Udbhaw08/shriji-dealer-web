@@ -4,47 +4,47 @@
 
 ## Key Concepts
 
-- **get()** (27 connections) — `android/app/src/main/assets/public/assets/index-D7iXOTum.js`
-- **D()** (22 connections) — `android/app/src/main/assets/public/assets/index-D7iXOTum.js`
-- **.addEventListener()** (19 connections) — `android/app/src/main/assets/public/assets/index-D7iXOTum.js`
-- **np()** (19 connections) — `android/app/src/main/assets/public/assets/index-D7iXOTum.js`
-- **Tu()** (19 connections) — `android/app/src/main/assets/public/assets/index-D7iXOTum.js`
-- **b()** (17 connections) — `android/app/src/main/assets/public/assets/index-D7iXOTum.js`
-- **fp()** (14 connections) — `android/app/src/main/assets/public/assets/index-D7iXOTum.js`
-- **jt()** (14 connections) — `android/app/src/main/assets/public/assets/index-D7iXOTum.js`
-- **bm()** (13 connections) — `android/app/src/main/assets/public/assets/index-D7iXOTum.js`
-- **h()** (13 connections) — `android/app/src/main/assets/public/assets/index-D7iXOTum.js`
-- **.removeEventListener()** (12 connections) — `android/app/src/main/assets/public/assets/index-D7iXOTum.js`
-- **r()** (11 connections) — `android/app/src/main/assets/public/assets/index-D7iXOTum.js`
-- **vn()** (11 connections) — `android/app/src/main/assets/public/assets/index-D7iXOTum.js`
-- **vu()** (11 connections) — `android/app/src/main/assets/public/assets/index-D7iXOTum.js`
-- **Zt()** (11 connections) — `android/app/src/main/assets/public/assets/index-D7iXOTum.js`
-- **am()** (10 connections) — `android/app/src/main/assets/public/assets/index-D7iXOTum.js`
-- **ep()** (9 connections) — `android/app/src/main/assets/public/assets/index-D7iXOTum.js`
-- **ip()** (9 connections) — `android/app/src/main/assets/public/assets/index-D7iXOTum.js`
-- **mm()** (9 connections) — `android/app/src/main/assets/public/assets/index-D7iXOTum.js`
-- **fn()** (8 connections) — `android/app/src/main/assets/public/assets/index-D7iXOTum.js`
-- **ln()** (8 connections) — `android/app/src/main/assets/public/assets/index-D7iXOTum.js`
-- **om()** (8 connections) — `android/app/src/main/assets/public/assets/index-D7iXOTum.js`
-- **Sp()** (8 connections) — `android/app/src/main/assets/public/assets/index-D7iXOTum.js`
-- **tm()** (8 connections) — `android/app/src/main/assets/public/assets/index-D7iXOTum.js`
-- **tp()** (8 connections) — `android/app/src/main/assets/public/assets/index-D7iXOTum.js`
+- **get()** (27 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
+- **D()** (22 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
+- **.addEventListener()** (19 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
+- **np()** (19 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
+- **Tu()** (19 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
+- **b()** (17 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
+- **fp()** (14 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
+- **jt()** (14 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
+- **bm()** (13 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
+- **h()** (13 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
+- **.removeEventListener()** (12 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
+- **r()** (11 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
+- **vn()** (11 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
+- **vu()** (11 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
+- **Zt()** (11 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
+- **am()** (10 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
+- **ep()** (9 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
+- **ip()** (9 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
+- **mm()** (9 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
+- **fn()** (8 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
+- **ln()** (8 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
+- **om()** (8 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
+- **Sp()** (8 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
+- **tm()** (8 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
+- **tp()** (8 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
 - *... and 52 more nodes in this community*
 
 ## Relationships
 
 - [[Dealer Auth & Session Management]] (77 shared connections)
-- [[Roles & Customer Sharing Spec]] (33 shared connections)
-- [[Community 39]] (27 shared connections)
-- [[Pricing & Roles Skill]] (17 shared connections)
+- [[Graphify Knowledge Graph Skill]] (33 shared connections)
+- [[Community 44]] (27 shared connections)
+- [[Oxlint Linter Configuration]] (17 shared connections)
 - [[Live Pricing Audit Tool]] (13 shared connections)
 - [[Zoho Integration Architecture]] (10 shared connections)
 - [[Community 79]] (8 shared connections)
-- [[Community 69]] (2 shared connections)
+- [[Community 71]] (2 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-D7iXOTum.js`
+- `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
 
 ## Audit Trail
 

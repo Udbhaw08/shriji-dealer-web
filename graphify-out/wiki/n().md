@@ -1,8 +1,8 @@
 # n()
 
-> God node · 33 connections · `android/app/src/main/assets/public/assets/index-D7iXOTum.js`
+> God node · 33 connections · `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
 
-**Community:** [[Roles & Customer Sharing Spec]]
+**Community:** [[Graphify Knowledge Graph Skill]]
 
 ## Connections by Relation
 

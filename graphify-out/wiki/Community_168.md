@@ -1,37 +1,32 @@
 # Community 168
 
-> 11 nodes · cohesion 0.24
+> 11 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **i18n.js** (25 connections) — `src/data/i18n.js`
-- **setLanguage()** (3 connections) — `src/data/i18n.js`
-- **tCat()** (3 connections) — `src/data/i18n.js`
-- **emit()** (2 connections) — `src/data/i18n.js`
-- **toggleLanguage()** (2 connections) — `src/data/i18n.js`
-- **translations.js** (2 connections) — `src/data/translations.js`
-- **TRANSLATIONS** (2 connections) — `src/data/translations.js`
-- **currentLang** (1 connections) — `src/data/i18n.js`
-- **getInitialLang()** (1 connections) — `src/data/i18n.js`
-- **getLanguage()** (1 connections) — `src/data/i18n.js`
-- **listeners** (1 connections) — `src/data/i18n.js`
+- **App icons** (10 connections) — `.agents/skills/apple-design/references/hig/app-icons.md`
+- **app-icons.md** (1 connections) — `.agents/skills/apple-design/references/hig/app-icons.md`
+- **Appearances** (1 connections) — `.agents/skills/apple-design/references/hig/app-icons.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/app-icons.md`
+- **Design** (1 connections) — `.agents/skills/apple-design/references/hig/app-icons.md`
+- **Icon shape** (1 connections) — `.agents/skills/apple-design/references/hig/app-icons.md`
+- **Layer design** (1 connections) — `.agents/skills/apple-design/references/hig/app-icons.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/app-icons.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/app-icons.md`
+- **Specifications** (1 connections) — `.agents/skills/apple-design/references/hig/app-icons.md`
+- **Visual effects** (1 connections) — `.agents/skills/apple-design/references/hig/app-icons.md`
 
 ## Relationships
 
-- [[Community 40]] (5 shared connections)
-- [[Oxlint Linter Configuration]] (5 shared connections)
-- [[Community 50]] (4 shared connections)
-- [[Community 46]] (2 shared connections)
-- [[Zoho API Diagnostic Script]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `src/data/i18n.js`
-- `src/data/translations.js`
+- `.agents/skills/apple-design/references/hig/app-icons.md`
 
 ## Audit Trail
 
-- EXTRACTED: 43 (100%)
+- EXTRACTED: 20 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

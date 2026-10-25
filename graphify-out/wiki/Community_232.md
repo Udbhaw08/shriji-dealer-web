@@ -4,27 +4,38 @@
 
 ## Key Concepts
 
-- **web-lhSI02zp.js** (8 connections) — `ios/App/App/public/assets/web-lhSI02zp.js`
-- **constructor()** (1 connections) — `ios/App/App/public/assets/web-lhSI02zp.js`
-- **exitApp()** (1 connections) — `ios/App/App/public/assets/web-lhSI02zp.js`
-- **getAppLanguage()** (1 connections) — `ios/App/App/public/assets/web-lhSI02zp.js`
-- **getInfo()** (1 connections) — `ios/App/App/public/assets/web-lhSI02zp.js`
-- **getLaunchUrl()** (1 connections) — `ios/App/App/public/assets/web-lhSI02zp.js`
-- **getState()** (1 connections) — `ios/App/App/public/assets/web-lhSI02zp.js`
-- **minimizeApp()** (1 connections) — `ios/App/App/public/assets/web-lhSI02zp.js`
-- **toggleBackButtonHandler()** (1 connections) — `ios/App/App/public/assets/web-lhSI02zp.js`
+- **Typography Guide** (18 connections) — `.agents/skills/refero-design/references/typography.md`
+- **13. AI-Slop Anti-Patterns** (3 connections) — `.agents/skills/refero-design/references/typography.md`
+- **typography.md** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **0. Context First** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **15. Pre-Ship Checklist** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **1. The Safe SaaS Preset** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Appendix: Complete Token System** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Instant Red Flags** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Quick Test** (1 connections) — `.agents/skills/refero-design/references/typography.md`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 389]] (1 shared connections)
+- [[Community 411]] (1 shared connections)
+- [[Community 390]] (1 shared connections)
+- [[Community 412]] (1 shared connections)
+- [[Community 413]] (1 shared connections)
+- [[Community 414]] (1 shared connections)
+- [[Community 391]] (1 shared connections)
+- [[Community 415]] (1 shared connections)
+- [[Community 416]] (1 shared connections)
+- [[Community 392]] (1 shared connections)
+- [[Community 233]] (1 shared connections)
+- [[Community 467]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/web-lhSI02zp.js`
+- `.agents/skills/refero-design/references/typography.md`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 28 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

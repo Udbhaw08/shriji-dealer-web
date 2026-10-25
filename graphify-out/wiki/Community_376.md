@@ -4,11 +4,11 @@
 
 ## Key Concepts
 
-- **CLAUDE.md — read this before touching anything** (4 connections) — `CLAUDE.md`
-- **CLAUDE.md** (1 connections) — `CLAUDE.md`
-- **Commands** (1 connections) — `CLAUDE.md`
-- **Doc map** (1 connections) — `CLAUDE.md`
-- **Hard rules (these exist to stop hallucination)** (1 connections) — `CLAUDE.md`
+- **Combo boxes** (4 connections) — `.agents/skills/apple-design/references/hig/combo-boxes.md`
+- **combo-boxes.md** (1 connections) — `.agents/skills/apple-design/references/hig/combo-boxes.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/combo-boxes.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/combo-boxes.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/combo-boxes.md`
 
 ## Relationships
 
@@ -16,7 +16,7 @@
 
 ## Source Files
 
-- `CLAUDE.md`
+- `.agents/skills/apple-design/references/hig/combo-boxes.md`
 
 ## Audit Trail
 

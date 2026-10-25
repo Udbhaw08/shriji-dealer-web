@@ -1,7 +1,7 @@
 # CODEBASE.md — Project Architecture & Feature Guide
 
 > **Auto-generated documentation**
-> Last synchronized: 2026-10-25T14:36:46.720+05:30 (GMT+5:30)
+> Last synchronized: 2026-10-25T15:04:56.032+05:30 (GMT+5:30)
 > Total Project Files: 2113
 
 ---
@@ -100,7 +100,7 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 - **`src/pages/Home.jsx`** (21.0 KB)
 - **`src/pages/LegalPrivacy.jsx`** (5.8 KB)
 - **`src/pages/LegalTerms.jsx`** (4.2 KB)
-- **`src/pages/Login.jsx`** (69.8 KB)
+- **`src/pages/Login.jsx`** (70.4 KB)
 - **`src/pages/PrivacyPolicy.jsx`** (0.0 KB)
 - **`src/pages/Product.jsx`** (35.2 KB)
 - **`src/pages/Products.jsx`** (34.3 KB)
@@ -129,7 +129,7 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 ### 4.3 State & Business Logic (`src/data/`)
 - **`src/data/api.js`** (1.7 KB)
 - **`src/data/auth-session.test.mjs`** (5.7 KB)
-- **`src/data/auth.js`** (16.8 KB)
+- **`src/data/auth.js`** (17.5 KB)
 - **`src/data/dealer.js`** (9.0 KB)
 - **`src/data/dealer.test.mjs`** (4.3 KB)
 - **`src/data/favoritesStore.js`** (2.3 KB)

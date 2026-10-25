@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **MetricsTracker** (4 connections) — `backend/src/services/metrics.js`
-- **metrics.js** (2 connections) — `backend/src/services/metrics.js`
-- **metrics** (1 connections) — `backend/src/services/metrics.js`
-- **.constructor()** (1 connections) — `backend/src/services/metrics.js`
-- **.getSnapshot()** (1 connections) — `backend/src/services/metrics.js`
-- **.track()** (1 connections) — `backend/src/services/metrics.js`
+- **authoring-safety-contract.test.mjs** (5 connections) — `.agents/skills/archify/test/authoring-safety-contract.test.mjs`
+- **authoringContract** (1 connections) — `.agents/skills/archify/test/authoring-safety-contract.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/authoring-safety-contract.test.mjs`
+- **schemaReadme** (1 connections) — `.agents/skills/archify/test/authoring-safety-contract.test.mjs`
+- **skill** (1 connections) — `.agents/skills/archify/test/authoring-safety-contract.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/authoring-safety-contract.test.mjs`
 
 ## Relationships
 
@@ -17,7 +17,7 @@
 
 ## Source Files
 
-- `backend/src/services/metrics.js`
+- `.agents/skills/archify/test/authoring-safety-contract.test.mjs`
 
 ## Audit Trail
 

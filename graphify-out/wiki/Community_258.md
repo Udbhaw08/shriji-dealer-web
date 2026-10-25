@@ -4,14 +4,14 @@
 
 ## Key Concepts
 
-- **Disclosure controls** (6 connections) — `.agents/skills/apple-design/references/hig/disclosure-controls.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/disclosure-controls.md`
-- **disclosure-controls.md** (1 connections) — `.agents/skills/apple-design/references/hig/disclosure-controls.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/disclosure-controls.md`
-- **Disclosure buttons** (1 connections) — `.agents/skills/apple-design/references/hig/disclosure-controls.md`
-- **Disclosure triangles** (1 connections) — `.agents/skills/apple-design/references/hig/disclosure-controls.md`
-- **Mobile (iOS, iPadOS, visionOS)** (1 connections) — `.agents/skills/apple-design/references/hig/disclosure-controls.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/disclosure-controls.md`
+- **Going full screen** (5 connections) — `.agents/skills/apple-design/references/hig/going-full-screen.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/going-full-screen.md`
+- **going-full-screen.md** (1 connections) — `.agents/skills/apple-design/references/hig/going-full-screen.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/going-full-screen.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/going-full-screen.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/going-full-screen.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/going-full-screen.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/going-full-screen.md`
 
 ## Relationships
 
@@ -19,7 +19,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/disclosure-controls.md`
+- `.agents/skills/apple-design/references/hig/going-full-screen.md`
 
 ## Audit Trail
 

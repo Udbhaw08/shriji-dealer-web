@@ -1,53 +1,54 @@
 # Community 44
 
-> 32 nodes · cohesion 0.09
+> 35 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **zoho.js** (59 connections) — `api/_lib/zoho.js`
-- **syncRecentProductTags()** (7 connections) — `api/_lib/zoho.js`
-- **normalizeProduct()** (6 connections) — `api/_lib/zoho.js`
-- **readTagCache()** (6 connections) — `api/_lib/zoho.js`
-- **updateCachedProductTags()** (4 connections) — `api/_lib/zoho.js`
-- **sync-tags.js** (4 connections) — `api/products/sync-tags.js`
-- **getCachedProductTags()** (3 connections) — `api/_lib/zoho.js`
-- **isItemOnline()** (3 connections) — `api/_lib/zoho.js`
-- **handler()** (3 connections) — `api/products/sync-tags.js`
-- **isItemCategoryOnline()** (2 connections) — `api/_lib/zoho.js`
-- **parseRate()** (2 connections) — `api/_lib/zoho.js`
-- **slugifyCategory()** (2 connections) — `api/_lib/zoho.js`
-- **slugifyProduct()** (2 connections) — `api/_lib/zoho.js`
-- **writeTagCache()** (2 connections) — `api/_lib/zoho.js`
-- **cachedPricebooks** (1 connections) — `api/_lib/zoho.js`
-- **cachedProductDetails** (1 connections) — `api/_lib/zoho.js`
-- **cachedProductsByPricebook** (1 connections) — `api/_lib/zoho.js`
-- **clearDiskCache()** (1 connections) — `api/_lib/zoho.js`
-- **DEFAULT_SCHEMES** (1 connections) — `api/_lib/zoho.js`
-- **DEFAULT_STORE_BANNERS** (1 connections) — `api/_lib/zoho.js`
-- **isBannerItem()** (1 connections) — `api/_lib/zoho.js`
-- **isLogoItem()** (1 connections) — `api/_lib/zoho.js`
-- **isSchemeItem()** (1 connections) — `api/_lib/zoho.js`
-- **localCacheFile** (1 connections) — `api/_lib/zoho.js`
-- **localDetailCacheFile** (1 connections) — `api/_lib/zoho.js`
-- *... and 7 more nodes in this community*
+- **ff()** (26 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
+- **gl()** (15 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
+- **fi()** (13 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
+- **uu()** (13 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
+- **delete()** (11 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
+- **lu()** (11 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
+- **zl()** (10 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
+- **hl()** (9 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
+- **Iu()** (9 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
+- **ku()** (9 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
+- **mu()** (9 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
+- **ui()** (9 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
+- **wl()** (9 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
+- **jd()** (8 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
+- **Eu()** (7 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
+- **wa()** (7 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
+- **yl()** (7 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
+- **fu()** (6 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
+- **kl()** (6 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
+- **ul()** (6 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
+- **Nu()** (5 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
+- **Wu()** (5 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
+- **bu()** (4 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
+- **dl()** (4 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
+- **Gu()** (4 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
+- *... and 10 more nodes in this community*
 
 ## Relationships
 
-- [[Community 123]] (19 shared connections)
-- [[Community 255]] (6 shared connections)
-- [[Community 149]] (4 shared connections)
-- [[Community 233]] (3 shared connections)
-- [[Community 91]] (2 shared connections)
-- [[Community 144]] (1 shared connections)
+- [[Dealer Auth & Session Management]] (42 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (27 shared connections)
+- [[Zoho Integration Architecture]] (8 shared connections)
+- [[Community 79]] (5 shared connections)
+- [[Community 71]] (4 shared connections)
+- [[Graphify Knowledge Graph Skill]] (4 shared connections)
+- [[Oxlint Linter Configuration]] (3 shared connections)
+- [[Live Pricing Audit Tool]] (1 shared connections)
 
 ## Source Files
 
-- `api/_lib/zoho.js`
-- `api/products/sync-tags.js`
+- `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
 
 ## Audit Trail
 
-- EXTRACTED: 123 (100%)
+- EXTRACTED: 250 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

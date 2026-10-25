@@ -1,38 +1,33 @@
 # Community 177
 
-> 11 nodes · cohesion 0.27
+> 11 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **tf()** (10 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
-- **ef()** (7 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
-- **lf()** (7 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
-- **uf()** (7 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
-- **of()** (6 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
-- **sf()** (5 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
-- **cf()** (4 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
-- **jf()** (4 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
-- **vf()** (4 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
-- **Wf()** (3 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
-- **hp()** (2 connections) — `ios/App/App/public/assets/index-D7iXOTum.js`
+- **legendEntry** (5 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **label** (5 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **properties** (3 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **visible** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **maxLength** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **minLength** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **minProperties** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (12 shared connections)
-- [[Mobile Responsive UI Skill]] (6 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (5 shared connections)
-- [[Community 96]] (2 shared connections)
-- [[Architecture Doc Generator]] (2 shared connections)
-- [[Client Products Data Store]] (1 shared connections)
-- [[Product Pages Specification]] (1 shared connections)
+- [[Community 74]] (1 shared connections)
+- [[Community 178]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-D7iXOTum.js`
+- `.agents/skills/archify/schemas/common.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 59 (100%)
+- EXTRACTED: 22 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

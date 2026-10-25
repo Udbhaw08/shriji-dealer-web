@@ -19,7 +19,7 @@ import { sql } from './db/pool.js';
 
 const app = express();
 app.disable('x-powered-by');
-app.set('trust proxy', 1); // behind Railway/Render/Vercel proxies
+app.set('trust proxy', true); // behind Cloudflare/Render/Vercel proxies
 app.use(express.json({ limit: '1mb', verify: (req, _res, buf) => { req.rawBody = buf; } }));
 
 // CORS — the web app lives on a different origin in dev (Vite :5173),
@@ -97,8 +97,8 @@ app.get('/', (_req, res) => {
 
 app.use('/health', healthRouter);
 app.use('/webhooks', webhooksRouter);
-app.use('/api/auth', rateLimit({ windowMs: 60_000, max: 60 }), authRouter);
-app.use('/api/dealers', rateLimit({ windowMs: 60_000, max: 60 }), dealersRouter);
+app.use('/api/auth', rateLimit({ windowMs: 60_000, max: 120, prefix: 'auth_global' }), authRouter);
+app.use('/api/dealers', rateLimit({ windowMs: 60_000, max: 120, prefix: 'dealers_global' }), dealersRouter);
 app.use('/api/prices', pricesRouter);
 app.use('/api/content', contentRouter);
 app.use('/api/admin', adminRouter);

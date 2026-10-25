@@ -33,15 +33,14 @@
 
 ## Relationships
 
-- [[Zoho Integration Skill]] (7 shared connections)
-- [[Master Codebase Architecture Reference]] (7 shared connections)
+- [[Community 32]] (7 shared connections)
+- [[Design System & UI Tokens]] (7 shared connections)
 - [[Agent Guidelines (AGENTS.md)]] (2 shared connections)
-- [[Community 61]] (2 shared connections)
-- [[Design System & UI Tokens]] (1 shared connections)
-- [[Community 52]] (1 shared connections)
-- [[Community 43]] (1 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (2 shared connections)
+- [[Community 63]] (2 shared connections)
+- [[Product Requirements Documentation]] (1 shared connections)
+- [[Community 38]] (1 shared connections)
 - [[Dependencies & Package Config]] (1 shared connections)
-- [[Community 84]] (1 shared connections)
 
 ## Source Files
 

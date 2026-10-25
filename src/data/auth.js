@@ -198,9 +198,13 @@ async function tryRefresh() {
 }
 
 async function applyAuthResponse(res) {
-  const data = await res.json();
+  const data = await res.json().catch(() => ({}));
   if (!res.ok || data.error) {
-    throw new Error(data.error || "Authentication failed");
+    if (res.status === 429) {
+      const wait = data.retry_after_seconds;
+      throw new Error(wait ? `Too many attempts. Please wait ${wait} seconds before trying again.` : (data.message || "Too many attempts. Please wait a moment before trying again."));
+    }
+    throw new Error(data.message || data.error || "Authentication failed");
   }
   if (data.accessToken) {
     accessToken = data.accessToken;
@@ -216,8 +220,18 @@ const json = (body) => ({ method: "POST", body: JSON.stringify(body) });
 
 export async function requestOtp(phone) {
   const res = await callBackend("/api/auth/otp/request", json({ phone }));
-  const data = await res.json();
-  if (!res.ok) throw new Error(data.error || "Could not send verification code");
+  const data = await res.json().catch(() => ({}));
+  if (!res.ok) {
+    if (res.status === 429) {
+      const wait = data.retry_after_seconds;
+      throw new Error(
+        wait
+          ? `Too many OTP requests. Please wait ${wait} seconds before requesting a new code.`
+          : (data.message || "Too many OTP requests. Please wait a few moments before requesting a new code.")
+      );
+    }
+    throw new Error(data.message || data.error || "Could not send verification code");
+  }
   return data;
 }
 

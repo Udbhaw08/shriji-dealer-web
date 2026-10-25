@@ -128,9 +128,9 @@ export default function Login() {
     }
   }, [step]);
 
-  // Initialize official Google Identity Services (GSI) button safely in production
+  // Initialize official Google Identity Services (GSI) button safely in production (Email mode only)
   useEffect(() => {
-    if (isAuthenticated || selectedRole !== "dealer") return;
+    if (isAuthenticated || selectedRole !== "dealer" || authMethod !== "email") return;
     // On localhost, Google returns 403 Origin Not Allowed unless added in Google Console.
     // We suppress the GSI iframe on localhost to avoid polluting the console.
     if (isLocalhost) return;
@@ -195,7 +195,7 @@ export default function Login() {
         clearTimeout(timeout);
       };
     }
-  }, [isAuthenticated, fromPath, navigate, selectedRole, isLocalhost]);
+  }, [isAuthenticated, fromPath, navigate, selectedRole, authMethod, isLocalhost]);
 
   /* ---- WhatsApp Flow Handlers ---- */
   const handleSendOtp = async (e) => {
@@ -211,7 +211,10 @@ export default function Login() {
       setCooldown(RESEND_COOLDOWN_SECONDS);
       setOtp(["", "", "", "", "", ""]);
     } catch (err) {
-      setError(err.message || "Failed to send WhatsApp verification code. Please try again.");
+      const msg = err.message === "rate_limited"
+        ? "Too many requests. Please wait a few moments before requesting a new OTP code."
+        : (err.message || "Failed to send WhatsApp verification code. Please try again.");
+      setError(msg);
     } finally {
       setLoading(false);
     }
@@ -1310,54 +1313,57 @@ export default function Login() {
                           <button type="submit" disabled={loading} className="btn btn-navy btn-block" style={{ height: 48, fontWeight: 700 }}>
                             {loading ? "Signing In..." : "Sign In with Email"}
                           </button>
-                        </form>
-                      )}
 
-                      {/* Clean Google Sign-In Integration (Without 403 Origin Errors on Localhost) */}
-                      <div style={{ marginTop: 20, paddingTop: 16, borderTop: "1px solid var(--line)" }}>
-                        {isLocalhost ? (
-                          <div style={{ display: "grid", gap: 8 }}>
-                            <button
-                              type="button"
-                              onClick={() => {
-                                setGoogleNotice(
-                                  "Google 1-Click Access is active on production (restor.in). On localhost, please sign in with your WhatsApp number above."
-                                );
-                              }}
-                              className="btn btn-ghost btn-block"
-                              style={{
-                                height: 46,
-                                display: "flex",
-                                alignItems: "center",
-                                justifyContent: "center",
-                                gap: 10,
-                                border: "1px solid var(--line, #dce4ed)",
-                                background: "#fff",
-                                color: "var(--tx)",
-                                fontWeight: 600,
-                                fontSize: "0.9rem",
-                              }}
-                            >
-                              <svg width="18" height="18" viewBox="0 0 18 18">
-                                <path fill="#4285F4" d="M17.64 9.2c0-.637-.057-1.251-.164-1.84H9v3.481h4.844c-.209 1.125-.843 2.078-1.796 2.717v2.258h2.908c1.702-1.567 2.684-3.874 2.684-6.616z"/>
-                                <path fill="#34A853" d="M9 18c2.43 0 4.467-.806 5.956-2.184l-2.908-2.258c-.806.54-1.837.86-3.048.86-2.344 0-4.328-1.584-5.036-3.711H.957v2.332A8.997 8.997 0 0 0 9 18z"/>
-                                <path fill="#FBBC05" d="M3.964 10.707c-.18-.54-.282-1.117-.282-1.707s.102-1.167.282-1.707V4.961H.957A8.996 8.996 0 0 0 0 9c0 1.452.348 2.827.957 4.039l3.007-2.332z"/>
-                                <path fill="#EA4335" d="M9 3.58c1.321 0 2.508.454 3.44 1.345l2.582-2.58C13.463.891 11.426 0 9 0A8.997 8.997 0 0 0 .957 4.961L3.964 7.293C4.672 5.166 6.656 3.58 9 3.58z"/>
-                              </svg>
-                              Continue with Google
-                            </button>
-                            {googleNotice && (
-                              <p style={{ margin: 0, fontSize: "0.78rem", color: "var(--tx-3)", textAlign: "center", lineHeight: 1.4 }}>
-                                {googleNotice}
-                              </p>
+                          {/* Clean Google Sign-In Integration for Email Accounts */}
+                          <div style={{ marginTop: 12, paddingTop: 16, borderTop: "1px solid var(--line)" }}>
+                            <div style={{ textAlign: "center", fontSize: "0.8rem", color: "var(--tx-3)", marginBottom: 12 }}>
+                              — or sign in with Google —
+                            </div>
+                            {isLocalhost ? (
+                              <div style={{ display: "grid", gap: 8 }}>
+                                <button
+                                  type="button"
+                                  onClick={() => {
+                                    setGoogleNotice(
+                                      "Google 1-Click Access is active for registered domains in Google Cloud Console. On localhost, please sign in with WhatsApp or Email above."
+                                    );
+                                  }}
+                                  className="btn btn-ghost btn-block"
+                                  style={{
+                                    height: 46,
+                                    display: "flex",
+                                    alignItems: "center",
+                                    justifyContent: "center",
+                                    gap: 10,
+                                    border: "1px solid var(--line, #dce4ed)",
+                                    background: "#fff",
+                                    color: "var(--tx)",
+                                    fontWeight: 600,
+                                    fontSize: "0.9rem",
+                                  }}
+                                >
+                                  <svg width="18" height="18" viewBox="0 0 18 18">
+                                    <path fill="#4285F4" d="M17.64 9.2c0-.637-.057-1.251-.164-1.84H9v3.481h4.844c-.209 1.125-.843 2.078-1.796 2.717v2.258h2.908c1.702-1.567 2.684-3.874 2.684-6.616z"/>
+                                    <path fill="#34A853" d="M9 18c2.43 0 4.467-.806 5.956-2.184l-2.908-2.258c-.806.54-1.837.86-3.048.86-2.344 0-4.328-1.584-5.036-3.711H.957v2.332A8.997 8.997 0 0 0 9 18z"/>
+                                    <path fill="#FBBC05" d="M3.964 10.707c-.18-.54-.282-1.117-.282-1.707s.102-1.167.282-1.707V4.961H.957A8.996 8.996 0 0 0 0 9c0 1.452.348 2.827.957 4.039l3.007-2.332z"/>
+                                    <path fill="#EA4335" d="M9 3.58c1.321 0 2.508.454 3.44 1.345l2.582-2.58C13.463.891 11.426 0 9 0A8.997 8.997 0 0 0 .957 4.961L3.964 7.293C4.672 5.166 6.656 3.58 9 3.58z"/>
+                                  </svg>
+                                  Continue with Google
+                                </button>
+                                {googleNotice && (
+                                  <p style={{ margin: 0, fontSize: "0.78rem", color: "var(--tx-3)", textAlign: "center", lineHeight: 1.4 }}>
+                                    {googleNotice}
+                                  </p>
+                                )}
+                              </div>
+                            ) : (
+                              <div style={{ display: "flex", justifyContent: "center", minHeight: 44 }}>
+                                <div ref={googleBtnRef} style={{ width: "100%", maxWidth: 320, display: "flex", justifyContent: "center" }} />
+                              </div>
                             )}
                           </div>
-                        ) : (
-                          <div style={{ display: "flex", justifyContent: "center", minHeight: 44 }}>
-                            <div ref={googleBtnRef} style={{ width: "100%", maxWidth: 320, display: "flex", justifyContent: "center" }} />
-                          </div>
-                        )}
-                      </div>
+                        </form>
+                      )}
                     </div>
                   )}
 
