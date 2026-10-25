@@ -151,8 +151,13 @@ export default function Login() {
               setError(null);
               try {
                 await googleLogin(response.credential);
-                await revalidateSession();
-                navigate(fromPath !== "/login" ? fromPath : "/products", { replace: true });
+                const fresh = await revalidateSession();
+                const isDealer = fresh?.role === "dealer" || fresh?.dealer?.status === "approved" || fresh?.dealer?.status === "pending";
+                if (!isDealer && (fromPath === "/products" || fromPath === "/login")) {
+                  navigate("/dealer/apply", { replace: true });
+                } else {
+                  navigate(fromPath !== "/login" ? fromPath : "/products", { replace: true });
+                }
               } catch (err) {
                 setError(err.message || "Google sign-in failed. Please try again.");
               } finally {
@@ -501,6 +506,62 @@ export default function Login() {
               </div>
 
               <div style={{ display: "grid", gap: 10 }}>
+                {/* Upgrade / Apply for Dealership prompt for retail/customer sessions */}
+                {!dealerActive && !isPending && (
+                  <div
+                    style={{
+                      background: "linear-gradient(135deg, rgba(23, 77, 122, 0.05), rgba(30, 64, 175, 0.08))",
+                      border: "1.5px solid var(--blue-ink, #1a73e8)",
+                      borderRadius: "var(--r, 14px)",
+                      padding: "16px",
+                      textAlign: "left",
+                      marginBottom: 4,
+                    }}
+                  >
+                    <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 6 }}>
+                      <div
+                        style={{
+                          width: 36,
+                          height: 36,
+                          borderRadius: 8,
+                          background: "var(--navy, #10263a)",
+                          color: "#fff",
+                          display: "flex",
+                          alignItems: "center",
+                          justifyContent: "center",
+                          flexShrink: 0,
+                        }}
+                      >
+                        <Icon name="badge" size={18} />
+                      </div>
+                      <div>
+                        <div style={{ fontSize: "0.96rem", fontWeight: 800, color: "var(--navy, #10263a)" }}>
+                          Register as Verified Dealer
+                        </div>
+                        <div style={{ fontSize: "0.78rem", color: "var(--tx-2)" }}>
+                          Unlock trade wholesale rates, volume schemes & CRM approval
+                        </div>
+                      </div>
+                    </div>
+                    <Link
+                      to="/dealer/apply"
+                      className="btn btn-navy btn-block"
+                      style={{
+                        minHeight: 44,
+                        background: "var(--navy, #10263a)",
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center",
+                        gap: 8,
+                        fontWeight: 700,
+                        marginTop: 10,
+                      }}
+                    >
+                      <Icon name="edit" size={16} /> Complete Dealership Application →
+                    </Link>
+                  </div>
+                )}
+
                 {isPending && (
                   <Link to="/dealer/pending" className="btn btn-navy btn-block" style={{ minHeight: 48, background: "var(--amber-600, #d97706)", borderColor: "var(--amber-600, #d97706)" }}>
                     <Icon name="clock" size={16} /> View Application Status
@@ -907,9 +968,9 @@ export default function Login() {
                       </div>
                     </div>
 
-                    {/* OPTION 4: CONTINUE AS BRAND (FADED OUT & UNCLICKABLE) */}
-                    <div
-                      aria-disabled="true"
+                    {/* OPTION 4: APPLY FOR DEALERSHIP (ACTIVE ONBOARDING) */}
+                    <Link
+                      to="/dealer/apply"
                       style={{
                         display: "flex",
                         alignItems: "center",
@@ -917,11 +978,22 @@ export default function Login() {
                         padding: "16px 18px",
                         borderRadius: "var(--r, 14px)",
                         border: "1.5px solid var(--line, #dce4ed)",
-                        background: "#fafafa",
-                        opacity: 0.38,
-                        pointerEvents: "none",
-                        cursor: "not-allowed",
-                        userSelect: "none",
+                        background: "#ffffff",
+                        cursor: "pointer",
+                        textDecoration: "none",
+                        color: "inherit",
+                        transition: "all 0.2s ease",
+                        boxShadow: "0 2px 8px rgba(16, 38, 58, 0.04)",
+                      }}
+                      onMouseEnter={(e) => {
+                        e.currentTarget.style.borderColor = "var(--navy, #10263a)";
+                        e.currentTarget.style.boxShadow = "0 6px 20px -4px rgba(16, 38, 58, 0.12)";
+                        e.currentTarget.style.transform = "translateY(-1px)";
+                      }}
+                      onMouseLeave={(e) => {
+                        e.currentTarget.style.borderColor = "var(--line, #dce4ed)";
+                        e.currentTarget.style.boxShadow = "0 2px 8px rgba(16, 38, 58, 0.04)";
+                        e.currentTarget.style.transform = "none";
                       }}
                     >
                       <div style={{ display: "flex", alignItems: "center", gap: 14 }}>
@@ -930,8 +1002,8 @@ export default function Login() {
                             width: 44,
                             height: 44,
                             borderRadius: "var(--r-sm, 10px)",
-                            background: "#f1f5f9",
-                            color: "#64748b",
+                            background: "#eff6ff",
+                            color: "var(--blue-ink, #1a73e8)",
                             display: "flex",
                             alignItems: "center",
                             justifyContent: "center",
@@ -942,19 +1014,20 @@ export default function Login() {
                         </div>
                         <div>
                           <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 2 }}>
-                            <span style={{ fontSize: "1.02rem", fontWeight: 700, color: "var(--tx-3)" }}>
-                              Continue as Brand
+                            <span style={{ fontSize: "1.02rem", fontWeight: 800, color: "var(--tx)" }}>
+                              Apply for Dealership
                             </span>
-                            <span style={{ fontSize: "0.72rem", fontWeight: 700, padding: "2px 8px", borderRadius: 999, background: "#e2e8f0", color: "#64748b" }}>
-                              Invite Only
+                            <span style={{ fontSize: "0.72rem", fontWeight: 700, padding: "2px 8px", borderRadius: 999, background: "#dbeafe", color: "#1e40af" }}>
+                              New Showrooms
                             </span>
                           </div>
-                          <span style={{ fontSize: "0.82rem", color: "var(--tx-3)", display: "block" }}>
-                            Dealership onboarding currently by direct invitation only
+                          <span style={{ fontSize: "0.82rem", color: "var(--tx-2)", display: "block" }}>
+                            Register your showroom or business for trade rates & CRM approval
                           </span>
                         </div>
                       </div>
-                    </div>
+                      <span style={{ color: "var(--navy, #10263a)", fontSize: "1.1rem", fontWeight: 700 }}>→</span>
+                    </Link>
                   </div>
                 </div>
               )}
@@ -1273,6 +1346,77 @@ export default function Login() {
                       {/* Email Password Form */}
                       {authMethod === "email" && (
                         <form onSubmit={handleEmailAuthSubmit} style={{ display: "grid", gap: 14 }}>
+                          {/* Segmented Mode Switcher: Sign In vs Create Account */}
+                          <div
+                            role="tablist"
+                            style={{
+                              display: "flex",
+                              background: "var(--bg-2, #f0f5fc)",
+                              borderRadius: "var(--r-sm, 10px)",
+                              padding: 3,
+                              gap: 3,
+                            }}
+                          >
+                            <button
+                              type="button"
+                              role="tab"
+                              aria-selected={emailMode === "login"}
+                              onClick={() => { setEmailMode("login"); setError(null); }}
+                              style={{
+                                flex: 1,
+                                border: "none",
+                                borderRadius: "calc(var(--r-sm, 10px) - 2px)",
+                                padding: "8px 12px",
+                                fontSize: "0.84rem",
+                                fontWeight: emailMode === "login" ? 800 : 600,
+                                background: emailMode === "login" ? "#ffffff" : "transparent",
+                                color: emailMode === "login" ? "var(--navy, #10263a)" : "var(--tx-2)",
+                                boxShadow: emailMode === "login" ? "0 2px 6px rgba(16, 38, 58, 0.08)" : "none",
+                                cursor: "pointer",
+                                transition: "all 0.15s ease",
+                              }}
+                            >
+                              Sign In
+                            </button>
+                            <button
+                              type="button"
+                              role="tab"
+                              aria-selected={emailMode === "signup"}
+                              onClick={() => { setEmailMode("signup"); setError(null); }}
+                              style={{
+                                flex: 1,
+                                border: "none",
+                                borderRadius: "calc(var(--r-sm, 10px) - 2px)",
+                                padding: "8px 12px",
+                                fontSize: "0.84rem",
+                                fontWeight: emailMode === "signup" ? 800 : 600,
+                                background: emailMode === "signup" ? "#ffffff" : "transparent",
+                                color: emailMode === "signup" ? "var(--navy, #10263a)" : "var(--tx-2)",
+                                boxShadow: emailMode === "signup" ? "0 2px 6px rgba(16, 38, 58, 0.08)" : "none",
+                                cursor: "pointer",
+                                transition: "all 0.15s ease",
+                              }}
+                            >
+                              Create Account
+                            </button>
+                          </div>
+
+                          {emailMode === "signup" && (
+                            <div>
+                              <label htmlFor="dealer-fullname-in" style={{ display: "block", fontSize: "0.82rem", fontWeight: 700, marginBottom: 4 }}>
+                                Full Name
+                              </label>
+                              <input
+                                id="dealer-fullname-in"
+                                type="text"
+                                value={fullName}
+                                onChange={(e) => setFullName(e.target.value)}
+                                placeholder="Your full name"
+                                style={{ width: "100%", height: 48, borderRadius: "var(--r-sm, 10px)", border: "1.5px solid var(--line)", padding: "0 12px" }}
+                              />
+                            </div>
+                          )}
+
                           <div>
                             <label htmlFor="dealer-email-in" style={{ display: "block", fontSize: "0.82rem", fontWeight: 700, marginBottom: 4 }}>
                               Email Address
@@ -1311,13 +1455,41 @@ export default function Login() {
                           </div>
 
                           <button type="submit" disabled={loading} className="btn btn-navy btn-block" style={{ height: 48, fontWeight: 700 }}>
-                            {loading ? "Signing In..." : "Sign In with Email"}
+                            {loading
+                              ? (emailMode === "signup" ? "Creating Account..." : "Signing In...")
+                              : (emailMode === "signup" ? "Create Account & Sign In" : "Sign In with Email")}
                           </button>
 
+                          <div style={{ textAlign: "center", fontSize: "0.82rem" }}>
+                            {emailMode === "login" ? (
+                              <span style={{ color: "var(--tx-2)" }}>
+                                Need a new account?{" "}
+                                <button
+                                  type="button"
+                                  onClick={() => { setEmailMode("signup"); setError(null); }}
+                                  style={{ background: "transparent", border: "none", color: "var(--blue-ink, #1a73e8)", fontWeight: 700, cursor: "pointer", padding: 0 }}
+                                >
+                                  Create an Account
+                                </button>
+                              </span>
+                            ) : (
+                              <span style={{ color: "var(--tx-2)" }}>
+                                Already have an account?{" "}
+                                <button
+                                  type="button"
+                                  onClick={() => { setEmailMode("login"); setError(null); }}
+                                  style={{ background: "transparent", border: "none", color: "var(--blue-ink, #1a73e8)", fontWeight: 700, cursor: "pointer", padding: 0 }}
+                                >
+                                  Sign In here
+                                </button>
+                              </span>
+                            )}
+                          </div>
+
                           {/* Clean Google Sign-In Integration for Email Accounts */}
-                          <div style={{ marginTop: 12, paddingTop: 16, borderTop: "1px solid var(--line)" }}>
+                          <div style={{ marginTop: 10, paddingTop: 14, borderTop: "1px solid var(--line)" }}>
                             <div style={{ textAlign: "center", fontSize: "0.8rem", color: "var(--tx-3)", marginBottom: 12 }}>
-                              — or sign in with Google —
+                              — or continue with Google —
                             </div>
                             {isLocalhost ? (
                               <div style={{ display: "grid", gap: 8 }}>
@@ -1361,6 +1533,16 @@ export default function Login() {
                                 <div ref={googleBtnRef} style={{ width: "100%", maxWidth: 320, display: "flex", justifyContent: "center" }} />
                               </div>
                             )}
+
+                            {/* Direct Dealership application link */}
+                            <div style={{ textAlign: "center", marginTop: 14, paddingTop: 12, borderTop: "1px dashed var(--line)" }}>
+                              <span style={{ fontSize: "0.82rem", color: "var(--tx-2)" }}>
+                                New showroom or store owner?{" "}
+                                <Link to="/dealer/apply" style={{ color: "var(--navy-2, #174d7a)", fontWeight: 700, textDecoration: "underline" }}>
+                                  Apply for Dealership →
+                                </Link>
+                              </span>
+                            </div>
                           </div>
                         </form>
                       )}

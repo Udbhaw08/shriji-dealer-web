@@ -1,8 +1,8 @@
 # al()
 
-> God node · 39 connections · `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
+> God node · 39 connections · `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
 
-**Community:** [[Graphify Knowledge Graph Skill]]
+**Community:** [[Community 30]]
 
 ## Connections by Relation
 
@@ -12,21 +12,21 @@
 - [[lm()]] `EXTRACTED`
 - [[il()]] `EXTRACTED`
 - [[r()]] `EXTRACTED`
-- [[ye()]] `EXTRACTED`
 - [[nl()]] `EXTRACTED`
 - [[ta()]] `EXTRACTED`
 - [[ha()]] `EXTRACTED`
+- [[ve()]] `EXTRACTED`
 - [[kc()]] `EXTRACTED`
 - [[Sp()]] `EXTRACTED`
 - [[Xd()]] `EXTRACTED`
 - [[fa()]] `EXTRACTED`
 - [[ga()]] `EXTRACTED`
 - [[hc()]] `EXTRACTED`
-- [[la()]] `EXTRACTED`
 - [[ro()]] `EXTRACTED`
-- [[ao()]] `EXTRACTED`
 - [[jc()]] `EXTRACTED`
+- [[la()]] `EXTRACTED`
 - [[mo()]] `EXTRACTED`
+- [[qi()]] `EXTRACTED`
 
 ### contains
 - [[_()]] `EXTRACTED`

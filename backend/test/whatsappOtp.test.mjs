@@ -7,6 +7,8 @@ process.env.ENABLE_JOBS = 'false';
 
 const testEnv = {
   jwtSecret: 'test-secret-for-whatsapp-otp-suite',
+  otpRateLimitMax: 6,
+  otpRateLimitWindowMs: 10 * 60_000,
   whatsapp: {
     token: 'test-meta-token',
     phoneId: 'test-phone-id-12345',
@@ -559,6 +561,7 @@ test('HTTP POST /api/auth/otp/request purges pending code if Meta send fails', a
 test('HTTP POST /api/auth/otp/request enforces rate limiting on rapid requests', async () => {
   resetConfig();
   process.env.TEST_RATE_LIMIT = 'true';
+  process.env.OTP_RATE_LIMIT_MAX = '6';
   await startServer();
 
   try {
@@ -572,7 +575,7 @@ test('HTTP POST /api/auth/otp/request enforces rate limiting on rapid requests',
       return originalFetch(url, options);
     };
 
-    // Rate limit is 6 requests per 10 minutes
+    // Rate limit is 6 requests per test window
     const statuses = [];
     for (let i = 0; i < 7; i++) {
       const res = await fetch(`${baseUrl}/api/auth/otp/request`, {
@@ -587,6 +590,7 @@ test('HTTP POST /api/auth/otp/request enforces rate limiting on rapid requests',
     assert.equal(statuses[6], 429); // 7th request blocked
   } finally {
     delete process.env.TEST_RATE_LIMIT;
+    delete process.env.OTP_RATE_LIMIT_MAX;
     await stopServer();
   }
 });

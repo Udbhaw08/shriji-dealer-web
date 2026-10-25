@@ -1,54 +1,47 @@
 # Community 44
 
-> 35 nodes · cohesion 0.13
+> 33 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **ff()** (26 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
-- **gl()** (15 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
-- **fi()** (13 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
-- **uu()** (13 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
-- **delete()** (11 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
-- **lu()** (11 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
-- **zl()** (10 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
-- **hl()** (9 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
-- **Iu()** (9 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
-- **ku()** (9 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
-- **mu()** (9 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
-- **ui()** (9 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
-- **wl()** (9 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
-- **jd()** (8 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
-- **Eu()** (7 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
-- **wa()** (7 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
-- **yl()** (7 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
-- **fu()** (6 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
-- **kl()** (6 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
-- **ul()** (6 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
-- **Nu()** (5 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
-- **Wu()** (5 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
-- **bu()** (4 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
-- **dl()** (4 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
-- **Gu()** (4 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
-- *... and 10 more nodes in this community*
+- **scripts** (15 connections) — `.agents/skills/archify/package.json`
+- **package.json** (11 connections) — `.agents/skills/archify/package.json`
+- **devDependencies** (5 connections) — `.agents/skills/archify/package.json`
+- **bin** (2 connections) — `.agents/skills/archify/package.json`
+- **engines** (2 connections) — `.agents/skills/archify/package.json`
+- **overrides** (2 connections) — `.agents/skills/archify/package.json`
+- **archify** (1 connections) — `.agents/skills/archify/package.json`
+- **description** (1 connections) — `.agents/skills/archify/package.json`
+- **ajv** (1 connections) — `.agents/skills/archify/package.json`
+- **parse5** (1 connections) — `.agents/skills/archify/package.json`
+- **saxes** (1 connections) — `.agents/skills/archify/package.json`
+- **simple-icons** (1 connections) — `.agents/skills/archify/package.json`
+- **node** (1 connections) — `.agents/skills/archify/package.json`
+- **license** (1 connections) — `.agents/skills/archify/package.json`
+- **name** (1 connections) — `.agents/skills/archify/package.json`
+- **fast-uri** (1 connections) — `.agents/skills/archify/package.json`
+- **private** (1 connections) — `.agents/skills/archify/package.json`
+- **build:gallery** (1 connections) — `.agents/skills/archify/package.json`
+- **build:guide** (1 connections) — `.agents/skills/archify/package.json`
+- **build:readme-showcase** (1 connections) — `.agents/skills/archify/package.json`
+- **build:start** (1 connections) — `.agents/skills/archify/package.json`
+- **check:brand-marks** (1 connections) — `.agents/skills/archify/package.json`
+- **check:release-identity** (1 connections) — `.agents/skills/archify/package.json`
+- **check:validators** (1 connections) — `.agents/skills/archify/package.json`
+- **check:viewer** (1 connections) — `.agents/skills/archify/package.json`
+- *... and 8 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (42 shared connections)
-- [[Zoho Backend & Proxy Endpoints]] (27 shared connections)
-- [[Zoho Integration Architecture]] (8 shared connections)
-- [[Community 79]] (5 shared connections)
-- [[Community 71]] (4 shared connections)
-- [[Graphify Knowledge Graph Skill]] (4 shared connections)
-- [[Oxlint Linter Configuration]] (3 shared connections)
-- [[Live Pricing Audit Tool]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
+- `.agents/skills/archify/package.json`
 
 ## Audit Trail
 
-- EXTRACTED: 250 (100%)
+- EXTRACTED: 64 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

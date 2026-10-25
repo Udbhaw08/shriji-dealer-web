@@ -1,31 +1,39 @@
 # Community 199
 
-> 10 nodes · cohesion 0.20
+> 10 nodes · cohesion 0.42
 
 ## Key Concepts
 
-- **entries** (4 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **legend** (4 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **properties** (3 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **mode** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **properties** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **dealerPricingAuth.js** (9 connections) — `api/_lib/dealerPricingAuth.js`
+- **getDealerPricingEligibility()** (8 connections) — `api/_lib/dealerPricingAuth.js`
+- **index.js** (8 connections) — `api/products/index.js`
+- **fetchZohoCategories()** (6 connections) — `api/_lib/zoho.js`
+- **[id].js** (6 connections) — `api/products/[id].js`
+- **handler()** (6 connections) — `api/products/index.js`
+- **maskCatalogPricing()** (5 connections) — `api/_lib/dealerPricingAuth.js`
+- **maskProductPricing()** (5 connections) — `api/_lib/dealerPricingAuth.js`
+- **readProductsDiskCache()** (5 connections) — `api/_lib/zoho.js`
+- **handler()** (4 connections) — `api/products/[id].js`
 
 ## Relationships
 
-- [[Community 68]] (1 shared connections)
+- [[Community 145]] (7 shared connections)
+- [[Community 152]] (6 shared connections)
+- [[Community 53]] (4 shared connections)
+- [[Community 46]] (4 shared connections)
+- [[Mobile Responsive UI Skill]] (2 shared connections)
+- [[Agent Guidelines (AGENTS.md)]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/lifecycle.schema.json`
+- `api/_lib/dealerPricingAuth.js`
+- `api/_lib/zoho.js`
+- `api/products/[id].js`
+- `api/products/index.js`
 
 ## Audit Trail
 
-- EXTRACTED: 19 (100%)
+- EXTRACTED: 62 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

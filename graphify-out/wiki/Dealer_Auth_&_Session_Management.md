@@ -1,54 +1,56 @@
 # Dealer Auth & Session Management
 
-> 92 nodes · cohesion 0.04
+> 79 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **_()** (446 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
-- **tf()** (10 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
-- **ef()** (7 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
-- **ga()** (7 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
-- **lf()** (7 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
-- **request()** (7 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
-- **uf()** (7 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
-- **of()** (6 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
-- **os()** (6 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
-- **ps()** (6 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
-- **eh()** (5 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
-- **es()** (5 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
-- **jl()** (5 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
-- **js()** (5 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
-- **Pd()** (5 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
-- **sf()** (5 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
-- **ts()** (5 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
-- **unavailable()** (5 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
-- **cf()** (4 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
-- **De()** (4 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
-- **ds()** (4 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
-- **fs()** (4 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
-- **jf()** (4 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
-- **ke()** (4 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
-- **ls()** (4 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
-- *... and 67 more nodes in this community*
+- **_()** (446 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- **gc()** (12 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- **Ti()** (11 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- **kc()** (8 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- **request()** (7 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- **ki()** (6 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- **qc()** (6 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- **Do()** (5 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- **eh()** (5 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- **Gi()** (5 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- **Ih()** (5 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- **Pd()** (5 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- **pi()** (5 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- **th()** (5 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- **unavailable()** (5 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- **Bf()** (4 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- **di()** (4 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- **Ei()** (4 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- **Mi()** (4 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- **pc()** (4 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- **removeWindowListener()** (4 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- **Uc()** (4 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- **us()** (4 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- **za()** (4 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- **Ad()** (3 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- *... and 54 more nodes in this community*
 
 ## Relationships
 
-- [[Zoho Backend & Proxy Endpoints]] (77 shared connections)
-- [[Graphify Knowledge Graph Skill]] (61 shared connections)
-- [[Oxlint Linter Configuration]] (60 shared connections)
-- [[Zoho Integration Architecture]] (59 shared connections)
-- [[Live Pricing Audit Tool]] (57 shared connections)
-- [[Community 44]] (42 shared connections)
-- [[Community 71]] (26 shared connections)
-- [[Community 79]] (24 shared connections)
+- [[Product Pages Specification]] (63 shared connections)
+- [[Live Pricing Audit Tool]] (62 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (52 shared connections)
+- [[Community 40]] (46 shared connections)
+- [[Community 48]] (39 shared connections)
+- [[Community 51]] (37 shared connections)
+- [[Community 47]] (36 shared connections)
+- [[Community 45]] (33 shared connections)
+- [[Community 58]] (29 shared connections)
+- [[Community 103]] (18 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
+- `ios/App/App/public/assets/index-D-WrdUrA.js`
 
 ## Audit Trail
 
-- EXTRACTED: 717 (100%)
+- EXTRACTED: 672 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

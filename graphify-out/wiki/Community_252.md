@@ -1,29 +1,29 @@
 # Community 252
 
-> 8 nodes · cohesion 0.32
+> 9 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **createDealerContact()** (9 connections) — `api/_lib/zoho.js`
-- **getAccessToken()** (6 connections) — `api/_lib/zoho.js`
-- **loadEnv()** (4 connections) — `api/_lib/zoho.js`
-- **test-zoho-api.mjs** (4 connections) — `scripts/test-zoho-api.mjs`
-- **apply.js** (3 connections) — `api/dealer/apply.js`
-- **handler()** (2 connections) — `api/dealer/apply.js`
-- **readDiskCache()** (2 connections) — `api/_lib/zoho.js`
-- **{ dc, orgId }** (1 connections) — `scripts/test-zoho-api.mjs`
+- **viewer-camera-browser.test.mjs** (11 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- **load()** (4 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- **run()** (4 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- **stable()** (3 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- **viewport()** (3 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- **screenshot()** (2 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- **snapshot()** (2 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- **cases** (1 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
 
 ## Relationships
 
-- [[Community 47]] (6 shared connections)
-- [[Community 140]] (5 shared connections)
-- [[Community 147]] (2 shared connections)
+- [[Community 60]] (4 shared connections)
+- [[Community 50]] (1 shared connections)
+- [[Community 153]] (1 shared connections)
+- [[Community 127]] (1 shared connections)
 
 ## Source Files
 
-- `api/_lib/zoho.js`
-- `api/dealer/apply.js`
-- `scripts/test-zoho-api.mjs`
+- `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
 
 ## Audit Trail
 

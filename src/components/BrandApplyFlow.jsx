@@ -69,6 +69,25 @@ export default function BrandApplyFlow({ onBack }) {
   const [submitLoading, setSubmitLoading] = useState(false);
   const [submitError, setSubmitError] = useState("");
 
+  // Sync authenticated session details (e.g. from Google login)
+  useEffect(() => {
+    if (session?.email && session?.email_verified) {
+      setEmailVerified(true);
+      setVerifiedEmail(session.email);
+      setEmailInput(session.email);
+      setForm((prev) => ({ ...prev, email: session.email }));
+    }
+    if (session?.phone && session?.phone_verified) {
+      setPhoneVerified(true);
+      setVerifiedPhone(session.phone);
+      setPhoneInput(session.phone);
+      setForm((prev) => ({ ...prev, phone: session.phone }));
+    }
+    if (session?.fullName) {
+      setForm((prev) => ({ ...prev, person_name: prev.person_name || session.fullName }));
+    }
+  }, [session?.email, session?.email_verified, session?.phone, session?.phone_verified, session?.fullName]);
+
   const canProceedToStep2 = phoneVerified && emailVerified;
 
   // Handle WhatsApp OTP Request

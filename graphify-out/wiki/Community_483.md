@@ -10,7 +10,7 @@
 
 ## Relationships
 
-- [[Community 29]] (1 shared connections)
+- [[Graphify Knowledge Graph Skill]] (1 shared connections)
 
 ## Source Files
 

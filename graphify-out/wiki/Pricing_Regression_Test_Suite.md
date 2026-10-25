@@ -1,6 +1,6 @@
 # Pricing Regression Test Suite
 
-> 55 nodes · cohesion 0.06
+> 56 nodes · cohesion 0.06
 
 ## Key Concepts
 
@@ -16,6 +16,7 @@
 - **formatLoginCode()** (8 connections) — `backend/src/utils/loginCode.js`
 - **generateLoginCode()** (8 connections) — `backend/src/utils/loginCode.js`
 - **loginCode.test.mjs** (7 connections) — `backend/test/loginCode.test.mjs`
+- **generateOtp()** (5 connections) — `backend/src/utils/hash.js`
 - **hashPassword()** (5 connections) — `backend/src/utils/hash.js`
 - **verifyPassword()** (4 connections) — `backend/src/utils/hash.js`
 - **isValidLoginCode()** (4 connections) — `backend/src/utils/loginCode.js`
@@ -28,14 +29,13 @@
 - **generateRandomLetters()** (2 connections) — `backend/src/utils/loginCode.js`
 - **GST_TREATMENT_OPTIONS** (2 connections) — `backend/src/utils/loginCode.js`
 - **app** (1 connections) — `backend/test/dealerRegistrationTwoChannel.test.mjs`
-- **crmCalls** (1 connections) — `backend/test/dealerRegistrationTwoChannel.test.mjs`
-- *... and 30 more nodes in this community*
+- *... and 31 more nodes in this community*
 
 ## Relationships
 
-- [[Client Products Data Store]] (14 shared connections)
-- [[Community 78]] (9 shared connections)
-- [[Zoho Integration Skill]] (8 shared connections)
+- [[Community 36]] (16 shared connections)
+- [[Mobile Responsive UI Skill]] (14 shared connections)
+- [[Community 114]] (2 shared connections)
 
 ## Source Files
 
@@ -49,7 +49,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 215 (100%)
+- EXTRACTED: 220 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

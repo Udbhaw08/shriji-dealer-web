@@ -17,10 +17,10 @@ import { normalizePhone } from '../utils/phone.js';
 import { applyCrmAccountState } from '../services/dealerApp.js';
 
 export const authRouter = Router();
-const strictLimit = rateLimit({ windowMs: 60_000, max: 20, prefix: 'auth_strict' });
+const strictLimit = rateLimit({ windowMs: 60_000, max: () => env.authStrictRateLimitMax || 30, prefix: 'auth_strict' });
 const otpRequestLimit = rateLimit({
-  windowMs: 10 * 60_000,
-  max: 6,
+  windowMs: () => env.otpRateLimitWindowMs || (3 * 60_000),
+  max: () => env.otpRateLimitMax || 20,
   prefix: 'otp_req_phone',
   keyFn: (req) => {
     const rawPhone = req.body?.phone;
@@ -32,7 +32,7 @@ const otpRequestLimit = rateLimit({
     }
     return `ip:${getClientIp(req)}`;
   },
-  message: 'Too many OTP requests for this phone number. Please wait a few minutes before trying again.',
+  message: 'Too many OTP requests for this phone number. Please wait a moment before trying again.',
 });
 const OTP_TTL_MINUTES = 10;
 const OTP_MAX_ATTEMPTS = 5;
@@ -381,7 +381,7 @@ authRouter.get('/me', jwtAuth, async (req, res, next) => {
   } catch (error) { next(error); }
 });
 
-authRouter.post('/email/request-otp', jwtAuth, rateLimit({ windowMs: 10 * 60_000, max: 6, prefix: 'auth_email_otp' }), async (req, res, next) => {
+authRouter.post('/email/request-otp', jwtAuth, rateLimit({ windowMs: () => env.otpRateLimitWindowMs || (3 * 60_000), max: () => env.otpRateLimitMax || 20, prefix: 'auth_email_otp' }), async (req, res, next) => {
   try {
     const email = normalizeEmail(req.body?.email || req.user.email);
     if (!email) throw httpError(400, 'A valid email address is required');
@@ -466,7 +466,7 @@ authRouter.post('/email/verify-otp', jwtAuth, strictLimit, async (req, res, next
 });
 
 /* POST /api/auth/phone/request-otp — authenticated request to add/verify phone */
-authRouter.post('/phone/request-otp', jwtAuth, rateLimit({ windowMs: 10 * 60_000, max: 6, prefix: 'auth_phone_otp' }), async (req, res, next) => {
+authRouter.post('/phone/request-otp', jwtAuth, rateLimit({ windowMs: () => env.otpRateLimitWindowMs || (3 * 60_000), max: () => env.otpRateLimitMax || 20, prefix: 'auth_phone_otp' }), async (req, res, next) => {
   try {
     const rawPhone = req.body?.phone || req.user.phone;
     if (!rawPhone) throw httpError(400, 'Mobile phone number is required');

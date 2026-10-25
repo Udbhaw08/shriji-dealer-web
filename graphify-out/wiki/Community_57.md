@@ -1,47 +1,54 @@
 # Community 57
 
-> 26 nodes · cohesion 0.09
+> 27 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **layout-rules.test.mjs** (25 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
-- **assertRelationshipsAvoidAllNodeBorders()** (5 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
-- **workflowNodeBorderOverlap()** (3 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
-- **assertWorkflowEdgesAvoidAllNodeBorders()** (2 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
-- **axisOverlapLength()** (2 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
-- **workflowEdgePoints()** (2 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
-- **workflowNodeRect()** (2 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
-- **ambiguousCorridorDocument()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
-- **autoRoutePassThroughDocument()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
-- **boundaryFrameRect()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
-- **boundaryTitleMasks()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
-- **EXAMPLES** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
-- **hash()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
-- **load()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
-- **rectanglesOverlap()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
-- **rectContainsRect()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
-- **SHRINK_CASES** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
-- **TAG_SHRINK_CASES** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
-- **tangentViaLifecycle()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
-- **validateCli()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
-- *... and 1 more nodes in this community*
+- **zd()** (13 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **Nd()** (11 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **qd()** (11 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **tf()** (10 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **Xd()** (8 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **ef()** (7 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **et()** (7 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **Gd()** (7 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **lf()** (7 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **tt()** (7 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **uf()** (7 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **Ae()** (6 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **of()** (6 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **Rd()** (6 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **Bd()** (5 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **sf()** (5 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **cf()** (4 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **jf()** (4 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **mf()** (4 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **vf()** (4 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **Zo()** (4 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **Hd()** (3 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **Ud()** (3 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **Wf()** (3 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **Fd()** (2 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- *... and 2 more nodes in this community*
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Price Presentation & Product UI]] (30 shared connections)
+- [[Product Requirements Documentation]] (12 shared connections)
+- [[Master Codebase Architecture Reference]] (7 shared connections)
+- [[Roles & Customer Sharing Spec]] (6 shared connections)
+- [[Product Brand & Business Vision]] (5 shared connections)
+- [[Community 49]] (3 shared connections)
+- [[Community 30]] (3 shared connections)
+- [[Graphify Workflow]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/layout-rules.test.mjs`
+- `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
 
 ## Audit Trail
 
-- EXTRACTED: 60 (100%)
+- EXTRACTED: 158 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

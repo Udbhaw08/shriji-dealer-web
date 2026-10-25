@@ -18,20 +18,21 @@ const { updateDealerCodeInCrm, getDealerAccount } = crm;
 import { resolvePricebookId } from '../services/commerceClient.js';
 import { formatLoginCode, generateUniqueDealerCode } from '../utils/loginCode.js';
 import { isValidName, cleanName, isValidGstin, isValidPhone } from '../utils/validators.js';
+import { env } from '../config/env.js';
 
 export const dealersRouter = Router();
 
-const strictLimit = rateLimit({ windowMs: 60_000, max: 20, prefix: 'dealer_strict' });
+const strictLimit = rateLimit({ windowMs: 60_000, max: () => env.authStrictRateLimitMax || 30, prefix: 'dealer_strict' });
 const otpRequestLimit = rateLimit({
-  windowMs: 10 * 60_000,
-  max: 6,
+  windowMs: () => env.otpRateLimitWindowMs || (3 * 60_000),
+  max: () => env.otpRateLimitMax || 20,
   prefix: 'dealer_reg_otp',
   keyFn: (req) => {
     const raw = req.body?.phone || req.body?.email;
     if (raw) return `target:${String(raw).trim().toLowerCase()}`;
     return `ip:${getClientIp(req)}`;
   },
-  message: 'Too many registration verification attempts. Please wait a few minutes before trying again.',
+  message: 'Too many registration verification attempts. Please wait a moment before trying again.',
 });
 
 /* ==========================================================================

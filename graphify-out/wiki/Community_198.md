@@ -4,28 +4,28 @@
 
 ## Key Concepts
 
-- **entries** (4 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **legend** (4 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **properties** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **mode** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **properties** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **Windows** (5 connections) — `.agents/skills/apple-design/references/hig/windows.md`
+- **Desktop (macOS)** (3 connections) — `.agents/skills/apple-design/references/hig/windows.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/windows.md`
+- **windows.md** (1 connections) — `.agents/skills/apple-design/references/hig/windows.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/windows.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/windows.md`
+- **macOS window anatomy** (1 connections) — `.agents/skills/apple-design/references/hig/windows.md`
+- **macOS window states** (1 connections) — `.agents/skills/apple-design/references/hig/windows.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/windows.md`
+- **Tablet (iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/windows.md`
 
 ## Relationships
 
-- [[Community 67]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/dataflow.schema.json`
+- `.agents/skills/apple-design/references/hig/windows.md`
 
 ## Audit Trail
 
-- EXTRACTED: 19 (100%)
+- EXTRACTED: 18 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

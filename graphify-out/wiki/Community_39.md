@@ -1,55 +1,59 @@
 # Community 39
 
-> 38 nodes · cohesion 0.12
+> 37 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **Or()** (23 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
-- **jr()** (22 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
-- **gf()** (21 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
-- **af()** (10 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
-- **Ai()** (10 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
-- **Ar()** (9 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
-- **hr()** (9 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
-- **mr()** (8 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
-- **qr()** (8 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
-- **Fr()** (7 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
-- **hn()** (7 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
-- **Oi()** (7 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
-- **xr()** (7 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
-- **Ir()** (6 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
-- **pr()** (6 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
-- **Rr()** (6 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
-- **wr()** (6 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
-- **bn()** (5 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
-- **br()** (5 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
-- **qf()** (5 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
-- **ur()** (5 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
-- **Vr()** (5 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
-- **xn()** (5 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
-- **gr()** (4 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
-- **Ld()** (4 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
-- *... and 13 more nodes in this community*
+- **Product.jsx** (34 connections) — `src/pages/Product.jsx`
+- **dealer.js** (29 connections) — `src/data/dealer.js`
+- **Favorites.jsx** (20 connections) — `src/pages/Favorites.jsx`
+- **ProductCard.jsx** (19 connections) — `src/components/ProductCard.jsx`
+- **dealer.test.mjs** (18 connections) — `src/data/dealer.test.mjs`
+- **PriceBlock.jsx** (15 connections) — `src/components/PriceBlock.jsx`
+- **ProductCard()** (15 connections) — `src/components/ProductCard.jsx`
+- **Product()** (15 connections) — `src/pages/Product.jsx`
+- **priceFor()** (14 connections) — `src/data/dealer.js`
+- **useFavorites()** (13 connections) — `src/data/favoritesStore.js`
+- **dealerById()** (12 connections) — `src/data/dealer.js`
+- **inr()** (12 connections) — `src/data/dealer.js`
+- **Favorites()** (9 connections) — `src/pages/Favorites.jsx`
+- **viewerFor()** (8 connections) — `src/data/dealer.js`
+- **CustomerPrice()** (7 connections) — `src/components/PriceBlock.jsx`
+- **productSlug()** (7 connections) — `src/data/dealer.js`
+- **registerDealer()** (7 connections) — `src/data/dealer.js`
+- **shareLink()** (7 connections) — `src/data/dealer.js`
+- **tagFor()** (6 connections) — `src/data/dealer.js`
+- **DealerPrice()** (5 connections) — `src/components/PriceBlock.jsx`
+- **formatWhatsAppPhone()** (4 connections) — `src/data/dealer.js`
+- **slugifyProduct()** (4 connections) — `src/data/dealer.js`
+- **tierOf()** (4 connections) — `src/data/dealer.js`
+- **DEALERS** (3 connections) — `src/data/dealer.js`
+- **isFavorite()** (3 connections) — `src/data/favoritesStore.js`
+- *... and 12 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (45 shared connections)
-- [[Product Pages Specification]] (8 shared connections)
-- [[Product Brand & Business Vision]] (6 shared connections)
-- [[Pricing & Roles Skill]] (6 shared connections)
-- [[Architecture Doc Generator]] (4 shared connections)
-- [[Community 30]] (3 shared connections)
-- [[Community 175]] (2 shared connections)
-- [[Community 54]] (2 shared connections)
-- [[Community 50]] (1 shared connections)
+- [[Dependencies & Package Config]] (60 shared connections)
+- [[Community 56]] (16 shared connections)
+- [[Project Readme & Layout]] (13 shared connections)
+- [[Community 171]] (5 shared connections)
+- [[Community 170]] (5 shared connections)
+- [[Community 140]] (4 shared connections)
+- [[Community 108]] (3 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-B_clvtkR.js`
+- `src/components/PriceBlock.jsx`
+- `src/components/ProductCard.jsx`
+- `src/data/dealer.js`
+- `src/data/dealer.test.mjs`
+- `src/data/favoritesStore.js`
+- `src/pages/Favorites.jsx`
+- `src/pages/Product.jsx`
 
 ## Audit Trail
 
-- EXTRACTED: 251 (100%)
+- EXTRACTED: 304 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

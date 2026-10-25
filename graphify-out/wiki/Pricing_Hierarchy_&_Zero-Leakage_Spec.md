@@ -1,63 +1,57 @@
 # Pricing Hierarchy & Zero-Leakage Spec
 
-> 51 nodes · cohesion 0.08
+> 49 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **render-lifecycle.mjs** (81 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **utils.mjs** (26 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
-- **i18n.mjs** (21 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **translateMessage()** (21 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **legend.mjs** (21 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
-- **renderLegend()** (14 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
-- **svgAccessibleText()** (13 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **svgRootAttrs()** (13 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **renderDefinitions()** (11 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
-- **resolveLegend()** (10 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
-- **applyTemplate()** (9 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
-- **renderSvg()** (8 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **resolveLocale()** (7 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **renderSvg()** (6 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **renderSvg()** (6 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **renderLegend()** (6 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **renderSvg()** (6 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **legendFootprint()** (6 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
-- **measureLegend()** (6 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
-- **renderLegend()** (5 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **renderBands()** (5 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **renderLegend()** (5 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **viewerCatalog()** (4 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **bandFor()** (3 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **bandTitles()** (3 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- *... and 26 more nodes in this community*
+- **ff()** (26 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- **Tu()** (18 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- **gl()** (15 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- **fi()** (13 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- **uu()** (13 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- **delete()** (11 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- **lu()** (11 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- **vu()** (11 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- **zl()** (10 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- **hl()** (9 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- **Iu()** (9 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- **ku()** (9 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- **mu()** (9 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- **ui()** (9 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- **wl()** (9 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- **jd()** (8 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- **Sp()** (8 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- **bl()** (7 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- **cu()** (7 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- **Eu()** (7 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- **hc()** (7 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- **wa()** (7 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- **yl()** (7 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- **fu()** (6 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- **ju()** (6 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- *... and 24 more nodes in this community*
 
 ## Relationships
 
-- [[Dependencies & Package Config]] (40 shared connections)
-- [[Community 32]] (37 shared connections)
-- [[Community 38]] (24 shared connections)
-- [[Community 63]] (18 shared connections)
-- [[Design System & UI Tokens]] (17 shared connections)
-- [[Product Requirements Documentation]] (16 shared connections)
-- [[Community 122]] (5 shared connections)
-- [[Graphify Agent Rules]] (2 shared connections)
-- [[Community 290]] (1 shared connections)
+- [[Dealer Auth & Session Management]] (52 shared connections)
+- [[Product Pages Specification]] (23 shared connections)
+- [[Community 47]] (7 shared connections)
+- [[Community 58]] (6 shared connections)
+- [[Live Pricing Audit Tool]] (6 shared connections)
+- [[Community 48]] (5 shared connections)
+- [[Community 51]] (4 shared connections)
+- [[Community 45]] (4 shared connections)
+- [[Community 40]] (3 shared connections)
+- [[Community 103]] (3 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- `.agents/skills/archify/renderers/shared/cli.mjs`
-- `.agents/skills/archify/renderers/shared/i18n.mjs`
-- `.agents/skills/archify/renderers/shared/legend.mjs`
-- `.agents/skills/archify/renderers/shared/utils.mjs`
+- `ios/App/App/public/assets/index-D-WrdUrA.js`
 
 ## Audit Trail
 
-- EXTRACTED: 349 (99%)
-- INFERRED: 5 (1%)
+- EXTRACTED: 337 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

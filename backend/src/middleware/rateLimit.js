@@ -30,13 +30,15 @@ export function rateLimit({
     if (process.env.NODE_ENV === 'test' && process.env.TEST_RATE_LIMIT !== 'true') {
       return next();
     }
-    const effectiveMax = process.env.TEST_RATE_LIMIT === 'true' ? max : (process.env.NODE_ENV !== 'production' && process.env.NODE_ENV !== 'test' ? Math.max(max, 500) : max);
+    const configuredMax = typeof max === 'function' ? max() : max;
+    const configuredWindowMs = typeof windowMs === 'function' ? windowMs() : windowMs;
+    const effectiveMax = process.env.TEST_RATE_LIMIT === 'true' ? configuredMax : (process.env.NODE_ENV !== 'production' && process.env.NODE_ENV !== 'test' ? Math.max(configuredMax, 500) : configuredMax);
     const rawKey = keyFn(req);
     const key = `${prefix}:${rawKey}`;
     const now = Date.now();
-    const arr = (buckets.get(key) || []).filter((t) => now - t < windowMs);
+    const arr = (buckets.get(key) || []).filter((t) => now - t < configuredWindowMs);
     if (arr.length >= effectiveMax) {
-      const retryAfter = Math.ceil((arr[0] + windowMs - now) / 1000);
+      const retryAfter = Math.ceil((arr[0] + configuredWindowMs - now) / 1000);
       return res.status(429).json({
         error: 'rate_limited',
         message,

@@ -1,54 +1,48 @@
 # Oxlint Linter Configuration
 
-> 49 nodes · cohesion 0.09
+> 45 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **at()** (21 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
-- **k()** (20 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
-- **U()** (19 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
-- **ct()** (16 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
-- **ra()** (16 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
-- **A()** (12 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
-- **Dn()** (12 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
-- **pt()** (12 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
-- **dt()** (11 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
-- **mt()** (11 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
-- **ye()** (11 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
-- **so()** (10 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
-- **st()** (9 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
-- **xt()** (9 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
-- **kf()** (8 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
-- **lt()** (8 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
-- **tt()** (8 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
-- **Gt()** (7 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
-- **I()** (7 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
-- **Id()** (7 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
-- **it()** (7 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
-- **je()** (7 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
-- **jn()** (7 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
-- **P()** (7 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
-- **ro()** (7 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
-- *... and 24 more nodes in this community*
+- **generated-validators.mjs** (41 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **func3()** (11 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **generate-validators.test.mjs** (5 connections) — `.agents/skills/archify/test/generate-validators.test.mjs`
+- **validate20()** (4 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **validate22()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **validate27()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **validate28()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **validate30()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **validate31()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **validate33()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **validate34()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **validate36()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **validate37()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **validate24()** (2 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **pattern17** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **pattern18** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **pattern20** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **pattern4** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **pattern57** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **schema112** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **schema116** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **schema118** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **schema149** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **schema31** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **schema33** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- *... and 20 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (60 shared connections)
-- [[Graphify Knowledge Graph Skill]] (24 shared connections)
-- [[Zoho Integration Architecture]] (22 shared connections)
-- [[Zoho Backend & Proxy Endpoints]] (17 shared connections)
-- [[Community 79]] (14 shared connections)
-- [[Community 71]] (14 shared connections)
-- [[Live Pricing Audit Tool]] (8 shared connections)
-- [[Community 44]] (3 shared connections)
+- [[Design System & UI Tokens]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
+- `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- `.agents/skills/archify/test/generate-validators.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 374 (100%)
+- EXTRACTED: 121 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

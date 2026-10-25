@@ -1,54 +1,60 @@
 # Zoho Integration Architecture
 
-> 54 nodes · cohesion 0.07
+> 52 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **ic()** (15 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
-- **Md()** (15 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
-- **s()** (15 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
-- **co()** (12 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
-- **nc()** (12 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
-- **pa()** (12 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
-- **bi()** (10 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
-- **nl()** (10 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
-- **ha()** (9 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
-- **hh()** (9 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
-- **kd()** (9 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
-- **l()** (9 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
-- **yh()** (9 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
-- **c()** (8 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
-- **gs()** (8 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
-- **rc()** (8 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
-- **Si()** (8 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
-- **ec()** (7 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
-- **mh()** (7 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
-- **oc()** (7 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
-- **yi()** (7 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
-- **zc()** (7 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
-- **ac()** (6 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
-- **dh()** (6 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
-- **fh()** (6 connections) — `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
-- *... and 29 more nodes in this community*
+- **render-architecture.mjs** (122 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **pathFor()** (10 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **routeHonorsEndpointSides()** (9 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **renderLegend()** (7 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **routeVia()** (7 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **grid.mjs** (6 connections) — `.agents/skills/archify/renderers/architecture/grid.mjs`
+- **alignFacingPorts()** (6 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **layoutBoundaryTitles()** (5 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **sideAwareBridgeCandidates()** (5 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **relationshipLegendObstacles()** (5 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
+- **resolveComponentPos()** (4 connections) — `.agents/skills/archify/renderers/architecture/grid.mjs`
+- **validateGridPlacement()** (4 connections) — `.agents/skills/archify/renderers/architecture/grid.mjs`
+- **boundaryLabelWidth()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **measureBoundaryTitle()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **resolveBoundaryTitles()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **routeClearsComponents()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **routeClearsEndpointComponents()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **minimumReadableSourceTextPx()** (4 connections) — `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
+- **layout-report.mjs** (4 connections) — `.agents/skills/archify/renderers/shared/layout-report.mjs`
+- **grid.test.mjs** (4 connections) — `.agents/skills/archify/test/grid.test.mjs`
+- **gridLayout()** (3 connections) — `.agents/skills/archify/renderers/architecture/grid.mjs`
+- **autoViewBoxFor()** (3 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **expandBoundaryForReadableTitle()** (3 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **resolvedViewBoxWidth()** (3 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **connectionPath()** (3 connections) — `.agents/skills/archify/renderers/shared/layout-report.mjs`
+- *... and 27 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (59 shared connections)
-- [[Graphify Knowledge Graph Skill]] (23 shared connections)
-- [[Oxlint Linter Configuration]] (22 shared connections)
-- [[Live Pricing Audit Tool]] (10 shared connections)
-- [[Zoho Backend & Proxy Endpoints]] (10 shared connections)
-- [[Community 71]] (8 shared connections)
-- [[Community 44]] (8 shared connections)
-- [[Community 79]] (4 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (48 shared connections)
+- [[Client Products Data Store]] (21 shared connections)
+- [[Pricing & Roles Skill]] (16 shared connections)
+- [[Community 52]] (9 shared connections)
+- [[Design System & UI Tokens]] (4 shared connections)
+- [[Community 167]] (3 shared connections)
+- [[Community 79]] (3 shared connections)
+- [[Vercel Deployment Routing]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-B_clvtkR.js`
+- `.agents/skills/archify/renderers/architecture/grid.mjs`
+- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
+- `.agents/skills/archify/renderers/shared/geometry.mjs`
+- `.agents/skills/archify/renderers/shared/layout-report.mjs`
+- `.agents/skills/archify/renderers/shared/legend.mjs`
+- `.agents/skills/archify/test/grid.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 354 (100%)
+- EXTRACTED: 271 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

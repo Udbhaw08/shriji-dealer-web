@@ -1,38 +1,32 @@
 # Community 175
 
-> 11 nodes · cohesion 0.27
+> 11 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **tf()** (10 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
-- **ef()** (7 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
-- **lf()** (7 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
-- **uf()** (7 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
-- **of()** (6 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
-- **sf()** (5 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
-- **cf()** (4 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
-- **jf()** (4 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
-- **vf()** (4 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
-- **Wf()** (3 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
-- **hp()** (2 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
+- **Dark Mode** (6 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
+- **Dark Mode colors** (3 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
+- **dark-mode.md** (1 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
+- **Icons and images** (1 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
+- **Text** (1 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (12 shared connections)
-- [[Product Brand & Business Vision]] (6 shared connections)
-- [[Architecture Doc Generator]] (5 shared connections)
-- [[Community 30]] (2 shared connections)
-- [[Community 39]] (2 shared connections)
-- [[Pricing & Roles Skill]] (1 shared connections)
-- [[Product Pages Specification]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-B_clvtkR.js`
+- `.agents/skills/apple-design/references/hig/dark-mode.md`
 
 ## Audit Trail
 
-- EXTRACTED: 59 (100%)
+- EXTRACTED: 20 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

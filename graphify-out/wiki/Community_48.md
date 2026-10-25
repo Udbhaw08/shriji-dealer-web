@@ -1,61 +1,57 @@
 # Community 48
 
-> 31 nodes · cohesion 0.12
+> 32 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **visual-check.mjs** (50 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **runVisualCheck()** (18 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **visual-check.test.mjs** (14 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
-- **commandVisualCheck()** (5 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **observationDiagnostics()** (4 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **safeUnlink()** (4 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **writeAtomic()** (4 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **baseReceipt()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **chromeVisualBrowserArgs()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **cleanupCaptureSidecars()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **contactSheetHtml()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **failureDiagnostic()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **persistReceipt()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **sha256()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **sidecarPaths()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **htmlEscape()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **observation()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **screenshotKey()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **viewportSubject()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **VISUAL_CHECK_VIEWPORTS** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **CAPTURE_VIEWPORTS** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **EXIT** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **THEMES** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **artifact()** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
-- *... and 6 more nodes in this community*
+- **al()** (39 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- **bc()** (17 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- **lm()** (12 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- **il()** (11 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- **ve()** (9 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- **ga()** (7 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- **ro()** (7 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- **jc()** (6 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- **la()** (6 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- **lh()** (6 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- **ao()** (5 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- **be()** (5 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- **dc()** (5 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- **Ca()** (4 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- **el()** (4 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- **im()** (4 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- **oo()** (4 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- **up()** (4 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- **wo()** (4 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- **yo()** (4 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- **bo()** (3 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- **dp()** (3 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- **Lc()** (3 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- **po()** (3 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- **qn()** (3 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- *... and 7 more nodes in this community*
 
 ## Relationships
 
-- [[Community 148]] (7 shared connections)
-- [[Community 212]] (4 shared connections)
-- [[Community 162]] (4 shared connections)
-- [[Agent Guidelines (AGENTS.md)]] (3 shared connections)
-- [[Community 64]] (3 shared connections)
-- [[Community 83]] (3 shared connections)
-- [[Community 91]] (2 shared connections)
-- [[Community 143]] (1 shared connections)
-- [[Community 144]] (1 shared connections)
-- [[Community 122]] (1 shared connections)
-- [[Community 35]] (1 shared connections)
-- [[Community 182]] (1 shared connections)
+- [[Dealer Auth & Session Management]] (39 shared connections)
+- [[Product Pages Specification]] (15 shared connections)
+- [[Live Pricing Audit Tool]] (14 shared connections)
+- [[Community 47]] (10 shared connections)
+- [[Community 45]] (9 shared connections)
+- [[Community 51]] (7 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (5 shared connections)
+- [[Community 103]] (2 shared connections)
+- [[Community 58]] (2 shared connections)
+- [[Community 40]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/bin/archify.mjs`
-- `.agents/skills/archify/bin/visual-check.mjs`
-- `.agents/skills/archify/test/visual-check.test.mjs`
+- `ios/App/App/public/assets/index-D-WrdUrA.js`
 
 ## Audit Trail
 
-- EXTRACTED: 142 (99%)
-- INFERRED: 2 (1%)
+- EXTRACTED: 196 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

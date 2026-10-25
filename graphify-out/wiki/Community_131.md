@@ -4,33 +4,32 @@
 
 ## Key Concepts
 
-- **items** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **items** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **additionalProperties** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **required** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **items** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **items** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **items** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **edges** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **groups** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **phases** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **web-D7iZ6_49.js** (13 connections) — `ios/App/App/public/assets/web-D7iZ6_49.js`
+- **applyPrefix()** (4 connections) — `ios/App/App/public/assets/web-D7iZ6_49.js`
+- **keys()** (4 connections) — `ios/App/App/public/assets/web-D7iZ6_49.js`
+- **get()** (3 connections) — `ios/App/App/public/assets/web-D7iZ6_49.js`
+- **migrate()** (3 connections) — `ios/App/App/public/assets/web-D7iZ6_49.js`
+- **rawKeys()** (3 connections) — `ios/App/App/public/assets/web-D7iZ6_49.js`
+- **clear()** (2 connections) — `ios/App/App/public/assets/web-D7iZ6_49.js`
+- **remove()** (2 connections) — `ios/App/App/public/assets/web-D7iZ6_49.js`
+- **removeOld()** (2 connections) — `ios/App/App/public/assets/web-D7iZ6_49.js`
+- **set()** (2 connections) — `ios/App/App/public/assets/web-D7iZ6_49.js`
+- **configure()** (1 connections) — `ios/App/App/public/assets/web-D7iZ6_49.js`
+- **constructor()** (1 connections) — `ios/App/App/public/assets/web-D7iZ6_49.js`
+- **impl()** (1 connections) — `ios/App/App/public/assets/web-D7iZ6_49.js`
+- **prefix()** (1 connections) — `ios/App/App/public/assets/web-D7iZ6_49.js`
 
 ## Relationships
 
-- [[Community 29]] (5 shared connections)
-- [[Community 108]] (5 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/workflow.schema.json`
+- `ios/App/App/public/assets/web-D7iZ6_49.js`
 
 ## Audit Trail
 
-- EXTRACTED: 52 (100%)
+- EXTRACTED: 42 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

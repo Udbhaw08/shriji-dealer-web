@@ -1,39 +1,31 @@
 # Community 196
 
-> 10 nodes · cohesion 0.42
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **dealerPricingAuth.js** (9 connections) — `api/_lib/dealerPricingAuth.js`
-- **getDealerPricingEligibility()** (8 connections) — `api/_lib/dealerPricingAuth.js`
-- **index.js** (8 connections) — `api/products/index.js`
-- **fetchZohoCategories()** (6 connections) — `api/_lib/zoho.js`
-- **[id].js** (6 connections) — `api/products/[id].js`
-- **handler()** (6 connections) — `api/products/index.js`
-- **maskCatalogPricing()** (5 connections) — `api/_lib/dealerPricingAuth.js`
-- **maskProductPricing()** (5 connections) — `api/_lib/dealerPricingAuth.js`
-- **readProductsDiskCache()** (5 connections) — `api/_lib/zoho.js`
-- **handler()** (4 connections) — `api/products/[id].js`
+- **Notifications** (9 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
+- **notifications.md** (1 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
+- **Anatomy** (1 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
+- **Badging** (1 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
+- **Content** (1 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
+- **Notification actions** (1 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
 
 ## Relationships
 
-- [[Community 140]] (7 shared connections)
-- [[Roles & Customer Sharing Spec]] (4 shared connections)
-- [[Community 250]] (4 shared connections)
-- [[Community 47]] (4 shared connections)
-- [[Client Products Data Store]] (3 shared connections)
-- [[Community 147]] (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `api/_lib/dealerPricingAuth.js`
-- `api/_lib/zoho.js`
-- `api/products/[id].js`
-- `api/products/index.js`
+- `.agents/skills/apple-design/references/hig/notifications.md`
 
 ## Audit Trail
 
-- EXTRACTED: 62 (100%)
+- EXTRACTED: 18 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

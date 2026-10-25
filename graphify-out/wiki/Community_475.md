@@ -10,7 +10,7 @@
 
 ## Relationships
 
-- [[Vercel Deployment Routing]] (1 shared connections)
+- [[Testing & Workflow Skill]] (1 shared connections)
 
 ## Source Files
 

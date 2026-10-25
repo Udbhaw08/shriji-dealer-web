@@ -1,74 +1,56 @@
 # Master Codebase Architecture Reference
 
-> 62 nodes · cohesion 0.10
+> 58 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **main.jsx** (50 connections) — `src/main.jsx`
-- **ui.jsx** (45 connections) — `src/ui.jsx`
-- **useSession()** (38 connections) — `src/data/session.js`
-- **useLanguage()** (31 connections) — `src/data/i18n.js`
-- **Home.jsx** (26 connections) — `src/pages/Home.jsx`
-- **site.js** (24 connections) — `src/data/site.js`
-- **isDealer()** (18 connections) — `src/data/dealer.js`
-- **t()** (18 connections) — `src/data/i18n.js`
-- **Schemes.jsx** (17 connections) — `src/pages/Schemes.jsx`
-- **MobileBottomNav.jsx** (16 connections) — `src/components/MobileBottomNav.jsx`
-- **COMPANY** (16 connections) — `src/data/site.js`
-- **Support.jsx** (16 connections) — `src/pages/Support.jsx`
-- **isPortalGated()** (14 connections) — `src/data/portalGate.js`
-- **HeroSlider.jsx** (12 connections) — `src/components/HeroSlider.jsx`
-- **api.js** (11 connections) — `src/data/api.js`
-- **EmailVerificationPrompt.jsx** (10 connections) — `src/components/EmailVerificationPrompt.jsx`
-- **Products()** (9 connections) — `src/pages/Products.jsx`
-- **Header()** (9 connections) — `src/ui.jsx`
-- **MobileBottomNav()** (8 connections) — `src/components/MobileBottomNav.jsx`
-- **UnderMaintenance.jsx** (8 connections) — `src/components/UnderMaintenance.jsx`
-- **portalGate.js** (8 connections) — `src/data/portalGate.js`
-- **Home()** (8 connections) — `src/pages/Home.jsx`
-- **Login()** (7 connections) — `src/pages/Login.jsx`
-- **DealerPending.jsx** (6 connections) — `src/pages/DealerPending.jsx`
-- **Schemes()** (6 connections) — `src/pages/Schemes.jsx`
-- *... and 37 more nodes in this community*
+- **yc()** (18 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **ic()** (15 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **Md()** (15 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **s()** (15 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **nc()** (12 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **pa()** (12 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **bi()** (10 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **nl()** (10 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **so()** (10 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **ha()** (9 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **hh()** (9 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **kd()** (9 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **l()** (9 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **c()** (8 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **gs()** (8 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **rc()** (8 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **yh()** (8 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **ec()** (7 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **fa()** (7 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **Id()** (7 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **mh()** (7 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **oc()** (7 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **yi()** (7 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **zc()** (7 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **ac()** (6 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- *... and 33 more nodes in this community*
 
 ## Relationships
 
-- [[Community 41]] (60 shared connections)
-- [[Zoho API Diagnostic Script]] (43 shared connections)
-- [[Community 49]] (19 shared connections)
-- [[Community 136]] (14 shared connections)
-- [[Community 166]] (9 shared connections)
-- [[Community 43]] (8 shared connections)
-- [[Community 165]] (2 shared connections)
-- [[Community 399]] (1 shared connections)
+- [[Price Presentation & Product UI]] (68 shared connections)
+- [[Community 30]] (22 shared connections)
+- [[Product Requirements Documentation]] (19 shared connections)
+- [[Product Brand & Business Vision]] (16 shared connections)
+- [[Community 49]] (13 shared connections)
+- [[Roles & Customer Sharing Spec]] (8 shared connections)
+- [[Community 59]] (8 shared connections)
+- [[Community 57]] (7 shared connections)
+- [[Graphify Workflow]] (6 shared connections)
 
 ## Source Files
 
-- `src/components/EmailVerificationPrompt.jsx`
-- `src/components/HeroSlider.jsx`
-- `src/components/MobileBottomNav.jsx`
-- `src/components/NativeBackHandler.jsx`
-- `src/components/UnderMaintenance.jsx`
-- `src/data/api.js`
-- `src/data/dealer.js`
-- `src/data/i18n.js`
-- `src/data/portalGate.js`
-- `src/data/session.js`
-- `src/data/site.js`
-- `src/main.jsx`
-- `src/pages/DealerApply.jsx`
-- `src/pages/DealerDashboard.jsx`
-- `src/pages/DealerPending.jsx`
-- `src/pages/Home.jsx`
-- `src/pages/LegalPrivacy.jsx`
-- `src/pages/LegalTerms.jsx`
-- `src/pages/Login.jsx`
-- `src/pages/PrivacyPolicy.jsx`
+- `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
 
 ## Audit Trail
 
-- EXTRACTED: 532 (100%)
-- INFERRED: 2 (0%)
+- EXTRACTED: 385 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

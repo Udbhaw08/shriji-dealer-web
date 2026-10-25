@@ -1,27 +1,28 @@
 # Community 342
 
-> 6 nodes · cohesion 0.33
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **reportArtifactFailure()** (5 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **formatDiagnostics()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **reportArtifactArgumentFailure()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **reportCompareFailure()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **reportDeliveryFailure()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **reportValidateFailure()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **story-beat-navigator.test.mjs** (6 connections) — `.agents/skills/archify/test/story-beat-navigator.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/story-beat-navigator.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/story-beat-navigator.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/story-beat-navigator.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/story-beat-navigator.test.mjs`
+- **template** (1 connections) — `.agents/skills/archify/test/story-beat-navigator.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/story-beat-navigator.test.mjs`
 
 ## Relationships
 
-- [[Agent Guidelines (AGENTS.md)]] (10 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/bin/archify.mjs`
+- `.agents/skills/archify/test/story-beat-navigator.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

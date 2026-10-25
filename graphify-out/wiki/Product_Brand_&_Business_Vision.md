@@ -1,55 +1,55 @@
 # Product Brand & Business Vision
 
-> 54 nodes · cohesion 0.08
+> 50 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **at()** (21 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
-- **k()** (20 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
-- **U()** (19 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
-- **ct()** (16 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
-- **A()** (12 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
-- **Dn()** (12 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
-- **pt()** (12 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
-- **dt()** (11 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
-- **mt()** (11 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
-- **ye()** (11 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
-- **so()** (10 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
-- **st()** (9 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
-- **xt()** (9 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
-- **kf()** (8 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
-- **lt()** (8 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
-- **tt()** (8 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
-- **Gt()** (7 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
-- **I()** (7 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
-- **Id()** (7 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
-- **it()** (7 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
-- **je()** (7 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
-- **jn()** (7 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
-- **P()** (7 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
-- **ro()** (7 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
-- **rt()** (7 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
-- *... and 29 more nodes in this community*
+- **Or()** (23 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **jr()** (22 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **gf()** (20 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **co()** (12 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **Dn()** (12 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **Ti()** (11 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **af()** (10 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **Ai()** (10 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **Ar()** (9 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **hr()** (9 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **kc()** (8 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **mr()** (8 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **qr()** (8 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **Si()** (8 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **Fr()** (7 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **ln()** (7 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **Oi()** (7 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **hn()** (6 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **Ir()** (6 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **ki()** (6 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **pr()** (6 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **qc()** (6 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **Rr()** (6 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **wr()** (6 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **xi()** (6 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- *... and 25 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (62 shared connections)
-- [[Community 30]] (26 shared connections)
-- [[Pricing & Roles Skill]] (18 shared connections)
-- [[Community 54]] (14 shared connections)
-- [[Product Pages Specification]] (12 shared connections)
-- [[Architecture Doc Generator]] (10 shared connections)
-- [[Community 50]] (6 shared connections)
-- [[Community 175]] (6 shared connections)
-- [[Community 39]] (6 shared connections)
+- [[Price Presentation & Product UI]] (57 shared connections)
+- [[Master Codebase Architecture Reference]] (16 shared connections)
+- [[Product Requirements Documentation]] (10 shared connections)
+- [[Community 30]] (8 shared connections)
+- [[Community 59]] (7 shared connections)
+- [[Community 57]] (5 shared connections)
+- [[Graphify Workflow]] (4 shared connections)
+- [[Community 49]] (4 shared connections)
+- [[Roles & Customer Sharing Spec]] (3 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-B_clvtkR.js`
+- `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
 
 ## Audit Trail
 
-- EXTRACTED: 380 (100%)
+- EXTRACTED: 336 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

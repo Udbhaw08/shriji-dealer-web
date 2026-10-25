@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **label** (3 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **title** (3 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
 - **minLength** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
 - **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
 
 ## Relationships
 
-- [[Community 82]] (1 shared connections)
+- [[Community 71]] (1 shared connections)
 
 ## Source Files
 

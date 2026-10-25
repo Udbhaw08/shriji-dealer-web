@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **Images** (6 connections) — `.agents/skills/apple-design/references/hig/images.md`
-- **images.md** (1 connections) — `.agents/skills/apple-design/references/hig/images.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/images.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/images.md`
-- **Formats** (1 connections) — `.agents/skills/apple-design/references/hig/images.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/images.md`
-- **Resolution** (1 connections) — `.agents/skills/apple-design/references/hig/images.md`
+- **Charting data** (6 connections) — `.agents/skills/apple-design/references/hig/charting-data.md`
+- **charting-data.md** (1 connections) — `.agents/skills/apple-design/references/hig/charting-data.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/charting-data.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/charting-data.md`
+- **Designing effective charts** (1 connections) — `.agents/skills/apple-design/references/hig/charting-data.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/charting-data.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/charting-data.md`
 
 ## Relationships
 
@@ -18,7 +18,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/images.md`
+- `.agents/skills/apple-design/references/hig/charting-data.md`
 
 ## Audit Trail
 

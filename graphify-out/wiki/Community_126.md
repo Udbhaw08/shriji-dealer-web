@@ -1,23 +1,23 @@
 # Community 126
 
-> 14 nodes · cohesion 0.14
+> 14 nodes · cohesion 0.23
 
 ## Key Concepts
 
-- **Tablet (iPadOS)** (6 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
-- **Pointing devices** (5 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
-- **Desktop (macOS)** (2 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
-- **pointing-devices.md** (1 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
-- **Customizing pointers** (1 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
-- **Pointer accessories** (1 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
-- **Pointer magnetism** (1 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
-- **Pointer shape and content effects** (1 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
-- **Pointers** (1 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
-- **Standard pointers and effects** (1 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
+- **web-D7iZ6_49.js** (13 connections) — `android/app/src/main/assets/public/assets/web-D7iZ6_49.js`
+- **applyPrefix()** (4 connections) — `android/app/src/main/assets/public/assets/web-D7iZ6_49.js`
+- **keys()** (4 connections) — `android/app/src/main/assets/public/assets/web-D7iZ6_49.js`
+- **get()** (3 connections) — `android/app/src/main/assets/public/assets/web-D7iZ6_49.js`
+- **migrate()** (3 connections) — `android/app/src/main/assets/public/assets/web-D7iZ6_49.js`
+- **rawKeys()** (3 connections) — `android/app/src/main/assets/public/assets/web-D7iZ6_49.js`
+- **clear()** (2 connections) — `android/app/src/main/assets/public/assets/web-D7iZ6_49.js`
+- **remove()** (2 connections) — `android/app/src/main/assets/public/assets/web-D7iZ6_49.js`
+- **removeOld()** (2 connections) — `android/app/src/main/assets/public/assets/web-D7iZ6_49.js`
+- **set()** (2 connections) — `android/app/src/main/assets/public/assets/web-D7iZ6_49.js`
+- **configure()** (1 connections) — `android/app/src/main/assets/public/assets/web-D7iZ6_49.js`
+- **constructor()** (1 connections) — `android/app/src/main/assets/public/assets/web-D7iZ6_49.js`
+- **impl()** (1 connections) — `android/app/src/main/assets/public/assets/web-D7iZ6_49.js`
+- **prefix()** (1 connections) — `android/app/src/main/assets/public/assets/web-D7iZ6_49.js`
 
 ## Relationships
 
@@ -25,11 +25,11 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/pointing-devices.md`
+- `android/app/src/main/assets/public/assets/web-D7iZ6_49.js`
 
 ## Audit Trail
 
-- EXTRACTED: 26 (100%)
+- EXTRACTED: 42 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

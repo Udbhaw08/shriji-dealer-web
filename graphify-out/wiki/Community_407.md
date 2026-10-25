@@ -4,10 +4,10 @@
 
 ## Key Concepts
 
-- **Status bars** (3 connections) — `.agents/skills/apple-design/references/hig/status-bars.md`
-- **status-bars.md** (1 connections) — `.agents/skills/apple-design/references/hig/status-bars.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/status-bars.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/status-bars.md`
+- **REST API Endpoints Specification** (3 connections) — `docs/api/endpoints-spec.md`
+- **endpoints-spec.md** (1 connections) — `docs/api/endpoints-spec.md`
+- **Authentication Endpoints** (1 connections) — `docs/api/endpoints-spec.md`
+- **Catalog Endpoints** (1 connections) — `docs/api/endpoints-spec.md`
 
 ## Relationships
 
@@ -15,7 +15,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/status-bars.md`
+- `docs/api/endpoints-spec.md`
 
 ## Audit Trail
 

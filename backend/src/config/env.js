@@ -21,6 +21,9 @@ export const env = {
   webhookSecret: process.env.WEBHOOK_SECRET || '',
   resendApiKey: process.env.RESEND_API_KEY || '',
   googleClientId: process.env.GOOGLE_CLIENT_ID || '',
+  get otpRateLimitMax() { return num(process.env.OTP_RATE_LIMIT_MAX, 20); },
+  get otpRateLimitWindowMs() { return num(process.env.OTP_RATE_LIMIT_WINDOW_MS, 3 * 60_000); },
+  get authStrictRateLimitMax() { return num(process.env.AUTH_STRICT_RATE_LIMIT_MAX, 30); },
 
   whatsapp: {
     token: process.env.WHATSAPP_TOKEN || '',

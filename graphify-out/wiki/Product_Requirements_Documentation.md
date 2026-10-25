@@ -1,60 +1,55 @@
 # Product Requirements Documentation
 
-> 55 nodes · cohesion 0.06
+> 56 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **render-architecture.mjs** (122 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **pathFor()** (10 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **routeHonorsEndpointSides()** (9 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **renderLegend()** (7 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **routeVia()** (7 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **grid.mjs** (6 connections) — `.agents/skills/archify/renderers/architecture/grid.mjs`
-- **alignFacingPorts()** (6 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **buildLayoutReport()** (6 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **layoutBoundaryTitles()** (5 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **sideAwareBridgeCandidates()** (5 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **relationshipLegendObstacles()** (5 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
-- **resolveComponentPos()** (4 connections) — `.agents/skills/archify/renderers/architecture/grid.mjs`
-- **validateGridPlacement()** (4 connections) — `.agents/skills/archify/renderers/architecture/grid.mjs`
-- **boundaryLabelWidth()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **componentContext()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **measureBoundaryTitle()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **resolveBoundaryTitles()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **routeClearsComponents()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **routeClearsEndpointComponents()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **minimumReadableSourceTextPx()** (4 connections) — `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
-- **layout-report.mjs** (4 connections) — `.agents/skills/archify/renderers/shared/layout-report.mjs`
-- **grid.test.mjs** (4 connections) — `.agents/skills/archify/test/grid.test.mjs`
-- **gridLayout()** (3 connections) — `.agents/skills/archify/renderers/architecture/grid.mjs`
-- **autoViewBoxFor()** (3 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **expandBoundaryForReadableTitle()** (3 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- *... and 30 more nodes in this community*
+- **fl()** (24 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **it()** (20 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **k()** (19 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **st()** (16 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **aa()** (14 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **A()** (13 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **ft()** (13 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **pe()** (13 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **ml()** (11 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **ut()** (11 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **jt()** (10 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **ct()** (9 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **nt()** (9 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **pl()** (9 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **ve()** (9 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **xe()** (9 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **ye()** (9 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **kf()** (8 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **P()** (8 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **xt()** (8 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **dt()** (7 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **jn()** (7 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **ot()** (7 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **rt()** (7 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **F()** (6 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- *... and 31 more nodes in this community*
 
 ## Relationships
 
-- [[Dependencies & Package Config]] (41 shared connections)
-- [[Community 38]] (17 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (16 shared connections)
-- [[Community 32]] (15 shared connections)
-- [[Community 63]] (9 shared connections)
-- [[Design System & UI Tokens]] (5 shared connections)
-- [[Community 162]] (3 shared connections)
-- [[Graphify Agent Rules]] (1 shared connections)
+- [[Price Presentation & Product UI]] (60 shared connections)
+- [[Master Codebase Architecture Reference]] (19 shared connections)
+- [[Community 30]] (18 shared connections)
+- [[Community 59]] (14 shared connections)
+- [[Community 57]] (12 shared connections)
+- [[Product Brand & Business Vision]] (10 shared connections)
+- [[Community 49]] (9 shared connections)
+- [[Roles & Customer Sharing Spec]] (8 shared connections)
+- [[Graphify Workflow]] (8 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/architecture/grid.mjs`
-- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
-- `.agents/skills/archify/renderers/shared/geometry.mjs`
-- `.agents/skills/archify/renderers/shared/layout-report.mjs`
-- `.agents/skills/archify/renderers/shared/legend.mjs`
-- `.agents/skills/archify/test/grid.test.mjs`
+- `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
 
 ## Audit Trail
 
-- EXTRACTED: 283 (100%)
+- EXTRACTED: 402 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

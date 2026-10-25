@@ -4,22 +4,22 @@
 
 ## Key Concepts
 
-- **SwiftUI Views** (3 connections) — `.agents/skills/swiftui-pro/references/views.md`
-- **views.md** (1 connections) — `.agents/skills/swiftui-pro/references/views.md`
-- **Animating views** (1 connections) — `.agents/skills/swiftui-pro/references/views.md`
-- **Reordering and swipe actions** (1 connections) — `.agents/skills/swiftui-pro/references/views.md`
+- **5. Font Weight** (4 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Rules** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Standard Weights** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Weight + Size Relationship** (1 connections) — `.agents/skills/refero-design/references/typography.md`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 235]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/swiftui-pro/references/views.md`
+- `.agents/skills/refero-design/references/typography.md`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 7 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

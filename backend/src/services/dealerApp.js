@@ -179,17 +179,18 @@ export async function requestDealerRegistrationOtp({ flowId, channel, phone, ema
       throw httpError(400, 'Please enter a valid 10-digit Indian mobile number');
     }
 
-    // Check duplicate in users or dealers
+    // Check duplicate in users or dealers (only block if already a dealer or staff)
     const existing = await sql`
       select u.id, u.role, d.status as dealer_status
       from users u
       left join dealers d on d.owner_user_id = u.id or d.id = u.dealer_id
-      where u.phone = ${norm.nationalNumber}
+      where (u.phone = ${norm.nationalNumber}
          or u.phone = ${norm.e164}
-         or u.phone like ${`%${norm.nationalNumber}`}
+         or u.phone like ${`%${norm.nationalNumber}`})
+        and (u.role = 'dealer' or u.role = 'dealer_staff' or d.id is not null)
       limit 1`;
     if (existing.length > 0) {
-      throw httpError(409, 'An account with this phone number already exists. Please log in.');
+      throw httpError(409, 'A dealer account with this phone number already exists. Please log in.');
     }
 
     let flow;
@@ -262,9 +263,10 @@ export async function requestDealerRegistrationOtp({ flowId, channel, phone, ema
       from users u
       left join dealers d on d.owner_user_id = u.id or d.id = u.dealer_id
       where lower(u.email) = ${cleanEmail}
+        and (u.role = 'dealer' or u.role = 'dealer_staff' or d.id is not null)
       limit 1`;
     if (existing.length > 0) {
-      throw httpError(409, 'An account with this email address already exists. Please log in.');
+      throw httpError(409, 'A dealer account with this email address already exists. Please log in.');
     }
 
     let flow;
@@ -568,16 +570,17 @@ export async function finalizeDealerRegistration({
       throw httpError(401, 'Invalid or mismatched verification token');
     }
 
-    // Duplicate account check
+    // Duplicate account check: block if already a dealer or dealer_staff
     const dupes = await tx`
-      select id, role from users
+      select id, role, dealer_id from users
       where lower(email) = ${cleanEmail}
          or phone = ${normPhone.nationalNumber}
          or phone = ${normPhone.e164}
          or phone like ${`%${normPhone.nationalNumber}`}
       limit 1`;
-    if (dupes.length > 0) {
-      throw httpError(409, 'An account with this email or phone is already registered. Please log in.');
+    const existingUser = dupes[0];
+    if (existingUser && (existingUser.role === 'dealer' || existingUser.role === 'dealer_staff' || existingUser.dealer_id)) {
+      throw httpError(409, 'A dealer account with this email or phone is already registered. Please log in.');
     }
 
     // Mark flow consumed atomically
@@ -589,11 +592,29 @@ export async function finalizeDealerRegistration({
     // Generate unique Dealer Code
     const dealerCode = await generateUniqueDealerCode(tx, 'DE');
 
-    // Insert user record
-    const [user] = await tx`
-      insert into users (email, phone, full_name, role, status, email_verified, phone_verified)
-      values (${cleanEmail}, ${normPhone.nationalNumber}, ${cleanPerson}, 'dealer', 'pending', true, true)
-      returning *`;
+    let user;
+    if (existingUser) {
+      // Upgrade existing customer user to dealer
+      const [updatedUser] = await tx`
+        update users
+        set email = ${cleanEmail},
+            phone = ${normPhone.nationalNumber},
+            full_name = coalesce(${cleanPerson}, full_name),
+            role = 'dealer',
+            status = 'pending',
+            email_verified = true,
+            phone_verified = true
+        where id = ${existingUser.id}
+        returning *`;
+      user = updatedUser;
+    } else {
+      // Insert new user record
+      const [newUser] = await tx`
+        insert into users (email, phone, full_name, role, status, email_verified, phone_verified)
+        values (${cleanEmail}, ${normPhone.nationalNumber}, ${cleanPerson}, 'dealer', 'pending', true, true)
+        returning *`;
+      user = newUser;
+    }
 
     // Insert dealer application
     const [dealer] = await tx`

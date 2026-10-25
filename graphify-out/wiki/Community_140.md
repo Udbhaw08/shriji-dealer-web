@@ -1,39 +1,42 @@
 # Community 140
 
-> 13 nodes · cohesion 0.33
+> 13 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **fetchZohoProductById()** (18 connections) — `api/_lib/zoho.js`
-- **fetchZohoProducts()** (14 connections) — `api/_lib/zoho.js`
-- **getZohoConfig()** (10 connections) — `api/_lib/zoho.js`
-- **fetchZohoWithRetry()** (9 connections) — `api/_lib/zoho.js`
-- **fetchAllRawZohoProducts()** (6 connections) — `api/_lib/zoho.js`
-- **fetchZohoPricebookItems()** (6 connections) — `api/_lib/zoho.js`
-- **getCategoryVisibilityMap()** (5 connections) — `api/_lib/zoho.js`
-- **resolvePricebookId()** (5 connections) — `api/_lib/zoho.js`
-- **fetchZohoPricebooks()** (4 connections) — `api/_lib/zoho.js`
-- **fetchZohoRawCategories()** (4 connections) — `api/_lib/zoho.js`
-- **getDealerById()** (4 connections) — `api/_lib/zoho.js`
-- **readProductDetailsDiskCache()** (3 connections) — `api/_lib/zoho.js`
-- **writeProductDetailDiskCache()** (3 connections) — `api/_lib/zoho.js`
+- **Icon()** (20 connections) — `src/ui.jsx`
+- **ContentAdminDashboard.jsx** (12 connections) — `src/pages/ContentAdminDashboard.jsx`
+- **video.js** (5 connections) — `src/utils/video.js`
+- **FileOrUrlInput.jsx** (4 connections) — `src/components/FileOrUrlInput.jsx`
+- **parseVideoUrl()** (4 connections) — `src/utils/video.js`
+- **video-banner.test.mjs** (3 connections) — `src/data/video-banner.test.mjs`
+- **FileOrUrlInput()** (2 connections) — `src/components/FileOrUrlInput.jsx`
+- **ContentAdminDashboard()** (2 connections) — `src/pages/ContentAdminDashboard.jsx`
+- **getVideoBadgeLabel()** (2 connections) — `src/utils/video.js`
+- **DEFAULT_BANNER_FORM** (1 connections) — `src/pages/ContentAdminDashboard.jsx`
+- **DEFAULT_BRANDING_FORM** (1 connections) — `src/pages/ContentAdminDashboard.jsx`
+- **DEFAULT_SCHEME_FORM** (1 connections) — `src/pages/ContentAdminDashboard.jsx`
+- **QUICK_COLORS** (1 connections) — `src/pages/ContentAdminDashboard.jsx`
 
 ## Relationships
 
-- [[Community 47]] (18 shared connections)
-- [[Community 196]] (7 shared connections)
-- [[Community 147]] (5 shared connections)
-- [[Community 252]] (5 shared connections)
-- [[Community 250]] (2 shared connections)
-- [[Community 142]] (2 shared connections)
+- [[Dependencies & Package Config]] (14 shared connections)
+- [[Community 39]] (4 shared connections)
+- [[Project Readme & Layout]] (3 shared connections)
+- [[Community 56]] (2 shared connections)
+- [[Community 41]] (1 shared connections)
 
 ## Source Files
 
-- `api/_lib/zoho.js`
+- `src/components/FileOrUrlInput.jsx`
+- `src/data/video-banner.test.mjs`
+- `src/pages/ContentAdminDashboard.jsx`
+- `src/ui.jsx`
+- `src/utils/video.js`
 
 ## Audit Trail
 
-- EXTRACTED: 91 (100%)
+- EXTRACTED: 58 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

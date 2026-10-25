@@ -1,33 +1,30 @@
 # Community 247
 
-> 9 nodes · cohesion 0.25
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **repository-evidence.test.mjs** (13 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
-- **fixture()** (2 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
-- **git()** (2 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
-- **cli** (1 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
-- **evidencePayload()** (1 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
-- **here** (1 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
-- **run()** (1 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
-- **waitForState()** (1 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
+- **preview-contract.test.mjs** (8 connections) — `.agents/skills/archify/test/preview-contract.test.mjs`
+- **chinese** (1 connections) — `.agents/skills/archify/test/preview-contract.test.mjs`
+- **delivery** (1 connections) — `.agents/skills/archify/test/preview-contract.test.mjs`
+- **english** (1 connections) — `.agents/skills/archify/test/preview-contract.test.mjs`
+- **here** (1 connections) — `.agents/skills/archify/test/preview-contract.test.mjs`
+- **readme** (1 connections) — `.agents/skills/archify/test/preview-contract.test.mjs`
+- **repoRoot** (1 connections) — `.agents/skills/archify/test/preview-contract.test.mjs`
+- **skill** (1 connections) — `.agents/skills/archify/test/preview-contract.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/preview-contract.test.mjs`
 
 ## Relationships
 
-- [[Community 59]] (2 shared connections)
-- [[Community 48]] (1 shared connections)
-- [[Community 148]] (1 shared connections)
-- [[Community 212]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/test/repository-evidence.test.mjs`
+- `.agents/skills/archify/test/preview-contract.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 23 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

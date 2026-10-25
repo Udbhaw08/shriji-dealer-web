@@ -1,8 +1,8 @@
 # CODEBASE.md — Project Architecture & Feature Guide
 
 > **Auto-generated documentation**
-> Last synchronized: 2026-10-25T15:04:56.032+05:30 (GMT+5:30)
-> Total Project Files: 2113
+> Last synchronized: 2026-10-25T16:15:33.293+05:30 (GMT+5:30)
+> Total Project Files: 2114
 
 ---
 
@@ -100,7 +100,7 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 - **`src/pages/Home.jsx`** (21.0 KB)
 - **`src/pages/LegalPrivacy.jsx`** (5.8 KB)
 - **`src/pages/LegalTerms.jsx`** (4.2 KB)
-- **`src/pages/Login.jsx`** (70.4 KB)
+- **`src/pages/Login.jsx`** (80.4 KB)
 - **`src/pages/PrivacyPolicy.jsx`** (0.0 KB)
 - **`src/pages/Product.jsx`** (35.2 KB)
 - **`src/pages/Products.jsx`** (34.3 KB)
@@ -111,7 +111,7 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 
 ### 4.2 Reusable Components (`src/components/` & `src/ui.jsx`)
 - **`src/components/A11yAnnouncer.jsx`** (0.5 KB)
-- **`src/components/BrandApplyFlow.jsx`** (48.4 KB)
+- **`src/components/BrandApplyFlow.jsx`** (49.2 KB)
 - **`src/components/EmailVerificationPrompt.jsx`** (10.0 KB)
 - **`src/components/ErrorBoundary.jsx`** (0.8 KB)
 - **`src/components/FileOrUrlInput.jsx`** (15.2 KB)

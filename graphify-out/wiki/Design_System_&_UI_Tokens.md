@@ -1,13 +1,12 @@
 # Design System & UI Tokens
 
-> 59 nodes · cohesion 0.05
+> 58 nodes · cohesion 0.05
 
 ## Key Concepts
 
 - **cli.mjs** (43 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
 - **diagnostics.mjs** (27 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
 - **throwDiagnosticError()** (16 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
-- **throwDiagnosticProblems()** (15 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
 - **writeDiagram()** (10 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
 - **engineering-profiles.mjs** (10 connections) — `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
 - **validator.mjs** (10 connections) — `.agents/skills/archify/renderers/shared/validator.mjs`
@@ -29,22 +28,23 @@
 - **captureTimeoutMilliseconds()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
 - **mapConcurrent()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
 - **installRendererDiagnosticBoundary()** (2 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
-- *... and 34 more nodes in this community*
+- **plainObject()** (2 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
+- *... and 33 more nodes in this community*
 
 ## Relationships
 
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (17 shared connections)
-- [[Dependencies & Package Config]] (12 shared connections)
-- [[Community 32]] (10 shared connections)
-- [[Community 63]] (8 shared connections)
-- [[Graphify Agent Rules]] (7 shared connections)
-- [[Community 38]] (6 shared connections)
-- [[Community 163]] (6 shared connections)
-- [[Product Requirements Documentation]] (5 shared connections)
-- [[Community 103]] (4 shared connections)
-- [[Community 128]] (4 shared connections)
-- [[Community 59]] (3 shared connections)
-- [[Claude Agent Instructions]] (1 shared connections)
+- [[Pricing & Roles Skill]] (16 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (12 shared connections)
+- [[Client Products Data Store]] (10 shared connections)
+- [[Vercel Deployment Routing]] (7 shared connections)
+- [[Community 79]] (7 shared connections)
+- [[Community 168]] (6 shared connections)
+- [[Zoho Integration Architecture]] (4 shared connections)
+- [[Community 52]] (4 shared connections)
+- [[Community 106]] (4 shared connections)
+- [[Community 132]] (4 shared connections)
+- [[Community 65]] (3 shared connections)
+- [[Oxlint Linter Configuration]] (1 shared connections)
 
 ## Source Files
 
@@ -60,7 +60,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 267 (100%)
+- EXTRACTED: 252 (100%)
 - INFERRED: 1 (0%)
 - AMBIGUOUS: 0 (0%)
 

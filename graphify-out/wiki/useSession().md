@@ -2,7 +2,7 @@
 
 > God node · 38 connections · `src/data/session.js`
 
-**Community:** [[Master Codebase Architecture Reference]]
+**Community:** [[Dependencies & Package Config]]
 
 ## Connections by Relation
 

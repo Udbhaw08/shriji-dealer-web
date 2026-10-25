@@ -1,54 +1,48 @@
 # Community 54
 
-> 27 nodes · cohesion 0.11
+> 29 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **al()** (39 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
-- **bc()** (17 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
-- **il()** (11 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
-- **r()** (11 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
-- **kc()** (8 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
-- **fa()** (7 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
-- **ga()** (7 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
-- **la()** (7 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
-- **ki()** (6 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
-- **xe()** (6 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
-- **dc()** (5 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
-- **rl()** (5 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
-- **wo()** (5 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
-- **Ei()** (4 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
-- **el()** (4 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
-- **hm()** (4 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
-- **oo()** (4 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
-- **dp()** (3 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
-- **Lc()** (3 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
-- **po()** (3 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
-- **qn()** (3 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
-- **render()** (3 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
-- **tl()** (3 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
-- **va()** (3 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
-- **ce()** (2 connections) — `ios/App/App/public/assets/index-B_clvtkR.js`
-- *... and 2 more nodes in this community*
+- **AppDelegate** (10 connections) — `ios/App/App/AppDelegate.swift`
+- **.application()** (7 connections) — `ios/App/App/AppDelegate.swift`
+- **.scene()** (7 connections) — `ios/App/App/SceneDelegate.swift`
+- **UIApplication** (6 connections) — `ios/App/App/AppDelegate.swift`
+- **SceneDelegate** (5 connections) — `ios/App/App/SceneDelegate.swift`
+- **AppDelegate.swift** (3 connections) — `ios/App/App/AppDelegate.swift`
+- **SceneDelegate.swift** (3 connections) — `ios/App/App/SceneDelegate.swift`
+- **.applicationDidBecomeActive()** (2 connections) — `ios/App/App/AppDelegate.swift`
+- **.applicationDidEnterBackground()** (2 connections) — `ios/App/App/AppDelegate.swift`
+- **.applicationWillEnterForeground()** (2 connections) — `ios/App/App/AppDelegate.swift`
+- **.applicationWillResignActive()** (2 connections) — `ios/App/App/AppDelegate.swift`
+- **.applicationWillTerminate()** (2 connections) — `ios/App/App/AppDelegate.swift`
+- **Capacitor** (2 connections) — `ios/App/App/SceneDelegate.swift`
+- **UIWindow** (2 connections) — `ios/App/App/SceneDelegate.swift`
+- **UIKit** (2 connections) — `ios/App/App/SceneDelegate.swift`
+- **UIResponder** (2 connections)
+- **Any** (1 connections) — `ios/App/App/AppDelegate.swift`
+- **Bool** (1 connections) — `ios/App/App/AppDelegate.swift`
+- **UIScene** (1 connections) — `ios/App/App/AppDelegate.swift`
+- **UISceneSession** (1 connections) — `ios/App/App/AppDelegate.swift`
+- **UIWindow** (1 connections) — `ios/App/App/AppDelegate.swift`
+- **UIScene** (1 connections) — `ios/App/App/SceneDelegate.swift`
+- **UISceneSession** (1 connections) — `ios/App/App/SceneDelegate.swift`
+- **NSUserActivity** (1 connections) — `ios/App/App/SceneDelegate.swift`
+- **Set** (1 connections) — `ios/App/App/SceneDelegate.swift`
+- *... and 4 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (35 shared connections)
-- [[Product Brand & Business Vision]] (14 shared connections)
-- [[Pricing & Roles Skill]] (14 shared connections)
-- [[Product Pages Specification]] (13 shared connections)
-- [[Community 30]] (11 shared connections)
-- [[Community 50]] (7 shared connections)
-- [[Architecture Doc Generator]] (5 shared connections)
-- [[Community 39]] (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-B_clvtkR.js`
+- `ios/App/App/AppDelegate.swift`
+- `ios/App/App/SceneDelegate.swift`
 
 ## Audit Trail
 
-- EXTRACTED: 177 (100%)
+- EXTRACTED: 72 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

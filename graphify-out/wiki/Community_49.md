@@ -1,59 +1,55 @@
 # Community 49
 
-> 31 nodes · cohesion 0.12
+> 31 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **productsStore.js** (25 connections) — `src/data/productsStore.js`
-- **Products.jsx** (25 connections) — `src/pages/Products.jsx`
-- **ProductSearchBar.jsx** (15 connections) — `src/components/ProductSearchBar.jsx`
-- **useProducts()** (12 connections) — `src/data/productsStore.js`
-- **searchHelper.js** (11 connections) — `src/data/searchHelper.js`
-- **fetchLiveProducts()** (7 connections) — `src/data/productsStore.js`
-- **syncPricebookWithSession()** (7 connections) — `src/data/productsStore.js`
-- **ProductSearchBar()** (6 connections) — `src/components/ProductSearchBar.jsx`
-- **products.js** (5 connections) — `src/data/products.js`
-- **getSuggestions()** (5 connections) — `src/data/searchHelper.js`
-- **loadCached()** (4 connections) — `src/data/productsStore.js`
-- **autocorrectQuery()** (4 connections) — `src/data/searchHelper.js`
-- **buildSearchDictionary()** (4 connections) — `src/data/searchHelper.js`
-- **getAccessToken()** (3 connections) — `src/data/auth.js`
-- **emit()** (3 connections) — `src/data/productsStore.js`
-- **syncTagsLive()** (3 connections) — `src/data/productsStore.js`
-- **loadCachedSession()** (3 connections) — `src/data/session.js`
-- **CATEGORIES** (2 connections) — `src/data/products.js`
-- **getCacheKey()** (2 connections) — `src/data/productsStore.js`
-- **sanitizeCategories()** (2 connections) — `src/data/productsStore.js`
-- **useProduct()** (2 connections) — `src/data/productsStore.js`
-- **getPopularSearches()** (2 connections) — `src/data/searchHelper.js`
-- **scoreProduct()** (2 connections) — `src/data/searchHelper.js`
-- **PRODUCTS** (1 connections) — `src/data/products.js`
-- **listeners** (1 connections) — `src/data/productsStore.js`
+- **n()** (33 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **t()** (22 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **ma()** (8 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **cs()** (7 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **go()** (7 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **O()** (7 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **os()** (6 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **es()** (5 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **j()** (5 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **js()** (5 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **rl()** (5 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **ts()** (5 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **x()** (5 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **ds()** (4 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **fs()** (4 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **Ko()** (4 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **ls()** (4 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **ms()** (4 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **ns()** (4 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **qo()** (4 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **rs()** (4 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **as()** (3 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **Ge()** (3 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **ho()** (3 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **hs()** (3 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
 - *... and 6 more nodes in this community*
 
 ## Relationships
 
-- [[Master Codebase Architecture Reference]] (19 shared connections)
-- [[Community 41]] (16 shared connections)
-- [[Zoho API Diagnostic Script]] (10 shared connections)
-- [[Community 166]] (2 shared connections)
-- [[Community 136]] (2 shared connections)
-- [[Community 43]] (2 shared connections)
-- [[Community 165]] (1 shared connections)
+- [[Price Presentation & Product UI]] (36 shared connections)
+- [[Master Codebase Architecture Reference]] (13 shared connections)
+- [[Product Requirements Documentation]] (9 shared connections)
+- [[Community 30]] (7 shared connections)
+- [[Community 59]] (7 shared connections)
+- [[Graphify Workflow]] (6 shared connections)
+- [[Roles & Customer Sharing Spec]] (4 shared connections)
+- [[Product Brand & Business Vision]] (4 shared connections)
+- [[Community 57]] (3 shared connections)
 
 ## Source Files
 
-- `src/components/ProductSearchBar.jsx`
-- `src/data/auth.js`
-- `src/data/products.js`
-- `src/data/productsStore.js`
-- `src/data/searchHelper.js`
-- `src/data/session.js`
-- `src/pages/Products.jsx`
+- `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
 
 ## Audit Trail
 
-- EXTRACTED: 162 (100%)
+- EXTRACTED: 179 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
