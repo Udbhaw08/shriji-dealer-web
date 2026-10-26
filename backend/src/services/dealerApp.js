@@ -167,7 +167,7 @@ export async function applyDealer({ user, businessName, gstNumber, gstTreatment,
  * Binds both channels to the temporary dealer_registration_flows row.
  * Writes ZERO permanent records to users, dealers, or Zoho CRM.
  */
-export async function requestDealerRegistrationOtp({ flowId, channel, phone, email }) {
+export async function requestDealerRegistrationOtp({ flowId, channel, phone, email, user }) {
   if (!channel || !['phone', 'email'].includes(channel)) {
     throw httpError(400, 'Channel must be either "phone" or "email"');
   }
@@ -216,11 +216,40 @@ export async function requestDealerRegistrationOtp({ flowId, channel, phone, ema
     await acquireContactOtpCooldown(sql, contactKey);
 
     if (!flow) {
+      const preverifiedEmail = (user?.email_verified && user?.email)
+        ? normalizeEmail(user.email)
+        : (email ? normalizeEmail(email) : null);
+      const isEmailVerified = Boolean(user?.email_verified && user?.email && preverifiedEmail === normalizeEmail(user.email));
+
       const [newFlow] = await sql`
-        insert into dealer_registration_flows (phone, expires_at)
-        values (${norm.nationalNumber}, now() + interval '30 minutes')
+        insert into dealer_registration_flows (
+          phone,
+          email,
+          email_verified,
+          email_verified_at,
+          expires_at
+        )
+        values (
+          ${norm.nationalNumber},
+          ${preverifiedEmail || null},
+          ${isEmailVerified},
+          ${isEmailVerified ? sql`now()` : null},
+          now() + interval '30 minutes'
+        )
         returning *`;
       flow = newFlow;
+    } else if (!flow.email_verified && user?.email_verified && user?.email) {
+      const preverifiedEmail = normalizeEmail(user.email);
+      if (preverifiedEmail) {
+        await sql`
+          update dealer_registration_flows
+          set email = coalesce(email, ${preverifiedEmail}),
+              email_verified = true,
+              email_verified_at = coalesce(email_verified_at, now())
+          where id = ${flow.id}`;
+        flow.email = flow.email || preverifiedEmail;
+        flow.email_verified = true;
+      }
     }
 
     const code = generateOtp();
@@ -292,11 +321,40 @@ export async function requestDealerRegistrationOtp({ flowId, channel, phone, ema
     await acquireContactOtpCooldown(sql, contactKey);
 
     if (!flow) {
+      const normUserPhone = (user?.phone_verified && user?.phone)
+        ? normalizePhone(user.phone).nationalNumber
+        : (phone ? normalizePhone(phone).nationalNumber : null);
+      const isPhoneVerified = Boolean(user?.phone_verified && user?.phone && normUserPhone === normalizePhone(user.phone).nationalNumber);
+
       const [newFlow] = await sql`
-        insert into dealer_registration_flows (email, expires_at)
-        values (${cleanEmail}, now() + interval '30 minutes')
+        insert into dealer_registration_flows (
+          email,
+          phone,
+          phone_verified,
+          phone_verified_at,
+          expires_at
+        )
+        values (
+          ${cleanEmail},
+          ${normUserPhone || null},
+          ${isPhoneVerified},
+          ${isPhoneVerified ? sql`now()` : null},
+          now() + interval '30 minutes'
+        )
         returning *`;
       flow = newFlow;
+    } else if (!flow.phone_verified && user?.phone_verified && user?.phone) {
+      const normUserPhone = normalizePhone(user.phone).nationalNumber;
+      if (normUserPhone) {
+        await sql`
+          update dealer_registration_flows
+          set phone = coalesce(phone, ${normUserPhone}),
+              phone_verified = true,
+              phone_verified_at = coalesce(phone_verified_at, now())
+          where id = ${flow.id}`;
+        flow.phone = flow.phone || normUserPhone;
+        flow.phone_verified = true;
+      }
     }
 
     const code = generateOtp();
@@ -334,7 +392,7 @@ export async function requestDealerRegistrationOtp({ flowId, channel, phone, ema
  * If both channels become verified, issues a server-controlled verification_token.
  * Writes ZERO permanent records to users, dealers, or Zoho CRM.
  */
-export async function verifyDealerRegistrationOtp({ flowId, channel, phone, email, code }) {
+export async function verifyDealerRegistrationOtp({ flowId, channel, phone, email, code, user }) {
   if (!flowId) throw httpError(400, 'Registration session ID (flowId) is required');
   if (!channel || !['phone', 'email'].includes(channel)) {
     throw httpError(400, 'Channel must be either "phone" or "email"');
@@ -384,6 +442,20 @@ export async function verifyDealerRegistrationOtp({ flowId, channel, phone, emai
         await sql`update dealer_registration_flows set phone_attempts = ${nextAttempts} where id = ${flow.id}`;
         const remaining = OTP_MAX_ATTEMPTS - nextAttempts;
         throw httpError(401, `Invalid verification code. ${remaining} attempt${remaining === 1 ? '' : 's'} remaining.`);
+      }
+
+      if (!flow.email_verified && user?.email_verified && user?.email) {
+        const preverifiedEmail = normalizeEmail(user.email);
+        if (preverifiedEmail) {
+          await sql`
+            update dealer_registration_flows
+            set email = coalesce(email, ${preverifiedEmail}),
+                email_verified = true,
+                email_verified_at = coalesce(email_verified_at, now())
+            where id = ${flow.id}`;
+          flow.email = flow.email || preverifiedEmail;
+          flow.email_verified = true;
+        }
       }
 
       let tokenHashToSave = null;
@@ -437,6 +509,20 @@ export async function verifyDealerRegistrationOtp({ flowId, channel, phone, emai
         throw httpError(401, `Invalid verification code. ${remaining} attempt${remaining === 1 ? '' : 's'} remaining.`);
       }
 
+      if (!flow.phone_verified && user?.phone_verified && user?.phone) {
+        const normUserPhone = normalizePhone(user.phone).nationalNumber;
+        if (normUserPhone) {
+          await sql`
+            update dealer_registration_flows
+            set phone = coalesce(phone, ${normUserPhone}),
+                phone_verified = true,
+                phone_verified_at = coalesce(phone_verified_at, now())
+            where id = ${flow.id}`;
+          flow.phone = flow.phone || normUserPhone;
+          flow.phone_verified = true;
+        }
+      }
+
       let tokenHashToSave = null;
       if (flow.phone_verified && !flow.verification_token_hash) {
         rawVerificationToken = crypto.randomBytes(32).toString('hex');
@@ -484,19 +570,20 @@ export async function verifyDealerRegistrationOtp({ flowId, channel, phone, emai
  *    - If Zoho fails, logs & preserves application for crmPoll recovery
  * Returns { user, dealer }
  */
-export async function finalizeDealerRegistration({
-  flowId,
-  verificationToken,
-  business_name,
-  person_name,
-  first_name,
-  last_name,
-  phone,
-  email,
-  gst_treatment,
-  gst_number,
-  address,
-}) {
+export async function finalizeDealerRegistration(params) {
+  const flowId = params?.flowId || params?.flow_id;
+  const verificationToken = params?.verificationToken || params?.verification_token;
+  const {
+    business_name,
+    person_name,
+    first_name,
+    last_name,
+    phone,
+    email,
+    gst_treatment,
+    gst_number,
+    address,
+  } = params || {};
   if (!flowId) throw httpError(400, 'Registration session ID (flowId) is required');
   if (!business_name || String(business_name).trim().length < 2) {
     throw httpError(400, 'Business / Shop name is required (min 2 characters)');

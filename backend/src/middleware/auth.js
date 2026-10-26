@@ -117,3 +117,26 @@ export async function requireAdmin(req, res, next) {
   });
 }
 
+/**
+ * Optional JWT auth: populates req.user if a valid Bearer token is present,
+ * but allows unauthenticated guest requests to proceed without error.
+ */
+export async function optionalAuth(req, _res, next) {
+  const header = req.headers.authorization || '';
+  const token = header.startsWith('Bearer ') ? header.slice(7) : null;
+  if (!token) return next();
+
+  try {
+    const claims = verifyAccessToken(token);
+    const rows = await sql`
+      select u.id, u.email, u.phone, u.phone_verified, u.role, u.status, u.dealer_id, u.email_verified,
+             u.can_see_dealer_price, u.full_name
+      from users u
+      where u.id = ${claims.sub}`;
+    const user = rows[0];
+    if (user && user.status !== 'rejected' && user.status !== 'revoked' && user.status !== 'inactive') {
+      req.user = user;
+    }
+  } catch {}
+  next();
+}

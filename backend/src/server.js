@@ -21,6 +21,15 @@ const app = express();
 app.disable('x-powered-by');
 app.set('trust proxy', true); // behind Cloudflare/Render/Vercel proxies
 app.use(express.json({ limit: '1mb', verify: (req, _res, buf) => { req.rawBody = buf; } }));
+// Fallback: Parse body from rawBody if client sent text/plain or omitted Content-Type
+app.use((req, _res, next) => {
+  if ((!req.body || Object.keys(req.body).length === 0) && req.rawBody && req.rawBody.length > 0) {
+    try {
+      req.body = JSON.parse(req.rawBody.toString('utf8'));
+    } catch {}
+  }
+  next();
+});
 
 // CORS — the web app lives on a different origin in dev (Vite :5173),
 // production (restor.in), and Vercel preview deploys.

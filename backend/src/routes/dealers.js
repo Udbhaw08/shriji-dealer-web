@@ -1,6 +1,6 @@
 import { Router } from 'express';
 import { sql } from '../db/pool.js';
-import { jwtAuth, requireApprovedDealer } from '../middleware/auth.js';
+import { jwtAuth, requireApprovedDealer, optionalAuth } from '../middleware/auth.js';
 import { httpError } from '../middleware/errorHandler.js';
 import { rateLimit, getClientIp } from '../middleware/rateLimit.js';
 import {
@@ -52,57 +52,65 @@ const otpRequestLimit = rateLimit({
  * ========================================================================== */
 
 /* POST /api/dealers/register/phone/request-otp */
-dealersRouter.post('/register/phone/request-otp', otpRequestLimit, async (req, res, next) => {
+dealersRouter.post('/register/phone/request-otp', optionalAuth, otpRequestLimit, async (req, res, next) => {
   try {
     const result = await requestDealerRegistrationOtp({
       flowId: req.body?.flowId || req.body?.flow_id,
       channel: 'phone',
-      phone: req.body?.phone,
+      phone: req.body?.phone || req.user?.phone,
+      email: req.body?.email || req.body?.official_email || req.user?.email,
+      user: req.user,
     });
     res.json(result);
   } catch (err) { next(err); }
 });
 
 /* POST /api/dealers/register/phone/verify-otp */
-dealersRouter.post('/register/phone/verify-otp', strictLimit, async (req, res, next) => {
+dealersRouter.post('/register/phone/verify-otp', optionalAuth, strictLimit, async (req, res, next) => {
   try {
     const result = await verifyDealerRegistrationOtp({
       flowId: req.body?.flowId || req.body?.flow_id,
       channel: 'phone',
-      phone: req.body?.phone,
-      code: req.body?.code,
+      phone: req.body?.phone || req.user?.phone,
+      email: req.body?.email || req.body?.official_email || req.user?.email,
+      code: req.body?.code || req.body?.otp,
+      user: req.user,
     });
     res.json(result);
   } catch (err) { next(err); }
 });
 
 /* POST /api/dealers/register/email/request-otp */
-dealersRouter.post('/register/email/request-otp', otpRequestLimit, async (req, res, next) => {
+dealersRouter.post('/register/email/request-otp', optionalAuth, otpRequestLimit, async (req, res, next) => {
   try {
     const result = await requestDealerRegistrationOtp({
       flowId: req.body?.flowId || req.body?.flow_id,
       channel: 'email',
-      email: req.body?.email,
+      email: req.body?.email || req.body?.official_email || req.body?.contact,
+      phone: req.body?.phone || req.user?.phone,
+      user: req.user,
     });
     res.json(result);
   } catch (err) { next(err); }
 });
 
 /* POST /api/dealers/register/email/verify-otp */
-dealersRouter.post('/register/email/verify-otp', strictLimit, async (req, res, next) => {
+dealersRouter.post('/register/email/verify-otp', optionalAuth, strictLimit, async (req, res, next) => {
   try {
     const result = await verifyDealerRegistrationOtp({
       flowId: req.body?.flowId || req.body?.flow_id,
       channel: 'email',
-      email: req.body?.email,
-      code: req.body?.code,
+      email: req.body?.email || req.body?.official_email || req.body?.contact,
+      phone: req.body?.phone || req.user?.phone,
+      code: req.body?.code || req.body?.otp,
+      user: req.user,
     });
     res.json(result);
   } catch (err) { next(err); }
 });
 
 /* Unified POST /api/dealers/register/otp/request */
-dealersRouter.post('/register/otp/request', otpRequestLimit, async (req, res, next) => {
+dealersRouter.post('/register/otp/request', optionalAuth, otpRequestLimit, async (req, res, next) => {
   try {
     const channel = req.body?.channel || (req.body?.phone ? 'phone' : 'email');
     const result = await requestDealerRegistrationOtp({
@@ -116,7 +124,7 @@ dealersRouter.post('/register/otp/request', otpRequestLimit, async (req, res, ne
 });
 
 /* Unified POST /api/dealers/register/otp/verify */
-dealersRouter.post('/register/otp/verify', strictLimit, async (req, res, next) => {
+dealersRouter.post('/register/otp/verify', optionalAuth, strictLimit, async (req, res, next) => {
   try {
     const channel = req.body?.channel || (req.body?.phone ? 'phone' : 'email');
     const result = await verifyDealerRegistrationOtp({
