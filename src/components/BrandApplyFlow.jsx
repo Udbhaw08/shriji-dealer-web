@@ -9,6 +9,7 @@ import {
 import { GST_TREATMENT_OPTIONS } from "../data/loginCode";
 import { isValidEmail, isValidPhone, isValidName, isValidGstin, isValidPincode } from "../data/validators";
 import { Icon } from "../ui";
+import OtpDispatchFeedback from "./OtpDispatchFeedback";
 
 export default function BrandApplyFlow({ onBack }) {
   const session = useSession();
@@ -645,13 +646,22 @@ export default function BrandApplyFlow({ onBack }) {
                         <span style={{ color: "var(--err)", fontSize: "0.8rem", fontWeight: 600 }}>{phoneError}</span>
                       )}
 
+                      <OtpDispatchFeedback loading={phoneLoading} channel="whatsapp" destination={phoneInput} />
+
                       <button
                         type="submit"
                         disabled={phoneLoading || phoneInput.replace(/\D/g, "").length !== 10}
                         className="btn btn-navy btn-block"
                         style={{ height: 46, fontSize: "0.9rem", fontWeight: 700 }}
                       >
-                        {phoneLoading ? "Sending OTP via WhatsApp..." : "Send WhatsApp OTP Code"}
+                        {phoneLoading ? (
+                          <>
+                            <span className="otp-btn-spinner" aria-hidden="true" />
+                            <span>Sending WhatsApp OTP...</span>
+                          </>
+                        ) : (
+                          "Send WhatsApp OTP Code"
+                        )}
                       </button>
                     </form>
                   ) : (
@@ -806,13 +816,22 @@ export default function BrandApplyFlow({ onBack }) {
                         <span style={{ color: "var(--err)", fontSize: "0.8rem", fontWeight: 600 }}>{emailError}</span>
                       )}
 
+                      <OtpDispatchFeedback loading={emailLoading} channel="email" destination={emailInput} />
+
                       <button
                         type="submit"
                         disabled={emailLoading || !emailInput.includes("@")}
                         className="btn btn-navy btn-block"
                         style={{ height: 46, fontSize: "0.9rem", fontWeight: 700 }}
                       >
-                        {emailLoading ? "Sending Email Code..." : "Send Email Verification OTP"}
+                        {emailLoading ? (
+                          <>
+                            <span className="otp-btn-spinner" aria-hidden="true" />
+                            <span>Sending Email Code...</span>
+                          </>
+                        ) : (
+                          "Send Email Verification OTP"
+                        )}
                       </button>
                     </form>
                   ) : (

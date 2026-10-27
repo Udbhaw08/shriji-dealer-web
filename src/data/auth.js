@@ -1,5 +1,5 @@
 import { Capacitor } from "@capacitor/core";
-import { apiFetch, apiUrl } from "./api.js";
+import { apiFetch } from "./api.js";
 
 /* Real authentication client for the backend service (docs/BACKEND-ARCHITECTURE.md).
  *
@@ -13,7 +13,9 @@ import { apiFetch, apiUrl } from "./api.js";
 
 const AUTH_BASE =
   import.meta.env?.VITE_AUTH_API_URL ||
-  (import.meta.env?.DEV && !Capacitor.isNativePlatform() ? "http://localhost:8080" : apiUrl(""));
+  (import.meta.env?.DEV && !Capacitor.isNativePlatform()
+    ? "http://localhost:8080"
+    : "https://shriji-dealer-web.onrender.com");
 
 export const PREFS_KEY = "shriji.auth.tokens";
 export const SESSION_PROFILE_KEY = "shriji.auth.session_profile";
@@ -226,7 +228,11 @@ export function extractErrorMessage(data, fallback = "An unexpected error occurr
   return data.message || data.error || fallback;
 }
 
-const json = (body) => ({ method: "POST", body: JSON.stringify(body) });
+const json = (body) => ({
+  method: "POST",
+  headers: { "Content-Type": "application/json" },
+  body: JSON.stringify(body),
+});
 
 /* ---- Auth API ---- */
 
@@ -325,22 +331,54 @@ export async function applyAsDealer(form) {
 
 export async function requestDealerRegistrationOtp({ flowId, channel, phone, email }) {
   const targetChannel = channel || (phone ? "phone" : "email");
-  const res = await apiFetch(`${AUTH_BASE}/api/dealers/register/${targetChannel}/request-otp`, json({ flowId, phone, email }));
-  const data = await res.json();
-  if (!res.ok) throw new Error(data.error || `Could not send verification code to ${targetChannel}`);
+  const payload = {
+    flowId,
+    flow_id: flowId,
+    channel: targetChannel,
+    phone,
+    email,
+    official_email: email,
+    contact: email || phone,
+  };
+  const res = await apiFetch(
+    `${AUTH_BASE}/api/dealers/register/${targetChannel}/request-otp`,
+    json(payload)
+  );
+  const data = await res.json().catch(() => ({}));
+  if (!res.ok) throw new Error(extractErrorMessage(data, `Could not send verification code to ${targetChannel}`));
   return data;
 }
 
 export async function verifyDealerRegistrationOtp({ flowId, channel, phone, email, code }) {
   const targetChannel = channel || (phone ? "phone" : "email");
-  const res = await apiFetch(`${AUTH_BASE}/api/dealers/register/${targetChannel}/verify-otp`, json({ flowId, phone, email, code }));
-  const data = await res.json();
-  if (!res.ok) throw new Error(data.error || `Invalid or expired ${targetChannel} verification code`);
+  const payload = {
+    flowId,
+    flow_id: flowId,
+    channel: targetChannel,
+    phone,
+    email,
+    official_email: email,
+    code,
+    otp: code,
+  };
+  const res = await apiFetch(
+    `${AUTH_BASE}/api/dealers/register/${targetChannel}/verify-otp`,
+    json(payload)
+  );
+  const data = await res.json().catch(() => ({}));
+  if (!res.ok) throw new Error(extractErrorMessage(data, `Invalid or expired ${targetChannel} verification code`));
   return data;
 }
 
 export async function finalizeDealerRegistration(form) {
-  const res = await apiFetch(`${AUTH_BASE}/api/dealers/register/finalize`, json(form));
+  const payload = {
+    ...form,
+    flowId: form.flowId || form.flow_id,
+    flow_id: form.flowId || form.flow_id,
+    verificationToken: form.verificationToken || form.verification_token,
+    verification_token: form.verificationToken || form.verification_token,
+  };
+  const res = await apiFetch(`${AUTH_BASE}/api/dealers/register/finalize`, json(payload));
   const data = await applyAuthResponse(res);
   broadcastAuthChange("DEALER_REGISTERED");
   return data;

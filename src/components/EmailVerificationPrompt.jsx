@@ -2,6 +2,7 @@ import { useState } from "react";
 import { useSession, setSession } from "../data/session";
 import { requestEmailOtp, verifyEmailOtp } from "../data/auth";
 import { isValidEmail } from "../data/validators";
+import OtpDispatchFeedback from "./OtpDispatchFeedback";
 
 export default function EmailVerificationPrompt() {
   const session = useSession();
@@ -171,13 +172,21 @@ export default function EmailVerificationPrompt() {
                     />
                   </div>
                   {error && <div className="email-modal-error">{error}</div>}
+                  <OtpDispatchFeedback loading={loading} channel="email" destination={emailInput} />
                   <button
                     type="submit"
                     className="btn btn-navy btn-block"
                     disabled={loading || !emailInput.trim()}
                     style={{ padding: "10px 16px", fontSize: "0.95rem" }}
                   >
-                    {loading ? "Sending Code…" : "Send Verification OTP"}
+                    {loading ? (
+                      <>
+                        <span className="otp-btn-spinner" aria-hidden="true" />
+                        <span>Sending Verification Code…</span>
+                      </>
+                    ) : (
+                      "Send Verification OTP"
+                    )}
                   </button>
                 </form>
               ) : (

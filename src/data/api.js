@@ -18,7 +18,15 @@ export function apiUrl(path) {
 export async function apiFetch(path, options = {}) {
   const url = apiUrl(path);
   const method = (options.method || "GET").toUpperCase();
-  const headers = options.headers || {};
+  const headers = { ...(options.headers || {}) };
+
+  // Ensure JSON requests in standard browser fetch carry application/json
+  if (options.body && !headers["Content-Type"]) {
+    const isFormData = typeof FormData !== "undefined" && options.body instanceof FormData;
+    if (!isFormData) {
+      headers["Content-Type"] = "application/json";
+    }
+  }
 
   if (Capacitor.isNativePlatform()) {
     try {
@@ -53,5 +61,9 @@ export async function apiFetch(path, options = {}) {
     }
   }
 
-  return fetch(url, options);
+  return fetch(url, {
+    ...options,
+    method,
+    headers,
+  });
 }
