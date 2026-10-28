@@ -33,14 +33,15 @@
 
 ## Relationships
 
-- [[Client Products Data Store]] (7 shared connections)
+- [[Mobile Responsive UI Skill]] (7 shared connections)
 - [[Design System & UI Tokens]] (7 shared connections)
-- [[Claude Agent Instructions]] (2 shared connections)
-- [[Pricing & Roles Skill]] (2 shared connections)
-- [[Zoho Backend & Proxy Endpoints]] (2 shared connections)
+- [[Live Pricing Audit Tool]] (2 shared connections)
+- [[Community 64]] (2 shared connections)
+- [[Community 41]] (1 shared connections)
+- [[Community 119]] (1 shared connections)
 - [[Zoho Integration Architecture]] (1 shared connections)
-- [[Community 52]] (1 shared connections)
-- [[Community 79]] (1 shared connections)
+- [[Community 46]] (1 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (1 shared connections)
 
 ## Source Files
 

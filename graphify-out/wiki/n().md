@@ -2,7 +2,7 @@
 
 > God node · 33 connections · `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
 
-**Community:** [[Community 49]]
+**Community:** [[Price Presentation & Product UI]]
 
 ## Connections by Relation
 

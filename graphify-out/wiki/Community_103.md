@@ -1,48 +1,39 @@
 # Community 103
 
-> 18 nodes · cohesion 0.13
+> 18 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **so()** (10 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **vn()** (10 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **wc()** (9 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **fa()** (7 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **fn()** (7 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **ln()** (7 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **hn()** (6 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **xc()** (6 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **Cc()** (5 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **df()** (5 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **pf()** (4 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **Sc()** (4 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **da()** (3 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **gn()** (3 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **Ja()** (3 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **componentDidCatch()** (2 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **un()** (2 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **uo()** (2 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- **PRD — Shriji Domestic Appliances Dealer Web** (11 connections) — `PRD.md`
+- **3. Scope** (3 connections) — `PRD.md`
+- **6. Data** (3 connections) — `PRD.md`
+- **7. Evidence ledger — what is verified vs. what is sample** (3 connections) — `PRD.md`
+- **PRD.md** (1 connections) — `PRD.md`
+- **10. Conventions worth knowing** (1 connections) — `PRD.md`
+- **1. What this is** (1 connections) — `PRD.md`
+- **2. Who uses it** (1 connections) — `PRD.md`
+- **4. Stack** (1 connections) — `PRD.md`
+- **5. The pricing model — the core business rule** (1 connections) — `PRD.md`
+- **8. Roadmap** (1 connections) — `PRD.md`
+- **9. Decision log** (1 connections) — `PRD.md`
+- **Built and working** (1 connections) — `PRD.md`
+- **⚠️ Known discrepancy** (1 connections) — `PRD.md`
+- **Not built yet (and deliberately so)** (1 connections) — `PRD.md`
+- **Product record shape** (1 connections) — `PRD.md`
+- **Sample / invented for the draft — must stay labelled as such** (1 connections) — `PRD.md`
+- **Verified (scraped from shrijidomestic.com, 2026-09-18)** (1 connections) — `PRD.md`
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (18 shared connections)
-- [[Product Pages Specification]] (9 shared connections)
-- [[Live Pricing Audit Tool]] (7 shared connections)
-- [[Community 45]] (6 shared connections)
-- [[Community 40]] (5 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (3 shared connections)
-- [[Community 48]] (2 shared connections)
-- [[Community 51]] (2 shared connections)
-- [[Community 58]] (2 shared connections)
-- [[Community 47]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-D-WrdUrA.js`
+- `PRD.md`
 
 ## Audit Trail
 
-- EXTRACTED: 95 (100%)
+- EXTRACTED: 34 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

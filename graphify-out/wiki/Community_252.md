@@ -1,33 +1,29 @@
 # Community 252
 
-> 9 nodes · cohesion 0.33
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **viewer-camera-browser.test.mjs** (11 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **load()** (4 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **run()** (4 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **stable()** (3 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **viewport()** (3 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **screenshot()** (2 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **snapshot()** (2 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **cases** (1 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- **Boxes** (5 connections) — `.agents/skills/apple-design/references/hig/boxes.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/boxes.md`
+- **boxes.md** (1 connections) — `.agents/skills/apple-design/references/hig/boxes.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/boxes.md`
+- **Content** (1 connections) — `.agents/skills/apple-design/references/hig/boxes.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/boxes.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/boxes.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/boxes.md`
 
 ## Relationships
 
-- [[Community 60]] (4 shared connections)
-- [[Community 50]] (1 shared connections)
-- [[Community 153]] (1 shared connections)
-- [[Community 127]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- `.agents/skills/apple-design/references/hig/boxes.md`
 
 ## Audit Trail
 
-- EXTRACTED: 31 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

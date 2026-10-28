@@ -1,61 +1,54 @@
 # Community 60
 
-> 26 nodes · cohesion 0.15
+> 25 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **.send()** (54 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **intent-trace-browser.test.mjs** (15 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
-- **export-browser.test.mjs** (9 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **motion-governor-browser.test.mjs** (9 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **run()** (6 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
-- **run()** (5 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **run()** (5 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **load()** (4 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
-- **point()** (4 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
-- **load()** (4 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **click()** (3 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **load()** (3 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **record()** (3 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **click()** (3 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
-- **media()** (3 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
-- **move()** (3 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
-- **media()** (3 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **screenshot()** (3 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **key()** (2 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **afterTimer()** (2 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
-- **key()** (2 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
-- **snapshot()** (2 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
-- **snapshot()** (2 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
-- *... and 1 more nodes in this community*
+- **fl()** (24 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **ra()** (15 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **aa()** (14 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **pe()** (13 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **ml()** (11 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **ta()** (10 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **ia()** (9 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **pl()** (9 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **xe()** (9 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **ye()** (9 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **cl()** (6 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **jo()** (6 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **na()** (6 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **sl()** (5 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **ua()** (5 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **xo()** (5 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **ea()** (4 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **lt()** (4 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **rn()** (4 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **dm()** (3 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **ll()** (3 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **pp()** (3 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **Vd()** (3 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **Ym()** (3 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **oa()** (2 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
 
 ## Relationships
 
-- [[Community 93]] (8 shared connections)
-- [[Community 143]] (8 shared connections)
-- [[Community 127]] (7 shared connections)
-- [[Community 153]] (6 shared connections)
-- [[Community 148]] (5 shared connections)
-- [[Community 149]] (5 shared connections)
-- [[Community 185]] (4 shared connections)
-- [[Community 252]] (4 shared connections)
-- [[Community 50]] (3 shared connections)
-- [[Community 107]] (1 shared connections)
-- [[Community 301]] (1 shared connections)
+- [[Price Presentation & Product UI]] (29 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (17 shared connections)
+- [[Product Pages Specification]] (11 shared connections)
+- [[Community 42]] (9 shared connections)
+- [[Oxlint Linter Configuration]] (7 shared connections)
+- [[Graphify Knowledge Graph Skill]] (6 shared connections)
+- [[Client Products Data Store]] (5 shared connections)
+- [[Community 54]] (5 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/bin/visual-check.mjs`
-- `.agents/skills/archify/test/export-browser.test.mjs`
-- `.agents/skills/archify/test/intent-trace-browser.test.mjs`
-- `.agents/skills/archify/test/motion-governor-browser.test.mjs`
+- `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
 
 ## Audit Trail
 
-- EXTRACTED: 150 (99%)
-- INFERRED: 2 (1%)
+- EXTRACTED: 185 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

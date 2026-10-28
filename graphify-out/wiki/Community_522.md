@@ -9,7 +9,7 @@
 
 ## Relationships
 
-- [[Graphify Agent Rules]] (1 shared connections)
+- [[Community 29]] (1 shared connections)
 
 ## Source Files
 

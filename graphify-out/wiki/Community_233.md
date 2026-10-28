@@ -1,30 +1,35 @@
 # Community 233
 
-> 9 nodes · cohesion 0.22
+> 9 nodes · cohesion 0.42
 
 ## Key Concepts
 
-- **web-ClyLGiuH.js** (8 connections) — `ios/App/App/public/assets/web-ClyLGiuH.js`
-- **constructor()** (1 connections) — `ios/App/App/public/assets/web-ClyLGiuH.js`
-- **exitApp()** (1 connections) — `ios/App/App/public/assets/web-ClyLGiuH.js`
-- **getAppLanguage()** (1 connections) — `ios/App/App/public/assets/web-ClyLGiuH.js`
-- **getInfo()** (1 connections) — `ios/App/App/public/assets/web-ClyLGiuH.js`
-- **getLaunchUrl()** (1 connections) — `ios/App/App/public/assets/web-ClyLGiuH.js`
-- **getState()** (1 connections) — `ios/App/App/public/assets/web-ClyLGiuH.js`
-- **minimizeApp()** (1 connections) — `ios/App/App/public/assets/web-ClyLGiuH.js`
-- **toggleBackButtonHandler()** (1 connections) — `ios/App/App/public/assets/web-ClyLGiuH.js`
+- **fetchZohoProducts()** (14 connections) — `api/_lib/zoho.js`
+- **index.js** (8 connections) — `api/products/index.js`
+- **fetchAllRawZohoProducts()** (6 connections) — `api/_lib/zoho.js`
+- **fetchZohoCategories()** (6 connections) — `api/_lib/zoho.js`
+- **handler()** (6 connections) — `api/products/index.js`
+- **maskCatalogPricing()** (5 connections) — `api/_lib/dealerPricingAuth.js`
+- **getCategoryVisibilityMap()** (5 connections) — `api/_lib/zoho.js`
+- **readProductsDiskCache()** (5 connections) — `api/_lib/zoho.js`
+- **writeProductsDiskCache()** (2 connections) — `api/_lib/zoho.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Architecture Doc Generator]] (15 shared connections)
+- [[Community 145]] (5 shared connections)
+- [[Community 153]] (5 shared connections)
+- [[Community 147]] (2 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/web-ClyLGiuH.js`
+- `api/_lib/dealerPricingAuth.js`
+- `api/_lib/zoho.js`
+- `api/products/index.js`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 57 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

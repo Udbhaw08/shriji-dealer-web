@@ -33,9 +33,9 @@
 
 ## Relationships
 
-- [[Community 36]] (16 shared connections)
-- [[Mobile Responsive UI Skill]] (14 shared connections)
-- [[Community 114]] (2 shared connections)
+- [[Product Requirements Documentation]] (16 shared connections)
+- [[Graphify Workflow]] (14 shared connections)
+- [[Zoho Integration Skill]] (2 shared connections)
 
 ## Source Files
 

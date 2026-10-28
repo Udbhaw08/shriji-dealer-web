@@ -1,56 +1,62 @@
 # Community 49
 
-> 31 nodes · cohesion 0.10
+> 31 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **n()** (33 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **t()** (22 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **ma()** (8 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **cs()** (7 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **go()** (7 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **O()** (7 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **os()** (6 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **es()** (5 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **j()** (5 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **js()** (5 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **rl()** (5 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **ts()** (5 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **x()** (5 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **ds()** (4 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **fs()** (4 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **Ko()** (4 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **ls()** (4 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **ms()** (4 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **ns()** (4 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **qo()** (4 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **rs()** (4 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **as()** (3 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **Ge()** (3 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **ho()** (3 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **hs()** (3 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **visual-check.mjs** (50 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **runVisualCheck()** (18 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **desktop-readability.mjs** (9 connections) — `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
+- **adaptive-reader-layout.test.mjs** (9 connections) — `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
+- **desktop-reader-browser.test.mjs** (8 connections) — `.agents/skills/archify/test/desktop-reader-browser.test.mjs`
+- **DESKTOP_READABILITY_VIEWPORT** (5 connections) — `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
+- **observationDiagnostics()** (4 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **safeUnlink()** (4 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **writeAtomic()** (4 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **baseReceipt()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **cleanupCaptureSidecars()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **contactSheetHtml()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **failureDiagnostic()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **persistReceipt()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **sha256()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **sidecarPaths()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **htmlEscape()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **observation()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **screenshotKey()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **viewportSubject()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **CAPTURE_VIEWPORTS** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **EXIT** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **THEMES** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
+- **reader** (1 connections) — `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
 - *... and 6 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (36 shared connections)
-- [[Master Codebase Architecture Reference]] (13 shared connections)
-- [[Product Requirements Documentation]] (9 shared connections)
-- [[Community 30]] (7 shared connections)
-- [[Community 59]] (7 shared connections)
-- [[Graphify Workflow]] (6 shared connections)
+- [[Community 83]] (8 shared connections)
+- [[Community 128]] (6 shared connections)
+- [[Community 55]] (5 shared connections)
 - [[Roles & Customer Sharing Spec]] (4 shared connections)
-- [[Product Brand & Business Vision]] (4 shared connections)
-- [[Community 57]] (3 shared connections)
+- [[Community 65]] (3 shared connections)
+- [[Zoho Integration Architecture]] (3 shared connections)
+- [[Community 119]] (2 shared connections)
+- [[Community 92]] (2 shared connections)
+- [[Community 106]] (2 shared connections)
+- [[Community 148]] (1 shared connections)
+- [[Community 149]] (1 shared connections)
+- [[Community 125]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- `.agents/skills/archify/bin/visual-check.mjs`
+- `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
+- `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
+- `.agents/skills/archify/test/desktop-reader-browser.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 179 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 150 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

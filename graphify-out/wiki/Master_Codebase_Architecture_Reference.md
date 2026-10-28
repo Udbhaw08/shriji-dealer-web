@@ -1,55 +1,54 @@
 # Master Codebase Architecture Reference
 
-> 58 nodes · cohesion 0.07
+> 61 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **yc()** (18 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **ic()** (15 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **Md()** (15 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **s()** (15 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **nc()** (12 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **pa()** (12 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **bi()** (10 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **nl()** (10 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **so()** (10 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **ha()** (9 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **hh()** (9 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **kd()** (9 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **l()** (9 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **c()** (8 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **gs()** (8 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **rc()** (8 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **yh()** (8 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **ec()** (7 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **fa()** (7 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **Id()** (7 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **mh()** (7 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **oc()** (7 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **yi()** (7 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **zc()** (7 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **ac()** (6 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- *... and 33 more nodes in this community*
+- **get()** (27 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- **D()** (22 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- **.addEventListener()** (19 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- **np()** (19 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- **b()** (17 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- **fp()** (13 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- **h()** (13 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- **.removeEventListener()** (12 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- **bm()** (11 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- **r()** (11 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- **am()** (10 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- **ep()** (10 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- **ip()** (9 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- **mm()** (9 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- **tp()** (9 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- **jm()** (7 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- **kt()** (7 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- **lp()** (7 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- **om()** (7 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- **zm()** (7 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- **cm()** (6 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- **dh()** (6 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- **em()** (6 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- **.blur()** (6 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- **mo()** (6 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- *... and 36 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (68 shared connections)
-- [[Community 30]] (22 shared connections)
-- [[Product Requirements Documentation]] (19 shared connections)
-- [[Product Brand & Business Vision]] (16 shared connections)
-- [[Community 49]] (13 shared connections)
-- [[Roles & Customer Sharing Spec]] (8 shared connections)
-- [[Community 59]] (8 shared connections)
-- [[Community 57]] (7 shared connections)
-- [[Graphify Workflow]] (6 shared connections)
+- [[Dealer Auth & Session Management]] (66 shared connections)
+- [[Pricing & Roles Skill]] (23 shared connections)
+- [[Community 44]] (17 shared connections)
+- [[Community 31]] (14 shared connections)
+- [[Dependencies & Package Config]] (14 shared connections)
+- [[Community 47]] (12 shared connections)
+- [[Community 30]] (9 shared connections)
+- [[Community 48]] (2 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- `ios/App/App/public/assets/index-D-WrdUrA.js`
 
 ## Audit Trail
 
-- EXTRACTED: 385 (100%)
+- EXTRACTED: 411 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

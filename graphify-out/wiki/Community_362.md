@@ -4,24 +4,24 @@
 
 ## Key Concepts
 
-- **viewBox** (6 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **items** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **maxItems** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **minItems** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **prefixItems** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **MetricsTracker** (4 connections) — `backend/src/services/metrics.js`
+- **metrics.js** (2 connections) — `backend/src/services/metrics.js`
+- **metrics** (1 connections) — `backend/src/services/metrics.js`
+- **.constructor()** (1 connections) — `backend/src/services/metrics.js`
+- **.getSnapshot()** (1 connections) — `backend/src/services/metrics.js`
+- **.track()** (1 connections) — `backend/src/services/metrics.js`
 
 ## Relationships
 
-- [[Community 90]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/architecture.schema.json`
+- `backend/src/services/metrics.js`
 
 ## Audit Trail
 
-- EXTRACTED: 11 (100%)
+- EXTRACTED: 10 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

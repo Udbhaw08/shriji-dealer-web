@@ -1,54 +1,47 @@
 # Community 57
 
-> 27 nodes · cohesion 0.13
+> 26 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **zd()** (13 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **Nd()** (11 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **qd()** (11 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **tf()** (10 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **Xd()** (8 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **ef()** (7 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **et()** (7 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **Gd()** (7 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **lf()** (7 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **tt()** (7 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **uf()** (7 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **Ae()** (6 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **of()** (6 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **Rd()** (6 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **Bd()** (5 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **sf()** (5 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **cf()** (4 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **jf()** (4 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **mf()** (4 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **vf()** (4 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **Zo()** (4 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **Hd()** (3 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **Ud()** (3 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **Wf()** (3 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **Fd()** (2 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- *... and 2 more nodes in this community*
+- **Copywriting Guide** (15 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Banned Words** (5 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Microcopy** (4 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Product UI Copy** (4 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **copywriting.md** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **AI Slop Markers** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Avoid on Operational Surfaces** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Buttons** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Core Belief** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Corporate Zombie** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Empty States** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Errors** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Filler** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Headings: Descriptive, Not Aspirational** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Hype** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Info-Style Thinking** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Living Words vs Dead Words** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Marketing Hero Section** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Pre-Publish Checklist** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Proof Beats Hype** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Rhythm** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **The Order of Great Copy** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **The Sticky Line Test** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **Universal Copy Structure** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **When Marketing Tone IS Appropriate in Product** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- *... and 1 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (30 shared connections)
-- [[Product Requirements Documentation]] (12 shared connections)
-- [[Master Codebase Architecture Reference]] (7 shared connections)
-- [[Roles & Customer Sharing Spec]] (6 shared connections)
-- [[Product Brand & Business Vision]] (5 shared connections)
-- [[Community 49]] (3 shared connections)
-- [[Community 30]] (3 shared connections)
-- [[Graphify Workflow]] (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- `.agents/skills/refero-design/references/copywriting.md`
 
 ## Audit Trail
 
-- EXTRACTED: 158 (100%)
+- EXTRACTED: 50 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

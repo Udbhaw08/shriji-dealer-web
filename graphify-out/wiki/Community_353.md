@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **Color wells** (4 connections) — `.agents/skills/apple-design/references/hig/color-wells.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/color-wells.md`
-- **color-wells.md** (1 connections) — `.agents/skills/apple-design/references/hig/color-wells.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/color-wells.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/color-wells.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/color-wells.md`
+- **Rating indicators** (5 connections) — `.agents/skills/apple-design/references/hig/rating-indicators.md`
+- **rating-indicators.md** (1 connections) — `.agents/skills/apple-design/references/hig/rating-indicators.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/rating-indicators.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/rating-indicators.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/rating-indicators.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/rating-indicators.md`
 
 ## Relationships
 
@@ -17,7 +17,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/color-wells.md`
+- `.agents/skills/apple-design/references/hig/rating-indicators.md`
 
 ## Audit Trail
 

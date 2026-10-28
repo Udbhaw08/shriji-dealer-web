@@ -1,56 +1,69 @@
 # Graphify Workflow
 
-> 41 nodes · cohesion 0.09
+> 42 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **.addEventListener()** (19 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **b()** (17 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **fp()** (13 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **h()** (13 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **.removeEventListener()** (12 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **r()** (11 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **ip()** (9 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **tp()** (9 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **lp()** (7 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **cl()** (6 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **cm()** (6 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **em()** (6 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **.blur()** (6 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **tm()** (6 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **v()** (6 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **E()** (5 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **.scrollIntoView()** (5 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **g()** (5 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **Rp()** (5 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **sl()** (5 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **Bp()** (4 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **dl()** (4 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **.getClientRects()** (4 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **hm()** (4 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **pm()** (4 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- *... and 16 more nodes in this community*
+- **sql** (78 connections) — `backend/src/db/pool.js`
+- **dealers.js** (49 connections) — `backend/src/routes/dealers.js`
+- **staff.js** (23 connections) — `backend/src/services/staff.js`
+- **audit()** (18 connections) — `backend/src/utils/audit.js`
+- **applyCrmAccountState()** (12 connections) — `backend/src/services/dealerApp.js`
+- **generateUniqueDealerCode()** (10 connections) — `backend/src/utils/loginCode.js`
+- **applyDealer()** (7 connections) — `backend/src/services/dealerApp.js`
+- **audit.js** (7 connections) — `backend/src/utils/audit.js`
+- **sync-supabase-content.js** (6 connections) — `backend/scripts/sync-supabase-content.js`
+- **provisionDealerInCrm()** (6 connections) — `backend/src/services/dealerApp.js`
+- **createInvite()** (6 connections) — `backend/src/services/staff.js`
+- **seed-content.js** (4 connections) — `backend/scripts/seed-content.js`
+- **deactivateDealer()** (4 connections) — `backend/src/services/dealerApp.js`
+- **approveStaff()** (4 connections) — `backend/src/services/staff.js`
+- **deleteStaff()** (4 connections) — `backend/src/services/staff.js`
+- **holdStaff()** (4 connections) — `backend/src/services/staff.js`
+- **resumeStaff()** (4 connections) — `backend/src/services/staff.js`
+- **revokeStaff()** (4 connections) — `backend/src/services/staff.js`
+- **toggleAllStaffPrice()** (4 connections) — `backend/src/services/staff.js`
+- **toggleStaffPrice()** (4 connections) — `backend/src/services/staff.js`
+- **info.js** (3 connections) — `api/dealer/info.js`
+- **requireApprovedDealer()** (3 connections) — `backend/src/middleware/auth.js`
+- **inspect-db.js** (3 connections) — `backend/scripts/inspect-db.js`
+- **setup-buckets.js** (3 connections) — `backend/scripts/setup-buckets.js`
+- **setup-policies.js** (3 connections) — `backend/scripts/setup-policies.js`
+- *... and 17 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (37 shared connections)
-- [[Community 59]] (14 shared connections)
-- [[Roles & Customer Sharing Spec]] (12 shared connections)
-- [[Product Requirements Documentation]] (8 shared connections)
-- [[Community 30]] (7 shared connections)
-- [[Community 49]] (6 shared connections)
-- [[Master Codebase Architecture Reference]] (6 shared connections)
-- [[Product Brand & Business Vision]] (4 shared connections)
-- [[Community 57]] (2 shared connections)
+- [[Product Requirements Documentation]] (39 shared connections)
+- [[Community 50]] (30 shared connections)
+- [[Zoho Integration Skill]] (17 shared connections)
+- [[Pricing Regression Test Suite]] (14 shared connections)
+- [[Community 89]] (9 shared connections)
+- [[Community 138]] (6 shared connections)
+- [[Community 145]] (4 shared connections)
+- [[Community 187]] (2 shared connections)
+- [[Community 321]] (2 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- `api/dealer/info.js`
+- `backend/scripts/check-readiness.js`
+- `backend/scripts/inspect-db.js`
+- `backend/scripts/seed-content.js`
+- `backend/scripts/setup-buckets.js`
+- `backend/scripts/setup-policies.js`
+- `backend/scripts/sync-supabase-content.js`
+- `backend/src/db/pool.js`
+- `backend/src/middleware/auth.js`
+- `backend/src/routes/dealers.js`
+- `backend/src/services/dealerApp.js`
+- `backend/src/services/staff.js`
+- `backend/src/utils/audit.js`
+- `backend/src/utils/loginCode.js`
 
 ## Audit Trail
 
-- EXTRACTED: 236 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 297 (99%)
+- INFERRED: 4 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

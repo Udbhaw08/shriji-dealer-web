@@ -1,31 +1,29 @@
 # Community 280
 
-> 8 nodes · cohesion 0.29
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **isDroppedPlatformText()** (5 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **headingLine()** (4 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **relabelHeading()** (4 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **isDroppedBoilerplate()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **platformsMentioned()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **reduceHeading()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **isDroppedPlatformLabel()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **platformGroupLabel()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **landing.test.mjs** (7 connections) — `.agents/skills/archify/test/landing.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/landing.test.mjs`
+- **docsRoot** (1 connections) — `.agents/skills/archify/test/landing.test.mjs`
+- **landing** (1 connections) — `.agents/skills/archify/test/landing.test.mjs`
+- **manifest** (1 connections) — `.agents/skills/archify/test/landing.test.mjs`
+- **proofs** (1 connections) — `.agents/skills/archify/test/landing.test.mjs`
+- **repoRoot** (1 connections) — `.agents/skills/archify/test/landing.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/landing.test.mjs`
 
 ## Relationships
 
-- [[Community 78]] (8 shared connections)
-- [[Community 208]] (1 shared connections)
-- [[Community 207]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- `.agents/skills/archify/test/landing.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 26 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

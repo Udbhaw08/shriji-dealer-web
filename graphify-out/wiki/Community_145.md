@@ -1,38 +1,46 @@
 # Community 145
 
-> 13 nodes · cohesion 0.33
+> 13 nodes · cohesion 0.24
 
 ## Key Concepts
 
-- **fetchZohoProductById()** (18 connections) — `api/_lib/zoho.js`
-- **fetchZohoProducts()** (14 connections) — `api/_lib/zoho.js`
-- **getZohoConfig()** (10 connections) — `api/_lib/zoho.js`
-- **fetchZohoWithRetry()** (9 connections) — `api/_lib/zoho.js`
-- **fetchAllRawZohoProducts()** (6 connections) — `api/_lib/zoho.js`
-- **fetchZohoPricebookItems()** (6 connections) — `api/_lib/zoho.js`
-- **getCategoryVisibilityMap()** (5 connections) — `api/_lib/zoho.js`
-- **resolvePricebookId()** (5 connections) — `api/_lib/zoho.js`
-- **fetchZohoPricebooks()** (4 connections) — `api/_lib/zoho.js`
-- **fetchZohoRawCategories()** (4 connections) — `api/_lib/zoho.js`
-- **getDealerById()** (4 connections) — `api/_lib/zoho.js`
-- **readProductDetailsDiskCache()** (3 connections) — `api/_lib/zoho.js`
-- **writeProductDetailDiskCache()** (3 connections) — `api/_lib/zoho.js`
+- **compatibilitySuite.test.mjs** (20 connections) — `backend/test/compatibilitySuite.test.mjs`
+- **dealerPricingAuth.js** (9 connections) — `api/_lib/dealerPricingAuth.js`
+- **getDealerPricingEligibility()** (8 connections) — `api/_lib/dealerPricingAuth.js`
+- **uploads.js** (8 connections) — `backend/src/routes/uploads.js`
+- **[id].js** (6 connections) — `api/products/[id].js`
+- **maskProductPricing()** (5 connections) — `api/_lib/dealerPricingAuth.js`
+- **handler()** (4 connections) — `api/products/[id].js`
+- **contentRouter** (4 connections) — `backend/src/routes/content.js`
+- **uploadsRouter** (4 connections) — `backend/src/routes/uploads.js`
+- **ALLOWED_FOLDERS** (1 connections) — `backend/src/routes/uploads.js`
+- **MIME_TYPES** (1 connections) — `backend/src/routes/uploads.js`
+- **json()** (1 connections) — `backend/test/compatibilitySuite.test.mjs`
+- **status()** (1 connections) — `backend/test/compatibilitySuite.test.mjs`
 
 ## Relationships
 
-- [[Community 46]] (18 shared connections)
-- [[Community 199]] (7 shared connections)
-- [[Community 152]] (7 shared connections)
-- [[Community 255]] (5 shared connections)
-- [[Community 147]] (2 shared connections)
+- [[Zoho Integration Skill]] (7 shared connections)
+- [[Community 50]] (5 shared connections)
+- [[Community 233]] (5 shared connections)
+- [[Graphify Workflow]] (4 shared connections)
+- [[Community 153]] (3 shared connections)
+- [[Architecture Doc Generator]] (3 shared connections)
+- [[Community 127]] (3 shared connections)
+- [[Community 89]] (2 shared connections)
+- [[Community 187]] (2 shared connections)
 
 ## Source Files
 
-- `api/_lib/zoho.js`
+- `api/_lib/dealerPricingAuth.js`
+- `api/products/[id].js`
+- `backend/src/routes/content.js`
+- `backend/src/routes/uploads.js`
+- `backend/test/compatibilitySuite.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 91 (100%)
+- EXTRACTED: 72 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **ErrorBoundary** (5 connections) — `src/components/ErrorBoundary.jsx`
-- **ErrorBoundary.jsx** (1 connections) — `src/components/ErrorBoundary.jsx`
-- **.componentDidCatch()** (1 connections) — `src/components/ErrorBoundary.jsx`
-- **.constructor()** (1 connections) — `src/components/ErrorBoundary.jsx`
-- **.getDerivedStateFromError()** (1 connections) — `src/components/ErrorBoundary.jsx`
-- **.render()** (1 connections) — `src/components/ErrorBoundary.jsx`
+- **Branding** (5 connections) — `.agents/skills/apple-design/references/hig/branding.md`
+- **branding.md** (1 connections) — `.agents/skills/apple-design/references/hig/branding.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/branding.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/branding.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/branding.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/branding.md`
 
 ## Relationships
 
@@ -17,7 +17,7 @@
 
 ## Source Files
 
-- `src/components/ErrorBoundary.jsx`
+- `.agents/skills/apple-design/references/hig/branding.md`
 
 ## Audit Trail
 

@@ -6,6 +6,7 @@ import { isValidPhone } from '../utils/validators.js';
 import { Resend } from 'resend';
 
 const resend = env.resendApiKey ? new Resend(env.resendApiKey) : null;
+const SENDER_EMAIL = process.env.RESEND_FROM_EMAIL || 'Shriji Dealer Portal <auth@restor.in>';
 
 /**
  * Dispatch an OTP via Meta WhatsApp Cloud API using an approved Authentication template.
@@ -131,21 +132,51 @@ export async function sendOtpNotification({ phone, email, code }) {
 
 export async function sendEmailOtp({ email, code }) {
   if (!resend) throw new Error('Email OTP is not configured. Set RESEND_API_KEY.');
+  
+  let result;
   try {
-    await resend.emails.send({
-      from: 'Shriji Dealer Portal <onboarding@resend.dev>',
+    result = await resend.emails.send({
+      from: SENDER_EMAIL,
       to: email,
       subject: 'Your Shriji Dealer Portal verification code',
       html: `<p>Your verification code is: <strong>${code}</strong></p><p>This code is valid for 10 minutes.</p>`,
     });
-    log.info(`[notify:email] Email OTP sent successfully to ${email}`);
+    if (result.error) {
+      throw new Error(result.error.message || 'Resend delivery error');
+    }
+    log.info(`[notify:email] Email OTP sent successfully to ${email} via ${SENDER_EMAIL}`);
     return { provider: 'email', accepted: true };
   } catch (error) {
-    log.warn(`[notify:email] Resend delivery failed for ${email}: ${error.message}`);
+    const msg = error?.message || '';
+    log.warn(`[notify:email] Resend delivery failed for ${email} with sender ${SENDER_EMAIL}: ${msg}`);
+    
+    // Fallback: If custom sender fails (e.g. pending DNS), try onboarding@resend.dev
+    if (SENDER_EMAIL !== 'Shriji Dealer Portal <onboarding@resend.dev>') {
+      try {
+        const fbResult = await resend.emails.send({
+          from: 'Shriji Dealer Portal <onboarding@resend.dev>',
+          to: email,
+          subject: 'Your Shriji Dealer Portal verification code',
+          html: `<p>Your verification code is: <strong>${code}</strong></p><p>This code is valid for 10 minutes.</p>`,
+        });
+        if (!fbResult.error) {
+          log.info(`[notify:email] Email OTP sent successfully to ${email} via fallback sandbox sender`);
+          return { provider: 'email', accepted: true };
+        }
+      } catch (fbErr) {
+        log.warn(`[notify:email] Fallback sender also rejected: ${fbErr.message}`);
+      }
+    }
+
+    if (msg.includes('only send testing emails to your own email address') || msg.includes('resend.com/domains') || error?.statusCode === 403) {
+      if (process.env.NODE_ENV !== 'production' || process.env.ENABLE_DEV_OTP === 'true') {
+        return { provider: 'email', accepted: true, dev_code: code, sandbox_restricted: true };
+      }
+      throw new Error('Email delivery restricted: DNS verification in progress. For testing, use the account owner email.');
+    }
     throw new Error('Could not send the email verification code. Please retry.');
   }
 }
-
 
 export async function notify(userId, channel, template, data = {}) {
   const rows = await sql`select email from users where id = ${userId}`;
@@ -157,7 +188,7 @@ export async function notify(userId, channel, template, data = {}) {
     ? `<p>A new staff member (${data.staffEmail}) is waiting for your approval in the Dealer Dashboard.</p>`
     : '<p>You have a new notification.</p>';
   try {
-    await resend.emails.send({ from: 'Shriji Dealer Portal <onboarding@resend.dev>', to: user.email, subject, html });
+    await resend.emails.send({ from: SENDER_EMAIL, to: user.email, subject, html });
   } catch (error) {
     log.warn(`[notify:email] Delivery error to ${user.email}: ${error.message}`);
   }

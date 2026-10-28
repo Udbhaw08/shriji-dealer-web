@@ -1,42 +1,40 @@
 # Community 152
 
-> 12 nodes · cohesion 0.36
+> 12 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **vite.config.js** (19 connections) — `vite.config.js`
-- **zohoApiPlugin()** (12 connections) — `vite.config.js`
-- **securityPhase2.test.mjs** (11 connections) — `backend/test/securityPhase2.test.mjs`
-- **og.js** (7 connections) — `api/og.js`
-- **htmlEscape.js** (6 connections) — `api/_lib/htmlEscape.js`
-- **escapeHtml()** (6 connections) — `api/_lib/htmlEscape.js`
-- **sanitizeUrl()** (6 connections) — `api/_lib/htmlEscape.js`
-- **handler()** (5 connections) — `api/og.js`
-- **sanitizeHost()** (4 connections) — `api/_lib/htmlEscape.js`
-- **loadContentService()** (2 connections) — `vite.config.js`
-- **mockWebhookAuthCheck()** (1 connections) — `backend/test/securityPhase2.test.mjs`
-- **liveAutoSyncPlugin()** (1 connections) — `vite.config.js`
+- **vn()** (10 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **wc()** (9 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **fn()** (7 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **ln()** (7 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **hn()** (6 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **Cc()** (5 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **pf()** (4 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **Sc()** (4 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **gn()** (3 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **componentDidCatch()** (2 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **un()** (2 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **uo()** (2 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
 
 ## Relationships
 
-- [[Community 91]] (8 shared connections)
-- [[Community 145]] (7 shared connections)
-- [[Community 199]] (6 shared connections)
-- [[Community 46]] (4 shared connections)
-- [[Community 253]] (3 shared connections)
-- [[Agent Guidelines (AGENTS.md)]] (2 shared connections)
-- [[Community 255]] (2 shared connections)
+- [[Price Presentation & Product UI]] (14 shared connections)
+- [[Product Pages Specification]] (5 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (5 shared connections)
+- [[Client Products Data Store]] (4 shared connections)
+- [[Oxlint Linter Configuration]] (3 shared connections)
+- [[Graphify Knowledge Graph Skill]] (2 shared connections)
+- [[Community 42]] (1 shared connections)
+- [[Community 54]] (1 shared connections)
 
 ## Source Files
 
-- `api/_lib/htmlEscape.js`
-- `api/og.js`
-- `backend/test/securityPhase2.test.mjs`
-- `vite.config.js`
+- `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
 
 ## Audit Trail
 
-- EXTRACTED: 80 (100%)
+- EXTRACTED: 61 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

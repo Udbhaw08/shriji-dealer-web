@@ -1,55 +1,62 @@
 # Product Requirements Documentation
 
-> 56 nodes · cohesion 0.08
+> 56 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **fl()** (24 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **it()** (20 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **k()** (19 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **st()** (16 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **aa()** (14 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **A()** (13 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **ft()** (13 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **pe()** (13 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **ml()** (11 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **ut()** (11 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **jt()** (10 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **ct()** (9 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **nt()** (9 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **pl()** (9 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **ve()** (9 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **xe()** (9 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **ye()** (9 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **kf()** (8 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **P()** (8 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **xt()** (8 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **dt()** (7 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **jn()** (7 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **ot()** (7 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **rt()** (7 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **F()** (6 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **auth.js** (54 connections) — `backend/src/routes/auth.js`
+- **dealerApp.js** (44 connections) — `backend/src/services/dealerApp.js`
+- **crmClient.js** (35 connections) — `backend/src/services/crmClient.js`
+- **normalizePhone()** (21 connections) — `backend/src/utils/phone.js`
+- **normalizeEmail()** (18 connections) — `backend/src/utils/validators.js`
+- **notifications.js** (16 connections) — `backend/src/services/notifications.js`
+- **validators.js** (15 connections) — `backend/src/utils/validators.js`
+- **crmFetch()** (14 connections) — `backend/src/services/crmClient.js`
+- **requestDealerRegistrationOtp()** (14 connections) — `backend/src/services/dealerApp.js`
+- **finalizeDealerRegistration()** (12 connections) — `backend/src/services/dealerApp.js`
+- **isValidPhone()** (11 connections) — `backend/src/utils/validators.js`
+- **cleanName()** (9 connections) — `backend/src/utils/validators.js`
+- **httpError()** (8 connections) — `backend/src/middleware/errorHandler.js`
+- **crmConfigured()** (8 connections) — `backend/src/services/crmClient.js`
+- **validators.test.mjs** (8 connections) — `backend/test/validators.test.mjs`
+- **phone.js** (8 connections) — `backend/src/utils/phone.js`
+- **verifyDealerRegistrationOtp()** (7 connections) — `backend/src/services/dealerApp.js`
+- **sendWhatsAppOtp()** (7 connections) — `backend/src/services/notifications.js`
+- **isValidEmail()** (7 connections) — `backend/src/utils/validators.js`
+- **interconnection.test.mjs** (6 connections) — `backend/test/interconnection.test.mjs`
+- **isValidName()** (6 connections) — `backend/src/utils/validators.js`
+- **issueSession()** (5 connections) — `backend/src/routes/auth.js`
+- **createDealerAccount()** (5 connections) — `backend/src/services/crmClient.js`
+- **createDealerContact()** (5 connections) — `backend/src/services/crmClient.js`
+- **findOwnerContactInAccount()** (5 connections) — `backend/src/services/crmClient.js`
 - *... and 31 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (60 shared connections)
-- [[Master Codebase Architecture Reference]] (19 shared connections)
-- [[Community 30]] (18 shared connections)
-- [[Community 59]] (14 shared connections)
-- [[Community 57]] (12 shared connections)
-- [[Product Brand & Business Vision]] (10 shared connections)
-- [[Community 49]] (9 shared connections)
-- [[Roles & Customer Sharing Spec]] (8 shared connections)
-- [[Graphify Workflow]] (8 shared connections)
+- [[Graphify Workflow]] (39 shared connections)
+- [[Community 50]] (22 shared connections)
+- [[Pricing Regression Test Suite]] (16 shared connections)
+- [[Zoho Integration Skill]] (12 shared connections)
+- [[Community 138]] (4 shared connections)
+- [[Community 321]] (4 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- `backend/src/middleware/errorHandler.js`
+- `backend/src/routes/auth.js`
+- `backend/src/routes/dealers.js`
+- `backend/src/services/crmClient.js`
+- `backend/src/services/dealerApp.js`
+- `backend/src/services/notifications.js`
+- `backend/src/utils/phone.js`
+- `backend/src/utils/validators.js`
+- `backend/test/crmSync.test.mjs`
+- `backend/test/interconnection.test.mjs`
+- `backend/test/validators.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 402 (100%)
+- EXTRACTED: 437 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

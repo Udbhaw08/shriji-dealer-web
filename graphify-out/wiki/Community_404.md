@@ -4,10 +4,10 @@
 
 ## Key Concepts
 
-- **Shriji Dealer Web — Agent Guidelines** (3 connections) — `AGENTS.md`
-- **AGENTS.md** (1 connections) — `AGENTS.md`
-- **Hard Rules** (1 connections) — `AGENTS.md`
-- **Specialized Skills Available** (1 connections) — `AGENTS.md`
+- **REST API Endpoints Specification** (3 connections) — `docs/api/endpoints-spec.md`
+- **endpoints-spec.md** (1 connections) — `docs/api/endpoints-spec.md`
+- **Authentication Endpoints** (1 connections) — `docs/api/endpoints-spec.md`
+- **Catalog Endpoints** (1 connections) — `docs/api/endpoints-spec.md`
 
 ## Relationships
 
@@ -15,7 +15,7 @@
 
 ## Source Files
 
-- `AGENTS.md`
+- `docs/api/endpoints-spec.md`
 
 ## Audit Trail
 

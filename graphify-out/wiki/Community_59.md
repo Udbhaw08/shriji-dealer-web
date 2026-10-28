@@ -1,54 +1,48 @@
 # Community 59
 
-> 26 nodes · cohesion 0.16
+> 26 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **get()** (27 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **D()** (22 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **np()** (19 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **bm()** (11 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **am()** (10 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **ep()** (10 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **mm()** (9 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **Gt()** (7 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **jm()** (7 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **kt()** (7 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **om()** (7 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **ro()** (7 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **tn()** (7 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **zm()** (7 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **mo()** (6 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **dc()** (5 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **gm()** (5 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **nm()** (5 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **qm()** (5 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **Wt()** (5 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **km()** (4 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **rn()** (4 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **Um()** (4 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **Vm()** (3 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **kn()** (2 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **workflow-compiler.test.mjs** (27 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- **assertReadableAdjacentResult()** (6 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- **attribute()** (4 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- **numericRect()** (4 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- **edgeLabelRect()** (3 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- **edgePoints()** (3 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- **nodeRect()** (3 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- **svgViewBox()** (3 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- **asciiGroupLabelTextRect()** (2 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- **assertRectInsideViewBox()** (2 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- **compileSuccessfully()** (2 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- **groupFrameRect()** (2 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- **adjacentWorkflow()** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- **asciiLaneHeaderTextRect()** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- **assertRectInsideRect()** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- **attributeOrUndefined()** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- **cli** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- **clone()** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- **legendGeometry()** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- **orthogonalSegmentIntersectsRect()** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- **readJson()** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- **rectsOverlap()** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- **sha256()** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
 - *... and 1 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (32 shared connections)
-- [[Graphify Workflow]] (14 shared connections)
-- [[Product Requirements Documentation]] (14 shared connections)
-- [[Roles & Customer Sharing Spec]] (13 shared connections)
-- [[Community 30]] (10 shared connections)
-- [[Master Codebase Architecture Reference]] (8 shared connections)
-- [[Community 49]] (7 shared connections)
-- [[Product Brand & Business Vision]] (7 shared connections)
+- [[Community 133]] (2 shared connections)
+- [[Community 64]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- `.agents/skills/archify/test/workflow-compiler.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 207 (100%)
+- EXTRACTED: 75 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -15,9 +15,9 @@
   },
   "3334672000000195023": {
     "tags": [],
-    "lastModified": "1792759270106",
+    "lastModified": "1793184079677",
     "name": "2B Appolo SS GS Sunshine",
-    "updatedAt": 1792801285309
+    "updatedAt": 1793220670544
   },
   "3334672000000195638": {
     "tags": [],
@@ -57,9 +57,9 @@
   },
   "3334672000000196433": {
     "tags": [],
-    "lastModified": "1792759270106",
+    "lastModified": "1793184079677",
     "name": "3B Thunder GS Sunshine",
-    "updatedAt": 1792801290214
+    "updatedAt": 1793220673014
   },
   "3334672000001709496": {
     "tags": [],
@@ -93,15 +93,15 @@
   },
   "3334672000000196523": {
     "tags": [],
-    "lastModified": "1792668686465",
+    "lastModified": "1793184079677",
     "name": "3B Triple Cook All GS Sunshine",
-    "updatedAt": 1792707507252
+    "updatedAt": 1793220674126
   },
   "3334672000000196508": {
     "tags": [],
-    "lastModified": "1792668565945",
+    "lastModified": "1793184079677",
     "name": "3B Trio 5G GS Sunshine",
-    "updatedAt": 1792707507293
+    "updatedAt": 1793220673588
   },
   "3334672000000839216": {
     "tags": [],
@@ -290,5 +290,17 @@
     "lastModified": "1792830139550",
     "name": "90 Casavo BLDC CH Sunshine",
     "updatedAt": 1792923394036
+  },
+  "3334672000000841526": {
+    "tags": [],
+    "lastModified": "1793184079677",
+    "name": "4B Venue Plus TT GS Sunshine",
+    "updatedAt": 1793220672468
+  },
+  "3334672000000197888": {
+    "tags": [],
+    "lastModified": "1793184079677",
+    "name": "4B Thunder XL GS Sunshine",
+    "updatedAt": 1793220674672
   }
 }

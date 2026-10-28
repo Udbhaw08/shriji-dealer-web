@@ -23,10 +23,10 @@
 
 ## Relationships
 
-- [[Community 66]] (18 shared connections)
-- [[Claude Agent Instructions]] (4 shared connections)
-- [[Community 141]] (2 shared connections)
-- [[Community 168]] (1 shared connections)
+- [[Community 61]] (18 shared connections)
+- [[Community 119]] (4 shared connections)
+- [[Community 142]] (2 shared connections)
+- [[Community 167]] (1 shared connections)
 
 ## Source Files
 

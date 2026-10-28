@@ -22,8 +22,8 @@
 
 ## Relationships
 
-- [[Zoho Integration Skill]] (5 shared connections)
-- [[Community 83]] (3 shared connections)
+- [[Project Readme & Layout]] (5 shared connections)
+- [[Community 81]] (3 shared connections)
 
 ## Source Files
 

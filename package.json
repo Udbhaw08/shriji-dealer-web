@@ -17,7 +17,8 @@
     "cap:android": "cap open android",
     "cap:ios": "cap open ios",
     "start:backend": "npm --prefix backend start",
-    "build:backend": "npm --prefix backend install"
+    "build:backend": "npm --prefix backend install",
+    "reset:test-users": "node backend/scripts/reset-test-users.js"
   },
   "dependencies": {
     "@capacitor/android": "^8.5.2",

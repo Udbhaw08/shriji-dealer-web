@@ -7,6 +7,7 @@
 - **fl()** (24 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
 - **ra()** (15 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
 - **aa()** (14 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- **A()** (13 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
 - **pe()** (13 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
 - **ml()** (11 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
 - **ta()** (10 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
@@ -21,28 +22,25 @@
 - **jo()** (6 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
 - **me()** (6 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
 - **na()** (6 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **ee()** (5 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
 - **sl()** (5 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
 - **ua()** (5 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
 - **xo()** (5 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **De()** (4 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
 - **ea()** (4 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
 - **le()** (4 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **Oe()** (4 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- **M()** (4 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- **ue()** (4 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
 - *... and 7 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (36 shared connections)
-- [[Community 45]] (15 shared connections)
-- [[Product Pages Specification]] (11 shared connections)
-- [[Community 48]] (10 shared connections)
-- [[Live Pricing Audit Tool]] (8 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (7 shared connections)
-- [[Community 58]] (6 shared connections)
-- [[Community 51]] (5 shared connections)
-- [[Community 40]] (3 shared connections)
-- [[Community 103]] (1 shared connections)
+- [[Dealer Auth & Session Management]] (39 shared connections)
+- [[Community 31]] (14 shared connections)
+- [[Community 44]] (13 shared connections)
+- [[Master Codebase Architecture Reference]] (12 shared connections)
+- [[Community 48]] (11 shared connections)
+- [[Dependencies & Package Config]] (10 shared connections)
+- [[Pricing & Roles Skill]] (6 shared connections)
+- [[Community 30]] (4 shared connections)
 
 ## Source Files
 
@@ -50,7 +48,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 226 (100%)
+- EXTRACTED: 233 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

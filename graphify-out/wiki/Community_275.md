@@ -4,26 +4,26 @@
 
 ## Key Concepts
 
-- **Text fields** (5 connections) — `.agents/skills/apple-design/references/hig/text-fields.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/text-fields.md`
-- **text-fields.md** (1 connections) — `.agents/skills/apple-design/references/hig/text-fields.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/text-fields.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/text-fields.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/text-fields.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/text-fields.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/text-fields.md`
+- **wraps** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **via** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **$ref** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **items** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **items** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **minItems** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Project Readme & Layout]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/text-fields.md`
+- `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

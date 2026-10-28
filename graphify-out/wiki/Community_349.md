@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **Activity views** (5 connections) — `.agents/skills/apple-design/references/hig/activity-views.md`
-- **activity-views.md** (1 connections) — `.agents/skills/apple-design/references/hig/activity-views.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/activity-views.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/activity-views.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/activity-views.md`
-- **Share and action extensions** (1 connections) — `.agents/skills/apple-design/references/hig/activity-views.md`
+- **Color wells** (4 connections) — `.agents/skills/apple-design/references/hig/color-wells.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/color-wells.md`
+- **color-wells.md** (1 connections) — `.agents/skills/apple-design/references/hig/color-wells.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/color-wells.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/color-wells.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/color-wells.md`
 
 ## Relationships
 
@@ -17,7 +17,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/activity-views.md`
+- `.agents/skills/apple-design/references/hig/color-wells.md`
 
 ## Audit Trail
 

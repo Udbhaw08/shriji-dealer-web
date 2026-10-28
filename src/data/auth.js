@@ -214,6 +214,18 @@ async function applyAuthResponse(res) {
   return data;
 }
 
+
+export function extractErrorMessage(data, fallback = "An unexpected error occurred") {
+  if (!data) return fallback;
+  if (data.error === "rate_limited" || data.retry_after_seconds) {
+    const s = data.retry_after_seconds;
+    return s
+      ? `Too many attempts. Please wait ${s} seconds before trying again.`
+      : (data.message || "Too many attempts. Please wait a moment before trying again.");
+  }
+  return data.message || data.error || fallback;
+}
+
 const json = (body) => ({ method: "POST", body: JSON.stringify(body) });
 
 /* ---- Auth API ---- */

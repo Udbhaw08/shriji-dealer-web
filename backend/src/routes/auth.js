@@ -17,7 +17,26 @@ import { normalizePhone } from '../utils/phone.js';
 import { applyCrmAccountState } from '../services/dealerApp.js';
 
 export const authRouter = Router();
-const strictLimit = rateLimit({ windowMs: 60_000, max: () => env.authStrictRateLimitMax || 30, prefix: 'auth_strict' });
+const strictLimit = rateLimit({
+  windowMs: 60_000,
+  max: () => env.authStrictRateLimitMax || 120,
+  prefix: 'auth_strict',
+  keyFn: (req) => {
+    const rawPhone = req.body?.phone;
+    if (rawPhone) {
+      try {
+        const norm = normalizePhone(rawPhone);
+        if (norm?.nationalNumber) return `phone:${norm.nationalNumber}`;
+      } catch {}
+    }
+    const email = req.body?.email || req.body?.identifier;
+    if (email) {
+      return `email:${String(email).trim().toLowerCase()}`;
+    }
+    return `ip:${getClientIp(req)}`;
+  },
+  message: 'Too many attempts. Please wait a moment before trying again.',
+});
 const otpRequestLimit = rateLimit({
   windowMs: () => env.otpRateLimitWindowMs || (3 * 60_000),
   max: () => env.otpRateLimitMax || 20,

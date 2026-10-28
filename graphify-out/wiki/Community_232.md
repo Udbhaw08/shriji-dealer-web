@@ -4,15 +4,15 @@
 
 ## Key Concepts
 
-- **Virtual keyboards** (7 connections) — `.agents/skills/apple-design/references/hig/virtual-keyboards.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/virtual-keyboards.md`
-- **virtual-keyboards.md** (1 connections) — `.agents/skills/apple-design/references/hig/virtual-keyboards.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/virtual-keyboards.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/virtual-keyboards.md`
-- **Custom input views** (1 connections) — `.agents/skills/apple-design/references/hig/virtual-keyboards.md`
-- **Custom keyboards** (1 connections) — `.agents/skills/apple-design/references/hig/virtual-keyboards.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/virtual-keyboards.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/virtual-keyboards.md`
+- **web-ClyLGiuH.js** (8 connections) — `ios/App/App/public/assets/web-ClyLGiuH.js`
+- **constructor()** (1 connections) — `ios/App/App/public/assets/web-ClyLGiuH.js`
+- **exitApp()** (1 connections) — `ios/App/App/public/assets/web-ClyLGiuH.js`
+- **getAppLanguage()** (1 connections) — `ios/App/App/public/assets/web-ClyLGiuH.js`
+- **getInfo()** (1 connections) — `ios/App/App/public/assets/web-ClyLGiuH.js`
+- **getLaunchUrl()** (1 connections) — `ios/App/App/public/assets/web-ClyLGiuH.js`
+- **getState()** (1 connections) — `ios/App/App/public/assets/web-ClyLGiuH.js`
+- **minimizeApp()** (1 connections) — `ios/App/App/public/assets/web-ClyLGiuH.js`
+- **toggleBackButtonHandler()** (1 connections) — `ios/App/App/public/assets/web-ClyLGiuH.js`
 
 ## Relationships
 
@@ -20,7 +20,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/virtual-keyboards.md`
+- `ios/App/App/public/assets/web-ClyLGiuH.js`
 
 ## Audit Trail
 

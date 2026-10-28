@@ -1,48 +1,41 @@
 # Community 127
 
-> 14 nodes · cohesion 0.19
+> 14 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **findChrome()** (22 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **export-cleanup-browser.test.mjs** (8 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
-- **viewer-identifiers-browser.test.mjs** (7 connections) — `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
-- **evaluate()** (4 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
-- **executable()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **findOnPath()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **load()** (3 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
-- **load()** (3 connections) — `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
-- **run()** (3 connections) — `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
-- **exported()** (2 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
-- **cases** (1 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
-- **cases** (1 connections) — `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
+- **securityPhase1.test.mjs** (16 connections) — `backend/test/securityPhase1.test.mjs`
+- **download.js** (6 connections) — `api/download.js`
+- **handler()** (5 connections) — `api/download.js`
+- **ssrf.js** (5 connections) — `api/_lib/ssrf.js`
+- **validateSafeDownloadUrl()** (5 connections) — `api/_lib/ssrf.js`
+- **safeFetchWithRedirects()** (3 connections) — `api/download.js`
+- **isPrivateOrReservedIp()** (3 connections) — `api/_lib/ssrf.js`
+- **wrapJpegInPdf()** (2 connections) — `api/download.js`
+- **ALLOWED_REMOTE_HOSTS** (1 connections) — `api/_lib/ssrf.js`
+- **json()** (1 connections) — `backend/test/securityPhase1.test.mjs`
+- **sendFile()** (1 connections) — `backend/test/securityPhase1.test.mjs`
+- **setHeader()** (1 connections) — `backend/test/securityPhase1.test.mjs`
+- **status()** (1 connections) — `backend/test/securityPhase1.test.mjs`
+- **validateMagicBytes()** (1 connections) — `backend/test/securityPhase1.test.mjs`
 
 ## Relationships
 
-- [[Community 60]] (7 shared connections)
-- [[Community 50]] (5 shared connections)
-- [[Community 93]] (2 shared connections)
-- [[Community 153]] (2 shared connections)
-- [[Community 167]] (1 shared connections)
-- [[Community 148]] (1 shared connections)
-- [[Community 149]] (1 shared connections)
-- [[Community 125]] (1 shared connections)
-- [[Community 33]] (1 shared connections)
-- [[Community 185]] (1 shared connections)
-- [[Community 250]] (1 shared connections)
-- [[Community 143]] (1 shared connections)
+- [[Community 153]] (3 shared connections)
+- [[Community 145]] (3 shared connections)
+- [[Community 187]] (2 shared connections)
+- [[Zoho Integration Skill]] (2 shared connections)
+- [[Community 89]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/bin/visual-check.mjs`
-- `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
-- `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
+- `api/_lib/ssrf.js`
+- `api/download.js`
+- `backend/test/securityPhase1.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 62 (100%)
+- EXTRACTED: 51 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

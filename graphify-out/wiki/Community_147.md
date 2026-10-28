@@ -20,8 +20,8 @@
 
 ## Relationships
 
-- [[Community 145]] (2 shared connections)
-- [[Community 46]] (1 shared connections)
+- [[Community 233]] (2 shared connections)
+- [[Architecture Doc Generator]] (1 shared connections)
 
 ## Source Files
 

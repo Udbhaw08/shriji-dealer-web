@@ -1,70 +1,60 @@
 # Agent Guidelines (AGENTS.md)
 
-> 43 nodes · cohesion 0.09
+> 43 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **server.js** (39 connections) — `backend/src/server.js`
-- **pool.js** (34 connections) — `backend/src/db/pool.js`
-- **env.js** (17 connections) — `backend/src/config/env.js`
-- **env** (14 connections) — `backend/src/config/env.js`
-- **webhooks.js** (14 connections) — `backend/src/routes/webhooks.js`
-- **logger.js** (14 connections) — `backend/src/utils/logger.js`
-- **crmPoll.js** (13 connections) — `backend/src/jobs/crmPoll.js`
-- **log** (13 connections) — `backend/src/utils/logger.js`
-- **applyCrmAccountState()** (12 connections) — `backend/src/services/dealerApp.js`
-- **index.js** (11 connections) — `backend/src/jobs/index.js`
-- **catalogSync.js** (9 connections) — `backend/src/jobs/catalogSync.js`
-- **health.js** (8 connections) — `backend/src/routes/health.js`
-- **migrate.js** (6 connections) — `backend/src/db/migrate.js`
-- **crmPoll()** (5 connections) — `backend/src/jobs/crmPoll.js`
-- **migrate()** (4 connections) — `backend/src/db/migrate.js`
-- **applied()** (3 connections) — `backend/src/db/migrate.js`
-- **catalogSync()** (3 connections) — `backend/src/jobs/catalogSync.js`
-- **tokenCleanup()** (3 connections) — `backend/src/jobs/catalogSync.js`
-- **markPollRun()** (3 connections) — `backend/src/jobs/crmPoll.js`
-- **startJobs()** (3 connections) — `backend/src/jobs/index.js`
-- **migrate-content.js** (3 connections) — `backend/scripts/migrate-content.js`
-- **test-storage.js** (3 connections) — `backend/scripts/test-storage.js`
-- **start()** (3 connections) — `backend/src/server.js`
-- **authRouter** (2 connections) — `backend/src/routes/auth.js`
-- **dealersRouter** (2 connections) — `backend/src/routes/dealers.js`
+- **session.js** (51 connections) — `src/data/session.js`
+- **Login.jsx** (43 connections) — `src/pages/Login.jsx`
+- **DealerApply.jsx** (26 connections) — `src/pages/DealerApply.jsx`
+- **BrandApplyFlow.jsx** (21 connections) — `src/components/BrandApplyFlow.jsx`
+- **StaffJoin.jsx** (14 connections) — `src/pages/StaffJoin.jsx`
+- **revalidateSession()** (13 connections) — `src/data/session.js`
+- **loginCode.js** (11 connections) — `src/data/loginCode.js`
+- **setSession()** (10 connections) — `src/data/session.js`
+- **validators.js** (10 connections) — `src/data/validators.js`
+- **registerDealer()** (7 connections) — `src/data/dealer.js`
+- **signOut()** (7 connections) — `src/data/session.js`
+- **applyAsDealer()** (6 connections) — `src/data/auth.js`
+- **formatLoginCode()** (6 connections) — `src/data/loginCode.js`
+- **isValidEmail()** (6 connections) — `src/data/validators.js`
+- **requestDealerRegistrationOtp()** (5 connections) — `src/data/auth.js`
+- **verifyDealerRegistrationOtp()** (5 connections) — `src/data/auth.js`
+- **switchToDealerSession()** (5 connections) — `src/data/session.js`
+- **isValidName()** (5 connections) — `src/data/validators.js`
+- **isValidPhone()** (5 connections) — `src/data/validators.js`
+- **BrandApplyFlow()** (4 connections) — `src/components/BrandApplyFlow.jsx`
+- **hasSession()** (4 connections) — `src/data/auth.js`
+- **GST_TREATMENT_OPTIONS** (4 connections) — `src/data/loginCode.js`
+- **switchToViewerSession()** (4 connections) — `src/data/session.js`
+- **isValidGstin()** (4 connections) — `src/data/validators.js`
+- **isValidPincode()** (4 connections) — `src/data/validators.js`
 - *... and 18 more nodes in this community*
 
 ## Relationships
 
-- [[Mobile Responsive UI Skill]] (35 shared connections)
-- [[Community 36]] (22 shared connections)
-- [[Community 75]] (16 shared connections)
-- [[Community 53]] (11 shared connections)
-- [[Community 111]] (8 shared connections)
-- [[Community 114]] (8 shared connections)
-- [[Community 91]] (3 shared connections)
-- [[Community 152]] (2 shared connections)
-- [[Community 199]] (1 shared connections)
+- [[Community 39]] (48 shared connections)
+- [[Product Brand & Business Vision]] (31 shared connections)
+- [[Community 91]] (14 shared connections)
+- [[Graphify Agent Rules]] (11 shared connections)
+- [[Community 99]] (3 shared connections)
+- [[Community 77]] (2 shared connections)
 
 ## Source Files
 
-- `backend/scripts/migrate-content.js`
-- `backend/scripts/test-storage.js`
-- `backend/src/config/env.js`
-- `backend/src/db/migrate.js`
-- `backend/src/db/pool.js`
-- `backend/src/jobs/catalogSync.js`
-- `backend/src/jobs/crmPoll.js`
-- `backend/src/jobs/index.js`
-- `backend/src/routes/auth.js`
-- `backend/src/routes/dealers.js`
-- `backend/src/routes/health.js`
-- `backend/src/routes/webhooks.js`
-- `backend/src/server.js`
-- `backend/src/services/dealerApp.js`
-- `backend/src/utils/logger.js`
-- `backend/test/crmSync.test.mjs`
+- `src/components/BrandApplyFlow.jsx`
+- `src/data/auth.js`
+- `src/data/dealer.js`
+- `src/data/loginCode.js`
+- `src/data/session.js`
+- `src/data/validators.js`
+- `src/pages/DealerApply.jsx`
+- `src/pages/Login.jsx`
+- `src/pages/StaffJoin.jsx`
 
 ## Audit Trail
 
-- EXTRACTED: 262 (100%)
+- EXTRACTED: 309 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

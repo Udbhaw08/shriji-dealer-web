@@ -22,7 +22,17 @@ import { env } from '../config/env.js';
 
 export const dealersRouter = Router();
 
-const strictLimit = rateLimit({ windowMs: 60_000, max: () => env.authStrictRateLimitMax || 30, prefix: 'dealer_strict' });
+const strictLimit = rateLimit({
+  windowMs: 60_000,
+  max: () => env.authStrictRateLimitMax || 120,
+  prefix: 'dealer_strict',
+  keyFn: (req) => {
+    const target = req.body?.phone || req.body?.email || req.body?.flowId || req.body?.flow_id;
+    if (target) return `target:${String(target).trim().toLowerCase()}`;
+    return `ip:${getClientIp(req)}`;
+  },
+  message: 'Too many verification attempts. Please wait a moment before trying again.',
+});
 const otpRequestLimit = rateLimit({
   windowMs: () => env.otpRateLimitWindowMs || (3 * 60_000),
   max: () => env.otpRateLimitMax || 20,

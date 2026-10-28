@@ -1,56 +1,55 @@
 # Pricing Hierarchy & Zero-Leakage Spec
 
-> 49 nodes · cohesion 0.10
+> 49 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **ff()** (26 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **Tu()** (18 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **gl()** (15 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **fi()** (13 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **uu()** (13 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **delete()** (11 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **lu()** (11 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **vu()** (11 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **zl()** (10 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **hl()** (9 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **Iu()** (9 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **ku()** (9 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **mu()** (9 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **ui()** (9 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **wl()** (9 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **jd()** (8 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **Sp()** (8 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **bl()** (7 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **cu()** (7 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **Eu()** (7 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **hc()** (7 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **wa()** (7 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **yl()** (7 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **fu()** (6 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **ju()** (6 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- **it()** (20 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **k()** (19 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **st()** (16 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **A()** (13 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **ft()** (13 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **co()** (12 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **Dn()** (12 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **ut()** (11 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **jt()** (10 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **so()** (10 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **ct()** (9 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **nt()** (9 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **ve()** (9 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **kf()** (8 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **P()** (8 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **xt()** (8 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **dt()** (7 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **fa()** (7 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **Gt()** (7 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **jn()** (7 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **ot()** (7 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **ro()** (7 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **rt()** (7 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **tn()** (7 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **Ae()** (6 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
 - *... and 24 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (52 shared connections)
-- [[Product Pages Specification]] (23 shared connections)
-- [[Community 47]] (7 shared connections)
-- [[Community 58]] (6 shared connections)
-- [[Live Pricing Audit Tool]] (6 shared connections)
-- [[Community 48]] (5 shared connections)
-- [[Community 51]] (4 shared connections)
-- [[Community 45]] (4 shared connections)
-- [[Community 40]] (3 shared connections)
-- [[Community 103]] (3 shared connections)
+- [[Price Presentation & Product UI]] (59 shared connections)
+- [[Oxlint Linter Configuration]] (17 shared connections)
+- [[Community 60]] (17 shared connections)
+- [[Product Pages Specification]] (16 shared connections)
+- [[Community 42]] (10 shared connections)
+- [[Community 54]] (10 shared connections)
+- [[Client Products Data Store]] (8 shared connections)
+- [[Graphify Knowledge Graph Skill]] (6 shared connections)
+- [[Community 152]] (5 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-D-WrdUrA.js`
+- `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
 
 ## Audit Trail
 
-- EXTRACTED: 337 (100%)
+- EXTRACTED: 354 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
