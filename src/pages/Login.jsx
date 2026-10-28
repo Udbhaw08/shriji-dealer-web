@@ -14,6 +14,7 @@ import {
 import { formatLoginCode } from "../data/loginCode";
 import { isValidEmail, isValidName, isValidPhone } from "../data/validators";
 import { Icon } from "../ui";
+import OtpDispatchFeedback from "../components/OtpDispatchFeedback";
 
 const RESEND_COOLDOWN_SECONDS = 30;
 
@@ -1002,13 +1003,22 @@ export default function Login() {
                                 </div>
                               </div>
 
+                              <OtpDispatchFeedback loading={loading} channel="whatsapp" destination={phone} />
+
                               <button
                                 type="submit"
                                 disabled={!isPhoneValid || loading}
                                 className="btn btn-navy btn-block"
                                 style={{ height: 48, fontSize: "0.95rem", fontWeight: 700 }}
                               >
-                                {loading ? "Sending Code..." : "Send WhatsApp OTP"}
+                                {loading ? (
+                                  <>
+                                    <span className="otp-btn-spinner" aria-hidden="true" />
+                                    <span>Sending WhatsApp OTP...</span>
+                                  </>
+                                ) : (
+                                  "Send WhatsApp OTP"
+                                )}
                               </button>
                             </form>
                           ) : (

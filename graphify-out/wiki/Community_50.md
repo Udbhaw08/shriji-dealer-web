@@ -1,65 +1,47 @@
 # Community 50
 
-> 30 nodes · cohesion 0.14
+> 29 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **pool.js** (34 connections) — `backend/src/db/pool.js`
-- **env.js** (17 connections) — `backend/src/config/env.js`
-- **catalog.js** (16 connections) — `backend/src/services/catalog.js`
-- **env** (14 connections) — `backend/src/config/env.js`
-- **webhooks.js** (14 connections) — `backend/src/routes/webhooks.js`
-- **logger.js** (14 connections) — `backend/src/utils/logger.js`
-- **crmPoll.js** (13 connections) — `backend/src/jobs/crmPoll.js`
-- **log** (13 connections) — `backend/src/utils/logger.js`
-- **index.js** (11 connections) — `backend/src/jobs/index.js`
-- **catalogSync.js** (9 connections) — `backend/src/jobs/catalogSync.js`
-- **syncCatalog()** (7 connections) — `backend/src/services/catalog.js`
-- **crmPoll()** (5 connections) — `backend/src/jobs/crmPoll.js`
-- **catalogFor()** (4 connections) — `backend/src/services/catalog.js`
-- **loadCatalog()** (4 connections) — `backend/src/services/catalog.js`
-- **catalogSync()** (3 connections) — `backend/src/jobs/catalogSync.js`
-- **tokenCleanup()** (3 connections) — `backend/src/jobs/catalogSync.js`
-- **markPollRun()** (3 connections) — `backend/src/jobs/crmPoll.js`
-- **migrate-content.js** (3 connections) — `backend/scripts/migrate-content.js`
-- **test-storage.js** (3 connections) — `backend/scripts/test-storage.js`
-- **priceView()** (3 connections) — `backend/src/services/catalog.js`
-- **priceGate.test.mjs** (3 connections) — `backend/test/priceGate.test.mjs`
-- **bool()** (1 connections) — `backend/src/config/env.js`
-- **__dirname** (1 connections) — `backend/src/config/env.js`
-- **num()** (1 connections) — `backend/src/config/env.js`
-- **createSafeSql()** (1 connections) — `backend/src/db/pool.js`
-- *... and 5 more nodes in this community*
+- **Live Activities** (8 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
+- **Anatomy** (6 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
+- **Best practices** (6 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
+- **Presentation** (6 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
+- **Specifications** (5 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
+- **live-activities.md** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
+- **Adding transitions and animating content updates** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
+- **CarPlay** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
+- **CarPlay dimensions** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
+- **Choosing colors** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
+- **Compact** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
+- **Compact presentation** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
+- **Creating Live Activity layouts** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
+- **Expanded** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
+- **Expanded presentation** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
+- **iOS dimensions** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
+- **iPadOS dimensions** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
+- **Lock Screen** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
+- **Lock Screen presentation** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
+- **macOS dimensions** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
+- **Minimal** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
+- **Minimal presentation** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
+- *... and 4 more nodes in this community*
 
 ## Relationships
 
-- [[Zoho API Diagnostic Script]] (30 shared connections)
-- [[Oxlint Linter Configuration]] (17 shared connections)
-- [[Community 38]] (16 shared connections)
-- [[Community 135]] (8 shared connections)
-- [[Community 110]] (6 shared connections)
-- [[Community 143]] (5 shared connections)
-- [[Community 150]] (2 shared connections)
-- [[Community 88]] (2 shared connections)
-- [[Community 186]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `backend/scripts/migrate-content.js`
-- `backend/scripts/test-storage.js`
-- `backend/src/config/env.js`
-- `backend/src/db/pool.js`
-- `backend/src/jobs/catalogSync.js`
-- `backend/src/jobs/crmPoll.js`
-- `backend/src/jobs/index.js`
-- `backend/src/routes/webhooks.js`
-- `backend/src/services/catalog.js`
-- `backend/src/utils/logger.js`
-- `backend/test/priceGate.test.mjs`
+- `.agents/skills/apple-design/references/hig/live-activities.md`
 
 ## Audit Trail
 
-- EXTRACTED: 205 (100%)
+- EXTRACTED: 56 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

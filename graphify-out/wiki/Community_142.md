@@ -1,34 +1,41 @@
 # Community 142
 
-> 13 nodes · cohesion 0.15
+> 13 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **Toolbars** (9 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
-- **Platform considerations** (4 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
-- **toolbars.md** (1 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
-- **Actions** (1 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
-- **Item groupings** (1 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
-- **Navigation** (1 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
-- **Phone (iOS)** (1 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
-- **Tablet (iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
-- **Titles** (1 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
+- **wc()** (10 connections) — `android/app/src/main/assets/public/assets/index-CHuADt1b.js`
+- **co()** (8 connections) — `android/app/src/main/assets/public/assets/index-CHuADt1b.js`
+- **dh()** (6 connections) — `android/app/src/main/assets/public/assets/index-CHuADt1b.js`
+- **so()** (6 connections) — `android/app/src/main/assets/public/assets/index-CHuADt1b.js`
+- **xc()** (6 connections) — `android/app/src/main/assets/public/assets/index-CHuADt1b.js`
+- **Cc()** (5 connections) — `android/app/src/main/assets/public/assets/index-CHuADt1b.js`
+- **df()** (5 connections) — `android/app/src/main/assets/public/assets/index-CHuADt1b.js`
+- **Wd()** (5 connections) — `android/app/src/main/assets/public/assets/index-CHuADt1b.js`
+- **pf()** (4 connections) — `android/app/src/main/assets/public/assets/index-CHuADt1b.js`
+- **Sc()** (4 connections) — `android/app/src/main/assets/public/assets/index-CHuADt1b.js`
+- **da()** (3 connections) — `android/app/src/main/assets/public/assets/index-CHuADt1b.js`
+- **xi()** (3 connections) — `android/app/src/main/assets/public/assets/index-CHuADt1b.js`
+- **componentDidCatch()** (2 connections) — `android/app/src/main/assets/public/assets/index-CHuADt1b.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Price Presentation & Product UI]] (13 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (8 shared connections)
+- [[Live Pricing Audit Tool]] (5 shared connections)
+- [[Product Requirements Documentation]] (5 shared connections)
+- [[Community 46]] (3 shared connections)
+- [[Community 54]] (2 shared connections)
+- [[Master Codebase Architecture Reference]] (2 shared connections)
+- [[Graphify Knowledge Graph Skill]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/toolbars.md`
+- `android/app/src/main/assets/public/assets/index-CHuADt1b.js`
 
 ## Audit Trail
 
-- EXTRACTED: 24 (100%)
+- EXTRACTED: 67 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -4,25 +4,27 @@
 
 ## Key Concepts
 
-- **MetricsTracker** (4 connections) — `backend/src/services/metrics.js`
-- **metrics.js** (2 connections) — `backend/src/services/metrics.js`
-- **metrics** (1 connections) — `backend/src/services/metrics.js`
-- **.constructor()** (1 connections) — `backend/src/services/metrics.js`
-- **.getSnapshot()** (1 connections) — `backend/src/services/metrics.js`
-- **.track()** (1 connections) — `backend/src/services/metrics.js`
+- **main()** (7 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **pruneStaleFiles()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **uniqueBySlug()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **generatedFiles()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **mapWithConcurrency()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **parseArgs()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 74]] (6 shared connections)
+- [[Community 241]] (2 shared connections)
+- [[Community 249]] (1 shared connections)
 
 ## Source Files
 
-- `backend/src/services/metrics.js`
+- `.agents/skills/apple-design/scripts/pull-hig.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 18 (95%)
+- INFERRED: 1 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

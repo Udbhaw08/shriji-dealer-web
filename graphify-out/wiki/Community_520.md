@@ -4,20 +4,20 @@
 
 ## Key Concepts
 
-- **step** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **securityHeaders.js** (1 connections) — `backend/src/middleware/securityHeaders.js`
+- **securityHeaders()** (1 connections) — `backend/src/middleware/securityHeaders.js`
 
 ## Relationships
 
-- [[Graphify Workflow]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/lifecycle.schema.json`
+- `backend/src/middleware/securityHeaders.js`
 
 ## Audit Trail
 
-- EXTRACTED: 3 (100%)
+- EXTRACTED: 2 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

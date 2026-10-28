@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **storage.js** (2 connections) — `src/utils/storage.js`
-- **memoryStore** (1 connections) — `src/utils/storage.js`
-- **safeStorage** (1 connections) — `src/utils/storage.js`
+- **Automated Testing & Quality Assurance Strategy** (2 connections) — `docs/testing/testing-strategy.md`
+- **testing-strategy.md** (1 connections) — `docs/testing/testing-strategy.md`
+- **Testing Layers** (1 connections) — `docs/testing/testing-strategy.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `src/utils/storage.js`
+- `docs/testing/testing-strategy.md`
 
 ## Audit Trail
 

@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **ReSTOR / Shriji Dealer Web Changelog** (2 connections) — `docs/CHANGELOG.md`
-- **CHANGELOG.md** (1 connections) — `docs/CHANGELOG.md`
-- **2026-10-25** (1 connections) — `docs/CHANGELOG.md`
+- **Multi-Tenant Dealer Schema** (2 connections) — `docs/architecture/multi-tenant-dealer-schema.md`
+- **multi-tenant-dealer-schema.md** (1 connections) — `docs/architecture/multi-tenant-dealer-schema.md`
+- **Workspace Isolation** (1 connections) — `docs/architecture/multi-tenant-dealer-schema.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/CHANGELOG.md`
+- `docs/architecture/multi-tenant-dealer-schema.md`
 
 ## Audit Trail
 

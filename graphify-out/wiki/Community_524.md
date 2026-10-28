@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **healthService.js** (1 connections) — `backend/src/services/healthService.js`
-- **getSystemHealth()** (1 connections) — `backend/src/services/healthService.js`
+- **localization.md** (1 connections) — `.agents/skills/swiftui-pro/references/localization.md`
+- **Localization** (1 connections) — `.agents/skills/swiftui-pro/references/localization.md`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `backend/src/services/healthService.js`
+- `.agents/skills/swiftui-pro/references/localization.md`
 
 ## Audit Trail
 

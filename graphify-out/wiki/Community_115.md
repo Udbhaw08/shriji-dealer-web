@@ -1,39 +1,45 @@
 # Community 115
 
-> 16 nodes · cohesion 0.12
+> 16 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **properties** (8 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **meta** (5 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **nodes** (4 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **flows** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **cards** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **diagram_type** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **schema_version** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **const** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **required** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **minItems** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **const** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **errorHandler.js** (9 connections) — `backend/src/middleware/errorHandler.js`
+- **rateLimit.js** (9 connections) — `backend/src/middleware/rateLimit.js`
+- **securityPhase3.test.mjs** (9 connections) — `backend/test/securityPhase3.test.mjs`
+- **admin.js** (8 connections) — `backend/src/routes/admin.js`
+- **rateLimit()** (7 connections) — `backend/src/middleware/rateLimit.js`
+- **rateLimitFix.test.mjs** (4 connections) — `backend/test/rateLimitFix.test.mjs`
+- **errorHandler()** (3 connections) — `backend/src/middleware/errorHandler.js`
+- **getClientIp()** (3 connections) — `backend/src/middleware/rateLimit.js`
+- **adminRouter** (3 connections) — `backend/src/routes/admin.js`
+- **buckets** (1 connections) — `backend/src/middleware/rateLimit.js`
+- **loginRateLimit** (1 connections) — `backend/src/routes/admin.js`
+- **json()** (1 connections) — `backend/test/rateLimitFix.test.mjs`
+- **status()** (1 connections) — `backend/test/rateLimitFix.test.mjs`
+- **atomicRotate()** (1 connections) — `backend/test/securityPhase3.test.mjs`
+- **json()** (1 connections) — `backend/test/securityPhase3.test.mjs`
+- **status()** (1 connections) — `backend/test/securityPhase3.test.mjs`
 
 ## Relationships
 
-- [[Community 199]] (3 shared connections)
-- [[Community 319]] (1 shared connections)
-- [[Community 67]] (1 shared connections)
+- [[Client Products Data Store]] (8 shared connections)
+- [[Pricing Regression Test Suite]] (6 shared connections)
+- [[Vercel Deployment Routing]] (6 shared connections)
+- [[Community 72]] (2 shared connections)
+- [[Community 94]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/dataflow.schema.json`
+- `backend/src/middleware/errorHandler.js`
+- `backend/src/middleware/rateLimit.js`
+- `backend/src/routes/admin.js`
+- `backend/test/rateLimitFix.test.mjs`
+- `backend/test/securityPhase3.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 35 (100%)
+- EXTRACTED: 62 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

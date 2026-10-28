@@ -1,23 +1,23 @@
 # Community 127
 
-> 14 nodes · cohesion 0.14
+> 14 nodes · cohesion 0.23
 
 ## Key Concepts
 
-- **Augmented reality** (13 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
-- **augmented-reality.md** (1 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
-- **Communicating with people** (1 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
-- **Designing object interactions** (1 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
-- **Handling interruptions** (1 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
-- **Helping people place objects** (1 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
-- **Icons and badges** (1 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
-- **Offering a multiuser experience** (1 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
-- **Providing coaching** (1 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
-- **Reacting to real-world objects** (1 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
-- **Suggesting problem resolutions** (1 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
+- **web-s9YJ-EFk.js** (13 connections) — `android/app/src/main/assets/public/assets/web-s9YJ-EFk.js`
+- **applyPrefix()** (4 connections) — `android/app/src/main/assets/public/assets/web-s9YJ-EFk.js`
+- **keys()** (4 connections) — `android/app/src/main/assets/public/assets/web-s9YJ-EFk.js`
+- **get()** (3 connections) — `android/app/src/main/assets/public/assets/web-s9YJ-EFk.js`
+- **migrate()** (3 connections) — `android/app/src/main/assets/public/assets/web-s9YJ-EFk.js`
+- **rawKeys()** (3 connections) — `android/app/src/main/assets/public/assets/web-s9YJ-EFk.js`
+- **clear()** (2 connections) — `android/app/src/main/assets/public/assets/web-s9YJ-EFk.js`
+- **remove()** (2 connections) — `android/app/src/main/assets/public/assets/web-s9YJ-EFk.js`
+- **removeOld()** (2 connections) — `android/app/src/main/assets/public/assets/web-s9YJ-EFk.js`
+- **set()** (2 connections) — `android/app/src/main/assets/public/assets/web-s9YJ-EFk.js`
+- **configure()** (1 connections) — `android/app/src/main/assets/public/assets/web-s9YJ-EFk.js`
+- **constructor()** (1 connections) — `android/app/src/main/assets/public/assets/web-s9YJ-EFk.js`
+- **impl()** (1 connections) — `android/app/src/main/assets/public/assets/web-s9YJ-EFk.js`
+- **prefix()** (1 connections) — `android/app/src/main/assets/public/assets/web-s9YJ-EFk.js`
 
 ## Relationships
 
@@ -25,11 +25,11 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/augmented-reality.md`
+- `android/app/src/main/assets/public/assets/web-s9YJ-EFk.js`
 
 ## Audit Trail
 
-- EXTRACTED: 26 (100%)
+- EXTRACTED: 42 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,54 +1,50 @@
 # Community 36
 
-> 39 nodes · cohesion 0.09
+> 39 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **kr()** (22 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **gf()** (19 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **jr()** (11 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **af()** (9 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **gn()** (7 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **pn()** (7 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **Sr()** (7 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **un()** (7 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **E()** (5 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **fr()** (5 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **Ir()** (5 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **qf()** (5 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **Sn()** (5 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **vr()** (5 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **wr()** (5 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **xn()** (5 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **Er()** (4 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **Gt()** (4 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **hr()** (4 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **kt()** (4 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **Lr()** (4 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **mr()** (4 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **pc()** (4 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **pf()** (4 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **Rr()** (4 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
+- **scenarios.mjs** (15 connections) — `.agents/skills/archify/recipes/scenarios.mjs`
+- **FakeElement** (12 connections) — `.agents/skills/archify/test/start-page.test.mjs`
+- **gallery.test.mjs** (9 connections) — `.agents/skills/archify/test/gallery.test.mjs`
+- **start-page.test.mjs** (8 connections) — `.agents/skills/archify/test/start-page.test.mjs`
+- **guide.test.mjs** (6 connections) — `.agents/skills/archify/test/guide.test.mjs`
+- **recommendScenario()** (4 connections) — `.agents/skills/archify/recipes/scenarios.mjs`
+- **SCENARIO_RECIPES** (4 connections) — `.agents/skills/archify/recipes/scenarios.mjs`
+- **detectGuideLanguage()** (3 connections) — `.agents/skills/archify/recipes/scenarios.mjs`
+- **listScenarioRecipes()** (3 connections) — `.agents/skills/archify/recipes/scenarios.mjs`
+- **formatScenarioList()** (2 connections) — `.agents/skills/archify/recipes/scenarios.mjs`
+- **localized()** (2 connections) — `.agents/skills/archify/recipes/scenarios.mjs`
+- **normalized()** (2 connections) — `.agents/skills/archify/recipes/scenarios.mjs`
+- **publicGuideData()** (2 connections) — `.agents/skills/archify/recipes/scenarios.mjs`
+- **scoreRecipe()** (2 connections) — `.agents/skills/archify/recipes/scenarios.mjs`
+- **startPromptsFor()** (2 connections) — `.agents/skills/archify/recipes/scenarios.mjs`
+- **formatScenarioRecommendation()** (1 connections) — `.agents/skills/archify/recipes/scenarios.mjs`
+- **RAW_RECIPES** (1 connections) — `.agents/skills/archify/recipes/scenarios.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/gallery.test.mjs`
+- **generatedRoot** (1 connections) — `.agents/skills/archify/test/gallery.test.mjs`
+- **normalize()** (1 connections) — `.agents/skills/archify/test/gallery.test.mjs`
+- **repoRoot** (1 connections) — `.agents/skills/archify/test/gallery.test.mjs`
+- **sha256()** (1 connections) — `.agents/skills/archify/test/gallery.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/gallery.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/gallery.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/start-page.test.mjs`
 - *... and 14 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (44 shared connections)
-- [[Design System & UI Tokens]] (10 shared connections)
-- [[Mobile Responsive UI Skill]] (9 shared connections)
-- [[Product Pages Specification]] (9 shared connections)
-- [[Community 76]] (3 shared connections)
-- [[Community 165]] (2 shared connections)
-- [[Pricing & Roles Skill]] (1 shared connections)
-- [[Community 30]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
+- `.agents/skills/archify/recipes/scenarios.mjs`
+- `.agents/skills/archify/test/gallery.test.mjs`
+- `.agents/skills/archify/test/guide.test.mjs`
+- `.agents/skills/archify/test/start-page.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 205 (100%)
+- EXTRACTED: 100 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

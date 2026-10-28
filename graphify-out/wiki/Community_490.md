@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **OWASP Top 10 Security Checklist** (2 connections) — `docs/testing/security-penetration-testing-notes.md`
-- **security-penetration-testing-notes.md** (1 connections) — `docs/testing/security-penetration-testing-notes.md`
-- **Verified Protections** (1 connections) — `docs/testing/security-penetration-testing-notes.md`
+- **JWT Refresh Token Rotation Policy** (2 connections) — `docs/security/jwt-rotation-policy.md`
+- **jwt-rotation-policy.md** (1 connections) — `docs/security/jwt-rotation-policy.md`
+- **Rotation Rules** (1 connections) — `docs/security/jwt-rotation-policy.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/testing/security-penetration-testing-notes.md`
+- `docs/security/jwt-rotation-policy.md`
 
 ## Audit Trail
 

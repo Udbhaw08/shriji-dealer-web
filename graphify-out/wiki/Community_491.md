@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **Automated Testing & Quality Assurance Strategy** (2 connections) — `docs/testing/testing-strategy.md`
-- **testing-strategy.md** (1 connections) — `docs/testing/testing-strategy.md`
-- **Testing Layers** (1 connections) — `docs/testing/testing-strategy.md`
+- **Payment Data Isolation & Compliance Notes** (2 connections) — `docs/security/pci-dss-compliance-notes.md`
+- **pci-dss-compliance-notes.md** (1 connections) — `docs/security/pci-dss-compliance-notes.md`
+- **Architecture** (1 connections) — `docs/security/pci-dss-compliance-notes.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/testing/testing-strategy.md`
+- `docs/security/pci-dss-compliance-notes.md`
 
 ## Audit Trail
 

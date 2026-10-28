@@ -26,14 +26,13 @@
 
 ## Relationships
 
-- [[Zoho API Diagnostic Script]] (9 shared connections)
-- [[Community 150]] (8 shared connections)
-- [[Community 186]] (3 shared connections)
-- [[Oxlint Linter Configuration]] (3 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (2 shared connections)
-- [[Community 50]] (2 shared connections)
-- [[Community 143]] (2 shared connections)
-- [[Community 125]] (1 shared connections)
+- [[Vercel Deployment Routing]] (11 shared connections)
+- [[Community 190]] (8 shared connections)
+- [[Community 189]] (3 shared connections)
+- [[Client Products Data Store]] (3 shared connections)
+- [[Mobile Responsive UI Skill]] (2 shared connections)
+- [[Community 89]] (2 shared connections)
+- [[Community 94]] (1 shared connections)
 
 ## Source Files
 

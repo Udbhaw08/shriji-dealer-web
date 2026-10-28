@@ -4,22 +4,21 @@
 
 ## Key Concepts
 
-- **guidedViews** (4 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **maxItems** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **Brand marks** (2 connections) — `.agents/skills/archify/references/brand-marks.md`
+- **brand-marks.md** (1 connections) — `.agents/skills/archify/references/brand-marks.md`
+- **Agent decision path** (1 connections) — `.agents/skills/archify/references/brand-marks.md`
 
 ## Relationships
 
-- [[Community 79]] (1 shared connections)
-- [[Community 237]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/common.schema.json`
+- `.agents/skills/archify/references/brand-marks.md`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

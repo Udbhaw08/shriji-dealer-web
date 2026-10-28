@@ -1,32 +1,33 @@
 # Community 181
 
-> 11 nodes · cohesion 0.18
+> 11 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **multiAuth.test.mjs** (8 connections) — `backend/test/multiAuth.test.mjs`
-- **MockOAuth2Client** (3 connections) — `backend/test/multiAuth.test.mjs`
-- **app** (1 connections) — `backend/test/multiAuth.test.mjs`
-- **db** (1 connections) — `backend/test/multiAuth.test.mjs`
-- **.constructor()** (1 connections) — `backend/test/multiAuth.test.mjs`
-- **.verifyIdToken()** (1 connections) — `backend/test/multiAuth.test.mjs`
-- **mockSql()** (1 connections) — `backend/test/multiAuth.test.mjs`
-- **resetDb()** (1 connections) — `backend/test/multiAuth.test.mjs`
-- **startServer()** (1 connections) — `backend/test/multiAuth.test.mjs`
-- **stopServer()** (1 connections) — `backend/test/multiAuth.test.mjs`
-- **testEnv** (1 connections) — `backend/test/multiAuth.test.mjs`
+- **items** (5 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **nodes** (4 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **additionalProperties** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **required** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **type** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **flows** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **minItems** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Zoho API Diagnostic Script]] (3 shared connections)
+- [[Community 125]] (3 shared connections)
 
 ## Source Files
 
-- `backend/test/multiAuth.test.mjs`
+- `.agents/skills/archify/schemas/dataflow.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
+- EXTRACTED: 34 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

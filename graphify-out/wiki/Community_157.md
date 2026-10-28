@@ -4,18 +4,18 @@
 
 ## Key Concepts
 
-- **Menus** (10 connections) — `.agents/skills/apple-design/references/hig/menus.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/menus.md`
-- **menus.md** (1 connections) — `.agents/skills/apple-design/references/hig/menus.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/menus.md`
-- **Icons** (1 connections) — `.agents/skills/apple-design/references/hig/menus.md`
-- **In-game menus** (1 connections) — `.agents/skills/apple-design/references/hig/menus.md`
-- **Labels** (1 connections) — `.agents/skills/apple-design/references/hig/menus.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/menus.md`
-- **Organization** (1 connections) — `.agents/skills/apple-design/references/hig/menus.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/menus.md`
-- **Submenus** (1 connections) — `.agents/skills/apple-design/references/hig/menus.md`
-- **Toggled items** (1 connections) — `.agents/skills/apple-design/references/hig/menus.md`
+- **Generative AI** (11 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
+- **generative-ai.md** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
+- **Continuous improvement** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
+- **Inputs** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
+- **Models and datasets** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
+- **Outputs** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
+- **Privacy** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
+- **Transparency** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
 
 ## Relationships
 
@@ -23,7 +23,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/menus.md`
+- `.agents/skills/apple-design/references/hig/generative-ai.md`
 
 ## Audit Trail
 

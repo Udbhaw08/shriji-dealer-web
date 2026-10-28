@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **accessibility.md** (1 connections) — `.agents/skills/swiftui-pro/references/accessibility.md`
-- **Accessibility** (1 connections) — `.agents/skills/swiftui-pro/references/accessibility.md`
+- **NetworkStatusBadge.jsx** (1 connections) — `src/components/NetworkStatusBadge.jsx`
+- **NetworkStatusBadge()** (1 connections) — `src/components/NetworkStatusBadge.jsx`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `.agents/skills/swiftui-pro/references/accessibility.md`
+- `src/components/NetworkStatusBadge.jsx`
 
 ## Audit Trail
 

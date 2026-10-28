@@ -1,32 +1,34 @@
 # Community 180
 
-> 11 nodes · cohesion 0.20
+> 11 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **degraded.test.mjs** (10 connections) — `.agents/skills/archify/test/degraded.test.mjs`
-- **assertFriendlyFailure()** (2 connections) — `.agents/skills/archify/test/degraded.test.mjs`
-- **render()** (2 connections) — `.agents/skills/archify/test/degraded.test.mjs`
-- **ARRAY_FIELDS** (1 connections) — `.agents/skills/archify/test/degraded.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/degraded.test.mjs`
-- **EXAMPLES** (1 connections) — `.agents/skills/archify/test/degraded.test.mjs`
-- **filter()** (1 connections) — `.agents/skills/archify/test/degraded.test.mjs`
-- **installedRoot** (1 connections) — `.agents/skills/archify/test/degraded.test.mjs`
-- **mulberry32()** (1 connections) — `.agents/skills/archify/test/degraded.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/degraded.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/degraded.test.mjs`
+- **properties** (9 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **note** (3 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **title** (3 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **dot** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **id** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **maxLength** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **minLength** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 238]] (3 shared connections)
+- [[Community 396]] (1 shared connections)
+- [[Community 179]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/degraded.test.mjs`
+- `.agents/skills/archify/schemas/common.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (100%)
+- EXTRACTED: 25 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

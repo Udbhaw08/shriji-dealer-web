@@ -1,41 +1,54 @@
 # Community 94
 
-> 19 nodes · cohesion 0.11
+> 19 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **workflow.schema.json** (8 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **semanticRelation** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **$defs** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **from** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **to** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **properties** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **side** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **$id** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **required** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **$schema** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **required** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **enum** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **title** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **compatibilitySuite.test.mjs** (20 connections) — `backend/test/compatibilitySuite.test.mjs`
+- **fetchZohoProducts()** (14 connections) — `api/_lib/zoho.js`
+- **securityPhase2.test.mjs** (11 connections) — `backend/test/securityPhase2.test.mjs`
+- **dealerPricingAuth.js** (9 connections) — `api/_lib/dealerPricingAuth.js`
+- **getDealerPricingEligibility()** (8 connections) — `api/_lib/dealerPricingAuth.js`
+- **index.js** (8 connections) — `api/products/index.js`
+- **fetchAllRawZohoProducts()** (6 connections) — `api/_lib/zoho.js`
+- **fetchZohoCategories()** (6 connections) — `api/_lib/zoho.js`
+- **[id].js** (6 connections) — `api/products/[id].js`
+- **handler()** (6 connections) — `api/products/index.js`
+- **maskCatalogPricing()** (5 connections) — `api/_lib/dealerPricingAuth.js`
+- **maskProductPricing()** (5 connections) — `api/_lib/dealerPricingAuth.js`
+- **getCategoryVisibilityMap()** (5 connections) — `api/_lib/zoho.js`
+- **readProductsDiskCache()** (5 connections) — `api/_lib/zoho.js`
+- **handler()** (4 connections) — `api/products/[id].js`
+- **writeProductsDiskCache()** (2 connections) — `api/_lib/zoho.js`
+- **json()** (1 connections) — `backend/test/compatibilitySuite.test.mjs`
+- **status()** (1 connections) — `backend/test/compatibilitySuite.test.mjs`
+- **mockWebhookAuthCheck()** (1 connections) — `backend/test/securityPhase2.test.mjs`
 
 ## Relationships
 
-- [[Community 29]] (2 shared connections)
-- [[Community 108]] (1 shared connections)
+- [[Mobile Responsive UI Skill]] (17 shared connections)
+- [[Client Products Data Store]] (8 shared connections)
+- [[Community 190]] (8 shared connections)
+- [[Vercel Deployment Routing]] (3 shared connections)
+- [[Community 89]] (3 shared connections)
+- [[Community 148]] (2 shared connections)
+- [[Community 189]] (2 shared connections)
+- [[Community 115]] (2 shared connections)
+- [[Community 411]] (1 shared connections)
+- [[Community 88]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/workflow.schema.json`
+- `api/_lib/dealerPricingAuth.js`
+- `api/_lib/zoho.js`
+- `api/products/[id].js`
+- `api/products/index.js`
+- `backend/test/compatibilitySuite.test.mjs`
+- `backend/test/securityPhase2.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 39 (100%)
+- EXTRACTED: 123 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

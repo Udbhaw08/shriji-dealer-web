@@ -4,18 +4,18 @@
 
 ## Key Concepts
 
-- **Privacy** (8 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
-- **Requesting permission** (3 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
-- **privacy.md** (1 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
-- **Location button** (1 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
-- **Pre-alert screens, windows, or views** (1 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
-- **Protecting data** (1 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
-- **Tracking requests** (1 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
+- **Menus** (10 connections) — `.agents/skills/apple-design/references/hig/menus.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/menus.md`
+- **menus.md** (1 connections) — `.agents/skills/apple-design/references/hig/menus.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/menus.md`
+- **Icons** (1 connections) — `.agents/skills/apple-design/references/hig/menus.md`
+- **In-game menus** (1 connections) — `.agents/skills/apple-design/references/hig/menus.md`
+- **Labels** (1 connections) — `.agents/skills/apple-design/references/hig/menus.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/menus.md`
+- **Organization** (1 connections) — `.agents/skills/apple-design/references/hig/menus.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/menus.md`
+- **Submenus** (1 connections) — `.agents/skills/apple-design/references/hig/menus.md`
+- **Toggled items** (1 connections) — `.agents/skills/apple-design/references/hig/menus.md`
 
 ## Relationships
 
@@ -23,7 +23,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/privacy.md`
+- `.agents/skills/apple-design/references/hig/menus.md`
 
 ## Audit Trail
 

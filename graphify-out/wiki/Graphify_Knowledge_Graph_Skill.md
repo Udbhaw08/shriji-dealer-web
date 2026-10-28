@@ -1,49 +1,54 @@
 # Graphify Knowledge Graph Skill
 
-> 50 nodes · cohesion 0.07
+> 49 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **check-render-output.mjs** (57 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **parseAttrs()** (7 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **collectArrows()** (6 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **numberAttr()** (6 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **collectCompositionFrames()** (5 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **collectLegendBoxes()** (5 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **lineSegments()** (5 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **collectDesktopReadability()** (4 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **collectNonFiniteAttrs()** (4 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **pathSegments()** (4 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **straightPathSegments()** (4 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **textBox()** (4 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **projectedNodeTextPx()** (4 connections) — `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
-- **attrEntries()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **collectLegendCollisions()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **collectRelationshipLabelMasks()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **crossProduct()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **isCommand()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **pointsFromPath()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **properSegmentIntersection()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **segmentIntersectsBox()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **segmentsIntersect()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **stripTags()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **collectRelationshipCrossings()** (2 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- **decodeNumericReferences()** (2 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
-- *... and 25 more nodes in this community*
+- **Or()** (22 connections) — `android/app/src/main/assets/public/assets/index-CHuADt1b.js`
+- **gf()** (20 connections) — `android/app/src/main/assets/public/assets/index-CHuADt1b.js`
+- **r()** (13 connections) — `android/app/src/main/assets/public/assets/index-CHuADt1b.js`
+- **bi()** (11 connections) — `android/app/src/main/assets/public/assets/index-CHuADt1b.js`
+- **Ti()** (10 connections) — `android/app/src/main/assets/public/assets/index-CHuADt1b.js`
+- **Ar()** (9 connections) — `android/app/src/main/assets/public/assets/index-CHuADt1b.js`
+- **ri()** (9 connections) — `android/app/src/main/assets/public/assets/index-CHuADt1b.js`
+- **hr()** (8 connections) — `android/app/src/main/assets/public/assets/index-CHuADt1b.js`
+- **ki()** (8 connections) — `android/app/src/main/assets/public/assets/index-CHuADt1b.js`
+- **Si()** (8 connections) — `android/app/src/main/assets/public/assets/index-CHuADt1b.js`
+- **Ai()** (7 connections) — `android/app/src/main/assets/public/assets/index-CHuADt1b.js`
+- **qr()** (7 connections) — `android/app/src/main/assets/public/assets/index-CHuADt1b.js`
+- **Fr()** (6 connections) — `android/app/src/main/assets/public/assets/index-CHuADt1b.js`
+- **Mi()** (6 connections) — `android/app/src/main/assets/public/assets/index-CHuADt1b.js`
+- **mr()** (6 connections) — `android/app/src/main/assets/public/assets/index-CHuADt1b.js`
+- **qc()** (6 connections) — `android/app/src/main/assets/public/assets/index-CHuADt1b.js`
+- **xr()** (6 connections) — `android/app/src/main/assets/public/assets/index-CHuADt1b.js`
+- **bn()** (5 connections) — `android/app/src/main/assets/public/assets/index-CHuADt1b.js`
+- **gr()** (5 connections) — `android/app/src/main/assets/public/assets/index-CHuADt1b.js`
+- **Ir()** (5 connections) — `android/app/src/main/assets/public/assets/index-CHuADt1b.js`
+- **jr()** (5 connections) — `android/app/src/main/assets/public/assets/index-CHuADt1b.js`
+- **Oi()** (5 connections) — `android/app/src/main/assets/public/assets/index-CHuADt1b.js`
+- **pr()** (5 connections) — `android/app/src/main/assets/public/assets/index-CHuADt1b.js`
+- **qf()** (5 connections) — `android/app/src/main/assets/public/assets/index-CHuADt1b.js`
+- **sm()** (5 connections) — `android/app/src/main/assets/public/assets/index-CHuADt1b.js`
+- *... and 24 more nodes in this community*
 
 ## Relationships
 
-- [[Product Requirements Documentation]] (6 shared connections)
-- [[Community 49]] (4 shared connections)
+- [[Price Presentation & Product UI]] (52 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (18 shared connections)
+- [[Community 46]] (10 shared connections)
+- [[Master Codebase Architecture Reference]] (9 shared connections)
+- [[Product Requirements Documentation]] (8 shared connections)
+- [[Community 54]] (8 shared connections)
+- [[Live Pricing Audit Tool]] (4 shared connections)
+- [[Community 142]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
-- `.agents/skills/archify/scripts/check-render-output.mjs`
+- `android/app/src/main/assets/public/assets/index-CHuADt1b.js`
 
 ## Audit Trail
 
-- EXTRACTED: 182 (100%)
+- EXTRACTED: 286 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

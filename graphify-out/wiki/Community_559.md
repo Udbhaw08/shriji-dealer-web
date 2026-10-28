@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **build_wiki.py** (0 connections) — `scripts/build_wiki.py`
+- **cordova.variables.gradle** (0 connections) — `android/capacitor-cordova-android-plugins/cordova.variables.gradle`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `scripts/build_wiki.py`
+- `android/capacitor-cordova-android-plugins/cordova.variables.gradle`
 
 ## Audit Trail
 

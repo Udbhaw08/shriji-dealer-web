@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **Designing for iOS** (2 connections) — `.agents/skills/apple-design/references/hig/designing-for-ios.md`
-- **designing-for-ios.md** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-ios.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-ios.md`
+- **Dealer Onboarding & Approval Lifecycle** (2 connections) — `docs/guides/dealer-onboarding-flow.md`
+- **dealer-onboarding-flow.md** (1 connections) — `docs/guides/dealer-onboarding-flow.md`
+- **Lifecycle States** (1 connections) — `docs/guides/dealer-onboarding-flow.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/designing-for-ios.md`
+- `docs/guides/dealer-onboarding-flow.md`
 
 ## Audit Trail
 

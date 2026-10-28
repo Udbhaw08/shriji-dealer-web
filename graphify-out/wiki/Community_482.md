@@ -4,21 +4,21 @@
 
 ## Key Concepts
 
-- **JWT Refresh Token Rotation Policy** (2 connections) — `docs/security/jwt-rotation-policy.md`
-- **jwt-rotation-policy.md** (1 connections) — `docs/security/jwt-rotation-policy.md`
-- **Rotation Rules** (1 connections) — `docs/security/jwt-rotation-policy.md`
+- **label** (3 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **minLength** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 80]] (1 shared connections)
 
 ## Source Files
 
-- `docs/security/jwt-rotation-policy.md`
+- `.agents/skills/archify/schemas/sequence.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 5 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

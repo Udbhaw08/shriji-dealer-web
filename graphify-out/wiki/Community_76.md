@@ -1,51 +1,43 @@
 # Community 76
 
-> 22 nodes · cohesion 0.16
+> 22 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **zd()** (16 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **qd()** (12 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **Ii()** (11 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **Nd()** (11 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **wc()** (11 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **Gd()** (8 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **nt()** (8 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **Bd()** (6 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **df()** (6 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **Rd()** (6 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **vi()** (6 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **xc()** (6 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **Cc()** (5 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **mf()** (4 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **Sc()** (4 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **Zo()** (4 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **Hd()** (3 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **Ud()** (3 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **componentDidCatch()** (2 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **Fd()** (2 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **Ja()** (2 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **uo()** (2 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
+- **Session Work Record — Dealer Code Hierarchy & CRM Integration (2026-10-11)** (7 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
+- **3.2 Frontend Portal & Dashboard (`src/`)** (4 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
+- **3. Detailed Changes by File** (4 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
+- **6. Phone-First Auth, WhatsApp & SMS OTP Services, 10k Scalability & Google OAuth** (4 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
+- **3.1 Backend Service (`backend/`)** (3 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
+- **3.3 Documentation (`docs/`)** (3 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
+- **2. Multi-Tier Entity Hierarchy & Two-Stage Approval** (2 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
+- **WORK-DONE-SESSION-2026-10-11.md** (1 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
+- **1. Executive Summary & Problem Statement** (1 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
+- **4. Testing & Verification** (1 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
+- **5. Verification Checklist for Production** (1 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
+- **6.1 Scalability Assessment (10,000+ Users)** (1 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
+- **6.2 Phone Number & WhatsApp OTP Delivery Services** (1 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
+- **6.3 Unified Authentication Features** (1 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
+- **[backend/src/routes/auth.js](file:///c:/Users/udbha/Desktop/Webstore/backend/src/routes/auth.js)** (1 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
+- **[backend/src/services/staff.js](file:///c:/Users/udbha/Desktop/Webstore/backend/src/services/staff.js)** (1 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
+- **[docs/BACKEND-ARCHITECTURE.md](file:///c:/Users/udbha/Desktop/Webstore/docs/BACKEND-ARCHITECTURE.md) *(Updated)*** (1 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
+- **[docs/DEALER-HIERARCHY-AND-WORKFLOW.md](file:///c:/Users/udbha/Desktop/Webstore/docs/DEALER-HIERARCHY-AND-WORKFLOW.md) *(New)*** (1 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
+- **[src/data/auth.js](file:///c:/Users/udbha/Desktop/Webstore/src/data/auth.js)** (1 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
+- **[src/pages/DealerDashboard.jsx](file:///c:/Users/udbha/Desktop/Webstore/src/pages/DealerDashboard.jsx)** (1 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
+- **[src/pages/Login.jsx](file:///c:/Users/udbha/Desktop/Webstore/src/pages/Login.jsx)** (1 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
+- **Two-Stage Approval Matrix:** (1 connections) — `docs/WORK-DONE-SESSION-2026-10-11.md`
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (25 shared connections)
-- [[Product Pages Specification]] (10 shared connections)
-- [[Mobile Responsive UI Skill]] (9 shared connections)
-- [[Community 30]] (6 shared connections)
-- [[Pricing & Roles Skill]] (5 shared connections)
-- [[Community 72]] (5 shared connections)
-- [[Community 36]] (3 shared connections)
-- [[Community 165]] (2 shared connections)
-- [[Design System & UI Tokens]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
+- `docs/WORK-DONE-SESSION-2026-10-11.md`
 
 ## Audit Trail
 
-- EXTRACTED: 138 (100%)
+- EXTRACTED: 42 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

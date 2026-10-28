@@ -1,70 +1,64 @@
 # Oxlint Linter Configuration
 
-> 45 nodes · cohesion 0.07
+> 45 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **server.js** (39 connections) — `backend/src/server.js`
-- **auth.js** (12 connections) — `backend/src/middleware/auth.js`
-- **upload.js** (11 connections) — `backend/src/routes/upload.js`
-- **errorHandler.js** (9 connections) — `backend/src/middleware/errorHandler.js`
-- **rateLimit.js** (9 connections) — `backend/src/middleware/rateLimit.js`
-- **securityPhase3.test.mjs** (9 connections) — `backend/test/securityPhase3.test.mjs`
-- **admin.js** (8 connections) — `backend/src/routes/admin.js`
-- **health.js** (8 connections) — `backend/src/routes/health.js`
-- **rateLimit()** (7 connections) — `backend/src/middleware/rateLimit.js`
-- **migrate.js** (6 connections) — `backend/src/db/migrate.js`
-- **prices.js** (6 connections) — `backend/src/routes/prices.js`
-- **jwtAuth()** (5 connections) — `backend/src/middleware/auth.js`
-- **requireAdmin()** (5 connections) — `backend/src/middleware/auth.js`
-- **migrate()** (4 connections) — `backend/src/db/migrate.js`
-- **uploadRouter** (4 connections) — `backend/src/routes/upload.js`
-- **rateLimitFix.test.mjs** (4 connections) — `backend/test/rateLimitFix.test.mjs`
-- **applied()** (3 connections) — `backend/src/db/migrate.js`
-- **startJobs()** (3 connections) — `backend/src/jobs/index.js`
-- **errorHandler()** (3 connections) — `backend/src/middleware/errorHandler.js`
-- **getClientIp()** (3 connections) — `backend/src/middleware/rateLimit.js`
-- **adminRouter** (3 connections) — `backend/src/routes/admin.js`
-- **start()** (3 connections) — `backend/src/server.js`
-- **authRouter** (2 connections) — `backend/src/routes/auth.js`
-- **dealersRouter** (2 connections) — `backend/src/routes/dealers.js`
-- **healthRouter** (2 connections) — `backend/src/routes/health.js`
+- **Product.jsx** (36 connections) — `src/pages/Product.jsx`
+- **useLanguage()** (31 connections) — `src/data/i18n.js`
+- **dealer.js** (29 connections) — `src/data/dealer.js`
+- **Favorites.jsx** (20 connections) — `src/pages/Favorites.jsx`
+- **ProductCard.jsx** (19 connections) — `src/components/ProductCard.jsx`
+- **isDealer()** (18 connections) — `src/data/dealer.js`
+- **dealer.test.mjs** (18 connections) — `src/data/dealer.test.mjs`
+- **t()** (18 connections) — `src/data/i18n.js`
+- **PriceBlock.jsx** (15 connections) — `src/components/PriceBlock.jsx`
+- **ProductCard()** (15 connections) — `src/components/ProductCard.jsx`
+- **Product()** (15 connections) — `src/pages/Product.jsx`
+- **priceFor()** (14 connections) — `src/data/dealer.js`
+- **useFavorites()** (13 connections) — `src/data/favoritesStore.js`
+- **dealerById()** (12 connections) — `src/data/dealer.js`
+- **inr()** (12 connections) — `src/data/dealer.js`
+- **Favorites()** (9 connections) — `src/pages/Favorites.jsx`
+- **Products()** (9 connections) — `src/pages/Products.jsx`
+- **Header()** (9 connections) — `src/ui.jsx`
+- **viewerFor()** (8 connections) — `src/data/dealer.js`
+- **CustomerPrice()** (7 connections) — `src/components/PriceBlock.jsx`
+- **productSlug()** (7 connections) — `src/data/dealer.js`
+- **registerDealer()** (7 connections) — `src/data/dealer.js`
+- **shareLink()** (7 connections) — `src/data/dealer.js`
+- **Login()** (7 connections) — `src/pages/Login.jsx`
+- **tagFor()** (6 connections) — `src/data/dealer.js`
 - *... and 20 more nodes in this community*
 
 ## Relationships
 
-- [[Community 50]] (17 shared connections)
-- [[Zoho API Diagnostic Script]] (17 shared connections)
-- [[Community 38]] (10 shared connections)
-- [[Community 143]] (7 shared connections)
-- [[Community 88]] (3 shared connections)
-- [[Community 135]] (2 shared connections)
-- [[Community 110]] (2 shared connections)
-- [[Community 125]] (2 shared connections)
-- [[Client Products Data Store]] (2 shared connections)
+- [[Product Pages Specification]] (75 shared connections)
+- [[Community 55]] (28 shared connections)
+- [[Project Readme & Layout]] (16 shared connections)
+- [[Community 168]] (5 shared connections)
+- [[Community 99]] (5 shared connections)
+- [[Community 109]] (3 shared connections)
 
 ## Source Files
 
-- `backend/src/db/migrate.js`
-- `backend/src/jobs/index.js`
-- `backend/src/middleware/auth.js`
-- `backend/src/middleware/errorHandler.js`
-- `backend/src/middleware/rateLimit.js`
-- `backend/src/routes/admin.js`
-- `backend/src/routes/auth.js`
-- `backend/src/routes/dealers.js`
-- `backend/src/routes/health.js`
-- `backend/src/routes/prices.js`
-- `backend/src/routes/upload.js`
-- `backend/src/routes/webhooks.js`
-- `backend/src/server.js`
-- `backend/test/rateLimitFix.test.mjs`
-- `backend/test/securityPhase3.test.mjs`
+- `src/components/PriceBlock.jsx`
+- `src/components/ProductCard.jsx`
+- `src/data/dealer.js`
+- `src/data/dealer.test.mjs`
+- `src/data/favoritesStore.js`
+- `src/data/i18n.js`
+- `src/pages/Favorites.jsx`
+- `src/pages/Login.jsx`
+- `src/pages/Product.jsx`
+- `src/pages/Products.jsx`
+- `src/pages/Schemes.jsx`
+- `src/ui.jsx`
 
 ## Audit Trail
 
-- EXTRACTED: 192 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 409 (100%)
+- INFERRED: 1 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

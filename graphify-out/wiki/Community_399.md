@@ -1,25 +1,27 @@
 # Community 399
 
-> 4 nodes · cohesion 0.50
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **Shriji Dealer Web — Agent Guidelines** (3 connections) — `AGENTS.md`
-- **AGENTS.md** (1 connections) — `AGENTS.md`
-- **Hard Rules** (1 connections) — `AGENTS.md`
-- **Specialized Skills Available** (1 connections) — `AGENTS.md`
+- **sync-supabase-content.js** (6 connections) — `backend/scripts/sync-supabase-content.js`
+- **syncAll()** (2 connections) — `backend/scripts/sync-supabase-content.js`
+- **__dirname** (1 connections) — `backend/scripts/sync-supabase-content.js`
+- **IMAGES** (1 connections) — `backend/scripts/sync-supabase-content.js`
+- **PROJECT_ROOT** (1 connections) — `backend/scripts/sync-supabase-content.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Vercel Deployment Routing]] (2 shared connections)
+- [[Client Products Data Store]] (1 shared connections)
 
 ## Source Files
 
-- `AGENTS.md`
+- `backend/scripts/sync-supabase-content.js`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 11 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

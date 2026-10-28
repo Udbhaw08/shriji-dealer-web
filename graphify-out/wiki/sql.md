@@ -1,8 +1,8 @@
 # sql
 
-> God node · 76 connections · `backend/src/db/pool.js`
+> God node · 79 connections · `backend/src/db/pool.js`
 
-**Community:** [[Zoho API Diagnostic Script]]
+**Community:** [[Vercel Deployment Routing]]
 
 ## Connections by Relation
 
@@ -22,11 +22,11 @@
 - [[crmPoll()]] `EXTRACTED`
 - [[jwtAuth()]] `EXTRACTED`
 - [[requireAdmin()]] `EXTRACTED`
+- [[runReset()]] `EXTRACTED`
 - [[saveHeroSliderSettings()]] `EXTRACTED`
 - [[applyCrmContactState()]] `EXTRACTED`
 - [[handler()]] `EXTRACTED`
 - [[resolveUserWithDealer()]] `EXTRACTED`
-- [[loadCatalog()]] `EXTRACTED`
 
 ### contains
 - [[pool.js]] `EXTRACTED`
@@ -46,12 +46,12 @@
 - [[crmPoll.js]] `EXTRACTED`
 - [[auth.js]] `EXTRACTED`
 - [[upload.js]] `EXTRACTED`
+- [[reset-test-users.js]] `EXTRACTED`
 - [[upload.js]] `EXTRACTED`
 - [[catalogSync.js]] `EXTRACTED`
 - [[dealerPricingAuth.js]] `EXTRACTED`
 - [[health.js]] `EXTRACTED`
 - [[uploads.js]] `EXTRACTED`
-- [[audit.js]] `EXTRACTED`
 
 ---
 

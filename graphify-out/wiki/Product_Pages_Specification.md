@@ -1,56 +1,73 @@
 # Product Pages Specification
 
-> 64 nodes · cohesion 0.07
+> 65 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **yc()** (20 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **ic()** (16 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **Md()** (15 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **s()** (15 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **nc()** (13 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **xi()** (13 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **gc()** (12 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **pa()** (12 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **nl()** (11 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **Ei()** (10 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **Oi()** (10 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **Ai()** (9 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **Ci()** (9 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **co()** (9 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **hh()** (9 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **kd()** (9 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **Si()** (9 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **yh()** (9 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **c()** (8 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **gr()** (8 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **gs()** (8 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **kc()** (8 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **ec()** (7 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **ha()** (7 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **mh()** (7 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- *... and 39 more nodes in this community*
+- **main.jsx** (50 connections) — `src/main.jsx`
+- **ui.jsx** (45 connections) — `src/ui.jsx`
+- **useSession()** (38 connections) — `src/data/session.js`
+- **Home.jsx** (26 connections) — `src/pages/Home.jsx`
+- **site.js** (24 connections) — `src/data/site.js`
+- **Icon()** (20 connections) — `src/ui.jsx`
+- **Schemes.jsx** (17 connections) — `src/pages/Schemes.jsx`
+- **MobileBottomNav.jsx** (16 connections) — `src/components/MobileBottomNav.jsx`
+- **COMPANY** (16 connections) — `src/data/site.js`
+- **Support.jsx** (16 connections) — `src/pages/Support.jsx`
+- **isPortalGated()** (14 connections) — `src/data/portalGate.js`
+- **HeroSlider.jsx** (12 connections) — `src/components/HeroSlider.jsx`
+- **ContentAdminDashboard.jsx** (12 connections) — `src/pages/ContentAdminDashboard.jsx`
+- **MobileBottomNav()** (8 connections) — `src/components/MobileBottomNav.jsx`
+- **UnderMaintenance.jsx** (8 connections) — `src/components/UnderMaintenance.jsx`
+- **portalGate.js** (8 connections) — `src/data/portalGate.js`
+- **Home()** (8 connections) — `src/pages/Home.jsx`
+- **DealerPending.jsx** (6 connections) — `src/pages/DealerPending.jsx`
+- **Footer()** (6 connections) — `src/ui.jsx`
+- **video.js** (6 connections) — `src/utils/video.js`
+- **UnderMaintenance()** (5 connections) — `src/components/UnderMaintenance.jsx`
+- **LegalPrivacy.jsx** (5 connections) — `src/pages/LegalPrivacy.jsx`
+- **LegalTerms.jsx** (5 connections) — `src/pages/LegalTerms.jsx`
+- **PrivacyPolicy.jsx** (5 connections) — `src/pages/PrivacyPolicy.jsx`
+- **Support()** (5 connections) — `src/pages/Support.jsx`
+- *... and 40 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (87 shared connections)
-- [[Community 30]] (26 shared connections)
-- [[Mobile Responsive UI Skill]] (22 shared connections)
-- [[Design System & UI Tokens]] (12 shared connections)
-- [[Community 76]] (10 shared connections)
-- [[Community 36]] (9 shared connections)
-- [[Pricing & Roles Skill]] (7 shared connections)
-- [[Community 72]] (2 shared connections)
-- [[Community 165]] (1 shared connections)
+- [[Oxlint Linter Configuration]] (75 shared connections)
+- [[Project Readme & Layout]] (33 shared connections)
+- [[Community 55]] (16 shared connections)
+- [[Community 99]] (11 shared connections)
+- [[Community 33]] (5 shared connections)
+- [[Community 168]] (2 shared connections)
+- [[Community 400]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
+- `src/components/EmailVerificationPrompt.jsx`
+- `src/components/FileOrUrlInput.jsx`
+- `src/components/HeroSlider.jsx`
+- `src/components/MobileBottomNav.jsx`
+- `src/components/NativeBackHandler.jsx`
+- `src/components/UnderMaintenance.jsx`
+- `src/data/portalGate.js`
+- `src/data/session.js`
+- `src/data/site.js`
+- `src/data/video-banner.test.mjs`
+- `src/main.jsx`
+- `src/pages/ContentAdminDashboard.jsx`
+- `src/pages/DealerApply.jsx`
+- `src/pages/DealerDashboard.jsx`
+- `src/pages/DealerPending.jsx`
+- `src/pages/Home.jsx`
+- `src/pages/LegalPrivacy.jsx`
+- `src/pages/LegalTerms.jsx`
+- `src/pages/PrivacyPolicy.jsx`
+- `src/pages/Schemes.jsx`
 
 ## Audit Trail
 
-- EXTRACTED: 440 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 468 (100%)
+- INFERRED: 1 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

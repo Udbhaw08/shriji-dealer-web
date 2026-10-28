@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **Designing for macOS** (2 connections) — `.agents/skills/apple-design/references/hig/designing-for-macos.md`
-- **designing-for-macos.md** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-macos.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-macos.md`
+- **GSTIN Verification Flow** (2 connections) — `docs/guides/gstin-verification-flow.md`
+- **gstin-verification-flow.md** (1 connections) — `docs/guides/gstin-verification-flow.md`
+- **State Code Resolution** (1 connections) — `docs/guides/gstin-verification-flow.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/designing-for-macos.md`
+- `docs/guides/gstin-verification-flow.md`
 
 ## Audit Trail
 

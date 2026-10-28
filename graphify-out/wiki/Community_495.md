@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **maskSensitiveData.js** (2 connections) — `backend/src/utils/maskSensitiveData.js`
-- **maskEmail()** (1 connections) — `backend/src/utils/maskSensitiveData.js`
-- **maskPhoneNumber()** (1 connections) — `backend/src/utils/maskSensitiveData.js`
+- **repository-language-metadata.test.mjs** (2 connections) — `.agents/skills/archify/test/repository-language-metadata.test.mjs`
+- **linguistGenerated()** (1 connections) — `.agents/skills/archify/test/repository-language-metadata.test.mjs`
+- **repoRoot** (1 connections) — `.agents/skills/archify/test/repository-language-metadata.test.mjs`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `backend/src/utils/maskSensitiveData.js`
+- `.agents/skills/archify/test/repository-language-metadata.test.mjs`
 
 ## Audit Trail
 

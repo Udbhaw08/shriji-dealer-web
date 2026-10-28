@@ -1,54 +1,55 @@
 # Architecture Doc Generator
 
-> 51 nodes · cohesion 0.08
+> 52 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **ff()** (27 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
-- **gl()** (15 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
-- **pi()** (13 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
-- **uu()** (13 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
-- **delete()** (11 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
-- **lu()** (11 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
-- **vu()** (11 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
-- **di()** (10 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
-- **zl()** (10 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
-- **hl()** (9 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
-- **Iu()** (9 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
-- **ku()** (9 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
-- **mu()** (9 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
-- **wl()** (9 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
-- **jd()** (8 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
-- **Sp()** (8 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
-- **wa()** (8 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
-- **bl()** (7 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
-- **Eu()** (7 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
-- **hc()** (7 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
-- **yl()** (7 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
-- **cu()** (6 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
-- **fu()** (6 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
-- **ju()** (6 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
-- **kl()** (6 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
-- *... and 26 more nodes in this community*
+- **get()** (27 connections) — `ios/App/App/public/assets/index-CHuADt1b.js`
+- **ff()** (26 connections) — `ios/App/App/public/assets/index-CHuADt1b.js`
+- **Tu()** (18 connections) — `ios/App/App/public/assets/index-CHuADt1b.js`
+- **gl()** (15 connections) — `ios/App/App/public/assets/index-CHuADt1b.js`
+- **fi()** (14 connections) — `ios/App/App/public/assets/index-CHuADt1b.js`
+- **uu()** (13 connections) — `ios/App/App/public/assets/index-CHuADt1b.js`
+- **bm()** (11 connections) — `ios/App/App/public/assets/index-CHuADt1b.js`
+- **lu()** (11 connections) — `ios/App/App/public/assets/index-CHuADt1b.js`
+- **vu()** (11 connections) — `ios/App/App/public/assets/index-CHuADt1b.js`
+- **zl()** (10 connections) — `ios/App/App/public/assets/index-CHuADt1b.js`
+- **hl()** (9 connections) — `ios/App/App/public/assets/index-CHuADt1b.js`
+- **Iu()** (9 connections) — `ios/App/App/public/assets/index-CHuADt1b.js`
+- **ku()** (9 connections) — `ios/App/App/public/assets/index-CHuADt1b.js`
+- **l()** (9 connections) — `ios/App/App/public/assets/index-CHuADt1b.js`
+- **mu()** (9 connections) — `ios/App/App/public/assets/index-CHuADt1b.js`
+- **ui()** (9 connections) — `ios/App/App/public/assets/index-CHuADt1b.js`
+- **wl()** (9 connections) — `ios/App/App/public/assets/index-CHuADt1b.js`
+- **jd()** (8 connections) — `ios/App/App/public/assets/index-CHuADt1b.js`
+- **Sp()** (8 connections) — `ios/App/App/public/assets/index-CHuADt1b.js`
+- **bl()** (7 connections) — `ios/App/App/public/assets/index-CHuADt1b.js`
+- **cu()** (7 connections) — `ios/App/App/public/assets/index-CHuADt1b.js`
+- **Eu()** (7 connections) — `ios/App/App/public/assets/index-CHuADt1b.js`
+- **go()** (7 connections) — `ios/App/App/public/assets/index-CHuADt1b.js`
+- **hc()** (7 connections) — `ios/App/App/public/assets/index-CHuADt1b.js`
+- **yl()** (7 connections) — `ios/App/App/public/assets/index-CHuADt1b.js`
+- *... and 27 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (58 shared connections)
-- [[Live Pricing Audit Tool]] (24 shared connections)
-- [[Pricing Regression Test Suite]] (12 shared connections)
-- [[Community 33]] (9 shared connections)
-- [[Master Codebase Architecture Reference]] (7 shared connections)
+- [[Dealer Auth & Session Management]] (64 shared connections)
+- [[Design System & UI Tokens]] (21 shared connections)
+- [[Product Brand & Business Vision]] (14 shared connections)
+- [[Community 53]] (7 shared connections)
+- [[Graphify Agent Rules]] (7 shared connections)
 - [[Community 60]] (6 shared connections)
-- [[Community 65]] (5 shared connections)
-- [[Community 231]] (2 shared connections)
+- [[Community 41]] (6 shared connections)
+- [[Community 35]] (3 shared connections)
+- [[Community 103]] (3 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-BomkxjsM.js`
+- `ios/App/App/public/assets/index-CHuADt1b.js`
 
 ## Audit Trail
 
-- EXTRACTED: 337 (100%)
+- EXTRACTED: 381 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

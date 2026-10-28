@@ -1,50 +1,55 @@
 # Community 72
 
-> 23 nodes · cohesion 0.16
+> 23 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **fl()** (23 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **me()** (13 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **ml()** (11 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **be()** (9 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **pl()** (9 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **Se()** (9 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **Xd()** (8 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **aa()** (6 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **cl()** (6 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **jo()** (6 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **ua()** (6 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **xo()** (6 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **he()** (5 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **ra()** (5 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **sl()** (5 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **dl()** (4 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **hm()** (4 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **ki()** (3 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **ll()** (3 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **Vd()** (3 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **Ym()** (3 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **ge()** (2 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **vc()** (2 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
+- **dealerApp.js** (44 connections) — `backend/src/services/dealerApp.js`
+- **normalizeEmail()** (18 connections) — `backend/src/utils/validators.js`
+- **notifications.js** (16 connections) — `backend/src/services/notifications.js`
+- **validators.js** (15 connections) — `backend/src/utils/validators.js`
+- **requestDealerRegistrationOtp()** (14 connections) — `backend/src/services/dealerApp.js`
+- **finalizeDealerRegistration()** (12 connections) — `backend/src/services/dealerApp.js`
+- **isValidPhone()** (11 connections) — `backend/src/utils/validators.js`
+- **cleanName()** (9 connections) — `backend/src/utils/validators.js`
+- **httpError()** (8 connections) — `backend/src/middleware/errorHandler.js`
+- **validators.test.mjs** (8 connections) — `backend/test/validators.test.mjs`
+- **verifyDealerRegistrationOtp()** (7 connections) — `backend/src/services/dealerApp.js`
+- **sendWhatsAppOtp()** (7 connections) — `backend/src/services/notifications.js`
+- **isValidEmail()** (7 connections) — `backend/src/utils/validators.js`
+- **isValidName()** (6 connections) — `backend/src/utils/validators.js`
+- **applyCrmContactState()** (5 connections) — `backend/src/services/dealerApp.js`
+- **sendEmailOtp()** (5 connections) — `backend/src/services/notifications.js`
+- **isValidGstin()** (5 connections) — `backend/src/utils/validators.js`
+- **isUserFullyOnboarded()** (4 connections) — `backend/src/routes/auth.js`
+- **acquireContactOtpCooldown()** (3 connections) — `backend/src/services/dealerApp.js`
+- **sendOtpNotification()** (3 connections) — `backend/src/services/notifications.js`
+- **releaseContactOtpCooldown()** (2 connections) — `backend/src/services/dealerApp.js`
+- **crmSync.test.mjs** (2 connections) — `backend/test/crmSync.test.mjs`
+- **isValidPincode()** (2 connections) — `backend/src/utils/validators.js`
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (26 shared connections)
-- [[Mobile Responsive UI Skill]] (14 shared connections)
-- [[Community 30]] (10 shared connections)
-- [[Design System & UI Tokens]] (8 shared connections)
-- [[Pricing & Roles Skill]] (6 shared connections)
-- [[Community 76]] (5 shared connections)
-- [[Product Pages Specification]] (2 shared connections)
+- [[Pricing Regression Test Suite]] (25 shared connections)
+- [[Vercel Deployment Routing]] (24 shared connections)
+- [[Community 51]] (23 shared connections)
+- [[Client Products Data Store]] (11 shared connections)
+- [[Community 115]] (2 shared connections)
+- [[Community 138]] (2 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
+- `backend/src/middleware/errorHandler.js`
+- `backend/src/routes/auth.js`
+- `backend/src/services/dealerApp.js`
+- `backend/src/services/notifications.js`
+- `backend/src/utils/validators.js`
+- `backend/test/crmSync.test.mjs`
+- `backend/test/validators.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 151 (100%)
+- EXTRACTED: 213 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

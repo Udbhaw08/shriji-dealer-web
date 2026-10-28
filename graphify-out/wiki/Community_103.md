@@ -1,44 +1,48 @@
 # Community 103
 
-> 18 nodes · cohesion 0.23
+> 18 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **output-path.mjs** (22 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
-- **resolveOutputPath()** (11 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
-- **futurePathsAlias()** (6 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
-- **pathsAlias()** (6 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
-- **canonicalFuturePath()** (5 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
-- **sameFileIdentity()** (5 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
-- **probeDirectorySemantics()** (4 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
-- **canonicalize()** (3 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
-- **directoryIdentityKey()** (3 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
-- **hasFileIdentity()** (3 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
-- **pathIsInside()** (3 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
-- **probeNamesAlias()** (3 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
-- **sameDirectory()** (3 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
-- **nearestExistingDirectory()** (2 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
-- **OutputPathError** (2 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
-- **splitAbsolute()** (2 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
-- **directorySemanticsCache** (1 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
-- **.constructor()** (1 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **za()** (15 connections) — `ios/App/App/public/assets/index-CHuADt1b.js`
+- **gc()** (11 connections) — `ios/App/App/public/assets/index-CHuADt1b.js`
+- **Ti()** (10 connections) — `ios/App/App/public/assets/index-CHuADt1b.js`
+- **ki()** (8 connections) — `ios/App/App/public/assets/index-CHuADt1b.js`
+- **Ai()** (7 connections) — `ios/App/App/public/assets/index-CHuADt1b.js`
+- **Mi()** (6 connections) — `ios/App/App/public/assets/index-CHuADt1b.js`
+- **ra()** (6 connections) — `ios/App/App/public/assets/index-CHuADt1b.js`
+- **Do()** (5 connections) — `ios/App/App/public/assets/index-CHuADt1b.js`
+- **Gi()** (4 connections) — `ios/App/App/public/assets/index-CHuADt1b.js`
+- **ji()** (4 connections) — `ios/App/App/public/assets/index-CHuADt1b.js`
+- **La()** (4 connections) — `ios/App/App/public/assets/index-CHuADt1b.js`
+- **lt()** (4 connections) — `ios/App/App/public/assets/index-CHuADt1b.js`
+- **Uc()** (4 connections) — `ios/App/App/public/assets/index-CHuADt1b.js`
+- **di()** (3 connections) — `ios/App/App/public/assets/index-CHuADt1b.js`
+- **qn()** (3 connections) — `ios/App/App/public/assets/index-CHuADt1b.js`
+- **to()** (3 connections) — `ios/App/App/public/assets/index-CHuADt1b.js`
+- **eo()** (2 connections) — `ios/App/App/public/assets/index-CHuADt1b.js`
+- **Ni()** (2 connections) — `ios/App/App/public/assets/index-CHuADt1b.js`
 
 ## Relationships
 
-- [[Community 48]] (4 shared connections)
-- [[Zoho Backend & Proxy Endpoints]] (4 shared connections)
-- [[Community 62]] (3 shared connections)
-- [[Community 297]] (2 shared connections)
-- [[Community 208]] (2 shared connections)
+- [[Dealer Auth & Session Management]] (20 shared connections)
+- [[Product Brand & Business Vision]] (7 shared connections)
+- [[Community 35]] (6 shared connections)
+- [[Community 41]] (6 shared connections)
+- [[Graphify Agent Rules]] (5 shared connections)
+- [[Community 53]] (4 shared connections)
+- [[Architecture Doc Generator]] (3 shared connections)
+- [[Design System & UI Tokens]] (3 shared connections)
+- [[Community 60]] (3 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/shared/output-path.mjs`
+- `ios/App/App/public/assets/index-CHuADt1b.js`
 
 ## Audit Trail
 
-- EXTRACTED: 82 (96%)
-- INFERRED: 3 (4%)
+- EXTRACTED: 101 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

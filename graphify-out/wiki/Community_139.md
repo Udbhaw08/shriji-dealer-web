@@ -1,42 +1,35 @@
 # Community 139
 
-> 13 nodes · cohesion 0.22
+> 14 nodes · cohesion 0.30
 
 ## Key Concepts
 
-- **Icon()** (20 connections) — `src/ui.jsx`
-- **ContentAdminDashboard.jsx** (12 connections) — `src/pages/ContentAdminDashboard.jsx`
-- **video.js** (6 connections) — `src/utils/video.js`
-- **parseVideoUrl()** (5 connections) — `src/utils/video.js`
-- **FileOrUrlInput.jsx** (4 connections) — `src/components/FileOrUrlInput.jsx`
-- **video-banner.test.mjs** (3 connections) — `src/data/video-banner.test.mjs`
-- **FileOrUrlInput()** (2 connections) — `src/components/FileOrUrlInput.jsx`
-- **ContentAdminDashboard()** (2 connections) — `src/pages/ContentAdminDashboard.jsx`
-- **getVideoBadgeLabel()** (2 connections) — `src/utils/video.js`
-- **DEFAULT_BANNER_FORM** (1 connections) — `src/pages/ContentAdminDashboard.jsx`
-- **DEFAULT_BRANDING_FORM** (1 connections) — `src/pages/ContentAdminDashboard.jsx`
-- **DEFAULT_SCHEME_FORM** (1 connections) — `src/pages/ContentAdminDashboard.jsx`
-- **QUICK_COLORS** (1 connections) — `src/pages/ContentAdminDashboard.jsx`
+- **architecture-delta-markers.test.mjs** (13 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
+- **assertPreserved()** (6 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
+- **descendants()** (6 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
+- **assertResolved()** (4 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
+- **attr()** (4 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
+- **markerMap()** (4 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
+- **compare()** (3 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
+- **edgePaths()** (3 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
+- **markerId()** (3 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
+- **svgIn()** (3 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
+- **markerShape()** (2 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
+- **variantFixture()** (1 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
+- **variants** (1 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
 
 ## Relationships
 
-- [[Dependencies & Package Config]] (14 shared connections)
-- [[Community 43]] (6 shared connections)
-- [[Agent Guidelines (AGENTS.md)]] (3 shared connections)
-- [[Community 53]] (2 shared connections)
-- [[Community 44]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `src/components/FileOrUrlInput.jsx`
-- `src/data/video-banner.test.mjs`
-- `src/pages/ContentAdminDashboard.jsx`
-- `src/ui.jsx`
-- `src/utils/video.js`
+- `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 60 (100%)
+- EXTRACTED: 54 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

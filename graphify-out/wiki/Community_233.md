@@ -1,35 +1,30 @@
 # Community 233
 
-> 9 nodes · cohesion 0.42
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **fetchZohoProducts()** (14 connections) — `api/_lib/zoho.js`
-- **index.js** (8 connections) — `api/products/index.js`
-- **fetchAllRawZohoProducts()** (6 connections) — `api/_lib/zoho.js`
-- **fetchZohoCategories()** (6 connections) — `api/_lib/zoho.js`
-- **handler()** (6 connections) — `api/products/index.js`
-- **maskCatalogPricing()** (5 connections) — `api/_lib/dealerPricingAuth.js`
-- **getCategoryVisibilityMap()** (5 connections) — `api/_lib/zoho.js`
-- **readProductsDiskCache()** (5 connections) — `api/_lib/zoho.js`
-- **writeProductsDiskCache()** (2 connections) — `api/_lib/zoho.js`
+- **Virtual keyboards** (7 connections) — `.agents/skills/apple-design/references/hig/virtual-keyboards.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/virtual-keyboards.md`
+- **virtual-keyboards.md** (1 connections) — `.agents/skills/apple-design/references/hig/virtual-keyboards.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/virtual-keyboards.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/virtual-keyboards.md`
+- **Custom input views** (1 connections) — `.agents/skills/apple-design/references/hig/virtual-keyboards.md`
+- **Custom keyboards** (1 connections) — `.agents/skills/apple-design/references/hig/virtual-keyboards.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/virtual-keyboards.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/virtual-keyboards.md`
 
 ## Relationships
 
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (15 shared connections)
-- [[Community 143]] (5 shared connections)
-- [[Community 150]] (5 shared connections)
-- [[Community 145]] (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `api/_lib/dealerPricingAuth.js`
-- `api/_lib/zoho.js`
-- `api/products/index.js`
+- `.agents/skills/apple-design/references/hig/virtual-keyboards.md`
 
 ## Audit Trail
 
-- EXTRACTED: 57 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,55 +1,61 @@
 # Pricing Regression Test Suite
 
-> 57 nodes · cohesion 0.07
+> 56 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **at()** (22 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
-- **k()** (20 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
-- **ct()** (15 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
-- **A()** (12 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
-- **pt()** (12 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
-- **dt()** (11 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
-- **mt()** (11 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
-- **ye()** (11 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
-- **ep()** (10 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
-- **no()** (10 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
-- **tf()** (10 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
-- **on()** (9 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
-- **yn()** (9 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
-- **kf()** (8 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
-- **lt()** (8 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
-- **mn()** (8 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
-- **so()** (8 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
-- **st()** (8 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
-- **tt()** (8 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
-- **ef()** (7 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
-- **it()** (7 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
-- **je()** (7 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
-- **lf()** (7 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
-- **nn()** (7 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
-- **rt()** (7 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
-- *... and 32 more nodes in this community*
+- **auth.js** (54 connections) — `backend/src/routes/auth.js`
+- **hash.js** (25 connections) — `backend/src/utils/hash.js`
+- **phase2DealerStaffOnboarding.test.mjs** (17 connections) — `backend/test/phase2DealerStaffOnboarding.test.mjs`
+- **loginCode.js** (17 connections) — `backend/src/utils/loginCode.js`
+- **onboardingVerification.test.mjs** (15 connections) — `backend/test/onboardingVerification.test.mjs`
+- **hashOtp()** (10 connections) — `backend/src/utils/hash.js`
+- **verifyOtpHash()** (10 connections) — `backend/src/utils/hash.js`
+- **hash.test.mjs** (9 connections) — `backend/test/hash.test.mjs`
+- **sha256()** (9 connections) — `backend/src/utils/hash.js`
+- **formatLoginCode()** (8 connections) — `backend/src/utils/loginCode.js`
+- **generateLoginCode()** (8 connections) — `backend/src/utils/loginCode.js`
+- **loginCode.test.mjs** (7 connections) — `backend/test/loginCode.test.mjs`
+- **issueSession()** (5 connections) — `backend/src/routes/auth.js`
+- **generateOtp()** (5 connections) — `backend/src/utils/hash.js`
+- **hashPassword()** (5 connections) — `backend/src/utils/hash.js`
+- **resolveUserWithDealer()** (4 connections) — `backend/src/routes/auth.js`
+- **verifyPassword()** (4 connections) — `backend/src/utils/hash.js`
+- **isValidLoginCode()** (4 connections) — `backend/src/utils/loginCode.js`
+- **parseLoginCode()** (4 connections) — `backend/src/utils/loginCode.js`
+- **findUserByEmail()** (3 connections) — `backend/src/routes/auth.js`
+- **publicUser()** (3 connections) — `backend/src/routes/auth.js`
+- **handleDealerRegistrationFinalize()** (3 connections) — `backend/src/routes/dealers.js`
+- **notify()** (3 connections) — `backend/src/services/notifications.js`
+- **scryptKey()** (3 connections) — `backend/src/utils/hash.js`
+- **USER_CATEGORIES** (3 connections) — `backend/src/utils/loginCode.js`
+- *... and 31 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (64 shared connections)
-- [[Master Codebase Architecture Reference]] (18 shared connections)
-- [[Community 33]] (16 shared connections)
-- [[Live Pricing Audit Tool]] (16 shared connections)
-- [[Community 65]] (13 shared connections)
-- [[Community 32]] (12 shared connections)
-- [[Architecture Doc Generator]] (12 shared connections)
-- [[Community 60]] (11 shared connections)
-- [[Community 231]] (2 shared connections)
+- [[Vercel Deployment Routing]] (25 shared connections)
+- [[Community 72]] (25 shared connections)
+- [[Client Products Data Store]] (7 shared connections)
+- [[Community 115]] (6 shared connections)
+- [[Community 51]] (5 shared connections)
+- [[Community 182]] (4 shared connections)
+- [[Community 138]] (2 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-BomkxjsM.js`
+- `backend/src/routes/auth.js`
+- `backend/src/routes/dealers.js`
+- `backend/src/services/notifications.js`
+- `backend/src/utils/hash.js`
+- `backend/src/utils/loginCode.js`
+- `backend/test/hash.test.mjs`
+- `backend/test/loginCode.test.mjs`
+- `backend/test/onboardingVerification.test.mjs`
+- `backend/test/phase2DealerStaffOnboarding.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 378 (100%)
+- EXTRACTED: 274 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **requestLogger.js** (1 connections) — `backend/src/middleware/requestLogger.js`
-- **requestLogger()** (1 connections) — `backend/src/middleware/requestLogger.js`
+- **Package.swift** (1 connections) — `ios/App/CapApp-SPM/Package.swift`
+- **PackageDescription** (1 connections) — `ios/App/CapApp-SPM/Package.swift`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `backend/src/middleware/requestLogger.js`
+- `ios/App/CapApp-SPM/Package.swift`
 
 ## Audit Trail
 

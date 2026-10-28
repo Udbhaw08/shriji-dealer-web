@@ -4,11 +4,11 @@
 
 ## Key Concepts
 
-- **Column views** (4 connections) — `.agents/skills/apple-design/references/hig/column-views.md`
-- **column-views.md** (1 connections) — `.agents/skills/apple-design/references/hig/column-views.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/column-views.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/column-views.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/column-views.md`
+- **CLAUDE.md — read this before touching anything** (4 connections) — `CLAUDE.md`
+- **CLAUDE.md** (1 connections) — `CLAUDE.md`
+- **Commands** (1 connections) — `CLAUDE.md`
+- **Doc map** (1 connections) — `CLAUDE.md`
+- **Hard rules (these exist to stop hallucination)** (1 connections) — `CLAUDE.md`
 
 ## Relationships
 
@@ -16,7 +16,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/column-views.md`
+- `CLAUDE.md`
 
 ## Audit Trail
 

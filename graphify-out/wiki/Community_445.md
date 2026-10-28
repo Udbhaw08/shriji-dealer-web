@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **Zoho Commerce Inventory Synchronization** (2 connections) — `docs/architecture/zoho-inventory-sync.md`
-- **zoho-inventory-sync.md** (1 connections) — `docs/architecture/zoho-inventory-sync.md`
-- **Strategy** (1 connections) — `docs/architecture/zoho-inventory-sync.md`
+- **Repository Architecture Audit Report** (2 connections) — `docs/architecture/final-audit-report.md`
+- **final-audit-report.md** (1 connections) — `docs/architecture/final-audit-report.md`
+- **Verification Summary** (1 connections) — `docs/architecture/final-audit-report.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/architecture/zoho-inventory-sync.md`
+- `docs/architecture/final-audit-report.md`
 
 ## Audit Trail
 

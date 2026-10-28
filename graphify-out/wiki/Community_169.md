@@ -1,33 +1,36 @@
 # Community 169
 
-> 11 nodes · cohesion 0.18
+> 11 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **Alerts** (8 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
-- **alerts.md** (1 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
-- **Anatomy** (1 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
-- **Buttons** (1 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
-- **Content** (1 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
+- **validateArchitectureDeltaHtml()** (11 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **renderArchitectureDeltaHtml()** (6 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **architectureDeltaChangeRows()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **reviewTargetTags()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **expectedReviewTargetSignature()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **primaryReviewTags()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **reviewIdentity()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **reviewPrimaryStates()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **reviewTargetSignature()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **safeJson()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **total()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 47]] (12 shared connections)
+- [[Pricing & Roles Skill]] (3 shared connections)
+- [[Community 144]] (2 shared connections)
+- [[Community 299]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/alerts.md`
+- `.agents/skills/archify/delta/architecture-delta.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 41 (95%)
+- INFERRED: 2 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

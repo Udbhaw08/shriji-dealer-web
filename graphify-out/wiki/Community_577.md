@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **site-language-integration.mjs** (0 connections) — `.agents/skills/archify/test/site-language-integration.mjs`
+- **errorHandler.test.mjs** (0 connections) — `backend/test/errorHandler.test.mjs`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/site-language-integration.mjs`
+- `backend/test/errorHandler.test.mjs`
 
 ## Audit Trail
 

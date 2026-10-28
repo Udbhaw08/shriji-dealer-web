@@ -4,10 +4,10 @@
 
 ## Key Concepts
 
-- **generate-viewer.test.mjs** (3 connections) — `.agents/skills/archify/test/generate-viewer.test.mjs`
-- **fixture()** (1 connections) — `.agents/skills/archify/test/generate-viewer.test.mjs`
-- **fragments** (1 connections) — `.agents/skills/archify/test/generate-viewer.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/generate-viewer.test.mjs`
+- **sync-all.mjs** (3 connections) — `scripts/sync-all.mjs`
+- **isVercel** (1 connections) — `scripts/sync-all.mjs`
+- **rootDir** (1 connections) — `scripts/sync-all.mjs`
+- **run()** (1 connections) — `scripts/sync-all.mjs`
 
 ## Relationships
 
@@ -15,7 +15,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/generate-viewer.test.mjs`
+- `scripts/sync-all.mjs`
 
 ## Audit Trail
 

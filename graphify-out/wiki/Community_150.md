@@ -1,41 +1,37 @@
 # Community 150
 
-> 12 nodes · cohesion 0.36
+> 13 nodes · cohesion 0.28
 
 ## Key Concepts
 
-- **vite.config.js** (19 connections) — `vite.config.js`
-- **zohoApiPlugin()** (12 connections) — `vite.config.js`
-- **securityPhase2.test.mjs** (11 connections) — `backend/test/securityPhase2.test.mjs`
-- **og.js** (7 connections) — `api/og.js`
-- **htmlEscape.js** (6 connections) — `api/_lib/htmlEscape.js`
-- **escapeHtml()** (6 connections) — `api/_lib/htmlEscape.js`
-- **sanitizeUrl()** (6 connections) — `api/_lib/htmlEscape.js`
-- **handler()** (5 connections) — `api/og.js`
-- **sanitizeHost()** (4 connections) — `api/_lib/htmlEscape.js`
-- **loadContentService()** (2 connections) — `vite.config.js`
-- **mockWebhookAuthCheck()** (1 connections) — `backend/test/securityPhase2.test.mjs`
-- **liveAutoSyncPlugin()** (1 connections) — `vite.config.js`
+- **guided-views-browser.test.mjs** (17 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **run()** (8 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **point()** (4 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **settled()** (4 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **activate()** (3 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **click()** (3 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **hash()** (3 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **load()** (3 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **move()** (3 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **key()** (2 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **snapshot()** (2 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
+- **variant()** (1 connections) — `.agents/skills/archify/test/guided-views-browser.test.mjs`
 
 ## Relationships
 
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (11 shared connections)
-- [[Community 88]] (8 shared connections)
-- [[Community 233]] (5 shared connections)
-- [[Community 143]] (3 shared connections)
-- [[Community 125]] (3 shared connections)
-- [[Community 50]] (2 shared connections)
+- [[Community 52]] (5 shared connections)
+- [[Community 64]] (3 shared connections)
+- [[Community 45]] (1 shared connections)
+- [[Community 128]] (1 shared connections)
 
 ## Source Files
 
-- `api/_lib/htmlEscape.js`
-- `api/og.js`
-- `backend/test/securityPhase2.test.mjs`
-- `vite.config.js`
+- `.agents/skills/archify/test/guided-views-browser.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 80 (100%)
+- EXTRACTED: 54 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

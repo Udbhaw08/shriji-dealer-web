@@ -1,11 +1,12 @@
 # Community 506
 
-> 2 nodes · cohesion 1.00
+> 3 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **NetworkStatusBadge.jsx** (1 connections) — `src/components/NetworkStatusBadge.jsx`
-- **NetworkStatusBadge()** (1 connections) — `src/components/NetworkStatusBadge.jsx`
+- **sanitize.js** (2 connections) — `backend/src/utils/sanitize.js`
+- **sanitizeInput()** (2 connections) — `backend/src/utils/sanitize.js`
+- **sanitizeObject()** (2 connections) — `backend/src/utils/sanitize.js`
 
 ## Relationships
 
@@ -13,11 +14,11 @@
 
 ## Source Files
 
-- `src/components/NetworkStatusBadge.jsx`
+- `backend/src/utils/sanitize.js`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

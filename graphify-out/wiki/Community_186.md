@@ -1,37 +1,32 @@
 # Community 186
 
-> 10 nodes · cohesion 0.31
+> 11 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **upload.js** (9 connections) — `api/upload.js`
-- **verifyAdminAuth()** (9 connections) — `api/_lib/adminAuth.js`
-- **adminAuth.js** (6 connections) — `api/_lib/adminAuth.js`
-- **handler()** (4 connections) — `api/upload.js`
-- **login.js** (3 connections) — `api/admin/login.js`
-- **handler()** (2 connections) — `api/admin/login.js`
-- **validateMagicBytes()** (2 connections) — `api/upload.js`
-- **ALLOWED_EXTENSIONS** (1 connections) — `api/upload.js`
-- **ALLOWED_FOLDERS** (1 connections) — `api/upload.js`
-- **MIME_TYPES** (1 connections) — `api/upload.js`
+- **readme-showcase.test.mjs** (10 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
+- **inspectGif()** (2 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
+- **skipSubBlocks()** (2 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
+- **assetPath** (1 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
+- **git()** (1 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
+- **receiptPath** (1 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
+- **repoRoot** (1 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
+- **sha256()** (1 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
+- **writeStarHistoryCharts()** (1 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
 
 ## Relationships
 
-- [[Community 88]] (3 shared connections)
-- [[Zoho API Diagnostic Script]] (2 shared connections)
-- [[Community 143]] (2 shared connections)
-- [[Community 125]] (2 shared connections)
-- [[Community 50]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `api/_lib/adminAuth.js`
-- `api/admin/login.js`
-- `api/upload.js`
+- `.agents/skills/archify/test/readme-showcase.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 38 (100%)
+- EXTRACTED: 22 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

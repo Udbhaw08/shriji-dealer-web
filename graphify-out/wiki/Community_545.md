@@ -1,10 +1,11 @@
 # Community 545
 
-> 1 nodes · cohesion 1.00
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **capacitor.settings.gradle** (0 connections) — `android/capacitor.settings.gradle`
+- **paginationHelper.js** (1 connections) — `backend/src/utils/paginationHelper.js`
+- **paginate()** (1 connections) — `backend/src/utils/paginationHelper.js`
 
 ## Relationships
 
@@ -12,11 +13,11 @@
 
 ## Source Files
 
-- `android/capacitor.settings.gradle`
+- `backend/src/utils/paginationHelper.js`
 
 ## Audit Trail
 
-- EXTRACTED: 0 (0%)
+- EXTRACTED: 2 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

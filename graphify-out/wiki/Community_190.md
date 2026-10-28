@@ -1,31 +1,37 @@
 # Community 190
 
-> 10 nodes · cohesion 0.20
+> 10 nodes · cohesion 0.42
 
 ## Key Concepts
 
-- **App Shortcuts** (6 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
-- **Best practices** (2 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
-- **app-shortcuts.md** (1 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
-- **Editorial guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
-- **Responding to App Shortcuts** (1 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
+- **vite.config.js** (19 connections) — `vite.config.js`
+- **zohoApiPlugin()** (12 connections) — `vite.config.js`
+- **og.js** (7 connections) — `api/og.js`
+- **htmlEscape.js** (6 connections) — `api/_lib/htmlEscape.js`
+- **escapeHtml()** (6 connections) — `api/_lib/htmlEscape.js`
+- **sanitizeUrl()** (6 connections) — `api/_lib/htmlEscape.js`
+- **handler()** (5 connections) — `api/og.js`
+- **sanitizeHost()** (4 connections) — `api/_lib/htmlEscape.js`
+- **loadContentService()** (2 connections) — `vite.config.js`
+- **liveAutoSyncPlugin()** (1 connections) — `vite.config.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Mobile Responsive UI Skill]] (9 shared connections)
+- [[Community 94]] (8 shared connections)
+- [[Community 88]] (8 shared connections)
+- [[Community 89]] (3 shared connections)
+- [[Community 411]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/app-shortcuts.md`
+- `api/_lib/htmlEscape.js`
+- `api/og.js`
+- `vite.config.js`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (100%)
+- EXTRACTED: 68 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

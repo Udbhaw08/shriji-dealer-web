@@ -1,12 +1,12 @@
 # Community 498
 
-> 3 nodes · cohesion 1.00
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **sanitize.js** (2 connections) — `backend/src/utils/sanitize.js`
-- **sanitizeInput()** (2 connections) — `backend/src/utils/sanitize.js`
-- **sanitizeObject()** (2 connections) — `backend/src/utils/sanitize.js`
+- **OWASP Top 10 Security Checklist** (2 connections) — `docs/testing/security-penetration-testing-notes.md`
+- **security-penetration-testing-notes.md** (1 connections) — `docs/testing/security-penetration-testing-notes.md`
+- **Verified Protections** (1 connections) — `docs/testing/security-penetration-testing-notes.md`
 
 ## Relationships
 
@@ -14,11 +14,11 @@
 
 ## Source Files
 
-- `backend/src/utils/sanitize.js`
+- `docs/testing/security-penetration-testing-notes.md`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

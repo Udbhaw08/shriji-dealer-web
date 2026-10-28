@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **corsPolicy.test.mjs** (0 connections) — `backend/test/corsPolicy.test.mjs`
+- **cordova.js** (0 connections) — `ios/App/App/public/cordova.js`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `backend/test/corsPolicy.test.mjs`
+- `ios/App/App/public/cordova.js`
 
 ## Audit Trail
 

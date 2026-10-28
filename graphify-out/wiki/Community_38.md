@@ -1,62 +1,49 @@
 # Community 38
 
-> 39 nodes · cohesion 0.16
+> 38 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **auth.js** (54 connections) — `backend/src/routes/auth.js`
-- **dealerApp.js** (44 connections) — `backend/src/services/dealerApp.js`
-- **normalizePhone()** (19 connections) — `backend/src/utils/phone.js`
-- **normalizeEmail()** (18 connections) — `backend/src/utils/validators.js`
-- **notifications.js** (16 connections) — `backend/src/services/notifications.js`
-- **validators.js** (15 connections) — `backend/src/utils/validators.js`
-- **requestDealerRegistrationOtp()** (14 connections) — `backend/src/services/dealerApp.js`
-- **finalizeDealerRegistration()** (12 connections) — `backend/src/services/dealerApp.js`
-- **isValidPhone()** (11 connections) — `backend/src/utils/validators.js`
-- **cleanName()** (9 connections) — `backend/src/utils/validators.js`
-- **httpError()** (8 connections) — `backend/src/middleware/errorHandler.js`
-- **validators.test.mjs** (8 connections) — `backend/test/validators.test.mjs`
-- **verifyDealerRegistrationOtp()** (7 connections) — `backend/src/services/dealerApp.js`
-- **sendWhatsAppOtp()** (7 connections) — `backend/src/services/notifications.js`
-- **phone.js** (7 connections) — `backend/src/utils/phone.js`
-- **isValidEmail()** (7 connections) — `backend/src/utils/validators.js`
-- **interconnection.test.mjs** (6 connections) — `backend/test/interconnection.test.mjs`
-- **isValidName()** (6 connections) — `backend/src/utils/validators.js`
-- **issueSession()** (5 connections) — `backend/src/routes/auth.js`
-- **createDealerAccount()** (5 connections) — `backend/src/services/crmClient.js`
-- **applyCrmContactState()** (5 connections) — `backend/src/services/dealerApp.js`
-- **sendEmailOtp()** (5 connections) — `backend/src/services/notifications.js`
-- **generateOtp()** (5 connections) — `backend/src/utils/hash.js`
-- **isValidGstin()** (5 connections) — `backend/src/utils/validators.js`
-- **isUserFullyOnboarded()** (4 connections) — `backend/src/routes/auth.js`
-- *... and 14 more nodes in this community*
+- **update-notifier.test.mjs** (43 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **operationPath()** (5 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **stateDirectory()** (4 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **fixture()** (3 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **remoteReleaseForVersion()** (3 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **runCheckInChild()** (3 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **statePath()** (3 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **writeCompactCommittedState()** (3 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **assertUnsafeCacheStateIsIgnored()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **committedStateFiles()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **compactStateSource()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **localRelease()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **pauseOpenOnce()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **pauseRenameMatchingOnce()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **pauseRenameOnce()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **pauseWriteOnce()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **remoteRelease()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **writeJson()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **writePendingOperation()** (2 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **baseTime** (1 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **cachedStateWithHistory()** (1 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **cachedUpdateState()** (1 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **cancel()** (1 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **candidateStateForDigest()** (1 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- **checkerPath** (1 connections) — `.agents/skills/archify/test/update-notifier.test.mjs`
+- *... and 13 more nodes in this community*
 
 ## Relationships
 
-- [[Zoho API Diagnostic Script]] (35 shared connections)
-- [[Community 110]] (19 shared connections)
-- [[Community 50]] (16 shared connections)
-- [[Client Products Data Store]] (15 shared connections)
-- [[Oxlint Linter Configuration]] (10 shared connections)
-- [[Community 135]] (4 shared connections)
+- [[Community 62]] (3 shared connections)
+- [[Community 113]] (2 shared connections)
+- [[Community 48]] (1 shared connections)
 
 ## Source Files
 
-- `backend/src/middleware/errorHandler.js`
-- `backend/src/routes/auth.js`
-- `backend/src/routes/dealers.js`
-- `backend/src/services/crmClient.js`
-- `backend/src/services/dealerApp.js`
-- `backend/src/services/notifications.js`
-- `backend/src/utils/hash.js`
-- `backend/src/utils/phone.js`
-- `backend/src/utils/validators.js`
-- `backend/test/interconnection.test.mjs`
-- `backend/test/validators.test.mjs`
+- `.agents/skills/archify/test/update-notifier.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 335 (100%)
+- EXTRACTED: 108 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

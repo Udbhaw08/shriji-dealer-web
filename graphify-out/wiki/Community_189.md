@@ -1,31 +1,37 @@
 # Community 189
 
-> 10 nodes · cohesion 0.20
+> 10 nodes · cohesion 0.31
 
 ## Key Concepts
 
-- **AirPlay** (6 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
-- **Using AirPlay icons** (4 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
-- **airplay.md** (1 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
-- **Black AirPlay icon** (1 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
-- **Custom color AirPlay icon** (1 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
-- **Referring to AirPlay** (1 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
-- **White AirPlay icon** (1 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
+- **upload.js** (9 connections) — `api/upload.js`
+- **verifyAdminAuth()** (9 connections) — `api/_lib/adminAuth.js`
+- **adminAuth.js** (6 connections) — `api/_lib/adminAuth.js`
+- **handler()** (4 connections) — `api/upload.js`
+- **login.js** (3 connections) — `api/admin/login.js`
+- **handler()** (2 connections) — `api/admin/login.js`
+- **validateMagicBytes()** (2 connections) — `api/upload.js`
+- **ALLOWED_EXTENSIONS** (1 connections) — `api/upload.js`
+- **ALLOWED_FOLDERS** (1 connections) — `api/upload.js`
+- **MIME_TYPES** (1 connections) — `api/upload.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 88]] (3 shared connections)
+- [[Vercel Deployment Routing]] (2 shared connections)
+- [[Community 94]] (2 shared connections)
+- [[Community 89]] (2 shared connections)
+- [[Client Products Data Store]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/airplay.md`
+- `api/_lib/adminAuth.js`
+- `api/admin/login.js`
+- `api/upload.js`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (100%)
+- EXTRACTED: 38 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

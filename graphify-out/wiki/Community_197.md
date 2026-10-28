@@ -4,16 +4,16 @@
 
 ## Key Concepts
 
-- **Viewer Runtime reference** (6 connections) — `.agents/skills/archify/references/viewer-runtime.md`
-- **Canonical exports** (4 connections) — `.agents/skills/archify/references/viewer-runtime.md`
-- **viewer-runtime.md** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
-- **Exploration** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
-- **Guided views and story** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
-- **Motion and presentation** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
-- **Reach Share Card** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
-- **Route Share Card** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
-- **Share Card** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
-- **Truth boundary** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
+- **Maps** (7 connections) — `.agents/skills/apple-design/references/hig/maps.md`
+- **Place cards** (3 connections) — `.agents/skills/apple-design/references/hig/maps.md`
+- **maps.md** (1 connections) — `.agents/skills/apple-design/references/hig/maps.md`
+- **Adding place cards outside of a map** (1 connections) — `.agents/skills/apple-design/references/hig/maps.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/maps.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/maps.md`
+- **Custom information** (1 connections) — `.agents/skills/apple-design/references/hig/maps.md`
+- **Displaying place cards in a map** (1 connections) — `.agents/skills/apple-design/references/hig/maps.md`
+- **Indoor maps** (1 connections) — `.agents/skills/apple-design/references/hig/maps.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/maps.md`
 
 ## Relationships
 
@@ -21,7 +21,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/references/viewer-runtime.md`
+- `.agents/skills/apple-design/references/hig/maps.md`
 
 ## Audit Trail
 

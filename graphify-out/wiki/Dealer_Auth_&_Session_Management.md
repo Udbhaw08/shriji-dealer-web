@@ -1,55 +1,55 @@
 # Dealer Auth & Session Management
 
-> 107 nodes · cohesion 0.03
+> 103 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **_()** (451 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **n()** (31 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **t()** (19 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **cs()** (7 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **ga()** (7 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **go()** (7 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **O()** (7 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **request()** (7 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **Ka()** (6 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **ma()** (6 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **os()** (6 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **ps()** (6 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **bh()** (5 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **eh()** (5 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **es()** (5 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **Ih()** (5 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **j()** (5 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **js()** (5 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **Pd()** (5 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **th()** (5 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **ts()** (5 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **unavailable()** (5 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **x()** (5 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **De()** (4 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **ds()** (4 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- *... and 82 more nodes in this community*
+- **_()** (449 connections) — `ios/App/App/public/assets/index-CHuADt1b.js`
+- **n()** (33 connections) — `ios/App/App/public/assets/index-CHuADt1b.js`
+- **t()** (22 connections) — `ios/App/App/public/assets/index-CHuADt1b.js`
+- **delete()** (11 connections) — `ios/App/App/public/assets/index-CHuADt1b.js`
+- **cs()** (7 connections) — `ios/App/App/public/assets/index-CHuADt1b.js`
+- **mh()** (7 connections) — `ios/App/App/public/assets/index-CHuADt1b.js`
+- **O()** (7 connections) — `ios/App/App/public/assets/index-CHuADt1b.js`
+- **request()** (7 connections) — `ios/App/App/public/assets/index-CHuADt1b.js`
+- **Ae()** (6 connections) — `ios/App/App/public/assets/index-CHuADt1b.js`
+- **lh()** (6 connections) — `ios/App/App/public/assets/index-CHuADt1b.js`
+- **os()** (6 connections) — `ios/App/App/public/assets/index-CHuADt1b.js`
+- **ps()** (6 connections) — `ios/App/App/public/assets/index-CHuADt1b.js`
+- **ee()** (5 connections) — `ios/App/App/public/assets/index-CHuADt1b.js`
+- **eh()** (5 connections) — `ios/App/App/public/assets/index-CHuADt1b.js`
+- **es()** (5 connections) — `ios/App/App/public/assets/index-CHuADt1b.js`
+- **Ih()** (5 connections) — `ios/App/App/public/assets/index-CHuADt1b.js`
+- **j()** (5 connections) — `ios/App/App/public/assets/index-CHuADt1b.js`
+- **jl()** (5 connections) — `ios/App/App/public/assets/index-CHuADt1b.js`
+- **js()** (5 connections) — `ios/App/App/public/assets/index-CHuADt1b.js`
+- **Pd()** (5 connections) — `ios/App/App/public/assets/index-CHuADt1b.js`
+- **pt()** (5 connections) — `ios/App/App/public/assets/index-CHuADt1b.js`
+- **th()** (5 connections) — `ios/App/App/public/assets/index-CHuADt1b.js`
+- **ts()** (5 connections) — `ios/App/App/public/assets/index-CHuADt1b.js`
+- **unavailable()** (5 connections) — `ios/App/App/public/assets/index-CHuADt1b.js`
+- **x()** (5 connections) — `ios/App/App/public/assets/index-CHuADt1b.js`
+- *... and 78 more nodes in this community*
 
 ## Relationships
 
-- [[Product Pages Specification]] (87 shared connections)
-- [[Design System & UI Tokens]] (61 shared connections)
-- [[Mobile Responsive UI Skill]] (59 shared connections)
-- [[Pricing & Roles Skill]] (56 shared connections)
-- [[Community 30]] (52 shared connections)
-- [[Community 36]] (44 shared connections)
-- [[Community 72]] (26 shared connections)
-- [[Community 76]] (25 shared connections)
-- [[Community 165]] (12 shared connections)
+- [[Design System & UI Tokens]] (73 shared connections)
+- [[Product Brand & Business Vision]] (67 shared connections)
+- [[Architecture Doc Generator]] (64 shared connections)
+- [[Graphify Agent Rules]] (57 shared connections)
+- [[Community 35]] (42 shared connections)
+- [[Community 41]] (40 shared connections)
+- [[Community 53]] (35 shared connections)
+- [[Community 60]] (29 shared connections)
+- [[Community 103]] (20 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
+- `ios/App/App/public/assets/index-CHuADt1b.js`
 
 ## Audit Trail
 
-- EXTRACTED: 813 (100%)
+- EXTRACTED: 810 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

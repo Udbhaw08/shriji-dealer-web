@@ -1,11 +1,12 @@
 # Community 503
 
-> 2 nodes · cohesion 1.00
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **Package.swift** (1 connections) — `ios/App/CapApp-SPM/Package.swift`
-- **PackageDescription** (1 connections) — `ios/App/CapApp-SPM/Package.swift`
+- **maskSensitiveData.js** (2 connections) — `backend/src/utils/maskSensitiveData.js`
+- **maskEmail()** (1 connections) — `backend/src/utils/maskSensitiveData.js`
+- **maskPhoneNumber()** (1 connections) — `backend/src/utils/maskSensitiveData.js`
 
 ## Relationships
 
@@ -13,11 +14,11 @@
 
 ## Source Files
 
-- `ios/App/CapApp-SPM/Package.swift`
+- `backend/src/utils/maskSensitiveData.js`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

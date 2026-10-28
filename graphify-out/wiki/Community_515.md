@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **hygiene.md** (1 connections) — `.agents/skills/swiftui-pro/references/hygiene.md`
-- **Hygiene** (1 connections) — `.agents/skills/swiftui-pro/references/hygiene.md`
+- **SkipToContent.jsx** (1 connections) — `src/components/SkipToContent.jsx`
+- **SkipToContent()** (1 connections) — `src/components/SkipToContent.jsx`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `.agents/skills/swiftui-pro/references/hygiene.md`
+- `src/components/SkipToContent.jsx`
 
 ## Audit Trail
 

@@ -1,15 +1,16 @@
 # Community 341
 
-> 6 nodes · cohesion 0.33
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **ErrorBoundary** (5 connections) — `src/components/ErrorBoundary.jsx`
-- **ErrorBoundary.jsx** (1 connections) — `src/components/ErrorBoundary.jsx`
-- **.componentDidCatch()** (1 connections) — `src/components/ErrorBoundary.jsx`
-- **.constructor()** (1 connections) — `src/components/ErrorBoundary.jsx`
-- **.getDerivedStateFromError()** (1 connections) — `src/components/ErrorBoundary.jsx`
-- **.render()** (1 connections) — `src/components/ErrorBoundary.jsx`
+- **story-horizon.test.mjs** (6 connections) — `.agents/skills/archify/test/story-horizon.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/story-horizon.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/story-horizon.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/story-horizon.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/story-horizon.test.mjs`
+- **template** (1 connections) — `.agents/skills/archify/test/story-horizon.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/story-horizon.test.mjs`
 
 ## Relationships
 
@@ -17,11 +18,11 @@
 
 ## Source Files
 
-- `src/components/ErrorBoundary.jsx`
+- `.agents/skills/archify/test/story-horizon.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

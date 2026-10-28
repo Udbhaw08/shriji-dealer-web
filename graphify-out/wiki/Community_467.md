@@ -4,21 +4,21 @@
 
 ## Key Concepts
 
-- **labelSegment** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **minimum** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **iOS Code Signing & TestFlight Deployment** (2 connections) — `docs/mobile/ios-provisioning-and-signing.md`
+- **ios-provisioning-and-signing.md** (1 connections) — `docs/mobile/ios-provisioning-and-signing.md`
+- **Overview** (1 connections) — `docs/mobile/ios-provisioning-and-signing.md`
 
 ## Relationships
 
-- [[Claude Agent Instructions]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/architecture.schema.json`
+- `docs/mobile/ios-provisioning-and-signing.md`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

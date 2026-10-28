@@ -4,15 +4,15 @@
 
 ## Key Concepts
 
-- **web-BRhBoRc-.js** (8 connections) — `ios/App/App/public/assets/web-BRhBoRc-.js`
-- **constructor()** (1 connections) — `ios/App/App/public/assets/web-BRhBoRc-.js`
-- **exitApp()** (1 connections) — `ios/App/App/public/assets/web-BRhBoRc-.js`
-- **getAppLanguage()** (1 connections) — `ios/App/App/public/assets/web-BRhBoRc-.js`
-- **getInfo()** (1 connections) — `ios/App/App/public/assets/web-BRhBoRc-.js`
-- **getLaunchUrl()** (1 connections) — `ios/App/App/public/assets/web-BRhBoRc-.js`
-- **getState()** (1 connections) — `ios/App/App/public/assets/web-BRhBoRc-.js`
-- **minimizeApp()** (1 connections) — `ios/App/App/public/assets/web-BRhBoRc-.js`
-- **toggleBackButtonHandler()** (1 connections) — `ios/App/App/public/assets/web-BRhBoRc-.js`
+- **Split views** (5 connections) — `.agents/skills/apple-design/references/hig/split-views.md`
+- **Platform considerations** (4 connections) — `.agents/skills/apple-design/references/hig/split-views.md`
+- **split-views.md** (1 connections) — `.agents/skills/apple-design/references/hig/split-views.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/split-views.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/split-views.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/split-views.md`
+- **Phone (iOS)** (1 connections) — `.agents/skills/apple-design/references/hig/split-views.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/split-views.md`
+- **Tablet (iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/split-views.md`
 
 ## Relationships
 
@@ -20,7 +20,7 @@
 
 ## Source Files
 
-- `ios/App/App/public/assets/web-BRhBoRc-.js`
+- `.agents/skills/apple-design/references/hig/split-views.md`
 
 ## Audit Trail
 

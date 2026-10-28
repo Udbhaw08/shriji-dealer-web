@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **cryptoUtils.js** (2 connections) — `backend/src/utils/cryptoUtils.js`
-- **generateSecureOtp()** (1 connections) — `backend/src/utils/cryptoUtils.js`
-- **generateSecureToken()** (1 connections) — `backend/src/utils/cryptoUtils.js`
+- **Rate Limiting Strategies & Brute-Force Defense** (2 connections) — `docs/security/rate-limiting-strategies.md`
+- **rate-limiting-strategies.md** (1 connections) — `docs/security/rate-limiting-strategies.md`
+- **Security Thresholds** (1 connections) — `docs/security/rate-limiting-strategies.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `backend/src/utils/cryptoUtils.js`
+- `docs/security/rate-limiting-strategies.md`
 
 ## Audit Trail
 

@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **.mcp.json** (1 connections) — `.mcp.json`
-- **supabase** (1 connections) — `.mcp.json`
+- **README.md** (1 connections) — `.agents/skills/archify/brand-marks/README.md`
+- **Built-in brand marks** (1 connections) — `.agents/skills/archify/brand-marks/README.md`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `.mcp.json`
+- `.agents/skills/archify/brand-marks/README.md`
 
 ## Audit Trail
 

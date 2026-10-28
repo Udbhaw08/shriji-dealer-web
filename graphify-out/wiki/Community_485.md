@@ -4,21 +4,21 @@
 
 ## Key Concepts
 
-- **XSS Prevention & Content Sanitization Guidelines** (2 connections) — `docs/security/xss-and-content-sanitization.md`
-- **xss-and-content-sanitization.md** (1 connections) — `docs/security/xss-and-content-sanitization.md`
-- **Guidelines** (1 connections) — `docs/security/xss-and-content-sanitization.md`
+- **label** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **minLength** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 37]] (1 shared connections)
 
 ## Source Files
 
-- `docs/security/xss-and-content-sanitization.md`
+- `.agents/skills/archify/schemas/workflow.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 5 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

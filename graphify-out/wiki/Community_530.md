@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **analytics.js** (1 connections) — `src/utils/analytics.js`
-- **trackEvent()** (1 connections) — `src/utils/analytics.js`
+- **test-supabase.mjs** (1 connections) — `scripts/test-supabase.mjs`
+- **test()** (1 connections) — `scripts/test-supabase.mjs`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `src/utils/analytics.js`
+- `scripts/test-supabase.mjs`
 
 ## Audit Trail
 

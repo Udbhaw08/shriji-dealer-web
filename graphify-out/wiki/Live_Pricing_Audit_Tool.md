@@ -4,52 +4,52 @@
 
 ## Key Concepts
 
-- **get()** (27 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
-- **D()** (22 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
-- **np()** (20 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
-- **.addEventListener()** (19 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
-- **Tu()** (18 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
-- **b()** (17 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
-- **fp()** (14 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
-- **h()** (13 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
-- **jt()** (13 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
-- **bm()** (12 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
-- **.removeEventListener()** (12 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
-- **am()** (10 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
-- **r()** (10 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
-- **ip()** (9 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
-- **mm()** (9 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
-- **tp()** (8 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
-- **jm()** (7 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
-- **lp()** (7 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
-- **om()** (7 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
-- **tm()** (7 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
-- **zm()** (7 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
-- **cm()** (6 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
-- **em()** (6 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
-- **.blur()** (6 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
-- **mo()** (6 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
+- **get()** (27 connections) — `android/app/src/main/assets/public/assets/index-CHuADt1b.js`
+- **ff()** (26 connections) — `android/app/src/main/assets/public/assets/index-CHuADt1b.js`
+- **Tu()** (18 connections) — `android/app/src/main/assets/public/assets/index-CHuADt1b.js`
+- **gl()** (15 connections) — `android/app/src/main/assets/public/assets/index-CHuADt1b.js`
+- **fi()** (14 connections) — `android/app/src/main/assets/public/assets/index-CHuADt1b.js`
+- **uu()** (13 connections) — `android/app/src/main/assets/public/assets/index-CHuADt1b.js`
+- **bm()** (11 connections) — `android/app/src/main/assets/public/assets/index-CHuADt1b.js`
+- **lu()** (11 connections) — `android/app/src/main/assets/public/assets/index-CHuADt1b.js`
+- **vu()** (11 connections) — `android/app/src/main/assets/public/assets/index-CHuADt1b.js`
+- **zl()** (10 connections) — `android/app/src/main/assets/public/assets/index-CHuADt1b.js`
+- **hl()** (9 connections) — `android/app/src/main/assets/public/assets/index-CHuADt1b.js`
+- **Iu()** (9 connections) — `android/app/src/main/assets/public/assets/index-CHuADt1b.js`
+- **ku()** (9 connections) — `android/app/src/main/assets/public/assets/index-CHuADt1b.js`
+- **l()** (9 connections) — `android/app/src/main/assets/public/assets/index-CHuADt1b.js`
+- **mu()** (9 connections) — `android/app/src/main/assets/public/assets/index-CHuADt1b.js`
+- **ui()** (9 connections) — `android/app/src/main/assets/public/assets/index-CHuADt1b.js`
+- **wl()** (9 connections) — `android/app/src/main/assets/public/assets/index-CHuADt1b.js`
+- **jd()** (8 connections) — `android/app/src/main/assets/public/assets/index-CHuADt1b.js`
+- **Sp()** (8 connections) — `android/app/src/main/assets/public/assets/index-CHuADt1b.js`
+- **bl()** (7 connections) — `android/app/src/main/assets/public/assets/index-CHuADt1b.js`
+- **cu()** (7 connections) — `android/app/src/main/assets/public/assets/index-CHuADt1b.js`
+- **Eu()** (7 connections) — `android/app/src/main/assets/public/assets/index-CHuADt1b.js`
+- **go()** (7 connections) — `android/app/src/main/assets/public/assets/index-CHuADt1b.js`
+- **hc()** (7 connections) — `android/app/src/main/assets/public/assets/index-CHuADt1b.js`
+- **yl()** (7 connections) — `android/app/src/main/assets/public/assets/index-CHuADt1b.js`
 - *... and 27 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (57 shared connections)
-- [[Architecture Doc Generator]] (24 shared connections)
-- [[Community 33]] (16 shared connections)
-- [[Pricing Regression Test Suite]] (16 shared connections)
-- [[Master Codebase Architecture Reference]] (10 shared connections)
-- [[Community 32]] (10 shared connections)
-- [[Community 60]] (7 shared connections)
-- [[Community 231]] (4 shared connections)
-- [[Community 65]] (2 shared connections)
+- [[Price Presentation & Product UI]] (62 shared connections)
+- [[Master Codebase Architecture Reference]] (21 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (15 shared connections)
+- [[Product Requirements Documentation]] (10 shared connections)
+- [[Community 46]] (7 shared connections)
+- [[Community 142]] (5 shared connections)
+- [[Community 54]] (5 shared connections)
+- [[Graphify Knowledge Graph Skill]] (4 shared connections)
+- [[Community 405]] (2 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-BomkxjsM.js`
+- `android/app/src/main/assets/public/assets/index-CHuADt1b.js`
 
 ## Audit Trail
 
-- EXTRACTED: 390 (100%)
+- EXTRACTED: 381 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

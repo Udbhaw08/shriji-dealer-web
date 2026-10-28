@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **securityHeaders.js** (1 connections) — `backend/src/middleware/securityHeaders.js`
-- **securityHeaders()** (1 connections) — `backend/src/middleware/securityHeaders.js`
+- **README.md** (1 connections) — `ios/App/CapApp-SPM/README.md`
+- **CapApp-SPM** (1 connections) — `ios/App/CapApp-SPM/README.md`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `backend/src/middleware/securityHeaders.js`
+- `ios/App/CapApp-SPM/README.md`
 
 ## Audit Trail
 

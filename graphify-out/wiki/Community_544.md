@@ -1,10 +1,11 @@
 # Community 544
 
-> 1 nodes · cohesion 1.00
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **build.gradle** (0 connections) — `android/build.gradle`
+- **ipUtils.js** (1 connections) — `backend/src/utils/ipUtils.js`
+- **getClientIp()** (1 connections) — `backend/src/utils/ipUtils.js`
 
 ## Relationships
 
@@ -12,11 +13,11 @@
 
 ## Source Files
 
-- `android/build.gradle`
+- `backend/src/utils/ipUtils.js`
 
 ## Audit Trail
 
-- EXTRACTED: 0 (0%)
+- EXTRACTED: 2 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

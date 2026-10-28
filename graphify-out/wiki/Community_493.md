@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **debounce.js** (2 connections) — `src/utils/debounce.js`
-- **debounce()** (1 connections) — `src/utils/debounce.js`
-- **throttle()** (1 connections) — `src/utils/debounce.js`
+- **XSS Prevention & Content Sanitization Guidelines** (2 connections) — `docs/security/xss-and-content-sanitization.md`
+- **xss-and-content-sanitization.md** (1 connections) — `docs/security/xss-and-content-sanitization.md`
+- **Guidelines** (1 connections) — `docs/security/xss-and-content-sanitization.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `src/utils/debounce.js`
+- `docs/security/xss-and-content-sanitization.md`
 
 ## Audit Trail
 

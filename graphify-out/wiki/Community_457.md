@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **Designing for iPadOS** (2 connections) — `.agents/skills/apple-design/references/hig/designing-for-ipados.md`
-- **designing-for-ipados.md** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-ipados.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-ipados.md`
+- **Developer Cheat Sheet** (2 connections) — `docs/guides/developer-cheat-sheet.md`
+- **developer-cheat-sheet.md** (1 connections) — `docs/guides/developer-cheat-sheet.md`
+- **Common Commands** (1 connections) — `docs/guides/developer-cheat-sheet.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/designing-for-ipados.md`
+- `docs/guides/developer-cheat-sheet.md`
 
 ## Audit Trail
 

@@ -4,17 +4,17 @@
 
 ## Key Concepts
 
-- **readme-showcase.test.mjs** (10 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
-- **inspectGif()** (2 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
-- **skipSubBlocks()** (2 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
-- **assetPath** (1 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
-- **git()** (1 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
-- **receiptPath** (1 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
-- **sha256()** (1 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
-- **writeStarHistoryCharts()** (1 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
+- **degraded.test.mjs** (10 connections) — `.agents/skills/archify/test/degraded.test.mjs`
+- **assertFriendlyFailure()** (2 connections) — `.agents/skills/archify/test/degraded.test.mjs`
+- **render()** (2 connections) — `.agents/skills/archify/test/degraded.test.mjs`
+- **ARRAY_FIELDS** (1 connections) — `.agents/skills/archify/test/degraded.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/degraded.test.mjs`
+- **EXAMPLES** (1 connections) — `.agents/skills/archify/test/degraded.test.mjs`
+- **filter()** (1 connections) — `.agents/skills/archify/test/degraded.test.mjs`
+- **installedRoot** (1 connections) — `.agents/skills/archify/test/degraded.test.mjs`
+- **mulberry32()** (1 connections) — `.agents/skills/archify/test/degraded.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/degraded.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/degraded.test.mjs`
 
 ## Relationships
 
@@ -22,7 +22,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/readme-showcase.test.mjs`
+- `.agents/skills/archify/test/degraded.test.mjs`
 
 ## Audit Trail
 

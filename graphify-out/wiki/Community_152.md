@@ -1,33 +1,35 @@
 # Community 152
 
-> 12 nodes · cohesion 0.17
+> 13 nodes · cohesion 0.21
 
 ## Key Concepts
 
-- **Apple Pencil and Scribble** (11 connections) — `.agents/skills/apple-design/references/hig/apple-pencil-and-scribble.md`
-- **apple-pencil-and-scribble.md** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pencil-and-scribble.md`
-- **Barrel roll** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pencil-and-scribble.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pencil-and-scribble.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pencil-and-scribble.md`
-- **Custom drawing** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pencil-and-scribble.md`
-- **Double tap** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pencil-and-scribble.md`
-- **Hover** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pencil-and-scribble.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pencil-and-scribble.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pencil-and-scribble.md`
-- **Scribble** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pencil-and-scribble.md`
-- **Squeeze** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pencil-and-scribble.md`
+- **workflow-compiler-hard-contract.test.mjs** (14 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
+- **workflow()** (4 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
+- **oneLaneAnchors()** (3 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
+- **oneLaneWorkflow()** (3 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
+- **crossingAtForwardCollinearViaWorkflow()** (2 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
+- **nestedOutsideRightCorridorWorkflow()** (2 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
+- **assertExplicitPinConflict()** (1 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
+- **assertOrthogonal()** (1 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
+- **assertSupportedFixesNameChangedEdge()** (1 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
+- **clone()** (1 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
+- **mutate()** (1 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
+- **routeContainsChannel()** (1 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
+- **segmentMeetsRect()** (1 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 133]] (2 shared connections)
+- [[Community 81]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/apple-pencil-and-scribble.md`
+- `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (100%)
+- EXTRACTED: 35 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

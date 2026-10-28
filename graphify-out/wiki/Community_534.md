@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **dateUtils.js** (1 connections) — `src/utils/dateUtils.js`
-- **formatRelativeTime()** (1 connections) — `src/utils/dateUtils.js`
+- **smsFallback.js** (1 connections) — `backend/src/services/smsFallback.js`
+- **sendSmsOtpFallback()** (1 connections) — `backend/src/services/smsFallback.js`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `src/utils/dateUtils.js`
+- `backend/src/services/smsFallback.js`
 
 ## Audit Trail
 

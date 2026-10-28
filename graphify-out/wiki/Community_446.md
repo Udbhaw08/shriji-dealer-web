@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **Vercel Production Deployment Checklist** (2 connections) — `docs/deployment/vercel-production-checklist.md`
-- **vercel-production-checklist.md** (1 connections) — `docs/deployment/vercel-production-checklist.md`
-- **Environment Variables** (1 connections) — `docs/deployment/vercel-production-checklist.md`
+- **Microservices Decoupled Architecture** (2 connections) — `docs/architecture/microservices-architecture.md`
+- **microservices-architecture.md** (1 connections) — `docs/architecture/microservices-architecture.md`
+- **Overview** (1 connections) — `docs/architecture/microservices-architecture.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/deployment/vercel-production-checklist.md`
+- `docs/architecture/microservices-architecture.md`
 
 ## Audit Trail
 

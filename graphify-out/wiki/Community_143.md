@@ -1,47 +1,39 @@
 # Community 143
 
-> 13 nodes · cohesion 0.24
+> 13 nodes · cohesion 0.27
 
 ## Key Concepts
 
-- **compatibilitySuite.test.mjs** (20 connections) — `backend/test/compatibilitySuite.test.mjs`
-- **dealerPricingAuth.js** (9 connections) — `api/_lib/dealerPricingAuth.js`
-- **getDealerPricingEligibility()** (8 connections) — `api/_lib/dealerPricingAuth.js`
-- **uploads.js** (8 connections) — `backend/src/routes/uploads.js`
-- **[id].js** (6 connections) — `api/products/[id].js`
-- **maskProductPricing()** (5 connections) — `api/_lib/dealerPricingAuth.js`
-- **handler()** (4 connections) — `api/products/[id].js`
-- **contentRouter** (4 connections) — `backend/src/routes/content.js`
-- **uploadsRouter** (4 connections) — `backend/src/routes/uploads.js`
-- **ALLOWED_FOLDERS** (1 connections) — `backend/src/routes/uploads.js`
-- **MIME_TYPES** (1 connections) — `backend/src/routes/uploads.js`
-- **json()** (1 connections) — `backend/test/compatibilitySuite.test.mjs`
-- **status()** (1 connections) — `backend/test/compatibilitySuite.test.mjs`
+- **fail()** (15 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **usage()** (11 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **runNode()** (9 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandDemo()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **exitFrom()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandBrands()** (5 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandCheck()** (5 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandExamples()** (5 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandVisualCheck()** (5 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandDoctor()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **extractMigrationOptions()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandGuide()** (2 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **listBrandMarks()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
 
 ## Relationships
 
-- [[Oxlint Linter Configuration]] (7 shared connections)
-- [[Community 50]] (5 shared connections)
-- [[Community 233]] (5 shared connections)
-- [[Zoho API Diagnostic Script]] (4 shared connections)
-- [[Community 150]] (3 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (3 shared connections)
-- [[Community 125]] (3 shared connections)
-- [[Community 88]] (2 shared connections)
-- [[Community 186]] (2 shared connections)
+- [[Community 44]] (27 shared connections)
+- [[Testing & Workflow Skill]] (3 shared connections)
+- [[Community 299]] (3 shared connections)
+- [[Community 45]] (2 shared connections)
 
 ## Source Files
 
-- `api/_lib/dealerPricingAuth.js`
-- `api/products/[id].js`
-- `backend/src/routes/content.js`
-- `backend/src/routes/uploads.js`
-- `backend/test/compatibilitySuite.test.mjs`
+- `.agents/skills/archify/bin/archify.mjs`
+- `.agents/skills/archify/renderers/shared/brand-marks.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 72 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 73 (95%)
+- INFERRED: 4 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

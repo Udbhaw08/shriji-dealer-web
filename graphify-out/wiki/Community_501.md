@@ -1,11 +1,12 @@
 # Community 501
 
-> 2 nodes · cohesion 1.00
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **esm-DwiLLdhw.js** (1 connections) — `android/app/src/main/assets/public/assets/esm-DwiLLdhw.js`
-- **__vite__mapDeps()** (1 connections) — `android/app/src/main/assets/public/assets/esm-DwiLLdhw.js`
+- **debounce.js** (2 connections) — `src/utils/debounce.js`
+- **debounce()** (1 connections) — `src/utils/debounce.js`
+- **throttle()** (1 connections) — `src/utils/debounce.js`
 
 ## Relationships
 
@@ -13,11 +14,11 @@
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/esm-DwiLLdhw.js`
+- `src/utils/debounce.js`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

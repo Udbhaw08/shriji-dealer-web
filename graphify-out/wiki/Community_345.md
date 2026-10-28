@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **Branding** (5 connections) — `.agents/skills/apple-design/references/hig/branding.md`
-- **branding.md** (1 connections) — `.agents/skills/apple-design/references/hig/branding.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/branding.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/branding.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/branding.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/branding.md`
+- **Action sheets** (4 connections) — `.agents/skills/apple-design/references/hig/action-sheets.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/action-sheets.md`
+- **action-sheets.md** (1 connections) — `.agents/skills/apple-design/references/hig/action-sheets.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/action-sheets.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/action-sheets.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/action-sheets.md`
 
 ## Relationships
 
@@ -17,7 +17,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/branding.md`
+- `.agents/skills/apple-design/references/hig/action-sheets.md`
 
 ## Audit Trail
 

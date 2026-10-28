@@ -4,26 +4,31 @@
 
 ## Key Concepts
 
-- **MockStorage** (6 connections) — `src/data/productsStore.test.mjs`
-- **productsStore.test.mjs** (1 connections) — `src/data/productsStore.test.mjs`
-- **.clear()** (1 connections) — `src/data/productsStore.test.mjs`
-- **.constructor()** (1 connections) — `src/data/productsStore.test.mjs`
-- **.getItem()** (1 connections) — `src/data/productsStore.test.mjs`
-- **.removeItem()** (1 connections) — `src/data/productsStore.test.mjs`
-- **.setItem()** (1 connections) — `src/data/productsStore.test.mjs`
+- **commandCompare()** (20 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commitComparePair()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **extractCompareOptions()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **formatDiagnostics()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **reportCompareFailure()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **compareCommitError()** (2 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **compareReceiptPath()** (2 connections) — `.agents/skills/archify/bin/archify.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 44]] (11 shared connections)
+- [[Community 47]] (4 shared connections)
+- [[Community 143]] (3 shared connections)
+- [[Community 83]] (2 shared connections)
+- [[Community 169]] (2 shared connections)
+- [[Community 106]] (2 shared connections)
 
 ## Source Files
 
-- `src/data/productsStore.test.mjs`
+- `.agents/skills/archify/bin/archify.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 27 (75%)
+- INFERRED: 9 (25%)
 - AMBIGUOUS: 0 (0%)
 
 ---

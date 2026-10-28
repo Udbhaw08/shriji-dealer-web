@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **GSTIN Verification Flow** (2 connections) — `docs/guides/gstin-verification-flow.md`
-- **gstin-verification-flow.md** (1 connections) — `docs/guides/gstin-verification-flow.md`
-- **State Code Resolution** (1 connections) — `docs/guides/gstin-verification-flow.md`
+- **Vercel Production Deployment Checklist** (2 connections) — `docs/deployment/vercel-production-checklist.md`
+- **vercel-production-checklist.md** (1 connections) — `docs/deployment/vercel-production-checklist.md`
+- **Environment Variables** (1 connections) — `docs/deployment/vercel-production-checklist.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/guides/gstin-verification-flow.md`
+- `docs/deployment/vercel-production-checklist.md`
 
 ## Audit Trail
 

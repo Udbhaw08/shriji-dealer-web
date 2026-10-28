@@ -1,55 +1,53 @@
 # Mobile Responsive UI Skill
 
-> 47 nodes · cohesion 0.09
+> 46 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **at()** (22 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **k()** (20 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **U()** (19 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **ct()** (15 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **A()** (12 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **pt()** (12 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **dt()** (11 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **mt()** (11 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **ye()** (11 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **no()** (10 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **on()** (9 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **yn()** (9 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **kf()** (8 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **lt()** (8 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **mn()** (8 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **so()** (8 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **st()** (8 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **tt()** (8 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **Id()** (7 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **it()** (7 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **jc()** (7 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **je()** (7 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **nn()** (7 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **P()** (7 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- **rt()** (7 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
-- *... and 22 more nodes in this community*
+- **zoho.js** (59 connections) — `api/_lib/zoho.js`
+- **fetchZohoProductById()** (18 connections) — `api/_lib/zoho.js`
+- **getZohoConfig()** (10 connections) — `api/_lib/zoho.js`
+- **createDealerContact()** (9 connections) — `api/_lib/zoho.js`
+- **fetchZohoWithRetry()** (9 connections) — `api/_lib/zoho.js`
+- **fetchZohoPricebookItems()** (6 connections) — `api/_lib/zoho.js`
+- **getAccessToken()** (6 connections) — `api/_lib/zoho.js`
+- **normalizeProduct()** (6 connections) — `api/_lib/zoho.js`
+- **resolvePricebookId()** (5 connections) — `api/_lib/zoho.js`
+- **fetchZohoPricebooks()** (4 connections) — `api/_lib/zoho.js`
+- **fetchZohoRawCategories()** (4 connections) — `api/_lib/zoho.js`
+- **getDealerById()** (4 connections) — `api/_lib/zoho.js`
+- **loadEnv()** (4 connections) — `api/_lib/zoho.js`
+- **updateCachedProductTags()** (4 connections) — `api/_lib/zoho.js`
+- **test-zoho-api.mjs** (4 connections) — `scripts/test-zoho-api.mjs`
+- **apply.js** (3 connections) — `api/dealer/apply.js`
+- **getCachedProductTags()** (3 connections) — `api/_lib/zoho.js`
+- **isItemOnline()** (3 connections) — `api/_lib/zoho.js`
+- **readProductDetailsDiskCache()** (3 connections) — `api/_lib/zoho.js`
+- **writeProductDetailDiskCache()** (3 connections) — `api/_lib/zoho.js`
+- **handler()** (2 connections) — `api/dealer/apply.js`
+- **isItemCategoryOnline()** (2 connections) — `api/_lib/zoho.js`
+- **parseRate()** (2 connections) — `api/_lib/zoho.js`
+- **readDiskCache()** (2 connections) — `api/_lib/zoho.js`
+- **slugifyCategory()** (2 connections) — `api/_lib/zoho.js`
+- *... and 21 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (59 shared connections)
-- [[Product Pages Specification]] (22 shared connections)
-- [[Community 30]] (18 shared connections)
-- [[Community 72]] (14 shared connections)
-- [[Design System & UI Tokens]] (12 shared connections)
-- [[Community 36]] (9 shared connections)
-- [[Community 76]] (9 shared connections)
-- [[Community 165]] (6 shared connections)
-- [[Pricing & Roles Skill]] (6 shared connections)
+- [[Community 94]] (17 shared connections)
+- [[Community 190]] (9 shared connections)
+- [[Community 411]] (5 shared connections)
+- [[Community 88]] (2 shared connections)
+- [[Community 148]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
+- `api/_lib/zoho.js`
+- `api/dealer/apply.js`
+- `scripts/test-zoho-api.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 343 (100%)
+- EXTRACTED: 200 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **formatters.js** (2 connections) — `src/utils/formatters.js`
-- **formatCurrencyINR()** (1 connections) — `src/utils/formatters.js`
-- **formatPhoneNumber()** (1 connections) — `src/utils/formatters.js`
+- **renderer-diagnostic-boundary.test.mjs** (2 connections) — `.agents/skills/archify/test/renderer-diagnostic-boundary.test.mjs`
+- **crashingRenderer()** (1 connections) — `.agents/skills/archify/test/renderer-diagnostic-boundary.test.mjs`
+- **runCrashingRenderer()** (1 connections) — `.agents/skills/archify/test/renderer-diagnostic-boundary.test.mjs`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `src/utils/formatters.js`
+- `.agents/skills/archify/test/renderer-diagnostic-boundary.test.mjs`
 
 ## Audit Trail
 

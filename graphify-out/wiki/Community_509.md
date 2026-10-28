@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **esm-DwiLLdhw.js** (1 connections) — `ios/App/App/public/assets/esm-DwiLLdhw.js`
-- **__vite__mapDeps()** (1 connections) — `ios/App/App/public/assets/esm-DwiLLdhw.js`
+- **esm-s_fpLcuC.js** (1 connections) — `android/app/src/main/assets/public/assets/esm-s_fpLcuC.js`
+- **__vite__mapDeps()** (1 connections) — `android/app/src/main/assets/public/assets/esm-s_fpLcuC.js`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `ios/App/App/public/assets/esm-DwiLLdhw.js`
+- `android/app/src/main/assets/public/assets/esm-s_fpLcuC.js`
 
 ## Audit Trail
 

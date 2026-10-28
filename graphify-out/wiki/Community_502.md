@@ -1,11 +1,12 @@
 # Community 502
 
-> 2 nodes · cohesion 1.00
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **README.md** (1 connections) — `.agents/skills/archify/brand-marks/README.md`
-- **Built-in brand marks** (1 connections) — `.agents/skills/archify/brand-marks/README.md`
+- **formatters.js** (2 connections) — `src/utils/formatters.js`
+- **formatCurrencyINR()** (1 connections) — `src/utils/formatters.js`
+- **formatPhoneNumber()** (1 connections) — `src/utils/formatters.js`
 
 ## Relationships
 
@@ -13,11 +14,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/brand-marks/README.md`
+- `src/utils/formatters.js`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

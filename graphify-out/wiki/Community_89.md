@@ -1,40 +1,49 @@
 # Community 89
 
-> 19 nodes · cohesion 0.11
+> 19 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **Apple Design Skill** (7 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Step 3: Audit through five lenses, in this order** (6 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Review process** (5 connections) — `.agents/skills/apple-design/SKILL.md`
-- **The references** (3 connections) — `.agents/skills/apple-design/SKILL.md`
-- **SKILL.md** (1 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Always load** (1 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Apple's design principles** (1 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Design improvement mode** (1 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Lens 1: Accessibility (failures are Critical)** (1 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Lens 2: Platform conventions (failures are usually High)** (1 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Lens 3: Visual design and craft (findings are High or Medium)** (1 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Lens 4: Interaction (findings are usually Medium)** (1 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Lens 5: Content and writing (findings are usually Medium)** (1 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Load by what is on screen** (1 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Specialized review modes** (1 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Step 1: Establish context** (1 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Step 2: Load references** (1 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Step 4: Write the report** (1 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Working rules** (1 connections) — `.agents/skills/apple-design/SKILL.md`
+- **securityPhase1.test.mjs** (16 connections) — `backend/test/securityPhase1.test.mjs`
+- **uploads.js** (8 connections) — `backend/src/routes/uploads.js`
+- **download.js** (6 connections) — `api/download.js`
+- **handler()** (5 connections) — `api/download.js`
+- **ssrf.js** (5 connections) — `api/_lib/ssrf.js`
+- **validateSafeDownloadUrl()** (5 connections) — `api/_lib/ssrf.js`
+- **contentRouter** (4 connections) — `backend/src/routes/content.js`
+- **uploadsRouter** (4 connections) — `backend/src/routes/uploads.js`
+- **safeFetchWithRedirects()** (3 connections) — `api/download.js`
+- **isPrivateOrReservedIp()** (3 connections) — `api/_lib/ssrf.js`
+- **wrapJpegInPdf()** (2 connections) — `api/download.js`
+- **ALLOWED_REMOTE_HOSTS** (1 connections) — `api/_lib/ssrf.js`
+- **ALLOWED_FOLDERS** (1 connections) — `backend/src/routes/uploads.js`
+- **MIME_TYPES** (1 connections) — `backend/src/routes/uploads.js`
+- **json()** (1 connections) — `backend/test/securityPhase1.test.mjs`
+- **sendFile()** (1 connections) — `backend/test/securityPhase1.test.mjs`
+- **setHeader()** (1 connections) — `backend/test/securityPhase1.test.mjs`
+- **status()** (1 connections) — `backend/test/securityPhase1.test.mjs`
+- **validateMagicBytes()** (1 connections) — `backend/test/securityPhase1.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Client Products Data Store]] (6 shared connections)
+- [[Community 190]] (3 shared connections)
+- [[Community 94]] (3 shared connections)
+- [[Community 88]] (2 shared connections)
+- [[Community 189]] (2 shared connections)
+- [[Vercel Deployment Routing]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/SKILL.md`
+- `api/_lib/ssrf.js`
+- `api/download.js`
+- `backend/src/routes/content.js`
+- `backend/src/routes/uploads.js`
+- `backend/test/securityPhase1.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 36 (100%)
+- EXTRACTED: 69 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

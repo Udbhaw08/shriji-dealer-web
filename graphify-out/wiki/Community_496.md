@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **numberUtils.js** (2 connections) — `src/utils/numberUtils.js`
-- **calculateDiscountPercentage()** (1 connections) — `src/utils/numberUtils.js`
-- **clamp()** (1 connections) — `src/utils/numberUtils.js`
+- **toolbar-polish.test.mjs** (2 connections) — `.agents/skills/archify/test/toolbar-polish.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/toolbar-polish.test.mjs`
+- **template** (1 connections) — `.agents/skills/archify/test/toolbar-polish.test.mjs`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `src/utils/numberUtils.js`
+- `.agents/skills/archify/test/toolbar-polish.test.mjs`
 
 ## Audit Trail
 

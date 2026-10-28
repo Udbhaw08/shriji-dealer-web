@@ -1,10 +1,11 @@
 # Community 547
 
-> 1 nodes · cohesion 1.00
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **variables.gradle** (0 connections) — `android/variables.gradle`
+- **slugify.js** (1 connections) — `backend/src/utils/slugify.js`
+- **slugify()** (1 connections) — `backend/src/utils/slugify.js`
 
 ## Relationships
 
@@ -12,11 +13,11 @@
 
 ## Source Files
 
-- `android/variables.gradle`
+- `backend/src/utils/slugify.js`
 
 ## Audit Trail
 
-- EXTRACTED: 0 (0%)
+- EXTRACTED: 2 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

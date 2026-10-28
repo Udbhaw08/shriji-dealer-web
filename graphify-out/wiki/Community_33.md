@@ -1,54 +1,50 @@
 # Community 33
 
-> 40 nodes · cohesion 0.08
+> 39 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **al()** (41 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
-- **U()** (19 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
-- **bc()** (18 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
-- **ia()** (15 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
-- **la()** (15 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
-- **lm()** (13 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
-- **il()** (11 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
-- **ta()** (10 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
-- **jc()** (7 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
-- **da()** (6 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
-- **dc()** (6 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
-- **Do()** (6 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
-- **lh()** (6 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
-- **oa()** (6 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
-- **oo()** (6 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
-- **xe()** (6 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
-- **ao()** (5 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
-- **qn()** (5 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
-- **wo()** (5 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
-- **bo()** (4 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
-- **Ca()** (4 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
-- **el()** (4 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
-- **fa()** (4 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
-- **im()** (4 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
-- **ro()** (4 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
-- *... and 15 more nodes in this community*
+- **auth.js** (53 connections) — `src/data/auth.js`
+- **json()** (31 connections) — `src/data/auth.js`
+- **callBackend()** (28 connections) — `src/data/auth.js`
+- **DealerDashboard.jsx** (23 connections) — `src/pages/DealerDashboard.jsx`
+- **broadcastAuthChange()** (13 connections) — `src/data/auth.js`
+- **applyAuthResponse()** (9 connections) — `src/data/auth.js`
+- **finalizeDealerRegistration()** (7 connections) — `src/data/auth.js`
+- **staffSignup()** (7 connections) — `src/data/auth.js`
+- **logout()** (6 connections) — `src/data/auth.js`
+- **requestDealerRegistrationOtp()** (6 connections) — `src/data/auth.js`
+- **verifyDealerRegistrationOtp()** (6 connections) — `src/data/auth.js`
+- **verifyEmailOtp()** (6 connections) — `src/data/auth.js`
+- **fetchMe()** (5 connections) — `src/data/auth.js`
+- **googleLogin()** (5 connections) — `src/data/auth.js`
+- **login()** (5 connections) — `src/data/auth.js`
+- **lookupStaffCode()** (5 connections) — `src/data/auth.js`
+- **requestEmailOtp()** (5 connections) — `src/data/auth.js`
+- **signup()** (5 connections) — `src/data/auth.js`
+- **staffTogglePrice()** (5 connections) — `src/data/auth.js`
+- **staffTogglePriceAll()** (5 connections) — `src/data/auth.js`
+- **verifyOtp()** (5 connections) — `src/data/auth.js`
+- **verifyPhoneOtp()** (5 connections) — `src/data/auth.js`
+- **persistTokens()** (4 connections) — `src/data/auth.js`
+- **requestOtp()** (4 connections) — `src/data/auth.js`
+- **requestPhoneOtp()** (4 connections) — `src/data/auth.js`
+- *... and 14 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (49 shared connections)
-- [[Master Codebase Architecture Reference]] (28 shared connections)
-- [[Live Pricing Audit Tool]] (16 shared connections)
-- [[Pricing Regression Test Suite]] (16 shared connections)
-- [[Community 60]] (13 shared connections)
-- [[Community 65]] (10 shared connections)
-- [[Architecture Doc Generator]] (9 shared connections)
-- [[Community 231]] (3 shared connections)
+- [[Project Readme & Layout]] (47 shared connections)
+- [[Community 99]] (11 shared connections)
+- [[Product Pages Specification]] (5 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-BomkxjsM.js`
+- `src/data/auth.js`
+- `src/pages/DealerDashboard.jsx`
 
 ## Audit Trail
 
-- EXTRACTED: 274 (100%)
+- EXTRACTED: 309 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

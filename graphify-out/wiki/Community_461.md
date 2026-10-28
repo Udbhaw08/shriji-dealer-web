@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **iOS Code Signing & TestFlight Deployment** (2 connections) — `docs/mobile/ios-provisioning-and-signing.md`
-- **ios-provisioning-and-signing.md** (1 connections) — `docs/mobile/ios-provisioning-and-signing.md`
-- **Overview** (1 connections) — `docs/mobile/ios-provisioning-and-signing.md`
+- **Zoho Commerce API Rate Limiting & Multi-Tier Caching** (2 connections) — `docs/guides/zoho-rate-limits-and-caching.md`
+- **zoho-rate-limits-and-caching.md** (1 connections) — `docs/guides/zoho-rate-limits-and-caching.md`
+- **Rate Limits** (1 connections) — `docs/guides/zoho-rate-limits-and-caching.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/mobile/ios-provisioning-and-signing.md`
+- `docs/guides/zoho-rate-limits-and-caching.md`
 
 ## Audit Trail
 

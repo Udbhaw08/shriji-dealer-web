@@ -1,38 +1,42 @@
 # Community 107
 
-> 17 nodes · cohesion 0.12
+> 18 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **HIG reference lookup** (16 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
-- **hig-lookup.md** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
-- **Components › Content** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
-- **Components › Layout and organization** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
-- **Components › Menus and actions** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
-- **Components › Navigation and search** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
-- **Components › Presentation** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
-- **Components › Selection and input** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
-- **Components › Status** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
-- **Components › System experiences** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
-- **Curated guides** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
-- **Foundations** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
-- **Getting started** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
-- **Inputs** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
-- **Pages Apple publishes that are not included** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
-- **Patterns** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
-- **Technologies** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
+- **viewer-chrome-layout.test.mjs** (21 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **evaluate()** (5 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **waitForLayout()** (4 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **finalGeometry()** (3 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **load()** (3 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **resize()** (3 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **edgePaintHitsUnderDock()** (2 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **state()** (2 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **clearStage()** (1 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **renderWithoutLegend()** (1 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **variant()** (1 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **zero()** (1 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 45]] (2 shared connections)
+- [[Community 82]] (1 shared connections)
+- [[Community 128]] (1 shared connections)
+- [[Community 52]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig-lookup.md`
+- `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 32 (100%)
+- EXTRACTED: 53 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

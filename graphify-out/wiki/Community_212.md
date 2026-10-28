@@ -1,31 +1,33 @@
 # Community 212
 
-> 10 nodes · cohesion 0.20
+> 10 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **Workflow Renderer** (6 connections) — `.agents/skills/archify/renderers/workflow/README.md`
-- **Layout contracts** (3 connections) — `.agents/skills/archify/renderers/workflow/README.md`
-- **Design Rules** (2 connections) — `.agents/skills/archify/renderers/workflow/README.md`
-- **README.md** (1 connections) — `.agents/skills/archify/renderers/workflow/README.md`
-- **Fixed v1** (1 connections) — `.agents/skills/archify/renderers/workflow/README.md`
-- **Input** (1 connections) — `.agents/skills/archify/renderers/workflow/README.md`
-- **Legend** (1 connections) — `.agents/skills/archify/renderers/workflow/README.md`
-- **Migration and layout receipt** (1 connections) — `.agents/skills/archify/renderers/workflow/README.md`
-- **Optional semantic checks** (1 connections) — `.agents/skills/archify/renderers/workflow/README.md`
-- **Readable v2** (1 connections) — `.agents/skills/archify/renderers/workflow/README.md`
+- **site-language-continuity.test.mjs** (12 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **clickAndNavigate()** (2 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **evaluate()** (2 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **loadRuntime()** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **navigate()** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **navigationPath** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **repoRoot** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **runtimePath** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **startStaticServer()** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 45]] (1 shared connections)
+- [[Community 82]] (1 shared connections)
+- [[Community 128]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/workflow/README.md`
+- `.agents/skills/archify/test/site-language-continuity.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (100%)
+- EXTRACTED: 23 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

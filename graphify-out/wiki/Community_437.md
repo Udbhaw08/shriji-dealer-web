@@ -1,12 +1,13 @@
 # Community 437
 
-> 3 nodes · cohesion 0.67
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **Zoho CRM Webhook Event Payloads** (2 connections) — `docs/api/webhook-event-types.md`
-- **webhook-event-types.md** (1 connections) — `docs/api/webhook-event-types.md`
-- **Event: dealer.approved** (1 connections) — `docs/api/webhook-event-types.md`
+- **generate-viewer.test.mjs** (3 connections) — `.agents/skills/archify/test/generate-viewer.test.mjs`
+- **fixture()** (1 connections) — `.agents/skills/archify/test/generate-viewer.test.mjs`
+- **fragments** (1 connections) — `.agents/skills/archify/test/generate-viewer.test.mjs`
+- **repoRoot** (1 connections) — `.agents/skills/archify/test/generate-viewer.test.mjs`
 
 ## Relationships
 
@@ -14,11 +15,11 @@
 
 ## Source Files
 
-- `docs/api/webhook-event-types.md`
+- `.agents/skills/archify/test/generate-viewer.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

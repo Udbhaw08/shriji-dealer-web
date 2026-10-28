@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **stringUtils.js** (2 connections) — `src/utils/stringUtils.js`
-- **titleCase()** (1 connections) — `src/utils/stringUtils.js`
-- **truncate()** (1 connections) — `src/utils/stringUtils.js`
+- **cryptoUtils.js** (2 connections) — `backend/src/utils/cryptoUtils.js`
+- **generateSecureOtp()** (1 connections) — `backend/src/utils/cryptoUtils.js`
+- **generateSecureToken()** (1 connections) — `backend/src/utils/cryptoUtils.js`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `src/utils/stringUtils.js`
+- `backend/src/utils/cryptoUtils.js`
 
 ## Audit Trail
 

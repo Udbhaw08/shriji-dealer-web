@@ -2,7 +2,7 @@
 
 > God node · 38 connections · `src/data/session.js`
 
-**Community:** [[Product Brand & Business Vision]]
+**Community:** [[Product Pages Specification]]
 
 ## Connections by Relation
 
@@ -33,14 +33,14 @@
 
 ### imports
 - [[main.jsx]] `EXTRACTED`
-- [[ui.jsx]] `EXTRACTED`
 - [[Login.jsx]] `EXTRACTED`
+- [[ui.jsx]] `EXTRACTED`
 - [[Product.jsx]] `EXTRACTED`
 - [[DealerApply.jsx]] `EXTRACTED`
 - [[Home.jsx]] `EXTRACTED`
 - [[Products.jsx]] `EXTRACTED`
-- [[DealerDashboard.jsx]] `EXTRACTED`
 - [[BrandApplyFlow.jsx]] `EXTRACTED`
+- [[DealerDashboard.jsx]] `EXTRACTED`
 - [[Favorites.jsx]] `EXTRACTED`
 - [[ProductCard.jsx]] `EXTRACTED`
 - [[Schemes.jsx]] `EXTRACTED`

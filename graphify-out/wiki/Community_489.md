@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **Autocannon Load Test Benchmarks** (2 connections) — `docs/testing/load-testing-benchmarks.md`
-- **load-testing-benchmarks.md** (1 connections) — `docs/testing/load-testing-benchmarks.md`
-- **Targets** (1 connections) — `docs/testing/load-testing-benchmarks.md`
+- **Content Security Policy (CSP) Directives** (2 connections) — `docs/security/content-security-policy.md`
+- **content-security-policy.md** (1 connections) — `docs/security/content-security-policy.md`
+- **Directives** (1 connections) — `docs/security/content-security-policy.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/testing/load-testing-benchmarks.md`
+- `docs/security/content-security-policy.md`
 
 ## Audit Trail
 

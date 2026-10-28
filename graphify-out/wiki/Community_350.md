@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **Panels** (5 connections) — `.agents/skills/apple-design/references/hig/panels.md`
-- **panels.md** (1 connections) — `.agents/skills/apple-design/references/hig/panels.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/panels.md`
-- **HUD-style panels** (1 connections) — `.agents/skills/apple-design/references/hig/panels.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/panels.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/panels.md`
+- **Color wells** (4 connections) — `.agents/skills/apple-design/references/hig/color-wells.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/color-wells.md`
+- **color-wells.md** (1 connections) — `.agents/skills/apple-design/references/hig/color-wells.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/color-wells.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/color-wells.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/color-wells.md`
 
 ## Relationships
 
@@ -17,7 +17,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/panels.md`
+- `.agents/skills/apple-design/references/hig/color-wells.md`
 
 ## Audit Trail
 

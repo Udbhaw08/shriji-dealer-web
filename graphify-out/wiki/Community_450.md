@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **Dealer Onboarding & Approval Lifecycle** (2 connections) — `docs/guides/dealer-onboarding-flow.md`
-- **dealer-onboarding-flow.md** (1 connections) — `docs/guides/dealer-onboarding-flow.md`
-- **Lifecycle States** (1 connections) — `docs/guides/dealer-onboarding-flow.md`
+- **Supabase Database Schema Reference** (2 connections) — `docs/architecture/supabase-schema-reference.md`
+- **supabase-schema-reference.md** (1 connections) — `docs/architecture/supabase-schema-reference.md`
+- **Primary Tables** (1 connections) — `docs/architecture/supabase-schema-reference.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/guides/dealer-onboarding-flow.md`
+- `docs/architecture/supabase-schema-reference.md`
 
 ## Audit Trail
 

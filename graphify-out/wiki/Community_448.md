@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **Bulk Order Inquiry Workflow** (2 connections) — `docs/guides/bulk-order-inquiry-workflow.md`
-- **bulk-order-inquiry-workflow.md** (1 connections) — `docs/guides/bulk-order-inquiry-workflow.md`
-- **Lifecycle** (1 connections) — `docs/guides/bulk-order-inquiry-workflow.md`
+- **Portal Access Gate Specification** (2 connections) — `docs/architecture/portal-gate-specification.md`
+- **portal-gate-specification.md** (1 connections) — `docs/architecture/portal-gate-specification.md`
+- **Gating Mechanism** (1 connections) — `docs/architecture/portal-gate-specification.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/guides/bulk-order-inquiry-workflow.md`
+- `docs/architecture/portal-gate-specification.md`
 
 ## Audit Trail
 

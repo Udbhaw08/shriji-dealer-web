@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **toolbar-polish.test.mjs** (2 connections) — `.agents/skills/archify/test/toolbar-polish.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/toolbar-polish.test.mjs`
-- **template** (1 connections) — `.agents/skills/archify/test/toolbar-polish.test.mjs`
+- **check-env.mjs** (2 connections) — `scripts/check-env.mjs`
+- **missing** (1 connections) — `scripts/check-env.mjs`
+- **requiredEnv** (1 connections) — `scripts/check-env.mjs`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/toolbar-polish.test.mjs`
+- `scripts/check-env.mjs`
 
 ## Audit Trail
 

@@ -1,39 +1,46 @@
 # Community 99
 
-> 18 nodes · cohesion 0.11
+> 18 nodes · cohesion 0.21
 
 ## Key Concepts
 
-- **DESIGN.md — the design system as actually built** (8 connections) — `docs/DESIGN.md`
-- **4. Components already built — reuse these** (7 connections) — `docs/DESIGN.md`
-- **2. Tokens** (4 connections) — `docs/DESIGN.md`
-- **DESIGN.md** (1 connections) — `docs/DESIGN.md`
-- **1. The direction in one paragraph** (1 connections) — `docs/DESIGN.md`
-- **3. Layout primitives** (1 connections) — `docs/DESIGN.md`
-- **5. Icons** (1 connections) — `docs/DESIGN.md`
-- **6. Responsive rules** (1 connections) — `docs/DESIGN.md`
-- **7. Motion and accessibility** (1 connections) — `docs/DESIGN.md`
-- **Actions** (1 connections) — `docs/DESIGN.md`
-- **Colour** (1 connections) — `docs/DESIGN.md`
-- **Content** (1 connections) — `docs/DESIGN.md`
-- **Detail** (1 connections) — `docs/DESIGN.md`
-- **Listing sidebar** (1 connections) — `docs/DESIGN.md`
-- **Navigation and filtering** (1 connections) — `docs/DESIGN.md`
-- **Product** (1 connections) — `docs/DESIGN.md`
-- **Spacing, radius, shadow, motion** (1 connections) — `docs/DESIGN.md`
-- **Type** (1 connections) — `docs/DESIGN.md`
+- **productsStore.js** (25 connections) — `src/data/productsStore.js`
+- **apiFetch()** (20 connections) — `src/data/api.js`
+- **api.js** (11 connections) — `src/data/api.js`
+- **apiUrl()** (9 connections) — `src/data/api.js`
+- **fetchLiveProducts()** (7 connections) — `src/data/productsStore.js`
+- **syncPricebookWithSession()** (7 connections) — `src/data/productsStore.js`
+- **products.js** (5 connections) — `src/data/products.js`
+- **loadCached()** (4 connections) — `src/data/productsStore.js`
+- **getAccessToken()** (3 connections) — `src/data/auth.js`
+- **emit()** (3 connections) — `src/data/productsStore.js`
+- **syncTagsLive()** (3 connections) — `src/data/productsStore.js`
+- **CATEGORIES** (2 connections) — `src/data/products.js`
+- **getCacheKey()** (2 connections) — `src/data/productsStore.js`
+- **sanitizeCategories()** (2 connections) — `src/data/productsStore.js`
+- **PRODUCTS** (1 connections) — `src/data/products.js`
+- **listeners** (1 connections) — `src/data/productsStore.js`
+- **PREFERRED_ORDER** (1 connections) — `src/data/productsStore.js`
+- **storeState** (1 connections) — `src/data/productsStore.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Project Readme & Layout]] (12 shared connections)
+- [[Product Pages Specification]] (11 shared connections)
+- [[Community 33]] (11 shared connections)
+- [[Oxlint Linter Configuration]] (5 shared connections)
+- [[Community 55]] (4 shared connections)
 
 ## Source Files
 
-- `docs/DESIGN.md`
+- `src/data/api.js`
+- `src/data/auth.js`
+- `src/data/products.js`
+- `src/data/productsStore.js`
 
 ## Audit Trail
 
-- EXTRACTED: 34 (100%)
+- EXTRACTED: 107 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **semantic-lens.test.mjs** (6 connections) — `.agents/skills/archify/test/semantic-lens.test.mjs`
-- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/semantic-lens.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/semantic-lens.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/semantic-lens.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/semantic-lens.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/semantic-lens.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/semantic-lens.test.mjs`
+- **semantic-camera.test.mjs** (6 connections) — `.agents/skills/archify/test/semantic-camera.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/semantic-camera.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/semantic-camera.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/semantic-camera.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/semantic-camera.test.mjs`
+- **svg()** (1 connections) — `.agents/skills/archify/test/semantic-camera.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/semantic-camera.test.mjs`
 
 ## Relationships
 
@@ -18,7 +18,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/semantic-lens.test.mjs`
+- `.agents/skills/archify/test/semantic-camera.test.mjs`
 
 ## Audit Trail
 

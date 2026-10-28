@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **validateContentType.js** (1 connections) — `backend/src/middleware/validateContentType.js`
-- **validateContentType()** (1 connections) — `backend/src/middleware/validateContentType.js`
+- **A11yAnnouncer.jsx** (1 connections) — `src/components/A11yAnnouncer.jsx`
+- **A11yAnnouncer()** (1 connections) — `src/components/A11yAnnouncer.jsx`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `backend/src/middleware/validateContentType.js`
+- `src/components/A11yAnnouncer.jsx`
 
 ## Audit Trail
 

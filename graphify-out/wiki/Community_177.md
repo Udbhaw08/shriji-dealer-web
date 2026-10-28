@@ -4,30 +4,29 @@
 
 ## Key Concepts
 
-- **entries** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **legend** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **mode** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **properties** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **properties** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **enum** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **Website & App Redesign Instructions** (7 connections) — `instructions.md`
+- **2. Tri-Skill Synthesis Engine** (4 connections) — `instructions.md`
+- **instructions.md** (1 connections) — `instructions.md`
+- **1. Core Purpose & Architectural Goals** (1 connections) — `instructions.md`
+- **3. Adaptive Platform UX Strategies** (1 connections) — `instructions.md`
+- **4. Mobile Responsiveness & Layout Hard Rules** (1 connections) — `instructions.md`
+- **5. Domain Rules for Shriji Dealer Web** (1 connections) — `instructions.md`
+- **6. Execution Flow for Redesign Tasks** (1 connections) — `instructions.md`
+- **Skill 1: `refero-design` (Website & Aesthetic Authority)** (1 connections) — `instructions.md`
+- **Skill 2: `apple-design` (HIG Standards & Design Audit Authority)** (1 connections) — `instructions.md`
+- **Skill 3: `swiftui-pro` (Mobile App Ergonomics & View Performance Authority)** (1 connections) — `instructions.md`
 
 ## Relationships
 
-- [[Community 87]] (1 shared connections)
-- [[Community 74]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/architecture.schema.json`
+- `instructions.md`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (100%)
+- EXTRACTED: 20 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
