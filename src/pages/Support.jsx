@@ -1,5 +1,5 @@
-import { useState } from "react";
-import { Link } from "react-router-dom";
+import { useState, useEffect } from "react";
+import { Link, useLocation } from "react-router-dom";
 import { Icon } from "../ui";
 import { useLanguage } from "../data/i18n";
 import { COMPANY, ISSUE_TYPES } from "../data/site";
@@ -32,6 +32,23 @@ export default function Support() {
   const { t } = useLanguage();
   const session = useSession();
   const dealer = session?.dealer;
+  const location = useLocation();
+
+  const [activeGroup, setActiveGroup] = useState(() => {
+    if (typeof window !== "undefined") {
+      const hash = window.location.hash;
+      if (hash === "#sales") return "sales";
+      if (hash === "#service" || hash === "#service-ticket") return "service";
+      if (hash === "#marketing" || hash === "#faq") return "marketing";
+    }
+    return "all";
+  });
+
+  useEffect(() => {
+    if (location.hash === "#sales") setActiveGroup("sales");
+    else if (location.hash === "#service" || location.hash === "#service-ticket") setActiveGroup("service");
+    else if (location.hash === "#marketing" || location.hash === "#faq") setActiveGroup("marketing");
+  }, [location.hash]);
 
   // Contact / Ticket Form State
   const [form, setForm] = useState(() => ({
@@ -136,103 +153,201 @@ ${form.details.trim()}
                   </span>
                   <h1 className="support-title">Dealer Support &amp; Help Center</h1>
                   <p className="support-sub">
-                    Direct access to regional distribution managers, fast-track warranty assistance, transit claim
-                    desk, and official brand marketing collateral.
+                    Direct access to regional distribution managers, fast-track warranty assistance, and official brand marketing collateral.
                   </p>
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-      </section>
 
-      {/* 3 Priority Contact Channels Grid */}
-      <section style={{ paddingTop: "var(--s4)" }}>
-        <div className="wrap">
-          <div className="support-channels-grid">
-            {/* Channel 1: Hotline */}
-            <div className="support-channel-card">
-              <div className="support-channel-top">
-                <div className="support-channel-icon-wrap phone">
-                  <Icon name="phone" size={22} />
-                </div>
-                <span className="badge badge-blue">Priority Phone Desk</span>
-              </div>
-              <div className="support-channel-body">
-                <h3>Direct Trade Hotline</h3>
-                <span className="support-channel-highlight">{COMPANY.phone}</span>
-                <p className="support-channel-desc">
-                  Connect immediately with our Mumbai distribution office for urgent stock allocations, dispatch
-                  updates, and order booking.
-                </p>
-              </div>
-              <a
-                href={`tel:${COMPANY.phone.replace(/[^0-9+]/g, "")}`}
-                className="btn btn-navy"
-                style={{ width: "100%", justifyContent: "center" }}
+            {/* Department Groups Segmented Filter Tabs */}
+            <div className="scheme-segmented-tabs" role="tablist" style={{ marginTop: "1.25rem" }}>
+              <button
+                type="button"
+                className={`scheme-seg-tab ${activeGroup === "all" ? "active" : ""}`}
+                role="tab"
+                aria-selected={activeGroup === "all"}
+                onClick={() => setActiveGroup("all")}
               >
-                <Icon name="phone" size={16} /> Call Priority Desk
-              </a>
-            </div>
-
-            {/* Channel 2: WhatsApp Desk (Featured) */}
-            <div className="support-channel-card featured">
-              <div className="support-channel-top">
-                <div className="support-channel-icon-wrap wa">
-                  <Icon name="wa" size={22} />
-                </div>
-                <span className="support-live-dot">Online Now · TAT &lt; 15m</span>
-              </div>
-              <div className="support-channel-body">
-                <h3>WhatsApp Trade Desk</h3>
-                <span className="support-channel-highlight">Instant Photo &amp; Docket Help</span>
-                <p className="support-channel-desc">
-                  Fastest way to share unboxing videos, e-way bills, proof of delivery, and enquire on eligible volume
-                  scheme slabs.
-                </p>
-              </div>
-              <a
-                href={`https://wa.me/${COMPANY.phoneRaw}?text=${encodeURIComponent("Hi Sunshine / Shriji Team, I am an authorized dealer requiring quick trade assistance.")}`}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn btn-wa"
-                style={{ width: "100%", justifyContent: "center" }}
+                All Departments
+              </button>
+              <button
+                type="button"
+                className={`scheme-seg-tab ${activeGroup === "sales" ? "active" : ""}`}
+                role="tab"
+                aria-selected={activeGroup === "sales"}
+                onClick={() => setActiveGroup("sales")}
               >
-                <Icon name="chat" size={16} /> Chat on WhatsApp
-              </a>
-            </div>
-
-            {/* Channel 3: Service Escalation */}
-            <div className="support-channel-card">
-              <div className="support-channel-top">
-                <div className="support-channel-icon-wrap service">
-                  <Icon name="bolt" size={22} />
-                </div>
-                <span className="badge badge-warn">48-Hr Service TAT</span>
-              </div>
-              <div className="support-channel-body">
-                <h3>Service &amp; Warranty RMA</h3>
-                <span className="support-channel-highlight">{COMPANY.email}</span>
-                <p className="support-channel-desc">
-                  Doorstep technician requests, burner/glass replacement claims, and genuine factory spares dispatch.
-                </p>
-              </div>
-              <a
-                href="#service-ticket"
-                className="btn btn-ghost"
-                style={{ width: "100%", justifyContent: "center" }}
+                Sales
+              </button>
+              <button
+                type="button"
+                className={`scheme-seg-tab ${activeGroup === "service" ? "active" : ""}`}
+                role="tab"
+                aria-selected={activeGroup === "service"}
+                onClick={() => setActiveGroup("service")}
               >
-                <Icon name="doc" size={16} /> Raise Service Ticket
-              </a>
+                Service
+              </button>
+              <button
+                type="button"
+                className={`scheme-seg-tab ${activeGroup === "marketing" ? "active" : ""}`}
+                role="tab"
+                aria-selected={activeGroup === "marketing"}
+                onClick={() => setActiveGroup("marketing")}
+              >
+                Marketing &amp; FAQ
+              </button>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Interactive Service & Warranty Ticket Request Form */}
-      <section className="sec" id="service-ticket" style={{ scrollMarginTop: "90px" }}>
-        <div className="wrap">
-          <div className="support-form-card">
+      {/* GROUP 1: SALES */}
+      {(activeGroup === "all" || activeGroup === "sales") && (
+        <section className="sec" id="sales" style={{ paddingTop: "var(--s4)" }}>
+          <div className="wrap">
+            <div className="sec-head">
+              <div>
+                <span className="badge badge-blue">SALES</span>
+                <h2 className="d2" style={{ marginTop: "6px" }}>Sales Desk</h2>
+                <p className="sub" style={{ marginTop: "4px" }}>
+                  Orders, pricing enquiries, volume allocations, and dispatch coordination.
+                </p>
+              </div>
+            </div>
+
+            <div className="support-channels-grid">
+              {/* Sales 1: Direct Trade Hotline */}
+              <div className="support-channel-card">
+                <div className="support-channel-top">
+                  <div className="support-channel-icon-wrap phone">
+                    <Icon name="phone" size={22} />
+                  </div>
+                  <span className="badge badge-blue">SALES</span>
+                </div>
+                <div className="support-channel-body">
+                  <h3>Direct Trade Hotline</h3>
+                  <p className="support-channel-desc" style={{ fontSize: "0.92rem", lineHeight: 1.55 }}>
+                    Speak directly with our sales team. Get assistance with dealer enquiries, pricing, stock availability, order placement, urgent dispatch coordination and business-related queries.
+                  </p>
+                </div>
+                <div style={{ marginTop: "auto", display: "grid", gap: 8 }}>
+                  <a
+                    href={`tel:${COMPANY.phone.replace(/[^0-9+]/g, "")}`}
+                    className="btn btn-navy"
+                    style={{ width: "100%", justifyContent: "center" }}
+                  >
+                    <Icon name="phone" size={16} /> Call Sales Desk
+                  </a>
+                  <span style={{ fontSize: "0.8rem", color: "var(--tx-3)", textAlign: "center" }}>
+                    Opens your business phone number directly.
+                  </span>
+                </div>
+              </div>
+
+              {/* Sales 2: WhatsApp Trade Desk */}
+              <div className="support-channel-card featured">
+                <div className="support-channel-top">
+                  <div className="support-channel-icon-wrap wa">
+                    <Icon name="wa" size={22} />
+                  </div>
+                  <span className="badge badge-green">SALES</span>
+                </div>
+                <div className="support-channel-body">
+                  <h3>WhatsApp Trade Desk</h3>
+                  <span className="support-channel-highlight">Orders, dispatches and everyday dealer assistance.</span>
+                  <p className="support-channel-desc" style={{ fontSize: "0.92rem", lineHeight: 1.55 }}>
+                    Send order requirements, product enquiries, delivery follow-ups, payment confirmations and scheme-related questions directly to our trade team via WhatsApp.
+                  </p>
+                </div>
+                <div style={{ marginTop: "auto" }}>
+                  <a
+                    href={`https://wa.me/${COMPANY.phoneRaw}?text=${encodeURIComponent("Hi Shriji Sales Team, I would like to place an order / enquire on trade pricing.")}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn btn-wa"
+                    style={{ width: "100%", justifyContent: "center" }}
+                  >
+                    <Icon name="chat" size={16} /> Chat on WhatsApp
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* GROUP 2: SERVICE */}
+      {(activeGroup === "all" || activeGroup === "service") && (
+        <section className="sec" id="service" style={{ paddingTop: "var(--s4)" }}>
+          <div className="wrap">
+            <div className="sec-head">
+              <div>
+                <span className="badge badge-warn">SERVICE</span>
+                <h2 className="d2" style={{ marginTop: "6px" }}>Service &amp; Warranty Desk</h2>
+                <p className="sub" style={{ marginTop: "4px" }}>
+                  Dedicated support for technician requests, installation assistance, and genuine spares.
+                </p>
+              </div>
+            </div>
+
+            {/* Service & Warranty Card */}
+            <div
+              className="card pad"
+              style={{
+                borderRadius: "var(--r-xl, 20px)",
+                border: "1.5px solid var(--line, #dce4ed)",
+                background: "#ffffff",
+                boxShadow: "0 6px 24px rgba(16, 38, 58, 0.05)",
+                padding: "clamp(20px, 3.5vw, 32px)",
+                marginBottom: "var(--s4)",
+              }}
+            >
+              <div style={{ display: "flex", alignItems: "flex-start", gap: 16, marginBottom: 16, flexWrap: "wrap" }}>
+                <div className="support-channel-icon-wrap service" style={{ width: 48, height: 48, borderRadius: 12 }}>
+                  <Icon name="bolt" size={24} />
+                </div>
+                <div style={{ flex: "1 1 240px" }}>
+                  <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 4 }}>
+                    <h3 style={{ margin: 0, fontSize: "1.35rem", fontWeight: 800 }}>Service &amp; Warranty Desk</h3>
+                    <span className="badge badge-warn">SERVICE</span>
+                  </div>
+                  <span style={{ fontSize: "0.95rem", fontWeight: 700, color: "var(--navy-2, #174d7a)" }}>
+                    Dedicated WhatsApp support
+                  </span>
+                </div>
+              </div>
+
+              <p style={{ fontSize: "0.96rem", color: "var(--tx-2, #475569)", lineHeight: 1.6, margin: "0 0 24px", maxWidth: "68ch" }}>
+                For service requests, installation assistance, warranty-related queries, technical troubleshooting and genuine spare parts enquiries.
+              </p>
+
+              <div style={{ display: "flex", gap: 12, flexWrap: "wrap", alignItems: "center" }}>
+                <a
+                  href={`https://wa.me/${COMPANY.phoneRaw}?text=${encodeURIComponent("Hi Shriji Service Desk, I need technician / warranty support for an appliance.")}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-navy"
+                  style={{ padding: "12px 22px" }}
+                >
+                  <Icon name="chat" size={16} /> Chat with Service Desk
+                </a>
+                <Link
+                  to="/terms"
+                  className="btn btn-ghost"
+                  style={{ padding: "12px 22px" }}
+                >
+                  <Icon name="doc" size={16} /> Service Terms &amp; Conditions
+                </Link>
+              </div>
+
+              <span style={{ display: "block", marginTop: 14, fontSize: "0.82rem", color: "var(--tx-3, #94a3b8)" }}>
+                Both actions are connected to their respective live destinations on the website.
+              </span>
+            </div>
+
+            {/* Interactive Service & Warranty Ticket Request Form */}
+            <div className="support-form-card" id="service-ticket" style={{ scrollMarginTop: "90px" }}>
             <div className="support-form-head">
               <h2>Raise a Service or Warranty Request</h2>
               <p>
@@ -374,177 +489,173 @@ ${form.details.trim()}
           </div>
         </div>
       </section>
+      )}
 
-      {/* Marketing Material & Digital Brand Assets Hub (Modern Maintenance / Upgrade Representation) */}
-      <section className="sec support-assets-sec" id="marketing" style={{ scrollMarginTop: "90px" }}>
-        <div className="wrap">
-          <div className="support-maint-card">
-            {/* Glowing Icon Halo */}
-            <div className="support-maint-icon-halo">
-              <div className="support-maint-icon-inner">
-                <Icon name="image" size={26} />
+      {/* GROUP 3: MARKETING & FAQ */}
+      {(activeGroup === "all" || activeGroup === "marketing") && (
+        <section className="sec" id="marketing" style={{ paddingTop: "var(--s4)" }}>
+          <div className="wrap">
+            <div className="sec-head">
+              <div>
+                <span className="badge badge-blue">MARKETING &amp; FAQ</span>
+                <h2 className="d2" style={{ marginTop: "6px" }}>Product Media &amp; Catalogues</h2>
+                <p className="sub" style={{ marginTop: "4px" }}>
+                  Access official product resources for your store, all in one place.
+                </p>
               </div>
             </div>
 
-            {/* Pulsing Status Pill */}
-            <span className="support-maint-status-pill">
-              Asset Library Upgrade In Progress · FY 2026–27
-            </span>
+            {/* Media & Catalogues Cards (Matches Sheet 2 Reference image19) */}
+            <div
+              style={{
+                display: "grid",
+                gridTemplateColumns: "repeat(auto-fit, minmax(min(100%, 340px), 1fr))",
+                gap: "var(--s3, 16px)",
+                marginBottom: "var(--s5, 36px)",
+              }}
+            >
+              {/* Card 1: Product Catalogues */}
+              <div
+                className="card pad"
+                style={{
+                  borderRadius: "var(--r-xl, 20px)",
+                  border: "1.5px solid var(--line, #dce4ed)",
+                  background: "#ffffff",
+                  boxShadow: "0 4px 18px rgba(16, 38, 58, 0.04)",
+                  padding: "24px 22px",
+                  display: "flex",
+                  flexDirection: "column",
+                  justifyContent: "space-between",
+                }}
+              >
+                <div style={{ display: "flex", alignItems: "flex-start", gap: 14, marginBottom: 18 }}>
+                  <div
+                    style={{
+                      width: 44,
+                      height: 44,
+                      borderRadius: "var(--r-sm, 10px)",
+                      background: "rgba(16, 38, 58, 0.06)",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                      color: "var(--navy, #10263a)",
+                      flexShrink: 0,
+                    }}
+                  >
+                    <Icon name="doc" size={22} />
+                  </div>
+                  <div>
+                    <h3 style={{ margin: "0 0 4px", fontSize: "1.15rem", fontWeight: 800, color: "var(--tx, #10263a)" }}>
+                      Product Catalogues
+                    </h3>
+                    <p style={{ margin: 0, fontSize: "0.88rem", color: "var(--tx-2, #64748b)", lineHeight: 1.5 }}>
+                      Product catalogues, specifications and brochures.
+                    </p>
+                  </div>
+                </div>
 
-            {/* Heading & Subtitle */}
-            <h2 className="support-maint-title">
-              Official Brand Assets &amp; Marketing Media Kit
-            </h2>
-            <p className="support-maint-desc">
-              Our official digital collateral repository is currently undergoing scheduled maintenance &amp; studio
-              refresh. High-resolution 4K product cutouts, retail showroom standee prints, and updated 2026–27 catalog
-              PDFs are being packaged and will be available here shortly.
-            </p>
-
-            {/* Modern Upcoming Media Chips */}
-            <div className="support-maint-chips-grid">
-              <div className="support-maint-chip">
-                <div className="support-maint-chip-icon">
-                  <Icon name="image" size={16} />
-                </div>
-                <div className="support-maint-chip-info">
-                  <span className="support-maint-chip-title">4K Master Product Renders</span>
-                  <span className="support-maint-chip-sub">White-bg &amp; lifestyle cutouts for store ads</span>
-                </div>
-              </div>
-
-              <div className="support-maint-chip">
-                <div className="support-maint-chip-icon">
-                  <Icon name="doc" size={16} />
-                </div>
-                <div className="support-maint-chip-info">
-                  <span className="support-maint-chip-title">Master Product Catalogue 2026</span>
-                  <span className="support-maint-chip-sub">Full technical specifications &amp; range PDF</span>
-                </div>
-              </div>
-
-              <div className="support-maint-chip">
-                <div className="support-maint-chip-icon">
-                  <Icon name="badge" size={16} />
-                </div>
-                <div className="support-maint-chip-info">
-                  <span className="support-maint-chip-title">Vector Brand Identity &amp; Logos</span>
-                  <span className="support-maint-chip-sub">Sunshine &amp; ReSTOR official vector files</span>
-                </div>
-              </div>
-
-              <div className="support-maint-chip">
-                <div className="support-maint-chip-icon">
-                  <Icon name="sparkle" size={16} />
-                </div>
-                <div className="support-maint-chip-info">
-                  <span className="support-maint-chip-title">Showroom Standee Creatives</span>
-                  <span className="support-maint-chip-sub">6×3 &amp; 5×2 ft flex &amp; vinyl designs</span>
-                </div>
-              </div>
-            </div>
-
-            {/* Instant Fallback / Priority Request Bar */}
-            <div className="support-maint-action-box">
-              <div className="support-maint-action-text">
-                <b>Need immediate high-res logos or product photographs?</b>
-                <span>Our creative desk can dispatch customized asset packs directly to your store on WhatsApp.</span>
-              </div>
-              <div style={{ display: "flex", gap: "8px", flexWrap: "wrap" }}>
                 <a
-                  href={`https://wa.me/${COMPANY.phoneRaw}?text=${encodeURIComponent("Hi Sunshine / Shriji Team, I need immediate high-res brand logos or product photos for our store display.")}`}
+                  href="/downloads/Sunshine-Range-Brochure-2026.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="btn btn-wa btn-sm"
-                  style={{ gap: "6px" }}
+                  className="btn btn-navy"
+                  style={{ width: "100%", justifyContent: "center" }}
                 >
-                  <Icon name="wa" size={15} /> Request on WhatsApp
-                </a>
-                <a
-                  href={`mailto:${COMPANY.email}?subject=${encodeURIComponent("Urgent Brand Asset Requisition")}&body=${encodeURIComponent("Hi Shriji Team,\n\nPlease share the high-resolution logo and product image pack for our retail showroom.\n\nStore Name:\nCity:\nContact:")}`}
-                  className="btn btn-ghost btn-sm"
-                  style={{ gap: "6px" }}
-                >
-                  <Icon name="mail" size={15} /> Email Media Desk
+                  <Icon name="doc" size={15} /> View Catalogues
                 </a>
               </div>
-            </div>
-          </div>
-        </div>
-      </section>
 
-      {/* Dealer Operations FAQ Accordion */}
-      <section className="sec support-faq-sec">
-        <div className="wrap">
-          <div className="sec-head">
-            <div>
-              <span className="badge badge-warn">Dealer FAQ</span>
-              <h2 className="d2" style={{ marginTop: "6px" }}>
-                Frequently Asked Operational Questions
-              </h2>
-              <p className="sub" style={{ marginTop: "4px" }}>
-                Quick answers on trade credit, warranty claim procedures, spare parts, and transit replacements.
-              </p>
-            </div>
-          </div>
-
-          <div className="support-faq-list">
-            {FAQS.map((faq, idx) => {
-              const isOpen = openFaq === idx;
-              return (
-                <div key={idx} className={`support-faq-item ${isOpen ? "open" : ""}`}>
-                  <button
-                    type="button"
-                    className="support-faq-trigger"
-                    onClick={() => setOpenFaq(isOpen ? null : idx)}
-                    aria-expanded={isOpen}
-                  >
-                    <span>{faq.q}</span>
-                    <span className="support-faq-icon" aria-hidden="true">
-                      <Icon name="chev" size={14} />
-                    </span>
-                  </button>
-                  {isOpen && <div className="support-faq-content">{faq.a}</div>}
-                </div>
-              );
-            })}
-          </div>
-        </div>
-      </section>
-
-      {/* Central Depot & Warehouse Location Banner */}
-      <section style={{ paddingTop: "var(--s4)" }}>
-        <div className="wrap">
-          <div className="support-depot-card">
-            <div className="support-depot-left">
-              <span className="support-depot-badge">
-                <Icon name="pin" size={12} /> Regional Distribution Depot
-              </span>
-              <h3>Shriji Domestic Appliances Depot</h3>
-              <p>
-                {COMPANY.address} · Maharashtra 400104. Stock inspections, bulk order pickups, and immediate warranty
-                spares dispatch.
-              </p>
-              <div className="support-depot-hours">
-                <Icon name="clock" size={14} />
-                <span>Working Hours: Monday – Saturday, 9:30 AM to 7:00 PM (Closed Sundays)</span>
-              </div>
-            </div>
-
-            <div>
-              <a
-                href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent("Motilal Nagar 1, Goregaon West, Mumbai")}`}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn btn-amber"
-                style={{ padding: "12px 22px" }}
+              {/* Card 2: Product Images & Videos */}
+              <div
+                className="card pad"
+                style={{
+                  borderRadius: "var(--r-xl, 20px)",
+                  border: "1.5px solid var(--line, #dce4ed)",
+                  background: "#ffffff",
+                  boxShadow: "0 4px 18px rgba(16, 38, 58, 0.04)",
+                  padding: "24px 22px",
+                  display: "flex",
+                  flexDirection: "column",
+                  justifyContent: "space-between",
+                }}
               >
-                <Icon name="pin" size={16} /> Open in Google Maps
-              </a>
+                <div style={{ display: "flex", alignItems: "flex-start", gap: 14, marginBottom: 18 }}>
+                  <div
+                    style={{
+                      width: 44,
+                      height: 44,
+                      borderRadius: "var(--r-sm, 10px)",
+                      background: "rgba(16, 38, 58, 0.06)",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                      color: "var(--navy, #10263a)",
+                      flexShrink: 0,
+                    }}
+                  >
+                    <Icon name="image" size={22} />
+                  </div>
+                  <div>
+                    <h3 style={{ margin: "0 0 4px", fontSize: "1.15rem", fontWeight: 800, color: "var(--tx, #10263a)" }}>
+                      Product Images &amp; Videos
+                    </h3>
+                    <p style={{ margin: 0, fontSize: "0.88rem", color: "var(--tx-2, #64748b)", lineHeight: 1.5 }}>
+                      High-resolution product photos and product demonstration videos.
+                    </p>
+                  </div>
+                </div>
+
+                <a
+                  href={`https://wa.me/${COMPANY.phoneRaw}?text=${encodeURIComponent("Hi Shriji Marketing Desk, please share the high-resolution product photos and demonstration videos for our retail showroom.")}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-navy"
+                  style={{ width: "100%", justifyContent: "center" }}
+                >
+                  <Icon name="image" size={15} /> View Media Library
+                </a>
+              </div>
+            </div>
+
+            {/* Dealer Operations FAQ Accordion */}
+            <div id="faq" style={{ scrollMarginTop: "90px" }}>
+              <div className="sec-head">
+                <div>
+                  <span className="badge badge-warn">Dealer FAQ</span>
+                  <h3 className="d2" style={{ fontSize: "1.45rem", marginTop: "6px" }}>
+                    Frequently Asked Operational Questions
+                  </h3>
+                  <p className="sub" style={{ marginTop: "4px" }}>
+                    Quick answers on trade credit, warranty claim procedures, spare parts, and transit replacements.
+                  </p>
+                </div>
+              </div>
+
+              <div className="support-faq-list">
+                {FAQS.map((faq, idx) => {
+                  const isOpen = openFaq === idx;
+                  return (
+                    <div key={idx} className={`support-faq-item ${isOpen ? "open" : ""}`}>
+                      <button
+                        type="button"
+                        className="support-faq-trigger"
+                        onClick={() => setOpenFaq(isOpen ? null : idx)}
+                        aria-expanded={isOpen}
+                      >
+                        <span>{faq.q}</span>
+                        <span className="support-faq-icon" aria-hidden="true">
+                          <Icon name="chev" size={14} />
+                        </span>
+                      </button>
+                      {isOpen && <div className="support-faq-content">{faq.a}</div>}
+                    </div>
+                  );
+                })}
+              </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
+      )}
     </div>
   );
 }

@@ -609,428 +609,185 @@ export default function Login() {
           );
         })()}
 
-        {/* UNAUTHENTICATED EXECUTIVE WORKSPACE (Split view on Desktop, single card on mobile) */}
+        {/* UNAUTHENTICATED EXECUTIVE WORKSPACE (Clean Apple HIG Centered Gateway matching image23) */}
         {!isAuthenticated && (
           <div
             style={{
-              display: "grid",
-              gridTemplateColumns: "repeat(auto-fit, minmax(min(100%, 420px), 1fr))",
-              gap: "clamp(20px, 3vw, 36px)",
-              alignItems: "start",
+              maxWidth: 520,
+              margin: "0 auto",
+              width: "100%",
             }}
           >
-            {/* LEFT COLUMN: BRAND SHOWCASE & TRUST HIGHLIGHTS */}
-            <div
-              style={{
-                background: "linear-gradient(145deg, #10263a 0%, #163854 100%)",
-                borderRadius: "var(--r-xl, 22px)",
-                padding: "clamp(24px, 4vw, 36px)",
-                color: "#ffffff",
-                boxShadow: "0 16px 40px -12px rgba(16, 38, 58, 0.4)",
-                display: "flex",
-                flexDirection: "column",
-                justifyContent: "space-between",
-                minHeight: 480,
-              }}
-            >
-              <div>
-                <div
-                  style={{
-                    display: "inline-flex",
-                    alignItems: "center",
-                    gap: 8,
-                    padding: "5px 12px",
-                    borderRadius: 999,
-                    background: "rgba(255, 255, 255, 0.12)",
-                    border: "1px solid rgba(255, 255, 255, 0.18)",
-                    fontSize: "0.78rem",
-                    fontWeight: 700,
-                    letterSpacing: "0.04em",
-                    marginBottom: 18,
-                  }}
-                >
-                  <Icon name="shield" size={13} />
-                  <span>Authorized Sunshine Distributor</span>
-                </div>
-
-                <h2
-                  style={{
-                    fontSize: "clamp(1.5rem, 2.5vw, 1.95rem)",
-                    fontWeight: 800,
-                    lineHeight: 1.25,
-                    margin: "0 0 12px",
-                    letterSpacing: "-0.025em",
-                    color: "#ffffff",
-                  }}
-                >
-                  Wholesale & Showroom Portal
-                </h2>
-
-                <p
-                  style={{
-                    fontSize: "0.92rem",
-                    lineHeight: 1.55,
-                    color: "rgba(255, 255, 255, 0.8)",
-                    margin: "0 0 28px",
-                  }}
-                >
-                  Dedicated trade access for verified dealer store owners and showroom sales associates across India.
-                </p>
-
-                {/* 3 Value Pillars */}
-                <div style={{ display: "grid", gap: 16 }}>
-                  <div style={{ display: "flex", alignItems: "flex-start", gap: 12 }}>
-                    <div
-                      style={{
-                        width: 36,
-                        height: 36,
-                        borderRadius: "var(--r-sm, 10px)",
-                        background: "rgba(255, 255, 255, 0.1)",
-                        display: "flex",
-                        alignItems: "center",
-                        justifyContent: "center",
-                        flexShrink: 0,
-                      }}
-                    >
-                      <Icon name="badge" size={18} />
-                    </div>
-                    <div>
-                      <strong style={{ fontSize: "0.92rem", display: "block", color: "#ffffff" }}>
-                        Wholesale Rate Masking
-                      </strong>
-                      <span style={{ fontSize: "0.82rem", color: "rgba(255, 255, 255, 0.72)", lineHeight: 1.4, display: "block" }}>
-                        B2B discount pricebooks securely protected from public customer view.
-                      </span>
-                    </div>
-                  </div>
-
-                  <div style={{ display: "flex", alignItems: "flex-start", gap: 12 }}>
-                    <div
-                      style={{
-                        width: 36,
-                        height: 36,
-                        borderRadius: "var(--r-sm, 10px)",
-                        background: "rgba(255, 255, 255, 0.1)",
-                        display: "flex",
-                        alignItems: "center",
-                        justifyContent: "center",
-                        flexShrink: 0,
-                      }}
-                    >
-                      <Icon name="wa" size={18} />
-                    </div>
-                    <div>
-                      <strong style={{ fontSize: "0.92rem", display: "block", color: "#ffffff" }}>
-                        Instant WhatsApp Verification
-                      </strong>
-                      <span style={{ fontSize: "0.82rem", color: "rgba(255, 255, 255, 0.72)", lineHeight: 1.4, display: "block" }}>
-                        Secure passwordless login linked directly to your registered business mobile.
-                      </span>
-                    </div>
-                  </div>
-
-                  <div style={{ display: "flex", alignItems: "flex-start", gap: 12 }}>
-                    <div
-                      style={{
-                        width: 36,
-                        height: 36,
-                        borderRadius: "var(--r-sm, 10px)",
-                        background: "rgba(255, 255, 255, 0.1)",
-                        display: "flex",
-                        alignItems: "center",
-                        justifyContent: "center",
-                        flexShrink: 0,
-                      }}
-                    >
-                      <Icon name="user" size={18} />
-                    </div>
-                    <div>
-                      <strong style={{ fontSize: "0.92rem", display: "block", color: "#ffffff" }}>
-                        Showroom Team Linking
-                      </strong>
-                      <span style={{ fontSize: "0.82rem", color: "rgba(255, 255, 255, 0.72)", lineHeight: 1.4, display: "block" }}>
-                        Staff connect via store Dealer Code to share customer catalogs and calculate margins.
-                      </span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              {/* Trust Footer */}
+            {/* VIEW A: THE 2-PATHWAY ROLE GATEWAY (Matches Sheet 2 image23) */}
+            {!selectedRole && (
               <div
+                className="card pad"
                 style={{
-                  marginTop: 32,
-                  paddingTop: 18,
-                  borderTop: "1px solid rgba(255, 255, 255, 0.14)",
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "space-between",
-                  fontSize: "0.78rem",
-                  color: "rgba(255, 255, 255, 0.65)",
+                  boxShadow: "0 12px 36px -10px rgba(16, 38, 58, 0.08)",
+                  borderRadius: "24px",
+                  border: "1.5px solid var(--line, #dce4ed)",
+                  padding: "clamp(24px, 4vw, 36px)",
+                  background: "#ffffff",
                 }}
               >
-                <span>ReSTOR · Shriji Appliances</span>
-                <span>Powered by Zoho CRM</span>
-              </div>
-            </div>
-
-            {/* RIGHT COLUMN: INTERACTIVE ROLE GATEWAY & FORMS */}
-            <div>
-              {/* VIEW A: THE 4 ROLES GATEWAY (Shown when no active role is picked) */}
-              {!selectedRole && (
-                <div
-                  className="card pad"
-                  style={{
-                    boxShadow: "0 10px 30px -10px rgba(16, 38, 58, 0.1)",
-                    borderRadius: "var(--r-xl, 20px)",
-                    border: "1.5px solid var(--line, #dce4ed)",
-                    padding: "clamp(20px, 3.5vw, 32px)",
-                  }}
-                >
-                  <div style={{ marginBottom: 20 }}>
-                    <h1 style={{ fontSize: "1.55rem", fontWeight: 800, margin: "0 0 6px", color: "var(--tx)", letterSpacing: "-0.02em" }}>
-                      Sign In or Join
-                    </h1>
-                    <p style={{ margin: 0, color: "var(--tx-2)", fontSize: "0.88rem", lineHeight: 1.5 }}>
-                      Select your account pathway to continue into the portal:
-                    </p>
-                  </div>
-
-                  <div style={{ display: "grid", gap: 12 }}>
-                    {/* OPTION 1: LOGIN AS DEALER (ACTIVE) */}
-                    <button
-                      type="button"
-                      onClick={() => handleSelectRole("dealer")}
-                      style={{
-                        display: "flex",
-                        alignItems: "center",
-                        justifyContent: "space-between",
-                        padding: "16px 18px",
-                        borderRadius: "var(--r, 14px)",
-                        border: "1.5px solid var(--line, #dce4ed)",
-                        background: "#ffffff",
-                        textAlign: "left",
-                        cursor: "pointer",
-                        transition: "all 0.2s ease",
-                        boxShadow: "0 2px 8px rgba(16, 38, 58, 0.04)",
-                      }}
-                      onMouseEnter={(e) => {
-                        e.currentTarget.style.borderColor = "var(--navy, #10263a)";
-                        e.currentTarget.style.boxShadow = "0 6px 20px -4px rgba(16, 38, 58, 0.12)";
-                        e.currentTarget.style.transform = "translateY(-1px)";
-                      }}
-                      onMouseLeave={(e) => {
-                        e.currentTarget.style.borderColor = "var(--line, #dce4ed)";
-                        e.currentTarget.style.boxShadow = "0 2px 8px rgba(16, 38, 58, 0.04)";
-                        e.currentTarget.style.transform = "none";
-                      }}
-                    >
-                      <div style={{ display: "flex", alignItems: "center", gap: 14 }}>
-                        <div
-                          style={{
-                            width: 44,
-                            height: 44,
-                            borderRadius: "var(--r-sm, 10px)",
-                            background: "var(--navy, #10263a)",
-                            color: "#fff",
-                            display: "flex",
-                            alignItems: "center",
-                            justifyContent: "center",
-                            flexShrink: 0,
-                          }}
-                        >
-                          <Icon name="shield" size={20} />
-                        </div>
-                        <div>
-                          <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 2 }}>
-                            <span style={{ fontSize: "1.02rem", fontWeight: 800, color: "var(--tx)" }}>
-                              Login as Dealer
-                            </span>
-                            <span style={{ fontSize: "0.72rem", fontWeight: 700, padding: "2px 8px", borderRadius: 999, background: "#dbeafe", color: "#1e40af" }}>
-                              Wholesale
-                            </span>
-                          </div>
-                          <span style={{ fontSize: "0.82rem", color: "var(--tx-2)", display: "block" }}>
-                            Store owners with wholesale trade rate access
-                          </span>
-                        </div>
-                      </div>
-                      <span style={{ color: "var(--navy, #10263a)", fontSize: "1.1rem", fontWeight: 700 }}>→</span>
-                    </button>
-
-                    {/* OPTION 2: CONTINUE AS STAFF (ACTIVE) */}
-                    <button
-                      type="button"
-                      onClick={() => handleSelectRole("staff")}
-                      style={{
-                        display: "flex",
-                        alignItems: "center",
-                        justifyContent: "space-between",
-                        padding: "16px 18px",
-                        borderRadius: "var(--r, 14px)",
-                        border: "1.5px solid var(--line, #dce4ed)",
-                        background: "#ffffff",
-                        textAlign: "left",
-                        cursor: "pointer",
-                        transition: "all 0.2s ease",
-                        boxShadow: "0 2px 8px rgba(16, 38, 58, 0.04)",
-                      }}
-                      onMouseEnter={(e) => {
-                        e.currentTarget.style.borderColor = "var(--navy, #10263a)";
-                        e.currentTarget.style.boxShadow = "0 6px 20px -4px rgba(16, 38, 58, 0.12)";
-                        e.currentTarget.style.transform = "translateY(-1px)";
-                      }}
-                      onMouseLeave={(e) => {
-                        e.currentTarget.style.borderColor = "var(--line, #dce4ed)";
-                        e.currentTarget.style.boxShadow = "0 2px 8px rgba(16, 38, 58, 0.04)";
-                        e.currentTarget.style.transform = "none";
-                      }}
-                    >
-                      <div style={{ display: "flex", alignItems: "center", gap: 14 }}>
-                        <div
-                          style={{
-                            width: 44,
-                            height: 44,
-                            borderRadius: "var(--r-sm, 10px)",
-                            background: "#e0e7ff",
-                            color: "#3730a3",
-                            display: "flex",
-                            alignItems: "center",
-                            justifyContent: "center",
-                            flexShrink: 0,
-                          }}
-                        >
-                          <Icon name="user" size={20} />
-                        </div>
-                        <div>
-                          <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 2 }}>
-                            <span style={{ fontSize: "1.02rem", fontWeight: 800, color: "var(--tx)" }}>
-                              Continue as Staff
-                            </span>
-                            <span style={{ fontSize: "0.72rem", fontWeight: 700, padding: "2px 8px", borderRadius: 999, background: "#ede9fe", color: "#5b21b6" }}>
-                              Store Code
-                            </span>
-                          </div>
-                          <span style={{ fontSize: "0.82rem", color: "var(--tx-2)", display: "block" }}>
-                            Sales team joining showroom with Dealer Code
-                          </span>
-                        </div>
-                      </div>
-                      <span style={{ color: "var(--navy, #10263a)", fontSize: "1.1rem", fontWeight: 700 }}>→</span>
-                    </button>
-
-                    {/* OPTION 3: CONTINUE AS CUSTOMER (FADED OUT & UNCLICKABLE) */}
-                    <div
-                      aria-disabled="true"
-                      style={{
-                        display: "flex",
-                        alignItems: "center",
-                        justifyContent: "space-between",
-                        padding: "16px 18px",
-                        borderRadius: "var(--r, 14px)",
-                        border: "1.5px solid var(--line, #dce4ed)",
-                        background: "#fafafa",
-                        opacity: 0.38,
-                        pointerEvents: "none",
-                        cursor: "not-allowed",
-                        userSelect: "none",
-                      }}
-                    >
-                      <div style={{ display: "flex", alignItems: "center", gap: 14 }}>
-                        <div
-                          style={{
-                            width: 44,
-                            height: 44,
-                            borderRadius: "var(--r-sm, 10px)",
-                            background: "#f1f5f9",
-                            color: "#64748b",
-                            display: "flex",
-                            alignItems: "center",
-                            justifyContent: "center",
-                            flexShrink: 0,
-                          }}
-                        >
-                          <Icon name="grid" size={20} />
-                        </div>
-                        <div>
-                          <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 2 }}>
-                            <span style={{ fontSize: "1.02rem", fontWeight: 700, color: "var(--tx-3)" }}>
-                              Continue as Customer
-                            </span>
-                            <span style={{ fontSize: "0.72rem", fontWeight: 700, padding: "2px 8px", borderRadius: 999, background: "#e2e8f0", color: "#64748b" }}>
-                              Direct Browse Only
-                            </span>
-                          </div>
-                          <span style={{ fontSize: "0.82rem", color: "var(--tx-3)", display: "block" }}>
-                            Retail catalog viewing is available directly from catalogue
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-
-                    {/* OPTION 4: APPLY FOR DEALERSHIP (ACTIVE ONBOARDING) */}
-                    <Link
-                      to="/dealer/apply"
-                      style={{
-                        display: "flex",
-                        alignItems: "center",
-                        justifyContent: "space-between",
-                        padding: "16px 18px",
-                        borderRadius: "var(--r, 14px)",
-                        border: "1.5px solid var(--line, #dce4ed)",
-                        background: "#ffffff",
-                        cursor: "pointer",
-                        textDecoration: "none",
-                        color: "inherit",
-                        transition: "all 0.2s ease",
-                        boxShadow: "0 2px 8px rgba(16, 38, 58, 0.04)",
-                      }}
-                      onMouseEnter={(e) => {
-                        e.currentTarget.style.borderColor = "var(--navy, #10263a)";
-                        e.currentTarget.style.boxShadow = "0 6px 20px -4px rgba(16, 38, 58, 0.12)";
-                        e.currentTarget.style.transform = "translateY(-1px)";
-                      }}
-                      onMouseLeave={(e) => {
-                        e.currentTarget.style.borderColor = "var(--line, #dce4ed)";
-                        e.currentTarget.style.boxShadow = "0 2px 8px rgba(16, 38, 58, 0.04)";
-                        e.currentTarget.style.transform = "none";
-                      }}
-                    >
-                      <div style={{ display: "flex", alignItems: "center", gap: 14 }}>
-                        <div
-                          style={{
-                            width: 44,
-                            height: 44,
-                            borderRadius: "var(--r-sm, 10px)",
-                            background: "#eff6ff",
-                            color: "var(--blue-ink, #1a73e8)",
-                            display: "flex",
-                            alignItems: "center",
-                            justifyContent: "center",
-                            flexShrink: 0,
-                          }}
-                        >
-                          <Icon name="badge" size={20} />
-                        </div>
-                        <div>
-                          <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 2 }}>
-                            <span style={{ fontSize: "1.02rem", fontWeight: 800, color: "var(--tx)" }}>
-                              Apply for Dealership
-                            </span>
-                            <span style={{ fontSize: "0.72rem", fontWeight: 700, padding: "2px 8px", borderRadius: 999, background: "#dbeafe", color: "#1e40af" }}>
-                              New Showrooms
-                            </span>
-                          </div>
-                          <span style={{ fontSize: "0.82rem", color: "var(--tx-2)", display: "block" }}>
-                            Register your showroom or business for trade rates & CRM approval
-                          </span>
-                        </div>
-                      </div>
-                      <span style={{ color: "var(--navy, #10263a)", fontSize: "1.1rem", fontWeight: 700 }}>→</span>
-                    </Link>
+                {/* Header with ReSTOR logo & user icon */}
+                <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: 24 }}>
+                  <span style={{ fontSize: "1.75rem", fontWeight: 900, color: "#1d4ed8", letterSpacing: "-0.03em" }}>
+                    ReSTOR
+                  </span>
+                  <div
+                    style={{
+                      width: 38,
+                      height: 38,
+                      borderRadius: "50%",
+                      background: "rgba(16, 38, 58, 0.06)",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                      color: "var(--navy, #10263a)",
+                    }}
+                  >
+                    <Icon name="user" size={18} />
                   </div>
                 </div>
-              )}
+
+                <div style={{ marginBottom: 24 }}>
+                  <h1 style={{ fontSize: "clamp(1.65rem, 3.2vw, 2.1rem)", fontWeight: 900, margin: "0 0 4px", color: "#0b1a2b", letterSpacing: "-0.03em" }}>
+                    Welcome to ReSTOR
+                  </h1>
+                  <h2 style={{ fontSize: "1.2rem", fontWeight: 800, color: "#1d4ed8", margin: "0 0 10px", letterSpacing: "-0.02em" }}>
+                    Reimagine Retail.
+                  </h2>
+                  <p style={{ margin: 0, color: "#64748b", fontSize: "0.95rem", lineHeight: 1.5 }}>
+                    Choose how you'd like to access your account.
+                  </p>
+                </div>
+
+                <div style={{ display: "grid", gap: 14 }}>
+                  {/* OPTION 1: LOGIN AS DEALER */}
+                  <button
+                    type="button"
+                    onClick={() => handleSelectRole("dealer")}
+                    style={{
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "space-between",
+                      padding: "18px 20px",
+                      borderRadius: "18px",
+                      border: "1.5px solid #dce4ed",
+                      background: "#ffffff",
+                      textAlign: "left",
+                      cursor: "pointer",
+                      transition: "all 0.2s ease",
+                      boxShadow: "0 2px 8px rgba(16, 38, 58, 0.03)",
+                    }}
+                    onMouseEnter={(e) => {
+                      e.currentTarget.style.borderColor = "#1d4ed8";
+                      e.currentTarget.style.boxShadow = "0 6px 20px -4px rgba(29, 78, 216, 0.12)";
+                      e.currentTarget.style.transform = "translateY(-1px)";
+                    }}
+                    onMouseLeave={(e) => {
+                      e.currentTarget.style.borderColor = "#dce4ed";
+                      e.currentTarget.style.boxShadow = "0 2px 8px rgba(16, 38, 58, 0.03)";
+                      e.currentTarget.style.transform = "none";
+                    }}
+                  >
+                    <div style={{ display: "flex", alignItems: "center", gap: 16 }}>
+                      <div
+                        style={{
+                          width: 48,
+                          height: 48,
+                          borderRadius: "14px",
+                          background: "#0f172a",
+                          color: "#fff",
+                          display: "flex",
+                          alignItems: "center",
+                          justifyContent: "center",
+                          flexShrink: 0,
+                        }}
+                      >
+                        <Icon name="stove" size={22} />
+                      </div>
+                      <div>
+                        <span style={{ fontSize: "1.08rem", fontWeight: 800, color: "#0f172a", display: "block", marginBottom: 3 }}>
+                          Login as Dealer
+                        </span>
+                        <span style={{ fontSize: "0.86rem", color: "#64748b", display: "block", lineHeight: 1.4 }}>
+                          Access your dealer account and product pricing.
+                        </span>
+                      </div>
+                    </div>
+                    <span style={{ color: "#0f172a", fontSize: "1.2rem", fontWeight: 700, marginLeft: 12 }}>→</span>
+                  </button>
+
+                  {/* OPTION 2: CONTINUE AS STAFF */}
+                  <button
+                    type="button"
+                    onClick={() => handleSelectRole("staff")}
+                    style={{
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "space-between",
+                      padding: "18px 20px",
+                      borderRadius: "18px",
+                      border: "1.5px solid #dce4ed",
+                      background: "#ffffff",
+                      textAlign: "left",
+                      cursor: "pointer",
+                      transition: "all 0.2s ease",
+                      boxShadow: "0 2px 8px rgba(16, 38, 58, 0.03)",
+                    }}
+                    onMouseEnter={(e) => {
+                      e.currentTarget.style.borderColor = "#1d4ed8";
+                      e.currentTarget.style.boxShadow = "0 6px 20px -4px rgba(29, 78, 216, 0.12)";
+                      e.currentTarget.style.transform = "translateY(-1px)";
+                    }}
+                    onMouseLeave={(e) => {
+                      e.currentTarget.style.borderColor = "#dce4ed";
+                      e.currentTarget.style.boxShadow = "0 2px 8px rgba(16, 38, 58, 0.03)";
+                      e.currentTarget.style.transform = "none";
+                    }}
+                  >
+                    <div style={{ display: "flex", alignItems: "center", gap: 16 }}>
+                      <div
+                        style={{
+                          width: 48,
+                          height: 48,
+                          borderRadius: "14px",
+                          background: "#e0e7ff",
+                          color: "#3730a3",
+                          display: "flex",
+                          alignItems: "center",
+                          justifyContent: "center",
+                          flexShrink: 0,
+                        }}
+                      >
+                        <Icon name="user" size={22} />
+                      </div>
+                      <div>
+                        <span style={{ fontSize: "1.08rem", fontWeight: 800, color: "#0f172a", display: "block", marginBottom: 3 }}>
+                          Continue as Staff
+                        </span>
+                        <span style={{ fontSize: "0.86rem", color: "#64748b", display: "block", lineHeight: 1.4 }}>
+                          Enter your assigned Store Code to continue.
+                        </span>
+                      </div>
+                    </div>
+                    <span style={{ color: "#0f172a", fontSize: "1.2rem", fontWeight: 700, marginLeft: 12 }}>→</span>
+                  </button>
+                </div>
+
+                {/* Apply for Dealership link at bottom */}
+                <div style={{ marginTop: 24, textAlign: "center", borderTop: "1px solid #f1f5f9", paddingTop: 16 }}>
+                  <span style={{ fontSize: "0.85rem", color: "#64748b" }}>
+                    New showroom or retailer?{" "}
+                    <Link to="/dealer/apply" style={{ color: "#1d4ed8", fontWeight: 700, textDecoration: "none" }}>
+                      Apply for Dealership
+                    </Link>
+                  </span>
+                </div>
+              </div>
+            )}
 
               {/* VIEW B: ACTIVE ROLE WORKFLOWS (DEALER OR STAFF) */}
               {selectedRole && (
@@ -1733,7 +1490,6 @@ export default function Login() {
                   )}
                 </div>
               )}
-            </div>
           </div>
         )}
 
