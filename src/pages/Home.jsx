@@ -139,6 +139,34 @@ export default function Home() {
     };
   }, []);
 
+  const [dynamicTagline, setDynamicTagline] = useState(() => {
+    try {
+      const raw = sessionStorage.getItem("shriji_home_tagline");
+      if (raw) return raw;
+    } catch {}
+    return "";
+  });
+
+  useEffect(() => {
+    let active = true;
+    apiFetch("/api/banners")
+      .then((res) => (res.ok ? res.json() : null))
+      .then((data) => {
+        if (!active) return;
+        const tag = data?.settings?.tagline || data?.settings?.home_tagline;
+        if (tag) {
+          setDynamicTagline(tag);
+          try {
+            sessionStorage.setItem("shriji_home_tagline", tag);
+          } catch {}
+        }
+      })
+      .catch(() => {});
+    return () => {
+      active = false;
+    };
+  }, []);
+
   const [schemeIdx, setSchemeIdx] = useState(0);
   const scheme = liveSchemes[schemeIdx] || liveSchemes[0] || null;
   const session = useSession();
@@ -154,7 +182,7 @@ export default function Home() {
         <div className="wrap">
           <div className="home-tagline-block">
             <h2 className="home-tagline-title">
-              {t("home_tagline") || "Delivering the heart of every kitchen"}
+              {dynamicTagline || t("home_tagline") || "Delivering the heart of every kitchen"}
             </h2>
             <div className="home-tagline-accent" aria-hidden="true" />
           </div>
@@ -466,32 +494,36 @@ export default function Home() {
         </section>
       )}
 
-      {/* ---------- Trust / About Sunshine B2B (Matches Stitch Frame 1) ---------- */}
+      {/* ---------- Retail, reimagined. Platform Banner ---------- */}
       <section className="sec home-trust-banner-sec" style={{ paddingTop: 0 }}>
         <div className="wrap">
-          <div className="home-stitch-trust-card">
-            <h3 className="home-stitch-trust-title">
-              Stocking Sunshine, or thinking about it?
+          <div className="home-stitch-trust-card home-reimagined-card">
+            <h3 className="home-stitch-trust-title home-reimagined-title">
+              Retail, reimagined.
             </h3>
-            <p className="home-stitch-trust-desc">
-              Since 1999, Shriji Domestic has been a leading distributor of domestic kitchen appliances, delivering trusted service and authentic products across regions.
+            <p className="home-stitch-trust-desc home-reimagined-desc">
+              A digital platform designed to make product discovery and retail resources more accessible.
             </p>
-            <div className="home-stitch-trust-actions">
-              <a
-                className="home-stitch-btn-ghost"
-                href={`https://wa.me/${COMPANY.phoneRaw}?text=${encodeURIComponent("Hello Shriji Domestic, I would like details on stocking the Sunshine range.")}`}
-                target="_blank"
-                rel="noreferrer"
+            <div className="home-stitch-trust-actions home-reimagined-actions">
+              <Link
+                className="home-reimagined-btn-primary"
+                to="/products"
               >
-                <span>💬</span> Enquire Now
-              </a>
-              <a
-                className="home-stitch-btn-primary"
-                href={`tel:${COMPANY.phone.replace(/\s/g, "")}`}
+                <Icon name="grid" size={17} />
+                <span>Explore Products</span>
+                <span style={{ fontSize: "1.1rem", lineHeight: 1 }}>↗</span>
+              </Link>
+              <Link
+                className="home-reimagined-btn-secondary"
+                to="/dealer/apply"
               >
-                <span>📞</span> Call
-              </a>
+                <Icon name="chat" size={17} />
+                <span>Enquire About Membership</span>
+              </Link>
             </div>
+            <p className="home-reimagined-caption">
+              Built for a better retail experience.
+            </p>
           </div>
         </div>
       </section>

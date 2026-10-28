@@ -58,6 +58,7 @@ export async function getHeroSliderSettings() {
       autoplay_interval: Number(meta.autoplay_interval) || 5,
       autoplay_enabled: meta.autoplay_enabled !== false,
       pause_on_hover: meta.pause_on_hover !== false,
+      tagline: meta.tagline || meta.home_tagline || "Delivering the heart of every kitchen",
     };
   } catch (err) {
     console.warn('[Supabase Content] Could not fetch slider settings:', err.message);
@@ -65,6 +66,7 @@ export async function getHeroSliderSettings() {
       autoplay_interval: 5,
       autoplay_enabled: true,
       pause_on_hover: true,
+      tagline: "Delivering the heart of every kitchen",
     };
   }
 }
@@ -74,6 +76,7 @@ export async function saveHeroSliderSettings(settings = {}) {
     autoplay_interval: Math.max(2, Math.min(120, Number(settings.autoplay_interval) || 5)),
     autoplay_enabled: settings.autoplay_enabled !== false,
     pause_on_hover: settings.pause_on_hover !== false,
+    tagline: settings.tagline ? String(settings.tagline).trim() : undefined,
     updated_at: new Date().toISOString(),
   };
 

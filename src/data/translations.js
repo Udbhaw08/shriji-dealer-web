@@ -99,7 +99,7 @@ export const TRANSLATIONS = {
     quick_launches_sub: "Just in",
     quick_support: "Support",
     quick_support_sub: "Raise a request",
-    sec_categories_title: "Shop by Categories",
+    sec_categories_title: "Browse Categories",
     sec_categories_sub: "Engineered for daily use across thousands of Indian households.",
     sec_fast_title: "All Products",
     sec_fast_sub: "High-demand appliances keeping dealer inventory moving this week.",
@@ -241,7 +241,7 @@ export const TRANSLATIONS = {
     check_status_btn: "Check / Refresh Approval Status",
 
     // Footer
-    ftr_about: "Since 1999, Shriji Domestic has been a leading distributor of domestic kitchen appliances, specialising in gas stoves and chimneys from Sunshine India.",
+    ftr_about: "Rethinking retail for a changing world. Bringing product discovery and retail resources together in one place, making everyday retail simpler.",
     ftr_range: "Range",
     ftr_dealers: "Dealers",
     ftr_contact: "Contact",
@@ -349,7 +349,7 @@ export const TRANSLATIONS = {
     quick_launches_sub: "अभी आए हैं",
     quick_support: "सहायता",
     quick_support_sub: "अनुरोध दर्ज करें",
-    sec_categories_title: "श्रेणी अनुसार देखें",
+    sec_categories_title: "श्रेणियाँ ब्राउज़ करें",
     sec_categories_sub: "हजारों भारतीय घरों में दैनिक उपयोग के लिए निर्मित।",
     sec_fast_title: "सबसे ज्यादा बिकने वाले मॉडल",
     sec_fast_sub: "इस सप्ताह डीलर्स के बीच सबसे अधिक मांग वाले किचन उत्पाद।",
@@ -491,7 +491,7 @@ export const TRANSLATIONS = {
     check_status_btn: "स्वीकृति स्थिति जांचें / रीफ़्रेश करें",
 
     // Footer
-    ftr_about: "1999 से, श्रीजी डोमेस्टिक घरेलू रसोई उपकरणों का एक अग्रणी वितरक रहा है, जो सनशाइन इंडिया के गैस स्टोव और चिमनी में विशेषज्ञता रखता है।",
+    ftr_about: "बदलती दुनिया के लिए रिटेल का नया रूप। उत्पाद खोज और व्यावसायिक संसाधनों को एक साथ लाकर रोज़मर्रा के व्यापार को आसान बनाना।",
     ftr_range: "उत्पाद रेंज",
     ftr_dealers: "डीलर्स",
     ftr_contact: "संपर्क",

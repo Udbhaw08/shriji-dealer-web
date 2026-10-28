@@ -482,29 +482,14 @@ export default function HeroSlider({ isGated = true }) {
 
         {/* Clean Dealer Portal Actions below banner */}
         <div className="store-banner-actions">
-          {isGated ? (
-            <>
-              <Link className="stitch-cta-primary" to="/login">
-                <span>Verified Dealer Login</span>
-                <span className="stitch-cta-arrow"><Icon name="arrow" size={17} /></span>
-              </Link>
-              <Link className="stitch-cta-white" to="/login?tab=apply">
-                <span>Apply for Dealership</span>
-                <span className="stitch-cta-arrow-circle"><Icon name="arrow" size={15} /></span>
-              </Link>
-            </>
-          ) : (
-            <>
-              <Link className="stitch-cta-white" to="/products">
-                <span>Browse Wholesale Catalog</span>
-                <span className="stitch-cta-arrow-circle"><Icon name="arrow" size={15} /></span>
-              </Link>
-              <Link className="stitch-cta-primary" to="/schemes">
-                <span>View Active Schemes</span>
-                <span className="stitch-cta-arrow"><Icon name="arrow" size={17} /></span>
-              </Link>
-            </>
-          )}
+          <Link className="stitch-cta-white" to="/products">
+            <span>Explore Products</span>
+            <span className="stitch-cta-arrow-circle"><Icon name="arrow" size={15} /></span>
+          </Link>
+          <Link className="stitch-cta-primary" to="/schemes">
+            <span>Dealer Schemes</span>
+            <span className="stitch-cta-arrow"><Icon name="arrow" size={17} /></span>
+          </Link>
         </div>
       </div>
 

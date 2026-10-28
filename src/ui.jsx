@@ -387,13 +387,12 @@ function AccountLink({ className = "" }) {
   }
 
   return (
-    <Link className={`acct ${className}`.trim()} to="/login" title="Sign In or Join · Dealer, Staff, Customer, Brand">
+    <Link className={`acct ${className}`.trim()} to="/login" title="Sign In · Dealer & Staff Portal">
       <span className="acct-dot" style={{ background: "var(--navy-2, #174d7a)", color: "#fff" }} aria-hidden="true">
         <Icon name="user" size={14} />
       </span>
       <span>
-        <b>Sign In / Join</b>
-        <span style={{ color: "var(--tx-2, #475569)" }}>Choose Your Role</span>
+        <b>SIGN IN</b>
       </span>
     </Link>
   );
@@ -594,7 +593,12 @@ export function Footer() {
         <div className="ftr-grid">
           <div>
             <Mark />
-            <p style={{ marginTop: "var(--s4)", fontSize: "0.9rem", maxWidth: "30ch" }}>{t("ftr_about")}</p>
+            <h5 style={{ margin: "var(--s3) 0 4px", fontSize: "1.02rem", fontWeight: 700, color: "#ffffff" }}>
+              Reimagine Retail.
+            </h5>
+            <p style={{ marginTop: "4px", fontSize: "0.88rem", maxWidth: "34ch", lineHeight: 1.55, color: "var(--tx-3, #94a3b8)" }}>
+              {t("ftr_about")}
+            </p>
           </div>
           {!isGated ? (
             <div>
@@ -680,8 +684,6 @@ export function Footer() {
             <Link to="/privacy" style={{ color: "inherit", textDecoration: "underline" }}>Privacy Policy</Link>
             <span>·</span>
             <Link to="/terms" style={{ color: "inherit", textDecoration: "underline" }}>Terms of Service</Link>
-            <span>·</span>
-            <span>{t("ftr_auth_dist")} · Sunshine India</span>
           </div>
         </div>
       </div>
