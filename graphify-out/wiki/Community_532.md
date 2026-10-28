@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **ci-scope.test.mjs** (1 connections) — `.agents/skills/archify/test/ci-scope.test.mjs`
-- **script** (1 connections) — `.agents/skills/archify/test/ci-scope.test.mjs`
+- **clipboard.js** (1 connections) — `src/utils/clipboard.js`
+- **copyToClipboard()** (1 connections) — `src/utils/clipboard.js`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/ci-scope.test.mjs`
+- `src/utils/clipboard.js`
 
 ## Audit Trail
 

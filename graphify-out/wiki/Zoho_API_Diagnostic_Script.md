@@ -1,48 +1,70 @@
 # Zoho API Diagnostic Script
 
-> 43 nodes · cohesion 0.05
+> 43 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **Craft Details Guide** (11 connections) — `.agents/skills/refero-design/references/craft-details.md`
-- **2. Forms** (10 connections) — `.agents/skills/refero-design/references/craft-details.md`
-- **6. Accessibility Quick Wins** (6 connections) — `.agents/skills/refero-design/references/craft-details.md`
-- **4. Touch & Mobile** (5 connections) — `.agents/skills/refero-design/references/craft-details.md`
-- **5. Performance Patterns** (5 connections) — `.agents/skills/refero-design/references/craft-details.md`
-- **1. Focus States** (4 connections) — `.agents/skills/refero-design/references/craft-details.md`
-- **3. Images** (4 connections) — `.agents/skills/refero-design/references/craft-details.md`
-- **7. Navigation & State** (4 connections) — `.agents/skills/refero-design/references/craft-details.md`
-- **craft-details.md** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
-- **8. Content Copy Rules** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
-- **9. Anti-Patterns Checklist** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
-- **Always Set Dimensions** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
-- **Async Updates Need Announcements** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
-- **Autocomplete Matters** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
-- **AutoFocus Rules** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
-- **Avoid Layout Reads in Render** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
-- **Compound Controls: `:focus-within`** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
-- **Destructive Actions Need Confirmation** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
-- **Disable Spellcheck Where Appropriate** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
-- **Error Handling** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
-- **Heading Hierarchy** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
-- **In React/Next.js** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
-- **Input Types and Attributes** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
-- **Keyboard Handlers** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
-- **Labels and Hit Targets** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **sql** (76 connections) — `backend/src/db/pool.js`
+- **dealers.js** (49 connections) — `backend/src/routes/dealers.js`
+- **staff.js** (23 connections) — `backend/src/services/staff.js`
+- **audit()** (18 connections) — `backend/src/utils/audit.js`
+- **applyCrmAccountState()** (12 connections) — `backend/src/services/dealerApp.js`
+- **generateUniqueDealerCode()** (10 connections) — `backend/src/utils/loginCode.js`
+- **applyDealer()** (7 connections) — `backend/src/services/dealerApp.js`
+- **audit.js** (7 connections) — `backend/src/utils/audit.js`
+- **sync-supabase-content.js** (6 connections) — `backend/scripts/sync-supabase-content.js`
+- **provisionDealerInCrm()** (6 connections) — `backend/src/services/dealerApp.js`
+- **createInvite()** (6 connections) — `backend/src/services/staff.js`
+- **seed-content.js** (4 connections) — `backend/scripts/seed-content.js`
+- **deactivateDealer()** (4 connections) — `backend/src/services/dealerApp.js`
+- **approveStaff()** (4 connections) — `backend/src/services/staff.js`
+- **deleteStaff()** (4 connections) — `backend/src/services/staff.js`
+- **holdStaff()** (4 connections) — `backend/src/services/staff.js`
+- **resumeStaff()** (4 connections) — `backend/src/services/staff.js`
+- **revokeStaff()** (4 connections) — `backend/src/services/staff.js`
+- **toggleAllStaffPrice()** (4 connections) — `backend/src/services/staff.js`
+- **toggleStaffPrice()** (4 connections) — `backend/src/services/staff.js`
+- **info.js** (3 connections) — `api/dealer/info.js`
+- **requireApprovedDealer()** (3 connections) — `backend/src/middleware/auth.js`
+- **inspect-db.js** (3 connections) — `backend/scripts/inspect-db.js`
+- **setup-buckets.js** (3 connections) — `backend/scripts/setup-buckets.js`
+- **setup-policies.js** (3 connections) — `backend/scripts/setup-policies.js`
 - *... and 18 more nodes in this community*
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 38]] (35 shared connections)
+- [[Community 50]] (30 shared connections)
+- [[Oxlint Linter Configuration]] (17 shared connections)
+- [[Client Products Data Store]] (14 shared connections)
+- [[Community 88]] (9 shared connections)
+- [[Community 135]] (6 shared connections)
+- [[Community 143]] (4 shared connections)
+- [[Community 110]] (4 shared connections)
+- [[Community 186]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/refero-design/references/craft-details.md`
+- `api/dealer/info.js`
+- `backend/scripts/check-readiness.js`
+- `backend/scripts/inspect-db.js`
+- `backend/scripts/seed-content.js`
+- `backend/scripts/setup-buckets.js`
+- `backend/scripts/setup-policies.js`
+- `backend/scripts/sync-supabase-content.js`
+- `backend/src/db/pool.js`
+- `backend/src/middleware/auth.js`
+- `backend/src/routes/dealers.js`
+- `backend/src/services/dealerApp.js`
+- `backend/src/services/staff.js`
+- `backend/src/utils/audit.js`
+- `backend/src/utils/loginCode.js`
+- `backend/test/crmSync.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 84 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 297 (99%)
+- INFERRED: 4 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

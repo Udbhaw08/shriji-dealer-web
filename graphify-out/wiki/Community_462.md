@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **Capacitor Native Mobile Sync Workflow** (2 connections) — `docs/mobile/capacitor-native-sync.md`
-- **capacitor-native-sync.md** (1 connections) — `docs/mobile/capacitor-native-sync.md`
-- **Commands** (1 connections) — `docs/mobile/capacitor-native-sync.md`
+- **Brand marks** (2 connections) — `.agents/skills/archify/references/brand-marks.md`
+- **brand-marks.md** (1 connections) — `.agents/skills/archify/references/brand-marks.md`
+- **Agent decision path** (1 connections) — `.agents/skills/archify/references/brand-marks.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/mobile/capacitor-native-sync.md`
+- `.agents/skills/archify/references/brand-marks.md`
 
 ## Audit Trail
 

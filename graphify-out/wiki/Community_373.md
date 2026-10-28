@@ -4,11 +4,11 @@
 
 ## Key Concepts
 
-- **Agent Operating Guidelines & Zero-Token Context Strategy** (3 connections) — `GEMINI.md`
-- **Shriji Domestic Appliances — Sunshine Dealer Web** (2 connections) — `GEMINI.md`
-- **GEMINI.md** (1 connections) — `GEMINI.md`
-- **Mandatory Context Rule: Knowledge Graph First** (1 connections) — `GEMINI.md`
-- **Project Hard Rules** (1 connections) — `GEMINI.md`
+- **Column views** (4 connections) — `.agents/skills/apple-design/references/hig/column-views.md`
+- **column-views.md** (1 connections) — `.agents/skills/apple-design/references/hig/column-views.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/column-views.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/column-views.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/column-views.md`
 
 ## Relationships
 
@@ -16,7 +16,7 @@
 
 ## Source Files
 
-- `GEMINI.md`
+- `.agents/skills/apple-design/references/hig/column-views.md`
 
 ## Audit Trail
 

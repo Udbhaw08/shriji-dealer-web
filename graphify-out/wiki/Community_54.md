@@ -4,53 +4,57 @@
 
 ## Key Concepts
 
-- **zd()** (13 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **Nd()** (11 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **qd()** (11 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **tf()** (10 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **Xd()** (8 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **ef()** (7 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **et()** (7 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **Gd()** (7 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **lf()** (7 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **tt()** (7 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **uf()** (7 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **of()** (6 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **Rd()** (6 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **Bd()** (5 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **sf()** (5 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **cf()** (4 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **jf()** (4 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **mf()** (4 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **vf()** (4 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **Zo()** (4 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **Hd()** (3 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **Ja()** (3 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **Ud()** (3 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **Wf()** (3 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **Fd()** (2 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **.send()** (54 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **viewer-camera-browser.test.mjs** (11 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- **export-browser.test.mjs** (9 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
+- **motion-governor-browser.test.mjs** (9 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
+- **.inspect()** (5 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **run()** (5 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
+- **run()** (5 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
+- **load()** (4 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
+- **load()** (4 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- **run()** (4 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- **evaluate()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **click()** (3 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
+- **load()** (3 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
+- **record()** (3 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
+- **media()** (3 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
+- **screenshot()** (3 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
+- **stable()** (3 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- **viewport()** (3 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- **.waitFor()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **key()** (2 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
+- **snapshot()** (2 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
+- **screenshot()** (2 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- **snapshot()** (2 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
 - *... and 2 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (31 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (10 shared connections)
-- [[Oxlint Linter Configuration]] (6 shared connections)
-- [[Graphify Knowledge Graph Skill]] (6 shared connections)
-- [[Client Products Data Store]] (5 shared connections)
-- [[Community 60]] (5 shared connections)
-- [[Community 42]] (2 shared connections)
-- [[Product Pages Specification]] (1 shared connections)
-- [[Community 152]] (1 shared connections)
+- [[Community 63]] (11 shared connections)
+- [[Community 90]] (8 shared connections)
+- [[Community 82]] (7 shared connections)
+- [[Community 126]] (7 shared connections)
+- [[Community 49]] (5 shared connections)
+- [[Community 146]] (5 shared connections)
+- [[Community 147]] (5 shared connections)
+- [[Community 182]] (4 shared connections)
+- [[Community 104]] (1 shared connections)
+- [[Zoho Integration Architecture]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- `.agents/skills/archify/bin/visual-check.mjs`
+- `.agents/skills/archify/test/export-browser.test.mjs`
+- `.agents/skills/archify/test/motion-governor-browser.test.mjs`
+- `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 155 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 146 (99%)
+- INFERRED: 2 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

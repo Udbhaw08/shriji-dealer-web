@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **roleGating.test.mjs** (0 connections) — `backend/test/roleGating.test.mjs`
+- **validationHelper.test.mjs** (0 connections) — `backend/test/validationHelper.test.mjs`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `backend/test/roleGating.test.mjs`
+- `backend/test/validationHelper.test.mjs`
 
 ## Audit Trail
 

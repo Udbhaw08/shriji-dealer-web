@@ -1,52 +1,43 @@
 # Community 77
 
-> 22 nodes · cohesion 0.15
+> 22 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **i18n.js** (25 connections) — `src/data/i18n.js`
-- **Products.jsx** (25 connections) — `src/pages/Products.jsx`
-- **ProductSearchBar.jsx** (15 connections) — `src/components/ProductSearchBar.jsx`
-- **searchHelper.js** (11 connections) — `src/data/searchHelper.js`
-- **getSuggestions()** (5 connections) — `src/data/searchHelper.js`
-- **autocorrectQuery()** (4 connections) — `src/data/searchHelper.js`
-- **buildSearchDictionary()** (4 connections) — `src/data/searchHelper.js`
-- **setLanguage()** (3 connections) — `src/data/i18n.js`
-- **emit()** (2 connections) — `src/data/i18n.js`
-- **toggleLanguage()** (2 connections) — `src/data/i18n.js`
-- **getPopularSearches()** (2 connections) — `src/data/searchHelper.js`
-- **scoreProduct()** (2 connections) — `src/data/searchHelper.js`
-- **translations.js** (2 connections) — `src/data/translations.js`
-- **TRANSLATIONS** (2 connections) — `src/data/translations.js`
-- **currentLang** (1 connections) — `src/data/i18n.js`
-- **getInitialLang()** (1 connections) — `src/data/i18n.js`
-- **getLanguage()** (1 connections) — `src/data/i18n.js`
-- **listeners** (1 connections) — `src/data/i18n.js`
-- **COLLOQUIAL_SYNONYMS** (1 connections) — `src/data/searchHelper.js`
-- **levenshteinDistance()** (1 connections) — `src/data/searchHelper.js`
-- **Group()** (1 connections) — `src/pages/Products.jsx`
-- **SORT_FNS** (1 connections) — `src/pages/Products.jsx`
+- **CODEBASE.md — Project Architecture & Feature Guide** (8 connections) — `CODEBASE.md`
+- **2. Core Pricing & Identity Architecture** (6 connections) — `CODEBASE.md`
+- **4. Codebase Directory Map** (6 connections) — `CODEBASE.md`
+- **5. Zoho API Endpoints** (4 connections) — `CODEBASE.md`
+- **CODEBASE.md** (1 connections) — `CODEBASE.md`
+- **1. System Overview** (1 connections) — `CODEBASE.md`
+- **2.1 The Two Audiences (Zero Leakage Rule)** (1 connections) — `CODEBASE.md`
+- **2.2 Pricing Resolution Engine (`api/zoho.js` & `src/data/dealer.js`)** (1 connections) — `CODEBASE.md`
+- **2.3 Guest Access Control & Portal Gating (`src/data/portalGate.js`)** (1 connections) — `CODEBASE.md`
+- **2.4 Shareable Product Link & Zero-Leakage Experience (`src/pages/Product.jsx`)** (1 connections) — `CODEBASE.md`
+- **2.5 Navigation & Bottom Bar Dynamic Filtering** (1 connections) — `CODEBASE.md`
+- **3. Application Routes & Navigation** (1 connections) — `CODEBASE.md`
+- **4.1 Pages (`src/pages/`)** (1 connections) — `CODEBASE.md`
+- **4.2 Reusable Components (`src/components/` & `src/ui.jsx`)** (1 connections) — `CODEBASE.md`
+- **4.3 State & Business Logic (`src/data/`)** (1 connections) — `CODEBASE.md`
+- **4.4 Zoho API & Serverless Handlers (`api/`)** (1 connections) — `CODEBASE.md`
+- **4.5 Automation & Utility Scripts (`scripts/`)** (1 connections) — `CODEBASE.md`
+- **5.1 Zoho Commerce Storefront API** (1 connections) — `CODEBASE.md`
+- **5.2 Zoho Books Contacts & Pricebooks API** (1 connections) — `CODEBASE.md`
+- **5.3 Auto-Recovery Token Architecture** (1 connections) — `CODEBASE.md`
+- **6. How to Run & Verify** (1 connections) — `CODEBASE.md`
+- **7. Development & Git Workflow Guidelines** (1 connections) — `CODEBASE.md`
 
 ## Relationships
 
-- [[Graphify Agent Rules]] (22 shared connections)
-- [[Product Brand & Business Vision]] (13 shared connections)
-- [[Community 91]] (2 shared connections)
-- [[Community 99]] (2 shared connections)
-- [[Agent Guidelines (AGENTS.md)]] (2 shared connections)
-- [[Community 169]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `src/components/ProductSearchBar.jsx`
-- `src/data/i18n.js`
-- `src/data/searchHelper.js`
-- `src/data/translations.js`
-- `src/pages/Products.jsx`
+- `CODEBASE.md`
 
 ## Audit Trail
 
-- EXTRACTED: 112 (100%)
+- EXTRACTED: 42 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

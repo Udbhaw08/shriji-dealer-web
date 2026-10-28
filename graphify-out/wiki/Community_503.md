@@ -1,12 +1,11 @@
 # Community 503
 
-> 3 nodes · cohesion 0.67
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **storage.js** (2 connections) — `src/utils/storage.js`
-- **memoryStore** (1 connections) — `src/utils/storage.js`
-- **safeStorage** (1 connections) — `src/utils/storage.js`
+- **Package.swift** (1 connections) — `ios/App/CapApp-SPM/Package.swift`
+- **PackageDescription** (1 connections) — `ios/App/CapApp-SPM/Package.swift`
 
 ## Relationships
 
@@ -14,11 +13,11 @@
 
 ## Source Files
 
-- `src/utils/storage.js`
+- `ios/App/CapApp-SPM/Package.swift`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 2 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

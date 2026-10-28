@@ -4,21 +4,21 @@
 
 ## Key Concepts
 
-- **label** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **minLength** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **Content Security Policy (CSP) Directives** (2 connections) — `docs/security/content-security-policy.md`
+- **content-security-policy.md** (1 connections) — `docs/security/content-security-policy.md`
+- **Directives** (1 connections) — `docs/security/content-security-policy.md`
 
 ## Relationships
 
-- [[Community 38]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/workflow.schema.json`
+- `docs/security/content-security-policy.md`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

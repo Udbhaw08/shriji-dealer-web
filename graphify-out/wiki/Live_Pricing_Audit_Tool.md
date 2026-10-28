@@ -1,64 +1,56 @@
 # Live Pricing Audit Tool
 
-> 51 nodes · cohesion 0.07
+> 52 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **render-sequence.mjs** (67 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **utils.mjs** (26 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
-- **i18n.mjs** (21 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **translateMessage()** (21 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **legend.mjs** (21 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
-- **renderLegend()** (14 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
-- **svgAccessibleText()** (13 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **svgRootAttrs()** (13 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **renderDefinitions()** (11 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
-- **resolveLegend()** (10 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
-- **applyTemplate()** (9 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
-- **renderSvg()** (8 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **resolveLocale()** (7 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **renderSvg()** (6 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **renderSvg()** (6 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **renderSvg()** (6 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **arrowClassMap** (6 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **legendFootprint()** (6 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
-- **measureLegend()** (6 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
-- **renderLegend()** (5 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **renderLegend()** (5 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **componentFill** (5 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **messageGeometry()** (4 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **messageLabelBox()** (4 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **viewerCatalog()** (4 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- *... and 26 more nodes in this community*
+- **get()** (27 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
+- **D()** (22 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
+- **np()** (20 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
+- **.addEventListener()** (19 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
+- **Tu()** (18 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
+- **b()** (17 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
+- **fp()** (14 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
+- **h()** (13 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
+- **jt()** (13 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
+- **bm()** (12 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
+- **.removeEventListener()** (12 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
+- **am()** (10 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
+- **r()** (10 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
+- **ip()** (9 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
+- **mm()** (9 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
+- **tp()** (8 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
+- **jm()** (7 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
+- **lp()** (7 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
+- **om()** (7 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
+- **tm()** (7 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
+- **zm()** (7 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
+- **cm()** (6 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
+- **em()** (6 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
+- **.blur()** (6 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
+- **mo()** (6 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
+- *... and 27 more nodes in this community*
 
 ## Relationships
 
-- [[Mobile Responsive UI Skill]] (42 shared connections)
-- [[Zoho Backend & Proxy Endpoints]] (35 shared connections)
-- [[Community 64]] (21 shared connections)
-- [[Zoho Integration Architecture]] (18 shared connections)
-- [[Design System & UI Tokens]] (17 shared connections)
-- [[Community 46]] (16 shared connections)
-- [[Community 125]] (5 shared connections)
-- [[Vercel Deployment Routing]] (2 shared connections)
-- [[Community 289]] (1 shared connections)
+- [[Price Presentation & Product UI]] (57 shared connections)
+- [[Architecture Doc Generator]] (24 shared connections)
+- [[Community 33]] (16 shared connections)
+- [[Pricing Regression Test Suite]] (16 shared connections)
+- [[Master Codebase Architecture Reference]] (10 shared connections)
+- [[Community 32]] (10 shared connections)
+- [[Community 60]] (7 shared connections)
+- [[Community 231]] (4 shared connections)
+- [[Community 65]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- `.agents/skills/archify/renderers/shared/cli.mjs`
-- `.agents/skills/archify/renderers/shared/geometry.mjs`
-- `.agents/skills/archify/renderers/shared/i18n.mjs`
-- `.agents/skills/archify/renderers/shared/legend.mjs`
-- `.agents/skills/archify/renderers/shared/utils.mjs`
+- `ios/App/App/public/assets/index-BomkxjsM.js`
 
 ## Audit Trail
 
-- EXTRACTED: 335 (99%)
-- INFERRED: 4 (1%)
+- EXTRACTED: 390 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

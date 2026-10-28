@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **searchHelper.test.mjs** (0 connections) — `src/data/searchHelper.test.mjs`
+- **cordova_plugins.js** (0 connections) — `ios/App/App/public/cordova_plugins.js`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `src/data/searchHelper.test.mjs`
+- `ios/App/App/public/cordova_plugins.js`
 
 ## Audit Trail
 

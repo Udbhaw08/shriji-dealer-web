@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **colorUtils.js** (1 connections) — `src/utils/colorUtils.js`
-- **hexToRgba()** (1 connections) — `src/utils/colorUtils.js`
+- **paginationHelper.js** (1 connections) — `backend/src/utils/paginationHelper.js`
+- **paginate()** (1 connections) — `backend/src/utils/paginationHelper.js`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `src/utils/colorUtils.js`
+- `backend/src/utils/paginationHelper.js`
 
 ## Audit Trail
 

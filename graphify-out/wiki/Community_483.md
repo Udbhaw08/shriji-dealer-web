@@ -4,21 +4,21 @@
 
 ## Key Concepts
 
-- **width** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **minimum** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **Payment Data Isolation & Compliance Notes** (2 connections) — `docs/security/pci-dss-compliance-notes.md`
+- **pci-dss-compliance-notes.md** (1 connections) — `docs/security/pci-dss-compliance-notes.md`
+- **Architecture** (1 connections) — `docs/security/pci-dss-compliance-notes.md`
 
 ## Relationships
 
-- [[Community 38]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/workflow.schema.json`
+- `docs/security/pci-dss-compliance-notes.md`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

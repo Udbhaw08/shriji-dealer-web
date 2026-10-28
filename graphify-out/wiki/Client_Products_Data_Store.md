@@ -1,55 +1,55 @@
 # Client Products Data Store
 
-> 52 nodes · cohesion 0.08
+> 55 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **Or()** (23 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **jr()** (22 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **gf()** (20 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **gc()** (12 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **Ti()** (11 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **af()** (10 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **Ai()** (10 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **Ar()** (9 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **hr()** (9 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **mr()** (8 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **qr()** (8 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **Si()** (8 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **Fr()** (7 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **Oi()** (7 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **Ir()** (6 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **pr()** (6 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **qc()** (6 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **Rr()** (6 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **wr()** (6 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **xi()** (6 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **xr()** (6 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **bn()** (5 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **br()** (5 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **Gi()** (5 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **pi()** (5 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- *... and 27 more nodes in this community*
+- **hash.js** (25 connections) — `backend/src/utils/hash.js`
+- **phase2DealerStaffOnboarding.test.mjs** (17 connections) — `backend/test/phase2DealerStaffOnboarding.test.mjs`
+- **loginCode.js** (17 connections) — `backend/src/utils/loginCode.js`
+- **dealerRegistrationTwoChannel.test.mjs** (15 connections) — `backend/test/dealerRegistrationTwoChannel.test.mjs`
+- **onboardingVerification.test.mjs** (15 connections) — `backend/test/onboardingVerification.test.mjs`
+- **hashOtp()** (10 connections) — `backend/src/utils/hash.js`
+- **verifyOtpHash()** (10 connections) — `backend/src/utils/hash.js`
+- **hash.test.mjs** (9 connections) — `backend/test/hash.test.mjs`
+- **sha256()** (9 connections) — `backend/src/utils/hash.js`
+- **formatLoginCode()** (8 connections) — `backend/src/utils/loginCode.js`
+- **generateLoginCode()** (8 connections) — `backend/src/utils/loginCode.js`
+- **loginCode.test.mjs** (7 connections) — `backend/test/loginCode.test.mjs`
+- **hashPassword()** (5 connections) — `backend/src/utils/hash.js`
+- **verifyPassword()** (4 connections) — `backend/src/utils/hash.js`
+- **isValidLoginCode()** (4 connections) — `backend/src/utils/loginCode.js`
+- **parseLoginCode()** (4 connections) — `backend/src/utils/loginCode.js`
+- **scryptKey()** (3 connections) — `backend/src/utils/hash.js`
+- **USER_CATEGORIES** (3 connections) — `backend/src/utils/loginCode.js`
+- **generateCode()** (2 connections) — `backend/src/utils/hash.js`
+- **randomToken()** (2 connections) — `backend/src/utils/hash.js`
+- **generateRandomDigits()** (2 connections) — `backend/src/utils/loginCode.js`
+- **generateRandomLetters()** (2 connections) — `backend/src/utils/loginCode.js`
+- **GST_TREATMENT_OPTIONS** (2 connections) — `backend/src/utils/loginCode.js`
+- **app** (1 connections) — `backend/test/dealerRegistrationTwoChannel.test.mjs`
+- **crmCalls** (1 connections) — `backend/test/dealerRegistrationTwoChannel.test.mjs`
+- *... and 30 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (56 shared connections)
-- [[Oxlint Linter Configuration]] (11 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (8 shared connections)
-- [[Product Pages Specification]] (7 shared connections)
-- [[Community 42]] (6 shared connections)
-- [[Community 54]] (5 shared connections)
-- [[Community 60]] (5 shared connections)
-- [[Community 152]] (4 shared connections)
-- [[Graphify Knowledge Graph Skill]] (3 shared connections)
+- [[Community 38]] (15 shared connections)
+- [[Zoho API Diagnostic Script]] (14 shared connections)
+- [[Oxlint Linter Configuration]] (2 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- `backend/src/utils/hash.js`
+- `backend/src/utils/loginCode.js`
+- `backend/test/dealerRegistrationTwoChannel.test.mjs`
+- `backend/test/hash.test.mjs`
+- `backend/test/loginCode.test.mjs`
+- `backend/test/onboardingVerification.test.mjs`
+- `backend/test/phase2DealerStaffOnboarding.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 327 (100%)
+- EXTRACTED: 215 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

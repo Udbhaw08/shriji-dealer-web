@@ -1,48 +1,40 @@
 # Community 91
 
-> 19 nodes · cohesion 0.19
+> 19 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **productsStore.js** (25 connections) — `src/data/productsStore.js`
-- **apiFetch()** (20 connections) — `src/data/api.js`
-- **api.js** (11 connections) — `src/data/api.js`
-- **apiUrl()** (9 connections) — `src/data/api.js`
-- **fetchLiveProducts()** (7 connections) — `src/data/productsStore.js`
-- **syncPricebookWithSession()** (7 connections) — `src/data/productsStore.js`
-- **products.js** (5 connections) — `src/data/products.js`
-- **loadCached()** (4 connections) — `src/data/productsStore.js`
-- **getAccessToken()** (3 connections) — `src/data/auth.js`
-- **emit()** (3 connections) — `src/data/productsStore.js`
-- **syncTagsLive()** (3 connections) — `src/data/productsStore.js`
-- **CATEGORIES** (2 connections) — `src/data/products.js`
-- **getCacheKey()** (2 connections) — `src/data/productsStore.js`
-- **sanitizeCategories()** (2 connections) — `src/data/productsStore.js`
-- **useProduct()** (2 connections) — `src/data/productsStore.js`
-- **PRODUCTS** (1 connections) — `src/data/products.js`
-- **listeners** (1 connections) — `src/data/productsStore.js`
-- **PREFERRED_ORDER** (1 connections) — `src/data/productsStore.js`
-- **storeState** (1 connections) — `src/data/productsStore.js`
+- **App Clips** (9 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
+- **App Clip Codes** (5 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
+- **Designing your App Clip** (5 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
+- **Printing guidelines** (2 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
+- **app-clips.md** (1 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
+- **Creating App Clips for businesses** (1 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
+- **Creating content for an App Clip card** (1 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
+- **Customizing your App Clip Code** (1 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
+- **Displaying App Clip Codes** (1 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
+- **Interacting with App Clip Codes** (1 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
+- **Legal requirements** (1 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
+- **Limiting notifications** (1 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
+- **Preserving privacy** (1 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
+- **Showcasing your app** (1 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
+- **Using clear messaging** (1 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
+- **Verifying your printer’s calibration** (1 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
 
 ## Relationships
 
-- [[Agent Guidelines (AGENTS.md)]] (14 shared connections)
-- [[Community 39]] (9 shared connections)
-- [[Product Brand & Business Vision]] (9 shared connections)
-- [[Graphify Agent Rules]] (7 shared connections)
-- [[Community 99]] (2 shared connections)
-- [[Community 77]] (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `src/data/api.js`
-- `src/data/auth.js`
-- `src/data/products.js`
-- `src/data/productsStore.js`
+- `.agents/skills/apple-design/references/hig/app-clips.md`
 
 ## Audit Trail
 
-- EXTRACTED: 109 (100%)
+- EXTRACTED: 36 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,13 +1,12 @@
 # Community 436
 
-> 4 nodes · cohesion 0.50
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **constants.js** (3 connections) — `backend/src/utils/constants.js`
-- **DEALER_STATUS** (1 connections) — `backend/src/utils/constants.js`
-- **ROLES** (1 connections) — `backend/src/utils/constants.js`
-- **TOKEN_TTL** (1 connections) — `backend/src/utils/constants.js`
+- **OpenAPI 3.0 Specification Summary** (2 connections) — `docs/api/swagger-openapi-spec.md`
+- **swagger-openapi-spec.md** (1 connections) — `docs/api/swagger-openapi-spec.md`
+- **Services** (1 connections) — `docs/api/swagger-openapi-spec.md`
 
 ## Relationships
 
@@ -15,11 +14,11 @@
 
 ## Source Files
 
-- `backend/src/utils/constants.js`
+- `docs/api/swagger-openapi-spec.md`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **A11yAnnouncer.jsx** (1 connections) — `src/components/A11yAnnouncer.jsx`
-- **A11yAnnouncer()** (1 connections) — `src/components/A11yAnnouncer.jsx`
+- **esm-DwiLLdhw.js** (1 connections) — `ios/App/App/public/assets/esm-DwiLLdhw.js`
+- **__vite__mapDeps()** (1 connections) — `ios/App/App/public/assets/esm-DwiLLdhw.js`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `src/components/A11yAnnouncer.jsx`
+- `ios/App/App/public/assets/esm-DwiLLdhw.js`
 
 ## Audit Trail
 

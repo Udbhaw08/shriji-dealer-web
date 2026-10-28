@@ -15,8 +15,8 @@
 
 ## Relationships
 
-- [[Live Pricing Audit Tool]] (1 shared connections)
-- [[Community 64]] (1 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (1 shared connections)
+- [[Graphify Agent Rules]] (1 shared connections)
 
 ## Source Files
 

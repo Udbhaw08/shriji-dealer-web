@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **NetworkStatusBadge.jsx** (1 connections) — `src/components/NetworkStatusBadge.jsx`
-- **NetworkStatusBadge()** (1 connections) — `src/components/NetworkStatusBadge.jsx`
+- **.mcp.json** (1 connections) — `.mcp.json`
+- **supabase** (1 connections) — `.mcp.json`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `src/components/NetworkStatusBadge.jsx`
+- `.mcp.json`
 
 ## Audit Trail
 

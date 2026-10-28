@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **paginationHelper.js** (1 connections) — `backend/src/utils/paginationHelper.js`
-- **paginate()** (1 connections) — `backend/src/utils/paginationHelper.js`
+- **graphify.md** (1 connections) — `.agents/workflows/graphify.md`
+- **Workflow: graphify** (1 connections) — `.agents/workflows/graphify.md`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `backend/src/utils/paginationHelper.js`
+- `.agents/workflows/graphify.md`
 
 ## Audit Trail
 

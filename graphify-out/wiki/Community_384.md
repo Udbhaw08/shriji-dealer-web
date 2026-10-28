@@ -4,11 +4,11 @@
 
 ## Key Concepts
 
-- **Path controls** (4 connections) — `.agents/skills/apple-design/references/hig/path-controls.md`
-- **path-controls.md** (1 connections) — `.agents/skills/apple-design/references/hig/path-controls.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/path-controls.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/path-controls.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/path-controls.md`
+- **Ratings and reviews** (4 connections) — `.agents/skills/apple-design/references/hig/ratings-and-reviews.md`
+- **ratings-and-reviews.md** (1 connections) — `.agents/skills/apple-design/references/hig/ratings-and-reviews.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/ratings-and-reviews.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/ratings-and-reviews.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/ratings-and-reviews.md`
 
 ## Relationships
 
@@ -16,7 +16,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/path-controls.md`
+- `.agents/skills/apple-design/references/hig/ratings-and-reviews.md`
 
 ## Audit Trail
 

@@ -4,11 +4,11 @@
 
 ## Key Concepts
 
-- **NFC** (4 connections) — `.agents/skills/apple-design/references/hig/nfc.md`
-- **nfc.md** (1 connections) — `.agents/skills/apple-design/references/hig/nfc.md`
-- **Background tag reading** (1 connections) — `.agents/skills/apple-design/references/hig/nfc.md`
-- **In-app tag reading** (1 connections) — `.agents/skills/apple-design/references/hig/nfc.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/nfc.md`
+- **Outline views** (4 connections) — `.agents/skills/apple-design/references/hig/outline-views.md`
+- **outline-views.md** (1 connections) — `.agents/skills/apple-design/references/hig/outline-views.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/outline-views.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/outline-views.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/outline-views.md`
 
 ## Relationships
 
@@ -16,7 +16,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/nfc.md`
+- `.agents/skills/apple-design/references/hig/outline-views.md`
 
 ## Audit Trail
 

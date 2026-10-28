@@ -1,68 +1,48 @@
 # Zoho Integration Skill
 
-> 45 nodes · cohesion 0.07
+> 45 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **server.js** (39 connections) — `backend/src/server.js`
-- **auth.js** (12 connections) — `backend/src/middleware/auth.js`
-- **upload.js** (11 connections) — `backend/src/routes/upload.js`
-- **errorHandler.js** (9 connections) — `backend/src/middleware/errorHandler.js`
-- **rateLimit.js** (9 connections) — `backend/src/middleware/rateLimit.js`
-- **securityPhase3.test.mjs** (9 connections) — `backend/test/securityPhase3.test.mjs`
-- **admin.js** (8 connections) — `backend/src/routes/admin.js`
-- **health.js** (8 connections) — `backend/src/routes/health.js`
-- **rateLimit()** (7 connections) — `backend/src/middleware/rateLimit.js`
-- **migrate.js** (6 connections) — `backend/src/db/migrate.js`
-- **prices.js** (6 connections) — `backend/src/routes/prices.js`
-- **jwtAuth()** (5 connections) — `backend/src/middleware/auth.js`
-- **requireAdmin()** (5 connections) — `backend/src/middleware/auth.js`
-- **migrate()** (4 connections) — `backend/src/db/migrate.js`
-- **uploadRouter** (4 connections) — `backend/src/routes/upload.js`
-- **rateLimitFix.test.mjs** (4 connections) — `backend/test/rateLimitFix.test.mjs`
-- **applied()** (3 connections) — `backend/src/db/migrate.js`
-- **startJobs()** (3 connections) — `backend/src/jobs/index.js`
-- **errorHandler()** (3 connections) — `backend/src/middleware/errorHandler.js`
-- **getClientIp()** (3 connections) — `backend/src/middleware/rateLimit.js`
-- **adminRouter** (3 connections) — `backend/src/routes/admin.js`
-- **start()** (3 connections) — `backend/src/server.js`
-- **authRouter** (2 connections) — `backend/src/routes/auth.js`
-- **dealersRouter** (2 connections) — `backend/src/routes/dealers.js`
-- **healthRouter** (2 connections) — `backend/src/routes/health.js`
+- **generated-validators.mjs** (41 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **func3()** (11 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **generate-validators.test.mjs** (5 connections) — `.agents/skills/archify/test/generate-validators.test.mjs`
+- **validate20()** (4 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **validate22()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **validate27()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **validate28()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **validate30()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **validate31()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **validate33()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **validate34()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **validate36()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **validate37()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **validate24()** (2 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **pattern17** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **pattern18** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **pattern20** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **pattern4** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **pattern57** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **schema112** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **schema116** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **schema118** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **schema149** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **schema31** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **schema33** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
 - *... and 20 more nodes in this community*
 
 ## Relationships
 
-- [[Community 50]] (17 shared connections)
-- [[Graphify Workflow]] (17 shared connections)
-- [[Product Requirements Documentation]] (12 shared connections)
-- [[Community 145]] (7 shared connections)
-- [[Community 89]] (3 shared connections)
-- [[Community 138]] (2 shared connections)
-- [[Community 127]] (2 shared connections)
-- [[Pricing Regression Test Suite]] (2 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (1 shared connections)
 
 ## Source Files
 
-- `backend/src/db/migrate.js`
-- `backend/src/jobs/index.js`
-- `backend/src/middleware/auth.js`
-- `backend/src/middleware/errorHandler.js`
-- `backend/src/middleware/rateLimit.js`
-- `backend/src/routes/admin.js`
-- `backend/src/routes/auth.js`
-- `backend/src/routes/dealers.js`
-- `backend/src/routes/health.js`
-- `backend/src/routes/prices.js`
-- `backend/src/routes/upload.js`
-- `backend/src/routes/webhooks.js`
-- `backend/src/server.js`
-- `backend/test/rateLimitFix.test.mjs`
-- `backend/test/securityPhase3.test.mjs`
+- `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- `.agents/skills/archify/test/generate-validators.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 192 (100%)
+- EXTRACTED: 121 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

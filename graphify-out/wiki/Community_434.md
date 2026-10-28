@@ -4,10 +4,10 @@
 
 ## Key Concepts
 
-- **guide-page.test.mjs** (3 connections) — `.agents/skills/archify/test/guide-page.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/guide-page.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/guide-page.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/guide-page.test.mjs`
+- **constants.js** (3 connections) — `backend/src/utils/constants.js`
+- **DEALER_STATUS** (1 connections) — `backend/src/utils/constants.js`
+- **ROLES** (1 connections) — `backend/src/utils/constants.js`
+- **TOKEN_TTL** (1 connections) — `backend/src/utils/constants.js`
 
 ## Relationships
 
@@ -15,7 +15,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/guide-page.test.mjs`
+- `backend/src/utils/constants.js`
 
 ## Audit Trail
 

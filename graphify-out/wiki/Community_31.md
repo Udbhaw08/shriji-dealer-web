@@ -1,54 +1,47 @@
 # Community 31
 
-> 41 nodes · cohesion 0.07
+> 41 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **al()** (39 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **bc()** (17 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **gc()** (12 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **lm()** (12 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **il()** (11 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **Ti()** (11 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **kc()** (8 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **ma()** (8 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **ki()** (6 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **la()** (6 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **lh()** (6 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **qc()** (6 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **ao()** (5 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **be()** (5 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **Gi()** (5 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **pi()** (5 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **rl()** (5 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **Ca()** (4 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **di()** (4 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **Ei()** (4 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **el()** (4 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **im()** (4 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **Ko()** (4 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **Mi()** (4 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **oo()** (4 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- **Motion & Micro-interactions Guide** (13 connections) — `.agents/skills/refero-design/references/motion.md`
+- **8. Anti-Patterns** (7 connections) — `.agents/skills/refero-design/references/motion.md`
+- **1. The Motion Pyramid** (5 connections) — `.agents/skills/refero-design/references/motion.md`
+- **4. Micro-interactions That Work** (5 connections) — `.agents/skills/refero-design/references/motion.md`
+- **2. Timing That Actually Works** (4 connections) — `.agents/skills/refero-design/references/motion.md`
+- **3. Easing: Native Feel Without Cringe** (4 connections) — `.agents/skills/refero-design/references/motion.md`
+- **6. Reduced Motion: Not Optional** (4 connections) — `.agents/skills/refero-design/references/motion.md`
+- **5. Motion Tokens for Design Systems** (3 connections) — `.agents/skills/refero-design/references/motion.md`
+- **7. Libraries and Tools** (3 connections) — `.agents/skills/refero-design/references/motion.md`
+- **motion.md** (1 connections) — `.agents/skills/refero-design/references/motion.md`
+- **0. Context First** (1 connections) — `.agents/skills/refero-design/references/motion.md`
+- **9. Pre-Ship Checklist** (1 connections) — `.agents/skills/refero-design/references/motion.md`
+- **Animations Must Be Interruptible** (1 connections) — `.agents/skills/refero-design/references/motion.md`
+- **Appendix: Complete Token System** (1 connections) — `.agents/skills/refero-design/references/motion.md`
+- **Basic Principle** (1 connections) — `.agents/skills/refero-design/references/motion.md`
+- **Buttons and Controls** (1 connections) — `.agents/skills/refero-design/references/motion.md`
+- **Component Mapping** (1 connections) — `.agents/skills/refero-design/references/motion.md`
+- **Critical: Never Use `transition: all`** (1 connections) — `.agents/skills/refero-design/references/motion.md`
+- **CSS Shortcut** (1 connections) — `.agents/skills/refero-design/references/motion.md`
+- **CSS Tokens** (1 connections) — `.agents/skills/refero-design/references/motion.md`
+- **Duration Reference** (1 connections) — `.agents/skills/refero-design/references/motion.md`
+- **For Complex Scenarios** (1 connections) — `.agents/skills/refero-design/references/motion.md`
+- **For Web/SaaS (React/Next)** (1 connections) — `.agents/skills/refero-design/references/motion.md`
+- **Implementation** (1 connections) — `.agents/skills/refero-design/references/motion.md`
+- **Inputs** (1 connections) — `.agents/skills/refero-design/references/motion.md`
 - *... and 16 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (55 shared connections)
-- [[Dependencies & Package Config]] (21 shared connections)
-- [[Community 47]] (14 shared connections)
-- [[Master Codebase Architecture Reference]] (14 shared connections)
-- [[Community 44]] (7 shared connections)
-- [[Community 30]] (7 shared connections)
-- [[Pricing & Roles Skill]] (6 shared connections)
-- [[Community 48]] (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-D-WrdUrA.js`
+- `.agents/skills/refero-design/references/motion.md`
 
 ## Audit Trail
 
-- EXTRACTED: 248 (100%)
+- EXTRACTED: 80 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

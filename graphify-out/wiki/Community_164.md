@@ -1,33 +1,37 @@
 # Community 164
 
-> 12 nodes · cohesion 0.17
+> 12 nodes · cohesion 0.41
 
 ## Key Concepts
 
-- **SF Symbols** (11 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
-- **sf-symbols.md** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
-- **Animations** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
-- **Custom symbols** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
-- **Design variants** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
-- **Gradients** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
-- **Rendering modes** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
-- **Variable color** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
-- **Weights and scales** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
+- **repository-evidence.mjs** (15 connections) — `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
+- **verifyRepositoryEvidence()** (14 connections) — `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
+- **evidenceFailure()** (6 connections) — `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
+- **repository-location.mjs** (5 connections) — `.agents/skills/archify/renderers/shared/repository-location.mjs`
+- **parseRepositoryRemote()** (5 connections) — `.agents/skills/archify/renderers/shared/repository-location.mjs`
+- **gitValue()** (4 connections) — `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
+- **runGit()** (4 connections) — `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
+- **verifiedSourcePath()** (3 connections) — `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
+- **redactRepositoryRemote()** (3 connections) — `.agents/skills/archify/renderers/shared/repository-location.mjs`
+- **repositorySourceHref()** (3 connections) — `.agents/skills/archify/renderers/shared/repository-location.mjs`
+- **hasRepositoryEvidence()** (2 connections) — `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
+- **sourceLineCount()** (2 connections) — `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Zoho Backend & Proxy Endpoints]] (6 shared connections)
+- [[Community 137]] (3 shared connections)
+- [[Community 59]] (2 shared connections)
+- [[Community 111]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/sf-symbols.md`
+- `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
+- `.agents/skills/archify/renderers/shared/repository-location.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (100%)
+- EXTRACTED: 66 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

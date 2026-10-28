@@ -1,37 +1,31 @@
 # Community 187
 
-> 10 nodes · cohesion 0.31
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **upload.js** (9 connections) — `api/upload.js`
-- **verifyAdminAuth()** (9 connections) — `api/_lib/adminAuth.js`
-- **adminAuth.js** (6 connections) — `api/_lib/adminAuth.js`
-- **handler()** (4 connections) — `api/upload.js`
-- **login.js** (3 connections) — `api/admin/login.js`
-- **handler()** (2 connections) — `api/admin/login.js`
-- **validateMagicBytes()** (2 connections) — `api/upload.js`
-- **ALLOWED_EXTENSIONS** (1 connections) — `api/upload.js`
-- **ALLOWED_FOLDERS** (1 connections) — `api/upload.js`
-- **MIME_TYPES** (1 connections) — `api/upload.js`
+- **ROLES-AND-SHARING.md — who sees which price** (9 connections) — `docs/ROLES-AND-SHARING.md`
+- **ROLES-AND-SHARING.md** (1 connections) — `docs/ROLES-AND-SHARING.md`
+- **1. The four viewers** (1 connections) — `docs/ROLES-AND-SHARING.md`
+- **2. The rule, in one function** (1 connections) — `docs/ROLES-AND-SHARING.md`
+- **3. ⚠️ What this is not** (1 connections) — `docs/ROLES-AND-SHARING.md`
+- **4. The share link** (1 connections) — `docs/ROLES-AND-SHARING.md`
+- **5. What the customer sees — `CustomerPrice` in `PriceBlock.jsx`** (1 connections) — `docs/ROLES-AND-SHARING.md`
+- **6. The login flow** (1 connections) — `docs/ROLES-AND-SHARING.md`
+- **7. Also gated** (1 connections) — `docs/ROLES-AND-SHARING.md`
+- **8. Checks** (1 connections) — `docs/ROLES-AND-SHARING.md`
 
 ## Relationships
 
-- [[Community 89]] (3 shared connections)
-- [[Graphify Workflow]] (2 shared connections)
-- [[Community 145]] (2 shared connections)
-- [[Community 127]] (2 shared connections)
-- [[Community 50]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `api/_lib/adminAuth.js`
-- `api/admin/login.js`
-- `api/upload.js`
+- `docs/ROLES-AND-SHARING.md`
 
 ## Audit Trail
 
-- EXTRACTED: 38 (100%)
+- EXTRACTED: 18 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

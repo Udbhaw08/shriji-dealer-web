@@ -1,34 +1,38 @@
 # Community 165
 
-> 12 nodes · cohesion 0.26
+> 11 nodes · cohesion 0.27
 
 ## Key Concepts
 
-- **items** (5 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **items** (5 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **items** (5 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **items** (5 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **additionalProperties** (4 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **required** (4 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **type** (4 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **messages** (4 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **activations** (3 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **minItems** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **tf()** (10 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
+- **ef()** (7 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
+- **lf()** (7 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
+- **uf()** (7 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
+- **of()** (6 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
+- **sf()** (5 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
+- **cf()** (4 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
+- **jf()** (4 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
+- **vf()** (4 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
+- **Wf()** (3 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
+- **hp()** (2 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
 
 ## Relationships
 
-- [[Community 82]] (4 shared connections)
-- [[Community 95]] (4 shared connections)
+- [[Dealer Auth & Session Management]] (12 shared connections)
+- [[Mobile Responsive UI Skill]] (6 shared connections)
+- [[Pricing & Roles Skill]] (5 shared connections)
+- [[Community 76]] (2 shared connections)
+- [[Community 36]] (2 shared connections)
+- [[Product Pages Specification]] (1 shared connections)
+- [[Design System & UI Tokens]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/sequence.schema.json`
+- `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
 
 ## Audit Trail
 
-- EXTRACTED: 42 (100%)
+- EXTRACTED: 59 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

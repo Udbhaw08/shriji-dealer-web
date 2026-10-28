@@ -1,36 +1,35 @@
 # Community 124
 
-> 15 nodes · cohesion 0.13
+> 14 nodes · cohesion 0.23
 
 ## Key Concepts
 
-- **repository** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **properties** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **revision** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **url** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **link_mode** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **provider** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **enum** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **enum** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **required** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **pattern** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **minLength** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **web-CHmZ3iDZ.js** (13 connections) — `android/app/src/main/assets/public/assets/web-CHmZ3iDZ.js`
+- **applyPrefix()** (4 connections) — `android/app/src/main/assets/public/assets/web-CHmZ3iDZ.js`
+- **keys()** (4 connections) — `android/app/src/main/assets/public/assets/web-CHmZ3iDZ.js`
+- **get()** (3 connections) — `android/app/src/main/assets/public/assets/web-CHmZ3iDZ.js`
+- **migrate()** (3 connections) — `android/app/src/main/assets/public/assets/web-CHmZ3iDZ.js`
+- **rawKeys()** (3 connections) — `android/app/src/main/assets/public/assets/web-CHmZ3iDZ.js`
+- **clear()** (2 connections) — `android/app/src/main/assets/public/assets/web-CHmZ3iDZ.js`
+- **remove()** (2 connections) — `android/app/src/main/assets/public/assets/web-CHmZ3iDZ.js`
+- **removeOld()** (2 connections) — `android/app/src/main/assets/public/assets/web-CHmZ3iDZ.js`
+- **set()** (2 connections) — `android/app/src/main/assets/public/assets/web-CHmZ3iDZ.js`
+- **configure()** (1 connections) — `android/app/src/main/assets/public/assets/web-CHmZ3iDZ.js`
+- **constructor()** (1 connections) — `android/app/src/main/assets/public/assets/web-CHmZ3iDZ.js`
+- **impl()** (1 connections) — `android/app/src/main/assets/public/assets/web-CHmZ3iDZ.js`
+- **prefix()** (1 connections) — `android/app/src/main/assets/public/assets/web-CHmZ3iDZ.js`
 
 ## Relationships
 
-- [[Community 88]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/architecture.schema.json`
+- `android/app/src/main/assets/public/assets/web-CHmZ3iDZ.js`
 
 ## Audit Trail
 
-- EXTRACTED: 29 (100%)
+- EXTRACTED: 42 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

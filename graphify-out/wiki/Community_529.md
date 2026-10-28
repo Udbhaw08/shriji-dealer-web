@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **notificationDispatcher.js** (1 connections) — `backend/src/services/notificationDispatcher.js`
-- **dispatchNotification()** (1 connections) — `backend/src/services/notificationDispatcher.js`
+- **a11y.js** (1 connections) — `src/utils/a11y.js`
+- **trapFocus()** (1 connections) — `src/utils/a11y.js`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `backend/src/services/notificationDispatcher.js`
+- `src/utils/a11y.js`
 
 ## Audit Trail
 

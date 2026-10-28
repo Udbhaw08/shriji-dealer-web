@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **Microservices Decoupled Architecture** (2 connections) — `docs/architecture/microservices-architecture.md`
-- **microservices-architecture.md** (1 connections) — `docs/architecture/microservices-architecture.md`
-- **Overview** (1 connections) — `docs/architecture/microservices-architecture.md`
+- **Portal Access Gate Specification** (2 connections) — `docs/architecture/portal-gate-specification.md`
+- **portal-gate-specification.md** (1 connections) — `docs/architecture/portal-gate-specification.md`
+- **Gating Mechanism** (1 connections) — `docs/architecture/portal-gate-specification.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/architecture/microservices-architecture.md`
+- `docs/architecture/portal-gate-specification.md`
 
 ## Audit Trail
 

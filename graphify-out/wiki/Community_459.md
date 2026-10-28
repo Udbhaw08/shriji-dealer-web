@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **Designing for iPadOS** (2 connections) — `.agents/skills/apple-design/references/hig/designing-for-ipados.md`
-- **designing-for-ipados.md** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-ipados.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-ipados.md`
+- **Android Release Keystore & Bundle Guide** (2 connections) — `docs/mobile/android-keystore-generation.md`
+- **android-keystore-generation.md** (1 connections) — `docs/mobile/android-keystore-generation.md`
+- **Commands** (1 connections) — `docs/mobile/android-keystore-generation.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/designing-for-ipados.md`
+- `docs/mobile/android-keystore-generation.md`
 
 ## Audit Trail
 

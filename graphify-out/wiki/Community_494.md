@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **OWASP Top 10 Security Checklist** (2 connections) — `docs/testing/security-penetration-testing-notes.md`
-- **security-penetration-testing-notes.md** (1 connections) — `docs/testing/security-penetration-testing-notes.md`
-- **Verified Protections** (1 connections) — `docs/testing/security-penetration-testing-notes.md`
+- **formatters.js** (2 connections) — `src/utils/formatters.js`
+- **formatCurrencyINR()** (1 connections) — `src/utils/formatters.js`
+- **formatPhoneNumber()** (1 connections) — `src/utils/formatters.js`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/testing/security-penetration-testing-notes.md`
+- `src/utils/formatters.js`
 
 ## Audit Trail
 

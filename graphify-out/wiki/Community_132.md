@@ -1,23 +1,23 @@
 # Community 132
 
-> 14 nodes · cohesion 0.23
+> 14 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **web-D7iZ6_49.js** (13 connections) — `ios/App/App/public/assets/web-D7iZ6_49.js`
-- **applyPrefix()** (4 connections) — `ios/App/App/public/assets/web-D7iZ6_49.js`
-- **keys()** (4 connections) — `ios/App/App/public/assets/web-D7iZ6_49.js`
-- **get()** (3 connections) — `ios/App/App/public/assets/web-D7iZ6_49.js`
-- **migrate()** (3 connections) — `ios/App/App/public/assets/web-D7iZ6_49.js`
-- **rawKeys()** (3 connections) — `ios/App/App/public/assets/web-D7iZ6_49.js`
-- **clear()** (2 connections) — `ios/App/App/public/assets/web-D7iZ6_49.js`
-- **remove()** (2 connections) — `ios/App/App/public/assets/web-D7iZ6_49.js`
-- **removeOld()** (2 connections) — `ios/App/App/public/assets/web-D7iZ6_49.js`
-- **set()** (2 connections) — `ios/App/App/public/assets/web-D7iZ6_49.js`
-- **configure()** (1 connections) — `ios/App/App/public/assets/web-D7iZ6_49.js`
-- **constructor()** (1 connections) — `ios/App/App/public/assets/web-D7iZ6_49.js`
-- **impl()** (1 connections) — `ios/App/App/public/assets/web-D7iZ6_49.js`
-- **prefix()** (1 connections) — `ios/App/App/public/assets/web-D7iZ6_49.js`
+- **Icons & Glyphs Guide** (10 connections) — `.agents/skills/refero-design/references/icons.md`
+- **Libraries** (4 connections) — `.agents/skills/refero-design/references/icons.md`
+- **icons.md** (1 connections) — `.agents/skills/refero-design/references/icons.md`
+- **Accessibility** (1 connections) — `.agents/skills/refero-design/references/icons.md`
+- **Color** (1 connections) — `.agents/skills/refero-design/references/icons.md`
+- **For Product UI (SVG-based)** (1 connections) — `.agents/skills/refero-design/references/icons.md`
+- **Icon Sizing** (1 connections) — `.agents/skills/refero-design/references/icons.md`
+- **Icon + Text Pairing** (1 connections) — `.agents/skills/refero-design/references/icons.md`
+- **Optical Corrections** (1 connections) — `.agents/skills/refero-design/references/icons.md`
+- **Pre-Ship Checklist** (1 connections) — `.agents/skills/refero-design/references/icons.md`
+- **Style Consistency** (1 connections) — `.agents/skills/refero-design/references/icons.md`
+- **Two Contexts** (1 connections) — `.agents/skills/refero-design/references/icons.md`
+- **Variable Glyph Systems** (1 connections) — `.agents/skills/refero-design/references/icons.md`
+- **When to Use What** (1 connections) — `.agents/skills/refero-design/references/icons.md`
 
 ## Relationships
 
@@ -25,11 +25,11 @@
 
 ## Source Files
 
-- `ios/App/App/public/assets/web-D7iZ6_49.js`
+- `.agents/skills/refero-design/references/icons.md`
 
 ## Audit Trail
 
-- EXTRACTED: 42 (100%)
+- EXTRACTED: 26 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

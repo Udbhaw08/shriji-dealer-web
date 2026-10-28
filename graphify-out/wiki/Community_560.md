@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **context.md** (0 connections) — `design/context.md`
+- **verify-all.mjs** (0 connections) — `scripts/verify-all.mjs`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `design/context.md`
+- `scripts/verify-all.mjs`
 
 ## Audit Trail
 

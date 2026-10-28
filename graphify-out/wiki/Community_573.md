@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **errorHandler.test.mjs** (0 connections) — `backend/test/errorHandler.test.mjs`
+- **rateLimiterEdgeCases.test.mjs** (0 connections) — `backend/test/rateLimiterEdgeCases.test.mjs`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `backend/test/errorHandler.test.mjs`
+- `backend/test/rateLimiterEdgeCases.test.mjs`
 
 ## Audit Trail
 

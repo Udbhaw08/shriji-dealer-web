@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **asyncHandler.js** (1 connections) — `backend/src/utils/asyncHandler.js`
-- **asyncHandler()** (1 connections) — `backend/src/utils/asyncHandler.js`
+- **envValidator.js** (1 connections) — `backend/src/utils/envValidator.js`
+- **requireEnv()** (1 connections) — `backend/src/utils/envValidator.js`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `backend/src/utils/asyncHandler.js`
+- `backend/src/utils/envValidator.js`
 
 ## Audit Trail
 

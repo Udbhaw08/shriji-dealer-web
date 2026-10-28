@@ -1,59 +1,45 @@
 # Community 64
 
-> 25 nodes · cohesion 0.15
+> 24 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **workflow-compiler.mjs** (102 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **textUnits()** (33 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
-- **minimumNodeTextWidth()** (12 connections) — `.agents/skills/archify/renderers/shared/text-fit.mjs`
-- **createReadableLayout()** (12 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **text-fit.mjs** (11 connections) — `.agents/skills/archify/renderers/shared/text-fit.mjs`
-- **readableGroupBounds()** (5 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **authoredNodeWidth()** (4 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **compileWorkflowWithFeedback()** (4 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **authoredNodeHeight()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **compilerFailure()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **feedbackFailure()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **nodeWidthContributor()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **verticalIntervalsOverlap()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **workflowLabelWidth()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **createLegacyLayout()** (2 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **stableCompare()** (2 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **stableText()** (2 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **stableValueKey()** (2 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **workflowEdgeName()** (2 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **WorkflowLayoutFeedback** (2 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **nodeTextFit** (1 connections) — `.agents/skills/archify/renderers/shared/text-fit.mjs`
-- **cloneWorkflow()** (1 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **LEGACY_COLUMN_CENTERS** (1 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **READABLE_CANDIDATE_COST_PRIORITY** (1 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **.constructor()** (1 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **Apple Pay** (11 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Using Apple Pay buttons** (5 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Button styles** (4 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Button types** (3 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Handling problems** (3 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Streamlining checkout** (2 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **apple-pay.md** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Apple Pay button** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Apple Pay mark** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Black** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Button size and position** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Customizing the payment sheet** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Data validation errors** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Displaying a website icon** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Offering Apple Pay** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Payment processing problems** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Referring to Apple Pay** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Set Up Apple Pay button** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Supporting donations** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Supporting subscriptions** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **White** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **White with outline** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
 
 ## Relationships
 
-- [[Zoho Backend & Proxy Endpoints]] (47 shared connections)
-- [[Mobile Responsive UI Skill]] (23 shared connections)
-- [[Live Pricing Audit Tool]] (21 shared connections)
-- [[Zoho Integration Architecture]] (9 shared connections)
-- [[Community 46]] (8 shared connections)
-- [[Design System & UI Tokens]] (8 shared connections)
-- [[Community 133]] (4 shared connections)
-- [[Community 297]] (4 shared connections)
-- [[Vercel Deployment Routing]] (2 shared connections)
-- [[Community 289]] (1 shared connections)
-- [[Community 151]] (1 shared connections)
-- [[Community 59]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/shared/text-fit.mjs`
-- `.agents/skills/archify/renderers/shared/utils.mjs`
-- `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- `.agents/skills/apple-design/references/hig/apple-pay.md`
 
 ## Audit Trail
 
-- EXTRACTED: 218 (100%)
+- EXTRACTED: 46 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

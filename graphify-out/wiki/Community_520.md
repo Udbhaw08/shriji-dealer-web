@@ -4,20 +4,20 @@
 
 ## Key Concepts
 
-- **localization.md** (1 connections) — `.agents/skills/swiftui-pro/references/localization.md`
-- **Localization** (1 connections) — `.agents/skills/swiftui-pro/references/localization.md`
+- **step** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Graphify Workflow]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/swiftui-pro/references/localization.md`
+- `.agents/skills/archify/schemas/lifecycle.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 3 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

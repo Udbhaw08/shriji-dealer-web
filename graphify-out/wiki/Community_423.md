@@ -4,14 +4,14 @@
 
 ## Key Concepts
 
-- **bias** (4 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **fromCol** (4 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
 - **maximum** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
 - **minimum** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
 - **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
 
 ## Relationships
 
-- [[Community 38]] (1 shared connections)
+- [[Community 29]] (1 shared connections)
 
 ## Source Files
 

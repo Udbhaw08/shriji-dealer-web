@@ -33,18 +33,18 @@
 
 ## Relationships
 
-- [[Community 83]] (8 shared connections)
-- [[Community 128]] (6 shared connections)
-- [[Community 55]] (5 shared connections)
-- [[Roles & Customer Sharing Spec]] (4 shared connections)
-- [[Community 65]] (3 shared connections)
-- [[Zoho Integration Architecture]] (3 shared connections)
-- [[Community 119]] (2 shared connections)
-- [[Community 92]] (2 shared connections)
-- [[Community 106]] (2 shared connections)
-- [[Community 148]] (1 shared connections)
-- [[Community 149]] (1 shared connections)
-- [[Community 125]] (1 shared connections)
+- [[Community 82]] (8 shared connections)
+- [[Community 126]] (6 shared connections)
+- [[Community 54]] (5 shared connections)
+- [[Graphify Knowledge Graph Skill]] (4 shared connections)
+- [[Community 63]] (3 shared connections)
+- [[Product Brand & Business Vision]] (3 shared connections)
+- [[Community 138]] (2 shared connections)
+- [[Community 90]] (2 shared connections)
+- [[Community 104]] (2 shared connections)
+- [[Community 146]] (1 shared connections)
+- [[Community 147]] (1 shared connections)
+- [[Community 123]] (1 shared connections)
 
 ## Source Files
 

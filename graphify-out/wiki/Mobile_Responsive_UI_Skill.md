@@ -1,66 +1,56 @@
 # Mobile Responsive UI Skill
 
-> 46 nodes · cohesion 0.12
+> 47 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **render-dataflow.mjs** (78 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **esc()** (31 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **escapeHtml()** (26 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **animateAttr()** (16 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **focusEdgeAttrs()** (15 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **labelPoint()** (15 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **renderBrandMark()** (14 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **renderNode()** (13 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **renderState()** (13 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **focusNodeAttrs()** (13 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **renderSemanticSigil()** (13 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
-- **renderComponent()** (12 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **renderParticipant()** (12 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **brandLabelFitWidth()** (12 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **brandMetadataFor()** (12 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **focusNodeTitle()** (12 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **routePointsValue()** (12 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **fittedNodeFontSize()** (12 connections) — `.agents/skills/archify/renderers/shared/text-fit.mjs`
-- **variantAccent()** (9 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **renderConnectionLabel()** (8 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **renderFlowLabel()** (8 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **renderTransitionLabel()** (8 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **renderMessage()** (8 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **brandMarkFor()** (7 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **messageLabel()** (6 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- *... and 21 more nodes in this community*
+- **at()** (22 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
+- **k()** (20 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
+- **U()** (19 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
+- **ct()** (15 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
+- **A()** (12 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
+- **pt()** (12 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
+- **dt()** (11 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
+- **mt()** (11 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
+- **ye()** (11 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
+- **no()** (10 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
+- **on()** (9 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
+- **yn()** (9 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
+- **kf()** (8 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
+- **lt()** (8 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
+- **mn()** (8 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
+- **so()** (8 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
+- **st()** (8 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
+- **tt()** (8 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
+- **Id()** (7 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
+- **it()** (7 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
+- **jc()** (7 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
+- **je()** (7 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
+- **nn()** (7 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
+- **P()** (7 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
+- **rt()** (7 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
+- *... and 22 more nodes in this community*
 
 ## Relationships
 
-- [[Zoho Backend & Proxy Endpoints]] (45 shared connections)
-- [[Live Pricing Audit Tool]] (42 shared connections)
-- [[Community 46]] (32 shared connections)
-- [[Zoho Integration Architecture]] (24 shared connections)
-- [[Community 64]] (23 shared connections)
-- [[Design System & UI Tokens]] (11 shared connections)
-- [[Vercel Deployment Routing]] (7 shared connections)
-- [[Community 61]] (5 shared connections)
-- [[Community 84]] (2 shared connections)
+- [[Dealer Auth & Session Management]] (59 shared connections)
+- [[Product Pages Specification]] (22 shared connections)
+- [[Community 30]] (18 shared connections)
+- [[Community 72]] (14 shared connections)
+- [[Design System & UI Tokens]] (12 shared connections)
+- [[Community 36]] (9 shared connections)
+- [[Community 76]] (9 shared connections)
+- [[Community 165]] (6 shared connections)
+- [[Pricing & Roles Skill]] (6 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/delta/architecture-delta.mjs`
-- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- `.agents/skills/archify/renderers/shared/cli.mjs`
-- `.agents/skills/archify/renderers/shared/geometry.mjs`
-- `.agents/skills/archify/renderers/shared/i18n.mjs`
-- `.agents/skills/archify/renderers/shared/text-fit.mjs`
-- `.agents/skills/archify/renderers/shared/utils.mjs`
+- `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
 
 ## Audit Trail
 
-- EXTRACTED: 396 (90%)
-- INFERRED: 43 (10%)
+- EXTRACTED: 343 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **Third-party notices** (5 connections) — `.agents/skills/archify/THIRD_PARTY_NOTICES.md`
-- **THIRD_PARTY_NOTICES.md** (1 connections) — `.agents/skills/archify/THIRD_PARTY_NOTICES.md`
-- **JetBrains Mono** (1 connections) — `.agents/skills/archify/THIRD_PARTY_NOTICES.md`
-- **No additional rights granted** (1 connections) — `.agents/skills/archify/THIRD_PARTY_NOTICES.md`
-- **OpenAI mark** (1 connections) — `.agents/skills/archify/THIRD_PARTY_NOTICES.md`
-- **Simple Icons** (1 connections) — `.agents/skills/archify/THIRD_PARTY_NOTICES.md`
+- **ErrorBoundary** (5 connections) — `src/components/ErrorBoundary.jsx`
+- **ErrorBoundary.jsx** (1 connections) — `src/components/ErrorBoundary.jsx`
+- **.componentDidCatch()** (1 connections) — `src/components/ErrorBoundary.jsx`
+- **.constructor()** (1 connections) — `src/components/ErrorBoundary.jsx`
+- **.getDerivedStateFromError()** (1 connections) — `src/components/ErrorBoundary.jsx`
+- **.render()** (1 connections) — `src/components/ErrorBoundary.jsx`
 
 ## Relationships
 
@@ -17,7 +17,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/THIRD_PARTY_NOTICES.md`
+- `src/components/ErrorBoundary.jsx`
 
 ## Audit Trail
 

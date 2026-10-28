@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **portalGate.test.mjs** (0 connections) — `src/data/portalGate.test.mjs`
+- **cordova.js** (0 connections) — `ios/App/App/public/cordova.js`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `src/data/portalGate.test.mjs`
+- `ios/App/App/public/cordova.js`
 
 ## Audit Trail
 

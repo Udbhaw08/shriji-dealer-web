@@ -1,54 +1,54 @@
 # Community 30
 
-> 41 nodes · cohesion 0.12
+> 41 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **Or()** (23 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **jr()** (22 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **gf()** (20 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **co()** (12 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **Dn()** (12 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **af()** (10 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **Ai()** (10 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **Ar()** (9 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **hr()** (9 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **mr()** (8 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **qr()** (8 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **Si()** (8 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **Fr()** (7 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **ln()** (7 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **Oi()** (7 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **hn()** (6 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **Ir()** (6 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **pr()** (6 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **Rr()** (6 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **wr()** (6 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **xi()** (6 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **xr()** (6 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **bn()** (5 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **br()** (5 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **qf()** (5 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
+- **al()** (41 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
+- **bc()** (18 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
+- **ia()** (15 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
+- **la()** (15 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
+- **lm()** (13 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
+- **il()** (11 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
+- **l()** (10 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
+- **na()** (10 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
+- **ta()** (10 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
+- **da()** (6 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
+- **dc()** (6 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
+- **lh()** (6 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
+- **oa()** (6 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
+- **oo()** (6 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
+- **xe()** (6 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
+- **ao()** (5 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
+- **en()** (5 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
+- **qn()** (5 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
+- **an()** (4 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
+- **Ca()** (4 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
+- **el()** (4 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
+- **fa()** (4 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
+- **im()** (4 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
+- **ro()** (4 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
+- **Yt()** (4 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
 - *... and 16 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (44 shared connections)
-- [[Dependencies & Package Config]] (12 shared connections)
-- [[Community 44]] (11 shared connections)
-- [[Master Codebase Architecture Reference]] (9 shared connections)
-- [[Community 31]] (7 shared connections)
-- [[Community 48]] (6 shared connections)
-- [[Community 47]] (4 shared connections)
-- [[Pricing & Roles Skill]] (3 shared connections)
+- [[Dealer Auth & Session Management]] (52 shared connections)
+- [[Product Pages Specification]] (26 shared connections)
+- [[Design System & UI Tokens]] (20 shared connections)
+- [[Mobile Responsive UI Skill]] (18 shared connections)
+- [[Community 72]] (10 shared connections)
+- [[Pricing & Roles Skill]] (10 shared connections)
+- [[Community 76]] (6 shared connections)
+- [[Community 36]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-D-WrdUrA.js`
+- `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
 
 ## Audit Trail
 
-- EXTRACTED: 288 (100%)
+- EXTRACTED: 265 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

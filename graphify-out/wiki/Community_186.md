@@ -1,32 +1,37 @@
 # Community 186
 
-> 11 nodes · cohesion 0.18
+> 10 nodes · cohesion 0.31
 
 ## Key Concepts
 
-- **httpErrors.js** (5 connections) — `backend/src/utils/httpErrors.js`
-- **BadRequestError** (2 connections) — `backend/src/utils/httpErrors.js`
-- **ForbiddenError** (2 connections) — `backend/src/utils/httpErrors.js`
-- **HttpError** (2 connections) — `backend/src/utils/httpErrors.js`
-- **NotFoundError** (2 connections) — `backend/src/utils/httpErrors.js`
-- **UnauthorizedError** (2 connections) — `backend/src/utils/httpErrors.js`
-- **.constructor()** (1 connections) — `backend/src/utils/httpErrors.js`
-- **.constructor()** (1 connections) — `backend/src/utils/httpErrors.js`
-- **.constructor()** (1 connections) — `backend/src/utils/httpErrors.js`
-- **.constructor()** (1 connections) — `backend/src/utils/httpErrors.js`
-- **.constructor()** (1 connections) — `backend/src/utils/httpErrors.js`
+- **upload.js** (9 connections) — `api/upload.js`
+- **verifyAdminAuth()** (9 connections) — `api/_lib/adminAuth.js`
+- **adminAuth.js** (6 connections) — `api/_lib/adminAuth.js`
+- **handler()** (4 connections) — `api/upload.js`
+- **login.js** (3 connections) — `api/admin/login.js`
+- **handler()** (2 connections) — `api/admin/login.js`
+- **validateMagicBytes()** (2 connections) — `api/upload.js`
+- **ALLOWED_EXTENSIONS** (1 connections) — `api/upload.js`
+- **ALLOWED_FOLDERS** (1 connections) — `api/upload.js`
+- **MIME_TYPES** (1 connections) — `api/upload.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 88]] (3 shared connections)
+- [[Zoho API Diagnostic Script]] (2 shared connections)
+- [[Community 143]] (2 shared connections)
+- [[Community 125]] (2 shared connections)
+- [[Community 50]] (1 shared connections)
 
 ## Source Files
 
-- `backend/src/utils/httpErrors.js`
+- `api/_lib/adminAuth.js`
+- `api/admin/login.js`
+- `api/upload.js`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
+- EXTRACTED: 38 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

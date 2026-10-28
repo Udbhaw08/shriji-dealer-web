@@ -1,40 +1,33 @@
 # Community 152
 
-> 12 nodes · cohesion 0.20
+> 12 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **vn()** (10 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **wc()** (9 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **fn()** (7 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **ln()** (7 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **hn()** (6 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **Cc()** (5 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **pf()** (4 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **Sc()** (4 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **gn()** (3 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **componentDidCatch()** (2 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **un()** (2 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **uo()** (2 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **Apple Pencil and Scribble** (11 connections) — `.agents/skills/apple-design/references/hig/apple-pencil-and-scribble.md`
+- **apple-pencil-and-scribble.md** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pencil-and-scribble.md`
+- **Barrel roll** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pencil-and-scribble.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pencil-and-scribble.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pencil-and-scribble.md`
+- **Custom drawing** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pencil-and-scribble.md`
+- **Double tap** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pencil-and-scribble.md`
+- **Hover** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pencil-and-scribble.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pencil-and-scribble.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pencil-and-scribble.md`
+- **Scribble** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pencil-and-scribble.md`
+- **Squeeze** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pencil-and-scribble.md`
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (14 shared connections)
-- [[Product Pages Specification]] (5 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (5 shared connections)
-- [[Client Products Data Store]] (4 shared connections)
-- [[Oxlint Linter Configuration]] (3 shared connections)
-- [[Graphify Knowledge Graph Skill]] (2 shared connections)
-- [[Community 42]] (1 shared connections)
-- [[Community 54]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- `.agents/skills/apple-design/references/hig/apple-pencil-and-scribble.md`
 
 ## Audit Trail
 
-- EXTRACTED: 61 (100%)
+- EXTRACTED: 22 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

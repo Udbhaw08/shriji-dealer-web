@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **ipUtils.js** (1 connections) — `backend/src/utils/ipUtils.js`
-- **getClientIp()** (1 connections) — `backend/src/utils/ipUtils.js`
+- **urlUtils.js** (1 connections) — `src/utils/urlUtils.js`
+- **buildUrlWithQuery()** (1 connections) — `src/utils/urlUtils.js`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `backend/src/utils/ipUtils.js`
+- `src/utils/urlUtils.js`
 
 ## Audit Trail
 

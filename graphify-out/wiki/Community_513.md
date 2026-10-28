@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **esm-CBl3EMv0.js** (1 connections) — `ios/App/App/public/assets/esm-CBl3EMv0.js`
-- **__vite__mapDeps()** (1 connections) — `ios/App/App/public/assets/esm-CBl3EMv0.js`
+- **validateContentType.js** (1 connections) — `backend/src/middleware/validateContentType.js`
+- **validateContentType()** (1 connections) — `backend/src/middleware/validateContentType.js`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `ios/App/App/public/assets/esm-CBl3EMv0.js`
+- `backend/src/middleware/validateContentType.js`
 
 ## Audit Trail
 

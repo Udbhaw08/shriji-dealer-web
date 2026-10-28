@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **maskSensitiveData.js** (2 connections) — `backend/src/utils/maskSensitiveData.js`
-- **maskEmail()** (1 connections) — `backend/src/utils/maskSensitiveData.js`
-- **maskPhoneNumber()** (1 connections) — `backend/src/utils/maskSensitiveData.js`
+- **storage.js** (2 connections) — `src/utils/storage.js`
+- **memoryStore** (1 connections) — `src/utils/storage.js`
+- **safeStorage** (1 connections) — `src/utils/storage.js`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `backend/src/utils/maskSensitiveData.js`
+- `src/utils/storage.js`
 
 ## Audit Trail
 

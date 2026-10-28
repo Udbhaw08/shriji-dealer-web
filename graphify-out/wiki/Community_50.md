@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **pool.js** (35 connections) — `backend/src/db/pool.js`
+- **pool.js** (34 connections) — `backend/src/db/pool.js`
 - **env.js** (17 connections) — `backend/src/config/env.js`
 - **catalog.js** (16 connections) — `backend/src/services/catalog.js`
 - **env** (14 connections) — `backend/src/config/env.js`
@@ -33,15 +33,15 @@
 
 ## Relationships
 
-- [[Graphify Workflow]] (30 shared connections)
-- [[Product Requirements Documentation]] (22 shared connections)
-- [[Zoho Integration Skill]] (17 shared connections)
-- [[Community 138]] (8 shared connections)
-- [[Community 145]] (5 shared connections)
-- [[Community 153]] (2 shared connections)
-- [[Community 89]] (2 shared connections)
-- [[Community 187]] (1 shared connections)
-- [[Community 321]] (1 shared connections)
+- [[Zoho API Diagnostic Script]] (30 shared connections)
+- [[Oxlint Linter Configuration]] (17 shared connections)
+- [[Community 38]] (16 shared connections)
+- [[Community 135]] (8 shared connections)
+- [[Community 110]] (6 shared connections)
+- [[Community 143]] (5 shared connections)
+- [[Community 150]] (2 shared connections)
+- [[Community 88]] (2 shared connections)
+- [[Community 186]] (1 shared connections)
 
 ## Source Files
 
@@ -59,7 +59,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 206 (100%)
+- EXTRACTED: 205 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

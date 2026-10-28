@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **ReSTOR / Shriji Dealer Web Changelog** (2 connections) — `docs/CHANGELOG.md`
-- **CHANGELOG.md** (1 connections) — `docs/CHANGELOG.md`
-- **2026-10-25** (1 connections) — `docs/CHANGELOG.md`
+- **Customer Share Link (?from=) Specification** (2 connections) — `docs/guides/customer-share-link-spec.md`
+- **customer-share-link-spec.md** (1 connections) — `docs/guides/customer-share-link-spec.md`
+- **Behavior** (1 connections) — `docs/guides/customer-share-link-spec.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/CHANGELOG.md`
+- `docs/guides/customer-share-link-spec.md`
 
 ## Audit Trail
 

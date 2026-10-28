@@ -1,55 +1,69 @@
 # Oxlint Linter Configuration
 
-> 45 nodes · cohesion 0.09
+> 45 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **yc()** (18 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **ic()** (15 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **Md()** (15 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **s()** (15 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **nc()** (12 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **pa()** (12 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **bi()** (10 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **nl()** (10 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **ha()** (9 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **hh()** (9 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **kd()** (9 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **l()** (9 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **c()** (8 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **gs()** (8 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **rc()** (8 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **yh()** (8 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **ec()** (7 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **Id()** (7 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **mh()** (7 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **oc()** (7 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **yi()** (7 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **zc()** (7 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **ac()** (6 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **fh()** (6 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
-- **Mp()** (6 connections) — `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- **server.js** (39 connections) — `backend/src/server.js`
+- **auth.js** (12 connections) — `backend/src/middleware/auth.js`
+- **upload.js** (11 connections) — `backend/src/routes/upload.js`
+- **errorHandler.js** (9 connections) — `backend/src/middleware/errorHandler.js`
+- **rateLimit.js** (9 connections) — `backend/src/middleware/rateLimit.js`
+- **securityPhase3.test.mjs** (9 connections) — `backend/test/securityPhase3.test.mjs`
+- **admin.js** (8 connections) — `backend/src/routes/admin.js`
+- **health.js** (8 connections) — `backend/src/routes/health.js`
+- **rateLimit()** (7 connections) — `backend/src/middleware/rateLimit.js`
+- **migrate.js** (6 connections) — `backend/src/db/migrate.js`
+- **prices.js** (6 connections) — `backend/src/routes/prices.js`
+- **jwtAuth()** (5 connections) — `backend/src/middleware/auth.js`
+- **requireAdmin()** (5 connections) — `backend/src/middleware/auth.js`
+- **migrate()** (4 connections) — `backend/src/db/migrate.js`
+- **uploadRouter** (4 connections) — `backend/src/routes/upload.js`
+- **rateLimitFix.test.mjs** (4 connections) — `backend/test/rateLimitFix.test.mjs`
+- **applied()** (3 connections) — `backend/src/db/migrate.js`
+- **startJobs()** (3 connections) — `backend/src/jobs/index.js`
+- **errorHandler()** (3 connections) — `backend/src/middleware/errorHandler.js`
+- **getClientIp()** (3 connections) — `backend/src/middleware/rateLimit.js`
+- **adminRouter** (3 connections) — `backend/src/routes/admin.js`
+- **start()** (3 connections) — `backend/src/server.js`
+- **authRouter** (2 connections) — `backend/src/routes/auth.js`
+- **dealersRouter** (2 connections) — `backend/src/routes/dealers.js`
+- **healthRouter** (2 connections) — `backend/src/routes/health.js`
 - *... and 20 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (63 shared connections)
-- [[Community 42]] (17 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (17 shared connections)
-- [[Client Products Data Store]] (11 shared connections)
-- [[Product Pages Specification]] (9 shared connections)
-- [[Community 60]] (7 shared connections)
-- [[Graphify Knowledge Graph Skill]] (6 shared connections)
-- [[Community 54]] (6 shared connections)
-- [[Community 152]] (3 shared connections)
+- [[Community 50]] (17 shared connections)
+- [[Zoho API Diagnostic Script]] (17 shared connections)
+- [[Community 38]] (10 shared connections)
+- [[Community 143]] (7 shared connections)
+- [[Community 88]] (3 shared connections)
+- [[Community 135]] (2 shared connections)
+- [[Community 110]] (2 shared connections)
+- [[Community 125]] (2 shared connections)
+- [[Client Products Data Store]] (2 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-D-WrdUrA.js`
+- `backend/src/db/migrate.js`
+- `backend/src/jobs/index.js`
+- `backend/src/middleware/auth.js`
+- `backend/src/middleware/errorHandler.js`
+- `backend/src/middleware/rateLimit.js`
+- `backend/src/routes/admin.js`
+- `backend/src/routes/auth.js`
+- `backend/src/routes/dealers.js`
+- `backend/src/routes/health.js`
+- `backend/src/routes/prices.js`
+- `backend/src/routes/upload.js`
+- `backend/src/routes/webhooks.js`
+- `backend/src/server.js`
+- `backend/test/rateLimitFix.test.mjs`
+- `backend/test/securityPhase3.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 319 (100%)
+- EXTRACTED: 192 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

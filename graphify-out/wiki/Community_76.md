@@ -1,43 +1,51 @@
 # Community 76
 
-> 22 nodes · cohesion 0.09
+> 22 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **CODEBASE.md — Project Architecture & Feature Guide** (8 connections) — `CODEBASE.md`
-- **2. Core Pricing & Identity Architecture** (6 connections) — `CODEBASE.md`
-- **4. Codebase Directory Map** (6 connections) — `CODEBASE.md`
-- **5. Zoho API Endpoints** (4 connections) — `CODEBASE.md`
-- **CODEBASE.md** (1 connections) — `CODEBASE.md`
-- **1. System Overview** (1 connections) — `CODEBASE.md`
-- **2.1 The Two Audiences (Zero Leakage Rule)** (1 connections) — `CODEBASE.md`
-- **2.2 Pricing Resolution Engine (`api/zoho.js` & `src/data/dealer.js`)** (1 connections) — `CODEBASE.md`
-- **2.3 Guest Access Control & Portal Gating (`src/data/portalGate.js`)** (1 connections) — `CODEBASE.md`
-- **2.4 Shareable Product Link & Zero-Leakage Experience (`src/pages/Product.jsx`)** (1 connections) — `CODEBASE.md`
-- **2.5 Navigation & Bottom Bar Dynamic Filtering** (1 connections) — `CODEBASE.md`
-- **3. Application Routes & Navigation** (1 connections) — `CODEBASE.md`
-- **4.1 Pages (`src/pages/`)** (1 connections) — `CODEBASE.md`
-- **4.2 Reusable Components (`src/components/` & `src/ui.jsx`)** (1 connections) — `CODEBASE.md`
-- **4.3 State & Business Logic (`src/data/`)** (1 connections) — `CODEBASE.md`
-- **4.4 Zoho API & Serverless Handlers (`api/`)** (1 connections) — `CODEBASE.md`
-- **4.5 Automation & Utility Scripts (`scripts/`)** (1 connections) — `CODEBASE.md`
-- **5.1 Zoho Commerce Storefront API** (1 connections) — `CODEBASE.md`
-- **5.2 Zoho Books Contacts & Pricebooks API** (1 connections) — `CODEBASE.md`
-- **5.3 Auto-Recovery Token Architecture** (1 connections) — `CODEBASE.md`
-- **6. How to Run & Verify** (1 connections) — `CODEBASE.md`
-- **7. Development & Git Workflow Guidelines** (1 connections) — `CODEBASE.md`
+- **zd()** (16 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
+- **qd()** (12 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
+- **Ii()** (11 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
+- **Nd()** (11 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
+- **wc()** (11 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
+- **Gd()** (8 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
+- **nt()** (8 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
+- **Bd()** (6 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
+- **df()** (6 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
+- **Rd()** (6 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
+- **vi()** (6 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
+- **xc()** (6 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
+- **Cc()** (5 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
+- **mf()** (4 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
+- **Sc()** (4 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
+- **Zo()** (4 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
+- **Hd()** (3 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
+- **Ud()** (3 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
+- **componentDidCatch()** (2 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
+- **Fd()** (2 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
+- **Ja()** (2 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
+- **uo()** (2 connections) — `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Dealer Auth & Session Management]] (25 shared connections)
+- [[Product Pages Specification]] (10 shared connections)
+- [[Mobile Responsive UI Skill]] (9 shared connections)
+- [[Community 30]] (6 shared connections)
+- [[Pricing & Roles Skill]] (5 shared connections)
+- [[Community 72]] (5 shared connections)
+- [[Community 36]] (3 shared connections)
+- [[Community 165]] (2 shared connections)
+- [[Design System & UI Tokens]] (1 shared connections)
 
 ## Source Files
 
-- `CODEBASE.md`
+- `android/app/src/main/assets/public/assets/index-BomkxjsM.js`
 
 ## Audit Trail
 
-- EXTRACTED: 42 (100%)
+- EXTRACTED: 138 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

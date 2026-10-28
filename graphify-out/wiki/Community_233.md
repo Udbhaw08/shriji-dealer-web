@@ -16,10 +16,10 @@
 
 ## Relationships
 
-- [[Architecture Doc Generator]] (15 shared connections)
-- [[Community 145]] (5 shared connections)
-- [[Community 153]] (5 shared connections)
-- [[Community 147]] (2 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (15 shared connections)
+- [[Community 143]] (5 shared connections)
+- [[Community 150]] (5 shared connections)
+- [[Community 145]] (2 shared connections)
 
 ## Source Files
 

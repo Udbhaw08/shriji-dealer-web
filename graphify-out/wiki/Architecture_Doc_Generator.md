@@ -1,54 +1,54 @@
 # Architecture Doc Generator
 
-> 50 nodes · cohesion 0.08
+> 51 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **zoho.js** (59 connections) — `api/_lib/zoho.js`
-- **fetchZohoProductById()** (18 connections) — `api/_lib/zoho.js`
-- **getZohoConfig()** (10 connections) — `api/_lib/zoho.js`
-- **createDealerContact()** (9 connections) — `api/_lib/zoho.js`
-- **fetchZohoWithRetry()** (9 connections) — `api/_lib/zoho.js`
-- **syncRecentProductTags()** (7 connections) — `api/_lib/zoho.js`
-- **fetchZohoPricebookItems()** (6 connections) — `api/_lib/zoho.js`
-- **getAccessToken()** (6 connections) — `api/_lib/zoho.js`
-- **normalizeProduct()** (6 connections) — `api/_lib/zoho.js`
-- **readTagCache()** (6 connections) — `api/_lib/zoho.js`
-- **resolvePricebookId()** (5 connections) — `api/_lib/zoho.js`
-- **fetchZohoPricebooks()** (4 connections) — `api/_lib/zoho.js`
-- **fetchZohoRawCategories()** (4 connections) — `api/_lib/zoho.js`
-- **getDealerById()** (4 connections) — `api/_lib/zoho.js`
-- **loadEnv()** (4 connections) — `api/_lib/zoho.js`
-- **updateCachedProductTags()** (4 connections) — `api/_lib/zoho.js`
-- **sync-tags.js** (4 connections) — `api/products/sync-tags.js`
-- **test-zoho-api.mjs** (4 connections) — `scripts/test-zoho-api.mjs`
-- **apply.js** (3 connections) — `api/dealer/apply.js`
-- **getCachedProductTags()** (3 connections) — `api/_lib/zoho.js`
-- **isItemOnline()** (3 connections) — `api/_lib/zoho.js`
-- **readProductDetailsDiskCache()** (3 connections) — `api/_lib/zoho.js`
-- **writeProductDetailDiskCache()** (3 connections) — `api/_lib/zoho.js`
-- **handler()** (3 connections) — `api/products/sync-tags.js`
-- **handler()** (2 connections) — `api/dealer/apply.js`
-- *... and 25 more nodes in this community*
+- **ff()** (27 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
+- **gl()** (15 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
+- **pi()** (13 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
+- **uu()** (13 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
+- **delete()** (11 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
+- **lu()** (11 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
+- **vu()** (11 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
+- **di()** (10 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
+- **zl()** (10 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
+- **hl()** (9 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
+- **Iu()** (9 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
+- **ku()** (9 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
+- **mu()** (9 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
+- **wl()** (9 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
+- **jd()** (8 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
+- **Sp()** (8 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
+- **wa()** (8 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
+- **bl()** (7 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
+- **Eu()** (7 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
+- **hc()** (7 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
+- **yl()** (7 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
+- **cu()** (6 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
+- **fu()** (6 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
+- **ju()** (6 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
+- **kl()** (6 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
+- *... and 26 more nodes in this community*
 
 ## Relationships
 
-- [[Community 233]] (15 shared connections)
-- [[Community 153]] (11 shared connections)
-- [[Community 145]] (3 shared connections)
-- [[Community 89]] (2 shared connections)
-- [[Community 147]] (1 shared connections)
+- [[Price Presentation & Product UI]] (58 shared connections)
+- [[Live Pricing Audit Tool]] (24 shared connections)
+- [[Pricing Regression Test Suite]] (12 shared connections)
+- [[Community 33]] (9 shared connections)
+- [[Master Codebase Architecture Reference]] (7 shared connections)
+- [[Community 60]] (6 shared connections)
+- [[Community 65]] (5 shared connections)
+- [[Community 231]] (2 shared connections)
 
 ## Source Files
 
-- `api/_lib/zoho.js`
-- `api/dealer/apply.js`
-- `api/products/sync-tags.js`
-- `scripts/test-zoho-api.mjs`
+- `ios/App/App/public/assets/index-BomkxjsM.js`
 
 ## Audit Trail
 
-- EXTRACTED: 220 (100%)
+- EXTRACTED: 337 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

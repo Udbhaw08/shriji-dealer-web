@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **make-scheme-pdfs.mjs** (1 connections) — `scripts/make-scheme-pdfs.mjs`
-- **createPdfWithJpg()** (1 connections) — `scripts/make-scheme-pdfs.mjs`
+- **notificationDispatcher.js** (1 connections) — `backend/src/services/notificationDispatcher.js`
+- **dispatchNotification()** (1 connections) — `backend/src/services/notificationDispatcher.js`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `scripts/make-scheme-pdfs.mjs`
+- `backend/src/services/notificationDispatcher.js`
 
 ## Audit Trail
 

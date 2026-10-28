@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **Designing for iOS** (2 connections) — `.agents/skills/apple-design/references/hig/designing-for-ios.md`
-- **designing-for-ios.md** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-ios.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-ios.md`
+- **Designing for macOS** (2 connections) — `.agents/skills/apple-design/references/hig/designing-for-macos.md`
+- **designing-for-macos.md** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-macos.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-macos.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/designing-for-ios.md`
+- `.agents/skills/apple-design/references/hig/designing-for-macos.md`
 
 ## Audit Trail
 

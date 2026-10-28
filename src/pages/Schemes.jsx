@@ -128,7 +128,7 @@ export default function Schemes() {
               <Icon name="chev" size={12} />
               <Link to="/products">{t("nav_products") || "Products"}</Link>
               <Icon name="chev" size={12} />
-              <span className="schemes-crumbs-current">{t("schemes_title") || "Dealer Schemes & Incentives"}</span>
+              <span className="schemes-crumbs-current">Schemes</span>
             </nav>
 
             <div className="support-hero-main">
@@ -137,45 +137,9 @@ export default function Schemes() {
                   <Icon name="badge" size={28} />
                 </div>
                 <div>
-                  <span className="schemes-eyebrow-pill">
-                    <Icon name="sparkle" size={13} />
-                    Official Dealer Benefits · FY 2026–27
-                  </span>
-                  <h1 className="support-title">{t("schemes_title") || "Trade Schemes & Incentives"}</h1>
-                  <p className="support-sub">
-                    {t("schemes_sub") ||
-                      "Exclusive volume slab incentives, festive bonuses, and special turnover benefits directly connected with Zoho Commerce."}
-                  </p>
+                  <h1 className="support-title" style={{ margin: 0 }}>Schemes</h1>
                 </div>
               </div>
-            </div>
-
-            {/* Segmented Pill Tabs */}
-            <div className="scheme-segmented-tabs" role="tablist" style={{ marginTop: "1rem" }}>
-              <button
-                className={`scheme-seg-tab ${activeTab === "active" ? "active" : ""}`}
-                role="tab"
-                aria-selected={activeTab === "active"}
-                onClick={() => setActiveTab("active")}
-              >
-                {t("scheme_tab_active") || "Active Offers"} ({activeSchemes.length})
-              </button>
-              <button
-                className={`scheme-seg-tab ${activeTab === "upcoming" ? "active" : ""}`}
-                role="tab"
-                aria-selected={activeTab === "upcoming"}
-                onClick={() => setActiveTab("upcoming")}
-              >
-                {t("scheme_tab_upcoming") || "Upcoming"} ({upcomingSchemes.length})
-              </button>
-              <button
-                className={`scheme-seg-tab ${activeTab === "past" ? "active" : ""}`}
-                role="tab"
-                aria-selected={activeTab === "past"}
-                onClick={() => setActiveTab("past")}
-              >
-                {t("scheme_tab_past") || "Archived"} ({pastSchemes.length})
-              </button>
             </div>
           </div>
         </div>

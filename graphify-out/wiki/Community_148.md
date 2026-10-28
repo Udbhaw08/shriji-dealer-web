@@ -1,37 +1,36 @@
 # Community 148
 
-> 13 nodes · cohesion 0.31
+> 13 nodes · cohesion 0.21
 
 ## Key Concepts
 
-- **focus-browser.test.mjs** (17 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
-- **run()** (8 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
-- **stable()** (6 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
-- **click()** (4 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
-- **load()** (4 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
-- **point()** (4 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
-- **key()** (3 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
-- **move()** (3 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
-- **select()** (3 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
-- **focus()** (2 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
-- **snapshot()** (2 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
-- **variant()** (1 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
+- **semantic-radar.test.mjs** (15 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
+- **evaluate()** (5 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
+- **dragMouse()** (2 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
+- **loadArtifact()** (2 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
+- **observe()** (2 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
+- **radarRects()** (2 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
+- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
+- **overlaps()** (1 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
 
 ## Relationships
 
-- [[Community 55]] (5 shared connections)
-- [[Community 65]] (3 shared connections)
 - [[Community 49]] (1 shared connections)
-- [[Community 128]] (1 shared connections)
+- [[Community 82]] (1 shared connections)
+- [[Community 126]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/focus-browser.test.mjs`
+- `.agents/skills/archify/test/semantic-radar.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 58 (100%)
+- EXTRACTED: 35 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

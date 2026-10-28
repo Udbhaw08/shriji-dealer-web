@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **test-supabase.mjs** (1 connections) — `scripts/test-supabase.mjs`
-- **test()** (1 connections) — `scripts/test-supabase.mjs`
+- **smsFallback.js** (1 connections) — `backend/src/services/smsFallback.js`
+- **sendSmsOtpFallback()** (1 connections) — `backend/src/services/smsFallback.js`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `scripts/test-supabase.mjs`
+- `backend/src/services/smsFallback.js`
 
 ## Audit Trail
 

@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **numberUtils.js** (2 connections) — `src/utils/numberUtils.js`
-- **calculateDiscountPercentage()** (1 connections) — `src/utils/numberUtils.js`
-- **clamp()** (1 connections) — `src/utils/numberUtils.js`
+- **stringUtils.js** (2 connections) — `src/utils/stringUtils.js`
+- **titleCase()** (1 connections) — `src/utils/stringUtils.js`
+- **truncate()** (1 connections) — `src/utils/stringUtils.js`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `src/utils/numberUtils.js`
+- `src/utils/stringUtils.js`
 
 ## Audit Trail
 

@@ -1,12 +1,12 @@
 # Community 498
 
-> 3 nodes · cohesion 0.67
+> 3 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **formatters.js** (2 connections) — `src/utils/formatters.js`
-- **formatCurrencyINR()** (1 connections) — `src/utils/formatters.js`
-- **formatPhoneNumber()** (1 connections) — `src/utils/formatters.js`
+- **sanitize.js** (2 connections) — `backend/src/utils/sanitize.js`
+- **sanitizeInput()** (2 connections) — `backend/src/utils/sanitize.js`
+- **sanitizeObject()** (2 connections) — `backend/src/utils/sanitize.js`
 
 ## Relationships
 
@@ -14,11 +14,11 @@
 
 ## Source Files
 
-- `src/utils/formatters.js`
+- `backend/src/utils/sanitize.js`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

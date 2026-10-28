@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **SKILL.md** (3 connections) — `.agents/skills/swiftui-pro/SKILL.md`
-- **Output Format** (3 connections) — `.agents/skills/swiftui-pro/SKILL.md`
-- **ContentView.swift** (1 connections) — `.agents/skills/swiftui-pro/SKILL.md`
-- **Core Instructions** (1 connections) — `.agents/skills/swiftui-pro/SKILL.md`
-- **References** (1 connections) — `.agents/skills/swiftui-pro/SKILL.md`
-- **Summary** (1 connections) — `.agents/skills/swiftui-pro/SKILL.md`
+- **authoring-safety-contract.test.mjs** (5 connections) — `.agents/skills/archify/test/authoring-safety-contract.test.mjs`
+- **authoringContract** (1 connections) — `.agents/skills/archify/test/authoring-safety-contract.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/authoring-safety-contract.test.mjs`
+- **schemaReadme** (1 connections) — `.agents/skills/archify/test/authoring-safety-contract.test.mjs`
+- **skill** (1 connections) — `.agents/skills/archify/test/authoring-safety-contract.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/authoring-safety-contract.test.mjs`
 
 ## Relationships
 
@@ -17,7 +17,7 @@
 
 ## Source Files
 
-- `.agents/skills/swiftui-pro/SKILL.md`
+- `.agents/skills/archify/test/authoring-safety-contract.test.mjs`
 
 ## Audit Trail
 

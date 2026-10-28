@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **envValidator.js** (1 connections) — `backend/src/utils/envValidator.js`
-- **requireEnv()** (1 connections) — `backend/src/utils/envValidator.js`
+- **slugify.js** (1 connections) — `backend/src/utils/slugify.js`
+- **slugify()** (1 connections) — `backend/src/utils/slugify.js`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `backend/src/utils/envValidator.js`
+- `backend/src/utils/slugify.js`
 
 ## Audit Trail
 

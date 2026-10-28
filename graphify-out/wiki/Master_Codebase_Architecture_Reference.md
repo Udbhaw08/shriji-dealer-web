@@ -1,54 +1,55 @@
 # Master Codebase Architecture Reference
 
-> 61 nodes · cohesion 0.07
+> 62 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **get()** (27 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **D()** (22 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **.addEventListener()** (19 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **np()** (19 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **b()** (17 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **fp()** (13 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **h()** (13 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **.removeEventListener()** (12 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **bm()** (11 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **r()** (11 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **am()** (10 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **ep()** (10 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **ip()** (9 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **mm()** (9 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **tp()** (9 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **jm()** (7 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **kt()** (7 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **lp()** (7 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **om()** (7 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **zm()** (7 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **cm()** (6 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **dh()** (6 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **em()** (6 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **.blur()** (6 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **mo()** (6 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- *... and 36 more nodes in this community*
+- **ic()** (16 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
+- **Md()** (15 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
+- **s()** (15 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
+- **nc()** (13 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
+- **xi()** (13 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
+- **gc()** (12 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
+- **pa()** (12 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
+- **nl()** (11 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
+- **Ei()** (10 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
+- **Oi()** (10 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
+- **Ai()** (9 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
+- **Ci()** (9 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
+- **co()** (9 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
+- **hh()** (9 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
+- **kd()** (9 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
+- **Si()** (9 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
+- **yh()** (9 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
+- **c()** (8 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
+- **gr()** (8 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
+- **gs()** (8 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
+- **kc()** (8 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
+- **ec()** (7 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
+- **ha()** (7 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
+- **mh()** (7 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
+- **rc()** (7 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
+- *... and 37 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (66 shared connections)
-- [[Pricing & Roles Skill]] (23 shared connections)
-- [[Community 44]] (17 shared connections)
-- [[Community 31]] (14 shared connections)
-- [[Dependencies & Package Config]] (14 shared connections)
-- [[Community 47]] (12 shared connections)
-- [[Community 30]] (9 shared connections)
-- [[Community 48]] (2 shared connections)
+- [[Price Presentation & Product UI]] (79 shared connections)
+- [[Community 33]] (28 shared connections)
+- [[Pricing Regression Test Suite]] (18 shared connections)
+- [[Community 65]] (14 shared connections)
+- [[Community 32]] (12 shared connections)
+- [[Live Pricing Audit Tool]] (10 shared connections)
+- [[Architecture Doc Generator]] (7 shared connections)
+- [[Community 231]] (2 shared connections)
+- [[Community 60]] (2 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-D-WrdUrA.js`
+- `ios/App/App/public/assets/index-BomkxjsM.js`
 
 ## Audit Trail
 
-- EXTRACTED: 411 (100%)
+- EXTRACTED: 416 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

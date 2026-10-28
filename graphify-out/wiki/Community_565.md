@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **architecture** (0 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **corsPolicy.test.mjs** (0 connections) — `backend/test/corsPolicy.test.mjs`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- `backend/test/corsPolicy.test.mjs`
 
 ## Audit Trail
 

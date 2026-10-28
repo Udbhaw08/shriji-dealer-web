@@ -1,41 +1,33 @@
 # Community 153
 
-> 12 nodes · cohesion 0.36
+> 12 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **vite.config.js** (19 connections) — `vite.config.js`
-- **zohoApiPlugin()** (12 connections) — `vite.config.js`
-- **securityPhase2.test.mjs** (11 connections) — `backend/test/securityPhase2.test.mjs`
-- **og.js** (7 connections) — `api/og.js`
-- **htmlEscape.js** (6 connections) — `api/_lib/htmlEscape.js`
-- **escapeHtml()** (6 connections) — `api/_lib/htmlEscape.js`
-- **sanitizeUrl()** (6 connections) — `api/_lib/htmlEscape.js`
-- **handler()** (5 connections) — `api/og.js`
-- **sanitizeHost()** (4 connections) — `api/_lib/htmlEscape.js`
-- **loadContentService()** (2 connections) — `vite.config.js`
-- **mockWebhookAuthCheck()** (1 connections) — `backend/test/securityPhase2.test.mjs`
-- **liveAutoSyncPlugin()** (1 connections) — `vite.config.js`
+- **Charts** (11 connections) — `.agents/skills/apple-design/references/hig/charts.md`
+- **charts.md** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
+- **Anatomy** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
+- **Axes** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
+- **Color** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
+- **Descriptive content** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
+- **Enhancing the accessibility of a chart** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
+- **Marks** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
 
 ## Relationships
 
-- [[Architecture Doc Generator]] (11 shared connections)
-- [[Community 89]] (8 shared connections)
-- [[Community 233]] (5 shared connections)
-- [[Community 145]] (3 shared connections)
-- [[Community 127]] (3 shared connections)
-- [[Community 50]] (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `api/_lib/htmlEscape.js`
-- `api/og.js`
-- `backend/test/securityPhase2.test.mjs`
-- `vite.config.js`
+- `.agents/skills/apple-design/references/hig/charts.md`
 
 ## Audit Trail
 
-- EXTRACTED: 80 (100%)
+- EXTRACTED: 22 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

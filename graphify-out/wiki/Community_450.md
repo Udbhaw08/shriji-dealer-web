@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **Bulk Order Inquiry Workflow** (2 connections) — `docs/guides/bulk-order-inquiry-workflow.md`
-- **bulk-order-inquiry-workflow.md** (1 connections) — `docs/guides/bulk-order-inquiry-workflow.md`
-- **Lifecycle** (1 connections) — `docs/guides/bulk-order-inquiry-workflow.md`
+- **Dealer Onboarding & Approval Lifecycle** (2 connections) — `docs/guides/dealer-onboarding-flow.md`
+- **dealer-onboarding-flow.md** (1 connections) — `docs/guides/dealer-onboarding-flow.md`
+- **Lifecycle States** (1 connections) — `docs/guides/dealer-onboarding-flow.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/guides/bulk-order-inquiry-workflow.md`
+- `docs/guides/dealer-onboarding-flow.md`
 
 ## Audit Trail
 

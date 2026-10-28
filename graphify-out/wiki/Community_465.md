@@ -4,21 +4,21 @@
 
 ## Key Concepts
 
-- **Navigation and presentation** (2 connections) — `.agents/skills/swiftui-pro/references/navigation.md`
-- **navigation.md** (1 connections) — `.agents/skills/swiftui-pro/references/navigation.md`
-- **Alerts, confirmation dialogs, and sheets** (1 connections) — `.agents/skills/swiftui-pro/references/navigation.md`
+- **9. Line Length (Measure)** (3 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Guidelines** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Implementation** (1 connections) — `.agents/skills/refero-design/references/typography.md`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 235]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/swiftui-pro/references/navigation.md`
+- `.agents/skills/refero-design/references/typography.md`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 5 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

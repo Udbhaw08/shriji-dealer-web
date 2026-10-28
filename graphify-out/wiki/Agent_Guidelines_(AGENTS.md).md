@@ -1,6 +1,6 @@
 # Agent Guidelines (AGENTS.md)
 
-> 43 nodes · cohesion 0.11
+> 43 nodes · cohesion 0.12
 
 ## Key Concepts
 
@@ -8,12 +8,13 @@
 - **Login.jsx** (43 connections) — `src/pages/Login.jsx`
 - **DealerApply.jsx** (26 connections) — `src/pages/DealerApply.jsx`
 - **BrandApplyFlow.jsx** (21 connections) — `src/components/BrandApplyFlow.jsx`
+- **apiFetch()** (20 connections) — `src/data/api.js`
 - **StaffJoin.jsx** (14 connections) — `src/pages/StaffJoin.jsx`
 - **revalidateSession()** (13 connections) — `src/data/session.js`
 - **loginCode.js** (11 connections) — `src/data/loginCode.js`
 - **setSession()** (10 connections) — `src/data/session.js`
 - **validators.js** (10 connections) — `src/data/validators.js`
-- **registerDealer()** (7 connections) — `src/data/dealer.js`
+- **apiUrl()** (9 connections) — `src/data/api.js`
 - **signOut()** (7 connections) — `src/data/session.js`
 - **applyAsDealer()** (6 connections) — `src/data/auth.js`
 - **formatLoginCode()** (6 connections) — `src/data/loginCode.js`
@@ -28,23 +29,22 @@
 - **GST_TREATMENT_OPTIONS** (4 connections) — `src/data/loginCode.js`
 - **switchToViewerSession()** (4 connections) — `src/data/session.js`
 - **isValidGstin()** (4 connections) — `src/data/validators.js`
-- **isValidPincode()** (4 connections) — `src/data/validators.js`
 - *... and 18 more nodes in this community*
 
 ## Relationships
 
-- [[Community 39]] (48 shared connections)
-- [[Product Brand & Business Vision]] (31 shared connections)
-- [[Community 91]] (14 shared connections)
-- [[Graphify Agent Rules]] (11 shared connections)
-- [[Community 99]] (3 shared connections)
-- [[Community 77]] (2 shared connections)
+- [[Community 44]] (50 shared connections)
+- [[Dependencies & Package Config]] (43 shared connections)
+- [[Community 43]] (13 shared connections)
+- [[Community 53]] (10 shared connections)
+- [[Community 139]] (3 shared connections)
+- [[Community 168]] (1 shared connections)
 
 ## Source Files
 
 - `src/components/BrandApplyFlow.jsx`
+- `src/data/api.js`
 - `src/data/auth.js`
-- `src/data/dealer.js`
 - `src/data/loginCode.js`
 - `src/data/session.js`
 - `src/data/validators.js`
@@ -54,7 +54,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 309 (100%)
+- EXTRACTED: 328 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

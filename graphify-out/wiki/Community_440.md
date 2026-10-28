@@ -1,12 +1,12 @@
 # Community 440
 
-> 3 nodes · cohesion 1.00
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **MainActivity.java** (2 connections) — `android/app/src/main/java/com/shrijidomestic/app/MainActivity.java`
-- **MainActivity** (2 connections) — `android/app/src/main/java/com/shrijidomestic/app/MainActivity.java`
-- **BridgeActivity** (2 connections)
+- **Microservices Decoupled Architecture** (2 connections) — `docs/architecture/microservices-architecture.md`
+- **microservices-architecture.md** (1 connections) — `docs/architecture/microservices-architecture.md`
+- **Overview** (1 connections) — `docs/architecture/microservices-architecture.md`
 
 ## Relationships
 
@@ -14,11 +14,11 @@
 
 ## Source Files
 
-- `android/app/src/main/java/com/shrijidomestic/app/MainActivity.java`
+- `docs/architecture/microservices-architecture.md`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

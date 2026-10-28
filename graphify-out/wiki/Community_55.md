@@ -1,60 +1,48 @@
 # Community 55
 
-> 27 nodes · cohesion 0.13
+> 26 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **.send()** (54 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **viewer-camera-browser.test.mjs** (11 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **export-browser.test.mjs** (9 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **motion-governor-browser.test.mjs** (9 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **.inspect()** (5 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **run()** (5 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **run()** (5 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **load()** (4 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **load()** (4 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **run()** (4 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **evaluate()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **click()** (3 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **load()** (3 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **record()** (3 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **media()** (3 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **screenshot()** (3 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **stable()** (3 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **viewport()** (3 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **.waitFor()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **key()** (2 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **snapshot()** (2 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **screenshot()** (2 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **snapshot()** (2 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- *... and 2 more nodes in this community*
+- **Widgets** (9 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
+- **Best practices** (6 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
+- **Anatomy** (4 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
+- **Rendering modes** (4 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
+- **Mobile (iOS, iPadOS)** (3 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
+- **Specifications** (3 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
+- **widgets.md** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
+- **Accented** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
+- **Accessory widgets** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
+- **Adding interactivity** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
+- **Appearances** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
+- **Apple HomeView** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
+- **Choosing margins and padding** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
+- **Displaying text in widgets** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
+- **Full-color** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
+- **iOS dimensions** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
+- **iPadOS dimensions** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
+- **Previews and placeholders** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
+- **StandBy and CarPlay** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
+- **System family widgets** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
+- **Updating widget content** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
+- **Using color** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
+- *... and 1 more nodes in this community*
 
 ## Relationships
 
-- [[Community 65]] (11 shared connections)
-- [[Community 92]] (8 shared connections)
-- [[Community 83]] (7 shared connections)
-- [[Community 128]] (7 shared connections)
-- [[Community 49]] (5 shared connections)
-- [[Community 148]] (5 shared connections)
-- [[Community 149]] (5 shared connections)
-- [[Community 183]] (4 shared connections)
-- [[Community 106]] (1 shared connections)
-- [[Community 297]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/bin/visual-check.mjs`
-- `.agents/skills/archify/test/export-browser.test.mjs`
-- `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- `.agents/skills/apple-design/references/hig/widgets.md`
 
 ## Audit Trail
 
-- EXTRACTED: 146 (99%)
-- INFERRED: 2 (1%)
+- EXTRACTED: 50 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

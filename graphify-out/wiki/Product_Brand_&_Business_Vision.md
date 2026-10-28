@@ -1,73 +1,59 @@
 # Product Brand & Business Vision
 
-> 52 nodes · cohesion 0.11
+> 53 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **main.jsx** (50 connections) — `src/main.jsx`
-- **ui.jsx** (45 connections) — `src/ui.jsx`
-- **useSession()** (38 connections) — `src/data/session.js`
-- **Home.jsx** (26 connections) — `src/pages/Home.jsx`
-- **site.js** (24 connections) — `src/data/site.js`
-- **isDealer()** (18 connections) — `src/data/dealer.js`
-- **Schemes.jsx** (17 connections) — `src/pages/Schemes.jsx`
-- **MobileBottomNav.jsx** (16 connections) — `src/components/MobileBottomNav.jsx`
-- **COMPANY** (16 connections) — `src/data/site.js`
-- **Support.jsx** (16 connections) — `src/pages/Support.jsx`
-- **isPortalGated()** (14 connections) — `src/data/portalGate.js`
-- **dealerById()** (12 connections) — `src/data/dealer.js`
-- **Header()** (9 connections) — `src/ui.jsx`
-- **MobileBottomNav()** (8 connections) — `src/components/MobileBottomNav.jsx`
-- **UnderMaintenance.jsx** (8 connections) — `src/components/UnderMaintenance.jsx`
-- **portalGate.js** (8 connections) — `src/data/portalGate.js`
-- **Home()** (8 connections) — `src/pages/Home.jsx`
-- **Login()** (7 connections) — `src/pages/Login.jsx`
-- **DealerPending.jsx** (6 connections) — `src/pages/DealerPending.jsx`
-- **Schemes()** (6 connections) — `src/pages/Schemes.jsx`
-- **AccountLink()** (6 connections) — `src/ui.jsx`
-- **Footer()** (6 connections) — `src/ui.jsx`
-- **LegalPrivacy.jsx** (5 connections) — `src/pages/LegalPrivacy.jsx`
-- **LegalTerms.jsx** (5 connections) — `src/pages/LegalTerms.jsx`
-- **PrivacyPolicy.jsx** (5 connections) — `src/pages/PrivacyPolicy.jsx`
-- *... and 27 more nodes in this community*
+- **render-architecture.mjs** (122 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **pathFor()** (10 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **renderLegend()** (7 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **routeVia()** (7 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **grid.mjs** (6 connections) — `.agents/skills/archify/renderers/architecture/grid.mjs`
+- **alignFacingPorts()** (6 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **buildLayoutReport()** (6 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **layoutBoundaryTitles()** (5 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **sideAwareBridgeCandidates()** (5 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **relationshipLegendObstacles()** (5 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
+- **resolveComponentPos()** (4 connections) — `.agents/skills/archify/renderers/architecture/grid.mjs`
+- **validateGridPlacement()** (4 connections) — `.agents/skills/archify/renderers/architecture/grid.mjs`
+- **boundaryLabelWidth()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **measureBoundaryTitle()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **resolveBoundaryTitles()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **routeClearsComponents()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **routeClearsEndpointComponents()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **minimumReadableSourceTextPx()** (4 connections) — `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
+- **layout-report.mjs** (4 connections) — `.agents/skills/archify/renderers/shared/layout-report.mjs`
+- **grid.test.mjs** (4 connections) — `.agents/skills/archify/test/grid.test.mjs`
+- **gridLayout()** (3 connections) — `.agents/skills/archify/renderers/architecture/grid.mjs`
+- **autoViewBoxFor()** (3 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **expandBoundaryForReadableTitle()** (3 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **resolvedViewBoxWidth()** (3 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **connectionPath()** (3 connections) — `.agents/skills/archify/renderers/shared/layout-report.mjs`
+- *... and 28 more nodes in this community*
 
 ## Relationships
 
-- [[Graphify Agent Rules]] (74 shared connections)
-- [[Agent Guidelines (AGENTS.md)]] (31 shared connections)
-- [[Community 99]] (17 shared connections)
-- [[Community 77]] (13 shared connections)
-- [[Community 91]] (9 shared connections)
-- [[Community 39]] (7 shared connections)
-- [[Community 169]] (2 shared connections)
-- [[Community 398]] (1 shared connections)
+- [[Product Requirements Documentation]] (29 shared connections)
+- [[Roles & Customer Sharing Spec]] (26 shared connections)
+- [[Graphify Agent Rules]] (23 shared connections)
+- [[Community 41]] (13 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (7 shared connections)
+- [[Community 49]] (3 shared connections)
+- [[Project Readme & Layout]] (2 shared connections)
+- [[Zoho Integration Architecture]] (1 shared connections)
 
 ## Source Files
 
-- `src/components/EmailVerificationPrompt.jsx`
-- `src/components/MobileBottomNav.jsx`
-- `src/components/NativeBackHandler.jsx`
-- `src/components/UnderMaintenance.jsx`
-- `src/data/dealer.js`
-- `src/data/portalGate.js`
-- `src/data/session.js`
-- `src/data/site.js`
-- `src/main.jsx`
-- `src/pages/DealerApply.jsx`
-- `src/pages/DealerDashboard.jsx`
-- `src/pages/DealerPending.jsx`
-- `src/pages/Home.jsx`
-- `src/pages/LegalPrivacy.jsx`
-- `src/pages/LegalTerms.jsx`
-- `src/pages/Login.jsx`
-- `src/pages/PrivacyPolicy.jsx`
-- `src/pages/Schemes.jsx`
-- `src/pages/Support.jsx`
-- `src/pages/TermsOfService.jsx`
+- `.agents/skills/archify/renderers/architecture/grid.mjs`
+- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
+- `.agents/skills/archify/renderers/shared/layout-report.mjs`
+- `.agents/skills/archify/renderers/shared/legend.mjs`
+- `.agents/skills/archify/test/grid.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 442 (100%)
+- EXTRACTED: 270 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

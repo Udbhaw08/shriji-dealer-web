@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **Steppers** (4 connections) — `.agents/skills/apple-design/references/hig/steppers.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/steppers.md`
-- **steppers.md** (1 connections) — `.agents/skills/apple-design/references/hig/steppers.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/steppers.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/steppers.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/steppers.md`
+- **Lifecycle Renderer** (5 connections) — `.agents/skills/archify/renderers/lifecycle/README.md`
+- **README.md** (1 connections) — `.agents/skills/archify/renderers/lifecycle/README.md`
+- **Design Rules** (1 connections) — `.agents/skills/archify/renderers/lifecycle/README.md`
+- **Input** (1 connections) — `.agents/skills/archify/renderers/lifecycle/README.md`
+- **Layout budget** (1 connections) — `.agents/skills/archify/renderers/lifecycle/README.md`
+- **Legend** (1 connections) — `.agents/skills/archify/renderers/lifecycle/README.md`
 
 ## Relationships
 
@@ -17,7 +17,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/steppers.md`
+- `.agents/skills/archify/renderers/lifecycle/README.md`
 
 ## Audit Trail
 

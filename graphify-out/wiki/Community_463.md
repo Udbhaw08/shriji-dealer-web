@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **iOS Code Signing & TestFlight Deployment** (2 connections) — `docs/mobile/ios-provisioning-and-signing.md`
-- **ios-provisioning-and-signing.md** (1 connections) — `docs/mobile/ios-provisioning-and-signing.md`
-- **Overview** (1 connections) — `docs/mobile/ios-provisioning-and-signing.md`
+- **Navigation and presentation** (2 connections) — `.agents/skills/swiftui-pro/references/navigation.md`
+- **navigation.md** (1 connections) — `.agents/skills/swiftui-pro/references/navigation.md`
+- **Alerts, confirmation dialogs, and sheets** (1 connections) — `.agents/skills/swiftui-pro/references/navigation.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/mobile/ios-provisioning-and-signing.md`
+- `.agents/skills/swiftui-pro/references/navigation.md`
 
 ## Audit Trail
 

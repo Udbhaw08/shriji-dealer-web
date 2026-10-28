@@ -4,15 +4,15 @@
 
 ## Key Concepts
 
-- **web-ClyLGiuH.js** (8 connections) — `ios/App/App/public/assets/web-ClyLGiuH.js`
-- **constructor()** (1 connections) — `ios/App/App/public/assets/web-ClyLGiuH.js`
-- **exitApp()** (1 connections) — `ios/App/App/public/assets/web-ClyLGiuH.js`
-- **getAppLanguage()** (1 connections) — `ios/App/App/public/assets/web-ClyLGiuH.js`
-- **getInfo()** (1 connections) — `ios/App/App/public/assets/web-ClyLGiuH.js`
-- **getLaunchUrl()** (1 connections) — `ios/App/App/public/assets/web-ClyLGiuH.js`
-- **getState()** (1 connections) — `ios/App/App/public/assets/web-ClyLGiuH.js`
-- **minimizeApp()** (1 connections) — `ios/App/App/public/assets/web-ClyLGiuH.js`
-- **toggleBackButtonHandler()** (1 connections) — `ios/App/App/public/assets/web-ClyLGiuH.js`
+- **web-BRhBoRc-.js** (8 connections) — `ios/App/App/public/assets/web-BRhBoRc-.js`
+- **constructor()** (1 connections) — `ios/App/App/public/assets/web-BRhBoRc-.js`
+- **exitApp()** (1 connections) — `ios/App/App/public/assets/web-BRhBoRc-.js`
+- **getAppLanguage()** (1 connections) — `ios/App/App/public/assets/web-BRhBoRc-.js`
+- **getInfo()** (1 connections) — `ios/App/App/public/assets/web-BRhBoRc-.js`
+- **getLaunchUrl()** (1 connections) — `ios/App/App/public/assets/web-BRhBoRc-.js`
+- **getState()** (1 connections) — `ios/App/App/public/assets/web-BRhBoRc-.js`
+- **minimizeApp()** (1 connections) — `ios/App/App/public/assets/web-BRhBoRc-.js`
+- **toggleBackButtonHandler()** (1 connections) — `ios/App/App/public/assets/web-BRhBoRc-.js`
 
 ## Relationships
 
@@ -20,7 +20,7 @@
 
 ## Source Files
 
-- `ios/App/App/public/assets/web-ClyLGiuH.js`
+- `ios/App/App/public/assets/web-BRhBoRc-.js`
 
 ## Audit Trail
 

@@ -4,10 +4,10 @@
 
 ## Key Concepts
 
-- **11. Responsive Typography** (4 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Breakpoint Adjustments** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Fluid Type (Clamp)** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **What Changes** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **2. Type Scale** (4 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Common Ratios** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **CSS Tokens** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Practical Scale (Minor Third × 16px base)** (1 connections) — `.agents/skills/refero-design/references/typography.md`
 
 ## Relationships
 

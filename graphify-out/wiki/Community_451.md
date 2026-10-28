@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **Customer Share Link (?from=) Specification** (2 connections) — `docs/guides/customer-share-link-spec.md`
-- **customer-share-link-spec.md** (1 connections) — `docs/guides/customer-share-link-spec.md`
-- **Behavior** (1 connections) — `docs/guides/customer-share-link-spec.md`
+- **Developer Cheat Sheet** (2 connections) — `docs/guides/developer-cheat-sheet.md`
+- **developer-cheat-sheet.md** (1 connections) — `docs/guides/developer-cheat-sheet.md`
+- **Common Commands** (1 connections) — `docs/guides/developer-cheat-sheet.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/guides/customer-share-link-spec.md`
+- `docs/guides/developer-cheat-sheet.md`
 
 ## Audit Trail
 

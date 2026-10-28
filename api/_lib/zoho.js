@@ -719,11 +719,16 @@ function normalizeProduct(p, livePricebookRates = {}) {
       // Only include tile if image or text exists and not a placeholder
       const lowerText = text.toLowerCase();
       if ((imgUrl || text) && lowerText !== "test" && lowerText !== "null") {
+        const rawLabel = (textField?.label || "").trim();
+        const isPlaceholderLabel =
+          !rawLabel ||
+          /^tile\s*icon\s*text\s*\d*$/i.test(rawLabel) ||
+          /^feature\s*\d*$/i.test(rawLabel);
         tileIcons.push({
           index: i,
           image: imgUrl,
           text,
-          label: textField?.label || `Feature ${i}`,
+          label: isPlaceholderLabel ? "" : rawLabel,
         });
       }
     }
@@ -745,7 +750,12 @@ function normalizeProduct(p, livePricebookRates = {}) {
 
   const warranty = getCfValue("cf_warranty") || getCfValue("warranty");
   const keyFeatures = getCfValue("cf_key_features") || getCfValue("key features");
-  const overview = getCfValue("cf_overview") || getCfValue("overview");
+  const overview =
+    getCfValue("cf_overview") ||
+    getCfValue("overview") ||
+    getCfValue("cf_product_overview") ||
+    getCfValue("product_overview") ||
+    getCfValue("cf_description");
 
   // Dynamic extra custom fields from Zoho
   const extraFields = [];
@@ -772,7 +782,9 @@ function normalizeProduct(p, livePricebookRates = {}) {
   // 3. Specifications (grouped by specification_group_name)
   const rawSpecs = (Array.isArray(p.specifications) && p.specifications.length > 0)
     ? p.specifications
-    : (Array.isArray(variant.specifications) ? variant.specifications : []);
+    : (Array.isArray(p.product_specifications) && p.product_specifications.length > 0
+      ? p.product_specifications
+      : (Array.isArray(variant.specifications) ? variant.specifications : (Array.isArray(variant.product_specifications) ? variant.product_specifications : [])));
   const specifications = rawSpecs
     .filter((s) => s && (s.name || s.specification_name || s.specification_value || s.value))
     .map((s) => ({
@@ -795,7 +807,26 @@ function normalizeProduct(p, livePricebookRates = {}) {
   const description = cleanRawDesc || cleanProductDesc || "";
 
   const videos = [];
-  const iframeRegex = /(?:src=["']|href=["']|\b)(https?:\/\/(?:www\.)?(?:youtube\.com\/(?:watch\?v=|embed\/)|youtu\.be\/)[a-zA-Z0-9_-]+)/gi;
+
+  // Extract explicit video custom fields or variant attributes
+  const rawVideoFields = [
+    getCfValue("cf_video_url"),
+    getCfValue("video_url"),
+    getCfValue("cf_youtube_url"),
+    getCfValue("youtube_url"),
+    getCfValue("cf_video"),
+    getCfValue("video"),
+    p.video_url,
+    variant.video_url,
+  ].filter(Boolean);
+
+  for (const v of rawVideoFields) {
+    if (typeof v === "string" && v.trim() && !videos.includes(v.trim())) {
+      videos.push(v.trim());
+    }
+  }
+
+  const iframeRegex = /(?:src=["']|href=["']|\b)(https?:\/\/(?:www\.)?(?:youtube(?:-nocookie)?\.com\/(?:watch\?v=|embed\/|shorts\/)|youtu\.be\/)[a-zA-Z0-9_?&=%-]+)/gi;
   const combinedContent = `${productDesc} ${rawDesc}`;
   let vMatch;
   while ((vMatch = iframeRegex.exec(combinedContent)) !== null) {
@@ -847,6 +878,7 @@ function normalizeProduct(p, livePricebookRates = {}) {
     images: images.length ? images : (img ? [img] : []),
     description,
     productDescriptionHtml: cleanProductDesc,
+    overview,
     tileIcons,
     customFields: {
       warranty,

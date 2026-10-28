@@ -1,54 +1,47 @@
 # Community 47
 
-> 32 nodes · cohesion 0.12
+> 33 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **fl()** (24 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **ra()** (15 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **aa()** (14 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **A()** (13 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **pe()** (13 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **ml()** (11 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **ta()** (10 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **ia()** (9 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **nt()** (9 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **pl()** (9 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **xe()** (9 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **ye()** (9 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **P()** (8 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **cl()** (6 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **I()** (6 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **jo()** (6 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **me()** (6 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **na()** (6 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **sl()** (5 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **ua()** (5 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **xo()** (5 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **ea()** (4 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **le()** (4 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **M()** (4 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- **ue()** (4 connections) — `ios/App/App/public/assets/index-D-WrdUrA.js`
-- *... and 7 more nodes in this community*
+- **scripts** (15 connections) — `.agents/skills/archify/package.json`
+- **package.json** (11 connections) — `.agents/skills/archify/package.json`
+- **devDependencies** (5 connections) — `.agents/skills/archify/package.json`
+- **bin** (2 connections) — `.agents/skills/archify/package.json`
+- **engines** (2 connections) — `.agents/skills/archify/package.json`
+- **overrides** (2 connections) — `.agents/skills/archify/package.json`
+- **archify** (1 connections) — `.agents/skills/archify/package.json`
+- **description** (1 connections) — `.agents/skills/archify/package.json`
+- **ajv** (1 connections) — `.agents/skills/archify/package.json`
+- **parse5** (1 connections) — `.agents/skills/archify/package.json`
+- **saxes** (1 connections) — `.agents/skills/archify/package.json`
+- **simple-icons** (1 connections) — `.agents/skills/archify/package.json`
+- **node** (1 connections) — `.agents/skills/archify/package.json`
+- **license** (1 connections) — `.agents/skills/archify/package.json`
+- **name** (1 connections) — `.agents/skills/archify/package.json`
+- **fast-uri** (1 connections) — `.agents/skills/archify/package.json`
+- **private** (1 connections) — `.agents/skills/archify/package.json`
+- **build:gallery** (1 connections) — `.agents/skills/archify/package.json`
+- **build:guide** (1 connections) — `.agents/skills/archify/package.json`
+- **build:readme-showcase** (1 connections) — `.agents/skills/archify/package.json`
+- **build:start** (1 connections) — `.agents/skills/archify/package.json`
+- **check:brand-marks** (1 connections) — `.agents/skills/archify/package.json`
+- **check:release-identity** (1 connections) — `.agents/skills/archify/package.json`
+- **check:validators** (1 connections) — `.agents/skills/archify/package.json`
+- **check:viewer** (1 connections) — `.agents/skills/archify/package.json`
+- *... and 8 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (39 shared connections)
-- [[Community 31]] (14 shared connections)
-- [[Community 44]] (13 shared connections)
-- [[Master Codebase Architecture Reference]] (12 shared connections)
-- [[Community 48]] (11 shared connections)
-- [[Dependencies & Package Config]] (10 shared connections)
-- [[Pricing & Roles Skill]] (6 shared connections)
-- [[Community 30]] (4 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-D-WrdUrA.js`
+- `.agents/skills/archify/package.json`
 
 ## Audit Trail
 
-- EXTRACTED: 233 (100%)
+- EXTRACTED: 64 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

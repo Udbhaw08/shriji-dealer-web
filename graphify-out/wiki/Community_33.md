@@ -1,47 +1,54 @@
 # Community 33
 
-> 40 nodes · cohesion 0.05
+> 40 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **scripts** (16 connections) — `package.json`
-- **dependencies** (13 connections) — `package.json`
-- **package.json** (7 connections) — `package.json`
-- **devDependencies** (6 connections) — `package.json`
-- **@capacitor/android** (1 connections) — `package.json`
-- **@capacitor/app** (1 connections) — `package.json`
-- **@capacitor/cli** (1 connections) — `package.json`
-- **@capacitor/core** (1 connections) — `package.json`
-- **@capacitor/ios** (1 connections) — `package.json`
-- **@capacitor/preferences** (1 connections) — `package.json`
-- **dotenv** (1 connections) — `package.json`
-- **jsonwebtoken** (1 connections) — `package.json`
-- **postgres** (1 connections) — `package.json`
-- **react** (1 connections) — `package.json`
-- **react-dom** (1 connections) — `package.json`
-- **react-router-dom** (1 connections) — `package.json`
-- **oxlint** (1 connections) — `package.json`
-- **@types/react** (1 connections) — `package.json`
-- **@types/react-dom** (1 connections) — `package.json`
-- **vite** (1 connections) — `package.json`
-- **@vitejs/plugin-react** (1 connections) — `package.json`
-- **name** (1 connections) — `package.json`
-- **private** (1 connections) — `package.json`
-- **build** (1 connections) — `package.json`
-- **build:backend** (1 connections) — `package.json`
+- **al()** (41 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
+- **U()** (19 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
+- **bc()** (18 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
+- **ia()** (15 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
+- **la()** (15 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
+- **lm()** (13 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
+- **il()** (11 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
+- **ta()** (10 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
+- **jc()** (7 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
+- **da()** (6 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
+- **dc()** (6 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
+- **Do()** (6 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
+- **lh()** (6 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
+- **oa()** (6 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
+- **oo()** (6 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
+- **xe()** (6 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
+- **ao()** (5 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
+- **qn()** (5 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
+- **wo()** (5 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
+- **bo()** (4 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
+- **Ca()** (4 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
+- **el()** (4 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
+- **fa()** (4 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
+- **im()** (4 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
+- **ro()** (4 connections) — `ios/App/App/public/assets/index-BomkxjsM.js`
 - *... and 15 more nodes in this community*
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Price Presentation & Product UI]] (49 shared connections)
+- [[Master Codebase Architecture Reference]] (28 shared connections)
+- [[Live Pricing Audit Tool]] (16 shared connections)
+- [[Pricing Regression Test Suite]] (16 shared connections)
+- [[Community 60]] (13 shared connections)
+- [[Community 65]] (10 shared connections)
+- [[Architecture Doc Generator]] (9 shared connections)
+- [[Community 231]] (3 shared connections)
 
 ## Source Files
 
-- `package.json`
+- `ios/App/App/public/assets/index-BomkxjsM.js`
 
 ## Audit Trail
 
-- EXTRACTED: 78 (100%)
+- EXTRACTED: 274 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

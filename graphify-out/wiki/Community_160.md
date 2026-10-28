@@ -4,18 +4,18 @@
 
 ## Key Concepts
 
-- **Menus** (10 connections) — `.agents/skills/apple-design/references/hig/menus.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/menus.md`
-- **menus.md** (1 connections) — `.agents/skills/apple-design/references/hig/menus.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/menus.md`
-- **Icons** (1 connections) — `.agents/skills/apple-design/references/hig/menus.md`
-- **In-game menus** (1 connections) — `.agents/skills/apple-design/references/hig/menus.md`
-- **Labels** (1 connections) — `.agents/skills/apple-design/references/hig/menus.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/menus.md`
-- **Organization** (1 connections) — `.agents/skills/apple-design/references/hig/menus.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/menus.md`
-- **Submenus** (1 connections) — `.agents/skills/apple-design/references/hig/menus.md`
-- **Toggled items** (1 connections) — `.agents/skills/apple-design/references/hig/menus.md`
+- **Search fields** (6 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
+- **Phone (iOS)** (4 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
+- **search-fields.md** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
+- **Scope bars and tokens** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
+- **Search as a tab** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
+- **Search as an inline field** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
+- **Search in a toolbar** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
+- **Tablet and desktop (iPadOS, macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
 
 ## Relationships
 
@@ -23,7 +23,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/menus.md`
+- `.agents/skills/apple-design/references/hig/search-fields.md`
 
 ## Audit Trail
 

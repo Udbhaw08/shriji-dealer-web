@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **verify-all.mjs** (0 connections) — `scripts/verify-all.mjs`
+- **sequence** (0 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `scripts/verify-all.mjs`
+- `.agents/skills/archify/renderers/shared/generated-validators.mjs`
 
 ## Audit Trail
 

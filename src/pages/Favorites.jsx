@@ -144,7 +144,7 @@ export default function Favorites() {
               <Icon name="chev" size={12} />
               <Link to="/products">{t("nav_products") || "Products"}</Link>
               <Icon name="chev" size={12} />
-              <span className="fav-crumbs-current">{t("nav_favorites") || "Saved Favorites"}</span>
+              <span className="fav-crumbs-current">Favorites</span>
             </nav>
 
             {/* Header Main Bar */}
@@ -156,17 +156,7 @@ export default function Favorites() {
                   </span>
                 </div>
                 <div>
-                  <span className="fav-eyebrow-pill">
-                    <span className="material-symbols-outlined fill-1" style={{ fontSize: 13 }}>
-                      bookmark
-                    </span>
-                    B2B Shortlist &amp; Order Desk
-                  </span>
-                  <h1 className="fav-title">{t("favorites_title") || "Saved Favorites"}</h1>
-                  <p className="fav-sub">
-                    {t("favorites_sub") ||
-                      "Your shortlisted Sunshine appliances for quick ordering, price tracking, and dealer enquiries."}
-                  </p>
+                  <h1 className="fav-title" style={{ margin: 0 }}>Favorites</h1>
                 </div>
               </div>
 
