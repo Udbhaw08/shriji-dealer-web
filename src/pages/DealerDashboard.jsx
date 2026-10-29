@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { Link, useNavigate, Navigate } from "react-router-dom";
 import { useSession, revalidateSession, signOut } from "../data/session";
 import {
   staffInvite, staffList, staffApprove, staffHold, staffResume, staffRevoke, staffDelete,
@@ -190,18 +190,18 @@ export default function DealerDashboard() {
     }
   };
 
-  if (s.role !== "dealer" || s.status !== "approved" || s.authRole === "dealer_staff") {
+  if (s.authRole === "dealer_staff") {
+    return <Navigate to="/staff" replace />;
+  }
+
+  if (s.role !== "dealer" || s.status !== "approved") {
     return (
       <section className="sec" style={{ paddingTop: "var(--s6)" }}>
         <div className="wrap" style={{ maxWidth: 560, textAlign: "center" }}>
           <h1 className="d2">Dealer Dashboard</h1>
-          <p className="sub">
-            {s.authRole === "dealer_staff"
-              ? "This dashboard is reserved for dealership owners."
-              : "This area is for approved dealers only."}
-          </p>
-          <Link className="btn btn-navy" to={s.authRole === "dealer_staff" ? "/products" : "/login?needAuth=true"}>
-            {s.authRole === "dealer_staff" ? "Browse products" : "Sign in"}
+          <p className="sub">This area is for approved dealers only.</p>
+          <Link className="btn btn-navy" to="/login?needAuth=true">
+            Sign in
           </Link>
         </div>
       </section>

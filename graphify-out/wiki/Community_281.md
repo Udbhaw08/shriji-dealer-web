@@ -4,14 +4,14 @@
 
 ## Key Concepts
 
-- **landing.test.mjs** (7 connections) — `.agents/skills/archify/test/landing.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/landing.test.mjs`
-- **docsRoot** (1 connections) — `.agents/skills/archify/test/landing.test.mjs`
-- **landing** (1 connections) — `.agents/skills/archify/test/landing.test.mjs`
-- **manifest** (1 connections) — `.agents/skills/archify/test/landing.test.mjs`
-- **proofs** (1 connections) — `.agents/skills/archify/test/landing.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/landing.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/landing.test.mjs`
+- **crmProvisioningReliability.test.mjs** (7 connections) — `backend/test/crmProvisioningReliability.test.mjs`
+- **crmCalls** (1 connections) — `backend/test/crmProvisioningReliability.test.mjs`
+- **db** (1 connections) — `backend/test/crmProvisioningReliability.test.mjs`
+- **mockCrm** (1 connections) — `backend/test/crmProvisioningReliability.test.mjs`
+- **mockSql()** (1 connections) — `backend/test/crmProvisioningReliability.test.mjs`
+- **resetCrm()** (1 connections) — `backend/test/crmProvisioningReliability.test.mjs`
+- **resetDb()** (1 connections) — `backend/test/crmProvisioningReliability.test.mjs`
+- **testEnv** (1 connections) — `backend/test/crmProvisioningReliability.test.mjs`
 
 ## Relationships
 
@@ -19,7 +19,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/landing.test.mjs`
+- `backend/test/crmProvisioningReliability.test.mjs`
 
 ## Audit Trail
 

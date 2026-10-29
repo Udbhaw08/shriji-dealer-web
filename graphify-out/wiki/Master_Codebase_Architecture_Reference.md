@@ -1,74 +1,55 @@
 # Master Codebase Architecture Reference
 
-> 64 nodes · cohesion 0.10
+> 57 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **main.jsx** (50 connections) — `src/main.jsx`
-- **ui.jsx** (45 connections) — `src/ui.jsx`
-- **useSession()** (38 connections) — `src/data/session.js`
-- **useLanguage()** (31 connections) — `src/data/i18n.js`
-- **Home.jsx** (26 connections) — `src/pages/Home.jsx`
-- **site.js** (24 connections) — `src/data/site.js`
-- **Favorites.jsx** (20 connections) — `src/pages/Favorites.jsx`
-- **isDealer()** (18 connections) — `src/data/dealer.js`
-- **t()** (18 connections) — `src/data/i18n.js`
-- **Schemes.jsx** (17 connections) — `src/pages/Schemes.jsx`
-- **MobileBottomNav.jsx** (16 connections) — `src/components/MobileBottomNav.jsx`
-- **COMPANY** (16 connections) — `src/data/site.js`
-- **Support.jsx** (16 connections) — `src/pages/Support.jsx`
-- **isPortalGated()** (14 connections) — `src/data/portalGate.js`
-- **useFavorites()** (13 connections) — `src/data/favoritesStore.js`
-- **HeroSlider.jsx** (12 connections) — `src/components/HeroSlider.jsx`
-- **dealerById()** (12 connections) — `src/data/dealer.js`
-- **Favorites()** (9 connections) — `src/pages/Favorites.jsx`
-- **Products()** (9 connections) — `src/pages/Products.jsx`
-- **Header()** (9 connections) — `src/ui.jsx`
-- **MobileBottomNav()** (8 connections) — `src/components/MobileBottomNav.jsx`
-- **UnderMaintenance.jsx** (8 connections) — `src/components/UnderMaintenance.jsx`
-- **portalGate.js** (8 connections) — `src/data/portalGate.js`
-- **Home()** (8 connections) — `src/pages/Home.jsx`
-- **Login()** (7 connections) — `src/pages/Login.jsx`
-- *... and 39 more nodes in this community*
+- **get()** (27 connections) — `android/app/src/main/assets/public/assets/index-Ce7xrLWR.js`
+- **D()** (22 connections) — `android/app/src/main/assets/public/assets/index-Ce7xrLWR.js`
+- **np()** (20 connections) — `android/app/src/main/assets/public/assets/index-Ce7xrLWR.js`
+- **.addEventListener()** (19 connections) — `android/app/src/main/assets/public/assets/index-Ce7xrLWR.js`
+- **b()** (17 connections) — `android/app/src/main/assets/public/assets/index-Ce7xrLWR.js`
+- **fp()** (14 connections) — `android/app/src/main/assets/public/assets/index-Ce7xrLWR.js`
+- **h()** (13 connections) — `android/app/src/main/assets/public/assets/index-Ce7xrLWR.js`
+- **jt()** (13 connections) — `android/app/src/main/assets/public/assets/index-Ce7xrLWR.js`
+- **lm()** (13 connections) — `android/app/src/main/assets/public/assets/index-Ce7xrLWR.js`
+- **Ba()** (12 connections) — `android/app/src/main/assets/public/assets/index-Ce7xrLWR.js`
+- **bm()** (12 connections) — `android/app/src/main/assets/public/assets/index-Ce7xrLWR.js`
+- **.removeEventListener()** (12 connections) — `android/app/src/main/assets/public/assets/index-Ce7xrLWR.js`
+- **am()** (10 connections) — `android/app/src/main/assets/public/assets/index-Ce7xrLWR.js`
+- **ip()** (9 connections) — `android/app/src/main/assets/public/assets/index-Ce7xrLWR.js`
+- **mm()** (9 connections) — `android/app/src/main/assets/public/assets/index-Ce7xrLWR.js`
+- **tp()** (8 connections) — `android/app/src/main/assets/public/assets/index-Ce7xrLWR.js`
+- **jm()** (7 connections) — `android/app/src/main/assets/public/assets/index-Ce7xrLWR.js`
+- **lp()** (7 connections) — `android/app/src/main/assets/public/assets/index-Ce7xrLWR.js`
+- **mo()** (7 connections) — `android/app/src/main/assets/public/assets/index-Ce7xrLWR.js`
+- **om()** (7 connections) — `android/app/src/main/assets/public/assets/index-Ce7xrLWR.js`
+- **tm()** (7 connections) — `android/app/src/main/assets/public/assets/index-Ce7xrLWR.js`
+- **un()** (7 connections) — `android/app/src/main/assets/public/assets/index-Ce7xrLWR.js`
+- **zm()** (7 connections) — `android/app/src/main/assets/public/assets/index-Ce7xrLWR.js`
+- **cm()** (6 connections) — `android/app/src/main/assets/public/assets/index-Ce7xrLWR.js`
+- **em()** (6 connections) — `android/app/src/main/assets/public/assets/index-Ce7xrLWR.js`
+- *... and 32 more nodes in this community*
 
 ## Relationships
 
-- [[Community 42]] (51 shared connections)
-- [[Agent Guidelines (AGENTS.md)]] (36 shared connections)
-- [[Community 54]] (28 shared connections)
-- [[Community 144]] (15 shared connections)
-- [[Community 99]] (12 shared connections)
-- [[Community 169]] (4 shared connections)
-- [[Community 33]] (4 shared connections)
-- [[Community 400]] (1 shared connections)
+- [[Dealer Auth & Session Management]] (55 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (21 shared connections)
+- [[Product Pages Specification]] (21 shared connections)
+- [[Live Pricing Audit Tool]] (20 shared connections)
+- [[Product Requirements Documentation]] (12 shared connections)
+- [[Community 53]] (12 shared connections)
+- [[Project Readme & Layout]] (11 shared connections)
+- [[Community 81]] (4 shared connections)
 
 ## Source Files
 
-- `src/components/EmailVerificationPrompt.jsx`
-- `src/components/HeroSlider.jsx`
-- `src/components/MobileBottomNav.jsx`
-- `src/components/NativeBackHandler.jsx`
-- `src/components/UnderMaintenance.jsx`
-- `src/data/dealer.js`
-- `src/data/favoritesStore.js`
-- `src/data/i18n.js`
-- `src/data/portalGate.js`
-- `src/data/session.js`
-- `src/data/site.js`
-- `src/main.jsx`
-- `src/pages/DealerApply.jsx`
-- `src/pages/DealerDashboard.jsx`
-- `src/pages/DealerPending.jsx`
-- `src/pages/Favorites.jsx`
-- `src/pages/Home.jsx`
-- `src/pages/LegalPrivacy.jsx`
-- `src/pages/LegalTerms.jsx`
-- `src/pages/Login.jsx`
+- `android/app/src/main/assets/public/assets/index-Ce7xrLWR.js`
 
 ## Audit Trail
 
-- EXTRACTED: 565 (100%)
-- INFERRED: 2 (0%)
+- EXTRACTED: 414 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

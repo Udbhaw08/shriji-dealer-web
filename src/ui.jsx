@@ -358,6 +358,27 @@ function AccountLink({ className = "" }) {
     );
   }
 
+  if (s && s.authRole === "dealer_staff") {
+    const staffName = s.fullName || (s.phone ? `+91 ${s.phone}` : "Store Staff");
+    const staffInitial = (s.fullName || s.phone || "S").charAt(0).toUpperCase();
+    const storeCode = dealer?.dealer_code || s.dealer?.dealer_code || "Active";
+    return (
+      <Link
+        className={`acct ${className}`.trim()}
+        to="/staff"
+        title={`Store Staff: ${staffName} (${dealer?.name || "Dealership"}) · Click for Staff Workspace`}
+      >
+        <span className="acct-dot" style={{ background: "var(--blue-ink, #1d4ed8)", color: "#fff" }} aria-hidden="true">
+          {staffInitial}
+        </span>
+        <span>
+          <b>{staffName}</b>
+          <span style={{ color: "#2563eb", fontWeight: 700 }}>Staff ({storeCode})</span>
+        </span>
+      </Link>
+    );
+  }
+
   if (dealer) {
     return (
       <Link className={`acct ${className}`.trim()} to="/dealer" title={`Active Dealer: ${dealer.name} · Click for Workspace`}>

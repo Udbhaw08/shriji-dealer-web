@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **dbHealthCheck.test.mjs** (0 connections) — `backend/test/dbHealthCheck.test.mjs`
+- **cryptoHelper.test.mjs** (0 connections) — `backend/test/cryptoHelper.test.mjs`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `backend/test/dbHealthCheck.test.mjs`
+- `backend/test/cryptoHelper.test.mjs`
 
 ## Audit Trail
 

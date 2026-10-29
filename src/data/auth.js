@@ -502,6 +502,17 @@ export async function syncDealerWithCrm() {
   return data;
 }
 
+export async function updateUserProfile(data) {
+  const res = await callBackend("/api/auth/profile", {
+    method: "PATCH",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(data),
+  });
+  const resData = await res.json();
+  if (!res.ok) throw new Error(resData.message || resData.error || "Failed to update profile");
+  return resData;
+}
+
 export function sessionFromAuth(user, dealer) {
   const isDealerSide = user.role === "dealer" || user.role === "dealer_staff" || !!dealer;
   const isStaffInactive = user.role === "dealer_staff" && (user.status === "pending" || user.status === "hold" || user.status === "revoked");
@@ -522,8 +533,10 @@ export function sessionFromAuth(user, dealer) {
       ? {
           id: dealer.id,
           name: dealer.business_name,
-          person: null,
-          city: null,
+          person: dealer.contact_name || dealer.person || null,
+          city: dealer.city || null,
+          state: dealer.state || null,
+          phone: dealer.phone || null,
           status: dealerStatus,
           dealer_code: dealer.dealer_code,
           price_tier: dealer.price_tier || null,

@@ -1,37 +1,32 @@
 # Community 189
 
-> 10 nodes · cohesion 0.42
+> 11 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **vite.config.js** (19 connections) — `vite.config.js`
-- **zohoApiPlugin()** (12 connections) — `vite.config.js`
-- **og.js** (7 connections) — `api/og.js`
-- **htmlEscape.js** (6 connections) — `api/_lib/htmlEscape.js`
-- **escapeHtml()** (6 connections) — `api/_lib/htmlEscape.js`
-- **sanitizeUrl()** (6 connections) — `api/_lib/htmlEscape.js`
-- **handler()** (5 connections) — `api/og.js`
-- **sanitizeHost()** (4 connections) — `api/_lib/htmlEscape.js`
-- **loadContentService()** (2 connections) — `vite.config.js`
-- **liveAutoSyncPlugin()** (1 connections) — `vite.config.js`
+- **httpErrors.js** (5 connections) — `backend/src/utils/httpErrors.js`
+- **BadRequestError** (2 connections) — `backend/src/utils/httpErrors.js`
+- **ForbiddenError** (2 connections) — `backend/src/utils/httpErrors.js`
+- **HttpError** (2 connections) — `backend/src/utils/httpErrors.js`
+- **NotFoundError** (2 connections) — `backend/src/utils/httpErrors.js`
+- **UnauthorizedError** (2 connections) — `backend/src/utils/httpErrors.js`
+- **.constructor()** (1 connections) — `backend/src/utils/httpErrors.js`
+- **.constructor()** (1 connections) — `backend/src/utils/httpErrors.js`
+- **.constructor()** (1 connections) — `backend/src/utils/httpErrors.js`
+- **.constructor()** (1 connections) — `backend/src/utils/httpErrors.js`
+- **.constructor()** (1 connections) — `backend/src/utils/httpErrors.js`
 
 ## Relationships
 
-- [[Oxlint Linter Configuration]] (9 shared connections)
-- [[Community 94]] (8 shared connections)
-- [[Community 88]] (8 shared connections)
-- [[Community 89]] (3 shared connections)
-- [[Community 410]] (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `api/_lib/htmlEscape.js`
-- `api/og.js`
-- `vite.config.js`
+- `backend/src/utils/httpErrors.js`
 
 ## Audit Trail
 
-- EXTRACTED: 68 (100%)
+- EXTRACTED: 20 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

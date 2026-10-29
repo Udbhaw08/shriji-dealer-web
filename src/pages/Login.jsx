@@ -91,6 +91,8 @@ export default function Login() {
 
   const isAuthenticated = session && session.role !== "guest";
   const dealerActive = isDealer(session);
+  const isStaffActive = Boolean(session && session.authRole === "dealer_staff");
+  const isDealerOwnerActive = Boolean(dealerActive && !isStaffActive);
 
   // Localhost check for Google Identity Services
   const isLocalhost =
@@ -482,6 +484,8 @@ export default function Login() {
                 <Icon name={dealerActive ? "shield" : isPending ? "clock" : "user"} size={14} />
                 {isPending
                   ? "Dealership Application Under Review"
+                  : isStaffActive
+                  ? `Authorized Store Staff · ${session.dealer?.name || "Dealership"}`
                   : dealerActive
                   ? (session.dealer?.name || "Verified Dealer")
                   : "Customer / Retail Account"}
@@ -573,7 +577,13 @@ export default function Login() {
                   <Icon name="grid" size={16} /> Continue to Product Catalog
                 </Link>
 
-                {dealerActive && (
+                {isStaffActive && (
+                  <Link to="/staff" className="btn btn-ghost btn-block" style={{ minHeight: 48, borderColor: "var(--blue-ink, #1d4ed8)", color: "#1d4ed8", fontWeight: 700 }}>
+                    <Icon name="badge" size={16} /> Staff Workspace & Profile
+                  </Link>
+                )}
+
+                {isDealerOwnerActive && (
                   <Link to="/dealer" className="btn btn-ghost btn-block" style={{ minHeight: 48 }}>
                     <Icon name="user" size={16} /> Dealership Dashboard
                   </Link>

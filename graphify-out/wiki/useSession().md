@@ -1,8 +1,8 @@
 # useSession()
 
-> God node · 38 connections · `src/data/session.js`
+> God node · 40 connections · `src/data/session.js`
 
-**Community:** [[Master Codebase Architecture Reference]]
+**Community:** [[Community 46]]
 
 ## Connections by Relation
 
@@ -20,13 +20,13 @@
 - [[Footer()]] `EXTRACTED`
 - [[Support()]] `EXTRACTED`
 - [[BrandApplyFlow()]] `EXTRACTED`
+- [[StaffDashboard()]] `EXTRACTED`
 - [[StaffJoin()]] `EXTRACTED`
 - [[EmailVerificationPrompt()]] `EXTRACTED`
 - [[DealerApply()]] `EXTRACTED`
 - [[DealerDashboard()]] `EXTRACTED`
 - [[DealerPending()]] `EXTRACTED`
 - [[ConditionalBottomNav()]] `EXTRACTED`
-- [[RequireVerifiedDealer()]] `EXTRACTED`
 
 ### contains
 - [[session.js]] `EXTRACTED`
@@ -46,6 +46,7 @@
 - [[Schemes.jsx]] `EXTRACTED`
 - [[MobileBottomNav.jsx]] `EXTRACTED`
 - [[Support.jsx]] `EXTRACTED`
+- [[StaffDashboard.jsx]] `EXTRACTED`
 - [[StaffJoin.jsx]] `EXTRACTED`
 - [[EmailVerificationPrompt.jsx]] `EXTRACTED`
 - [[DealerPending.jsx]] `EXTRACTED`

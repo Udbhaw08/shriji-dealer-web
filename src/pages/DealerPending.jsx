@@ -178,7 +178,7 @@ export default function DealerPending() {
                 Enter Wholesale Catalog →
               </Link>
               <Link
-                to="/dealer"
+                to={session?.authRole === "dealer_staff" ? "/staff" : "/dealer"}
                 style={{
                   display: "flex",
                   alignItems: "center",
@@ -193,7 +193,7 @@ export default function DealerPending() {
                   textDecoration: "none",
                 }}
               >
-                Go to Dealer Dashboard
+                {session?.authRole === "dealer_staff" ? "Go to Staff Dashboard" : "Go to Dealer Dashboard"}
               </Link>
             </div>
           </div>

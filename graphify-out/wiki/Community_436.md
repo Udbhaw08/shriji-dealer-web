@@ -4,10 +4,10 @@
 
 ## Key Concepts
 
-- **constants.js** (3 connections) — `backend/src/utils/constants.js`
-- **DEALER_STATUS** (1 connections) — `backend/src/utils/constants.js`
-- **ROLES** (1 connections) — `backend/src/utils/constants.js`
-- **TOKEN_TTL** (1 connections) — `backend/src/utils/constants.js`
+- **generate-viewer.test.mjs** (3 connections) — `.agents/skills/archify/test/generate-viewer.test.mjs`
+- **fixture()** (1 connections) — `.agents/skills/archify/test/generate-viewer.test.mjs`
+- **fragments** (1 connections) — `.agents/skills/archify/test/generate-viewer.test.mjs`
+- **repoRoot** (1 connections) — `.agents/skills/archify/test/generate-viewer.test.mjs`
 
 ## Relationships
 
@@ -15,7 +15,7 @@
 
 ## Source Files
 
-- `backend/src/utils/constants.js`
+- `.agents/skills/archify/test/generate-viewer.test.mjs`
 
 ## Audit Trail
 

@@ -33,11 +33,11 @@
 ## Relationships
 
 - [[Community 83]] (20 shared connections)
-- [[Community 114]] (18 shared connections)
-- [[Pricing & Roles Skill]] (5 shared connections)
+- [[Community 113]] (18 shared connections)
+- [[Mobile Responsive UI Skill]] (5 shared connections)
 - [[Community 145]] (4 shared connections)
-- [[Community 167]] (2 shared connections)
-- [[Community 299]] (2 shared connections)
+- [[Community 169]] (2 shared connections)
+- [[Community 301]] (2 shared connections)
 
 ## Source Files
 

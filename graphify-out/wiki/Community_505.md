@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **stringUtils.js** (2 connections) — `src/utils/stringUtils.js`
-- **titleCase()** (1 connections) — `src/utils/stringUtils.js`
-- **truncate()** (1 connections) — `src/utils/stringUtils.js`
+- **storage.js** (2 connections) — `src/utils/storage.js`
+- **memoryStore** (1 connections) — `src/utils/storage.js`
+- **safeStorage** (1 connections) — `src/utils/storage.js`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `src/utils/stringUtils.js`
+- `src/utils/storage.js`
 
 ## Audit Trail
 

@@ -400,6 +400,23 @@ authRouter.get('/me', jwtAuth, async (req, res, next) => {
   } catch (error) { next(error); }
 });
 
+authRouter.patch('/profile', jwtAuth, async (req, res, next) => {
+  try {
+    const rawName = req.body?.full_name;
+    if (!rawName || typeof rawName !== 'string' || rawName.trim().length < 2) {
+      throw httpError(400, 'Valid full name (minimum 2 characters) is required');
+    }
+    const cleanName = rawName.trim();
+    const [updatedUser] = await sql`
+      update users
+      set full_name = ${cleanName}
+      where id = ${req.user.id}
+      returning *`;
+    if (!updatedUser) throw httpError(404, 'User account not found');
+    res.json({ ok: true, user: publicUser(updatedUser) });
+  } catch (error) { next(error); }
+});
+
 authRouter.post('/email/request-otp', jwtAuth, rateLimit({ windowMs: () => env.otpRateLimitWindowMs || (3 * 60_000), max: () => env.otpRateLimitMax || 20, prefix: 'auth_email_otp' }), async (req, res, next) => {
   try {
     const email = normalizeEmail(req.body?.email || req.user.email);

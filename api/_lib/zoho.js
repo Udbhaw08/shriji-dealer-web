@@ -1228,7 +1228,11 @@ export async function fetchZohoProductById(identifier, { pricebookId = "33346720
   // 1. Check persistent details disk cache first (instant response & 0 Zoho API calls!)
   const diskDetails = readProductDetailsDiskCache();
   if (diskDetails[clean]?.product) {
-    return diskDetails[clean].product;
+    const cachedProd = diskDetails[clean].product;
+    const liveRates = await fetchZohoPricebookItems(pbId);
+    const targetKey = cachedProd.id || clean;
+    const resolvedRate = liveRates[targetKey] ?? cachedProd.dealerRate;
+    return { ...cachedProd, dealerRate: resolvedRate };
   }
 
   // 2. Find matching product in catalog
@@ -1255,7 +1259,10 @@ export async function fetchZohoProductById(identifier, { pricebookId = "33346720
     return cachedDetail.product;
   }
   if (diskDetails[targetId]?.product) {
-    return diskDetails[targetId].product;
+    const cachedProd = diskDetails[targetId].product;
+    const liveRates = await fetchZohoPricebookItems(pbId);
+    const resolvedRate = liveRates[targetId] ?? cachedProd.dealerRate;
+    return { ...cachedProd, dealerRate: resolvedRate };
   }
 
   // 4. If currently rate-limited by Zoho, return catalog match instead of failing

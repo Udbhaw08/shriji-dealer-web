@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **objectUtils.js** (2 connections) — `src/utils/objectUtils.js`
-- **omit()** (1 connections) — `src/utils/objectUtils.js`
-- **pick()** (1 connections) — `src/utils/objectUtils.js`
+- **numberUtils.js** (2 connections) — `src/utils/numberUtils.js`
+- **calculateDiscountPercentage()** (1 connections) — `src/utils/numberUtils.js`
+- **clamp()** (1 connections) — `src/utils/numberUtils.js`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `src/utils/objectUtils.js`
+- `src/utils/numberUtils.js`
 
 ## Audit Trail
 

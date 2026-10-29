@@ -1,8 +1,8 @@
 # CODEBASE.md — Project Architecture & Feature Guide
 
 > **Auto-generated documentation**
-> Last synchronized: 2026-10-29T17:35:04.093+05:30 (GMT+5:30)
-> Total Project Files: 2134
+> Last synchronized: 2026-10-29T18:02:56.087+05:30 (GMT+5:30)
+> Total Project Files: 2136
 
 ---
 
@@ -94,17 +94,18 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 ### 4.1 Pages (`src/pages/`)
 - **`src/pages/ContentAdminDashboard.jsx`** (74.3 KB)
 - **`src/pages/DealerApply.jsx`** (0.4 KB)
-- **`src/pages/DealerDashboard.jsx`** (52.6 KB)
-- **`src/pages/DealerPending.jsx`** (18.7 KB)
+- **`src/pages/DealerDashboard.jsx`** (52.4 KB)
+- **`src/pages/DealerPending.jsx`** (18.8 KB)
 - **`src/pages/Favorites.jsx`** (16.3 KB)
 - **`src/pages/Home.jsx`** (21.9 KB)
 - **`src/pages/LegalPrivacy.jsx`** (5.8 KB)
 - **`src/pages/LegalTerms.jsx`** (4.2 KB)
-- **`src/pages/Login.jsx`** (69.2 KB)
+- **`src/pages/Login.jsx`** (69.8 KB)
 - **`src/pages/PrivacyPolicy.jsx`** (0.0 KB)
-- **`src/pages/Product.jsx`** (37.1 KB)
+- **`src/pages/Product.jsx`** (37.5 KB)
 - **`src/pages/Products.jsx`** (34.3 KB)
 - **`src/pages/Schemes.jsx`** (18.0 KB)
+- **`src/pages/StaffDashboard.jsx`** (46.7 KB)
 - **`src/pages/StaffJoin.jsx`** (24.9 KB)
 - **`src/pages/Support.jsx`** (29.4 KB)
 - **`src/pages/TermsOfService.jsx`** (0.0 KB)
@@ -112,7 +113,7 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 ### 4.2 Reusable Components (`src/components/` & `src/ui.jsx`)
 - **`src/components/A11yAnnouncer.jsx`** (0.5 KB)
 - **`src/components/BrandApplyFlow.jsx`** (50.2 KB)
-- **`src/components/EmailVerificationPrompt.jsx`** (10.4 KB)
+- **`src/components/EmailVerificationPrompt.jsx`** (10.5 KB)
 - **`src/components/ErrorBoundary.jsx`** (0.8 KB)
 - **`src/components/FileOrUrlInput.jsx`** (15.2 KB)
 - **`src/components/HeroSlider.jsx`** (18.2 KB)
@@ -128,9 +129,9 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 - **`src/ui.jsx`**: Core UI components (Header, Footer, Icon, Search, CategoryCarousel).
 
 ### 4.3 State & Business Logic (`src/data/`)
-- **`src/data/api.js`** (2.0 KB)
-- **`src/data/auth-session.test.mjs`** (5.7 KB)
-- **`src/data/auth.js`** (18.6 KB)
+- **`src/data/api.js`** (2.5 KB)
+- **`src/data/auth-session.test.mjs`** (7.0 KB)
+- **`src/data/auth.js`** (19.1 KB)
 - **`src/data/dealer.js`** (9.0 KB)
 - **`src/data/dealer.test.mjs`** (4.3 KB)
 - **`src/data/favoritesStore.js`** (2.3 KB)
@@ -166,7 +167,7 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 - **`api/_lib/dealerPricingAuth.js`** (4.1 KB)
 - **`api/_lib/htmlEscape.js`** (1.1 KB)
 - **`api/_lib/ssrf.js`** (5.8 KB)
-- **`api/_lib/zoho.js`** (44.8 KB)
+- **`api/_lib/zoho.js`** (45.3 KB)
 
 ### 4.5 Automation & Utility Scripts (`scripts/`)
 - **`scripts/audit_prices.mjs`** (3.9 KB)

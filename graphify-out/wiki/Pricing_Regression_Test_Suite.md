@@ -1,54 +1,55 @@
 # Pricing Regression Test Suite
 
-> 56 nodes · cohesion 0.08
+> 56 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **fl()** (24 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
-- **it()** (21 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
-- **k()** (19 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
-- **st()** (16 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
-- **A()** (13 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
-- **ft()** (13 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
-- **pe()** (13 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
-- **Dn()** (12 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
-- **ml()** (11 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
-- **ut()** (11 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
-- **jt()** (10 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
-- **ct()** (9 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
-- **nt()** (9 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
-- **pl()** (9 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
-- **ve()** (9 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
-- **xe()** (9 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
-- **ye()** (9 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
-- **ao()** (8 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
-- **P()** (8 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
-- **xt()** (8 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
-- **aa()** (7 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
-- **dt()** (7 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
-- **Gt()** (7 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
-- **I()** (7 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
-- **Id()** (7 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
+- **at()** (22 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **k()** (22 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **ct()** (15 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **A()** (14 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **pt()** (12 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **dt()** (11 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **mt()** (11 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **ye()** (11 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **ep()** (10 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **tf()** (10 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **af()** (9 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **on()** (9 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **yn()** (9 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **kf()** (8 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **lt()** (8 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **tt()** (8 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **ef()** (7 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **Id()** (7 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **it()** (7 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **je()** (7 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **lf()** (7 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **mn()** (7 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **nn()** (7 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **oo()** (7 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **pn()** (7 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
 - *... and 31 more nodes in this community*
 
 ## Relationships
 
 - [[Price Presentation & Product UI]] (68 shared connections)
-- [[Zoho Backend & Proxy Endpoints]] (33 shared connections)
-- [[Product Requirements Documentation]] (21 shared connections)
-- [[Community 47]] (12 shared connections)
-- [[Live Pricing Audit Tool]] (12 shared connections)
-- [[Roles & Customer Sharing Spec]] (7 shared connections)
-- [[Community 53]] (5 shared connections)
-- [[Community 142]] (5 shared connections)
+- [[Design System & UI Tokens]] (20 shared connections)
+- [[Oxlint Linter Configuration]] (16 shared connections)
+- [[Zoho API Diagnostic Script]] (12 shared connections)
+- [[Zoho Integration Architecture]] (11 shared connections)
+- [[Community 85]] (11 shared connections)
+- [[Graphify Knowledge Graph Skill]] (11 shared connections)
+- [[Community 166]] (7 shared connections)
+- [[Community 72]] (6 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
+- `ios/App/App/public/assets/index-Ce7xrLWR.js`
 
 ## Audit Trail
 
-- EXTRACTED: 419 (100%)
+- EXTRACTED: 380 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,47 +1,54 @@
 # Zoho API Diagnostic Script
 
-> 43 nodes · cohesion 0.05
+> 43 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **Craft Details Guide** (11 connections) — `.agents/skills/refero-design/references/craft-details.md`
-- **2. Forms** (10 connections) — `.agents/skills/refero-design/references/craft-details.md`
-- **6. Accessibility Quick Wins** (6 connections) — `.agents/skills/refero-design/references/craft-details.md`
-- **4. Touch & Mobile** (5 connections) — `.agents/skills/refero-design/references/craft-details.md`
-- **5. Performance Patterns** (5 connections) — `.agents/skills/refero-design/references/craft-details.md`
-- **1. Focus States** (4 connections) — `.agents/skills/refero-design/references/craft-details.md`
-- **3. Images** (4 connections) — `.agents/skills/refero-design/references/craft-details.md`
-- **7. Navigation & State** (4 connections) — `.agents/skills/refero-design/references/craft-details.md`
-- **craft-details.md** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
-- **8. Content Copy Rules** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
-- **9. Anti-Patterns Checklist** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
-- **Always Set Dimensions** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
-- **Async Updates Need Announcements** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
-- **Autocomplete Matters** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
-- **AutoFocus Rules** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
-- **Avoid Layout Reads in Render** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
-- **Compound Controls: `:focus-within`** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
-- **Destructive Actions Need Confirmation** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
-- **Disable Spellcheck Where Appropriate** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
-- **Error Handling** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
-- **Heading Hierarchy** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
-- **In React/Next.js** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
-- **Input Types and Attributes** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
-- **Keyboard Handlers** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
-- **Labels and Hit Targets** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **ic()** (16 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **Md()** (15 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **s()** (15 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **nc()** (14 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **r()** (12 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **ma()** (11 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **nl()** (11 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **hh()** (9 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **kd()** (9 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **yh()** (9 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **c()** (8 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **gs()** (8 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **ha()** (8 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **pa()** (8 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **rc()** (8 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **ec()** (7 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **go()** (7 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **oc()** (7 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **zc()** (7 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **ac()** (6 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **bi()** (6 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **fh()** (6 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **Mp()** (6 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **ph()** (6 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **qi()** (6 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
 - *... and 18 more nodes in this community*
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Price Presentation & Product UI]] (55 shared connections)
+- [[Oxlint Linter Configuration]] (19 shared connections)
+- [[Zoho Integration Architecture]] (17 shared connections)
+- [[Pricing Regression Test Suite]] (12 shared connections)
+- [[Design System & UI Tokens]] (10 shared connections)
+- [[Graphify Knowledge Graph Skill]] (10 shared connections)
+- [[Community 72]] (9 shared connections)
+- [[Community 85]] (5 shared connections)
 
 ## Source Files
 
-- `.agents/skills/refero-design/references/craft-details.md`
+- `ios/App/App/public/assets/index-Ce7xrLWR.js`
 
 ## Audit Trail
 
-- EXTRACTED: 84 (100%)
+- EXTRACTED: 297 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

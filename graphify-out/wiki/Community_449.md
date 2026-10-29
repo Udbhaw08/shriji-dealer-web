@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **ReSTOR / Shriji Dealer Web Changelog** (2 connections) — `docs/CHANGELOG.md`
-- **CHANGELOG.md** (1 connections) — `docs/CHANGELOG.md`
-- **2026-10-25** (1 connections) — `docs/CHANGELOG.md`
+- **Supabase Database Schema Reference** (2 connections) — `docs/architecture/supabase-schema-reference.md`
+- **supabase-schema-reference.md** (1 connections) — `docs/architecture/supabase-schema-reference.md`
+- **Primary Tables** (1 connections) — `docs/architecture/supabase-schema-reference.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/CHANGELOG.md`
+- `docs/architecture/supabase-schema-reference.md`
 
 ## Audit Trail
 

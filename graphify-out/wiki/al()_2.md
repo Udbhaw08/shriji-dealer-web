@@ -1,32 +1,32 @@
 # al()
 
-> God node · 41 connections · `ios/App/App/public/assets/index-BGsH1ADA.js`
+> God node · 41 connections · `ios/App/App/public/assets/index-Ce7xrLWR.js`
 
-**Community:** [[Dependencies & Package Config]]
+**Community:** [[Oxlint Linter Configuration]]
 
 ## Connections by Relation
 
 ### calls
 - [[fp()]] `EXTRACTED`
-- [[r()]] `EXTRACTED`
 - [[lm()]] `EXTRACTED`
-- [[ta()]] `EXTRACTED`
-- [[ha()]] `EXTRACTED`
 - [[ga()]] `EXTRACTED`
+- [[r()]] `EXTRACTED`
+- [[sa()]] `EXTRACTED`
 - [[il()]] `EXTRACTED`
 - [[nl()]] `EXTRACTED`
-- [[fa()]] `EXTRACTED`
-- [[ve()]] `EXTRACTED`
-- [[ao()]] `EXTRACTED`
+- [[ye()]] `EXTRACTED`
+- [[ta()]] `EXTRACTED`
+- [[aa()]] `EXTRACTED`
+- [[ha()]] `EXTRACTED`
 - [[kc()]] `EXTRACTED`
 - [[Sp()]] `EXTRACTED`
 - [[Xd()]] `EXTRACTED`
-- [[aa()]] `EXTRACTED`
 - [[hc()]] `EXTRACTED`
 - [[jc()]] `EXTRACTED`
-- [[no()]] `EXTRACTED`
-- [[Ca()]] `EXTRACTED`
 - [[mo()]] `EXTRACTED`
+- [[no()]] `EXTRACTED`
+- [[oo()]] `EXTRACTED`
+- [[qi()]] `EXTRACTED`
 
 ### contains
 - [[_()]] `EXTRACTED`

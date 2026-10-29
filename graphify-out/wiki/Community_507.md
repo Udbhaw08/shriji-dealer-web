@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **README.md** (1 connections) — `.agents/skills/archify/brand-marks/README.md`
-- **Built-in brand marks** (1 connections) — `.agents/skills/archify/brand-marks/README.md`
+- **esm-DrSP8P-k.js** (1 connections) — `android/app/src/main/assets/public/assets/esm-DrSP8P-k.js`
+- **__vite__mapDeps()** (1 connections) — `android/app/src/main/assets/public/assets/esm-DrSP8P-k.js`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/brand-marks/README.md`
+- `android/app/src/main/assets/public/assets/esm-DrSP8P-k.js`
 
 ## Audit Trail
 

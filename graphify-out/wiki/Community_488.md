@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **Payment Data Isolation & Compliance Notes** (2 connections) — `docs/security/pci-dss-compliance-notes.md`
-- **pci-dss-compliance-notes.md** (1 connections) — `docs/security/pci-dss-compliance-notes.md`
-- **Architecture** (1 connections) — `docs/security/pci-dss-compliance-notes.md`
+- **JWT Refresh Token Rotation Policy** (2 connections) — `docs/security/jwt-rotation-policy.md`
+- **jwt-rotation-policy.md** (1 connections) — `docs/security/jwt-rotation-policy.md`
+- **Rotation Rules** (1 connections) — `docs/security/jwt-rotation-policy.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/security/pci-dss-compliance-notes.md`
+- `docs/security/jwt-rotation-policy.md`
 
 ## Audit Trail
 

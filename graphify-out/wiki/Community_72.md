@@ -1,49 +1,52 @@
 # Community 72
 
-> 23 nodes · cohesion 0.09
+> 23 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **$defs** (16 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **common.schema.json** (4 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **animation** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **brandMark** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **componentType** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **legendMode** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **locale** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **qualityProfile** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **side** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **variant** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **visualPreset** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **oneOf** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **$id** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **$schema** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **title** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **n()** (31 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **t()** (19 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **cs()** (7 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **O()** (7 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **ps()** (6 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **es()** (5 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **j()** (5 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **x()** (5 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **ds()** (4 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **ee()** (4 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **fs()** (4 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **Ka()** (4 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **ls()** (4 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **M()** (4 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **qo()** (4 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **rs()** (4 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **us()** (4 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **Ad()** (3 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **ms()** (3 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **te()** (3 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **nf()** (2 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **tn()** (2 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **ws()** (2 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
 
 ## Relationships
 
-- [[Community 238]] (1 shared connections)
-- [[Community 470]] (1 shared connections)
-- [[Community 471]] (1 shared connections)
-- [[Community 179]] (1 shared connections)
-- [[Community 360]] (1 shared connections)
-- [[Community 472]] (1 shared connections)
+- [[Price Presentation & Product UI]] (30 shared connections)
+- [[Design System & UI Tokens]] (11 shared connections)
+- [[Zoho API Diagnostic Script]] (9 shared connections)
+- [[Pricing Regression Test Suite]] (6 shared connections)
+- [[Oxlint Linter Configuration]] (5 shared connections)
+- [[Graphify Knowledge Graph Skill]] (3 shared connections)
+- [[Zoho Integration Architecture]] (3 shared connections)
+- [[Community 85]] (2 shared connections)
+- [[Community 166]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/common.schema.json`
+- `ios/App/App/public/assets/index-Ce7xrLWR.js`
 
 ## Audit Trail
 
-- EXTRACTED: 50 (100%)
+- EXTRACTED: 136 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

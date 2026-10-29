@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **JWT Refresh Token Rotation Policy** (2 connections) — `docs/security/jwt-rotation-policy.md`
-- **jwt-rotation-policy.md** (1 connections) — `docs/security/jwt-rotation-policy.md`
-- **Rotation Rules** (1 connections) — `docs/security/jwt-rotation-policy.md`
+- **Content Security Policy (CSP) Directives** (2 connections) — `docs/security/content-security-policy.md`
+- **content-security-policy.md** (1 connections) — `docs/security/content-security-policy.md`
+- **Directives** (1 connections) — `docs/security/content-security-policy.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/security/jwt-rotation-policy.md`
+- `docs/security/content-security-policy.md`
 
 ## Audit Trail
 

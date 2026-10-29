@@ -1,41 +1,35 @@
 # Community 142
 
-> 13 nodes · cohesion 0.18
+> 14 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **wc()** (10 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
-- **co()** (8 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
-- **dh()** (6 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
-- **so()** (6 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
-- **xc()** (6 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
-- **Cc()** (5 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
-- **df()** (5 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
-- **Wd()** (5 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
-- **pf()** (4 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
-- **Sc()** (4 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
-- **da()** (3 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
-- **xi()** (3 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
-- **componentDidCatch()** (2 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
+- **real-repository-proof.test.mjs** (15 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
+- **automaticMcoRoot()** (2 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
+- **artifactPath** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
+- **cli** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
+- **connectionLabelGeometry()** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
+- **evidencePayload()** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
+- **experimentArtifactPath** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
+- **experimentSourcePath** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
+- **pinnedSource** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
+- **repoRoot** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
+- **shareCardPath** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
+- **sourcePath** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (13 shared connections)
-- [[Zoho Backend & Proxy Endpoints]] (8 shared connections)
-- [[Live Pricing Audit Tool]] (5 shared connections)
-- [[Pricing Regression Test Suite]] (5 shared connections)
-- [[Community 47]] (3 shared connections)
-- [[Community 53]] (2 shared connections)
-- [[Product Requirements Documentation]] (2 shared connections)
-- [[Roles & Customer Sharing Spec]] (1 shared connections)
+- [[Community 169]] (3 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
+- `.agents/skills/archify/test/real-repository-proof.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 67 (100%)
+- EXTRACTED: 29 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

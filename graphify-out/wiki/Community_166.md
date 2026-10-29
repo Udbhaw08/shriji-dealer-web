@@ -1,33 +1,39 @@
 # Community 166
 
-> 12 nodes · cohesion 0.17
+> 12 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **generate-codebase-doc.mjs** (11 connections) — `scripts/generate-codebase-doc.mjs`
-- **allFiles** (1 connections) — `scripts/generate-codebase-doc.mjs`
-- **apiFiles** (1 connections) — `scripts/generate-codebase-doc.mjs`
-- **components** (1 connections) — `scripts/generate-codebase-doc.mjs`
-- **dataStores** (1 connections) — `scripts/generate-codebase-doc.mjs`
-- **getFiles()** (1 connections) — `scripts/generate-codebase-doc.mjs`
-- **istDateString** (1 connections) — `scripts/generate-codebase-doc.mjs`
-- **pages** (1 connections) — `scripts/generate-codebase-doc.mjs`
-- **pkg** (1 connections) — `scripts/generate-codebase-doc.mjs`
-- **rootDir** (1 connections) — `scripts/generate-codebase-doc.mjs`
-- **routes** (1 connections) — `scripts/generate-codebase-doc.mjs`
-- **scripts** (1 connections) — `scripts/generate-codebase-doc.mjs`
+- **me()** (13 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **be()** (9 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **ml()** (9 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **P()** (7 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **pl()** (7 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **I()** (6 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **jo()** (6 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **he()** (5 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **xo()** (5 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **ue()** (3 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **ge()** (2 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **se()** (2 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Price Presentation & Product UI]] (14 shared connections)
+- [[Pricing Regression Test Suite]] (7 shared connections)
+- [[Oxlint Linter Configuration]] (7 shared connections)
+- [[Design System & UI Tokens]] (4 shared connections)
+- [[Community 85]] (2 shared connections)
+- [[Graphify Knowledge Graph Skill]] (1 shared connections)
+- [[Community 72]] (1 shared connections)
 
 ## Source Files
 
-- `scripts/generate-codebase-doc.mjs`
+- `ios/App/App/public/assets/index-Ce7xrLWR.js`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (100%)
+- EXTRACTED: 74 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,55 +1,73 @@
 # Dependencies & Package Config
 
-> 68 nodes · cohesion 0.05
+> 60 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **al()** (41 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
-- **yc()** (20 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
-- **bc()** (18 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
-- **za()** (15 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
-- **lm()** (12 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
-- **gc()** (11 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
-- **pa()** (11 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
-- **ga()** (10 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
-- **il()** (10 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
-- **nl()** (10 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
-- **Ti()** (10 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
-- **wc()** (10 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
-- **fa()** (9 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
-- **ia()** (9 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
-- **kc()** (8 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
-- **ki()** (8 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
-- **oa()** (8 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
-- **Ai()** (7 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
-- **jc()** (7 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
-- **no()** (7 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
-- **ac()** (6 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
-- **Ca()** (6 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
-- **dc()** (6 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
-- **lh()** (6 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
-- **Mi()** (6 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
-- *... and 43 more nodes in this community*
+- **main.jsx** (52 connections) — `src/main.jsx`
+- **ui.jsx** (45 connections) — `src/ui.jsx`
+- **useLanguage()** (31 connections) — `src/data/i18n.js`
+- **Home.jsx** (26 connections) — `src/pages/Home.jsx`
+- **site.js** (24 connections) — `src/data/site.js`
+- **isDealer()** (18 connections) — `src/data/dealer.js`
+- **t()** (18 connections) — `src/data/i18n.js`
+- **Schemes.jsx** (17 connections) — `src/pages/Schemes.jsx`
+- **MobileBottomNav.jsx** (16 connections) — `src/components/MobileBottomNav.jsx`
+- **COMPANY** (16 connections) — `src/data/site.js`
+- **Support.jsx** (16 connections) — `src/pages/Support.jsx`
+- **isPortalGated()** (14 connections) — `src/data/portalGate.js`
+- **dealerById()** (12 connections) — `src/data/dealer.js`
+- **useProducts()** (12 connections) — `src/data/productsStore.js`
+- **Favorites()** (9 connections) — `src/pages/Favorites.jsx`
+- **Products()** (9 connections) — `src/pages/Products.jsx`
+- **Header()** (9 connections) — `src/ui.jsx`
+- **MobileBottomNav()** (8 connections) — `src/components/MobileBottomNav.jsx`
+- **UnderMaintenance.jsx** (8 connections) — `src/components/UnderMaintenance.jsx`
+- **portalGate.js** (8 connections) — `src/data/portalGate.js`
+- **Home()** (8 connections) — `src/pages/Home.jsx`
+- **Login()** (7 connections) — `src/pages/Login.jsx`
+- **ProductSearchBar()** (6 connections) — `src/components/ProductSearchBar.jsx`
+- **Schemes()** (6 connections) — `src/pages/Schemes.jsx`
+- **AccountLink()** (6 connections) — `src/ui.jsx`
+- *... and 35 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (83 shared connections)
-- [[Zoho Integration Skill]] (33 shared connections)
-- [[Community 36]] (20 shared connections)
-- [[Design System & UI Tokens]] (16 shared connections)
-- [[Community 43]] (14 shared connections)
-- [[Community 76]] (12 shared connections)
-- [[Architecture Doc Generator]] (12 shared connections)
-- [[Community 46]] (7 shared connections)
+- [[Community 43]] (55 shared connections)
+- [[Community 46]] (40 shared connections)
+- [[Community 71]] (22 shared connections)
+- [[Community 40]] (18 shared connections)
+- [[Community 107]] (17 shared connections)
+- [[Community 31]] (3 shared connections)
+- [[Community 171]] (2 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-BGsH1ADA.js`
+- `src/components/HeroSlider.jsx`
+- `src/components/MobileBottomNav.jsx`
+- `src/components/NativeBackHandler.jsx`
+- `src/components/ProductSearchBar.jsx`
+- `src/components/UnderMaintenance.jsx`
+- `src/data/dealer.js`
+- `src/data/i18n.js`
+- `src/data/portalGate.js`
+- `src/data/productsStore.js`
+- `src/data/site.js`
+- `src/main.jsx`
+- `src/pages/DealerDashboard.jsx`
+- `src/pages/Favorites.jsx`
+- `src/pages/Home.jsx`
+- `src/pages/LegalPrivacy.jsx`
+- `src/pages/LegalTerms.jsx`
+- `src/pages/Login.jsx`
+- `src/pages/PrivacyPolicy.jsx`
+- `src/pages/Products.jsx`
+- `src/pages/Schemes.jsx`
 
 ## Audit Trail
 
-- EXTRACTED: 431 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 491 (100%)
+- INFERRED: 2 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

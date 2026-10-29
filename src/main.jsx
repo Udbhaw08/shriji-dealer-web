@@ -13,6 +13,7 @@ import Schemes from "./pages/Schemes";
 import Support from "./pages/Support";
 import Login from "./pages/Login";
 import DealerDashboard from "./pages/DealerDashboard";
+import StaffDashboard from "./pages/StaffDashboard";
 import DealerApply from "./pages/DealerApply";
 import StaffJoin from "./pages/StaffJoin";
 import DealerPending from "./pages/DealerPending";
@@ -143,6 +144,22 @@ createRoot(document.getElementById("root")).render(
             <Route path="/dealer/join" element={<StaffJoin />} />
             <Route path="/join" element={<StaffJoin />} />
             <Route path="/dealer/pending" element={<DealerPending />} />
+            <Route
+              path="/staff"
+              element={
+                <RequireVerifiedDealer>
+                  <StaffDashboard />
+                </RequireVerifiedDealer>
+              }
+            />
+            <Route
+              path="/staff/dashboard"
+              element={
+                <RequireVerifiedDealer>
+                  <StaffDashboard />
+                </RequireVerifiedDealer>
+              }
+            />
             <Route
               path="/dealer"
               element={

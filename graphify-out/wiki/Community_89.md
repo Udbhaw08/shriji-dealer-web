@@ -1,50 +1,48 @@
 # Community 89
 
-> 19 nodes · cohesion 0.15
+> 19 nodes · cohesion 0.28
 
 ## Key Concepts
 
-- **securityPhase1.test.mjs** (16 connections) — `backend/test/securityPhase1.test.mjs`
-- **uploads.js** (8 connections) — `backend/src/routes/uploads.js`
-- **download.js** (6 connections) — `api/download.js`
-- **handler()** (5 connections) — `api/download.js`
-- **ssrf.js** (5 connections) — `api/_lib/ssrf.js`
-- **validateSafeDownloadUrl()** (5 connections) — `api/_lib/ssrf.js`
-- **contentRouter** (4 connections) — `backend/src/routes/content.js`
-- **uploadsRouter** (4 connections) — `backend/src/routes/uploads.js`
-- **safeFetchWithRedirects()** (3 connections) — `api/download.js`
-- **isPrivateOrReservedIp()** (3 connections) — `api/_lib/ssrf.js`
-- **wrapJpegInPdf()** (2 connections) — `api/download.js`
-- **ALLOWED_REMOTE_HOSTS** (1 connections) — `api/_lib/ssrf.js`
-- **ALLOWED_FOLDERS** (1 connections) — `backend/src/routes/uploads.js`
-- **MIME_TYPES** (1 connections) — `backend/src/routes/uploads.js`
-- **json()** (1 connections) — `backend/test/securityPhase1.test.mjs`
-- **sendFile()** (1 connections) — `backend/test/securityPhase1.test.mjs`
-- **setHeader()** (1 connections) — `backend/test/securityPhase1.test.mjs`
-- **status()** (1 connections) — `backend/test/securityPhase1.test.mjs`
-- **validateMagicBytes()** (1 connections) — `backend/test/securityPhase1.test.mjs`
+- **content.js** (19 connections) — `backend/src/services/content.js`
+- **content.js** (16 connections) — `backend/src/routes/content.js`
+- **content.js** (14 connections) — `api/content.js`
+- **handler()** (11 connections) — `api/content.js`
+- **getSupabaseBanners()** (9 connections) — `backend/src/services/content.js`
+- **getSupabaseSchemes()** (8 connections) — `backend/src/services/content.js`
+- **getSupabaseBranding()** (7 connections) — `backend/src/services/content.js`
+- **getActiveContent()** (6 connections) — `backend/src/services/content.js`
+- **getHeroSliderSettings()** (6 connections) — `backend/src/services/content.js`
+- **saveHeroSliderSettings()** (5 connections) — `backend/src/services/content.js`
+- **deleteStoreContent()** (4 connections) — `backend/src/services/content.js`
+- **getAllStoreContent()** (4 connections) — `backend/src/services/content.js`
+- **toggleStoreContentActive()** (4 connections) — `backend/src/services/content.js`
+- **upsertStoreContent()** (4 connections) — `backend/src/services/content.js`
+- **fetchZohoBanners()** (3 connections) — `api/_lib/zoho.js`
+- **fetchZohoSchemes()** (3 connections) — `api/_lib/zoho.js`
+- **ALLOWED_CONTENT_TYPES** (1 connections) — `api/content.js`
+- **ALLOWED_CONTENT_TYPES** (1 connections) — `backend/src/routes/content.js`
+- **formatGoogleDriveUrl()** (1 connections) — `backend/src/services/content.js`
 
 ## Relationships
 
-- [[Product Brand & Business Vision]] (6 shared connections)
-- [[Community 189]] (3 shared connections)
-- [[Community 94]] (3 shared connections)
-- [[Community 88]] (2 shared connections)
-- [[Community 188]] (2 shared connections)
-- [[Graphify Agent Rules]] (1 shared connections)
+- [[Zoho Integration Skill]] (11 shared connections)
+- [[Community 154]] (8 shared connections)
+- [[Community 50]] (6 shared connections)
+- [[Architecture Doc Generator]] (3 shared connections)
+- [[Community 48]] (2 shared connections)
 
 ## Source Files
 
-- `api/_lib/ssrf.js`
-- `api/download.js`
+- `api/_lib/zoho.js`
+- `api/content.js`
 - `backend/src/routes/content.js`
-- `backend/src/routes/uploads.js`
-- `backend/test/securityPhase1.test.mjs`
+- `backend/src/services/content.js`
 
 ## Audit Trail
 
-- EXTRACTED: 69 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 122 (97%)
+- INFERRED: 4 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

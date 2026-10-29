@@ -1,54 +1,60 @@
 # Community 43
 
-> 33 nodes · cohesion 0.11
+> 35 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **Or()** (25 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
-- **gf()** (20 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
-- **r()** (13 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
-- **Ar()** (9 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
-- **ri()** (9 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
-- **qr()** (7 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
-- **Fr()** (6 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
-- **mr()** (6 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
-- **qc()** (6 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
-- **xr()** (6 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
-- **gr()** (5 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
-- **Ir()** (5 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
-- **jr()** (5 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
-- **Oi()** (5 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
-- **pr()** (5 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
-- **qf()** (5 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
-- **ur()** (5 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
-- **wr()** (5 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
-- **xn()** (5 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
-- **zr()** (5 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
-- **br()** (4 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
-- **Lr()** (4 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
-- **pc()** (4 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
-- **Rr()** (4 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
-- **Tr()** (4 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
-- *... and 8 more nodes in this community*
+- **Product.jsx** (38 connections) — `src/pages/Product.jsx`
+- **dealer.js** (29 connections) — `src/data/dealer.js`
+- **Favorites.jsx** (20 connections) — `src/pages/Favorites.jsx`
+- **ProductCard.jsx** (19 connections) — `src/components/ProductCard.jsx`
+- **dealer.test.mjs** (18 connections) — `src/data/dealer.test.mjs`
+- **PriceBlock.jsx** (15 connections) — `src/components/PriceBlock.jsx`
+- **ProductCard()** (15 connections) — `src/components/ProductCard.jsx`
+- **useFavorites()** (15 connections) — `src/data/favoritesStore.js`
+- **Product()** (15 connections) — `src/pages/Product.jsx`
+- **priceFor()** (14 connections) — `src/data/dealer.js`
+- **inr()** (12 connections) — `src/data/dealer.js`
+- **viewerFor()** (8 connections) — `src/data/dealer.js`
+- **CustomerPrice()** (7 connections) — `src/components/PriceBlock.jsx`
+- **productSlug()** (7 connections) — `src/data/dealer.js`
+- **registerDealer()** (7 connections) — `src/data/dealer.js`
+- **shareLink()** (7 connections) — `src/data/dealer.js`
+- **tagFor()** (6 connections) — `src/data/dealer.js`
+- **DealerPrice()** (5 connections) — `src/components/PriceBlock.jsx`
+- **formatWhatsAppPhone()** (4 connections) — `src/data/dealer.js`
+- **slugifyProduct()** (4 connections) — `src/data/dealer.js`
+- **tierOf()** (4 connections) — `src/data/dealer.js`
+- **DEALERS** (3 connections) — `src/data/dealer.js`
+- **isFavorite()** (3 connections) — `src/data/favoritesStore.js`
+- **PriceBlock()** (2 connections) — `src/components/PriceBlock.jsx`
+- **price99()** (2 connections) — `src/data/dealer.js`
+- *... and 10 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (36 shared connections)
-- [[Dependencies & Package Config]] (14 shared connections)
-- [[Zoho Integration Skill]] (7 shared connections)
-- [[Design System & UI Tokens]] (6 shared connections)
-- [[Community 46]] (6 shared connections)
-- [[Community 36]] (4 shared connections)
-- [[Architecture Doc Generator]] (3 shared connections)
-- [[Community 76]] (1 shared connections)
+- [[Dependencies & Package Config]] (55 shared connections)
+- [[Community 40]] (15 shared connections)
+- [[Community 71]] (13 shared connections)
+- [[Community 46]] (9 shared connections)
+- [[Community 107]] (6 shared connections)
+- [[Community 171]] (5 shared connections)
+- [[Community 108]] (3 shared connections)
+- [[Community 31]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-BGsH1ADA.js`
+- `src/components/PriceBlock.jsx`
+- `src/components/ProductCard.jsx`
+- `src/data/dealer.js`
+- `src/data/dealer.test.mjs`
+- `src/data/favoritesStore.js`
+- `src/pages/Favorites.jsx`
+- `src/pages/Product.jsx`
 
 ## Audit Trail
 
-- EXTRACTED: 197 (100%)
+- EXTRACTED: 289 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

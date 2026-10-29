@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **urlUtils.js** (1 connections) — `src/utils/urlUtils.js`
-- **buildUrlWithQuery()** (1 connections) — `src/utils/urlUtils.js`
+- **slugify.js** (1 connections) — `backend/src/utils/slugify.js`
+- **slugify()** (1 connections) — `backend/src/utils/slugify.js`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `src/utils/urlUtils.js`
+- `backend/src/utils/slugify.js`
 
 ## Audit Trail
 

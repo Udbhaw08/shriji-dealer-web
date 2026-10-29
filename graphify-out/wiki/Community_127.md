@@ -1,35 +1,39 @@
 # Community 127
 
-> 14 nodes · cohesion 0.23
+> 15 nodes · cohesion 0.30
 
 ## Key Concepts
 
-- **web-tnjiZWNX.js** (13 connections) — `android/app/src/main/assets/public/assets/web-tnjiZWNX.js`
-- **applyPrefix()** (4 connections) — `android/app/src/main/assets/public/assets/web-tnjiZWNX.js`
-- **keys()** (4 connections) — `android/app/src/main/assets/public/assets/web-tnjiZWNX.js`
-- **get()** (3 connections) — `android/app/src/main/assets/public/assets/web-tnjiZWNX.js`
-- **migrate()** (3 connections) — `android/app/src/main/assets/public/assets/web-tnjiZWNX.js`
-- **rawKeys()** (3 connections) — `android/app/src/main/assets/public/assets/web-tnjiZWNX.js`
-- **clear()** (2 connections) — `android/app/src/main/assets/public/assets/web-tnjiZWNX.js`
-- **remove()** (2 connections) — `android/app/src/main/assets/public/assets/web-tnjiZWNX.js`
-- **removeOld()** (2 connections) — `android/app/src/main/assets/public/assets/web-tnjiZWNX.js`
-- **set()** (2 connections) — `android/app/src/main/assets/public/assets/web-tnjiZWNX.js`
-- **configure()** (1 connections) — `android/app/src/main/assets/public/assets/web-tnjiZWNX.js`
-- **constructor()** (1 connections) — `android/app/src/main/assets/public/assets/web-tnjiZWNX.js`
-- **impl()** (1 connections) — `android/app/src/main/assets/public/assets/web-tnjiZWNX.js`
-- **prefix()** (1 connections) — `android/app/src/main/assets/public/assets/web-tnjiZWNX.js`
+- **crmClient.js** (35 connections) — `backend/src/services/crmClient.js`
+- **crmFetch()** (14 connections) — `backend/src/services/crmClient.js`
+- **crmConfigured()** (8 connections) — `backend/src/services/crmClient.js`
+- **findOwnerContactInAccount()** (5 connections) — `backend/src/services/crmClient.js`
+- **updateContactDetails()** (5 connections) — `backend/src/services/crmClient.js`
+- **updateDealerCodeInCrm()** (5 connections) — `backend/src/services/crmClient.js`
+- **deactivateAccountInCrm()** (3 connections) — `backend/src/services/crmClient.js`
+- **deactivateContactInCrm()** (3 connections) — `backend/src/services/crmClient.js`
+- **getDealerAccount()** (3 connections) — `backend/src/services/crmClient.js`
+- **isCrmConfigured()** (3 connections) — `backend/src/services/crmClient.js`
+- **getAccessToken()** (2 connections) — `backend/src/services/crmClient.js`
+- **getDealerContact()** (2 connections) — `backend/src/services/crmClient.js`
+- **getPrimaryContactForAccount()** (2 connections) — `backend/src/services/crmClient.js`
+- **linkContactToBackendUser()** (2 connections) — `backend/src/services/crmClient.js`
+- **FIELDS** (1 connections) — `backend/src/services/crmClient.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 29]] (18 shared connections)
+- [[Architecture Doc Generator]] (8 shared connections)
+- [[Zoho Integration Skill]] (4 shared connections)
+- [[Community 325]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/web-tnjiZWNX.js`
+- `backend/src/services/crmClient.js`
 
 ## Audit Trail
 
-- EXTRACTED: 42 (100%)
+- EXTRACTED: 93 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

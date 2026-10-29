@@ -12,6 +12,7 @@ import ProductSearchBar from "../components/ProductSearchBar";
 import { useFavorites } from "../data/favoritesStore";
 import { isPortalGated } from "../data/portalGate";
 import { apiFetch } from "../data/api";
+import { getAccessToken } from "../data/auth";
 import { parseVideoUrl } from "../utils/video";
 
 
@@ -45,7 +46,9 @@ export default function Product() {
     if (lookupKey) {
       const targetPb = canSeePrice ? (session?.dealer?.pricebookId || session?.dealer?.price_tier || "") : "";
       const pbParam = targetPb ? `?pricebook_id=${encodeURIComponent(targetPb)}` : "";
-      apiFetch(`/api/products/${encodeURIComponent(lookupKey)}${pbParam}`)
+      const token = typeof getAccessToken === "function" ? getAccessToken() : null;
+      const headers = token ? { Authorization: `Bearer ${token}` } : {};
+      apiFetch(`/api/products/${encodeURIComponent(lookupKey)}${pbParam}`, { headers })
         .then((r) => r.json())
         .then((data) => {
           if (data.ok && data.product) setFetchedProduct(data.product);
@@ -55,19 +58,23 @@ export default function Product() {
   }, [id, pid, session?.dealer?.pricebookId, session?.dealer?.price_tier, canSeePrice]);
 
   const p = useMemo(() => {
-    let base = fetchedProduct;
-    if (!base && pid) {
-      base = PRODUCTS.find((x) => x.id === pid);
-    }
-    if (!base) {
-      base = PRODUCTS.find(
-        (x) =>
-          x.id === id ||
-          x.slug === id ||
-          slugifyProduct(x.name) === id ||
-          slugifyProduct(x.model) === id
-      ) || null;
-    }
+    const catalogItem = pid
+      ? PRODUCTS.find((x) => x.id === pid)
+      : PRODUCTS.find(
+          (x) =>
+            x.id === id ||
+            x.slug === id ||
+            slugifyProduct(x.name) === id ||
+            slugifyProduct(x.model) === id
+        );
+
+    let base = fetchedProduct
+      ? {
+          ...fetchedProduct,
+          dealerRate: fetchedProduct.dealerRate ?? catalogItem?.dealerRate ?? null,
+        }
+      : catalogItem || null;
+
     if (base && !canSeePrice && base.dealerRate) {
       return { ...base, dealerRate: null };
     }

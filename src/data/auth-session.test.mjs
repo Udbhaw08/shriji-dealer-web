@@ -136,6 +136,46 @@ test("sessionFromAuth preserves verified dealer credentials across login session
   assert.equal(session.canSeeDealerPrice, true);
 });
 
+test("sessionFromAuth constructs accurate staff session with dealer details", () => {
+  const staffUser = {
+    id: "usr-staff-777",
+    email: "staff@dealership.com",
+    role: "dealer_staff",
+    status: "active",
+    email_verified: true,
+    phone: "9876543210",
+    phone_verified: true,
+    full_name: "Rahul Verma",
+    dealer_id: "dlr-1234",
+    can_see_dealer_price: true,
+  };
+
+  const dealerRecord = {
+    id: "dlr-1234",
+    business_name: "Sunshine Hub Delhi",
+    dealer_code: "DE-DL-001",
+    city: "Delhi",
+    state: "Delhi",
+    phone: "9811122233",
+    status: "approved",
+    price_tier: "MH Dist Basic Oct 2026",
+    pricebook_id: "pb-3334",
+    gst_number: "27AJHPJ2192C1ZF",
+  };
+
+  const session = sessionFromAuth(staffUser, dealerRecord);
+  assert.equal(session.role, "dealer", "Must be on dealer side");
+  assert.equal(session.authRole, "dealer_staff", "authRole must be dealer_staff");
+  assert.equal(session.fullName, "Rahul Verma");
+  assert.equal(session.phone, "9876543210");
+  assert.equal(session.dealerId, "dlr-1234");
+  assert.equal(session.dealer?.name, "Sunshine Hub Delhi");
+  assert.equal(session.dealer?.dealer_code, "DE-DL-001");
+  assert.equal(session.dealer?.city, "Delhi");
+  assert.equal(session.dealer?.gst_number, "27AJHPJ2192C1ZF");
+  assert.equal(session.canSeeDealerPrice, true);
+});
+
 test("Client-side validation rules for login and signup", () => {
   // Valid email
   assert.equal(isValidEmail("user@example.com"), true);

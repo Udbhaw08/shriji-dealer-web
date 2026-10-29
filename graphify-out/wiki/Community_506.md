@@ -1,11 +1,12 @@
 # Community 506
 
-> 2 nodes · cohesion 1.00
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **esm-B4XeopQc.js** (1 connections) — `android/app/src/main/assets/public/assets/esm-B4XeopQc.js`
-- **__vite__mapDeps()** (1 connections) — `android/app/src/main/assets/public/assets/esm-B4XeopQc.js`
+- **stringUtils.js** (2 connections) — `src/utils/stringUtils.js`
+- **titleCase()** (1 connections) — `src/utils/stringUtils.js`
+- **truncate()** (1 connections) — `src/utils/stringUtils.js`
 
 ## Relationships
 
@@ -13,11 +14,11 @@
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/esm-B4XeopQc.js`
+- `src/utils/stringUtils.js`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

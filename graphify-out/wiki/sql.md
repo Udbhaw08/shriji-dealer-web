@@ -2,7 +2,7 @@
 
 > God node · 79 connections · `backend/src/db/pool.js`
 
-**Community:** [[Graphify Agent Rules]]
+**Community:** [[Zoho Integration Skill]]
 
 ## Connections by Relation
 

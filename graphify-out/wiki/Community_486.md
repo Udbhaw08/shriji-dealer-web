@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **Content Security Policy (CSP) Directives** (2 connections) — `docs/security/content-security-policy.md`
-- **content-security-policy.md** (1 connections) — `docs/security/content-security-policy.md`
-- **Directives** (1 connections) — `docs/security/content-security-policy.md`
+- **check-env.mjs** (2 connections) — `scripts/check-env.mjs`
+- **missing** (1 connections) — `scripts/check-env.mjs`
+- **requiredEnv** (1 connections) — `scripts/check-env.mjs`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/security/content-security-policy.md`
+- `scripts/check-env.mjs`
 
 ## Audit Trail
 

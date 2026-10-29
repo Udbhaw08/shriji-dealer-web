@@ -22,7 +22,7 @@
 
 ## Relationships
 
-- [[Community 87]] (1 shared connections)
+- [[Community 88]] (1 shared connections)
 
 ## Source Files
 

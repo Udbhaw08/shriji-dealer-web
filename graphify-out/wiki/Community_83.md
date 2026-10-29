@@ -28,8 +28,8 @@
 ## Relationships
 
 - [[Community 59]] (20 shared connections)
-- [[Community 299]] (2 shared connections)
-- [[Pricing & Roles Skill]] (2 shared connections)
+- [[Community 301]] (2 shared connections)
+- [[Mobile Responsive UI Skill]] (2 shared connections)
 
 ## Source Files
 

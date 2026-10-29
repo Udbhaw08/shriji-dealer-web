@@ -20,8 +20,8 @@
 
 ## Relationships
 
-- [[Community 94]] (2 shared connections)
-- [[Oxlint Linter Configuration]] (1 shared connections)
+- [[Community 123]] (2 shared connections)
+- [[Community 48]] (1 shared connections)
 
 ## Source Files
 

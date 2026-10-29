@@ -1,54 +1,55 @@
 # Design System & UI Tokens
 
-> 64 nodes · cohesion 0.06
+> 57 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **D()** (22 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
-- **.addEventListener()** (19 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
-- **np()** (19 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
-- **b()** (17 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
-- **fp()** (13 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
-- **h()** (13 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
-- **.removeEventListener()** (12 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
-- **am()** (10 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
-- **ep()** (10 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
-- **vn()** (10 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
-- **ip()** (9 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
-- **mm()** (9 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
-- **tp()** (9 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
-- **fn()** (7 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
-- **jm()** (7 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
-- **ln()** (7 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
-- **lp()** (7 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
-- **om()** (7 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
-- **tn()** (7 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
-- **zm()** (7 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
-- **cm()** (6 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
-- **em()** (6 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
-- **.blur()** (6 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
-- **mo()** (6 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
-- **tm()** (6 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
-- *... and 39 more nodes in this community*
+- **get()** (27 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **D()** (22 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **np()** (20 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **.addEventListener()** (19 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **b()** (17 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **fp()** (14 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **h()** (13 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **jt()** (13 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **lm()** (13 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **Ba()** (12 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **bm()** (12 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **.removeEventListener()** (12 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **am()** (10 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **ip()** (9 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **mm()** (9 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **tp()** (8 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **jm()** (7 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **lp()** (7 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **mo()** (7 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **om()** (7 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **tm()** (7 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **un()** (7 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **zm()** (7 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **cm()** (6 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **em()** (6 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- *... and 32 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (71 shared connections)
-- [[Architecture Doc Generator]] (22 shared connections)
-- [[Dependencies & Package Config]] (16 shared connections)
-- [[Community 36]] (15 shared connections)
-- [[Community 76]] (8 shared connections)
-- [[Zoho Integration Skill]] (6 shared connections)
-- [[Community 43]] (6 shared connections)
-- [[Community 46]] (3 shared connections)
+- [[Price Presentation & Product UI]] (57 shared connections)
+- [[Graphify Knowledge Graph Skill]] (21 shared connections)
+- [[Pricing Regression Test Suite]] (20 shared connections)
+- [[Oxlint Linter Configuration]] (17 shared connections)
+- [[Zoho Integration Architecture]] (12 shared connections)
+- [[Community 72]] (11 shared connections)
+- [[Zoho API Diagnostic Script]] (10 shared connections)
+- [[Community 166]] (4 shared connections)
+- [[Community 85]] (4 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-BGsH1ADA.js`
+- `ios/App/App/public/assets/index-Ce7xrLWR.js`
 
 ## Audit Trail
 
-- EXTRACTED: 391 (100%)
+- EXTRACTED: 414 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

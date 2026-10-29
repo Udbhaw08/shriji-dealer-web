@@ -1,53 +1,55 @@
 # Oxlint Linter Configuration
 
-> 46 nodes · cohesion 0.08
+> 49 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **zoho.js** (59 connections) — `api/_lib/zoho.js`
-- **fetchZohoProductById()** (18 connections) — `api/_lib/zoho.js`
-- **getZohoConfig()** (10 connections) — `api/_lib/zoho.js`
-- **createDealerContact()** (9 connections) — `api/_lib/zoho.js`
-- **fetchZohoWithRetry()** (9 connections) — `api/_lib/zoho.js`
-- **fetchZohoPricebookItems()** (6 connections) — `api/_lib/zoho.js`
-- **getAccessToken()** (6 connections) — `api/_lib/zoho.js`
-- **normalizeProduct()** (6 connections) — `api/_lib/zoho.js`
-- **resolvePricebookId()** (5 connections) — `api/_lib/zoho.js`
-- **fetchZohoPricebooks()** (4 connections) — `api/_lib/zoho.js`
-- **fetchZohoRawCategories()** (4 connections) — `api/_lib/zoho.js`
-- **getDealerById()** (4 connections) — `api/_lib/zoho.js`
-- **loadEnv()** (4 connections) — `api/_lib/zoho.js`
-- **updateCachedProductTags()** (4 connections) — `api/_lib/zoho.js`
-- **test-zoho-api.mjs** (4 connections) — `scripts/test-zoho-api.mjs`
-- **apply.js** (3 connections) — `api/dealer/apply.js`
-- **getCachedProductTags()** (3 connections) — `api/_lib/zoho.js`
-- **isItemOnline()** (3 connections) — `api/_lib/zoho.js`
-- **readProductDetailsDiskCache()** (3 connections) — `api/_lib/zoho.js`
-- **writeProductDetailDiskCache()** (3 connections) — `api/_lib/zoho.js`
-- **handler()** (2 connections) — `api/dealer/apply.js`
-- **isItemCategoryOnline()** (2 connections) — `api/_lib/zoho.js`
-- **parseRate()** (2 connections) — `api/_lib/zoho.js`
-- **readDiskCache()** (2 connections) — `api/_lib/zoho.js`
-- **slugifyCategory()** (2 connections) — `api/_lib/zoho.js`
-- *... and 21 more nodes in this community*
+- **al()** (41 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **fl()** (23 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **U()** (19 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **bc()** (18 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **ia()** (14 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **ga()** (12 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **sa()** (12 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **il()** (11 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **ta()** (9 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **aa()** (8 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **Do()** (8 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **na()** (8 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **jc()** (7 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **no()** (7 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **dc()** (6 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **lh()** (6 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **ra()** (6 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **xe()** (6 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **ao()** (5 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **Ca()** (5 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **po()** (5 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **ua()** (5 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **va()** (5 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **wo()** (5 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- **bo()** (4 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- *... and 24 more nodes in this community*
 
 ## Relationships
 
-- [[Community 94]] (17 shared connections)
-- [[Community 189]] (9 shared connections)
-- [[Community 410]] (5 shared connections)
-- [[Community 88]] (2 shared connections)
-- [[Community 149]] (1 shared connections)
+- [[Price Presentation & Product UI]] (57 shared connections)
+- [[Zoho API Diagnostic Script]] (19 shared connections)
+- [[Design System & UI Tokens]] (17 shared connections)
+- [[Pricing Regression Test Suite]] (16 shared connections)
+- [[Graphify Knowledge Graph Skill]] (15 shared connections)
+- [[Community 85]] (11 shared connections)
+- [[Zoho Integration Architecture]] (10 shared connections)
+- [[Community 166]] (7 shared connections)
+- [[Community 72]] (5 shared connections)
 
 ## Source Files
 
-- `api/_lib/zoho.js`
-- `api/dealer/apply.js`
-- `scripts/test-zoho-api.mjs`
+- `ios/App/App/public/assets/index-Ce7xrLWR.js`
 
 ## Audit Trail
 
-- EXTRACTED: 200 (100%)
+- EXTRACTED: 329 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

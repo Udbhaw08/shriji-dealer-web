@@ -33,18 +33,18 @@
 
 ## Relationships
 
-- [[Pricing & Roles Skill]] (11 shared connections)
-- [[Community 39]] (10 shared connections)
-- [[Community 38]] (9 shared connections)
-- [[Community 81]] (8 shared connections)
-- [[Product Pages Specification]] (8 shared connections)
-- [[Community 108]] (7 shared connections)
-- [[Vercel Deployment Routing]] (6 shared connections)
-- [[Community 167]] (6 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (5 shared connections)
-- [[Community 106]] (4 shared connections)
-- [[Community 133]] (4 shared connections)
-- [[Community 211]] (3 shared connections)
+- [[Mobile Responsive UI Skill]] (11 shared connections)
+- [[Community 42]] (10 shared connections)
+- [[Community 39]] (9 shared connections)
+- [[Community 80]] (8 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (8 shared connections)
+- [[Community 106]] (7 shared connections)
+- [[Graphify Agent Rules]] (6 shared connections)
+- [[Community 169]] (6 shared connections)
+- [[Roles & Customer Sharing Spec]] (5 shared connections)
+- [[Community 104]] (4 shared connections)
+- [[Community 135]] (4 shared connections)
+- [[Community 210]] (3 shared connections)
 
 ## Source Files
 

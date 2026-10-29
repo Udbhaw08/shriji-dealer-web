@@ -28,6 +28,19 @@ export async function apiFetch(path, options = {}) {
     }
   }
 
+  // Automatically attach Authorization header if not already set and token exists in storage
+  if (!headers["Authorization"] && !headers["authorization"] && typeof window !== "undefined") {
+    try {
+      const raw = localStorage.getItem("shriji.auth.tokens") || sessionStorage.getItem("shriji.auth.tokens");
+      if (raw) {
+        const saved = JSON.parse(raw);
+        if (saved?.accessToken) {
+          headers["Authorization"] = `Bearer ${saved.accessToken}`;
+        }
+      }
+    } catch {}
+  }
+
   if (Capacitor.isNativePlatform()) {
     try {
       let data = undefined;
