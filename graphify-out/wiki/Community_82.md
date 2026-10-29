@@ -1,54 +1,50 @@
 # Community 82
 
-> 20 nodes · cohesion 0.12
+> 20 nodes · cohesion 0.26
 
 ## Key Concepts
 
-- **ChromeVisualBrowser** (21 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **visual-check.test.mjs** (14 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
-- **PipeCdp** (7 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **.attach()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **.close()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **.constructor()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **chromeVisualBrowserArgs()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **.failAll()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **.consume()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **VISUAL_CHECK_VIEWPORTS** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **.constructor()** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **.failure()** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **artifact()** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
-- **fakeBrowser()** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
-- **fakeChromeChild()** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
-- **png** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
-- **sha256()** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
+- **content.js** (19 connections) — `backend/src/services/content.js`
+- **content.js** (16 connections) — `backend/src/routes/content.js`
+- **content.js** (14 connections) — `api/content.js`
+- **handler()** (11 connections) — `api/content.js`
+- **getSupabaseBanners()** (9 connections) — `backend/src/services/content.js`
+- **getSupabaseSchemes()** (8 connections) — `backend/src/services/content.js`
+- **getSupabaseBranding()** (7 connections) — `backend/src/services/content.js`
+- **getActiveContent()** (6 connections) — `backend/src/services/content.js`
+- **getHeroSliderSettings()** (6 connections) — `backend/src/services/content.js`
+- **saveHeroSliderSettings()** (5 connections) — `backend/src/services/content.js`
+- **deleteStoreContent()** (4 connections) — `backend/src/services/content.js`
+- **getAllStoreContent()** (4 connections) — `backend/src/services/content.js`
+- **toggleStoreContentActive()** (4 connections) — `backend/src/services/content.js`
+- **upsertStoreContent()** (4 connections) — `backend/src/services/content.js`
+- **fetchZohoBanners()** (3 connections) — `api/_lib/zoho.js`
+- **fetchZohoSchemes()** (3 connections) — `api/_lib/zoho.js`
+- **loadContentService()** (2 connections) — `vite.config.js`
+- **ALLOWED_CONTENT_TYPES** (1 connections) — `api/content.js`
+- **ALLOWED_CONTENT_TYPES** (1 connections) — `backend/src/routes/content.js`
+- **formatGoogleDriveUrl()** (1 connections) — `backend/src/services/content.js`
 
 ## Relationships
 
-- [[Community 49]] (8 shared connections)
-- [[Community 54]] (7 shared connections)
-- [[Community 130]] (2 shared connections)
-- [[Community 91]] (2 shared connections)
-- [[Community 62]] (1 shared connections)
-- [[Community 128]] (1 shared connections)
-- [[Community 35]] (1 shared connections)
-- [[Community 186]] (1 shared connections)
-- [[Community 250]] (1 shared connections)
-- [[Community 152]] (1 shared connections)
-- [[Community 211]] (1 shared connections)
-- [[Community 105]] (1 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (11 shared connections)
+- [[Community 171]] (8 shared connections)
+- [[Community 51]] (6 shared connections)
+- [[Live Pricing Audit Tool]] (3 shared connections)
+- [[Community 45]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/bin/visual-check.mjs`
-- `.agents/skills/archify/test/visual-check.test.mjs`
+- `api/_lib/zoho.js`
+- `api/content.js`
+- `backend/src/routes/content.js`
+- `backend/src/services/content.js`
+- `vite.config.js`
 
 ## Audit Trail
 
-- EXTRACTED: 71 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 124 (97%)
+- INFERRED: 4 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

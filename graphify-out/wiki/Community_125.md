@@ -1,36 +1,43 @@
 # Community 125
 
-> 15 nodes · cohesion 0.13
+> 15 nodes · cohesion 0.21
 
 ## Key Concepts
 
-- **repository** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **properties** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **revision** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **url** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **link_mode** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **provider** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **enum** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **enum** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **required** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **pattern** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **minLength** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **Ti()** (13 connections) — `ios/App/App/public/assets/index-C82WY9Ju.js`
+- **gc()** (11 connections) — `ios/App/App/public/assets/index-C82WY9Ju.js`
+- **Ei()** (8 connections) — `ios/App/App/public/assets/index-C82WY9Ju.js`
+- **kc()** (8 connections) — `ios/App/App/public/assets/index-C82WY9Ju.js`
+- **ki()** (7 connections) — `ios/App/App/public/assets/index-C82WY9Ju.js`
+- **qc()** (6 connections) — `ios/App/App/public/assets/index-C82WY9Ju.js`
+- **Ai()** (5 connections) — `ios/App/App/public/assets/index-C82WY9Ju.js`
+- **Mi()** (5 connections) — `ios/App/App/public/assets/index-C82WY9Ju.js`
+- **qm()** (5 connections) — `ios/App/App/public/assets/index-C82WY9Ju.js`
+- **di()** (4 connections) — `ios/App/App/public/assets/index-C82WY9Ju.js`
+- **La()** (4 connections) — `ios/App/App/public/assets/index-C82WY9Ju.js`
+- **Pi()** (4 connections) — `ios/App/App/public/assets/index-C82WY9Ju.js`
+- **Uc()** (4 connections) — `ios/App/App/public/assets/index-C82WY9Ju.js`
+- **za()** (4 connections) — `ios/App/App/public/assets/index-C82WY9Ju.js`
+- **Ni()** (2 connections) — `ios/App/App/public/assets/index-C82WY9Ju.js`
 
 ## Relationships
 
-- [[Community 88]] (1 shared connections)
+- [[Dealer Auth & Session Management]] (17 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (13 shared connections)
+- [[Community 33]] (5 shared connections)
+- [[Testing & Workflow Skill]] (4 shared connections)
+- [[Product Requirements Documentation]] (3 shared connections)
+- [[Community 101]] (2 shared connections)
+- [[Community 40]] (1 shared connections)
+- [[Community 38]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/architecture.schema.json`
+- `ios/App/App/public/assets/index-C82WY9Ju.js`
 
 ## Audit Trail
 
-- EXTRACTED: 29 (100%)
+- EXTRACTED: 90 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -441,6 +441,111 @@ export default function DealerPending() {
               </div>
             )}
 
+            {/* Contact Verification Status Card */}
+            <div style={{
+              background: "#ffffff",
+              border: "1px solid var(--border, #e2e8f0)",
+              borderRadius: 12,
+              padding: "16px",
+              marginBottom: 20,
+              textAlign: "left",
+            }}>
+              <div style={{
+                fontSize: ".88rem",
+                fontWeight: 700,
+                color: "#0f172a",
+                marginBottom: 10,
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "space-between",
+              }}>
+                <span>Contact Verification</span>
+                <span style={{ fontSize: ".76rem", fontWeight: 600, color: "#64748b" }}>Required for Zoho CRM Sync</span>
+              </div>
+
+              <div style={{ display: "grid", gap: 10 }}>
+                {/* Email verification row */}
+                <div style={{
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "space-between",
+                  padding: "10px 12px",
+                  background: session?.email_verified ? "#f0fdf4" : "#fefce8",
+                  border: `1px solid ${session?.email_verified ? "#bbf7d0" : "#fef08a"}`,
+                  borderRadius: 8,
+                  fontSize: ".86rem",
+                }}>
+                  <div>
+                    <div style={{ fontWeight: 600, color: "#1e293b" }}>Email: {session?.email || "Not provided"}</div>
+                    <div style={{ fontSize: ".76rem", color: session?.email_verified ? "#166534" : "#854d0e" }}>
+                      {session?.email_verified ? "✓ Verified" : "Verification pending"}
+                    </div>
+                  </div>
+                  {session?.email_verified ? (
+                    <span style={{ color: "#16a34a", fontWeight: 700, fontSize: ".9rem" }}>✓ Verified</span>
+                  ) : (
+                    <button
+                      type="button"
+                      onClick={() => window.dispatchEvent(new CustomEvent("open-email-verification"))}
+                      style={{
+                        padding: "6px 12px",
+                        fontSize: ".8rem",
+                        fontWeight: 700,
+                        borderRadius: 6,
+                        background: "#eab308",
+                        color: "#ffffff",
+                        border: "none",
+                        cursor: "pointer",
+                      }}
+                    >
+                      Verify Email
+                    </button>
+                  )}
+                </div>
+
+                {/* Mobile Phone verification row */}
+                <div style={{
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "space-between",
+                  padding: "10px 12px",
+                  background: session?.phone_verified ? "#f0fdf4" : "#fefce8",
+                  border: `1px solid ${session?.phone_verified ? "#bbf7d0" : "#fef08a"}`,
+                  borderRadius: 8,
+                  fontSize: ".86rem",
+                }}>
+                  <div>
+                    <div style={{ fontWeight: 600, color: "#1e293b" }}>
+                      Mobile: {session?.phone ? `+91 ${session.phone}` : "Not provided"}
+                    </div>
+                    <div style={{ fontSize: ".76rem", color: session?.phone_verified ? "#166534" : "#854d0e" }}>
+                      {session?.phone_verified ? "✓ Verified via WhatsApp OTP" : "WhatsApp OTP verification pending"}
+                    </div>
+                  </div>
+                  {session?.phone_verified ? (
+                    <span style={{ color: "#16a34a", fontWeight: 700, fontSize: ".9rem" }}>✓ Verified</span>
+                  ) : (
+                    <button
+                      type="button"
+                      onClick={() => window.dispatchEvent(new CustomEvent("open-phone-verification"))}
+                      style={{
+                        padding: "6px 12px",
+                        fontSize: ".8rem",
+                        fontWeight: 700,
+                        borderRadius: 6,
+                        background: "#25D366",
+                        color: "#ffffff",
+                        border: "none",
+                        cursor: "pointer",
+                      }}
+                    >
+                      Verify Mobile
+                    </button>
+                  )}
+                </div>
+              </div>
+            </div>
+
             {refreshMessage && (
               <div style={{
                 padding: "10px 14px",

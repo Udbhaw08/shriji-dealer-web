@@ -66,6 +66,10 @@ export default function Login() {
   const [showPassword, setShowPassword] = useState(false);
 
   // Staff Gateway states
+  const [staffMode, setStaffMode] = useState("login"); // "login" | "join"
+  const [staffLoginEmail, setStaffLoginEmail] = useState("");
+  const [staffLoginPassword, setStaffLoginPassword] = useState("");
+  const [staffShowPassword, setStaffShowPassword] = useState(false);
   const [staffCode, setStaffCode] = useState("");
   const [staffStoreInfo, setStaffStoreInfo] = useState(null);
   const [staffLookupLoading, setStaffLookupLoading] = useState(false);
@@ -378,6 +382,40 @@ export default function Login() {
   };
 
   /* ---- Staff Code Lookup & Join Handlers ---- */
+  const handleStaffLoginSubmit = async (e) => {
+    if (e) e.preventDefault();
+    const cleanEmail = staffLoginEmail.trim().toLowerCase();
+    if (!cleanEmail || !isValidEmail(cleanEmail)) {
+      setStaffSubmitError("Please enter a valid work email address.");
+      return;
+    }
+    if (!staffLoginPassword) {
+      setStaffSubmitError("Please enter your password.");
+      return;
+    }
+
+    setStaffSubmitLoading(true);
+    setStaffSubmitError("");
+
+    try {
+      await login({
+        email: cleanEmail,
+        password: staffLoginPassword,
+      });
+
+      const fresh = await revalidateSession();
+      if (fresh?.role === "dealer_staff" && fresh?.userStatus === "pending") {
+        navigate("/dealer/pending?kind=staff", { replace: true });
+      } else {
+        navigate(fromPath !== "/login" ? fromPath : "/products", { replace: true });
+      }
+    } catch (err) {
+      setStaffSubmitError(err.message || "Invalid work email or password. Please check your credentials.");
+    } finally {
+      setStaffSubmitLoading(false);
+    }
+  };
+
   const handleStaffLookup = async (e) => {
     if (e) e.preventDefault();
     const raw = staffCode.trim();
@@ -412,7 +450,8 @@ export default function Login() {
       setStaffSubmitError("Please enter a valid work email address.");
       return;
     }
-    if (staffForm.phone.trim() && !isValidPhone(staffForm.phone)) {
+    const cleanPhone = staffForm.phone.replace(/\D/g, "").slice(-10);
+    if (!cleanPhone || !isValidPhone(cleanPhone)) {
       setStaffSubmitError("Please enter a valid 10-digit mobile number.");
       return;
     }
@@ -433,7 +472,7 @@ export default function Login() {
         dealer_code: staffStoreInfo.dealer_code || staffCode,
         invite_code: staffStoreInfo.dealer_code || staffCode,
         email: staffForm.email.trim(),
-        phone: staffForm.phone.trim() || undefined,
+        phone: cleanPhone,
         password: staffForm.password,
         full_name: staffForm.fullName.trim(),
       });
@@ -1337,7 +1376,7 @@ export default function Login() {
                         padding: "clamp(20px, 3.5vw, 32px)",
                       }}
                     >
-                      <div style={{ textAlign: "center", marginBottom: 20 }}>
+                      <div style={{ textAlign: "center", marginBottom: 18 }}>
                         <div
                           style={{
                             width: 48,
@@ -1354,11 +1393,77 @@ export default function Login() {
                           <Icon name="user" size={24} />
                         </div>
                         <h2 style={{ fontSize: "1.45rem", fontWeight: 800, margin: "0 0 4px", color: "var(--tx)" }}>
-                          Staff Portal Access
+                          {staffMode === "login" ? "Staff Sign In" : "Join Store as Staff"}
                         </h2>
                         <p style={{ margin: 0, color: "var(--tx-2)", fontSize: "0.86rem" }}>
-                          Enter your store's Dealer / Business Code to join your showroom workspace.
+                          {staffMode === "login"
+                            ? "Sign in with your registered work email and password to access your showroom."
+                            : "Enter your store's Dealer / Business Code to join your showroom workspace."}
                         </p>
+                      </div>
+
+                      {/* Segmented Mode Switcher: Sign In vs Join */}
+                      <div
+                        role="tablist"
+                        style={{
+                          display: "flex",
+                          background: "var(--bg-2, #f0f5fc)",
+                          borderRadius: "var(--r-sm, 10px)",
+                          padding: 3,
+                          gap: 3,
+                          marginBottom: 18,
+                        }}
+                      >
+                        <button
+                          type="button"
+                          role="tab"
+                          aria-selected={staffMode === "login"}
+                          onClick={() => { setStaffMode("login"); setStaffSubmitError(""); setStaffLookupError(""); }}
+                          style={{
+                            flex: 1,
+                            border: "none",
+                            background: staffMode === "login" ? "#fff" : "transparent",
+                            fontWeight: staffMode === "login" ? 700 : 500,
+                            color: staffMode === "login" ? "var(--tx, #0f172a)" : "var(--tx-2, #64748b)",
+                            boxShadow: staffMode === "login" ? "0 2px 8px rgba(0,0,0,0.06)" : "none",
+                            borderRadius: "var(--r-xs, 7px)",
+                            padding: "8px 12px",
+                            fontSize: "0.86rem",
+                            cursor: "pointer",
+                            display: "flex",
+                            alignItems: "center",
+                            justifyContent: "center",
+                            gap: 6,
+                          }}
+                        >
+                          <Icon name="key" size={14} />
+                          Sign In
+                        </button>
+                        <button
+                          type="button"
+                          role="tab"
+                          aria-selected={staffMode === "join"}
+                          onClick={() => { setStaffMode("join"); setStaffSubmitError(""); setStaffLookupError(""); }}
+                          style={{
+                            flex: 1,
+                            border: "none",
+                            background: staffMode === "join" ? "#fff" : "transparent",
+                            fontWeight: staffMode === "join" ? 700 : 500,
+                            color: staffMode === "join" ? "var(--tx, #0f172a)" : "var(--tx-2, #64748b)",
+                            boxShadow: staffMode === "join" ? "0 2px 8px rgba(0,0,0,0.06)" : "none",
+                            borderRadius: "var(--r-xs, 7px)",
+                            padding: "8px 12px",
+                            fontSize: "0.86rem",
+                            cursor: "pointer",
+                            display: "flex",
+                            alignItems: "center",
+                            justifyContent: "center",
+                            gap: 6,
+                          }}
+                        >
+                          <Icon name="users" size={14} />
+                          Join with Code
+                        </button>
                       </div>
 
                       {staffLookupError && (
@@ -1372,7 +1477,94 @@ export default function Login() {
                         </div>
                       )}
 
-                      {!staffStoreInfo ? (
+                      {/* MODE 1: STAFF SIGN IN (EMAIL + PASSWORD) */}
+                      {staffMode === "login" && (
+                        <form onSubmit={handleStaffLoginSubmit} style={{ display: "grid", gap: 14 }}>
+                          <div>
+                            <label htmlFor="staff-login-email-in" style={{ display: "block", fontSize: "0.82rem", fontWeight: 700, marginBottom: 4 }}>
+                              Work Email
+                            </label>
+                            <input
+                              id="staff-login-email-in"
+                              type="email"
+                              required
+                              placeholder="staff@dealership.com"
+                              autoComplete="email"
+                              value={staffLoginEmail}
+                              onChange={(e) => setStaffLoginEmail(e.target.value)}
+                              style={{ width: "100%", height: 46, borderRadius: 8, border: "1.5px solid var(--line, #cbd5e1)", padding: "0 12px", fontSize: "0.95rem" }}
+                            />
+                          </div>
+
+                          <div>
+                            <label htmlFor="staff-login-pass-in" style={{ display: "block", fontSize: "0.82rem", fontWeight: 700, marginBottom: 4 }}>
+                              Password
+                            </label>
+                            <div style={{ position: "relative" }}>
+                              <input
+                                id="staff-login-pass-in"
+                                type={staffShowPassword ? "text" : "password"}
+                                required
+                                placeholder="••••••••"
+                                autoComplete="current-password"
+                                value={staffLoginPassword}
+                                onChange={(e) => setStaffLoginPassword(e.target.value)}
+                                style={{ width: "100%", height: 46, borderRadius: 8, border: "1.5px solid var(--line, #cbd5e1)", padding: "0 40px 0 12px", fontSize: "0.95rem" }}
+                              />
+                              <button
+                                type="button"
+                                onClick={() => setStaffShowPassword((v) => !v)}
+                                style={{
+                                  position: "absolute",
+                                  right: 10,
+                                  top: "50%",
+                                  transform: "translateY(-50%)",
+                                  background: "transparent",
+                                  border: "none",
+                                  color: "var(--tx-3, #94a3b8)",
+                                  cursor: "pointer",
+                                  padding: 4,
+                                  display: "flex",
+                                }}
+                                aria-label={staffShowPassword ? "Hide password" : "Show password"}
+                              >
+                                <Icon name={staffShowPassword ? "eyeoff" : "eye"} size={16} />
+                              </button>
+                            </div>
+                          </div>
+
+                          <button
+                            type="submit"
+                            disabled={staffSubmitLoading || !staffLoginEmail || !staffLoginPassword}
+                            className="btn btn-navy btn-block"
+                            style={{ height: 48, fontWeight: 700, marginTop: 4 }}
+                          >
+                            {staffSubmitLoading ? "Signing in..." : "Sign In as Staff →"}
+                          </button>
+
+                          <div style={{ textAlign: "center", marginTop: 8, fontSize: "0.85rem", color: "var(--tx-2, #64748b)" }}>
+                            First time joining your showroom?{" "}
+                            <button
+                              type="button"
+                              onClick={() => { setStaffMode("join"); setStaffSubmitError(""); }}
+                              style={{
+                                background: "transparent",
+                                border: "none",
+                                color: "var(--brand, #0f172a)",
+                                fontWeight: 700,
+                                cursor: "pointer",
+                                textDecoration: "underline",
+                                padding: 0,
+                              }}
+                            >
+                              Join with Store Code
+                            </button>
+                          </div>
+                        </form>
+                      )}
+
+                      {/* MODE 2: STAFF JOIN WITH DEALER CODE */}
+                      {staffMode === "join" && (!staffStoreInfo ? (
                         <form onSubmit={handleStaffLookup} style={{ display: "grid", gap: 14 }}>
                           <div>
                             <label htmlFor="staff-code-in" style={{ display: "block", fontSize: "0.82rem", fontWeight: 700, marginBottom: 6 }}>
@@ -1409,6 +1601,25 @@ export default function Login() {
                           >
                             {staffLookupLoading ? "Verifying Code..." : "Verify Store Code →"}
                           </button>
+
+                          <div style={{ textAlign: "center", marginTop: 8, fontSize: "0.85rem", color: "var(--tx-2, #64748b)" }}>
+                            Already have staff access?{" "}
+                            <button
+                              type="button"
+                              onClick={() => { setStaffMode("login"); setStaffSubmitError(""); }}
+                              style={{
+                                background: "transparent",
+                                border: "none",
+                                color: "var(--brand, #0f172a)",
+                                fontWeight: 700,
+                                cursor: "pointer",
+                                textDecoration: "underline",
+                                padding: 0,
+                              }}
+                            >
+                              Sign In with Email
+                            </button>
+                          </div>
                         </form>
                       ) : (
                         <form onSubmit={handleStaffSignupSubmit} style={{ display: "grid", gap: 14 }}>
@@ -1465,6 +1676,47 @@ export default function Login() {
                             />
                           </div>
 
+                          <div>
+                            <label htmlFor="staff-phone-in" style={{ display: "block", fontSize: "0.82rem", fontWeight: 700, marginBottom: 4 }}>
+                              Mobile Number (10 digits) <span style={{ color: "var(--err, #dc2626)" }}>*</span>
+                            </label>
+                            <div style={{ display: "flex", alignItems: "center" }}>
+                              <span style={{
+                                display: "inline-flex",
+                                alignItems: "center",
+                                justifyContent: "center",
+                                height: 46,
+                                padding: "0 12px",
+                                background: "var(--bg-2, #f1f5f9)",
+                                border: "1.5px solid var(--line, #cbd5e1)",
+                                borderRight: "none",
+                                borderRadius: "8px 0 0 8px",
+                                fontSize: "0.9rem",
+                                fontWeight: 700,
+                                color: "var(--tx-2, #64748b)"
+                              }}>
+                                +91
+                              </span>
+                              <input
+                                id="staff-phone-in"
+                                type="tel"
+                                required
+                                maxLength={10}
+                                placeholder="9876543210"
+                                value={staffForm.phone}
+                                onChange={(e) => setStaffForm((f) => ({ ...f, phone: e.target.value.replace(/\D/g, "").slice(0, 10) }))}
+                                style={{
+                                  flex: 1,
+                                  height: 46,
+                                  borderRadius: "0 8px 8px 0",
+                                  border: "1.5px solid var(--line, #cbd5e1)",
+                                  padding: "0 12px",
+                                  fontSize: "0.95rem"
+                                }}
+                              />
+                            </div>
+                          </div>
+
                           <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 10 }}>
                             <div>
                               <label htmlFor="staff-pass-in" style={{ display: "block", fontSize: "0.82rem", fontWeight: 700, marginBottom: 4 }}>
@@ -1504,8 +1756,27 @@ export default function Login() {
                           >
                             {staffSubmitLoading ? "Submitting Registration..." : "Complete Staff Registration"}
                           </button>
+
+                          <div style={{ textAlign: "center", marginTop: 8, fontSize: "0.85rem", color: "var(--tx-2, #64748b)" }}>
+                            Already have an account?{" "}
+                            <button
+                              type="button"
+                              onClick={() => { setStaffMode("login"); setStaffSubmitError(""); }}
+                              style={{
+                                background: "transparent",
+                                border: "none",
+                                color: "var(--brand, #0f172a)",
+                                fontWeight: 700,
+                                cursor: "pointer",
+                                textDecoration: "underline",
+                                padding: 0,
+                              }}
+                            >
+                              Sign In with Email
+                            </button>
+                          </div>
                         </form>
-                      )}
+                      ))}
                     </div>
                   )}
                 </div>

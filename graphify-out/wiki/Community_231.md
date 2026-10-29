@@ -4,15 +4,15 @@
 
 ## Key Concepts
 
-- **Split views** (5 connections) — `.agents/skills/apple-design/references/hig/split-views.md`
-- **Platform considerations** (4 connections) — `.agents/skills/apple-design/references/hig/split-views.md`
-- **split-views.md** (1 connections) — `.agents/skills/apple-design/references/hig/split-views.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/split-views.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/split-views.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/split-views.md`
-- **Phone (iOS)** (1 connections) — `.agents/skills/apple-design/references/hig/split-views.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/split-views.md`
-- **Tablet (iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/split-views.md`
+- **Scroll views** (6 connections) — `.agents/skills/apple-design/references/hig/scroll-views.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/scroll-views.md`
+- **scroll-views.md** (1 connections) — `.agents/skills/apple-design/references/hig/scroll-views.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/scroll-views.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/scroll-views.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/scroll-views.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/scroll-views.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/scroll-views.md`
+- **Scroll edge effects** (1 connections) — `.agents/skills/apple-design/references/hig/scroll-views.md`
 
 ## Relationships
 
@@ -20,7 +20,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/split-views.md`
+- `.agents/skills/apple-design/references/hig/scroll-views.md`
 
 ## Audit Trail
 

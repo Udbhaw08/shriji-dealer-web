@@ -4,27 +4,38 @@
 
 ## Key Concepts
 
-- **Archify JSON IR Schemas** (7 connections) — `.agents/skills/archify/schemas/README.md`
-- **Files** (2 connections) — `.agents/skills/archify/schemas/README.md`
-- **README.md** (1 connections) — `.agents/skills/archify/schemas/README.md`
-- **Error format** (1 connections) — `.agents/skills/archify/schemas/README.md`
-- **Legend presentation contract** (1 connections) — `.agents/skills/archify/schemas/README.md`
-- **Runtime validation** (1 connections) — `.agents/skills/archify/schemas/README.md`
-- **schema_version policy** (1 connections) — `.agents/skills/archify/schemas/README.md`
-- **Shared definitions (common.schema.json)** (1 connections) — `.agents/skills/archify/schemas/README.md`
-- **Visual quality and engineering truth** (1 connections) — `.agents/skills/archify/schemas/README.md`
+- **Typography Guide** (18 connections) — `.agents/skills/refero-design/references/typography.md`
+- **13. AI-Slop Anti-Patterns** (3 connections) — `.agents/skills/refero-design/references/typography.md`
+- **typography.md** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **0. Context First** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **15. Pre-Ship Checklist** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **1. The Safe SaaS Preset** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Appendix: Complete Token System** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Instant Red Flags** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Quick Test** (1 connections) — `.agents/skills/refero-design/references/typography.md`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 395]] (1 shared connections)
+- [[Community 417]] (1 shared connections)
+- [[Community 396]] (1 shared connections)
+- [[Community 418]] (1 shared connections)
+- [[Community 419]] (1 shared connections)
+- [[Community 420]] (1 shared connections)
+- [[Community 397]] (1 shared connections)
+- [[Community 421]] (1 shared connections)
+- [[Community 422]] (1 shared connections)
+- [[Community 398]] (1 shared connections)
+- [[Community 240]] (1 shared connections)
+- [[Community 473]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/README.md`
+- `.agents/skills/refero-design/references/typography.md`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 28 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

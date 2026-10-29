@@ -1,41 +1,46 @@
 # Community 90
 
-> 19 nodes · cohesion 0.11
+> 19 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **Apple Design Skill** (7 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Step 3: Audit through five lenses, in this order** (6 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Review process** (5 connections) — `.agents/skills/apple-design/SKILL.md`
-- **The references** (3 connections) — `.agents/skills/apple-design/SKILL.md`
-- **SKILL.md** (1 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Always load** (1 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Apple's design principles** (1 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Design improvement mode** (1 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Lens 1: Accessibility (failures are Critical)** (1 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Lens 2: Platform conventions (failures are usually High)** (1 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Lens 3: Visual design and craft (findings are High or Medium)** (1 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Lens 4: Interaction (findings are usually Medium)** (1 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Lens 5: Content and writing (findings are usually Medium)** (1 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Load by what is on screen** (1 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Specialized review modes** (1 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Step 1: Establish context** (1 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Step 2: Load references** (1 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Step 4: Write the report** (1 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Working rules** (1 connections) — `.agents/skills/apple-design/SKILL.md`
+- **finder-browser.test.mjs** (12 connections) — `.agents/skills/archify/test/finder-browser.test.mjs`
+- **route-probe-browser.test.mjs** (12 connections) — `.agents/skills/archify/test/route-probe-browser.test.mjs`
+- **run()** (6 connections) — `.agents/skills/archify/test/finder-browser.test.mjs`
+- **run()** (6 connections) — `.agents/skills/archify/test/route-probe-browser.test.mjs`
+- **viewer-click.mjs** (4 connections) — `.agents/skills/archify/test/helpers/viewer-click.mjs`
+- **createViewerClick()** (4 connections) — `.agents/skills/archify/test/helpers/viewer-click.mjs`
+- **load()** (3 connections) — `.agents/skills/archify/test/finder-browser.test.mjs`
+- **search()** (3 connections) — `.agents/skills/archify/test/finder-browser.test.mjs`
+- **load()** (3 connections) — `.agents/skills/archify/test/route-probe-browser.test.mjs`
+- **key()** (2 connections) — `.agents/skills/archify/test/finder-browser.test.mjs`
+- **opened()** (2 connections) — `.agents/skills/archify/test/finder-browser.test.mjs`
+- **snapshot()** (2 connections) — `.agents/skills/archify/test/finder-browser.test.mjs`
+- **hash()** (2 connections) — `.agents/skills/archify/test/route-probe-browser.test.mjs`
+- **key()** (2 connections) — `.agents/skills/archify/test/route-probe-browser.test.mjs`
+- **route()** (2 connections) — `.agents/skills/archify/test/route-probe-browser.test.mjs`
+- **snapshot()** (2 connections) — `.agents/skills/archify/test/route-probe-browser.test.mjs`
+- **installClickObserver()** (1 connections) — `.agents/skills/archify/test/helpers/viewer-click.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/finder-browser.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/route-probe-browser.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 54]] (8 shared connections)
+- [[Community 48]] (2 shared connections)
+- [[Community 83]] (2 shared connections)
+- [[Community 132]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/SKILL.md`
+- `.agents/skills/archify/test/finder-browser.test.mjs`
+- `.agents/skills/archify/test/helpers/viewer-click.mjs`
+- `.agents/skills/archify/test/route-probe-browser.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 36 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 69 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

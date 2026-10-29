@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **tokenSecurity.test.mjs** (0 connections) — `backend/test/tokenSecurity.test.mjs`
+- **resendEmailTemplate.test.mjs** (0 connections) — `backend/test/resendEmailTemplate.test.mjs`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `backend/test/tokenSecurity.test.mjs`
+- `backend/test/resendEmailTemplate.test.mjs`
 
 ## Audit Trail
 

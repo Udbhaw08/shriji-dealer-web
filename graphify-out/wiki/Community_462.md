@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **Designing for iPadOS** (2 connections) — `.agents/skills/apple-design/references/hig/designing-for-ipados.md`
-- **designing-for-ipados.md** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-ipados.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-ipados.md`
+- **Volume Tier Discounts & Quantity Slabs** (2 connections) — `docs/guides/pricing-tiers-and-slabs.md`
+- **pricing-tiers-and-slabs.md** (1 connections) — `docs/guides/pricing-tiers-and-slabs.md`
+- **Slab Structure** (1 connections) — `docs/guides/pricing-tiers-and-slabs.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/designing-for-ipados.md`
+- `docs/guides/pricing-tiers-and-slabs.md`
 
 ## Audit Trail
 

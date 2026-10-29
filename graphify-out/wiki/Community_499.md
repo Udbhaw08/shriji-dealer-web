@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **debounce.js** (2 connections) — `src/utils/debounce.js`
-- **debounce()** (1 connections) — `src/utils/debounce.js`
-- **throttle()** (1 connections) — `src/utils/debounce.js`
+- **Autocannon Load Test Benchmarks** (2 connections) — `docs/testing/load-testing-benchmarks.md`
+- **load-testing-benchmarks.md** (1 connections) — `docs/testing/load-testing-benchmarks.md`
+- **Targets** (1 connections) — `docs/testing/load-testing-benchmarks.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `src/utils/debounce.js`
+- `docs/testing/load-testing-benchmarks.md`
 
 ## Audit Trail
 

@@ -4,16 +4,16 @@
 
 ## Key Concepts
 
-- **Layout** (7 connections) — `.agents/skills/apple-design/references/hig/layout.md`
-- **Adaptability** (2 connections) — `.agents/skills/apple-design/references/hig/layout.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/layout.md`
-- **layout.md** (1 connections) — `.agents/skills/apple-design/references/hig/layout.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/layout.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/layout.md`
-- **Guides and safe areas** (1 connections) — `.agents/skills/apple-design/references/hig/layout.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/layout.md`
-- **Size classes** (1 connections) — `.agents/skills/apple-design/references/hig/layout.md`
-- **Visual hierarchy** (1 connections) — `.agents/skills/apple-design/references/hig/layout.md`
+- **Accessibility** (9 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
+- **accessibility.md** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
+- **Cognitive** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
+- **Hearing** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
+- **Mobility** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
+- **Speech** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
+- **Vision** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
 
 ## Relationships
 
@@ -21,7 +21,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/layout.md`
+- `.agents/skills/apple-design/references/hig/accessibility.md`
 
 ## Audit Trail
 

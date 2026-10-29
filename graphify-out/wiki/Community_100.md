@@ -4,24 +4,24 @@
 
 ## Key Concepts
 
-- **DESIGN.md — the design system as actually built** (8 connections) — `docs/DESIGN.md`
-- **4. Components already built — reuse these** (7 connections) — `docs/DESIGN.md`
-- **2. Tokens** (4 connections) — `docs/DESIGN.md`
-- **DESIGN.md** (1 connections) — `docs/DESIGN.md`
-- **1. The direction in one paragraph** (1 connections) — `docs/DESIGN.md`
-- **3. Layout primitives** (1 connections) — `docs/DESIGN.md`
-- **5. Icons** (1 connections) — `docs/DESIGN.md`
-- **6. Responsive rules** (1 connections) — `docs/DESIGN.md`
-- **7. Motion and accessibility** (1 connections) — `docs/DESIGN.md`
-- **Actions** (1 connections) — `docs/DESIGN.md`
-- **Colour** (1 connections) — `docs/DESIGN.md`
-- **Content** (1 connections) — `docs/DESIGN.md`
-- **Detail** (1 connections) — `docs/DESIGN.md`
-- **Listing sidebar** (1 connections) — `docs/DESIGN.md`
-- **Navigation and filtering** (1 connections) — `docs/DESIGN.md`
-- **Product** (1 connections) — `docs/DESIGN.md`
-- **Spacing, radius, shadow, motion** (1 connections) — `docs/DESIGN.md`
-- **Type** (1 connections) — `docs/DESIGN.md`
+- **Standard icons** (10 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Icons** (6 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Desktop (macOS)** (2 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **icons.md** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Document icons** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Editing** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Layer ordering** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Other** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Ratings** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Search** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Selection** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Sharing and exporting** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Text formatting** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Users and accounts** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
 
 ## Relationships
 
@@ -29,7 +29,7 @@
 
 ## Source Files
 
-- `docs/DESIGN.md`
+- `.agents/skills/apple-design/references/hig/icons.md`
 
 ## Audit Trail
 

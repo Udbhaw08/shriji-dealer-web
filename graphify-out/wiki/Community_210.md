@@ -1,33 +1,34 @@
 # Community 210
 
-> 10 nodes · cohesion 0.20
+> 10 nodes · cohesion 0.24
 
 ## Key Concepts
 
-- **output-path.test.mjs** (16 connections) — `.agents/skills/archify/test/output-path.test.mjs`
-- **baseFixture** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
-- **cli** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
-- **copyInstalledSkill()** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
-- **directoryAliasesNames()** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
-- **headFixture** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
-- **here** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
-- **run()** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
-- **workflowFixture** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
+- **renderInline()** (6 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **renderInlineNode()** (6 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **renderHigLink()** (4 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **renderLink()** (4 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **renderParagraph()** (4 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **renderImage()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **renderReference()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **imageLabel()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **resolveAnchor()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **wrapInline()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
 
 ## Relationships
 
-- [[Client Products Data Store]] (3 shared connections)
-- [[Community 61]] (2 shared connections)
-- [[Community 104]] (2 shared connections)
+- [[Community 76]] (10 shared connections)
+- [[Community 211]] (2 shared connections)
+- [[Community 244]] (1 shared connections)
+- [[Community 282]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/output-path.test.mjs`
+- `.agents/skills/apple-design/scripts/pull-hig.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 25 (100%)
+- EXTRACTED: 36 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

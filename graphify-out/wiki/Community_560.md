@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **searchHelper.test.mjs** (0 connections) — `src/data/searchHelper.test.mjs`
+- **build.gradle** (0 connections) — `android/capacitor-cordova-android-plugins/build.gradle`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `src/data/searchHelper.test.mjs`
+- `android/capacitor-cordova-android-plugins/build.gradle`
 
 ## Audit Trail
 

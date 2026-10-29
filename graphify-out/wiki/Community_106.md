@@ -24,16 +24,16 @@
 
 ## Relationships
 
-- [[Mobile Responsive UI Skill]] (12 shared connections)
-- [[Community 42]] (10 shared connections)
-- [[Client Products Data Store]] (7 shared connections)
-- [[Community 39]] (5 shared connections)
-- [[Community 128]] (5 shared connections)
-- [[Roles & Customer Sharing Spec]] (4 shared connections)
-- [[Zoho Backend & Proxy Endpoints]] (4 shared connections)
-- [[Community 80]] (3 shared connections)
-- [[Graphify Agent Rules]] (1 shared connections)
-- [[Community 292]] (1 shared connections)
+- [[Roles & Customer Sharing Spec]] (12 shared connections)
+- [[Community 41]] (10 shared connections)
+- [[Master Codebase Architecture Reference]] (7 shared connections)
+- [[Community 37]] (5 shared connections)
+- [[Community 130]] (5 shared connections)
+- [[Product Brand & Business Vision]] (4 shared connections)
+- [[Dependencies & Package Config]] (4 shared connections)
+- [[Community 81]] (3 shared connections)
+- [[Project Readme & Layout]] (1 shared connections)
+- [[Community 295]] (1 shared connections)
 
 ## Source Files
 

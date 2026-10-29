@@ -4,15 +4,15 @@
 
 ## Key Concepts
 
-- **preview-contract.test.mjs** (8 connections) — `.agents/skills/archify/test/preview-contract.test.mjs`
-- **chinese** (1 connections) — `.agents/skills/archify/test/preview-contract.test.mjs`
-- **delivery** (1 connections) — `.agents/skills/archify/test/preview-contract.test.mjs`
-- **english** (1 connections) — `.agents/skills/archify/test/preview-contract.test.mjs`
-- **here** (1 connections) — `.agents/skills/archify/test/preview-contract.test.mjs`
-- **readme** (1 connections) — `.agents/skills/archify/test/preview-contract.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/preview-contract.test.mjs`
-- **skill** (1 connections) — `.agents/skills/archify/test/preview-contract.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/preview-contract.test.mjs`
+- **architecture-compare-recovery.test.mjs** (8 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
+- **base** (1 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
+- **cases** (1 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
+- **cli** (1 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
+- **fixture()** (1 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
+- **hash()** (1 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
+- **head** (1 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
+- **inject()** (1 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
 
 ## Relationships
 
@@ -20,7 +20,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/preview-contract.test.mjs`
+- `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
 
 ## Audit Trail
 

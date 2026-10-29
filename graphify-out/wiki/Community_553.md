@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **variables.gradle** (0 connections) — `android/variables.gradle`
+- **cordova_plugins.js** (0 connections) — `android/app/src/main/assets/public/cordova_plugins.js`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `android/variables.gradle`
+- `android/app/src/main/assets/public/cordova_plugins.js`
 
 ## Audit Trail
 

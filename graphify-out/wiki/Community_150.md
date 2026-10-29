@@ -1,37 +1,39 @@
 # Community 150
 
-> 13 nodes · cohesion 0.31
+> 13 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **focus-browser.test.mjs** (17 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
-- **run()** (8 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
-- **stable()** (6 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
-- **click()** (4 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
-- **load()** (4 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
-- **point()** (4 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
-- **key()** (3 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
-- **move()** (3 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
-- **select()** (3 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
-- **focus()** (2 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
-- **snapshot()** (2 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
-- **variant()** (1 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
+- **fetchZohoProductById()** (18 connections) — `api/_lib/zoho.js`
+- **fetchZohoProducts()** (14 connections) — `api/_lib/zoho.js`
+- **getZohoConfig()** (10 connections) — `api/_lib/zoho.js`
+- **fetchZohoWithRetry()** (9 connections) — `api/_lib/zoho.js`
+- **fetchAllRawZohoProducts()** (6 connections) — `api/_lib/zoho.js`
+- **fetchZohoPricebookItems()** (6 connections) — `api/_lib/zoho.js`
+- **getCategoryVisibilityMap()** (5 connections) — `api/_lib/zoho.js`
+- **resolvePricebookId()** (5 connections) — `api/_lib/zoho.js`
+- **fetchZohoPricebooks()** (4 connections) — `api/_lib/zoho.js`
+- **fetchZohoRawCategories()** (4 connections) — `api/_lib/zoho.js`
+- **getDealerById()** (4 connections) — `api/_lib/zoho.js`
+- **readProductDetailsDiskCache()** (3 connections) — `api/_lib/zoho.js`
+- **writeProductDetailDiskCache()** (3 connections) — `api/_lib/zoho.js`
 
 ## Relationships
 
-- [[Community 54]] (5 shared connections)
-- [[Community 62]] (3 shared connections)
-- [[Community 49]] (1 shared connections)
-- [[Community 130]] (1 shared connections)
+- [[Community 45]] (18 shared connections)
+- [[Community 203]] (7 shared connections)
+- [[Community 171]] (5 shared connections)
+- [[Community 257]] (5 shared connections)
+- [[Community 255]] (2 shared connections)
+- [[Community 152]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/focus-browser.test.mjs`
+- `api/_lib/zoho.js`
 
 ## Audit Trail
 
-- EXTRACTED: 58 (100%)
+- EXTRACTED: 91 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

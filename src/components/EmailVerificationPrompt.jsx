@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useSession, setSession } from "../data/session";
 import { requestEmailOtp, verifyEmailOtp } from "../data/auth";
 import { isValidEmail } from "../data/validators";
@@ -25,6 +25,15 @@ export default function EmailVerificationPrompt() {
   // Only show for logged in users whose email is not yet verified.
   // On dealer onboarding routes, do not allow dismissal to bypass verification requirements.
   const isOnDealerRoute = typeof window !== "undefined" && (window.location.pathname.startsWith("/dealer") || window.location.pathname.startsWith("/staff"));
+  useEffect(() => {
+    const handleOpen = () => {
+      setDismissed(false);
+      setOpenModal(true);
+    };
+    window.addEventListener("open-email-verification", handleOpen);
+    return () => window.removeEventListener("open-email-verification", handleOpen);
+  }, []);
+
   const isLoggedIn = Boolean(session.userId || (session.role && session.role !== "guest"));
   if (!isLoggedIn || session.email_verified || (dismissed && !isOnDealerRoute)) {
     return null;

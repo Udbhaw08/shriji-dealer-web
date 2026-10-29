@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **renderer-diagnostic-boundary.test.mjs** (2 connections) — `.agents/skills/archify/test/renderer-diagnostic-boundary.test.mjs`
-- **crashingRenderer()** (1 connections) — `.agents/skills/archify/test/renderer-diagnostic-boundary.test.mjs`
-- **runCrashingRenderer()** (1 connections) — `.agents/skills/archify/test/renderer-diagnostic-boundary.test.mjs`
+- **JWT Refresh Token Rotation Policy** (2 connections) — `docs/security/jwt-rotation-policy.md`
+- **jwt-rotation-policy.md** (1 connections) — `docs/security/jwt-rotation-policy.md`
+- **Rotation Rules** (1 connections) — `docs/security/jwt-rotation-policy.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/renderer-diagnostic-boundary.test.mjs`
+- `docs/security/jwt-rotation-policy.md`
 
 ## Audit Trail
 

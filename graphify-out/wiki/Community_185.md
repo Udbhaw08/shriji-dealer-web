@@ -4,29 +4,31 @@
 
 ## Key Concepts
 
-- **multiAuth.test.mjs** (8 connections) — `backend/test/multiAuth.test.mjs`
-- **MockOAuth2Client** (3 connections) — `backend/test/multiAuth.test.mjs`
-- **app** (1 connections) — `backend/test/multiAuth.test.mjs`
-- **db** (1 connections) — `backend/test/multiAuth.test.mjs`
-- **.constructor()** (1 connections) — `backend/test/multiAuth.test.mjs`
-- **.verifyIdToken()** (1 connections) — `backend/test/multiAuth.test.mjs`
-- **mockSql()** (1 connections) — `backend/test/multiAuth.test.mjs`
-- **resetDb()** (1 connections) — `backend/test/multiAuth.test.mjs`
-- **startServer()** (1 connections) — `backend/test/multiAuth.test.mjs`
-- **stopServer()** (1 connections) — `backend/test/multiAuth.test.mjs`
-- **testEnv** (1 connections) — `backend/test/multiAuth.test.mjs`
+- **properties** (9 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **note** (3 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **title** (3 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **dot** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **id** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **maxLength** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **minLength** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 241]] (3 shared connections)
+- [[Community 402]] (1 shared connections)
+- [[Community 184]] (1 shared connections)
 
 ## Source Files
 
-- `backend/test/multiAuth.test.mjs`
+- `.agents/skills/archify/schemas/common.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
+- EXTRACTED: 25 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

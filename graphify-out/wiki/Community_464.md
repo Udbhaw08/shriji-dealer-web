@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **Android Release Keystore & Bundle Guide** (2 connections) — `docs/mobile/android-keystore-generation.md`
-- **android-keystore-generation.md** (1 connections) — `docs/mobile/android-keystore-generation.md`
-- **Commands** (1 connections) — `docs/mobile/android-keystore-generation.md`
+- **Designing for iOS** (2 connections) — `.agents/skills/apple-design/references/hig/designing-for-ios.md`
+- **designing-for-ios.md** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-ios.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-ios.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/mobile/android-keystore-generation.md`
+- `.agents/skills/apple-design/references/hig/designing-for-ios.md`
 
 ## Audit Trail
 

@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **retryHelper.js** (1 connections) — `backend/src/utils/retryHelper.js`
-- **retryWithBackoff()** (1 connections) — `backend/src/utils/retryHelper.js`
+- **dateUtils.js** (1 connections) — `src/utils/dateUtils.js`
+- **formatRelativeTime()** (1 connections) — `src/utils/dateUtils.js`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `backend/src/utils/retryHelper.js`
+- `src/utils/dateUtils.js`
 
 ## Audit Trail
 

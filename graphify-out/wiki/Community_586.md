@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **logger** (0 connections) — `backend/src/utils/logger.js`
+- **sessionExpiry.test.mjs** (0 connections) — `backend/test/sessionExpiry.test.mjs`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `backend/src/utils/logger.js`
+- `backend/test/sessionExpiry.test.mjs`
 
 ## Audit Trail
 

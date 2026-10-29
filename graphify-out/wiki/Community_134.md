@@ -1,23 +1,23 @@
 # Community 134
 
-> 14 nodes · cohesion 0.23
+> 14 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **web-rvk28B0B.js** (13 connections) — `ios/App/App/public/assets/web-rvk28B0B.js`
-- **applyPrefix()** (4 connections) — `ios/App/App/public/assets/web-rvk28B0B.js`
-- **keys()** (4 connections) — `ios/App/App/public/assets/web-rvk28B0B.js`
-- **get()** (3 connections) — `ios/App/App/public/assets/web-rvk28B0B.js`
-- **migrate()** (3 connections) — `ios/App/App/public/assets/web-rvk28B0B.js`
-- **rawKeys()** (3 connections) — `ios/App/App/public/assets/web-rvk28B0B.js`
-- **clear()** (2 connections) — `ios/App/App/public/assets/web-rvk28B0B.js`
-- **remove()** (2 connections) — `ios/App/App/public/assets/web-rvk28B0B.js`
-- **removeOld()** (2 connections) — `ios/App/App/public/assets/web-rvk28B0B.js`
-- **set()** (2 connections) — `ios/App/App/public/assets/web-rvk28B0B.js`
-- **configure()** (1 connections) — `ios/App/App/public/assets/web-rvk28B0B.js`
-- **constructor()** (1 connections) — `ios/App/App/public/assets/web-rvk28B0B.js`
-- **impl()** (1 connections) — `ios/App/App/public/assets/web-rvk28B0B.js`
-- **prefix()** (1 connections) — `ios/App/App/public/assets/web-rvk28B0B.js`
+- **File management** (7 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
+- **Desktop (macOS)** (3 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
+- **Mobile (iOS, iPadOS)** (3 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
+- **file-management.md** (1 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
+- **Creating and opening files** (1 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
+- **Custom file management** (1 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
+- **Document launcher** (1 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
+- **File provider app extension** (1 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
+- **Finder Sync extensions** (1 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
+- **Quick Look previews** (1 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
+- **Saving work** (1 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
 
 ## Relationships
 
@@ -25,11 +25,11 @@
 
 ## Source Files
 
-- `ios/App/App/public/assets/web-rvk28B0B.js`
+- `.agents/skills/apple-design/references/hig/file-management.md`
 
 ## Audit Trail
 
-- EXTRACTED: 42 (100%)
+- EXTRACTED: 26 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

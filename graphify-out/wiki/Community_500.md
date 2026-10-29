@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **formatters.js** (2 connections) — `src/utils/formatters.js`
-- **formatCurrencyINR()** (1 connections) — `src/utils/formatters.js`
-- **formatPhoneNumber()** (1 connections) — `src/utils/formatters.js`
+- **OWASP Top 10 Security Checklist** (2 connections) — `docs/testing/security-penetration-testing-notes.md`
+- **security-penetration-testing-notes.md** (1 connections) — `docs/testing/security-penetration-testing-notes.md`
+- **Verified Protections** (1 connections) — `docs/testing/security-penetration-testing-notes.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `src/utils/formatters.js`
+- `docs/testing/security-penetration-testing-notes.md`
 
 ## Audit Trail
 

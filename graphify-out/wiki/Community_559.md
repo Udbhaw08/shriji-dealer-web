@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **portalGate.test.mjs** (0 connections) — `src/data/portalGate.test.mjs`
+- **capacitor.build.gradle** (0 connections) — `android/app/capacitor.build.gradle`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `src/data/portalGate.test.mjs`
+- `android/app/capacitor.build.gradle`
 
 ## Audit Trail
 

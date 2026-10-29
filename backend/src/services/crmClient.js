@@ -117,22 +117,31 @@ export function resolveContactNames({ firstName, lastName, personName, defaultLa
   let lName = lastName ? String(lastName).trim() : '';
 
   if (!fName && !lName && personName) {
-    const parts = String(personName).trim().split(/\s+/);
+    const parts = String(personName).trim().split(/\s+/).filter(Boolean);
     if (parts.length > 1) {
       fName = parts.slice(0, -1).join(' ');
       lName = parts.slice(-1).join(' ');
+    } else if (parts.length === 1) {
+      // In Zoho CRM, Last_Name is mandatory, while First_Name is optional.
+      // Setting First_Name = parts[0] AND Last_Name = parts[0] causes Zoho CRM to display
+      // duplicated names ("udbhaw udbhaw", "api api"). Leaving First_Name empty ensures
+      // Zoho displays the single clean name ("udbhaw", "api").
+      fName = '';
+      lName = parts[0];
     } else {
-      fName = parts[0] || '';
-      lName = parts[0] || defaultLast;
+      fName = '';
+      lName = defaultLast;
     }
   }
 
-  // Ensure neither field is left empty for Zoho CRM Contact
-  if (!fName && lName) fName = lName;
-  if (!lName && fName) lName = fName;
+  // If lastName is empty but firstName is provided, shift it to lastName (mandatory in Zoho CRM)
+  if (!lName && fName) {
+    lName = fName;
+    fName = '';
+  }
 
   return {
-    firstName: cleanName(fName) || defaultLast,
+    firstName: cleanName(fName) || '',
     lastName: cleanName(lName) || defaultLast,
   };
 }
@@ -156,7 +165,7 @@ export async function createDealerContact({
   const names = resolveContactNames({ firstName, lastName, personName, defaultLast });
 
   const contact = {
-    First_Name: names.firstName,
+    ...(names.firstName ? { First_Name: names.firstName } : {}),
     Last_Name: names.lastName,
     Account_Name: { id: accountId },
     Phone: norm.nationalNumber || undefined,

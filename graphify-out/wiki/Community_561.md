@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **site.test.mjs** (0 connections) — `src/data/site.test.mjs`
+- **cordova.variables.gradle** (0 connections) — `android/capacitor-cordova-android-plugins/cordova.variables.gradle`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `src/data/site.test.mjs`
+- `android/capacitor-cordova-android-plugins/cordova.variables.gradle`
 
 ## Audit Trail
 

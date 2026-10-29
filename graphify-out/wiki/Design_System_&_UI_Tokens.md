@@ -1,55 +1,55 @@
 # Design System & UI Tokens
 
-> 57 nodes · cohesion 0.08
+> 55 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **get()** (27 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
-- **D()** (22 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
-- **np()** (20 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
-- **.addEventListener()** (19 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
-- **b()** (17 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
-- **fp()** (14 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
-- **h()** (13 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
-- **jt()** (13 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
-- **lm()** (13 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
-- **Ba()** (12 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
-- **bm()** (12 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
-- **.removeEventListener()** (12 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
-- **am()** (10 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
-- **ip()** (9 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
-- **mm()** (9 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
-- **tp()** (8 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
-- **jm()** (7 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
-- **lp()** (7 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
-- **mo()** (7 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
-- **om()** (7 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
-- **tm()** (7 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
-- **un()** (7 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
-- **zm()** (7 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
-- **cm()** (6 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
-- **em()** (6 connections) — `ios/App/App/public/assets/index-Ce7xrLWR.js`
-- *... and 32 more nodes in this community*
+- **hash.js** (25 connections) — `backend/src/utils/hash.js`
+- **phase2DealerStaffOnboarding.test.mjs** (17 connections) — `backend/test/phase2DealerStaffOnboarding.test.mjs`
+- **loginCode.js** (17 connections) — `backend/src/utils/loginCode.js`
+- **dealerRegistrationTwoChannel.test.mjs** (15 connections) — `backend/test/dealerRegistrationTwoChannel.test.mjs`
+- **onboardingVerification.test.mjs** (15 connections) — `backend/test/onboardingVerification.test.mjs`
+- **hashOtp()** (10 connections) — `backend/src/utils/hash.js`
+- **verifyOtpHash()** (10 connections) — `backend/src/utils/hash.js`
+- **hash.test.mjs** (9 connections) — `backend/test/hash.test.mjs`
+- **sha256()** (9 connections) — `backend/src/utils/hash.js`
+- **formatLoginCode()** (8 connections) — `backend/src/utils/loginCode.js`
+- **generateLoginCode()** (8 connections) — `backend/src/utils/loginCode.js`
+- **loginCode.test.mjs** (7 connections) — `backend/test/loginCode.test.mjs`
+- **hashPassword()** (5 connections) — `backend/src/utils/hash.js`
+- **verifyPassword()** (4 connections) — `backend/src/utils/hash.js`
+- **isValidLoginCode()** (4 connections) — `backend/src/utils/loginCode.js`
+- **parseLoginCode()** (4 connections) — `backend/src/utils/loginCode.js`
+- **scryptKey()** (3 connections) — `backend/src/utils/hash.js`
+- **USER_CATEGORIES** (3 connections) — `backend/src/utils/loginCode.js`
+- **generateCode()** (2 connections) — `backend/src/utils/hash.js`
+- **randomToken()** (2 connections) — `backend/src/utils/hash.js`
+- **generateRandomDigits()** (2 connections) — `backend/src/utils/loginCode.js`
+- **generateRandomLetters()** (2 connections) — `backend/src/utils/loginCode.js`
+- **GST_TREATMENT_OPTIONS** (2 connections) — `backend/src/utils/loginCode.js`
+- **app** (1 connections) — `backend/test/dealerRegistrationTwoChannel.test.mjs`
+- **crmCalls** (1 connections) — `backend/test/dealerRegistrationTwoChannel.test.mjs`
+- *... and 30 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (57 shared connections)
-- [[Graphify Knowledge Graph Skill]] (21 shared connections)
-- [[Pricing Regression Test Suite]] (20 shared connections)
-- [[Oxlint Linter Configuration]] (17 shared connections)
-- [[Zoho Integration Architecture]] (12 shared connections)
-- [[Community 72]] (11 shared connections)
-- [[Zoho API Diagnostic Script]] (10 shared connections)
-- [[Community 166]] (4 shared connections)
-- [[Community 85]] (4 shared connections)
+- [[Vercel Deployment Routing]] (15 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (14 shared connections)
+- [[Community 115]] (2 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-Ce7xrLWR.js`
+- `backend/src/utils/hash.js`
+- `backend/src/utils/loginCode.js`
+- `backend/test/dealerRegistrationTwoChannel.test.mjs`
+- `backend/test/hash.test.mjs`
+- `backend/test/loginCode.test.mjs`
+- `backend/test/onboardingVerification.test.mjs`
+- `backend/test/phase2DealerStaffOnboarding.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 414 (100%)
+- EXTRACTED: 215 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

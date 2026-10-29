@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **Navigation and presentation** (2 connections) — `.agents/skills/swiftui-pro/references/navigation.md`
-- **navigation.md** (1 connections) — `.agents/skills/swiftui-pro/references/navigation.md`
-- **Alerts, confirmation dialogs, and sheets** (1 connections) — `.agents/skills/swiftui-pro/references/navigation.md`
+- **Capacitor Native Mobile Sync Workflow** (2 connections) — `docs/mobile/capacitor-native-sync.md`
+- **capacitor-native-sync.md** (1 connections) — `docs/mobile/capacitor-native-sync.md`
+- **Commands** (1 connections) — `docs/mobile/capacitor-native-sync.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `.agents/skills/swiftui-pro/references/navigation.md`
+- `docs/mobile/capacitor-native-sync.md`
 
 ## Audit Trail
 

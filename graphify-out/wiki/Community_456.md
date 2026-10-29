@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **Developer Cheat Sheet** (2 connections) — `docs/guides/developer-cheat-sheet.md`
-- **developer-cheat-sheet.md** (1 connections) — `docs/guides/developer-cheat-sheet.md`
-- **Common Commands** (1 connections) — `docs/guides/developer-cheat-sheet.md`
+- **Bulk Order Inquiry Workflow** (2 connections) — `docs/guides/bulk-order-inquiry-workflow.md`
+- **bulk-order-inquiry-workflow.md** (1 connections) — `docs/guides/bulk-order-inquiry-workflow.md`
+- **Lifecycle** (1 connections) — `docs/guides/bulk-order-inquiry-workflow.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/guides/developer-cheat-sheet.md`
+- `docs/guides/bulk-order-inquiry-workflow.md`
 
 ## Audit Trail
 

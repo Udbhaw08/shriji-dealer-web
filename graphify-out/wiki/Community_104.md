@@ -25,11 +25,11 @@
 
 ## Relationships
 
-- [[Community 47]] (4 shared connections)
-- [[Client Products Data Store]] (4 shared connections)
-- [[Community 61]] (3 shared connections)
-- [[Community 301]] (2 shared connections)
-- [[Community 210]] (2 shared connections)
+- [[Community 46]] (4 shared connections)
+- [[Master Codebase Architecture Reference]] (4 shared connections)
+- [[Community 64]] (3 shared connections)
+- [[Community 304]] (2 shared connections)
+- [[Community 214]] (2 shared connections)
 
 ## Source Files
 

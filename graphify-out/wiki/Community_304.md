@@ -4,26 +4,31 @@
 
 ## Key Concepts
 
-- **Charting data** (6 connections) — `.agents/skills/apple-design/references/hig/charting-data.md`
-- **charting-data.md** (1 connections) — `.agents/skills/apple-design/references/hig/charting-data.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/charting-data.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/charting-data.md`
-- **Designing effective charts** (1 connections) — `.agents/skills/apple-design/references/hig/charting-data.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/charting-data.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/charting-data.md`
+- **commandCompare()** (20 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commitComparePair()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **extractCompareOptions()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **formatDiagnostics()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **reportCompareFailure()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **compareCommitError()** (2 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **compareReceiptPath()** (2 connections) — `.agents/skills/archify/bin/archify.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 46]] (11 shared connections)
+- [[Community 113]] (4 shared connections)
+- [[Community 146]] (3 shared connections)
+- [[Community 84]] (2 shared connections)
+- [[Community 61]] (2 shared connections)
+- [[Community 104]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/charting-data.md`
+- `.agents/skills/archify/bin/archify.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 27 (75%)
+- INFERRED: 9 (25%)
 - AMBIGUOUS: 0 (0%)
 
 ---

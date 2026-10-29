@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **Brand marks** (2 connections) — `.agents/skills/archify/references/brand-marks.md`
-- **brand-marks.md** (1 connections) — `.agents/skills/archify/references/brand-marks.md`
-- **Agent decision path** (1 connections) — `.agents/skills/archify/references/brand-marks.md`
+- **Android Release Keystore & Bundle Guide** (2 connections) — `docs/mobile/android-keystore-generation.md`
+- **android-keystore-generation.md** (1 connections) — `docs/mobile/android-keystore-generation.md`
+- **Commands** (1 connections) — `docs/mobile/android-keystore-generation.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/references/brand-marks.md`
+- `docs/mobile/android-keystore-generation.md`
 
 ## Audit Trail
 

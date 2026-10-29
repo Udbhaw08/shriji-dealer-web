@@ -1,8 +1,8 @@
 # CODEBASE.md — Project Architecture & Feature Guide
 
 > **Auto-generated documentation**
-> Last synchronized: 2026-10-29T18:02:56.087+05:30 (GMT+5:30)
-> Total Project Files: 2136
+> Last synchronized: 2026-10-29T18:36:04.582+05:30 (GMT+5:30)
+> Total Project Files: 2146
 
 ---
 
@@ -95,25 +95,25 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 - **`src/pages/ContentAdminDashboard.jsx`** (74.3 KB)
 - **`src/pages/DealerApply.jsx`** (0.4 KB)
 - **`src/pages/DealerDashboard.jsx`** (52.4 KB)
-- **`src/pages/DealerPending.jsx`** (18.8 KB)
+- **`src/pages/DealerPending.jsx`** (23.3 KB)
 - **`src/pages/Favorites.jsx`** (16.3 KB)
 - **`src/pages/Home.jsx`** (21.9 KB)
 - **`src/pages/LegalPrivacy.jsx`** (5.8 KB)
 - **`src/pages/LegalTerms.jsx`** (4.2 KB)
-- **`src/pages/Login.jsx`** (69.8 KB)
+- **`src/pages/Login.jsx`** (83.6 KB)
 - **`src/pages/PrivacyPolicy.jsx`** (0.0 KB)
 - **`src/pages/Product.jsx`** (37.5 KB)
 - **`src/pages/Products.jsx`** (34.3 KB)
 - **`src/pages/Schemes.jsx`** (18.0 KB)
 - **`src/pages/StaffDashboard.jsx`** (46.7 KB)
-- **`src/pages/StaffJoin.jsx`** (24.9 KB)
+- **`src/pages/StaffJoin.jsx`** (26.6 KB)
 - **`src/pages/Support.jsx`** (29.4 KB)
 - **`src/pages/TermsOfService.jsx`** (0.0 KB)
 
 ### 4.2 Reusable Components (`src/components/` & `src/ui.jsx`)
 - **`src/components/A11yAnnouncer.jsx`** (0.5 KB)
 - **`src/components/BrandApplyFlow.jsx`** (50.2 KB)
-- **`src/components/EmailVerificationPrompt.jsx`** (10.5 KB)
+- **`src/components/EmailVerificationPrompt.jsx`** (10.8 KB)
 - **`src/components/ErrorBoundary.jsx`** (0.8 KB)
 - **`src/components/FileOrUrlInput.jsx`** (15.2 KB)
 - **`src/components/HeroSlider.jsx`** (18.2 KB)
@@ -121,6 +121,7 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 - **`src/components/NativeBackHandler.jsx`** (3.7 KB)
 - **`src/components/NetworkStatusBadge.jsx`** (0.8 KB)
 - **`src/components/OtpDispatchFeedback.jsx`** (3.4 KB)
+- **`src/components/PhoneVerificationPrompt.jsx`** (11.7 KB)
 - **`src/components/PriceBlock.jsx`** (6.6 KB)
 - **`src/components/ProductCard.jsx`** (3.9 KB)
 - **`src/components/ProductSearchBar.jsx`** (16.6 KB)

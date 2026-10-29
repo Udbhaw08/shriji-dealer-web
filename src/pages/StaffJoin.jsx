@@ -86,7 +86,7 @@ export default function StaffJoin() {
       errors.email = "Please enter a valid email address";
     }
 
-    if (form.phone.trim() && !isValidPhone(form.phone)) {
+    if (!form.phone.trim() || !isValidPhone(form.phone)) {
       errors.phone = "Please enter a valid 10-digit mobile number";
     }
 
@@ -303,7 +303,30 @@ export default function StaffJoin() {
               </div>
             </div>
 
-            <div style={{ textAlign: "center", paddingTop: 8 }}>
+            <div style={{
+              padding: "12px 16px",
+              background: "var(--bg-subtle, #f8fafc)",
+              borderRadius: "var(--r-md, 10px)",
+              border: "1px solid var(--border, #e2e8f0)",
+              textAlign: "center",
+              fontSize: ".88rem",
+              color: "var(--tx-muted, #64748b)",
+              marginBottom: 12,
+            }}>
+              Already registered as staff?{" "}
+              <Link
+                to="/login?role=staff"
+                style={{
+                  color: "var(--brand, #0f172a)",
+                  fontWeight: 700,
+                  textDecoration: "underline",
+                }}
+              >
+                Sign In with Email & Password →
+              </Link>
+            </div>
+
+            <div style={{ textAlign: "center", paddingTop: 4 }}>
               <span style={{ fontSize: ".86rem", color: "var(--tx-muted, #64748b)" }}>
                 Are you a business owner applying for your own dealership?{" "}
                 <Link to="/dealer/apply" style={{
@@ -459,7 +482,7 @@ export default function StaffJoin() {
                 )}
               </div>
 
-              {/* Mobile Phone (Optional / Recommended) */}
+              {/* Mobile Phone (Required) */}
               <div>
                 <label htmlFor="staff-phone" style={{
                   display: "block",
@@ -468,7 +491,7 @@ export default function StaffJoin() {
                   color: "var(--tx-1, #1e293b)",
                   marginBottom: 6,
                 }}>
-                  Mobile Phone Number <span style={{ fontWeight: 400, color: "var(--tx-muted, #64748b)", fontSize: ".8rem" }}>(10 digits)</span>
+                  Mobile Phone Number <span style={{ color: "#ef4444" }}>*</span> <span style={{ fontWeight: 400, color: "var(--tx-muted, #64748b)", fontSize: ".8rem" }}>(10 digits)</span>
                 </label>
                 <div style={{ display: "flex", gap: 6 }}>
                   <span style={{
@@ -487,6 +510,7 @@ export default function StaffJoin() {
                   <input
                     id="staff-phone"
                     type="tel"
+                    required
                     maxLength={10}
                     value={form.phone}
                     onChange={(e) => {
@@ -667,6 +691,29 @@ export default function StaffJoin() {
                 marginTop: 4,
               }}>
                 By joining, a pending access request will be sent to the dealership owner for authorization.
+              </div>
+
+              <div style={{
+                marginTop: 12,
+                padding: "12px 16px",
+                background: "var(--bg-subtle, #f8fafc)",
+                borderRadius: "var(--r-md, 10px)",
+                border: "1px solid var(--border, #e2e8f0)",
+                textAlign: "center",
+                fontSize: ".88rem",
+                color: "var(--tx-muted, #64748b)",
+              }}>
+                Already registered as staff?{" "}
+                <Link
+                  to="/login?role=staff"
+                  style={{
+                    color: "var(--brand, #0f172a)",
+                    fontWeight: 700,
+                    textDecoration: "underline",
+                  }}
+                >
+                  Sign In with Email & Password →
+                </Link>
               </div>
             </form>
           </div>

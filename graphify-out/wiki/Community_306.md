@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **Focus and selection** (5 connections) — `.agents/skills/apple-design/references/hig/focus-and-selection.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/focus-and-selection.md`
-- **focus-and-selection.md** (1 connections) — `.agents/skills/apple-design/references/hig/focus-and-selection.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/focus-and-selection.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/focus-and-selection.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/focus-and-selection.md`
-- **Tablet (iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/focus-and-selection.md`
+- **MockStorage** (6 connections) — `src/data/productsStore.test.mjs`
+- **productsStore.test.mjs** (1 connections) — `src/data/productsStore.test.mjs`
+- **.clear()** (1 connections) — `src/data/productsStore.test.mjs`
+- **.constructor()** (1 connections) — `src/data/productsStore.test.mjs`
+- **.getItem()** (1 connections) — `src/data/productsStore.test.mjs`
+- **.removeItem()** (1 connections) — `src/data/productsStore.test.mjs`
+- **.setItem()** (1 connections) — `src/data/productsStore.test.mjs`
 
 ## Relationships
 
@@ -18,7 +18,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/focus-and-selection.md`
+- `src/data/productsStore.test.mjs`
 
 ## Audit Trail
 

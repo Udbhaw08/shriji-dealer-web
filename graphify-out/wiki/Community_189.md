@@ -1,32 +1,35 @@
 # Community 189
 
-> 11 nodes · cohesion 0.18
+> 11 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **httpErrors.js** (5 connections) — `backend/src/utils/httpErrors.js`
-- **BadRequestError** (2 connections) — `backend/src/utils/httpErrors.js`
-- **ForbiddenError** (2 connections) — `backend/src/utils/httpErrors.js`
-- **HttpError** (2 connections) — `backend/src/utils/httpErrors.js`
-- **NotFoundError** (2 connections) — `backend/src/utils/httpErrors.js`
-- **UnauthorizedError** (2 connections) — `backend/src/utils/httpErrors.js`
-- **.constructor()** (1 connections) — `backend/src/utils/httpErrors.js`
-- **.constructor()** (1 connections) — `backend/src/utils/httpErrors.js`
-- **.constructor()** (1 connections) — `backend/src/utils/httpErrors.js`
-- **.constructor()** (1 connections) — `backend/src/utils/httpErrors.js`
-- **.constructor()** (1 connections) — `backend/src/utils/httpErrors.js`
+- **reader-layout-browser.test.mjs** (13 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
+- **load()** (6 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
+- **evaluate()** (5 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
+- **media()** (3 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
+- **stable()** (3 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
+- **viewport()** (3 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
+- **snapshot()** (2 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
+- **cases** (1 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
+- **inactive()** (1 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
+- **variant()** (1 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 54]] (4 shared connections)
+- [[Community 48]] (1 shared connections)
+- [[Community 83]] (1 shared connections)
+- [[Community 132]] (1 shared connections)
 
 ## Source Files
 
-- `backend/src/utils/httpErrors.js`
+- `.agents/skills/archify/test/reader-layout-browser.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
+- EXTRACTED: 39 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

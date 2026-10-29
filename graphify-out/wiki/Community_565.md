@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **build_wiki.py** (0 connections) — `scripts/build_wiki.py`
+- **site.test.mjs** (0 connections) — `src/data/site.test.mjs`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `scripts/build_wiki.py`
+- `src/data/site.test.mjs`
 
 ## Audit Trail
 

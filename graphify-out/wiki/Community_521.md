@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **hygiene.md** (1 connections) — `.agents/skills/swiftui-pro/references/hygiene.md`
-- **Hygiene** (1 connections) — `.agents/skills/swiftui-pro/references/hygiene.md`
+- **requestLogger.js** (1 connections) — `backend/src/middleware/requestLogger.js`
+- **requestLogger()** (1 connections) — `backend/src/middleware/requestLogger.js`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `.agents/skills/swiftui-pro/references/hygiene.md`
+- `backend/src/middleware/requestLogger.js`
 
 ## Audit Trail
 

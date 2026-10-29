@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **cryptoUtils.js** (2 connections) — `backend/src/utils/cryptoUtils.js`
-- **generateSecureOtp()** (1 connections) — `backend/src/utils/cryptoUtils.js`
-- **generateSecureToken()** (1 connections) — `backend/src/utils/cryptoUtils.js`
+- **toolbar-polish.test.mjs** (2 connections) — `.agents/skills/archify/test/toolbar-polish.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/toolbar-polish.test.mjs`
+- **template** (1 connections) — `.agents/skills/archify/test/toolbar-polish.test.mjs`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `backend/src/utils/cryptoUtils.js`
+- `.agents/skills/archify/test/toolbar-polish.test.mjs`
 
 ## Audit Trail
 

@@ -1,59 +1,51 @@
 # Community 50
 
-> 29 nodes · cohesion 0.10
+> 30 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **compatibilitySuite.test.mjs** (20 connections) — `backend/test/compatibilitySuite.test.mjs`
-- **securityPhase1.test.mjs** (16 connections) — `backend/test/securityPhase1.test.mjs`
-- **upload.js** (11 connections) — `backend/src/routes/upload.js`
-- **upload.js** (9 connections) — `api/upload.js`
-- **verifyAdminAuth()** (9 connections) — `api/_lib/adminAuth.js`
-- **uploads.js** (8 connections) — `backend/src/routes/uploads.js`
-- **adminAuth.js** (6 connections) — `api/_lib/adminAuth.js`
-- **handler()** (4 connections) — `api/upload.js`
-- **contentRouter** (4 connections) — `backend/src/routes/content.js`
-- **uploadRouter** (4 connections) — `backend/src/routes/upload.js`
-- **uploadsRouter** (4 connections) — `backend/src/routes/uploads.js`
-- **login.js** (3 connections) — `api/admin/login.js`
-- **handler()** (2 connections) — `api/admin/login.js`
-- **validateMagicBytes()** (2 connections) — `api/upload.js`
-- **ALLOWED_EXTENSIONS** (1 connections) — `api/upload.js`
-- **ALLOWED_FOLDERS** (1 connections) — `api/upload.js`
-- **MIME_TYPES** (1 connections) — `api/upload.js`
-- **ALLOWED_FOLDERS** (1 connections) — `backend/src/routes/upload.js`
-- **SAFE_EXTENSIONS** (1 connections) — `backend/src/routes/upload.js`
-- **validateMagicBytes()** (1 connections) — `backend/src/routes/upload.js`
-- **ALLOWED_FOLDERS** (1 connections) — `backend/src/routes/uploads.js`
-- **MIME_TYPES** (1 connections) — `backend/src/routes/uploads.js`
-- **json()** (1 connections) — `backend/test/compatibilitySuite.test.mjs`
-- **status()** (1 connections) — `backend/test/compatibilitySuite.test.mjs`
-- **json()** (1 connections) — `backend/test/securityPhase1.test.mjs`
-- *... and 4 more nodes in this community*
+- **check-update.mjs** (99 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **encodeRecoverableState()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **guardedCacheEntryRead()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **notification()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **operationIsActive()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **stateAfterFailedCheck()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **stateWithFailureCheck()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **assertSafeCacheEntry()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **cancelResponseBody()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **corruptClaimStatus()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **encodeBoundedState()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **eventKeyForDigest()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **metadataIsWithinLease()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **nextFailedCheck()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **readBoundedBody()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **stateAfterAcknowledgement()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **assertRenameableCacheEntry()** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **assertSafeRegularFile()** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **CacheOperationRaceError** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **CachePathChangedError** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **defaultCacheDirectory()** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **defaultReleasePath** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **FileIdentityChangedError** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **isMainModule()** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **MAX_CACHE_HORIZON_MS** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- *... and 5 more nodes in this community*
 
 ## Relationships
 
-- [[Architecture Doc Generator]] (11 shared connections)
-- [[Zoho Integration Skill]] (7 shared connections)
-- [[Community 89]] (6 shared connections)
-- [[Community 234]] (4 shared connections)
-- [[Community 252]] (3 shared connections)
-- [[Community 115]] (2 shared connections)
+- [[Community 95]] (21 shared connections)
+- [[Community 112]] (19 shared connections)
+- [[Community 103]] (19 shared connections)
+- [[Community 63]] (16 shared connections)
+- [[Community 36]] (1 shared connections)
 
 ## Source Files
 
-- `api/_lib/adminAuth.js`
-- `api/admin/login.js`
-- `api/upload.js`
-- `backend/src/routes/content.js`
-- `backend/src/routes/upload.js`
-- `backend/src/routes/uploads.js`
-- `backend/test/compatibilitySuite.test.mjs`
-- `backend/test/securityPhase1.test.mjs`
+- `.agents/skills/archify/scripts/check-update.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 117 (100%)
+- EXTRACTED: 152 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

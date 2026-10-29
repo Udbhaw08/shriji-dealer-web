@@ -1,35 +1,39 @@
 # Community 129
 
-> 14 nodes · cohesion 0.23
+> 15 nodes · cohesion 0.30
 
 ## Key Concepts
 
-- **web-rvk28B0B.js** (13 connections) — `android/app/src/main/assets/public/assets/web-rvk28B0B.js`
-- **applyPrefix()** (4 connections) — `android/app/src/main/assets/public/assets/web-rvk28B0B.js`
-- **keys()** (4 connections) — `android/app/src/main/assets/public/assets/web-rvk28B0B.js`
-- **get()** (3 connections) — `android/app/src/main/assets/public/assets/web-rvk28B0B.js`
-- **migrate()** (3 connections) — `android/app/src/main/assets/public/assets/web-rvk28B0B.js`
-- **rawKeys()** (3 connections) — `android/app/src/main/assets/public/assets/web-rvk28B0B.js`
-- **clear()** (2 connections) — `android/app/src/main/assets/public/assets/web-rvk28B0B.js`
-- **remove()** (2 connections) — `android/app/src/main/assets/public/assets/web-rvk28B0B.js`
-- **removeOld()** (2 connections) — `android/app/src/main/assets/public/assets/web-rvk28B0B.js`
-- **set()** (2 connections) — `android/app/src/main/assets/public/assets/web-rvk28B0B.js`
-- **configure()** (1 connections) — `android/app/src/main/assets/public/assets/web-rvk28B0B.js`
-- **constructor()** (1 connections) — `android/app/src/main/assets/public/assets/web-rvk28B0B.js`
-- **impl()** (1 connections) — `android/app/src/main/assets/public/assets/web-rvk28B0B.js`
-- **prefix()** (1 connections) — `android/app/src/main/assets/public/assets/web-rvk28B0B.js`
+- **crmClient.js** (35 connections) — `backend/src/services/crmClient.js`
+- **crmFetch()** (14 connections) — `backend/src/services/crmClient.js`
+- **crmConfigured()** (8 connections) — `backend/src/services/crmClient.js`
+- **findOwnerContactInAccount()** (5 connections) — `backend/src/services/crmClient.js`
+- **updateContactDetails()** (5 connections) — `backend/src/services/crmClient.js`
+- **updateDealerCodeInCrm()** (5 connections) — `backend/src/services/crmClient.js`
+- **deactivateAccountInCrm()** (3 connections) — `backend/src/services/crmClient.js`
+- **deactivateContactInCrm()** (3 connections) — `backend/src/services/crmClient.js`
+- **getDealerAccount()** (3 connections) — `backend/src/services/crmClient.js`
+- **isCrmConfigured()** (3 connections) — `backend/src/services/crmClient.js`
+- **getAccessToken()** (2 connections) — `backend/src/services/crmClient.js`
+- **getDealerContact()** (2 connections) — `backend/src/services/crmClient.js`
+- **getPrimaryContactForAccount()** (2 connections) — `backend/src/services/crmClient.js`
+- **linkContactToBackendUser()** (2 connections) — `backend/src/services/crmClient.js`
+- **FIELDS** (1 connections) — `backend/src/services/crmClient.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Vercel Deployment Routing]] (18 shared connections)
+- [[Live Pricing Audit Tool]] (8 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (4 shared connections)
+- [[Community 328]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/web-rvk28B0B.js`
+- `backend/src/services/crmClient.js`
 
 ## Audit Trail
 
-- EXTRACTED: 42 (100%)
+- EXTRACTED: 93 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

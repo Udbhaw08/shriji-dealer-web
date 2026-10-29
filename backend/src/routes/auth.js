@@ -390,9 +390,20 @@ authRouter.get('/me', jwtAuth, async (req, res, next) => {
     let dealer = (await sql`select * from dealers where id = ${userDealerId} or owner_user_id = ${user.id} order by case when status = 'approved' then 1 when status = 'pending' then 2 else 3 end asc limit 1`)[0] || null;
     if (dealer?.zoho_account_id && crm.isCrmConfigured()) {
       const last = lastCrmSyncByDealerId.get(dealer.id) || 0;
-      if (Date.now() - last > 15 * 60_000) {
+      const forceRefresh = req.query?.refresh === 'true' || req.query?.force === 'true';
+      const syncInterval = dealer.status === 'pending' ? 15_000 : 60_000;
+      if (forceRefresh || Date.now() - last > syncInterval) {
         lastCrmSyncByDealerId.set(dealer.id, Date.now());
-        try { const account = await crm.getDealerAccount(dealer.zoho_account_id); if (account) await applyCrmAccountState(dealer, account); } catch (error) { log.warn('[auth/me] CRM sync skipped:', error.message); }
+        try {
+          const account = await crm.getDealerAccount(dealer.zoho_account_id);
+          if (account) {
+            const changed = await applyCrmAccountState(dealer, account);
+            if (changed) {
+              const fresh = (await sql`select * from dealers where id = ${dealer.id} limit 1`)[0];
+              if (fresh) dealer = fresh;
+            }
+          }
+        } catch (error) { log.warn('[auth/me] CRM sync skipped:', error.message); }
       }
     }
     if (dealer) dealer = { ...dealer, pricebook_id: await resolvePricebookId(dealer.price_tier), hide_staff_dealer_price: Boolean(dealer.hide_staff_dealer_price) };

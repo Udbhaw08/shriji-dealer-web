@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **requestLogger.js** (1 connections) — `backend/src/middleware/requestLogger.js`
-- **requestLogger()** (1 connections) — `backend/src/middleware/requestLogger.js`
+- **SkipToContent.jsx** (1 connections) — `src/components/SkipToContent.jsx`
+- **SkipToContent()** (1 connections) — `src/components/SkipToContent.jsx`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `backend/src/middleware/requestLogger.js`
+- `src/components/SkipToContent.jsx`
 
 ## Audit Trail
 

@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **ipUtils.js** (1 connections) — `backend/src/utils/ipUtils.js`
-- **getClientIp()** (1 connections) — `backend/src/utils/ipUtils.js`
+- **clipboard.js** (1 connections) — `src/utils/clipboard.js`
+- **copyToClipboard()** (1 connections) — `src/utils/clipboard.js`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `backend/src/utils/ipUtils.js`
+- `src/utils/clipboard.js`
 
 ## Audit Trail
 

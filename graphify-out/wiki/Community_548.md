@@ -1,10 +1,11 @@
 # Community 548
 
-> 1 nodes · cohesion 1.00
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **cordova.js** (0 connections) — `android/app/src/main/assets/public/cordova.js`
+- **retryHelper.js** (1 connections) — `backend/src/utils/retryHelper.js`
+- **retryWithBackoff()** (1 connections) — `backend/src/utils/retryHelper.js`
 
 ## Relationships
 
@@ -12,11 +13,11 @@
 
 ## Source Files
 
-- `android/app/src/main/assets/public/cordova.js`
+- `backend/src/utils/retryHelper.js`
 
 ## Audit Trail
 
-- EXTRACTED: 0 (0%)
+- EXTRACTED: 2 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

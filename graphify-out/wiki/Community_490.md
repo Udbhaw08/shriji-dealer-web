@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **Rate Limiting Strategies & Brute-Force Defense** (2 connections) — `docs/security/rate-limiting-strategies.md`
-- **rate-limiting-strategies.md** (1 connections) — `docs/security/rate-limiting-strategies.md`
-- **Security Thresholds** (1 connections) — `docs/security/rate-limiting-strategies.md`
+- **check-env.mjs** (2 connections) — `scripts/check-env.mjs`
+- **missing** (1 connections) — `scripts/check-env.mjs`
+- **requiredEnv** (1 connections) — `scripts/check-env.mjs`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/security/rate-limiting-strategies.md`
+- `scripts/check-env.mjs`
 
 ## Audit Trail
 

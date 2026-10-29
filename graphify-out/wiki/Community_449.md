@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **Supabase Database Schema Reference** (2 connections) — `docs/architecture/supabase-schema-reference.md`
-- **supabase-schema-reference.md** (1 connections) — `docs/architecture/supabase-schema-reference.md`
-- **Primary Tables** (1 connections) — `docs/architecture/supabase-schema-reference.md`
+- **Multi-Tenant Dealer Schema** (2 connections) — `docs/architecture/multi-tenant-dealer-schema.md`
+- **multi-tenant-dealer-schema.md** (1 connections) — `docs/architecture/multi-tenant-dealer-schema.md`
+- **Workspace Isolation** (1 connections) — `docs/architecture/multi-tenant-dealer-schema.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/architecture/supabase-schema-reference.md`
+- `docs/architecture/multi-tenant-dealer-schema.md`
 
 ## Audit Trail
 

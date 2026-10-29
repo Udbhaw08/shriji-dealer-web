@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **analytics.js** (1 connections) — `src/utils/analytics.js`
-- **trackEvent()** (1 connections) — `src/utils/analytics.js`
+- **smsFallback.js** (1 connections) — `backend/src/services/smsFallback.js`
+- **sendSmsOtpFallback()** (1 connections) — `backend/src/services/smsFallback.js`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `src/utils/analytics.js`
+- `backend/src/services/smsFallback.js`
 
 ## Audit Trail
 

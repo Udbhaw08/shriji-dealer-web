@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **Microservices Decoupled Architecture** (2 connections) — `docs/architecture/microservices-architecture.md`
-- **microservices-architecture.md** (1 connections) — `docs/architecture/microservices-architecture.md`
-- **Overview** (1 connections) — `docs/architecture/microservices-architecture.md`
+- **Zoho CRM Webhook Event Payloads** (2 connections) — `docs/api/webhook-event-types.md`
+- **webhook-event-types.md** (1 connections) — `docs/api/webhook-event-types.md`
+- **Event: dealer.approved** (1 connections) — `docs/api/webhook-event-types.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/architecture/microservices-architecture.md`
+- `docs/api/webhook-event-types.md`
 
 ## Audit Trail
 

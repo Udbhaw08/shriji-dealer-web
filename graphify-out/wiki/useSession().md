@@ -1,8 +1,8 @@
 # useSession()
 
-> God node · 40 connections · `src/data/session.js`
+> God node · 42 connections · `src/data/session.js`
 
-**Community:** [[Community 46]]
+**Community:** [[Community 47]]
 
 ## Connections by Relation
 
@@ -23,10 +23,10 @@
 - [[StaffDashboard()]] `EXTRACTED`
 - [[StaffJoin()]] `EXTRACTED`
 - [[EmailVerificationPrompt()]] `EXTRACTED`
+- [[PhoneVerificationPrompt()]] `EXTRACTED`
 - [[DealerApply()]] `EXTRACTED`
 - [[DealerDashboard()]] `EXTRACTED`
 - [[DealerPending()]] `EXTRACTED`
-- [[ConditionalBottomNav()]] `EXTRACTED`
 
 ### contains
 - [[session.js]] `EXTRACTED`
@@ -49,6 +49,7 @@
 - [[StaffDashboard.jsx]] `EXTRACTED`
 - [[StaffJoin.jsx]] `EXTRACTED`
 - [[EmailVerificationPrompt.jsx]] `EXTRACTED`
+- [[PhoneVerificationPrompt.jsx]] `EXTRACTED`
 - [[DealerPending.jsx]] `EXTRACTED`
 
 ---

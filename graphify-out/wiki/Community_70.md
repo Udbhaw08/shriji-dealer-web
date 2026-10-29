@@ -1,44 +1,47 @@
 # Community 70
 
-> 23 nodes · cohesion 0.09
+> 24 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **package.json** (9 connections) — `backend/package.json`
-- **dependencies** (7 connections) — `backend/package.json`
-- **scripts** (7 connections) — `backend/package.json`
-- **engines** (2 connections) — `backend/package.json`
-- **dotenv** (1 connections) — `backend/package.json`
-- **express** (1 connections) — `backend/package.json`
-- **google-auth-library** (1 connections) — `backend/package.json`
-- **jsonwebtoken** (1 connections) — `backend/package.json`
-- **postgres** (1 connections) — `backend/package.json`
-- **resend** (1 connections) — `backend/package.json`
-- **description** (1 connections) — `backend/package.json`
-- **node** (1 connections) — `backend/package.json`
-- **main** (1 connections) — `backend/package.json`
-- **name** (1 connections) — `backend/package.json`
-- **private** (1 connections) — `backend/package.json`
-- **build** (1 connections) — `backend/package.json`
-- **check:ready** (1 connections) — `backend/package.json`
-- **dev** (1 connections) — `backend/package.json`
-- **migrate** (1 connections) — `backend/package.json`
-- **start** (1 connections) — `backend/package.json`
-- **test** (1 connections) — `backend/package.json`
-- **type** (1 connections) — `backend/package.json`
-- **version** (1 connections) — `backend/package.json`
+- **properties** (12 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **viewBox** (6 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **column_fit** (3 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **animation** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **locale** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **output** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **quality_profile** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **subtitle** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **views** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **visual_preset** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **description** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **enum** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **items** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **maxItems** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **minItems** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **prefixItems** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 208]] (1 shared connections)
+- [[Community 485]] (1 shared connections)
+- [[Community 428]] (1 shared connections)
 
 ## Source Files
 
-- `backend/package.json`
+- `.agents/skills/archify/schemas/sequence.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 44 (100%)
+- EXTRACTED: 49 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

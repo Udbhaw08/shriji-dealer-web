@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **colorUtils.js** (1 connections) — `src/utils/colorUtils.js`
-- **hexToRgba()** (1 connections) — `src/utils/colorUtils.js`
+- **a11y.js** (1 connections) — `src/utils/a11y.js`
+- **trapFocus()** (1 connections) — `src/utils/a11y.js`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `src/utils/colorUtils.js`
+- `src/utils/a11y.js`
 
 ## Audit Trail
 

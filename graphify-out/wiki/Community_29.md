@@ -1,63 +1,47 @@
 # Community 29
 
-> 41 nodes · cohesion 0.15
+> 40 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **auth.js** (54 connections) — `backend/src/routes/auth.js`
-- **dealerApp.js** (44 connections) — `backend/src/services/dealerApp.js`
-- **normalizePhone()** (21 connections) — `backend/src/utils/phone.js`
-- **normalizeEmail()** (18 connections) — `backend/src/utils/validators.js`
-- **notifications.js** (16 connections) — `backend/src/services/notifications.js`
-- **validators.js** (15 connections) — `backend/src/utils/validators.js`
-- **requestDealerRegistrationOtp()** (14 connections) — `backend/src/services/dealerApp.js`
-- **finalizeDealerRegistration()** (12 connections) — `backend/src/services/dealerApp.js`
-- **isValidPhone()** (11 connections) — `backend/src/utils/validators.js`
-- **cleanName()** (9 connections) — `backend/src/utils/validators.js`
-- **httpError()** (8 connections) — `backend/src/middleware/errorHandler.js`
-- **validators.test.mjs** (8 connections) — `backend/test/validators.test.mjs`
-- **phone.js** (8 connections) — `backend/src/utils/phone.js`
-- **verifyDealerRegistrationOtp()** (7 connections) — `backend/src/services/dealerApp.js`
-- **sendWhatsAppOtp()** (7 connections) — `backend/src/services/notifications.js`
-- **isValidEmail()** (7 connections) — `backend/src/utils/validators.js`
-- **interconnection.test.mjs** (6 connections) — `backend/test/interconnection.test.mjs`
-- **isValidName()** (6 connections) — `backend/src/utils/validators.js`
-- **issueSession()** (5 connections) — `backend/src/routes/auth.js`
-- **createDealerAccount()** (5 connections) — `backend/src/services/crmClient.js`
-- **createDealerContact()** (5 connections) — `backend/src/services/crmClient.js`
-- **applyCrmContactState()** (5 connections) — `backend/src/services/dealerApp.js`
-- **sendEmailOtp()** (5 connections) — `backend/src/services/notifications.js`
-- **generateOtp()** (5 connections) — `backend/src/utils/hash.js`
-- **isValidGstin()** (5 connections) — `backend/src/utils/validators.js`
-- *... and 16 more nodes in this community*
+- **Color Guide** (13 connections) — `.agents/skills/refero-design/references/color.md`
+- **2. Palette Structure** (5 connections) — `.agents/skills/refero-design/references/color.md`
+- **5. Light and Dark Themes** (5 connections) — `.agents/skills/refero-design/references/color.md`
+- **7. Building a Palette from Scratch** (5 connections) — `.agents/skills/refero-design/references/color.md`
+- **4. Contrast and Readability** (4 connections) — `.agents/skills/refero-design/references/color.md`
+- **6. Naming Tokens** (4 connections) — `.agents/skills/refero-design/references/color.md`
+- **9. Anti-Patterns** (4 connections) — `.agents/skills/refero-design/references/color.md`
+- **1. Color Space** (3 connections) — `.agents/skills/refero-design/references/color.md`
+- **3. The 60/30/10 Rule** (3 connections) — `.agents/skills/refero-design/references/color.md`
+- **8. Gradients** (2 connections) — `.agents/skills/refero-design/references/color.md`
+- **color.md** (1 connections) — `.agents/skills/refero-design/references/color.md`
+- **0. Context First** (1 connections) — `.agents/skills/refero-design/references/color.md`
+- **10. Pre-Ship Checklist** (1 connections) — `.agents/skills/refero-design/references/color.md`
+- **2.1 Neutrals (Most Important)** (1 connections) — `.agents/skills/refero-design/references/color.md`
+- **2.2 Primary Accent** (1 connections) — `.agents/skills/refero-design/references/color.md`
+- **2.3 Semantic Colors** (1 connections) — `.agents/skills/refero-design/references/color.md`
+- **2.4 Effects (Only If Needed)** (1 connections) — `.agents/skills/refero-design/references/color.md`
+- **Appendix: Complete Token System** (1 connections) — `.agents/skills/refero-design/references/color.md`
+- **Bad** (1 connections) — `.agents/skills/refero-design/references/color.md`
+- **Common Failures** (1 connections) — `.agents/skills/refero-design/references/color.md`
+- **Component Color Limit** (1 connections) — `.agents/skills/refero-design/references/color.md`
+- **Dark Mode: Technical Implementation** (1 connections) — `.agents/skills/refero-design/references/color.md`
+- **Dark Theme Elevation** (1 connections) — `.agents/skills/refero-design/references/color.md`
+- **Good** (1 connections) — `.agents/skills/refero-design/references/color.md`
+- **Minimum Requirements** (1 connections) — `.agents/skills/refero-design/references/color.md`
+- *... and 15 more nodes in this community*
 
 ## Relationships
 
-- [[Zoho Integration Skill]] (33 shared connections)
-- [[Architecture Doc Generator]] (22 shared connections)
-- [[Community 127]] (18 shared connections)
-- [[Product Brand & Business Vision]] (15 shared connections)
-- [[Community 115]] (6 shared connections)
-- [[Community 140]] (4 shared connections)
-- [[Community 325]] (3 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `backend/src/middleware/errorHandler.js`
-- `backend/src/routes/auth.js`
-- `backend/src/routes/dealers.js`
-- `backend/src/services/crmClient.js`
-- `backend/src/services/dealerApp.js`
-- `backend/src/services/notifications.js`
-- `backend/src/utils/hash.js`
-- `backend/src/utils/phone.js`
-- `backend/src/utils/validators.js`
-- `backend/test/interconnection.test.mjs`
-- `backend/test/validators.test.mjs`
+- `.agents/skills/refero-design/references/color.md`
 
 ## Audit Trail
 
-- EXTRACTED: 347 (100%)
+- EXTRACTED: 78 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

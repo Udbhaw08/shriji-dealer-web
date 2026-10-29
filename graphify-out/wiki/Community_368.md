@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **SKILL.md** (3 connections) — `.agents/skills/swiftui-pro/SKILL.md`
-- **Output Format** (3 connections) — `.agents/skills/swiftui-pro/SKILL.md`
-- **ContentView.swift** (1 connections) — `.agents/skills/swiftui-pro/SKILL.md`
-- **Core Instructions** (1 connections) — `.agents/skills/swiftui-pro/SKILL.md`
-- **References** (1 connections) — `.agents/skills/swiftui-pro/SKILL.md`
-- **Summary** (1 connections) — `.agents/skills/swiftui-pro/SKILL.md`
+- **CacheManager** (4 connections) — `backend/src/services/cacheManager.js`
+- **cacheManager.js** (2 connections) — `backend/src/services/cacheManager.js`
+- **.constructor()** (1 connections) — `backend/src/services/cacheManager.js`
+- **.get()** (1 connections) — `backend/src/services/cacheManager.js`
+- **.set()** (1 connections) — `backend/src/services/cacheManager.js`
+- **globalCache** (1 connections) — `backend/src/services/cacheManager.js`
 
 ## Relationships
 
@@ -17,7 +17,7 @@
 
 ## Source Files
 
-- `.agents/skills/swiftui-pro/SKILL.md`
+- `backend/src/services/cacheManager.js`
 
 ## Audit Trail
 

@@ -1,47 +1,55 @@
 # Community 56
 
-> 26 nodes · cohesion 0.08
+> 26 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **Copywriting Guide** (15 connections) — `.agents/skills/refero-design/references/copywriting.md`
-- **Banned Words** (5 connections) — `.agents/skills/refero-design/references/copywriting.md`
-- **Microcopy** (4 connections) — `.agents/skills/refero-design/references/copywriting.md`
-- **Product UI Copy** (4 connections) — `.agents/skills/refero-design/references/copywriting.md`
-- **copywriting.md** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
-- **AI Slop Markers** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
-- **Avoid on Operational Surfaces** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
-- **Buttons** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
-- **Core Belief** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
-- **Corporate Zombie** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
-- **Empty States** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
-- **Errors** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
-- **Filler** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
-- **Headings: Descriptive, Not Aspirational** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
-- **Hype** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
-- **Info-Style Thinking** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
-- **Living Words vs Dead Words** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
-- **Marketing Hero Section** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
-- **Pre-Publish Checklist** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
-- **Proof Beats Hype** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
-- **Rhythm** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
-- **The Order of Great Copy** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
-- **The Sticky Line Test** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
-- **Universal Copy Structure** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
-- **When Marketing Tone IS Appropriate in Product** (1 connections) — `.agents/skills/refero-design/references/copywriting.md`
+- **zd()** (13 connections) — `ios/App/App/public/assets/index-C82WY9Ju.js`
+- **Nd()** (12 connections) — `ios/App/App/public/assets/index-C82WY9Ju.js`
+- **qd()** (12 connections) — `ios/App/App/public/assets/index-C82WY9Ju.js`
+- **af()** (10 connections) — `ios/App/App/public/assets/index-C82WY9Ju.js`
+- **tf()** (10 connections) — `ios/App/App/public/assets/index-C82WY9Ju.js`
+- **ef()** (8 connections) — `ios/App/App/public/assets/index-C82WY9Ju.js`
+- **uf()** (8 connections) — `ios/App/App/public/assets/index-C82WY9Ju.js`
+- **Xd()** (8 connections) — `ios/App/App/public/assets/index-C82WY9Ju.js`
+- **et()** (7 connections) — `ios/App/App/public/assets/index-C82WY9Ju.js`
+- **Gd()** (7 connections) — `ios/App/App/public/assets/index-C82WY9Ju.js`
+- **lf()** (7 connections) — `ios/App/App/public/assets/index-C82WY9Ju.js`
+- **tt()** (7 connections) — `ios/App/App/public/assets/index-C82WY9Ju.js`
+- **of()** (6 connections) — `ios/App/App/public/assets/index-C82WY9Ju.js`
+- **Rd()** (6 connections) — `ios/App/App/public/assets/index-C82WY9Ju.js`
+- **Bd()** (5 connections) — `ios/App/App/public/assets/index-C82WY9Ju.js`
+- **sf()** (5 connections) — `ios/App/App/public/assets/index-C82WY9Ju.js`
+- **Vr()** (5 connections) — `ios/App/App/public/assets/index-C82WY9Ju.js`
+- **cf()** (4 connections) — `ios/App/App/public/assets/index-C82WY9Ju.js`
+- **jf()** (4 connections) — `ios/App/App/public/assets/index-C82WY9Ju.js`
+- **Oi()** (4 connections) — `ios/App/App/public/assets/index-C82WY9Ju.js`
+- **Zo()** (4 connections) — `ios/App/App/public/assets/index-C82WY9Ju.js`
+- **Hd()** (3 connections) — `ios/App/App/public/assets/index-C82WY9Ju.js`
+- **Ud()** (3 connections) — `ios/App/App/public/assets/index-C82WY9Ju.js`
+- **Fd()** (2 connections) — `ios/App/App/public/assets/index-C82WY9Ju.js`
+- **fm()** (2 connections) — `ios/App/App/public/assets/index-C82WY9Ju.js`
 - *... and 1 more nodes in this community*
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Dealer Auth & Session Management]] (32 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (11 shared connections)
+- [[Community 38]] (9 shared connections)
+- [[Product Requirements Documentation]] (8 shared connections)
+- [[Community 109]] (5 shared connections)
+- [[Community 33]] (4 shared connections)
+- [[Community 40]] (1 shared connections)
+- [[Community 101]] (1 shared connections)
+- [[Testing & Workflow Skill]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/refero-design/references/copywriting.md`
+- `ios/App/App/public/assets/index-C82WY9Ju.js`
 
 ## Audit Trail
 
-- EXTRACTED: 50 (100%)
+- EXTRACTED: 164 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

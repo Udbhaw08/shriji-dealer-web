@@ -4,18 +4,18 @@
 
 ## Key Concepts
 
-- **Inclusion** (11 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
-- **inclusion.md** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
-- **Accessibility** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
-- **Avoiding stereotypes** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
-- **Being approachable** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
-- **Gender identity** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
-- **Inclusive by design** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
-- **Languages** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
-- **People and settings** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
-- **Welcoming language** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
+- **Designing for iPhone Duo** (7 connections) — `.agents/skills/apple-design/references/hig/designing-for-iphone-duo.md`
+- **Dynamic layouts** (4 connections) — `.agents/skills/apple-design/references/hig/designing-for-iphone-duo.md`
+- **Anatomy** (2 connections) — `.agents/skills/apple-design/references/hig/designing-for-iphone-duo.md`
+- **designing-for-iphone-duo.md** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-iphone-duo.md`
+- **Arrangement views** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-iphone-duo.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-iphone-duo.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-iphone-duo.md`
+- **Device poses** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-iphone-duo.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-iphone-duo.md`
+- **Reserved regions** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-iphone-duo.md`
+- **Split views** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-iphone-duo.md`
+- **Vertical controls** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-iphone-duo.md`
 
 ## Relationships
 
@@ -23,7 +23,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/inclusion.md`
+- `.agents/skills/apple-design/references/hig/designing-for-iphone-duo.md`
 
 ## Audit Trail
 

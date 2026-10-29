@@ -1,55 +1,71 @@
 # Pricing Hierarchy & Zero-Leakage Spec
 
-> 50 nodes · cohesion 0.09
+> 48 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **ff()** (26 connections) — `android/app/src/main/assets/public/assets/index-Ce7xrLWR.js`
-- **Tu()** (18 connections) — `android/app/src/main/assets/public/assets/index-Ce7xrLWR.js`
-- **gl()** (15 connections) — `android/app/src/main/assets/public/assets/index-Ce7xrLWR.js`
-- **pi()** (14 connections) — `android/app/src/main/assets/public/assets/index-Ce7xrLWR.js`
-- **uu()** (13 connections) — `android/app/src/main/assets/public/assets/index-Ce7xrLWR.js`
-- **delete()** (11 connections) — `android/app/src/main/assets/public/assets/index-Ce7xrLWR.js`
-- **lu()** (11 connections) — `android/app/src/main/assets/public/assets/index-Ce7xrLWR.js`
-- **vu()** (11 connections) — `android/app/src/main/assets/public/assets/index-Ce7xrLWR.js`
-- **wa()** (10 connections) — `android/app/src/main/assets/public/assets/index-Ce7xrLWR.js`
-- **zl()** (10 connections) — `android/app/src/main/assets/public/assets/index-Ce7xrLWR.js`
-- **di()** (9 connections) — `android/app/src/main/assets/public/assets/index-Ce7xrLWR.js`
-- **hl()** (9 connections) — `android/app/src/main/assets/public/assets/index-Ce7xrLWR.js`
-- **Iu()** (9 connections) — `android/app/src/main/assets/public/assets/index-Ce7xrLWR.js`
-- **ku()** (9 connections) — `android/app/src/main/assets/public/assets/index-Ce7xrLWR.js`
-- **l()** (9 connections) — `android/app/src/main/assets/public/assets/index-Ce7xrLWR.js`
-- **mu()** (9 connections) — `android/app/src/main/assets/public/assets/index-Ce7xrLWR.js`
-- **wl()** (9 connections) — `android/app/src/main/assets/public/assets/index-Ce7xrLWR.js`
-- **jd()** (8 connections) — `android/app/src/main/assets/public/assets/index-Ce7xrLWR.js`
-- **Sp()** (8 connections) — `android/app/src/main/assets/public/assets/index-Ce7xrLWR.js`
-- **bl()** (7 connections) — `android/app/src/main/assets/public/assets/index-Ce7xrLWR.js`
-- **Eu()** (7 connections) — `android/app/src/main/assets/public/assets/index-Ce7xrLWR.js`
-- **hc()** (7 connections) — `android/app/src/main/assets/public/assets/index-Ce7xrLWR.js`
-- **yl()** (7 connections) — `android/app/src/main/assets/public/assets/index-Ce7xrLWR.js`
-- **Zi()** (7 connections) — `android/app/src/main/assets/public/assets/index-Ce7xrLWR.js`
-- **cu()** (6 connections) — `android/app/src/main/assets/public/assets/index-Ce7xrLWR.js`
-- *... and 25 more nodes in this community*
+- **sql** (79 connections) — `backend/src/db/pool.js`
+- **dealers.js** (50 connections) — `backend/src/routes/dealers.js`
+- **staff.js** (23 connections) — `backend/src/services/staff.js`
+- **audit()** (18 connections) — `backend/src/utils/audit.js`
+- **auth.js** (13 connections) — `backend/src/middleware/auth.js`
+- **applyCrmAccountState()** (12 connections) — `backend/src/services/dealerApp.js`
+- **generateUniqueDealerCode()** (10 connections) — `backend/src/utils/loginCode.js`
+- **applyDealer()** (7 connections) — `backend/src/services/dealerApp.js`
+- **audit.js** (7 connections) — `backend/src/utils/audit.js`
+- **sync-supabase-content.js** (6 connections) — `backend/scripts/sync-supabase-content.js`
+- **provisionDealerInCrm()** (6 connections) — `backend/src/services/dealerApp.js`
+- **createInvite()** (6 connections) — `backend/src/services/staff.js`
+- **jwtAuth()** (5 connections) — `backend/src/middleware/auth.js`
+- **requireAdmin()** (5 connections) — `backend/src/middleware/auth.js`
+- **seed-content.js** (4 connections) — `backend/scripts/seed-content.js`
+- **deactivateDealer()** (4 connections) — `backend/src/services/dealerApp.js`
+- **approveStaff()** (4 connections) — `backend/src/services/staff.js`
+- **deleteStaff()** (4 connections) — `backend/src/services/staff.js`
+- **holdStaff()** (4 connections) — `backend/src/services/staff.js`
+- **resumeStaff()** (4 connections) — `backend/src/services/staff.js`
+- **revokeStaff()** (4 connections) — `backend/src/services/staff.js`
+- **toggleAllStaffPrice()** (4 connections) — `backend/src/services/staff.js`
+- **toggleStaffPrice()** (4 connections) — `backend/src/services/staff.js`
+- **info.js** (3 connections) — `api/dealer/info.js`
+- **optionalAuth()** (3 connections) — `backend/src/middleware/auth.js`
+- *... and 23 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (58 shared connections)
-- [[Master Codebase Architecture Reference]] (21 shared connections)
-- [[Product Pages Specification]] (16 shared connections)
-- [[Project Readme & Layout]] (10 shared connections)
-- [[Live Pricing Audit Tool]] (10 shared connections)
-- [[Product Requirements Documentation]] (5 shared connections)
-- [[Community 53]] (3 shared connections)
-- [[Community 81]] (3 shared connections)
+- [[Live Pricing Audit Tool]] (39 shared connections)
+- [[Vercel Deployment Routing]] (37 shared connections)
+- [[Design System & UI Tokens]] (14 shared connections)
+- [[Community 82]] (11 shared connections)
+- [[Community 51]] (7 shared connections)
+- [[Community 115]] (6 shared connections)
+- [[Community 142]] (6 shared connections)
+- [[Community 129]] (4 shared connections)
+- [[Community 203]] (2 shared connections)
+- [[Community 328]] (2 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-Ce7xrLWR.js`
+- `api/dealer/info.js`
+- `backend/scripts/check-readiness.js`
+- `backend/scripts/inspect-db.js`
+- `backend/scripts/seed-content.js`
+- `backend/scripts/setup-buckets.js`
+- `backend/scripts/setup-policies.js`
+- `backend/scripts/sync-supabase-content.js`
+- `backend/src/db/pool.js`
+- `backend/src/middleware/auth.js`
+- `backend/src/routes/dealers.js`
+- `backend/src/services/dealerApp.js`
+- `backend/src/services/staff.js`
+- `backend/src/utils/audit.js`
+- `backend/src/utils/loginCode.js`
+- `backend/test/crmSync.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 354 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 328 (99%)
+- INFERRED: 4 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,53 +1,74 @@
 # Community 47
 
-> 32 nodes · cohesion 0.18
+> 32 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **archify.mjs** (50 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commandDeliver()** (20 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commandMigrate()** (17 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commandValidate()** (13 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commandRender()** (10 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commandPreview()** (9 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **diagnostic()** (9 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **rendererPath()** (9 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **renderValidatedArchitecture()** (8 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **extractQualityArgs()** (7 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **extractRepoRootArgs()** (7 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **rejectCliArgument()** (7 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **assertEvidenceType()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **checkerDiagnostics()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **rendererEnv()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **rendererFailure()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **reportArtifactFailure()** (5 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **inputDiagnostic()** (4 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **engineeringProfileFromArtifact()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **migrationPathDiagnostics()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **migrationReport()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **reportArtifactArgumentFailure()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **reportDeliveryFailure()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **reportValidateFailure()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **sourceEvidenceFromArtifact()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **main.jsx** (54 connections) — `src/main.jsx`
+- **useSession()** (42 connections) — `src/data/session.js`
+- **useLanguage()** (31 connections) — `src/data/i18n.js`
+- **isDealer()** (18 connections) — `src/data/dealer.js`
+- **t()** (18 connections) — `src/data/i18n.js`
+- **MobileBottomNav.jsx** (16 connections) — `src/components/MobileBottomNav.jsx`
+- **useFavorites()** (15 connections) — `src/data/favoritesStore.js`
+- **isPortalGated()** (14 connections) — `src/data/portalGate.js`
+- **dealerById()** (12 connections) — `src/data/dealer.js`
+- **Favorites()** (9 connections) — `src/pages/Favorites.jsx`
+- **Products()** (9 connections) — `src/pages/Products.jsx`
+- **Header()** (9 connections) — `src/ui.jsx`
+- **MobileBottomNav()** (8 connections) — `src/components/MobileBottomNav.jsx`
+- **portalGate.js** (8 connections) — `src/data/portalGate.js`
+- **Home()** (8 connections) — `src/pages/Home.jsx`
+- **Login()** (7 connections) — `src/pages/Login.jsx`
+- **DealerPending.jsx** (6 connections) — `src/pages/DealerPending.jsx`
+- **Schemes()** (6 connections) — `src/pages/Schemes.jsx`
+- **AccountLink()** (6 connections) — `src/ui.jsx`
+- **Footer()** (6 connections) — `src/ui.jsx`
+- **Support()** (5 connections) — `src/pages/Support.jsx`
+- **StaffDashboard()** (4 connections) — `src/pages/StaffDashboard.jsx`
+- **EmailVerificationPrompt()** (3 connections) — `src/components/EmailVerificationPrompt.jsx`
+- **PhoneVerificationPrompt()** (3 connections) — `src/components/PhoneVerificationPrompt.jsx`
+- **DealerApply()** (3 connections) — `src/pages/DealerApply.jsx`
 - *... and 7 more nodes in this community*
 
 ## Relationships
 
-- [[Community 144]] (27 shared connections)
-- [[Community 301]] (11 shared connections)
-- [[Community 104]] (4 shared connections)
-- [[Community 135]] (3 shared connections)
-- [[Community 253]] (2 shared connections)
-- [[Community 61]] (2 shared connections)
+- [[Pricing & Roles Skill]] (47 shared connections)
+- [[Community 44]] (42 shared connections)
+- [[Graphify Knowledge Graph Skill]] (32 shared connections)
+- [[Community 121]] (12 shared connections)
+- [[Community 174]] (4 shared connections)
+- [[Community 31]] (3 shared connections)
+- [[Community 173]] (2 shared connections)
+- [[Community 405]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/bin/archify.mjs`
+- `src/components/EmailVerificationPrompt.jsx`
+- `src/components/MobileBottomNav.jsx`
+- `src/components/NativeBackHandler.jsx`
+- `src/components/PhoneVerificationPrompt.jsx`
+- `src/data/dealer.js`
+- `src/data/favoritesStore.js`
+- `src/data/i18n.js`
+- `src/data/portalGate.js`
+- `src/data/session.js`
+- `src/main.jsx`
+- `src/pages/DealerApply.jsx`
+- `src/pages/DealerDashboard.jsx`
+- `src/pages/DealerPending.jsx`
+- `src/pages/Favorites.jsx`
+- `src/pages/Home.jsx`
+- `src/pages/Login.jsx`
+- `src/pages/Products.jsx`
+- `src/pages/Schemes.jsx`
+- `src/pages/StaffDashboard.jsx`
+- `src/pages/Support.jsx`
 
 ## Audit Trail
 
-- EXTRACTED: 221 (97%)
-- INFERRED: 6 (3%)
+- EXTRACTED: 336 (100%)
+- INFERRED: 1 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

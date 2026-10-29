@@ -23,11 +23,11 @@
 
 ## Relationships
 
-- [[Architecture Doc Generator]] (8 shared connections)
-- [[Community 29]] (6 shared connections)
-- [[Zoho Integration Skill]] (6 shared connections)
-- [[Community 50]] (2 shared connections)
-- [[Product Brand & Business Vision]] (2 shared connections)
+- [[Live Pricing Audit Tool]] (8 shared connections)
+- [[Vercel Deployment Routing]] (6 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (6 shared connections)
+- [[Community 51]] (2 shared connections)
+- [[Design System & UI Tokens]] (2 shared connections)
 
 ## Source Files
 

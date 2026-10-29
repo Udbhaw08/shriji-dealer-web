@@ -1,55 +1,57 @@
 # Project Readme & Layout
 
-> 44 nodes · cohesion 0.09
+> 43 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **ic()** (16 connections) — `android/app/src/main/assets/public/assets/index-Ce7xrLWR.js`
-- **Md()** (15 connections) — `android/app/src/main/assets/public/assets/index-Ce7xrLWR.js`
-- **s()** (15 connections) — `android/app/src/main/assets/public/assets/index-Ce7xrLWR.js`
-- **nc()** (14 connections) — `android/app/src/main/assets/public/assets/index-Ce7xrLWR.js`
-- **r()** (12 connections) — `android/app/src/main/assets/public/assets/index-Ce7xrLWR.js`
-- **ma()** (11 connections) — `android/app/src/main/assets/public/assets/index-Ce7xrLWR.js`
-- **nl()** (11 connections) — `android/app/src/main/assets/public/assets/index-Ce7xrLWR.js`
-- **hh()** (9 connections) — `android/app/src/main/assets/public/assets/index-Ce7xrLWR.js`
-- **kd()** (9 connections) — `android/app/src/main/assets/public/assets/index-Ce7xrLWR.js`
-- **yh()** (9 connections) — `android/app/src/main/assets/public/assets/index-Ce7xrLWR.js`
-- **c()** (8 connections) — `android/app/src/main/assets/public/assets/index-Ce7xrLWR.js`
-- **gs()** (8 connections) — `android/app/src/main/assets/public/assets/index-Ce7xrLWR.js`
-- **ha()** (8 connections) — `android/app/src/main/assets/public/assets/index-Ce7xrLWR.js`
-- **pa()** (8 connections) — `android/app/src/main/assets/public/assets/index-Ce7xrLWR.js`
-- **rc()** (8 connections) — `android/app/src/main/assets/public/assets/index-Ce7xrLWR.js`
-- **ec()** (7 connections) — `android/app/src/main/assets/public/assets/index-Ce7xrLWR.js`
-- **go()** (7 connections) — `android/app/src/main/assets/public/assets/index-Ce7xrLWR.js`
-- **oc()** (7 connections) — `android/app/src/main/assets/public/assets/index-Ce7xrLWR.js`
-- **zc()** (7 connections) — `android/app/src/main/assets/public/assets/index-Ce7xrLWR.js`
-- **ac()** (6 connections) — `android/app/src/main/assets/public/assets/index-Ce7xrLWR.js`
-- **bi()** (6 connections) — `android/app/src/main/assets/public/assets/index-Ce7xrLWR.js`
-- **dh()** (6 connections) — `android/app/src/main/assets/public/assets/index-Ce7xrLWR.js`
-- **fh()** (6 connections) — `android/app/src/main/assets/public/assets/index-Ce7xrLWR.js`
-- **Mp()** (6 connections) — `android/app/src/main/assets/public/assets/index-Ce7xrLWR.js`
-- **ph()** (6 connections) — `android/app/src/main/assets/public/assets/index-Ce7xrLWR.js`
-- *... and 19 more nodes in this community*
+- **brand-marks.mjs** (51 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **brand-marks.test.mjs** (15 connections) — `.agents/skills/archify/test/brand-marks.test.mjs`
+- **captureRemoteBrand()** (7 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **prepareDiagramBrandMarks()** (7 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **captureBrandReference()** (6 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **findBrandMark()** (5 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **checkedFetch()** (4 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **isPrivateBrandAddress()** (4 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **resolveRequestTarget()** (4 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **asUrl()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **iconCandidates()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **imageData()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **ipv4Private()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **ipv6Private()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **lookupForms()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **readLimited()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **validateUrlShape()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **generated-brand-marks.mjs** (3 connections) — `.agents/skills/archify/renderers/shared/generated-brand-marks.mjs`
+- **BRAND_MARKS** (3 connections) — `.agents/skills/archify/renderers/shared/generated-brand-marks.mjs`
+- **attribute()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **beforeDeadline()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **captureTimeoutMilliseconds()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **domainMark()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **mapConcurrent()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **remoteBrand()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- *... and 18 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (54 shared connections)
-- [[Product Pages Specification]] (19 shared connections)
-- [[Product Requirements Documentation]] (18 shared connections)
-- [[Live Pricing Audit Tool]] (12 shared connections)
-- [[Master Codebase Architecture Reference]] (11 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (10 shared connections)
-- [[Community 53]] (10 shared connections)
-- [[Community 81]] (5 shared connections)
+- [[Roles & Customer Sharing Spec]] (7 shared connections)
+- [[Master Codebase Architecture Reference]] (6 shared connections)
+- [[Community 146]] (3 shared connections)
+- [[Community 37]] (3 shared connections)
+- [[Product Brand & Business Vision]] (1 shared connections)
+- [[Community 41]] (1 shared connections)
+- [[Community 106]] (1 shared connections)
+- [[Community 81]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-Ce7xrLWR.js`
+- `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- `.agents/skills/archify/renderers/shared/generated-brand-marks.mjs`
+- `.agents/skills/archify/test/brand-marks.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 303 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 164 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

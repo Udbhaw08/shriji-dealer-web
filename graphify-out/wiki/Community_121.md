@@ -1,36 +1,45 @@
 # Community 121
 
-> 15 nodes · cohesion 0.13
+> 15 nodes · cohesion 0.26
 
 ## Key Concepts
 
-- **Liquid Glass** (6 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
-- **Apple's rules** (5 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
-- **Cross-platform translation** (5 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
-- **liquid-glass.md** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
-- **Color on glass** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
-- **Flutter** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
-- **React Native** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
-- **Review checklist** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
-- **Standard materials beneath the glass** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
-- **SwiftUI, UIKit, and AppKit** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
-- **Tauri and Electron** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
-- **The two layers** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
-- **Where the material belongs** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
-- **Which variant** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
+- **Products.jsx** (25 connections) — `src/pages/Products.jsx`
+- **ProductSearchBar.jsx** (15 connections) — `src/components/ProductSearchBar.jsx`
+- **useProducts()** (12 connections) — `src/data/productsStore.js`
+- **searchHelper.js** (11 connections) — `src/data/searchHelper.js`
+- **ProductSearchBar()** (6 connections) — `src/components/ProductSearchBar.jsx`
+- **getSuggestions()** (5 connections) — `src/data/searchHelper.js`
+- **autocorrectQuery()** (4 connections) — `src/data/searchHelper.js`
+- **buildSearchDictionary()** (4 connections) — `src/data/searchHelper.js`
+- **useProduct()** (2 connections) — `src/data/productsStore.js`
+- **getPopularSearches()** (2 connections) — `src/data/searchHelper.js`
+- **scoreProduct()** (2 connections) — `src/data/searchHelper.js`
+- **COLLOQUIAL_SYNONYMS** (1 connections) — `src/data/searchHelper.js`
+- **levenshteinDistance()** (1 connections) — `src/data/searchHelper.js`
+- **Group()** (1 connections) — `src/pages/Products.jsx`
+- **SORT_FNS** (1 connections) — `src/pages/Products.jsx`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 47]] (12 shared connections)
+- [[Community 44]] (11 shared connections)
+- [[Pricing & Roles Skill]] (7 shared connections)
+- [[Community 97]] (4 shared connections)
+- [[Community 174]] (2 shared connections)
+- [[Community 173]] (1 shared connections)
+- [[Graphify Knowledge Graph Skill]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/liquid-glass.md`
+- `src/components/ProductSearchBar.jsx`
+- `src/data/productsStore.js`
+- `src/data/searchHelper.js`
+- `src/pages/Products.jsx`
 
 ## Audit Trail
 
-- EXTRACTED: 28 (100%)
+- EXTRACTED: 92 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

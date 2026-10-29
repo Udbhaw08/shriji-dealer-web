@@ -24,6 +24,7 @@ import { useSession } from "./data/session";
 import { isPortalGated } from "./data/portalGate";
 import NativeBackHandler from "./components/NativeBackHandler";
 import EmailVerificationPrompt from "./components/EmailVerificationPrompt";
+import PhoneVerificationPrompt from "./components/PhoneVerificationPrompt";
 
 class ErrorBoundary extends Component {
   constructor(props) {
@@ -104,6 +105,7 @@ createRoot(document.getElementById("root")).render(
         <a className="skip" href="#main">Skip to content</a>
         <Header />
         <EmailVerificationPrompt />
+        <PhoneVerificationPrompt />
         <main id="main">
           <Routes>
             <Route path="/" element={<Home />} />

@@ -1,29 +1,35 @@
 # Community 255
 
-> 8 nodes · cohesion 0.25
+> 8 nodes · cohesion 0.57
 
 ## Key Concepts
 
-- **Boxes** (5 connections) — `.agents/skills/apple-design/references/hig/boxes.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/boxes.md`
-- **boxes.md** (1 connections) — `.agents/skills/apple-design/references/hig/boxes.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/boxes.md`
-- **Content** (1 connections) — `.agents/skills/apple-design/references/hig/boxes.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/boxes.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/boxes.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/boxes.md`
+- **securityPhase2.test.mjs** (11 connections) — `backend/test/securityPhase2.test.mjs`
+- **og.js** (7 connections) — `api/og.js`
+- **htmlEscape.js** (6 connections) — `api/_lib/htmlEscape.js`
+- **escapeHtml()** (6 connections) — `api/_lib/htmlEscape.js`
+- **sanitizeUrl()** (6 connections) — `api/_lib/htmlEscape.js`
+- **handler()** (5 connections) — `api/og.js`
+- **sanitizeHost()** (4 connections) — `api/_lib/htmlEscape.js`
+- **mockWebhookAuthCheck()** (1 connections) — `backend/test/securityPhase2.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 171]] (5 shared connections)
+- [[Community 203]] (4 shared connections)
+- [[Community 150]] (2 shared connections)
+- [[Live Pricing Audit Tool]] (2 shared connections)
+- [[Community 45]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/boxes.md`
+- `api/_lib/htmlEscape.js`
+- `api/og.js`
+- `backend/test/securityPhase2.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
+- EXTRACTED: 46 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,10 +1,11 @@
 # Community 550
 
-> 1 nodes · cohesion 1.00
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **build.gradle** (0 connections) — `android/build.gradle`
+- **urlUtils.js** (1 connections) — `src/utils/urlUtils.js`
+- **buildUrlWithQuery()** (1 connections) — `src/utils/urlUtils.js`
 
 ## Relationships
 
@@ -12,11 +13,11 @@
 
 ## Source Files
 
-- `android/build.gradle`
+- `src/utils/urlUtils.js`
 
 ## Audit Trail
 
-- EXTRACTED: 0 (0%)
+- EXTRACTED: 2 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
