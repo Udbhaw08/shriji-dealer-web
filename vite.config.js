@@ -20,11 +20,34 @@ async function loadContentService() {
   }
 }
 
+let backendApp = null;
+async function getBackendApp() {
+  if (!backendApp) {
+    process.env.SERVERLESS = 'true';
+    const mod = await import('./backend/src/app.js');
+    backendApp = mod.default;
+  }
+  return backendApp;
+}
+
 function zohoApiPlugin() {
   return {
     name: 'zoho-api-middleware',
     configureServer(server) {
       server.middlewares.use(async (req, res, next) => {
+        // Backend Auth & Dealers API middleware
+        if (req.url.startsWith('/api/auth') || req.url.startsWith('/api/dealers')) {
+          try {
+            const app = await getBackendApp();
+            return app(req, res, next);
+          } catch (err) {
+            console.error('[vite] Backend auth middleware error:', err);
+            res.statusCode = 500;
+            res.setHeader('Content-Type', 'application/json');
+            return res.end(JSON.stringify({ error: err.message }));
+          }
+        }
+
         // Download handler: /api/download
         if (req.url.startsWith('/api/download')) {
           try {

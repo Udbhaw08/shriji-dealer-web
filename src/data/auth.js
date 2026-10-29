@@ -13,9 +13,7 @@ import { apiFetch } from "./api.js";
 
 const AUTH_BASE =
   import.meta.env?.VITE_AUTH_API_URL ||
-  (import.meta.env?.DEV && !Capacitor.isNativePlatform()
-    ? "http://localhost:8080"
-    : "https://shriji-dealer-web.onrender.com");
+  (Capacitor.isNativePlatform() ? "https://restor.in" : "");
 
 export const PREFS_KEY = "shriji.auth.tokens";
 export const SESSION_PROFILE_KEY = "shriji.auth.session_profile";
