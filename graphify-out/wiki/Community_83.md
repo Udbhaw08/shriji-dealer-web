@@ -27,7 +27,7 @@
 
 ## Relationships
 
-- [[Community 47]] (20 shared connections)
+- [[Community 59]] (20 shared connections)
 - [[Community 299]] (2 shared connections)
 - [[Pricing & Roles Skill]] (2 shared connections)
 

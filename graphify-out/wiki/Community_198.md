@@ -4,16 +4,16 @@
 
 ## Key Concepts
 
-- **Notifications** (9 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
-- **notifications.md** (1 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
-- **Anatomy** (1 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
-- **Badging** (1 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
-- **Content** (1 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
-- **Notification actions** (1 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
+- **Settings** (8 connections) — `.agents/skills/apple-design/references/hig/settings.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/settings.md`
+- **settings.md** (1 connections) — `.agents/skills/apple-design/references/hig/settings.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/settings.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/settings.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/settings.md`
+- **General settings** (1 connections) — `.agents/skills/apple-design/references/hig/settings.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/settings.md`
+- **System settings** (1 connections) — `.agents/skills/apple-design/references/hig/settings.md`
+- **Task-specific options** (1 connections) — `.agents/skills/apple-design/references/hig/settings.md`
 
 ## Relationships
 
@@ -21,7 +21,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/notifications.md`
+- `.agents/skills/apple-design/references/hig/settings.md`
 
 ## Audit Trail
 

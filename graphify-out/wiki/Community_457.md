@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **Developer Cheat Sheet** (2 connections) — `docs/guides/developer-cheat-sheet.md`
-- **developer-cheat-sheet.md** (1 connections) — `docs/guides/developer-cheat-sheet.md`
-- **Common Commands** (1 connections) — `docs/guides/developer-cheat-sheet.md`
+- **Zoho Commerce API Rate Limiting & Multi-Tier Caching** (2 connections) — `docs/guides/zoho-rate-limits-and-caching.md`
+- **zoho-rate-limits-and-caching.md** (1 connections) — `docs/guides/zoho-rate-limits-and-caching.md`
+- **Rate Limits** (1 connections) — `docs/guides/zoho-rate-limits-and-caching.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/guides/developer-cheat-sheet.md`
+- `docs/guides/zoho-rate-limits-and-caching.md`
 
 ## Audit Trail
 

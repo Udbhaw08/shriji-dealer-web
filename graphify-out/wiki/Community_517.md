@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **esm-s_fpLcuC.js** (1 connections) — `ios/App/App/public/assets/esm-s_fpLcuC.js`
-- **__vite__mapDeps()** (1 connections) — `ios/App/App/public/assets/esm-s_fpLcuC.js`
+- **securityHeaders.js** (1 connections) — `backend/src/middleware/securityHeaders.js`
+- **securityHeaders()** (1 connections) — `backend/src/middleware/securityHeaders.js`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `ios/App/App/public/assets/esm-s_fpLcuC.js`
+- `backend/src/middleware/securityHeaders.js`
 
 ## Audit Trail
 

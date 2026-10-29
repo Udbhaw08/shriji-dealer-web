@@ -4,20 +4,20 @@
 
 ## Key Concepts
 
-- **web-s9YJ-EFk.js** (13 connections) — `android/app/src/main/assets/public/assets/web-s9YJ-EFk.js`
-- **applyPrefix()** (4 connections) — `android/app/src/main/assets/public/assets/web-s9YJ-EFk.js`
-- **keys()** (4 connections) — `android/app/src/main/assets/public/assets/web-s9YJ-EFk.js`
-- **get()** (3 connections) — `android/app/src/main/assets/public/assets/web-s9YJ-EFk.js`
-- **migrate()** (3 connections) — `android/app/src/main/assets/public/assets/web-s9YJ-EFk.js`
-- **rawKeys()** (3 connections) — `android/app/src/main/assets/public/assets/web-s9YJ-EFk.js`
-- **clear()** (2 connections) — `android/app/src/main/assets/public/assets/web-s9YJ-EFk.js`
-- **remove()** (2 connections) — `android/app/src/main/assets/public/assets/web-s9YJ-EFk.js`
-- **removeOld()** (2 connections) — `android/app/src/main/assets/public/assets/web-s9YJ-EFk.js`
-- **set()** (2 connections) — `android/app/src/main/assets/public/assets/web-s9YJ-EFk.js`
-- **configure()** (1 connections) — `android/app/src/main/assets/public/assets/web-s9YJ-EFk.js`
-- **constructor()** (1 connections) — `android/app/src/main/assets/public/assets/web-s9YJ-EFk.js`
-- **impl()** (1 connections) — `android/app/src/main/assets/public/assets/web-s9YJ-EFk.js`
-- **prefix()** (1 connections) — `android/app/src/main/assets/public/assets/web-s9YJ-EFk.js`
+- **web-tnjiZWNX.js** (13 connections) — `android/app/src/main/assets/public/assets/web-tnjiZWNX.js`
+- **applyPrefix()** (4 connections) — `android/app/src/main/assets/public/assets/web-tnjiZWNX.js`
+- **keys()** (4 connections) — `android/app/src/main/assets/public/assets/web-tnjiZWNX.js`
+- **get()** (3 connections) — `android/app/src/main/assets/public/assets/web-tnjiZWNX.js`
+- **migrate()** (3 connections) — `android/app/src/main/assets/public/assets/web-tnjiZWNX.js`
+- **rawKeys()** (3 connections) — `android/app/src/main/assets/public/assets/web-tnjiZWNX.js`
+- **clear()** (2 connections) — `android/app/src/main/assets/public/assets/web-tnjiZWNX.js`
+- **remove()** (2 connections) — `android/app/src/main/assets/public/assets/web-tnjiZWNX.js`
+- **removeOld()** (2 connections) — `android/app/src/main/assets/public/assets/web-tnjiZWNX.js`
+- **set()** (2 connections) — `android/app/src/main/assets/public/assets/web-tnjiZWNX.js`
+- **configure()** (1 connections) — `android/app/src/main/assets/public/assets/web-tnjiZWNX.js`
+- **constructor()** (1 connections) — `android/app/src/main/assets/public/assets/web-tnjiZWNX.js`
+- **impl()** (1 connections) — `android/app/src/main/assets/public/assets/web-tnjiZWNX.js`
+- **prefix()** (1 connections) — `android/app/src/main/assets/public/assets/web-tnjiZWNX.js`
 
 ## Relationships
 
@@ -25,7 +25,7 @@
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/web-s9YJ-EFk.js`
+- `android/app/src/main/assets/public/assets/web-tnjiZWNX.js`
 
 ## Audit Trail
 

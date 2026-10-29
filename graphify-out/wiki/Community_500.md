@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **cryptoUtils.js** (2 connections) — `backend/src/utils/cryptoUtils.js`
-- **generateSecureOtp()** (1 connections) — `backend/src/utils/cryptoUtils.js`
-- **generateSecureToken()** (1 connections) — `backend/src/utils/cryptoUtils.js`
+- **maskSensitiveData.js** (2 connections) — `backend/src/utils/maskSensitiveData.js`
+- **maskEmail()** (1 connections) — `backend/src/utils/maskSensitiveData.js`
+- **maskPhoneNumber()** (1 connections) — `backend/src/utils/maskSensitiveData.js`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `backend/src/utils/cryptoUtils.js`
+- `backend/src/utils/maskSensitiveData.js`
 
 ## Audit Trail
 

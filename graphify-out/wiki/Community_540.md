@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **clipboard.js** (1 connections) — `src/utils/clipboard.js`
-- **copyToClipboard()** (1 connections) — `src/utils/clipboard.js`
+- **envValidator.js** (1 connections) — `backend/src/utils/envValidator.js`
+- **requireEnv()** (1 connections) — `backend/src/utils/envValidator.js`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `src/utils/clipboard.js`
+- `backend/src/utils/envValidator.js`
 
 ## Audit Trail
 

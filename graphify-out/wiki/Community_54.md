@@ -1,54 +1,57 @@
 # Community 54
 
-> 26 nodes · cohesion 0.12
+> 26 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **s()** (15 connections) — `android/app/src/main/assets/public/assets/index-CHuADt1b.js`
-- **delete()** (11 connections) — `android/app/src/main/assets/public/assets/index-CHuADt1b.js`
-- **hh()** (9 connections) — `android/app/src/main/assets/public/assets/index-CHuADt1b.js`
-- **c()** (8 connections) — `android/app/src/main/assets/public/assets/index-CHuADt1b.js`
-- **yh()** (8 connections) — `android/app/src/main/assets/public/assets/index-CHuADt1b.js`
-- **mh()** (7 connections) — `android/app/src/main/assets/public/assets/index-CHuADt1b.js`
-- **Ca()** (6 connections) — `android/app/src/main/assets/public/assets/index-CHuADt1b.js`
-- **fh()** (6 connections) — `android/app/src/main/assets/public/assets/index-CHuADt1b.js`
-- **hn()** (6 connections) — `android/app/src/main/assets/public/assets/index-CHuADt1b.js`
-- **lh()** (6 connections) — `android/app/src/main/assets/public/assets/index-CHuADt1b.js`
-- **Mp()** (6 connections) — `android/app/src/main/assets/public/assets/index-CHuADt1b.js`
-- **ph()** (6 connections) — `android/app/src/main/assets/public/assets/index-CHuADt1b.js`
-- **Sh()** (6 connections) — `android/app/src/main/assets/public/assets/index-CHuADt1b.js`
-- **wi()** (6 connections) — `android/app/src/main/assets/public/assets/index-CHuADt1b.js`
-- **bh()** (5 connections) — `android/app/src/main/assets/public/assets/index-CHuADt1b.js`
-- **Ih()** (5 connections) — `android/app/src/main/assets/public/assets/index-CHuADt1b.js`
-- **Ja()** (5 connections) — `android/app/src/main/assets/public/assets/index-CHuADt1b.js`
-- **ys()** (5 connections) — `android/app/src/main/assets/public/assets/index-CHuADt1b.js`
-- **bs()** (4 connections) — `android/app/src/main/assets/public/assets/index-CHuADt1b.js`
-- **mf()** (4 connections) — `android/app/src/main/assets/public/assets/index-CHuADt1b.js`
-- **qs()** (4 connections) — `android/app/src/main/assets/public/assets/index-CHuADt1b.js`
-- **vh()** (4 connections) — `android/app/src/main/assets/public/assets/index-CHuADt1b.js`
-- **vs()** (4 connections) — `android/app/src/main/assets/public/assets/index-CHuADt1b.js`
-- **xs()** (4 connections) — `android/app/src/main/assets/public/assets/index-CHuADt1b.js`
-- **Ba()** (3 connections) — `android/app/src/main/assets/public/assets/index-CHuADt1b.js`
+- **i18n.js** (25 connections) — `src/data/i18n.js`
+- **Products.jsx** (25 connections) — `src/pages/Products.jsx`
+- **ProductSearchBar.jsx** (15 connections) — `src/components/ProductSearchBar.jsx`
+- **useProducts()** (12 connections) — `src/data/productsStore.js`
+- **searchHelper.js** (11 connections) — `src/data/searchHelper.js`
+- **ProductSearchBar()** (6 connections) — `src/components/ProductSearchBar.jsx`
+- **getSuggestions()** (5 connections) — `src/data/searchHelper.js`
+- **autocorrectQuery()** (4 connections) — `src/data/searchHelper.js`
+- **buildSearchDictionary()** (4 connections) — `src/data/searchHelper.js`
+- **setLanguage()** (3 connections) — `src/data/i18n.js`
+- **tCat()** (3 connections) — `src/data/i18n.js`
+- **emit()** (2 connections) — `src/data/i18n.js`
+- **toggleLanguage()** (2 connections) — `src/data/i18n.js`
+- **useProduct()** (2 connections) — `src/data/productsStore.js`
+- **getPopularSearches()** (2 connections) — `src/data/searchHelper.js`
+- **scoreProduct()** (2 connections) — `src/data/searchHelper.js`
+- **translations.js** (2 connections) — `src/data/translations.js`
+- **TRANSLATIONS** (2 connections) — `src/data/translations.js`
+- **currentLang** (1 connections) — `src/data/i18n.js`
+- **getInitialLang()** (1 connections) — `src/data/i18n.js`
+- **getLanguage()** (1 connections) — `src/data/i18n.js`
+- **listeners** (1 connections) — `src/data/i18n.js`
+- **COLLOQUIAL_SYNONYMS** (1 connections) — `src/data/searchHelper.js`
+- **levenshteinDistance()** (1 connections) — `src/data/searchHelper.js`
+- **Group()** (1 connections) — `src/pages/Products.jsx`
 - *... and 1 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (34 shared connections)
-- [[Zoho Backend & Proxy Endpoints]] (15 shared connections)
-- [[Graphify Knowledge Graph Skill]] (8 shared connections)
-- [[Master Codebase Architecture Reference]] (6 shared connections)
-- [[Live Pricing Audit Tool]] (5 shared connections)
-- [[Product Requirements Documentation]] (5 shared connections)
-- [[Community 46]] (4 shared connections)
-- [[Community 142]] (2 shared connections)
+- [[Master Codebase Architecture Reference]] (28 shared connections)
+- [[Community 42]] (14 shared connections)
+- [[Community 99]] (4 shared connections)
+- [[Community 144]] (2 shared connections)
+- [[Agent Guidelines (AGENTS.md)]] (2 shared connections)
+- [[Community 169]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-CHuADt1b.js`
+- `src/components/ProductSearchBar.jsx`
+- `src/data/i18n.js`
+- `src/data/productsStore.js`
+- `src/data/searchHelper.js`
+- `src/data/translations.js`
+- `src/pages/Products.jsx`
 
 ## Audit Trail
 
-- EXTRACTED: 155 (100%)
+- EXTRACTED: 135 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

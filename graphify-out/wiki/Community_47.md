@@ -1,53 +1,55 @@
 # Community 47
 
-> 30 nodes · cohesion 0.12
+> 30 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **architecture-delta.mjs** (65 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **compareArchitecture()** (12 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **fail()** (8 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **canonicalArchitecture()** (5 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **boundaryIndex()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **canonicalArchitectureJson()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **compareEntities()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **equal()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **normalizeRepository()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **canonical()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **extractArchitectureSvg()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **extractArtifactCss()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **presentationChanged()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **requireComparableShape()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **sortedObjects()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **stableIndex()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **addState()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **boundaryKey()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **fieldChanges()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **normalizeComponent()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **normalizedField()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **sortedBy()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **statusFor()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **summaryFor()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **BOUNDARY_FIELDS** (1 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **yc()** (20 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
+- **zd()** (13 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
+- **Nd()** (11 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
+- **qd()** (11 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
+- **af()** (10 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
+- **tf()** (10 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
+- **kf()** (8 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
+- **Xd()** (8 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
+- **ef()** (7 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
+- **et()** (7 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
+- **Gd()** (7 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
+- **lf()** (7 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
+- **tt()** (7 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
+- **uf()** (7 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
+- **Ae()** (6 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
+- **of()** (6 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
+- **Rd()** (6 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
+- **Vr()** (6 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
+- **Bd()** (5 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
+- **sf()** (5 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
+- **cf()** (4 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
+- **jf()** (4 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
+- **vf()** (4 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
+- **Zo()** (4 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
+- **Hd()** (3 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
 - *... and 5 more nodes in this community*
 
 ## Relationships
 
-- [[Community 83]] (20 shared connections)
-- [[Community 169]] (12 shared connections)
-- [[Community 144]] (4 shared connections)
-- [[Community 299]] (4 shared connections)
-- [[Community 166]] (3 shared connections)
-- [[Pricing & Roles Skill]] (2 shared connections)
+- [[Price Presentation & Product UI]] (36 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (13 shared connections)
+- [[Pricing Regression Test Suite]] (12 shared connections)
+- [[Roles & Customer Sharing Spec]] (10 shared connections)
+- [[Live Pricing Audit Tool]] (8 shared connections)
+- [[Community 53]] (4 shared connections)
+- [[Community 142]] (3 shared connections)
+- [[Product Requirements Documentation]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/delta/architecture-delta.mjs`
+- `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
 
 ## Audit Trail
 
-- EXTRACTED: 149 (97%)
-- INFERRED: 4 (3%)
+- EXTRACTED: 198 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

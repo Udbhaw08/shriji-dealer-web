@@ -33,14 +33,14 @@
 
 ## Relationships
 
-- [[Community 64]] (11 shared connections)
+- [[Community 62]] (11 shared connections)
 - [[Community 91]] (8 shared connections)
 - [[Community 82]] (7 shared connections)
 - [[Community 128]] (7 shared connections)
 - [[Community 45]] (5 shared connections)
-- [[Community 149]] (5 shared connections)
 - [[Community 150]] (5 shared connections)
-- [[Community 185]] (4 shared connections)
+- [[Community 151]] (5 shared connections)
+- [[Community 184]] (4 shared connections)
 - [[Community 107]] (1 shared connections)
 - [[Community 298]] (1 shared connections)
 

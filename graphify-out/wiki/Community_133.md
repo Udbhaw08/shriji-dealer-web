@@ -22,12 +22,12 @@
 ## Relationships
 
 - [[Community 298]] (8 shared connections)
-- [[Zoho Integration Architecture]] (4 shared connections)
+- [[Client Products Data Store]] (4 shared connections)
 - [[Community 81]] (4 shared connections)
 - [[Community 44]] (3 shared connections)
 - [[Community 141]] (3 shared connections)
-- [[Community 152]] (2 shared connections)
-- [[Community 59]] (2 shared connections)
+- [[Community 153]] (2 shared connections)
+- [[Community 58]] (2 shared connections)
 
 ## Source Files
 

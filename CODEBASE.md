@@ -1,8 +1,8 @@
 # CODEBASE.md — Project Architecture & Feature Guide
 
 > **Auto-generated documentation**
-> Last synchronized: 2026-10-29T17:10:08.386+05:30 (GMT+5:30)
-> Total Project Files: 2125
+> Last synchronized: 2026-10-29T17:35:04.093+05:30 (GMT+5:30)
+> Total Project Files: 2134
 
 ---
 
@@ -111,7 +111,7 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 
 ### 4.2 Reusable Components (`src/components/` & `src/ui.jsx`)
 - **`src/components/A11yAnnouncer.jsx`** (0.5 KB)
-- **`src/components/BrandApplyFlow.jsx`** (50.0 KB)
+- **`src/components/BrandApplyFlow.jsx`** (50.2 KB)
 - **`src/components/EmailVerificationPrompt.jsx`** (10.4 KB)
 - **`src/components/ErrorBoundary.jsx`** (0.8 KB)
 - **`src/components/FileOrUrlInput.jsx`** (15.2 KB)

@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **OpenAPI 3.0 Specification Summary** (2 connections) — `docs/api/swagger-openapi-spec.md`
-- **swagger-openapi-spec.md** (1 connections) — `docs/api/swagger-openapi-spec.md`
-- **Services** (1 connections) — `docs/api/swagger-openapi-spec.md`
+- **Microservices Decoupled Architecture** (2 connections) — `docs/architecture/microservices-architecture.md`
+- **microservices-architecture.md** (1 connections) — `docs/architecture/microservices-architecture.md`
+- **Overview** (1 connections) — `docs/architecture/microservices-architecture.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/api/swagger-openapi-spec.md`
+- `docs/architecture/microservices-architecture.md`
 
 ## Audit Trail
 

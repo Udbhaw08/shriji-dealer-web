@@ -340,8 +340,8 @@ export async function requestDealerRegistrationOtp({ flowId, channel, phone, ema
     official_email: email,
     contact: email || phone,
   };
-  const res = await apiFetch(
-    `${AUTH_BASE}/api/dealers/register/${targetChannel}/request-otp`,
+  const res = await callBackend(
+    `/api/dealers/register/${targetChannel}/request-otp`,
     json(payload)
   );
   const data = await res.json().catch(() => ({}));
@@ -361,8 +361,8 @@ export async function verifyDealerRegistrationOtp({ flowId, channel, phone, emai
     code,
     otp: code,
   };
-  const res = await apiFetch(
-    `${AUTH_BASE}/api/dealers/register/${targetChannel}/verify-otp`,
+  const res = await callBackend(
+    `/api/dealers/register/${targetChannel}/verify-otp`,
     json(payload)
   );
   const data = await res.json().catch(() => ({}));
@@ -378,7 +378,7 @@ export async function finalizeDealerRegistration(form) {
     verificationToken: form.verificationToken || form.verification_token,
     verification_token: form.verificationToken || form.verification_token,
   };
-  const res = await apiFetch(`${AUTH_BASE}/api/dealers/register/finalize`, json(payload));
+  const res = await callBackend("/api/dealers/register/finalize", json(payload));
   const data = await applyAuthResponse(res);
   broadcastAuthChange("DEALER_REGISTERED");
   return data;

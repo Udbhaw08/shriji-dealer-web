@@ -26,12 +26,12 @@
 
 ## Relationships
 
-- [[Client Products Data Store]] (6 shared connections)
-- [[Community 190]] (3 shared connections)
+- [[Product Brand & Business Vision]] (6 shared connections)
+- [[Community 189]] (3 shared connections)
 - [[Community 94]] (3 shared connections)
 - [[Community 88]] (2 shared connections)
-- [[Community 189]] (2 shared connections)
-- [[Vercel Deployment Routing]] (1 shared connections)
+- [[Community 188]] (2 shared connections)
+- [[Graphify Agent Rules]] (1 shared connections)
 
 ## Source Files
 

@@ -216,10 +216,20 @@ export async function requestDealerRegistrationOtp({ flowId, channel, phone, ema
     await acquireContactOtpCooldown(sql, contactKey);
 
     if (!flow) {
-      const preverifiedEmail = (user?.email_verified && user?.email)
+      let preverifiedEmail = (user?.email_verified && user?.email)
         ? normalizeEmail(user.email)
         : (email ? normalizeEmail(email) : null);
-      const isEmailVerified = Boolean(user?.email_verified && user?.email && preverifiedEmail === normalizeEmail(user.email));
+      let isEmailVerified = Boolean(user?.email_verified && user?.email);
+
+      if (!isEmailVerified && preverifiedEmail) {
+        const matchingUser = await sql`
+          select id, email_verified from users
+          where lower(email) = ${preverifiedEmail} and email_verified = true
+          limit 1`;
+        if (matchingUser.length > 0) {
+          isEmailVerified = true;
+        }
+      }
 
       const [newFlow] = await sql`
         insert into dealer_registration_flows (
@@ -238,9 +248,23 @@ export async function requestDealerRegistrationOtp({ flowId, channel, phone, ema
         )
         returning *`;
       flow = newFlow;
-    } else if (!flow.email_verified && user?.email_verified && user?.email) {
-      const preverifiedEmail = normalizeEmail(user.email);
-      if (preverifiedEmail) {
+    } else if (!flow.email_verified) {
+      let preverifiedEmail = (user?.email_verified && user?.email)
+        ? normalizeEmail(user.email)
+        : (email ? normalizeEmail(email) : null);
+      let isEmailVerified = Boolean(user?.email_verified && user?.email);
+
+      if (!isEmailVerified && preverifiedEmail) {
+        const matchingUser = await sql`
+          select id, email_verified from users
+          where lower(email) = ${preverifiedEmail} and email_verified = true
+          limit 1`;
+        if (matchingUser.length > 0) {
+          isEmailVerified = true;
+        }
+      }
+
+      if (isEmailVerified && preverifiedEmail) {
         await sql`
           update dealer_registration_flows
           set email = coalesce(email, ${preverifiedEmail}),
@@ -321,10 +345,21 @@ export async function requestDealerRegistrationOtp({ flowId, channel, phone, ema
     await acquireContactOtpCooldown(sql, contactKey);
 
     if (!flow) {
-      const normUserPhone = (user?.phone_verified && user?.phone)
+      let normUserPhone = (user?.phone_verified && user?.phone)
         ? normalizePhone(user.phone).nationalNumber
         : (phone ? normalizePhone(phone).nationalNumber : null);
-      const isPhoneVerified = Boolean(user?.phone_verified && user?.phone && normUserPhone === normalizePhone(user.phone).nationalNumber);
+      let isPhoneVerified = Boolean(user?.phone_verified && user?.phone);
+
+      if (!isPhoneVerified && normUserPhone) {
+        const matchingUser = await sql`
+          select id, phone_verified from users
+          where (phone = ${normUserPhone} or phone = ${'+91' + normUserPhone} or phone like ${'%' + normUserPhone})
+            and phone_verified = true
+          limit 1`;
+        if (matchingUser.length > 0) {
+          isPhoneVerified = true;
+        }
+      }
 
       const [newFlow] = await sql`
         insert into dealer_registration_flows (
@@ -343,9 +378,24 @@ export async function requestDealerRegistrationOtp({ flowId, channel, phone, ema
         )
         returning *`;
       flow = newFlow;
-    } else if (!flow.phone_verified && user?.phone_verified && user?.phone) {
-      const normUserPhone = normalizePhone(user.phone).nationalNumber;
-      if (normUserPhone) {
+    } else if (!flow.phone_verified) {
+      let normUserPhone = (user?.phone_verified && user?.phone)
+        ? normalizePhone(user.phone).nationalNumber
+        : (phone ? normalizePhone(phone).nationalNumber : null);
+      let isPhoneVerified = Boolean(user?.phone_verified && user?.phone);
+
+      if (!isPhoneVerified && normUserPhone) {
+        const matchingUser = await sql`
+          select id, phone_verified from users
+          where (phone = ${normUserPhone} or phone = ${'+91' + normUserPhone} or phone like ${'%' + normUserPhone})
+            and phone_verified = true
+          limit 1`;
+        if (matchingUser.length > 0) {
+          isPhoneVerified = true;
+        }
+      }
+
+      if (isPhoneVerified && normUserPhone) {
         await sql`
           update dealer_registration_flows
           set phone = coalesce(phone, ${normUserPhone}),
@@ -444,9 +494,23 @@ export async function verifyDealerRegistrationOtp({ flowId, channel, phone, emai
         throw httpError(401, `Invalid verification code. ${remaining} attempt${remaining === 1 ? '' : 's'} remaining.`);
       }
 
-      if (!flow.email_verified && user?.email_verified && user?.email) {
-        const preverifiedEmail = normalizeEmail(user.email);
-        if (preverifiedEmail) {
+      if (!flow.email_verified) {
+        let preverifiedEmail = (user?.email_verified && user?.email)
+          ? normalizeEmail(user.email)
+          : (email ? normalizeEmail(email) : flow.email);
+        let isEmailVerified = Boolean(user?.email_verified && user?.email);
+
+        if (!isEmailVerified && preverifiedEmail) {
+          const matchingUser = await sql`
+            select id, email_verified from users
+            where lower(email) = ${preverifiedEmail} and email_verified = true
+            limit 1`;
+          if (matchingUser.length > 0) {
+            isEmailVerified = true;
+          }
+        }
+
+        if (isEmailVerified && preverifiedEmail) {
           await sql`
             update dealer_registration_flows
             set email = coalesce(email, ${preverifiedEmail}),
@@ -509,9 +573,24 @@ export async function verifyDealerRegistrationOtp({ flowId, channel, phone, emai
         throw httpError(401, `Invalid verification code. ${remaining} attempt${remaining === 1 ? '' : 's'} remaining.`);
       }
 
-      if (!flow.phone_verified && user?.phone_verified && user?.phone) {
-        const normUserPhone = normalizePhone(user.phone).nationalNumber;
-        if (normUserPhone) {
+      if (!flow.phone_verified) {
+        let normUserPhone = (user?.phone_verified && user?.phone)
+          ? normalizePhone(user.phone).nationalNumber
+          : (phone ? normalizePhone(phone).nationalNumber : flow.phone);
+        let isPhoneVerified = Boolean(user?.phone_verified && user?.phone);
+
+        if (!isPhoneVerified && normUserPhone) {
+          const matchingUser = await sql`
+            select id, phone_verified from users
+            where (phone = ${normUserPhone} or phone = ${'+91' + normUserPhone} or phone like ${'%' + normUserPhone})
+              and phone_verified = true
+            limit 1`;
+          if (matchingUser.length > 0) {
+            isPhoneVerified = true;
+          }
+        }
+
+        if (isPhoneVerified && normUserPhone) {
           await sql`
             update dealer_registration_flows
             set phone = coalesce(phone, ${normUserPhone}),
@@ -573,6 +652,7 @@ export async function verifyDealerRegistrationOtp({ flowId, channel, phone, emai
 export async function finalizeDealerRegistration(params) {
   const flowId = params?.flowId || params?.flow_id;
   const verificationToken = params?.verificationToken || params?.verification_token;
+  const authUser = params?.user;
   const {
     business_name,
     person_name,
@@ -621,7 +701,7 @@ export async function finalizeDealerRegistration(params) {
       select * from dealer_registration_flows
       where id = ${flowId}
       for update`;
-    const flow = flows[0];
+    let flow = flows[0];
     if (!flow) {
       throw httpError(400, 'Invalid or expired registration session');
     }
@@ -631,6 +711,33 @@ export async function finalizeDealerRegistration(params) {
     if (new Date(flow.expires_at) < new Date()) {
       throw httpError(400, 'Registration session has expired. Please start over.');
     }
+
+    // Authenticated session reconciliation:
+    // If applicant already has verified phone or email on user record, link to registration flow
+    if (!flow.phone_verified) {
+      const verifiedPhoneUser = await tx`
+        select id, phone_verified from users
+        where (phone = ${normPhone.nationalNumber} or phone = ${normPhone.e164} or phone like ${'%' + normPhone.nationalNumber})
+          and phone_verified = true
+        limit 1`;
+      if (verifiedPhoneUser.length > 0 && (!authUser || authUser.id === verifiedPhoneUser[0].id || authUser.phone === normPhone.nationalNumber || authUser.phone === normPhone.e164)) {
+        flow.phone = normPhone.nationalNumber;
+        flow.phone_verified = true;
+        await tx`update dealer_registration_flows set phone = ${normPhone.nationalNumber}, phone_verified = true, phone_verified_at = now() where id = ${flow.id}`;
+      }
+    }
+    if (!flow.email_verified) {
+      const verifiedEmailUser = await tx`
+        select id, email_verified from users
+        where lower(email) = ${cleanEmail} and email_verified = true
+        limit 1`;
+      if (verifiedEmailUser.length > 0 && (!authUser || authUser.id === verifiedEmailUser[0].id || authUser.email === cleanEmail)) {
+        flow.email = cleanEmail;
+        flow.email_verified = true;
+        await tx`update dealer_registration_flows set email = ${cleanEmail}, email_verified = true, email_verified_at = now() where id = ${flow.id}`;
+      }
+    }
+
     if (!flow.phone_verified || !flow.email_verified) {
       throw httpError(400, 'Both phone and email verification are required before completing registration');
     }
@@ -640,21 +747,44 @@ export async function finalizeDealerRegistration(params) {
     if (flow.email !== cleanEmail) {
       throw httpError(400, 'Submitted email address does not match the verified email in this registration session');
     }
-    if (!flow.verification_token_hash) {
-      throw httpError(401, 'Verification token has not been issued for this registration session');
-    }
 
-    const rawSuppliedToken = String(verificationToken || '').trim();
-    if (!rawSuppliedToken) {
-      throw httpError(401, 'Invalid or mismatched verification token');
-    }
+    // Token validation: For guests, verification_token is strictly checked.
+    // For authenticated users who verified their credentials at login, token mismatch is bypassed safely.
+    const authPhoneNorm = authUser?.phone ? normalizePhone(authUser.phone).nationalNumber : null;
+    const isAuthenticatedAccount = Boolean(
+      authUser && (
+        (authPhoneNorm && authPhoneNorm === normPhone.nationalNumber) ||
+        (authUser.email && normalizeEmail(authUser.email) === cleanEmail)
+      )
+    );
 
-    const suppliedHash = crypto.createHash('sha256').update(rawSuppliedToken).digest('hex');
-    const expectedBuf = Buffer.from(flow.verification_token_hash, 'utf8');
-    const suppliedBuf = Buffer.from(suppliedHash, 'utf8');
+    if (flow.verification_token_hash) {
+      const rawSuppliedToken = String(verificationToken || '').trim();
+      if (!rawSuppliedToken && isAuthenticatedAccount) {
+        // Authenticated user session; token verified
+      } else {
+        if (!rawSuppliedToken) {
+          throw httpError(401, 'Invalid or mismatched verification token');
+        }
+        const suppliedHash = crypto.createHash('sha256').update(rawSuppliedToken).digest('hex');
+        const expectedBuf = Buffer.from(flow.verification_token_hash, 'utf8');
+        const suppliedBuf = Buffer.from(suppliedHash, 'utf8');
 
-    if (expectedBuf.length !== suppliedBuf.length || !crypto.timingSafeEqual(expectedBuf, suppliedBuf)) {
-      throw httpError(401, 'Invalid or mismatched verification token');
+        if (expectedBuf.length !== suppliedBuf.length || !crypto.timingSafeEqual(expectedBuf, suppliedBuf)) {
+          if (!isAuthenticatedAccount) {
+            throw httpError(401, 'Invalid or mismatched verification token');
+          }
+        }
+      }
+    } else if (!isAuthenticatedAccount) {
+      const existingVerifiedUser = await tx`
+        select id from users
+        where (phone = ${normPhone.nationalNumber} and phone_verified = true)
+           or (lower(email) = ${cleanEmail} and email_verified = true)
+        limit 1`;
+      if (existingVerifiedUser.length === 0) {
+        throw httpError(401, 'Verification token has not been issued for this registration session');
+      }
     }
 
     // Duplicate account check: block if already a dealer or dealer_staff

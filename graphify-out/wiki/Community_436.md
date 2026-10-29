@@ -4,10 +4,10 @@
 
 ## Key Concepts
 
-- **delivery-contract.test.mjs** (3 connections) — `.agents/skills/archify/test/delivery-contract.test.mjs`
-- **delivery** (1 connections) — `.agents/skills/archify/test/delivery-contract.test.mjs`
-- **here** (1 connections) — `.agents/skills/archify/test/delivery-contract.test.mjs`
-- **skill** (1 connections) — `.agents/skills/archify/test/delivery-contract.test.mjs`
+- **constants.js** (3 connections) — `backend/src/utils/constants.js`
+- **DEALER_STATUS** (1 connections) — `backend/src/utils/constants.js`
+- **ROLES** (1 connections) — `backend/src/utils/constants.js`
+- **TOKEN_TTL** (1 connections) — `backend/src/utils/constants.js`
 
 ## Relationships
 
@@ -15,7 +15,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/delivery-contract.test.mjs`
+- `backend/src/utils/constants.js`
 
 ## Audit Trail
 

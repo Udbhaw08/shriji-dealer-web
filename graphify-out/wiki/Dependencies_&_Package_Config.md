@@ -1,61 +1,54 @@
 # Dependencies & Package Config
 
-> 67 nodes · cohesion 0.08
+> 68 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **geometry.mjs** (75 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **compileWorkflowInternal()** (67 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **asArray()** (43 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **geometry.test.mjs** (34 connections) — `.agents/skills/archify/test/geometry.test.mjs`
-- **isFinitePoint()** (18 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **cleanFlowProblems()** (17 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **cleanEndpointSideProblems()** (14 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **collectLabelRouteClearance()** (12 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **segmentIntersectsRect()** (12 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **suggestLabelObstacleFix()** (12 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **anchor()** (11 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **automaticPortSpread()** (11 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **chosenSide()** (11 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **defaultFromSide()** (11 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **defaultToSide()** (11 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **pathFor()** (10 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **collectBorderRuns()** (10 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **normalizeRoutePoints()** (10 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **routeHonorsEndpointSides()** (9 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **pathFor()** (8 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **pathFor()** (8 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **collectAmbiguousCorridors()** (8 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **polylinePath()** (8 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **segmentRectClearance()** (8 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **suggestLabelPairFix()** (8 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- *... and 42 more nodes in this community*
+- **al()** (41 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
+- **yc()** (20 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
+- **bc()** (18 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
+- **za()** (15 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
+- **lm()** (12 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
+- **gc()** (11 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
+- **pa()** (11 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
+- **ga()** (10 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
+- **il()** (10 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
+- **nl()** (10 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
+- **Ti()** (10 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
+- **wc()** (10 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
+- **fa()** (9 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
+- **ia()** (9 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
+- **kc()** (8 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
+- **ki()** (8 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
+- **oa()** (8 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
+- **Ai()** (7 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
+- **jc()** (7 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
+- **no()** (7 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
+- **ac()** (6 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
+- **Ca()** (6 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
+- **dc()** (6 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
+- **lh()** (6 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
+- **Mi()** (6 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
+- *... and 43 more nodes in this community*
 
 ## Relationships
 
-- [[Community 39]] (63 shared connections)
-- [[Pricing & Roles Skill]] (45 shared connections)
-- [[Roles & Customer Sharing Spec]] (35 shared connections)
-- [[Community 40]] (33 shared connections)
-- [[Community 81]] (31 shared connections)
-- [[Zoho Integration Architecture]] (8 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (6 shared connections)
-- [[Community 108]] (4 shared connections)
-- [[Community 298]] (3 shared connections)
+- [[Dealer Auth & Session Management]] (83 shared connections)
+- [[Zoho Integration Skill]] (33 shared connections)
+- [[Community 36]] (20 shared connections)
+- [[Design System & UI Tokens]] (16 shared connections)
+- [[Community 43]] (14 shared connections)
+- [[Community 76]] (12 shared connections)
+- [[Architecture Doc Generator]] (12 shared connections)
+- [[Community 46]] (7 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- `.agents/skills/archify/renderers/shared/diagnostics.mjs`
-- `.agents/skills/archify/renderers/shared/geometry.mjs`
-- `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- `.agents/skills/archify/test/geometry.test.mjs`
+- `ios/App/App/public/assets/index-BGsH1ADA.js`
 
 ## Audit Trail
 
-- EXTRACTED: 592 (100%)
+- EXTRACTED: 431 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

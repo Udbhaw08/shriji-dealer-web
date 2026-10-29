@@ -1,47 +1,54 @@
 # Community 43
 
-> 33 nodes · cohesion 0.06
+> 33 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **scripts** (15 connections) — `.agents/skills/archify/package.json`
-- **package.json** (11 connections) — `.agents/skills/archify/package.json`
-- **devDependencies** (5 connections) — `.agents/skills/archify/package.json`
-- **bin** (2 connections) — `.agents/skills/archify/package.json`
-- **engines** (2 connections) — `.agents/skills/archify/package.json`
-- **overrides** (2 connections) — `.agents/skills/archify/package.json`
-- **archify** (1 connections) — `.agents/skills/archify/package.json`
-- **description** (1 connections) — `.agents/skills/archify/package.json`
-- **ajv** (1 connections) — `.agents/skills/archify/package.json`
-- **parse5** (1 connections) — `.agents/skills/archify/package.json`
-- **saxes** (1 connections) — `.agents/skills/archify/package.json`
-- **simple-icons** (1 connections) — `.agents/skills/archify/package.json`
-- **node** (1 connections) — `.agents/skills/archify/package.json`
-- **license** (1 connections) — `.agents/skills/archify/package.json`
-- **name** (1 connections) — `.agents/skills/archify/package.json`
-- **fast-uri** (1 connections) — `.agents/skills/archify/package.json`
-- **private** (1 connections) — `.agents/skills/archify/package.json`
-- **build:gallery** (1 connections) — `.agents/skills/archify/package.json`
-- **build:guide** (1 connections) — `.agents/skills/archify/package.json`
-- **build:readme-showcase** (1 connections) — `.agents/skills/archify/package.json`
-- **build:start** (1 connections) — `.agents/skills/archify/package.json`
-- **check:brand-marks** (1 connections) — `.agents/skills/archify/package.json`
-- **check:release-identity** (1 connections) — `.agents/skills/archify/package.json`
-- **check:validators** (1 connections) — `.agents/skills/archify/package.json`
-- **check:viewer** (1 connections) — `.agents/skills/archify/package.json`
+- **Or()** (25 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
+- **gf()** (20 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
+- **r()** (13 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
+- **Ar()** (9 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
+- **ri()** (9 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
+- **qr()** (7 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
+- **Fr()** (6 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
+- **mr()** (6 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
+- **qc()** (6 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
+- **xr()** (6 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
+- **gr()** (5 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
+- **Ir()** (5 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
+- **jr()** (5 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
+- **Oi()** (5 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
+- **pr()** (5 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
+- **qf()** (5 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
+- **ur()** (5 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
+- **wr()** (5 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
+- **xn()** (5 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
+- **zr()** (5 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
+- **br()** (4 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
+- **Lr()** (4 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
+- **pc()** (4 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
+- **Rr()** (4 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
+- **Tr()** (4 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
 - *... and 8 more nodes in this community*
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Dealer Auth & Session Management]] (36 shared connections)
+- [[Dependencies & Package Config]] (14 shared connections)
+- [[Zoho Integration Skill]] (7 shared connections)
+- [[Design System & UI Tokens]] (6 shared connections)
+- [[Community 46]] (6 shared connections)
+- [[Community 36]] (4 shared connections)
+- [[Architecture Doc Generator]] (3 shared connections)
+- [[Community 76]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/package.json`
+- `ios/App/App/public/assets/index-BGsH1ADA.js`
 
 ## Audit Trail
 
-- EXTRACTED: 64 (100%)
+- EXTRACTED: 197 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

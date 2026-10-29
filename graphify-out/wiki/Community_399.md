@@ -12,8 +12,8 @@
 
 ## Relationships
 
-- [[Vercel Deployment Routing]] (2 shared connections)
-- [[Client Products Data Store]] (1 shared connections)
+- [[Graphify Agent Rules]] (2 shared connections)
+- [[Product Brand & Business Vision]] (1 shared connections)
 
 ## Source Files
 

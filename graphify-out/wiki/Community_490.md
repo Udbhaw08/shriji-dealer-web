@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **JWT Refresh Token Rotation Policy** (2 connections) — `docs/security/jwt-rotation-policy.md`
-- **jwt-rotation-policy.md** (1 connections) — `docs/security/jwt-rotation-policy.md`
-- **Rotation Rules** (1 connections) — `docs/security/jwt-rotation-policy.md`
+- **XSS Prevention & Content Sanitization Guidelines** (2 connections) — `docs/security/xss-and-content-sanitization.md`
+- **xss-and-content-sanitization.md** (1 connections) — `docs/security/xss-and-content-sanitization.md`
+- **Guidelines** (1 connections) — `docs/security/xss-and-content-sanitization.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/security/jwt-rotation-policy.md`
+- `docs/security/xss-and-content-sanitization.md`
 
 ## Audit Trail
 

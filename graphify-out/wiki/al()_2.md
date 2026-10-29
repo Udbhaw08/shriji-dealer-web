@@ -1,8 +1,8 @@
 # al()
 
-> God node · 41 connections · `ios/App/App/public/assets/index-CHuADt1b.js`
+> God node · 41 connections · `ios/App/App/public/assets/index-BGsH1ADA.js`
 
-**Community:** [[Community 41]]
+**Community:** [[Dependencies & Package Config]]
 
 ## Connections by Relation
 

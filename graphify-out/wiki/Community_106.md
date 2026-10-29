@@ -26,8 +26,8 @@
 ## Relationships
 
 - [[Community 44]] (4 shared connections)
-- [[Zoho Integration Architecture]] (4 shared connections)
-- [[Community 63]] (3 shared connections)
+- [[Client Products Data Store]] (4 shared connections)
+- [[Community 61]] (3 shared connections)
 - [[Community 299]] (2 shared connections)
 - [[Community 211]] (2 shared connections)
 

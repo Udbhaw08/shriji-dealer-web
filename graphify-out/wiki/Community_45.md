@@ -36,14 +36,14 @@
 - [[Community 82]] (8 shared connections)
 - [[Community 128]] (6 shared connections)
 - [[Community 52]] (5 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (4 shared connections)
-- [[Community 64]] (3 shared connections)
-- [[Roles & Customer Sharing Spec]] (3 shared connections)
+- [[Graphify Knowledge Graph Skill]] (4 shared connections)
+- [[Community 62]] (3 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (3 shared connections)
 - [[Community 143]] (2 shared connections)
 - [[Community 91]] (2 shared connections)
 - [[Community 107]] (2 shared connections)
-- [[Community 149]] (1 shared connections)
 - [[Community 150]] (1 shared connections)
+- [[Community 151]] (1 shared connections)
 - [[Community 126]] (1 shared connections)
 
 ## Source Files

@@ -12,7 +12,7 @@
 
 ## Relationships
 
-- [[Product Pages Specification]] (1 shared connections)
+- [[Master Codebase Architecture Reference]] (1 shared connections)
 
 ## Source Files
 

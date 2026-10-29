@@ -4,15 +4,15 @@
 
 ## Key Concepts
 
-- **web-CkMmF3T_.js** (8 connections) — `ios/App/App/public/assets/web-CkMmF3T_.js`
-- **constructor()** (1 connections) — `ios/App/App/public/assets/web-CkMmF3T_.js`
-- **exitApp()** (1 connections) — `ios/App/App/public/assets/web-CkMmF3T_.js`
-- **getAppLanguage()** (1 connections) — `ios/App/App/public/assets/web-CkMmF3T_.js`
-- **getInfo()** (1 connections) — `ios/App/App/public/assets/web-CkMmF3T_.js`
-- **getLaunchUrl()** (1 connections) — `ios/App/App/public/assets/web-CkMmF3T_.js`
-- **getState()** (1 connections) — `ios/App/App/public/assets/web-CkMmF3T_.js`
-- **minimizeApp()** (1 connections) — `ios/App/App/public/assets/web-CkMmF3T_.js`
-- **toggleBackButtonHandler()** (1 connections) — `ios/App/App/public/assets/web-CkMmF3T_.js`
+- **web-cdyuftY0.js** (8 connections) — `ios/App/App/public/assets/web-cdyuftY0.js`
+- **constructor()** (1 connections) — `ios/App/App/public/assets/web-cdyuftY0.js`
+- **exitApp()** (1 connections) — `ios/App/App/public/assets/web-cdyuftY0.js`
+- **getAppLanguage()** (1 connections) — `ios/App/App/public/assets/web-cdyuftY0.js`
+- **getInfo()** (1 connections) — `ios/App/App/public/assets/web-cdyuftY0.js`
+- **getLaunchUrl()** (1 connections) — `ios/App/App/public/assets/web-cdyuftY0.js`
+- **getState()** (1 connections) — `ios/App/App/public/assets/web-cdyuftY0.js`
+- **minimizeApp()** (1 connections) — `ios/App/App/public/assets/web-cdyuftY0.js`
+- **toggleBackButtonHandler()** (1 connections) — `ios/App/App/public/assets/web-cdyuftY0.js`
 
 ## Relationships
 
@@ -20,7 +20,7 @@
 
 ## Source Files
 
-- `ios/App/App/public/assets/web-CkMmF3T_.js`
+- `ios/App/App/public/assets/web-cdyuftY0.js`
 
 ## Audit Trail
 

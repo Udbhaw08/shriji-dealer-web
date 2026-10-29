@@ -24,7 +24,7 @@
 
 ## Relationships
 
-- [[Oxlint Linter Configuration]] (3 shared connections)
+- [[Community 42]] (3 shared connections)
 
 ## Source Files
 

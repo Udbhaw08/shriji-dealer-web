@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **check-env.mjs** (2 connections) — `scripts/check-env.mjs`
-- **missing** (1 connections) — `scripts/check-env.mjs`
-- **requiredEnv** (1 connections) — `scripts/check-env.mjs`
+- **Payment Data Isolation & Compliance Notes** (2 connections) — `docs/security/pci-dss-compliance-notes.md`
+- **pci-dss-compliance-notes.md** (1 connections) — `docs/security/pci-dss-compliance-notes.md`
+- **Architecture** (1 connections) — `docs/security/pci-dss-compliance-notes.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `scripts/check-env.mjs`
+- `docs/security/pci-dss-compliance-notes.md`
 
 ## Audit Trail
 

@@ -1,53 +1,54 @@
 # Mobile Responsive UI Skill
 
-> 46 nodes · cohesion 0.08
+> 47 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **zoho.js** (59 connections) — `api/_lib/zoho.js`
-- **fetchZohoProductById()** (18 connections) — `api/_lib/zoho.js`
-- **getZohoConfig()** (10 connections) — `api/_lib/zoho.js`
-- **createDealerContact()** (9 connections) — `api/_lib/zoho.js`
-- **fetchZohoWithRetry()** (9 connections) — `api/_lib/zoho.js`
-- **fetchZohoPricebookItems()** (6 connections) — `api/_lib/zoho.js`
-- **getAccessToken()** (6 connections) — `api/_lib/zoho.js`
-- **normalizeProduct()** (6 connections) — `api/_lib/zoho.js`
-- **resolvePricebookId()** (5 connections) — `api/_lib/zoho.js`
-- **fetchZohoPricebooks()** (4 connections) — `api/_lib/zoho.js`
-- **fetchZohoRawCategories()** (4 connections) — `api/_lib/zoho.js`
-- **getDealerById()** (4 connections) — `api/_lib/zoho.js`
-- **loadEnv()** (4 connections) — `api/_lib/zoho.js`
-- **updateCachedProductTags()** (4 connections) — `api/_lib/zoho.js`
-- **test-zoho-api.mjs** (4 connections) — `scripts/test-zoho-api.mjs`
-- **apply.js** (3 connections) — `api/dealer/apply.js`
-- **getCachedProductTags()** (3 connections) — `api/_lib/zoho.js`
-- **isItemOnline()** (3 connections) — `api/_lib/zoho.js`
-- **readProductDetailsDiskCache()** (3 connections) — `api/_lib/zoho.js`
-- **writeProductDetailDiskCache()** (3 connections) — `api/_lib/zoho.js`
-- **handler()** (2 connections) — `api/dealer/apply.js`
-- **isItemCategoryOnline()** (2 connections) — `api/_lib/zoho.js`
-- **parseRate()** (2 connections) — `api/_lib/zoho.js`
-- **readDiskCache()** (2 connections) — `api/_lib/zoho.js`
-- **slugifyCategory()** (2 connections) — `api/_lib/zoho.js`
-- *... and 21 more nodes in this community*
+- **properties** (33 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **fromCol** (4 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **toCol** (4 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **label** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **variant** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **brand** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **channelX** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **channelY** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **fromSide** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **id** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **labelAt** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **labelDx** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **labelDy** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **lane** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **role** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **route** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **sublabel** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **tag** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **toSide** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **type** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **yOffset** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **maximum** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- *... and 22 more nodes in this community*
 
 ## Relationships
 
-- [[Community 94]] (17 shared connections)
-- [[Community 190]] (9 shared connections)
-- [[Community 411]] (5 shared connections)
-- [[Community 88]] (2 shared connections)
-- [[Community 148]] (1 shared connections)
+- [[Community 112]] (5 shared connections)
+- [[Community 96]] (2 shared connections)
+- [[Community 425]] (1 shared connections)
+- [[Community 426]] (1 shared connections)
+- [[Community 482]] (1 shared connections)
+- [[Community 483]] (1 shared connections)
+- [[Community 80]] (1 shared connections)
+- [[Community 484]] (1 shared connections)
 
 ## Source Files
 
-- `api/_lib/zoho.js`
-- `api/dealer/apply.js`
-- `scripts/test-zoho-api.mjs`
+- `.agents/skills/archify/schemas/workflow.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 200 (100%)
+- EXTRACTED: 105 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

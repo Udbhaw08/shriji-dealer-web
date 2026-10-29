@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **portalGate.test.mjs** (0 connections) — `src/data/portalGate.test.mjs`
+- **context.md** (0 connections) — `design/context.md`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `src/data/portalGate.test.mjs`
+- `design/context.md`
 
 ## Audit Trail
 

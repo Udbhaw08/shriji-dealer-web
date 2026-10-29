@@ -1,60 +1,54 @@
 # Roles & Customer Sharing Spec
 
-> 51 nodes · cohesion 0.06
+> 51 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **render-architecture.mjs** (122 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **renderLegend()** (7 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **grid.mjs** (6 connections) — `.agents/skills/archify/renderers/architecture/grid.mjs`
-- **alignFacingPorts()** (6 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **buildLayoutReport()** (6 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **layoutBoundaryTitles()** (5 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **sideAwareBridgeCandidates()** (5 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **relationshipLegendObstacles()** (5 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
-- **resolveComponentPos()** (4 connections) — `.agents/skills/archify/renderers/architecture/grid.mjs`
-- **validateGridPlacement()** (4 connections) — `.agents/skills/archify/renderers/architecture/grid.mjs`
-- **boundaryLabelWidth()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **measureBoundaryTitle()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **resolveBoundaryTitles()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **routeClearsComponents()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **routeClearsEndpointComponents()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **minimumReadableSourceTextPx()** (4 connections) — `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
-- **layout-report.mjs** (4 connections) — `.agents/skills/archify/renderers/shared/layout-report.mjs`
-- **grid.test.mjs** (4 connections) — `.agents/skills/archify/test/grid.test.mjs`
-- **gridLayout()** (3 connections) — `.agents/skills/archify/renderers/architecture/grid.mjs`
-- **autoViewBoxFor()** (3 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **expandBoundaryForReadableTitle()** (3 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **resolvedViewBoxWidth()** (3 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **connectionPath()** (3 connections) — `.agents/skills/archify/renderers/shared/layout-report.mjs`
-- **connectionEndpointSide()** (2 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **legendY()** (2 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **Or()** (25 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
+- **gf()** (20 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
+- **r()** (13 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
+- **bi()** (11 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
+- **Ti()** (10 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
+- **Ar()** (9 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
+- **ri()** (9 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
+- **Si()** (8 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
+- **Ai()** (7 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
+- **qr()** (7 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
+- **request()** (7 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
+- **Fr()** (6 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
+- **Mi()** (6 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
+- **mr()** (6 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
+- **qc()** (6 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
+- **xr()** (6 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
+- **bn()** (5 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
+- **gr()** (5 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
+- **hr()** (5 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
+- **Ir()** (5 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
+- **jr()** (5 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
+- **Oi()** (5 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
+- **pr()** (5 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
+- **qf()** (5 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
+- **sm()** (5 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
 - *... and 26 more nodes in this community*
 
 ## Relationships
 
-- [[Dependencies & Package Config]] (35 shared connections)
-- [[Pricing & Roles Skill]] (21 shared connections)
-- [[Community 39]] (19 shared connections)
-- [[Community 40]] (14 shared connections)
-- [[Zoho Integration Architecture]] (5 shared connections)
-- [[Community 108]] (4 shared connections)
-- [[Community 45]] (3 shared connections)
-- [[Testing & Workflow Skill]] (1 shared connections)
-- [[Community 81]] (1 shared connections)
+- [[Price Presentation & Product UI]] (53 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (18 shared connections)
+- [[Community 47]] (10 shared connections)
+- [[Community 53]] (9 shared connections)
+- [[Product Requirements Documentation]] (8 shared connections)
+- [[Pricing Regression Test Suite]] (7 shared connections)
+- [[Live Pricing Audit Tool]] (5 shared connections)
+- [[Community 142]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/architecture/grid.mjs`
-- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
-- `.agents/skills/archify/renderers/shared/layout-report.mjs`
-- `.agents/skills/archify/renderers/shared/legend.mjs`
-- `.agents/skills/archify/test/grid.test.mjs`
+- `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
 
 ## Audit Trail
 
-- EXTRACTED: 253 (100%)
+- EXTRACTED: 287 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

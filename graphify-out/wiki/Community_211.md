@@ -17,8 +17,8 @@
 
 ## Relationships
 
-- [[Zoho Integration Architecture]] (3 shared connections)
-- [[Community 63]] (2 shared connections)
+- [[Client Products Data Store]] (3 shared connections)
+- [[Community 61]] (2 shared connections)
 - [[Community 106]] (2 shared connections)
 
 ## Source Files

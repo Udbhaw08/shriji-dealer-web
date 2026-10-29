@@ -108,6 +108,7 @@ export default function BrandApplyFlow({ onBack }) {
         flowId,
         channel: "phone",
         phone: clean,
+        email: verifiedEmail || emailInput || form.email,
       });
       if (res.flowId) setFlowId(res.flowId);
       if (res.already_verified) {
@@ -142,6 +143,7 @@ export default function BrandApplyFlow({ onBack }) {
         flowId,
         channel: "phone",
         phone: cleanPhone,
+        email: verifiedEmail || emailInput || form.email,
         code,
       });
       setPhoneVerified(true);
@@ -173,6 +175,7 @@ export default function BrandApplyFlow({ onBack }) {
         flowId,
         channel: "email",
         email: clean,
+        phone: verifiedPhone || phoneInput || form.phone,
       });
       if (res.flowId) setFlowId(res.flowId);
       if (res.already_verified) {
@@ -207,6 +210,7 @@ export default function BrandApplyFlow({ onBack }) {
         flowId,
         channel: "email",
         email: cleanEmail,
+        phone: verifiedPhone || phoneInput || form.phone,
         code,
       });
       setEmailVerified(true);

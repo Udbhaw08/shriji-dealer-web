@@ -1,61 +1,54 @@
 # Pricing Regression Test Suite
 
-> 56 nodes · cohesion 0.06
+> 56 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **auth.js** (54 connections) — `backend/src/routes/auth.js`
-- **hash.js** (25 connections) — `backend/src/utils/hash.js`
-- **phase2DealerStaffOnboarding.test.mjs** (17 connections) — `backend/test/phase2DealerStaffOnboarding.test.mjs`
-- **loginCode.js** (17 connections) — `backend/src/utils/loginCode.js`
-- **onboardingVerification.test.mjs** (15 connections) — `backend/test/onboardingVerification.test.mjs`
-- **hashOtp()** (10 connections) — `backend/src/utils/hash.js`
-- **verifyOtpHash()** (10 connections) — `backend/src/utils/hash.js`
-- **hash.test.mjs** (9 connections) — `backend/test/hash.test.mjs`
-- **sha256()** (9 connections) — `backend/src/utils/hash.js`
-- **formatLoginCode()** (8 connections) — `backend/src/utils/loginCode.js`
-- **generateLoginCode()** (8 connections) — `backend/src/utils/loginCode.js`
-- **loginCode.test.mjs** (7 connections) — `backend/test/loginCode.test.mjs`
-- **issueSession()** (5 connections) — `backend/src/routes/auth.js`
-- **generateOtp()** (5 connections) — `backend/src/utils/hash.js`
-- **hashPassword()** (5 connections) — `backend/src/utils/hash.js`
-- **resolveUserWithDealer()** (4 connections) — `backend/src/routes/auth.js`
-- **verifyPassword()** (4 connections) — `backend/src/utils/hash.js`
-- **isValidLoginCode()** (4 connections) — `backend/src/utils/loginCode.js`
-- **parseLoginCode()** (4 connections) — `backend/src/utils/loginCode.js`
-- **findUserByEmail()** (3 connections) — `backend/src/routes/auth.js`
-- **publicUser()** (3 connections) — `backend/src/routes/auth.js`
-- **handleDealerRegistrationFinalize()** (3 connections) — `backend/src/routes/dealers.js`
-- **notify()** (3 connections) — `backend/src/services/notifications.js`
-- **scryptKey()** (3 connections) — `backend/src/utils/hash.js`
-- **USER_CATEGORIES** (3 connections) — `backend/src/utils/loginCode.js`
+- **fl()** (24 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
+- **it()** (21 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
+- **k()** (19 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
+- **st()** (16 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
+- **A()** (13 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
+- **ft()** (13 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
+- **pe()** (13 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
+- **Dn()** (12 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
+- **ml()** (11 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
+- **ut()** (11 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
+- **jt()** (10 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
+- **ct()** (9 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
+- **nt()** (9 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
+- **pl()** (9 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
+- **ve()** (9 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
+- **xe()** (9 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
+- **ye()** (9 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
+- **ao()** (8 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
+- **P()** (8 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
+- **xt()** (8 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
+- **aa()** (7 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
+- **dt()** (7 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
+- **Gt()** (7 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
+- **I()** (7 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
+- **Id()** (7 connections) — `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
 - *... and 31 more nodes in this community*
 
 ## Relationships
 
-- [[Vercel Deployment Routing]] (25 shared connections)
-- [[Community 72]] (25 shared connections)
-- [[Client Products Data Store]] (7 shared connections)
-- [[Community 115]] (6 shared connections)
-- [[Community 51]] (5 shared connections)
-- [[Community 182]] (4 shared connections)
-- [[Community 138]] (2 shared connections)
+- [[Price Presentation & Product UI]] (68 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (33 shared connections)
+- [[Product Requirements Documentation]] (21 shared connections)
+- [[Community 47]] (12 shared connections)
+- [[Live Pricing Audit Tool]] (12 shared connections)
+- [[Roles & Customer Sharing Spec]] (7 shared connections)
+- [[Community 53]] (5 shared connections)
+- [[Community 142]] (5 shared connections)
 
 ## Source Files
 
-- `backend/src/routes/auth.js`
-- `backend/src/routes/dealers.js`
-- `backend/src/services/notifications.js`
-- `backend/src/utils/hash.js`
-- `backend/src/utils/loginCode.js`
-- `backend/test/hash.test.mjs`
-- `backend/test/loginCode.test.mjs`
-- `backend/test/onboardingVerification.test.mjs`
-- `backend/test/phase2DealerStaffOnboarding.test.mjs`
+- `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
 
 ## Audit Trail
 
-- EXTRACTED: 274 (100%)
+- EXTRACTED: 419 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **auditLog.js** (1 connections) — `backend/src/services/auditLog.js`
-- **recordAuditLog()** (1 connections) — `backend/src/services/auditLog.js`
+- **smsFallback.js** (1 connections) — `backend/src/services/smsFallback.js`
+- **sendSmsOtpFallback()** (1 connections) — `backend/src/services/smsFallback.js`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `backend/src/services/auditLog.js`
+- `backend/src/services/smsFallback.js`
 
 ## Audit Trail
 

@@ -13,7 +13,7 @@
 
 ## Relationships
 
-- [[Community 74]] (6 shared connections)
+- [[Community 73]] (6 shared connections)
 - [[Community 241]] (2 shared connections)
 - [[Community 249]] (1 shared connections)
 

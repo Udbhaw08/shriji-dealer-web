@@ -33,16 +33,15 @@
 
 ## Relationships
 
-- [[Dependencies & Package Config]] (45 shared connections)
-- [[Community 39]] (42 shared connections)
-- [[Community 40]] (35 shared connections)
-- [[Roles & Customer Sharing Spec]] (21 shared connections)
+- [[Product Pages Specification]] (45 shared connections)
+- [[Community 38]] (42 shared connections)
+- [[Community 39]] (35 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (21 shared connections)
 - [[Community 81]] (14 shared connections)
 - [[Community 108]] (12 shared connections)
-- [[Zoho Integration Architecture]] (11 shared connections)
-- [[Testing & Workflow Skill]] (7 shared connections)
-- [[Community 169]] (3 shared connections)
-- [[Community 47]] (2 shared connections)
+- [[Client Products Data Store]] (11 shared connections)
+- [[Vercel Deployment Routing]] (7 shared connections)
+- [[Community 59]] (5 shared connections)
 - [[Community 83]] (2 shared connections)
 
 ## Source Files

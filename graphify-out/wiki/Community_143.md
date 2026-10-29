@@ -21,7 +21,7 @@
 ## Relationships
 
 - [[Community 44]] (27 shared connections)
-- [[Testing & Workflow Skill]] (3 shared connections)
+- [[Vercel Deployment Routing]] (3 shared connections)
 - [[Community 299]] (3 shared connections)
 - [[Community 45]] (2 shared connections)
 

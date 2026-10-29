@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **make-scheme-pdfs.mjs** (1 connections) — `scripts/make-scheme-pdfs.mjs`
-- **createPdfWithJpg()** (1 connections) — `scripts/make-scheme-pdfs.mjs`
+- **healthService.js** (1 connections) — `backend/src/services/healthService.js`
+- **getSystemHealth()** (1 connections) — `backend/src/services/healthService.js`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `scripts/make-scheme-pdfs.mjs`
+- `backend/src/services/healthService.js`
 
 ## Audit Trail
 

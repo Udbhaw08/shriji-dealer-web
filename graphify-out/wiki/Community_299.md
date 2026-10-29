@@ -15,10 +15,10 @@
 ## Relationships
 
 - [[Community 44]] (11 shared connections)
-- [[Community 47]] (4 shared connections)
+- [[Community 114]] (4 shared connections)
 - [[Community 143]] (3 shared connections)
 - [[Community 83]] (2 shared connections)
-- [[Community 169]] (2 shared connections)
+- [[Community 59]] (2 shared connections)
 - [[Community 106]] (2 shared connections)
 
 ## Source Files

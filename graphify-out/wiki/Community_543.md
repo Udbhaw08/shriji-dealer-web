@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **envValidator.js** (1 connections) — `backend/src/utils/envValidator.js`
-- **requireEnv()** (1 connections) — `backend/src/utils/envValidator.js`
+- **retryHelper.js** (1 connections) — `backend/src/utils/retryHelper.js`
+- **retryWithBackoff()** (1 connections) — `backend/src/utils/retryHelper.js`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `backend/src/utils/envValidator.js`
+- `backend/src/utils/retryHelper.js`
 
 ## Audit Trail
 

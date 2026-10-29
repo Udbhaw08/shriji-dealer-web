@@ -21,10 +21,10 @@
 
 ## Relationships
 
-- [[Client Products Data Store]] (10 shared connections)
-- [[Vercel Deployment Routing]] (6 shared connections)
-- [[Pricing Regression Test Suite]] (2 shared connections)
-- [[Community 72]] (2 shared connections)
+- [[Product Brand & Business Vision]] (10 shared connections)
+- [[Graphify Agent Rules]] (6 shared connections)
+- [[Zoho Integration Architecture]] (2 shared connections)
+- [[Community 70]] (2 shared connections)
 
 ## Source Files
 

@@ -5,16 +5,16 @@
 ## Key Concepts
 
 - **auth.js** (53 connections) — `src/data/auth.js`
+- **callBackend()** (31 connections) — `src/data/auth.js`
 - **json()** (31 connections) — `src/data/auth.js`
-- **callBackend()** (28 connections) — `src/data/auth.js`
 - **DealerDashboard.jsx** (23 connections) — `src/pages/DealerDashboard.jsx`
 - **broadcastAuthChange()** (13 connections) — `src/data/auth.js`
 - **applyAuthResponse()** (9 connections) — `src/data/auth.js`
-- **finalizeDealerRegistration()** (7 connections) — `src/data/auth.js`
+- **finalizeDealerRegistration()** (8 connections) — `src/data/auth.js`
+- **requestDealerRegistrationOtp()** (7 connections) — `src/data/auth.js`
 - **staffSignup()** (7 connections) — `src/data/auth.js`
+- **verifyDealerRegistrationOtp()** (7 connections) — `src/data/auth.js`
 - **logout()** (6 connections) — `src/data/auth.js`
-- **requestDealerRegistrationOtp()** (6 connections) — `src/data/auth.js`
-- **verifyDealerRegistrationOtp()** (6 connections) — `src/data/auth.js`
 - **verifyEmailOtp()** (6 connections) — `src/data/auth.js`
 - **fetchMe()** (5 connections) — `src/data/auth.js`
 - **googleLogin()** (5 connections) — `src/data/auth.js`
@@ -33,9 +33,10 @@
 
 ## Relationships
 
-- [[Project Readme & Layout]] (47 shared connections)
+- [[Agent Guidelines (AGENTS.md)]] (47 shared connections)
 - [[Community 99]] (11 shared connections)
-- [[Product Pages Specification]] (5 shared connections)
+- [[Master Codebase Architecture Reference]] (4 shared connections)
+- [[Community 144]] (1 shared connections)
 
 ## Source Files
 
@@ -44,7 +45,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 309 (100%)
+- EXTRACTED: 315 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

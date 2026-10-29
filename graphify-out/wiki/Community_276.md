@@ -15,7 +15,7 @@
 
 ## Relationships
 
-- [[Claude Agent Instructions]] (2 shared connections)
+- [[Project Readme & Layout]] (2 shared connections)
 
 ## Source Files
 

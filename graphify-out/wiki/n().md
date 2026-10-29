@@ -1,6 +1,6 @@
 # n()
 
-> God node · 33 connections · `android/app/src/main/assets/public/assets/index-CHuADt1b.js`
+> God node · 33 connections · `android/app/src/main/assets/public/assets/index-BGsH1ADA.js`
 
 **Community:** [[Price Presentation & Product UI]]
 

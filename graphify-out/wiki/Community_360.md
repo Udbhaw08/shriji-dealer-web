@@ -13,7 +13,7 @@
 
 ## Relationships
 
-- [[Community 77]] (1 shared connections)
+- [[Community 72]] (1 shared connections)
 
 ## Source Files
 

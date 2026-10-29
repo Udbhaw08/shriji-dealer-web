@@ -18,7 +18,7 @@
 - [[Community 133]] (8 shared connections)
 - [[Community 141]] (5 shared connections)
 - [[Community 81]] (4 shared connections)
-- [[Dependencies & Package Config]] (3 shared connections)
+- [[Product Pages Specification]] (3 shared connections)
 - [[Community 52]] (1 shared connections)
 
 ## Source Files

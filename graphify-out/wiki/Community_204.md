@@ -18,7 +18,7 @@
 ## Relationships
 
 - [[Graphify Workflow]] (3 shared connections)
-- [[Community 118]] (3 shared connections)
+- [[Community 120]] (3 shared connections)
 
 ## Source Files
 

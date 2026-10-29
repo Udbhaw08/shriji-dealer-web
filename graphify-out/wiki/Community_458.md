@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **GSTIN Verification Flow** (2 connections) — `docs/guides/gstin-verification-flow.md`
-- **gstin-verification-flow.md** (1 connections) — `docs/guides/gstin-verification-flow.md`
-- **State Code Resolution** (1 connections) — `docs/guides/gstin-verification-flow.md`
+- **Designing for iOS** (2 connections) — `.agents/skills/apple-design/references/hig/designing-for-ios.md`
+- **designing-for-ios.md** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-ios.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-ios.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/guides/gstin-verification-flow.md`
+- `.agents/skills/apple-design/references/hig/designing-for-ios.md`
 
 ## Audit Trail
 

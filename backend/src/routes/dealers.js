@@ -116,8 +116,9 @@ dealersRouter.post('/register/otp/request', optionalAuth, otpRequestLimit, async
     const result = await requestDealerRegistrationOtp({
       flowId: req.body?.flowId || req.body?.flow_id,
       channel,
-      phone: req.body?.phone,
-      email: req.body?.email,
+      phone: req.body?.phone || req.user?.phone,
+      email: req.body?.email || req.body?.official_email || req.user?.email,
+      user: req.user,
     });
     res.json(result);
   } catch (err) { next(err); }
@@ -130,9 +131,10 @@ dealersRouter.post('/register/otp/verify', optionalAuth, strictLimit, async (req
     const result = await verifyDealerRegistrationOtp({
       flowId: req.body?.flowId || req.body?.flow_id,
       channel,
-      phone: req.body?.phone,
-      email: req.body?.email,
-      code: req.body?.code,
+      phone: req.body?.phone || req.user?.phone,
+      email: req.body?.email || req.body?.official_email || req.user?.email,
+      code: req.body?.code || req.body?.otp,
+      user: req.user,
     });
     res.json(result);
   } catch (err) { next(err); }
@@ -169,6 +171,7 @@ async function handleDealerRegistrationFinalize(req, res, next) {
       gst_treatment,
       gst_number,
       address,
+      user: req.user,
     });
 
     const session = await issueSession(user);
@@ -182,8 +185,8 @@ async function handleDealerRegistrationFinalize(req, res, next) {
   } catch (err) { next(err); }
 }
 
-dealersRouter.post('/register/finalize', strictLimit, handleDealerRegistrationFinalize);
-dealersRouter.post('/register', strictLimit, handleDealerRegistrationFinalize);
+dealersRouter.post('/register/finalize', optionalAuth, strictLimit, handleDealerRegistrationFinalize);
+dealersRouter.post('/register', optionalAuth, strictLimit, handleDealerRegistrationFinalize);
 
 /* ==========================================================================
  * Authenticated Dealer Endpoints (Requires Valid Session)

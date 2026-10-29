@@ -4,18 +4,18 @@
 
 ## Key Concepts
 
-- **Search fields** (6 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
-- **Phone (iOS)** (4 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
-- **search-fields.md** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
-- **Scope bars and tokens** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
-- **Search as a tab** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
-- **Search as an inline field** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
-- **Search in a toolbar** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
-- **Tablet and desktop (iPadOS, macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
+- **Privacy** (8 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
+- **Requesting permission** (3 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
+- **privacy.md** (1 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
+- **Location button** (1 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
+- **Pre-alert screens, windows, or views** (1 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
+- **Protecting data** (1 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
+- **Tracking requests** (1 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
 
 ## Relationships
 
@@ -23,7 +23,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/search-fields.md`
+- `.agents/skills/apple-design/references/hig/privacy.md`
 
 ## Audit Trail
 

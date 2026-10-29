@@ -26,8 +26,8 @@
 
 ## Relationships
 
-- [[Community 37]] (2 shared connections)
-- [[Community 112]] (1 shared connections)
+- [[Mobile Responsive UI Skill]] (2 shared connections)
+- [[Community 104]] (1 shared connections)
 
 ## Source Files
 

@@ -26,11 +26,11 @@
 
 ## Relationships
 
-- [[Vercel Deployment Routing]] (11 shared connections)
-- [[Community 190]] (8 shared connections)
-- [[Community 189]] (3 shared connections)
-- [[Client Products Data Store]] (3 shared connections)
-- [[Mobile Responsive UI Skill]] (2 shared connections)
+- [[Graphify Agent Rules]] (11 shared connections)
+- [[Community 189]] (8 shared connections)
+- [[Community 188]] (3 shared connections)
+- [[Product Brand & Business Vision]] (3 shared connections)
+- [[Oxlint Linter Configuration]] (2 shared connections)
 - [[Community 89]] (2 shared connections)
 - [[Community 94]] (1 shared connections)
 

@@ -1,50 +1,54 @@
 # Community 36
 
-> 39 nodes · cohesion 0.07
+> 38 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **scenarios.mjs** (15 connections) — `.agents/skills/archify/recipes/scenarios.mjs`
-- **FakeElement** (12 connections) — `.agents/skills/archify/test/start-page.test.mjs`
-- **gallery.test.mjs** (9 connections) — `.agents/skills/archify/test/gallery.test.mjs`
-- **start-page.test.mjs** (8 connections) — `.agents/skills/archify/test/start-page.test.mjs`
-- **guide.test.mjs** (6 connections) — `.agents/skills/archify/test/guide.test.mjs`
-- **recommendScenario()** (4 connections) — `.agents/skills/archify/recipes/scenarios.mjs`
-- **SCENARIO_RECIPES** (4 connections) — `.agents/skills/archify/recipes/scenarios.mjs`
-- **detectGuideLanguage()** (3 connections) — `.agents/skills/archify/recipes/scenarios.mjs`
-- **listScenarioRecipes()** (3 connections) — `.agents/skills/archify/recipes/scenarios.mjs`
-- **formatScenarioList()** (2 connections) — `.agents/skills/archify/recipes/scenarios.mjs`
-- **localized()** (2 connections) — `.agents/skills/archify/recipes/scenarios.mjs`
-- **normalized()** (2 connections) — `.agents/skills/archify/recipes/scenarios.mjs`
-- **publicGuideData()** (2 connections) — `.agents/skills/archify/recipes/scenarios.mjs`
-- **scoreRecipe()** (2 connections) — `.agents/skills/archify/recipes/scenarios.mjs`
-- **startPromptsFor()** (2 connections) — `.agents/skills/archify/recipes/scenarios.mjs`
-- **formatScenarioRecommendation()** (1 connections) — `.agents/skills/archify/recipes/scenarios.mjs`
-- **RAW_RECIPES** (1 connections) — `.agents/skills/archify/recipes/scenarios.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/gallery.test.mjs`
-- **generatedRoot** (1 connections) — `.agents/skills/archify/test/gallery.test.mjs`
-- **normalize()** (1 connections) — `.agents/skills/archify/test/gallery.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/gallery.test.mjs`
-- **sha256()** (1 connections) — `.agents/skills/archify/test/gallery.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/gallery.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/gallery.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/start-page.test.mjs`
-- *... and 14 more nodes in this community*
+- **it()** (21 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
+- **k()** (19 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
+- **st()** (16 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
+- **A()** (13 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
+- **ft()** (13 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
+- **Dn()** (12 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
+- **ut()** (11 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
+- **jt()** (10 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
+- **ct()** (9 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
+- **nt()** (9 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
+- **ve()** (9 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
+- **ao()** (8 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
+- **P()** (8 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
+- **xt()** (8 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
+- **dt()** (7 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
+- **Gt()** (7 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
+- **I()** (7 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
+- **Id()** (7 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
+- **jn()** (7 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
+- **kt()** (7 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
+- **ot()** (7 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
+- **rt()** (7 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
+- **F()** (6 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
+- **hf()** (6 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
+- **Yt()** (6 connections) — `ios/App/App/public/assets/index-BGsH1ADA.js`
+- *... and 13 more nodes in this community*
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Dealer Auth & Session Management]] (49 shared connections)
+- [[Dependencies & Package Config]] (20 shared connections)
+- [[Design System & UI Tokens]] (15 shared connections)
+- [[Community 76]] (13 shared connections)
+- [[Zoho Integration Skill]] (11 shared connections)
+- [[Community 46]] (10 shared connections)
+- [[Architecture Doc Generator]] (6 shared connections)
+- [[Community 43]] (4 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/recipes/scenarios.mjs`
-- `.agents/skills/archify/test/gallery.test.mjs`
-- `.agents/skills/archify/test/guide.test.mjs`
-- `.agents/skills/archify/test/start-page.test.mjs`
+- `ios/App/App/public/assets/index-BGsH1ADA.js`
 
 ## Audit Trail
 
-- EXTRACTED: 100 (100%)
+- EXTRACTED: 290 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

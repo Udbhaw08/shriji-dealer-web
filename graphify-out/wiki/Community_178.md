@@ -19,7 +19,7 @@
 ## Relationships
 
 - [[Community 87]] (1 shared connections)
-- [[Community 73]] (1 shared connections)
+- [[Community 71]] (1 shared connections)
 
 ## Source Files
 

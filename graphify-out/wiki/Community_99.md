@@ -25,11 +25,11 @@
 
 ## Relationships
 
-- [[Project Readme & Layout]] (12 shared connections)
-- [[Product Pages Specification]] (11 shared connections)
+- [[Master Codebase Architecture Reference]] (12 shared connections)
+- [[Agent Guidelines (AGENTS.md)]] (12 shared connections)
 - [[Community 33]] (11 shared connections)
-- [[Oxlint Linter Configuration]] (5 shared connections)
-- [[Community 55]] (4 shared connections)
+- [[Community 42]] (4 shared connections)
+- [[Community 54]] (4 shared connections)
 
 ## Source Files
 

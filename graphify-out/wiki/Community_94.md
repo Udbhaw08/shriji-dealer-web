@@ -26,15 +26,15 @@
 
 ## Relationships
 
-- [[Mobile Responsive UI Skill]] (17 shared connections)
-- [[Client Products Data Store]] (8 shared connections)
-- [[Community 190]] (8 shared connections)
-- [[Vercel Deployment Routing]] (3 shared connections)
+- [[Oxlint Linter Configuration]] (17 shared connections)
+- [[Product Brand & Business Vision]] (8 shared connections)
+- [[Community 189]] (8 shared connections)
+- [[Graphify Agent Rules]] (3 shared connections)
 - [[Community 89]] (3 shared connections)
-- [[Community 148]] (2 shared connections)
-- [[Community 189]] (2 shared connections)
-- [[Community 115]] (2 shared connections)
-- [[Community 411]] (1 shared connections)
+- [[Community 149]] (2 shared connections)
+- [[Community 188]] (2 shared connections)
+- [[Community 116]] (2 shared connections)
+- [[Community 410]] (1 shared connections)
 - [[Community 88]] (1 shared connections)
 
 ## Source Files

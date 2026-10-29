@@ -1,56 +1,71 @@
 # Graphify Agent Rules
 
-> 42 nodes · cohesion 0.10
+> 42 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **it()** (21 connections) — `ios/App/App/public/assets/index-CHuADt1b.js`
-- **k()** (19 connections) — `ios/App/App/public/assets/index-CHuADt1b.js`
-- **st()** (16 connections) — `ios/App/App/public/assets/index-CHuADt1b.js`
-- **A()** (13 connections) — `ios/App/App/public/assets/index-CHuADt1b.js`
-- **ft()** (13 connections) — `ios/App/App/public/assets/index-CHuADt1b.js`
-- **Dn()** (12 connections) — `ios/App/App/public/assets/index-CHuADt1b.js`
-- **ut()** (11 connections) — `ios/App/App/public/assets/index-CHuADt1b.js`
-- **ga()** (10 connections) — `ios/App/App/public/assets/index-CHuADt1b.js`
-- **jt()** (10 connections) — `ios/App/App/public/assets/index-CHuADt1b.js`
-- **ct()** (9 connections) — `ios/App/App/public/assets/index-CHuADt1b.js`
-- **nt()** (9 connections) — `ios/App/App/public/assets/index-CHuADt1b.js`
-- **ve()** (9 connections) — `ios/App/App/public/assets/index-CHuADt1b.js`
-- **ao()** (8 connections) — `ios/App/App/public/assets/index-CHuADt1b.js`
-- **lo()** (8 connections) — `ios/App/App/public/assets/index-CHuADt1b.js`
-- **P()** (8 connections) — `ios/App/App/public/assets/index-CHuADt1b.js`
-- **xt()** (8 connections) — `ios/App/App/public/assets/index-CHuADt1b.js`
-- **dt()** (7 connections) — `ios/App/App/public/assets/index-CHuADt1b.js`
-- **Gt()** (7 connections) — `ios/App/App/public/assets/index-CHuADt1b.js`
-- **I()** (7 connections) — `ios/App/App/public/assets/index-CHuADt1b.js`
-- **Id()** (7 connections) — `ios/App/App/public/assets/index-CHuADt1b.js`
-- **jn()** (7 connections) — `ios/App/App/public/assets/index-CHuADt1b.js`
-- **kt()** (7 connections) — `ios/App/App/public/assets/index-CHuADt1b.js`
-- **ot()** (7 connections) — `ios/App/App/public/assets/index-CHuADt1b.js`
-- **rt()** (7 connections) — `ios/App/App/public/assets/index-CHuADt1b.js`
-- **F()** (6 connections) — `ios/App/App/public/assets/index-CHuADt1b.js`
+- **sql** (79 connections) — `backend/src/db/pool.js`
+- **dealers.js** (50 connections) — `backend/src/routes/dealers.js`
+- **staff.js** (23 connections) — `backend/src/services/staff.js`
+- **audit()** (18 connections) — `backend/src/utils/audit.js`
+- **auth.js** (13 connections) — `backend/src/middleware/auth.js`
+- **applyCrmAccountState()** (12 connections) — `backend/src/services/dealerApp.js`
+- **generateUniqueDealerCode()** (10 connections) — `backend/src/utils/loginCode.js`
+- **applyDealer()** (7 connections) — `backend/src/services/dealerApp.js`
+- **audit.js** (7 connections) — `backend/src/utils/audit.js`
+- **provisionDealerInCrm()** (6 connections) — `backend/src/services/dealerApp.js`
+- **createInvite()** (6 connections) — `backend/src/services/staff.js`
+- **jwtAuth()** (5 connections) — `backend/src/middleware/auth.js`
+- **requireAdmin()** (5 connections) — `backend/src/middleware/auth.js`
+- **seed-content.js** (4 connections) — `backend/scripts/seed-content.js`
+- **deactivateDealer()** (4 connections) — `backend/src/services/dealerApp.js`
+- **approveStaff()** (4 connections) — `backend/src/services/staff.js`
+- **deleteStaff()** (4 connections) — `backend/src/services/staff.js`
+- **holdStaff()** (4 connections) — `backend/src/services/staff.js`
+- **resumeStaff()** (4 connections) — `backend/src/services/staff.js`
+- **revokeStaff()** (4 connections) — `backend/src/services/staff.js`
+- **toggleAllStaffPrice()** (4 connections) — `backend/src/services/staff.js`
+- **toggleStaffPrice()** (4 connections) — `backend/src/services/staff.js`
+- **info.js** (3 connections) — `api/dealer/info.js`
+- **optionalAuth()** (3 connections) — `backend/src/middleware/auth.js`
+- **requireApprovedDealer()** (3 connections) — `backend/src/middleware/auth.js`
 - *... and 17 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (57 shared connections)
-- [[Product Brand & Business Vision]] (19 shared connections)
-- [[Design System & UI Tokens]] (15 shared connections)
-- [[Community 60]] (14 shared connections)
-- [[Community 41]] (9 shared connections)
-- [[Community 53]] (8 shared connections)
-- [[Architecture Doc Generator]] (7 shared connections)
-- [[Community 103]] (5 shared connections)
-- [[Community 35]] (4 shared connections)
+- [[Product Brand & Business Vision]] (41 shared connections)
+- [[Zoho Integration Architecture]] (25 shared connections)
+- [[Community 70]] (24 shared connections)
+- [[Community 88]] (11 shared connections)
+- [[Community 51]] (7 shared connections)
+- [[Community 116]] (6 shared connections)
+- [[Community 138]] (6 shared connections)
+- [[Community 94]] (3 shared connections)
+- [[Community 188]] (2 shared connections)
+- [[Community 399]] (2 shared connections)
+- [[Community 89]] (1 shared connections)
+- [[Community 181]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-CHuADt1b.js`
+- `api/dealer/info.js`
+- `backend/scripts/check-readiness.js`
+- `backend/scripts/inspect-db.js`
+- `backend/scripts/seed-content.js`
+- `backend/scripts/setup-buckets.js`
+- `backend/scripts/setup-policies.js`
+- `backend/src/db/pool.js`
+- `backend/src/middleware/auth.js`
+- `backend/src/routes/dealers.js`
+- `backend/src/services/dealerApp.js`
+- `backend/src/services/staff.js`
+- `backend/src/utils/audit.js`
+- `backend/src/utils/loginCode.js`
 
 ## Audit Trail
 
-- EXTRACTED: 314 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 315 (99%)
+- INFERRED: 4 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

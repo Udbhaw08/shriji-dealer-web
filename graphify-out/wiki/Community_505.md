@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **objectUtils.js** (2 connections) — `src/utils/objectUtils.js`
-- **omit()** (1 connections) — `src/utils/objectUtils.js`
-- **pick()** (1 connections) — `src/utils/objectUtils.js`
+- **stringUtils.js** (2 connections) — `src/utils/stringUtils.js`
+- **titleCase()** (1 connections) — `src/utils/stringUtils.js`
+- **truncate()** (1 connections) — `src/utils/stringUtils.js`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `src/utils/objectUtils.js`
+- `src/utils/stringUtils.js`
 
 ## Audit Trail
 
