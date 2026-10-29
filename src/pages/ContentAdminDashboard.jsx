@@ -133,6 +133,7 @@ export default function ContentAdminDashboard() {
   // Global Slider Settings
   const [globalInterval, setGlobalInterval] = useState(5);
   const [globalAutoplay, setGlobalAutoplay] = useState(true);
+  const [homeTagline, setHomeTagline] = useState("Delivering the heart of every kitchen");
   const [settingsSaving, setSettingsSaving] = useState(false);
 
   const notify = (msg) => {
@@ -147,6 +148,9 @@ export default function ContentAdminDashboard() {
       if (data?.ok && data.settings) {
         setGlobalInterval(Number(data.settings.autoplay_interval) || 5);
         setGlobalAutoplay(data.settings.autoplay_enabled !== false);
+        if (data.settings.tagline) {
+          setHomeTagline(data.settings.tagline);
+        }
       }
     } catch {}
   };
@@ -165,6 +169,7 @@ export default function ContentAdminDashboard() {
           autoplay_interval: globalInterval,
           autoplay_enabled: globalAutoplay,
           pause_on_hover: true,
+          tagline: homeTagline.trim(),
         }),
       });
       const data = await res.json();
@@ -174,7 +179,7 @@ export default function ContentAdminDashboard() {
       }
       if (data.ok) {
         await refreshLiveCache();
-        notify(`✓ Carousel rotation speed updated to ${globalInterval}s per slide!`);
+        notify(`✓ Settings updated: speed ${globalInterval}s, tagline refreshed!`);
       } else {
         throw new Error(data.error || "Failed to update carousel settings");
       }
@@ -1158,6 +1163,32 @@ export default function ContentAdminDashboard() {
                       ⏸ Manual Swipes Only
                     </button>
                   </div>
+                </div>
+
+                <div style={{ marginTop: "14px", paddingTop: "12px", borderTop: "1px dashed var(--line, #e2e8f0)" }}>
+                  <label htmlFor="admin-brand-tagline" style={{ display: "block", fontSize: "0.82rem", fontWeight: 700, color: "var(--c-text)", marginBottom: 6 }}>
+                    Main Page Brand Tagline:
+                  </label>
+                  <div style={{ display: "flex", gap: "8px" }}>
+                    <input
+                      id="admin-brand-tagline"
+                      type="text"
+                      value={homeTagline}
+                      onChange={(e) => setHomeTagline(e.target.value)}
+                      placeholder="Delivering the heart of every kitchen"
+                      style={{
+                        flex: 1,
+                        padding: "7px 12px",
+                        borderRadius: "6px",
+                        border: "1px solid var(--line, #cbd5e1)",
+                        fontSize: "0.88rem",
+                        fontWeight: 600,
+                      }}
+                    />
+                  </div>
+                  <small style={{ display: "block", marginTop: 4, color: "var(--c-sub)", fontSize: "0.75rem" }}>
+                    Visible directly below the hero banner carousel on the main home page.
+                  </small>
                 </div>
               </div>
 

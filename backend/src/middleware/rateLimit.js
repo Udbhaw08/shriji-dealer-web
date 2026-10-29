@@ -16,7 +16,11 @@ export function getClientIp(req) {
     const val = Array.isArray(fwd) ? fwd[0] : fwd;
     return val.split(',')[0].trim();
   }
-  return req.ip || req.socket?.remoteAddress || '127.0.0.1';
+  try {
+    return (req.socket?.remoteAddress && req.ip) || req.socket?.remoteAddress || '127.0.0.1';
+  } catch {
+    return '127.0.0.1';
+  }
 }
 
 export function rateLimit({

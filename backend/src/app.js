@@ -1,6 +1,5 @@
 import express from 'express';
 import { env } from './config/env.js';
-import { log } from './utils/logger.js';
 import { errorHandler } from './middleware/errorHandler.js';
 import { rateLimit } from './middleware/rateLimit.js';
 import { authRouter } from './routes/auth.js';
