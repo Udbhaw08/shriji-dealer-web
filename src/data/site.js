@@ -7,6 +7,8 @@ export const COMPANY = {
   founded: 1999,
   phone: "+91 77383 69367",
   phoneRaw: "917738369367",
+  servicePhone: "+91 74004 20888",
+  servicePhoneRaw: "917400420888",
   email: "contact@shrijidomestic.com",
   address: "Motilal Nagar 1, Goregaon West, Mumbai",
   tagline: "Delivering the heart of every kitchen",

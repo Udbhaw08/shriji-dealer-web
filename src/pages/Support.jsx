@@ -89,7 +89,8 @@ ${form.details.trim() || "Assistance requested from service desk."}
 ━━━━━━━━━━━━━━━━━━━━
 _Submitted via Sunshine Dealer Portal_`;
 
-    const url = `https://wa.me/${COMPANY.phoneRaw}?text=${encodeURIComponent(text)}`;
+    const serviceWaNumber = COMPANY.servicePhoneRaw || "917400420888";
+    const url = `https://wa.me/${serviceWaNumber}?text=${encodeURIComponent(text)}`;
     window.open(url, "_blank", "noopener,noreferrer");
     setTicketSent(true);
     setToastMsg("✅ Service request opened in WhatsApp!");
@@ -324,7 +325,7 @@ ${form.details.trim()}
 
               <div style={{ display: "flex", gap: 12, flexWrap: "wrap", alignItems: "center" }}>
                 <a
-                  href={`https://wa.me/${COMPANY.phoneRaw}?text=${encodeURIComponent("Hi Shriji Service Desk, I need technician / warranty support for an appliance.")}`}
+                  href={`https://wa.me/${COMPANY.servicePhoneRaw || "917400420888"}?text=${encodeURIComponent("Hi Shriji Service Desk, I need technician / warranty support for an appliance.")}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn btn-navy"
