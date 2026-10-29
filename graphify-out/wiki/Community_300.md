@@ -4,14 +4,14 @@
 
 ## Key Concepts
 
-- **story-follow-camera.test.mjs** (7 connections) — `.agents/skills/archify/test/story-follow-camera.test.mjs`
-- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/story-follow-camera.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/story-follow-camera.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/story-follow-camera.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/story-follow-camera.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/story-follow-camera.test.mjs`
-- **template** (1 connections) — `.agents/skills/archify/test/story-follow-camera.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/story-follow-camera.test.mjs`
+- **story-moment-link.test.mjs** (7 connections) — `.agents/skills/archify/test/story-moment-link.test.mjs`
+- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/story-moment-link.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/story-moment-link.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/story-moment-link.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/story-moment-link.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/story-moment-link.test.mjs`
+- **template** (1 connections) — `.agents/skills/archify/test/story-moment-link.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/story-moment-link.test.mjs`
 
 ## Relationships
 
@@ -19,7 +19,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/story-follow-camera.test.mjs`
+- `.agents/skills/archify/test/story-moment-link.test.mjs`
 
 ## Audit Trail
 

@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **Shriji Zoho Integration Skill** (5 connections) — `.agents/skills/shriji-zoho-integration/SKILL.md`
-- **SKILL.md** (1 connections) — `.agents/skills/shriji-zoho-integration/SKILL.md`
-- **API Endpoints Reference** (1 connections) — `.agents/skills/shriji-zoho-integration/SKILL.md`
-- **Key Files & Architecture** (1 connections) — `.agents/skills/shriji-zoho-integration/SKILL.md`
-- **Pricing & Rate Priority** (1 connections) — `.agents/skills/shriji-zoho-integration/SKILL.md`
-- **Validation & Audit Commands** (1 connections) — `.agents/skills/shriji-zoho-integration/SKILL.md`
+- **MetricsTracker** (4 connections) — `backend/src/services/metrics.js`
+- **metrics.js** (2 connections) — `backend/src/services/metrics.js`
+- **metrics** (1 connections) — `backend/src/services/metrics.js`
+- **.constructor()** (1 connections) — `backend/src/services/metrics.js`
+- **.getSnapshot()** (1 connections) — `backend/src/services/metrics.js`
+- **.track()** (1 connections) — `backend/src/services/metrics.js`
 
 ## Relationships
 
@@ -17,7 +17,7 @@
 
 ## Source Files
 
-- `.agents/skills/shriji-zoho-integration/SKILL.md`
+- `backend/src/services/metrics.js`
 
 ## Audit Trail
 

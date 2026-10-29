@@ -1,36 +1,44 @@
 # Community 139
 
-> 14 nodes · cohesion 0.14
+> 14 nodes · cohesion 0.30
 
 ## Key Concepts
 
-- **Icons & Glyphs Guide** (10 connections) — `.agents/skills/refero-design/references/icons.md`
-- **Libraries** (4 connections) — `.agents/skills/refero-design/references/icons.md`
-- **icons.md** (1 connections) — `.agents/skills/refero-design/references/icons.md`
-- **Accessibility** (1 connections) — `.agents/skills/refero-design/references/icons.md`
-- **Color** (1 connections) — `.agents/skills/refero-design/references/icons.md`
-- **For Product UI (SVG-based)** (1 connections) — `.agents/skills/refero-design/references/icons.md`
-- **Icon Sizing** (1 connections) — `.agents/skills/refero-design/references/icons.md`
-- **Icon + Text Pairing** (1 connections) — `.agents/skills/refero-design/references/icons.md`
-- **Optical Corrections** (1 connections) — `.agents/skills/refero-design/references/icons.md`
-- **Pre-Ship Checklist** (1 connections) — `.agents/skills/refero-design/references/icons.md`
-- **Style Consistency** (1 connections) — `.agents/skills/refero-design/references/icons.md`
-- **Two Contexts** (1 connections) — `.agents/skills/refero-design/references/icons.md`
-- **Variable Glyph Systems** (1 connections) — `.agents/skills/refero-design/references/icons.md`
-- **When to Use What** (1 connections) — `.agents/skills/refero-design/references/icons.md`
+- **workflow-v2.mjs** (21 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
+- **migrateWorkflowDocument()** (15 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
+- **compileWorkflow()** (13 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **clone()** (4 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
+- **legacyLayoutProbe()** (4 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
+- **legacyRequirementProbe()** (4 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
+- **expandableViewBox()** (3 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
+- **requiredViewBoxFrom()** (3 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
+- **schemaDiagnostics()** (3 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
+- **workflow-semantic-contract.test.mjs** (3 connections) — `.agents/skills/archify/test/workflow-semantic-contract.test.mjs`
+- **diagnostic()** (2 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
+- **result()** (2 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
+- **serializeMigratedWorkflow()** (2 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
+- **document()** (1 connections) — `.agents/skills/archify/test/workflow-semantic-contract.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 302]] (8 shared connections)
+- [[Master Codebase Architecture Reference]] (4 shared connections)
+- [[Community 80]] (4 shared connections)
+- [[Community 47]] (3 shared connections)
+- [[Community 147]] (3 shared connections)
+- [[Community 157]] (2 shared connections)
+- [[Community 61]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/refero-design/references/icons.md`
+- `.agents/skills/archify/migrations/workflow-v2.mjs`
+- `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- `.agents/skills/archify/test/workflow-semantic-contract.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 26 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 78 (98%)
+- INFERRED: 2 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

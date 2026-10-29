@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **site.test.mjs** (0 connections) — `src/data/site.test.mjs`
+- **portalGate.test.mjs** (0 connections) — `src/data/portalGate.test.mjs`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `src/data/site.test.mjs`
+- `src/data/portalGate.test.mjs`
 
 ## Audit Trail
 

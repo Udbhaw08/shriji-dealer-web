@@ -1,47 +1,55 @@
 # Community 30
 
-> 40 nodes · cohesion 0.09
+> 39 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **webm-artifact.smoke.mjs** (39 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **navigateReady()** (12 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **evaluate()** (11 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **delay()** (7 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **withTimeout()** (7 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **verifyArchitectureDeltaNavigator()** (5 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **captureCopiedShareCard()** (4 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **captureReachShareCard()** (4 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **captureRouteShareCard()** (4 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **captureRouteVisualMatrix()** (4 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **captureShareCard()** (4 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **verifyDynamicReducedMotionRoute()** (4 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **verifyResolvedLegendContract()** (3 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **verifySemanticPassportDismissal()** (3 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **devtoolsEndpoint()** (2 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **removeTempTree()** (2 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **waitForExit()** (2 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **chrome** (1 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **chromeProcess** (1 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **connectCdp()** (1 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **executable()** (1 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **ffmpeg** (1 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **freePort()** (1 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **input** (1 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- *... and 15 more nodes in this community*
+- **Or()** (28 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **gf()** (20 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **vn()** (11 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **Ar()** (9 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **qr()** (8 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **fn()** (7 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **hn()** (7 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **ln()** (7 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **Fr()** (6 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **mr()** (6 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **xn()** (6 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **xr()** (6 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **bn()** (5 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **E()** (5 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **Ir()** (5 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **jr()** (5 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **pr()** (5 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **qf()** (5 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **sm()** (5 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **br()** (4 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **gr()** (4 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **Ld()** (4 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **Lr()** (4 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **pc()** (4 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **pf()** (4 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- *... and 14 more nodes in this community*
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Price Presentation & Product UI]] (43 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (10 shared connections)
+- [[Community 29]] (7 shared connections)
+- [[Community 98]] (5 shared connections)
+- [[Community 31]] (4 shared connections)
+- [[Community 42]] (4 shared connections)
+- [[Product Requirements Documentation]] (4 shared connections)
+- [[Agent Guidelines (AGENTS.md)]] (4 shared connections)
+- [[Community 56]] (4 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
 
 ## Audit Trail
 
-- EXTRACTED: 140 (100%)
+- EXTRACTED: 219 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

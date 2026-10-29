@@ -17,10 +17,10 @@
 
 ## Relationships
 
-- [[Community 76]] (10 shared connections)
+- [[Community 75]] (10 shared connections)
 - [[Community 211]] (2 shared connections)
 - [[Community 244]] (1 shared connections)
-- [[Community 282]] (1 shared connections)
+- [[Community 281]] (1 shared connections)
 
 ## Source Files
 

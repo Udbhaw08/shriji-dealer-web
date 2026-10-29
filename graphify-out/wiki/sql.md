@@ -1,6 +1,6 @@
 # sql
 
-> God node · 79 connections · `backend/src/db/pool.js`
+> God node · 80 connections · `backend/src/db/pool.js`
 
 **Community:** [[Pricing Hierarchy & Zero-Leakage Spec]]
 
@@ -12,6 +12,7 @@
 - [[applyCrmAccountState()]] `EXTRACTED`
 - [[generateUniqueDealerCode()]] `INFERRED`
 - [[getDealerPricingEligibility()]] `EXTRACTED`
+- [[issueSession()]] `EXTRACTED`
 - [[syncCatalog()]] `EXTRACTED`
 - [[applyDealer()]] `EXTRACTED`
 - [[verifyDealerRegistrationOtp()]] `EXTRACTED`
@@ -26,7 +27,6 @@
 - [[saveHeroSliderSettings()]] `EXTRACTED`
 - [[applyCrmContactState()]] `EXTRACTED`
 - [[handler()]] `EXTRACTED`
-- [[resolveUserWithDealer()]] `EXTRACTED`
 
 ### contains
 - [[pool.js]] `EXTRACTED`
@@ -47,9 +47,9 @@
 - [[auth.js]] `EXTRACTED`
 - [[upload.js]] `EXTRACTED`
 - [[reset-test-users.js]] `EXTRACTED`
+- [[dealerPricingAuth.js]] `EXTRACTED`
 - [[upload.js]] `EXTRACTED`
 - [[catalogSync.js]] `EXTRACTED`
-- [[dealerPricingAuth.js]] `EXTRACTED`
 - [[health.js]] `EXTRACTED`
 - [[uploads.js]] `EXTRACTED`
 

@@ -33,12 +33,12 @@
 
 ## Relationships
 
-- [[Live Pricing Audit Tool]] (11 shared connections)
+- [[Product Brand & Business Vision]] (11 shared connections)
 - [[Pricing Hierarchy & Zero-Leakage Spec]] (7 shared connections)
-- [[Community 82]] (6 shared connections)
-- [[Community 203]] (4 shared connections)
-- [[Community 171]] (3 shared connections)
-- [[Community 115]] (2 shared connections)
+- [[Community 87]] (6 shared connections)
+- [[Community 119]] (4 shared connections)
+- [[Community 255]] (3 shared connections)
+- [[Community 120]] (2 shared connections)
 
 ## Source Files
 

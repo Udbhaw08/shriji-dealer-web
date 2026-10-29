@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **Swift** (2 connections) — `.agents/skills/swiftui-pro/references/swift.md`
-- **swift.md** (1 connections) — `.agents/skills/swiftui-pro/references/swift.md`
-- **Swift Concurrency** (1 connections) — `.agents/skills/swiftui-pro/references/swift.md`
+- **Brand marks** (2 connections) — `.agents/skills/archify/references/brand-marks.md`
+- **brand-marks.md** (1 connections) — `.agents/skills/archify/references/brand-marks.md`
+- **Agent decision path** (1 connections) — `.agents/skills/archify/references/brand-marks.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `.agents/skills/swiftui-pro/references/swift.md`
+- `.agents/skills/archify/references/brand-marks.md`
 
 ## Audit Trail
 

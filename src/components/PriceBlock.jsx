@@ -21,7 +21,7 @@ export default function PriceBlock({ p, customerView, dealer, sharedBy, canSeeDe
 }
 
 function DealerPrice({ p, dealer, canSeeDealerPrice = true }) {
-  const [open, setOpen] = useState(false);
+  const [open, setOpen] = useState(true);
   const { t } = useLanguage();
   const effectiveDealer = canSeeDealerPrice ? dealer : null;
   const { dealer: trade, mrp, rebatePct, isPriceOnRequest } = priceFor(p, effectiveDealer);
@@ -75,7 +75,7 @@ function DealerPrice({ p, dealer, canSeeDealerPrice = true }) {
             <span className="pricebox-lbl">{t("price_dealer_label")}</span>
             <b className="pricebox-amt pricebox-dealer-amt">{inr(trade)}</b>
             <small>
-              {rebatePct}% trade discount applied · Retail MRP: {inr(mrp)}
+              {rebatePct > 0 ? `${rebatePct}% margin · ` : ""}Retail MRP: {inr(mrp)}
             </small>
           </>
         ) : (

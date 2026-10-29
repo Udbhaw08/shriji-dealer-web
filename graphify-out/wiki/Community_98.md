@@ -1,39 +1,48 @@
 # Community 98
 
-> 18 nodes · cohesion 0.11
+> 18 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **BACKEND-ARCHITECTURE.md — Dedicated Node Backend, Supabase Postgres & Zoho Ownership Model** (11 connections) — `docs/BACKEND-ARCHITECTURE.md`
-- **1. What is done in Zoho (setup checklist)** (4 connections) — `docs/BACKEND-ARCHITECTURE.md`
-- **6. Decision record — why this stack** (3 connections) — `docs/BACKEND-ARCHITECTURE.md`
-- **5. Storage — what the backend keeps** (2 connections) — `docs/BACKEND-ARCHITECTURE.md`
-- **BACKEND-ARCHITECTURE.md** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
-- **0. The Ownership Rule — one sentence per system** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
-- **1.1 CRM — dealers and staff** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
-- **1.2 CRM — API access** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
-- **1.3 Commerce** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
-- **2. Backend responsibilities** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
-- **3. Integration flows** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
-- **4. Data movement** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
-- **5.1 Schema (Supabase Postgres)** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
-- **7. Service layout** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
-- **8. Phased delivery** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
-- **9. Migration checklist** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
-- **Database: Supabase (chosen over Postgres-elsewhere and Firebase)** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
-- **Runtime: dedicated Node.js 20 service (chosen over extending Vercel serverless)** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
+- **D()** (23 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **np()** (20 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **r()** (13 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **bm()** (12 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **mo()** (11 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **am()** (10 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **mm()** (9 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **jm()** (7 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **kt()** (7 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **Mp()** (7 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **om()** (7 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **zm()** (7 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **nm()** (6 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **km()** (4 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **Um()** (4 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **Vm()** (3 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **Xm()** (3 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **Qa()** (2 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Price Presentation & Product UI]] (18 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (18 shared connections)
+- [[Product Requirements Documentation]] (15 shared connections)
+- [[Community 42]] (10 shared connections)
+- [[Community 29]] (7 shared connections)
+- [[Community 31]] (6 shared connections)
+- [[Community 30]] (5 shared connections)
+- [[Agent Guidelines (AGENTS.md)]] (4 shared connections)
+- [[Community 108]] (3 shared connections)
+- [[Community 56]] (1 shared connections)
 
 ## Source Files
 
-- `docs/BACKEND-ARCHITECTURE.md`
+- `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
 
 ## Audit Trail
 
-- EXTRACTED: 34 (100%)
+- EXTRACTED: 155 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **paginationHelper.js** (1 connections) — `backend/src/utils/paginationHelper.js`
-- **paginate()** (1 connections) — `backend/src/utils/paginationHelper.js`
+- **envValidator.js** (1 connections) — `backend/src/utils/envValidator.js`
+- **requireEnv()** (1 connections) — `backend/src/utils/envValidator.js`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `backend/src/utils/paginationHelper.js`
+- `backend/src/utils/envValidator.js`
 
 ## Audit Trail
 

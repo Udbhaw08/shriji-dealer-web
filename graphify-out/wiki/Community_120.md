@@ -1,44 +1,45 @@
 # Community 120
 
-> 15 nodes · cohesion 0.29
+> 16 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **D()** (23 connections) — `android/app/src/main/assets/public/assets/index-C82WY9Ju.js`
-- **np()** (20 connections) — `android/app/src/main/assets/public/assets/index-C82WY9Ju.js`
-- **bm()** (12 connections) — `android/app/src/main/assets/public/assets/index-C82WY9Ju.js`
-- **mo()** (11 connections) — `android/app/src/main/assets/public/assets/index-C82WY9Ju.js`
-- **am()** (10 connections) — `android/app/src/main/assets/public/assets/index-C82WY9Ju.js`
-- **mm()** (9 connections) — `android/app/src/main/assets/public/assets/index-C82WY9Ju.js`
-- **jm()** (7 connections) — `android/app/src/main/assets/public/assets/index-C82WY9Ju.js`
-- **kt()** (7 connections) — `android/app/src/main/assets/public/assets/index-C82WY9Ju.js`
-- **om()** (7 connections) — `android/app/src/main/assets/public/assets/index-C82WY9Ju.js`
-- **zm()** (7 connections) — `android/app/src/main/assets/public/assets/index-C82WY9Ju.js`
-- **nm()** (6 connections) — `android/app/src/main/assets/public/assets/index-C82WY9Ju.js`
-- **km()** (4 connections) — `android/app/src/main/assets/public/assets/index-C82WY9Ju.js`
-- **Um()** (4 connections) — `android/app/src/main/assets/public/assets/index-C82WY9Ju.js`
-- **Vm()** (3 connections) — `android/app/src/main/assets/public/assets/index-C82WY9Ju.js`
-- **Qa()** (2 connections) — `android/app/src/main/assets/public/assets/index-C82WY9Ju.js`
+- **errorHandler.js** (9 connections) — `backend/src/middleware/errorHandler.js`
+- **rateLimit.js** (9 connections) — `backend/src/middleware/rateLimit.js`
+- **securityPhase3.test.mjs** (9 connections) — `backend/test/securityPhase3.test.mjs`
+- **admin.js** (8 connections) — `backend/src/routes/admin.js`
+- **rateLimit()** (7 connections) — `backend/src/middleware/rateLimit.js`
+- **rateLimitFix.test.mjs** (4 connections) — `backend/test/rateLimitFix.test.mjs`
+- **errorHandler()** (3 connections) — `backend/src/middleware/errorHandler.js`
+- **getClientIp()** (3 connections) — `backend/src/middleware/rateLimit.js`
+- **adminRouter** (3 connections) — `backend/src/routes/admin.js`
+- **buckets** (1 connections) — `backend/src/middleware/rateLimit.js`
+- **loginRateLimit** (1 connections) — `backend/src/routes/admin.js`
+- **json()** (1 connections) — `backend/test/rateLimitFix.test.mjs`
+- **status()** (1 connections) — `backend/test/rateLimitFix.test.mjs`
+- **atomicRotate()** (1 connections) — `backend/test/securityPhase3.test.mjs`
+- **json()** (1 connections) — `backend/test/securityPhase3.test.mjs`
+- **status()** (1 connections) — `backend/test/securityPhase3.test.mjs`
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (15 shared connections)
-- [[Client Products Data Store]] (14 shared connections)
-- [[Community 39]] (8 shared connections)
-- [[Zoho Integration Architecture]] (8 shared connections)
-- [[Product Pages Specification]] (8 shared connections)
-- [[Pricing Regression Test Suite]] (8 shared connections)
-- [[Zoho API Diagnostic Script]] (4 shared connections)
-- [[Community 60]] (4 shared connections)
-- [[Community 49]] (3 shared connections)
+- [[Product Brand & Business Vision]] (8 shared connections)
+- [[Community 36]] (6 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (6 shared connections)
+- [[Community 51]] (2 shared connections)
+- [[Design System & UI Tokens]] (2 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-C82WY9Ju.js`
+- `backend/src/middleware/errorHandler.js`
+- `backend/src/middleware/rateLimit.js`
+- `backend/src/routes/admin.js`
+- `backend/test/rateLimitFix.test.mjs`
+- `backend/test/securityPhase3.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 132 (100%)
+- EXTRACTED: 62 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -123,7 +123,17 @@ export function publicUser(user) {
 
 export async function issueSession(rawUser) {
   const user = await resolveUserWithDealer(rawUser);
-  return { accessToken: signAccessToken(user), refreshToken: await issueRefreshToken(user.id), expiresIn: 30 * 24 * 60 * 60, user: publicUser(user) };
+  const userDealerId = user?.dealer_id || null;
+  let dealer = (await sql`select * from dealers where id = ${userDealerId} or owner_user_id = ${user.id} order by case when status = 'approved' then 1 when status = 'pending' then 2 else 3 end asc limit 1`)[0] || null;
+  if (dealer) {
+    dealer.pricebook_id = await resolvePricebookId(dealer.price_tier);
+  }
+  return {
+    accessToken: signAccessToken(user, dealer),
+    refreshToken: await issueRefreshToken(user.id),
+    expiresIn: 30 * 24 * 60 * 60,
+    user: publicUser(user),
+  };
 }
 
 /* POST /api/auth/otp/request — generate and send WhatsApp OTP */
@@ -308,7 +318,11 @@ authRouter.post('/refresh', async (req, res, next) => {
   try {
     const rotated = await rotateRefreshToken(req.body?.refreshToken);
     if (!rotated) throw httpError(401, 'Invalid or expired session');
-    res.json({ accessToken: signAccessToken(rotated.user), refreshToken: rotated.refreshToken, expiresIn: 30 * 24 * 60 * 60, user: publicUser(rotated.user) });
+    const user = await resolveUserWithDealer(rotated.user);
+    const userDealerId = user?.dealer_id || null;
+    let dealer = (await sql`select * from dealers where id = ${userDealerId} or owner_user_id = ${user.id} order by case when status = 'approved' then 1 when status = 'pending' then 2 else 3 end asc limit 1`)[0] || null;
+    if (dealer) dealer.pricebook_id = await resolvePricebookId(dealer.price_tier);
+    res.json({ accessToken: signAccessToken(user, dealer), refreshToken: rotated.refreshToken, expiresIn: 30 * 24 * 60 * 60, user: publicUser(user) });
   } catch (error) { next(error); }
 });
 

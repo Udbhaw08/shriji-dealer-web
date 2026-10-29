@@ -1,43 +1,37 @@
 # Community 125
 
-> 15 nodes · cohesion 0.21
+> 16 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **Ti()** (13 connections) — `ios/App/App/public/assets/index-C82WY9Ju.js`
-- **gc()** (11 connections) — `ios/App/App/public/assets/index-C82WY9Ju.js`
-- **Ei()** (8 connections) — `ios/App/App/public/assets/index-C82WY9Ju.js`
-- **kc()** (8 connections) — `ios/App/App/public/assets/index-C82WY9Ju.js`
-- **ki()** (7 connections) — `ios/App/App/public/assets/index-C82WY9Ju.js`
-- **qc()** (6 connections) — `ios/App/App/public/assets/index-C82WY9Ju.js`
-- **Ai()** (5 connections) — `ios/App/App/public/assets/index-C82WY9Ju.js`
-- **Mi()** (5 connections) — `ios/App/App/public/assets/index-C82WY9Ju.js`
-- **qm()** (5 connections) — `ios/App/App/public/assets/index-C82WY9Ju.js`
-- **di()** (4 connections) — `ios/App/App/public/assets/index-C82WY9Ju.js`
-- **La()** (4 connections) — `ios/App/App/public/assets/index-C82WY9Ju.js`
-- **Pi()** (4 connections) — `ios/App/App/public/assets/index-C82WY9Ju.js`
-- **Uc()** (4 connections) — `ios/App/App/public/assets/index-C82WY9Ju.js`
-- **za()** (4 connections) — `ios/App/App/public/assets/index-C82WY9Ju.js`
-- **Ni()** (2 connections) — `ios/App/App/public/assets/index-C82WY9Ju.js`
+- **legend-contract.test.mjs** (15 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **legendKinds()** (3 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **run()** (3 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **attrValues()** (2 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **canonicalSvg()** (2 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **clone()** (2 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **render()** (2 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **validateFailure()** (2 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **withLegend()** (2 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **AUTO_KINDS** (1 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **CATALOGS** (1 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **cli** (1 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **FIXTURES** (1 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/legend-contract.test.mjs`
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (17 shared connections)
-- [[Zoho Backend & Proxy Endpoints]] (13 shared connections)
-- [[Community 33]] (5 shared connections)
-- [[Testing & Workflow Skill]] (4 shared connections)
-- [[Product Requirements Documentation]] (3 shared connections)
-- [[Community 101]] (2 shared connections)
-- [[Community 40]] (1 shared connections)
-- [[Community 38]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-C82WY9Ju.js`
+- `.agents/skills/archify/test/legend-contract.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 90 (100%)
+- EXTRACTED: 40 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

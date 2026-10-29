@@ -1,44 +1,36 @@
 # Community 137
 
-> 14 nodes · cohesion 0.30
+> 14 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **workflow-v2.mjs** (21 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- **migrateWorkflowDocument()** (15 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- **compileWorkflow()** (13 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **clone()** (4 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- **legacyLayoutProbe()** (4 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- **legacyRequirementProbe()** (4 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- **expandableViewBox()** (3 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- **requiredViewBoxFrom()** (3 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- **schemaDiagnostics()** (3 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- **workflow-semantic-contract.test.mjs** (3 connections) — `.agents/skills/archify/test/workflow-semantic-contract.test.mjs`
-- **diagnostic()** (2 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- **result()** (2 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- **serializeMigratedWorkflow()** (2 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- **document()** (1 connections) — `.agents/skills/archify/test/workflow-semantic-contract.test.mjs`
+- **Tablet (iPadOS)** (6 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
+- **Pointing devices** (5 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
+- **Desktop (macOS)** (2 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
+- **pointing-devices.md** (1 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
+- **Customizing pointers** (1 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
+- **Pointer accessories** (1 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
+- **Pointer magnetism** (1 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
+- **Pointer shape and content effects** (1 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
+- **Pointers** (1 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
+- **Standard pointers and effects** (1 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
 
 ## Relationships
 
-- [[Community 303]] (8 shared connections)
-- [[Master Codebase Architecture Reference]] (4 shared connections)
-- [[Community 81]] (4 shared connections)
-- [[Community 46]] (3 shared connections)
-- [[Community 145]] (3 shared connections)
-- [[Community 156]] (2 shared connections)
-- [[Community 59]] (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/migrations/workflow-v2.mjs`
-- `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- `.agents/skills/archify/test/workflow-semantic-contract.test.mjs`
+- `.agents/skills/apple-design/references/hig/pointing-devices.md`
 
 ## Audit Trail
 
-- EXTRACTED: 78 (98%)
-- INFERRED: 2 (2%)
+- EXTRACTED: 26 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

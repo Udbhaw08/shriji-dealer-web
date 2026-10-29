@@ -1,38 +1,46 @@
 # Community 108
 
-> 17 nodes · cohesion 0.12
+> 17 nodes · cohesion 0.24
 
 ## Key Concepts
 
-- **3. Exactly which keys to fetch, and from where** (9 connections) — `docs/ZOHO-INTEGRATION.md`
-- **ZOHO-INTEGRATION.md — Live Zoho Commerce & Books Backend** (7 connections) — `docs/ZOHO-INTEGRATION.md`
-- **5. API surface** (2 connections) — `docs/ZOHO-INTEGRATION.md`
-- **ZOHO-INTEGRATION.md** (1 connections) — `docs/ZOHO-INTEGRATION.md`
-- **1. Active Integration Summary** (1 connections) — `docs/ZOHO-INTEGRATION.md`
-- **2. The Code Seams** (1 connections) — `docs/ZOHO-INTEGRATION.md`
-- **3.1 Organization ID — from the Commerce dashboard** (1 connections) — `docs/ZOHO-INTEGRATION.md`
-- **3.2 Client ID + Client Secret — from the API console, not the store** (1 connections) — `docs/ZOHO-INTEGRATION.md`
-- **3.3 Refresh Token — generated once, then permanent** (1 connections) — `docs/ZOHO-INTEGRATION.md`
-- **3.4 Scopes** (1 connections) — `docs/ZOHO-INTEGRATION.md`
-- **3.5 Data centre** (1 connections) — `docs/ZOHO-INTEGRATION.md`
-- **3.6 The API call the keys unlock** (1 connections) — `docs/ZOHO-INTEGRATION.md`
-- **3.7 Still to confirm — only the store owner can answer** (1 connections) — `docs/ZOHO-INTEGRATION.md`
-- **4. Architecture — the part that cannot be skipped** (1 connections) — `docs/ZOHO-INTEGRATION.md`
-- **6. Migration checklist** (1 connections) — `docs/ZOHO-INTEGRATION.md`
-- **How to hand the credentials over safely** (1 connections) — `docs/ZOHO-INTEGRATION.md`
-- **Sources** (1 connections) — `docs/ZOHO-INTEGRATION.md`
+- **fl()** (25 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **pe()** (13 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **ml()** (11 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **pl()** (10 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **xe()** (9 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **ye()** (9 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **aa()** (8 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **cl()** (6 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **jo()** (6 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **da()** (5 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **sl()** (5 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **xo()** (5 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **ll()** (3 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **ol()** (3 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **Vd()** (3 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **Ym()** (3 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **vc()** (2 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Price Presentation & Product UI]] (19 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (12 shared connections)
+- [[Community 29]] (9 shared connections)
+- [[Community 42]] (5 shared connections)
+- [[Product Requirements Documentation]] (5 shared connections)
+- [[Community 56]] (5 shared connections)
+- [[Community 98]] (3 shared connections)
+- [[Agent Guidelines (AGENTS.md)]] (1 shared connections)
+- [[Community 31]] (1 shared connections)
 
 ## Source Files
 
-- `docs/ZOHO-INTEGRATION.md`
+- `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
 
 ## Audit Trail
 
-- EXTRACTED: 32 (100%)
+- EXTRACTED: 126 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,36 +1,35 @@
 # Community 140
 
-> 14 nodes · cohesion 0.23
+> 14 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **items** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **items** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **additionalProperties** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **required** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **items** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **items** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **items** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **edges** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **groups** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **phases** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **.oxlintrc.json** (6 connections) — `.oxlintrc.json`
+- **env** (4 connections) — `.oxlintrc.json`
+- **rules** (4 connections) — `.oxlintrc.json`
+- **globals** (2 connections) — `.oxlintrc.json`
+- **browser** (1 connections) — `.oxlintrc.json`
+- **builtin** (1 connections) — `.oxlintrc.json`
+- **node** (1 connections) — `.oxlintrc.json`
+- **Archify** (1 connections) — `.oxlintrc.json`
+- **ignorePatterns** (1 connections) — `.oxlintrc.json`
+- **plugins** (1 connections) — `.oxlintrc.json`
+- **no-undef** (1 connections) — `.oxlintrc.json`
+- **react/only-export-components** (1 connections) — `.oxlintrc.json`
+- **react/rules-of-hooks** (1 connections) — `.oxlintrc.json`
+- **$schema** (1 connections) — `.oxlintrc.json`
 
 ## Relationships
 
-- [[Community 35]] (5 shared connections)
-- [[Community 111]] (5 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/workflow.schema.json`
+- `.oxlintrc.json`
 
 ## Audit Trail
 
-- EXTRACTED: 52 (100%)
+- EXTRACTED: 26 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

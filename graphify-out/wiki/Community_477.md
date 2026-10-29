@@ -4,17 +4,17 @@
 
 ## Key Concepts
 
-- **id** (3 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **pattern** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **labelSegment** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **minimum** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Relationships
 
-- [[Community 75]] (1 shared connections)
+- [[Mobile Responsive UI Skill]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/common.schema.json`
+- `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Audit Trail
 

@@ -4,31 +4,26 @@
 
 ## Key Concepts
 
-- **commandCompare()** (20 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commitComparePair()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **extractCompareOptions()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **formatDiagnostics()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **reportCompareFailure()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **compareCommitError()** (2 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **compareReceiptPath()** (2 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **MockStorage** (6 connections) — `src/data/auth-session.test.mjs`
+- **auth-session.test.mjs** (1 connections) — `src/data/auth-session.test.mjs`
+- **.clear()** (1 connections) — `src/data/auth-session.test.mjs`
+- **.constructor()** (1 connections) — `src/data/auth-session.test.mjs`
+- **.getItem()** (1 connections) — `src/data/auth-session.test.mjs`
+- **.removeItem()** (1 connections) — `src/data/auth-session.test.mjs`
+- **.setItem()** (1 connections) — `src/data/auth-session.test.mjs`
 
 ## Relationships
 
-- [[Community 46]] (11 shared connections)
-- [[Community 113]] (4 shared connections)
-- [[Community 146]] (3 shared connections)
-- [[Community 84]] (2 shared connections)
-- [[Community 61]] (2 shared connections)
-- [[Community 104]] (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/bin/archify.mjs`
+- `src/data/auth-session.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 27 (75%)
-- INFERRED: 9 (25%)
+- EXTRACTED: 12 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

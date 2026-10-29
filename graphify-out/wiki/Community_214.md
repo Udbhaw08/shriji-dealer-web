@@ -18,8 +18,8 @@
 ## Relationships
 
 - [[Master Codebase Architecture Reference]] (3 shared connections)
-- [[Community 64]] (2 shared connections)
-- [[Community 104]] (2 shared connections)
+- [[Community 65]] (2 shared connections)
+- [[Community 106]] (2 shared connections)
 
 ## Source Files
 

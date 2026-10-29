@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **Bulk Order Inquiry Workflow** (2 connections) — `docs/guides/bulk-order-inquiry-workflow.md`
-- **bulk-order-inquiry-workflow.md** (1 connections) — `docs/guides/bulk-order-inquiry-workflow.md`
-- **Lifecycle** (1 connections) — `docs/guides/bulk-order-inquiry-workflow.md`
+- **Vercel Production Deployment Checklist** (2 connections) — `docs/deployment/vercel-production-checklist.md`
+- **vercel-production-checklist.md** (1 connections) — `docs/deployment/vercel-production-checklist.md`
+- **Environment Variables** (1 connections) — `docs/deployment/vercel-production-checklist.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/guides/bulk-order-inquiry-workflow.md`
+- `docs/deployment/vercel-production-checklist.md`
 
 ## Audit Trail
 

@@ -17,8 +17,8 @@
 
 ## Relationships
 
-- [[Agent Guidelines (AGENTS.md)]] (3 shared connections)
-- [[Community 118]] (3 shared connections)
+- [[Project Readme & Layout]] (3 shared connections)
+- [[Community 124]] (3 shared connections)
 
 ## Source Files
 

@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **OWASP Top 10 Security Checklist** (2 connections) — `docs/testing/security-penetration-testing-notes.md`
-- **security-penetration-testing-notes.md** (1 connections) — `docs/testing/security-penetration-testing-notes.md`
-- **Verified Protections** (1 connections) — `docs/testing/security-penetration-testing-notes.md`
+- **toolbar-polish.test.mjs** (2 connections) — `.agents/skills/archify/test/toolbar-polish.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/toolbar-polish.test.mjs`
+- **template** (1 connections) — `.agents/skills/archify/test/toolbar-polish.test.mjs`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/testing/security-penetration-testing-notes.md`
+- `.agents/skills/archify/test/toolbar-polish.test.mjs`
 
 ## Audit Trail
 

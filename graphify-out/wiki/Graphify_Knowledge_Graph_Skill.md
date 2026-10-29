@@ -1,67 +1,68 @@
 # Graphify Knowledge Graph Skill
 
-> 47 nodes · cohesion 0.11
+> 46 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **session.js** (53 connections) — `src/data/session.js`
-- **Login.jsx** (45 connections) — `src/pages/Login.jsx`
-- **DealerApply.jsx** (26 connections) — `src/pages/DealerApply.jsx`
-- **BrandApplyFlow.jsx** (23 connections) — `src/components/BrandApplyFlow.jsx`
-- **StaffDashboard.jsx** (15 connections) — `src/pages/StaffDashboard.jsx`
-- **revalidateSession()** (14 connections) — `src/data/session.js`
-- **StaffJoin.jsx** (14 connections) — `src/pages/StaffJoin.jsx`
-- **EmailVerificationPrompt.jsx** (12 connections) — `src/components/EmailVerificationPrompt.jsx`
-- **PhoneVerificationPrompt.jsx** (12 connections) — `src/components/PhoneVerificationPrompt.jsx`
-- **validators.js** (12 connections) — `src/data/validators.js`
-- **loginCode.js** (11 connections) — `src/data/loginCode.js`
-- **setSession()** (11 connections) — `src/data/session.js`
-- **signOut()** (8 connections) — `src/data/session.js`
-- **registerDealer()** (7 connections) — `src/data/dealer.js`
-- **isValidEmail()** (7 connections) — `src/data/validators.js`
-- **applyAsDealer()** (6 connections) — `src/data/auth.js`
-- **requestEmailOtp()** (6 connections) — `src/data/auth.js`
-- **formatLoginCode()** (6 connections) — `src/data/loginCode.js`
-- **isValidName()** (6 connections) — `src/data/validators.js`
-- **isValidPhone()** (6 connections) — `src/data/validators.js`
-- **OtpDispatchFeedback.jsx** (5 connections) — `src/components/OtpDispatchFeedback.jsx`
-- **OtpDispatchFeedback()** (5 connections) — `src/components/OtpDispatchFeedback.jsx`
-- **switchToDealerSession()** (5 connections) — `src/data/session.js`
-- **BrandApplyFlow()** (4 connections) — `src/components/BrandApplyFlow.jsx`
-- **hasSession()** (4 connections) — `src/data/auth.js`
-- *... and 22 more nodes in this community*
+- **ui.jsx** (45 connections) — `src/ui.jsx`
+- **Home.jsx** (26 connections) — `src/pages/Home.jsx`
+- **site.js** (24 connections) — `src/data/site.js`
+- **Icon()** (20 connections) — `src/ui.jsx`
+- **Schemes.jsx** (17 connections) — `src/pages/Schemes.jsx`
+- **COMPANY** (16 connections) — `src/data/site.js`
+- **Support.jsx** (16 connections) — `src/pages/Support.jsx`
+- **HeroSlider.jsx** (12 connections) — `src/components/HeroSlider.jsx`
+- **ContentAdminDashboard.jsx** (12 connections) — `src/pages/ContentAdminDashboard.jsx`
+- **UnderMaintenance.jsx** (8 connections) — `src/components/UnderMaintenance.jsx`
+- **video.js** (6 connections) — `src/utils/video.js`
+- **UnderMaintenance()** (5 connections) — `src/components/UnderMaintenance.jsx`
+- **LegalPrivacy.jsx** (5 connections) — `src/pages/LegalPrivacy.jsx`
+- **LegalTerms.jsx** (5 connections) — `src/pages/LegalTerms.jsx`
+- **PrivacyPolicy.jsx** (5 connections) — `src/pages/PrivacyPolicy.jsx`
+- **TermsOfService.jsx** (5 connections) — `src/pages/TermsOfService.jsx`
+- **parseVideoUrl()** (5 connections) — `src/utils/video.js`
+- **FileOrUrlInput.jsx** (4 connections) — `src/components/FileOrUrlInput.jsx`
+- **EnquiryButtons()** (4 connections) — `src/ui.jsx`
+- **HeroSlider()** (3 connections) — `src/components/HeroSlider.jsx`
+- **SCHEMES** (3 connections) — `src/data/site.js`
+- **STATS** (3 connections) — `src/data/site.js`
+- **video-banner.test.mjs** (3 connections) — `src/data/video-banner.test.mjs`
+- **FileOrUrlInput()** (2 connections) — `src/components/FileOrUrlInput.jsx`
+- **ISSUE_TYPES** (2 connections) — `src/data/site.js`
+- *... and 21 more nodes in this community*
 
 ## Relationships
 
-- [[Community 31]] (54 shared connections)
-- [[Community 47]] (32 shared connections)
-- [[Pricing & Roles Skill]] (13 shared connections)
-- [[Community 97]] (12 shared connections)
-- [[Community 44]] (10 shared connections)
-- [[Community 121]] (1 shared connections)
-- [[Community 174]] (1 shared connections)
+- [[Community 53]] (39 shared connections)
+- [[Client Products Data Store]] (34 shared connections)
+- [[Roles & Customer Sharing Spec]] (13 shared connections)
+- [[Community 89]] (11 shared connections)
+- [[Community 174]] (5 shared connections)
+- [[Community 32]] (2 shared connections)
 - [[Community 173]] (1 shared connections)
 
 ## Source Files
 
-- `src/components/BrandApplyFlow.jsx`
-- `src/components/EmailVerificationPrompt.jsx`
-- `src/components/OtpDispatchFeedback.jsx`
-- `src/components/PhoneVerificationPrompt.jsx`
-- `src/data/auth.js`
-- `src/data/dealer.js`
-- `src/data/loginCode.js`
-- `src/data/session.js`
-- `src/data/validators.js`
-- `src/pages/DealerApply.jsx`
-- `src/pages/Login.jsx`
-- `src/pages/StaffDashboard.jsx`
-- `src/pages/StaffJoin.jsx`
+- `src/components/FileOrUrlInput.jsx`
+- `src/components/HeroSlider.jsx`
+- `src/components/UnderMaintenance.jsx`
+- `src/data/site.js`
+- `src/data/video-banner.test.mjs`
+- `src/pages/ContentAdminDashboard.jsx`
+- `src/pages/Home.jsx`
+- `src/pages/LegalPrivacy.jsx`
+- `src/pages/LegalTerms.jsx`
+- `src/pages/PrivacyPolicy.jsx`
+- `src/pages/Schemes.jsx`
+- `src/pages/Support.jsx`
+- `src/pages/TermsOfService.jsx`
+- `src/ui.jsx`
+- `src/utils/video.js`
 
 ## Audit Trail
 
-- EXTRACTED: 368 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 286 (100%)
+- INFERRED: 1 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

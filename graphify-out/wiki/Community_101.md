@@ -1,48 +1,39 @@
 # Community 101
 
-> 18 nodes · cohesion 0.22
+> 18 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **D()** (23 connections) — `ios/App/App/public/assets/index-C82WY9Ju.js`
-- **np()** (20 connections) — `ios/App/App/public/assets/index-C82WY9Ju.js`
-- **r()** (13 connections) — `ios/App/App/public/assets/index-C82WY9Ju.js`
-- **bm()** (12 connections) — `ios/App/App/public/assets/index-C82WY9Ju.js`
-- **mo()** (11 connections) — `ios/App/App/public/assets/index-C82WY9Ju.js`
-- **am()** (10 connections) — `ios/App/App/public/assets/index-C82WY9Ju.js`
-- **mm()** (9 connections) — `ios/App/App/public/assets/index-C82WY9Ju.js`
-- **jm()** (7 connections) — `ios/App/App/public/assets/index-C82WY9Ju.js`
-- **kt()** (7 connections) — `ios/App/App/public/assets/index-C82WY9Ju.js`
-- **Mp()** (7 connections) — `ios/App/App/public/assets/index-C82WY9Ju.js`
-- **om()** (7 connections) — `ios/App/App/public/assets/index-C82WY9Ju.js`
-- **zm()** (7 connections) — `ios/App/App/public/assets/index-C82WY9Ju.js`
-- **nm()** (6 connections) — `ios/App/App/public/assets/index-C82WY9Ju.js`
-- **km()** (4 connections) — `ios/App/App/public/assets/index-C82WY9Ju.js`
-- **Um()** (4 connections) — `ios/App/App/public/assets/index-C82WY9Ju.js`
-- **Vm()** (3 connections) — `ios/App/App/public/assets/index-C82WY9Ju.js`
-- **Xm()** (3 connections) — `ios/App/App/public/assets/index-C82WY9Ju.js`
-- **Qa()** (2 connections) — `ios/App/App/public/assets/index-C82WY9Ju.js`
+- **Standard icons** (10 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Icons** (6 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Desktop (macOS)** (2 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **icons.md** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Document icons** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Editing** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Layer ordering** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Other** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Ratings** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Search** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Selection** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Sharing and exporting** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Text formatting** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Users and accounts** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (22 shared connections)
-- [[Zoho Backend & Proxy Endpoints]] (18 shared connections)
-- [[Product Requirements Documentation]] (15 shared connections)
-- [[Community 40]] (10 shared connections)
-- [[Community 38]] (7 shared connections)
-- [[Community 33]] (5 shared connections)
-- [[Testing & Workflow Skill]] (4 shared connections)
-- [[Community 109]] (3 shared connections)
-- [[Community 125]] (2 shared connections)
-- [[Community 56]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-C82WY9Ju.js`
+- `.agents/skills/apple-design/references/hig/icons.md`
 
 ## Audit Trail
 
-- EXTRACTED: 155 (100%)
+- EXTRACTED: 34 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,45 +1,42 @@
 # Community 115
 
-> 16 nodes · cohesion 0.16
+> 17 nodes · cohesion 0.23
 
 ## Key Concepts
 
-- **errorHandler.js** (9 connections) — `backend/src/middleware/errorHandler.js`
-- **rateLimit.js** (9 connections) — `backend/src/middleware/rateLimit.js`
-- **securityPhase3.test.mjs** (9 connections) — `backend/test/securityPhase3.test.mjs`
-- **admin.js** (8 connections) — `backend/src/routes/admin.js`
-- **rateLimit()** (7 connections) — `backend/src/middleware/rateLimit.js`
-- **rateLimitFix.test.mjs** (4 connections) — `backend/test/rateLimitFix.test.mjs`
-- **errorHandler()** (3 connections) — `backend/src/middleware/errorHandler.js`
-- **getClientIp()** (3 connections) — `backend/src/middleware/rateLimit.js`
-- **adminRouter** (3 connections) — `backend/src/routes/admin.js`
-- **buckets** (1 connections) — `backend/src/middleware/rateLimit.js`
-- **loginRateLimit** (1 connections) — `backend/src/routes/admin.js`
-- **json()** (1 connections) — `backend/test/rateLimitFix.test.mjs`
-- **status()** (1 connections) — `backend/test/rateLimitFix.test.mjs`
-- **atomicRotate()** (1 connections) — `backend/test/securityPhase3.test.mjs`
-- **json()** (1 connections) — `backend/test/securityPhase3.test.mjs`
-- **status()** (1 connections) — `backend/test/securityPhase3.test.mjs`
+- **checkForUpdate()** (19 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **commitOperation()** (14 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **acknowledgeUpdate()** (13 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **cancelOperation()** (7 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **resultForCandidate()** (7 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **silent()** (7 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **resultAfterLosingOperation()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **readJsonFile()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **transitionOperation()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **operationOwnsActiveClaim()** (4 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **runCli()** (4 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **freshStateResult()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **versionCacheDirectory()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **assertBoundedRegularFile()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **digestForEventKey()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **fetchCandidate()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **waitUntilRetry()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
 
 ## Relationships
 
-- [[Live Pricing Audit Tool]] (8 shared connections)
-- [[Vercel Deployment Routing]] (6 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (6 shared connections)
-- [[Community 51]] (2 shared connections)
-- [[Design System & UI Tokens]] (2 shared connections)
+- [[Community 50]] (19 shared connections)
+- [[Community 105]] (12 shared connections)
+- [[Community 96]] (7 shared connections)
+- [[Community 64]] (3 shared connections)
+- [[Community 39]] (2 shared connections)
 
 ## Source Files
 
-- `backend/src/middleware/errorHandler.js`
-- `backend/src/middleware/rateLimit.js`
-- `backend/src/routes/admin.js`
-- `backend/test/rateLimitFix.test.mjs`
-- `backend/test/securityPhase3.test.mjs`
+- `.agents/skills/archify/scripts/check-update.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 62 (100%)
+- EXTRACTED: 105 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

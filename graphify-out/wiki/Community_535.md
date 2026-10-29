@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **notificationDispatcher.js** (1 connections) — `backend/src/services/notificationDispatcher.js`
-- **dispatchNotification()** (1 connections) — `backend/src/services/notificationDispatcher.js`
+- **auditLog.js** (1 connections) — `backend/src/services/auditLog.js`
+- **recordAuditLog()** (1 connections) — `backend/src/services/auditLog.js`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `backend/src/services/notificationDispatcher.js`
+- `backend/src/services/auditLog.js`
 
 ## Audit Trail
 

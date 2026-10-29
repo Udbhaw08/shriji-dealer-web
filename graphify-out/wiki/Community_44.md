@@ -1,62 +1,62 @@
 # Community 44
 
-> 33 nodes · cohesion 0.16
+> 35 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **Product.jsx** (38 connections) — `src/pages/Product.jsx`
-- **dealer.js** (29 connections) — `src/data/dealer.js`
-- **Favorites.jsx** (20 connections) — `src/pages/Favorites.jsx`
-- **ProductCard.jsx** (19 connections) — `src/components/ProductCard.jsx`
-- **dealer.test.mjs** (18 connections) — `src/data/dealer.test.mjs`
-- **PriceBlock.jsx** (15 connections) — `src/components/PriceBlock.jsx`
-- **ProductCard()** (15 connections) — `src/components/ProductCard.jsx`
-- **Product()** (15 connections) — `src/pages/Product.jsx`
-- **priceFor()** (14 connections) — `src/data/dealer.js`
-- **inr()** (12 connections) — `src/data/dealer.js`
-- **viewerFor()** (8 connections) — `src/data/dealer.js`
-- **CustomerPrice()** (7 connections) — `src/components/PriceBlock.jsx`
-- **productSlug()** (7 connections) — `src/data/dealer.js`
-- **shareLink()** (7 connections) — `src/data/dealer.js`
-- **tagFor()** (6 connections) — `src/data/dealer.js`
-- **DealerPrice()** (5 connections) — `src/components/PriceBlock.jsx`
-- **formatWhatsAppPhone()** (4 connections) — `src/data/dealer.js`
-- **slugifyProduct()** (4 connections) — `src/data/dealer.js`
-- **tierOf()** (4 connections) — `src/data/dealer.js`
-- **DEALERS** (3 connections) — `src/data/dealer.js`
-- **isFavorite()** (3 connections) — `src/data/favoritesStore.js`
-- **PriceBlock()** (2 connections) — `src/components/PriceBlock.jsx`
-- **price99()** (2 connections) — `src/data/dealer.js`
-- **BAND** (1 connections) — `src/data/dealer.js`
-- **hash()** (1 connections) — `src/data/dealer.js`
-- *... and 8 more nodes in this community*
+- **render-dataflow.mjs** (78 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **legend.mjs** (21 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
+- **renderLegend()** (14 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
+- **svgAccessibleText()** (13 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- **svgRootAttrs()** (13 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- **renderDefinitions()** (11 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
+- **resolveLegend()** (10 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
+- **renderSvg()** (8 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **renderSvg()** (6 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **renderSvg()** (6 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **renderLegend()** (6 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **renderSvg()** (6 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- **legendFootprint()** (6 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
+- **measureLegend()** (6 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
+- **renderLegend()** (5 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **stageX()** (5 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **renderLegend()** (5 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- **componentFill** (5 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **componentText** (4 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **lifecycleAreaBottom()** (3 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **measureNode()** (2 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **routeVia()** (2 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **stageFrame()** (2 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **legendY()** (2 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **renderLifecycleRail()** (2 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- *... and 10 more nodes in this community*
 
 ## Relationships
 
-- [[Community 47]] (42 shared connections)
-- [[Pricing & Roles Skill]] (19 shared connections)
-- [[Community 121]] (11 shared connections)
-- [[Graphify Knowledge Graph Skill]] (10 shared connections)
-- [[Community 97]] (6 shared connections)
-- [[Community 174]] (5 shared connections)
-- [[Community 173]] (4 shared connections)
-- [[Community 107]] (3 shared connections)
-- [[Community 31]] (1 shared connections)
+- [[Architecture Doc Generator]] (35 shared connections)
+- [[Product Pages Specification]] (33 shared connections)
+- [[Community 40]] (27 shared connections)
+- [[Pricing Regression Test Suite]] (14 shared connections)
+- [[Master Codebase Architecture Reference]] (10 shared connections)
+- [[Community 109]] (10 shared connections)
+- [[Community 80]] (10 shared connections)
+- [[Claude Agent Instructions]] (1 shared connections)
 
 ## Source Files
 
-- `src/components/PriceBlock.jsx`
-- `src/components/ProductCard.jsx`
-- `src/data/dealer.js`
-- `src/data/dealer.test.mjs`
-- `src/data/favoritesStore.js`
-- `src/pages/Favorites.jsx`
-- `src/pages/Product.jsx`
+- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- `.agents/skills/archify/renderers/shared/cli.mjs`
+- `.agents/skills/archify/renderers/shared/geometry.mjs`
+- `.agents/skills/archify/renderers/shared/legend.mjs`
+- `.agents/skills/archify/renderers/shared/utils.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 267 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 249 (99%)
+- INFERRED: 3 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

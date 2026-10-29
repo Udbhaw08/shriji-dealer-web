@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **Volume Tier Discounts & Quantity Slabs** (2 connections) — `docs/guides/pricing-tiers-and-slabs.md`
-- **pricing-tiers-and-slabs.md** (1 connections) — `docs/guides/pricing-tiers-and-slabs.md`
-- **Slab Structure** (1 connections) — `docs/guides/pricing-tiers-and-slabs.md`
+- **GSTIN Verification Flow** (2 connections) — `docs/guides/gstin-verification-flow.md`
+- **gstin-verification-flow.md** (1 connections) — `docs/guides/gstin-verification-flow.md`
+- **State Code Resolution** (1 connections) — `docs/guides/gstin-verification-flow.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/guides/pricing-tiers-and-slabs.md`
+- `docs/guides/gstin-verification-flow.md`
 
 ## Audit Trail
 

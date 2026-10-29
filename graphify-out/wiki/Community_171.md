@@ -1,40 +1,37 @@
 # Community 171
 
-> 11 nodes · cohesion 0.31
+> 12 nodes · cohesion 0.41
 
 ## Key Concepts
 
-- **vite.config.js** (19 connections) — `vite.config.js`
-- **zohoApiPlugin()** (12 connections) — `vite.config.js`
-- **download.js** (6 connections) — `api/download.js`
-- **handler()** (5 connections) — `api/download.js`
-- **ssrf.js** (5 connections) — `api/_lib/ssrf.js`
-- **validateSafeDownloadUrl()** (5 connections) — `api/_lib/ssrf.js`
-- **safeFetchWithRedirects()** (3 connections) — `api/download.js`
-- **isPrivateOrReservedIp()** (3 connections) — `api/_lib/ssrf.js`
-- **wrapJpegInPdf()** (2 connections) — `api/download.js`
-- **ALLOWED_REMOTE_HOSTS** (1 connections) — `api/_lib/ssrf.js`
-- **liveAutoSyncPlugin()** (1 connections) — `vite.config.js`
+- **repository-evidence.mjs** (15 connections) — `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
+- **verifyRepositoryEvidence()** (14 connections) — `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
+- **evidenceFailure()** (6 connections) — `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
+- **repository-location.mjs** (5 connections) — `.agents/skills/archify/renderers/shared/repository-location.mjs`
+- **parseRepositoryRemote()** (5 connections) — `.agents/skills/archify/renderers/shared/repository-location.mjs`
+- **gitValue()** (4 connections) — `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
+- **runGit()** (4 connections) — `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
+- **verifiedSourcePath()** (3 connections) — `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
+- **redactRepositoryRemote()** (3 connections) — `.agents/skills/archify/renderers/shared/repository-location.mjs`
+- **repositorySourceHref()** (3 connections) — `.agents/skills/archify/renderers/shared/repository-location.mjs`
+- **hasRepositoryEvidence()** (2 connections) — `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
+- **sourceLineCount()** (2 connections) — `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
 
 ## Relationships
 
-- [[Community 82]] (8 shared connections)
-- [[Community 255]] (5 shared connections)
-- [[Community 150]] (5 shared connections)
-- [[Community 51]] (3 shared connections)
-- [[Community 45]] (3 shared connections)
-- [[Community 257]] (2 shared connections)
-- [[Community 203]] (2 shared connections)
+- [[Master Codebase Architecture Reference]] (6 shared connections)
+- [[Community 146]] (3 shared connections)
+- [[Community 62]] (2 shared connections)
+- [[Community 117]] (1 shared connections)
 
 ## Source Files
 
-- `api/_lib/ssrf.js`
-- `api/download.js`
-- `vite.config.js`
+- `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
+- `.agents/skills/archify/renderers/shared/repository-location.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 62 (100%)
+- EXTRACTED: 66 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

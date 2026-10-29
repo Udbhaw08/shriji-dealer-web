@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **.mcp.json** (1 connections) — `.mcp.json`
-- **supabase** (1 connections) — `.mcp.json`
+- **fail-migration-cleanup.mjs** (1 connections) — `.agents/skills/archify/test/fixtures/fail-migration-cleanup.mjs`
+- **originalRmSync** (1 connections) — `.agents/skills/archify/test/fixtures/fail-migration-cleanup.mjs`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `.mcp.json`
+- `.agents/skills/archify/test/fixtures/fail-migration-cleanup.mjs`
 
 ## Audit Trail
 

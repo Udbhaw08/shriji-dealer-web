@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **SkipToContent.jsx** (1 connections) — `src/components/SkipToContent.jsx`
-- **SkipToContent()** (1 connections) — `src/components/SkipToContent.jsx`
+- **A11yAnnouncer.jsx** (1 connections) — `src/components/A11yAnnouncer.jsx`
+- **A11yAnnouncer()** (1 connections) — `src/components/A11yAnnouncer.jsx`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `src/components/SkipToContent.jsx`
+- `src/components/A11yAnnouncer.jsx`
 
 ## Audit Trail
 

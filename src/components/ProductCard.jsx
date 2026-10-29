@@ -82,14 +82,9 @@ export default function ProductCard({ p }) {
           <span className="prod-price-block">
             <span className="prod-price-row">
               <span className="prod-price-lbl mrp-lbl">{t("price_mrp_label") || "Retail MRP"}</span>
-              <div className="prod-mrp-group">
-                <b className="prod-price-val">
+              <b className="prod-price-val">
                   {isPriceOnRequest || mrp <= 0 ? t("price_on_request") || "Price on Request" : inr(mrp)}
                 </b>
-                {!isPriceOnRequest && mrp > 0 && (
-                  <span className="prod-tax-note">(Incl. taxes)</span>
-                )}
-              </div>
             </span>
           </span>
         </span>

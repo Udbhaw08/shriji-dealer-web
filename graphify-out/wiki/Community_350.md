@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **Data Flow Renderer** (5 connections) — `.agents/skills/archify/renderers/dataflow/README.md`
-- **README.md** (1 connections) — `.agents/skills/archify/renderers/dataflow/README.md`
-- **Design Rules** (1 connections) — `.agents/skills/archify/renderers/dataflow/README.md`
-- **Input** (1 connections) — `.agents/skills/archify/renderers/dataflow/README.md`
-- **Layout budget** (1 connections) — `.agents/skills/archify/renderers/dataflow/README.md`
-- **Legend** (1 connections) — `.agents/skills/archify/renderers/dataflow/README.md`
+- **Action sheets** (4 connections) — `.agents/skills/apple-design/references/hig/action-sheets.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/action-sheets.md`
+- **action-sheets.md** (1 connections) — `.agents/skills/apple-design/references/hig/action-sheets.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/action-sheets.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/action-sheets.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/action-sheets.md`
 
 ## Relationships
 
@@ -17,7 +17,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/dataflow/README.md`
+- `.agents/skills/apple-design/references/hig/action-sheets.md`
 
 ## Audit Trail
 

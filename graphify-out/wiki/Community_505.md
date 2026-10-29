@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **maskSensitiveData.js** (2 connections) — `backend/src/utils/maskSensitiveData.js`
-- **maskEmail()** (1 connections) — `backend/src/utils/maskSensitiveData.js`
-- **maskPhoneNumber()** (1 connections) — `backend/src/utils/maskSensitiveData.js`
+- **debounce.js** (2 connections) — `src/utils/debounce.js`
+- **debounce()** (1 connections) — `src/utils/debounce.js`
+- **throttle()** (1 connections) — `src/utils/debounce.js`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `backend/src/utils/maskSensitiveData.js`
+- `src/utils/debounce.js`
 
 ## Audit Trail
 

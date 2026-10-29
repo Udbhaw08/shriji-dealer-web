@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **envValidator.js** (1 connections) — `backend/src/utils/envValidator.js`
-- **requireEnv()** (1 connections) — `backend/src/utils/envValidator.js`
+- **colorUtils.js** (1 connections) — `src/utils/colorUtils.js`
+- **hexToRgba()** (1 connections) — `src/utils/colorUtils.js`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `backend/src/utils/envValidator.js`
+- `src/utils/colorUtils.js`
 
 ## Audit Trail
 

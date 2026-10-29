@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **Payment Data Isolation & Compliance Notes** (2 connections) — `docs/security/pci-dss-compliance-notes.md`
-- **pci-dss-compliance-notes.md** (1 connections) — `docs/security/pci-dss-compliance-notes.md`
-- **Architecture** (1 connections) — `docs/security/pci-dss-compliance-notes.md`
+- **Content Security Policy (CSP) Directives** (2 connections) — `docs/security/content-security-policy.md`
+- **content-security-policy.md** (1 connections) — `docs/security/content-security-policy.md`
+- **Directives** (1 connections) — `docs/security/content-security-policy.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/security/pci-dss-compliance-notes.md`
+- `docs/security/content-security-policy.md`
 
 ## Audit Trail
 

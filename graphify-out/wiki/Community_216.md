@@ -17,7 +17,7 @@
 
 ## Relationships
 
-- [[Community 95]] (1 shared connections)
+- [[Community 96]] (1 shared connections)
 - [[Master Codebase Architecture Reference]] (1 shared connections)
 
 ## Source Files

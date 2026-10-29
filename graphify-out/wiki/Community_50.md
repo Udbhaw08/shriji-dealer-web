@@ -33,11 +33,11 @@
 
 ## Relationships
 
-- [[Community 95]] (21 shared connections)
-- [[Community 112]] (19 shared connections)
-- [[Community 103]] (19 shared connections)
-- [[Community 63]] (16 shared connections)
-- [[Community 36]] (1 shared connections)
+- [[Community 96]] (21 shared connections)
+- [[Community 115]] (19 shared connections)
+- [[Community 105]] (19 shared connections)
+- [[Community 64]] (16 shared connections)
+- [[Community 39]] (1 shared connections)
 
 ## Source Files
 

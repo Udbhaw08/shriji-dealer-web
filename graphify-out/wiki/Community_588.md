@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **tokenSecurity.test.mjs** (0 connections) — `backend/test/tokenSecurity.test.mjs`
+- **sessionExpiry.test.mjs** (0 connections) — `backend/test/sessionExpiry.test.mjs`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `backend/test/tokenSecurity.test.mjs`
+- `backend/test/sessionExpiry.test.mjs`
 
 ## Audit Trail
 

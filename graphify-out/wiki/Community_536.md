@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **smsFallback.js** (1 connections) — `backend/src/services/smsFallback.js`
-- **sendSmsOtpFallback()** (1 connections) — `backend/src/services/smsFallback.js`
+- **healthService.js** (1 connections) — `backend/src/services/healthService.js`
+- **getSystemHealth()** (1 connections) — `backend/src/services/healthService.js`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `backend/src/services/smsFallback.js`
+- `backend/src/services/healthService.js`
 
 ## Audit Trail
 

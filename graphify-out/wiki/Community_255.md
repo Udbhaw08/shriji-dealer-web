@@ -1,35 +1,31 @@
 # Community 255
 
-> 8 nodes · cohesion 0.57
+> 8 nodes · cohesion 0.43
 
 ## Key Concepts
 
-- **securityPhase2.test.mjs** (11 connections) — `backend/test/securityPhase2.test.mjs`
-- **og.js** (7 connections) — `api/og.js`
-- **htmlEscape.js** (6 connections) — `api/_lib/htmlEscape.js`
-- **escapeHtml()** (6 connections) — `api/_lib/htmlEscape.js`
-- **sanitizeUrl()** (6 connections) — `api/_lib/htmlEscape.js`
-- **handler()** (5 connections) — `api/og.js`
-- **sanitizeHost()** (4 connections) — `api/_lib/htmlEscape.js`
-- **mockWebhookAuthCheck()** (1 connections) — `backend/test/securityPhase2.test.mjs`
+- **download.js** (6 connections) — `api/download.js`
+- **handler()** (5 connections) — `api/download.js`
+- **ssrf.js** (5 connections) — `api/_lib/ssrf.js`
+- **validateSafeDownloadUrl()** (5 connections) — `api/_lib/ssrf.js`
+- **safeFetchWithRedirects()** (3 connections) — `api/download.js`
+- **isPrivateOrReservedIp()** (3 connections) — `api/_lib/ssrf.js`
+- **wrapJpegInPdf()** (2 connections) — `api/download.js`
+- **ALLOWED_REMOTE_HOSTS** (1 connections) — `api/_lib/ssrf.js`
 
 ## Relationships
 
-- [[Community 171]] (5 shared connections)
-- [[Community 203]] (4 shared connections)
-- [[Community 150]] (2 shared connections)
-- [[Live Pricing Audit Tool]] (2 shared connections)
-- [[Community 45]] (1 shared connections)
+- [[Community 192]] (3 shared connections)
+- [[Community 51]] (3 shared connections)
 
 ## Source Files
 
-- `api/_lib/htmlEscape.js`
-- `api/og.js`
-- `backend/test/securityPhase2.test.mjs`
+- `api/_lib/ssrf.js`
+- `api/download.js`
 
 ## Audit Trail
 
-- EXTRACTED: 46 (100%)
+- EXTRACTED: 30 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

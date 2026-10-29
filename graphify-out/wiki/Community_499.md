@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **Autocannon Load Test Benchmarks** (2 connections) — `docs/testing/load-testing-benchmarks.md`
-- **load-testing-benchmarks.md** (1 connections) — `docs/testing/load-testing-benchmarks.md`
-- **Targets** (1 connections) — `docs/testing/load-testing-benchmarks.md`
+- **repository-language-metadata.test.mjs** (2 connections) — `.agents/skills/archify/test/repository-language-metadata.test.mjs`
+- **linguistGenerated()** (1 connections) — `.agents/skills/archify/test/repository-language-metadata.test.mjs`
+- **repoRoot** (1 connections) — `.agents/skills/archify/test/repository-language-metadata.test.mjs`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/testing/load-testing-benchmarks.md`
+- `.agents/skills/archify/test/repository-language-metadata.test.mjs`
 
 ## Audit Trail
 

@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **A11yAnnouncer.jsx** (1 connections) — `src/components/A11yAnnouncer.jsx`
-- **A11yAnnouncer()** (1 connections) — `src/components/A11yAnnouncer.jsx`
+- **Package.swift** (1 connections) — `ios/App/CapApp-SPM/Package.swift`
+- **PackageDescription** (1 connections) — `ios/App/CapApp-SPM/Package.swift`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `src/components/A11yAnnouncer.jsx`
+- `ios/App/CapApp-SPM/Package.swift`
 
 ## Audit Trail
 

@@ -4,36 +4,34 @@
 
 ## Key Concepts
 
-- **properties** (8 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **meta** (5 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **states** (4 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **transitions** (3 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **cards** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **diagram_type** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **schema_version** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **const** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **required** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **const** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **minItems** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **Color** (10 connections) — `.agents/skills/apple-design/references/hig/color.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/color.md`
+- **Specifications** (3 connections) — `.agents/skills/apple-design/references/hig/color.md`
+- **Desktop (macOS)** (2 connections) — `.agents/skills/apple-design/references/hig/color.md`
+- **color.md** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
+- **App accent colors** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
+- **Color management** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
+- **Inclusive color** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
+- **iOS, iPadOS system gray colors** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
+- **Liquid Glass color** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
+- **System colors** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
+- **System colors** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
 
 ## Relationships
 
-- [[Community 207]] (3 shared connections)
-- [[Community 327]] (1 shared connections)
-- [[Community 69]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/lifecycle.schema.json`
+- `.agents/skills/apple-design/references/hig/color.md`
 
 ## Audit Trail
 
-- EXTRACTED: 35 (100%)
+- EXTRACTED: 30 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

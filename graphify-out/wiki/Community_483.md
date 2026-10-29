@@ -4,17 +4,17 @@
 
 ## Key Concepts
 
-- **label** (3 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **minLength** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **stage** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **minimum** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
 
 ## Relationships
 
-- [[Agent Guidelines (AGENTS.md)]] (1 shared connections)
+- [[Zoho Integration Skill]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/lifecycle.schema.json`
+- `.agents/skills/archify/schemas/dataflow.schema.json`
 
 ## Audit Trail
 

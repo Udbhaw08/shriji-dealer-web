@@ -4,10 +4,10 @@
 
 ## Key Concepts
 
-- **Web views** (3 connections) — `.agents/skills/apple-design/references/hig/web-views.md`
-- **web-views.md** (1 connections) — `.agents/skills/apple-design/references/hig/web-views.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/web-views.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/web-views.md`
+- **Status bars** (3 connections) — `.agents/skills/apple-design/references/hig/status-bars.md`
+- **status-bars.md** (1 connections) — `.agents/skills/apple-design/references/hig/status-bars.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/status-bars.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/status-bars.md`
 
 ## Relationships
 
@@ -15,7 +15,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/web-views.md`
+- `.agents/skills/apple-design/references/hig/status-bars.md`
 
 ## Audit Trail
 

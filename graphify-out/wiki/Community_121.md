@@ -1,45 +1,37 @@
 # Community 121
 
-> 15 nodes · cohesion 0.26
+> 16 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **Products.jsx** (25 connections) — `src/pages/Products.jsx`
-- **ProductSearchBar.jsx** (15 connections) — `src/components/ProductSearchBar.jsx`
-- **useProducts()** (12 connections) — `src/data/productsStore.js`
-- **searchHelper.js** (11 connections) — `src/data/searchHelper.js`
-- **ProductSearchBar()** (6 connections) — `src/components/ProductSearchBar.jsx`
-- **getSuggestions()** (5 connections) — `src/data/searchHelper.js`
-- **autocorrectQuery()** (4 connections) — `src/data/searchHelper.js`
-- **buildSearchDictionary()** (4 connections) — `src/data/searchHelper.js`
-- **useProduct()** (2 connections) — `src/data/productsStore.js`
-- **getPopularSearches()** (2 connections) — `src/data/searchHelper.js`
-- **scoreProduct()** (2 connections) — `src/data/searchHelper.js`
-- **COLLOQUIAL_SYNONYMS** (1 connections) — `src/data/searchHelper.js`
-- **levenshteinDistance()** (1 connections) — `src/data/searchHelper.js`
-- **Group()** (1 connections) — `src/pages/Products.jsx`
-- **SORT_FNS** (1 connections) — `src/pages/Products.jsx`
+- **Anti-AI-Slop Guide** (15 connections) — `.agents/skills/refero-design/references/anti-ai-slop.md`
+- **anti-ai-slop.md** (1 connections) — `.agents/skills/refero-design/references/anti-ai-slop.md`
+- **Litmus Tests** (1 connections) — `.agents/skills/refero-design/references/anti-ai-slop.md`
+- **Safe vs. Intentional** (1 connections) — `.agents/skills/refero-design/references/anti-ai-slop.md`
+- **🚨 THE #1 TELL: INDIGO/VIOLET** (1 connections) — `.agents/skills/refero-design/references/anti-ai-slop.md`
+- **🚨 THE #2 TELL: CARDS EVERYWHERE** (1 connections) — `.agents/skills/refero-design/references/anti-ai-slop.md`
+- **🚨 THE #3 TELL: DARK MODE BY DEFAULT** (1 connections) — `.agents/skills/refero-design/references/anti-ai-slop.md`
+- **🚨 THE #4 TELL: CALM EDITORIAL SERIF ON AUTOPILOT** (1 connections) — `.agents/skills/refero-design/references/anti-ai-slop.md`
+- **🚨 THE #5 TELL: EMOJI AS ICONS** (1 connections) — `.agents/skills/refero-design/references/anti-ai-slop.md`
+- **🚨 THE #6 TELL: LEFT ACCENT STRIPE** (1 connections) — `.agents/skills/refero-design/references/anti-ai-slop.md`
+- **🚨 THE #7 TELL: REFERENCE AVERAGING** (1 connections) — `.agents/skills/refero-design/references/anti-ai-slop.md`
+- **🚨 THE #8 TELL: TOKEN ROLE DRIFT** (1 connections) — `.agents/skills/refero-design/references/anti-ai-slop.md`
+- **🚨 THE #9 TELL: FAKE GRAPHICS OR TEXT-ONLY COLLAPSE** (1 connections) — `.agents/skills/refero-design/references/anti-ai-slop.md`
+- **The AI Slop Detector Checklist** (1 connections) — `.agents/skills/refero-design/references/anti-ai-slop.md`
+- **The Antidote: Intentional Design** (1 connections) — `.agents/skills/refero-design/references/anti-ai-slop.md`
+- **What Makes Design Look Generic** (1 connections) — `.agents/skills/refero-design/references/anti-ai-slop.md`
 
 ## Relationships
 
-- [[Community 47]] (12 shared connections)
-- [[Community 44]] (11 shared connections)
-- [[Pricing & Roles Skill]] (7 shared connections)
-- [[Community 97]] (4 shared connections)
-- [[Community 174]] (2 shared connections)
-- [[Community 173]] (1 shared connections)
-- [[Graphify Knowledge Graph Skill]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `src/components/ProductSearchBar.jsx`
-- `src/data/productsStore.js`
-- `src/data/searchHelper.js`
-- `src/pages/Products.jsx`
+- `.agents/skills/refero-design/references/anti-ai-slop.md`
 
 ## Audit Trail
 
-- EXTRACTED: 92 (100%)
+- EXTRACTED: 30 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

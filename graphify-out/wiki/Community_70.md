@@ -32,8 +32,8 @@
 ## Relationships
 
 - [[Community 208]] (1 shared connections)
-- [[Community 485]] (1 shared connections)
-- [[Community 428]] (1 shared connections)
+- [[Community 487]] (1 shared connections)
+- [[Community 430]] (1 shared connections)
 
 ## Source Files
 

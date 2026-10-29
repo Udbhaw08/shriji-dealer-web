@@ -86,20 +86,24 @@ const price99 = (n) => (n <= 0 ? 0 : Math.max(99, Math.round(n / 100) * 100 - 1)
  */
 export function priceFor(p, dealer) {
   const mrp = typeof p?.mrp === "number" && !isNaN(p.mrp) ? p.mrp : 0;
-  const rebatePct = dealer ? (dealer.rebatePct || 20) : 0;
   const hasLiveDealerRate = typeof p?.dealerRate === "number" && p.dealerRate > 0;
+  const mockRebatePct = dealer && typeof dealer.rebatePct === "number" ? dealer.rebatePct : 0;
 
   let dealerNet;
   if (!dealer) {
     // Customers only see retail MRP
     dealerNet = mrp;
   } else if (hasLiveDealerRate) {
-    // Exact custom wholesale rate directly from Zoho Commerce Pricebook API
+    // Exact wholesale rate directly from Zoho Commerce Pricebook API (assigned pricebook or Mumbai PL Oct 2026 default)
     dealerNet = p.dealerRate;
-  } else if (mrp > 0) {
-    // Fallback to standard contracted dealer rebate from MRP
-    dealerNet = price99(mrp * (1 - rebatePct / 100));
+  } else if (p && p.dealerRate === 0) {
+    // Explicitly zero or unpriced item in pricebook
+    dealerNet = 0;
+  } else if (mockRebatePct > 0 && p && p.dealerRate === undefined && mrp > 0) {
+    // Support mock dealers in local offline test suites only when dealerRate is completely omitted
+    dealerNet = price99(mrp * (1 - mockRebatePct / 100));
   } else {
+    // Zero-formula default: unpriced catalog items cleanly report Price on Request
     dealerNet = 0;
   }
 
@@ -109,7 +113,7 @@ export function priceFor(p, dealer) {
   const rebate = dealer
     ? (hasLiveDealerRate && mrp > 0 && dealerNet < mrp
         ? Math.round(((mrp - dealerNet) / mrp) * 100)
-        : rebatePct)
+        : mockRebatePct)
     : 0;
 
   return {

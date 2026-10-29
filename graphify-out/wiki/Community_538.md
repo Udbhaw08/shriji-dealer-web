@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **ci-scope.test.mjs** (1 connections) — `.agents/skills/archify/test/ci-scope.test.mjs`
-- **script** (1 connections) — `.agents/skills/archify/test/ci-scope.test.mjs`
+- **smsFallback.js** (1 connections) — `backend/src/services/smsFallback.js`
+- **sendSmsOtpFallback()** (1 connections) — `backend/src/services/smsFallback.js`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/ci-scope.test.mjs`
+- `backend/src/services/smsFallback.js`
 
 ## Audit Trail
 

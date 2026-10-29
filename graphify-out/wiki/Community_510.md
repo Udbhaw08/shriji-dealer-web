@@ -1,12 +1,12 @@
 # Community 510
 
-> 3 nodes · cohesion 0.67
+> 3 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **stringUtils.js** (2 connections) — `src/utils/stringUtils.js`
-- **titleCase()** (1 connections) — `src/utils/stringUtils.js`
-- **truncate()** (1 connections) — `src/utils/stringUtils.js`
+- **sanitize.js** (2 connections) — `backend/src/utils/sanitize.js`
+- **sanitizeInput()** (2 connections) — `backend/src/utils/sanitize.js`
+- **sanitizeObject()** (2 connections) — `backend/src/utils/sanitize.js`
 
 ## Relationships
 
@@ -14,11 +14,11 @@
 
 ## Source Files
 
-- `src/utils/stringUtils.js`
+- `backend/src/utils/sanitize.js`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

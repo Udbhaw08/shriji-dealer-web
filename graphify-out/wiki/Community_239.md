@@ -16,18 +16,18 @@
 
 ## Relationships
 
-- [[Community 395]] (1 shared connections)
-- [[Community 417]] (1 shared connections)
 - [[Community 396]] (1 shared connections)
 - [[Community 418]] (1 shared connections)
+- [[Community 397]] (1 shared connections)
 - [[Community 419]] (1 shared connections)
 - [[Community 420]] (1 shared connections)
-- [[Community 397]] (1 shared connections)
 - [[Community 421]] (1 shared connections)
-- [[Community 422]] (1 shared connections)
 - [[Community 398]] (1 shared connections)
+- [[Community 422]] (1 shared connections)
+- [[Community 423]] (1 shared connections)
+- [[Community 399]] (1 shared connections)
 - [[Community 240]] (1 shared connections)
-- [[Community 473]] (1 shared connections)
+- [[Community 475]] (1 shared connections)
 
 ## Source Files
 

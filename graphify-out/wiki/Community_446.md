@@ -1,12 +1,12 @@
 # Community 446
 
-> 3 nodes · cohesion 1.00
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **MainActivity.java** (2 connections) — `android/app/src/main/java/com/shrijidomestic/app/MainActivity.java`
-- **MainActivity** (2 connections) — `android/app/src/main/java/com/shrijidomestic/app/MainActivity.java`
-- **BridgeActivity** (2 connections)
+- **OpenAPI 3.0 Specification Summary** (2 connections) — `docs/api/swagger-openapi-spec.md`
+- **swagger-openapi-spec.md** (1 connections) — `docs/api/swagger-openapi-spec.md`
+- **Services** (1 connections) — `docs/api/swagger-openapi-spec.md`
 
 ## Relationships
 
@@ -14,11 +14,11 @@
 
 ## Source Files
 
-- `android/app/src/main/java/com/shrijidomestic/app/MainActivity.java`
+- `docs/api/swagger-openapi-spec.md`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

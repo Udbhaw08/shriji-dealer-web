@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **Vercel Production Deployment Checklist** (2 connections) — `docs/deployment/vercel-production-checklist.md`
-- **vercel-production-checklist.md** (1 connections) — `docs/deployment/vercel-production-checklist.md`
-- **Environment Variables** (1 connections) — `docs/deployment/vercel-production-checklist.md`
+- **Supabase Database Schema Reference** (2 connections) — `docs/architecture/supabase-schema-reference.md`
+- **supabase-schema-reference.md** (1 connections) — `docs/architecture/supabase-schema-reference.md`
+- **Primary Tables** (1 connections) — `docs/architecture/supabase-schema-reference.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/deployment/vercel-production-checklist.md`
+- `docs/architecture/supabase-schema-reference.md`
 
 ## Audit Trail
 

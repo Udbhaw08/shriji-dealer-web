@@ -1,63 +1,47 @@
 # Vercel Deployment Routing
 
-> 41 nodes · cohesion 0.15
+> 40 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **auth.js** (54 connections) — `backend/src/routes/auth.js`
-- **dealerApp.js** (44 connections) — `backend/src/services/dealerApp.js`
-- **normalizePhone()** (21 connections) — `backend/src/utils/phone.js`
-- **normalizeEmail()** (18 connections) — `backend/src/utils/validators.js`
-- **notifications.js** (16 connections) — `backend/src/services/notifications.js`
-- **validators.js** (15 connections) — `backend/src/utils/validators.js`
-- **requestDealerRegistrationOtp()** (14 connections) — `backend/src/services/dealerApp.js`
-- **finalizeDealerRegistration()** (12 connections) — `backend/src/services/dealerApp.js`
-- **isValidPhone()** (11 connections) — `backend/src/utils/validators.js`
-- **cleanName()** (9 connections) — `backend/src/utils/validators.js`
-- **httpError()** (8 connections) — `backend/src/middleware/errorHandler.js`
-- **validators.test.mjs** (8 connections) — `backend/test/validators.test.mjs`
-- **phone.js** (8 connections) — `backend/src/utils/phone.js`
-- **verifyDealerRegistrationOtp()** (7 connections) — `backend/src/services/dealerApp.js`
-- **sendWhatsAppOtp()** (7 connections) — `backend/src/services/notifications.js`
-- **isValidEmail()** (7 connections) — `backend/src/utils/validators.js`
-- **interconnection.test.mjs** (6 connections) — `backend/test/interconnection.test.mjs`
-- **isValidName()** (6 connections) — `backend/src/utils/validators.js`
-- **issueSession()** (5 connections) — `backend/src/routes/auth.js`
-- **createDealerAccount()** (5 connections) — `backend/src/services/crmClient.js`
-- **createDealerContact()** (5 connections) — `backend/src/services/crmClient.js`
-- **applyCrmContactState()** (5 connections) — `backend/src/services/dealerApp.js`
-- **sendEmailOtp()** (5 connections) — `backend/src/services/notifications.js`
-- **generateOtp()** (5 connections) — `backend/src/utils/hash.js`
-- **isValidGstin()** (5 connections) — `backend/src/utils/validators.js`
-- *... and 16 more nodes in this community*
+- **scripts** (16 connections) — `package.json`
+- **dependencies** (13 connections) — `package.json`
+- **package.json** (7 connections) — `package.json`
+- **devDependencies** (6 connections) — `package.json`
+- **@capacitor/android** (1 connections) — `package.json`
+- **@capacitor/app** (1 connections) — `package.json`
+- **@capacitor/cli** (1 connections) — `package.json`
+- **@capacitor/core** (1 connections) — `package.json`
+- **@capacitor/ios** (1 connections) — `package.json`
+- **@capacitor/preferences** (1 connections) — `package.json`
+- **dotenv** (1 connections) — `package.json`
+- **jsonwebtoken** (1 connections) — `package.json`
+- **postgres** (1 connections) — `package.json`
+- **react** (1 connections) — `package.json`
+- **react-dom** (1 connections) — `package.json`
+- **react-router-dom** (1 connections) — `package.json`
+- **oxlint** (1 connections) — `package.json`
+- **@types/react** (1 connections) — `package.json`
+- **@types/react-dom** (1 connections) — `package.json`
+- **vite** (1 connections) — `package.json`
+- **@vitejs/plugin-react** (1 connections) — `package.json`
+- **name** (1 connections) — `package.json`
+- **private** (1 connections) — `package.json`
+- **build** (1 connections) — `package.json`
+- **build:backend** (1 connections) — `package.json`
+- *... and 15 more nodes in this community*
 
 ## Relationships
 
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (37 shared connections)
-- [[Live Pricing Audit Tool]] (18 shared connections)
-- [[Community 129]] (18 shared connections)
-- [[Design System & UI Tokens]] (15 shared connections)
-- [[Community 115]] (6 shared connections)
-- [[Community 142]] (4 shared connections)
-- [[Community 328]] (3 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `backend/src/middleware/errorHandler.js`
-- `backend/src/routes/auth.js`
-- `backend/src/routes/dealers.js`
-- `backend/src/services/crmClient.js`
-- `backend/src/services/dealerApp.js`
-- `backend/src/services/notifications.js`
-- `backend/src/utils/hash.js`
-- `backend/src/utils/phone.js`
-- `backend/src/utils/validators.js`
-- `backend/test/interconnection.test.mjs`
-- `backend/test/validators.test.mjs`
+- `package.json`
 
 ## Audit Trail
 
-- EXTRACTED: 347 (100%)
+- EXTRACTED: 78 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

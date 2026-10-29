@@ -1,42 +1,46 @@
 # Community 112
 
-> 17 nodes · cohesion 0.23
+> 17 nodes · cohesion 0.24
 
 ## Key Concepts
 
-- **checkForUpdate()** (19 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **commitOperation()** (14 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **acknowledgeUpdate()** (13 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **cancelOperation()** (7 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **resultForCandidate()** (7 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **silent()** (7 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **resultAfterLosingOperation()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **readJsonFile()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **transitionOperation()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **operationOwnsActiveClaim()** (4 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **runCli()** (4 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **freshStateResult()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **versionCacheDirectory()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **assertBoundedRegularFile()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **digestForEventKey()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **fetchCandidate()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **waitUntilRetry()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **fl()** (25 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **pe()** (13 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **ml()** (11 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **pl()** (10 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **xe()** (9 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **ye()** (9 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **aa()** (8 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **cl()** (6 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **jo()** (6 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **da()** (5 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **sl()** (5 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **xo()** (5 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **ll()** (3 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **ol()** (3 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **Vd()** (3 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **Ym()** (3 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **vc()** (2 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
 
 ## Relationships
 
-- [[Community 50]] (19 shared connections)
-- [[Community 103]] (12 shared connections)
-- [[Community 95]] (7 shared connections)
-- [[Community 63]] (3 shared connections)
-- [[Community 36]] (2 shared connections)
+- [[Dealer Auth & Session Management]] (19 shared connections)
+- [[Dependencies & Package Config]] (12 shared connections)
+- [[Community 41]] (9 shared connections)
+- [[Community 43]] (5 shared connections)
+- [[Zoho Integration Architecture]] (5 shared connections)
+- [[Community 58]] (5 shared connections)
+- [[Community 102]] (3 shared connections)
+- [[Zoho API Diagnostic Script]] (1 shared connections)
+- [[Community 35]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/scripts/check-update.mjs`
+- `ios/App/App/public/assets/index-1EUJIH5f.js`
 
 ## Audit Trail
 
-- EXTRACTED: 105 (100%)
+- EXTRACTED: 126 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

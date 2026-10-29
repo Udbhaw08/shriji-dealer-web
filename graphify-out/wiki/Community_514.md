@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **README.md** (1 connections) — `ios/App/CapApp-SPM/README.md`
-- **CapApp-SPM** (1 connections) — `ios/App/CapApp-SPM/README.md`
+- **README.md** (1 connections) — `.agents/skills/archify/brand-marks/README.md`
+- **Built-in brand marks** (1 connections) — `.agents/skills/archify/brand-marks/README.md`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `ios/App/CapApp-SPM/README.md`
+- `.agents/skills/archify/brand-marks/README.md`
 
 ## Audit Trail
 

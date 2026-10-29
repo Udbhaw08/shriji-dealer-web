@@ -33,17 +33,17 @@
 
 ## Relationships
 
-- [[Roles & Customer Sharing Spec]] (11 shared connections)
-- [[Community 41]] (10 shared connections)
-- [[Community 37]] (9 shared connections)
-- [[Community 81]] (8 shared connections)
-- [[Dependencies & Package Config]] (8 shared connections)
-- [[Community 106]] (7 shared connections)
-- [[Project Readme & Layout]] (6 shared connections)
-- [[Community 170]] (6 shared connections)
-- [[Product Brand & Business Vision]] (5 shared connections)
-- [[Community 104]] (4 shared connections)
-- [[Community 137]] (4 shared connections)
+- [[Architecture Doc Generator]] (11 shared connections)
+- [[Community 44]] (10 shared connections)
+- [[Community 40]] (9 shared connections)
+- [[Community 80]] (8 shared connections)
+- [[Product Pages Specification]] (8 shared connections)
+- [[Community 109]] (7 shared connections)
+- [[Claude Agent Instructions]] (6 shared connections)
+- [[Community 171]] (6 shared connections)
+- [[Pricing Regression Test Suite]] (5 shared connections)
+- [[Community 106]] (4 shared connections)
+- [[Community 139]] (4 shared connections)
 - [[Community 214]] (3 shared connections)
 
 ## Source Files

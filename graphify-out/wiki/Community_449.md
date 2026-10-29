@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **Multi-Tenant Dealer Schema** (2 connections) — `docs/architecture/multi-tenant-dealer-schema.md`
-- **multi-tenant-dealer-schema.md** (1 connections) — `docs/architecture/multi-tenant-dealer-schema.md`
-- **Workspace Isolation** (1 connections) — `docs/architecture/multi-tenant-dealer-schema.md`
+- **Repository Architecture Audit Report** (2 connections) — `docs/architecture/final-audit-report.md`
+- **final-audit-report.md** (1 connections) — `docs/architecture/final-audit-report.md`
+- **Verification Summary** (1 connections) — `docs/architecture/final-audit-report.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/architecture/multi-tenant-dealer-schema.md`
+- `docs/architecture/final-audit-report.md`
 
 ## Audit Trail
 

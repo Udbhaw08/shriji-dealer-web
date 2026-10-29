@@ -1,11 +1,12 @@
 # Community 511
 
-> 2 nodes · cohesion 1.00
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **esm-DbXgVEzm.js** (1 connections) — `android/app/src/main/assets/public/assets/esm-DbXgVEzm.js`
-- **__vite__mapDeps()** (1 connections) — `android/app/src/main/assets/public/assets/esm-DbXgVEzm.js`
+- **storage.js** (2 connections) — `src/utils/storage.js`
+- **memoryStore** (1 connections) — `src/utils/storage.js`
+- **safeStorage** (1 connections) — `src/utils/storage.js`
 
 ## Relationships
 
@@ -13,11 +14,11 @@
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/esm-DbXgVEzm.js`
+- `src/utils/storage.js`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

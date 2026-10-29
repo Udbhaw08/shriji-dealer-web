@@ -30,7 +30,7 @@ export default async function handler(req, res) {
       console.warn("[api/products] auth check failed, defaulting to customer view:", authErr.message);
     }
 
-    const targetPricebookId = eligible && pricebookId ? pricebookId : "3334672000000547177";
+    const targetPricebookId = eligible ? (pricebookId || req.query?.pricebook_id || "3334672000000547177") : "3334672000000547177";
 
     let rawProducts = [];
     let categories = [];

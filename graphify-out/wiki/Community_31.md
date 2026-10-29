@@ -1,52 +1,56 @@
 # Community 31
 
-> 39 nodes · cohesion 0.17
+> 39 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **auth.js** (57 connections) — `src/data/auth.js`
-- **callBackend()** (32 connections) — `src/data/auth.js`
-- **json()** (32 connections) — `src/data/auth.js`
-- **DealerDashboard.jsx** (23 connections) — `src/pages/DealerDashboard.jsx`
-- **broadcastAuthChange()** (13 connections) — `src/data/auth.js`
-- **applyAuthResponse()** (9 connections) — `src/data/auth.js`
-- **finalizeDealerRegistration()** (8 connections) — `src/data/auth.js`
-- **requestDealerRegistrationOtp()** (7 connections) — `src/data/auth.js`
-- **staffSignup()** (7 connections) — `src/data/auth.js`
-- **verifyDealerRegistrationOtp()** (7 connections) — `src/data/auth.js`
-- **verifyEmailOtp()** (7 connections) — `src/data/auth.js`
-- **logout()** (6 connections) — `src/data/auth.js`
-- **verifyPhoneOtp()** (6 connections) — `src/data/auth.js`
-- **fetchMe()** (5 connections) — `src/data/auth.js`
-- **googleLogin()** (5 connections) — `src/data/auth.js`
-- **login()** (5 connections) — `src/data/auth.js`
-- **lookupStaffCode()** (5 connections) — `src/data/auth.js`
-- **requestPhoneOtp()** (5 connections) — `src/data/auth.js`
-- **signup()** (5 connections) — `src/data/auth.js`
-- **staffTogglePrice()** (5 connections) — `src/data/auth.js`
-- **staffTogglePriceAll()** (5 connections) — `src/data/auth.js`
-- **verifyOtp()** (5 connections) — `src/data/auth.js`
-- **persistTokens()** (4 connections) — `src/data/auth.js`
-- **requestOtp()** (4 connections) — `src/data/auth.js`
-- **staffApprove()** (4 connections) — `src/data/auth.js`
+- **n()** (32 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **t()** (22 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **Ri()** (17 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **q()** (14 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **ga()** (12 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **va()** (10 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **cs()** (8 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **O()** (8 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **os()** (7 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **Do()** (6 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **Ja()** (6 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **es()** (5 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **fs()** (5 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **j()** (5 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **js()** (5 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **ns()** (5 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **qs()** (5 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **ts()** (5 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **x()** (5 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **Ya()** (5 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **ds()** (4 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **ea()** (4 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **eo()** (4 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **Ka()** (4 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **ls()** (4 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
 - *... and 14 more nodes in this community*
 
 ## Relationships
 
-- [[Graphify Knowledge Graph Skill]] (54 shared connections)
-- [[Community 97]] (11 shared connections)
-- [[Community 47]] (3 shared connections)
-- [[Pricing & Roles Skill]] (2 shared connections)
-- [[Community 44]] (1 shared connections)
+- [[Price Presentation & Product UI]] (44 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (29 shared connections)
+- [[Agent Guidelines (AGENTS.md)]] (13 shared connections)
+- [[Community 29]] (13 shared connections)
+- [[Product Requirements Documentation]] (9 shared connections)
+- [[Community 98]] (6 shared connections)
+- [[Community 42]] (5 shared connections)
+- [[Community 30]] (4 shared connections)
+- [[Community 56]] (3 shared connections)
+- [[Community 108]] (1 shared connections)
 
 ## Source Files
 
-- `src/data/auth.js`
-- `src/pages/DealerDashboard.jsx`
+- `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
 
 ## Audit Trail
 
-- EXTRACTED: 323 (100%)
+- EXTRACTED: 251 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

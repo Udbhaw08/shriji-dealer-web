@@ -610,6 +610,28 @@ export async function fetchZohoPricebookItems(pricebookId = "3334672000000547177
   cachedPricebooks.set(pbId, { rates: rateMap, time: now });
   return rateMap;
 }
+/**
+ * Fetches pricebook rates with automatic fallback to Mumbai PL Oct 2026 (3334672000000547177).
+ * Strictly guarantees that custom assigned rates take priority, while uncustomized items
+ * fall back to the default Mumbai price list rather than arbitrary formula discounts.
+ */
+export async function fetchResolvedPricebookRates(pricebookId = "3334672000000547177", { refresh = false } = {}) {
+  const resolvedId = await resolvePricebookId(pricebookId);
+  const pbId = String(resolvedId || "3334672000000547177").trim();
+  const defaultPbId = "3334672000000547177";
+
+  if (pbId === defaultPbId) {
+    return fetchZohoPricebookItems(defaultPbId, { refresh });
+  }
+
+  const [customRates, defaultRates] = await Promise.all([
+    fetchZohoPricebookItems(pbId, { refresh }),
+    fetchZohoPricebookItems(defaultPbId, { refresh }),
+  ]);
+
+  return { ...defaultRates, ...customRates };
+}
+
 
 const cachedProductDetails = new Map();
 
@@ -1229,9 +1251,9 @@ export async function fetchZohoProductById(identifier, { pricebookId = "33346720
   const diskDetails = readProductDetailsDiskCache();
   if (diskDetails[clean]?.product) {
     const cachedProd = diskDetails[clean].product;
-    const liveRates = await fetchZohoPricebookItems(pbId);
+    const liveRates = await fetchResolvedPricebookRates(pbId);
     const targetKey = cachedProd.id || clean;
-    const resolvedRate = liveRates[targetKey] ?? cachedProd.dealerRate;
+    const resolvedRate = liveRates[targetKey] ?? null;
     return { ...cachedProd, dealerRate: resolvedRate };
   }
 
@@ -1260,8 +1282,8 @@ export async function fetchZohoProductById(identifier, { pricebookId = "33346720
   }
   if (diskDetails[targetId]?.product) {
     const cachedProd = diskDetails[targetId].product;
-    const liveRates = await fetchZohoPricebookItems(pbId);
-    const resolvedRate = liveRates[targetId] ?? cachedProd.dealerRate;
+    const liveRates = await fetchResolvedPricebookRates(pbId);
+    const resolvedRate = liveRates[targetId] ?? null;
     return { ...cachedProd, dealerRate: resolvedRate };
   }
 
@@ -1280,7 +1302,7 @@ export async function fetchZohoProductById(identifier, { pricebookId = "33346720
           "X-com-zoho-store-organizationid": orgId,
         },
       }),
-      fetchZohoPricebookItems(pbId),
+      fetchResolvedPricebookRates(pbId),
     ]);
 
     if (res.status === 429) {

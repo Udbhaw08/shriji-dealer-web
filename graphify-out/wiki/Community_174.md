@@ -18,11 +18,10 @@
 
 ## Relationships
 
-- [[Community 44]] (5 shared connections)
-- [[Pricing & Roles Skill]] (5 shared connections)
-- [[Community 47]] (4 shared connections)
-- [[Community 121]] (2 shared connections)
-- [[Graphify Knowledge Graph Skill]] (1 shared connections)
+- [[Client Products Data Store]] (8 shared connections)
+- [[Graphify Knowledge Graph Skill]] (5 shared connections)
+- [[Community 53]] (3 shared connections)
+- [[Roles & Customer Sharing Spec]] (1 shared connections)
 
 ## Source Files
 

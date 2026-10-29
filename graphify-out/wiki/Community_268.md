@@ -4,14 +4,14 @@
 
 ## Key Concepts
 
-- **Offering help** (6 connections) — `.agents/skills/apple-design/references/hig/offering-help.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/offering-help.md`
-- **offering-help.md** (1 connections) — `.agents/skills/apple-design/references/hig/offering-help.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/offering-help.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/offering-help.md`
-- **Creating tips** (1 connections) — `.agents/skills/apple-design/references/hig/offering-help.md`
-- **Desktop (macOS, visionOS)** (1 connections) — `.agents/skills/apple-design/references/hig/offering-help.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/offering-help.md`
+- **Onboarding** (7 connections) — `.agents/skills/apple-design/references/hig/onboarding.md`
+- **onboarding.md** (1 connections) — `.agents/skills/apple-design/references/hig/onboarding.md`
+- **Additional content** (1 connections) — `.agents/skills/apple-design/references/hig/onboarding.md`
+- **Additional requests** (1 connections) — `.agents/skills/apple-design/references/hig/onboarding.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/onboarding.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/onboarding.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/onboarding.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/onboarding.md`
 
 ## Relationships
 
@@ -19,7 +19,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/offering-help.md`
+- `.agents/skills/apple-design/references/hig/onboarding.md`
 
 ## Audit Trail
 

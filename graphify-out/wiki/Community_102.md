@@ -1,39 +1,48 @@
 # Community 102
 
-> 18 nodes · cohesion 0.11
+> 18 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **PRD — Shriji Domestic Appliances Dealer Web** (11 connections) — `PRD.md`
-- **3. Scope** (3 connections) — `PRD.md`
-- **6. Data** (3 connections) — `PRD.md`
-- **7. Evidence ledger — what is verified vs. what is sample** (3 connections) — `PRD.md`
-- **PRD.md** (1 connections) — `PRD.md`
-- **10. Conventions worth knowing** (1 connections) — `PRD.md`
-- **1. What this is** (1 connections) — `PRD.md`
-- **2. Who uses it** (1 connections) — `PRD.md`
-- **4. Stack** (1 connections) — `PRD.md`
-- **5. The pricing model — the core business rule** (1 connections) — `PRD.md`
-- **8. Roadmap** (1 connections) — `PRD.md`
-- **9. Decision log** (1 connections) — `PRD.md`
-- **Built and working** (1 connections) — `PRD.md`
-- **⚠️ Known discrepancy** (1 connections) — `PRD.md`
-- **Not built yet (and deliberately so)** (1 connections) — `PRD.md`
-- **Product record shape** (1 connections) — `PRD.md`
-- **Sample / invented for the draft — must stay labelled as such** (1 connections) — `PRD.md`
-- **Verified (scraped from shrijidomestic.com, 2026-09-18)** (1 connections) — `PRD.md`
+- **D()** (23 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **np()** (20 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **r()** (13 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **bm()** (12 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **mo()** (11 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **am()** (10 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **mm()** (9 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **jm()** (7 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **kt()** (7 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **Mp()** (7 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **om()** (7 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **zm()** (7 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **nm()** (6 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **km()** (4 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **Um()** (4 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **Vm()** (3 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **Xm()** (3 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **Qa()** (2 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Dealer Auth & Session Management]] (18 shared connections)
+- [[Dependencies & Package Config]] (18 shared connections)
+- [[Zoho Integration Architecture]] (15 shared connections)
+- [[Community 43]] (10 shared connections)
+- [[Community 41]] (7 shared connections)
+- [[Community 35]] (6 shared connections)
+- [[Community 34]] (5 shared connections)
+- [[Zoho API Diagnostic Script]] (4 shared connections)
+- [[Community 112]] (3 shared connections)
+- [[Community 58]] (1 shared connections)
 
 ## Source Files
 
-- `PRD.md`
+- `ios/App/App/public/assets/index-1EUJIH5f.js`
 
 ## Audit Trail
 
-- EXTRACTED: 34 (100%)
+- EXTRACTED: 155 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

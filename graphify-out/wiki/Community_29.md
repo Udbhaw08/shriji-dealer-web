@@ -1,47 +1,56 @@
 # Community 29
 
-> 40 nodes · cohesion 0.05
+> 39 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **Color Guide** (13 connections) — `.agents/skills/refero-design/references/color.md`
-- **2. Palette Structure** (5 connections) — `.agents/skills/refero-design/references/color.md`
-- **5. Light and Dark Themes** (5 connections) — `.agents/skills/refero-design/references/color.md`
-- **7. Building a Palette from Scratch** (5 connections) — `.agents/skills/refero-design/references/color.md`
-- **4. Contrast and Readability** (4 connections) — `.agents/skills/refero-design/references/color.md`
-- **6. Naming Tokens** (4 connections) — `.agents/skills/refero-design/references/color.md`
-- **9. Anti-Patterns** (4 connections) — `.agents/skills/refero-design/references/color.md`
-- **1. Color Space** (3 connections) — `.agents/skills/refero-design/references/color.md`
-- **3. The 60/30/10 Rule** (3 connections) — `.agents/skills/refero-design/references/color.md`
-- **8. Gradients** (2 connections) — `.agents/skills/refero-design/references/color.md`
-- **color.md** (1 connections) — `.agents/skills/refero-design/references/color.md`
-- **0. Context First** (1 connections) — `.agents/skills/refero-design/references/color.md`
-- **10. Pre-Ship Checklist** (1 connections) — `.agents/skills/refero-design/references/color.md`
-- **2.1 Neutrals (Most Important)** (1 connections) — `.agents/skills/refero-design/references/color.md`
-- **2.2 Primary Accent** (1 connections) — `.agents/skills/refero-design/references/color.md`
-- **2.3 Semantic Colors** (1 connections) — `.agents/skills/refero-design/references/color.md`
-- **2.4 Effects (Only If Needed)** (1 connections) — `.agents/skills/refero-design/references/color.md`
-- **Appendix: Complete Token System** (1 connections) — `.agents/skills/refero-design/references/color.md`
-- **Bad** (1 connections) — `.agents/skills/refero-design/references/color.md`
-- **Common Failures** (1 connections) — `.agents/skills/refero-design/references/color.md`
-- **Component Color Limit** (1 connections) — `.agents/skills/refero-design/references/color.md`
-- **Dark Mode: Technical Implementation** (1 connections) — `.agents/skills/refero-design/references/color.md`
-- **Dark Theme Elevation** (1 connections) — `.agents/skills/refero-design/references/color.md`
-- **Good** (1 connections) — `.agents/skills/refero-design/references/color.md`
-- **Minimum Requirements** (1 connections) — `.agents/skills/refero-design/references/color.md`
-- *... and 15 more nodes in this community*
+- **it()** (21 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **k()** (19 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **st()** (17 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **A()** (15 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **ft()** (13 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **Dn()** (12 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **delete()** (11 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **ut()** (11 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **jt()** (10 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **ct()** (9 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **nt()** (9 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **ve()** (9 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **ot()** (8 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **P()** (8 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **xt()** (8 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **dt()** (7 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **F()** (7 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **Gt()** (7 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **Id()** (7 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **jn()** (7 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **kf()** (7 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **rt()** (7 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **tn()** (7 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **hf()** (6 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **qt()** (6 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- *... and 14 more nodes in this community*
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Price Presentation & Product UI]] (48 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (15 shared connections)
+- [[Agent Guidelines (AGENTS.md)]] (14 shared connections)
+- [[Community 31]] (13 shared connections)
+- [[Product Requirements Documentation]] (10 shared connections)
+- [[Community 56]] (10 shared connections)
+- [[Community 108]] (9 shared connections)
+- [[Community 98]] (7 shared connections)
+- [[Community 30]] (7 shared connections)
+- [[Community 42]] (6 shared connections)
 
 ## Source Files
 
-- `.agents/skills/refero-design/references/color.md`
+- `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
 
 ## Audit Trail
 
-- EXTRACTED: 78 (100%)
+- EXTRACTED: 301 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

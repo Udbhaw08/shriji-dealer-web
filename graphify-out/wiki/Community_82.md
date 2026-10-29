@@ -1,50 +1,44 @@
 # Community 82
 
-> 20 nodes · cohesion 0.26
+> 20 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **content.js** (19 connections) — `backend/src/services/content.js`
-- **content.js** (16 connections) — `backend/src/routes/content.js`
-- **content.js** (14 connections) — `api/content.js`
-- **handler()** (11 connections) — `api/content.js`
-- **getSupabaseBanners()** (9 connections) — `backend/src/services/content.js`
-- **getSupabaseSchemes()** (8 connections) — `backend/src/services/content.js`
-- **getSupabaseBranding()** (7 connections) — `backend/src/services/content.js`
-- **getActiveContent()** (6 connections) — `backend/src/services/content.js`
-- **getHeroSliderSettings()** (6 connections) — `backend/src/services/content.js`
-- **saveHeroSliderSettings()** (5 connections) — `backend/src/services/content.js`
-- **deleteStoreContent()** (4 connections) — `backend/src/services/content.js`
-- **getAllStoreContent()** (4 connections) — `backend/src/services/content.js`
-- **toggleStoreContentActive()** (4 connections) — `backend/src/services/content.js`
-- **upsertStoreContent()** (4 connections) — `backend/src/services/content.js`
-- **fetchZohoBanners()** (3 connections) — `api/_lib/zoho.js`
-- **fetchZohoSchemes()** (3 connections) — `api/_lib/zoho.js`
-- **loadContentService()** (2 connections) — `vite.config.js`
-- **ALLOWED_CONTENT_TYPES** (1 connections) — `api/content.js`
-- **ALLOWED_CONTENT_TYPES** (1 connections) — `backend/src/routes/content.js`
-- **formatGoogleDriveUrl()** (1 connections) — `backend/src/services/content.js`
+- **buildDeltaSvg()** (16 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **annotateArchitectureSideSvg()** (9 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **boundaryElements()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **edgeSymbolMarkup()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **markerFor()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **addNodeMarker()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **boundaryChangeMap()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **boundaryMarkupByKey()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **boundaryMarkupParts()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **boundarySymbolMarkup()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **changeMap()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **elementById()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **forceElementState()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **nodeGroupRanges()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **prefixSvgIds()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **staticize()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **transformBoundaryElements()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **transformNodeGroups()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **forceBoundaryState()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **viewBoxSize()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
 
 ## Relationships
 
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (11 shared connections)
-- [[Community 171]] (8 shared connections)
-- [[Community 51]] (6 shared connections)
-- [[Live Pricing Audit Tool]] (3 shared connections)
-- [[Community 45]] (2 shared connections)
+- [[Community 62]] (20 shared connections)
+- [[Community 303]] (2 shared connections)
+- [[Architecture Doc Generator]] (2 shared connections)
 
 ## Source Files
 
-- `api/_lib/zoho.js`
-- `api/content.js`
-- `backend/src/routes/content.js`
-- `backend/src/services/content.js`
-- `vite.config.js`
+- `.agents/skills/archify/delta/architecture-delta.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 124 (97%)
-- INFERRED: 4 (3%)
+- EXTRACTED: 78 (98%)
+- INFERRED: 2 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

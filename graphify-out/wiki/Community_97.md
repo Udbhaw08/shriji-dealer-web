@@ -1,46 +1,40 @@
 # Community 97
 
-> 18 nodes · cohesion 0.21
+> 19 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **productsStore.js** (25 connections) — `src/data/productsStore.js`
-- **apiFetch()** (20 connections) — `src/data/api.js`
-- **api.js** (11 connections) — `src/data/api.js`
-- **apiUrl()** (9 connections) — `src/data/api.js`
-- **fetchLiveProducts()** (7 connections) — `src/data/productsStore.js`
-- **syncPricebookWithSession()** (7 connections) — `src/data/productsStore.js`
-- **products.js** (5 connections) — `src/data/products.js`
-- **getAccessToken()** (4 connections) — `src/data/auth.js`
-- **loadCached()** (4 connections) — `src/data/productsStore.js`
-- **emit()** (3 connections) — `src/data/productsStore.js`
-- **syncTagsLive()** (3 connections) — `src/data/productsStore.js`
-- **CATEGORIES** (2 connections) — `src/data/products.js`
-- **getCacheKey()** (2 connections) — `src/data/productsStore.js`
-- **sanitizeCategories()** (2 connections) — `src/data/productsStore.js`
-- **PRODUCTS** (1 connections) — `src/data/products.js`
-- **listeners** (1 connections) — `src/data/productsStore.js`
-- **PREFERRED_ORDER** (1 connections) — `src/data/productsStore.js`
-- **storeState** (1 connections) — `src/data/productsStore.js`
+- **golden.mjs** (18 connections) — `.agents/skills/archify/test/golden.mjs`
+- **expectFailure()** (3 connections) — `.agents/skills/archify/test/golden.mjs`
+- **check()** (2 connections) — `.agents/skills/archify/test/golden.mjs`
+- **render()** (2 connections) — `.agents/skills/archify/test/golden.mjs`
+- **blocks()** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **GOLDEN** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **landingPage** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **landingVersions** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **lock** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **normalizeNewlines()** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **pkg** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **repoRoot** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **shieldsBadgeMessages()** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **skillMd** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **template** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **webApp** (1 connections) — `.agents/skills/archify/test/golden.mjs`
 
 ## Relationships
 
-- [[Graphify Knowledge Graph Skill]] (12 shared connections)
-- [[Pricing & Roles Skill]] (11 shared connections)
-- [[Community 31]] (11 shared connections)
-- [[Community 44]] (6 shared connections)
-- [[Community 121]] (4 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `src/data/api.js`
-- `src/data/auth.js`
-- `src/data/products.js`
-- `src/data/productsStore.js`
+- `.agents/skills/archify/test/golden.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 108 (100%)
+- EXTRACTED: 40 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

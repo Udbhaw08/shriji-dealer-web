@@ -1,39 +1,37 @@
 # Community 129
 
-> 15 nodes · cohesion 0.30
+> 15 nodes · cohesion 0.19
 
 ## Key Concepts
 
-- **crmClient.js** (35 connections) — `backend/src/services/crmClient.js`
-- **crmFetch()** (14 connections) — `backend/src/services/crmClient.js`
-- **crmConfigured()** (8 connections) — `backend/src/services/crmClient.js`
-- **findOwnerContactInAccount()** (5 connections) — `backend/src/services/crmClient.js`
-- **updateContactDetails()** (5 connections) — `backend/src/services/crmClient.js`
-- **updateDealerCodeInCrm()** (5 connections) — `backend/src/services/crmClient.js`
-- **deactivateAccountInCrm()** (3 connections) — `backend/src/services/crmClient.js`
-- **deactivateContactInCrm()** (3 connections) — `backend/src/services/crmClient.js`
-- **getDealerAccount()** (3 connections) — `backend/src/services/crmClient.js`
-- **isCrmConfigured()** (3 connections) — `backend/src/services/crmClient.js`
-- **getAccessToken()** (2 connections) — `backend/src/services/crmClient.js`
-- **getDealerContact()** (2 connections) — `backend/src/services/crmClient.js`
-- **getPrimaryContactForAccount()** (2 connections) — `backend/src/services/crmClient.js`
-- **linkContactToBackendUser()** (2 connections) — `backend/src/services/crmClient.js`
-- **FIELDS** (1 connections) — `backend/src/services/crmClient.js`
+- **items** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **sources** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **additionalProperties** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **required** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **boundaries** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **connections** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **maxItems** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **minItems** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Relationships
 
-- [[Vercel Deployment Routing]] (18 shared connections)
-- [[Live Pricing Audit Tool]] (8 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (4 shared connections)
-- [[Community 328]] (1 shared connections)
+- [[Mobile Responsive UI Skill]] (5 shared connections)
+- [[Community 79]] (3 shared connections)
 
 ## Source Files
 
-- `backend/src/services/crmClient.js`
+- `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 93 (100%)
+- EXTRACTED: 48 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

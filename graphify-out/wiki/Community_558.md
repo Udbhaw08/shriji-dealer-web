@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **build.gradle** (0 connections) — `android/app/build.gradle`
+- **settings.gradle** (0 connections) — `android/settings.gradle`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `android/app/build.gradle`
+- `android/settings.gradle`
 
 ## Audit Trail
 

@@ -1,40 +1,31 @@
 # Community 203
 
-> 10 nodes · cohesion 0.42
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **dealerPricingAuth.js** (9 connections) — `api/_lib/dealerPricingAuth.js`
-- **getDealerPricingEligibility()** (8 connections) — `api/_lib/dealerPricingAuth.js`
-- **index.js** (8 connections) — `api/products/index.js`
-- **fetchZohoCategories()** (6 connections) — `api/_lib/zoho.js`
-- **[id].js** (6 connections) — `api/products/[id].js`
-- **handler()** (6 connections) — `api/products/index.js`
-- **maskCatalogPricing()** (5 connections) — `api/_lib/dealerPricingAuth.js`
-- **maskProductPricing()** (5 connections) — `api/_lib/dealerPricingAuth.js`
-- **readProductsDiskCache()** (5 connections) — `api/_lib/zoho.js`
-- **handler()** (4 connections) — `api/products/[id].js`
+- **Viewer Runtime reference** (6 connections) — `.agents/skills/archify/references/viewer-runtime.md`
+- **Canonical exports** (4 connections) — `.agents/skills/archify/references/viewer-runtime.md`
+- **viewer-runtime.md** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
+- **Exploration** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
+- **Guided views and story** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
+- **Motion and presentation** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
+- **Reach Share Card** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
+- **Route Share Card** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
+- **Share Card** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
+- **Truth boundary** (1 connections) — `.agents/skills/archify/references/viewer-runtime.md`
 
 ## Relationships
 
-- [[Community 150]] (7 shared connections)
-- [[Community 51]] (4 shared connections)
-- [[Community 255]] (4 shared connections)
-- [[Community 45]] (4 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (2 shared connections)
-- [[Community 171]] (2 shared connections)
-- [[Live Pricing Audit Tool]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `api/_lib/dealerPricingAuth.js`
-- `api/_lib/zoho.js`
-- `api/products/[id].js`
-- `api/products/index.js`
+- `.agents/skills/archify/references/viewer-runtime.md`
 
 ## Audit Trail
 
-- EXTRACTED: 62 (100%)
+- EXTRACTED: 18 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

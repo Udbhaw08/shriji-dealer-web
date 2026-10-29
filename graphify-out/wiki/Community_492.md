@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **JWT Refresh Token Rotation Policy** (2 connections) — `docs/security/jwt-rotation-policy.md`
-- **jwt-rotation-policy.md** (1 connections) — `docs/security/jwt-rotation-policy.md`
-- **Rotation Rules** (1 connections) — `docs/security/jwt-rotation-policy.md`
+- **check-env.mjs** (2 connections) — `scripts/check-env.mjs`
+- **missing** (1 connections) — `scripts/check-env.mjs`
+- **requiredEnv** (1 connections) — `scripts/check-env.mjs`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/security/jwt-rotation-policy.md`
+- `scripts/check-env.mjs`
 
 ## Audit Trail
 

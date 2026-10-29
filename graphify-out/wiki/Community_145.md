@@ -1,37 +1,35 @@
 # Community 145
 
-> 14 nodes · cohesion 0.14
+> 14 nodes · cohesion 0.30
 
 ## Key Concepts
 
-- **workflow-migration.test.mjs** (22 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
-- **cli** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
-- **copyFixture()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
-- **explicitPinConflictWorkflow()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
-- **fixture** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
-- **heightConstrainedWorkflow()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
-- **parseJsonOutput()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
-- **profileDivergenceWorkflow()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
-- **runMigration()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
-- **runValidation()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
-- **sha256()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **architecture-delta-markers.test.mjs** (13 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
+- **assertPreserved()** (6 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
+- **descendants()** (6 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
+- **assertResolved()** (4 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
+- **attr()** (4 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
+- **markerMap()** (4 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
+- **compare()** (3 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
+- **edgePaths()** (3 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
+- **markerId()** (3 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
+- **svgIn()** (3 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
+- **markerShape()** (2 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
+- **variantFixture()** (1 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
+- **variants** (1 connections) — `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
 
 ## Relationships
 
-- [[Community 303]] (5 shared connections)
-- [[Community 137]] (3 shared connections)
-- [[Community 81]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/test/workflow-migration.test.mjs`
+- `.agents/skills/archify/test/architecture-delta-markers.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 35 (100%)
+- EXTRACTED: 54 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

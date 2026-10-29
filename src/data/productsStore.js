@@ -147,7 +147,7 @@ export function fetchLiveProducts(force = false, pricebookId = null) {
  */
 export function syncPricebookWithSession(session) {
   const canSeePrice = session?.canSeeDealerPrice !== false;
-  const pbId = (session && session.role === "dealer" && session.status === "approved" && canSeePrice)
+  const pbId = (session && (session.role === "dealer" || session.role === "staff" || session.role === "dealer_staff") && session.status === "approved" && canSeePrice)
     ? (session.dealer?.pricebookId || session.dealer?.price_tier || null)
     : null;
   if (pbId !== activePricebookId) {

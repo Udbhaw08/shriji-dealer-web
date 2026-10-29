@@ -1,10 +1,10 @@
 # Pricing Hierarchy & Zero-Leakage Spec
 
-> 48 nodes · cohesion 0.09
+> 47 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **sql** (79 connections) — `backend/src/db/pool.js`
+- **sql** (80 connections) — `backend/src/db/pool.js`
 - **dealers.js** (50 connections) — `backend/src/routes/dealers.js`
 - **staff.js** (23 connections) — `backend/src/services/staff.js`
 - **audit()** (18 connections) — `backend/src/utils/audit.js`
@@ -29,20 +29,20 @@
 - **toggleStaffPrice()** (4 connections) — `backend/src/services/staff.js`
 - **info.js** (3 connections) — `api/dealer/info.js`
 - **optionalAuth()** (3 connections) — `backend/src/middleware/auth.js`
-- *... and 23 more nodes in this community*
+- *... and 22 more nodes in this community*
 
 ## Relationships
 
-- [[Live Pricing Audit Tool]] (39 shared connections)
-- [[Vercel Deployment Routing]] (37 shared connections)
+- [[Product Brand & Business Vision]] (39 shared connections)
+- [[Community 36]] (38 shared connections)
 - [[Design System & UI Tokens]] (14 shared connections)
-- [[Community 82]] (11 shared connections)
+- [[Community 87]] (11 shared connections)
 - [[Community 51]] (7 shared connections)
-- [[Community 115]] (6 shared connections)
-- [[Community 142]] (6 shared connections)
-- [[Community 129]] (4 shared connections)
-- [[Community 203]] (2 shared connections)
-- [[Community 328]] (2 shared connections)
+- [[Community 120]] (6 shared connections)
+- [[Community 144]] (6 shared connections)
+- [[Community 116]] (4 shared connections)
+- [[Community 119]] (2 shared connections)
+- [[Community 327]] (2 shared connections)
 
 ## Source Files
 
@@ -60,11 +60,10 @@
 - `backend/src/services/staff.js`
 - `backend/src/utils/audit.js`
 - `backend/src/utils/loginCode.js`
-- `backend/test/crmSync.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 328 (99%)
+- EXTRACTED: 327 (99%)
 - INFERRED: 4 (1%)
 - AMBIGUOUS: 0 (0%)
 

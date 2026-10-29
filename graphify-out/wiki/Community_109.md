@@ -1,46 +1,50 @@
 # Community 109
 
-> 17 nodes · cohesion 0.24
+> 17 nodes · cohesion 0.21
 
 ## Key Concepts
 
-- **fl()** (25 connections) — `ios/App/App/public/assets/index-C82WY9Ju.js`
-- **pe()** (13 connections) — `ios/App/App/public/assets/index-C82WY9Ju.js`
-- **ml()** (11 connections) — `ios/App/App/public/assets/index-C82WY9Ju.js`
-- **pl()** (10 connections) — `ios/App/App/public/assets/index-C82WY9Ju.js`
-- **xe()** (9 connections) — `ios/App/App/public/assets/index-C82WY9Ju.js`
-- **ye()** (9 connections) — `ios/App/App/public/assets/index-C82WY9Ju.js`
-- **aa()** (8 connections) — `ios/App/App/public/assets/index-C82WY9Ju.js`
-- **cl()** (6 connections) — `ios/App/App/public/assets/index-C82WY9Ju.js`
-- **jo()** (6 connections) — `ios/App/App/public/assets/index-C82WY9Ju.js`
-- **da()** (5 connections) — `ios/App/App/public/assets/index-C82WY9Ju.js`
-- **sl()** (5 connections) — `ios/App/App/public/assets/index-C82WY9Ju.js`
-- **xo()** (5 connections) — `ios/App/App/public/assets/index-C82WY9Ju.js`
-- **ll()** (3 connections) — `ios/App/App/public/assets/index-C82WY9Ju.js`
-- **ol()** (3 connections) — `ios/App/App/public/assets/index-C82WY9Ju.js`
-- **Vd()** (3 connections) — `ios/App/App/public/assets/index-C82WY9Ju.js`
-- **Ym()** (3 connections) — `ios/App/App/public/assets/index-C82WY9Ju.js`
-- **vc()** (2 connections) — `ios/App/App/public/assets/index-C82WY9Ju.js`
+- **utils.mjs** (26 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
+- **i18n.mjs** (21 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **translateMessage()** (21 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **applyTemplate()** (9 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
+- **resolveLocale()** (7 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **componentContext()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **viewerCatalog()** (4 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **localizeTemplate()** (3 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **translateCount()** (3 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **formatMessage()** (2 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **serializeScriptJson()** (2 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
+- **CATALOGS** (1 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **ESCAPE_MAP** (1 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **MESSAGE_PAIRS** (1 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **SIGIL_SHAPE** (1 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
+- **SIGIL_TONE** (1 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
+- **TEMPLATE_PLACEHOLDERS** (1 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (20 shared connections)
-- [[Zoho Backend & Proxy Endpoints]] (12 shared connections)
-- [[Community 38]] (9 shared connections)
+- [[Architecture Doc Generator]] (12 shared connections)
+- [[Community 44]] (10 shared connections)
+- [[Master Codebase Architecture Reference]] (7 shared connections)
 - [[Community 40]] (5 shared connections)
-- [[Product Requirements Documentation]] (5 shared connections)
-- [[Community 56]] (5 shared connections)
-- [[Community 101]] (3 shared connections)
-- [[Testing & Workflow Skill]] (1 shared connections)
+- [[Community 131]] (5 shared connections)
+- [[Pricing Regression Test Suite]] (4 shared connections)
+- [[Product Pages Specification]] (4 shared connections)
+- [[Community 80]] (3 shared connections)
+- [[Claude Agent Instructions]] (1 shared connections)
+- [[Community 294]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-C82WY9Ju.js`
+- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- `.agents/skills/archify/renderers/shared/i18n.mjs`
+- `.agents/skills/archify/renderers/shared/utils.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 126 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 107 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

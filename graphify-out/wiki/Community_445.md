@@ -1,12 +1,13 @@
 # Community 445
 
-> 3 nodes · cohesion 0.67
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **Zoho CRM Webhook Event Payloads** (2 connections) — `docs/api/webhook-event-types.md`
-- **webhook-event-types.md** (1 connections) — `docs/api/webhook-event-types.md`
-- **Event: dealer.approved** (1 connections) — `docs/api/webhook-event-types.md`
+- **vercel.json** (3 connections) — `vercel.json`
+- **framework** (1 connections) — `vercel.json`
+- **headers** (1 connections) — `vercel.json`
+- **rewrites** (1 connections) — `vercel.json`
 
 ## Relationships
 
@@ -14,11 +15,11 @@
 
 ## Source Files
 
-- `docs/api/webhook-event-types.md`
+- `vercel.json`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

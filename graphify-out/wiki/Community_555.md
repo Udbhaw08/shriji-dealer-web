@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **capacitor.settings.gradle** (0 connections) — `android/capacitor.settings.gradle`
+- **cordova_plugins.js** (0 connections) — `android/app/src/main/assets/public/cordova_plugins.js`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `android/capacitor.settings.gradle`
+- `android/app/src/main/assets/public/cordova_plugins.js`
 
 ## Audit Trail
 

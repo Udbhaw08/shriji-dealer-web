@@ -4,10 +4,10 @@
 
 ## Key Concepts
 
-- **6. Line Height** (4 connections) — `.agents/skills/refero-design/references/typography.md`
-- **CSS Tokens** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Principles** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Quick Reference** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **5. Font Weight** (4 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Rules** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Standard Weights** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Weight + Size Relationship** (1 connections) — `.agents/skills/refero-design/references/typography.md`
 
 ## Relationships
 

@@ -1,41 +1,44 @@
 # Community 96
 
-> 19 nodes · cohesion 0.12
+> 19 nodes · cohesion 0.26
 
 ## Key Concepts
 
-- **golden.mjs** (18 connections) — `.agents/skills/archify/test/golden.mjs`
-- **expectFailure()** (3 connections) — `.agents/skills/archify/test/golden.mjs`
-- **check()** (2 connections) — `.agents/skills/archify/test/golden.mjs`
-- **render()** (2 connections) — `.agents/skills/archify/test/golden.mjs`
-- **blocks()** (1 connections) — `.agents/skills/archify/test/golden.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/golden.mjs`
-- **GOLDEN** (1 connections) — `.agents/skills/archify/test/golden.mjs`
-- **landingPage** (1 connections) — `.agents/skills/archify/test/golden.mjs`
-- **landingVersions** (1 connections) — `.agents/skills/archify/test/golden.mjs`
-- **lock** (1 connections) — `.agents/skills/archify/test/golden.mjs`
-- **normalizeNewlines()** (1 connections) — `.agents/skills/archify/test/golden.mjs`
-- **pkg** (1 connections) — `.agents/skills/archify/test/golden.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/golden.mjs`
-- **shieldsBadgeMessages()** (1 connections) — `.agents/skills/archify/test/golden.mjs`
-- **skillMd** (1 connections) — `.agents/skills/archify/test/golden.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/golden.mjs`
-- **template** (1 connections) — `.agents/skills/archify/test/golden.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/golden.mjs`
-- **webApp** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **cacheRename()** (13 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **cacheRm()** (10 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **captureMutationParentSnapshots()** (10 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **invalidateCacheToken()** (9 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **prepareCacheDirectory()** (9 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **resolveCacheTarget()** (9 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **stableCacheEntry()** (9 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **verifyCacheToken()** (9 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **guardedCacheMutation()** (7 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **assertSafeDirectory()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **isSameFile()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **cacheMkdirWithToken()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **stablePreparedDirectory()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **verifyDirectorySnapshots()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **verifyMutationContext()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **verifyMutationParentSnapshots()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **assertCacheTargetAbsent()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **canonicalizeTrustedDirectoryPrefix()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **isWithinDirectory()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 50]] (21 shared connections)
+- [[Community 105]] (14 shared connections)
+- [[Community 115]] (7 shared connections)
+- [[Community 216]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/golden.mjs`
+- `.agents/skills/archify/scripts/check-update.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 40 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 130 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

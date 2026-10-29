@@ -1,8 +1,8 @@
 # CODEBASE.md — Project Architecture & Feature Guide
 
 > **Auto-generated documentation**
-> Last synchronized: 2026-10-29T18:36:04.582+05:30 (GMT+5:30)
-> Total Project Files: 2146
+> Last synchronized: 2026-10-29T20:35:35.190+05:30 (GMT+5:30)
+> Total Project Files: 2145
 
 ---
 
@@ -123,7 +123,7 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 - **`src/components/OtpDispatchFeedback.jsx`** (3.4 KB)
 - **`src/components/PhoneVerificationPrompt.jsx`** (11.7 KB)
 - **`src/components/PriceBlock.jsx`** (6.6 KB)
-- **`src/components/ProductCard.jsx`** (3.9 KB)
+- **`src/components/ProductCard.jsx`** (3.6 KB)
 - **`src/components/ProductSearchBar.jsx`** (16.6 KB)
 - **`src/components/SkipToContent.jsx`** (0.7 KB)
 - **`src/components/UnderMaintenance.jsx`** (2.1 KB)
@@ -133,7 +133,7 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 - **`src/data/api.js`** (2.5 KB)
 - **`src/data/auth-session.test.mjs`** (7.0 KB)
 - **`src/data/auth.js`** (19.1 KB)
-- **`src/data/dealer.js`** (9.0 KB)
+- **`src/data/dealer.js`** (9.3 KB)
 - **`src/data/dealer.test.mjs`** (4.3 KB)
 - **`src/data/favoritesStore.js`** (2.3 KB)
 - **`src/data/i18n.js`** (1.7 KB)
@@ -142,7 +142,7 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 - **`src/data/portalGate.test.mjs`** (1.1 KB)
 - **`src/data/pricing.test.mjs`** (4.2 KB)
 - **`src/data/products.js`** (1.8 KB)
-- **`src/data/productsStore.js`** (6.2 KB)
+- **`src/data/productsStore.js`** (6.3 KB)
 - **`src/data/productsStore.test.mjs`** (5.2 KB)
 - **`src/data/searchHelper.js`** (9.8 KB)
 - **`src/data/searchHelper.test.mjs`** (0.9 KB)
@@ -162,13 +162,13 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 - **`api/og.js`** (5.1 KB)
 - **`api/products/index.js`** (2.7 KB)
 - **`api/products/sync-tags.js`** (0.9 KB)
-- **`api/products/[id].js`** (2.0 KB)
+- **`api/products/[id].js`** (2.1 KB)
 - **`api/upload.js`** (10.9 KB)
 - **`api/_lib/adminAuth.js`** (1.6 KB)
-- **`api/_lib/dealerPricingAuth.js`** (4.1 KB)
+- **`api/_lib/dealerPricingAuth.js`** (6.3 KB)
 - **`api/_lib/htmlEscape.js`** (1.1 KB)
 - **`api/_lib/ssrf.js`** (5.8 KB)
-- **`api/_lib/zoho.js`** (45.3 KB)
+- **`api/_lib/zoho.js`** (46.1 KB)
 
 ### 4.5 Automation & Utility Scripts (`scripts/`)
 - **`scripts/audit_prices.mjs`** (3.9 KB)

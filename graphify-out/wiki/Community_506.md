@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **numberUtils.js** (2 connections) — `src/utils/numberUtils.js`
-- **calculateDiscountPercentage()** (1 connections) — `src/utils/numberUtils.js`
-- **clamp()** (1 connections) — `src/utils/numberUtils.js`
+- **formatters.js** (2 connections) — `src/utils/formatters.js`
+- **formatCurrencyINR()** (1 connections) — `src/utils/formatters.js`
+- **formatPhoneNumber()** (1 connections) — `src/utils/formatters.js`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `src/utils/numberUtils.js`
+- `src/utils/formatters.js`
 
 ## Audit Trail
 

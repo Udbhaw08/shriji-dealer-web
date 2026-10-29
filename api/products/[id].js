@@ -34,7 +34,7 @@ export default async function handler(req, res) {
 
     // Server-side authorization check: never trust client-supplied pricebook_id
     const { eligible, pricebookId } = await getDealerPricingEligibility(req);
-    const targetPricebookId = eligible && pricebookId ? pricebookId : "3334672000000547177";
+    const targetPricebookId = eligible ? (pricebookId || req.query?.pricebook_id || "3334672000000547177") : "3334672000000547177";
 
     const rawProduct = await fetchZohoProductById(id, { pricebookId: targetPricebookId });
     if (!rawProduct) {
