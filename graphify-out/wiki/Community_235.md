@@ -4,38 +4,27 @@
 
 ## Key Concepts
 
-- **Typography Guide** (18 connections) — `.agents/skills/refero-design/references/typography.md`
-- **9. Line Length (Measure)** (3 connections) — `.agents/skills/refero-design/references/typography.md`
-- **typography.md** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **0. Context First** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **15. Pre-Ship Checklist** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **1. The Safe SaaS Preset** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Appendix: Complete Token System** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Guidelines** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Implementation** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **web-v8geNgiP.js** (8 connections) — `ios/App/App/public/assets/web-v8geNgiP.js`
+- **constructor()** (1 connections) — `ios/App/App/public/assets/web-v8geNgiP.js`
+- **exitApp()** (1 connections) — `ios/App/App/public/assets/web-v8geNgiP.js`
+- **getAppLanguage()** (1 connections) — `ios/App/App/public/assets/web-v8geNgiP.js`
+- **getInfo()** (1 connections) — `ios/App/App/public/assets/web-v8geNgiP.js`
+- **getLaunchUrl()** (1 connections) — `ios/App/App/public/assets/web-v8geNgiP.js`
+- **getState()** (1 connections) — `ios/App/App/public/assets/web-v8geNgiP.js`
+- **minimizeApp()** (1 connections) — `ios/App/App/public/assets/web-v8geNgiP.js`
+- **toggleBackButtonHandler()** (1 connections) — `ios/App/App/public/assets/web-v8geNgiP.js`
 
 ## Relationships
 
-- [[Community 389]] (1 shared connections)
-- [[Community 411]] (1 shared connections)
-- [[Community 390]] (1 shared connections)
-- [[Community 469]] (1 shared connections)
-- [[Community 412]] (1 shared connections)
-- [[Community 413]] (1 shared connections)
-- [[Community 414]] (1 shared connections)
-- [[Community 391]] (1 shared connections)
-- [[Community 415]] (1 shared connections)
-- [[Community 416]] (1 shared connections)
-- [[Community 392]] (1 shared connections)
-- [[Community 236]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/refero-design/references/typography.md`
+- `ios/App/App/public/assets/web-v8geNgiP.js`
 
 ## Audit Trail
 
-- EXTRACTED: 28 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

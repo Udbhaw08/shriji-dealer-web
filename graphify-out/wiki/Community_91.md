@@ -1,51 +1,44 @@
 # Community 91
 
-> 19 nodes · cohesion 0.23
+> 20 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **securityPhase2.test.mjs** (11 connections) — `backend/test/securityPhase2.test.mjs`
-- **dealerPricingAuth.js** (10 connections) — `api/_lib/dealerPricingAuth.js`
-- **getDealerPricingEligibility()** (8 connections) — `api/_lib/dealerPricingAuth.js`
-- **index.js** (8 connections) — `api/products/index.js`
-- **og.js** (7 connections) — `api/og.js`
-- **htmlEscape.js** (6 connections) — `api/_lib/htmlEscape.js`
-- **escapeHtml()** (6 connections) — `api/_lib/htmlEscape.js`
-- **sanitizeUrl()** (6 connections) — `api/_lib/htmlEscape.js`
-- **fetchZohoCategories()** (6 connections) — `api/_lib/zoho.js`
-- **[id].js** (6 connections) — `api/products/[id].js`
-- **handler()** (6 connections) — `api/products/index.js`
-- **handler()** (5 connections) — `api/og.js`
-- **maskCatalogPricing()** (5 connections) — `api/_lib/dealerPricingAuth.js`
-- **maskProductPricing()** (5 connections) — `api/_lib/dealerPricingAuth.js`
-- **readProductsDiskCache()** (5 connections) — `api/_lib/zoho.js`
-- **sanitizeHost()** (4 connections) — `api/_lib/htmlEscape.js`
-- **handler()** (4 connections) — `api/products/[id].js`
-- **tokenCache** (1 connections) — `api/_lib/dealerPricingAuth.js`
-- **mockWebhookAuthCheck()** (1 connections) — `backend/test/securityPhase2.test.mjs`
+- **properties** (13 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **title** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **animation** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **engineering_profile** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **locale** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **output** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **quality_profile** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **subtitle** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **views** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **visual_preset** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **enum** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **minLength** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (14 shared connections)
-- [[Oxlint Linter Configuration]] (7 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (4 shared connections)
-- [[Master Codebase Architecture Reference]] (3 shared connections)
-- [[Community 49]] (1 shared connections)
-- [[Client Products Data Store]] (1 shared connections)
+- [[Community 181]] (1 shared connections)
+- [[Community 128]] (1 shared connections)
+- [[Community 361]] (1 shared connections)
+- [[Community 83]] (1 shared connections)
 
 ## Source Files
 
-- `api/_lib/dealerPricingAuth.js`
-- `api/_lib/htmlEscape.js`
-- `api/_lib/zoho.js`
-- `api/og.js`
-- `api/products/[id].js`
-- `api/products/index.js`
-- `backend/test/securityPhase2.test.mjs`
+- `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 110 (100%)
+- EXTRACTED: 42 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

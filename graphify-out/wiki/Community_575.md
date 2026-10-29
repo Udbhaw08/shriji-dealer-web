@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **errorHandler.test.mjs** (0 connections) — `backend/test/errorHandler.test.mjs`
+- **dbHealthCheck.test.mjs** (0 connections) — `backend/test/dbHealthCheck.test.mjs`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `backend/test/errorHandler.test.mjs`
+- `backend/test/dbHealthCheck.test.mjs`
 
 ## Audit Trail
 

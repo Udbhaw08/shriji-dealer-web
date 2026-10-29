@@ -11,9 +11,28 @@ import { apiFetch } from "./api.js";
  *  - 401 triggers token refresh attempt, maintaining valid sessions seamlessly.
  */
 
-const AUTH_BASE =
-  import.meta.env?.VITE_AUTH_API_URL ||
-  (Capacitor.isNativePlatform() ? "https://restor.in" : "");
+function resolveAuthBase() {
+  // If running inside Capacitor native container (Android/iOS), point to production API
+  if (Capacitor.isNativePlatform()) {
+    const raw = import.meta.env?.VITE_AUTH_API_URL;
+    if (raw && !raw.includes("onrender.com")) {
+      return raw.replace(/\/+$/, "");
+    }
+    return "https://restor.in";
+  }
+
+  // On Web (browser):
+  // Always use same-origin relative endpoints ("") so requests go to /api/auth/* on
+  // the current host (works seamlessly on localhost, restor.in, and Vercel preview deployments).
+  // Strictly filter out dead/suspended Render URLs even if configured in Vercel environment variables.
+  const raw = import.meta.env?.VITE_AUTH_API_URL;
+  if (raw && !raw.includes("onrender.com") && !raw.includes("restor.in") && !raw.includes("localhost")) {
+    return raw.replace(/\/+$/, "");
+  }
+  return "";
+}
+
+export const AUTH_BASE = resolveAuthBase();
 
 export const PREFS_KEY = "shriji.auth.tokens";
 export const SESSION_PROFILE_KEY = "shriji.auth.session_profile";

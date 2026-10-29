@@ -21,8 +21,8 @@
 
 ## Relationships
 
-- [[Community 38]] (5 shared connections)
-- [[Community 114]] (5 shared connections)
+- [[Community 37]] (5 shared connections)
+- [[Community 112]] (5 shared connections)
 
 ## Source Files
 

@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **hygiene.md** (1 connections) — `.agents/skills/swiftui-pro/references/hygiene.md`
-- **Hygiene** (1 connections) — `.agents/skills/swiftui-pro/references/hygiene.md`
+- **validateContentType.js** (1 connections) — `backend/src/middleware/validateContentType.js`
+- **validateContentType()** (1 connections) — `backend/src/middleware/validateContentType.js`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `.agents/skills/swiftui-pro/references/hygiene.md`
+- `backend/src/middleware/validateContentType.js`
 
 ## Audit Trail
 

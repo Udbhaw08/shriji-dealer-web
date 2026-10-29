@@ -1,63 +1,55 @@
 # Client Products Data Store
 
-> 54 nodes · cohesion 0.10
+> 51 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **auth.js** (55 connections) — `backend/src/routes/auth.js`
-- **crmClient.js** (35 connections) — `backend/src/services/crmClient.js`
-- **normalizePhone()** (21 connections) — `backend/src/utils/phone.js`
-- **normalizeEmail()** (18 connections) — `backend/src/utils/validators.js`
-- **notifications.js** (16 connections) — `backend/src/services/notifications.js`
-- **env** (15 connections) — `backend/src/config/env.js`
-- **validators.js** (15 connections) — `backend/src/utils/validators.js`
-- **crmFetch()** (14 connections) — `backend/src/services/crmClient.js`
-- **requestDealerRegistrationOtp()** (14 connections) — `backend/src/services/dealerApp.js`
-- **finalizeDealerRegistration()** (12 connections) — `backend/src/services/dealerApp.js`
-- **isValidPhone()** (11 connections) — `backend/src/utils/validators.js`
-- **cleanName()** (9 connections) — `backend/src/utils/validators.js`
-- **httpError()** (8 connections) — `backend/src/middleware/errorHandler.js`
-- **crmConfigured()** (8 connections) — `backend/src/services/crmClient.js`
-- **validators.test.mjs** (8 connections) — `backend/test/validators.test.mjs`
-- **phone.js** (8 connections) — `backend/src/utils/phone.js`
-- **issueSession()** (7 connections) — `backend/src/routes/auth.js`
-- **sendWhatsAppOtp()** (7 connections) — `backend/src/services/notifications.js`
-- **isValidEmail()** (7 connections) — `backend/src/utils/validators.js`
-- **interconnection.test.mjs** (6 connections) — `backend/test/interconnection.test.mjs`
-- **isValidName()** (6 connections) — `backend/src/utils/validators.js`
-- **createDealerAccount()** (5 connections) — `backend/src/services/crmClient.js`
-- **createDealerContact()** (5 connections) — `backend/src/services/crmClient.js`
-- **findOwnerContactInAccount()** (5 connections) — `backend/src/services/crmClient.js`
-- **updateContactDetails()** (5 connections) — `backend/src/services/crmClient.js`
-- *... and 29 more nodes in this community*
+- **ot()** (23 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **k()** (21 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **lt()** (16 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **nt()** (15 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **A()** (14 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **ft()** (14 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **qa()** (13 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **mt()** (12 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **delete()** (11 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **yn()** (11 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **kt()** (10 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **yh()** (10 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **af()** (9 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **at()** (9 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **ut()** (9 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **ct()** (8 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **it()** (8 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **mn()** (8 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **mo()** (8 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **on()** (8 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **da()** (7 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **F()** (7 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **kf()** (7 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **nn()** (7 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **Xt()** (7 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- *... and 26 more nodes in this community*
 
 ## Relationships
 
-- [[Master Codebase Architecture Reference]] (62 shared connections)
-- [[Community 49]] (16 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (13 shared connections)
-- [[Zoho Integration Architecture]] (10 shared connections)
-- [[Community 322]] (4 shared connections)
-- [[Community 91]] (1 shared connections)
+- [[Dealer Auth & Session Management]] (68 shared connections)
+- [[Oxlint Linter Configuration]] (22 shared connections)
+- [[Live Pricing Audit Tool]] (21 shared connections)
+- [[Community 42]] (16 shared connections)
+- [[Product Brand & Business Vision]] (14 shared connections)
+- [[Community 39]] (13 shared connections)
+- [[Community 31]] (9 shared connections)
+- [[Zoho Integration Skill]] (6 shared connections)
+- [[Community 125]] (5 shared connections)
 
 ## Source Files
 
-- `backend/src/config/env.js`
-- `backend/src/middleware/errorHandler.js`
-- `backend/src/middleware/rateLimit.js`
-- `backend/src/routes/auth.js`
-- `backend/src/routes/dealers.js`
-- `backend/src/services/crmClient.js`
-- `backend/src/services/dealerApp.js`
-- `backend/src/services/notifications.js`
-- `backend/src/utils/phone.js`
-- `backend/src/utils/validators.js`
-- `backend/test/interconnection.test.mjs`
-- `backend/test/validators.test.mjs`
+- `ios/App/App/public/assets/index-STbSaCMn.js`
 
 ## Audit Trail
 
-- EXTRACTED: 400 (100%)
+- EXTRACTED: 378 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

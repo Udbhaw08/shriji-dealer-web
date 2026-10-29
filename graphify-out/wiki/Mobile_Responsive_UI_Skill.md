@@ -1,15 +1,14 @@
 # Mobile Responsive UI Skill
 
-> 49 nodes · cohesion 0.11
+> 45 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **render-lifecycle.mjs** (81 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **render-sequence.mjs** (67 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
 - **esc()** (31 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
 - **escapeHtml()** (26 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
 - **animateAttr()** (16 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
 - **focusEdgeAttrs()** (15 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **labelPoint()** (15 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
 - **renderBrandMark()** (14 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
 - **renderNode()** (13 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
 - **renderState()** (13 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
@@ -22,27 +21,28 @@
 - **focusNodeTitle()** (12 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
 - **routePointsValue()** (12 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
 - **fittedNodeFontSize()** (12 connections) — `.agents/skills/archify/renderers/shared/text-fit.mjs`
-- **variantAccent()** (9 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **renderConnectionLabel()** (8 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **renderFlowLabel()** (8 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **renderTransitionLabel()** (8 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
 - **renderMessage()** (8 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
 - **brandMarkFor()** (7 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
 - **messageLabel()** (6 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- *... and 24 more nodes in this community*
+- **arrowClassMap** (6 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **renderConnectionPath()** (5 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **renderFlowPath()** (5 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **renderTransitionPath()** (5 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **componentFill** (5 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- *... and 20 more nodes in this community*
 
 ## Relationships
 
-- [[Dependencies & Package Config]] (45 shared connections)
-- [[Community 40]] (42 shared connections)
-- [[Community 41]] (35 shared connections)
-- [[Roles & Customer Sharing Spec]] (21 shared connections)
-- [[Community 81]] (14 shared connections)
-- [[Community 110]] (12 shared connections)
-- [[Pricing Regression Test Suite]] (11 shared connections)
-- [[Community 29]] (7 shared connections)
-- [[Community 59]] (5 shared connections)
-- [[Community 85]] (2 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (33 shared connections)
+- [[Community 47]] (29 shared connections)
+- [[Pricing Regression Test Suite]] (22 shared connections)
+- [[Community 54]] (21 shared connections)
+- [[Community 66]] (20 shared connections)
+- [[Community 85]] (15 shared connections)
+- [[Product Requirements Documentation]] (11 shared connections)
+- [[Vercel Deployment Routing]] (7 shared connections)
+- [[Community 63]] (5 shared connections)
+- [[Community 87]] (2 shared connections)
 
 ## Source Files
 
@@ -60,8 +60,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 406 (90%)
-- INFERRED: 44 (10%)
+- EXTRACTED: 350 (90%)
+- INFERRED: 39 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

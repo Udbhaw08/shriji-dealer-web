@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **validateContentType.js** (1 connections) — `backend/src/middleware/validateContentType.js`
-- **validateContentType()** (1 connections) — `backend/src/middleware/validateContentType.js`
+- **requestLogger.js** (1 connections) — `backend/src/middleware/requestLogger.js`
+- **requestLogger()** (1 connections) — `backend/src/middleware/requestLogger.js`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `backend/src/middleware/validateContentType.js`
+- `backend/src/middleware/requestLogger.js`
 
 ## Audit Trail
 

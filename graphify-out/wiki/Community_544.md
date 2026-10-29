@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **retryHelper.js** (1 connections) — `backend/src/utils/retryHelper.js`
-- **retryWithBackoff()** (1 connections) — `backend/src/utils/retryHelper.js`
+- **ipUtils.js** (1 connections) — `backend/src/utils/ipUtils.js`
+- **getClientIp()** (1 connections) — `backend/src/utils/ipUtils.js`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `backend/src/utils/retryHelper.js`
+- `backend/src/utils/ipUtils.js`
 
 ## Audit Trail
 

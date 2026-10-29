@@ -1,55 +1,56 @@
 # Price Presentation & Product UI
 
-> 71 nodes · cohesion 0.06
+> 70 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **zoho.js** (63 connections) — `api/_lib/zoho.js`
-- **fetchZohoProductById()** (20 connections) — `api/_lib/zoho.js`
-- **fetchZohoProducts()** (16 connections) — `api/_lib/zoho.js`
-- **audit_prices.mjs** (14 connections) — `scripts/audit_prices.mjs`
-- **syncProductDetailsPool()** (12 connections) — `api/_lib/zoho.js`
-- **getZohoConfig()** (11 connections) — `api/_lib/zoho.js`
-- **fetchZohoWithRetry()** (10 connections) — `api/_lib/zoho.js`
-- **createDealerContact()** (9 connections) — `api/_lib/zoho.js`
-- **fetchAllRawZohoProducts()** (7 connections) — `api/_lib/zoho.js`
-- **fetchZohoPricebookItems()** (7 connections) — `api/_lib/zoho.js`
-- **normalizeProduct()** (7 connections) — `api/_lib/zoho.js`
-- **syncRecentProductTags()** (7 connections) — `api/_lib/zoho.js`
-- **getAccessToken()** (6 connections) — `api/_lib/zoho.js`
-- **readTagCache()** (6 connections) — `api/_lib/zoho.js`
-- **resolvePricebookId()** (6 connections) — `api/_lib/zoho.js`
-- **fetchResolvedPricebookRates()** (5 connections) — `api/_lib/zoho.js`
-- **getCategoryVisibilityMap()** (5 connections) — `api/_lib/zoho.js`
-- **readProductDetailsDiskCache()** (5 connections) — `api/_lib/zoho.js`
-- **fetchZohoPricebooks()** (4 connections) — `api/_lib/zoho.js`
-- **fetchZohoRawCategories()** (4 connections) — `api/_lib/zoho.js`
-- **getDealerById()** (4 connections) — `api/_lib/zoho.js`
-- **loadEnv()** (4 connections) — `api/_lib/zoho.js`
-- **updateCachedProductTags()** (4 connections) — `api/_lib/zoho.js`
-- **writeProductDetailDiskCache()** (4 connections) — `api/_lib/zoho.js`
-- **sync-tags.js** (4 connections) — `api/products/sync-tags.js`
-- *... and 46 more nodes in this community*
+- **_()** (453 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **mc()** (8 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **request()** (7 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **eh()** (5 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **Le()** (5 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **Pc()** (5 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **Pd()** (5 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **qn()** (5 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **unavailable()** (5 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **Ae()** (4 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **ht()** (4 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **ke()** (4 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **removeWindowListener()** (4 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **ua()** (4 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **zn()** (4 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **Ad()** (3 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **addListener()** (3 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **addWindowListener()** (3 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **ch()** (3 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **Cu()** (3 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **Do()** (3 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **Fe()** (3 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **gs()** (3 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **op()** (3 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **Su()** (3 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- *... and 45 more nodes in this community*
 
 ## Relationships
 
-- [[Community 91]] (14 shared connections)
-- [[Oxlint Linter Configuration]] (12 shared connections)
-- [[Community 49]] (2 shared connections)
+- [[Master Codebase Architecture Reference]] (68 shared connections)
+- [[Design System & UI Tokens]] (64 shared connections)
+- [[Roles & Customer Sharing Spec]] (52 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (52 shared connections)
+- [[Pricing & Roles Skill]] (47 shared connections)
+- [[Graphify Workflow]] (43 shared connections)
+- [[Community 38]] (34 shared connections)
+- [[Community 67]] (27 shared connections)
+- [[Community 61]] (26 shared connections)
 
 ## Source Files
 
-- `api/_lib/zoho.js`
-- `api/dealer/apply.js`
-- `api/products/sync-tags.js`
-- `scripts/audit_prices.mjs`
-- `scripts/sync-product-details.mjs`
-- `scripts/test-zoho-api.mjs`
+- `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
 
 ## Audit Trail
 
-- EXTRACTED: 313 (100%)
-- INFERRED: 1 (0%)
+- EXTRACTED: 624 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

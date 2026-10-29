@@ -1,56 +1,55 @@
 # Community 42
 
-> 35 nodes · cohesion 0.10
+> 37 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **b()** (20 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
-- **.addEventListener()** (19 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
-- **fp()** (13 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
-- **h()** (13 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
-- **.removeEventListener()** (12 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
-- **ip()** (10 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
-- **tp()** (9 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
-- **cm()** (7 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
-- **v()** (7 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
-- **em()** (6 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
-- **.blur()** (6 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
-- **.scrollIntoView()** (6 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
-- **ln()** (6 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
-- **tm()** (6 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
-- **g()** (5 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
-- **me()** (5 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
-- **Rp()** (5 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
-- **uh()** (5 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
-- **Bp()** (4 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
-- **.getClientRects()** (4 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
-- **pe()** (4 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
-- **pm()** (4 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
-- **rn()** (4 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
-- **Vp()** (4 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
-- **xp()** (4 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
-- *... and 10 more nodes in this community*
+- **pl()** (24 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **zd()** (14 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **he()** (13 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **qd()** (13 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **Ii()** (12 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **Nd()** (12 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **ml()** (10 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **xe()** (10 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **Ce()** (9 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **Gd()** (8 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **hl()** (8 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **ko()** (8 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **lp()** (7 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **P()** (7 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **rt()** (7 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **vi()** (7 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **ia()** (6 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **Xd()** (6 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **Bd()** (5 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **hm()** (5 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **q()** (5 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **Rd()** (5 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **re()** (5 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **cl()** (4 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **ge()** (4 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- *... and 12 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (32 shared connections)
-- [[Product Requirements Documentation]] (14 shared connections)
-- [[Community 45]] (12 shared connections)
-- [[Zoho Integration Skill]] (8 shared connections)
-- [[Claude Agent Instructions]] (7 shared connections)
-- [[Community 97]] (6 shared connections)
-- [[Live Pricing Audit Tool]] (5 shared connections)
-- [[Community 87]] (2 shared connections)
-- [[Community 119]] (1 shared connections)
-- [[Vercel Deployment Routing]] (1 shared connections)
+- [[Dealer Auth & Session Management]] (44 shared connections)
+- [[Product Brand & Business Vision]] (19 shared connections)
+- [[Client Products Data Store]] (16 shared connections)
+- [[Live Pricing Audit Tool]] (11 shared connections)
+- [[Community 39]] (8 shared connections)
+- [[Oxlint Linter Configuration]] (7 shared connections)
+- [[Zoho Integration Skill]] (4 shared connections)
+- [[Community 125]] (1 shared connections)
+- [[Community 31]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-BjhAVtWq.js`
+- `ios/App/App/public/assets/index-STbSaCMn.js`
 
 ## Audit Trail
 
-- EXTRACTED: 212 (100%)
+- EXTRACTED: 247 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **accessibility.md** (1 connections) — `.agents/skills/swiftui-pro/references/accessibility.md`
-- **Accessibility** (1 connections) — `.agents/skills/swiftui-pro/references/accessibility.md`
+- **securityHeaders.js** (1 connections) — `backend/src/middleware/securityHeaders.js`
+- **securityHeaders()** (1 connections) — `backend/src/middleware/securityHeaders.js`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `.agents/skills/swiftui-pro/references/accessibility.md`
+- `backend/src/middleware/securityHeaders.js`
 
 ## Audit Trail
 

@@ -95,24 +95,22 @@ export async function getDealerPricingEligibility(req) {
     // Local JWT verification threw (e.g. secret mismatch)
   }
 
-  // Tier 2: Render Backend Fallback (/api/auth/me)
+  // Tier 2: Remote Backend Fallback (/api/auth/me) if configured
   if (!result.eligible) {
     try {
-      const backendUrl =
-        process.env.VITE_AUTH_API_URL ||
-        process.env.BACKEND_URL ||
-        "https://shriji-dealer-web.onrender.com";
-      const backendRes = await fetch(`${backendUrl}/api/auth/me`, {
-        headers: { Authorization: `Bearer ${token}` },
-        signal: AbortSignal.timeout(3500),
-      });
+      const backendUrl = (process.env.VITE_AUTH_API_URL || process.env.BACKEND_URL || "").trim();
+      if (backendUrl && !backendUrl.includes("onrender.com")) {
+        const backendRes = await fetch(`${backendUrl}/api/auth/me`, {
+          headers: { Authorization: `Bearer ${token}` },
+          signal: AbortSignal.timeout(3500),
+        });
 
-      if (backendRes.ok) {
-        const data = await backendRes.json();
-        const user = data?.user;
-        const dealer = data?.dealer;
+        if (backendRes.ok) {
+          const data = await backendRes.json();
+          const user = data?.user;
+          const dealer = data?.dealer;
 
-        if (user && user.status === "active") {
+          if (user && user.status === "active") {
           if (user.role === "admin") {
             result = { eligible: true, pricebookId: DEFAULT_DEALER_PRICEBOOK_ID };
           } else if (
@@ -125,6 +123,7 @@ export async function getDealerPricingEligibility(req) {
               eligible: true,
               pricebookId: dealer.pricebook_id || dealer.price_tier || DEFAULT_DEALER_PRICEBOOK_ID,
             };
+          }
           }
         }
       }

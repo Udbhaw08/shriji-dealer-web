@@ -1,34 +1,31 @@
 # Community 215
 
-> 9 nodes · cohesion 0.39
+> 10 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **ProductSearchBar.jsx** (15 connections) — `src/components/ProductSearchBar.jsx`
-- **searchHelper.js** (11 connections) — `src/data/searchHelper.js`
-- **getSuggestions()** (5 connections) — `src/data/searchHelper.js`
-- **autocorrectQuery()** (4 connections) — `src/data/searchHelper.js`
-- **buildSearchDictionary()** (4 connections) — `src/data/searchHelper.js`
-- **getPopularSearches()** (2 connections) — `src/data/searchHelper.js`
-- **scoreProduct()** (2 connections) — `src/data/searchHelper.js`
-- **COLLOQUIAL_SYNONYMS** (1 connections) — `src/data/searchHelper.js`
-- **levenshteinDistance()** (1 connections) — `src/data/searchHelper.js`
+- **whatsappOtp.test.mjs** (9 connections) — `backend/test/whatsappOtp.test.mjs`
+- **resetConfig()** (2 connections) — `backend/test/whatsappOtp.test.mjs`
+- **resetDb()** (2 connections) — `backend/test/whatsappOtp.test.mjs`
+- **app** (1 connections) — `backend/test/whatsappOtp.test.mjs`
+- **db** (1 connections) — `backend/test/whatsappOtp.test.mjs`
+- **logEntries** (1 connections) — `backend/test/whatsappOtp.test.mjs`
+- **mockSql()** (1 connections) — `backend/test/whatsappOtp.test.mjs`
+- **startServer()** (1 connections) — `backend/test/whatsappOtp.test.mjs`
+- **stopServer()** (1 connections) — `backend/test/whatsappOtp.test.mjs`
+- **testEnv** (1 connections) — `backend/test/whatsappOtp.test.mjs`
 
 ## Relationships
 
-- [[Product Pages Specification]] (12 shared connections)
-- [[Community 48]] (3 shared connections)
-- [[Community 170]] (1 shared connections)
-- [[Community 93]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `src/components/ProductSearchBar.jsx`
-- `src/data/searchHelper.js`
+- `backend/test/whatsappOtp.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 45 (100%)
+- EXTRACTED: 20 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -4,14 +4,14 @@
 
 ## Key Concepts
 
-- **Onboarding** (7 connections) — `.agents/skills/apple-design/references/hig/onboarding.md`
-- **onboarding.md** (1 connections) — `.agents/skills/apple-design/references/hig/onboarding.md`
-- **Additional content** (1 connections) — `.agents/skills/apple-design/references/hig/onboarding.md`
-- **Additional requests** (1 connections) — `.agents/skills/apple-design/references/hig/onboarding.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/onboarding.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/onboarding.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/onboarding.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/onboarding.md`
+- **Keyboards** (7 connections) — `.agents/skills/apple-design/references/hig/keyboards.md`
+- **keyboards.md** (1 connections) — `.agents/skills/apple-design/references/hig/keyboards.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/keyboards.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/keyboards.md`
+- **Custom keyboard shortcuts** (1 connections) — `.agents/skills/apple-design/references/hig/keyboards.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/keyboards.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/keyboards.md`
+- **Standard keyboard shortcuts** (1 connections) — `.agents/skills/apple-design/references/hig/keyboards.md`
 
 ## Relationships
 
@@ -19,7 +19,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/onboarding.md`
+- `.agents/skills/apple-design/references/hig/keyboards.md`
 
 ## Audit Trail
 

@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **XSS Prevention & Content Sanitization Guidelines** (2 connections) — `docs/security/xss-and-content-sanitization.md`
-- **xss-and-content-sanitization.md** (1 connections) — `docs/security/xss-and-content-sanitization.md`
-- **Guidelines** (1 connections) — `docs/security/xss-and-content-sanitization.md`
+- **Payment Data Isolation & Compliance Notes** (2 connections) — `docs/security/pci-dss-compliance-notes.md`
+- **pci-dss-compliance-notes.md** (1 connections) — `docs/security/pci-dss-compliance-notes.md`
+- **Architecture** (1 connections) — `docs/security/pci-dss-compliance-notes.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/security/xss-and-content-sanitization.md`
+- `docs/security/pci-dss-compliance-notes.md`
 
 ## Audit Trail
 

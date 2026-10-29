@@ -4,15 +4,15 @@
 
 ## Key Concepts
 
-- **Primary Commands** (5 connections) — `.agents/skills/graphify/SKILL.md`
-- **Graphify Knowledge Graph Skill** (4 connections) — `.agents/skills/graphify/SKILL.md`
-- **SKILL.md** (1 connections) — `.agents/skills/graphify/SKILL.md`
-- **1. Query the Graph (Context-Efficient)** (1 connections) — `.agents/skills/graphify/SKILL.md`
-- **2. Trace Relationships (Shortest Path)** (1 connections) — `.agents/skills/graphify/SKILL.md`
-- **3. Explain a Node or Symbol** (1 connections) — `.agents/skills/graphify/SKILL.md`
-- **4. Update the Graph (AST Re-Extraction)** (1 connections) — `.agents/skills/graphify/SKILL.md`
-- **Key Output Artifacts in `graphify-out/`** (1 connections) — `.agents/skills/graphify/SKILL.md`
-- **Why Use Graphify** (1 connections) — `.agents/skills/graphify/SKILL.md`
+- **web-v8geNgiP.js** (8 connections) — `android/app/src/main/assets/public/assets/web-v8geNgiP.js`
+- **constructor()** (1 connections) — `android/app/src/main/assets/public/assets/web-v8geNgiP.js`
+- **exitApp()** (1 connections) — `android/app/src/main/assets/public/assets/web-v8geNgiP.js`
+- **getAppLanguage()** (1 connections) — `android/app/src/main/assets/public/assets/web-v8geNgiP.js`
+- **getInfo()** (1 connections) — `android/app/src/main/assets/public/assets/web-v8geNgiP.js`
+- **getLaunchUrl()** (1 connections) — `android/app/src/main/assets/public/assets/web-v8geNgiP.js`
+- **getState()** (1 connections) — `android/app/src/main/assets/public/assets/web-v8geNgiP.js`
+- **minimizeApp()** (1 connections) — `android/app/src/main/assets/public/assets/web-v8geNgiP.js`
+- **toggleBackButtonHandler()** (1 connections) — `android/app/src/main/assets/public/assets/web-v8geNgiP.js`
 
 ## Relationships
 
@@ -20,7 +20,7 @@
 
 ## Source Files
 
-- `.agents/skills/graphify/SKILL.md`
+- `android/app/src/main/assets/public/assets/web-v8geNgiP.js`
 
 ## Audit Trail
 

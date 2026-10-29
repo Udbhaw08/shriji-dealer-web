@@ -1,31 +1,29 @@
 # Community 276
 
-> 8 nodes · cohesion 0.29
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **isDroppedPlatformText()** (5 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **headingLine()** (4 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **relabelHeading()** (4 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **isDroppedBoilerplate()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **platformsMentioned()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **reduceHeading()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **isDroppedPlatformLabel()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **platformGroupLabel()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **Code audit** (5 connections) — `.agents/skills/apple-design/references/code-audit.md`
+- **Apple Pay and payment marks** (3 connections) — `.agents/skills/apple-design/references/code-audit.md`
+- **code-audit.md** (1 connections) — `.agents/skills/apple-design/references/code-audit.md`
+- **How to run it** (1 connections) — `.agents/skills/apple-design/references/code-audit.md`
+- **iPhone Duo readiness in code** (1 connections) — `.agents/skills/apple-design/references/code-audit.md`
+- **Liquid Glass in code** (1 connections) — `.agents/skills/apple-design/references/code-audit.md`
+- **What replaces it** (1 connections) — `.agents/skills/apple-design/references/code-audit.md`
+- **What to search for** (1 connections) — `.agents/skills/apple-design/references/code-audit.md`
 
 ## Relationships
 
-- [[Community 74]] (8 shared connections)
-- [[Community 206]] (1 shared connections)
-- [[Community 205]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- `.agents/skills/apple-design/references/code-audit.md`
 
 ## Audit Trail
 
-- EXTRACTED: 26 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

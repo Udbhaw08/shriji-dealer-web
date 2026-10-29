@@ -4,14 +4,14 @@
 
 ## Key Concepts
 
-- **Sidebars** (5 connections) — `.agents/skills/apple-design/references/hig/sidebars.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/sidebars.md`
-- **sidebars.md** (1 connections) — `.agents/skills/apple-design/references/hig/sidebars.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/sidebars.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/sidebars.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/sidebars.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/sidebars.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/sidebars.md`
+- **Onboarding** (7 connections) — `.agents/skills/apple-design/references/hig/onboarding.md`
+- **onboarding.md** (1 connections) — `.agents/skills/apple-design/references/hig/onboarding.md`
+- **Additional content** (1 connections) — `.agents/skills/apple-design/references/hig/onboarding.md`
+- **Additional requests** (1 connections) — `.agents/skills/apple-design/references/hig/onboarding.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/onboarding.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/onboarding.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/onboarding.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/onboarding.md`
 
 ## Relationships
 
@@ -19,7 +19,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/sidebars.md`
+- `.agents/skills/apple-design/references/hig/onboarding.md`
 
 ## Audit Trail
 

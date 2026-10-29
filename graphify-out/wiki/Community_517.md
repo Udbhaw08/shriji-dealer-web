@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **requestLogger.js** (1 connections) — `backend/src/middleware/requestLogger.js`
-- **requestLogger()** (1 connections) — `backend/src/middleware/requestLogger.js`
+- **esm-DspLJKFy.js** (1 connections) — `ios/App/App/public/assets/esm-DspLJKFy.js`
+- **__vite__mapDeps()** (1 connections) — `ios/App/App/public/assets/esm-DspLJKFy.js`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `backend/src/middleware/requestLogger.js`
+- `ios/App/App/public/assets/esm-DspLJKFy.js`
 
 ## Audit Trail
 

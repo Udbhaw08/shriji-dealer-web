@@ -1,7 +1,7 @@
 # CODEBASE.md — Project Architecture & Feature Guide
 
 > **Auto-generated documentation**
-> Last synchronized: 2026-10-30T00:12:59.389+05:30 (GMT+5:30)
+> Last synchronized: 2026-10-30T01:09:02.689+05:30 (GMT+5:30)
 > Total Project Files: 2172
 
 ---
@@ -100,7 +100,7 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 - **`src/pages/Home.jsx`** (21.8 KB)
 - **`src/pages/LegalPrivacy.jsx`** (5.8 KB)
 - **`src/pages/LegalTerms.jsx`** (4.2 KB)
-- **`src/pages/Login.jsx`** (83.6 KB)
+- **`src/pages/Login.jsx`** (83.8 KB)
 - **`src/pages/PrivacyPolicy.jsx`** (0.0 KB)
 - **`src/pages/Product.jsx`** (38.5 KB)
 - **`src/pages/Products.jsx`** (36.7 KB)
@@ -132,7 +132,7 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 ### 4.3 State & Business Logic (`src/data/`)
 - **`src/data/api.js`** (2.5 KB)
 - **`src/data/auth-session.test.mjs`** (7.0 KB)
-- **`src/data/auth.js`** (19.0 KB)
+- **`src/data/auth.js`** (19.7 KB)
 - **`src/data/dealer.js`** (9.2 KB)
 - **`src/data/dealer.test.mjs`** (4.3 KB)
 - **`src/data/favoritesStore.js`** (2.3 KB)
@@ -155,11 +155,11 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 
 ### 4.4 Zoho API & Serverless Handlers (`api/`)
 - **`api/admin/login.js`** (2.5 KB)
-- **`api/auth/[...path].js`** (0.4 KB)
+- **`api/auth/[...path].js`** (1.2 KB)
 - **`api/content.js`** (6.6 KB)
 - **`api/dealer/apply.js`** (1.0 KB)
 - **`api/dealer/info.js`** (1.9 KB)
-- **`api/dealers/[...path].js`** (0.3 KB)
+- **`api/dealers/[...path].js`** (1.2 KB)
 - **`api/download.js`** (8.3 KB)
 - **`api/og.js`** (5.1 KB)
 - **`api/products/index.js`** (2.7 KB)
@@ -185,7 +185,7 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 - **`scripts/test-supabase.mjs`** (0.6 KB)
 - **`scripts/test-zoho-api.mjs`** (1.4 KB)
 - **`scripts/verify-all.mjs`** (0.3 KB)
-- **`scripts/verify-no-secrets.mjs`** (2.6 KB)
+- **`scripts/verify-no-secrets.mjs`** (2.7 KB)
 - **`scripts/watch-sync.mjs`** (1.4 KB)
 
 ---

@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **toSide** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **fromSide** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
 - **$ref** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
 
 ## Relationships
 
-- [[Community 30]] (1 shared connections)
+- [[Graphify Agent Rules]] (1 shared connections)
 
 ## Source Files
 

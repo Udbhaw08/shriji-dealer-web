@@ -4,26 +4,26 @@
 
 ## Key Concepts
 
-- **wraps** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **via** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **$ref** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **items** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **items** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **minItems** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **Text fields** (5 connections) — `.agents/skills/apple-design/references/hig/text-fields.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/text-fields.md`
+- **text-fields.md** (1 connections) — `.agents/skills/apple-design/references/hig/text-fields.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/text-fields.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/text-fields.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/text-fields.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/text-fields.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/text-fields.md`
 
 ## Relationships
 
-- [[Zoho API Diagnostic Script]] (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/architecture.schema.json`
+- `.agents/skills/apple-design/references/hig/text-fields.md`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

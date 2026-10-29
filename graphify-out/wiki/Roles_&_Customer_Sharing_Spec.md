@@ -1,60 +1,55 @@
 # Roles & Customer Sharing Spec
 
-> 51 nodes · cohesion 0.06
+> 49 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **render-architecture.mjs** (122 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **renderLegend()** (7 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **grid.mjs** (6 connections) — `.agents/skills/archify/renderers/architecture/grid.mjs`
-- **alignFacingPorts()** (6 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **buildLayoutReport()** (6 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **layoutBoundaryTitles()** (5 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **sideAwareBridgeCandidates()** (5 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **relationshipLegendObstacles()** (5 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
-- **resolveComponentPos()** (4 connections) — `.agents/skills/archify/renderers/architecture/grid.mjs`
-- **validateGridPlacement()** (4 connections) — `.agents/skills/archify/renderers/architecture/grid.mjs`
-- **boundaryLabelWidth()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **measureBoundaryTitle()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **resolveBoundaryTitles()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **routeClearsComponents()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **routeClearsEndpointComponents()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **minimumReadableSourceTextPx()** (4 connections) — `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
-- **layout-report.mjs** (4 connections) — `.agents/skills/archify/renderers/shared/layout-report.mjs`
-- **grid.test.mjs** (4 connections) — `.agents/skills/archify/test/grid.test.mjs`
-- **gridLayout()** (3 connections) — `.agents/skills/archify/renderers/architecture/grid.mjs`
-- **autoViewBoxFor()** (3 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **expandBoundaryForReadableTitle()** (3 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **resolvedViewBoxWidth()** (3 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **connectionPath()** (3 connections) — `.agents/skills/archify/renderers/shared/layout-report.mjs`
-- **connectionEndpointSide()** (2 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **legendY()** (2 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- *... and 26 more nodes in this community*
+- **Md()** (15 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **tc()** (15 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **xi()** (13 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **rc()** (12 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **kt()** (10 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **yh()** (10 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **hh()** (9 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **kd()** (9 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **c()** (8 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **ic()** (8 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **lo()** (8 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **ec()** (7 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **Id()** (7 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **mh()** (7 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **vs()** (7 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **bi()** (6 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **dh()** (6 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **fh()** (6 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **gn()** (6 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **Ih()** (6 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **ph()** (6 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **sc()** (6 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **Sh()** (6 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **bh()** (5 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **co()** (5 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- *... and 24 more nodes in this community*
 
 ## Relationships
 
-- [[Dependencies & Package Config]] (35 shared connections)
-- [[Mobile Responsive UI Skill]] (21 shared connections)
-- [[Community 40]] (19 shared connections)
-- [[Community 41]] (14 shared connections)
-- [[Pricing Regression Test Suite]] (5 shared connections)
-- [[Community 110]] (4 shared connections)
-- [[Community 50]] (3 shared connections)
-- [[Community 29]] (1 shared connections)
-- [[Community 81]] (1 shared connections)
+- [[Price Presentation & Product UI]] (52 shared connections)
+- [[Master Codebase Architecture Reference]] (23 shared connections)
+- [[Design System & UI Tokens]] (18 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (16 shared connections)
+- [[Graphify Workflow]] (6 shared connections)
+- [[Pricing & Roles Skill]] (5 shared connections)
+- [[Community 38]] (5 shared connections)
+- [[Community 67]] (5 shared connections)
+- [[Community 61]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/architecture/grid.mjs`
-- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
-- `.agents/skills/archify/renderers/shared/layout-report.mjs`
-- `.agents/skills/archify/renderers/shared/legend.mjs`
-- `.agents/skills/archify/test/grid.test.mjs`
+- `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
 
 ## Audit Trail
 
-- EXTRACTED: 253 (100%)
+- EXTRACTED: 297 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **formatters.js** (2 connections) — `src/utils/formatters.js`
-- **formatCurrencyINR()** (1 connections) — `src/utils/formatters.js`
-- **formatPhoneNumber()** (1 connections) — `src/utils/formatters.js`
+- **cryptoUtils.js** (2 connections) — `backend/src/utils/cryptoUtils.js`
+- **generateSecureOtp()** (1 connections) — `backend/src/utils/cryptoUtils.js`
+- **generateSecureToken()** (1 connections) — `backend/src/utils/cryptoUtils.js`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `src/utils/formatters.js`
+- `backend/src/utils/cryptoUtils.js`
 
 ## Audit Trail
 

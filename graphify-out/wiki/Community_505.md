@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **storage.js** (2 connections) — `src/utils/storage.js`
-- **memoryStore** (1 connections) — `src/utils/storage.js`
-- **safeStorage** (1 connections) — `src/utils/storage.js`
+- **objectUtils.js** (2 connections) — `src/utils/objectUtils.js`
+- **omit()** (1 connections) — `src/utils/objectUtils.js`
+- **pick()** (1 connections) — `src/utils/objectUtils.js`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `src/utils/storage.js`
+- `src/utils/objectUtils.js`
 
 ## Audit Trail
 

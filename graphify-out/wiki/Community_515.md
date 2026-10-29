@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **esm-D5yR2fOV.js** (1 connections) — `ios/App/App/public/assets/esm-D5yR2fOV.js`
-- **__vite__mapDeps()** (1 connections) — `ios/App/App/public/assets/esm-D5yR2fOV.js`
+- **SkipToContent.jsx** (1 connections) — `src/components/SkipToContent.jsx`
+- **SkipToContent()** (1 connections) — `src/components/SkipToContent.jsx`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `ios/App/App/public/assets/esm-D5yR2fOV.js`
+- `src/components/SkipToContent.jsx`
 
 ## Audit Trail
 

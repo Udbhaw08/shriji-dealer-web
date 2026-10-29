@@ -1,29 +1,28 @@
 # Community 322
 
-> 7 nodes · cohesion 0.38
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **reset-test-users.js** (11 connections) — `backend/scripts/reset-test-users.js`
-- **runReset()** (5 connections) — `backend/scripts/reset-test-users.js`
-- **deleteCrmRecords()** (2 connections) — `backend/scripts/reset-test-users.js`
-- **searchCrmRecordIds()** (2 connections) — `backend/scripts/reset-test-users.js`
-- **args** (1 connections) — `backend/scripts/reset-test-users.js`
-- **customNumbers** (1 connections) — `backend/scripts/reset-test-users.js`
-- **isDryRun** (1 connections) — `backend/scripts/reset-test-users.js`
+- **Visual Workflow** (6 connections) — `.agents/skills/refero-design/references/visual-workflow.md`
+- **visual-workflow.md** (1 connections) — `.agents/skills/refero-design/references/visual-workflow.md`
+- **Generated Assets** (1 connections) — `.agents/skills/refero-design/references/visual-workflow.md`
+- **Image Generation Capability** (1 connections) — `.agents/skills/refero-design/references/visual-workflow.md`
+- **Three Visual Directions** (1 connections) — `.agents/skills/refero-design/references/visual-workflow.md`
+- **Visual QA** (1 connections) — `.agents/skills/refero-design/references/visual-workflow.md`
+- **Visual Target Gate** (1 connections) — `.agents/skills/refero-design/references/visual-workflow.md`
 
 ## Relationships
 
-- [[Client Products Data Store]] (4 shared connections)
-- [[Master Codebase Architecture Reference]] (3 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `backend/scripts/reset-test-users.js`
+- `.agents/skills/refero-design/references/visual-workflow.md`
 
 ## Audit Trail
 
-- EXTRACTED: 23 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

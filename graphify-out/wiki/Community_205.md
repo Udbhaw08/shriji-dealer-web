@@ -1,34 +1,32 @@
 # Community 205
 
-> 10 nodes · cohesion 0.24
+> 10 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **renderInline()** (6 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **renderInlineNode()** (6 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **renderHigLink()** (4 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **renderLink()** (4 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **renderParagraph()** (4 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **renderImage()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **renderReference()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **imageLabel()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **resolveAnchor()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **wrapInline()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **items** (5 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **lanes** (5 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **additionalProperties** (3 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **required** (3 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **type** (3 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **maxItems** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **minItems** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
 
 ## Relationships
 
-- [[Community 74]] (10 shared connections)
-- [[Community 206]] (2 shared connections)
-- [[Community 240]] (1 shared connections)
-- [[Community 276]] (1 shared connections)
+- [[Graphify Agent Rules]] (3 shared connections)
+- [[Community 119]] (3 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- `.agents/skills/archify/schemas/lifecycle.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 36 (100%)
+- EXTRACTED: 32 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,8 +1,8 @@
 # i()
 
-> God node · 66 connections · `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
+> God node · 66 connections · `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
 
-**Community:** [[Agent Guidelines (AGENTS.md)]]
+**Community:** [[Pricing Hierarchy & Zero-Leakage Spec]]
 
 ## Connections by Relation
 
@@ -18,14 +18,14 @@
 - [[Eu()]] `EXTRACTED`
 - [[tc()]] `EXTRACTED`
 - [[xc()]] `EXTRACTED`
-- [[Ka()]] `EXTRACTED`
-- [[Lc()]] `EXTRACTED`
 - [[qd()]] `EXTRACTED`
 - [[r()]] `EXTRACTED`
-- [[aa()]] `EXTRACTED`
 - [[bm()]] `EXTRACTED`
+- [[Lc()]] `EXTRACTED`
 - [[Nd()]] `EXTRACTED`
 - [[rc()]] `EXTRACTED`
+- [[ks()]] `EXTRACTED`
+- [[na()]] `EXTRACTED`
 - [[rl()]] `EXTRACTED`
 
 ### contains

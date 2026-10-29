@@ -1,45 +1,53 @@
 # Community 67
 
-> 24 nodes · cohesion 0.08
+> 24 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **Refero Design** (13 connections) — `.agents/skills/refero-design/SKILL.md`
-- **Tool Routing** (5 connections) — `.agents/skills/refero-design/SKILL.md`
-- **Research Workflow** (4 connections) — `.agents/skills/refero-design/SKILL.md`
-- **Synthesis** (4 connections) — `.agents/skills/refero-design/SKILL.md`
-- **SKILL.md** (1 connections) — `.agents/skills/refero-design/SKILL.md`
-- **1. Research Visual Direction With Styles** (1 connections) — `.agents/skills/refero-design/SKILL.md`
-- **2. Research Screens For Product Details** (1 connections) — `.agents/skills/refero-design/SKILL.md`
-- **3. Research Flows For Journey Logic** (1 connections) — `.agents/skills/refero-design/SKILL.md`
-- **Design Craft** (1 connections) — `.agents/skills/refero-design/SKILL.md`
-- **Discovery** (1 connections) — `.agents/skills/refero-design/SKILL.md`
-- **Example** (1 connections) — `.agents/skills/refero-design/SKILL.md`
-- **Journey Logic** (1 connections) — `.agents/skills/refero-design/SKILL.md`
-- **MCP Setup** (1 connections) — `.agents/skills/refero-design/SKILL.md`
-- **Non-Negotiables** (1 connections) — `.agents/skills/refero-design/SKILL.md`
-- **Present Findings** (1 connections) — `.agents/skills/refero-design/SKILL.md`
-- **Product Pattern** (1 connections) — `.agents/skills/refero-design/SKILL.md`
-- **Quality Gate** (1 connections) — `.agents/skills/refero-design/SKILL.md`
-- **Research Depth** (1 connections) — `.agents/skills/refero-design/SKILL.md`
-- **Use Flows For Journeys** (1 connections) — `.agents/skills/refero-design/SKILL.md`
-- **Use Screens For Concrete UI Patterns** (1 connections) — `.agents/skills/refero-design/SKILL.md`
-- **Use Styles First For Visual Work** (1 connections) — `.agents/skills/refero-design/SKILL.md`
-- **Use Visual Workflow For Images And QA** (1 connections) — `.agents/skills/refero-design/SKILL.md`
-- **Visual Direction** (1 connections) — `.agents/skills/refero-design/SKILL.md`
-- **Workflow Routing** (1 connections) — `.agents/skills/refero-design/SKILL.md`
+- **get()** (27 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **D()** (23 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **np()** (21 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **bm()** (12 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **am()** (10 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **ep()** (10 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **mm()** (9 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **jm()** (7 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **jt()** (7 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **pn()** (7 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **un()** (7 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **Yt()** (7 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **zm()** (7 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **nm()** (6 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **om()** (6 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **an()** (5 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **en()** (5 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **qm()** (5 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **ra()** (5 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **km()** (4 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **pf()** (4 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **Um()** (4 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **vn()** (4 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **Vm()** (3 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Price Presentation & Product UI]] (27 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (15 shared connections)
+- [[Master Codebase Architecture Reference]] (15 shared connections)
+- [[Design System & UI Tokens]] (14 shared connections)
+- [[Community 38]] (13 shared connections)
+- [[Pricing & Roles Skill]] (11 shared connections)
+- [[Roles & Customer Sharing Spec]] (5 shared connections)
+- [[Graphify Workflow]] (4 shared connections)
+- [[Community 61]] (3 shared connections)
 
 ## Source Files
 
-- `.agents/skills/refero-design/SKILL.md`
+- `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
 
 ## Audit Trail
 
-- EXTRACTED: 46 (100%)
+- EXTRACTED: 205 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

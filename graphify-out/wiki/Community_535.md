@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **a11y.js** (1 connections) — `src/utils/a11y.js`
-- **trapFocus()** (1 connections) — `src/utils/a11y.js`
+- **checkout-line-endings.test.mjs** (1 connections) — `.agents/skills/archify/test/checkout-line-endings.test.mjs`
+- **repoRoot** (1 connections) — `.agents/skills/archify/test/checkout-line-endings.test.mjs`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `src/utils/a11y.js`
+- `.agents/skills/archify/test/checkout-line-endings.test.mjs`
 
 ## Audit Trail
 

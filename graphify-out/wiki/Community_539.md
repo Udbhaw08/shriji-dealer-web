@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **colorUtils.js** (1 connections) — `src/utils/colorUtils.js`
-- **hexToRgba()** (1 connections) — `src/utils/colorUtils.js`
+- **asyncHandler.js** (1 connections) — `backend/src/utils/asyncHandler.js`
+- **asyncHandler()** (1 connections) — `backend/src/utils/asyncHandler.js`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `src/utils/colorUtils.js`
+- `backend/src/utils/asyncHandler.js`
 
 ## Audit Trail
 

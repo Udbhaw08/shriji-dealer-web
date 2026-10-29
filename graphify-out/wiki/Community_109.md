@@ -1,48 +1,38 @@
 # Community 109
 
-> 17 nodes · cohesion 0.18
+> 17 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **r()** (13 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **s()** (11 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **hh()** (9 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **kd()** (9 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **c()** (8 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **Mp()** (7 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **vs()** (7 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **fh()** (6 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **Sh()** (6 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **xs()** (5 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **vh()** (4 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **Yd()** (4 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **ys()** (4 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **bs()** (3 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **gt()** (3 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **nc()** (3 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **zh()** (2 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
+- **pricing.test.mjs** (19 connections) — `src/data/pricing.test.mjs`
+- **crystal** (1 connections) — `src/data/pricing.test.mjs`
+- **crystalDealer** (1 connections) — `src/data/pricing.test.mjs`
+- **crystalGuest** (1 connections) — `src/data/pricing.test.mjs`
+- **genericDealer** (1 connections) — `src/data/pricing.test.mjs`
+- **genericGuest** (1 connections) — `src/data/pricing.test.mjs`
+- **genericItem** (1 connections) — `src/data/pricing.test.mjs`
+- **kettle** (1 connections) — `src/data/pricing.test.mjs`
+- **kettleDealer** (1 connections) — `src/data/pricing.test.mjs`
+- **kettleGuest** (1 connections) — `src/data/pricing.test.mjs`
+- **tcjDealer** (1 connections) — `src/data/pricing.test.mjs`
+- **tcjGuest** (1 connections) — `src/data/pricing.test.mjs`
+- **tripleCookJumbo** (1 connections) — `src/data/pricing.test.mjs`
+- **vernaGuest** (1 connections) — `src/data/pricing.test.mjs`
+- **vernaPlus** (1 connections) — `src/data/pricing.test.mjs`
+- **zeroItem** (1 connections) — `src/data/pricing.test.mjs`
+- **zeroPricedResult** (1 connections) — `src/data/pricing.test.mjs`
 
 ## Relationships
 
-- [[Zoho Backend & Proxy Endpoints]] (18 shared connections)
-- [[Agent Guidelines (AGENTS.md)]] (10 shared connections)
-- [[Graphify Knowledge Graph Skill]] (7 shared connections)
-- [[Community 83]] (5 shared connections)
-- [[Design System & UI Tokens]] (4 shared connections)
-- [[Product Brand & Business Vision]] (4 shared connections)
-- [[Community 82]] (2 shared connections)
-- [[Community 43]] (2 shared connections)
-- [[Testing & Workflow Skill]] (2 shared connections)
-- [[Community 62]] (1 shared connections)
-- [[Community 63]] (1 shared connections)
+- [[Community 44]] (3 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
+- `src/data/pricing.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 104 (100%)
+- EXTRACTED: 35 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

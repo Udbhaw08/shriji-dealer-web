@@ -1,13 +1,13 @@
 # Community 430
 
-> 4 nodes · cohesion 0.50
+> 4 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **watch-sync.mjs** (3 connections) — `scripts/watch-sync.mjs`
-- **rootDir** (1 connections) — `scripts/watch-sync.mjs`
-- **srcDir** (1 connections) — `scripts/watch-sync.mjs`
-- **triggerSync()** (1 connections) — `scripts/watch-sync.mjs`
+- **capture-dealer-workspace.mjs** (3 connections) — `scripts/capture-dealer-workspace.mjs`
+- **call()** (2 connections) — `scripts/capture-dealer-workspace.mjs`
+- **run()** (2 connections) — `scripts/capture-dealer-workspace.mjs`
+- **chrome** (1 connections) — `scripts/capture-dealer-workspace.mjs`
 
 ## Relationships
 
@@ -15,11 +15,11 @@
 
 ## Source Files
 
-- `scripts/watch-sync.mjs`
+- `scripts/capture-dealer-workspace.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

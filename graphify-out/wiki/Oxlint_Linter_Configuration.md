@@ -1,61 +1,56 @@
 # Oxlint Linter Configuration
 
-> 47 nodes · cohesion 0.09
+> 45 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **vite.config.js** (20 connections) — `vite.config.js`
-- **content.js** (19 connections) — `backend/src/services/content.js`
-- **content.js** (17 connections) — `backend/src/routes/content.js`
-- **securityPhase1.test.mjs** (16 connections) — `backend/test/securityPhase1.test.mjs`
-- **content.js** (14 connections) — `api/content.js`
-- **zohoApiPlugin()** (12 connections) — `vite.config.js`
-- **handler()** (11 connections) — `api/content.js`
-- **upload.js** (9 connections) — `api/upload.js`
-- **verifyAdminAuth()** (9 connections) — `api/_lib/adminAuth.js`
-- **getSupabaseBanners()** (9 connections) — `backend/src/services/content.js`
-- **getSupabaseSchemes()** (8 connections) — `backend/src/services/content.js`
-- **getSupabaseBranding()** (7 connections) — `backend/src/services/content.js`
-- **download.js** (6 connections) — `api/download.js`
-- **adminAuth.js** (6 connections) — `api/_lib/adminAuth.js`
-- **getActiveContent()** (6 connections) — `backend/src/services/content.js`
-- **getHeroSliderSettings()** (6 connections) — `backend/src/services/content.js`
-- **handler()** (5 connections) — `api/download.js`
-- **ssrf.js** (5 connections) — `api/_lib/ssrf.js`
-- **validateSafeDownloadUrl()** (5 connections) — `api/_lib/ssrf.js`
-- **saveHeroSliderSettings()** (5 connections) — `backend/src/services/content.js`
-- **handler()** (4 connections) — `api/upload.js`
-- **deleteStoreContent()** (4 connections) — `backend/src/services/content.js`
-- **getAllStoreContent()** (4 connections) — `backend/src/services/content.js`
-- **toggleStoreContentActive()** (4 connections) — `backend/src/services/content.js`
-- **upsertStoreContent()** (4 connections) — `backend/src/services/content.js`
-- *... and 22 more nodes in this community*
+- **get()** (27 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **D()** (23 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **np()** (21 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **.addEventListener()** (19 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **Eu()** (16 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **bm()** (12 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **.removeEventListener()** (12 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **am()** (10 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **ep()** (10 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **ip()** (10 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **mm()** (9 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **tp()** (9 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **cm()** (7 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **jm()** (7 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **jt()** (7 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **pn()** (7 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **un()** (7 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **Yt()** (7 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **zm()** (7 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **em()** (6 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **gn()** (6 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **ln()** (6 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **nm()** (6 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **om()** (6 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **tm()** (6 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- *... and 20 more nodes in this community*
 
 ## Relationships
 
-- [[Master Codebase Architecture Reference]] (16 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (12 shared connections)
-- [[Price Presentation & Product UI]] (12 shared connections)
-- [[Community 91]] (7 shared connections)
+- [[Dealer Auth & Session Management]] (51 shared connections)
+- [[Client Products Data Store]] (22 shared connections)
+- [[Community 39]] (19 shared connections)
+- [[Live Pricing Audit Tool]] (16 shared connections)
+- [[Zoho Integration Skill]] (16 shared connections)
+- [[Product Brand & Business Vision]] (15 shared connections)
+- [[Community 42]] (7 shared connections)
+- [[Community 31]] (6 shared connections)
+- [[Community 125]] (5 shared connections)
 
 ## Source Files
 
-- `api/_lib/adminAuth.js`
-- `api/_lib/ssrf.js`
-- `api/_lib/zoho.js`
-- `api/admin/login.js`
-- `api/content.js`
-- `api/download.js`
-- `api/upload.js`
-- `backend/src/routes/content.js`
-- `backend/src/services/content.js`
-- `backend/test/securityPhase1.test.mjs`
-- `vite.config.js`
+- `ios/App/App/public/assets/index-STbSaCMn.js`
 
 ## Audit Trail
 
-- EXTRACTED: 247 (98%)
-- INFERRED: 4 (2%)
+- EXTRACTED: 341 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

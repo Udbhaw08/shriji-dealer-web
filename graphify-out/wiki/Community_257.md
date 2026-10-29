@@ -4,14 +4,14 @@
 
 ## Key Concepts
 
-- **Going full screen** (5 connections) — `.agents/skills/apple-design/references/hig/going-full-screen.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/going-full-screen.md`
-- **going-full-screen.md** (1 connections) — `.agents/skills/apple-design/references/hig/going-full-screen.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/going-full-screen.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/going-full-screen.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/going-full-screen.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/going-full-screen.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/going-full-screen.md`
+- **Controls** (7 connections) — `.agents/skills/apple-design/references/hig/controls.md`
+- **controls.md** (1 connections) — `.agents/skills/apple-design/references/hig/controls.md`
+- **Anatomy** (1 connections) — `.agents/skills/apple-design/references/hig/controls.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/controls.md`
+- **Camera experiences on a locked device** (1 connections) — `.agents/skills/apple-design/references/hig/controls.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/controls.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/controls.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/controls.md`
 
 ## Relationships
 
@@ -19,7 +19,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/going-full-screen.md`
+- `.agents/skills/apple-design/references/hig/controls.md`
 
 ## Audit Trail
 

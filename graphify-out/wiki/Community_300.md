@@ -1,16 +1,17 @@
 # Community 300
 
-> 7 nodes · cohesion 0.29
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **MockStorage** (6 connections) — `src/data/productsStore.test.mjs`
-- **productsStore.test.mjs** (1 connections) — `src/data/productsStore.test.mjs`
-- **.clear()** (1 connections) — `src/data/productsStore.test.mjs`
-- **.constructor()** (1 connections) — `src/data/productsStore.test.mjs`
-- **.getItem()** (1 connections) — `src/data/productsStore.test.mjs`
-- **.removeItem()** (1 connections) — `src/data/productsStore.test.mjs`
-- **.setItem()** (1 connections) — `src/data/productsStore.test.mjs`
+- **story-shelf.test.mjs** (7 connections) — `.agents/skills/archify/test/story-shelf.test.mjs`
+- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/story-shelf.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/story-shelf.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/story-shelf.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/story-shelf.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/story-shelf.test.mjs`
+- **template** (1 connections) — `.agents/skills/archify/test/story-shelf.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/story-shelf.test.mjs`
 
 ## Relationships
 
@@ -18,11 +19,11 @@
 
 ## Source Files
 
-- `src/data/productsStore.test.mjs`
+- `.agents/skills/archify/test/story-shelf.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

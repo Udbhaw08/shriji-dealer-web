@@ -1,50 +1,53 @@
 # Community 61
 
-> 25 nodes · cohesion 0.17
+> 25 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **update-contract.mjs** (16 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
-- **update-contract.test.mjs** (10 connections) — `.agents/skills/archify/test/update-contract.test.mjs`
-- **compareSemver()** (9 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
-- **validateStableUpdateManifest()** (8 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
-- **normalizeState()** (7 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **isStableCoreVersion()** (7 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
-- **parseSemver()** (7 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
-- **validateLocalRelease()** (7 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
-- **validateCachedCandidate()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **validateReleaseNotesUrl()** (5 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
-- **isPlainObject()** (4 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **hasExactKeys()** (4 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
-- **releaseChannelForVersion()** (4 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
-- **UpdateContractError** (4 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
-- **hasOnlyKeys()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **validateClaimOwner()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **compareNumericIdentifiers()** (3 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
-- **comparePrerelease()** (3 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
-- **validateCanonicalUtcTimestamp()** (3 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
-- **emptyState()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **validateManifest()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **isPlainObject()** (2 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
-- **.constructor()** (1 connections) — `.agents/skills/archify/scripts/update-contract.mjs`
-- **localRelease()** (1 connections) — `.agents/skills/archify/test/update-contract.test.mjs`
-- **stableManifest()** (1 connections) — `.agents/skills/archify/test/update-contract.test.mjs`
+- **pl()** (24 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **he()** (13 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **ml()** (10 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **xe()** (10 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **Ce()** (9 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **hl()** (8 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **ko()** (8 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **lp()** (7 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **P()** (7 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **ia()** (6 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **Xd()** (6 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **hm()** (5 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **q()** (5 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **re()** (5 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **cl()** (4 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **ge()** (4 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **ll()** (4 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **dl()** (3 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **ki()** (3 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **sl()** (3 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **Vd()** (3 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **Ym()** (3 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **fl()** (2 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **ie()** (2 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **ve()** (2 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
 
 ## Relationships
 
-- [[Community 51]] (16 shared connections)
-- [[Community 39]] (3 shared connections)
-- [[Community 115]] (3 shared connections)
+- [[Price Presentation & Product UI]] (26 shared connections)
+- [[Master Codebase Architecture Reference]] (15 shared connections)
+- [[Design System & UI Tokens]] (14 shared connections)
+- [[Community 38]] (7 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (6 shared connections)
+- [[Community 67]] (3 shared connections)
+- [[Pricing & Roles Skill]] (2 shared connections)
+- [[Roles & Customer Sharing Spec]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/scripts/check-update.mjs`
-- `.agents/skills/archify/scripts/update-contract.mjs`
-- `.agents/skills/archify/test/update-contract.test.mjs`
+- `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
 
 ## Audit Trail
 
-- EXTRACTED: 122 (100%)
+- EXTRACTED: 156 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

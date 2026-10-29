@@ -1,35 +1,46 @@
 # Community 131
 
-> 14 nodes · cohesion 0.23
+> 14 nodes · cohesion 0.30
 
 ## Key Concepts
 
-- **web-DMVD5tKi.js** (13 connections) — `android/app/src/main/assets/public/assets/web-DMVD5tKi.js`
-- **applyPrefix()** (4 connections) — `android/app/src/main/assets/public/assets/web-DMVD5tKi.js`
-- **keys()** (4 connections) — `android/app/src/main/assets/public/assets/web-DMVD5tKi.js`
-- **get()** (3 connections) — `android/app/src/main/assets/public/assets/web-DMVD5tKi.js`
-- **migrate()** (3 connections) — `android/app/src/main/assets/public/assets/web-DMVD5tKi.js`
-- **rawKeys()** (3 connections) — `android/app/src/main/assets/public/assets/web-DMVD5tKi.js`
-- **clear()** (2 connections) — `android/app/src/main/assets/public/assets/web-DMVD5tKi.js`
-- **remove()** (2 connections) — `android/app/src/main/assets/public/assets/web-DMVD5tKi.js`
-- **removeOld()** (2 connections) — `android/app/src/main/assets/public/assets/web-DMVD5tKi.js`
-- **set()** (2 connections) — `android/app/src/main/assets/public/assets/web-DMVD5tKi.js`
-- **configure()** (1 connections) — `android/app/src/main/assets/public/assets/web-DMVD5tKi.js`
-- **constructor()** (1 connections) — `android/app/src/main/assets/public/assets/web-DMVD5tKi.js`
-- **impl()** (1 connections) — `android/app/src/main/assets/public/assets/web-DMVD5tKi.js`
-- **prefix()** (1 connections) — `android/app/src/main/assets/public/assets/web-DMVD5tKi.js`
+- **vite.config.js** (20 connections) — `vite.config.js`
+- **zohoApiPlugin()** (12 connections) — `vite.config.js`
+- **securityPhase2.test.mjs** (11 connections) — `backend/test/securityPhase2.test.mjs`
+- **og.js** (7 connections) — `api/og.js`
+- **htmlEscape.js** (6 connections) — `api/_lib/htmlEscape.js`
+- **escapeHtml()** (6 connections) — `api/_lib/htmlEscape.js`
+- **sanitizeUrl()** (6 connections) — `api/_lib/htmlEscape.js`
+- **fetchZohoCategories()** (6 connections) — `api/_lib/zoho.js`
+- **handler()** (5 connections) — `api/og.js`
+- **sanitizeHost()** (4 connections) — `api/_lib/htmlEscape.js`
+- **getBackendApp()** (2 connections) — `vite.config.js`
+- **loadContentService()** (2 connections) — `vite.config.js`
+- **mockWebhookAuthCheck()** (1 connections) — `backend/test/securityPhase2.test.mjs`
+- **liveAutoSyncPlugin()** (1 connections) — `vite.config.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 149]] (8 shared connections)
+- [[Community 92]] (8 shared connections)
+- [[Community 126]] (6 shared connections)
+- [[Community 48]] (5 shared connections)
+- [[Community 254]] (3 shared connections)
+- [[Community 50]] (2 shared connections)
+- [[Community 255]] (2 shared connections)
+- [[Product Pages Specification]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/web-DMVD5tKi.js`
+- `api/_lib/htmlEscape.js`
+- `api/_lib/zoho.js`
+- `api/og.js`
+- `backend/test/securityPhase2.test.mjs`
+- `vite.config.js`
 
 ## Audit Trail
 
-- EXTRACTED: 42 (100%)
+- EXTRACTED: 89 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

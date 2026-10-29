@@ -39,13 +39,15 @@ export default async function handler(req, res) {
 
       if (!banners || banners.length === 0) {
         try {
-          const backendUrl = process.env.VITE_AUTH_API_URL || process.env.BACKEND_URL || "https://shriji-dealer-web.onrender.com";
-          const res = await fetch(`${backendUrl}/api/content/banners`, { signal: AbortSignal.timeout(3500) });
-          if (res.ok) {
-            const data = await res.json();
-            if (data.banners?.length) {
-              banners = data.banners;
-              if (data.settings) settings = data.settings;
+          const backendUrl = (process.env.VITE_AUTH_API_URL || process.env.BACKEND_URL || "").trim();
+          if (backendUrl && !backendUrl.includes("onrender.com")) {
+            const res = await fetch(`${backendUrl}/api/content/banners`, { signal: AbortSignal.timeout(3500) });
+            if (res.ok) {
+              const data = await res.json();
+              if (data.banners?.length) {
+                banners = data.banners;
+                if (data.settings) settings = data.settings;
+              }
             }
           }
         } catch (e) {
@@ -62,11 +64,13 @@ export default async function handler(req, res) {
       let schemes = await getSupabaseSchemes();
       if (!schemes?.active?.length) {
         try {
-          const backendUrl = process.env.VITE_AUTH_API_URL || process.env.BACKEND_URL || "https://shriji-dealer-web.onrender.com";
-          const res = await fetch(`${backendUrl}/api/content/schemes`, { signal: AbortSignal.timeout(3500) });
-          if (res.ok) {
-            const data = await res.json();
-            if (data.schemes) schemes = data.schemes;
+          const backendUrl = (process.env.VITE_AUTH_API_URL || process.env.BACKEND_URL || "").trim();
+          if (backendUrl && !backendUrl.includes("onrender.com")) {
+            const res = await fetch(`${backendUrl}/api/content/schemes`, { signal: AbortSignal.timeout(3500) });
+            if (res.ok) {
+              const data = await res.json();
+              if (data.schemes) schemes = data.schemes;
+            }
           }
         } catch (e) {
           console.warn("[api/content] fallback to backend schemes failed:", e.message);
@@ -81,11 +85,13 @@ export default async function handler(req, res) {
       let branding = await getSupabaseBranding();
       if (!branding?.length) {
         try {
-          const backendUrl = process.env.VITE_AUTH_API_URL || process.env.BACKEND_URL || "https://shriji-dealer-web.onrender.com";
-          const res = await fetch(`${backendUrl}/api/content/branding`, { signal: AbortSignal.timeout(3500) });
-          if (res.ok) {
-            const data = await res.json();
-            if (data.branding) branding = data.branding;
+          const backendUrl = (process.env.VITE_AUTH_API_URL || process.env.BACKEND_URL || "").trim();
+          if (backendUrl && !backendUrl.includes("onrender.com")) {
+            const res = await fetch(`${backendUrl}/api/content/branding`, { signal: AbortSignal.timeout(3500) });
+            if (res.ok) {
+              const data = await res.json();
+              if (data.branding) branding = data.branding;
+            }
           }
         } catch (e) {
           console.warn("[api/content] fallback to backend branding failed:", e.message);

@@ -2,7 +2,7 @@
 
 > God node · 80 connections · `backend/src/db/pool.js`
 
-**Community:** [[Master Codebase Architecture Reference]]
+**Community:** [[Community 41]]
 
 ## Connections by Relation
 

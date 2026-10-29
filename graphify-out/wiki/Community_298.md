@@ -1,34 +1,30 @@
 # Community 298
 
-> 7 nodes · cohesion 0.29
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **commandCompare()** (20 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commitComparePair()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **extractCompareOptions()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **formatDiagnostics()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **reportCompareFailure()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **compareCommitError()** (2 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **compareReceiptPath()** (2 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **story-follow-camera.test.mjs** (7 connections) — `.agents/skills/archify/test/story-follow-camera.test.mjs`
+- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/story-follow-camera.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/story-follow-camera.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/story-follow-camera.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/story-follow-camera.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/story-follow-camera.test.mjs`
+- **template** (1 connections) — `.agents/skills/archify/test/story-follow-camera.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/story-follow-camera.test.mjs`
 
 ## Relationships
 
-- [[Community 47]] (11 shared connections)
-- [[Community 117]] (4 shared connections)
-- [[Community 145]] (3 shared connections)
-- [[Community 85]] (2 shared connections)
-- [[Community 59]] (2 shared connections)
-- [[Community 107]] (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/bin/archify.mjs`
+- `.agents/skills/archify/test/story-follow-camera.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 27 (75%)
-- INFERRED: 9 (25%)
+- EXTRACTED: 14 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

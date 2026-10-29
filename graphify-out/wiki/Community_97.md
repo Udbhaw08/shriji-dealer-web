@@ -1,48 +1,41 @@
 # Community 97
 
-> 19 nodes · cohesion 0.19
+> 19 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **pl()** (24 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
-- **he()** (13 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
-- **ml()** (10 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
-- **xe()** (10 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
-- **Ce()** (9 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
-- **ko()** (9 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
-- **hl()** (8 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
-- **fa()** (7 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
-- **lp()** (7 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
-- **P()** (7 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
-- **hm()** (5 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
-- **re()** (5 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
-- **ge()** (4 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
-- **so()** (4 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
-- **dl()** (3 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
-- **sl()** (3 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
-- **fl()** (2 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
-- **ie()** (2 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
-- **ve()** (2 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **properties** (9 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **sequence.schema.json** (7 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **participants** (4 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **segments** (3 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **cards** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **diagram_type** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **schema_version** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **const** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **$id** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **minItems** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **required** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **$schema** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **const** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **title** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (20 shared connections)
-- [[Live Pricing Audit Tool]] (12 shared connections)
-- [[Zoho Integration Skill]] (10 shared connections)
-- [[Community 42]] (6 shared connections)
-- [[Community 45]] (5 shared connections)
-- [[Community 87]] (4 shared connections)
-- [[Community 119]] (4 shared connections)
-- [[Claude Agent Instructions]] (4 shared connections)
-- [[Product Requirements Documentation]] (3 shared connections)
+- [[Community 169]] (4 shared connections)
+- [[Community 425]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-BjhAVtWq.js`
+- `.agents/skills/archify/schemas/sequence.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 134 (100%)
+- EXTRACTED: 41 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

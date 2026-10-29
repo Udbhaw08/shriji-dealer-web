@@ -4,14 +4,14 @@
 
 ## Key Concepts
 
-- **Tab views** (6 connections) — `.agents/skills/apple-design/references/hig/tab-views.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/tab-views.md`
-- **tab-views.md** (1 connections) — `.agents/skills/apple-design/references/hig/tab-views.md`
-- **Anatomy** (1 connections) — `.agents/skills/apple-design/references/hig/tab-views.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/tab-views.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/tab-views.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/tab-views.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/tab-views.md`
+- **Progress indicators** (4 connections) — `.agents/skills/apple-design/references/hig/progress-indicators.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/progress-indicators.md`
+- **Mobile (iOS, iPadOS)** (2 connections) — `.agents/skills/apple-design/references/hig/progress-indicators.md`
+- **progress-indicators.md** (1 connections) — `.agents/skills/apple-design/references/hig/progress-indicators.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/progress-indicators.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/progress-indicators.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/progress-indicators.md`
+- **Refresh content controls** (1 connections) — `.agents/skills/apple-design/references/hig/progress-indicators.md`
 
 ## Relationships
 
@@ -19,7 +19,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/tab-views.md`
+- `.agents/skills/apple-design/references/hig/progress-indicators.md`
 
 ## Audit Trail
 

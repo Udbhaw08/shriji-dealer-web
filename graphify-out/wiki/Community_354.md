@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **Rating indicators** (5 connections) — `.agents/skills/apple-design/references/hig/rating-indicators.md`
-- **rating-indicators.md** (1 connections) — `.agents/skills/apple-design/references/hig/rating-indicators.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/rating-indicators.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/rating-indicators.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/rating-indicators.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/rating-indicators.md`
+- **Panels** (5 connections) — `.agents/skills/apple-design/references/hig/panels.md`
+- **panels.md** (1 connections) — `.agents/skills/apple-design/references/hig/panels.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/panels.md`
+- **HUD-style panels** (1 connections) — `.agents/skills/apple-design/references/hig/panels.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/panels.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/panels.md`
 
 ## Relationships
 
@@ -17,7 +17,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/rating-indicators.md`
+- `.agents/skills/apple-design/references/hig/panels.md`
 
 ## Audit Trail
 

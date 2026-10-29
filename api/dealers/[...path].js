@@ -8,7 +8,10 @@ export default async function handler(req, res) {
   // Normalize req.url so Express router matches regardless of how Vercel rewrote it
   if (req.query?.path) {
     const subpath = Array.isArray(req.query.path) ? req.query.path.join("/") : req.query.path;
-    req.url = "/api/dealers/" + subpath;
+    const urlObj = new URL(req.url, "http://localhost");
+    urlObj.searchParams.delete("path");
+    const qs = urlObj.searchParams.toString();
+    req.url = "/api/dealers/" + subpath + (qs ? `?${qs}` : "");
   } else if (!req.url.startsWith("/api/dealers") && !req.url.startsWith("/dealers")) {
     req.url = "/api/dealers" + (req.url.startsWith("/") ? req.url : "/" + req.url);
   }

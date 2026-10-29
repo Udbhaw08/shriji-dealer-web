@@ -15,6 +15,7 @@ function createSafeSql() {
     idle_timeout: 30,
     connect_timeout: 10,
     ssl: 'require',
+    prepare: false, // Critical for Supabase Connection Pooler (PgBouncer) & Serverless lambdas
     onnotice: () => {},
   });
 }
@@ -24,4 +25,3 @@ export const sql = createSafeSql();
 export async function tx(fn) {
   return typeof sql.begin === 'function' ? sql.begin(fn) : fn(sql);
 }
-

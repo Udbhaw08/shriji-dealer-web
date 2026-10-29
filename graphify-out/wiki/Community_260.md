@@ -4,14 +4,14 @@
 
 ## Key Concepts
 
-- **Launching** (6 connections) — `.agents/skills/apple-design/references/hig/launching.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/launching.md`
-- **launching.md** (1 connections) — `.agents/skills/apple-design/references/hig/launching.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/launching.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/launching.md`
-- **Launch screens** (1 connections) — `.agents/skills/apple-design/references/hig/launching.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/launching.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/launching.md`
+- **Gauges** (6 connections) — `.agents/skills/apple-design/references/hig/gauges.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/gauges.md`
+- **gauges.md** (1 connections) — `.agents/skills/apple-design/references/hig/gauges.md`
+- **Anatomy** (1 connections) — `.agents/skills/apple-design/references/hig/gauges.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/gauges.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/gauges.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/gauges.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/gauges.md`
 
 ## Relationships
 
@@ -19,7 +19,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/launching.md`
+- `.agents/skills/apple-design/references/hig/gauges.md`
 
 ## Audit Trail
 

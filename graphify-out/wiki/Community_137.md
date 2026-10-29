@@ -21,13 +21,13 @@
 
 ## Relationships
 
-- [[Community 297]] (8 shared connections)
-- [[Pricing Regression Test Suite]] (4 shared connections)
-- [[Community 81]] (4 shared connections)
-- [[Community 47]] (3 shared connections)
+- [[Community 301]] (8 shared connections)
+- [[Product Requirements Documentation]] (4 shared connections)
+- [[Community 66]] (4 shared connections)
+- [[Community 43]] (3 shared connections)
 - [[Community 144]] (3 shared connections)
-- [[Community 153]] (2 shared connections)
-- [[Community 58]] (2 shared connections)
+- [[Community 156]] (2 shared connections)
+- [[Community 60]] (2 shared connections)
 
 ## Source Files
 

@@ -223,9 +223,14 @@ export default function Login() {
       setCooldown(RESEND_COOLDOWN_SECONDS);
       setOtp(["", "", "", "", "", ""]);
     } catch (err) {
-      const msg = err.message === "rate_limited"
-        ? "Too many requests. Please wait a few moments before requesting a new OTP code."
-        : (err.message || "Failed to send WhatsApp verification code. Please try again.");
+      let msg = err.message;
+      if (msg === "rate_limited") {
+        msg = "Too many requests. Please wait a few moments before requesting a new OTP code.";
+      } else if (msg === "Failed to fetch") {
+        msg = "Unable to connect to the authentication service. Please check your connection and try again.";
+      } else if (!msg) {
+        msg = "Failed to send WhatsApp verification code. Please try again.";
+      }
       setError(msg);
     } finally {
       setLoading(false);

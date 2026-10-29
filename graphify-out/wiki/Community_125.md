@@ -1,36 +1,44 @@
 # Community 125
 
-> 15 nodes · cohesion 0.13
+> 15 nodes · cohesion 0.21
 
 ## Key Concepts
 
-- **Liquid Glass** (6 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
-- **Apple's rules** (5 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
-- **Cross-platform translation** (5 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
-- **liquid-glass.md** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
-- **Color on glass** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
-- **Flutter** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
-- **React Native** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
-- **Review checklist** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
-- **Standard materials beneath the glass** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
-- **SwiftUI, UIKit, and AppKit** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
-- **Tauri and Electron** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
-- **The two layers** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
-- **Where the material belongs** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
-- **Which variant** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
+- **r()** (13 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **s()** (11 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **hh()** (9 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **c()** (8 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **Mp()** (7 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **vs()** (7 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **fh()** (6 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **ph()** (6 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **Sh()** (6 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **xs()** (5 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **ys()** (4 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **bs()** (3 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **gt()** (3 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **Xm()** (3 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **zh()** (2 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Dealer Auth & Session Management]] (16 shared connections)
+- [[Live Pricing Audit Tool]] (10 shared connections)
+- [[Community 39]] (5 shared connections)
+- [[Client Products Data Store]] (5 shared connections)
+- [[Oxlint Linter Configuration]] (5 shared connections)
+- [[Product Brand & Business Vision]] (3 shared connections)
+- [[Zoho Integration Skill]] (2 shared connections)
+- [[Community 31]] (2 shared connections)
+- [[Community 42]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/liquid-glass.md`
+- `ios/App/App/public/assets/index-STbSaCMn.js`
 
 ## Audit Trail
 
-- EXTRACTED: 28 (100%)
+- EXTRACTED: 93 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

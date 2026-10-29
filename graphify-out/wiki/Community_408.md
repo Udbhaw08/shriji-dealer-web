@@ -4,10 +4,10 @@
 
 ## Key Concepts
 
-- **Web views** (3 connections) — `.agents/skills/apple-design/references/hig/web-views.md`
-- **web-views.md** (1 connections) — `.agents/skills/apple-design/references/hig/web-views.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/web-views.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/web-views.md`
+- **Pricing Calculation & Zero-Leakage Rules Specification** (3 connections) — `docs/guides/pricing-rules.md`
+- **pricing-rules.md** (1 connections) — `docs/guides/pricing-rules.md`
+- **Overview** (1 connections) — `docs/guides/pricing-rules.md`
+- **Role Gating Rules** (1 connections) — `docs/guides/pricing-rules.md`
 
 ## Relationships
 
@@ -15,7 +15,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/web-views.md`
+- `docs/guides/pricing-rules.md`
 
 ## Audit Trail
 

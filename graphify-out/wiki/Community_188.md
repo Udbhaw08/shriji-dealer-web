@@ -4,17 +4,17 @@
 
 ## Key Concepts
 
-- **httpErrors.js** (5 connections) — `backend/src/utils/httpErrors.js`
-- **BadRequestError** (2 connections) — `backend/src/utils/httpErrors.js`
-- **ForbiddenError** (2 connections) — `backend/src/utils/httpErrors.js`
-- **HttpError** (2 connections) — `backend/src/utils/httpErrors.js`
-- **NotFoundError** (2 connections) — `backend/src/utils/httpErrors.js`
-- **UnauthorizedError** (2 connections) — `backend/src/utils/httpErrors.js`
-- **.constructor()** (1 connections) — `backend/src/utils/httpErrors.js`
-- **.constructor()** (1 connections) — `backend/src/utils/httpErrors.js`
-- **.constructor()** (1 connections) — `backend/src/utils/httpErrors.js`
-- **.constructor()** (1 connections) — `backend/src/utils/httpErrors.js`
-- **.constructor()** (1 connections) — `backend/src/utils/httpErrors.js`
+- **release-package-gates.test.mjs** (10 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
+- **canonicalZipTest()** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
+- **centralDirectoryModes()** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
+- **currentNodeMajor** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
+- **repoRoot** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
+- **spawnBuildZip()** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
+- **stagedFixture()** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
+- **workflowJob()** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
+- **workflowStep()** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
+- **writeArchive()** (1 connections) — `.agents/skills/archify/test/release-package-gates.test.mjs`
 
 ## Relationships
 
@@ -22,7 +22,7 @@
 
 ## Source Files
 
-- `backend/src/utils/httpErrors.js`
+- `.agents/skills/archify/test/release-package-gates.test.mjs`
 
 ## Audit Trail
 

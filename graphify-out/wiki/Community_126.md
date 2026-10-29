@@ -1,37 +1,42 @@
 # Community 126
 
-> 15 nodes · cohesion 0.13
+> 15 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **Sign in with Apple** (6 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
-- **Using the system-provided buttons** (5 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
-- **Creating a custom Sign in with Apple button** (3 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
-- **Displaying buttons** (3 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
-- **sign-in-with-apple.md** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
-- **Black** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
-- **Button size and corner radius** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
-- **Collecting data** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
-- **Custom buttons with a logo and text** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
-- **Custom logo-only buttons** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
-- **Offering Sign in with Apple** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
-- **White** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
-- **White with outline** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- **fetchZohoProductById()** (20 connections) — `api/_lib/zoho.js`
+- **syncProductDetailsPool()** (12 connections) — `api/_lib/zoho.js`
+- **getZohoConfig()** (11 connections) — `api/_lib/zoho.js`
+- **fetchZohoWithRetry()** (10 connections) — `api/_lib/zoho.js`
+- **fetchZohoPricebookItems()** (7 connections) — `api/_lib/zoho.js`
+- **resolvePricebookId()** (6 connections) — `api/_lib/zoho.js`
+- **fetchResolvedPricebookRates()** (5 connections) — `api/_lib/zoho.js`
+- **getCategoryVisibilityMap()** (5 connections) — `api/_lib/zoho.js`
+- **readProductDetailsDiskCache()** (5 connections) — `api/_lib/zoho.js`
+- **fetchZohoPricebooks()** (4 connections) — `api/_lib/zoho.js`
+- **fetchZohoRawCategories()** (4 connections) — `api/_lib/zoho.js`
+- **getDealerById()** (4 connections) — `api/_lib/zoho.js`
+- **writeProductDetailDiskCache()** (4 connections) — `api/_lib/zoho.js`
+- **sync-product-details.mjs** (3 connections) — `scripts/sync-product-details.mjs`
+- **main()** (2 connections) — `scripts/sync-product-details.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 48]] (19 shared connections)
+- [[Community 149]] (11 shared connections)
+- [[Community 131]] (6 shared connections)
+- [[Community 255]] (5 shared connections)
+- [[Community 50]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- `api/_lib/zoho.js`
+- `scripts/sync-product-details.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 28 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 101 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

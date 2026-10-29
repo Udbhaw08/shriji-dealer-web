@@ -1,57 +1,55 @@
 # Design System & UI Tokens
 
-> 61 nodes · cohesion 0.07
+> 60 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **get()** (27 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **ff()** (25 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **np()** (21 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **du()** (16 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **Eu()** (16 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **bm()** (12 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **gl()** (11 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **lu()** (11 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **pi()** (11 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **ep()** (10 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **Nu()** (10 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **yu()** (10 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **di()** (9 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **kl()** (9 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **mm()** (9 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **Sp()** (9 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **go()** (8 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **jd()** (8 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **on()** (8 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **uu()** (8 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **Au()** (7 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **bl()** (7 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **jm()** (7 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **jt()** (7 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **wl()** (7 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- *... and 36 more nodes in this community*
+- **ol()** (43 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **xc()** (15 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **vc()** (14 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **kc()** (13 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **Lc()** (12 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **lm()** (12 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **oa()** (12 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **Oi()** (12 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **ac()** (11 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **al()** (11 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **na()** (11 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **rl()** (11 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **aa()** (10 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **be()** (10 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **Ba()** (9 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **bc()** (9 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **ga()** (8 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **jc()** (8 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **ca()** (7 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **gc()** (7 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **ji()** (7 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **ro()** (7 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **wc()** (7 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **zc()** (7 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **Ai()** (6 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- *... and 35 more nodes in this community*
 
 ## Relationships
 
-- [[Zoho Backend & Proxy Endpoints]] (66 shared connections)
-- [[Agent Guidelines (AGENTS.md)]] (15 shared connections)
-- [[Product Brand & Business Vision]] (15 shared connections)
-- [[Community 43]] (14 shared connections)
-- [[Graphify Knowledge Graph Skill]] (14 shared connections)
-- [[Community 83]] (12 shared connections)
-- [[Community 82]] (8 shared connections)
-- [[Testing & Workflow Skill]] (6 shared connections)
-- [[Community 62]] (6 shared connections)
-- [[Community 109]] (4 shared connections)
-- [[Community 63]] (3 shared connections)
+- [[Price Presentation & Product UI]] (64 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (27 shared connections)
+- [[Master Codebase Architecture Reference]] (19 shared connections)
+- [[Roles & Customer Sharing Spec]] (18 shared connections)
+- [[Community 61]] (14 shared connections)
+- [[Community 67]] (14 shared connections)
+- [[Pricing & Roles Skill]] (10 shared connections)
+- [[Graphify Workflow]] (10 shared connections)
+- [[Community 38]] (6 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
+- `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
 
 ## Audit Trail
 
-- EXTRACTED: 429 (100%)
+- EXTRACTED: 416 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

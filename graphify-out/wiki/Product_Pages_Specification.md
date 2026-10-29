@@ -1,75 +1,77 @@
 # Product Pages Specification
 
-> 66 nodes · cohesion 0.11
+> 62 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **main.jsx** (54 connections) — `src/main.jsx`
-- **ui.jsx** (45 connections) — `src/ui.jsx`
-- **useSession()** (42 connections) — `src/data/session.js`
-- **useLanguage()** (31 connections) — `src/data/i18n.js`
-- **Home.jsx** (26 connections) — `src/pages/Home.jsx`
-- **Products.jsx** (25 connections) — `src/pages/Products.jsx`
-- **site.js** (24 connections) — `src/data/site.js`
-- **Favorites.jsx** (20 connections) — `src/pages/Favorites.jsx`
-- **Icon()** (20 connections) — `src/ui.jsx`
-- **ProductCard.jsx** (19 connections) — `src/components/ProductCard.jsx`
-- **isDealer()** (18 connections) — `src/data/dealer.js`
-- **t()** (18 connections) — `src/data/i18n.js`
-- **Schemes.jsx** (17 connections) — `src/pages/Schemes.jsx`
-- **MobileBottomNav.jsx** (16 connections) — `src/components/MobileBottomNav.jsx`
-- **COMPANY** (16 connections) — `src/data/site.js`
-- **Support.jsx** (16 connections) — `src/pages/Support.jsx`
-- **ProductCard()** (15 connections) — `src/components/ProductCard.jsx`
-- **useFavorites()** (15 connections) — `src/data/favoritesStore.js`
-- **isPortalGated()** (14 connections) — `src/data/portalGate.js`
-- **dealerById()** (12 connections) — `src/data/dealer.js`
-- **useProducts()** (12 connections) — `src/data/productsStore.js`
-- **Favorites()** (9 connections) — `src/pages/Favorites.jsx`
-- **Products()** (9 connections) — `src/pages/Products.jsx`
-- **Header()** (9 connections) — `src/ui.jsx`
-- **MobileBottomNav()** (8 connections) — `src/components/MobileBottomNav.jsx`
-- *... and 41 more nodes in this community*
+- **server.js** (36 connections) — `backend/src/server.js`
+- **app.js** (30 connections) — `backend/src/app.js`
+- **compatibilitySuite.test.mjs** (20 connections) — `backend/test/compatibilitySuite.test.mjs`
+- **securityPhase1.test.mjs** (16 connections) — `backend/test/securityPhase1.test.mjs`
+- **auth.js** (13 connections) — `backend/src/middleware/auth.js`
+- **upload.js** (12 connections) — `backend/src/routes/upload.js`
+- **errorHandler.js** (10 connections) — `backend/src/middleware/errorHandler.js`
+- **rateLimit.js** (10 connections) — `backend/src/middleware/rateLimit.js`
+- **rateLimit()** (9 connections) — `backend/src/middleware/rateLimit.js`
+- **admin.js** (9 connections) — `backend/src/routes/admin.js`
+- **health.js** (9 connections) — `backend/src/routes/health.js`
+- **uploads.js** (9 connections) — `backend/src/routes/uploads.js`
+- **securityPhase3.test.mjs** (9 connections) — `backend/test/securityPhase3.test.mjs`
+- **prices.js** (7 connections) — `backend/src/routes/prices.js`
+- **migrate.js** (6 connections) — `backend/src/db/migrate.js`
+- **jwtAuth()** (5 connections) — `backend/src/middleware/auth.js`
+- **requireAdmin()** (5 connections) — `backend/src/middleware/auth.js`
+- **contentRouter** (5 connections) — `backend/src/routes/content.js`
+- **uploadRouter** (5 connections) — `backend/src/routes/upload.js`
+- **uploadsRouter** (5 connections) — `backend/src/routes/uploads.js`
+- **migrate()** (4 connections) — `backend/src/db/migrate.js`
+- **errorHandler()** (4 connections) — `backend/src/middleware/errorHandler.js`
+- **adminRouter** (4 connections) — `backend/src/routes/admin.js`
+- **app** (4 connections) — `backend/src/app.js`
+- **rateLimitFix.test.mjs** (4 connections) — `backend/test/rateLimitFix.test.mjs`
+- *... and 37 more nodes in this community*
 
 ## Relationships
 
-- [[Community 48]] (55 shared connections)
-- [[Architecture Doc Generator]] (53 shared connections)
-- [[Community 116]] (13 shared connections)
-- [[Community 93]] (13 shared connections)
-- [[Community 170]] (12 shared connections)
-- [[Community 215]] (12 shared connections)
-- [[Community 154]] (7 shared connections)
-- [[Community 35]] (4 shared connections)
-- [[Community 399]] (1 shared connections)
+- [[Community 50]] (25 shared connections)
+- [[Community 32]] (21 shared connections)
+- [[Community 41]] (12 shared connections)
+- [[Community 92]] (7 shared connections)
+- [[Community 190]] (4 shared connections)
+- [[Community 149]] (4 shared connections)
+- [[Community 254]] (3 shared connections)
+- [[Community 55]] (2 shared connections)
+- [[Zoho Integration Architecture]] (2 shared connections)
+- [[Community 152]] (1 shared connections)
+- [[Community 131]] (1 shared connections)
 
 ## Source Files
 
-- `src/components/EmailVerificationPrompt.jsx`
-- `src/components/MobileBottomNav.jsx`
-- `src/components/NativeBackHandler.jsx`
-- `src/components/PhoneVerificationPrompt.jsx`
-- `src/components/ProductCard.jsx`
-- `src/components/ProductSearchBar.jsx`
-- `src/components/UnderMaintenance.jsx`
-- `src/data/dealer.js`
-- `src/data/favoritesStore.js`
-- `src/data/i18n.js`
-- `src/data/portalGate.js`
-- `src/data/productsStore.js`
-- `src/data/session.js`
-- `src/data/site.js`
-- `src/main.jsx`
-- `src/pages/DealerApply.jsx`
-- `src/pages/Favorites.jsx`
-- `src/pages/Home.jsx`
-- `src/pages/LegalPrivacy.jsx`
-- `src/pages/LegalTerms.jsx`
+- `api/auth/[...path].js`
+- `api/dealers/[...path].js`
+- `backend/src/app.js`
+- `backend/src/db/migrate.js`
+- `backend/src/jobs/index.js`
+- `backend/src/middleware/auth.js`
+- `backend/src/middleware/errorHandler.js`
+- `backend/src/middleware/rateLimit.js`
+- `backend/src/routes/admin.js`
+- `backend/src/routes/auth.js`
+- `backend/src/routes/content.js`
+- `backend/src/routes/dealers.js`
+- `backend/src/routes/health.js`
+- `backend/src/routes/prices.js`
+- `backend/src/routes/upload.js`
+- `backend/src/routes/uploads.js`
+- `backend/src/routes/webhooks.js`
+- `backend/src/server.js`
+- `backend/test/compatibilitySuite.test.mjs`
+- `backend/test/rateLimitFix.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 649 (100%)
-- INFERRED: 1 (0%)
+- EXTRACTED: 312 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

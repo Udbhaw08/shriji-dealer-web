@@ -1,58 +1,54 @@
 # Community 48
 
-> 32 nodes · cohesion 0.14
+> 32 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **Product.jsx** (41 connections) — `src/pages/Product.jsx`
-- **dealer.js** (29 connections) — `src/data/dealer.js`
-- **dealer.test.mjs** (18 connections) — `src/data/dealer.test.mjs`
-- **PriceBlock.jsx** (15 connections) — `src/components/PriceBlock.jsx`
-- **Product()** (15 connections) — `src/pages/Product.jsx`
-- **priceFor()** (14 connections) — `src/data/dealer.js`
-- **inr()** (12 connections) — `src/data/dealer.js`
-- **viewerFor()** (8 connections) — `src/data/dealer.js`
-- **CustomerPrice()** (7 connections) — `src/components/PriceBlock.jsx`
-- **productSlug()** (7 connections) — `src/data/dealer.js`
-- **shareLink()** (7 connections) — `src/data/dealer.js`
-- **slugifyProduct()** (6 connections) — `src/data/dealer.js`
-- **tagFor()** (6 connections) — `src/data/dealer.js`
-- **DealerPrice()** (5 connections) — `src/components/PriceBlock.jsx`
-- **formatWhatsAppPhone()** (4 connections) — `src/data/dealer.js`
-- **tierOf()** (4 connections) — `src/data/dealer.js`
-- **DEALERS** (3 connections) — `src/data/dealer.js`
-- **PriceBlock()** (2 connections) — `src/components/PriceBlock.jsx`
-- **price99()** (2 connections) — `src/data/dealer.js`
-- **getCachedProductDetail()** (2 connections) — `src/pages/Product.jsx`
-- **setCachedProductDetail()** (2 connections) — `src/pages/Product.jsx`
-- **BAND** (1 connections) — `src/data/dealer.js`
-- **hash()** (1 connections) — `src/data/dealer.js`
-- **approved** (1 connections) — `src/data/dealer.test.mjs`
-- **customer** (1 connections) — `src/data/dealer.test.mjs`
+- **zoho.js** (63 connections) — `api/_lib/zoho.js`
+- **normalizeProduct()** (7 connections) — `api/_lib/zoho.js`
+- **syncRecentProductTags()** (7 connections) — `api/_lib/zoho.js`
+- **readTagCache()** (6 connections) — `api/_lib/zoho.js`
+- **updateCachedProductTags()** (4 connections) — `api/_lib/zoho.js`
+- **sync-tags.js** (4 connections) — `api/products/sync-tags.js`
+- **getCachedProductTags()** (3 connections) — `api/_lib/zoho.js`
+- **isItemOnline()** (3 connections) — `api/_lib/zoho.js`
+- **slugifyProduct()** (3 connections) — `api/_lib/zoho.js`
+- **handler()** (3 connections) — `api/products/sync-tags.js`
+- **isItemCategoryOnline()** (2 connections) — `api/_lib/zoho.js`
+- **parseRate()** (2 connections) — `api/_lib/zoho.js`
+- **slugifyCategory()** (2 connections) — `api/_lib/zoho.js`
+- **writeTagCache()** (2 connections) — `api/_lib/zoho.js`
+- **cachedPricebooks** (1 connections) — `api/_lib/zoho.js`
+- **cachedProductDetails** (1 connections) — `api/_lib/zoho.js`
+- **cachedProductsByPricebook** (1 connections) — `api/_lib/zoho.js`
+- **clearDiskCache()** (1 connections) — `api/_lib/zoho.js`
+- **DEFAULT_SCHEMES** (1 connections) — `api/_lib/zoho.js`
+- **DEFAULT_STORE_BANNERS** (1 connections) — `api/_lib/zoho.js`
+- **isBannerItem()** (1 connections) — `api/_lib/zoho.js`
+- **isLogoItem()** (1 connections) — `api/_lib/zoho.js`
+- **isSchemeItem()** (1 connections) — `api/_lib/zoho.js`
+- **localCacheFile** (1 connections) — `api/_lib/zoho.js`
+- **localDetailCacheFile** (1 connections) — `api/_lib/zoho.js`
 - *... and 7 more nodes in this community*
 
 ## Relationships
 
-- [[Product Pages Specification]] (55 shared connections)
-- [[Architecture Doc Generator]] (8 shared connections)
-- [[Community 93]] (5 shared connections)
-- [[Community 170]] (3 shared connections)
-- [[Community 215]] (3 shared connections)
-- [[Community 111]] (3 shared connections)
-- [[Community 154]] (2 shared connections)
-- [[Community 116]] (2 shared connections)
-- [[Community 35]] (1 shared connections)
+- [[Community 126]] (19 shared connections)
+- [[Community 149]] (7 shared connections)
+- [[Community 255]] (6 shared connections)
+- [[Community 131]] (5 shared connections)
+- [[Community 92]] (2 shared connections)
+- [[Community 50]] (1 shared connections)
+- [[Community 151]] (1 shared connections)
 
 ## Source Files
 
-- `src/components/PriceBlock.jsx`
-- `src/data/dealer.js`
-- `src/data/dealer.test.mjs`
-- `src/pages/Product.jsx`
+- `api/_lib/zoho.js`
+- `api/products/sync-tags.js`
 
 ## Audit Trail
 
-- EXTRACTED: 220 (100%)
+- EXTRACTED: 129 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

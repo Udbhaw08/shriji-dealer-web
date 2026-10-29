@@ -11,12 +11,12 @@
 - **onboardingVerification.test.mjs** (15 connections) — `backend/test/onboardingVerification.test.mjs`
 - **hashOtp()** (10 connections) — `backend/src/utils/hash.js`
 - **verifyOtpHash()** (10 connections) — `backend/src/utils/hash.js`
+- **generateUniqueDealerCode()** (10 connections) — `backend/src/utils/loginCode.js`
 - **hash.test.mjs** (9 connections) — `backend/test/hash.test.mjs`
 - **sha256()** (9 connections) — `backend/src/utils/hash.js`
 - **formatLoginCode()** (8 connections) — `backend/src/utils/loginCode.js`
 - **generateLoginCode()** (8 connections) — `backend/src/utils/loginCode.js`
 - **loginCode.test.mjs** (7 connections) — `backend/test/loginCode.test.mjs`
-- **generateOtp()** (5 connections) — `backend/src/utils/hash.js`
 - **hashPassword()** (5 connections) — `backend/src/utils/hash.js`
 - **verifyPassword()** (4 connections) — `backend/src/utils/hash.js`
 - **isValidLoginCode()** (4 connections) — `backend/src/utils/loginCode.js`
@@ -33,9 +33,10 @@
 
 ## Relationships
 
-- [[Master Codebase Architecture Reference]] (20 shared connections)
-- [[Client Products Data Store]] (10 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (2 shared connections)
+- [[Community 32]] (19 shared connections)
+- [[Community 41]] (9 shared connections)
+- [[Product Pages Specification]] (2 shared connections)
+- [[Community 50]] (1 shared connections)
 
 ## Source Files
 
@@ -49,8 +50,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 220 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 224 (100%)
+- INFERRED: 1 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

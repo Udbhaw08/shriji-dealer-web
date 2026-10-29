@@ -4,24 +4,24 @@
 
 ## Key Concepts
 
-- **CacheManager** (4 connections) — `backend/src/services/cacheManager.js`
-- **cacheManager.js** (2 connections) — `backend/src/services/cacheManager.js`
-- **.constructor()** (1 connections) — `backend/src/services/cacheManager.js`
-- **.get()** (1 connections) — `backend/src/services/cacheManager.js`
-- **.set()** (1 connections) — `backend/src/services/cacheManager.js`
-- **globalCache** (1 connections) — `backend/src/services/cacheManager.js`
+- **point** (6 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **items** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **maxItems** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **minItems** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **prefixItems** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 81]] (1 shared connections)
 
 ## Source Files
 
-- `backend/src/services/cacheManager.js`
+- `.agents/skills/archify/schemas/common.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
+- EXTRACTED: 11 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -22,8 +22,8 @@
 
 ## Relationships
 
-- [[Zoho API Diagnostic Script]] (5 shared connections)
-- [[Community 79]] (3 shared connections)
+- [[Agent Guidelines (AGENTS.md)]] (5 shared connections)
+- [[Community 83]] (3 shared connections)
 
 ## Source Files
 

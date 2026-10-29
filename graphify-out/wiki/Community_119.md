@@ -1,45 +1,39 @@
 # Community 119
 
-> 16 nodes · cohesion 0.23
+> 16 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **zd()** (14 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
-- **qd()** (13 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
-- **Nd()** (12 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
-- **Ii()** (11 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
-- **Gd()** (8 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
-- **rt()** (7 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
-- **vi()** (6 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
-- **Bd()** (5 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
-- **Rd()** (5 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
-- **cl()** (4 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
-- **ll()** (4 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
-- **Hd()** (3 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
-- **Ud()** (3 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
-- **Vd()** (3 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
-- **Ym()** (3 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
-- **Fd()** (2 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **properties** (8 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **meta** (5 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **states** (4 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **transitions** (3 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **cards** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **diagram_type** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **schema_version** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **const** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **required** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **const** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **minItems** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (21 shared connections)
-- [[Live Pricing Audit Tool]] (6 shared connections)
-- [[Claude Agent Instructions]] (6 shared connections)
-- [[Zoho Integration Skill]] (5 shared connections)
-- [[Community 97]] (4 shared connections)
-- [[Product Requirements Documentation]] (2 shared connections)
-- [[Vercel Deployment Routing]] (2 shared connections)
-- [[Community 45]] (2 shared connections)
-- [[Community 42]] (1 shared connections)
+- [[Community 205]] (3 shared connections)
+- [[Community 324]] (1 shared connections)
+- [[Community 72]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-BjhAVtWq.js`
+- `.agents/skills/archify/schemas/lifecycle.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 103 (100%)
+- EXTRACTED: 35 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

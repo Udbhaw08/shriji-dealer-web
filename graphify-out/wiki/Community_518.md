@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **securityHeaders.js** (1 connections) — `backend/src/middleware/securityHeaders.js`
-- **securityHeaders()** (1 connections) — `backend/src/middleware/securityHeaders.js`
+- **.mcp.json** (1 connections) — `.mcp.json`
+- **supabase** (1 connections) — `.mcp.json`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `backend/src/middleware/securityHeaders.js`
+- `.mcp.json`
 
 ## Audit Trail
 
