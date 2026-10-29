@@ -16,7 +16,19 @@ export function createApp() {
   const app = express();
   app.disable('x-powered-by');
   app.set('trust proxy', true); // behind Cloudflare/Render/Vercel proxies
-  app.use(express.json({ limit: '1mb', verify: (req, _res, buf) => { req.rawBody = buf; } }));
+
+  // Serverless / Pre-parsed body guard:
+  // If req.body is already populated (e.g. by Vercel serverless runtime), skip express.json()
+  // to avoid hanging on an already-consumed stream.
+  app.use((req, res, next) => {
+    if (req.body !== undefined && req.body !== null) {
+      if (typeof req.body === 'string') {
+        try { req.body = JSON.parse(req.body); } catch {}
+      }
+      return next();
+    }
+    express.json({ limit: '1mb', verify: (r, _res, buf) => { r.rawBody = buf; } })(req, res, next);
+  });
 
   // Fallback: Parse body from rawBody if client sent text/plain or omitted Content-Type
   app.use((req, _res, next) => {

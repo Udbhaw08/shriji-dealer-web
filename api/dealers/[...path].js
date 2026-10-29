@@ -14,8 +14,16 @@ export default async function handler(req, res) {
   }
 
   return new Promise((resolve) => {
-    app(req, res, (result) => {
-      resolve(result);
+    res.on("finish", resolve);
+    res.on("close", resolve);
+    app(req, res, (err) => {
+      if (err) {
+        console.error("[vercel-dealers] Unhandled Express error:", err);
+        if (!res.headersSent) {
+          res.status(500).json({ error: err.message || "Internal server error" });
+        }
+      }
+      resolve();
     });
   });
 }
