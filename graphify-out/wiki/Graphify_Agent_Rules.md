@@ -1,54 +1,52 @@
 # Graphify Agent Rules
 
-> 41 nodes · cohesion 0.10
+> 43 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **Ar()** (26 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **Pr()** (23 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **gf()** (18 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **Ei()** (16 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **jr()** (8 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **Ci()** (7 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **gr()** (7 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **kr()** (7 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **vr()** (7 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **hr()** (6 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **Ir()** (6 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **Ni()** (6 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **Sn()** (6 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **Sr()** (6 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **fr()** (5 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **li()** (5 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **Lr()** (5 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **no()** (5 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **qf()** (5 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **sm()** (5 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **xn()** (5 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **zr()** (5 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **Br()** (4 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **dr()** (4 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **Ld()** (4 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- *... and 16 more nodes in this community*
+- **auth.js** (59 connections) — `src/data/auth.js`
+- **callBackend()** (32 connections) — `src/data/auth.js`
+- **json()** (32 connections) — `src/data/auth.js`
+- **DealerDashboard.jsx** (24 connections) — `src/pages/DealerDashboard.jsx`
+- **apiFetch()** (20 connections) — `src/data/api.js`
+- **broadcastAuthChange()** (13 connections) — `src/data/auth.js`
+- **applyAuthResponse()** (9 connections) — `src/data/auth.js`
+- **finalizeDealerRegistration()** (8 connections) — `src/data/auth.js`
+- **requestDealerRegistrationOtp()** (7 connections) — `src/data/auth.js`
+- **staffSignup()** (7 connections) — `src/data/auth.js`
+- **verifyDealerRegistrationOtp()** (7 connections) — `src/data/auth.js`
+- **verifyEmailOtp()** (7 connections) — `src/data/auth.js`
+- **logout()** (6 connections) — `src/data/auth.js`
+- **requestEmailOtp()** (6 connections) — `src/data/auth.js`
+- **verifyPhoneOtp()** (6 connections) — `src/data/auth.js`
+- **fetchMe()** (5 connections) — `src/data/auth.js`
+- **googleLogin()** (5 connections) — `src/data/auth.js`
+- **login()** (5 connections) — `src/data/auth.js`
+- **lookupStaffCode()** (5 connections) — `src/data/auth.js`
+- **requestPhoneOtp()** (5 connections) — `src/data/auth.js`
+- **signup()** (5 connections) — `src/data/auth.js`
+- **staffTogglePrice()** (5 connections) — `src/data/auth.js`
+- **staffTogglePriceAll()** (5 connections) — `src/data/auth.js`
+- **verifyOtp()** (5 connections) — `src/data/auth.js`
+- **persistTokens()** (4 connections) — `src/data/auth.js`
+- *... and 18 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (43 shared connections)
-- [[Design System & UI Tokens]] (10 shared connections)
-- [[Master Codebase Architecture Reference]] (8 shared connections)
-- [[Roles & Customer Sharing Spec]] (6 shared connections)
-- [[Architecture Doc Generator]] (6 shared connections)
-- [[Pricing & Roles Skill]] (5 shared connections)
-- [[Community 68]] (4 shared connections)
-- [[Community 37]] (1 shared connections)
+- [[Mobile Responsive UI Skill]] (58 shared connections)
+- [[Design System & UI Tokens]] (9 shared connections)
+- [[Community 107]] (7 shared connections)
+- [[Zoho Integration Architecture]] (4 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- `src/data/api.js`
+- `src/data/auth.js`
+- `src/pages/DealerDashboard.jsx`
 
 ## Audit Trail
 
-- EXTRACTED: 253 (100%)
+- EXTRACTED: 354 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

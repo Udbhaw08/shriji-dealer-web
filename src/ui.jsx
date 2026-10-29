@@ -429,6 +429,52 @@ export function Header() {
   const dealer = isDealer(s) ? (dealerById(s.dealerId) || s.dealer) : null;
   const isAuthenticated = s && s.role !== "guest";
 
+  const [siteSettings, setSiteSettings] = useState(() => {
+    try {
+      const raw = localStorage.getItem("shriji_site_settings") || sessionStorage.getItem("shriji_site_settings");
+      if (raw) return JSON.parse(raw);
+    } catch {}
+    return null;
+  });
+
+  useEffect(() => {
+    let active = true;
+    const fetchSettings = () => {
+      apiFetch("/api/branding")
+        .then((res) => (res.ok ? res.json() : null))
+        .then((data) => {
+          if (active && data?.settings) {
+            setSiteSettings(data.settings);
+            try {
+              localStorage.setItem("shriji_site_settings", JSON.stringify(data.settings));
+              sessionStorage.setItem("shriji_site_settings", JSON.stringify(data.settings));
+            } catch {}
+          }
+        })
+        .catch(() => {});
+    };
+
+    fetchSettings();
+
+    const handleUpdated = (e) => {
+      if (e?.detail) {
+        setSiteSettings(e.detail);
+        try {
+          localStorage.setItem("shriji_site_settings", JSON.stringify(e.detail));
+          sessionStorage.setItem("shriji_site_settings", JSON.stringify(e.detail));
+        } catch {}
+      } else {
+        fetchSettings();
+      }
+    };
+
+    window.addEventListener("shriji_settings_updated", handleUpdated);
+    return () => {
+      active = false;
+      window.removeEventListener("shriji_settings_updated", handleUpdated);
+    };
+  }, []);
+
   useEffect(() => {
     setOpen(false);
   }, [pathname, hash]);
@@ -444,6 +490,15 @@ export function Header() {
   const navItems = isGated
     ? NAV.filter((n) => n.to === "/" || n.to === "/support")
     : NAV;
+
+  // Zero-delay & zero-flash rule:
+  // If settings are not yet loaded, do not display default taglines to prevent flickering before hiding.
+  // Once loaded, explicitly honor header_tagline_enabled.
+  const headerTagEnabled = siteSettings ? (siteSettings.header_tagline_enabled !== false) : false;
+  const line1 = siteSettings?.header_tagline_1 !== undefined ? siteSettings.header_tagline_1 : (siteSettings ? "" : t("tagline_1"));
+  const line2 = siteSettings?.header_tagline_2 !== undefined ? siteSettings.header_tagline_2 : (siteSettings ? "" : t("tagline_2"));
+  const line3 = siteSettings?.header_tagline_3 !== undefined ? siteSettings.header_tagline_3 : (siteSettings ? "" : t("tagline_3"));
+  const hasTagContent = Boolean((line1 && line1.trim()) || (line2 && line2.trim()) || (line3 && line3.trim()));
 
   return (
     <header className="hdr">
@@ -489,13 +544,11 @@ export function Header() {
           </div>
         </nav>
 
-        {!isGated && (
+        {!isGated && headerTagEnabled && hasTagContent && (
           <p className="hdr-tag">
-            {t("tagline_1")}
-            <br />
-            {t("tagline_2")}
-            <br />
-            {t("tagline_3")}
+            {line1 && <>{line1}<br /></>}
+            {line2 && <>{line2}<br /></>}
+            {line3 && <>{line3}</>}
           </p>
         )}
 

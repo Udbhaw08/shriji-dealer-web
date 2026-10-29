@@ -1,29 +1,31 @@
 # Community 278
 
-> 8 nodes · cohesion 0.25
+> 8 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **Data flow, shared state, and property wrappers** (7 connections) — `.agents/skills/swiftui-pro/references/data.md`
-- **data.md** (1 connections) — `.agents/skills/swiftui-pro/references/data.md`
-- **Bindings** (1 connections) — `.agents/skills/swiftui-pro/references/data.md`
-- **If the project uses SwiftData with CloudKit** (1 connections) — `.agents/skills/swiftui-pro/references/data.md`
-- **Local state** (1 connections) — `.agents/skills/swiftui-pro/references/data.md`
-- **Shared state** (1 connections) — `.agents/skills/swiftui-pro/references/data.md`
-- **SwiftData** (1 connections) — `.agents/skills/swiftui-pro/references/data.md`
-- **Working with data** (1 connections) — `.agents/skills/swiftui-pro/references/data.md`
+- **isDroppedPlatformText()** (5 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **headingLine()** (4 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **relabelHeading()** (4 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **isDroppedBoilerplate()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **platformsMentioned()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **reduceHeading()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **isDroppedPlatformLabel()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **platformGroupLabel()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 77]] (8 shared connections)
+- [[Community 207]] (1 shared connections)
+- [[Community 206]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/swiftui-pro/references/data.md`
+- `.agents/skills/apple-design/scripts/pull-hig.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
+- EXTRACTED: 26 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

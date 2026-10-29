@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **NetworkStatusBadge.jsx** (1 connections) — `src/components/NetworkStatusBadge.jsx`
-- **NetworkStatusBadge()** (1 connections) — `src/components/NetworkStatusBadge.jsx`
+- **esm-BYUBtnaC.js** (1 connections) — `ios/App/App/public/assets/esm-BYUBtnaC.js`
+- **__vite__mapDeps()** (1 connections) — `ios/App/App/public/assets/esm-BYUBtnaC.js`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `src/components/NetworkStatusBadge.jsx`
+- `ios/App/App/public/assets/esm-BYUBtnaC.js`
 
 ## Audit Trail
 

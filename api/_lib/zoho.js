@@ -121,6 +121,112 @@ export function updateCachedProductTags(productId, tags, lastModified = null, na
 
 // ---------------- Persistent Products & Details Disk Cache ---------------- //
 
+// ---------------- Product Collections Cache ---------------- //
+
+const DEFAULT_TRIAL_COLLECTION_ID = "3334672000009225009";
+
+export function getTrialCollectionId() {
+  const env = loadEnv();
+  return env.ZOHO_TRIAL_COLLECTION_ID || DEFAULT_TRIAL_COLLECTION_ID;
+}
+
+const localCollectionCacheFile = path.resolve(process.cwd(), ".collection_cache.json");
+const tmpCollectionCacheFile = path.resolve(os.tmpdir(), "webstore_collection_cache.json");
+
+let memoryCollectionCache = null;
+
+export function readCollectionDiskCache() {
+  if (memoryCollectionCache) return memoryCollectionCache;
+  for (const file of [localCollectionCacheFile, tmpCollectionCacheFile]) {
+    try {
+      if (fs.existsSync(file)) {
+        const data = JSON.parse(fs.readFileSync(file, "utf-8"));
+        if (data && typeof data === "object") {
+          memoryCollectionCache = data;
+          return memoryCollectionCache;
+        }
+      }
+    } catch {}
+  }
+  memoryCollectionCache = {};
+  return memoryCollectionCache;
+}
+
+export function writeCollectionDiskCache(collectionId, ids) {
+  if (!collectionId) return;
+  const cache = readCollectionDiskCache();
+  cache[String(collectionId)] = { ids: ids || [], time: Date.now() };
+  memoryCollectionCache = cache;
+  const payload = JSON.stringify(cache, null, 2);
+  for (const file of [localCollectionCacheFile, tmpCollectionCacheFile]) {
+    try {
+      fs.writeFileSync(file, payload, "utf-8");
+    } catch {}
+  }
+}
+
+export async function fetchZohoCollectionProductIds(collectionId = getTrialCollectionId(), { refresh = false } = {}) {
+  const cleanId = String(collectionId || getTrialCollectionId()).trim();
+  const now = Date.now();
+  const cache = readCollectionDiskCache();
+  const cachedEntry = cache[cleanId];
+
+  // 60s memory / fresh cache TTL
+  if (!refresh && cachedEntry && Array.isArray(cachedEntry.ids) && cachedEntry.ids.length > 0 && now - cachedEntry.time < 60000) {
+    return cachedEntry.ids;
+  }
+
+  // If in Zoho rate limit cooldown, serve disk cache
+  if (now < zohoRateLimitUntil) {
+    if (cachedEntry?.ids?.length) return cachedEntry.ids;
+  }
+
+  try {
+    const { dc, orgId } = getZohoConfig();
+    const ids = [];
+    let page = 1;
+    let hasMore = true;
+
+    while (hasMore) {
+      const url = `https://commerce.zoho.${dc}/store/api/v1/products?collection_id=${cleanId}&page=${page}&per_page=200`;
+      const res = await fetchZohoWithRetry(url, {
+        headers: { "X-com-zoho-store-organizationid": orgId },
+      });
+
+      if (res.status === 429) {
+        console.warn("[collectionSync] Zoho API rate limit 429 encountered.");
+        zohoRateLimitUntil = Date.now() + 15 * 60 * 1000;
+        break;
+      }
+
+      if (!res.ok) break;
+
+      const data = await res.json();
+      const batch = data.products || [];
+      for (const p of batch) {
+        const pid = String(p.product_id || p.id);
+        if (pid && !ids.includes(pid)) ids.push(pid);
+      }
+
+      hasMore = Boolean(data.page_context?.has_more_page);
+      page += 1;
+      if (page > 10) break;
+    }
+
+    if (ids.length > 0 || (cachedEntry && cachedEntry.ids?.length === 0)) {
+      writeCollectionDiskCache(cleanId, ids);
+      return ids;
+    }
+
+    if (cachedEntry?.ids) return cachedEntry.ids;
+    return [];
+  } catch (err) {
+    console.warn(`[collectionSync] Error fetching products for collection ${cleanId}:`, err.message);
+    if (cachedEntry?.ids) return cachedEntry.ids;
+    return [];
+  }
+}
+
 const localProductsCacheFile = path.resolve(process.cwd(), ".products_cache.json");
 const tmpProductsCacheFile = path.resolve(os.tmpdir(), "webstore_products_cache.json");
 
@@ -249,6 +355,14 @@ export async function syncRecentProductTags({ limit = 5, force = false } = {}) {
               updatedAt: Date.now(),
             };
             changed = true;
+
+            // Live Double Sync: also update product detail cache for modified product
+            try {
+              const liveRates = await fetchResolvedPricebookRates("3334672000000547177");
+              const normalized = normalizeProduct(d.product, liveRates);
+              writeProductDetailDiskCache(id, normalized);
+              if (normalized.slug) writeProductDetailDiskCache(normalized.slug, normalized);
+            } catch {}
           } catch (err) {
             console.warn(`[tagSync] failed fetching detail for ${id}:`, err.message);
           }
@@ -257,6 +371,9 @@ export async function syncRecentProductTags({ limit = 5, force = false } = {}) {
 
       if (changed) {
         writeTagCache(cache);
+        // Invalidate in-memory catalogue caches so modified products reflect immediately
+        cachedAllRawProducts = null;
+        cachedProductsByPricebook.clear();
       }
       lastTagSyncTime = Date.now();
       return cache;
@@ -635,7 +752,7 @@ export async function fetchResolvedPricebookRates(pricebookId = "333467200000054
 
 const cachedProductDetails = new Map();
 
-function normalizeProduct(p, livePricebookRates = {}) {
+export function normalizeProduct(p, livePricebookRates = {}) {
   const variant = p.variants?.[0] || {};
   const docs = p.documents?.length ? p.documents : (variant.documents || []);
   const primaryDoc = docs[0] || (p.document_id && p.document_name ? { file_name: p.document_name, document_id: p.document_id } : null);
@@ -657,9 +774,21 @@ function normalizeProduct(p, livePricebookRates = {}) {
   const catName = p.category_name || p.category?.category_name || "Appliances";
   const catKey = slugifyCategory(catName);
 
-  // Extract size (e.g. 60 cm, 90 cm)
-  const sizeMatch = p.name.match(/(\d+)\s*(?:cm|CM)/);
-  const size = sizeMatch ? `${sizeMatch[1]} cm` : "";
+  // Extract size (e.g. 60 cm, 75 cm, 90 cm, cookers 3 L)
+  const isChimney = catKey === "chimneys" || /chimney/i.test(p.name);
+  let size = "";
+  if (isChimney) {
+    const chimneySizeMatch = p.name.match(/\b(60|75|90)\b/i);
+    if (chimneySizeMatch) size = `${chimneySizeMatch[1]} CM`;
+  }
+  if (!size) {
+    const sizeMatch = p.name.match(/(\d+)\s*(?:cm|CM)/i);
+    if (sizeMatch) size = `${sizeMatch[1]} CM`;
+  }
+  if (!size && (catKey === "small_appliances" || /cooker|kettle/i.test(p.name))) {
+    const volMatch = p.name.match(/\b(\d+(?:\.\d+)?)\s*(?:litre|liter|ltr|l)\b/i);
+    if (volMatch) size = `${volMatch[1]} L`;
+  }
 
   // Extract burners (e.g. 2B, 3B, 4 Burner)
   const burnerMatch = p.name.match(/(\d+)\s*(?:B\b|Burner)/i);
@@ -878,14 +1007,50 @@ function normalizeProduct(p, livePricebookRates = {}) {
   // Live dealer rate directly from Zoho Commerce Pricebook API
   const dealerRate = livePricebookRates[p.product_id] ?? null;
 
+  // 5. SKU & HSN Code
+  const sku = (variant.sku || p.sku || "").toString().trim() || null;
+  const hsnCode = (variant.hsn_or_sac || p.hsn_or_sac || "").toString().trim() || null;
+
+  // 6. Fulfillment details (dimensions & weight)
+  const rawPkg = variant.package_details || p.package_details || null;
+  let fulfillment = null;
+  if (rawPkg && typeof rawPkg === "object") {
+    const l = rawPkg.length !== "" && rawPkg.length !== undefined && rawPkg.length !== null ? Number(rawPkg.length) : null;
+    const w = rawPkg.width !== "" && rawPkg.width !== undefined && rawPkg.width !== null ? Number(rawPkg.width) : null;
+    const h = rawPkg.height !== "" && rawPkg.height !== undefined && rawPkg.height !== null ? Number(rawPkg.height) : null;
+    const wt = rawPkg.weight !== "" && rawPkg.weight !== undefined && rawPkg.weight !== null ? Number(rawPkg.weight) : null;
+    const dimUnit = (rawPkg.dimension_unit || "cm").trim();
+    const wtUnit = (rawPkg.weight_unit || "kg").trim();
+    const formattedDimensions = (l && w && h) ? `${l} × ${w} × ${h} ${dimUnit}` : "";
+    const formattedWeight = wt ? `${wt} ${wtUnit}` : "";
+
+    if (l || w || h || wt) {
+      fulfillment = {
+        length: l,
+        width: w,
+        height: h,
+        dimensionUnit: dimUnit,
+        weight: wt,
+        weightUnit: wtUnit,
+        formattedDimensions,
+        formattedWeight,
+      };
+    }
+  }
+
   return {
     id: p.product_id,
     slug: slugifyProduct(name) || slugifyProduct(p.name),
     name,
     model,
     zohoTitle,
+    sku,
+    hsnCode,
+    fulfillment,
+    packageDetails: fulfillment,
     shortDescription: rawShortDesc,
     size,
+    motorType: (features.includes("BLDC Motor") || lowerName.includes("bldc")) ? "BLDC" : "",
     burners,
     finish,
     fkey,
@@ -1101,8 +1266,8 @@ let allRawProductsCacheTime = 0;
 
 export async function fetchAllRawZohoProducts({ refresh = false } = {}) {
   const now = Date.now();
-  // 10-minute memory cache to stay well within Zoho's 5,000 requests/day limit
-  if (!refresh && cachedAllRawProducts && cachedAllRawProducts.length > 0 && now - allRawProductsCacheTime < 600000) {
+  // 60-second memory cache to stay fresh while respecting Zoho limits
+  if (!refresh && cachedAllRawProducts && cachedAllRawProducts.length > 0 && now - allRawProductsCacheTime < 60000) {
     return cachedAllRawProducts;
   }
 
@@ -1204,15 +1369,17 @@ export async function fetchZohoProducts({ refresh = false, pricebookId = "333467
   const now = Date.now();
 
   const cachedEntry = cachedProductsByPricebook.get(pbId);
-  if (!refresh && cachedEntry && cachedEntry.products?.length > 0 && now - cachedEntry.time < 120000) {
+  if (!refresh && cachedEntry && cachedEntry.products?.length > 0 && now - cachedEntry.time < 60000) {
     return cachedEntry.products;
   }
 
-  // 1. Fetch raw products and category visibility map in parallel
-  const [{ map: categoryMap, categoryByName }, allProducts, livePricebookRates] = await Promise.all([
+  // 1. Fetch raw products, category visibility map, and trial collection product IDs in parallel
+  const trialColId = getTrialCollectionId();
+  const [{ map: categoryMap, categoryByName }, allProducts, livePricebookRates, trialProductIds] = await Promise.all([
     getCategoryVisibilityMap({ refresh }),
     fetchAllRawZohoProducts({ refresh }),
     fetchZohoPricebookItems(pbId, { refresh }),
+    fetchZohoCollectionProductIds(trialColId, { refresh }).catch(() => []),
   ]);
 
   if (!allProducts || allProducts.length === 0) {
@@ -1224,10 +1391,12 @@ export async function fetchZohoProducts({ refresh = false, pricebookId = "333467
     }
   }
 
-  // 2. Filter active, visible products belonging to online categories (strictly excluding banners, schemes & logos)
-  const activeProducts = allProducts.filter(
-    (p) => !isBannerItem(p) && !isSchemeItem(p) && !isLogoItem(p) && isItemOnline(p, categoryMap, categoryByName)
-  );
+  // 2. Filter active, visible products belonging to online categories (strictly excluding banners, schemes & logos, but ensuring collection items are included)
+  const activeProducts = allProducts.filter((p) => {
+    const pid = String(p.product_id || p.id);
+    if (trialProductIds.includes(pid)) return true;
+    return !isBannerItem(p) && !isSchemeItem(p) && !isLogoItem(p) && isItemOnline(p, categoryMap, categoryByName);
+  });
 
   const listToNormalize = activeProducts.length > 0 ? activeProducts : allProducts;
 
@@ -1240,6 +1409,14 @@ export async function fetchZohoProducts({ refresh = false, pricebookId = "333467
       item = { ...p, dealerRate: rate };
     } else {
       item = normalizeProduct(p, livePricebookRates);
+    }
+    const pid = String(item.id || p.product_id || p.id);
+    const trialIndex = trialProductIds.indexOf(pid);
+    if (trialIndex !== -1) {
+      item.isTrial = true;
+      item.trialOrder = trialIndex;
+      if (!Array.isArray(item.collections)) item.collections = [];
+      if (!item.collections.includes("trial")) item.collections.push("trial");
     }
     const cachedDetail = detailCache[item.id]?.product || detailCache[item.slug]?.product;
     if (cachedDetail) {
@@ -1260,6 +1437,16 @@ export async function fetchZohoProducts({ refresh = false, pricebookId = "333467
       }
       if (cachedDetail.extraFields?.length && (!item.extraFields || item.extraFields.length === 0)) {
         item.extraFields = cachedDetail.extraFields;
+      }
+      if (cachedDetail.fulfillment && !item.fulfillment) {
+        item.fulfillment = cachedDetail.fulfillment;
+        item.packageDetails = cachedDetail.fulfillment;
+      }
+      if (cachedDetail.hsnCode && !item.hsnCode) {
+        item.hsnCode = cachedDetail.hsnCode;
+      }
+      if (cachedDetail.sku && !item.sku) {
+        item.sku = cachedDetail.sku;
       }
     }
     return item;
@@ -1292,10 +1479,13 @@ export async function fetchZohoProductById(identifier, { refresh = false, priceb
     return hasSpecs || hasOverview || hasVideos;
   };
 
-  // 1. Check persistent details disk cache first (instant response if complete)
+  const DETAIL_CACHE_TTL_MS = 30 * 1000; // 30s fresh cache TTL for live Zoho sync
+
+  // 1. Check persistent details disk cache first (only return if fresh < 30s)
   const diskDetails = readProductDetailsDiskCache();
-  if (!refresh && (diskDetails[clean]?.product || (slugifiedClean && diskDetails[slugifiedClean]?.product))) {
-    const cachedProd = diskDetails[clean]?.product || diskDetails[slugifiedClean]?.product;
+  const cachedEntry = diskDetails[clean] || (slugifiedClean ? diskDetails[slugifiedClean] : null);
+  if (!refresh && cachedEntry?.product && cachedEntry?.time && now - cachedEntry.time < DETAIL_CACHE_TTL_MS) {
+    const cachedProd = cachedEntry.product;
     if (isCompleteProduct(cachedProd)) {
       const liveRates = await fetchResolvedPricebookRates(pbId, { refresh });
       const targetKey = cachedProd.id || clean;
@@ -1326,23 +1516,26 @@ export async function fetchZohoProductById(identifier, { refresh = false, priceb
     return null;
   }
 
-  // 3. Check memory & disk detail cache for targetId
+  // 3. Check memory & disk detail cache for targetId (only if fresh < 30s)
   const detailCacheKey = `${targetId}:${pbId}`;
   if (refresh) cachedProductDetails.delete(detailCacheKey);
   const cachedDetail = cachedProductDetails.get(detailCacheKey);
-  if (!refresh && cachedDetail && now - cachedDetail.time < 600000 && isCompleteProduct(cachedDetail.product)) {
+  if (!refresh && cachedDetail && now - cachedDetail.time < DETAIL_CACHE_TTL_MS && isCompleteProduct(cachedDetail.product)) {
     return cachedDetail.product;
   }
-  if (!refresh && diskDetails[targetId]?.product && isCompleteProduct(diskDetails[targetId].product)) {
-    const cachedProd = diskDetails[targetId].product;
+  const cachedTargetEntry = diskDetails[targetId];
+  if (!refresh && cachedTargetEntry?.product && cachedTargetEntry?.time && now - cachedTargetEntry.time < DETAIL_CACHE_TTL_MS && isCompleteProduct(cachedTargetEntry.product)) {
+    const cachedProd = cachedTargetEntry.product;
     const liveRates = await fetchResolvedPricebookRates(pbId, { refresh });
     const resolvedRate = liveRates[targetId] ?? null;
     return { ...cachedProd, dealerRate: resolvedRate };
   }
 
-  // 4. If currently rate-limited by Zoho, return catalog match instead of failing
-  if (now < zohoRateLimitUntil && match) {
-    return match;
+  // 4. If currently rate-limited by Zoho, return cached entry or catalog match
+  if (now < zohoRateLimitUntil) {
+    if (cachedEntry?.product) return cachedEntry.product;
+    if (cachedTargetEntry?.product) return cachedTargetEntry.product;
+    if (match) return match;
   }
 
   const { dc, orgId } = getZohoConfig();
@@ -1386,6 +1579,8 @@ export async function fetchZohoProductById(identifier, { refresh = false, priceb
     return product;
   } catch (err) {
     console.warn(`[fetchZohoProductById] Network/parse error for ${targetId}:`, err.message);
+    if (cachedEntry?.product) return cachedEntry.product;
+    if (cachedTargetEntry?.product) return cachedTargetEntry.product;
     return match || null;
   }
 }
@@ -1407,11 +1602,23 @@ export async function syncProductDetailsPool({ batchSize = 10, force = false, de
     return hasSpecs || hasOverview || hasVideos;
   };
 
+  const trialColId = getTrialCollectionId();
+  const trialProductIds = await fetchZohoCollectionProductIds(trialColId).catch(() => []);
+
   const candidates = all.filter((p) => {
     const id = p.product_id || p.id;
     if (force) return true;
     const existing = diskDetails[id]?.product;
     return !existing || !isCompleteProduct(existing);
+  });
+
+  // Prioritize trial collection items
+  candidates.sort((a, b) => {
+    const aTrial = trialProductIds.includes(String(a.product_id || a.id));
+    const bTrial = trialProductIds.includes(String(b.product_id || b.id));
+    if (aTrial && !bTrial) return -1;
+    if (!aTrial && bTrial) return 1;
+    return 0;
   });
 
   const batch = candidates.slice(0, batchSize);

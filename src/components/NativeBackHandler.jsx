@@ -52,7 +52,15 @@ export default function NativeBackHandler() {
             return;
           }
 
-          // 4. Close product filter drawer if open
+          // 4. Close product filter sheet or drawer if open
+          const filterSheet = document.querySelector(".filters-sheet");
+          if (filterSheet) {
+            const sheetBackOrClose = filterSheet.querySelector(".sheet-back-btn, .sheet-close-btn");
+            if (sheetBackOrClose) {
+              sheetBackOrClose.click();
+              return;
+            }
+          }
           const filterAside = document.querySelector("aside.filters[data-open='true']");
           if (filterAside) {
             const filterBtn = document.querySelector(".icon-btn.filter-btn");

@@ -3,7 +3,7 @@ import { Link, useNavigate, Navigate } from "react-router-dom";
 import { useSession, revalidateSession, signOut } from "../data/session";
 import {
   hasSession,
-  staffInvite, staffList, staffApprove, staffHold, staffResume, staffRevoke, staffDelete,
+  staffList, staffApprove, staffHold, staffResume, staffRevoke, staffDelete,
   staffTogglePrice, staffTogglePriceAll,
   syncDealerWithCrm,
 } from "../data/auth";
@@ -15,12 +15,9 @@ export default function DealerDashboard() {
   const navigate = useNavigate();
   const s = useSession();
   const [staff, setStaff] = useState([]);
-  const [invite, setInvite] = useState(null);
   const [error, setError] = useState("");
   const [busy, setBusy] = useState(false);
   const [copiedDealerCode, setCopiedDealerCode] = useState(false);
-  const [copiedInviteLink, setCopiedInviteLink] = useState(false);
-  const [copiedInviteCode, setCopiedInviteCode] = useState(false);
   const [actionSuccessMsg, setActionSuccessMsg] = useState("");
   const [activeTab, setActiveTab] = useState("workspace"); // 'workspace' | 'staff'
   const [filter, setFilter] = useState("all"); // 'all' | 'pending' | 'active' | 'hold'
@@ -57,19 +54,6 @@ export default function DealerDashboard() {
     }, 10000);
     return () => clearInterval(interval);
   }, []);
-
-  const generateInvite = async () => {
-    setBusy(true);
-    setError("");
-    try {
-      setInvite(await staffInvite());
-      await loadStaff();
-    } catch (err) {
-      setError(err.message);
-    } finally {
-      setBusy(false);
-    }
-  };
 
   const act = async (fn, userId, successText) => {
     setBusy(true);
@@ -156,34 +140,11 @@ export default function DealerDashboard() {
     }
   };
 
-  const copyCode = async () => {
-    if (!invite?.code) return;
-    try {
-      await navigator.clipboard.writeText(invite.code);
-      setCopiedInviteCode(true);
-      setTimeout(() => setCopiedInviteCode(false), 2000);
-    } catch {
-      /* clipboard blocked */
-    }
-  };
-
   const copyDealerCode = async (code) => {
     try {
       await navigator.clipboard.writeText(code);
       setCopiedDealerCode(true);
       setTimeout(() => setCopiedDealerCode(false), 2000);
-    } catch {
-      /* clipboard blocked */
-    }
-  };
-
-  const copyDirectInviteLink = async () => {
-    const code = s.dealer?.dealer_code || "";
-    const link = `${window.location.origin}/login?code=${encodeURIComponent(code)}`;
-    try {
-      await navigator.clipboard.writeText(link);
-      setCopiedInviteLink(true);
-      setTimeout(() => setCopiedInviteLink(false), 2000);
     } catch {
       /* clipboard blocked */
     }
@@ -237,7 +198,6 @@ export default function DealerDashboard() {
 
   const storeInitial = (s.dealer?.name || "O").charAt(0).toUpperCase();
   const dealerCode = s.dealer?.dealer_code || "DE-BKV-8180";
-  const directLink = `${window.location.origin}/login?code=${encodeURIComponent(dealerCode)}`;
 
   return (
     <div className="dealer-ws-page">
@@ -526,8 +486,8 @@ export default function DealerDashboard() {
                 </div>
                 <div className="dealer-hub-body">
                   <h4 className="dealer-hub-title">Invite Staff</h4>
-                  <p className="dealer-hub-stat">Instant Passes</p>
-                  <p className="dealer-hub-desc">Onboarding passes &amp; link</p>
+                  <p className="dealer-hub-stat">Store Code</p>
+                  <p className="dealer-hub-desc">Add staff via Store Code</p>
                 </div>
               </button>
 
@@ -574,58 +534,6 @@ export default function DealerDashboard() {
                 </div>
               </button>
             </div>
-
-            {/* Temporary 7-Day Invite Code Backup card */}
-            <section className="dealer-temp-invite-card">
-              <div style={{ display: "flex", alignItems: "center", gap: 10, minWidth: 0 }}>
-                <div
-                  style={{
-                    width: 40,
-                    height: 40,
-                    borderRadius: 10,
-                    backgroundColor: "#eceef1",
-                    display: "flex",
-                    alignItems: "center",
-                    justifyContent: "center",
-                    color: "#001021",
-                    flexShrink: 0,
-                  }}
-                >
-                  <span className="material-symbols-outlined" style={{ fontSize: 20 }}>timer</span>
-                </div>
-                <div style={{ minWidth: 0 }}>
-                  <h4 style={{ fontSize: 14, fontWeight: 600, color: "#001021", margin: 0 }}>
-                    Temporary 7-Day Invite
-                  </h4>
-                  <p style={{ fontSize: 13, color: "#43474c", margin: "2px 0 0" }}>
-                    {invite?.code ? `Pass Code: ${invite.code}` : "For provisional counter relief staff"}
-                  </p>
-                </div>
-              </div>
-
-              {!invite ? (
-                <button
-                  type="button"
-                  className="dealer-temp-btn"
-                  onClick={generateInvite}
-                  disabled={busy}
-                >
-                  <span className="material-symbols-outlined" style={{ fontSize: 18 }}>bolt</span>
-                  <span>Generate</span>
-                </button>
-              ) : (
-                <button
-                  type="button"
-                  className="dealer-temp-btn"
-                  onClick={copyCode}
-                >
-                  <span className="material-symbols-outlined" style={{ fontSize: 18 }}>
-                    {copiedInviteCode ? "check" : "content_copy"}
-                  </span>
-                  <span>{copiedInviteCode ? "Copied" : "Copy"}</span>
-                </button>
-              )}
-            </section>
           </div>
         )}
 
@@ -687,7 +595,7 @@ export default function DealerDashboard() {
                     onClick={() => setActiveModal("invite")}
                   >
                     <span className="material-symbols-outlined" style={{ fontSize: 16 }}>person_add</span>
-                    <span>Send Invite Link</span>
+                    <span>Invite via Store Code</span>
                   </button>
                 </div>
               </div>
@@ -874,9 +782,9 @@ export default function DealerDashboard() {
           <div className="dealer-modal-card" onClick={(e) => e.stopPropagation()}>
             <div className="dealer-modal-header">
               <div>
-                <h3 className="dealer-modal-title">Invite Store Staff</h3>
+                <h3 className="dealer-modal-title">Invite Staff Member</h3>
                 <p className="dealer-modal-subtitle">
-                  Share your official Store Code or direct onboarding link with your sales team.
+                  Share your official Store Code with staff to register.
                 </p>
               </div>
               <button
@@ -908,85 +816,27 @@ export default function DealerDashboard() {
               </button>
             </div>
 
-            {/* Direct Link Card */}
-            <div style={{ display: "flex", flexDirection: "column", gap: 6 }}>
-              <label style={{ fontSize: 12, fontWeight: 700, color: "#43474c", textTransform: "uppercase" }}>
-                Direct Registration Link
-              </label>
-              <div style={{ display: "flex", gap: 8 }}>
-                <input
-                  type="text"
-                  readOnly
-                  value={directLink}
-                  style={{
-                    flex: 1,
-                    padding: "8px 12px",
-                    borderRadius: 8,
-                    border: "1px solid #c4c6cd",
-                    fontSize: 13,
-                    backgroundColor: "#f2f4f7",
-                    color: "#001021",
-                  }}
-                />
-                <button
-                  type="button"
-                  className="dealer-copy-btn"
-                  onClick={copyDirectInviteLink}
-                >
-                  <span className="material-symbols-outlined" style={{ fontSize: 16 }}>
-                    {copiedInviteLink ? "check" : "content_copy"}
-                  </span>
-                  <span>{copiedInviteLink ? "Copied" : "Copy"}</span>
-                </button>
-              </div>
-            </div>
-
-            {/* WhatsApp Share Button */}
+            {/* WhatsApp Share Button (Strictly Store Code, no registration links) */}
             <a
-              href={`https://wa.me/?text=${encodeURIComponent(`Join our store team on ReSTOR B2B. Use Store Code: ${dealerCode} or register directly: ${directLink}`)}`}
+              href={`https://wa.me/?text=${encodeURIComponent(`Store Code for Sunshine B2B Staff Registration: ${dealerCode}. Please enter this Store Code when registering your staff account.`)}`}
               target="_blank"
               rel="noreferrer"
               className="dealer-staff-btn-primary"
               style={{ backgroundColor: "#25D366", color: "#ffffff", textDecoration: "none" }}
             >
               <span className="material-symbols-outlined" style={{ fontSize: 18 }}>share</span>
-              <span>Share via WhatsApp</span>
+              <span>Share Store Code via WhatsApp</span>
             </a>
 
-            {/* Temporary 7-Day Single-Use Pass */}
-            <div style={{ borderTop: "1px solid #eceef1", paddingTop: 12 }}>
-              <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
-                <div>
-                  <h4 style={{ fontSize: 13, fontWeight: 700, color: "#001021", margin: 0 }}>
-                    Temporary 7-Day Pass
-                  </h4>
-                  <p style={{ fontSize: 12, color: "#43474c", margin: "2px 0 0" }}>
-                    Single-use code for temporary relief staff
-                  </p>
-                </div>
-                {!invite ? (
-                  <button
-                    type="button"
-                    className="dealer-temp-btn"
-                    onClick={generateInvite}
-                    disabled={busy}
-                  >
-                    <span className="material-symbols-outlined" style={{ fontSize: 16 }}>bolt</span>
-                    <span>Generate</span>
-                  </button>
-                ) : (
-                  <button
-                    type="button"
-                    className="dealer-temp-btn"
-                    onClick={copyCode}
-                  >
-                    <span className="material-symbols-outlined" style={{ fontSize: 16 }}>
-                      {copiedInviteCode ? "check" : "content_copy"}
-                    </span>
-                    <span>{copiedInviteCode ? "Copied" : invite.code}</span>
-                  </button>
-                )}
+            {/* Audit & Security Protocol Guidance */}
+            <div style={{ backgroundColor: "#f8fafc", borderRadius: 10, padding: "12px 14px", border: "1px solid #e2e8f0" }}>
+              <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 4 }}>
+                <span className="material-symbols-outlined" style={{ fontSize: 18, color: "#001021" }}>verified_user</span>
+                <span style={{ fontSize: 13, fontWeight: 700, color: "#001021" }}>Audit &amp; Security Protocol</span>
               </div>
+              <p style={{ fontSize: 12, color: "#475569", margin: 0, lineHeight: 1.5 }}>
+                Staff members register exclusively using your official Store Code. No bypass links or temporary relief passes are permitted. All registrations require your manual review and approval under <strong>Pending Approvals</strong> before granting access to wholesale rates.
+              </p>
             </div>
           </div>
         </div>

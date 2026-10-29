@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **Managing accounts** (6 connections) — `.agents/skills/apple-design/references/hig/managing-accounts.md`
-- **managing-accounts.md** (1 connections) — `.agents/skills/apple-design/references/hig/managing-accounts.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/managing-accounts.md`
-- **Deleting accounts** (1 connections) — `.agents/skills/apple-design/references/hig/managing-accounts.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/managing-accounts.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/managing-accounts.md`
-- **TV provider accounts** (1 connections) — `.agents/skills/apple-design/references/hig/managing-accounts.md`
+- **Popovers** (4 connections) — `.agents/skills/apple-design/references/hig/popovers.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/popovers.md`
+- **popovers.md** (1 connections) — `.agents/skills/apple-design/references/hig/popovers.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/popovers.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/popovers.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/popovers.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/popovers.md`
 
 ## Relationships
 
@@ -18,7 +18,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/managing-accounts.md`
+- `.agents/skills/apple-design/references/hig/popovers.md`
 
 ## Audit Trail
 

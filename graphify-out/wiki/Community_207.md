@@ -1,31 +1,33 @@
 # Community 207
 
-> 10 nodes · cohesion 0.20
+> 10 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **entries** (4 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **legend** (4 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **properties** (3 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **mode** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **properties** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **renderBlock()** (11 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **renderAside()** (4 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **renderBlocks()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **renderTable()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **renderList()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **renderRow()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **renderTabs()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **renderTermList()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **resolveSpans()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **trimBlankEdges()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
 
 ## Relationships
 
-- [[Community 74]] (1 shared connections)
+- [[Community 77]] (10 shared connections)
+- [[Community 206]] (2 shared connections)
+- [[Community 278]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/sequence.schema.json`
+- `.agents/skills/apple-design/scripts/pull-hig.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 19 (100%)
+- EXTRACTED: 33 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,30 +1,31 @@
 # Community 251
 
-> 9 nodes · cohesion 0.22
+> 8 nodes · cohesion 0.43
 
 ## Key Concepts
 
-- **relationship-permalink.test.mjs** (8 connections) — `.agents/skills/archify/test/relationship-permalink.test.mjs`
-- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/relationship-permalink.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/relationship-permalink.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/relationship-permalink.test.mjs`
-- **fixture()** (1 connections) — `.agents/skills/archify/test/relationship-permalink.test.mjs`
-- **relationshipKey()** (1 connections) — `.agents/skills/archify/test/relationship-permalink.test.mjs`
-- **run()** (1 connections) — `.agents/skills/archify/test/relationship-permalink.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/relationship-permalink.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/relationship-permalink.test.mjs`
+- **download.js** (6 connections) — `api/download.js`
+- **handler()** (5 connections) — `api/download.js`
+- **ssrf.js** (5 connections) — `api/_lib/ssrf.js`
+- **validateSafeDownloadUrl()** (5 connections) — `api/_lib/ssrf.js`
+- **safeFetchWithRedirects()** (3 connections) — `api/download.js`
+- **isPrivateOrReservedIp()** (3 connections) — `api/_lib/ssrf.js`
+- **wrapJpegInPdf()** (2 connections) — `api/download.js`
+- **ALLOWED_REMOTE_HOSTS** (1 connections) — `api/_lib/ssrf.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 153]] (3 shared connections)
+- [[Pricing Regression Test Suite]] (3 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/relationship-permalink.test.mjs`
+- `api/_lib/ssrf.js`
+- `api/download.js`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 30 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

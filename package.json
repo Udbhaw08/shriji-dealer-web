@@ -10,7 +10,7 @@
     "watch:sync": "node scripts/watch-sync.mjs",
     "lint": "oxlint",
     "preview": "vite preview",
-    "test": "node scripts/verify-no-secrets.mjs && oxlint && node --test src/data/dealer.test.mjs && node src/data/pricing.test.mjs && node --test src/data/auth-session.test.mjs && node --test src/data/productsStore.test.mjs && node --test src/data/video-banner.test.mjs",
+    "test": "node scripts/verify-no-secrets.mjs && oxlint && node --test src/data/dealer.test.mjs && node src/data/pricing.test.mjs && node --test src/data/auth-session.test.mjs && node --test src/data/productsStore.test.mjs && node --test src/data/video-banner.test.mjs && node --test src/data/trial-collection.test.mjs && node --test src/data/filters.test.mjs",
     "check:secrets": "node scripts/verify-no-secrets.mjs",
     "docs": "node scripts/generate-codebase-doc.mjs",
     "graphify:update": "graphify update . && python scripts/build_wiki.py",
@@ -19,7 +19,8 @@
     "cap:ios": "cap open ios",
     "start:backend": "npm --prefix backend start",
     "build:backend": "npm --prefix backend install",
-    "reset:test-users": "node backend/scripts/reset-test-users.js"
+    "reset:test-users": "node backend/scripts/reset-test-users.js",
+    "sync:products": "node scripts/sync-all-product-details.mjs"
   },
   "dependencies": {
     "@capacitor/android": "^8.5.2",

@@ -1,51 +1,48 @@
 # Community 51
 
-> 30 nodes · cohesion 0.09
+> 29 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **check-update.mjs** (99 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **encodeRecoverableState()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **guardedCacheEntryRead()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **notification()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **operationIsActive()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **stateAfterFailedCheck()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **stateWithFailureCheck()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **assertSafeCacheEntry()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **cancelResponseBody()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **corruptClaimStatus()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **encodeBoundedState()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **eventKeyForDigest()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **metadataIsWithinLease()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **nextFailedCheck()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **readBoundedBody()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **stateAfterAcknowledgement()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **assertRenameableCacheEntry()** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **assertSafeRegularFile()** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **CacheOperationRaceError** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **CachePathChangedError** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **defaultCacheDirectory()** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **defaultReleasePath** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **FileIdentityChangedError** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **isMainModule()** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **MAX_CACHE_HORIZON_MS** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- *... and 5 more nodes in this community*
+- **AppDelegate** (10 connections) — `ios/App/App/AppDelegate.swift`
+- **.application()** (7 connections) — `ios/App/App/AppDelegate.swift`
+- **.scene()** (7 connections) — `ios/App/App/SceneDelegate.swift`
+- **UIApplication** (6 connections) — `ios/App/App/AppDelegate.swift`
+- **SceneDelegate** (5 connections) — `ios/App/App/SceneDelegate.swift`
+- **AppDelegate.swift** (3 connections) — `ios/App/App/AppDelegate.swift`
+- **SceneDelegate.swift** (3 connections) — `ios/App/App/SceneDelegate.swift`
+- **.applicationDidBecomeActive()** (2 connections) — `ios/App/App/AppDelegate.swift`
+- **.applicationDidEnterBackground()** (2 connections) — `ios/App/App/AppDelegate.swift`
+- **.applicationWillEnterForeground()** (2 connections) — `ios/App/App/AppDelegate.swift`
+- **.applicationWillResignActive()** (2 connections) — `ios/App/App/AppDelegate.swift`
+- **.applicationWillTerminate()** (2 connections) — `ios/App/App/AppDelegate.swift`
+- **Capacitor** (2 connections) — `ios/App/App/SceneDelegate.swift`
+- **UIWindow** (2 connections) — `ios/App/App/SceneDelegate.swift`
+- **UIKit** (2 connections) — `ios/App/App/SceneDelegate.swift`
+- **UIResponder** (2 connections)
+- **Any** (1 connections) — `ios/App/App/AppDelegate.swift`
+- **Bool** (1 connections) — `ios/App/App/AppDelegate.swift`
+- **UIScene** (1 connections) — `ios/App/App/AppDelegate.swift`
+- **UISceneSession** (1 connections) — `ios/App/App/AppDelegate.swift`
+- **UIWindow** (1 connections) — `ios/App/App/AppDelegate.swift`
+- **UIScene** (1 connections) — `ios/App/App/SceneDelegate.swift`
+- **UISceneSession** (1 connections) — `ios/App/App/SceneDelegate.swift`
+- **NSUserActivity** (1 connections) — `ios/App/App/SceneDelegate.swift`
+- **Set** (1 connections) — `ios/App/App/SceneDelegate.swift`
+- *... and 4 more nodes in this community*
 
 ## Relationships
 
-- [[Community 101]] (21 shared connections)
-- [[Community 115]] (19 shared connections)
-- [[Community 108]] (19 shared connections)
-- [[Community 66]] (16 shared connections)
-- [[Community 38]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/scripts/check-update.mjs`
+- `ios/App/App/AppDelegate.swift`
+- `ios/App/App/SceneDelegate.swift`
 
 ## Audit Trail
 
-- EXTRACTED: 152 (100%)
+- EXTRACTED: 72 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

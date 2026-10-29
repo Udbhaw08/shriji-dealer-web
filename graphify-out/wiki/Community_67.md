@@ -1,59 +1,52 @@
 # Community 67
 
-> 25 nodes · cohesion 0.15
+> 24 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **workflow-compiler.mjs** (102 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **textUnits()** (33 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
-- **minimumNodeTextWidth()** (12 connections) — `.agents/skills/archify/renderers/shared/text-fit.mjs`
-- **createReadableLayout()** (12 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **text-fit.mjs** (11 connections) — `.agents/skills/archify/renderers/shared/text-fit.mjs`
-- **readableGroupBounds()** (5 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **authoredNodeWidth()** (4 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **compileWorkflowWithFeedback()** (4 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **authoredNodeHeight()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **compilerFailure()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **feedbackFailure()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **nodeWidthContributor()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **verticalIntervalsOverlap()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **workflowLabelWidth()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **createLegacyLayout()** (2 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **stableCompare()** (2 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **stableText()** (2 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **stableValueKey()** (2 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **workflowEdgeName()** (2 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **WorkflowLayoutFeedback** (2 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **nodeTextFit** (1 connections) — `.agents/skills/archify/renderers/shared/text-fit.mjs`
-- **cloneWorkflow()** (1 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **LEGACY_COLUMN_CENTERS** (1 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **READABLE_CANDIDATE_COST_PRIORITY** (1 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **.constructor()** (1 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **intent-trace-browser.test.mjs** (15 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **semantic-lens-browser.test.mjs** (14 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **desktop-browser.mjs** (8 connections) — `.agents/skills/archify/test/helpers/desktop-browser.mjs`
+- **run()** (6 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **run()** (6 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **desktopBrowser()** (5 connections) — `.agents/skills/archify/test/helpers/desktop-browser.mjs`
+- **desktopPointerCheck()** (5 connections) — `.agents/skills/archify/test/helpers/desktop-browser.mjs`
+- **load()** (4 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **point()** (4 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **point()** (4 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **click()** (3 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **media()** (3 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **move()** (3 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **click()** (3 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **load()** (3 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **move()** (3 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **afterTimer()** (2 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **key()** (2 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **snapshot()** (2 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **hash()** (2 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **key()** (2 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **snapshot()** (2 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
 
 ## Relationships
 
-- [[Zoho Backend & Proxy Endpoints]] (48 shared connections)
-- [[Oxlint Linter Configuration]] (20 shared connections)
-- [[Pricing Regression Test Suite]] (11 shared connections)
-- [[Community 87]] (11 shared connections)
-- [[Community 54]] (10 shared connections)
-- [[Community 45]] (8 shared connections)
-- [[Product Requirements Documentation]] (8 shared connections)
-- [[Community 138]] (4 shared connections)
-- [[Community 302]] (4 shared connections)
-- [[Testing & Workflow Skill]] (2 shared connections)
-- [[Community 294]] (1 shared connections)
-- [[Community 157]] (1 shared connections)
+- [[Community 55]] (11 shared connections)
+- [[Community 45]] (3 shared connections)
+- [[Community 149]] (3 shared connections)
+- [[Community 150]] (3 shared connections)
+- [[Community 130]] (2 shared connections)
+- [[Community 85]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/shared/text-fit.mjs`
-- `.agents/skills/archify/renderers/shared/utils.mjs`
-- `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- `.agents/skills/archify/test/helpers/desktop-browser.mjs`
+- `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 218 (100%)
+- EXTRACTED: 103 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

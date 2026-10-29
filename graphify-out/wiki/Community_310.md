@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **Live-viewing apps** (6 connections) — `.agents/skills/apple-design/references/hig/live-viewing-apps.md`
-- **live-viewing-apps.md** (1 connections) — `.agents/skills/apple-design/references/hig/live-viewing-apps.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/live-viewing-apps.md`
-- **Cloud DVR** (1 connections) — `.agents/skills/apple-design/references/hig/live-viewing-apps.md`
-- **EPG experience** (1 connections) — `.agents/skills/apple-design/references/hig/live-viewing-apps.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/live-viewing-apps.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/live-viewing-apps.md`
+- **Managing notifications** (6 connections) — `.agents/skills/apple-design/references/hig/managing-notifications.md`
+- **managing-notifications.md** (1 connections) — `.agents/skills/apple-design/references/hig/managing-notifications.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/managing-notifications.md`
+- **Integrating with Focus** (1 connections) — `.agents/skills/apple-design/references/hig/managing-notifications.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/managing-notifications.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/managing-notifications.md`
+- **Sending marketing notifications** (1 connections) — `.agents/skills/apple-design/references/hig/managing-notifications.md`
 
 ## Relationships
 
@@ -18,7 +18,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/live-viewing-apps.md`
+- `.agents/skills/apple-design/references/hig/managing-notifications.md`
 
 ## Audit Trail
 

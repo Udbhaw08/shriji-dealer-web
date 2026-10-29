@@ -1,7 +1,6 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { Link, useParams, useSearchParams, useNavigate } from "react-router-dom";
 import { useProducts } from "../data/productsStore";
-import { COMPANY } from "../data/site";
 import { registerDealer, shareLink, viewerFor, inr, priceFor, slugifyProduct } from "../data/dealer";
 import { useSession } from "../data/session";
 import { Icon } from "../ui";
@@ -19,21 +18,29 @@ import { parseVideoUrl } from "../utils/video";
 
 
 const productDetailsMemoryCache = new Map();
+const CLIENT_DETAIL_TTL_MS = 30 * 1000; // 30s client TTL for live reflection of Zoho edits
 
 function getCachedProductDetail(key) {
   if (!key) return null;
   const clean = String(key).trim();
   const slugified = slugifyProduct(clean);
-  if (productDetailsMemoryCache.has(clean)) return productDetailsMemoryCache.get(clean);
-  if (slugified && productDetailsMemoryCache.has(slugified)) return productDetailsMemoryCache.get(slugified);
+  const now = Date.now();
+  if (productDetailsMemoryCache.has(clean)) {
+    const entry = productDetailsMemoryCache.get(clean);
+    if (entry?.product && entry?.time && now - entry.time < CLIENT_DETAIL_TTL_MS) return entry.product;
+  }
+  if (slugified && productDetailsMemoryCache.has(slugified)) {
+    const entry = productDetailsMemoryCache.get(slugified);
+    if (entry?.product && entry?.time && now - entry.time < CLIENT_DETAIL_TTL_MS) return entry.product;
+  }
   try {
     const raw = sessionStorage.getItem(`shriji.prod_detail.${clean}`) || (slugified ? sessionStorage.getItem(`shriji.prod_detail.${slugified}`) : null);
     if (raw) {
       const data = JSON.parse(raw);
-      if (data && data.id) {
-        productDetailsMemoryCache.set(clean, data);
-        if (data.slug) productDetailsMemoryCache.set(data.slug, data);
-        return data;
+      const prod = data.product || data;
+      const cachedTime = data.time || 0;
+      if (prod && prod.id && (!cachedTime || now - cachedTime < CLIENT_DETAIL_TTL_MS)) {
+        return prod;
       }
     }
   } catch {}
@@ -44,13 +51,15 @@ function setCachedProductDetail(key, product) {
   if (!key || !product) return;
   const clean = String(key).trim();
   const slugified = slugifyProduct(clean);
-  productDetailsMemoryCache.set(clean, product);
-  if (slugified) productDetailsMemoryCache.set(slugified, product);
-  if (product.id) productDetailsMemoryCache.set(String(product.id), product);
-  if (product.slug) productDetailsMemoryCache.set(product.slug, product);
+  const entry = { product, time: Date.now() };
+  productDetailsMemoryCache.set(clean, entry);
+  if (slugified) productDetailsMemoryCache.set(slugified, entry);
+  if (product.id) productDetailsMemoryCache.set(String(product.id), entry);
+  if (product.slug) productDetailsMemoryCache.set(product.slug, entry);
   try {
-    sessionStorage.setItem(`shriji.prod_detail.${clean}`, JSON.stringify(product));
-    if (product.slug) sessionStorage.setItem(`shriji.prod_detail.${product.slug}`, JSON.stringify(product));
+    const payload = JSON.stringify(entry);
+    sessionStorage.setItem(`shriji.prod_detail.${clean}`, payload);
+    if (product.slug) sessionStorage.setItem(`shriji.prod_detail.${product.slug}`, payload);
   } catch {}
 }
 
@@ -65,6 +74,10 @@ export default function Product() {
   const pid = params.get("pid");
   const lookupKey = pid || id;
   const [fetchedProduct, setFetchedProduct] = useState(() => getCachedProductDetail(lookupKey));
+  const [isPriceFetching, setIsPriceFetching] = useState(() => {
+    const cached = getCachedProductDetail(lookupKey);
+    return !cached || typeof cached.dealerRate !== "number";
+  });
   const { isFavorite, toggleFavorite } = useFavorites();
 
   const handleBack = () => {
@@ -79,6 +92,10 @@ export default function Product() {
 
   useEffect(() => {
     if (lookupKey) {
+      const cached = getCachedProductDetail(lookupKey);
+      if (!cached || typeof cached.dealerRate !== "number") {
+        setIsPriceFetching(true);
+      }
       const targetPb = canSeePrice ? (session?.dealer?.pricebookId || session?.dealer?.price_tier || "") : "";
       const pbParam = targetPb ? `?pricebook_id=${encodeURIComponent(targetPb)}` : "";
       const token = typeof getAccessToken === "function" ? getAccessToken() : null;
@@ -91,7 +108,10 @@ export default function Product() {
             setFetchedProduct(data.product);
           }
         })
-        .catch(() => {});
+        .catch(() => {})
+        .finally(() => {
+          setIsPriceFetching(false);
+        });
     }
   }, [id, pid, lookupKey, session?.userId, session?.dealer?.pricebookId, session?.dealer?.price_tier, canSeePrice]);
 
@@ -147,38 +167,8 @@ export default function Product() {
         val: tile.text,
       }));
     }
-    return [
-      (p.finish && p.finish !== "Standard" ? p.finish : (p.fkey === "glass" ? "Matte Toughened Glass" : (p.fkey === "steel" ? "Stainless Steel" : null))) && {
-        key: "finish",
-        icon: "layers",
-        sub: "Body Quality",
-        val: p.finish || (p.fkey === "glass" ? "Matte Toughened Glass" : "Stainless Steel")
-      },
-      p.customFields?.warranty && {
-        key: "warranty",
-        icon: "shield",
-        sub: "Coverage",
-        val: p.customFields.warranty
-      },
-      p.burners && {
-        key: "burners",
-        icon: "stove",
-        sub: "Burners",
-        val: `${p.burners} Brass Burners`
-      },
-      p.size && {
-        key: "size",
-        icon: "layers",
-        sub: "Dimensions",
-        val: p.size
-      },
-      p.features?.length > 0 && {
-        key: "feature-0",
-        icon: "bolt",
-        sub: "Key Tech",
-        val: p.features[0]
-      }
-    ].filter(Boolean).slice(0, 4);
+    // Purely dynamic: if Zoho Commerce has no tile icons configured, return empty (no mock tiles)
+    return [];
   }, [p]);
 
   useEffect(() => {
@@ -219,7 +209,9 @@ export default function Product() {
     setPrevId(id);
     setShot(0);
     setShotError(false);
-    setFetchedProduct(null);
+    const cached = getCachedProductDetail(pid || id);
+    setFetchedProduct(cached || null);
+    setIsPriceFetching(!cached || typeof cached.dealerRate !== "number");
   }
 
   // A ?from= link is a customer link, full stop. Whoever opens it — including the
@@ -425,18 +417,23 @@ export default function Product() {
   // 2. Extra custom fields from Zoho
   const extraCfSpecs = (p.extraFields || []).map((f) => [f.label, f.value]);
 
-  // 3. Known product attributes that actually have non-empty values
+  // 3. Known product attributes that actually have non-empty values from Zoho Commerce
   const attrSpecs = [
-    [t("spec_model"), displayTitle],
-    p.zohoTitle && p.zohoTitle !== displayTitle && [t("spec_full_name"), p.zohoTitle],
-    p.cat && [t("spec_category"), tCat(p.cat, p.catLabel)],
-    p.size && [t("spec_size"), p.size],
-    p.finish && p.finish !== "Standard" && [t("spec_finish"), p.finish],
-    p.burners && ["Burners", `${p.burners} Brass Burners`],
-    p.brand && [t("spec_brand"), p.brand],
-    p.features?.length > 0 && [t("spec_features"), p.features.join(", ")],
+    displayTitle && [t("spec_model") || "Model", displayTitle],
+    p.zohoTitle && p.zohoTitle !== displayTitle && [t("spec_full_name") || "Full Name", p.zohoTitle],
+    p.sku && ["SKU", p.sku],
+    (p.catLabel || p.cat) && [t("spec_category") || "Category", p.catLabel || tCat(p.cat)],
+    p.brand && [t("spec_brand") || "Brand", p.brand],
+    p.hsnCode && ["HSN Code", p.hsnCode],
+    (p.fulfillment?.formattedDimensions || p.packageDetails?.formattedDimensions) && [
+      "Dimensions (L × W × H)",
+      p.fulfillment?.formattedDimensions || p.packageDetails?.formattedDimensions,
+    ],
+    (p.fulfillment?.formattedWeight || p.packageDetails?.formattedWeight) && [
+      "Weight",
+      p.fulfillment?.formattedWeight || p.packageDetails?.formattedWeight,
+    ],
     p.customFields?.warranty && ["Warranty", p.customFields.warranty],
-    p.code && [t("spec_code"), `${p.code}-${p.id.slice(-6)}`],
   ].filter(Boolean);
 
   const allSpecsList = [...zohoSpecs, ...extraCfSpecs, ...attrSpecs].filter(
@@ -456,19 +453,18 @@ export default function Product() {
   // Specifications tab shows all unified attributes and Zoho specs
   const hasSpecs = specs.length > 0;
 
-  // Clean overview: strip empty HTML tags to prevent literal <br/> artifacts
+  // Clean overview: only use real text from Zoho Commerce (no synthetic defaults)
   const cleanOverviewText = (p.customFields?.overview || p.overview || "").trim();
   const rawDescText = (p.description || "").replace(/<[^>]*>/g, "").replace(/&nbsp;/gi, " ").trim();
   const cleanDesc = rawDescText ? p.description : "";
-  const defaultOverview = `Engineered for superior reliability, high efficiency, and everyday convenience. The ${displayTitle} by ${p.brand || "Sunshine"} features durable construction, advanced safety standards, and optimal performance for Indian kitchens.`;
-  const overview = cleanOverviewText || cleanDesc || defaultOverview;
+  const overview = cleanOverviewText || cleanDesc || "";
   const hasKeyFeatures = Boolean(p.customFields?.keyFeatures?.trim());
   const hasWarranty = Boolean(p.customFields?.warranty?.trim());
   const hasOverview = Boolean(overview || hasKeyFeatures || hasWarranty);
   const hasVideos = Array.isArray(p.videos) && p.videos.length > 0;
 
   const availableTabs = [
-    { key: "Overview", labelKey: "tab_overview" },
+    hasOverview && { key: "Overview", labelKey: "tab_overview" },
     hasSpecs && { key: "Specifications", labelKey: "tab_specs" },
     hasVideos && { key: "Videos", labelKey: "tab_videos" },
   ].filter(Boolean);
@@ -734,11 +730,13 @@ export default function Product() {
             )}
 
             <PriceBlock
+              key={p?.id || lookupKey}
               p={p}
               customerView={customerView}
               dealer={me}
               sharedBy={sharedBy}
               canSeeDealerPrice={session?.canSeeDealerPrice !== false}
+              loadingPrice={isPriceFetching}
             />
 
             {!customerView && (
@@ -753,9 +751,6 @@ export default function Product() {
                 >
                   <Icon name="wa" /> Share on WhatsApp
                 </a>
-                <button className="btn btn-ghost" onClick={share}>
-                  <Icon name="share" /> {copied ? t("link_copied") : t("share_with_customer")}
-                </button>
                 <button
                   type="button"
                   className={`btn ${isFavorite(p.id) ? "btn-navy" : "btn-ghost"}`}
@@ -814,22 +809,24 @@ export default function Product() {
               <div className="overview" role="tabpanel">
                 {activeTabKey === "Overview" && hasOverview && (
                   <>
-                    <h3>{t("overview_engineered_title")}</h3>
                     {overview && (
-                      /<[a-z][\s\S]*>/i.test(overview) ? (
-                        <div
-                          className="muted overview-html"
-                          style={{ fontSize: "0.93rem", lineHeight: 1.6 }}
-                          dangerouslySetInnerHTML={{ __html: overview }}
-                        />
-                      ) : (
-                        <p className="muted" style={{ fontSize: "0.93rem", whiteSpace: "pre-line", lineHeight: 1.6 }}>
-                          {overview}
-                        </p>
-                      )
+                      <div style={{ marginBottom: "var(--s4)" }}>
+                        <h3 style={{ fontSize: "1.1rem", marginBottom: "var(--s2)" }}>{t("tab_overview") || "Overview"}</h3>
+                        {/<[a-z][\s\S]*>/i.test(overview) ? (
+                          <div
+                            className="muted overview-html"
+                            style={{ fontSize: "0.93rem", lineHeight: 1.6 }}
+                            dangerouslySetInnerHTML={{ __html: overview }}
+                          />
+                        ) : (
+                          <p className="muted" style={{ fontSize: "0.93rem", whiteSpace: "pre-line", lineHeight: 1.6 }}>
+                            {overview}
+                          </p>
+                        )}
+                      </div>
                     )}
                     {p.customFields?.keyFeatures && (
-                      <div style={{ marginTop: "var(--s4)" }}>
+                      <div style={{ marginTop: overview ? "var(--s4)" : 0 }}>
                         <h4 style={{ fontSize: "1rem", marginBottom: "var(--s2)", fontWeight: 600 }}>Key Features</h4>
                         <p className="muted" style={{ fontSize: "0.93rem", whiteSpace: "pre-line" }}>
                           {p.customFields.keyFeatures}
@@ -837,7 +834,7 @@ export default function Product() {
                       </div>
                     )}
                     {p.customFields?.warranty && (
-                      <div style={{ marginTop: "var(--s4)" }}>
+                      <div style={{ marginTop: (overview || p.customFields?.keyFeatures) ? "var(--s4)" : 0 }}>
                         <h4 style={{ fontSize: "1rem", marginBottom: "var(--s2)", fontWeight: 600 }}>Warranty</h4>
                         <p className="muted" style={{ fontSize: "0.93rem" }}>
                           {p.customFields.warranty}

@@ -1,39 +1,42 @@
 # Community 106
 
-> 18 nodes · cohesion 0.11
+> 18 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **Standard icons** (10 connections) — `.agents/skills/apple-design/references/hig/icons.md`
-- **Icons** (6 connections) — `.agents/skills/apple-design/references/hig/icons.md`
-- **Desktop (macOS)** (2 connections) — `.agents/skills/apple-design/references/hig/icons.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/icons.md`
-- **icons.md** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
-- **Document icons** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
-- **Editing** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
-- **Layer ordering** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
-- **Other** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
-- **Ratings** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
-- **Search** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
-- **Selection** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
-- **Sharing and exporting** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
-- **Text formatting** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
-- **Users and accounts** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **viewer-chrome-layout.test.mjs** (21 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **evaluate()** (5 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **waitForLayout()** (4 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **finalGeometry()** (3 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **load()** (3 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **resize()** (3 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **edgePaintHitsUnderDock()** (2 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **state()** (2 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **clearStage()** (1 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **renderWithoutLegend()** (1 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **variant()** (1 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **zero()** (1 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 45]] (2 shared connections)
+- [[Community 85]] (1 shared connections)
+- [[Community 130]] (1 shared connections)
+- [[Community 55]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/icons.md`
+- `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 34 (100%)
+- EXTRACTED: 53 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

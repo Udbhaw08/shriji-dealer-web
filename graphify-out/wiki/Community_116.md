@@ -1,41 +1,46 @@
 # Community 116
 
-> 16 nodes · cohesion 0.17
+> 16 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **compareArchitecture()** (12 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **fail()** (8 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **canonicalArchitecture()** (5 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **boundaryIndex()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **canonicalArchitectureJson()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **equal()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **normalizeRepository()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **canonical()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **extractArchitectureSvg()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **extractArtifactCss()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **presentationChanged()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **requireComparableShape()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **stableIndex()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **boundaryKey()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **sortedBy()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **summaryFor()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **yc()** (20 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
+- **Ti()** (14 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
+- **gc()** (11 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
+- **Ai()** (6 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
+- **qc()** (6 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
+- **Do()** (5 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
+- **Mi()** (5 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
+- **sm()** (5 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
+- **La()** (4 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
+- **Pi()** (4 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
+- **Uc()** (4 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
+- **wo()** (4 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
+- **za()** (4 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
+- **di()** (3 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
+- **eo()** (3 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
+- **Ni()** (2 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
 
 ## Relationships
 
-- [[Community 63]] (18 shared connections)
-- [[Community 123]] (4 shared connections)
-- [[Community 147]] (2 shared connections)
-- [[Community 172]] (1 shared connections)
+- [[Price Presentation & Product UI]] (16 shared connections)
+- [[Live Pricing Audit Tool]] (8 shared connections)
+- [[Community 34]] (7 shared connections)
+- [[Testing & Workflow Skill]] (6 shared connections)
+- [[Zoho API Diagnostic Script]] (5 shared connections)
+- [[Product Pages Specification]] (4 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (2 shared connections)
+- [[Community 57]] (2 shared connections)
+- [[Community 46]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/delta/architecture-delta.mjs`
+- `ios/App/App/public/assets/index-LiwW60BS.js`
 
 ## Audit Trail
 
-- EXTRACTED: 61 (94%)
-- INFERRED: 4 (6%)
+- EXTRACTED: 100 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

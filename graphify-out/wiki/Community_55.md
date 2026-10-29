@@ -1,54 +1,60 @@
 # Community 55
 
-> 28 nodes · cohesion 0.16
+> 27 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **crmClient.js** (35 connections) — `backend/src/services/crmClient.js`
-- **normalizePhone()** (21 connections) — `backend/src/utils/phone.js`
-- **crmFetch()** (14 connections) — `backend/src/services/crmClient.js`
-- **reset-test-users.js** (11 connections) — `backend/scripts/reset-test-users.js`
-- **crmConfigured()** (8 connections) — `backend/src/services/crmClient.js`
-- **phone.js** (8 connections) — `backend/src/utils/phone.js`
-- **interconnection.test.mjs** (6 connections) — `backend/test/interconnection.test.mjs`
-- **runReset()** (5 connections) — `backend/scripts/reset-test-users.js`
-- **createDealerAccount()** (5 connections) — `backend/src/services/crmClient.js`
-- **createDealerContact()** (5 connections) — `backend/src/services/crmClient.js`
-- **findOwnerContactInAccount()** (5 connections) — `backend/src/services/crmClient.js`
-- **updateContactDetails()** (5 connections) — `backend/src/services/crmClient.js`
-- **updateDealerCodeInCrm()** (5 connections) — `backend/src/services/crmClient.js`
-- **resolveContactNames()** (4 connections) — `backend/src/services/crmClient.js`
-- **deactivateAccountInCrm()** (3 connections) — `backend/src/services/crmClient.js`
-- **deactivateContactInCrm()** (3 connections) — `backend/src/services/crmClient.js`
-- **getDealerAccount()** (3 connections) — `backend/src/services/crmClient.js`
-- **isCrmConfigured()** (3 connections) — `backend/src/services/crmClient.js`
-- **deleteCrmRecords()** (2 connections) — `backend/scripts/reset-test-users.js`
-- **searchCrmRecordIds()** (2 connections) — `backend/scripts/reset-test-users.js`
-- **getAccessToken()** (2 connections) — `backend/src/services/crmClient.js`
-- **getDealerContact()** (2 connections) — `backend/src/services/crmClient.js`
-- **getPrimaryContactForAccount()** (2 connections) — `backend/src/services/crmClient.js`
-- **linkContactToBackendUser()** (2 connections) — `backend/src/services/crmClient.js`
-- **args** (1 connections) — `backend/scripts/reset-test-users.js`
-- *... and 3 more nodes in this community*
+- **.send()** (54 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **viewer-camera-browser.test.mjs** (11 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- **export-browser.test.mjs** (9 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
+- **motion-governor-browser.test.mjs** (9 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
+- **.inspect()** (5 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **run()** (5 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
+- **run()** (5 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
+- **load()** (4 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
+- **load()** (4 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- **run()** (4 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- **evaluate()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **click()** (3 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
+- **load()** (3 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
+- **record()** (3 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
+- **media()** (3 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
+- **screenshot()** (3 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
+- **stable()** (3 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- **viewport()** (3 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- **.waitFor()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **key()** (2 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
+- **snapshot()** (2 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
+- **screenshot()** (2 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- **snapshot()** (2 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
+- *... and 2 more nodes in this community*
 
 ## Relationships
 
-- [[Community 31]] (30 shared connections)
-- [[Community 49]] (8 shared connections)
-- [[Community 39]] (3 shared connections)
-- [[Product Pages Specification]] (2 shared connections)
+- [[Community 67]] (11 shared connections)
+- [[Community 92]] (8 shared connections)
+- [[Community 85]] (7 shared connections)
+- [[Community 130]] (7 shared connections)
+- [[Community 45]] (5 shared connections)
+- [[Community 149]] (5 shared connections)
+- [[Community 150]] (5 shared connections)
+- [[Community 185]] (4 shared connections)
+- [[Community 106]] (1 shared connections)
+- [[Community 299]] (1 shared connections)
 
 ## Source Files
 
-- `backend/scripts/reset-test-users.js`
-- `backend/src/services/crmClient.js`
-- `backend/src/utils/phone.js`
-- `backend/test/interconnection.test.mjs`
+- `.agents/skills/archify/bin/visual-check.mjs`
+- `.agents/skills/archify/test/export-browser.test.mjs`
+- `.agents/skills/archify/test/motion-governor-browser.test.mjs`
+- `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 165 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 146 (99%)
+- INFERRED: 2 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

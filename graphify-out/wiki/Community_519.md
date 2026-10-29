@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **requestLogger.js** (1 connections) — `backend/src/middleware/requestLogger.js`
-- **requestLogger()** (1 connections) — `backend/src/middleware/requestLogger.js`
+- **accessibility.md** (1 connections) — `.agents/skills/swiftui-pro/references/accessibility.md`
+- **Accessibility** (1 connections) — `.agents/skills/swiftui-pro/references/accessibility.md`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `backend/src/middleware/requestLogger.js`
+- `.agents/skills/swiftui-pro/references/accessibility.md`
 
 ## Audit Trail
 

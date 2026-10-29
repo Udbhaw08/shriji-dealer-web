@@ -1,30 +1,33 @@
 # Community 249
 
-> 9 nodes · cohesion 0.22
+> 9 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **cli-output-types.test.mjs** (10 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
-- **architecture** (1 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
-- **base** (1 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
-- **cli** (1 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
-- **head** (1 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
-- **root** (1 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
-- **run()** (1 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
-- **workflow** (1 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
-- **workspace()** (1 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
+- **repository-evidence.test.mjs** (13 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
+- **fixture()** (2 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
+- **git()** (2 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
+- **cli** (1 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
+- **evidencePayload()** (1 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
+- **here** (1 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
+- **run()** (1 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
+- **waitForState()** (1 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
 
 ## Relationships
 
-- [[Community 78]] (2 shared connections)
+- [[Community 61]] (2 shared connections)
+- [[Community 45]] (1 shared connections)
+- [[Community 85]] (1 shared connections)
+- [[Community 130]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/cli-output-types.test.mjs`
+- `.agents/skills/archify/test/repository-evidence.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (100%)
+- EXTRACTED: 23 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

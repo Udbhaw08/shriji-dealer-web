@@ -5750,9 +5750,49 @@ h4 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 12px 20px 14px 20px;
+  padding: 12px 16px 14px 16px;
   border-bottom: 1px solid var(--line);
   flex-shrink: 0;
+  gap: 12px;
+}
+
+.sheet-header-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 0;
+  flex: 1;
+}
+
+.sheet-back-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  min-height: 44px;
+  height: 44px;
+  padding: 0 12px 0 8px;
+  border-radius: 999px;
+  background: var(--bg);
+  border: 1px solid var(--line);
+  color: var(--blue-ink, #004085);
+  font-size: 0.86rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  flex-shrink: 0;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.sheet-back-btn:hover {
+  background: var(--blue-50, #ebf3fa);
+  border-color: var(--blue-300, #9ac7ec);
+  color: var(--blue-900, #00234b);
+}
+
+.sheet-back-btn:active {
+  transform: scale(0.96);
+  background: var(--blue-100, #d0e7f9);
 }
 
 .sheet-title-group {
@@ -8674,40 +8714,6 @@ h4 {
   transform: scale(0.98);
 }
 
-/* Temporary 7-Day Invite Card */
-.dealer-temp-invite-card {
-  background-color: #f2f4f7;
-  border-radius: 14px;
-  padding: 1rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 0.75rem;
-  border: 1px solid rgba(0, 0, 0, 0.03);
-}
-
-.dealer-temp-btn {
-  min-height: 40px;
-  padding: 0 14px;
-  border-radius: 10px;
-  background-color: #ffffff;
-  color: #001021;
-  font-size: 13px;
-  font-weight: 600;
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
-  border: 1px solid #e0e3e6;
-  cursor: pointer;
-  transition: transform 0.1s ease;
-  flex-shrink: 0;
-}
-
-.dealer-temp-btn:active {
-  transform: scale(0.95);
-}
-
 /* Manage Access Modal & Staff Controls */
 .dealer-manage-card {
   background-color: #f8fafc;
@@ -9527,8 +9533,8 @@ h4 {
 .support-eyebrow-pill {
   display: inline-flex;
   align-items: center;
-  gap: 5px;
-  padding: 3px 10px;
+  gap: 6px;
+  padding: 4px 12px;
   border-radius: 9999px;
   font-size: 11px;
   font-weight: 700;
@@ -9536,7 +9542,18 @@ h4 {
   letter-spacing: 0.05em;
   background-color: #eff6ff;
   color: #1e40af;
-  margin-bottom: 4px;
+  margin-bottom: 6px;
+}
+
+.support-live-dot-ping {
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: #10b981;
+  box-shadow: 0 0 0 2px rgba(16, 185, 129, 0.25);
+  animation: pulseDot 2s infinite;
+  flex-shrink: 0;
 }
 
 .support-title {
@@ -9559,12 +9576,12 @@ h4 {
 /* 3 Priority Contact Channels */
 .support-channels-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 340px), 1fr));
   gap: 1.25rem;
-  margin-top: 1.75rem;
+  margin-top: 1.5rem;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 720px) {
   .support-channels-grid {
     grid-template-columns: 1fr;
     gap: 1rem;
@@ -9736,6 +9753,30 @@ h4 {
 
 .support-form-grid .full-col {
   grid-column: 1 / -1;
+}
+
+.support-form-section-title {
+  grid-column: 1 / -1;
+  font-size: 0.8rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--navy-2);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 0.5rem;
+  margin-bottom: -0.25rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid var(--line);
+}
+
+@media (max-width: 640px) {
+  .support-field input,
+  .support-field select,
+  .support-field textarea {
+    font-size: 16px;
+  }
 }
 
 .support-field {

@@ -34,15 +34,15 @@
 ## Relationships
 
 - [[Zoho Backend & Proxy Endpoints]] (33 shared connections)
-- [[Community 45]] (29 shared connections)
-- [[Pricing Regression Test Suite]] (22 shared connections)
-- [[Community 54]] (21 shared connections)
-- [[Community 67]] (20 shared connections)
-- [[Community 87]] (15 shared connections)
+- [[Community 43]] (29 shared connections)
+- [[Client Products Data Store]] (22 shared connections)
+- [[Community 53]] (21 shared connections)
+- [[Community 65]] (20 shared connections)
+- [[Community 84]] (15 shared connections)
 - [[Product Requirements Documentation]] (11 shared connections)
-- [[Testing & Workflow Skill]] (7 shared connections)
-- [[Community 63]] (5 shared connections)
-- [[Community 89]] (2 shared connections)
+- [[Community 30]] (7 shared connections)
+- [[Community 62]] (5 shared connections)
+- [[Community 86]] (2 shared connections)
 
 ## Source Files
 

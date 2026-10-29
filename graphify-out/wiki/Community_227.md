@@ -4,15 +4,15 @@
 
 ## Key Concepts
 
-- **Playing audio** (6 connections) — `.agents/skills/apple-design/references/hig/playing-audio.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/playing-audio.md`
-- **playing-audio.md** (1 connections) — `.agents/skills/apple-design/references/hig/playing-audio.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/playing-audio.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/playing-audio.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/playing-audio.md`
-- **Handling interruptions** (1 connections) — `.agents/skills/apple-design/references/hig/playing-audio.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/playing-audio.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/playing-audio.md`
+- **Segmented controls** (6 connections) — `.agents/skills/apple-design/references/hig/segmented-controls.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/segmented-controls.md`
+- **segmented-controls.md** (1 connections) — `.agents/skills/apple-design/references/hig/segmented-controls.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/segmented-controls.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/segmented-controls.md`
+- **Content** (1 connections) — `.agents/skills/apple-design/references/hig/segmented-controls.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/segmented-controls.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/segmented-controls.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/segmented-controls.md`
 
 ## Relationships
 
@@ -20,7 +20,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/playing-audio.md`
+- `.agents/skills/apple-design/references/hig/segmented-controls.md`
 
 ## Audit Trail
 

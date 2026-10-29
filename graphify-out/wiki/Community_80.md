@@ -1,50 +1,48 @@
 # Community 80
 
-> 23 nodes · cohesion 0.10
+> 21 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **pull-hig.mjs** (65 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **crawlSection()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **fetchPageJson()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **abstractOf()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **anchorEntries()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **anchorMapFor()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **listedPages()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **plainText()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **ALL_PLATFORMS** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **cellText()** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **collectReferences()** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **CURATED_FILES** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **DESIGNING_FOR_COVERAGE** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **DROPPED_PLATFORMS** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **githubSlug()** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **IMAGE_GLYPHS** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **KEPT_PLATFORMS** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **OMITTED_PAGES** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **PLATFORM_LIST_RE** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **PLATFORM_NAMES** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **platformsOf()** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **REPO_ROOT** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **SECTIONS** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **commandDeliver()** (20 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandMigrate()** (17 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandValidate()** (13 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandRender()** (10 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commandPreview()** (9 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **diagnostic()** (9 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **rendererPath()** (9 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **renderValidatedArchitecture()** (8 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **extractQualityArgs()** (7 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **extractRepoRootArgs()** (7 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **rejectCliArgument()** (7 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **assertEvidenceType()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **checkerDiagnostics()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **rendererEnv()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **rendererFailure()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **inputDiagnostic()** (4 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **engineeringProfileFromArtifact()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **migrationPathDiagnostics()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **migrationReport()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **sourceEvidenceFromArtifact()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **serializeMigratedWorkflow()** (2 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
 
 ## Relationships
 
-- [[Community 209]] (10 shared connections)
-- [[Community 210]] (10 shared connections)
-- [[Community 243]] (9 shared connections)
-- [[Community 281]] (8 shared connections)
-- [[Community 364]] (6 shared connections)
-- [[Community 252]] (1 shared connections)
+- [[Community 49]] (41 shared connections)
+- [[Community 105]] (4 shared connections)
+- [[Community 136]] (3 shared connections)
+- [[Community 252]] (2 shared connections)
+- [[Community 61]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- `.agents/skills/archify/bin/archify.mjs`
+- `.agents/skills/archify/migrations/workflow-v2.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 95 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 151 (96%)
+- INFERRED: 7 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,42 +1,53 @@
 # Community 85
 
-> 21 nodes · cohesion 0.10
+> 20 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **Machine learning** (15 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
-- **The role of machine learning in your app** (6 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
-- **machine-learning.md** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
-- **Attribution** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
-- **Calibration** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
-- **Confidence** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
-- **Corrections** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
-- **Critical or complementary** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
-- **Dynamic or static** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
-- **Explicit feedback** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
-- **Implicit feedback** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
-- **Limitations** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
-- **Mistakes** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
-- **Multiple options** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
-- **Planning your design** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
-- **Private or public** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
-- **Proactive or reactive** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
-- **Visible or invisible** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
+- **ChromeVisualBrowser** (21 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **visual-check.test.mjs** (14 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
+- **PipeCdp** (7 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **.attach()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **.close()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **.constructor()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **chromeVisualBrowserArgs()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **.failAll()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **.consume()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **VISUAL_CHECK_VIEWPORTS** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **.constructor()** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **.failure()** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **artifact()** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
+- **fakeBrowser()** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
+- **fakeChromeChild()** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
+- **png** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
+- **sha256()** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 45]] (8 shared connections)
+- [[Community 55]] (7 shared connections)
+- [[Community 130]] (2 shared connections)
+- [[Community 92]] (2 shared connections)
+- [[Community 67]] (1 shared connections)
+- [[Community 128]] (1 shared connections)
+- [[Community 38]] (1 shared connections)
+- [[Community 185]] (1 shared connections)
+- [[Community 249]] (1 shared connections)
+- [[Community 151]] (1 shared connections)
+- [[Community 210]] (1 shared connections)
+- [[Community 106]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/machine-learning.md`
+- `.agents/skills/archify/bin/visual-check.mjs`
+- `.agents/skills/archify/test/visual-check.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 40 (100%)
+- EXTRACTED: 71 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

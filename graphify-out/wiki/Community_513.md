@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **A11yAnnouncer.jsx** (1 connections) — `src/components/A11yAnnouncer.jsx`
-- **A11yAnnouncer()** (1 connections) — `src/components/A11yAnnouncer.jsx`
+- **fail-migration-cleanup.mjs** (1 connections) — `.agents/skills/archify/test/fixtures/fail-migration-cleanup.mjs`
+- **originalRmSync** (1 connections) — `.agents/skills/archify/test/fixtures/fail-migration-cleanup.mjs`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `src/components/A11yAnnouncer.jsx`
+- `.agents/skills/archify/test/fixtures/fail-migration-cleanup.mjs`
 
 ## Audit Trail
 

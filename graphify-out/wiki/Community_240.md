@@ -1,32 +1,30 @@
 # Community 240
 
-> 9 nodes · cohesion 0.31
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **items** (5 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **items** (5 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **type** (4 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **cards** (3 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **items** (3 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **additionalProperties** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **items** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **required** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **Shriji Pricing & Roles Skill** (5 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
+- **User Roles & View Modes** (4 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
+- **SKILL.md** (1 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
+- **1. Guest View (Public)** (1 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
+- **2. Dealer View (Authenticated)** (1 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
+- **3. Customer Shared View (`?from=<dealer_id>`)** (1 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
+- **Key Files** (1 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
+- **Schemes Logic** (1 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
+- **Zero-Price Handling** (1 connections) — `.agents/skills/shriji-pricing-and-roles/SKILL.md`
 
 ## Relationships
 
-- [[Community 184]] (3 shared connections)
-- [[Community 84]] (1 shared connections)
-- [[Community 475]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/common.schema.json`
+- `.agents/skills/shriji-pricing-and-roles/SKILL.md`
 
 ## Audit Trail
 
-- EXTRACTED: 27 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -35,16 +35,16 @@
 
 - [[Zoho Backend & Proxy Endpoints]] (12 shared connections)
 - [[Oxlint Linter Configuration]] (11 shared connections)
-- [[Community 87]] (10 shared connections)
-- [[Community 67]] (8 shared connections)
-- [[Testing & Workflow Skill]] (7 shared connections)
-- [[Community 45]] (7 shared connections)
-- [[Community 172]] (6 shared connections)
-- [[Pricing Regression Test Suite]] (5 shared connections)
-- [[Community 54]] (5 shared connections)
-- [[Community 109]] (4 shared connections)
-- [[Community 138]] (4 shared connections)
-- [[Community 213]] (3 shared connections)
+- [[Community 84]] (10 shared connections)
+- [[Community 65]] (8 shared connections)
+- [[Community 30]] (7 shared connections)
+- [[Community 43]] (7 shared connections)
+- [[Community 169]] (6 shared connections)
+- [[Client Products Data Store]] (5 shared connections)
+- [[Community 53]] (5 shared connections)
+- [[Community 105]] (4 shared connections)
+- [[Community 136]] (4 shared connections)
+- [[Community 61]] (3 shared connections)
 
 ## Source Files
 

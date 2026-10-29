@@ -4,25 +4,25 @@
 
 ## Key Concepts
 
-- **lifecycle.schema.json** (7 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **$id** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **required** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **$schema** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **title** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **artifact-receipt-flush.test.mjs** (6 connections) — `.agents/skills/archify/test/artifact-receipt-flush.test.mjs`
+- **checker** (1 connections) — `.agents/skills/archify/test/artifact-receipt-flush.test.mjs`
+- **cli** (1 connections) — `.agents/skills/archify/test/artifact-receipt-flush.test.mjs`
+- **denseArchitecture()** (1 connections) — `.agents/skills/archify/test/artifact-receipt-flush.test.mjs`
+- **run()** (1 connections) — `.agents/skills/archify/test/artifact-receipt-flush.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/artifact-receipt-flush.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/artifact-receipt-flush.test.mjs`
 
 ## Relationships
 
-- [[Community 121]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/lifecycle.schema.json`
+- `.agents/skills/archify/test/artifact-receipt-flush.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

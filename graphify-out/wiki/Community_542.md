@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **dateUtils.js** (1 connections) — `src/utils/dateUtils.js`
-- **formatRelativeTime()** (1 connections) — `src/utils/dateUtils.js`
+- **paginationHelper.js** (1 connections) — `backend/src/utils/paginationHelper.js`
+- **paginate()** (1 connections) — `backend/src/utils/paginationHelper.js`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `src/utils/dateUtils.js`
+- `backend/src/utils/paginationHelper.js`
 
 ## Audit Trail
 

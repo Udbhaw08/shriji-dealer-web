@@ -4,27 +4,27 @@
 
 ## Key Concepts
 
-- **Critical Mobile Responsiveness Safeguards** (6 connections) — `.agents/skills/shriji-responsive-ui/SKILL.md`
-- **Shriji Responsive UI Skill** (3 connections) — `.agents/skills/shriji-responsive-ui/SKILL.md`
-- **SKILL.md** (1 connections) — `.agents/skills/shriji-responsive-ui/SKILL.md`
-- **1. Viewport Zoom-Out Prevention** (1 connections) — `.agents/skills/shriji-responsive-ui/SKILL.md`
-- **2. CSS Grid Child Shrinking** (1 connections) — `.agents/skills/shriji-responsive-ui/SKILL.md`
-- **3. Product Card Rows on Mobile (`<= 719px`)** (1 connections) — `.agents/skills/shriji-responsive-ui/SKILL.md`
-- **4. Horizontal Scrollable Tabs (`.utabs`, `.tabs`)** (1 connections) — `.agents/skills/shriji-responsive-ui/SKILL.md`
-- **5. Hero Banner on Small Screens (`<= 640px`)** (1 connections) — `.agents/skills/shriji-responsive-ui/SKILL.md`
-- **Design System Tokens** (1 connections) — `.agents/skills/shriji-responsive-ui/SKILL.md`
+- **cli-output-types.test.mjs** (10 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
+- **architecture** (1 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
+- **base** (1 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
+- **cli** (1 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
+- **head** (1 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
+- **root** (1 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
+- **run()** (1 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
+- **workflow** (1 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
+- **workspace()** (1 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 61]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/shriji-responsive-ui/SKILL.md`
+- `.agents/skills/archify/test/cli-output-types.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 18 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

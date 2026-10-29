@@ -15,7 +15,7 @@ import { escapeHtml, sanitizeUrl } from './api/_lib/htmlEscape.js'
 async function loadContentService() {
   try {
     const fullPath = path.resolve(process.cwd(), 'backend/src/services/content.js');
-    return await import(/* @vite-ignore */ pathToFileURL(fullPath).href);
+    return await import(/* @vite-ignore */ `${pathToFileURL(fullPath).href}?t=${Date.now()}`);
   } catch (err) {
     console.warn('[vite] Backend content service not loaded:', err.message);
     return null;
@@ -129,9 +129,10 @@ function zohoApiPlugin() {
           try {
             const contentService = await loadContentService();
             const branding = contentService ? await contentService.getSupabaseBranding() : null;
+            const settings = contentService ? await contentService.getHeroSliderSettings() : null;
             res.statusCode = 200;
             res.setHeader('Content-Type', 'application/json');
-            return res.end(JSON.stringify({ ok: true, branding }));
+            return res.end(JSON.stringify({ ok: true, branding, settings }));
           } catch (err) {
             res.statusCode = 500;
             res.setHeader('Content-Type', 'application/json');
@@ -271,7 +272,8 @@ function zohoApiPlugin() {
         // Content CMS CRUD route: /api/content (Supabase Content Manager)
         if (req.url === '/api/content' || req.url.startsWith('/api/content?') || req.url.startsWith('/api/content/')) {
           try {
-            const contentHandler = (await import('./api/content.js')).default;
+            const fullPath = path.resolve(process.cwd(), 'api/content.js');
+            const contentHandler = (await import(/* @vite-ignore */ `${pathToFileURL(fullPath).href}?t=${Date.now()}`)).default;
             let body = '';
             req.on('data', (chunk) => { body += chunk; });
             req.on('end', async () => {

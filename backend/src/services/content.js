@@ -58,7 +58,13 @@ export async function getHeroSliderSettings() {
       autoplay_interval: Number(meta.autoplay_interval) || 5,
       autoplay_enabled: meta.autoplay_enabled !== false,
       pause_on_hover: meta.pause_on_hover !== false,
-      tagline: meta.tagline || meta.home_tagline || "Delivering the heart of every kitchen",
+      tagline: meta.home_tagline !== undefined ? meta.home_tagline : (meta.tagline || "Delivering the heart of every kitchen"),
+      home_tagline: meta.home_tagline !== undefined ? meta.home_tagline : (meta.tagline || "Delivering the heart of every kitchen"),
+      home_tagline_enabled: meta.home_tagline_enabled !== false,
+      header_tagline_enabled: meta.header_tagline_enabled !== false,
+      header_tagline_1: meta.header_tagline_1 !== undefined ? meta.header_tagline_1 : "Better Products",
+      header_tagline_2: meta.header_tagline_2 !== undefined ? meta.header_tagline_2 : "Stronger Partners",
+      header_tagline_3: meta.header_tagline_3 !== undefined ? meta.header_tagline_3 : "Brighter Homes",
     };
   } catch (err) {
     console.warn('[Supabase Content] Could not fetch slider settings:', err.message);
@@ -67,16 +73,62 @@ export async function getHeroSliderSettings() {
       autoplay_enabled: true,
       pause_on_hover: true,
       tagline: "Delivering the heart of every kitchen",
+      home_tagline: "Delivering the heart of every kitchen",
+      home_tagline_enabled: true,
+      header_tagline_enabled: true,
+      header_tagline_1: "Better Products",
+      header_tagline_2: "Stronger Partners",
+      header_tagline_3: "Brighter Homes",
     };
   }
 }
 
 export async function saveHeroSliderSettings(settings = {}) {
+  let current = {};
+  try {
+    const currentRows = await sql`
+      SELECT metadata FROM public.store_content
+      WHERE type = 'setting' AND id = 'hero_slider_settings'
+      LIMIT 1;
+    `;
+    current = currentRows[0]?.metadata || {};
+  } catch {}
+
   const meta = {
-    autoplay_interval: Math.max(2, Math.min(120, Number(settings.autoplay_interval) || 5)),
-    autoplay_enabled: settings.autoplay_enabled !== false,
-    pause_on_hover: settings.pause_on_hover !== false,
-    tagline: settings.tagline ? String(settings.tagline).trim() : undefined,
+    autoplay_interval: settings.autoplay_interval !== undefined
+      ? Math.max(2, Math.min(120, Number(settings.autoplay_interval) || 5))
+      : (Number(current.autoplay_interval) || 5),
+    autoplay_enabled: settings.autoplay_enabled !== undefined
+      ? settings.autoplay_enabled !== false
+      : (current.autoplay_enabled !== false),
+    pause_on_hover: settings.pause_on_hover !== undefined
+      ? settings.pause_on_hover !== false
+      : (current.pause_on_hover !== false),
+    tagline: settings.home_tagline !== undefined
+      ? String(settings.home_tagline).trim()
+      : (settings.tagline !== undefined
+          ? String(settings.tagline).trim()
+          : (current.home_tagline || current.tagline || "Delivering the heart of every kitchen")),
+    home_tagline: settings.home_tagline !== undefined
+      ? String(settings.home_tagline).trim()
+      : (settings.tagline !== undefined
+          ? String(settings.tagline).trim()
+          : (current.home_tagline || current.tagline || "Delivering the heart of every kitchen")),
+    home_tagline_enabled: settings.home_tagline_enabled !== undefined
+      ? Boolean(settings.home_tagline_enabled)
+      : (current.home_tagline_enabled !== false),
+    header_tagline_enabled: settings.header_tagline_enabled !== undefined
+      ? Boolean(settings.header_tagline_enabled)
+      : (current.header_tagline_enabled !== false),
+    header_tagline_1: settings.header_tagline_1 !== undefined
+      ? String(settings.header_tagline_1).trim()
+      : (current.header_tagline_1 ?? "Better Products"),
+    header_tagline_2: settings.header_tagline_2 !== undefined
+      ? String(settings.header_tagline_2).trim()
+      : (current.header_tagline_2 ?? "Stronger Partners"),
+    header_tagline_3: settings.header_tagline_3 !== undefined
+      ? String(settings.header_tagline_3).trim()
+      : (current.header_tagline_3 ?? "Brighter Homes"),
     updated_at: new Date().toISOString(),
   };
 
@@ -84,7 +136,7 @@ export async function saveHeroSliderSettings(settings = {}) {
     INSERT INTO public.store_content (
       id, type, title, subtitle, badge, image_url, file_url, video_url, link_url, bg_color, display_order, is_active, metadata, updated_at
     ) VALUES (
-      'hero_slider_settings', 'setting', 'Hero Carousel Settings', 'Slider Autoplay Configuration', '', null, null, null, null, '#000000', 999, true, ${meta}, NOW()
+      'hero_slider_settings', 'setting', 'Site & Carousel Settings', 'Slider & Brand Taglines Configuration', '', null, null, null, null, '#000000', 999, true, ${meta}, NOW()
     )
     ON CONFLICT (id) DO UPDATE SET
       metadata = EXCLUDED.metadata,

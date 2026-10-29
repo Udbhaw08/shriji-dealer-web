@@ -1,52 +1,55 @@
 # Zoho API Diagnostic Script
 
-> 43 nodes · cohesion 0.05
+> 44 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **properties** (28 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **label** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **labelSegment** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **brand** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **channelX** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **channelY** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **classification** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **from** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **fromSide** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **id** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **labelAt** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **labelDx** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **labelDy** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **route** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **sublabel** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **tag** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **to** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **toSide** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **type** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **variant** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **yOffset** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- *... and 18 more nodes in this community*
+- **i()** (68 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
+- **n()** (32 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
+- **t()** (23 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
+- **Ja()** (19 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
+- **Ri()** (16 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
+- **A()** (15 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
+- **O()** (13 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
+- **q()** (13 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
+- **ga()** (12 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
+- **wc()** (11 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
+- **ha()** (9 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
+- **va()** (8 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
+- **go()** (7 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
+- **zc()** (7 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
+- **Cc()** (6 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
+- **E()** (6 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
+- **ho()** (6 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
+- **Ko()** (6 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
+- **xc()** (6 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
+- **Ya()** (6 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
+- **df()** (5 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
+- **ea()** (5 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
+- **j()** (5 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
+- **Ka()** (5 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
+- **qo()** (5 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
+- *... and 19 more nodes in this community*
 
 ## Relationships
 
-- [[Community 204]] (3 shared connections)
-- [[Community 477]] (1 shared connections)
-- [[Community 478]] (1 shared connections)
-- [[Community 479]] (1 shared connections)
-- [[Community 422]] (1 shared connections)
-- [[Community 423]] (1 shared connections)
+- [[Price Presentation & Product UI]] (59 shared connections)
+- [[Product Pages Specification]] (35 shared connections)
+- [[Live Pricing Audit Tool]] (28 shared connections)
+- [[Community 46]] (23 shared connections)
+- [[Community 34]] (23 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (17 shared connections)
+- [[Testing & Workflow Skill]] (11 shared connections)
+- [[Community 57]] (10 shared connections)
+- [[Community 116]] (5 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/dataflow.schema.json`
+- `ios/App/App/public/assets/index-LiwW60BS.js`
 
 ## Audit Trail
 
-- EXTRACTED: 92 (100%)
+- EXTRACTED: 373 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

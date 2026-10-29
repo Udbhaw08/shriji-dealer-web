@@ -4,14 +4,14 @@
 
 ## Key Concepts
 
-- **Image views** (6 connections) — `.agents/skills/apple-design/references/hig/image-views.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/image-views.md`
-- **image-views.md** (1 connections) — `.agents/skills/apple-design/references/hig/image-views.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/image-views.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/image-views.md`
-- **Content** (1 connections) — `.agents/skills/apple-design/references/hig/image-views.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/image-views.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/image-views.md`
+- **Motion** (7 connections) — `.agents/skills/apple-design/references/hig/motion.md`
+- **motion.md** (1 connections) — `.agents/skills/apple-design/references/hig/motion.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/motion.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/motion.md`
+- **Leveraging platform capabilities** (1 connections) — `.agents/skills/apple-design/references/hig/motion.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/motion.md`
+- **Providing feedback** (1 connections) — `.agents/skills/apple-design/references/hig/motion.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/motion.md`
 
 ## Relationships
 
@@ -19,7 +19,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/image-views.md`
+- `.agents/skills/apple-design/references/hig/motion.md`
 
 ## Audit Trail
 

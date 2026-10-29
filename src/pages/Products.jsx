@@ -8,6 +8,7 @@ import { useLanguage } from "../data/i18n";
 import ProductCard from "../components/ProductCard";
 import ProductSearchBar from "../components/ProductSearchBar";
 import { buildSearchDictionary, autocorrectQuery, scoreProduct } from "../data/searchHelper";
+import { getProductSize, getProductMotorType } from "../data/filtersHelper";
 
 const PAGE = 24;
 
@@ -79,6 +80,8 @@ export default function Products() {
 
   const selectedCats = parseListParam("cat");
   const selectedBrands = parseListParam("brand");
+  const selectedSizes = parseListParam("size");
+  const selectedMotors = parseListParam("motor");
   const selectedBurners = parseListParam("burners");
   const selectedIgnitions = parseListParam("ignition");
   const selectedFinishes = parseListParam("finish");
@@ -105,6 +108,8 @@ export default function Products() {
   const updateFilters = ({
     cats = selectedCats,
     brands = selectedBrands,
+    sizes = selectedSizes,
+    motors = selectedMotors,
     burners = selectedBurners,
     ignitions = selectedIgnitions,
     finishes = selectedFinishes,
@@ -114,6 +119,8 @@ export default function Products() {
     const next = new URLSearchParams();
     if (cats.length > 0) next.set("cat", cats.join(","));
     if (brands.length > 0) next.set("brand", brands.join(","));
+    if (sizes.length > 0) next.set("size", sizes.join(","));
+    if (motors.length > 0) next.set("motor", motors.join(","));
     if (burners.length > 0) next.set("burners", burners.join(","));
     if (ignitions.length > 0) next.set("ignition", ignitions.join(","));
     if (finishes.length > 0) next.set("finish", finishes.join(","));
@@ -126,7 +133,12 @@ export default function Products() {
 
   const counts = useMemo(() => {
     const c = {};
-    for (const p of PRODUCTS) c[p.cat] = (c[p.cat] || 0) + 1;
+    for (const p of PRODUCTS) {
+      c[p.cat] = (c[p.cat] || 0) + 1;
+      if (p.isTrial || p.collections?.includes("trial")) {
+        c["trial"] = (c["trial"] || 0) + 1;
+      }
+    }
     return c;
   }, [PRODUCTS]);
 
@@ -134,7 +146,13 @@ export default function Products() {
   const facets = useMemo(() => {
     const inCat =
       selectedCats.length > 0
-        ? PRODUCTS.filter((p) => selectedCats.includes(p.cat))
+        ? PRODUCTS.filter((p) =>
+            selectedCats.some(
+              (c) =>
+                c === p.cat ||
+                (c === "trial" && (p.isTrial || p.collections?.includes("trial") || p.cat === "trial"))
+            )
+          )
         : PRODUCTS;
 
     const tally = (pick) => {
@@ -148,6 +166,14 @@ export default function Products() {
 
     return {
       brand: tally((p) => p.brand).map(([v, n]) => [v, v, n]),
+      size: tally((p) => getProductSize(p))
+        .sort((a, b) => {
+          const numA = parseInt(a[0], 10) || 0;
+          const numB = parseInt(b[0], 10) || 0;
+          return numA - numB;
+        })
+        .map(([v, n]) => [v, v, n]),
+      motor: tally((p) => getProductMotorType(p)).map(([v, n]) => [v, v, n]),
       ignition: tally((p) => (p.features?.includes("Auto Ignition") ? "auto" : "manual")).map(
         ([v, n]) => [v, v === "auto" ? "Auto Ignition" : "Manual", n]
       ),
@@ -175,9 +201,24 @@ export default function Products() {
 
     const matchesFilter = (p, term) => {
       if (onlyFavorites && !isFavorite(p.id)) return false;
-      if (selectedCats.length > 0 && !selectedCats.includes(p.cat)) return false;
+      if (selectedCats.length > 0) {
+        const matchesCat = selectedCats.some(
+          (c) =>
+            c === p.cat ||
+            (c === "trial" && (p.isTrial || p.collections?.includes("trial") || p.cat === "trial"))
+        );
+        if (!matchesCat) return false;
+      }
       if (selectedFinishes.length > 0 && !selectedFinishes.includes(p.finish)) return false;
       if (selectedBrands.length > 0 && !selectedBrands.includes(p.brand)) return false;
+      if (selectedSizes.length > 0) {
+        const pSize = getProductSize(p);
+        if (!pSize || !selectedSizes.includes(pSize)) return false;
+      }
+      if (selectedMotors.length > 0) {
+        const pMotor = getProductMotorType(p);
+        if (!pMotor || !selectedMotors.includes(pMotor)) return false;
+      }
       if (selectedBurners.length > 0 && !selectedBurners.includes(String(p.burners))) return false;
       if (selectedIgnitions.length > 0) {
         const pIgn = p.features?.includes("Auto Ignition") ? "auto" : "manual";
@@ -209,6 +250,8 @@ export default function Products() {
     selectedCats,
     selectedFinishes,
     selectedBrands,
+    selectedSizes,
+    selectedMotors,
     selectedBurners,
     selectedIgnitions,
     q,
@@ -223,6 +266,8 @@ export default function Products() {
     selectedCats.length ||
       selectedFinishes.length ||
       selectedBrands.length ||
+      selectedSizes.length ||
+      selectedMotors.length ||
       selectedBurners.length ||
       selectedIgnitions.length ||
       onlyFavorites ||
@@ -232,6 +277,8 @@ export default function Products() {
   const activeFilterCount =
     selectedCats.length +
     selectedBrands.length +
+    selectedSizes.length +
+    selectedMotors.length +
     selectedBurners.length +
     selectedIgnitions.length +
     selectedFinishes.length +
@@ -243,6 +290,32 @@ export default function Products() {
     setQ("");
     setVerbatimQ("");
     reset();
+  };
+
+  // Mobile browser & hardware back button handling for filter drawer
+  useEffect(() => {
+    if (!openFilters) return;
+
+    // Push dummy history entry so back button/gesture dismisses sheet
+    const stateKey = "filter_sheet_active";
+    window.history.pushState({ [stateKey]: true }, "");
+
+    const onPop = () => {
+      setOpenFilters(false);
+    };
+
+    window.addEventListener("popstate", onPop);
+    return () => {
+      window.removeEventListener("popstate", onPop);
+    };
+  }, [openFilters]);
+
+  const closeFilters = () => {
+    if (window.history.state && window.history.state.filter_sheet_active) {
+      window.history.back();
+    } else {
+      setOpenFilters(false);
+    }
   };
 
   const sortOptions = [
@@ -403,7 +476,7 @@ export default function Products() {
         <>
           <div
             className="filters-backdrop"
-            onClick={() => setOpenFilters(false)}
+            onClick={closeFilters}
             aria-hidden="true"
           />
           <div
@@ -415,11 +488,22 @@ export default function Products() {
             <div className="sheet-drag-handle" />
 
             <div className="sheet-header">
-              <div className="sheet-title-group">
-                <h2 className="sheet-title">{t("filter_btn") || "Filters"}</h2>
-                {activeFilterCount > 0 && (
-                  <span className="sheet-active-pill">{activeFilterCount} Active</span>
-                )}
+              <div className="sheet-header-left">
+                <button
+                  type="button"
+                  className="sheet-back-btn"
+                  onClick={closeFilters}
+                  aria-label={t("back") || "Back"}
+                >
+                  <Icon name="chevleft" size={16} />
+                  <span>{t("back") || "Back"}</span>
+                </button>
+                <div className="sheet-title-group">
+                  <h2 className="sheet-title">{t("filter_btn") || "Filters"}</h2>
+                  {activeFilterCount > 0 && (
+                    <span className="sheet-active-pill">{activeFilterCount} Active</span>
+                  )}
+                </div>
               </div>
               <div className="sheet-header-actions">
                 {dirty && (
@@ -430,7 +514,7 @@ export default function Products() {
                 <button
                   type="button"
                   className="sheet-close-btn"
-                  onClick={() => setOpenFilters(false)}
+                  onClick={closeFilters}
                   aria-label="Close filters"
                 >
                   <Icon name="close" size={16} />
@@ -532,6 +616,84 @@ export default function Products() {
                           type="button"
                           className={`sheet-chip ${isSelected ? "active" : ""}`}
                           onClick={() => updateFilters({ brands: toggleInList(selectedBrands, key) })}
+                        >
+                          <span>{isSelected ? `✓ ${label}` : label}</span>
+                          <span className="sheet-chip-count">{n}</span>
+                        </button>
+                      );
+                    })}
+                  </div>
+                </div>
+              )}
+
+              {/* Size Multi-Select */}
+              {facets.size.length > 0 && (
+                <div className="sheet-section">
+                  <div className="sheet-sec-header">
+                    <div className="sheet-sec-title-wrap">
+                      <h3 className="sheet-sec-title">{t("filter_size") || "Size"}</h3>
+                      {selectedSizes.length > 0 && (
+                        <span className="sheet-sec-badge">{selectedSizes.length}</span>
+                      )}
+                    </div>
+                    {selectedSizes.length > 0 && (
+                      <button
+                        type="button"
+                        className="sheet-sec-clear-btn"
+                        onClick={() => updateFilters({ sizes: [] })}
+                      >
+                        Clear
+                      </button>
+                    )}
+                  </div>
+                  <div className="sheet-chips-row">
+                    {facets.size.map(([key, label, n]) => {
+                      const isSelected = selectedSizes.includes(key);
+                      return (
+                        <button
+                          key={key}
+                          type="button"
+                          className={`sheet-chip ${isSelected ? "active" : ""}`}
+                          onClick={() => updateFilters({ sizes: toggleInList(selectedSizes, key) })}
+                        >
+                          <span>{isSelected ? `✓ ${label}` : label}</span>
+                          <span className="sheet-chip-count">{n}</span>
+                        </button>
+                      );
+                    })}
+                  </div>
+                </div>
+              )}
+
+              {/* Motor Type Multi-Select */}
+              {facets.motor.length > 0 && (
+                <div className="sheet-section">
+                  <div className="sheet-sec-header">
+                    <div className="sheet-sec-title-wrap">
+                      <h3 className="sheet-sec-title">{t("filter_motor") || "Motor Type"}</h3>
+                      {selectedMotors.length > 0 && (
+                        <span className="sheet-sec-badge">{selectedMotors.length}</span>
+                      )}
+                    </div>
+                    {selectedMotors.length > 0 && (
+                      <button
+                        type="button"
+                        className="sheet-sec-clear-btn"
+                        onClick={() => updateFilters({ motors: [] })}
+                      >
+                        Clear
+                      </button>
+                    )}
+                  </div>
+                  <div className="sheet-chips-row">
+                    {facets.motor.map(([key, label, n]) => {
+                      const isSelected = selectedMotors.includes(key);
+                      return (
+                        <button
+                          key={key}
+                          type="button"
+                          className={`sheet-chip ${isSelected ? "active" : ""}`}
+                          onClick={() => updateFilters({ motors: toggleInList(selectedMotors, key) })}
                         >
                           <span>{isSelected ? `✓ ${label}` : label}</span>
                           <span className="sheet-chip-count">{n}</span>
@@ -674,7 +836,7 @@ export default function Products() {
               <button
                 type="button"
                 className="sheet-apply-btn"
-                onClick={() => setOpenFilters(false)}
+                onClick={closeFilters}
               >
                 <span>
                   {t("view_all") || "Show"} {results.length} {results.length === 1 ? "Product" : "Products"}
@@ -718,6 +880,22 @@ export default function Products() {
             />
 
             <Group
+              title={t("filter_size") || "Size"}
+              options={facets.size}
+              selected={selectedSizes}
+              onToggle={(k) => updateFilters({ sizes: toggleInList(selectedSizes, k) })}
+              onClear={() => updateFilters({ sizes: [] })}
+            />
+
+            <Group
+              title={t("filter_motor") || "Motor Type"}
+              options={facets.motor}
+              selected={selectedMotors}
+              onToggle={(k) => updateFilters({ motors: toggleInList(selectedMotors, k) })}
+              onClear={() => updateFilters({ motors: [] })}
+            />
+
+            <Group
               title={t("filter_burners") || "Burners"}
               options={facets.burners}
               selected={selectedBurners}
@@ -755,10 +933,12 @@ export default function Products() {
                 <>
                   <Icon name="chev" size={13} />
                   <span>
-                    {tCat(
-                      selectedCats[0],
-                      CATEGORIES.find((c) => c.key === selectedCats[0])?.label
-                    )}
+                    {selectedCats[0] === "trial"
+                      ? (t("sec_fast_title") || "Trial")
+                      : tCat(
+                          selectedCats[0],
+                          CATEGORIES.find((c) => c.key === selectedCats[0])?.label
+                        )}
                   </span>
                 </>
               )}
@@ -771,7 +951,7 @@ export default function Products() {
                   const catObj = CATEGORIES.find((c) => c.key === catKey);
                   return (
                     <span key={catKey} className="active-filter-pill">
-                      <span>{catObj ? tCat(catObj.key, catObj.label) : catKey}</span>
+                      <span>{catKey === "trial" ? (t("sec_fast_title") || "Trial") : (catObj ? tCat(catObj.key, catObj.label) : catKey)}</span>
                       <button
                         type="button"
                         onClick={() => updateFilters({ cats: selectedCats.filter((c) => c !== catKey) })}
@@ -790,6 +970,32 @@ export default function Products() {
                       type="button"
                       onClick={() => updateFilters({ brands: selectedBrands.filter((x) => x !== b) })}
                       aria-label={`Remove brand ${b}`}
+                    >
+                      <Icon name="close" size={12} />
+                    </button>
+                  </span>
+                ))}
+
+                {selectedSizes.map((s) => (
+                  <span key={s} className="active-filter-pill">
+                    <span>{s}</span>
+                    <button
+                      type="button"
+                      onClick={() => updateFilters({ sizes: selectedSizes.filter((x) => x !== s) })}
+                      aria-label={`Remove size ${s}`}
+                    >
+                      <Icon name="close" size={12} />
+                    </button>
+                  </span>
+                ))}
+
+                {selectedMotors.map((m) => (
+                  <span key={m} className="active-filter-pill">
+                    <span>{m} Motor</span>
+                    <button
+                      type="button"
+                      onClick={() => updateFilters({ motors: selectedMotors.filter((x) => x !== m) })}
+                      aria-label={`Remove motor ${m}`}
                     >
                       <Icon name="close" size={12} />
                     </button>
@@ -895,10 +1101,12 @@ export default function Products() {
             <div className="sec-head">
               <h2>
                 {selectedCats.length === 1
-                  ? tCat(
-                      selectedCats[0],
-                      CATEGORIES.find((c) => c.key === selectedCats[0])?.label
-                    )
+                  ? (selectedCats[0] === "trial"
+                      ? (t("sec_fast_title") || "Trial")
+                      : tCat(
+                          selectedCats[0],
+                          CATEGORIES.find((c) => c.key === selectedCats[0])?.label
+                        ))
                   : selectedCats.length > 1
                   ? `${selectedCats.length} Categories`
                   : onlyFavorites

@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **Managing notifications** (6 connections) — `.agents/skills/apple-design/references/hig/managing-notifications.md`
-- **managing-notifications.md** (1 connections) — `.agents/skills/apple-design/references/hig/managing-notifications.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/managing-notifications.md`
-- **Integrating with Focus** (1 connections) — `.agents/skills/apple-design/references/hig/managing-notifications.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/managing-notifications.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/managing-notifications.md`
-- **Sending marketing notifications** (1 connections) — `.agents/skills/apple-design/references/hig/managing-notifications.md`
+- **Pull-down buttons** (5 connections) — `.agents/skills/apple-design/references/hig/pull-down-buttons.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/pull-down-buttons.md`
+- **pull-down-buttons.md** (1 connections) — `.agents/skills/apple-design/references/hig/pull-down-buttons.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/pull-down-buttons.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/pull-down-buttons.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/pull-down-buttons.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/pull-down-buttons.md`
 
 ## Relationships
 
@@ -18,7 +18,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/managing-notifications.md`
+- `.agents/skills/apple-design/references/hig/pull-down-buttons.md`
 
 ## Audit Trail
 

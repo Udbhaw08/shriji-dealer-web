@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **esm-DspLJKFy.js** (1 connections) — `android/app/src/main/assets/public/assets/esm-DspLJKFy.js`
-- **__vite__mapDeps()** (1 connections) — `android/app/src/main/assets/public/assets/esm-DspLJKFy.js`
+- **README.md** (1 connections) — `ios/App/CapApp-SPM/README.md`
+- **CapApp-SPM** (1 connections) — `ios/App/CapApp-SPM/README.md`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/esm-DspLJKFy.js`
+- `ios/App/CapApp-SPM/README.md`
 
 ## Audit Trail
 

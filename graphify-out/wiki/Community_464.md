@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **Designing for iPadOS** (2 connections) — `.agents/skills/apple-design/references/hig/designing-for-ipados.md`
-- **designing-for-ipados.md** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-ipados.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-ipados.md`
+- **Capacitor Native Mobile Sync Workflow** (2 connections) — `docs/mobile/capacitor-native-sync.md`
+- **capacitor-native-sync.md** (1 connections) — `docs/mobile/capacitor-native-sync.md`
+- **Commands** (1 connections) — `docs/mobile/capacitor-native-sync.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/designing-for-ipados.md`
+- `docs/mobile/capacitor-native-sync.md`
 
 ## Audit Trail
 

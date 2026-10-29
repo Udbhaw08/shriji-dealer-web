@@ -82,7 +82,10 @@ export default async function handler(req, res) {
 
     // 3. Branding scope: GET /api/content?scope=branding or /api/branding
     if (query.scope === "branding") {
-      let branding = await getSupabaseBranding();
+      let [branding, settings] = await Promise.all([
+        getSupabaseBranding(),
+        getHeroSliderSettings(),
+      ]);
       if (!branding?.length) {
         try {
           const backendUrl = (process.env.VITE_AUTH_API_URL || process.env.BACKEND_URL || "").trim();
@@ -91,6 +94,7 @@ export default async function handler(req, res) {
             if (res.ok) {
               const data = await res.json();
               if (data.branding) branding = data.branding;
+              if (data.settings) settings = data.settings;
             }
           }
         } catch (e) {
@@ -98,17 +102,16 @@ export default async function handler(req, res) {
         }
       }
       res.setHeader("Cache-Control", query.refresh === "true" ? "no-store, no-cache, must-revalidate" : "public, s-maxage=5, stale-while-revalidate=30");
-      return res.status(200).json({ ok: true, branding });
+      return res.status(200).json({ ok: true, branding, settings });
     }
 
-    // 4. Slider settings scope: GET /api/content?scope=slider_settings
-    if (query.scope === "slider_settings") {
-      const settings = await getHeroSliderSettings();
-      return res.status(200).json({ ok: true, settings });
-    }
-
-    // POST /api/content?scope=slider_settings
-    if (query.scope === "slider_settings" || req.body?.action === "save_slider_settings") {
+    // 4. Slider & site settings scope:
+    // POST/PUT/PATCH /api/content?scope=slider_settings or ?scope=settings
+    if (
+      (method !== "GET" && (query.scope === "slider_settings" || query.scope === "settings")) ||
+      req.body?.action === "save_slider_settings" ||
+      req.body?.action === "save_settings"
+    ) {
       let body = req.body;
       if (typeof body === "string") {
         try {
@@ -118,6 +121,12 @@ export default async function handler(req, res) {
       const settings = body?.settings || body || {};
       const saved = await saveHeroSliderSettings(settings);
       return res.status(200).json({ ok: true, settings: saved });
+    }
+
+    // GET /api/content?scope=slider_settings or ?scope=settings
+    if (query.scope === "slider_settings" || query.scope === "settings") {
+      const settings = await getHeroSliderSettings();
+      return res.status(200).json({ ok: true, settings });
     }
 
     // 5. Toggle active status: POST/PATCH /api/content?action=toggle&id=...

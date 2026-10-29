@@ -4,17 +4,17 @@
 
 ## Key Concepts
 
-- **Gestures** (7 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
-- **Specifications** (2 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
-- **gestures.md** (1 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
-- **Custom gestures** (1 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
-- **Standard gestures** (1 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
+- **Website & App Redesign Instructions** (7 connections) — `instructions.md`
+- **2. Tri-Skill Synthesis Engine** (4 connections) — `instructions.md`
+- **instructions.md** (1 connections) — `instructions.md`
+- **1. Core Purpose & Architectural Goals** (1 connections) — `instructions.md`
+- **3. Adaptive Platform UX Strategies** (1 connections) — `instructions.md`
+- **4. Mobile Responsiveness & Layout Hard Rules** (1 connections) — `instructions.md`
+- **5. Domain Rules for Shriji Dealer Web** (1 connections) — `instructions.md`
+- **6. Execution Flow for Redesign Tasks** (1 connections) — `instructions.md`
+- **Skill 1: `refero-design` (Website & Aesthetic Authority)** (1 connections) — `instructions.md`
+- **Skill 2: `apple-design` (HIG Standards & Design Audit Authority)** (1 connections) — `instructions.md`
+- **Skill 3: `swiftui-pro` (Mobile App Ergonomics & View Performance Authority)** (1 connections) — `instructions.md`
 
 ## Relationships
 
@@ -22,7 +22,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/gestures.md`
+- `instructions.md`
 
 ## Audit Trail
 

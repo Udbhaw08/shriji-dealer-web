@@ -1,34 +1,29 @@
 # Community 302
 
-> 8 nodes · cohesion 0.43
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **workflow-migration-geometry.mjs** (10 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
-- **createMappedWorkflowCandidate()** (9 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
-- **intrinsicWorkflow()** (8 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
-- **planningWorkflow()** (7 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
-- **createHorizontalRankMapper()** (4 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
-- **clone()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
-- **mapExplicitCoordinates()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
-- **mappedNumber()** (1 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
+- **Charting data** (6 connections) — `.agents/skills/apple-design/references/hig/charting-data.md`
+- **charting-data.md** (1 connections) — `.agents/skills/apple-design/references/hig/charting-data.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/charting-data.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/charting-data.md`
+- **Designing effective charts** (1 connections) — `.agents/skills/apple-design/references/hig/charting-data.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/charting-data.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/charting-data.md`
 
 ## Relationships
 
-- [[Community 138]] (8 shared connections)
-- [[Community 145]] (5 shared connections)
-- [[Community 67]] (4 shared connections)
-- [[Zoho Backend & Proxy Endpoints]] (3 shared connections)
-- [[Community 56]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
+- `.agents/skills/apple-design/references/hig/charting-data.md`
 
 ## Audit Trail
 
-- EXTRACTED: 44 (98%)
-- INFERRED: 1 (2%)
+- EXTRACTED: 12 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

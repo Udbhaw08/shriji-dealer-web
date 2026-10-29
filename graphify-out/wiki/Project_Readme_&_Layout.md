@@ -1,51 +1,55 @@
 # Project Readme & Layout
 
-> 44 nodes · cohesion 0.05
+> 44 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **properties** (30 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **label** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **pad** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **row** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **brand** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **from** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **fromSide** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **id** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **kind** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **labelAt** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **labelDx** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **labelDy** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **pos** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **route** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **sublabel** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **tag** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **to** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **toSide** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **variant** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **width** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **i()** (68 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
+- **n()** (32 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
+- **t()** (23 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
+- **Ja()** (19 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
+- **Ri()** (16 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
+- **A()** (15 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
+- **O()** (13 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
+- **q()** (13 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
+- **ga()** (12 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
+- **wc()** (11 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
+- **ha()** (9 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
+- **va()** (8 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
+- **go()** (7 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
+- **zc()** (7 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
+- **Cc()** (6 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
+- **E()** (6 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
+- **ho()** (6 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
+- **Ko()** (6 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
+- **xc()** (6 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
+- **Ya()** (6 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
+- **df()** (5 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
+- **ea()** (5 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
+- **j()** (5 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
+- **Ka()** (5 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
+- **qo()** (5 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
 - *... and 19 more nodes in this community*
 
 ## Relationships
 
-- [[Community 128]] (5 shared connections)
-- [[Community 280]] (2 shared connections)
-- [[Community 473]] (1 shared connections)
-- [[Community 474]] (1 shared connections)
-- [[Community 361]] (1 shared connections)
+- [[Dealer Auth & Session Management]] (59 shared connections)
+- [[Dependencies & Package Config]] (35 shared connections)
+- [[Product Brand & Business Vision]] (28 shared connections)
+- [[Community 44]] (23 shared connections)
+- [[Community 33]] (23 shared connections)
+- [[Roles & Customer Sharing Spec]] (17 shared connections)
+- [[Agent Guidelines (AGENTS.md)]] (11 shared connections)
+- [[Community 54]] (10 shared connections)
+- [[Community 113]] (5 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/architecture.schema.json`
+- `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
 
 ## Audit Trail
 
-- EXTRACTED: 96 (100%)
+- EXTRACTED: 373 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

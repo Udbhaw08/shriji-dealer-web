@@ -1,36 +1,33 @@
 # Community 156
 
-> 13 nodes · cohesion 0.21
+> 12 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **semantic-radar.test.mjs** (15 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **evaluate()** (5 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **dragMouse()** (2 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **loadArtifact()** (2 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **observe()** (2 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **radarRects()** (2 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **overlaps()** (1 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/semantic-radar.test.mjs`
+- **Charts** (11 connections) — `.agents/skills/apple-design/references/hig/charts.md`
+- **charts.md** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
+- **Anatomy** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
+- **Axes** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
+- **Color** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
+- **Descriptive content** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
+- **Enhancing the accessibility of a chart** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
+- **Marks** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
 
 ## Relationships
 
-- [[Community 48]] (1 shared connections)
-- [[Community 88]] (1 shared connections)
-- [[Community 133]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/test/semantic-radar.test.mjs`
+- `.agents/skills/apple-design/references/hig/charts.md`
 
 ## Audit Trail
 
-- EXTRACTED: 35 (100%)
+- EXTRACTED: 22 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

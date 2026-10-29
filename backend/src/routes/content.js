@@ -60,9 +60,12 @@ contentRouter.get('/schemes', async (req, res, next) => {
 // GET /api/content/branding
 contentRouter.get('/branding', async (req, res, next) => {
   try {
-    const branding = await getSupabaseBranding();
+    const [branding, settings] = await Promise.all([
+      getSupabaseBranding(),
+      getHeroSliderSettings(),
+    ]);
     res.setHeader('Cache-Control', 'public, max-age=30');
-    return res.json({ ok: true, branding });
+    return res.json({ ok: true, branding, settings });
   } catch (err) {
     next(err);
   }

@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **Zoho Commerce Inventory Synchronization** (2 connections) — `docs/architecture/zoho-inventory-sync.md`
-- **zoho-inventory-sync.md** (1 connections) — `docs/architecture/zoho-inventory-sync.md`
-- **Strategy** (1 connections) — `docs/architecture/zoho-inventory-sync.md`
+- **Bulk Order Inquiry Workflow** (2 connections) — `docs/guides/bulk-order-inquiry-workflow.md`
+- **bulk-order-inquiry-workflow.md** (1 connections) — `docs/guides/bulk-order-inquiry-workflow.md`
+- **Lifecycle** (1 connections) — `docs/guides/bulk-order-inquiry-workflow.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/architecture/zoho-inventory-sync.md`
+- `docs/guides/bulk-order-inquiry-workflow.md`
 
 ## Audit Trail
 

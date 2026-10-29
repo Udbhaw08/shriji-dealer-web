@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **Repository Architecture Audit Report** (2 connections) — `docs/architecture/final-audit-report.md`
-- **final-audit-report.md** (1 connections) — `docs/architecture/final-audit-report.md`
-- **Verification Summary** (1 connections) — `docs/architecture/final-audit-report.md`
+- **Portal Access Gate Specification** (2 connections) — `docs/architecture/portal-gate-specification.md`
+- **portal-gate-specification.md** (1 connections) — `docs/architecture/portal-gate-specification.md`
+- **Gating Mechanism** (1 connections) — `docs/architecture/portal-gate-specification.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/architecture/final-audit-report.md`
+- `docs/architecture/portal-gate-specification.md`
 
 ## Audit Trail
 

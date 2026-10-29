@@ -4,10 +4,10 @@
 
 ## Key Concepts
 
-- **REST API Endpoints Specification** (3 connections) — `docs/api/endpoints-spec.md`
-- **endpoints-spec.md** (1 connections) — `docs/api/endpoints-spec.md`
-- **Authentication Endpoints** (1 connections) — `docs/api/endpoints-spec.md`
-- **Catalog Endpoints** (1 connections) — `docs/api/endpoints-spec.md`
+- **Web views** (3 connections) — `.agents/skills/apple-design/references/hig/web-views.md`
+- **web-views.md** (1 connections) — `.agents/skills/apple-design/references/hig/web-views.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/web-views.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/web-views.md`
 
 ## Relationships
 
@@ -15,7 +15,7 @@
 
 ## Source Files
 
-- `docs/api/endpoints-spec.md`
+- `.agents/skills/apple-design/references/hig/web-views.md`
 
 ## Audit Trail
 

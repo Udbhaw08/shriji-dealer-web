@@ -4,14 +4,14 @@
 
 ## Key Concepts
 
-- **Going full screen** (5 connections) — `.agents/skills/apple-design/references/hig/going-full-screen.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/going-full-screen.md`
-- **going-full-screen.md** (1 connections) — `.agents/skills/apple-design/references/hig/going-full-screen.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/going-full-screen.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/going-full-screen.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/going-full-screen.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/going-full-screen.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/going-full-screen.md`
+- **Launching** (6 connections) — `.agents/skills/apple-design/references/hig/launching.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/launching.md`
+- **launching.md** (1 connections) — `.agents/skills/apple-design/references/hig/launching.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/launching.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/launching.md`
+- **Launch screens** (1 connections) — `.agents/skills/apple-design/references/hig/launching.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/launching.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/launching.md`
 
 ## Relationships
 
@@ -19,7 +19,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/going-full-screen.md`
+- `.agents/skills/apple-design/references/hig/launching.md`
 
 ## Audit Trail
 

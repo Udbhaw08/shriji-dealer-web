@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **esm-DspLJKFy.js** (1 connections) — `ios/App/App/public/assets/esm-DspLJKFy.js`
-- **__vite__mapDeps()** (1 connections) — `ios/App/App/public/assets/esm-DspLJKFy.js`
+- **securityHeaders.js** (1 connections) — `backend/src/middleware/securityHeaders.js`
+- **securityHeaders()** (1 connections) — `backend/src/middleware/securityHeaders.js`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `ios/App/App/public/assets/esm-DspLJKFy.js`
+- `backend/src/middleware/securityHeaders.js`
 
 ## Audit Trail
 

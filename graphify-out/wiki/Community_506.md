@@ -1,12 +1,11 @@
 # Community 506
 
-> 3 nodes · cohesion 1.00
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **sanitize.js** (2 connections) — `backend/src/utils/sanitize.js`
-- **sanitizeInput()** (2 connections) — `backend/src/utils/sanitize.js`
-- **sanitizeObject()** (2 connections) — `backend/src/utils/sanitize.js`
+- **esm-BYUBtnaC.js** (1 connections) — `android/app/src/main/assets/public/assets/esm-BYUBtnaC.js`
+- **__vite__mapDeps()** (1 connections) — `android/app/src/main/assets/public/assets/esm-BYUBtnaC.js`
 
 ## Relationships
 
@@ -14,11 +13,11 @@
 
 ## Source Files
 
-- `backend/src/utils/sanitize.js`
+- `android/app/src/main/assets/public/assets/esm-BYUBtnaC.js`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 2 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

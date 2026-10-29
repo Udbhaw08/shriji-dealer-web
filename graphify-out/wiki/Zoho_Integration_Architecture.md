@@ -1,57 +1,68 @@
 # Zoho Integration Architecture
 
-> 57 nodes · cohesion 0.07
+> 58 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **ot()** (23 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
-- **k()** (21 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
-- **nt()** (15 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
-- **A()** (14 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
-- **ft()** (14 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
-- **zd()** (14 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
-- **qd()** (13 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
-- **Ii()** (12 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
-- **mt()** (12 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
-- **Nd()** (12 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
-- **yn()** (11 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
-- **tf()** (10 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
-- **af()** (9 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
-- **at()** (9 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
-- **ut()** (9 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
-- **ef()** (8 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
-- **Gd()** (8 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
-- **it()** (8 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
-- **mn()** (8 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
-- **kf()** (7 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
-- **lf()** (7 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
-- **nn()** (7 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
-- **pn()** (7 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
-- **rt()** (7 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
-- **uf()** (7 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
-- *... and 32 more nodes in this community*
+- **ui.jsx** (45 connections) — `src/ui.jsx`
+- **Product.jsx** (41 connections) — `src/pages/Product.jsx`
+- **useLanguage()** (31 connections) — `src/data/i18n.js`
+- **dealer.js** (30 connections) — `src/data/dealer.js`
+- **Favorites.jsx** (20 connections) — `src/pages/Favorites.jsx`
+- **ProductCard.jsx** (19 connections) — `src/components/ProductCard.jsx`
+- **isDealer()** (18 connections) — `src/data/dealer.js`
+- **dealer.test.mjs** (18 connections) — `src/data/dealer.test.mjs`
+- **t()** (18 connections) — `src/data/i18n.js`
+- **MobileBottomNav.jsx** (16 connections) — `src/components/MobileBottomNav.jsx`
+- **Product()** (16 connections) — `src/pages/Product.jsx`
+- **PriceBlock.jsx** (15 connections) — `src/components/PriceBlock.jsx`
+- **ProductCard()** (15 connections) — `src/components/ProductCard.jsx`
+- **priceFor()** (15 connections) — `src/data/dealer.js`
+- **useFavorites()** (15 connections) — `src/data/favoritesStore.js`
+- **isPortalGated()** (14 connections) — `src/data/portalGate.js`
+- **dealerById()** (12 connections) — `src/data/dealer.js`
+- **inr()** (12 connections) — `src/data/dealer.js`
+- **useProducts()** (12 connections) — `src/data/productsStore.js`
+- **Favorites()** (9 connections) — `src/pages/Favorites.jsx`
+- **Products()** (9 connections) — `src/pages/Products.jsx`
+- **Header()** (9 connections) — `src/ui.jsx`
+- **MobileBottomNav()** (8 connections) — `src/components/MobileBottomNav.jsx`
+- **viewerFor()** (8 connections) — `src/data/dealer.js`
+- **portalGate.js** (8 connections) — `src/data/portalGate.js`
+- *... and 33 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (63 shared connections)
-- [[Graphify Knowledge Graph Skill]] (18 shared connections)
-- [[Community 40]] (18 shared connections)
-- [[Community 46]] (16 shared connections)
-- [[Community 50]] (14 shared connections)
-- [[Community 64]] (13 shared connections)
-- [[Product Brand & Business Vision]] (10 shared connections)
-- [[Mobile Responsive UI Skill]] (9 shared connections)
-- [[Community 29]] (7 shared connections)
-- [[Community 83]] (6 shared connections)
+- [[Design System & UI Tokens]] (84 shared connections)
+- [[Community 56]] (27 shared connections)
+- [[Mobile Responsive UI Skill]] (22 shared connections)
+- [[Community 171]] (7 shared connections)
+- [[Community 107]] (6 shared connections)
+- [[Graphify Agent Rules]] (4 shared connections)
+- [[Community 108]] (3 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-STbSaCMn.js`
+- `src/components/MobileBottomNav.jsx`
+- `src/components/PriceBlock.jsx`
+- `src/components/ProductCard.jsx`
+- `src/components/ProductSearchBar.jsx`
+- `src/data/dealer.js`
+- `src/data/dealer.test.mjs`
+- `src/data/favoritesStore.js`
+- `src/data/i18n.js`
+- `src/data/portalGate.js`
+- `src/data/productsStore.js`
+- `src/data/trial-collection.test.mjs`
+- `src/pages/Favorites.jsx`
+- `src/pages/Product.jsx`
+- `src/pages/Products.jsx`
+- `src/ui.jsx`
 
 ## Audit Trail
 
-- EXTRACTED: 410 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 526 (100%)
+- INFERRED: 1 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

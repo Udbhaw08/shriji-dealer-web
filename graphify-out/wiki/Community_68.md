@@ -1,53 +1,45 @@
 # Community 68
 
-> 24 nodes · cohesion 0.18
+> 24 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **get()** (27 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **D()** (23 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **np()** (21 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **bm()** (12 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **am()** (10 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **ep()** (10 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **mm()** (9 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **jm()** (7 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **jt()** (7 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **pn()** (7 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **un()** (7 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **Yt()** (7 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **zm()** (7 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **nm()** (6 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **om()** (6 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **an()** (5 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **en()** (5 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **qm()** (5 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **ra()** (5 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **km()** (4 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **pf()** (4 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **Um()** (4 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **vn()** (4 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **Vm()** (3 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **Apple Pay** (11 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Using Apple Pay buttons** (5 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Button styles** (4 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Button types** (3 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Handling problems** (3 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Streamlining checkout** (2 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **apple-pay.md** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Apple Pay button** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Apple Pay mark** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Black** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Button size and position** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Customizing the payment sheet** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Data validation errors** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Displaying a website icon** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Offering Apple Pay** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Payment processing problems** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Referring to Apple Pay** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Set Up Apple Pay button** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Supporting donations** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Supporting subscriptions** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **White** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **White with outline** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (27 shared connections)
-- [[Roles & Customer Sharing Spec]] (15 shared connections)
-- [[Master Codebase Architecture Reference]] (15 shared connections)
-- [[Design System & UI Tokens]] (14 shared connections)
-- [[Community 37]] (13 shared connections)
-- [[Pricing & Roles Skill]] (11 shared connections)
-- [[Architecture Doc Generator]] (5 shared connections)
-- [[Graphify Agent Rules]] (4 shared connections)
-- [[Community 61]] (3 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- `.agents/skills/apple-design/references/hig/apple-pay.md`
 
 ## Audit Trail
 
-- EXTRACTED: 205 (100%)
+- EXTRACTED: 46 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

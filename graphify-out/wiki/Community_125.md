@@ -1,37 +1,45 @@
 # Community 125
 
-> 15 nodes · cohesion 0.13
+> 15 nodes · cohesion 0.27
 
 ## Key Concepts
 
-- **Liquid Glass** (6 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
-- **Apple's rules** (5 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
-- **Cross-platform translation** (5 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
-- **liquid-glass.md** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
-- **Color on glass** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
-- **Flutter** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
-- **React Native** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
-- **Review checklist** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
-- **Standard materials beneath the glass** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
-- **SwiftUI, UIKit, and AppKit** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
-- **Tauri and Electron** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
-- **The two layers** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
-- **Where the material belongs** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
-- **Which variant** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
+- **sync-all-product-details.mjs** (15 connections) — `scripts/sync-all-product-details.mjs`
+- **syncProductDetailsPool()** (14 connections) — `api/_lib/zoho.js`
+- **main()** (14 connections) — `scripts/sync-all-product-details.mjs`
+- **fetchZohoCollectionProductIds()** (10 connections) — `api/_lib/zoho.js`
+- **getTrialCollectionId()** (7 connections) — `api/_lib/zoho.js`
+- **readProductDetailsDiskCache()** (7 connections) — `api/_lib/zoho.js`
+- **writeProductDetailDiskCache()** (6 connections) — `api/_lib/zoho.js`
+- **catalogSync()** (5 connections) — `backend/src/jobs/catalogSync.js`
+- **isBannerItem()** (3 connections) — `api/_lib/zoho.js`
+- **isLogoItem()** (3 connections) — `api/_lib/zoho.js`
+- **isSchemeItem()** (3 connections) — `api/_lib/zoho.js`
+- **readCollectionDiskCache()** (3 connections) — `api/_lib/zoho.js`
+- **writeCollectionDiskCache()** (3 connections) — `api/_lib/zoho.js`
+- **sync-product-details.mjs** (3 connections) — `scripts/sync-product-details.mjs`
+- **main()** (2 connections) — `scripts/sync-product-details.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 47]] (16 shared connections)
+- [[Community 166]] (16 shared connections)
+- [[Community 135]] (6 shared connections)
+- [[Community 165]] (2 shared connections)
+- [[Community 83]] (1 shared connections)
+- [[Community 253]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/liquid-glass.md`
+- `api/_lib/zoho.js`
+- `backend/src/jobs/catalogSync.js`
+- `scripts/sync-all-product-details.mjs`
+- `scripts/sync-product-details.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 28 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 96 (98%)
+- INFERRED: 2 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

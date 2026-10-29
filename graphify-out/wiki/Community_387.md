@@ -4,11 +4,11 @@
 
 ## Key Concepts
 
-- **Outline views** (4 connections) — `.agents/skills/apple-design/references/hig/outline-views.md`
-- **outline-views.md** (1 connections) — `.agents/skills/apple-design/references/hig/outline-views.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/outline-views.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/outline-views.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/outline-views.md`
+- **Ratings and reviews** (4 connections) — `.agents/skills/apple-design/references/hig/ratings-and-reviews.md`
+- **ratings-and-reviews.md** (1 connections) — `.agents/skills/apple-design/references/hig/ratings-and-reviews.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/ratings-and-reviews.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/ratings-and-reviews.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/ratings-and-reviews.md`
 
 ## Relationships
 
@@ -16,7 +16,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/outline-views.md`
+- `.agents/skills/apple-design/references/hig/ratings-and-reviews.md`
 
 ## Audit Trail
 

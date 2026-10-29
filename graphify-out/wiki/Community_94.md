@@ -1,49 +1,41 @@
 # Community 94
 
-> 19 nodes · cohesion 0.28
+> 19 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **content.js** (19 connections) — `backend/src/services/content.js`
-- **content.js** (17 connections) — `backend/src/routes/content.js`
-- **content.js** (14 connections) — `api/content.js`
-- **handler()** (11 connections) — `api/content.js`
-- **getSupabaseBanners()** (9 connections) — `backend/src/services/content.js`
-- **getSupabaseSchemes()** (8 connections) — `backend/src/services/content.js`
-- **getSupabaseBranding()** (7 connections) — `backend/src/services/content.js`
-- **getActiveContent()** (6 connections) — `backend/src/services/content.js`
-- **getHeroSliderSettings()** (6 connections) — `backend/src/services/content.js`
-- **saveHeroSliderSettings()** (5 connections) — `backend/src/services/content.js`
-- **deleteStoreContent()** (4 connections) — `backend/src/services/content.js`
-- **getAllStoreContent()** (4 connections) — `backend/src/services/content.js`
-- **toggleStoreContentActive()** (4 connections) — `backend/src/services/content.js`
-- **upsertStoreContent()** (4 connections) — `backend/src/services/content.js`
-- **fetchZohoBanners()** (3 connections) — `api/_lib/zoho.js`
-- **fetchZohoSchemes()** (3 connections) — `api/_lib/zoho.js`
-- **ALLOWED_CONTENT_TYPES** (1 connections) — `api/content.js`
-- **ALLOWED_CONTENT_TYPES** (1 connections) — `backend/src/routes/content.js`
-- **formatGoogleDriveUrl()** (1 connections) — `backend/src/services/content.js`
+- **The menu bar** (15 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
+- **Desktop (macOS)** (2 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
+- **the-menu-bar.md** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
+- **Anatomy** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
+- **App menu** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
+- **App-specific menus** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
+- **Dynamic menu items** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
+- **Edit menu** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
+- **File menu** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
+- **Format menu** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
+- **Help menu** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
+- **Menu bar extras** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
+- **Tablet (iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
+- **View menu** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
+- **Window menu** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
 
 ## Relationships
 
-- [[Community 39]] (9 shared connections)
-- [[Community 132]] (8 shared connections)
-- [[Product Pages Specification]] (7 shared connections)
-- [[Community 191]] (3 shared connections)
-- [[Community 47]] (2 shared connections)
-- [[Community 49]] (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `api/_lib/zoho.js`
-- `api/content.js`
-- `backend/src/routes/content.js`
-- `backend/src/services/content.js`
+- `.agents/skills/apple-design/references/hig/the-menu-bar.md`
 
 ## Audit Trail
 
-- EXTRACTED: 123 (97%)
-- INFERRED: 4 (3%)
+- EXTRACTED: 36 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

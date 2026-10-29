@@ -130,10 +130,15 @@ export default function ContentAdminDashboard() {
     setError("Administrative authentication required. Please unlock with your Admin Key.");
   };
 
-  // Global Slider Settings
+  // Global Slider & Site Taglines Settings
   const [globalInterval, setGlobalInterval] = useState(5);
   const [globalAutoplay, setGlobalAutoplay] = useState(true);
   const [homeTagline, setHomeTagline] = useState("Delivering the heart of every kitchen");
+  const [homeTaglineEnabled, setHomeTaglineEnabled] = useState(true);
+  const [headerTaglineEnabled, setHeaderTaglineEnabled] = useState(true);
+  const [headerTagline1, setHeaderTagline1] = useState("Better Products");
+  const [headerTagline2, setHeaderTagline2] = useState("Stronger Partners");
+  const [headerTagline3, setHeaderTagline3] = useState("Brighter Homes");
   const [settingsSaving, setSettingsSaving] = useState(false);
 
   const notify = (msg) => {
@@ -148,29 +153,42 @@ export default function ContentAdminDashboard() {
       if (data?.ok && data.settings) {
         setGlobalInterval(Number(data.settings.autoplay_interval) || 5);
         setGlobalAutoplay(data.settings.autoplay_enabled !== false);
-        if (data.settings.tagline) {
+        if (data.settings.home_tagline !== undefined) {
+          setHomeTagline(data.settings.home_tagline);
+        } else if (data.settings.tagline) {
           setHomeTagline(data.settings.tagline);
         }
+        setHomeTaglineEnabled(data.settings.home_tagline_enabled !== false);
+        setHeaderTaglineEnabled(data.settings.header_tagline_enabled !== false);
+        if (data.settings.header_tagline_1 !== undefined) setHeaderTagline1(data.settings.header_tagline_1);
+        if (data.settings.header_tagline_2 !== undefined) setHeaderTagline2(data.settings.header_tagline_2);
+        if (data.settings.header_tagline_3 !== undefined) setHeaderTagline3(data.settings.header_tagline_3);
       }
     } catch {}
   };
 
-  const handleSaveGlobalSettings = async () => {
+  const handleSaveGlobalSettings = async (overrides = {}) => {
     if (!adminToken) {
       setShowAuthModal(true);
       return;
     }
     try {
       setSettingsSaving(true);
+      const payload = {
+        autoplay_interval: overrides.autoplay_interval !== undefined ? overrides.autoplay_interval : globalInterval,
+        autoplay_enabled: overrides.autoplay_enabled !== undefined ? overrides.autoplay_enabled : globalAutoplay,
+        pause_on_hover: true,
+        home_tagline: (overrides.home_tagline !== undefined ? overrides.home_tagline : homeTagline).trim(),
+        home_tagline_enabled: overrides.home_tagline_enabled !== undefined ? overrides.home_tagline_enabled : homeTaglineEnabled,
+        header_tagline_enabled: overrides.header_tagline_enabled !== undefined ? overrides.header_tagline_enabled : headerTaglineEnabled,
+        header_tagline_1: (overrides.header_tagline_1 !== undefined ? overrides.header_tagline_1 : headerTagline1).trim(),
+        header_tagline_2: (overrides.header_tagline_2 !== undefined ? overrides.header_tagline_2 : headerTagline2).trim(),
+        header_tagline_3: (overrides.header_tagline_3 !== undefined ? overrides.header_tagline_3 : headerTagline3).trim(),
+      };
       const res = await fetch("/api/content?scope=slider_settings", {
         method: "POST",
         headers: getAuthHeaders(),
-        body: JSON.stringify({
-          autoplay_interval: globalInterval,
-          autoplay_enabled: globalAutoplay,
-          pause_on_hover: true,
-          tagline: homeTagline.trim(),
-        }),
+        body: JSON.stringify(payload),
       });
       const data = await res.json();
       if (res.status === 401) {
@@ -178,13 +196,24 @@ export default function ContentAdminDashboard() {
         return;
       }
       if (data.ok) {
+        try {
+          localStorage.setItem("shriji_site_settings", JSON.stringify(data.settings));
+          sessionStorage.setItem("shriji_site_settings", JSON.stringify(data.settings));
+          const homeConfig = {
+            enabled: data.settings.home_tagline_enabled !== false,
+            text: data.settings.home_tagline,
+          };
+          localStorage.setItem("shriji_home_tagline_config", JSON.stringify(homeConfig));
+          sessionStorage.setItem("shriji_home_tagline_config", JSON.stringify(homeConfig));
+        } catch {}
+        window.dispatchEvent(new CustomEvent("shriji_settings_updated", { detail: data.settings }));
         await refreshLiveCache();
-        notify(`✓ Settings updated: speed ${globalInterval}s, tagline refreshed!`);
+        notify("✓ Settings & Taglines successfully updated and published live!");
       } else {
-        throw new Error(data.error || "Failed to update carousel settings");
+        throw new Error(data.error || "Failed to update settings");
       }
     } catch (err) {
-      setError(err.message || "Failed to update carousel settings");
+      setError(err.message || "Failed to update settings");
     } finally {
       setSettingsSaving(false);
     }
@@ -238,6 +267,9 @@ export default function ContentAdminDashboard() {
         sessionStorage.removeItem("shriji_supabase_banners_v2");
         sessionStorage.removeItem("shriji_supabase_schemes_v2");
         sessionStorage.removeItem("shriji_supabase_branding_v2");
+        sessionStorage.removeItem("shriji_site_settings");
+        sessionStorage.removeItem("shriji_home_tagline_config");
+        sessionStorage.removeItem("shriji_home_tagline");
       } catch {}
       await Promise.all([
         fetch("/api/banners?refresh=true").catch(() => {}),
@@ -727,6 +759,26 @@ export default function ContentAdminDashboard() {
 
           <button
             type="button"
+            className={`content-nav-btn ${activeTab === "taglines" ? "active" : ""}`}
+            onClick={() => {
+              setActiveTab("taglines");
+              setEditingId(null);
+            }}
+          >
+            <Icon name="doc" size={18} />
+            <span>Site Taglines</span>
+            <span
+              className="tab-counter-badge"
+              style={{
+                background: homeTaglineEnabled || headerTaglineEnabled ? "var(--c-brand, #0110a7)" : "#94a3b8",
+              }}
+            >
+              {(homeTaglineEnabled ? 1 : 0) + (headerTaglineEnabled ? 1 : 0)}/2
+            </span>
+          </button>
+
+          <button
+            type="button"
             className={`content-nav-btn ${activeTab === "scheme" ? "active" : ""}`}
             onClick={() => {
               setActiveTab("scheme");
@@ -1166,9 +1218,44 @@ export default function ContentAdminDashboard() {
                 </div>
 
                 <div style={{ marginTop: "14px", paddingTop: "12px", borderTop: "1px dashed var(--line, #e2e8f0)" }}>
-                  <label htmlFor="admin-brand-tagline" style={{ display: "block", fontSize: "0.82rem", fontWeight: 700, color: "var(--c-text)", marginBottom: 6 }}>
-                    Main Page Brand Tagline:
-                  </label>
+                  <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: 6, flexWrap: "wrap", gap: 6 }}>
+                    <label htmlFor="admin-brand-tagline" style={{ fontSize: "0.82rem", fontWeight: 700, color: "var(--c-text)", margin: 0 }}>
+                      Main Page Brand Tagline:
+                    </label>
+                    <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
+                      <button
+                        type="button"
+                        onClick={() => setHomeTaglineEnabled(!homeTaglineEnabled)}
+                        style={{
+                          background: homeTaglineEnabled ? "rgba(1, 16, 167, 0.08)" : "#f1f5f9",
+                          color: homeTaglineEnabled ? "var(--c-brand)" : "#64748b",
+                          border: homeTaglineEnabled ? "1px solid var(--c-brand)" : "1px solid #cbd5e1",
+                          borderRadius: "4px",
+                          padding: "2px 8px",
+                          fontSize: "0.72rem",
+                          fontWeight: 700,
+                          cursor: "pointer",
+                        }}
+                      >
+                        {homeTaglineEnabled ? "✓ Visible on Home" : "✕ Hidden"}
+                      </button>
+                      <button
+                        type="button"
+                        onClick={() => setActiveTab("taglines")}
+                        style={{
+                          background: "none",
+                          border: "none",
+                          color: "var(--c-brand)",
+                          fontSize: "0.74rem",
+                          fontWeight: 700,
+                          cursor: "pointer",
+                          textDecoration: "underline",
+                        }}
+                      >
+                        Manage All Taglines →
+                      </button>
+                    </div>
+                  </div>
                   <div style={{ display: "flex", gap: "8px" }}>
                     <input
                       id="admin-brand-tagline"
@@ -1183,11 +1270,12 @@ export default function ContentAdminDashboard() {
                         border: "1px solid var(--line, #cbd5e1)",
                         fontSize: "0.88rem",
                         fontWeight: 600,
+                        opacity: homeTaglineEnabled ? 1 : 0.6,
                       }}
                     />
                   </div>
                   <small style={{ display: "block", marginTop: 4, color: "var(--c-sub)", fontSize: "0.75rem" }}>
-                    Visible directly below the hero banner carousel on the main home page.
+                    Visible directly below the hero banner carousel on the main home page. (Or configure header taglines in the <strong>Site Taglines</strong> tab above).
                   </small>
                 </div>
               </div>
@@ -1285,6 +1373,461 @@ export default function ContentAdminDashboard() {
                 })}
               </div>
               )}
+            </div>
+          </div>
+        )}
+
+        {/* ============================================================
+            TAB: SITE TAGLINES & COPY MANAGEMENT
+            ============================================================ */}
+        {activeTab === "taglines" && (
+          <div style={{ display: "flex", flexDirection: "column", gap: "24px" }}>
+            {/* Top Info Banner */}
+            <div
+              style={{
+                background: "linear-gradient(135deg, rgba(1, 16, 167, 0.05) 0%, rgba(223, 32, 32, 0.05) 100%)",
+                border: "1px solid rgba(1, 16, 167, 0.15)",
+                borderRadius: "var(--r-lg, 14px)",
+                padding: "16px 20px",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "space-between",
+                gap: "16px",
+                flexWrap: "wrap",
+              }}
+            >
+              <div>
+                <h3 style={{ margin: "0 0 4px", fontSize: "1.05rem", fontWeight: 800, color: "var(--navy, #0e1c36)" }}>
+                  Site Taglines & Brand Copy Manager
+                </h3>
+                <p style={{ margin: 0, fontSize: "0.84rem", color: "var(--tx-2, #334155)", lineHeight: 1.45 }}>
+                  Configure, edit, or completely remove / hide the header navigation taglines and the homepage trust headline.
+                  Changes update live in Supabase and sync instantly across all devices.
+                </p>
+              </div>
+              <button
+                type="button"
+                className="btn btn-navy"
+                disabled={busy || settingsSaving}
+                onClick={() => handleSaveGlobalSettings()}
+                style={{ padding: "8px 18px", fontSize: "0.85rem", fontWeight: 700 }}
+              >
+                <Icon name="check" size={16} />
+                <span>{settingsSaving ? "Publishing…" : "Publish All Taglines"}</span>
+              </button>
+            </div>
+
+            {/* 2-Column Grid */}
+            <div className="content-tab-content-grid">
+              {/* ================= COLUMN 1: HEADER TAGLINES ================= */}
+              <div className="content-card">
+                <div className="content-card-head" style={{ borderBottom: "1px solid var(--line, #e2e8f0)", paddingBottom: "12px", marginBottom: "16px" }}>
+                  <div className="card-head-title-wrap">
+                    <span className="card-eyebrow">TOP NAVIGATION BAR</span>
+                    <h2 className="card-main-heading">Header Taglines</h2>
+                  </div>
+                  <span
+                    className={`status-pill ${headerTaglineEnabled ? "status-pill-active" : "status-pill-inactive"}`}
+                    style={{ fontSize: "0.75rem", padding: "4px 10px" }}
+                  >
+                    {headerTaglineEnabled ? "✓ Active on Header" : "✕ Hidden"}
+                  </span>
+                </div>
+
+                <p style={{ fontSize: "0.82rem", color: "var(--tx-2, #475569)", marginBottom: "16px", lineHeight: 1.5 }}>
+                  This 3-line tagline appears on the desktop header directly beside the <strong>Saved Favorites (Heart)</strong> and <strong>Sign In / Sign Up</strong> buttons.
+                </p>
+
+                {/* Visibility Toggle Box */}
+                <div
+                  style={{
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "space-between",
+                    background: headerTaglineEnabled ? "rgba(1, 16, 167, 0.04)" : "#f8fafc",
+                    border: headerTaglineEnabled ? "1px solid rgba(1, 16, 167, 0.2)" : "1px solid var(--line, #cbd5e1)",
+                    borderRadius: "10px",
+                    padding: "12px 14px",
+                    marginBottom: "18px",
+                  }}
+                >
+                  <div>
+                    <div style={{ fontWeight: 700, fontSize: "0.86rem", color: "var(--c-text, #0f172a)" }}>
+                      Header Tagline Display
+                    </div>
+                    <div style={{ fontSize: "0.76rem", color: "var(--c-sub, #64748b)" }}>
+                      {headerTaglineEnabled
+                        ? "Currently showing beside Favorite & Sign Up"
+                        : "Currently completely hidden from all visitors"}
+                    </div>
+                  </div>
+                  <button
+                    type="button"
+                    onClick={() => setHeaderTaglineEnabled(!headerTaglineEnabled)}
+                    className={`btn btn-sm ${headerTaglineEnabled ? "btn-navy" : "btn-ghost"}`}
+                    style={{ minHeight: 34, fontWeight: 700, fontSize: "0.8rem", whiteSpace: "nowrap" }}
+                  >
+                    {headerTaglineEnabled ? "✓ Visible (Enabled)" : "✕ Hidden (Disabled)"}
+                  </button>
+                </div>
+
+                {/* Inputs */}
+                <div style={{ display: "flex", flexDirection: "column", gap: "12px", opacity: headerTaglineEnabled ? 1 : 0.6 }}>
+                  <div className="field-group">
+                    <label htmlFor="hdr-line-1" style={{ fontSize: "0.82rem", fontWeight: 700 }}>
+                      Line 1 (e.g. Better Products)
+                    </label>
+                    <input
+                      id="hdr-line-1"
+                      type="text"
+                      value={headerTagline1}
+                      onChange={(e) => setHeaderTagline1(e.target.value)}
+                      placeholder="Better Products"
+                      style={{ padding: "8px 12px", borderRadius: "8px", border: "1px solid var(--line, #cbd5e1)" }}
+                    />
+                  </div>
+
+                  <div className="field-group">
+                    <label htmlFor="hdr-line-2" style={{ fontSize: "0.82rem", fontWeight: 700 }}>
+                      Line 2 (e.g. Stronger Partners)
+                    </label>
+                    <input
+                      id="hdr-line-2"
+                      type="text"
+                      value={headerTagline2}
+                      onChange={(e) => setHeaderTagline2(e.target.value)}
+                      placeholder="Stronger Partners"
+                      style={{ padding: "8px 12px", borderRadius: "8px", border: "1px solid var(--line, #cbd5e1)" }}
+                    />
+                  </div>
+
+                  <div className="field-group">
+                    <label htmlFor="hdr-line-3" style={{ fontSize: "0.82rem", fontWeight: 700 }}>
+                      Line 3 (e.g. Brighter Homes)
+                    </label>
+                    <input
+                      id="hdr-line-3"
+                      type="text"
+                      value={headerTagline3}
+                      onChange={(e) => setHeaderTagline3(e.target.value)}
+                      placeholder="Brighter Homes"
+                      style={{ padding: "8px 12px", borderRadius: "8px", border: "1px solid var(--line, #cbd5e1)" }}
+                    />
+                  </div>
+                </div>
+
+                {/* Quick Helper Buttons */}
+                <div style={{ display: "flex", gap: "8px", marginTop: "14px", flexWrap: "wrap" }}>
+                  <button
+                    type="button"
+                    className="btn btn-ghost btn-sm"
+                    onClick={() => {
+                      setHeaderTagline1("Better Products");
+                      setHeaderTagline2("Stronger Partners");
+                      setHeaderTagline3("Brighter Homes");
+                      setHeaderTaglineEnabled(true);
+                    }}
+                    style={{ fontSize: "0.75rem", padding: "4px 10px" }}
+                  >
+                    Reset to Default 3 Lines
+                  </button>
+                  <button
+                    type="button"
+                    className="btn btn-ghost btn-sm"
+                    onClick={() => setHeaderTaglineEnabled(false)}
+                    style={{ fontSize: "0.75rem", padding: "4px 10px", color: "var(--err, #dc2626)" }}
+                  >
+                    Hide / Remove Tagline
+                  </button>
+                </div>
+
+                {/* Live Header Simulation Preview */}
+                <div style={{ marginTop: "20px", paddingTop: "16px", borderTop: "1px dashed var(--line, #e2e8f0)" }}>
+                  <span style={{ display: "block", fontSize: "0.72rem", fontWeight: 700, textTransform: "uppercase", letterSpacing: "0.08em", color: "var(--c-sub)", marginBottom: "8px" }}>
+                    LIVE DESKTOP HEADER PREVIEW
+                  </span>
+                  <div
+                    style={{
+                      background: "#ffffff",
+                      border: "1px solid var(--line, #dce4ed)",
+                      borderRadius: "12px",
+                      padding: "12px 16px",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "space-between",
+                      gap: "12px",
+                      boxShadow: "0 2px 8px rgba(0,0,0,0.03)",
+                    }}
+                  >
+                    {/* Mock Logo */}
+                    <div style={{ display: "flex", alignItems: "center", gap: "6px" }}>
+                      <div style={{ width: "24px", height: "24px", borderRadius: "6px", background: "linear-gradient(135deg, #df2020, #ff8a00)" }} />
+                      <span style={{ fontSize: "0.85rem", fontWeight: 800, color: "var(--navy, #0e1c36)", letterSpacing: "-0.02em" }}>
+                        SUNSHINE
+                      </span>
+                    </div>
+
+                    {/* Mock Nav links */}
+                    <div style={{ display: "flex", gap: "10px", fontSize: "0.75rem", color: "#64748b", fontWeight: 600 }}>
+                      <span>Home</span>
+                      <span>Products</span>
+                      <span>Schemes</span>
+                    </div>
+
+                    {/* Right side Tagline + Actions */}
+                    <div style={{ display: "flex", alignItems: "center", gap: "12px" }}>
+                      {headerTaglineEnabled && (headerTagline1 || headerTagline2 || headerTagline3) ? (
+                        <p
+                          style={{
+                            textAlign: "right",
+                            fontSize: "0.55rem",
+                            lineHeight: 1.4,
+                            letterSpacing: "0.15em",
+                            textTransform: "uppercase",
+                            color: "var(--tx-3, #64748b)",
+                            margin: 0,
+                            fontWeight: 700,
+                          }}
+                        >
+                          {headerTagline1 && <>{headerTagline1}<br /></>}
+                          {headerTagline2 && <>{headerTagline2}<br /></>}
+                          {headerTagline3 && <>{headerTagline3}</>}
+                        </p>
+                      ) : (
+                        <span style={{ fontSize: "0.7rem", color: "#94a3b8", fontStyle: "italic" }}>
+                          (Tagline hidden)
+                        </span>
+                      )}
+
+                      {/* Mock Fav + Account */}
+                      <div style={{ display: "flex", alignItems: "center", gap: "6px" }}>
+                        <div
+                          style={{
+                            width: "28px",
+                            height: "28px",
+                            borderRadius: "50%",
+                            border: "1px solid #dce4ed",
+                            display: "grid",
+                            placeItems: "center",
+                            color: "#df2020",
+                            fontSize: "0.75rem",
+                          }}
+                        >
+                          ♥
+                        </div>
+                        <div
+                          style={{
+                            padding: "4px 8px",
+                            borderRadius: "6px",
+                            background: "var(--navy, #0e1c36)",
+                            color: "#fff",
+                            fontSize: "0.68rem",
+                            fontWeight: 700,
+                          }}
+                        >
+                          Sign In
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* ================= COLUMN 2: HOMEPAGE BRAND TAGLINE ================= */}
+              <div className="content-card">
+                <div className="content-card-head" style={{ borderBottom: "1px solid var(--line, #e2e8f0)", paddingBottom: "12px", marginBottom: "16px" }}>
+                  <div className="card-head-title-wrap">
+                    <span className="card-eyebrow">HOMEPAGE TRUST BANNER</span>
+                    <h2 className="card-main-heading">Main Brand Tagline</h2>
+                  </div>
+                  <span
+                    className={`status-pill ${homeTaglineEnabled ? "status-pill-active" : "status-pill-inactive"}`}
+                    style={{ fontSize: "0.75rem", padding: "4px 10px" }}
+                  >
+                    {homeTaglineEnabled ? "✓ Active on Homepage" : "✕ Hidden"}
+                  </span>
+                </div>
+
+                <p style={{ fontSize: "0.82rem", color: "var(--tx-2, #475569)", marginBottom: "16px", lineHeight: 1.5 }}>
+                  This headline is displayed directly below the main hero banner carousel on the Homepage, centered with an orange-red accent gradient bar.
+                </p>
+
+                {/* Visibility Toggle Box */}
+                <div
+                  style={{
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "space-between",
+                    background: homeTaglineEnabled ? "rgba(1, 16, 167, 0.04)" : "#f8fafc",
+                    border: homeTaglineEnabled ? "1px solid rgba(1, 16, 167, 0.2)" : "1px solid var(--line, #cbd5e1)",
+                    borderRadius: "10px",
+                    padding: "12px 14px",
+                    marginBottom: "18px",
+                  }}
+                >
+                  <div>
+                    <div style={{ fontWeight: 700, fontSize: "0.86rem", color: "var(--c-text, #0f172a)" }}>
+                      Main Tagline Section Display
+                    </div>
+                    <div style={{ fontSize: "0.76rem", color: "var(--c-sub, #64748b)" }}>
+                      {homeTaglineEnabled
+                        ? "Currently showing below Hero Carousel on Homepage"
+                        : "Currently completely hidden / removed from Homepage"}
+                    </div>
+                  </div>
+                  <button
+                    type="button"
+                    onClick={() => setHomeTaglineEnabled(!homeTaglineEnabled)}
+                    className={`btn btn-sm ${homeTaglineEnabled ? "btn-navy" : "btn-ghost"}`}
+                    style={{ minHeight: 34, fontWeight: 700, fontSize: "0.8rem", whiteSpace: "nowrap" }}
+                  >
+                    {homeTaglineEnabled ? "✓ Visible (Enabled)" : "✕ Hidden (Disabled)"}
+                  </button>
+                </div>
+
+                {/* Input */}
+                <div style={{ opacity: homeTaglineEnabled ? 1 : 0.6 }}>
+                  <div className="field-group">
+                    <label htmlFor="home-tagline-input" style={{ fontSize: "0.82rem", fontWeight: 700 }}>
+                      Headline Text
+                    </label>
+                    <input
+                      id="home-tagline-input"
+                      type="text"
+                      value={homeTagline}
+                      onChange={(e) => setHomeTagline(e.target.value)}
+                      placeholder="Delivering the heart of every kitchen"
+                      style={{ padding: "8px 12px", borderRadius: "8px", border: "1px solid var(--line, #cbd5e1)", fontSize: "0.95rem", fontWeight: 600 }}
+                    />
+                    <small className="field-hint">Leave blank or toggle OFF to completely hide this section from the homepage.</small>
+                  </div>
+                </div>
+
+                {/* Quick Helper Buttons */}
+                <div style={{ display: "flex", gap: "8px", marginTop: "14px", flexWrap: "wrap" }}>
+                  <button
+                    type="button"
+                    className="btn btn-ghost btn-sm"
+                    onClick={() => {
+                      setHomeTagline("Delivering the heart of every kitchen");
+                      setHomeTaglineEnabled(true);
+                    }}
+                    style={{ fontSize: "0.75rem", padding: "4px 10px" }}
+                  >
+                    Reset to Default ("Delivering the heart of every kitchen")
+                  </button>
+                  <button
+                    type="button"
+                    className="btn btn-ghost btn-sm"
+                    onClick={() => setHomeTaglineEnabled(false)}
+                    style={{ fontSize: "0.75rem", padding: "4px 10px", color: "var(--err, #dc2626)" }}
+                  >
+                    Hide / Remove Tagline
+                  </button>
+                </div>
+
+                {/* Live Section Simulation Preview */}
+                <div style={{ marginTop: "20px", paddingTop: "16px", borderTop: "1px dashed var(--line, #e2e8f0)" }}>
+                  <span style={{ display: "block", fontSize: "0.72rem", fontWeight: 700, textTransform: "uppercase", letterSpacing: "0.08em", color: "var(--c-sub)", marginBottom: "8px" }}>
+                    LIVE HOMEPAGE SECTION PREVIEW
+                  </span>
+                  {homeTaglineEnabled && homeTagline.trim() ? (
+                    <div
+                      style={{
+                        padding: "24px 16px",
+                        background: "#f8fafc",
+                        borderRadius: "12px",
+                        border: "1px dashed var(--line, #cbd5e1)",
+                        textAlign: "center",
+                        display: "flex",
+                        flexDirection: "column",
+                        alignItems: "center",
+                        gap: "10px",
+                      }}
+                    >
+                      <h3
+                        style={{
+                          fontSize: "1.25rem",
+                          fontWeight: 800,
+                          color: "var(--navy, #0e1c36)",
+                          margin: 0,
+                          letterSpacing: "-0.02em",
+                          lineHeight: 1.3,
+                        }}
+                      >
+                        {homeTagline}
+                      </h3>
+                      <div
+                        style={{
+                          width: "44px",
+                          height: "3.5px",
+                          borderRadius: "999px",
+                          background: "linear-gradient(90deg, #df2020 0%, #ff8a00 100%)",
+                        }}
+                      />
+                    </div>
+                  ) : (
+                    <div
+                      style={{
+                        padding: "24px 16px",
+                        background: "#f8fafc",
+                        borderRadius: "12px",
+                        border: "1px dashed var(--line, #cbd5e1)",
+                        textAlign: "center",
+                        color: "#94a3b8",
+                        fontSize: "0.82rem",
+                        fontStyle: "italic",
+                      }}
+                    >
+                      Section is currently hidden / removed. On the homepage, the hero banner carousel connects directly to Browse by Category.
+                    </div>
+                  )}
+                </div>
+              </div>
+            </div>
+
+            {/* Bottom Save Action Bar */}
+            <div
+              style={{
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "space-between",
+                background: "#ffffff",
+                border: "1px solid var(--line, #e2e8f0)",
+                borderRadius: "var(--r-lg, 14px)",
+                padding: "16px 20px",
+                flexWrap: "wrap",
+                gap: "12px",
+                boxShadow: "0 2px 10px rgba(0,0,0,0.03)",
+              }}
+            >
+              <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
+                <Icon name="check" size={18} />
+                <span style={{ fontSize: "0.84rem", color: "var(--tx-2, #334155)", fontWeight: 600 }}>
+                  Make sure to click "Publish All Taglines" to save your updates to the live store.
+                </span>
+              </div>
+              <div style={{ display: "flex", gap: "10px" }}>
+                <button
+                  type="button"
+                  className="btn btn-ghost"
+                  disabled={busy || settingsSaving}
+                  onClick={fetchSliderSettings}
+                  style={{ minHeight: 40 }}
+                >
+                  Discard Changes
+                </button>
+                <button
+                  type="button"
+                  className="btn btn-navy"
+                  disabled={busy || settingsSaving}
+                  onClick={() => handleSaveGlobalSettings()}
+                  style={{ minHeight: 40, padding: "0 20px" }}
+                >
+                  <Icon name="check" size={16} />
+                  <span>{settingsSaving ? "Publishing…" : "Publish All Taglines"}</span>
+                </button>
+              </div>
             </div>
           </div>
         )}
@@ -1622,7 +2165,34 @@ export default function ContentAdminDashboard() {
             TAB 3: BRANDING & ASSETS
             ============================================================ */}
         {activeTab === "branding" && (
-          <div className="content-tab-content-grid">
+          <>
+            <div
+              style={{
+                background: "#f8fafc",
+                border: "1px solid var(--line, #cbd5e1)",
+                borderRadius: "12px",
+                padding: "12px 16px",
+                marginBottom: "20px",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "space-between",
+                gap: "12px",
+                flexWrap: "wrap",
+              }}
+            >
+              <div style={{ fontSize: "0.84rem", color: "var(--tx-2, #334155)" }}>
+                Looking to edit <strong>Header</strong> or <strong>Homepage Brand Taglines</strong> ("Delivering the heart..." & "Better Products...")?
+              </div>
+              <button
+                type="button"
+                className="btn btn-navy btn-sm"
+                onClick={() => setActiveTab("taglines")}
+                style={{ fontSize: "0.78rem" }}
+              >
+                Go to Site Taglines →
+              </button>
+            </div>
+            <div className="content-tab-content-grid">
             {/* Left Column: Branding Form Editor */}
             <div className="content-card form-card">
               <div className="content-card-head">
@@ -1837,6 +2407,7 @@ export default function ContentAdminDashboard() {
               )}
             </div>
           </div>
+          </>
         )}
       </div>
     </section>

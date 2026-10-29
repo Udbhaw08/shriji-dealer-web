@@ -33,16 +33,16 @@
 
 ## Relationships
 
-- [[Community 67]] (48 shared connections)
-- [[Pricing Regression Test Suite]] (44 shared connections)
-- [[Community 54]] (39 shared connections)
-- [[Community 45]] (34 shared connections)
+- [[Community 65]] (48 shared connections)
+- [[Client Products Data Store]] (44 shared connections)
+- [[Community 53]] (39 shared connections)
+- [[Community 43]] (34 shared connections)
 - [[Oxlint Linter Configuration]] (33 shared connections)
 - [[Product Requirements Documentation]] (12 shared connections)
-- [[Community 87]] (9 shared connections)
-- [[Live Pricing Audit Tool]] (6 shared connections)
-- [[Community 302]] (3 shared connections)
-- [[Testing & Workflow Skill]] (1 shared connections)
+- [[Community 84]] (9 shared connections)
+- [[Graphify Knowledge Graph Skill]] (6 shared connections)
+- [[Community 299]] (3 shared connections)
+- [[Community 30]] (1 shared connections)
 
 ## Source Files
 

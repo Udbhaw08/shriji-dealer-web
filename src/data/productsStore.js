@@ -3,7 +3,7 @@ import { CATEGORIES as INITIAL_CATEGORIES } from "./products.js";
 import { apiFetch, apiUrl } from "./api.js";
 import { getAccessToken } from "./auth.js";
 
-const CACHE_KEY_PREFIX = "shriji.zoho.products.v6";
+const CACHE_KEY_PREFIX = "shriji.zoho.products.v7";
 
 function getCacheKey(pbId) {
   return pbId ? `${CACHE_KEY_PREFIX}:${pbId}` : `${CACHE_KEY_PREFIX}:default`;
@@ -42,14 +42,15 @@ function loadCached(pbId = activePricebookId) {
       const data = JSON.parse(raw);
       const isStale = !data.time || (Date.now() - data.time > CACHE_TTL_MS);
       const hasAnyTags = Array.isArray(data.products) && data.products.some((p) => p.tags && p.tags.length > 0);
+      const hasAnyTrial = Array.isArray(data.products) && data.products.some((p) => p.isTrial);
       if (Array.isArray(data.products) && data.products.length > 0) {
         return {
           products: data.products,
           categories: sanitizeCategories(data.categories),
           loaded: true,
-          syncing: isStale || !hasAnyTags,
+          syncing: isStale || !hasAnyTags || !hasAnyTrial,
           pricebookId: pbId,
-          needsRefresh: isStale || !hasAnyTags,
+          needsRefresh: isStale || !hasAnyTags || !hasAnyTrial,
         };
       }
     }

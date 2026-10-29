@@ -1,48 +1,35 @@
 # Community 133
 
-> 14 nodes · cohesion 0.19
+> 14 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **findChrome()** (22 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **export-cleanup-browser.test.mjs** (8 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
-- **viewer-identifiers-browser.test.mjs** (7 connections) — `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
-- **evaluate()** (4 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
-- **executable()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **findOnPath()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **load()** (3 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
-- **load()** (3 connections) — `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
-- **run()** (3 connections) — `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
-- **exported()** (2 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
-- **cases** (1 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
-- **cases** (1 connections) — `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
+- **Tablet (iPadOS)** (6 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
+- **Pointing devices** (5 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
+- **Desktop (macOS)** (2 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
+- **pointing-devices.md** (1 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
+- **Customizing pointers** (1 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
+- **Pointer accessories** (1 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
+- **Pointer magnetism** (1 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
+- **Pointer shape and content effects** (1 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
+- **Pointers** (1 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
+- **Standard pointers and effects** (1 connections) — `.agents/skills/apple-design/references/hig/pointing-devices.md`
 
 ## Relationships
 
-- [[Community 56]] (7 shared connections)
-- [[Community 48]] (6 shared connections)
-- [[Community 96]] (2 shared connections)
-- [[Community 69]] (2 shared connections)
-- [[Community 88]] (2 shared connections)
-- [[Community 154]] (1 shared connections)
-- [[Community 155]] (1 shared connections)
-- [[Community 130]] (1 shared connections)
-- [[Community 34]] (1 shared connections)
-- [[Community 187]] (1 shared connections)
-- [[Community 253]] (1 shared connections)
-- [[Community 156]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/bin/visual-check.mjs`
-- `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
-- `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
+- `.agents/skills/apple-design/references/hig/pointing-devices.md`
 
 ## Audit Trail
 
-- EXTRACTED: 62 (100%)
+- EXTRACTED: 26 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

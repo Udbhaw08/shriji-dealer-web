@@ -1,13 +1,13 @@
 # Community 431
 
-> 4 nodes · cohesion 0.67
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **capture-dealer-workspace.mjs** (3 connections) — `scripts/capture-dealer-workspace.mjs`
-- **call()** (2 connections) — `scripts/capture-dealer-workspace.mjs`
-- **run()** (2 connections) — `scripts/capture-dealer-workspace.mjs`
-- **chrome** (1 connections) — `scripts/capture-dealer-workspace.mjs`
+- **Shriji Testing & Workflow Skill** (3 connections) — `.agents/skills/shriji-testing-and-workflow/SKILL.md`
+- **SKILL.md** (1 connections) — `.agents/skills/shriji-testing-and-workflow/SKILL.md`
+- **Daily Development Commands** (1 connections) — `.agents/skills/shriji-testing-and-workflow/SKILL.md`
+- **Hard Workflow Rules** (1 connections) — `.agents/skills/shriji-testing-and-workflow/SKILL.md`
 
 ## Relationships
 
@@ -15,11 +15,11 @@
 
 ## Source Files
 
-- `scripts/capture-dealer-workspace.mjs`
+- `.agents/skills/shriji-testing-and-workflow/SKILL.md`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

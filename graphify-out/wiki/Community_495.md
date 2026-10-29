@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **repository-language-metadata.test.mjs** (2 connections) — `.agents/skills/archify/test/repository-language-metadata.test.mjs`
-- **linguistGenerated()** (1 connections) — `.agents/skills/archify/test/repository-language-metadata.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/repository-language-metadata.test.mjs`
+- **OWASP Top 10 Security Checklist** (2 connections) — `docs/testing/security-penetration-testing-notes.md`
+- **security-penetration-testing-notes.md** (1 connections) — `docs/testing/security-penetration-testing-notes.md`
+- **Verified Protections** (1 connections) — `docs/testing/security-penetration-testing-notes.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/repository-language-metadata.test.mjs`
+- `docs/testing/security-penetration-testing-notes.md`
 
 ## Audit Trail
 

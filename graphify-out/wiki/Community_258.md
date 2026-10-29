@@ -4,14 +4,14 @@
 
 ## Key Concepts
 
-- **Controls** (7 connections) — `.agents/skills/apple-design/references/hig/controls.md`
-- **controls.md** (1 connections) — `.agents/skills/apple-design/references/hig/controls.md`
-- **Anatomy** (1 connections) — `.agents/skills/apple-design/references/hig/controls.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/controls.md`
-- **Camera experiences on a locked device** (1 connections) — `.agents/skills/apple-design/references/hig/controls.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/controls.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/controls.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/controls.md`
+- **Gauges** (6 connections) — `.agents/skills/apple-design/references/hig/gauges.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/gauges.md`
+- **gauges.md** (1 connections) — `.agents/skills/apple-design/references/hig/gauges.md`
+- **Anatomy** (1 connections) — `.agents/skills/apple-design/references/hig/gauges.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/gauges.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/gauges.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/gauges.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/gauges.md`
 
 ## Relationships
 
@@ -19,7 +19,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/controls.md`
+- `.agents/skills/apple-design/references/hig/gauges.md`
 
 ## Audit Trail
 

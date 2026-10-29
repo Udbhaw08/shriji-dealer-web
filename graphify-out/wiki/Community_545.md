@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **paginationHelper.js** (1 connections) — `backend/src/utils/paginationHelper.js`
-- **paginate()** (1 connections) — `backend/src/utils/paginationHelper.js`
+- **urlUtils.js** (1 connections) — `src/utils/urlUtils.js`
+- **buildUrlWithQuery()** (1 connections) — `src/utils/urlUtils.js`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `backend/src/utils/paginationHelper.js`
+- `src/utils/urlUtils.js`
 
 ## Audit Trail
 

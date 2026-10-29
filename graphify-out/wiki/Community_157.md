@@ -1,35 +1,33 @@
 # Community 157
 
-> 13 nodes · cohesion 0.21
+> 12 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **workflow-compiler-hard-contract.test.mjs** (14 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
-- **workflow()** (4 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
-- **oneLaneAnchors()** (3 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
-- **oneLaneWorkflow()** (3 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
-- **crossingAtForwardCollinearViaWorkflow()** (2 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
-- **nestedOutsideRightCorridorWorkflow()** (2 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
-- **assertExplicitPinConflict()** (1 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
-- **assertOrthogonal()** (1 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
-- **assertSupportedFixesNameChangedEdge()** (1 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
-- **clone()** (1 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
-- **mutate()** (1 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
-- **routeContainsChannel()** (1 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
-- **segmentMeetsRect()** (1 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
+- **Designing for iPhone Duo** (7 connections) — `.agents/skills/apple-design/references/hig/designing-for-iphone-duo.md`
+- **Dynamic layouts** (4 connections) — `.agents/skills/apple-design/references/hig/designing-for-iphone-duo.md`
+- **Anatomy** (2 connections) — `.agents/skills/apple-design/references/hig/designing-for-iphone-duo.md`
+- **designing-for-iphone-duo.md** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-iphone-duo.md`
+- **Arrangement views** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-iphone-duo.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-iphone-duo.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-iphone-duo.md`
+- **Device poses** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-iphone-duo.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-iphone-duo.md`
+- **Reserved regions** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-iphone-duo.md`
+- **Split views** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-iphone-duo.md`
+- **Vertical controls** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-iphone-duo.md`
 
 ## Relationships
 
-- [[Community 138]] (2 shared connections)
-- [[Community 67]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
+- `.agents/skills/apple-design/references/hig/designing-for-iphone-duo.md`
 
 ## Audit Trail
 
-- EXTRACTED: 35 (100%)
+- EXTRACTED: 22 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

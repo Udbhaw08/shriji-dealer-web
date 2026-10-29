@@ -4,21 +4,22 @@
 
 ## Key Concepts
 
-- **9. Line Length (Measure)** (3 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Guidelines** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Implementation** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **guidedViews** (4 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **maxItems** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
 
 ## Relationships
 
-- [[Community 238]] (1 shared connections)
+- [[Community 95]] (1 shared connections)
+- [[Community 236]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/refero-design/references/typography.md`
+- `.agents/skills/archify/schemas/common.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (100%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

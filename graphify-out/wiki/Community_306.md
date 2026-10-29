@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **Entering data** (5 connections) — `.agents/skills/apple-design/references/hig/entering-data.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/entering-data.md`
-- **entering-data.md** (1 connections) — `.agents/skills/apple-design/references/hig/entering-data.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/entering-data.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/entering-data.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/entering-data.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/entering-data.md`
+- **Labels** (5 connections) — `.agents/skills/apple-design/references/hig/labels.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/labels.md`
+- **labels.md** (1 connections) — `.agents/skills/apple-design/references/hig/labels.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/labels.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/labels.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/labels.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/labels.md`
 
 ## Relationships
 
@@ -18,7 +18,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/entering-data.md`
+- `.agents/skills/apple-design/references/hig/labels.md`
 
 ## Audit Trail
 

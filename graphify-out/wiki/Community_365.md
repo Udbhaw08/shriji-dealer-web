@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **CacheManager** (4 connections) — `backend/src/services/cacheManager.js`
-- **cacheManager.js** (2 connections) — `backend/src/services/cacheManager.js`
-- **.constructor()** (1 connections) — `backend/src/services/cacheManager.js`
-- **.get()** (1 connections) — `backend/src/services/cacheManager.js`
-- **.set()** (1 connections) — `backend/src/services/cacheManager.js`
-- **globalCache** (1 connections) — `backend/src/services/cacheManager.js`
+- **Shriji Zoho Integration Skill** (5 connections) — `.agents/skills/shriji-zoho-integration/SKILL.md`
+- **SKILL.md** (1 connections) — `.agents/skills/shriji-zoho-integration/SKILL.md`
+- **API Endpoints Reference** (1 connections) — `.agents/skills/shriji-zoho-integration/SKILL.md`
+- **Key Files & Architecture** (1 connections) — `.agents/skills/shriji-zoho-integration/SKILL.md`
+- **Pricing & Rate Priority** (1 connections) — `.agents/skills/shriji-zoho-integration/SKILL.md`
+- **Validation & Audit Commands** (1 connections) — `.agents/skills/shriji-zoho-integration/SKILL.md`
 
 ## Relationships
 
@@ -17,7 +17,7 @@
 
 ## Source Files
 
-- `backend/src/services/cacheManager.js`
+- `.agents/skills/shriji-zoho-integration/SKILL.md`
 
 ## Audit Trail
 

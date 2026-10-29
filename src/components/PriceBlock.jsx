@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { inr, priceFor, shareLink, formatWhatsAppPhone } from "../data/dealer";
 import { COMPANY } from "../data/site";
@@ -7,24 +7,32 @@ import { useLanguage } from "../data/i18n";
 
 /* The whole dealer/customer split lives here.
  *
- * Dealer view  — MRP never rendered except as the basis of the rebate; price is
- *                behind a toggle so it can be cleared off the screen fast.
+ * Dealer view  — MRP is always shown prominently by default; wholesale dealer rate
+ *                is masked behind a strict click-to-view toggle.
+ *                Whenever navigating away or back, the toggle always starts OFF.
  * Customer view — MRP only, no dealer price, no way to ask for one, plus the
  *                dealer the link came from.
  *
  * `customerView` is decided by the caller and is TRUE whenever the URL carries a
  * ?from= share token, whoever is signed in. A shared link must never leak a
  * dealer price, not even back to the dealer who sent it. */
-export default function PriceBlock({ p, customerView, dealer, sharedBy, canSeeDealerPrice = true }) {
+export default function PriceBlock({ p, customerView, dealer, sharedBy, canSeeDealerPrice = true, loadingPrice = false }) {
   if (customerView) return <CustomerPrice p={p} sharedBy={sharedBy} />;
-  return <DealerPrice p={p} dealer={dealer} canSeeDealerPrice={canSeeDealerPrice} />;
+  return <DealerPrice p={p} dealer={dealer} canSeeDealerPrice={canSeeDealerPrice} loadingPrice={loadingPrice} />;
 }
 
-function DealerPrice({ p, dealer, canSeeDealerPrice = true }) {
-  const [open, setOpen] = useState(true);
+function DealerPrice({ p, dealer, canSeeDealerPrice = true, loadingPrice = false }) {
+  // CRITICAL: open defaults to FALSE. MRP is visible; Dealer Price only revealed on explicit click.
+  const [open, setOpen] = useState(false);
   const { t } = useLanguage();
+
+  // Reset toggle to closed whenever product id changes (ensures no state leaks across navigation)
+  useEffect(() => {
+    setOpen(false);
+  }, [p?.id]);
+
   const effectiveDealer = canSeeDealerPrice ? dealer : null;
-  const { dealer: trade, mrp, isPriceOnRequest } = priceFor(p, effectiveDealer);
+  const { dealer: trade, mrp } = priceFor(p, effectiveDealer);
 
   // If entire item is unpriced in catalog (both MRP and trade are zero/missing)
   if (mrp <= 0 && trade <= 0) {
@@ -37,31 +45,6 @@ function DealerPrice({ p, dealer, canSeeDealerPrice = true }) {
         </div>
         <div className="pricebox-r">
           <p className="note pricebox-note">{t("price_unpriced_catalog")}</p>
-        </div>
-      </div>
-    );
-  }
-
-  // If retail MRP is known, but wholesale trade price is on request
-  if (trade <= 0 && mrp > 0) {
-    return (
-      <div className="pricebox">
-        <div className="pricebox-l">
-          <span className="pricebox-lbl">{t("price_mrp_label")}</span>
-          <b className="pricebox-amt">{inr(mrp)}</b>
-        </div>
-        <div className="pricebox-r">
-          <div style={{
-            display: "flex", alignItems: "center", gap: 7, padding: "8px 12px",
-            background: "var(--navy-50, #f8fafc)", border: "1px solid #cbd5e1",
-            borderRadius: "var(--r-sm, 8px)", fontSize: "0.82rem", color: "#334155", fontWeight: 700
-          }}>
-            <Icon name="phone" size={15} style={{ color: "#2563eb", flexShrink: 0 }} />
-            <span>Wholesale Rate on Request</span>
-          </div>
-          <p className="note pricebox-note">
-            Contact your Sunshine distributor for custom trade contract pricing on this model.
-          </p>
         </div>
       </div>
     );
@@ -92,17 +75,38 @@ function DealerPrice({ p, dealer, canSeeDealerPrice = true }) {
     );
   }
 
+  // Normal dealer state:
+  // When closed (DEFAULT): ALWAYS show Retail MRP prominently with "View Dealer Price" action.
+  // Never flash "Wholesale Rate on Request" on initial load.
+  // When opened: Reveal dealer wholesale price if loaded, or show subtle fetching spinner if in flight.
   return (
     <div className={`pricebox ${open ? "pricebox-revealed" : ""}`}>
       <div className="pricebox-l">
         {open ? (
-          <>
-            <span className="pricebox-lbl">{t("price_dealer_label")}</span>
-            <b className="pricebox-amt pricebox-dealer-amt">{inr(trade)}</b>
-            <small>
-              Retail MRP: {inr(mrp)}
-            </small>
-          </>
+          loadingPrice ? (
+            <>
+              <span className="pricebox-lbl">{t("price_dealer_label")}</span>
+              <div style={{ display: "flex", alignItems: "center", gap: 8, margin: "6px 0" }}>
+                <Icon name="refresh" size={18} style={{ animation: "spin 1s linear infinite", color: "var(--navy-600, #2563eb)" }} />
+                <span style={{ fontSize: "1.05rem", fontWeight: 700, color: "var(--tx-2, #64748b)" }}>Loading Dealer Rate…</span>
+              </div>
+              <small>Retail MRP: {inr(mrp)}</small>
+            </>
+          ) : trade > 0 ? (
+            <>
+              <span className="pricebox-lbl">{t("price_dealer_label")}</span>
+              <b className="pricebox-amt pricebox-dealer-amt">{inr(trade)}</b>
+              <small>
+                Retail MRP: {inr(mrp)}
+              </small>
+            </>
+          ) : (
+            <>
+              <span className="pricebox-lbl">{t("price_mrp_label")}</span>
+              <b className="pricebox-amt">{inr(mrp)}</b>
+              <small>{t("price_on_request_sub")}</small>
+            </>
+          )
         ) : (
           <>
             <span className="pricebox-lbl">{t("price_mrp_label")}</span>
@@ -112,17 +116,44 @@ function DealerPrice({ p, dealer, canSeeDealerPrice = true }) {
       </div>
 
       <div className="pricebox-r">
-        <button
-          type="button"
-          className={`btn ${open ? "btn-ghost" : "btn-navy"} btn-block`}
-          aria-expanded={open}
-          onClick={() => setOpen((v) => !v)}
-        >
-          <Icon name={open ? "eyeoff" : "lock"} /> {open ? t("price_dealer_hide") : t("price_dealer_view")}
-        </button>
-        <p className="note pricebox-note">
-          {open ? "Visible to approved dealers only" : "Click to view your wholesale dealer rate"}
-        </p>
+        {open && !loadingPrice && trade <= 0 ? (
+          <div style={{ display: "grid", gap: 8 }}>
+            <div style={{
+              display: "flex", alignItems: "center", gap: 7, padding: "8px 12px",
+              background: "var(--navy-50, #f8fafc)", border: "1px solid #cbd5e1",
+              borderRadius: "var(--r-sm, 8px)", fontSize: "0.82rem", color: "#334155", fontWeight: 700
+            }}>
+              <Icon name="phone" size={15} style={{ color: "#2563eb", flexShrink: 0 }} />
+              <span>Wholesale Rate on Request</span>
+            </div>
+            <button
+              type="button"
+              className="btn btn-ghost btn-block"
+              aria-expanded={true}
+              onClick={() => setOpen(false)}
+            >
+              <Icon name="eyeoff" /> {t("price_dealer_hide")}
+            </button>
+            <p className="note pricebox-note">
+              Contact your Sunshine distributor for custom trade contract pricing on this model.
+            </p>
+          </div>
+        ) : (
+          <>
+            <button
+              type="button"
+              className={`btn ${open ? "btn-ghost" : "btn-navy"} btn-block`}
+              aria-expanded={open}
+              disabled={open && loadingPrice}
+              onClick={() => setOpen((v) => !v)}
+            >
+              <Icon name={open ? "eyeoff" : "lock"} /> {open ? t("price_dealer_hide") : t("price_dealer_view")}
+            </button>
+            <p className="note pricebox-note">
+              {open ? "Visible to approved dealers only" : t("price_hidden_sub")}
+            </p>
+          </>
+        )}
       </div>
     </div>
   );

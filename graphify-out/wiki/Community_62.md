@@ -1,57 +1,52 @@
 # Community 62
 
-> 25 nodes · cohesion 0.14
+> 25 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **i18n.js** (25 connections) — `src/data/i18n.js`
-- **Products.jsx** (25 connections) — `src/pages/Products.jsx`
-- **ProductSearchBar.jsx** (15 connections) — `src/components/ProductSearchBar.jsx`
-- **useProducts()** (12 connections) — `src/data/productsStore.js`
-- **searchHelper.js** (11 connections) — `src/data/searchHelper.js`
-- **ProductSearchBar()** (6 connections) — `src/components/ProductSearchBar.jsx`
-- **getSuggestions()** (5 connections) — `src/data/searchHelper.js`
-- **autocorrectQuery()** (4 connections) — `src/data/searchHelper.js`
-- **buildSearchDictionary()** (4 connections) — `src/data/searchHelper.js`
-- **setLanguage()** (3 connections) — `src/data/i18n.js`
-- **emit()** (2 connections) — `src/data/i18n.js`
-- **toggleLanguage()** (2 connections) — `src/data/i18n.js`
-- **useProduct()** (2 connections) — `src/data/productsStore.js`
-- **getPopularSearches()** (2 connections) — `src/data/searchHelper.js`
-- **scoreProduct()** (2 connections) — `src/data/searchHelper.js`
-- **translations.js** (2 connections) — `src/data/translations.js`
-- **TRANSLATIONS** (2 connections) — `src/data/translations.js`
-- **currentLang** (1 connections) — `src/data/i18n.js`
-- **getInitialLang()** (1 connections) — `src/data/i18n.js`
-- **getLanguage()** (1 connections) — `src/data/i18n.js`
-- **listeners** (1 connections) — `src/data/i18n.js`
-- **COLLOQUIAL_SYNONYMS** (1 connections) — `src/data/searchHelper.js`
-- **levenshteinDistance()** (1 connections) — `src/data/searchHelper.js`
-- **Group()** (1 connections) — `src/pages/Products.jsx`
-- **SORT_FNS** (1 connections) — `src/pages/Products.jsx`
+- **architecture-delta.mjs** (65 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **validateArchitectureDeltaHtml()** (11 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **renderArchitectureDeltaHtml()** (6 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **architectureDeltaChangeRows()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **compareEntities()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **reviewTargetTags()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **expectedReviewTargetSignature()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **primaryReviewTags()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **reviewIdentity()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **reviewPrimaryStates()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **sortedObjects()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **addState()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **fieldChanges()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **normalizeComponent()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **normalizedField()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **reviewTargetSignature()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **safeJson()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **statusFor()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **total()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **BOUNDARY_FIELDS** (1 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **codepointOrder()** (1 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **COMPONENT_FIELDS** (1 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **CONNECTION_FIELDS** (1 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **normalizeBoundary()** (1 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **sorted()** (1 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
 
 ## Relationships
 
-- [[Dependencies & Package Config]] (27 shared connections)
-- [[Community 42]] (14 shared connections)
-- [[Community 103]] (4 shared connections)
-- [[Community 146]] (2 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (2 shared connections)
-- [[Community 158]] (1 shared connections)
+- [[Community 86]] (20 shared connections)
+- [[Community 114]] (18 shared connections)
+- [[Oxlint Linter Configuration]] (5 shared connections)
+- [[Community 144]] (4 shared connections)
+- [[Community 169]] (2 shared connections)
+- [[Community 49]] (2 shared connections)
 
 ## Source Files
 
-- `src/components/ProductSearchBar.jsx`
-- `src/data/i18n.js`
-- `src/data/productsStore.js`
-- `src/data/searchHelper.js`
-- `src/data/translations.js`
-- `src/pages/Products.jsx`
+- `.agents/skills/archify/delta/architecture-delta.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 132 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 129 (98%)
+- INFERRED: 2 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

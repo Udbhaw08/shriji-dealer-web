@@ -1,35 +1,44 @@
 # Community 135
 
-> 14 nodes · cohesion 0.14
+> 14 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **File management** (7 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
-- **Desktop (macOS)** (3 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
-- **Mobile (iOS, iPadOS)** (3 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
-- **file-management.md** (1 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
-- **Creating and opening files** (1 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
-- **Custom file management** (1 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
-- **Document launcher** (1 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
-- **File provider app extension** (1 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
-- **Finder Sync extensions** (1 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
-- **Quick Look previews** (1 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
-- **Saving work** (1 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
+- **fetchZohoProducts()** (20 connections) — `api/_lib/zoho.js`
+- **dealerPricingAuth.js** (10 connections) — `api/_lib/dealerPricingAuth.js`
+- **getDealerPricingEligibility()** (8 connections) — `api/_lib/dealerPricingAuth.js`
+- **index.js** (8 connections) — `api/products/index.js`
+- **fetchZohoCategories()** (6 connections) — `api/_lib/zoho.js`
+- **[id].js** (6 connections) — `api/products/[id].js`
+- **handler()** (6 connections) — `api/products/index.js`
+- **maskCatalogPricing()** (5 connections) — `api/_lib/dealerPricingAuth.js`
+- **maskProductPricing()** (5 connections) — `api/_lib/dealerPricingAuth.js`
+- **getCategoryVisibilityMap()** (5 connections) — `api/_lib/zoho.js`
+- **readProductsDiskCache()** (5 connections) — `api/_lib/zoho.js`
+- **handler()** (4 connections) — `api/products/[id].js`
+- **writeProductsDiskCache()** (2 connections) — `api/_lib/zoho.js`
+- **tokenCache** (1 connections) — `api/_lib/dealerPricingAuth.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 166]] (9 shared connections)
+- [[Community 153]] (8 shared connections)
+- [[Community 47]] (7 shared connections)
+- [[Community 125]] (6 shared connections)
+- [[Pricing Regression Test Suite]] (4 shared connections)
+- [[Pricing & Roles Skill]] (3 shared connections)
+- [[Community 148]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/file-management.md`
+- `api/_lib/dealerPricingAuth.js`
+- `api/_lib/zoho.js`
+- `api/products/[id].js`
+- `api/products/index.js`
 
 ## Audit Trail
 
-- EXTRACTED: 26 (100%)
+- EXTRACTED: 91 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

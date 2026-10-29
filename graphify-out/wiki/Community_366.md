@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **MetricsTracker** (4 connections) — `backend/src/services/metrics.js`
-- **metrics.js** (2 connections) — `backend/src/services/metrics.js`
-- **metrics** (1 connections) — `backend/src/services/metrics.js`
-- **.constructor()** (1 connections) — `backend/src/services/metrics.js`
-- **.getSnapshot()** (1 connections) — `backend/src/services/metrics.js`
-- **.track()** (1 connections) — `backend/src/services/metrics.js`
+- **SKILL.md** (3 connections) — `.agents/skills/swiftui-pro/SKILL.md`
+- **Output Format** (3 connections) — `.agents/skills/swiftui-pro/SKILL.md`
+- **ContentView.swift** (1 connections) — `.agents/skills/swiftui-pro/SKILL.md`
+- **Core Instructions** (1 connections) — `.agents/skills/swiftui-pro/SKILL.md`
+- **References** (1 connections) — `.agents/skills/swiftui-pro/SKILL.md`
+- **Summary** (1 connections) — `.agents/skills/swiftui-pro/SKILL.md`
 
 ## Relationships
 
@@ -17,7 +17,7 @@
 
 ## Source Files
 
-- `backend/src/services/metrics.js`
+- `.agents/skills/swiftui-pro/SKILL.md`
 
 ## Audit Trail
 

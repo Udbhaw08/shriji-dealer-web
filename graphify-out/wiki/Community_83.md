@@ -1,51 +1,48 @@
 # Community 83
 
-> 22 nodes · cohesion 0.15
+> 21 nodes · cohesion 0.21
 
 ## Key Concepts
 
-- **b()** (20 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
-- **fp()** (13 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
-- **h()** (13 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
-- **be()** (10 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
-- **v()** (7 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
-- **.blur()** (6 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
-- **.scrollIntoView()** (6 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
-- **g()** (5 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
-- **me()** (5 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
-- **.getClientRects()** (4 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
-- **pe()** (4 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
-- **up()** (4 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
-- **Vp()** (4 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
-- **xp()** (4 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
-- **.focusLast()** (3 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
-- **.unobserveUsing()** (3 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
-- **Yp()** (3 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
-- **.observeUsing()** (2 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
-- **Gp()** (2 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
-- **Qp()** (2 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
-- **y()** (2 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
-- **ye()** (2 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **commerceClient.js** (22 connections) — `backend/src/services/commerceClient.js`
+- **catalog.js** (16 connections) — `backend/src/services/catalog.js`
+- **ensureContactPricebookForCrmAccount()** (9 connections) — `backend/src/services/commerceClient.js`
+- **syncCatalog()** (7 connections) — `backend/src/services/catalog.js`
+- **fetchCatalog()** (6 connections) — `backend/src/services/commerceClient.js`
+- **resolvePricebookId()** (6 connections) — `backend/src/services/commerceClient.js`
+- **booksFetch()** (5 connections) — `backend/src/services/commerceClient.js`
+- **commerceConfigured()** (5 connections) — `backend/src/services/commerceClient.js`
+- **commerceFetch()** (5 connections) — `backend/src/services/commerceClient.js`
+- **isCommerceConfigured()** (5 connections) — `backend/src/services/commerceClient.js`
+- **catalogFor()** (4 connections) — `backend/src/services/catalog.js`
+- **loadCatalog()** (4 connections) — `backend/src/services/catalog.js`
+- **assignPricebookToContact()** (4 connections) — `backend/src/services/commerceClient.js`
+- **priceView()** (3 connections) — `backend/src/services/catalog.js`
+- **deactivateCommerceContact()** (3 connections) — `backend/src/services/commerceClient.js`
+- **fetchCommercePricebooks()** (3 connections) — `backend/src/services/commerceClient.js`
+- **fetchPricebookRates()** (3 connections) — `backend/src/services/commerceClient.js`
+- **getAccessToken()** (3 connections) — `backend/src/services/commerceClient.js`
+- **priceGate.test.mjs** (3 connections) — `backend/test/priceGate.test.mjs`
+- **parseRate()** (2 connections) — `backend/src/services/commerceClient.js`
+- **CATALOG** (1 connections) — `backend/test/priceGate.test.mjs`
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (16 shared connections)
-- [[Community 46]] (10 shared connections)
-- [[Graphify Knowledge Graph Skill]] (9 shared connections)
-- [[Zoho Integration Architecture]] (6 shared connections)
-- [[Community 64]] (5 shared connections)
-- [[Product Brand & Business Vision]] (4 shared connections)
-- [[Mobile Responsive UI Skill]] (3 shared connections)
-- [[Community 40]] (2 shared connections)
-- [[Community 29]] (1 shared connections)
+- [[Master Codebase Architecture Reference]] (9 shared connections)
+- [[Pricing Regression Test Suite]] (8 shared connections)
+- [[Community 165]] (6 shared connections)
+- [[Pricing & Roles Skill]] (5 shared connections)
+- [[Community 125]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-STbSaCMn.js`
+- `backend/src/services/catalog.js`
+- `backend/src/services/commerceClient.js`
+- `backend/test/priceGate.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 124 (100%)
+- EXTRACTED: 119 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

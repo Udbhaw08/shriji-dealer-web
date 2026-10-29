@@ -1,46 +1,39 @@
 # Community 103
 
-> 18 nodes · cohesion 0.21
+> 18 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **productsStore.js** (25 connections) — `src/data/productsStore.js`
-- **apiFetch()** (20 connections) — `src/data/api.js`
-- **api.js** (11 connections) — `src/data/api.js`
-- **apiUrl()** (9 connections) — `src/data/api.js`
-- **fetchLiveProducts()** (7 connections) — `src/data/productsStore.js`
-- **syncPricebookWithSession()** (7 connections) — `src/data/productsStore.js`
-- **products.js** (5 connections) — `src/data/products.js`
-- **getAccessToken()** (4 connections) — `src/data/auth.js`
-- **loadCached()** (4 connections) — `src/data/productsStore.js`
-- **emit()** (3 connections) — `src/data/productsStore.js`
-- **syncTagsLive()** (3 connections) — `src/data/productsStore.js`
-- **CATEGORIES** (2 connections) — `src/data/products.js`
-- **getCacheKey()** (2 connections) — `src/data/productsStore.js`
-- **sanitizeCategories()** (2 connections) — `src/data/productsStore.js`
-- **PRODUCTS** (1 connections) — `src/data/products.js`
-- **listeners** (1 connections) — `src/data/productsStore.js`
-- **PREFERRED_ORDER** (1 connections) — `src/data/productsStore.js`
-- **storeState** (1 connections) — `src/data/productsStore.js`
+- **PRD — Shriji Domestic Appliances Dealer Web** (11 connections) — `PRD.md`
+- **3. Scope** (3 connections) — `PRD.md`
+- **6. Data** (3 connections) — `PRD.md`
+- **7. Evidence ledger — what is verified vs. what is sample** (3 connections) — `PRD.md`
+- **PRD.md** (1 connections) — `PRD.md`
+- **10. Conventions worth knowing** (1 connections) — `PRD.md`
+- **1. What this is** (1 connections) — `PRD.md`
+- **2. Who uses it** (1 connections) — `PRD.md`
+- **4. Stack** (1 connections) — `PRD.md`
+- **5. The pricing model — the core business rule** (1 connections) — `PRD.md`
+- **8. Roadmap** (1 connections) — `PRD.md`
+- **9. Decision log** (1 connections) — `PRD.md`
+- **Built and working** (1 connections) — `PRD.md`
+- **⚠️ Known discrepancy** (1 connections) — `PRD.md`
+- **Not built yet (and deliberately so)** (1 connections) — `PRD.md`
+- **Product record shape** (1 connections) — `PRD.md`
+- **Sample / invented for the draft — must stay labelled as such** (1 connections) — `PRD.md`
+- **Verified (scraped from shrijidomestic.com, 2026-09-18)** (1 connections) — `PRD.md`
 
 ## Relationships
 
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (12 shared connections)
-- [[Dependencies & Package Config]] (11 shared connections)
-- [[Graphify Workflow]] (11 shared connections)
-- [[Community 42]] (6 shared connections)
-- [[Community 62]] (4 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `src/data/api.js`
-- `src/data/auth.js`
-- `src/data/products.js`
-- `src/data/productsStore.js`
+- `PRD.md`
 
 ## Audit Trail
 
-- EXTRACTED: 108 (100%)
+- EXTRACTED: 34 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

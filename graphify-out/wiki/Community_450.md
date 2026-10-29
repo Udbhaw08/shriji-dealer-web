@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **Session Security Lifecycle & Token Rotation** (2 connections) — `docs/architecture/session-security-lifecycle.md`
-- **session-security-lifecycle.md** (1 connections) — `docs/architecture/session-security-lifecycle.md`
-- **Token Lifecycles** (1 connections) — `docs/architecture/session-security-lifecycle.md`
+- **Vercel Production Deployment Checklist** (2 connections) — `docs/deployment/vercel-production-checklist.md`
+- **vercel-production-checklist.md** (1 connections) — `docs/deployment/vercel-production-checklist.md`
+- **Environment Variables** (1 connections) — `docs/deployment/vercel-production-checklist.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/architecture/session-security-lifecycle.md`
+- `docs/deployment/vercel-production-checklist.md`
 
 ## Audit Trail
 

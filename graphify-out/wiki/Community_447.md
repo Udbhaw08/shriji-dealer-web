@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **Microservices Decoupled Architecture** (2 connections) — `docs/architecture/microservices-architecture.md`
-- **microservices-architecture.md** (1 connections) — `docs/architecture/microservices-architecture.md`
-- **Overview** (1 connections) — `docs/architecture/microservices-architecture.md`
+- **Session Security Lifecycle & Token Rotation** (2 connections) — `docs/architecture/session-security-lifecycle.md`
+- **session-security-lifecycle.md** (1 connections) — `docs/architecture/session-security-lifecycle.md`
+- **Token Lifecycles** (1 connections) — `docs/architecture/session-security-lifecycle.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/architecture/microservices-architecture.md`
+- `docs/architecture/session-security-lifecycle.md`
 
 ## Audit Trail
 

@@ -1,37 +1,40 @@
 # Community 128
 
-> 15 nodes · cohesion 0.19
+> 15 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **items** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **items** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **items** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **sources** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **items** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **additionalProperties** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **required** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **boundaries** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **connections** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **maxItems** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **minItems** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **i18n.test.mjs** (20 connections) — `.agents/skills/archify/test/i18n.test.mjs`
+- **catalogKeys()** (2 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **SUPPORTED_LOCALES** (2 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **authoredExample()** (2 connections) — `.agents/skills/archify/test/i18n.test.mjs`
+- **evaluate()** (2 connections) — `.agents/skills/archify/test/i18n.test.mjs`
+- **example()** (2 connections) — `.agents/skills/archify/test/i18n.test.mjs`
+- **loadArtifact()** (2 connections) — `.agents/skills/archify/test/i18n.test.mjs`
+- **AUTHORED_TEXT_KEYS** (1 connections) — `.agents/skills/archify/test/i18n.test.mjs`
+- **cli** (1 connections) — `.agents/skills/archify/test/i18n.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/i18n.test.mjs`
+- **EXAMPLES** (1 connections) — `.agents/skills/archify/test/i18n.test.mjs`
+- **run()** (1 connections) — `.agents/skills/archify/test/i18n.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/i18n.test.mjs`
+- **templatePath** (1 connections) — `.agents/skills/archify/test/i18n.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/i18n.test.mjs`
 
 ## Relationships
 
-- [[Project Readme & Layout]] (5 shared connections)
-- [[Community 86]] (3 shared connections)
+- [[Community 84]] (5 shared connections)
+- [[Community 45]] (1 shared connections)
+- [[Community 85]] (1 shared connections)
+- [[Community 130]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/architecture.schema.json`
+- `.agents/skills/archify/renderers/shared/i18n.mjs`
+- `.agents/skills/archify/test/i18n.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 48 (100%)
+- EXTRACTED: 40 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

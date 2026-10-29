@@ -1,55 +1,55 @@
 # Architecture Doc Generator
 
-> 49 nodes · cohesion 0.07
+> 56 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **Md()** (15 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **tc()** (15 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **xi()** (13 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **rc()** (12 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **kt()** (10 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **yh()** (10 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **hh()** (9 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **kd()** (9 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **c()** (8 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **ic()** (8 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **lo()** (8 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **ec()** (7 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **Id()** (7 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **mh()** (7 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **vs()** (7 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **bi()** (6 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **dh()** (6 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **fh()** (6 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **gn()** (6 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **Ih()** (6 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **ph()** (6 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **sc()** (6 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **Sh()** (6 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **bh()** (5 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **co()** (5 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- *... and 24 more nodes in this community*
+- **hash.js** (25 connections) — `backend/src/utils/hash.js`
+- **phase2DealerStaffOnboarding.test.mjs** (17 connections) — `backend/test/phase2DealerStaffOnboarding.test.mjs`
+- **loginCode.js** (17 connections) — `backend/src/utils/loginCode.js`
+- **dealerRegistrationTwoChannel.test.mjs** (15 connections) — `backend/test/dealerRegistrationTwoChannel.test.mjs`
+- **onboardingVerification.test.mjs** (15 connections) — `backend/test/onboardingVerification.test.mjs`
+- **hashOtp()** (10 connections) — `backend/src/utils/hash.js`
+- **verifyOtpHash()** (10 connections) — `backend/src/utils/hash.js`
+- **hash.test.mjs** (9 connections) — `backend/test/hash.test.mjs`
+- **sha256()** (9 connections) — `backend/src/utils/hash.js`
+- **formatLoginCode()** (8 connections) — `backend/src/utils/loginCode.js`
+- **generateLoginCode()** (8 connections) — `backend/src/utils/loginCode.js`
+- **loginCode.test.mjs** (7 connections) — `backend/test/loginCode.test.mjs`
+- **generateOtp()** (5 connections) — `backend/src/utils/hash.js`
+- **hashPassword()** (5 connections) — `backend/src/utils/hash.js`
+- **verifyPassword()** (4 connections) — `backend/src/utils/hash.js`
+- **isValidLoginCode()** (4 connections) — `backend/src/utils/loginCode.js`
+- **parseLoginCode()** (4 connections) — `backend/src/utils/loginCode.js`
+- **scryptKey()** (3 connections) — `backend/src/utils/hash.js`
+- **USER_CATEGORIES** (3 connections) — `backend/src/utils/loginCode.js`
+- **generateCode()** (2 connections) — `backend/src/utils/hash.js`
+- **randomToken()** (2 connections) — `backend/src/utils/hash.js`
+- **generateRandomDigits()** (2 connections) — `backend/src/utils/loginCode.js`
+- **generateRandomLetters()** (2 connections) — `backend/src/utils/loginCode.js`
+- **GST_TREATMENT_OPTIONS** (2 connections) — `backend/src/utils/loginCode.js`
+- **app** (1 connections) — `backend/test/dealerRegistrationTwoChannel.test.mjs`
+- *... and 31 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (52 shared connections)
 - [[Master Codebase Architecture Reference]] (23 shared connections)
-- [[Design System & UI Tokens]] (18 shared connections)
-- [[Roles & Customer Sharing Spec]] (16 shared connections)
-- [[Graphify Agent Rules]] (6 shared connections)
-- [[Pricing & Roles Skill]] (5 shared connections)
-- [[Community 37]] (5 shared connections)
-- [[Community 68]] (5 shared connections)
-- [[Community 61]] (1 shared connections)
+- [[Pricing & Roles Skill]] (7 shared connections)
+- [[Pricing Regression Test Suite]] (2 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- `backend/src/utils/hash.js`
+- `backend/src/utils/loginCode.js`
+- `backend/test/dealerRegistrationTwoChannel.test.mjs`
+- `backend/test/hash.test.mjs`
+- `backend/test/loginCode.test.mjs`
+- `backend/test/onboardingVerification.test.mjs`
+- `backend/test/phase2DealerStaffOnboarding.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 297 (100%)
+- EXTRACTED: 220 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

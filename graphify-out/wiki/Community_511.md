@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **Package.swift** (1 connections) — `ios/App/CapApp-SPM/Package.swift`
-- **PackageDescription** (1 connections) — `ios/App/CapApp-SPM/Package.swift`
+- **NetworkStatusBadge.jsx** (1 connections) — `src/components/NetworkStatusBadge.jsx`
+- **NetworkStatusBadge()** (1 connections) — `src/components/NetworkStatusBadge.jsx`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `ios/App/CapApp-SPM/Package.swift`
+- `src/components/NetworkStatusBadge.jsx`
 
 ## Audit Trail
 

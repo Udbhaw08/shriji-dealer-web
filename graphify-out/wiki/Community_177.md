@@ -4,17 +4,17 @@
 
 ## Key Concepts
 
-- **Dark Mode** (6 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
-- **Dark Mode colors** (3 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
-- **dark-mode.md** (1 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
-- **Icons and images** (1 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
-- **Text** (1 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
+- **Gestures** (7 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
+- **Specifications** (2 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
+- **gestures.md** (1 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
+- **Custom gestures** (1 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
+- **Standard gestures** (1 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
 
 ## Relationships
 
@@ -22,7 +22,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/dark-mode.md`
+- `.agents/skills/apple-design/references/hig/gestures.md`
 
 ## Audit Trail
 

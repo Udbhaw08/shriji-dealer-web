@@ -1,56 +1,64 @@
 # Master Codebase Architecture Reference
 
-> 60 nodes · cohesion 0.07
+> 63 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **ot()** (23 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **k()** (21 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **lt()** (16 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **nt()** (15 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **A()** (14 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **ft()** (14 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **zd()** (14 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **qa()** (13 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **qd()** (13 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **Ii()** (12 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **mt()** (12 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **Nd()** (12 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **yn()** (11 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **tf()** (10 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **af()** (9 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **at()** (9 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **ut()** (9 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **ct()** (8 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **ef()** (8 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **Gd()** (8 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **it()** (8 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **mn()** (8 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **mo()** (8 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **F()** (7 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **kf()** (7 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- *... and 35 more nodes in this community*
+- **auth.js** (55 connections) — `backend/src/routes/auth.js`
+- **dealers.js** (51 connections) — `backend/src/routes/dealers.js`
+- **dealerApp.js** (44 connections) — `backend/src/services/dealerApp.js`
+- **crmClient.js** (35 connections) — `backend/src/services/crmClient.js`
+- **normalizePhone()** (21 connections) — `backend/src/utils/phone.js`
+- **normalizeEmail()** (18 connections) — `backend/src/utils/validators.js`
+- **notifications.js** (16 connections) — `backend/src/services/notifications.js`
+- **validators.js** (15 connections) — `backend/src/utils/validators.js`
+- **crmFetch()** (14 connections) — `backend/src/services/crmClient.js`
+- **requestDealerRegistrationOtp()** (14 connections) — `backend/src/services/dealerApp.js`
+- **finalizeDealerRegistration()** (12 connections) — `backend/src/services/dealerApp.js`
+- **isValidPhone()** (11 connections) — `backend/src/utils/validators.js`
+- **generateUniqueDealerCode()** (10 connections) — `backend/src/utils/loginCode.js`
+- **cleanName()** (9 connections) — `backend/src/utils/validators.js`
+- **httpError()** (8 connections) — `backend/src/middleware/errorHandler.js`
+- **crmConfigured()** (8 connections) — `backend/src/services/crmClient.js`
+- **validators.test.mjs** (8 connections) — `backend/test/validators.test.mjs`
+- **phone.js** (8 connections) — `backend/src/utils/phone.js`
+- **issueSession()** (7 connections) — `backend/src/routes/auth.js`
+- **applyDealer()** (7 connections) — `backend/src/services/dealerApp.js`
+- **verifyDealerRegistrationOtp()** (7 connections) — `backend/src/services/dealerApp.js`
+- **sendWhatsAppOtp()** (7 connections) — `backend/src/services/notifications.js`
+- **isValidEmail()** (7 connections) — `backend/src/utils/validators.js`
+- **provisionDealerInCrm()** (6 connections) — `backend/src/services/dealerApp.js`
+- **interconnection.test.mjs** (6 connections) — `backend/test/interconnection.test.mjs`
+- *... and 38 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (68 shared connections)
+- [[Pricing & Roles Skill]] (42 shared connections)
+- [[Pricing Regression Test Suite]] (24 shared connections)
 - [[Architecture Doc Generator]] (23 shared connections)
-- [[Roles & Customer Sharing Spec]] (22 shared connections)
-- [[Design System & UI Tokens]] (19 shared connections)
-- [[Community 61]] (15 shared connections)
-- [[Community 68]] (15 shared connections)
-- [[Pricing & Roles Skill]] (12 shared connections)
-- [[Community 37]] (8 shared connections)
-- [[Graphify Agent Rules]] (8 shared connections)
+- [[Community 165]] (20 shared connections)
+- [[Community 83]] (9 shared connections)
+- [[Community 323]] (4 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- `backend/src/middleware/errorHandler.js`
+- `backend/src/middleware/rateLimit.js`
+- `backend/src/routes/auth.js`
+- `backend/src/routes/dealers.js`
+- `backend/src/services/crmClient.js`
+- `backend/src/services/dealerApp.js`
+- `backend/src/services/notifications.js`
+- `backend/src/utils/loginCode.js`
+- `backend/src/utils/phone.js`
+- `backend/src/utils/validators.js`
+- `backend/test/interconnection.test.mjs`
+- `backend/test/validators.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 440 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 517 (100%)
+- INFERRED: 1 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

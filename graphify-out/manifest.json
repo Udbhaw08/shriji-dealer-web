@@ -25,8 +25,8 @@
     "semantic_hash": ""
   },
   "package.json": {
-    "mtime": 1793299354.595666,
-    "ast_hash": "10d2b1cc2e5a84a02fcd327e9309de13",
+    "mtime": 1793311769.824622,
+    "ast_hash": "acf315d274ad3e314797d8022e421ab7",
     "semantic_hash": ""
   },
   "scripts/audit_prices.mjs": {
@@ -45,8 +45,8 @@
     "semantic_hash": ""
   },
   "src/components/PriceBlock.jsx": {
-    "mtime": 1793290495.6326766,
-    "ast_hash": "a65e4db7d2ca4afddca9f12cb7d6d51d",
+    "mtime": 1793310533.997237,
+    "ast_hash": "8e82bae29d2b107f09b99dad40ab1f83",
     "semantic_hash": ""
   },
   "src/components/ProductCard.jsx": {
@@ -75,8 +75,8 @@
     "semantic_hash": ""
   },
   "src/data/productsStore.js": {
-    "mtime": 1793290685.5654898,
-    "ast_hash": "4c09db37d71aa6832f809e19fac6dcc7",
+    "mtime": 1793310037.1853657,
+    "ast_hash": "aa9a5b1100a82cc28fb8da0d8bcd7e37",
     "semantic_hash": ""
   },
   "src/data/session.js": {
@@ -95,8 +95,8 @@
     "semantic_hash": ""
   },
   "src/pages/Home.jsx": {
-    "mtime": 1793298219.2824986,
-    "ast_hash": "78cc02ab1fd8070f81e22712fd8f38b7",
+    "mtime": 1793310880.0771651,
+    "ast_hash": "b85e2844e98ca897a841d8e0042608c2",
     "semantic_hash": ""
   },
   "src/pages/Login.jsx": {
@@ -105,13 +105,13 @@
     "semantic_hash": ""
   },
   "src/pages/Product.jsx": {
-    "mtime": 1793298841.6484005,
-    "ast_hash": "b4fa1add97a64a865b29194f6f4fdc46",
+    "mtime": 1793311301.1385214,
+    "ast_hash": "c66093923b6b2cc71dc5a451feffbead",
     "semantic_hash": ""
   },
   "src/pages/Products.jsx": {
-    "mtime": 1793290245.8038316,
-    "ast_hash": "6e6968fdfbcffca45f8bec8f0a4451a1",
+    "mtime": 1793311752.9806736,
+    "ast_hash": "b2b44f2f7c0b52c62091eda622812f39",
     "semantic_hash": ""
   },
   "src/pages/Schemes.jsx": {
@@ -120,13 +120,13 @@
     "semantic_hash": ""
   },
   "src/pages/Support.jsx": {
-    "mtime": 1793298112.6658068,
-    "ast_hash": "216c0cb7421034594e2ac97350f8e0a5",
+    "mtime": 1793311007.4786625,
+    "ast_hash": "81485fb484d9c0345dfd9f7027e02f8b",
     "semantic_hash": ""
   },
   "src/ui.jsx": {
-    "mtime": 1793277214.4261923,
-    "ast_hash": "913d34bd046953f5e31582d08b8de235",
+    "mtime": 1793310880.073178,
+    "ast_hash": "25b50da5e3660a91aa9deb84eb287793",
     "semantic_hash": ""
   },
   "vercel.json": {
@@ -135,8 +135,8 @@
     "semantic_hash": ""
   },
   "vite.config.js": {
-    "mtime": 1793303768.902107,
-    "ast_hash": "a16e3958ede67cb213df6d76855845b4",
+    "mtime": 1793310819.1799417,
+    "ast_hash": "1e498a01fd7215499d9643709bbc00f8",
     "semantic_hash": ""
   },
   ".agents/rules/graphify.md": {
@@ -180,8 +180,8 @@
     "semantic_hash": ""
   },
   "CODEBASE.md": {
-    "mtime": 1793304169.6392932,
-    "ast_hash": "2d31837e30de9ee5fb71ab85a4eb7279",
+    "mtime": 1793311787.174618,
+    "ast_hash": "4ab5808fc705ad8bcb1caad4ac020815",
     "semantic_hash": ""
   },
   "PRD.md": {
@@ -320,8 +320,8 @@
     "semantic_hash": ""
   },
   "src/data/translations.js": {
-    "mtime": 1793298278.6064029,
-    "ast_hash": "fda6823652085fc638670a3fd8ece30c",
+    "mtime": 1793311572.990376,
+    "ast_hash": "0651a2ab327fe1180a6c0353237a3f9a",
     "semantic_hash": ""
   },
   "src/components/MobileBottomNav.jsx": {
@@ -590,7 +590,7 @@
     "semantic_hash": ""
   },
   "android/app/capacitor.build.gradle": {
-    "mtime": 1793304175.4544024,
+    "mtime": 1793311789.9250214,
     "ast_hash": "6f95eb3e9a08ae902e6ebee49fae0e87",
     "semantic_hash": ""
   },
@@ -600,22 +600,22 @@
     "semantic_hash": ""
   },
   "android/app/src/main/assets/capacitor.config.json": {
-    "mtime": 1793304175.3252158,
+    "mtime": 1793311789.8841739,
     "ast_hash": "c3b7521daf5e0ffb05c899566a409603",
     "semantic_hash": ""
   },
   "android/app/src/main/assets/capacitor.plugins.json": {
-    "mtime": 1793304175.395281,
+    "mtime": 1793311789.9081602,
     "ast_hash": "5b7f24f78381c296e8f45d2e08b3387d",
     "semantic_hash": ""
   },
   "android/app/src/main/assets/public/cordova.js": {
-    "mtime": 1793304175.443013,
+    "mtime": 1793311789.9220257,
     "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
     "semantic_hash": ""
   },
   "android/app/src/main/assets/public/cordova_plugins.js": {
-    "mtime": 1793304175.4440117,
+    "mtime": 1793311789.9220257,
     "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
     "semantic_hash": ""
   },
@@ -635,17 +635,17 @@
     "semantic_hash": ""
   },
   "android/capacitor-cordova-android-plugins/build.gradle": {
-    "mtime": 1793304175.460009,
+    "mtime": 1793311789.9260223,
     "ast_hash": "2af61653d70c95d20802c8b5c433ba90",
     "semantic_hash": ""
   },
   "android/capacitor-cordova-android-plugins/cordova.variables.gradle": {
-    "mtime": 1793304175.4611185,
+    "mtime": 1793311789.9270225,
     "ast_hash": "d2372a0ae9aa60abb8d03e7f06bf9194",
     "semantic_hash": ""
   },
   "android/capacitor.settings.gradle": {
-    "mtime": 1793304175.4533987,
+    "mtime": 1793311789.9240227,
     "ast_hash": "33ed8a9bcb1cb579ff402e4441ceba0e",
     "semantic_hash": ""
   },
@@ -695,22 +695,22 @@
     "semantic_hash": ""
   },
   "ios/App/App/capacitor.config.json": {
-    "mtime": 1793304175.688589,
+    "mtime": 1793311790.0289543,
     "ast_hash": "153d51185cd9c15b71dd6730350bbb1e",
     "semantic_hash": ""
   },
   "ios/App/App/public/cordova.js": {
-    "mtime": 1793304175.6528497,
+    "mtime": 1793311790.011985,
     "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
     "semantic_hash": ""
   },
   "ios/App/App/public/cordova_plugins.js": {
-    "mtime": 1793304175.6538475,
+    "mtime": 1793311790.011985,
     "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
     "semantic_hash": ""
   },
   "ios/App/CapApp-SPM/Package.swift": {
-    "mtime": 1793304175.662865,
+    "mtime": 1793311790.0169687,
     "ast_hash": "d382a118912be7b151ceff8ace266e42",
     "semantic_hash": ""
   },
@@ -732,36 +732,6 @@
   "ios/App/CapApp-SPM/README.md": {
     "mtime": 1789138889.0,
     "ast_hash": "d256f6b5922d4249607779141357d565",
-    "semantic_hash": ""
-  },
-  "android/app/src/main/assets/public/img/restor-wordmark-white.png": {
-    "mtime": 1790120672.4649794,
-    "ast_hash": "c27e53e1ca9f26e7e78e1370346767c3",
-    "semantic_hash": ""
-  },
-  "android/app/src/main/assets/public/img/test-shine-icons.png": {
-    "mtime": 1790123869.4497066,
-    "ast_hash": "c77b63cc4e49a5150007f2e81c65935f",
-    "semantic_hash": ""
-  },
-  "android/app/src/main/assets/public/img/test-shine-logo.png": {
-    "mtime": 1790123869.4221187,
-    "ast_hash": "fd2911b0a13e15ed33efd3f9377b3dfc",
-    "semantic_hash": ""
-  },
-  "android/app/src/main/assets/public/img/test-shine-title.png": {
-    "mtime": 1790123869.4321358,
-    "ast_hash": "734e04294bacaa6f946e25853177e8ed",
-    "semantic_hash": ""
-  },
-  "android/app/src/main/assets/public/img/test-shine-variant.png": {
-    "mtime": 1790123869.452705,
-    "ast_hash": "b8ef571046c8abce0e38f23594bdfdbd",
-    "semantic_hash": ""
-  },
-  "android/app/src/main/assets/public/img/test-shine-warranty.png": {
-    "mtime": 1790123869.4366443,
-    "ast_hash": "53f7ea4f1404e334c4b29b6ec40e438b",
     "semantic_hash": ""
   },
   "android/app/src/main/res/drawable-land-hdpi/splash.png": {
@@ -2080,8 +2050,8 @@
     "semantic_hash": ""
   },
   "src/components/NativeBackHandler.jsx": {
-    "mtime": 1790552442.282856,
-    "ast_hash": "1720227d399f557a96238fa605896c04",
+    "mtime": 1793311602.7131839,
+    "ast_hash": "7eefc9373082b04ef60dc8f9d598568a",
     "semantic_hash": ""
   },
   ".agents/skills/shriji-backend/SKILL.md": {
@@ -2190,7 +2160,7 @@
     "semantic_hash": ""
   },
   "backend/src/services/commerceClient.js": {
-    "mtime": 1792883191.6055405,
+    "mtime": 1793310136.1135406,
     "ast_hash": "1cc8ee9804c8433a8bf4185e626d3c6a",
     "semantic_hash": ""
   },
@@ -2250,8 +2220,8 @@
     "semantic_hash": ""
   },
   "src/pages/DealerDashboard.jsx": {
-    "mtime": 1793292052.2547684,
-    "ast_hash": "f28e6ec39b5190419b5fc86d7574a2d1",
+    "mtime": 1793311603.5051992,
+    "ast_hash": "3e3202b9ce84fbc57d74eba73a7fee1b",
     "semantic_hash": ""
   },
   ".mcp.json": {
@@ -2415,13 +2385,13 @@
     "semantic_hash": ""
   },
   "backend/src/routes/content.js": {
-    "mtime": 1792883160.6096568,
-    "ast_hash": "b3261bbc071d7c64799d8cbc08818baf",
+    "mtime": 1793309910.8576674,
+    "ast_hash": "3e1a080385fef4f4133067a8b68d0a89",
     "semantic_hash": ""
   },
   "backend/src/services/content.js": {
-    "mtime": 1793223589.6298988,
-    "ast_hash": "22e4a1f6676e80f07866532191ccc7e5",
+    "mtime": 1793309864.11428,
+    "ast_hash": "2e1c36f7b9c52027dd3d6ff94a701614",
     "semantic_hash": ""
   },
   "scripts/test-supabase.mjs": {
@@ -3270,13 +3240,13 @@
     "semantic_hash": ""
   },
   "api/content.js": {
-    "mtime": 1793302666.7183478,
-    "ast_hash": "beb5c7e4112614e78e97772c115770bc",
+    "mtime": 1793309893.4956229,
+    "ast_hash": "df963e3c997c974052ba6c64ad3f81c6",
     "semantic_hash": ""
   },
   "src/pages/ContentAdminDashboard.jsx": {
-    "mtime": 1793298637.3429773,
-    "ast_hash": "6262b4da79e8f62bd04ef38121c07282",
+    "mtime": 1793310880.0787506,
+    "ast_hash": "5c036baefbd81be87a5a20f4e08c694f",
     "semantic_hash": ""
   },
   "public/img/logo.webp": {
@@ -3314,34 +3284,9 @@
     "ast_hash": "d2c3dd59185df4a6db7c797155b23b2d",
     "semantic_hash": ""
   },
-  "android/app/src/main/assets/public/index.html": {
-    "mtime": 1793304172.630328,
-    "ast_hash": "8f800b40b4cbdd3da8b9bb65ca8bb717",
-    "semantic_hash": ""
-  },
-  "android/app/src/main/assets/public/privacy.html": {
-    "mtime": 1792257365.556081,
-    "ast_hash": "084035b3c5ca4f292465f36e84d425f3",
-    "semantic_hash": ""
-  },
-  "android/app/src/main/assets/public/privacy/index.html": {
-    "mtime": 1792257365.556081,
-    "ast_hash": "084035b3c5ca4f292465f36e84d425f3",
-    "semantic_hash": ""
-  },
-  "android/app/src/main/assets/public/terms.html": {
-    "mtime": 1792257381.2193377,
-    "ast_hash": "52a6da96a4b60b4815066bd2a2dbd6b2",
-    "semantic_hash": ""
-  },
-  "android/app/src/main/assets/public/terms/index.html": {
-    "mtime": 1792257381.2193377,
-    "ast_hash": "52a6da96a4b60b4815066bd2a2dbd6b2",
-    "semantic_hash": ""
-  },
   "ios/App/App/public/index.html": {
-    "mtime": 1793304172.630328,
-    "ast_hash": "8f800b40b4cbdd3da8b9bb65ca8bb717",
+    "mtime": 1793311788.6646633,
+    "ast_hash": "37f47f163a304ff4bc9feebdce20a866",
     "semantic_hash": ""
   },
   "ios/App/App/public/privacy.html": {
@@ -3362,26 +3307,6 @@
   "ios/App/App/public/terms/index.html": {
     "mtime": 1792257381.2193377,
     "ast_hash": "52a6da96a4b60b4815066bd2a2dbd6b2",
-    "semantic_hash": ""
-  },
-  "android/app/src/main/assets/public/downloads/03_Scheme_Official_Circular.pdf": {
-    "mtime": 1792883191.874446,
-    "ast_hash": "5c094a958d03e810cdc7429b0352465c",
-    "semantic_hash": ""
-  },
-  "android/app/src/main/assets/public/downloads/Sunshine-Annual-Business-Scheme-FY26-27.pdf": {
-    "mtime": 1790120989.3799646,
-    "ast_hash": "bdeed19404336b7896c91b7ba9b5a5a6",
-    "semantic_hash": ""
-  },
-  "android/app/src/main/assets/public/downloads/Sunshine-Diwali-Scheme-2026.pdf": {
-    "mtime": 1790120989.3833773,
-    "ast_hash": "5c094a958d03e810cdc7429b0352465c",
-    "semantic_hash": ""
-  },
-  "android/app/src/main/assets/public/uploads/circulars/Sunshine_Dealer_Scheme_Circular-1792675822248.pdf": {
-    "mtime": 1792883161.0432565,
-    "ast_hash": "fa06ff4d8ba4f990334e251614985d98",
     "semantic_hash": ""
   },
   "ios/App/App/public/downloads/03_Scheme_Official_Circular.pdf": {
@@ -3409,269 +3334,9 @@
     "ast_hash": "fa06ff4d8ba4f990334e251614985d98",
     "semantic_hash": ""
   },
-  "android/app/src/main/assets/public/favicon.png": {
-    "mtime": 1790120672.5045967,
-    "ast_hash": "92c6e11b715d1fc7b5fbaf4add2ef995",
-    "semantic_hash": ""
-  },
-  "android/app/src/main/assets/public/favicon.svg": {
-    "mtime": 1790120722.3329093,
-    "ast_hash": "891628f87807f327b6450431e829445c",
-    "semantic_hash": ""
-  },
-  "android/app/src/main/assets/public/icons.svg": {
-    "mtime": 1789682547.1171334,
-    "ast_hash": "3b4fcfcf393eca4d264dca4a4663bc37",
-    "semantic_hash": ""
-  },
-  "android/app/src/main/assets/public/img/01_Hero_Banner_Image.jpg": {
-    "mtime": 1792883191.8792167,
-    "ast_hash": "dd5d23ea23fc7308d8ad5f129af6cac8",
-    "semantic_hash": ""
-  },
-  "android/app/src/main/assets/public/img/02_Scheme_Flyer_Image.jpg": {
-    "mtime": 1792883191.8868685,
-    "ast_hash": "d55feb683cf66ae9b318d9adeccdfe13",
-    "semantic_hash": ""
-  },
-  "android/app/src/main/assets/public/img/1st.jpeg": {
-    "mtime": 1790124054.3019013,
-    "ast_hash": "f44b82f67c8fa16e62396aecdf2037e7",
-    "semantic_hash": ""
-  },
-  "android/app/src/main/assets/public/img/2nd.jpeg": {
-    "mtime": 1790124058.7918606,
-    "ast_hash": "e5c4aa3ee52001ceb3437593ce2a5bd8",
-    "semantic_hash": ""
-  },
-  "android/app/src/main/assets/public/img/3rd.jpeg": {
-    "mtime": 1790124049.289179,
-    "ast_hash": "485c6d4e4b080b2c076b645349bc8195",
-    "semantic_hash": ""
-  },
-  "android/app/src/main/assets/public/img/banner-defender-wide.jpg": {
-    "mtime": 1790123794.0137103,
-    "ast_hash": "a8cb8d1579e9b8e8076ef58d01fef64c",
-    "semantic_hash": ""
-  },
-  "android/app/src/main/assets/public/img/banner-restor-wide.jpg": {
-    "mtime": 1790123793.9661984,
-    "ast_hash": "8e745d7d0ec0c025687aa79249feeeea",
-    "semantic_hash": ""
-  },
-  "android/app/src/main/assets/public/img/banner-shine-platinum-wide.jpg": {
-    "mtime": 1790123793.989824,
-    "ast_hash": "b494690257f36023daa6bc965dee0ab1",
-    "semantic_hash": ""
-  },
-  "android/app/src/main/assets/public/img/banners/banner-defender-mobile.jpg": {
-    "mtime": 1790123899.8679492,
-    "ast_hash": "96e90096c39549569b4e1921831cf9b0",
-    "semantic_hash": ""
-  },
-  "android/app/src/main/assets/public/img/banners/banner-defender.jpg": {
-    "mtime": 1790123888.811285,
-    "ast_hash": "5f5aecc1b17f5b86e5ccca5f495b4f7a",
-    "semantic_hash": ""
-  },
-  "android/app/src/main/assets/public/img/banners/banner-restor-mobile.jpg": {
-    "mtime": 1790123899.8912413,
-    "ast_hash": "dd4ccaf566961ffd2e3ecc8291a5bee0",
-    "semantic_hash": ""
-  },
-  "android/app/src/main/assets/public/img/banners/banner-restor.jpg": {
-    "mtime": 1790123895.1240036,
-    "ast_hash": "dfa05280a936c33e5c85086eb337904b",
-    "semantic_hash": ""
-  },
-  "android/app/src/main/assets/public/img/banners/banner-shine-platinum-mobile.jpg": {
-    "mtime": 1790123899.8455434,
-    "ast_hash": "96404bcfa5628fac8cf7f3b44d9d24f0",
-    "semantic_hash": ""
-  },
-  "android/app/src/main/assets/public/img/banners/banner-shine-platinum.jpg": {
-    "mtime": 1790123882.1362906,
-    "ast_hash": "f57473d5309f54ac6fccd90a73f746b7",
-    "semantic_hash": ""
-  },
-  "android/app/src/main/assets/public/img/cat-chimneys.webp": {
-    "mtime": 1790124374.4683697,
-    "ast_hash": "ae9f965e49c31583d42cac77c0653606",
-    "semantic_hash": ""
-  },
-  "android/app/src/main/assets/public/img/cat-gas_stoves.webp": {
-    "mtime": 1790124374.4348924,
-    "ast_hash": "a93ad57067caa92bf2ac166d9246c286",
-    "semantic_hash": ""
-  },
-  "android/app/src/main/assets/public/img/cat-hob_tops.webp": {
-    "mtime": 1790124374.4173172,
-    "ast_hash": "ff8c1f74ffc52f2fb8f04a09cfbf9419",
-    "semantic_hash": ""
-  },
-  "android/app/src/main/assets/public/img/cat-hobs.webp": {
-    "mtime": 1790124374.451269,
-    "ast_hash": "289e8d47024a988b373a983ccb356941",
-    "semantic_hash": ""
-  },
-  "android/app/src/main/assets/public/img/cat-small_appliances.webp": {
-    "mtime": 1790124374.485758,
-    "ast_hash": "86dd2b287743546fd3500cff8388ad9d",
-    "semantic_hash": ""
-  },
-  "android/app/src/main/assets/public/img/hero-defender.jpg": {
-    "mtime": 1790122745.1311412,
-    "ast_hash": "6442c2c083104d21469e094508ebb226",
-    "semantic_hash": ""
-  },
-  "android/app/src/main/assets/public/img/hero-restor-vision.jpg": {
-    "mtime": 1790122745.127955,
-    "ast_hash": "b7f2347f34ce1397e59ccc4427a3320a",
-    "semantic_hash": ""
-  },
-  "android/app/src/main/assets/public/img/hero-shine-platinum.jpg": {
-    "mtime": 1790122745.1295724,
-    "ast_hash": "5887cbba1c82d41c4361a17661ab6a4f",
-    "semantic_hash": ""
-  },
-  "android/app/src/main/assets/public/img/logo-alt.png": {
-    "mtime": 1789682630.8990362,
-    "ast_hash": "628f282c123973b38ec08763d3464072",
-    "semantic_hash": ""
-  },
-  "android/app/src/main/assets/public/img/logo.png": {
-    "mtime": 1790120665.8196652,
-    "ast_hash": "cb3afb10b2830eb631840f5d79b5df2b",
-    "semantic_hash": ""
-  },
-  "android/app/src/main/assets/public/img/logo.webp": {
-    "mtime": 1792883161.0217352,
-    "ast_hash": "cb3afb10b2830eb631840f5d79b5df2b",
-    "semantic_hash": ""
-  },
-  "android/app/src/main/assets/public/img/mat-ad-scene.png": {
-    "mtime": 1790120925.993737,
-    "ast_hash": "2302bc24a96a7a8af0871e7130832c0f",
-    "semantic_hash": ""
-  },
-  "android/app/src/main/assets/public/img/mat-blender-fryer.jpg": {
-    "mtime": 1790120961.242881,
-    "ast_hash": "a9259e19f5c30fe4cea989c667ce036b",
-    "semantic_hash": ""
-  },
-  "android/app/src/main/assets/public/img/mat-blender-nutri.png": {
-    "mtime": 1790120925.9887164,
-    "ast_hash": "85390d0c8437dc116afa049c06668cc2",
-    "semantic_hash": ""
-  },
-  "android/app/src/main/assets/public/img/mat-chimney-aura.png": {
-    "mtime": 1790120925.9841976,
-    "ast_hash": "47781b72874e4628eb7aedbaabd583a4",
-    "semantic_hash": ""
-  },
-  "android/app/src/main/assets/public/img/mat-safari-stove.jpg": {
-    "mtime": 1790120961.2363572,
-    "ast_hash": "220ca5044bcb2329862bf7a465638fa0",
-    "semantic_hash": ""
-  },
-  "android/app/src/main/assets/public/img/mat-stove-kyoto.png": {
-    "mtime": 1790120925.9787467,
-    "ast_hash": "dc2135c169f3cdf3ab43ce0176a837dc",
-    "semantic_hash": ""
-  },
-  "android/app/src/main/assets/public/img/restor-banner.png": {
-    "mtime": 1790120665.815498,
-    "ast_hash": "cb3afb10b2830eb631840f5d79b5df2b",
-    "semantic_hash": ""
-  },
-  "android/app/src/main/assets/public/img/restor-icon.png": {
-    "mtime": 1790120672.505609,
-    "ast_hash": "92c6e11b715d1fc7b5fbaf4add2ef995",
-    "semantic_hash": ""
-  },
-  "android/app/src/main/assets/public/img/restor-logo.png": {
-    "mtime": 1790120665.8196652,
-    "ast_hash": "cb3afb10b2830eb631840f5d79b5df2b",
-    "semantic_hash": ""
-  },
-  "android/app/src/main/assets/public/img/restor-original.png": {
-    "mtime": 1790120665.7934873,
-    "ast_hash": "9abcfb619ee6e19148c8df7bae023f77",
-    "semantic_hash": ""
-  },
-  "android/app/src/main/assets/public/img/restor-wordmark-blue.png": {
-    "mtime": 1790120672.467429,
-    "ast_hash": "06f8c57bbc3c4f22f18f4db773cce21f",
-    "semantic_hash": ""
-  },
-  "android/app/src/main/assets/public/img/scheme-annual-business-2026.jpg": {
-    "mtime": 1790120902.6344995,
-    "ast_hash": "9ab29581e0221348986bf81e3d969db2",
-    "semantic_hash": ""
-  },
-  "android/app/src/main/assets/public/img/scheme-diwali-2026.jpg": {
-    "mtime": 1790120902.636062,
-    "ast_hash": "06f734b4d126de0d3c3d4c8951eefb4a",
-    "semantic_hash": ""
-  },
   "android/app/src/main/assets/public/img/test-def-feat.png": {
     "mtime": 1790123874.063981,
     "ast_hash": "fc9767d6ff7179fc1a3e6864bb83f8de",
-    "semantic_hash": ""
-  },
-  "android/app/src/main/assets/public/img/test-def-logo.png": {
-    "mtime": 1790123874.0030863,
-    "ast_hash": "1b5e715d21dc37c3ddac3aa3863419f7",
-    "semantic_hash": ""
-  },
-  "android/app/src/main/assets/public/img/test-def-model.png": {
-    "mtime": 1790123874.052723,
-    "ast_hash": "24f4a432453e1e8e5c3de46981c86b4b",
-    "semantic_hash": ""
-  },
-  "android/app/src/main/assets/public/img/test-def-specs.png": {
-    "mtime": 1790123874.0609846,
-    "ast_hash": "b29a01afb73bad513b6855698a85be78",
-    "semantic_hash": ""
-  },
-  "android/app/src/main/assets/public/img/test-def-stove.png": {
-    "mtime": 1790123874.047714,
-    "ast_hash": "62317f075adacb9852b513b90d1b2f3c",
-    "semantic_hash": ""
-  },
-  "android/app/src/main/assets/public/img/test-def-sub.png": {
-    "mtime": 1790123874.0070894,
-    "ast_hash": "e33c77cde9c0e5e29539e2c40766e652",
-    "semantic_hash": ""
-  },
-  "android/app/src/main/assets/public/img/test-def-title.png": {
-    "mtime": 1790123874.0216372,
-    "ast_hash": "53573dbea0aaa3affce40386d822f98c",
-    "semantic_hash": ""
-  },
-  "android/app/src/main/assets/public/img/test-shine-stove.png": {
-    "mtime": 1790123869.4936664,
-    "ast_hash": "27186ad42ec2852f0806e2b7f1fc7570",
-    "semantic_hash": ""
-  },
-  "android/app/src/main/assets/public/uploads/branding/Official_Sunshine_Logo-1792675822338.png": {
-    "mtime": 1792883161.0432565,
-    "ast_hash": "6dc2c76f0d8eaa98d9ccc9e334576b6d",
-    "semantic_hash": ""
-  },
-  "android/app/src/main/assets/public/uploads/hero-banners/Screenshot_2026-10-08_071307-1792675821646.png": {
-    "mtime": 1792883161.0442574,
-    "ast_hash": "f829b914fc47cfc9c0747c119c27cf1b",
-    "semantic_hash": ""
-  },
-  "android/app/src/main/assets/public/uploads/hero-banners/test-dot-1792671989170.png": {
-    "mtime": 1792883161.0547082,
-    "ast_hash": "f829b914fc47cfc9c0747c119c27cf1b",
-    "semantic_hash": ""
-  },
-  "android/app/src/main/assets/public/uploads/schemes/Flyer_Sunshine_Offer-1792675822159.jpg": {
-    "mtime": 1792883161.055631,
-    "ast_hash": "8f4341201a23609636243f91f2447e95",
     "semantic_hash": ""
   },
   "ios/App/App/public/favicon.png": {
@@ -3984,46 +3649,6 @@
     "ast_hash": "3688dc607692d5e904835703ea5e61e4",
     "semantic_hash": ""
   },
-  "android/app/src/main/assets/public/img/restor-hero-chimney-smart.jpg": {
-    "mtime": 1792883161.0267437,
-    "ast_hash": "600f10044df7e5c11a35c92de3cae82b",
-    "semantic_hash": ""
-  },
-  "android/app/src/main/assets/public/img/restor-hero-hob-luxury.jpg": {
-    "mtime": 1792883161.0327418,
-    "ast_hash": "04b162f4f8479442ddbf3c261b02d294",
-    "semantic_hash": ""
-  },
-  "android/app/src/main/assets/public/img/restor-hero-integrated-suite.jpg": {
-    "mtime": 1792883161.0362594,
-    "ast_hash": "bba48b7dd66e211b891f6d98ddafe6a8",
-    "semantic_hash": ""
-  },
-  "android/app/src/main/assets/public/img/restor-scheme-annual-flyer.jpg": {
-    "mtime": 1792883161.0422578,
-    "ast_hash": "0bb9336599333ee2c8a225cf86e76ed3",
-    "semantic_hash": ""
-  },
-  "android/app/src/main/assets/public/uploads/hero-banners/restor-hero-chimney-smart.jpg": {
-    "mtime": 1792883161.0486271,
-    "ast_hash": "600f10044df7e5c11a35c92de3cae82b",
-    "semantic_hash": ""
-  },
-  "android/app/src/main/assets/public/uploads/hero-banners/restor-hero-hob-luxury.jpg": {
-    "mtime": 1792883161.0517106,
-    "ast_hash": "04b162f4f8479442ddbf3c261b02d294",
-    "semantic_hash": ""
-  },
-  "android/app/src/main/assets/public/uploads/hero-banners/restor-hero-integrated-suite.jpg": {
-    "mtime": 1792883161.0547082,
-    "ast_hash": "bba48b7dd66e211b891f6d98ddafe6a8",
-    "semantic_hash": ""
-  },
-  "android/app/src/main/assets/public/uploads/schemes/restor-scheme-annual-flyer.jpg": {
-    "mtime": 1792883161.0597055,
-    "ast_hash": "0bb9336599333ee2c8a225cf86e76ed3",
-    "semantic_hash": ""
-  },
   "ios/App/App/public/img/restor-hero-chimney-smart.jpg": {
     "mtime": 1792883161.0267437,
     "ast_hash": "600f10044df7e5c11a35c92de3cae82b",
@@ -4105,8 +3730,8 @@
     "semantic_hash": ""
   },
   ".tag_cache.json": {
-    "mtime": 1793298457.0352924,
-    "ast_hash": "1421f861fe347ec4d29bce11644524d1",
+    "mtime": 1793310997.0384655,
+    "ast_hash": "b050c5ab920c3b49dae8b6561d2deca7",
     "semantic_hash": ""
   },
   "api/products/sync-tags.js": {
@@ -4125,13 +3750,13 @@
     "semantic_hash": ""
   },
   ".product_details_cache.json": {
-    "mtime": 1793298453.4023592,
-    "ast_hash": "e28488c340e855a180271abdfba908cc",
+    "mtime": 1793310997.037468,
+    "ast_hash": "04354bd4b238ef681b64d72b04f594d9",
     "semantic_hash": ""
   },
   ".products_cache.json": {
-    "mtime": 1793298454.1558955,
-    "ast_hash": "91af2c9d22aedc2728d0f227c6a9c759",
+    "mtime": 1793311754.1214886,
+    "ast_hash": "2fca5019465c6b2d9a458fb66cd0e8b7",
     "semantic_hash": ""
   },
   "backend/src/db/migrations/010_phone_verified_and_onboarding.sql": {
@@ -4240,8 +3865,8 @@
     "semantic_hash": ""
   },
   "api/_lib/zoho.js": {
-    "mtime": 1793298443.6452339,
-    "ast_hash": "98dba4b7445ec7b79ffc4e4b5c091ce8",
+    "mtime": 1793311533.4519548,
+    "ast_hash": "b15d0643651b4c9cae1c0f24b362267b",
     "semantic_hash": ""
   },
   "backend/src/middleware/requestLogger.js": {
@@ -4814,44 +4439,464 @@
     "ast_hash": "48aa223d51cf3559c770aaea5831bc04",
     "semantic_hash": ""
   },
-  "android/app/src/main/assets/public/assets/esm-DspLJKFy.js": {
-    "mtime": 1793304172.6278083,
-    "ast_hash": "0cfb10b97e34ab24d20259fbea419641",
+  "scripts/sync-all-product-details.mjs": {
+    "mtime": 1793309983.7916985,
+    "ast_hash": "0f29fc0028572837c0de81224d9fad4d",
     "semantic_hash": ""
   },
-  "android/app/src/main/assets/public/assets/index-STbSaCMn.js": {
-    "mtime": 1793304172.6268091,
-    "ast_hash": "4f97520cf69dadf012f71e8bdfeb7ed9",
+  "scripts/verify-10-products.mjs": {
+    "mtime": 1793309138.0834205,
+    "ast_hash": "c1e9a90328f6982300c77ada2c0ee007",
     "semantic_hash": ""
   },
-  "android/app/src/main/assets/public/assets/web-DdaFhVbd.js": {
-    "mtime": 1793304172.628317,
-    "ast_hash": "805c238e3312c5c6c7bafe54ab9550e3",
+  ".collection_cache.json": {
+    "mtime": 1793310993.7510898,
+    "ast_hash": "bddedeeb083e83faad85a756dddeb8f5",
     "semantic_hash": ""
   },
-  "android/app/src/main/assets/public/assets/web-v8geNgiP.js": {
-    "mtime": 1793304172.6293254,
-    "ast_hash": "450187d4468399dc7051c00ed1d7a9d8",
+  "backend/.product_details_cache.json": {
+    "mtime": 1793309584.406923,
+    "ast_hash": "393f280d95864aaa6d01f37bb5187944",
     "semantic_hash": ""
   },
-  "ios/App/App/public/assets/esm-DspLJKFy.js": {
-    "mtime": 1793304172.6278083,
-    "ast_hash": "0cfb10b97e34ab24d20259fbea419641",
+  "backend/.products_cache.json": {
+    "mtime": 1793309581.5127008,
+    "ast_hash": "6fdac1c7dd3a127838339aab729f62e0",
     "semantic_hash": ""
   },
-  "ios/App/App/public/assets/index-STbSaCMn.js": {
-    "mtime": 1793304172.6268091,
-    "ast_hash": "4f97520cf69dadf012f71e8bdfeb7ed9",
+  "backend/.tag_cache.json": {
+    "mtime": 1793309584.409601,
+    "ast_hash": "920f1bc3ed9bbd81e7967469804242f4",
     "semantic_hash": ""
   },
-  "ios/App/App/public/assets/web-DdaFhVbd.js": {
-    "mtime": 1793304172.628317,
-    "ast_hash": "805c238e3312c5c6c7bafe54ab9550e3",
+  "src/data/trial-collection.test.mjs": {
+    "mtime": 1793310160.706684,
+    "ast_hash": "9d1fadd191222effe8c77c6b8812281e",
     "semantic_hash": ""
   },
-  "ios/App/App/public/assets/web-v8geNgiP.js": {
-    "mtime": 1793304172.6293254,
-    "ast_hash": "450187d4468399dc7051c00ed1d7a9d8",
+  "android/app/src/main/assets/public/index.html": {
+    "mtime": 1793311788.6646633,
+    "ast_hash": "37f47f163a304ff4bc9feebdce20a866",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/privacy.html": {
+    "mtime": 1792257365.556081,
+    "ast_hash": "084035b3c5ca4f292465f36e84d425f3",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/privacy/index.html": {
+    "mtime": 1792257365.556081,
+    "ast_hash": "084035b3c5ca4f292465f36e84d425f3",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/terms.html": {
+    "mtime": 1792257381.2193377,
+    "ast_hash": "52a6da96a4b60b4815066bd2a2dbd6b2",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/terms/index.html": {
+    "mtime": 1792257381.2193377,
+    "ast_hash": "52a6da96a4b60b4815066bd2a2dbd6b2",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/downloads/03_Scheme_Official_Circular.pdf": {
+    "mtime": 1792883191.874446,
+    "ast_hash": "5c094a958d03e810cdc7429b0352465c",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/downloads/Sunshine-Annual-Business-Scheme-FY26-27.pdf": {
+    "mtime": 1790120989.3799646,
+    "ast_hash": "bdeed19404336b7896c91b7ba9b5a5a6",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/downloads/Sunshine-Diwali-Scheme-2026.pdf": {
+    "mtime": 1790120989.3833773,
+    "ast_hash": "5c094a958d03e810cdc7429b0352465c",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/uploads/circulars/Sunshine_Dealer_Scheme_Circular-1792675822248.pdf": {
+    "mtime": 1792883161.0432565,
+    "ast_hash": "fa06ff4d8ba4f990334e251614985d98",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/favicon.png": {
+    "mtime": 1790120672.5045967,
+    "ast_hash": "92c6e11b715d1fc7b5fbaf4add2ef995",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/favicon.svg": {
+    "mtime": 1790120722.3329093,
+    "ast_hash": "891628f87807f327b6450431e829445c",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/icons.svg": {
+    "mtime": 1789682547.1171334,
+    "ast_hash": "3b4fcfcf393eca4d264dca4a4663bc37",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/01_Hero_Banner_Image.jpg": {
+    "mtime": 1792883191.8792167,
+    "ast_hash": "dd5d23ea23fc7308d8ad5f129af6cac8",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/02_Scheme_Flyer_Image.jpg": {
+    "mtime": 1792883191.8868685,
+    "ast_hash": "d55feb683cf66ae9b318d9adeccdfe13",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/1st.jpeg": {
+    "mtime": 1790124054.3019013,
+    "ast_hash": "f44b82f67c8fa16e62396aecdf2037e7",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/2nd.jpeg": {
+    "mtime": 1790124058.7918606,
+    "ast_hash": "e5c4aa3ee52001ceb3437593ce2a5bd8",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/3rd.jpeg": {
+    "mtime": 1790124049.289179,
+    "ast_hash": "485c6d4e4b080b2c076b645349bc8195",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/banner-defender-wide.jpg": {
+    "mtime": 1790123794.0137103,
+    "ast_hash": "a8cb8d1579e9b8e8076ef58d01fef64c",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/banner-restor-wide.jpg": {
+    "mtime": 1790123793.9661984,
+    "ast_hash": "8e745d7d0ec0c025687aa79249feeeea",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/banner-shine-platinum-wide.jpg": {
+    "mtime": 1790123793.989824,
+    "ast_hash": "b494690257f36023daa6bc965dee0ab1",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/banners/banner-defender-mobile.jpg": {
+    "mtime": 1790123899.8679492,
+    "ast_hash": "96e90096c39549569b4e1921831cf9b0",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/banners/banner-defender.jpg": {
+    "mtime": 1790123888.811285,
+    "ast_hash": "5f5aecc1b17f5b86e5ccca5f495b4f7a",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/banners/banner-restor-mobile.jpg": {
+    "mtime": 1790123899.8912413,
+    "ast_hash": "dd4ccaf566961ffd2e3ecc8291a5bee0",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/banners/banner-restor.jpg": {
+    "mtime": 1790123895.1240036,
+    "ast_hash": "dfa05280a936c33e5c85086eb337904b",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/banners/banner-shine-platinum-mobile.jpg": {
+    "mtime": 1790123899.8455434,
+    "ast_hash": "96404bcfa5628fac8cf7f3b44d9d24f0",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/banners/banner-shine-platinum.jpg": {
+    "mtime": 1790123882.1362906,
+    "ast_hash": "f57473d5309f54ac6fccd90a73f746b7",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/cat-chimneys.webp": {
+    "mtime": 1790124374.4683697,
+    "ast_hash": "ae9f965e49c31583d42cac77c0653606",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/cat-gas_stoves.webp": {
+    "mtime": 1790124374.4348924,
+    "ast_hash": "a93ad57067caa92bf2ac166d9246c286",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/cat-hob_tops.webp": {
+    "mtime": 1790124374.4173172,
+    "ast_hash": "ff8c1f74ffc52f2fb8f04a09cfbf9419",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/cat-hobs.webp": {
+    "mtime": 1790124374.451269,
+    "ast_hash": "289e8d47024a988b373a983ccb356941",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/cat-small_appliances.webp": {
+    "mtime": 1790124374.485758,
+    "ast_hash": "86dd2b287743546fd3500cff8388ad9d",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/hero-defender.jpg": {
+    "mtime": 1790122745.1311412,
+    "ast_hash": "6442c2c083104d21469e094508ebb226",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/hero-restor-vision.jpg": {
+    "mtime": 1790122745.127955,
+    "ast_hash": "b7f2347f34ce1397e59ccc4427a3320a",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/hero-shine-platinum.jpg": {
+    "mtime": 1790122745.1295724,
+    "ast_hash": "5887cbba1c82d41c4361a17661ab6a4f",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/logo-alt.png": {
+    "mtime": 1789682630.8990362,
+    "ast_hash": "628f282c123973b38ec08763d3464072",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/logo.png": {
+    "mtime": 1790120665.8196652,
+    "ast_hash": "cb3afb10b2830eb631840f5d79b5df2b",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/logo.webp": {
+    "mtime": 1792883161.0217352,
+    "ast_hash": "cb3afb10b2830eb631840f5d79b5df2b",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/mat-ad-scene.png": {
+    "mtime": 1790120925.993737,
+    "ast_hash": "2302bc24a96a7a8af0871e7130832c0f",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/mat-blender-fryer.jpg": {
+    "mtime": 1790120961.242881,
+    "ast_hash": "a9259e19f5c30fe4cea989c667ce036b",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/mat-blender-nutri.png": {
+    "mtime": 1790120925.9887164,
+    "ast_hash": "85390d0c8437dc116afa049c06668cc2",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/mat-chimney-aura.png": {
+    "mtime": 1790120925.9841976,
+    "ast_hash": "47781b72874e4628eb7aedbaabd583a4",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/mat-safari-stove.jpg": {
+    "mtime": 1790120961.2363572,
+    "ast_hash": "220ca5044bcb2329862bf7a465638fa0",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/mat-stove-kyoto.png": {
+    "mtime": 1790120925.9787467,
+    "ast_hash": "dc2135c169f3cdf3ab43ce0176a837dc",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/restor-banner.png": {
+    "mtime": 1790120665.815498,
+    "ast_hash": "cb3afb10b2830eb631840f5d79b5df2b",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/restor-hero-chimney-smart.jpg": {
+    "mtime": 1792883161.0267437,
+    "ast_hash": "600f10044df7e5c11a35c92de3cae82b",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/restor-hero-hob-luxury.jpg": {
+    "mtime": 1792883161.0327418,
+    "ast_hash": "04b162f4f8479442ddbf3c261b02d294",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/restor-hero-integrated-suite.jpg": {
+    "mtime": 1792883161.0362594,
+    "ast_hash": "bba48b7dd66e211b891f6d98ddafe6a8",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/restor-icon.png": {
+    "mtime": 1790120672.505609,
+    "ast_hash": "92c6e11b715d1fc7b5fbaf4add2ef995",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/restor-logo.png": {
+    "mtime": 1790120665.8196652,
+    "ast_hash": "cb3afb10b2830eb631840f5d79b5df2b",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/restor-original.png": {
+    "mtime": 1790120665.7934873,
+    "ast_hash": "9abcfb619ee6e19148c8df7bae023f77",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/restor-scheme-annual-flyer.jpg": {
+    "mtime": 1792883161.0422578,
+    "ast_hash": "0bb9336599333ee2c8a225cf86e76ed3",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/restor-wordmark-blue.png": {
+    "mtime": 1790120672.467429,
+    "ast_hash": "06f8c57bbc3c4f22f18f4db773cce21f",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/restor-wordmark-white.png": {
+    "mtime": 1790120672.4649794,
+    "ast_hash": "c27e53e1ca9f26e7e78e1370346767c3",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/scheme-annual-business-2026.jpg": {
+    "mtime": 1790120902.6344995,
+    "ast_hash": "9ab29581e0221348986bf81e3d969db2",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/scheme-diwali-2026.jpg": {
+    "mtime": 1790120902.636062,
+    "ast_hash": "06f734b4d126de0d3c3d4c8951eefb4a",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/test-def-logo.png": {
+    "mtime": 1790123874.0030863,
+    "ast_hash": "1b5e715d21dc37c3ddac3aa3863419f7",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/test-def-model.png": {
+    "mtime": 1790123874.052723,
+    "ast_hash": "24f4a432453e1e8e5c3de46981c86b4b",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/test-def-specs.png": {
+    "mtime": 1790123874.0609846,
+    "ast_hash": "b29a01afb73bad513b6855698a85be78",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/test-def-stove.png": {
+    "mtime": 1790123874.047714,
+    "ast_hash": "62317f075adacb9852b513b90d1b2f3c",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/test-def-sub.png": {
+    "mtime": 1790123874.0070894,
+    "ast_hash": "e33c77cde9c0e5e29539e2c40766e652",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/test-def-title.png": {
+    "mtime": 1790123874.0216372,
+    "ast_hash": "53573dbea0aaa3affce40386d822f98c",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/test-shine-icons.png": {
+    "mtime": 1790123869.4497066,
+    "ast_hash": "c77b63cc4e49a5150007f2e81c65935f",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/test-shine-logo.png": {
+    "mtime": 1790123869.4221187,
+    "ast_hash": "fd2911b0a13e15ed33efd3f9377b3dfc",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/test-shine-stove.png": {
+    "mtime": 1790123869.4936664,
+    "ast_hash": "27186ad42ec2852f0806e2b7f1fc7570",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/test-shine-title.png": {
+    "mtime": 1790123869.4321358,
+    "ast_hash": "734e04294bacaa6f946e25853177e8ed",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/test-shine-variant.png": {
+    "mtime": 1790123869.452705,
+    "ast_hash": "b8ef571046c8abce0e38f23594bdfdbd",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/test-shine-warranty.png": {
+    "mtime": 1790123869.4366443,
+    "ast_hash": "53f7ea4f1404e334c4b29b6ec40e438b",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/uploads/branding/Official_Sunshine_Logo-1792675822338.png": {
+    "mtime": 1792883161.0432565,
+    "ast_hash": "6dc2c76f0d8eaa98d9ccc9e334576b6d",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/uploads/hero-banners/Screenshot_2026-10-08_071307-1792675821646.png": {
+    "mtime": 1792883161.0442574,
+    "ast_hash": "f829b914fc47cfc9c0747c119c27cf1b",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/uploads/hero-banners/restor-hero-chimney-smart.jpg": {
+    "mtime": 1792883161.0486271,
+    "ast_hash": "600f10044df7e5c11a35c92de3cae82b",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/uploads/hero-banners/restor-hero-hob-luxury.jpg": {
+    "mtime": 1792883161.0517106,
+    "ast_hash": "04b162f4f8479442ddbf3c261b02d294",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/uploads/hero-banners/restor-hero-integrated-suite.jpg": {
+    "mtime": 1792883161.0547082,
+    "ast_hash": "bba48b7dd66e211b891f6d98ddafe6a8",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/uploads/hero-banners/test-dot-1792671989170.png": {
+    "mtime": 1792883161.0547082,
+    "ast_hash": "f829b914fc47cfc9c0747c119c27cf1b",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/uploads/schemes/Flyer_Sunshine_Offer-1792675822159.jpg": {
+    "mtime": 1792883161.055631,
+    "ast_hash": "8f4341201a23609636243f91f2447e95",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/uploads/schemes/restor-scheme-annual-flyer.jpg": {
+    "mtime": 1792883161.0597055,
+    "ast_hash": "0bb9336599333ee2c8a225cf86e76ed3",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/assets/esm-BYUBtnaC.js": {
+    "mtime": 1793311788.6623712,
+    "ast_hash": "2247006b0474890ff18bdd571739f507",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/assets/index-LiwW60BS.js": {
+    "mtime": 1793311788.6623712,
+    "ast_hash": "eaf46072ee0607fce4d8b51ec1498043",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/assets/web-BvC9f5V0.js": {
+    "mtime": 1793311788.6623712,
+    "ast_hash": "f84cb7f448c93247c65fef5819bd52ab",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/assets/web-C_CRXol7.js": {
+    "mtime": 1793311788.663371,
+    "ast_hash": "d60b9589b3245b4ac5c8f08f1216dbe8",
+    "semantic_hash": ""
+  },
+  "ios/App/App/public/assets/esm-BYUBtnaC.js": {
+    "mtime": 1793311788.6623712,
+    "ast_hash": "2247006b0474890ff18bdd571739f507",
+    "semantic_hash": ""
+  },
+  "ios/App/App/public/assets/index-LiwW60BS.js": {
+    "mtime": 1793311788.6623712,
+    "ast_hash": "eaf46072ee0607fce4d8b51ec1498043",
+    "semantic_hash": ""
+  },
+  "ios/App/App/public/assets/web-BvC9f5V0.js": {
+    "mtime": 1793311788.6623712,
+    "ast_hash": "f84cb7f448c93247c65fef5819bd52ab",
+    "semantic_hash": ""
+  },
+  "ios/App/App/public/assets/web-C_CRXol7.js": {
+    "mtime": 1793311788.663371,
+    "ast_hash": "d60b9589b3245b4ac5c8f08f1216dbe8",
+    "semantic_hash": ""
+  },
+  "src/data/filters.test.mjs": {
+    "mtime": 1793311727.2399597,
+    "ast_hash": "b84aec9e5c5170f96ef115985660bfa9",
+    "semantic_hash": ""
+  },
+  "src/data/filtersHelper.js": {
+    "mtime": 1793311718.876115,
+    "ast_hash": "0cec8353296e350ed28ba5ee056d569d",
     "semantic_hash": ""
   }
 }

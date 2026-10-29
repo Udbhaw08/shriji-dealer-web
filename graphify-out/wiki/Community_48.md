@@ -1,62 +1,58 @@
 # Community 48
 
-> 31 nodes · cohesion 0.12
+> 30 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **visual-check.mjs** (50 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **runVisualCheck()** (18 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **desktop-readability.mjs** (9 connections) — `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
-- **adaptive-reader-layout.test.mjs** (9 connections) — `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
-- **desktop-reader-browser.test.mjs** (8 connections) — `.agents/skills/archify/test/desktop-reader-browser.test.mjs`
-- **DESKTOP_READABILITY_VIEWPORT** (5 connections) — `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
-- **observationDiagnostics()** (4 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **safeUnlink()** (4 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **writeAtomic()** (4 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **baseReceipt()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **cleanupCaptureSidecars()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **contactSheetHtml()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **failureDiagnostic()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **persistReceipt()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **sha256()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **sidecarPaths()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **htmlEscape()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **observation()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **screenshotKey()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **viewportSubject()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **CAPTURE_VIEWPORTS** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **EXIT** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **THEMES** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
-- **reader** (1 connections) — `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
-- *... and 6 more nodes in this community*
+- **content.js** (19 connections) — `backend/src/services/content.js`
+- **content.js** (17 connections) — `backend/src/routes/content.js`
+- **content.js** (14 connections) — `api/content.js`
+- **handler()** (11 connections) — `api/content.js`
+- **upload.js** (9 connections) — `api/upload.js`
+- **verifyAdminAuth()** (9 connections) — `api/_lib/adminAuth.js`
+- **getSupabaseBanners()** (9 connections) — `backend/src/services/content.js`
+- **getSupabaseSchemes()** (8 connections) — `backend/src/services/content.js`
+- **getSupabaseBranding()** (7 connections) — `backend/src/services/content.js`
+- **adminAuth.js** (6 connections) — `api/_lib/adminAuth.js`
+- **getActiveContent()** (6 connections) — `backend/src/services/content.js`
+- **getHeroSliderSettings()** (6 connections) — `backend/src/services/content.js`
+- **saveHeroSliderSettings()** (5 connections) — `backend/src/services/content.js`
+- **handler()** (4 connections) — `api/upload.js`
+- **deleteStoreContent()** (4 connections) — `backend/src/services/content.js`
+- **getAllStoreContent()** (4 connections) — `backend/src/services/content.js`
+- **toggleStoreContentActive()** (4 connections) — `backend/src/services/content.js`
+- **upsertStoreContent()** (4 connections) — `backend/src/services/content.js`
+- **login.js** (3 connections) — `api/admin/login.js`
+- **fetchZohoBanners()** (3 connections) — `api/_lib/zoho.js`
+- **fetchZohoSchemes()** (3 connections) — `api/_lib/zoho.js`
+- **handler()** (2 connections) — `api/admin/login.js`
+- **validateMagicBytes()** (2 connections) — `api/upload.js`
+- **loadContentService()** (2 connections) — `vite.config.js`
+- **ALLOWED_CONTENT_TYPES** (1 connections) — `api/content.js`
+- *... and 5 more nodes in this community*
 
 ## Relationships
 
-- [[Community 88]] (8 shared connections)
-- [[Community 133]] (6 shared connections)
-- [[Community 56]] (5 shared connections)
-- [[Live Pricing Audit Tool]] (4 shared connections)
-- [[Community 69]] (3 shared connections)
-- [[Pricing Regression Test Suite]] (3 shared connections)
-- [[Community 123]] (2 shared connections)
-- [[Community 96]] (2 shared connections)
-- [[Community 110]] (2 shared connections)
-- [[Community 154]] (1 shared connections)
-- [[Community 155]] (1 shared connections)
-- [[Community 130]] (1 shared connections)
+- [[Pricing & Roles Skill]] (15 shared connections)
+- [[Pricing Regression Test Suite]] (10 shared connections)
+- [[Community 153]] (8 shared connections)
+- [[Community 47]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/bin/visual-check.mjs`
-- `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
-- `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
-- `.agents/skills/archify/test/desktop-reader-browser.test.mjs`
+- `api/_lib/adminAuth.js`
+- `api/_lib/zoho.js`
+- `api/admin/login.js`
+- `api/content.js`
+- `api/upload.js`
+- `backend/src/routes/content.js`
+- `backend/src/services/content.js`
+- `vite.config.js`
 
 ## Audit Trail
 
-- EXTRACTED: 150 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 163 (98%)
+- INFERRED: 4 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

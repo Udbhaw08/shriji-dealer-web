@@ -1,37 +1,42 @@
 # Community 153
 
-> 13 nodes · cohesion 0.36
+> 12 nodes · cohesion 0.36
 
 ## Key Concepts
 
-- **commerceClient.js** (22 connections) — `backend/src/services/commerceClient.js`
-- **ensureContactPricebookForCrmAccount()** (9 connections) — `backend/src/services/commerceClient.js`
-- **fetchCatalog()** (6 connections) — `backend/src/services/commerceClient.js`
-- **resolvePricebookId()** (6 connections) — `backend/src/services/commerceClient.js`
-- **booksFetch()** (5 connections) — `backend/src/services/commerceClient.js`
-- **commerceConfigured()** (5 connections) — `backend/src/services/commerceClient.js`
-- **commerceFetch()** (5 connections) — `backend/src/services/commerceClient.js`
-- **assignPricebookToContact()** (4 connections) — `backend/src/services/commerceClient.js`
-- **deactivateCommerceContact()** (3 connections) — `backend/src/services/commerceClient.js`
-- **fetchCommercePricebooks()** (3 connections) — `backend/src/services/commerceClient.js`
-- **fetchPricebookRates()** (3 connections) — `backend/src/services/commerceClient.js`
-- **getAccessToken()** (3 connections) — `backend/src/services/commerceClient.js`
-- **parseRate()** (2 connections) — `backend/src/services/commerceClient.js`
+- **vite.config.js** (20 connections) — `vite.config.js`
+- **zohoApiPlugin()** (12 connections) — `vite.config.js`
+- **securityPhase2.test.mjs** (11 connections) — `backend/test/securityPhase2.test.mjs`
+- **og.js** (7 connections) — `api/og.js`
+- **htmlEscape.js** (6 connections) — `api/_lib/htmlEscape.js`
+- **escapeHtml()** (6 connections) — `api/_lib/htmlEscape.js`
+- **sanitizeUrl()** (6 connections) — `api/_lib/htmlEscape.js`
+- **handler()** (5 connections) — `api/og.js`
+- **sanitizeHost()** (4 connections) — `api/_lib/htmlEscape.js`
+- **getBackendApp()** (2 connections) — `vite.config.js`
+- **mockWebhookAuthCheck()** (1 connections) — `backend/test/securityPhase2.test.mjs`
+- **liveAutoSyncPlugin()** (1 connections) — `vite.config.js`
 
 ## Relationships
 
-- [[Community 49]] (9 shared connections)
-- [[Community 31]] (7 shared connections)
-- [[Community 39]] (3 shared connections)
-- [[Product Pages Specification]] (1 shared connections)
+- [[Community 135]] (8 shared connections)
+- [[Community 48]] (8 shared connections)
+- [[Community 166]] (5 shared connections)
+- [[Community 47]] (4 shared connections)
+- [[Pricing Regression Test Suite]] (3 shared connections)
+- [[Community 251]] (3 shared connections)
+- [[Community 253]] (2 shared connections)
 
 ## Source Files
 
-- `backend/src/services/commerceClient.js`
+- `api/_lib/htmlEscape.js`
+- `api/og.js`
+- `backend/test/securityPhase2.test.mjs`
+- `vite.config.js`
 
 ## Audit Trail
 
-- EXTRACTED: 76 (100%)
+- EXTRACTED: 81 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

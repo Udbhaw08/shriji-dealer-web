@@ -4,16 +4,16 @@
 
 ## Key Concepts
 
-- **Maps** (7 connections) — `.agents/skills/apple-design/references/hig/maps.md`
-- **Place cards** (3 connections) — `.agents/skills/apple-design/references/hig/maps.md`
-- **maps.md** (1 connections) — `.agents/skills/apple-design/references/hig/maps.md`
-- **Adding place cards outside of a map** (1 connections) — `.agents/skills/apple-design/references/hig/maps.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/maps.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/maps.md`
-- **Custom information** (1 connections) — `.agents/skills/apple-design/references/hig/maps.md`
-- **Displaying place cards in a map** (1 connections) — `.agents/skills/apple-design/references/hig/maps.md`
-- **Indoor maps** (1 connections) — `.agents/skills/apple-design/references/hig/maps.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/maps.md`
+- **Windows** (5 connections) — `.agents/skills/apple-design/references/hig/windows.md`
+- **Desktop (macOS)** (3 connections) — `.agents/skills/apple-design/references/hig/windows.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/windows.md`
+- **windows.md** (1 connections) — `.agents/skills/apple-design/references/hig/windows.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/windows.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/windows.md`
+- **macOS window anatomy** (1 connections) — `.agents/skills/apple-design/references/hig/windows.md`
+- **macOS window states** (1 connections) — `.agents/skills/apple-design/references/hig/windows.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/windows.md`
+- **Tablet (iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/windows.md`
 
 ## Relationships
 
@@ -21,7 +21,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/maps.md`
+- `.agents/skills/apple-design/references/hig/windows.md`
 
 ## Audit Trail
 

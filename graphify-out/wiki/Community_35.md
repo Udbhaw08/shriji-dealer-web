@@ -1,35 +1,35 @@
 # Community 35
 
-> 39 nodes · cohesion 0.07
+> 41 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **scenarios.mjs** (15 connections) — `.agents/skills/archify/recipes/scenarios.mjs`
-- **FakeElement** (12 connections) — `.agents/skills/archify/test/start-page.test.mjs`
-- **gallery.test.mjs** (9 connections) — `.agents/skills/archify/test/gallery.test.mjs`
-- **start-page.test.mjs** (8 connections) — `.agents/skills/archify/test/start-page.test.mjs`
-- **guide.test.mjs** (6 connections) — `.agents/skills/archify/test/guide.test.mjs`
-- **recommendScenario()** (4 connections) — `.agents/skills/archify/recipes/scenarios.mjs`
-- **SCENARIO_RECIPES** (4 connections) — `.agents/skills/archify/recipes/scenarios.mjs`
-- **detectGuideLanguage()** (3 connections) — `.agents/skills/archify/recipes/scenarios.mjs`
-- **listScenarioRecipes()** (3 connections) — `.agents/skills/archify/recipes/scenarios.mjs`
-- **formatScenarioList()** (2 connections) — `.agents/skills/archify/recipes/scenarios.mjs`
-- **localized()** (2 connections) — `.agents/skills/archify/recipes/scenarios.mjs`
-- **normalized()** (2 connections) — `.agents/skills/archify/recipes/scenarios.mjs`
-- **publicGuideData()** (2 connections) — `.agents/skills/archify/recipes/scenarios.mjs`
-- **scoreRecipe()** (2 connections) — `.agents/skills/archify/recipes/scenarios.mjs`
-- **startPromptsFor()** (2 connections) — `.agents/skills/archify/recipes/scenarios.mjs`
-- **formatScenarioRecommendation()** (1 connections) — `.agents/skills/archify/recipes/scenarios.mjs`
-- **RAW_RECIPES** (1 connections) — `.agents/skills/archify/recipes/scenarios.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/gallery.test.mjs`
-- **generatedRoot** (1 connections) — `.agents/skills/archify/test/gallery.test.mjs`
-- **normalize()** (1 connections) — `.agents/skills/archify/test/gallery.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/gallery.test.mjs`
-- **sha256()** (1 connections) — `.agents/skills/archify/test/gallery.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/gallery.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/gallery.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/start-page.test.mjs`
-- *... and 14 more nodes in this community*
+- **Motion & Micro-interactions Guide** (13 connections) — `.agents/skills/refero-design/references/motion.md`
+- **8. Anti-Patterns** (7 connections) — `.agents/skills/refero-design/references/motion.md`
+- **1. The Motion Pyramid** (5 connections) — `.agents/skills/refero-design/references/motion.md`
+- **4. Micro-interactions That Work** (5 connections) — `.agents/skills/refero-design/references/motion.md`
+- **2. Timing That Actually Works** (4 connections) — `.agents/skills/refero-design/references/motion.md`
+- **3. Easing: Native Feel Without Cringe** (4 connections) — `.agents/skills/refero-design/references/motion.md`
+- **6. Reduced Motion: Not Optional** (4 connections) — `.agents/skills/refero-design/references/motion.md`
+- **5. Motion Tokens for Design Systems** (3 connections) — `.agents/skills/refero-design/references/motion.md`
+- **7. Libraries and Tools** (3 connections) — `.agents/skills/refero-design/references/motion.md`
+- **motion.md** (1 connections) — `.agents/skills/refero-design/references/motion.md`
+- **0. Context First** (1 connections) — `.agents/skills/refero-design/references/motion.md`
+- **9. Pre-Ship Checklist** (1 connections) — `.agents/skills/refero-design/references/motion.md`
+- **Animations Must Be Interruptible** (1 connections) — `.agents/skills/refero-design/references/motion.md`
+- **Appendix: Complete Token System** (1 connections) — `.agents/skills/refero-design/references/motion.md`
+- **Basic Principle** (1 connections) — `.agents/skills/refero-design/references/motion.md`
+- **Buttons and Controls** (1 connections) — `.agents/skills/refero-design/references/motion.md`
+- **Component Mapping** (1 connections) — `.agents/skills/refero-design/references/motion.md`
+- **Critical: Never Use `transition: all`** (1 connections) — `.agents/skills/refero-design/references/motion.md`
+- **CSS Shortcut** (1 connections) — `.agents/skills/refero-design/references/motion.md`
+- **CSS Tokens** (1 connections) — `.agents/skills/refero-design/references/motion.md`
+- **Duration Reference** (1 connections) — `.agents/skills/refero-design/references/motion.md`
+- **For Complex Scenarios** (1 connections) — `.agents/skills/refero-design/references/motion.md`
+- **For Web/SaaS (React/Next)** (1 connections) — `.agents/skills/refero-design/references/motion.md`
+- **Implementation** (1 connections) — `.agents/skills/refero-design/references/motion.md`
+- **Inputs** (1 connections) — `.agents/skills/refero-design/references/motion.md`
+- *... and 16 more nodes in this community*
 
 ## Relationships
 
@@ -37,14 +37,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/recipes/scenarios.mjs`
-- `.agents/skills/archify/test/gallery.test.mjs`
-- `.agents/skills/archify/test/guide.test.mjs`
-- `.agents/skills/archify/test/start-page.test.mjs`
+- `.agents/skills/refero-design/references/motion.md`
 
 ## Audit Trail
 
-- EXTRACTED: 100 (100%)
+- EXTRACTED: 80 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

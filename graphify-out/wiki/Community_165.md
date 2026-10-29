@@ -1,33 +1,43 @@
 # Community 165
 
-> 12 nodes · cohesion 0.17
+> 12 nodes · cohesion 0.32
 
 ## Key Concepts
 
-- **Menus** (10 connections) — `.agents/skills/apple-design/references/hig/menus.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/menus.md`
-- **menus.md** (1 connections) — `.agents/skills/apple-design/references/hig/menus.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/menus.md`
-- **Icons** (1 connections) — `.agents/skills/apple-design/references/hig/menus.md`
-- **In-game menus** (1 connections) — `.agents/skills/apple-design/references/hig/menus.md`
-- **Labels** (1 connections) — `.agents/skills/apple-design/references/hig/menus.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/menus.md`
-- **Organization** (1 connections) — `.agents/skills/apple-design/references/hig/menus.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/menus.md`
-- **Submenus** (1 connections) — `.agents/skills/apple-design/references/hig/menus.md`
-- **Toggled items** (1 connections) — `.agents/skills/apple-design/references/hig/menus.md`
+- **logger.js** (14 connections) — `backend/src/utils/logger.js`
+- **crmPoll.js** (13 connections) — `backend/src/jobs/crmPoll.js`
+- **log** (13 connections) — `backend/src/utils/logger.js`
+- **applyCrmAccountState()** (12 connections) — `backend/src/services/dealerApp.js`
+- **index.js** (11 connections) — `backend/src/jobs/index.js`
+- **errorHandler.js** (10 connections) — `backend/src/middleware/errorHandler.js`
+- **catalogSync.js** (9 connections) — `backend/src/jobs/catalogSync.js`
+- **crmPoll()** (5 connections) — `backend/src/jobs/crmPoll.js`
+- **tokenCleanup()** (3 connections) — `backend/src/jobs/catalogSync.js`
+- **markPollRun()** (3 connections) — `backend/src/jobs/crmPoll.js`
+- **crmSync.test.mjs** (2 connections) — `backend/test/crmSync.test.mjs`
+- **ts()** (1 connections) — `backend/src/utils/logger.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Master Codebase Architecture Reference]] (20 shared connections)
+- [[Pricing Regression Test Suite]] (15 shared connections)
+- [[Pricing & Roles Skill]] (11 shared connections)
+- [[Community 83]] (6 shared connections)
+- [[Community 125]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/menus.md`
+- `backend/src/jobs/catalogSync.js`
+- `backend/src/jobs/crmPoll.js`
+- `backend/src/jobs/index.js`
+- `backend/src/middleware/errorHandler.js`
+- `backend/src/services/dealerApp.js`
+- `backend/src/utils/logger.js`
+- `backend/test/crmSync.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (100%)
+- EXTRACTED: 96 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

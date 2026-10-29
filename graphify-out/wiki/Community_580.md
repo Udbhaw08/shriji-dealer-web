@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **phoneSanitizer.test.mjs** (0 connections) — `backend/test/phoneSanitizer.test.mjs`
+- **roleGating.test.mjs** (0 connections) — `backend/test/roleGating.test.mjs`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `backend/test/phoneSanitizer.test.mjs`
+- `backend/test/roleGating.test.mjs`
 
 ## Audit Trail
 

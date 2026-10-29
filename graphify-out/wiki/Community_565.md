@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **cordova.js** (0 connections) — `ios/App/App/public/cordova.js`
+- **verify-all.mjs** (0 connections) — `scripts/verify-all.mjs`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `ios/App/App/public/cordova.js`
+- `scripts/verify-all.mjs`
 
 ## Audit Trail
 

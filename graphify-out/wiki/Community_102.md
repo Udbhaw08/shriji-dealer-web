@@ -1,28 +1,27 @@
 # Community 102
 
-> 19 nodes · cohesion 0.12
+> 18 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **golden.mjs** (18 connections) — `.agents/skills/archify/test/golden.mjs`
-- **expectFailure()** (3 connections) — `.agents/skills/archify/test/golden.mjs`
-- **check()** (2 connections) — `.agents/skills/archify/test/golden.mjs`
-- **render()** (2 connections) — `.agents/skills/archify/test/golden.mjs`
-- **blocks()** (1 connections) — `.agents/skills/archify/test/golden.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/golden.mjs`
-- **GOLDEN** (1 connections) — `.agents/skills/archify/test/golden.mjs`
-- **landingPage** (1 connections) — `.agents/skills/archify/test/golden.mjs`
-- **landingVersions** (1 connections) — `.agents/skills/archify/test/golden.mjs`
-- **lock** (1 connections) — `.agents/skills/archify/test/golden.mjs`
-- **normalizeNewlines()** (1 connections) — `.agents/skills/archify/test/golden.mjs`
-- **pkg** (1 connections) — `.agents/skills/archify/test/golden.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/golden.mjs`
-- **shieldsBadgeMessages()** (1 connections) — `.agents/skills/archify/test/golden.mjs`
-- **skillMd** (1 connections) — `.agents/skills/archify/test/golden.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/golden.mjs`
-- **template** (1 connections) — `.agents/skills/archify/test/golden.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/golden.mjs`
-- **webApp** (1 connections) — `.agents/skills/archify/test/golden.mjs`
+- **Standard icons** (10 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Icons** (6 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Desktop (macOS)** (2 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **icons.md** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Document icons** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Editing** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Layer ordering** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Other** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Ratings** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Search** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Selection** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Sharing and exporting** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Text formatting** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Users and accounts** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
 
 ## Relationships
 
@@ -30,11 +29,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/golden.mjs`
+- `.agents/skills/apple-design/references/hig/icons.md`
 
 ## Audit Trail
 
-- EXTRACTED: 40 (100%)
+- EXTRACTED: 34 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

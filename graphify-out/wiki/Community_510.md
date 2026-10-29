@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **README.md** (1 connections) — `.agents/skills/archify/brand-marks/README.md`
-- **Built-in brand marks** (1 connections) — `.agents/skills/archify/brand-marks/README.md`
+- **A11yAnnouncer.jsx** (1 connections) — `src/components/A11yAnnouncer.jsx`
+- **A11yAnnouncer()** (1 connections) — `src/components/A11yAnnouncer.jsx`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/brand-marks/README.md`
+- `src/components/A11yAnnouncer.jsx`
 
 ## Audit Trail
 

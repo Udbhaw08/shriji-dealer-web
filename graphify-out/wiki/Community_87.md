@@ -1,54 +1,42 @@
 # Community 87
 
-> 21 nodes · cohesion 0.18
+> 20 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **utils.mjs** (26 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
-- **i18n.mjs** (21 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **translateMessage()** (21 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **legend.mjs** (21 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
-- **renderLegend()** (14 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
-- **applyTemplate()** (9 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
-- **resolveLocale()** (7 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **legendFootprint()** (6 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
-- **measureLegend()** (6 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
-- **viewerCatalog()** (4 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **localizeTemplate()** (3 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **translateCount()** (3 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **formatMessage()** (2 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **measuredEntryWidth()** (2 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
-- **serializeScriptJson()** (2 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
-- **CATALOGS** (1 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **ESCAPE_MAP** (1 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **MESSAGE_PAIRS** (1 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **SIGIL_SHAPE** (1 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
-- **SIGIL_TONE** (1 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
-- **TEMPLATE_PLACEHOLDERS** (1 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
+- **PRODUCT-PAGES.md — listing, detail, and dealer pricing** (9 connections) — `docs/PRODUCT-PAGES.md`
+- **4. Product listing — `/products`, `src/pages/Products.jsx`** (6 connections) — `docs/PRODUCT-PAGES.md`
+- **6. Product detail — `/products/:id`, `src/pages/Product.jsx`** (6 connections) — `docs/PRODUCT-PAGES.md`
+- **PRODUCT-PAGES.md** (1 connections) — `docs/PRODUCT-PAGES.md`
+- **1. Price visibility — the rule everything else follows** (1 connections) — `docs/PRODUCT-PAGES.md`
+- **2. The pricing module — `src/data/dealer.js`** (1 connections) — `docs/PRODUCT-PAGES.md`
+- **3. `<PriceBlock>` — `src/components/PriceBlock.jsx`** (1 connections) — `docs/PRODUCT-PAGES.md`
+- **5. Product card — `src/components/ProductCard.jsx`** (1 connections) — `docs/PRODUCT-PAGES.md`
+- **7. What is deliberately not here** (1 connections) — `docs/PRODUCT-PAGES.md`
+- **8. Files touched on 2026-09-20** (1 connections) — `docs/PRODUCT-PAGES.md`
+- **Below the whole grid** (1 connections) — `docs/PRODUCT-PAGES.md`
+- **Filters and facets** (1 connections) — `docs/PRODUCT-PAGES.md`
+- **Left column** (1 connections) — `docs/PRODUCT-PAGES.md`
+- **Pagination** (1 connections) — `docs/PRODUCT-PAGES.md`
+- **Responsive behaviour** (1 connections) — `docs/PRODUCT-PAGES.md`
+- **Right column** (1 connections) — `docs/PRODUCT-PAGES.md`
+- **Share with Customer** (1 connections) — `docs/PRODUCT-PAGES.md`
+- **Sort** (1 connections) — `docs/PRODUCT-PAGES.md`
+- **Structure** (1 connections) — `docs/PRODUCT-PAGES.md`
+- **Tabs** (1 connections) — `docs/PRODUCT-PAGES.md`
 
 ## Relationships
 
-- [[Oxlint Linter Configuration]] (15 shared connections)
-- [[Community 45]] (12 shared connections)
-- [[Community 67]] (11 shared connections)
-- [[Pricing Regression Test Suite]] (10 shared connections)
-- [[Product Requirements Documentation]] (10 shared connections)
-- [[Zoho Backend & Proxy Endpoints]] (9 shared connections)
-- [[Community 54]] (5 shared connections)
-- [[Community 130]] (5 shared connections)
-- [[Testing & Workflow Skill]] (1 shared connections)
-- [[Community 294]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/shared/i18n.mjs`
-- `.agents/skills/archify/renderers/shared/legend.mjs`
-- `.agents/skills/archify/renderers/shared/utils.mjs`
+- `docs/PRODUCT-PAGES.md`
 
 ## Audit Trail
 
-- EXTRACTED: 151 (99%)
-- INFERRED: 2 (1%)
+- EXTRACTED: 38 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

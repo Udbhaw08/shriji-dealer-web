@@ -1,52 +1,44 @@
 # Community 78
 
-> 23 nodes · cohesion 0.13
+> 22 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **preview.mjs** (23 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **startPreview()** (10 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **open-artifact.mjs** (7 connections) — `.agents/skills/archify/bin/open-artifact.mjs`
-- **openLoopbackUrl()** (5 connections) — `.agents/skills/archify/bin/open-artifact.mjs`
-- **open-artifact.test.mjs** (5 connections) — `.agents/skills/archify/test/open-artifact.test.mjs`
-- **launchTarget()** (4 connections) — `.agents/skills/archify/bin/open-artifact.mjs`
-- **openArtifact()** (4 connections) — `.agents/skills/archify/bin/open-artifact.mjs`
-- **runPreview()** (3 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **compactMessage()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **initialAuthoredOutput()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **previewPage()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **redactDiagnostic()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **sha256()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **sourceDigest()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **spawn()** (2 connections) — `.agents/skills/archify/test/open-artifact.test.mjs`
-- **OPENERS** (1 connections) — `.agents/skills/archify/bin/open-artifact.mjs`
-- **cliPath** (1 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **diagramTypes** (1 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **here** (1 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **parseReceipt()** (1 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **responseHeaders()** (1 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **safeJson()** (1 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **target** (1 connections) — `.agents/skills/archify/test/open-artifact.test.mjs`
+- **CODEBASE.md — Project Architecture & Feature Guide** (8 connections) — `CODEBASE.md`
+- **2. Core Pricing & Identity Architecture** (6 connections) — `CODEBASE.md`
+- **4. Codebase Directory Map** (6 connections) — `CODEBASE.md`
+- **5. Zoho API Endpoints** (4 connections) — `CODEBASE.md`
+- **CODEBASE.md** (1 connections) — `CODEBASE.md`
+- **1. System Overview** (1 connections) — `CODEBASE.md`
+- **2.1 The Two Audiences (Zero Leakage Rule)** (1 connections) — `CODEBASE.md`
+- **2.2 Pricing Resolution Engine (`api/zoho.js` & `src/data/dealer.js`)** (1 connections) — `CODEBASE.md`
+- **2.3 Guest Access Control & Portal Gating (`src/data/portalGate.js`)** (1 connections) — `CODEBASE.md`
+- **2.4 Shareable Product Link & Zero-Leakage Experience (`src/pages/Product.jsx`)** (1 connections) — `CODEBASE.md`
+- **2.5 Navigation & Bottom Bar Dynamic Filtering** (1 connections) — `CODEBASE.md`
+- **3. Application Routes & Navigation** (1 connections) — `CODEBASE.md`
+- **4.1 Pages (`src/pages/`)** (1 connections) — `CODEBASE.md`
+- **4.2 Reusable Components (`src/components/` & `src/ui.jsx`)** (1 connections) — `CODEBASE.md`
+- **4.3 State & Business Logic (`src/data/`)** (1 connections) — `CODEBASE.md`
+- **4.4 Zoho API & Serverless Handlers (`api/`)** (1 connections) — `CODEBASE.md`
+- **4.5 Automation & Utility Scripts (`scripts/`)** (1 connections) — `CODEBASE.md`
+- **5.1 Zoho Commerce Storefront API** (1 connections) — `CODEBASE.md`
+- **5.2 Zoho Books Contacts & Pricebooks API** (1 connections) — `CODEBASE.md`
+- **5.3 Auto-Recovery Token Architecture** (1 connections) — `CODEBASE.md`
+- **6. How to Run & Verify** (1 connections) — `CODEBASE.md`
+- **7. Development & Git Workflow Guidelines** (1 connections) — `CODEBASE.md`
 
 ## Relationships
 
-- [[Community 41]] (4 shared connections)
-- [[Community 109]] (3 shared connections)
-- [[Community 249]] (2 shared connections)
-- [[Community 213]] (2 shared connections)
-- [[Community 335]] (2 shared connections)
-- [[Community 253]] (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/bin/open-artifact.mjs`
-- `.agents/skills/archify/bin/preview.mjs`
-- `.agents/skills/archify/test/open-artifact.test.mjs`
+- `CODEBASE.md`
 
 ## Audit Trail
 
-- EXTRACTED: 79 (95%)
-- INFERRED: 4 (5%)
+- EXTRACTED: 42 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

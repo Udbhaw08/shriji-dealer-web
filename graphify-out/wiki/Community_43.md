@@ -1,48 +1,61 @@
 # Community 43
 
-> 34 nodes · cohesion 0.06
+> 33 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **Typography** (10 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **iOS, iPadOS Dynamic Type sizes** (8 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **iOS, iPadOS larger accessibility type sizes** (6 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **Specifications** (5 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **iOS, iPadOS, visionOS tracking values** (4 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **Tracking values** (3 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **typography.md** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **AX1** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **AX2** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **AX3** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **AX4** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **AX5** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **Conveying hierarchy** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **Ensuring legibility** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **Large (default)** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **macOS built-in text styles** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **macOS tracking values** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **Medium** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **New York** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- **SF Pro** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
-- *... and 9 more nodes in this community*
+- **render-lifecycle.mjs** (81 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **svgAccessibleText()** (13 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- **svgRootAttrs()** (13 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- **renderDefinitions()** (11 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
+- **resolveLegend()** (10 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
+- **pathFor()** (8 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **renderSvg()** (8 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **renderTransitionLabel()** (8 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **renderSvg()** (6 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **renderSvg()** (6 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **renderLegend()** (6 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **renderSvg()** (6 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- **renderLegend()** (5 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **renderBands()** (5 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **renderLegend()** (5 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- **bandFor()** (3 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **bandTitles()** (3 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **lifecycleAreaBottom()** (3 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **legendY()** (2 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **measureState()** (2 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **renderLifecycleRail()** (2 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **routeVia()** (2 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **automaticPorts** (1 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **laneLabels** (1 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- *... and 8 more nodes in this community*
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Zoho Backend & Proxy Endpoints]] (34 shared connections)
+- [[Oxlint Linter Configuration]] (29 shared connections)
+- [[Community 53]] (14 shared connections)
+- [[Community 84]] (12 shared connections)
+- [[Client Products Data Store]] (8 shared connections)
+- [[Community 65]] (8 shared connections)
+- [[Product Requirements Documentation]] (7 shared connections)
+- [[Community 30]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/typography.md`
+- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- `.agents/skills/archify/renderers/shared/cli.mjs`
+- `.agents/skills/archify/renderers/shared/legend.mjs`
+- `.agents/skills/archify/renderers/shared/utils.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 66 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 215 (98%)
+- INFERRED: 4 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

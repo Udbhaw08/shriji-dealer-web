@@ -1,33 +1,34 @@
 # Community 253
 
-> 9 nodes · cohesion 0.25
+> 8 nodes · cohesion 0.32
 
 ## Key Concepts
 
-- **repository-evidence.test.mjs** (13 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
-- **fixture()** (2 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
-- **git()** (2 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
-- **cli** (1 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
-- **evidencePayload()** (1 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
-- **here** (1 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
-- **run()** (1 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
-- **waitForState()** (1 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
+- **createDealerContact()** (9 connections) — `api/_lib/zoho.js`
+- **getAccessToken()** (6 connections) — `api/_lib/zoho.js`
+- **loadEnv()** (5 connections) — `api/_lib/zoho.js`
+- **test-zoho-api.mjs** (4 connections) — `scripts/test-zoho-api.mjs`
+- **apply.js** (3 connections) — `api/dealer/apply.js`
+- **handler()** (2 connections) — `api/dealer/apply.js`
+- **readDiskCache()** (2 connections) — `api/_lib/zoho.js`
+- **{ dc, orgId }** (1 connections) — `scripts/test-zoho-api.mjs`
 
 ## Relationships
 
-- [[Community 78]] (2 shared connections)
-- [[Community 48]] (1 shared connections)
-- [[Community 88]] (1 shared connections)
-- [[Community 133]] (1 shared connections)
+- [[Community 47]] (6 shared connections)
+- [[Community 166]] (5 shared connections)
+- [[Community 153]] (2 shared connections)
+- [[Community 125]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/repository-evidence.test.mjs`
+- `api/_lib/zoho.js`
+- `api/dealer/apply.js`
+- `scripts/test-zoho-api.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 23 (100%)
+- EXTRACTED: 32 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

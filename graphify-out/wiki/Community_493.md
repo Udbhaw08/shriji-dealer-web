@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **XSS Prevention & Content Sanitization Guidelines** (2 connections) — `docs/security/xss-and-content-sanitization.md`
-- **xss-and-content-sanitization.md** (1 connections) — `docs/security/xss-and-content-sanitization.md`
-- **Guidelines** (1 connections) — `docs/security/xss-and-content-sanitization.md`
+- **toolbar-polish.test.mjs** (2 connections) — `.agents/skills/archify/test/toolbar-polish.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/toolbar-polish.test.mjs`
+- **template** (1 connections) — `.agents/skills/archify/test/toolbar-polish.test.mjs`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/security/xss-and-content-sanitization.md`
+- `.agents/skills/archify/test/toolbar-polish.test.mjs`
 
 ## Audit Trail
 

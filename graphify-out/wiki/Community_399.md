@@ -4,23 +4,23 @@
 
 ## Key Concepts
 
-- **focus** (4 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **items** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **minItems** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **render-examples.mjs** (4 connections) — `.agents/skills/archify/scripts/render-examples.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/scripts/render-examples.mjs`
+- **outputRoot** (1 connections) — `.agents/skills/archify/scripts/render-examples.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/scripts/render-examples.mjs`
+- **TARGETS** (1 connections) — `.agents/skills/archify/scripts/render-examples.mjs`
 
 ## Relationships
 
-- [[Community 184]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/common.schema.json`
+- `.agents/skills/archify/scripts/render-examples.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

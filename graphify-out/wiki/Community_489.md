@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **Content Security Policy (CSP) Directives** (2 connections) — `docs/security/content-security-policy.md`
-- **content-security-policy.md** (1 connections) — `docs/security/content-security-policy.md`
-- **Directives** (1 connections) — `docs/security/content-security-policy.md`
+- **Rate Limiting Strategies & Brute-Force Defense** (2 connections) — `docs/security/rate-limiting-strategies.md`
+- **rate-limiting-strategies.md** (1 connections) — `docs/security/rate-limiting-strategies.md`
+- **Security Thresholds** (1 connections) — `docs/security/rate-limiting-strategies.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/security/content-security-policy.md`
+- `docs/security/rate-limiting-strategies.md`
 
 ## Audit Trail
 

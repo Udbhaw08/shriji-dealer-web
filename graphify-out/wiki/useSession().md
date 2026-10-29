@@ -2,13 +2,13 @@
 
 > God node · 42 connections · `src/data/session.js`
 
-**Community:** [[Dependencies & Package Config]]
+**Community:** [[Design System & UI Tokens]]
 
 ## Connections by Relation
 
 ### calls
-- [[ProductCard()]] `EXTRACTED`
 - [[Product()]] `EXTRACTED`
+- [[ProductCard()]] `EXTRACTED`
 - [[Favorites()]] `EXTRACTED`
 - [[Products()]] `EXTRACTED`
 - [[Header()]] `EXTRACTED`
@@ -36,9 +36,9 @@
 - [[Login.jsx]] `EXTRACTED`
 - [[ui.jsx]] `EXTRACTED`
 - [[Product.jsx]] `EXTRACTED`
+- [[Products.jsx]] `EXTRACTED`
 - [[DealerApply.jsx]] `EXTRACTED`
 - [[Home.jsx]] `EXTRACTED`
-- [[Products.jsx]] `EXTRACTED`
 - [[DealerDashboard.jsx]] `EXTRACTED`
 - [[BrandApplyFlow.jsx]] `EXTRACTED`
 - [[Favorites.jsx]] `EXTRACTED`

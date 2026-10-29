@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **Dealer Onboarding & Approval Lifecycle** (2 connections) — `docs/guides/dealer-onboarding-flow.md`
-- **dealer-onboarding-flow.md** (1 connections) — `docs/guides/dealer-onboarding-flow.md`
-- **Lifecycle States** (1 connections) — `docs/guides/dealer-onboarding-flow.md`
+- **PIN Code Serviceability Matrix** (2 connections) — `docs/guides/pincode-serviceability-matrix.md`
+- **pincode-serviceability-matrix.md** (1 connections) — `docs/guides/pincode-serviceability-matrix.md`
+- **Logistics Coverage** (1 connections) — `docs/guides/pincode-serviceability-matrix.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/guides/dealer-onboarding-flow.md`
+- `docs/guides/pincode-serviceability-matrix.md`
 
 ## Audit Trail
 

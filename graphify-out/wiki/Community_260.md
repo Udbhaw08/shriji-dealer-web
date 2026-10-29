@@ -4,14 +4,14 @@
 
 ## Key Concepts
 
-- **Game controls** (7 connections) — `.agents/skills/apple-design/references/hig/game-controls.md`
-- **game-controls.md** (1 connections) — `.agents/skills/apple-design/references/hig/game-controls.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/game-controls.md`
-- **Keyboards** (1 connections) — `.agents/skills/apple-design/references/hig/game-controls.md`
-- **Physical controllers** (1 connections) — `.agents/skills/apple-design/references/hig/game-controls.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/game-controls.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/game-controls.md`
-- **Touch controls** (1 connections) — `.agents/skills/apple-design/references/hig/game-controls.md`
+- **Image views** (6 connections) — `.agents/skills/apple-design/references/hig/image-views.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/image-views.md`
+- **image-views.md** (1 connections) — `.agents/skills/apple-design/references/hig/image-views.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/image-views.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/image-views.md`
+- **Content** (1 connections) — `.agents/skills/apple-design/references/hig/image-views.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/image-views.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/image-views.md`
 
 ## Relationships
 
@@ -19,7 +19,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/game-controls.md`
+- `.agents/skills/apple-design/references/hig/image-views.md`
 
 ## Audit Trail
 

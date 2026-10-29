@@ -4,23 +4,23 @@
 
 ## Key Concepts
 
-- **Performance** (4 connections) — `.agents/skills/swiftui-pro/references/performance.md`
-- **performance.md** (1 connections) — `.agents/skills/swiftui-pro/references/performance.md`
-- **Collections and row updates** (1 connections) — `.agents/skills/swiftui-pro/references/performance.md`
-- **Frequent changes** (1 connections) — `.agents/skills/swiftui-pro/references/performance.md`
-- **Remote images** (1 connections) — `.agents/skills/swiftui-pro/references/performance.md`
+- **12. Performance Typography** (5 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Performance Rule** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Requirements** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Rules** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **System Font Stack** (1 connections) — `.agents/skills/refero-design/references/typography.md`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 234]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/swiftui-pro/references/performance.md`
+- `.agents/skills/refero-design/references/typography.md`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 9 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

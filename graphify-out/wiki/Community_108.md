@@ -1,41 +1,38 @@
 # Community 108
 
-> 18 nodes · cohesion 0.22
+> 17 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **acquireOperation()** (10 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **cacheTokenFor()** (10 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **cacheWriteFile()** (9 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **promoteOperationClaim()** (9 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **reserveOperation()** (9 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **guardedCacheRead()** (7 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **cacheMkdir()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **inspectActiveClaim()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **readState()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **fenceLowerOperations()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **listOperations()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **operationName()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **operationWasFenced()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **prepareOperationClaim()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **retireActiveClaim()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **hasActivePendingOperation()** (4 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **operationIsSuperseded()** (4 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **discardPreparedClaim()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **pricing.test.mjs** (19 connections) — `src/data/pricing.test.mjs`
+- **crystal** (1 connections) — `src/data/pricing.test.mjs`
+- **crystalDealer** (1 connections) — `src/data/pricing.test.mjs`
+- **crystalGuest** (1 connections) — `src/data/pricing.test.mjs`
+- **genericDealer** (1 connections) — `src/data/pricing.test.mjs`
+- **genericGuest** (1 connections) — `src/data/pricing.test.mjs`
+- **genericItem** (1 connections) — `src/data/pricing.test.mjs`
+- **kettle** (1 connections) — `src/data/pricing.test.mjs`
+- **kettleDealer** (1 connections) — `src/data/pricing.test.mjs`
+- **kettleGuest** (1 connections) — `src/data/pricing.test.mjs`
+- **tcjDealer** (1 connections) — `src/data/pricing.test.mjs`
+- **tcjGuest** (1 connections) — `src/data/pricing.test.mjs`
+- **tripleCookJumbo** (1 connections) — `src/data/pricing.test.mjs`
+- **vernaGuest** (1 connections) — `src/data/pricing.test.mjs`
+- **vernaPlus** (1 connections) — `src/data/pricing.test.mjs`
+- **zeroItem** (1 connections) — `src/data/pricing.test.mjs`
+- **zeroPricedResult** (1 connections) — `src/data/pricing.test.mjs`
 
 ## Relationships
 
-- [[Community 51]] (19 shared connections)
-- [[Community 101]] (14 shared connections)
-- [[Community 115]] (12 shared connections)
+- [[Zoho Integration Architecture]] (3 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/scripts/check-update.mjs`
+- `src/data/pricing.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 113 (100%)
+- EXTRACTED: 35 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,20 +1,20 @@
 # Community 188
 
-> 11 nodes · cohesion 0.20
+> 11 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **readme-showcase.test.mjs** (10 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
-- **inspectGif()** (2 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
-- **skipSubBlocks()** (2 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
-- **assetPath** (1 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
-- **git()** (1 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
-- **receiptPath** (1 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
-- **sha256()** (1 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
-- **writeStarHistoryCharts()** (1 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
+- **httpErrors.js** (5 connections) — `backend/src/utils/httpErrors.js`
+- **BadRequestError** (2 connections) — `backend/src/utils/httpErrors.js`
+- **ForbiddenError** (2 connections) — `backend/src/utils/httpErrors.js`
+- **HttpError** (2 connections) — `backend/src/utils/httpErrors.js`
+- **NotFoundError** (2 connections) — `backend/src/utils/httpErrors.js`
+- **UnauthorizedError** (2 connections) — `backend/src/utils/httpErrors.js`
+- **.constructor()** (1 connections) — `backend/src/utils/httpErrors.js`
+- **.constructor()** (1 connections) — `backend/src/utils/httpErrors.js`
+- **.constructor()** (1 connections) — `backend/src/utils/httpErrors.js`
+- **.constructor()** (1 connections) — `backend/src/utils/httpErrors.js`
+- **.constructor()** (1 connections) — `backend/src/utils/httpErrors.js`
 
 ## Relationships
 
@@ -22,11 +22,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/readme-showcase.test.mjs`
+- `backend/src/utils/httpErrors.js`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (100%)
+- EXTRACTED: 20 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

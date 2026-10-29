@@ -1,23 +1,23 @@
 # Community 134
 
-> 14 nodes · cohesion 0.14
+> 14 nodes · cohesion 0.23
 
 ## Key Concepts
 
-- **Augmented reality** (13 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
-- **augmented-reality.md** (1 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
-- **Communicating with people** (1 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
-- **Designing object interactions** (1 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
-- **Handling interruptions** (1 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
-- **Helping people place objects** (1 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
-- **Icons and badges** (1 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
-- **Offering a multiuser experience** (1 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
-- **Providing coaching** (1 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
-- **Reacting to real-world objects** (1 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
-- **Suggesting problem resolutions** (1 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
+- **web-C_CRXol7.js** (13 connections) — `ios/App/App/public/assets/web-C_CRXol7.js`
+- **applyPrefix()** (4 connections) — `ios/App/App/public/assets/web-C_CRXol7.js`
+- **keys()** (4 connections) — `ios/App/App/public/assets/web-C_CRXol7.js`
+- **get()** (3 connections) — `ios/App/App/public/assets/web-C_CRXol7.js`
+- **migrate()** (3 connections) — `ios/App/App/public/assets/web-C_CRXol7.js`
+- **rawKeys()** (3 connections) — `ios/App/App/public/assets/web-C_CRXol7.js`
+- **clear()** (2 connections) — `ios/App/App/public/assets/web-C_CRXol7.js`
+- **remove()** (2 connections) — `ios/App/App/public/assets/web-C_CRXol7.js`
+- **removeOld()** (2 connections) — `ios/App/App/public/assets/web-C_CRXol7.js`
+- **set()** (2 connections) — `ios/App/App/public/assets/web-C_CRXol7.js`
+- **configure()** (1 connections) — `ios/App/App/public/assets/web-C_CRXol7.js`
+- **constructor()** (1 connections) — `ios/App/App/public/assets/web-C_CRXol7.js`
+- **impl()** (1 connections) — `ios/App/App/public/assets/web-C_CRXol7.js`
+- **prefix()** (1 connections) — `ios/App/App/public/assets/web-C_CRXol7.js`
 
 ## Relationships
 
@@ -25,11 +25,11 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/augmented-reality.md`
+- `ios/App/App/public/assets/web-C_CRXol7.js`
 
 ## Audit Trail
 
-- EXTRACTED: 26 (100%)
+- EXTRACTED: 42 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

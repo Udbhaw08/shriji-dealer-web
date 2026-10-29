@@ -98,15 +98,17 @@ export default function Home() {
   }, [PRODUCTS]);
 
   const featured = useMemo(() => {
-    // If products in category 'trial' exist, prioritize them
+    // If products from Zoho Commerce 'Trial' collection exist, prioritize them in exact collection order
     const trialItems = PRODUCTS.filter(
       (p) =>
+        p.isTrial ||
+        p.collections?.includes("trial") ||
         p.cat === "trial" ||
         p.cat?.toLowerCase() === "trial" ||
         (Array.isArray(p.tags) && p.tags.some((t) => typeof t === "string" && t.toLowerCase() === "trial"))
     );
     if (trialItems.length > 0) {
-      return trialItems;
+      return [...trialItems].sort((a, b) => (a.trialOrder ?? 999) - (b.trialOrder ?? 999));
     }
     // Fallback so the section remains populated while the category is configured in Zoho Commerce
     return CATEGORIES.map((c) => PRODUCTS.filter((p) => p.cat === c.key && p.img).slice(0, 2))
@@ -148,31 +150,62 @@ export default function Home() {
     };
   }, []);
 
-  const [dynamicTagline, setDynamicTagline] = useState(() => {
+  const [taglineConfig, setTaglineConfig] = useState(() => {
     try {
-      const raw = sessionStorage.getItem("shriji_home_tagline");
-      if (raw) return raw;
+      const raw = localStorage.getItem("shriji_home_tagline_config") || sessionStorage.getItem("shriji_home_tagline_config");
+      if (raw) return JSON.parse(raw);
     } catch {}
-    return "";
+    try {
+      const siteRaw = localStorage.getItem("shriji_site_settings") || sessionStorage.getItem("shriji_site_settings");
+      if (siteRaw) {
+        const s = JSON.parse(siteRaw);
+        return {
+          enabled: s.home_tagline_enabled !== false,
+          text: s.home_tagline !== undefined ? s.home_tagline : (s.tagline || ""),
+        };
+      }
+    } catch {}
+    return {
+      enabled: false,
+      text: "",
+    };
   });
 
   useEffect(() => {
     let active = true;
+    const updateFromSettings = (settings) => {
+      if (!settings) return;
+      const config = {
+        enabled: settings.home_tagline_enabled !== false,
+        text: settings.home_tagline !== undefined
+          ? settings.home_tagline
+          : (settings.tagline !== undefined ? settings.tagline : ""),
+      };
+      setTaglineConfig(config);
+      try {
+        localStorage.setItem("shriji_home_tagline_config", JSON.stringify(config));
+        sessionStorage.setItem("shriji_home_tagline_config", JSON.stringify(config));
+        localStorage.setItem("shriji_site_settings", JSON.stringify(settings));
+        sessionStorage.setItem("shriji_site_settings", JSON.stringify(settings));
+      } catch {}
+    };
+
     apiFetch("/api/banners")
       .then((res) => (res.ok ? res.json() : null))
       .then((data) => {
         if (!active) return;
-        const tag = data?.settings?.tagline || data?.settings?.home_tagline;
-        if (tag) {
-          setDynamicTagline(tag);
-          try {
-            sessionStorage.setItem("shriji_home_tagline", tag);
-          } catch {}
-        }
+        if (data?.settings) updateFromSettings(data.settings);
       })
       .catch(() => {});
+
+    const handleUpdated = (e) => {
+      if (e?.detail) updateFromSettings(e.detail);
+    };
+
+    window.addEventListener("shriji_settings_updated", handleUpdated);
     return () => {
       active = false;
+      window.removeEventListener("shriji_settings_updated", handleUpdated);
     };
   }, []);
 
@@ -187,16 +220,18 @@ export default function Home() {
       <HeroSlider isGated={isGated} t={t} />
 
       {/* ---------- Brand Tagline ---------- */}
-      <section className="sec home-trust-sec">
-        <div className="wrap">
-          <div className="home-tagline-block">
-            <h2 className="home-tagline-title">
-              {dynamicTagline || t("home_tagline") || "Delivering the heart of every kitchen"}
-            </h2>
-            <div className="home-tagline-accent" aria-hidden="true" />
+      {taglineConfig.enabled && Boolean(taglineConfig.text && taglineConfig.text.trim()) && (
+        <section className="sec home-trust-sec">
+          <div className="wrap">
+            <div className="home-tagline-block">
+              <h2 className="home-tagline-title">
+                {taglineConfig.text || t("home_tagline") || "Delivering the heart of every kitchen"}
+              </h2>
+              <div className="home-tagline-accent" aria-hidden="true" />
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
+      )}
 
       {/* When logged in as verified dealer: Show Browse by Category & Featured Products */}
       {!isGated && (
@@ -339,7 +374,7 @@ export default function Home() {
                         <Icon name="arrowsm" size={22} />
                       </span>
                       <b>{t("view_all")}</b>
-                      <span>{PRODUCTS.length} Models</span>
+                      <span>{featured.length > 0 ? `${featured.length} ${t("models") || "Models"}` : `${PRODUCTS.length} ${t("models") || "Models"}`}</span>
                     </Link>
                   </div>
                 </div>

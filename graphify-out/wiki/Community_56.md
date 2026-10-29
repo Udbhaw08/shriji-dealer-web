@@ -4,57 +4,55 @@
 
 ## Key Concepts
 
-- **.send()** (54 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **viewer-camera-browser.test.mjs** (11 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **export-browser.test.mjs** (9 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **motion-governor-browser.test.mjs** (9 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **.inspect()** (5 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **run()** (5 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **run()** (5 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **load()** (4 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **load()** (4 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **run()** (4 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **evaluate()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **click()** (3 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **load()** (3 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **record()** (3 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **media()** (3 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **screenshot()** (3 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **stable()** (3 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **viewport()** (3 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **.waitFor()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **key()** (2 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **snapshot()** (2 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **screenshot()** (2 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **snapshot()** (2 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
+- **Products.jsx** (28 connections) — `src/pages/Products.jsx`
+- **i18n.js** (25 connections) — `src/data/i18n.js`
+- **ProductSearchBar.jsx** (15 connections) — `src/components/ProductSearchBar.jsx`
+- **searchHelper.js** (11 connections) — `src/data/searchHelper.js`
+- **getSuggestions()** (5 connections) — `src/data/searchHelper.js`
+- **filters.test.mjs** (4 connections) — `src/data/filters.test.mjs`
+- **filtersHelper.js** (4 connections) — `src/data/filtersHelper.js`
+- **autocorrectQuery()** (4 connections) — `src/data/searchHelper.js`
+- **buildSearchDictionary()** (4 connections) — `src/data/searchHelper.js`
+- **getProductMotorType()** (3 connections) — `src/data/filtersHelper.js`
+- **getProductSize()** (3 connections) — `src/data/filtersHelper.js`
+- **setLanguage()** (3 connections) — `src/data/i18n.js`
+- **emit()** (2 connections) — `src/data/i18n.js`
+- **toggleLanguage()** (2 connections) — `src/data/i18n.js`
+- **getPopularSearches()** (2 connections) — `src/data/searchHelper.js`
+- **scoreProduct()** (2 connections) — `src/data/searchHelper.js`
+- **translations.js** (2 connections) — `src/data/translations.js`
+- **TRANSLATIONS** (2 connections) — `src/data/translations.js`
+- **cacheData** (1 connections) — `src/data/filters.test.mjs`
+- **currentLang** (1 connections) — `src/data/i18n.js`
+- **getInitialLang()** (1 connections) — `src/data/i18n.js`
+- **getLanguage()** (1 connections) — `src/data/i18n.js`
+- **listeners** (1 connections) — `src/data/i18n.js`
+- **COLLOQUIAL_SYNONYMS** (1 connections) — `src/data/searchHelper.js`
+- **levenshteinDistance()** (1 connections) — `src/data/searchHelper.js`
 - *... and 2 more nodes in this community*
 
 ## Relationships
 
-- [[Community 69]] (11 shared connections)
-- [[Community 96]] (8 shared connections)
-- [[Community 88]] (7 shared connections)
-- [[Community 133]] (7 shared connections)
-- [[Community 48]] (5 shared connections)
-- [[Community 154]] (5 shared connections)
-- [[Community 155]] (5 shared connections)
-- [[Community 187]] (4 shared connections)
-- [[Community 110]] (1 shared connections)
-- [[Community 302]] (1 shared connections)
+- [[Zoho Integration Architecture]] (27 shared connections)
+- [[Design System & UI Tokens]] (10 shared connections)
+- [[Community 107]] (2 shared connections)
+- [[Mobile Responsive UI Skill]] (2 shared connections)
+- [[Community 171]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/bin/visual-check.mjs`
-- `.agents/skills/archify/test/export-browser.test.mjs`
-- `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- `src/components/ProductSearchBar.jsx`
+- `src/data/filters.test.mjs`
+- `src/data/filtersHelper.js`
+- `src/data/i18n.js`
+- `src/data/searchHelper.js`
+- `src/data/translations.js`
+- `src/pages/Products.jsx`
 
 ## Audit Trail
 
-- EXTRACTED: 146 (99%)
-- INFERRED: 2 (1%)
+- EXTRACTED: 130 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

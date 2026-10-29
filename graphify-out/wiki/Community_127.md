@@ -1,42 +1,37 @@
 # Community 127
 
-> 15 nodes · cohesion 0.29
+> 15 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **fetchZohoProductById()** (20 connections) — `api/_lib/zoho.js`
-- **syncProductDetailsPool()** (12 connections) — `api/_lib/zoho.js`
-- **getZohoConfig()** (11 connections) — `api/_lib/zoho.js`
-- **fetchZohoWithRetry()** (10 connections) — `api/_lib/zoho.js`
-- **fetchZohoPricebookItems()** (7 connections) — `api/_lib/zoho.js`
-- **resolvePricebookId()** (6 connections) — `api/_lib/zoho.js`
-- **fetchResolvedPricebookRates()** (5 connections) — `api/_lib/zoho.js`
-- **getCategoryVisibilityMap()** (5 connections) — `api/_lib/zoho.js`
-- **readProductDetailsDiskCache()** (5 connections) — `api/_lib/zoho.js`
-- **fetchZohoPricebooks()** (4 connections) — `api/_lib/zoho.js`
-- **fetchZohoRawCategories()** (4 connections) — `api/_lib/zoho.js`
-- **getDealerById()** (4 connections) — `api/_lib/zoho.js`
-- **writeProductDetailDiskCache()** (4 connections) — `api/_lib/zoho.js`
-- **sync-product-details.mjs** (3 connections) — `scripts/sync-product-details.mjs`
-- **main()** (2 connections) — `scripts/sync-product-details.mjs`
+- **repository** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **properties** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **revision** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **url** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **link_mode** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **provider** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **enum** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **enum** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **required** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **pattern** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **minLength** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Relationships
 
-- [[Community 47]] (19 shared connections)
-- [[Community 150]] (11 shared connections)
-- [[Community 132]] (6 shared connections)
-- [[Community 256]] (5 shared connections)
-- [[Community 49]] (1 shared connections)
+- [[Community 90]] (1 shared connections)
 
 ## Source Files
 
-- `api/_lib/zoho.js`
-- `scripts/sync-product-details.mjs`
+- `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 101 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 29 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

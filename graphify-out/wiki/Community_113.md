@@ -1,38 +1,45 @@
 # Community 113
 
-> 17 nodes · cohesion 0.12
+> 16 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **HIG reference lookup** (16 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
-- **hig-lookup.md** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
-- **Components › Content** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
-- **Components › Layout and organization** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
-- **Components › Menus and actions** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
-- **Components › Navigation and search** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
-- **Components › Presentation** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
-- **Components › Selection and input** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
-- **Components › Status** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
-- **Components › System experiences** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
-- **Curated guides** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
-- **Foundations** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
-- **Getting started** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
-- **Inputs** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
-- **Pages Apple publishes that are not included** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
-- **Patterns** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
-- **Technologies** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
+- **yc()** (20 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
+- **Ti()** (14 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
+- **gc()** (11 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
+- **Ai()** (6 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
+- **qc()** (6 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
+- **Do()** (5 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
+- **Mi()** (5 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
+- **sm()** (5 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
+- **La()** (4 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
+- **Pi()** (4 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
+- **Uc()** (4 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
+- **wo()** (4 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
+- **za()** (4 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
+- **di()** (3 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
+- **eo()** (3 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
+- **Ni()** (2 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Dealer Auth & Session Management]] (16 shared connections)
+- [[Product Brand & Business Vision]] (8 shared connections)
+- [[Community 33]] (7 shared connections)
+- [[Agent Guidelines (AGENTS.md)]] (6 shared connections)
+- [[Project Readme & Layout]] (5 shared connections)
+- [[Dependencies & Package Config]] (4 shared connections)
+- [[Roles & Customer Sharing Spec]] (2 shared connections)
+- [[Community 54]] (2 shared connections)
+- [[Community 44]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig-lookup.md`
+- `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
 
 ## Audit Trail
 
-- EXTRACTED: 32 (100%)
+- EXTRACTED: 100 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

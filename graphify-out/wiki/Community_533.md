@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **notificationDispatcher.js** (1 connections) — `backend/src/services/notificationDispatcher.js`
-- **dispatchNotification()** (1 connections) — `backend/src/services/notificationDispatcher.js`
+- **ci-scope.test.mjs** (1 connections) — `.agents/skills/archify/test/ci-scope.test.mjs`
+- **script** (1 connections) — `.agents/skills/archify/test/ci-scope.test.mjs`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `backend/src/services/notificationDispatcher.js`
+- `.agents/skills/archify/test/ci-scope.test.mjs`
 
 ## Audit Trail
 

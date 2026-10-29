@@ -1,48 +1,47 @@
 # Zoho Integration Skill
 
-> 45 nodes · cohesion 0.06
+> 45 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **generated-validators.mjs** (41 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **func3()** (11 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **generate-validators.test.mjs** (5 connections) — `.agents/skills/archify/test/generate-validators.test.mjs`
-- **validate20()** (4 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **validate22()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **validate27()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **validate28()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **validate30()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **validate31()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **validate33()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **validate34()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **validate36()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **validate37()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **validate24()** (2 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **pattern17** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **pattern18** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **pattern20** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **pattern4** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **pattern57** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **schema112** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **schema116** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **schema118** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **schema149** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **schema31** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- **schema33** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **scripts** (18 connections) — `package.json`
+- **dependencies** (16 connections) — `package.json`
+- **package.json** (7 connections) — `package.json`
+- **devDependencies** (6 connections) — `package.json`
+- **@capacitor/android** (1 connections) — `package.json`
+- **@capacitor/app** (1 connections) — `package.json`
+- **@capacitor/cli** (1 connections) — `package.json`
+- **@capacitor/core** (1 connections) — `package.json`
+- **@capacitor/ios** (1 connections) — `package.json`
+- **@capacitor/preferences** (1 connections) — `package.json`
+- **dotenv** (1 connections) — `package.json`
+- **express** (1 connections) — `package.json`
+- **google-auth-library** (1 connections) — `package.json`
+- **jsonwebtoken** (1 connections) — `package.json`
+- **postgres** (1 connections) — `package.json`
+- **react** (1 connections) — `package.json`
+- **react-dom** (1 connections) — `package.json`
+- **react-router-dom** (1 connections) — `package.json`
+- **resend** (1 connections) — `package.json`
+- **oxlint** (1 connections) — `package.json`
+- **@types/react** (1 connections) — `package.json`
+- **@types/react-dom** (1 connections) — `package.json`
+- **vite** (1 connections) — `package.json`
+- **@vitejs/plugin-react** (1 connections) — `package.json`
+- **name** (1 connections) — `package.json`
 - *... and 20 more nodes in this community*
 
 ## Relationships
 
-- [[Product Requirements Documentation]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/shared/generated-validators.mjs`
-- `.agents/skills/archify/test/generate-validators.test.mjs`
+- `package.json`
 
 ## Audit Trail
 
-- EXTRACTED: 121 (100%)
+- EXTRACTED: 88 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

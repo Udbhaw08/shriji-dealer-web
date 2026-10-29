@@ -4,16 +4,16 @@
 
 ## Key Concepts
 
-- **ROLES-AND-SHARING.md — who sees which price** (9 connections) — `docs/ROLES-AND-SHARING.md`
-- **ROLES-AND-SHARING.md** (1 connections) — `docs/ROLES-AND-SHARING.md`
-- **1. The four viewers** (1 connections) — `docs/ROLES-AND-SHARING.md`
-- **2. The rule, in one function** (1 connections) — `docs/ROLES-AND-SHARING.md`
-- **3. ⚠️ What this is not** (1 connections) — `docs/ROLES-AND-SHARING.md`
-- **4. The share link** (1 connections) — `docs/ROLES-AND-SHARING.md`
-- **5. What the customer sees — `CustomerPrice` in `PriceBlock.jsx`** (1 connections) — `docs/ROLES-AND-SHARING.md`
-- **6. The login flow** (1 connections) — `docs/ROLES-AND-SHARING.md`
-- **7. Also gated** (1 connections) — `docs/ROLES-AND-SHARING.md`
-- **8. Checks** (1 connections) — `docs/ROLES-AND-SHARING.md`
+- **App Shortcuts** (6 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
+- **Best practices** (2 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
+- **app-shortcuts.md** (1 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
+- **Editorial guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
+- **Responding to App Shortcuts** (1 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
 
 ## Relationships
 
@@ -21,7 +21,7 @@
 
 ## Source Files
 
-- `docs/ROLES-AND-SHARING.md`
+- `.agents/skills/apple-design/references/hig/app-shortcuts.md`
 
 ## Audit Trail
 

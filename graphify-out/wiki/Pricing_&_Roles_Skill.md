@@ -1,56 +1,69 @@
 # Pricing & Roles Skill
 
-> 46 nodes · cohesion 0.09
+> 49 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **ff()** (25 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **du()** (16 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **Eu()** (16 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **di()** (12 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **gl()** (11 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **lu()** (11 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **pi()** (11 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **Nu()** (10 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **yu()** (10 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **kl()** (9 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **Sp()** (9 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **jd()** (8 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **on()** (8 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **uu()** (8 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **Au()** (7 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **bl()** (7 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **wl()** (7 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **wu()** (7 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **xl()** (7 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **mu()** (6 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **pu()** (6 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **ql()** (6 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **Ta()** (6 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **gm()** (5 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **qu()** (5 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- *... and 21 more nodes in this community*
+- **sql** (80 connections) — `backend/src/db/pool.js`
+- **pool.js** (35 connections) — `backend/src/db/pool.js`
+- **staff.js** (23 connections) — `backend/src/services/staff.js`
+- **audit()** (18 connections) — `backend/src/utils/audit.js`
+- **auth.js** (13 connections) — `backend/src/middleware/auth.js`
+- **audit.js** (7 connections) — `backend/src/utils/audit.js`
+- **migrate.js** (6 connections) — `backend/src/db/migrate.js`
+- **sync-supabase-content.js** (6 connections) — `backend/scripts/sync-supabase-content.js`
+- **createInvite()** (6 connections) — `backend/src/services/staff.js`
+- **jwtAuth()** (5 connections) — `backend/src/middleware/auth.js`
+- **migrate()** (4 connections) — `backend/src/db/migrate.js`
+- **seed-content.js** (4 connections) — `backend/scripts/seed-content.js`
+- **deactivateDealer()** (4 connections) — `backend/src/services/dealerApp.js`
+- **approveStaff()** (4 connections) — `backend/src/services/staff.js`
+- **deleteStaff()** (4 connections) — `backend/src/services/staff.js`
+- **holdStaff()** (4 connections) — `backend/src/services/staff.js`
+- **resumeStaff()** (4 connections) — `backend/src/services/staff.js`
+- **revokeStaff()** (4 connections) — `backend/src/services/staff.js`
+- **toggleAllStaffPrice()** (4 connections) — `backend/src/services/staff.js`
+- **toggleStaffPrice()** (4 connections) — `backend/src/services/staff.js`
+- **applied()** (3 connections) — `backend/src/db/migrate.js`
+- **info.js** (3 connections) — `api/dealer/info.js`
+- **optionalAuth()** (3 connections) — `backend/src/middleware/auth.js`
+- **requireApprovedDealer()** (3 connections) — `backend/src/middleware/auth.js`
+- **inspect-db.js** (3 connections) — `backend/scripts/inspect-db.js`
+- *... and 24 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (47 shared connections)
-- [[Master Codebase Architecture Reference]] (12 shared connections)
-- [[Community 68]] (11 shared connections)
-- [[Design System & UI Tokens]] (10 shared connections)
-- [[Roles & Customer Sharing Spec]] (9 shared connections)
-- [[Community 37]] (8 shared connections)
-- [[Graphify Agent Rules]] (5 shared connections)
-- [[Architecture Doc Generator]] (5 shared connections)
-- [[Community 61]] (2 shared connections)
+- [[Master Codebase Architecture Reference]] (42 shared connections)
+- [[Pricing Regression Test Suite]] (25 shared connections)
+- [[Community 48]] (15 shared connections)
+- [[Community 165]] (11 shared connections)
+- [[Architecture Doc Generator]] (7 shared connections)
+- [[Community 83]] (5 shared connections)
+- [[Community 135]] (3 shared connections)
+- [[Community 323]] (3 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- `api/dealer/info.js`
+- `backend/scripts/check-readiness.js`
+- `backend/scripts/inspect-db.js`
+- `backend/scripts/migrate-content.js`
+- `backend/scripts/seed-content.js`
+- `backend/scripts/setup-buckets.js`
+- `backend/scripts/setup-policies.js`
+- `backend/scripts/sync-supabase-content.js`
+- `backend/scripts/test-storage.js`
+- `backend/src/db/migrate.js`
+- `backend/src/db/pool.js`
+- `backend/src/middleware/auth.js`
+- `backend/src/services/dealerApp.js`
+- `backend/src/services/staff.js`
+- `backend/src/utils/audit.js`
 
 ## Audit Trail
 
-- EXTRACTED: 297 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 294 (99%)
+- INFERRED: 3 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,60 +1,55 @@
 # Community 31
 
-> 40 nodes · cohesion 0.15
+> 42 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **auth.js** (55 connections) — `backend/src/routes/auth.js`
-- **dealers.js** (51 connections) — `backend/src/routes/dealers.js`
-- **dealerApp.js** (44 connections) — `backend/src/services/dealerApp.js`
-- **normalizeEmail()** (18 connections) — `backend/src/utils/validators.js`
-- **notifications.js** (16 connections) — `backend/src/services/notifications.js`
-- **validators.js** (15 connections) — `backend/src/utils/validators.js`
-- **requestDealerRegistrationOtp()** (14 connections) — `backend/src/services/dealerApp.js`
-- **finalizeDealerRegistration()** (12 connections) — `backend/src/services/dealerApp.js`
-- **isValidPhone()** (11 connections) — `backend/src/utils/validators.js`
-- **cleanName()** (9 connections) — `backend/src/utils/validators.js`
-- **httpError()** (8 connections) — `backend/src/middleware/errorHandler.js`
-- **validators.test.mjs** (8 connections) — `backend/test/validators.test.mjs`
-- **issueSession()** (7 connections) — `backend/src/routes/auth.js`
-- **verifyDealerRegistrationOtp()** (7 connections) — `backend/src/services/dealerApp.js`
-- **sendWhatsAppOtp()** (7 connections) — `backend/src/services/notifications.js`
-- **isValidEmail()** (7 connections) — `backend/src/utils/validators.js`
-- **isValidName()** (6 connections) — `backend/src/utils/validators.js`
-- **applyCrmContactState()** (5 connections) — `backend/src/services/dealerApp.js`
-- **sendEmailOtp()** (5 connections) — `backend/src/services/notifications.js`
-- **generateOtp()** (5 connections) — `backend/src/utils/hash.js`
-- **isValidGstin()** (5 connections) — `backend/src/utils/validators.js`
-- **isUserFullyOnboarded()** (4 connections) — `backend/src/routes/auth.js`
-- **resolveUserWithDealer()** (4 connections) — `backend/src/routes/auth.js`
-- **getClientIp()** (3 connections) — `backend/src/middleware/rateLimit.js`
-- **emailOnlyIdentifier()** (3 connections) — `backend/src/routes/auth.js`
-- *... and 15 more nodes in this community*
+- **properties** (30 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **col** (4 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **height** (3 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **brand** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **channelX** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **channelY** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **from** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **id** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **labelDx** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **labelDy** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **lane** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **note** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **route** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **sublabel** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **tag** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **to** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **toSide** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **type** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **variant** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **yOffset** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **maximum** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **minimum** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- *... and 17 more nodes in this community*
 
 ## Relationships
 
-- [[Community 39]] (30 shared connections)
-- [[Community 55]] (30 shared connections)
-- [[Community 49]] (23 shared connections)
-- [[Product Pages Specification]] (21 shared connections)
-- [[Client Products Data Store]] (19 shared connections)
-- [[Community 153]] (7 shared connections)
+- [[Community 203]] (3 shared connections)
+- [[Community 478]] (1 shared connections)
+- [[Community 523]] (1 shared connections)
+- [[Community 479]] (1 shared connections)
+- [[Community 524]] (1 shared connections)
+- [[Community 480]] (1 shared connections)
+- [[Community 525]] (1 shared connections)
+- [[Community 421]] (1 shared connections)
+- [[Community 422]] (1 shared connections)
 
 ## Source Files
 
-- `backend/src/middleware/errorHandler.js`
-- `backend/src/middleware/rateLimit.js`
-- `backend/src/routes/auth.js`
-- `backend/src/routes/dealers.js`
-- `backend/src/services/dealerApp.js`
-- `backend/src/services/notifications.js`
-- `backend/src/utils/hash.js`
-- `backend/src/utils/validators.js`
-- `backend/test/validators.test.mjs`
+- `.agents/skills/archify/schemas/lifecycle.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 358 (100%)
+- EXTRACTED: 93 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

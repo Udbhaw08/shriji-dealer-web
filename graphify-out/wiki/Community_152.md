@@ -1,35 +1,35 @@
 # Community 152
 
-> 13 nodes · cohesion 0.15
+> 13 nodes · cohesion 0.21
 
 ## Key Concepts
 
-- **audit_prices.mjs** (14 connections) — `scripts/audit_prices.mjs`
-- **run()** (2 connections) — `scripts/audit_prices.mjs`
-- **content** (1 connections) — `scripts/audit_prices.mjs`
-- **csvItems** (1 connections) — `scripts/audit_prices.mjs`
-- **idIdx** (1 connections) — `scripts/audit_prices.mjs`
-- **lines** (1 connections) — `scripts/audit_prices.mjs`
-- **lpIdx** (1 connections) — `scripts/audit_prices.mjs`
-- **nameIdx** (1 connections) — `scripts/audit_prices.mjs`
-- **parseCSVLine()** (1 connections) — `scripts/audit_prices.mjs`
-- **parsedHeader** (1 connections) — `scripts/audit_prices.mjs`
-- **showIdx** (1 connections) — `scripts/audit_prices.mjs`
-- **spIdx** (1 connections) — `scripts/audit_prices.mjs`
-- **statusIdx** (1 connections) — `scripts/audit_prices.mjs`
+- **workflow-compiler-hard-contract.test.mjs** (14 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
+- **workflow()** (4 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
+- **oneLaneAnchors()** (3 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
+- **oneLaneWorkflow()** (3 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
+- **crossingAtForwardCollinearViaWorkflow()** (2 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
+- **nestedOutsideRightCorridorWorkflow()** (2 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
+- **assertExplicitPinConflict()** (1 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
+- **assertOrthogonal()** (1 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
+- **assertSupportedFixesNameChangedEdge()** (1 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
+- **clone()** (1 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
+- **mutate()** (1 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
+- **routeContainsChannel()** (1 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
+- **segmentMeetsRect()** (1 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
 
 ## Relationships
 
-- [[Community 150]] (2 shared connections)
-- [[Community 47]] (1 shared connections)
+- [[Community 136]] (2 shared connections)
+- [[Community 65]] (1 shared connections)
 
 ## Source Files
 
-- `scripts/audit_prices.mjs`
+- `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 27 (100%)
+- EXTRACTED: 35 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
