@@ -24,9 +24,10 @@ function DealerPrice({ p, dealer, canSeeDealerPrice = true }) {
   const [open, setOpen] = useState(true);
   const { t } = useLanguage();
   const effectiveDealer = canSeeDealerPrice ? dealer : null;
-  const { dealer: trade, mrp, rebatePct, isPriceOnRequest } = priceFor(p, effectiveDealer);
+  const { dealer: trade, mrp, isPriceOnRequest } = priceFor(p, effectiveDealer);
 
-  if (isPriceOnRequest || (mrp <= 0 && trade <= 0)) {
+  // If entire item is unpriced in catalog (both MRP and trade are zero/missing)
+  if (mrp <= 0 && trade <= 0) {
     return (
       <div className="pricebox">
         <div className="pricebox-l">
@@ -41,6 +42,31 @@ function DealerPrice({ p, dealer, canSeeDealerPrice = true }) {
     );
   }
 
+  // If retail MRP is known, but wholesale trade price is on request
+  if (trade <= 0 && mrp > 0) {
+    return (
+      <div className="pricebox">
+        <div className="pricebox-l">
+          <span className="pricebox-lbl">{t("price_mrp_label")}</span>
+          <b className="pricebox-amt">{inr(mrp)}</b>
+        </div>
+        <div className="pricebox-r">
+          <div style={{
+            display: "flex", alignItems: "center", gap: 7, padding: "8px 12px",
+            background: "var(--navy-50, #f8fafc)", border: "1px solid #cbd5e1",
+            borderRadius: "var(--r-sm, 8px)", fontSize: "0.82rem", color: "#334155", fontWeight: 700
+          }}>
+            <Icon name="phone" size={15} style={{ color: "#2563eb", flexShrink: 0 }} />
+            <span>Wholesale Rate on Request</span>
+          </div>
+          <p className="note pricebox-note">
+            Contact your Sunshine distributor for custom trade contract pricing on this model.
+          </p>
+        </div>
+      </div>
+    );
+  }
+
   // If dealer wholesale price is hidden from this staff member by the dealer owner
   if (!canSeeDealerPrice) {
     return (
@@ -48,7 +74,6 @@ function DealerPrice({ p, dealer, canSeeDealerPrice = true }) {
         <div className="pricebox-l">
           <span className="pricebox-lbl">{t("price_mrp_label")}</span>
           <b className="pricebox-amt">{inr(mrp)}</b>
-          <small>{t("price_incl_taxes")}</small>
         </div>
         <div className="pricebox-r">
           <div style={{
@@ -75,14 +100,13 @@ function DealerPrice({ p, dealer, canSeeDealerPrice = true }) {
             <span className="pricebox-lbl">{t("price_dealer_label")}</span>
             <b className="pricebox-amt pricebox-dealer-amt">{inr(trade)}</b>
             <small>
-              {rebatePct > 0 ? `${rebatePct}% margin · ` : ""}Retail MRP: {inr(mrp)}
+              Retail MRP: {inr(mrp)}
             </small>
           </>
         ) : (
           <>
             <span className="pricebox-lbl">{t("price_mrp_label")}</span>
             <b className="pricebox-amt">{inr(mrp)}</b>
-            <small>{t("price_incl_taxes")}</small>
           </>
         )}
       </div>
@@ -122,7 +146,7 @@ function CustomerPrice({ p, sharedBy }) {
       <div className="custbox-price">
         <span className="pricebox-lbl">{isPriceOnRequest || mrp <= 0 ? t("price_on_request") : t("price_mrp_label")}</span>
         <b className="pricebox-amt">{isPriceOnRequest || mrp <= 0 ? t("price_on_request") : inr(mrp)}</b>
-        <small>{isPriceOnRequest || mrp <= 0 ? t("price_on_request_sub") : t("price_incl_taxes")}</small>
+        {(isPriceOnRequest || mrp <= 0) && <small>{t("price_on_request_sub")}</small>}
       </div>
 
       {sharedBy ? (

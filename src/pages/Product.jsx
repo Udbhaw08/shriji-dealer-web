@@ -18,6 +18,42 @@ import { parseVideoUrl } from "../utils/video";
 
 
 
+const productDetailsMemoryCache = new Map();
+
+function getCachedProductDetail(key) {
+  if (!key) return null;
+  const clean = String(key).trim();
+  const slugified = slugifyProduct(clean);
+  if (productDetailsMemoryCache.has(clean)) return productDetailsMemoryCache.get(clean);
+  if (slugified && productDetailsMemoryCache.has(slugified)) return productDetailsMemoryCache.get(slugified);
+  try {
+    const raw = sessionStorage.getItem(`shriji.prod_detail.${clean}`) || (slugified ? sessionStorage.getItem(`shriji.prod_detail.${slugified}`) : null);
+    if (raw) {
+      const data = JSON.parse(raw);
+      if (data && data.id) {
+        productDetailsMemoryCache.set(clean, data);
+        if (data.slug) productDetailsMemoryCache.set(data.slug, data);
+        return data;
+      }
+    }
+  } catch {}
+  return null;
+}
+
+function setCachedProductDetail(key, product) {
+  if (!key || !product) return;
+  const clean = String(key).trim();
+  const slugified = slugifyProduct(clean);
+  productDetailsMemoryCache.set(clean, product);
+  if (slugified) productDetailsMemoryCache.set(slugified, product);
+  if (product.id) productDetailsMemoryCache.set(String(product.id), product);
+  if (product.slug) productDetailsMemoryCache.set(product.slug, product);
+  try {
+    sessionStorage.setItem(`shriji.prod_detail.${clean}`, JSON.stringify(product));
+    if (product.slug) sessionStorage.setItem(`shriji.prod_detail.${product.slug}`, JSON.stringify(product));
+  } catch {}
+}
+
 export default function Product() {
   const { id } = useParams();
   const [params, setParams] = useSearchParams();
@@ -26,7 +62,9 @@ export default function Product() {
   const isGated = isPortalGated(session);
   const { products: PRODUCTS, loaded } = useProducts();
   const { t, tCat } = useLanguage();
-  const [fetchedProduct, setFetchedProduct] = useState(null);
+  const pid = params.get("pid");
+  const lookupKey = pid || id;
+  const [fetchedProduct, setFetchedProduct] = useState(() => getCachedProductDetail(lookupKey));
   const { isFavorite, toggleFavorite } = useFavorites();
 
   const handleBack = () => {
@@ -37,12 +75,9 @@ export default function Product() {
     }
   };
 
-  const pid = params.get("pid");
-
   const canSeePrice = session?.canSeeDealerPrice !== false;
 
   useEffect(() => {
-    const lookupKey = pid || id;
     if (lookupKey) {
       const targetPb = canSeePrice ? (session?.dealer?.pricebookId || session?.dealer?.price_tier || "") : "";
       const pbParam = targetPb ? `?pricebook_id=${encodeURIComponent(targetPb)}` : "";
@@ -51,27 +86,40 @@ export default function Product() {
       apiFetch(`/api/products/${encodeURIComponent(lookupKey)}${pbParam}`, { headers })
         .then((r) => r.json())
         .then((data) => {
-          if (data.ok && data.product) setFetchedProduct(data.product);
+          if (data.ok && data.product) {
+            setCachedProductDetail(lookupKey, data.product);
+            setFetchedProduct(data.product);
+          }
         })
         .catch(() => {});
     }
-  }, [id, pid, session?.dealer?.pricebookId, session?.dealer?.price_tier, canSeePrice]);
+  }, [id, pid, lookupKey, session?.userId, session?.dealer?.pricebookId, session?.dealer?.price_tier, canSeePrice]);
 
   const p = useMemo(() => {
+    const cleanId = id ? decodeURIComponent(id).trim() : "";
+    const slugifiedId = slugifyProduct(cleanId);
     const catalogItem = pid
       ? PRODUCTS.find((x) => x.id === pid)
       : PRODUCTS.find(
           (x) =>
-            x.id === id ||
-            x.slug === id ||
-            slugifyProduct(x.name) === id ||
-            slugifyProduct(x.model) === id
+            x.id === cleanId ||
+            x.slug === cleanId ||
+            (slugifiedId && x.slug === slugifiedId)
+            || (slugifiedId && slugifyProduct(x.name) === slugifiedId)
+            || (slugifiedId && slugifyProduct(x.model) === slugifiedId)
+            || (x.name && x.name.toLowerCase() === cleanId.toLowerCase())
+            || (x.model && x.model.toLowerCase() === cleanId.toLowerCase())
         );
 
     let base = fetchedProduct
       ? {
           ...fetchedProduct,
-          dealerRate: fetchedProduct.dealerRate ?? catalogItem?.dealerRate ?? null,
+          dealerRate: (typeof fetchedProduct.dealerRate === "number" && fetchedProduct.dealerRate > 0)
+            ? fetchedProduct.dealerRate
+            : (catalogItem?.dealerRate ?? null),
+          mrp: (typeof fetchedProduct.mrp === "number" && fetchedProduct.mrp > 0)
+            ? fetchedProduct.mrp
+            : (catalogItem?.mrp ?? 0),
         }
       : catalogItem || null;
 
@@ -80,6 +128,58 @@ export default function Product() {
     }
     return base;
   }, [fetchedProduct, PRODUCTS, id, pid, canSeePrice]);
+
+  const featureTilesToRender = useMemo(() => {
+    if (!p) return [];
+    const cleanTileIcons = (Array.isArray(p.tileIcons) ? p.tileIcons : []).filter((tile) => {
+      if (!tile || !tile.text) return false;
+      const lowerText = tile.text.toLowerCase();
+      const isGasCat = p.cat === "gas_stoves" || p.cat === "hobs" || p.cat === "hob_tops";
+      if (lowerText.includes("ignition") && !isGasCat) return false;
+      return true;
+    });
+    if (cleanTileIcons.length > 0) {
+      return cleanTileIcons.slice(0, 4).map((tile, idx) => ({
+        key: tile.index || idx,
+        image: tile.image || "",
+        icon: idx === 0 ? "bolt" : idx === 1 ? "flame" : idx === 2 ? "layers" : "shield",
+        sub: (tile.label && !/^tile\s*icon\s*text\s*\d*$/i.test(tile.label) && !/^feature\s*\d*$/i.test(tile.label)) ? tile.label : "",
+        val: tile.text,
+      }));
+    }
+    return [
+      (p.finish && p.finish !== "Standard" ? p.finish : (p.fkey === "glass" ? "Matte Toughened Glass" : (p.fkey === "steel" ? "Stainless Steel" : null))) && {
+        key: "finish",
+        icon: "layers",
+        sub: "Body Quality",
+        val: p.finish || (p.fkey === "glass" ? "Matte Toughened Glass" : "Stainless Steel")
+      },
+      p.customFields?.warranty && {
+        key: "warranty",
+        icon: "shield",
+        sub: "Coverage",
+        val: p.customFields.warranty
+      },
+      p.burners && {
+        key: "burners",
+        icon: "stove",
+        sub: "Burners",
+        val: `${p.burners} Brass Burners`
+      },
+      p.size && {
+        key: "size",
+        icon: "layers",
+        sub: "Dimensions",
+        val: p.size
+      },
+      p.features?.length > 0 && {
+        key: "feature-0",
+        icon: "bolt",
+        sub: "Key Tech",
+        val: p.features[0]
+      }
+    ].filter(Boolean).slice(0, 4);
+  }, [p]);
 
   useEffect(() => {
     if (p) {
@@ -602,86 +702,29 @@ export default function Product() {
             </h1>
 
             {/* Feature Tiles: Dynamic from Zoho Commerce Tile Icons (1..8) or product attributes */}
-            {Array.isArray(p.tileIcons) && p.tileIcons.length > 0 ? (
+            {featureTilesToRender.length > 0 && (
               <div className="detail-feature-tiles-grid">
-                {p.tileIcons.slice(0, 4).map((tile, idx) => {
-                  const hasLabel =
-                    tile.label &&
-                    !/^tile\s*icon\s*text\s*\d*$/i.test(tile.label) &&
-                    !/^feature\s*\d*$/i.test(tile.label);
-                  return (
-                    <div key={tile.index || idx} className="detail-feature-tile-card">
-                      <div className="detail-feature-tile-icon-wrap">
-                        {tile.image ? (
-                          <img
-                            src={tile.image}
-                            alt={tile.text || `Feature ${tile.index || idx + 1}`}
-                            style={{ width: 22, height: 22, objectFit: "contain", display: "block" }}
-                            onError={(e) => {
-                              e.currentTarget.style.display = "none";
-                            }}
-                          />
-                        ) : (
-                          <Icon
-                            name={idx === 0 ? "bolt" : idx === 1 ? "flame" : idx === 2 ? "layers" : "shield"}
-                            size={20}
-                          />
-                        )}
-                      </div>
-                      {hasLabel ? (
-                        <span className="detail-feature-tile-sub">{tile.label}</span>
-                      ) : null}
-                      <span className="detail-feature-tile-val">{tile.text}</span>
+                {featureTilesToRender.map((tile, idx) => (
+                  <div key={tile.key || idx} className="detail-feature-tile-card">
+                    <div className="detail-feature-tile-icon-wrap">
+                      {tile.image ? (
+                        <img
+                          src={tile.image}
+                          alt={tile.val || `Feature ${idx + 1}`}
+                          style={{ width: 22, height: 22, objectFit: "contain", display: "block" }}
+                          onError={(e) => {
+                            e.currentTarget.style.display = "none";
+                          }}
+                        />
+                      ) : (
+                        <Icon name={tile.icon || "bolt"} size={20} />
+                      )}
                     </div>
-                  );
-                })}
-              </div>
-            ) : (
-              (() => {
-                const activeAttrTiles = [
-                  (p.finish && p.finish !== "Standard" ? p.finish : (p.fkey === "glass" ? "Matte Toughened Glass" : (p.fkey === "steel" ? "Stainless Steel" : null))) && {
-                    icon: "layers",
-                    sub: "Body Quality",
-                    val: p.finish || (p.fkey === "glass" ? "Matte Toughened Glass" : "Stainless Steel")
-                  },
-                  p.customFields?.warranty && {
-                    icon: "shield",
-                    sub: "Coverage",
-                    val: p.customFields.warranty
-                  },
-                  p.burners && {
-                    icon: "stove",
-                    sub: "Burners",
-                    val: `${p.burners} Brass Burners`
-                  },
-                  p.size && {
-                    icon: "layers",
-                    sub: "Dimensions",
-                    val: p.size
-                  },
-                  p.features?.length > 0 && {
-                    icon: "bolt",
-                    sub: "Key Tech",
-                    val: p.features[0]
-                  }
-                ].filter(Boolean);
-
-                if (activeAttrTiles.length === 0) return null;
-
-                return (
-                  <div className="detail-feature-tiles-grid">
-                    {activeAttrTiles.slice(0, 4).map((tile, idx) => (
-                      <div key={idx} className="detail-feature-tile-card">
-                        <div className="detail-feature-tile-icon-wrap">
-                          <Icon name={tile.icon} size={20} />
-                        </div>
-                        <span className="detail-feature-tile-sub">{tile.sub}</span>
-                        <span className="detail-feature-tile-val">{tile.val}</span>
-                      </div>
-                    ))}
+                    {tile.sub ? <span className="detail-feature-tile-sub">{tile.sub}</span> : null}
+                    <span className="detail-feature-tile-val">{tile.val}</span>
                   </div>
-                );
-              })()
+                ))}
+              </div>
             )}
 
             <PriceBlock
@@ -697,7 +740,7 @@ export default function Product() {
                 <a
                   className="btn btn-wa"
                   href={`https://api.whatsapp.com/send?text=${encodeURIComponent(
-                    `Hello! Take a look at Sunshine ${displayTitle} (${p.name}):\nRetail MRP: ${inr(priceFor(p).mrp)} (Incl. of all taxes)\n\n${shareLink(p, me)}\n\nAvailable with ${me?.name || "Authorised Dealer"}${[me?.city, me?.state].filter(Boolean).length ? ` (${[me?.city, me?.state].filter(Boolean).join(", ")})` : ""}${me?.phone ? ` · Contact: ${me.phone}` : ""}`
+                    `Hello! Take a look at Sunshine ${displayTitle} (${p.name}):\nRetail MRP: ${inr(priceFor(p).mrp)}\n\n${shareLink(p, me)}\n\nAvailable with ${me?.name || "Authorised Dealer"}${[me?.city, me?.state].filter(Boolean).length ? ` (${[me?.city, me?.state].filter(Boolean).join(", ")})` : ""}${me?.phone ? ` · Contact: ${me.phone}` : ""}`
                   )}`}
                   target="_blank"
                   rel="noreferrer"

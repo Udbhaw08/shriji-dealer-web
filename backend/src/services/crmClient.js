@@ -84,13 +84,16 @@ export async function crmFetch(path, { method = 'GET', body } = {}) {
 }
 
 /** Create the dealer Account in CRM. Returns the CRM Account id. */
-export async function createDealerAccount({ businessName, gstNumber, gstTreatment, phone, email, address, userSource = 'ReStor Dealer', dealerCode }) {
+export async function createDealerAccount({ businessName, gstNumber, gstTreatment, phone, email, address, city, state, pin, pincode, userSource = 'ReStor Dealer', dealerCode }) {
   const norm = normalizePhone(phone);
   const account = {
     Account_Name: cleanName(businessName),
     Phone: norm.nationalNumber || undefined,
     Email: normalizeEmail(email) || undefined,
     Billing_Street: address || undefined,
+    Billing_City: city || undefined,
+    Billing_State: state || undefined,
+    Billing_Code: pincode || pin || undefined,
     [FIELDS.account.gst()]: gstNumber || undefined,
     ...(gstTreatment ? { [FIELDS.account.gstTreatment()]: String(gstTreatment).trim() } : {}),
     [FIELDS.account.dealerStatus()]: 'Pending',
@@ -223,6 +226,9 @@ export async function getDealerAccount(zohoAccountId) {
     gstTreatment: acc[FIELDS.account.gstTreatment()] || acc.GST_Treatment || null,
     phone: acc.Phone || null,
     address: addressParts.length ? addressParts.join(', ') : null,
+    city: acc.Billing_City || null,
+    state: acc.Billing_State || null,
+    pincode: acc.Billing_Code || null,
   };
 }
 

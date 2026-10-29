@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **Undo and redo** (4 connections) — `.agents/skills/apple-design/references/hig/undo-and-redo.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/undo-and-redo.md`
-- **undo-and-redo.md** (1 connections) — `.agents/skills/apple-design/references/hig/undo-and-redo.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/undo-and-redo.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/undo-and-redo.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/undo-and-redo.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/undo-and-redo.md`
+- **VoiceOver** (6 connections) — `.agents/skills/apple-design/references/hig/voiceover.md`
+- **voiceover.md** (1 connections) — `.agents/skills/apple-design/references/hig/voiceover.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/voiceover.md`
+- **Descriptions** (1 connections) — `.agents/skills/apple-design/references/hig/voiceover.md`
+- **Navigation** (1 connections) — `.agents/skills/apple-design/references/hig/voiceover.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/voiceover.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/voiceover.md`
 
 ## Relationships
 
@@ -18,7 +18,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/undo-and-redo.md`
+- `.agents/skills/apple-design/references/hig/voiceover.md`
 
 ## Audit Trail
 

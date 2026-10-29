@@ -1,14 +1,12 @@
 import { Link, useLocation } from "react-router-dom";
 import { Icon } from "../ui";
-import { COMPANY } from "../data/site";
 import { useLanguage } from "../data/i18n";
-import { dealerById } from "../data/dealer";
 import { useSession } from "../data/session";
 import { isPortalGated } from "../data/portalGate";
 import { useFavorites } from "../data/favoritesStore";
 
 export default function MobileBottomNav() {
-  const { pathname, search } = useLocation();
+  const { pathname } = useLocation();
   const { t } = useLanguage();
   const session = useSession();
   const isGated = isPortalGated(session);
@@ -20,40 +18,9 @@ export default function MobileBottomNav() {
   const isSchemes = pathname.startsWith("/schemes");
   const isSupport = pathname.startsWith("/support");
 
-  const params = new URLSearchParams(search);
-  const fromId = params.get("from");
-  const dPhone = params.get("phone") || params.get("dealerPhone");
-  const dName = params.get("name") || params.get("dealerName");
-  const sharedDealer = fromId ? dealerById(fromId) : null;
-
-  const displayPhone = dPhone || sharedDealer?.phone || COMPANY.phone;
-  const displayLabel = dName || sharedDealer?.name ? `Call ${dName || sharedDealer?.name}` : "Call for Details";
-  const phoneTel = displayPhone.replace(/[^0-9+]/g, "");
-
   return (
     <nav className="mobile-bottom-nav" aria-label="Mobile Navigation">
       <div className="mobile-bottom-inner">
-        {/* Priority Hotline Desk Bar */}
-        <a
-          href={`tel:${phoneTel}`}
-          className="mobile-bottom-call-bar"
-          aria-label={`Call ${displayPhone} for details`}
-        >
-          <div className="call-bar-left">
-            <span className="call-bar-icon-wrap">
-              <Icon name="phone" size={16} />
-            </span>
-            <div className="call-bar-text-group">
-              <span className="call-bar-number">{displayPhone}</span>
-              <span className="call-bar-subtext">Dealer Priority Desk</span>
-            </div>
-          </div>
-          <span className="call-bar-action">
-            <span>{displayLabel}</span>
-            <Icon name="chev" size={13} />
-          </span>
-        </a>
-
         {/* 5-Tab Bar */}
         <div className="mobile-bottom-tabs">
           <Link

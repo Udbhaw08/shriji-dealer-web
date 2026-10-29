@@ -1,43 +1,36 @@
 # Community 121
 
-> 15 nodes · cohesion 0.21
+> 15 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **Ti()** (13 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **gc()** (11 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **Ei()** (8 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **kc()** (8 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **ki()** (7 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **qc()** (6 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **Ai()** (5 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **Mi()** (5 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **qm()** (5 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **di()** (4 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **La()** (4 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **Pi()** (4 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **Uc()** (4 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **za()** (4 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **Ni()** (2 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **Liquid Glass** (6 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
+- **Apple's rules** (5 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
+- **Cross-platform translation** (5 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
+- **liquid-glass.md** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
+- **Color on glass** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
+- **Flutter** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
+- **React Native** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
+- **Review checklist** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
+- **Standard materials beneath the glass** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
+- **SwiftUI, UIKit, and AppKit** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
+- **Tauri and Electron** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
+- **The two layers** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
+- **Where the material belongs** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
+- **Which variant** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (21 shared connections)
-- [[Master Codebase Architecture Reference]] (10 shared connections)
-- [[Product Brand & Business Vision]] (7 shared connections)
-- [[Mobile Responsive UI Skill]] (3 shared connections)
-- [[Design System & UI Tokens]] (2 shared connections)
-- [[Community 53]] (1 shared connections)
-- [[Community 29]] (1 shared connections)
-- [[Community 199]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-1EUJIH5f.js`
+- `.agents/skills/apple-design/references/hig/liquid-glass.md`
 
 ## Audit Trail
 
-- EXTRACTED: 90 (100%)
+- EXTRACTED: 28 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

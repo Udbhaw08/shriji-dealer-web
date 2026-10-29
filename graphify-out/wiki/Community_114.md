@@ -1,37 +1,45 @@
 # Community 114
 
-> 16 nodes · cohesion 0.12
+> 16 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **Refero MCP Tools Reference** (7 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
-- **Screens** (5 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
-- **Flows** (3 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
-- **Styles** (3 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
-- **mcp-tools.md** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
-- **Common Mistakes** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
-- **If Results Are Weak** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
-- **`refero_get_flow`** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
-- **`refero_get_screen`** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
-- **`refero_get_screen_image`** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
-- **`refero_get_similar_screens`** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
-- **`refero_get_style`** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
-- **`refero_search_flows`** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
-- **`refero_search_screens`** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
-- **`refero_search_styles`** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
-- **Response Formats** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
+- **errorHandler.js** (9 connections) — `backend/src/middleware/errorHandler.js`
+- **rateLimit.js** (9 connections) — `backend/src/middleware/rateLimit.js`
+- **securityPhase3.test.mjs** (9 connections) — `backend/test/securityPhase3.test.mjs`
+- **admin.js** (8 connections) — `backend/src/routes/admin.js`
+- **rateLimit()** (7 connections) — `backend/src/middleware/rateLimit.js`
+- **rateLimitFix.test.mjs** (4 connections) — `backend/test/rateLimitFix.test.mjs`
+- **errorHandler()** (3 connections) — `backend/src/middleware/errorHandler.js`
+- **getClientIp()** (3 connections) — `backend/src/middleware/rateLimit.js`
+- **adminRouter** (3 connections) — `backend/src/routes/admin.js`
+- **buckets** (1 connections) — `backend/src/middleware/rateLimit.js`
+- **loginRateLimit** (1 connections) — `backend/src/routes/admin.js`
+- **json()** (1 connections) — `backend/test/rateLimitFix.test.mjs`
+- **status()** (1 connections) — `backend/test/rateLimitFix.test.mjs`
+- **atomicRotate()** (1 connections) — `backend/test/securityPhase3.test.mjs`
+- **json()** (1 connections) — `backend/test/securityPhase3.test.mjs`
+- **status()** (1 connections) — `backend/test/securityPhase3.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Graphify Knowledge Graph Skill]] (8 shared connections)
+- [[Community 37]] (6 shared connections)
+- [[Zoho Integration Skill]] (6 shared connections)
+- [[Community 49]] (2 shared connections)
+- [[Live Pricing Audit Tool]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/refero-design/references/mcp-tools.md`
+- `backend/src/middleware/errorHandler.js`
+- `backend/src/middleware/rateLimit.js`
+- `backend/src/routes/admin.js`
+- `backend/test/rateLimitFix.test.mjs`
+- `backend/test/securityPhase3.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 30 (100%)
+- EXTRACTED: 62 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

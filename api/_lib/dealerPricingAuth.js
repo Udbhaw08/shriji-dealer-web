@@ -3,16 +3,16 @@ import { sql } from "../../backend/src/db/pool.js";
 
 const DEFAULT_DEALER_PRICEBOOK_ID = process.env.ZOHO_DEALER_PRICEBOOK_ID || "3334672000000547177";
 
-// In-memory token verification cache to minimize DB queries and network overhead
+// In-memory token verification cache: 5s burst cache for instant real-time sync
 const tokenCache = new Map();
-const CACHE_TTL_MS = 60_000; // 60 seconds
+const CACHE_TTL_MS = 5_000;
 
 /**
  * Validates server-side whether the requesting user is an active, approved dealer
  * or authorized staff member entitled to view wholesale dealer rates.
  * Supports multi-tier verification:
  * 1. Cryptographically verified claims (zero latency)
- * 2. Supabase Postgres check (when reachable)
+ * 2. Supabase Postgres check (live status & price tier)
  * 3. Render backend /api/auth/me fallback (resilient across serverless cold starts)
  */
 export async function getDealerPricingEligibility(req) {
@@ -22,72 +22,61 @@ export async function getDealerPricingEligibility(req) {
     return { eligible: false, pricebookId: null };
   }
 
+  const forceRefresh = req?.query?.refresh === "true" || req?.query?.refresh === "1";
   const now = Date.now();
   const cached = tokenCache.get(token);
-  if (cached && now < cached.expiresAt) {
+  if (!forceRefresh && cached && now < cached.expiresAt) {
     return { eligible: cached.eligible, pricebookId: cached.pricebookId };
   }
 
   let result = { eligible: false, pricebookId: null };
 
-  // Tier 1: Local JWT Verification & Verified Claims
+  // Tier 1: Local JWT Verification & Live DB Status
   try {
     const claims = verifyAccessToken(token);
     if (claims && claims.sub) {
       if (claims.role === "admin") {
         result = { eligible: true, pricebookId: DEFAULT_DEALER_PRICEBOOK_ID };
-      } else if (
-        (claims.role === "dealer" || claims.role === "staff" || claims.role === "dealer_staff") &&
-        (claims.status === "active" || claims.status === "approved") &&
-        claims.can_see_dealer_price !== false &&
-        !claims.hide_staff_dealer_price
-      ) {
-        // If claims carry explicit pricebook_id or price_tier, trust verified token
-        if (claims.pricebook_id || claims.price_tier) {
-          result = {
-            eligible: true,
-            pricebookId: claims.pricebook_id || claims.price_tier || DEFAULT_DEALER_PRICEBOOK_ID,
-          };
-        }
-      }
-
-      // If DB is available, verify live status against database
-      if (!result.eligible || !result.pricebookId) {
+      } else {
+        // Query live status and price tier from database
         try {
           const rows = await sql`
             SELECT u.id, u.role, u.status, u.can_see_dealer_price,
                    d.id as dealer_id, d.status as dealer_status, d.price_tier, d.hide_staff_dealer_price
             FROM users u
-            LEFT JOIN dealers d ON d.id = u.dealer_id
+            LEFT JOIN dealers d ON (d.id = u.dealer_id OR d.owner_user_id = u.id)
             WHERE u.id = ${claims.sub}
+            ORDER BY CASE WHEN d.status = 'approved' THEN 1 WHEN d.status = 'pending' THEN 2 ELSE 3 END ASC
             LIMIT 1;
           `;
 
           if (rows && rows.length > 0) {
             const user = rows[0];
-            if (user.status === "active") {
-              if (user.role === "admin") {
-                result = { eligible: true, pricebookId: DEFAULT_DEALER_PRICEBOOK_ID };
-              } else if (user.role === "dealer" && user.dealer_status === "approved") {
-                result = {
-                  eligible: true,
-                  pricebookId: user.price_tier || DEFAULT_DEALER_PRICEBOOK_ID,
-                };
-              } else if (
-                (user.role === "staff" || user.role === "dealer_staff") &&
-                user.dealer_status === "approved" &&
-                user.can_see_dealer_price !== false &&
-                !user.hide_staff_dealer_price
-              ) {
-                result = {
-                  eligible: true,
-                  pricebookId: user.price_tier || DEFAULT_DEALER_PRICEBOOK_ID,
-                };
-              }
+            const effectiveRole = user.role || claims.role;
+            const effectiveStatus = user.status || claims.status;
+            const dealerStatus = user.dealer_status || (effectiveRole === "dealer" ? effectiveStatus : null);
+            const canSeeDealerPrice = user.can_see_dealer_price !== false && claims.can_see_dealer_price !== false;
+            const hideStaffPrice = Boolean(user.hide_staff_dealer_price || claims.hide_staff_dealer_price);
+
+            if (effectiveRole === "dealer" && (dealerStatus === "approved" || effectiveStatus === "active")) {
+              result = {
+                eligible: true,
+                pricebookId: user.price_tier || claims.pricebook_id || claims.price_tier || DEFAULT_DEALER_PRICEBOOK_ID,
+              };
+            } else if (
+              (effectiveRole === "staff" || effectiveRole === "dealer_staff") &&
+              dealerStatus === "approved" &&
+              canSeeDealerPrice &&
+              !hideStaffPrice
+            ) {
+              result = {
+                eligible: true,
+                pricebookId: user.price_tier || claims.pricebook_id || claims.price_tier || DEFAULT_DEALER_PRICEBOOK_ID,
+              };
             }
           }
         } catch (_dbErr) {
-          // If DB query fails, fallback to claims if dealer status is active
+          // If DB query fails, fallback to verified claims
           if (
             (claims.role === "dealer" || claims.role === "staff" || claims.role === "dealer_staff") &&
             (claims.status === "active" || claims.status === "approved") &&

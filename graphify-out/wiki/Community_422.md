@@ -11,7 +11,7 @@
 
 ## Relationships
 
-- [[Graphify Workflow]] (1 shared connections)
+- [[Vercel Deployment Routing]] (1 shared connections)
 
 ## Source Files
 

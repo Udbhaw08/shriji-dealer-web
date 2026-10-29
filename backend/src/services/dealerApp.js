@@ -61,6 +61,10 @@ export async function provisionDealerInCrm({
   gstNumber,
   gstTreatment,
   address,
+  city,
+  state,
+  pin,
+  pincode,
   personName,
   firstName,
   lastName,
@@ -78,6 +82,10 @@ export async function provisionDealerInCrm({
       phone: effectivePhone,
       email: user.email,
       address,
+      city,
+      state,
+      pin: pin || pincode,
+      pincode: pincode || pin,
       userSource: 'ReStor Dealer',
       dealerCode,
     });
@@ -663,6 +671,10 @@ export async function finalizeDealerRegistration(params) {
     gst_treatment,
     gst_number,
     address,
+    city,
+    state,
+    pin,
+    pincode,
   } = params || {};
   if (!flowId) throw httpError(400, 'Registration session ID (flowId) is required');
   if (!business_name || String(business_name).trim().length < 2) {
@@ -692,6 +704,9 @@ export async function finalizeDealerRegistration(params) {
   const cleanLast = last_name ? cleanName(last_name) : null;
   const cleanPerson = person_name ? cleanName(person_name) : ([cleanFirst, cleanLast].filter(Boolean).join(' ') || null);
   const cleanBusinessName = cleanName(business_name);
+  const cleanCity = city ? String(city).trim() : null;
+  const cleanState = state ? String(state).trim() : null;
+  const cleanPin = (pincode || pin) ? String(pincode || pin).trim() : null;
 
   let createdUser, createdDealer;
 
@@ -835,8 +850,8 @@ export async function finalizeDealerRegistration(params) {
 
     // Insert dealer application
     const [dealer] = await tx`
-      insert into dealers (owner_user_id, business_name, gst_number, gst_treatment, address, status, dealer_code)
-      values (${user.id}, ${cleanBusinessName}, ${gst_number ? String(gst_number).trim().toUpperCase() : null}, ${gst_treatment ? String(gst_treatment).trim() : null}, ${address ? String(address).trim() : null}, 'pending', ${dealerCode})
+      insert into dealers (owner_user_id, business_name, gst_number, gst_treatment, address, city, state, pincode, status, dealer_code)
+      values (${user.id}, ${cleanBusinessName}, ${gst_number ? String(gst_number).trim().toUpperCase() : null}, ${gst_treatment ? String(gst_treatment).trim() : null}, ${address ? String(address).trim() : null}, ${cleanCity}, ${cleanState}, ${cleanPin}, 'pending', ${dealerCode})
       returning *`;
 
     // Link dealer_id to user
@@ -863,6 +878,10 @@ export async function finalizeDealerRegistration(params) {
       gstNumber: createdDealer.gst_number,
       gstTreatment: createdDealer.gst_treatment,
       address: createdDealer.address,
+      city: cleanCity || createdDealer.city || null,
+      state: cleanState || createdDealer.state || null,
+      pin: cleanPin || createdDealer.pincode || null,
+      pincode: cleanPin || createdDealer.pincode || null,
       personName: cleanPerson,
       firstName: cleanFirst,
       lastName: cleanLast,
@@ -907,6 +926,9 @@ export async function applyCrmAccountState(dealer, account) {
   const cleanGst = account.gstNumber ? String(account.gstNumber).trim().toUpperCase() : null;
   const cleanGstTreatment = account.gstTreatment ? String(account.gstTreatment).trim() : null;
   const cleanAddress = account.address ? String(account.address).trim() : null;
+  const cleanCity = account.city ? String(account.city).trim() : null;
+  const cleanState = account.state ? String(account.state).trim() : null;
+  const cleanPincode = account.pincode ? String(account.pincode).trim() : null;
 
   const hasNameChange = Boolean(cleanBusinessName && cleanBusinessName !== (dealer.business_name ?? null));
   const hasGstChange = Boolean(cleanGst && cleanGst !== (dealer.gst_number ?? null));
@@ -944,6 +966,9 @@ export async function applyCrmAccountState(dealer, account) {
       gst_number = coalesce(${cleanGst}, gst_number),
       gst_treatment = coalesce(${cleanGstTreatment}, gst_treatment),
       address = coalesce(${cleanAddress}, address),
+      city = coalesce(${cleanCity}, city),
+      state = coalesce(${cleanState}, state),
+      pincode = coalesce(${cleanPincode}, pincode),
       status = ${newStatus},
       dealer_code = coalesce(${effectiveCode}, dealer_code),
       price_tier = coalesce(${targetPriceList}, price_tier),

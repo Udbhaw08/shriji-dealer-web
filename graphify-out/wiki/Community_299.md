@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **MockStorage** (6 connections) — `src/data/auth-session.test.mjs`
-- **auth-session.test.mjs** (1 connections) — `src/data/auth-session.test.mjs`
-- **.clear()** (1 connections) — `src/data/auth-session.test.mjs`
-- **.constructor()** (1 connections) — `src/data/auth-session.test.mjs`
-- **.getItem()** (1 connections) — `src/data/auth-session.test.mjs`
-- **.removeItem()** (1 connections) — `src/data/auth-session.test.mjs`
-- **.setItem()** (1 connections) — `src/data/auth-session.test.mjs`
+- **MockStorage** (6 connections) — `src/data/productsStore.test.mjs`
+- **productsStore.test.mjs** (1 connections) — `src/data/productsStore.test.mjs`
+- **.clear()** (1 connections) — `src/data/productsStore.test.mjs`
+- **.constructor()** (1 connections) — `src/data/productsStore.test.mjs`
+- **.getItem()** (1 connections) — `src/data/productsStore.test.mjs`
+- **.removeItem()** (1 connections) — `src/data/productsStore.test.mjs`
+- **.setItem()** (1 connections) — `src/data/productsStore.test.mjs`
 
 ## Relationships
 
@@ -18,7 +18,7 @@
 
 ## Source Files
 
-- `src/data/auth-session.test.mjs`
+- `src/data/productsStore.test.mjs`
 
 ## Audit Trail
 

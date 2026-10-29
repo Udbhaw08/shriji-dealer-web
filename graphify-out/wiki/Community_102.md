@@ -25,11 +25,10 @@
 
 ## Relationships
 
-- [[Community 43]] (1 shared connections)
-- [[Community 151]] (1 shared connections)
-- [[Community 127]] (1 shared connections)
-- [[Product Requirements Documentation]] (1 shared connections)
-- [[Community 58]] (1 shared connections)
+- [[Community 47]] (2 shared connections)
+- [[Community 79]] (1 shared connections)
+- [[Community 128]] (1 shared connections)
+- [[Community 52]] (1 shared connections)
 
 ## Source Files
 

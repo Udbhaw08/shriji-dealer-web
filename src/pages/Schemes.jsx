@@ -292,30 +292,6 @@ export default function Schemes() {
         </div>
       </section>
 
-      {/* Persistent Scheme Desk Direct Contact Bar */}
-      <aside className="scheme-desk-dock">
-        <div className="wrap">
-          <a
-            className="scheme-desk-card"
-            href={`tel:${COMPANY.phone.replace(/[^0-9+]/g, "")}`}
-            aria-label="Call Scheme Desk Direct"
-          >
-            <div className="scheme-desk-left">
-              <span className="scheme-desk-icon-wrap">
-                <Icon name="phone" size={18} />
-              </span>
-              <div className="scheme-desk-info">
-                <span className="scheme-desk-label">Scheme Desk Direct</span>
-                <span className="scheme-desk-number">{COMPANY.phone}</span>
-              </div>
-            </div>
-            <div className="scheme-desk-action-pill">
-              <span>Call for Details</span>
-              <Icon name="chev" size={14} />
-            </div>
-          </a>
-        </div>
-      </aside>
 
       {/* Lightbox Modal for Scheme Flyer */}
       {activeFlyer && (

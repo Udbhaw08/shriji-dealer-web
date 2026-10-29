@@ -147,8 +147,9 @@ export function fetchLiveProducts(force = false, pricebookId = null) {
  */
 export function syncPricebookWithSession(session) {
   const canSeePrice = session?.canSeeDealerPrice !== false;
-  const pbId = (session && (session.role === "dealer" || session.role === "staff" || session.role === "dealer_staff") && session.status === "approved" && canSeePrice)
-    ? (session.dealer?.pricebookId || session.dealer?.price_tier || null)
+  const isApproved = session?.status === "approved" || session?.status === "active";
+  const pbId = (session && (session.role === "dealer" || session.role === "staff" || session.role === "dealer_staff" || session.role === "admin") && isApproved && canSeePrice)
+    ? (session.dealer?.pricebookId || session.dealer?.price_tier || "3334672000000547177")
     : null;
   if (pbId !== activePricebookId) {
     activePricebookId = pbId;

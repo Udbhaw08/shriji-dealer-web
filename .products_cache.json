@@ -11,7 +11,9 @@
       "burners": null,
       "finish": "Standard",
       "fkey": "steel",
-      "features": [],
+      "features": [
+        "Auto Cut-Off"
+      ],
       "brand": "KuchenBau",
       "tags": [
         "HOT SELLING"
@@ -42,7 +44,26 @@
       "description": "",
       "productDescriptionHtml": "",
       "overview": "",
-      "tileIcons": [],
+      "tileIcons": [
+        {
+          "index": 1,
+          "image": "",
+          "text": "Auto Cut-Off",
+          "label": "Tile Icon Text 1"
+        },
+        {
+          "index": 2,
+          "image": "",
+          "text": "Quick Performance",
+          "label": "Tile Icon Text 2"
+        },
+        {
+          "index": 3,
+          "image": "",
+          "text": "Stainless Steel Body",
+          "label": "Tile Icon Text 3"
+        }
+      ],
       "customFields": {
         "warranty": "",
         "keyFeatures": "",
@@ -65,7 +86,9 @@
       "burners": null,
       "finish": "Black Finish",
       "fkey": "glass",
-      "features": [],
+      "features": [
+        "Auto Cut-Off"
+      ],
       "brand": "Sunshine",
       "tags": [
         "HOT SELLING"
@@ -106,7 +129,9 @@
       "burners": null,
       "finish": "Standard",
       "fkey": "steel",
-      "features": [],
+      "features": [
+        "Auto Cut-Off"
+      ],
       "brand": "Sunshine",
       "tags": [],
       "cat": "small_appliances",
@@ -5700,7 +5725,9 @@
       "burners": null,
       "finish": "Standard",
       "fkey": "steel",
-      "features": [],
+      "features": [
+        "Auto Cut-Off"
+      ],
       "brand": "Sunshine",
       "tags": [],
       "cat": "small_appliances",
@@ -9371,7 +9398,9 @@
       "burners": null,
       "finish": "Standard",
       "fkey": "steel",
-      "features": [],
+      "features": [
+        "Auto Cut-Off"
+      ],
       "brand": "Sunshine",
       "tags": [],
       "cat": "small_appliances",
@@ -9410,7 +9439,9 @@
       "burners": null,
       "finish": "Standard",
       "fkey": "steel",
-      "features": [],
+      "features": [
+        "Auto Cut-Off"
+      ],
       "brand": "Sunshine",
       "tags": [],
       "cat": "small_appliances",
@@ -9449,7 +9480,9 @@
       "burners": null,
       "finish": "Stainless Steel",
       "fkey": "steel",
-      "features": [],
+      "features": [
+        "Auto Cut-Off"
+      ],
       "brand": "Sunshine",
       "tags": [],
       "cat": "small_appliances",
@@ -10434,7 +10467,7 @@
       "fkey": "steel",
       "features": [
         "BLDC Motor",
-        "Auto Ignition"
+        "Auto Clean"
       ],
       "brand": "Sunshine",
       "tags": [],
@@ -11004,7 +11037,9 @@
       "burners": null,
       "finish": "Standard",
       "fkey": "steel",
-      "features": [],
+      "features": [
+        "Auto Cut-Off"
+      ],
       "brand": "KuchenBau",
       "tags": [],
       "cat": "small_appliances",
@@ -11391,7 +11426,7 @@
       "fkey": "steel",
       "features": [
         "BLDC Motor",
-        "Auto Ignition"
+        "Auto Clean"
       ],
       "brand": "Sunshine",
       "tags": [],
@@ -12168,7 +12203,7 @@
       "fkey": "steel",
       "features": [
         "BLDC Motor",
-        "Auto Ignition"
+        "Auto Clean"
       ],
       "brand": "Sunshine",
       "tags": [],
@@ -12457,7 +12492,9 @@
       "burners": null,
       "finish": "Standard",
       "fkey": "steel",
-      "features": [],
+      "features": [
+        "Auto Cut-Off"
+      ],
       "brand": "Sunshine",
       "tags": [],
       "cat": "small_appliances",
@@ -12496,7 +12533,9 @@
       "burners": null,
       "finish": "Standard",
       "fkey": "steel",
-      "features": [],
+      "features": [
+        "Auto Cut-Off"
+      ],
       "brand": "Sunshine",
       "tags": [],
       "cat": "small_appliances",
@@ -12535,7 +12574,9 @@
       "burners": null,
       "finish": "Standard",
       "fkey": "steel",
-      "features": [],
+      "features": [
+        "Auto Cut-Off"
+      ],
       "brand": "Sunshine",
       "tags": [],
       "cat": "small_appliances",
@@ -12575,6 +12616,7 @@
       "finish": "Standard",
       "fkey": "steel",
       "features": [
+        "Auto Cut-Off",
         "Flame Failure Device"
       ],
       "brand": "Sunshine",
@@ -12646,6 +12688,52 @@
       "showInStore": true
     }
   ],
-  "categories": [],
-  "time": 1793278338707
+  "categories": [
+    {
+      "id": "3334672000000145102",
+      "key": "hob_tops",
+      "label": "Hob Tops",
+      "code": "HO",
+      "img": "https://cdn2.zohoecommerce.com/product-images/942B681C-CDC7-4519-A58F-B9464E38E884.webp/3334672000008631012/600x600?storefront_domain=www.shrijidomestic.com",
+      "document_id": "3334672000008631012",
+      "file_name": "942B681C-CDC7-4519-A58F-B9464E38E884.webp"
+    },
+    {
+      "id": "3334672000000145120",
+      "key": "gas_stoves",
+      "label": "Gas Stoves",
+      "code": "GA",
+      "img": "https://cdn2.zohoecommerce.com/product-images/PHOTO-2026-07-30-19-53-21_2.webp/3334672000008631023/600x600?storefront_domain=www.shrijidomestic.com",
+      "document_id": "3334672000008631023",
+      "file_name": "PHOTO-2026-07-30-19-53-21_2.webp"
+    },
+    {
+      "id": "3334672000000145108",
+      "key": "hobs",
+      "label": "Hobs",
+      "code": "HO",
+      "img": "https://cdn2.zohoecommerce.com/product-images/7D8AC9B6-A98A-43B2-81A3-509FB3B7D3A0.webp/3334672000008631034/600x600?storefront_domain=www.shrijidomestic.com",
+      "document_id": "3334672000008631034",
+      "file_name": "7D8AC9B6-A98A-43B2-81A3-509FB3B7D3A0.webp"
+    },
+    {
+      "id": "3334672000000145132",
+      "key": "chimneys",
+      "label": "Chimneys",
+      "code": "CH",
+      "img": "https://cdn2.zohoecommerce.com/product-images/1CA76EC0-674D-4C12-A1BB-C3E69E440D8B.webp/3334672000008631045/600x600?storefront_domain=www.shrijidomestic.com",
+      "document_id": "3334672000008631045",
+      "file_name": "1CA76EC0-674D-4C12-A1BB-C3E69E440D8B.webp"
+    },
+    {
+      "id": "3334672000000145084",
+      "key": "small_appliances",
+      "label": "Small Appliances",
+      "code": "SM",
+      "img": "https://cdn2.zohoecommerce.com/product-images/WhatsApp_Image_2026-10-03_at_7.08.46_PM_1.webp/3334672000008631056/600x600?storefront_domain=www.shrijidomestic.com",
+      "document_id": "3334672000008631056",
+      "file_name": "WhatsApp_Image_2026-10-03_at_7.08.46_PM_1.webp"
+    }
+  ],
+  "time": 1793292776360
 }

@@ -33,16 +33,16 @@
 
 ## Relationships
 
-- [[Roles & Customer Sharing Spec]] (39 shared connections)
-- [[Community 36]] (38 shared connections)
-- [[Client Products Data Store]] (14 shared connections)
-- [[Community 86]] (11 shared connections)
+- [[Graphify Knowledge Graph Skill]] (39 shared connections)
+- [[Community 37]] (38 shared connections)
+- [[Live Pricing Audit Tool]] (14 shared connections)
+- [[Community 85]] (11 shared connections)
 - [[Community 49]] (7 shared connections)
-- [[Community 112]] (6 shared connections)
-- [[Community 138]] (6 shared connections)
-- [[Community 108]] (4 shared connections)
-- [[Community 111]] (2 shared connections)
-- [[Community 322]] (2 shared connections)
+- [[Community 114]] (6 shared connections)
+- [[Community 139]] (6 shared connections)
+- [[Community 109]] (4 shared connections)
+- [[Community 113]] (2 shared connections)
+- [[Community 321]] (2 shared connections)
 
 ## Source Files
 

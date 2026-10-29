@@ -83,8 +83,6 @@ export default function Products() {
   const selectedIgnitions = parseListParam("ignition");
   const selectedFinishes = parseListParam("finish");
   const onlyFavorites = params.get("saved") === "true";
-  const onlyScheme = params.get("scheme") === "true";
-  const onlyFreight = params.get("freight") === "true";
   const urlQ = params.get("q") || "";
 
   const [q, setQ] = useState(urlQ);
@@ -111,8 +109,6 @@ export default function Products() {
     ignitions = selectedIgnitions,
     finishes = selectedFinishes,
     saved = onlyFavorites,
-    scheme = onlyScheme,
-    freight = onlyFreight,
     query = q,
   }) => {
     const next = new URLSearchParams();
@@ -122,8 +118,6 @@ export default function Products() {
     if (ignitions.length > 0) next.set("ignition", ignitions.join(","));
     if (finishes.length > 0) next.set("finish", finishes.join(","));
     if (saved) next.set("saved", "true");
-    if (scheme) next.set("scheme", "true");
-    if (freight) next.set("freight", "true");
     if (query && query.trim()) next.set("q", query.trim());
 
     setParams(next, { replace: true });
@@ -181,8 +175,6 @@ export default function Products() {
 
     const matchesFilter = (p, term) => {
       if (onlyFavorites && !isFavorite(p.id)) return false;
-      if (onlyScheme && !(p.scheme || p.tag || p.isSchemeEligible || (p.burners && p.burners >= 3))) return false;
-      if (onlyFreight && !(p.freeFreight || p.isFreeFreight || (p.rate || p.mrp || 0) > 3500)) return false;
       if (selectedCats.length > 0 && !selectedCats.includes(p.cat)) return false;
       if (selectedFinishes.length > 0 && !selectedFinishes.includes(p.finish)) return false;
       if (selectedBrands.length > 0 && !selectedBrands.includes(p.brand)) return false;
@@ -214,8 +206,6 @@ export default function Products() {
     return { results: sorted, isUsingAutocorrect: usedCorrection };
   }, [
     onlyFavorites,
-    onlyScheme,
-    onlyFreight,
     selectedCats,
     selectedFinishes,
     selectedBrands,
@@ -236,8 +226,6 @@ export default function Products() {
       selectedBurners.length ||
       selectedIgnitions.length ||
       onlyFavorites ||
-      onlyScheme ||
-      onlyFreight ||
       q.trim()
   );
 
@@ -248,8 +236,6 @@ export default function Products() {
     selectedIgnitions.length +
     selectedFinishes.length +
     (onlyFavorites ? 1 : 0) +
-    (onlyScheme ? 1 : 0) +
-    (onlyFreight ? 1 : 0) +
     (q.trim() ? 1 : 0);
 
   const clearAll = () => {
@@ -430,7 +416,7 @@ export default function Products() {
 
             <div className="sheet-header">
               <div className="sheet-title-group">
-                <h2 className="sheet-title">Filters & Attributes</h2>
+                <h2 className="sheet-title">{t("filter_btn") || "Filters"}</h2>
                 {activeFilterCount > 0 && (
                   <span className="sheet-active-pill">{activeFilterCount} Active</span>
                 )}
@@ -438,7 +424,7 @@ export default function Products() {
               <div className="sheet-header-actions">
                 {dirty && (
                   <button type="button" className="sheet-reset-btn" onClick={clearAll}>
-                    Reset All
+                    {t("clear_filters") || "Reset All"}
                   </button>
                 )}
                 <button
@@ -447,7 +433,7 @@ export default function Products() {
                   onClick={() => setOpenFilters(false)}
                   aria-label="Close filters"
                 >
-                  <Icon name="close" size={15} />
+                  <Icon name="close" size={16} />
                 </button>
               </div>
             </div>
@@ -456,45 +442,43 @@ export default function Products() {
               {/* 1. Sort By */}
               <div className="sheet-section">
                 <div className="sheet-sec-header">
-                  <h3 className="sheet-sec-title">Sort By</h3>
-                  <span className="sheet-sec-sub">Default: Wholesale Relevance</span>
+                  <div className="sheet-sec-title-wrap">
+                    <h3 className="sheet-sec-title">{t("sort_label") || "Sort By"}</h3>
+                  </div>
                 </div>
                 <div className="sheet-chips-row">
-                  <button
-                    type="button"
-                    className={`sheet-chip ${sort === "popularity" ? "active" : ""}`}
-                    onClick={() => { setSort("popularity"); reset(); }}
-                  >
-                    Featured
-                  </button>
-                  <button
-                    type="button"
-                    className={`sheet-chip ${sort === "low" ? "active" : ""}`}
-                    onClick={() => { setSort("low"); reset(); }}
-                  >
-                    Wholesale Price: Low to High
-                  </button>
-                  <button
-                    type="button"
-                    className={`sheet-chip ${sort === "high" ? "active" : ""}`}
-                    onClick={() => { setSort("high"); reset(); }}
-                  >
-                    Wholesale Price: High to Low
-                  </button>
+                  {sortOptions.map((s) => (
+                    <button
+                      key={s.key}
+                      type="button"
+                      className={`sheet-chip ${sort === s.key ? "active" : ""}`}
+                      onClick={() => {
+                        setSort(s.key);
+                        reset();
+                      }}
+                    >
+                      <span>{sort === s.key ? `✓ ${s.label}` : s.label}</span>
+                    </button>
+                  ))}
                 </div>
               </div>
 
-              {/* 2. Categories 2-Column Grid */}
+              {/* 2. Categories Multi-Select */}
               <div className="sheet-section">
                 <div className="sheet-sec-header">
-                  <h3 className="sheet-sec-title">Categories</h3>
+                  <div className="sheet-sec-title-wrap">
+                    <h3 className="sheet-sec-title">{t("spec_category") || "Category"}</h3>
+                    {selectedCats.length > 0 && (
+                      <span className="sheet-sec-badge">{selectedCats.length}</span>
+                    )}
+                  </div>
                   {selectedCats.length > 0 && (
                     <button
                       type="button"
-                      className="sheet-reset-btn"
+                      className="sheet-sec-clear-btn"
                       onClick={() => updateFilters({ cats: [] })}
                     >
-                      Clear Category
+                      Clear
                     </button>
                   )}
                 </div>
@@ -508,7 +492,10 @@ export default function Products() {
                         className={`sheet-cat-card ${isSelected ? "active" : ""}`}
                         onClick={() => updateFilters({ cats: toggleInList(selectedCats, c.key) })}
                       >
-                        <span>{tCat(c.key, c.label)}</span>
+                        <span className="sheet-cat-name">
+                          {isSelected && <span className="sheet-check-mark">✓</span>}
+                          {tCat(c.key, c.label)}
+                        </span>
                         <span className="sheet-cat-count">{counts[c.key] || 0}</span>
                       </button>
                     );
@@ -516,80 +503,161 @@ export default function Products() {
                 </div>
               </div>
 
-              {/* 3. Burner Configuration */}
-              <div className="sheet-section">
-                <div className="sheet-sec-header">
-                  <h3 className="sheet-sec-title">Burner Configuration</h3>
-                  <span className="sheet-sec-sub">Multi-Select</span>
-                </div>
-                <div className="sheet-chips-row">
-                  {["2", "3", "4"].map((b) => {
-                    const isSelected = selectedBurners.includes(b);
-                    return (
+              {/* 3. Brand Multi-Select */}
+              {facets.brand.length > 0 && (
+                <div className="sheet-section">
+                  <div className="sheet-sec-header">
+                    <div className="sheet-sec-title-wrap">
+                      <h3 className="sheet-sec-title">{t("spec_brand") || "Brand"}</h3>
+                      {selectedBrands.length > 0 && (
+                        <span className="sheet-sec-badge">{selectedBrands.length}</span>
+                      )}
+                    </div>
+                    {selectedBrands.length > 0 && (
                       <button
-                        key={b}
                         type="button"
-                        className={`sheet-chip ${isSelected ? "active" : ""}`}
-                        onClick={() => updateFilters({ burners: toggleInList(selectedBurners, b) })}
+                        className="sheet-sec-clear-btn"
+                        onClick={() => updateFilters({ brands: [] })}
                       >
-                        {isSelected ? `✓ ${b}-Burner` : `${b}-Burner`}
+                        Clear
                       </button>
-                    );
-                  })}
-                </div>
-              </div>
-
-              {/* 4. Special B2B Criteria */}
-              <div className="sheet-section">
-                <div className="sheet-sec-header">
-                  <div style={{ display: "flex", alignItems: "center", gap: 6 }}>
-                    <h3 className="sheet-sec-title">Special B2B Criteria</h3>
-                    <span className="b2b-criteria-badge" style={{ background: "var(--blue-100)", color: "var(--blue-ink)" }}>
-                      Enterprise
-                    </span>
+                    )}
                   </div>
-                  <span className="sheet-sec-sub">Dealer Perks</span>
+                  <div className="sheet-chips-row">
+                    {facets.brand.map(([key, label, n]) => {
+                      const isSelected = selectedBrands.includes(key);
+                      return (
+                        <button
+                          key={key}
+                          type="button"
+                          className={`sheet-chip ${isSelected ? "active" : ""}`}
+                          onClick={() => updateFilters({ brands: toggleInList(selectedBrands, key) })}
+                        >
+                          <span>{isSelected ? `✓ ${label}` : label}</span>
+                          <span className="sheet-chip-count">{n}</span>
+                        </button>
+                      );
+                    })}
+                  </div>
                 </div>
+              )}
 
-                <div className="b2b-criteria-card">
-                  <div className="b2b-criteria-info">
-                    <div className="b2b-criteria-title-row">
-                      <span className="b2b-criteria-title">Active Annual Scheme Models</span>
-                      <span className="b2b-criteria-badge">Q4 TARGET</span>
+              {/* 4. Burner Configuration */}
+              {facets.burners.length > 0 && (
+                <div className="sheet-section">
+                  <div className="sheet-sec-header">
+                    <div className="sheet-sec-title-wrap">
+                      <h3 className="sheet-sec-title">{t("filter_burners") || "Burners"}</h3>
+                      {selectedBurners.length > 0 && (
+                        <span className="sheet-sec-badge">{selectedBurners.length}</span>
+                      )}
                     </div>
-                    <span className="b2b-criteria-desc">
-                      Includes eligible volume bonus & turnover incentive points
-                    </span>
+                    {selectedBurners.length > 0 && (
+                      <button
+                        type="button"
+                        className="sheet-sec-clear-btn"
+                        onClick={() => updateFilters({ burners: [] })}
+                      >
+                        Clear
+                      </button>
+                    )}
                   </div>
-                  <button
-                    type="button"
-                    className={`ios-toggle ${onlyScheme ? "on" : ""}`}
-                    onClick={() => updateFilters({ scheme: !onlyScheme })}
-                    aria-label="Toggle active annual scheme models"
-                  >
-                    <span className="ios-toggle-knob" />
-                  </button>
+                  <div className="sheet-chips-row">
+                    {facets.burners.map(([key, label, n]) => {
+                      const isSelected = selectedBurners.includes(key);
+                      return (
+                        <button
+                          key={key}
+                          type="button"
+                          className={`sheet-chip ${isSelected ? "active" : ""}`}
+                          onClick={() => updateFilters({ burners: toggleInList(selectedBurners, key) })}
+                        >
+                          <span>{isSelected ? `✓ ${label}` : label}</span>
+                          <span className="sheet-chip-count">{n}</span>
+                        </button>
+                      );
+                    })}
+                  </div>
                 </div>
+              )}
 
-                <div className="b2b-criteria-card">
-                  <div className="b2b-criteria-info">
-                    <div className="b2b-criteria-title-row">
-                      <span className="b2b-criteria-title">Free Freight Eligible 📦</span>
+              {/* 5. Finish & Color Multi-Select */}
+              {facets.finish.length > 0 && (
+                <div className="sheet-section">
+                  <div className="sheet-sec-header">
+                    <div className="sheet-sec-title-wrap">
+                      <h3 className="sheet-sec-title">{t("filter_finish") || "Finish / Color"}</h3>
+                      {selectedFinishes.length > 0 && (
+                        <span className="sheet-sec-badge">{selectedFinishes.length}</span>
+                      )}
                     </div>
-                    <span className="b2b-criteria-desc">
-                      Orders eligible for zero-freight dispatch from regional depot
-                    </span>
+                    {selectedFinishes.length > 0 && (
+                      <button
+                        type="button"
+                        className="sheet-sec-clear-btn"
+                        onClick={() => updateFilters({ finishes: [] })}
+                      >
+                        Clear
+                      </button>
+                    )}
                   </div>
-                  <button
-                    type="button"
-                    className={`ios-toggle ${onlyFreight ? "on" : ""}`}
-                    onClick={() => updateFilters({ freight: !onlyFreight })}
-                    aria-label="Toggle free freight eligible"
-                  >
-                    <span className="ios-toggle-knob" />
-                  </button>
+                  <div className="sheet-chips-row">
+                    {facets.finish.map(([key, label, n]) => {
+                      const isSelected = selectedFinishes.includes(key);
+                      return (
+                        <button
+                          key={key}
+                          type="button"
+                          className={`sheet-chip ${isSelected ? "active" : ""}`}
+                          onClick={() => updateFilters({ finishes: toggleInList(selectedFinishes, key) })}
+                        >
+                          <span>{isSelected ? `✓ ${label}` : label}</span>
+                          <span className="sheet-chip-count">{n}</span>
+                        </button>
+                      );
+                    })}
+                  </div>
                 </div>
-              </div>
+              )}
+
+              {/* 6. Features / Ignition Multi-Select */}
+              {facets.ignition.length > 0 && (
+                <div className="sheet-section">
+                  <div className="sheet-sec-header">
+                    <div className="sheet-sec-title-wrap">
+                      <h3 className="sheet-sec-title">{t("filter_features") || "Features"}</h3>
+                      {selectedIgnitions.length > 0 && (
+                        <span className="sheet-sec-badge">{selectedIgnitions.length}</span>
+                      )}
+                    </div>
+                    {selectedIgnitions.length > 0 && (
+                      <button
+                        type="button"
+                        className="sheet-sec-clear-btn"
+                        onClick={() => updateFilters({ ignitions: [] })}
+                      >
+                        Clear
+                      </button>
+                    )}
+                  </div>
+                  <div className="sheet-chips-row">
+                    {facets.ignition.map(([key, label, n]) => {
+                      const isSelected = selectedIgnitions.includes(key);
+                      return (
+                        <button
+                          key={key}
+                          type="button"
+                          className={`sheet-chip ${isSelected ? "active" : ""}`}
+                          onClick={() => updateFilters({ ignitions: toggleInList(selectedIgnitions, key) })}
+                        >
+                          <span>{isSelected ? `✓ ${label}` : label}</span>
+                          <span className="sheet-chip-count">{n}</span>
+                        </button>
+                      );
+                    })}
+                  </div>
+                </div>
+              )}
             </div>
 
             {/* Sticky Sheet Footer */}
@@ -598,15 +666,19 @@ export default function Products() {
                 type="button"
                 className="sheet-clear-btn"
                 onClick={clearAll}
+                disabled={!dirty}
+                style={!dirty ? { opacity: 0.5, cursor: "not-allowed" } : undefined}
               >
-                Clear ({activeFilterCount})
+                {t("clear_filters") || "Clear All"} {activeFilterCount > 0 ? `(${activeFilterCount})` : ""}
               </button>
               <button
                 type="button"
                 className="sheet-apply-btn"
                 onClick={() => setOpenFilters(false)}
               >
-                <span>Show {results.length} Models • ReSTOR Hub</span>
+                <span>
+                  {t("view_all") || "Show"} {results.length} {results.length === 1 ? "Product" : "Products"}
+                </span>
                 <span className="sheet-apply-arrow">➔</span>
               </button>
             </div>

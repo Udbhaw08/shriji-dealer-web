@@ -112,7 +112,7 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 
 ### 2.5 Navigation & Bottom Bar Dynamic Filtering
 - **Header & Mobile Drawer (\`src/ui.jsx\`)**: Non-login users only see \`Home\` and \`Support\` navigation tabs. \`Products\` and \`Schemes\` tabs appear only after approved dealer sign-in.
-- **Mobile Bottom Navigation (\`src/components/MobileBottomNav.jsx\`)**: Non-login users have \`Home\`, \`Support\`, and the \`Call for Details\` bar. Full \`Products\` and \`Schemes\` tabs are reserved for approved dealers.
+- **Mobile Bottom Navigation (\`src/components/MobileBottomNav.jsx\`)**: Non-login users have \`Home\`, \`Support\`. Full \`Products\` and \`Schemes\` tabs are reserved for approved dealers.
 - **Footer (\`src/ui.jsx\`)**: Wholesale product categories and scheme links are replaced with \`Quick Links\` (Home, Support, Marketing) and \`Dealer Portal\` links for non-logged-in visitors.
 
 ---

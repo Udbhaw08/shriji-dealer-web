@@ -294,7 +294,7 @@ export default function BrandApplyFlow({ onBack }) {
   };
 
   return (
-    <div style={{ maxWidth: 560, margin: "0 auto", width: "100%", minWidth: 0, overflowX: "clip" }}>
+    <div style={{ maxWidth: 560, margin: "0 auto", width: "100%", minWidth: 0, overflowX: "clip", boxSizing: "border-box" }}>
       {/* Top Navigation Row */}
       <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: 20 }}>
         {onBack ? (
@@ -353,11 +353,16 @@ export default function BrandApplyFlow({ onBack }) {
 
       {/* Main Card Container */}
       <div
-        className="card pad"
+        className="card pad brand-apply-card"
         style={{
           boxShadow: "0 10px 30px -10px rgba(16, 38, 58, 0.12)",
           borderRadius: "var(--r-lg, 18px)",
           border: "1.5px solid var(--line, #dce4ed)",
+          padding: "clamp(14px, 4vw, 24px)",
+          minWidth: 0,
+          width: "100%",
+          boxSizing: "border-box",
+          overflowX: "clip",
         }}
       >
         {/* Header Block */}
@@ -394,12 +399,15 @@ export default function BrandApplyFlow({ onBack }) {
           aria-label="Application Progress"
           style={{
             display: "grid",
-            gridTemplateColumns: "1fr 1fr 1fr",
-            gap: 8,
-            marginBottom: 24,
-            padding: "8px 10px",
+            gridTemplateColumns: "repeat(3, minmax(0, 1fr))",
+            gap: "clamp(4px, 1.5vw, 8px)",
+            marginBottom: 20,
+            padding: "6px 8px",
             background: "var(--bg-2, #f0f5fc)",
             borderRadius: "var(--r, 14px)",
+            minWidth: 0,
+            width: "100%",
+            boxSizing: "border-box",
           }}
         >
           <div
@@ -434,7 +442,7 @@ export default function BrandApplyFlow({ onBack }) {
             >
               {phoneVerified && emailVerified ? "✓" : "1"}
             </span>
-            <span style={{ fontSize: "0.76rem", fontWeight: step === 1 ? 800 : 600, color: step === 1 ? "var(--tx)" : "var(--tx-3)" }}>
+            <span style={{ fontSize: "clamp(0.66rem, 2vw, 0.76rem)", fontWeight: step === 1 ? 800 : 600, color: step === 1 ? "var(--tx)" : "var(--tx-3)", overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap", maxWidth: "100%" }}>
               1. Verification
             </span>
           </div>
@@ -474,7 +482,7 @@ export default function BrandApplyFlow({ onBack }) {
             >
               {step > 2 ? "✓" : "2"}
             </span>
-            <span style={{ fontSize: "0.76rem", fontWeight: step === 2 ? 800 : 600, color: step === 2 ? "var(--tx)" : "var(--tx-3)" }}>
+            <span style={{ fontSize: "clamp(0.66rem, 2vw, 0.76rem)", fontWeight: step === 2 ? 800 : 600, color: step === 2 ? "var(--tx)" : "var(--tx-3)", overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap", maxWidth: "100%" }}>
               2. Business Info
             </span>
           </div>
@@ -514,7 +522,7 @@ export default function BrandApplyFlow({ onBack }) {
             >
               3
             </span>
-            <span style={{ fontSize: "0.76rem", fontWeight: step === 3 ? 800 : 600, color: step === 3 ? "var(--tx)" : "var(--tx-3)" }}>
+            <span style={{ fontSize: "clamp(0.66rem, 2vw, 0.76rem)", fontWeight: step === 3 ? 800 : 600, color: step === 3 ? "var(--tx)" : "var(--tx-3)", overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap", maxWidth: "100%" }}>
               3. Location & Submit
             </span>
           </div>
@@ -584,7 +592,7 @@ export default function BrandApplyFlow({ onBack }) {
                 transition: "all 0.2s ease",
               }}
             >
-              <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: 10 }}>
+              <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: 10, flexWrap: "wrap", gap: 6, minWidth: 0 }}>
                 <span style={{ fontSize: "0.82rem", fontWeight: 800, textTransform: "uppercase", letterSpacing: "0.04em", color: phoneVerified ? "#166534" : "var(--tx)" }}>
                   1. WhatsApp Mobile Phone
                 </span>
@@ -680,7 +688,7 @@ export default function BrandApplyFlow({ onBack }) {
                         </div>
                       )}
 
-                      <div style={{ display: "flex", gap: 8 }}>
+                      <div style={{ display: "flex", gap: 8, alignItems: "stretch", minWidth: 0, width: "100%" }}>
                         <input
                           type="text"
                           inputMode="numeric"
@@ -694,20 +702,22 @@ export default function BrandApplyFlow({ onBack }) {
                           }}
                           style={{
                             flex: 1,
+                            minWidth: 0,
                             height: 48,
                             borderRadius: "var(--r-sm, 10px)",
                             border: "1.5px solid var(--navy)",
                             textAlign: "center",
-                            fontSize: "1.2rem",
+                            fontSize: "1.15rem",
                             fontWeight: 800,
-                            letterSpacing: "0.25em",
+                            letterSpacing: "0.18em",
+                            boxSizing: "border-box",
                           }}
                         />
                         <button
                           type="submit"
                           disabled={phoneLoading || phoneOtpCode.length !== 6}
                           className="btn btn-navy"
-                          style={{ height: 48, padding: "0 18px", fontWeight: 700, fontSize: "0.9rem" }}
+                          style={{ height: 48, padding: "0 14px", fontWeight: 700, fontSize: "0.86rem", flexShrink: 0, whiteSpace: "nowrap" }}
                         >
                           {phoneLoading ? "Verifying..." : "Verify Code"}
                         </button>
@@ -717,7 +727,7 @@ export default function BrandApplyFlow({ onBack }) {
                         <span style={{ color: "var(--err)", fontSize: "0.8rem", fontWeight: 600 }}>{phoneError}</span>
                       )}
 
-                      <div style={{ display: "flex", justifyContent: "space-between", fontSize: "0.78rem" }}>
+                      <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: 6, fontSize: "0.78rem", minWidth: 0 }}>
                         <button
                           type="button"
                           onClick={() => setPhoneOtpSent(false)}
@@ -750,7 +760,7 @@ export default function BrandApplyFlow({ onBack }) {
                 transition: "all 0.2s ease",
               }}
             >
-              <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: 10 }}>
+              <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: 10, flexWrap: "wrap", gap: 6, minWidth: 0 }}>
                 <span style={{ fontSize: "0.82rem", fontWeight: 800, textTransform: "uppercase", letterSpacing: "0.04em", color: emailVerified ? "#166534" : "var(--tx)" }}>
                   2. Official Business Email
                 </span>
@@ -840,7 +850,7 @@ export default function BrandApplyFlow({ onBack }) {
                     </form>
                   ) : (
                     <form onSubmit={handleVerifyEmailOtp} style={{ display: "grid", gap: 10 }}>
-                      <div style={{ fontSize: "0.84rem", color: "var(--tx-2)" }}>
+                      <div style={{ fontSize: "0.84rem", color: "var(--tx-2)", wordBreak: "break-all", overflowWrap: "anywhere", minWidth: 0 }}>
                         Enter 6-digit code sent to <strong>{emailInput}</strong>:
                       </div>
 
@@ -850,7 +860,7 @@ export default function BrandApplyFlow({ onBack }) {
                         </div>
                       )}
 
-                      <div style={{ display: "flex", gap: 8 }}>
+                      <div style={{ display: "flex", gap: 8, alignItems: "stretch", minWidth: 0, width: "100%" }}>
                         <input
                           type="text"
                           inputMode="numeric"
@@ -864,20 +874,22 @@ export default function BrandApplyFlow({ onBack }) {
                           }}
                           style={{
                             flex: 1,
+                            minWidth: 0,
                             height: 48,
                             borderRadius: "var(--r-sm, 10px)",
                             border: "1.5px solid var(--navy)",
                             textAlign: "center",
-                            fontSize: "1.2rem",
+                            fontSize: "1.15rem",
                             fontWeight: 800,
-                            letterSpacing: "0.25em",
+                            letterSpacing: "0.18em",
+                            boxSizing: "border-box",
                           }}
                         />
                         <button
                           type="submit"
                           disabled={emailLoading || emailOtpCode.length !== 6}
                           className="btn btn-navy"
-                          style={{ height: 48, padding: "0 18px", fontWeight: 700, fontSize: "0.9rem" }}
+                          style={{ height: 48, padding: "0 14px", fontWeight: 700, fontSize: "0.86rem", flexShrink: 0, whiteSpace: "nowrap" }}
                         >
                           {emailLoading ? "Verifying..." : "Verify Code"}
                         </button>
@@ -887,7 +899,7 @@ export default function BrandApplyFlow({ onBack }) {
                         <span style={{ color: "var(--err)", fontSize: "0.8rem", fontWeight: 600 }}>{emailError}</span>
                       )}
 
-                      <div style={{ display: "flex", justifyContent: "space-between", fontSize: "0.78rem" }}>
+                      <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: 6, fontSize: "0.78rem", minWidth: 0 }}>
                         <button
                           type="button"
                           onClick={() => setEmailOtpSent(false)}
@@ -1128,8 +1140,8 @@ export default function BrandApplyFlow({ onBack }) {
             </div>
 
             {/* City & PIN */}
-            <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 12 }}>
-              <div>
+            <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(130px, 1fr))", gap: 12, minWidth: 0 }}>
+              <div style={{ minWidth: 0 }}>
                 <label htmlFor="flow-city" style={{ display: "block", fontSize: "0.84rem", fontWeight: 700, color: "var(--tx)", marginBottom: 6 }}>
                   City
                 </label>

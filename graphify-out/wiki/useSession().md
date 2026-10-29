@@ -2,7 +2,7 @@
 
 > God node · 42 connections · `src/data/session.js`
 
-**Community:** [[Community 51]]
+**Community:** [[Product Requirements Documentation]]
 
 ## Connections by Relation
 
@@ -18,14 +18,14 @@
 - [[Schemes()]] `EXTRACTED`
 - [[AccountLink()]] `EXTRACTED`
 - [[Footer()]] `EXTRACTED`
+- [[StaffDashboard()]] `EXTRACTED`
 - [[Support()]] `EXTRACTED`
 - [[BrandApplyFlow()]] `EXTRACTED`
-- [[StaffDashboard()]] `EXTRACTED`
+- [[DealerDashboard()]] `EXTRACTED`
 - [[StaffJoin()]] `EXTRACTED`
 - [[EmailVerificationPrompt()]] `EXTRACTED`
 - [[PhoneVerificationPrompt()]] `EXTRACTED`
 - [[DealerApply()]] `EXTRACTED`
-- [[DealerDashboard()]] `EXTRACTED`
 - [[DealerPending()]] `EXTRACTED`
 
 ### contains
@@ -39,14 +39,14 @@
 - [[DealerApply.jsx]] `EXTRACTED`
 - [[Home.jsx]] `EXTRACTED`
 - [[Products.jsx]] `EXTRACTED`
-- [[BrandApplyFlow.jsx]] `EXTRACTED`
 - [[DealerDashboard.jsx]] `EXTRACTED`
+- [[BrandApplyFlow.jsx]] `EXTRACTED`
 - [[Favorites.jsx]] `EXTRACTED`
 - [[ProductCard.jsx]] `EXTRACTED`
 - [[Schemes.jsx]] `EXTRACTED`
 - [[MobileBottomNav.jsx]] `EXTRACTED`
-- [[Support.jsx]] `EXTRACTED`
 - [[StaffDashboard.jsx]] `EXTRACTED`
+- [[Support.jsx]] `EXTRACTED`
 - [[StaffJoin.jsx]] `EXTRACTED`
 - [[EmailVerificationPrompt.jsx]] `EXTRACTED`
 - [[PhoneVerificationPrompt.jsx]] `EXTRACTED`

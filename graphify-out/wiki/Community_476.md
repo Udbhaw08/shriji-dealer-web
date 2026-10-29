@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **stage** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **height** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
 - **minimum** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
 - **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
 
 ## Relationships
 
-- [[Vercel Deployment Routing]] (1 shared connections)
+- [[Zoho API Diagnostic Script]] (1 shared connections)
 
 ## Source Files
 

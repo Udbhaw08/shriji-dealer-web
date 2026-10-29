@@ -33,12 +33,12 @@
 
 ## Relationships
 
-- [[Roles & Customer Sharing Spec]] (11 shared connections)
+- [[Graphify Knowledge Graph Skill]] (11 shared connections)
 - [[Zoho Integration Skill]] (7 shared connections)
-- [[Community 86]] (6 shared connections)
-- [[Community 111]] (4 shared connections)
-- [[Community 253]] (3 shared connections)
-- [[Community 112]] (2 shared connections)
+- [[Community 85]] (6 shared connections)
+- [[Community 113]] (4 shared connections)
+- [[Community 251]] (3 shared connections)
+- [[Community 114]] (2 shared connections)
 
 ## Source Files
 

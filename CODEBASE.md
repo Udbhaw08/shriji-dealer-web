@@ -1,8 +1,8 @@
 # CODEBASE.md — Project Architecture & Feature Guide
 
 > **Auto-generated documentation**
-> Last synchronized: 2026-10-29T20:51:45.904+05:30 (GMT+5:30)
-> Total Project Files: 2150
+> Last synchronized: 2026-10-29T22:25:18.752+05:30 (GMT+5:30)
+> Total Project Files: 2159
 
 ---
 
@@ -61,7 +61,7 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 
 ### 2.5 Navigation & Bottom Bar Dynamic Filtering
 - **Header & Mobile Drawer (`src/ui.jsx`)**: Non-login users only see `Home` and `Support` navigation tabs. `Products` and `Schemes` tabs appear only after approved dealer sign-in.
-- **Mobile Bottom Navigation (`src/components/MobileBottomNav.jsx`)**: Non-login users have `Home`, `Support`, and the `Call for Details` bar. Full `Products` and `Schemes` tabs are reserved for approved dealers.
+- **Mobile Bottom Navigation (`src/components/MobileBottomNav.jsx`)**: Non-login users have `Home`, `Support`. Full `Products` and `Schemes` tabs are reserved for approved dealers.
 - **Footer (`src/ui.jsx`)**: Wholesale product categories and scheme links are replaced with `Quick Links` (Home, Support, Marketing) and `Dealer Portal` links for non-logged-in visitors.
 
 ---
@@ -94,35 +94,35 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 ### 4.1 Pages (`src/pages/`)
 - **`src/pages/ContentAdminDashboard.jsx`** (74.3 KB)
 - **`src/pages/DealerApply.jsx`** (0.4 KB)
-- **`src/pages/DealerDashboard.jsx`** (52.4 KB)
+- **`src/pages/DealerDashboard.jsx`** (59.8 KB)
 - **`src/pages/DealerPending.jsx`** (23.3 KB)
-- **`src/pages/Favorites.jsx`** (16.3 KB)
+- **`src/pages/Favorites.jsx`** (12.6 KB)
 - **`src/pages/Home.jsx`** (21.9 KB)
 - **`src/pages/LegalPrivacy.jsx`** (5.8 KB)
 - **`src/pages/LegalTerms.jsx`** (4.2 KB)
 - **`src/pages/Login.jsx`** (83.6 KB)
 - **`src/pages/PrivacyPolicy.jsx`** (0.0 KB)
-- **`src/pages/Product.jsx`** (37.5 KB)
-- **`src/pages/Products.jsx`** (34.3 KB)
-- **`src/pages/Schemes.jsx`** (18.0 KB)
-- **`src/pages/StaffDashboard.jsx`** (46.7 KB)
+- **`src/pages/Product.jsx`** (39.1 KB)
+- **`src/pages/Products.jsx`** (36.7 KB)
+- **`src/pages/Schemes.jsx`** (17.1 KB)
+- **`src/pages/StaffDashboard.jsx`** (47.4 KB)
 - **`src/pages/StaffJoin.jsx`** (26.6 KB)
 - **`src/pages/Support.jsx`** (29.4 KB)
 - **`src/pages/TermsOfService.jsx`** (0.0 KB)
 
 ### 4.2 Reusable Components (`src/components/` & `src/ui.jsx`)
 - **`src/components/A11yAnnouncer.jsx`** (0.5 KB)
-- **`src/components/BrandApplyFlow.jsx`** (50.2 KB)
+- **`src/components/BrandApplyFlow.jsx`** (51.5 KB)
 - **`src/components/EmailVerificationPrompt.jsx`** (10.8 KB)
 - **`src/components/ErrorBoundary.jsx`** (0.8 KB)
 - **`src/components/FileOrUrlInput.jsx`** (15.2 KB)
 - **`src/components/HeroSlider.jsx`** (18.2 KB)
-- **`src/components/MobileBottomNav.jsx`** (5.0 KB)
+- **`src/components/MobileBottomNav.jsx`** (3.5 KB)
 - **`src/components/NativeBackHandler.jsx`** (3.7 KB)
 - **`src/components/NetworkStatusBadge.jsx`** (0.8 KB)
 - **`src/components/OtpDispatchFeedback.jsx`** (3.4 KB)
 - **`src/components/PhoneVerificationPrompt.jsx`** (11.7 KB)
-- **`src/components/PriceBlock.jsx`** (6.6 KB)
+- **`src/components/PriceBlock.jsx`** (7.5 KB)
 - **`src/components/ProductCard.jsx`** (3.6 KB)
 - **`src/components/ProductSearchBar.jsx`** (16.6 KB)
 - **`src/components/SkipToContent.jsx`** (0.7 KB)
@@ -132,7 +132,7 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 ### 4.3 State & Business Logic (`src/data/`)
 - **`src/data/api.js`** (2.5 KB)
 - **`src/data/auth-session.test.mjs`** (7.0 KB)
-- **`src/data/auth.js`** (19.1 KB)
+- **`src/data/auth.js`** (19.0 KB)
 - **`src/data/dealer.js`** (9.3 KB)
 - **`src/data/dealer.test.mjs`** (4.3 KB)
 - **`src/data/favoritesStore.js`** (2.3 KB)
@@ -142,14 +142,14 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 - **`src/data/portalGate.test.mjs`** (1.1 KB)
 - **`src/data/pricing.test.mjs`** (4.2 KB)
 - **`src/data/products.js`** (1.8 KB)
-- **`src/data/productsStore.js`** (6.3 KB)
+- **`src/data/productsStore.js`** (6.4 KB)
 - **`src/data/productsStore.test.mjs`** (5.2 KB)
 - **`src/data/searchHelper.js`** (9.8 KB)
 - **`src/data/searchHelper.test.mjs`** (0.9 KB)
-- **`src/data/session.js`** (9.0 KB)
+- **`src/data/session.js`** (10.4 KB)
 - **`src/data/site.js`** (3.8 KB)
 - **`src/data/site.test.mjs`** (0.7 KB)
-- **`src/data/translations.js`** (32.4 KB)
+- **`src/data/translations.js`** (32.3 KB)
 - **`src/data/validators.js`** (1.6 KB)
 - **`src/data/video-banner.test.mjs`** (2.3 KB)
 
@@ -165,16 +165,17 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 - **`api/products/[id].js`** (2.1 KB)
 - **`api/upload.js`** (10.9 KB)
 - **`api/_lib/adminAuth.js`** (1.6 KB)
-- **`api/_lib/dealerPricingAuth.js`** (6.3 KB)
+- **`api/_lib/dealerPricingAuth.js`** (6.2 KB)
 - **`api/_lib/htmlEscape.js`** (1.1 KB)
 - **`api/_lib/ssrf.js`** (5.8 KB)
-- **`api/_lib/zoho.js`** (46.1 KB)
+- **`api/_lib/zoho.js`** (46.5 KB)
 
 ### 4.5 Automation & Utility Scripts (`scripts/`)
 - **`scripts/audit_prices.mjs`** (3.9 KB)
+- **`scripts/capture-dealer-workspace.mjs`** (3.6 KB)
 - **`scripts/check-env.mjs`** (0.3 KB)
 - **`scripts/export_pricebooks_for_crm.mjs`** (3.0 KB)
-- **`scripts/generate-codebase-doc.mjs`** (9.1 KB)
+- **`scripts/generate-codebase-doc.mjs`** (9.3 KB)
 - **`scripts/get-refresh-token.mjs`** (2.3 KB)
 - **`scripts/make-scheme-pdfs.mjs`** (2.2 KB)
 - **`scripts/sync-all.mjs`** (2.0 KB)

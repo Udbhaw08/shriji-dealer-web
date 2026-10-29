@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **Supabase Database Schema Reference** (2 connections) — `docs/architecture/supabase-schema-reference.md`
-- **supabase-schema-reference.md** (1 connections) — `docs/architecture/supabase-schema-reference.md`
-- **Primary Tables** (1 connections) — `docs/architecture/supabase-schema-reference.md`
+- **Session Security Lifecycle & Token Rotation** (2 connections) — `docs/architecture/session-security-lifecycle.md`
+- **session-security-lifecycle.md** (1 connections) — `docs/architecture/session-security-lifecycle.md`
+- **Token Lifecycles** (1 connections) — `docs/architecture/session-security-lifecycle.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/architecture/supabase-schema-reference.md`
+- `docs/architecture/session-security-lifecycle.md`
 
 ## Audit Trail
 

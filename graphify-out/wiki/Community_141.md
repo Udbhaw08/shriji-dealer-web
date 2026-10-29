@@ -1,41 +1,35 @@
 # Community 141
 
-> 13 nodes · cohesion 0.22
+> 14 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **tf()** (10 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **ef()** (8 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **uf()** (8 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **et()** (7 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **lf()** (7 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **of()** (6 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **sf()** (5 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **cf()** (4 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **jf()** (4 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **vf()** (3 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **Wf()** (3 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **fm()** (2 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **hp()** (2 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **real-repository-proof.test.mjs** (15 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
+- **automaticMcoRoot()** (2 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
+- **artifactPath** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
+- **cli** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
+- **connectionLabelGeometry()** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
+- **evidencePayload()** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
+- **experimentArtifactPath** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
+- **experimentSourcePath** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
+- **pinnedSource** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
+- **repoRoot** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
+- **shareCardPath** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
+- **sourcePath** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (14 shared connections)
-- [[Pricing & Roles Skill]] (5 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (5 shared connections)
-- [[Dependencies & Package Config]] (3 shared connections)
-- [[Community 47]] (3 shared connections)
-- [[Project Readme & Layout]] (3 shared connections)
-- [[Community 70]] (1 shared connections)
-- [[Community 40]] (1 shared connections)
+- [[Community 166]] (3 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- `.agents/skills/archify/test/real-repository-proof.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 69 (100%)
+- EXTRACTED: 29 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -12,11 +12,11 @@
 - **sync-tags.js** (4 connections) — `api/products/sync-tags.js`
 - **getCachedProductTags()** (3 connections) — `api/_lib/zoho.js`
 - **isItemOnline()** (3 connections) — `api/_lib/zoho.js`
+- **slugifyProduct()** (3 connections) — `api/_lib/zoho.js`
 - **handler()** (3 connections) — `api/products/sync-tags.js`
 - **isItemCategoryOnline()** (2 connections) — `api/_lib/zoho.js`
 - **parseRate()** (2 connections) — `api/_lib/zoho.js`
 - **slugifyCategory()** (2 connections) — `api/_lib/zoho.js`
-- **slugifyProduct()** (2 connections) — `api/_lib/zoho.js`
 - **writeTagCache()** (2 connections) — `api/_lib/zoho.js`
 - **cachedPricebooks** (1 connections) — `api/_lib/zoho.js`
 - **cachedProductDetails** (1 connections) — `api/_lib/zoho.js`
@@ -33,12 +33,12 @@
 
 ## Relationships
 
-- [[Community 128]] (13 shared connections)
-- [[Community 356]] (9 shared connections)
-- [[Community 111]] (7 shared connections)
-- [[Community 188]] (4 shared connections)
-- [[Community 86]] (2 shared connections)
-- [[Community 146]] (1 shared connections)
+- [[Community 129]] (13 shared connections)
+- [[Community 356]] (10 shared connections)
+- [[Community 113]] (7 shared connections)
+- [[Community 187]] (4 shared connections)
+- [[Community 85]] (2 shared connections)
+- [[Community 147]] (1 shared connections)
 
 ## Source Files
 
@@ -47,7 +47,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 124 (100%)
+- EXTRACTED: 125 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

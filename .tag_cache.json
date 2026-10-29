@@ -51,15 +51,15 @@
   },
   "3334672000000201324": {
     "tags": [],
-    "lastModified": "1792673931347",
+    "lastModified": "1793270085100",
     "name": "TVL REGULATOR(COMM) YELLOW",
-    "updatedAt": 1792707506980
+    "updatedAt": 1793292778646
   },
   "3334672000000196433": {
     "tags": [],
-    "lastModified": "1793184079677",
+    "lastModified": "1793270085100",
     "name": "3B Thunder GS Sunshine",
-    "updatedAt": 1793220673014
+    "updatedAt": 1793292779207
   },
   "3334672000001709496": {
     "tags": [],
@@ -87,9 +87,9 @@
   },
   "3334672000000195113": {
     "tags": [],
-    "lastModified": "1792668728652",
+    "lastModified": "1793270085100",
     "name": "2B Eon GS Sunshine",
-    "updatedAt": 1792707507211
+    "updatedAt": 1793292777589
   },
   "3334672000000196523": {
     "tags": [],
@@ -105,9 +105,9 @@
   },
   "3334672000000839216": {
     "tags": [],
-    "lastModified": "1792668565945",
+    "lastModified": "1793270085100",
     "name": "2B 073 Janta GS SunJyoti",
-    "updatedAt": 1792707507333
+    "updatedAt": 1793292778114
   },
   "3334672000000195833": {
     "tags": [],
@@ -302,5 +302,11 @@
     "lastModified": "1793184079677",
     "name": "4B Thunder XL GS Sunshine",
     "updatedAt": 1793220674672
+  },
+  "3334672000009384718": {
+    "tags": [],
+    "lastModified": "1793280797424",
+    "name": "AIR FRYER AERO CHEF SUNSHINE 4.5 LT",
+    "updatedAt": 1793292776993
   }
 }

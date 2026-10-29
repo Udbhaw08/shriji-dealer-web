@@ -1,47 +1,54 @@
 # Community 30
 
-> 41 nodes · cohesion 0.05
+> 40 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **scripts** (17 connections) — `package.json`
-- **dependencies** (13 connections) — `package.json`
-- **package.json** (7 connections) — `package.json`
-- **devDependencies** (6 connections) — `package.json`
-- **@capacitor/android** (1 connections) — `package.json`
-- **@capacitor/app** (1 connections) — `package.json`
-- **@capacitor/cli** (1 connections) — `package.json`
-- **@capacitor/core** (1 connections) — `package.json`
-- **@capacitor/ios** (1 connections) — `package.json`
-- **@capacitor/preferences** (1 connections) — `package.json`
-- **dotenv** (1 connections) — `package.json`
-- **jsonwebtoken** (1 connections) — `package.json`
-- **postgres** (1 connections) — `package.json`
-- **react** (1 connections) — `package.json`
-- **react-dom** (1 connections) — `package.json`
-- **react-router-dom** (1 connections) — `package.json`
-- **oxlint** (1 connections) — `package.json`
-- **@types/react** (1 connections) — `package.json`
-- **@types/react-dom** (1 connections) — `package.json`
-- **vite** (1 connections) — `package.json`
-- **@vitejs/plugin-react** (1 connections) — `package.json`
-- **name** (1 connections) — `package.json`
-- **private** (1 connections) — `package.json`
-- **build** (1 connections) — `package.json`
-- **build:backend** (1 connections) — `package.json`
-- *... and 16 more nodes in this community*
+- **get()** (27 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
+- **ff()** (26 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
+- **Tu()** (20 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
+- **fi()** (16 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
+- **gl()** (15 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
+- **uu()** (13 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
+- **lu()** (12 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
+- **delete()** (11 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
+- **vu()** (11 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
+- **hl()** (10 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
+- **ui()** (10 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
+- **zl()** (10 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
+- **ku()** (9 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
+- **mu()** (9 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
+- **wl()** (9 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
+- **Eu()** (8 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
+- **jd()** (8 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
+- **bl()** (7 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
+- **yl()** (7 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
+- **ju()** (6 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
+- **kl()** (6 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
+- **ul()** (6 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
+- **an()** (5 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
+- **gm()** (5 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
+- **nm()** (5 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
+- *... and 15 more nodes in this community*
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Dealer Auth & Session Management]] (58 shared connections)
+- [[Product Pages Specification]] (23 shared connections)
+- [[Client Products Data Store]] (16 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (12 shared connections)
+- [[Mobile Responsive UI Skill]] (11 shared connections)
+- [[Community 42]] (6 shared connections)
+- [[Community 41]] (5 shared connections)
+- [[Community 53]] (2 shared connections)
 
 ## Source Files
 
-- `package.json`
+- `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
 
 ## Audit Trail
 
-- EXTRACTED: 80 (100%)
+- EXTRACTED: 319 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,55 +1,54 @@
 # Client Products Data Store
 
-> 56 nodes · cohesion 0.06
+> 57 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **hash.js** (25 connections) — `backend/src/utils/hash.js`
-- **phase2DealerStaffOnboarding.test.mjs** (17 connections) — `backend/test/phase2DealerStaffOnboarding.test.mjs`
-- **loginCode.js** (17 connections) — `backend/src/utils/loginCode.js`
-- **dealerRegistrationTwoChannel.test.mjs** (15 connections) — `backend/test/dealerRegistrationTwoChannel.test.mjs`
-- **onboardingVerification.test.mjs** (15 connections) — `backend/test/onboardingVerification.test.mjs`
-- **hashOtp()** (10 connections) — `backend/src/utils/hash.js`
-- **verifyOtpHash()** (10 connections) — `backend/src/utils/hash.js`
-- **hash.test.mjs** (9 connections) — `backend/test/hash.test.mjs`
-- **sha256()** (9 connections) — `backend/src/utils/hash.js`
-- **formatLoginCode()** (8 connections) — `backend/src/utils/loginCode.js`
-- **generateLoginCode()** (8 connections) — `backend/src/utils/loginCode.js`
-- **loginCode.test.mjs** (7 connections) — `backend/test/loginCode.test.mjs`
-- **generateOtp()** (5 connections) — `backend/src/utils/hash.js`
-- **hashPassword()** (5 connections) — `backend/src/utils/hash.js`
-- **verifyPassword()** (4 connections) — `backend/src/utils/hash.js`
-- **isValidLoginCode()** (4 connections) — `backend/src/utils/loginCode.js`
-- **parseLoginCode()** (4 connections) — `backend/src/utils/loginCode.js`
-- **scryptKey()** (3 connections) — `backend/src/utils/hash.js`
-- **USER_CATEGORIES** (3 connections) — `backend/src/utils/loginCode.js`
-- **generateCode()** (2 connections) — `backend/src/utils/hash.js`
-- **randomToken()** (2 connections) — `backend/src/utils/hash.js`
-- **generateRandomDigits()** (2 connections) — `backend/src/utils/loginCode.js`
-- **generateRandomLetters()** (2 connections) — `backend/src/utils/loginCode.js`
-- **GST_TREATMENT_OPTIONS** (2 connections) — `backend/src/utils/loginCode.js`
-- **app** (1 connections) — `backend/test/dealerRegistrationTwoChannel.test.mjs`
-- *... and 31 more nodes in this community*
+- **i()** (68 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
+- **ic()** (16 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
+- **Md()** (15 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
+- **s()** (15 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
+- **nc()** (13 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
+- **pa()** (12 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
+- **nl()** (11 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
+- **wc()** (11 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
+- **bi()** (10 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
+- **gs()** (9 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
+- **hh()** (9 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
+- **kd()** (9 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
+- **l()** (9 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
+- **rc()** (9 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
+- **Si()** (9 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
+- **yh()** (9 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
+- **c()** (8 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
+- **co()** (8 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
+- **ha()** (8 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
+- **ec()** (7 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
+- **mh()** (7 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
+- **Mp()** (7 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
+- **oc()** (7 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
+- **qi()** (7 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
+- **yi()** (7 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
+- *... and 32 more nodes in this community*
 
 ## Relationships
 
-- [[Community 36]] (16 shared connections)
-- [[Zoho Integration Skill]] (14 shared connections)
-- [[Community 112]] (2 shared connections)
+- [[Dealer Auth & Session Management]] (71 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (29 shared connections)
+- [[Product Pages Specification]] (23 shared connections)
+- [[Community 41]] (22 shared connections)
+- [[Mobile Responsive UI Skill]] (21 shared connections)
+- [[Community 30]] (16 shared connections)
+- [[Community 53]] (13 shared connections)
+- [[Community 42]] (7 shared connections)
 
 ## Source Files
 
-- `backend/src/utils/hash.js`
-- `backend/src/utils/loginCode.js`
-- `backend/test/dealerRegistrationTwoChannel.test.mjs`
-- `backend/test/hash.test.mjs`
-- `backend/test/loginCode.test.mjs`
-- `backend/test/onboardingVerification.test.mjs`
-- `backend/test/phase2DealerStaffOnboarding.test.mjs`
+- `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
 
 ## Audit Trail
 
-- EXTRACTED: 220 (100%)
+- EXTRACTED: 444 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

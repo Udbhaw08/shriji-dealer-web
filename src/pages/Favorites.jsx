@@ -1,22 +1,16 @@
-import { useMemo, useState } from "react";
+import { useMemo } from "react";
 import { Link } from "react-router-dom";
 import { useProducts } from "../data/productsStore";
 import { useFavorites } from "../data/favoritesStore";
 import { useLanguage } from "../data/i18n";
-import { useSession } from "../data/session";
 import { Icon } from "../ui";
-import { COMPANY } from "../data/site";
-import { priceFor, inr, dealerById } from "../data/dealer";
+import { priceFor, inr } from "../data/dealer";
 import ProductCard from "../components/ProductCard";
 
 export default function Favorites() {
   const { products: PRODUCTS, loaded } = useProducts();
   const { favorites, clearFavorites } = useFavorites();
   const { t } = useLanguage();
-  const session = useSession();
-  const [copiedShareLink, setCopiedShareLink] = useState(false);
-
-  const currentDealer = session.dealerId ? dealerById(session.dealerId) : null;
 
   // Resolve favorited products in the order they were saved
   const favoritedProducts = useMemo(() => {
@@ -74,36 +68,6 @@ export default function Favorites() {
 
     return { totalRate, totalMrp, hasDealerRates };
   }, [favoritedProducts]);
-
-  const handleWhatsAppEnquiry = () => {
-    if (!favoritedProducts.length) return;
-
-    const dealerName = currentDealer?.name ? `Dealer: ${currentDealer.name} (${currentDealer.phone || ""})\n` : "";
-    const lines = favoritedProducts.map((p, i) => {
-      const { mrp, dealer } = priceFor(p);
-      const priceStr = dealer > 0 ? `Rate: ${inr(dealer)}` : mrp > 0 ? `MRP: ${inr(mrp)}` : "Price on Request";
-      return `${i + 1}. Sunshine ${p.model || p.name} (${p.catLabel || p.cat || "Appliance"}) - ${priceStr}`;
-    });
-
-    const text = `Hello Shriji Domestic, I would like to enquire about my saved products shortlist (${favoritedProducts.length} items):\n\n${dealerName}${lines.join(
-      "\n"
-    )}\n\nPlease share current inventory availability and wholesale delivery schedule.`;
-
-    const url = `https://wa.me/${COMPANY.phoneRaw}?text=${encodeURIComponent(text)}`;
-    window.open(url, "_blank", "noopener,noreferrer");
-  };
-
-  const handleShareShortlist = async () => {
-    if (!favorites.length) return;
-    const shareUrl = `${window.location.origin}/products?saved=true`;
-    try {
-      await navigator.clipboard.writeText(shareUrl);
-      setCopiedShareLink(true);
-      setTimeout(() => setCopiedShareLink(false), 2400);
-    } catch {
-      /* clipboard blocked */
-    }
-  };
 
   const CATEGORIES_LIST = [
     {
@@ -165,28 +129,6 @@ export default function Favorites() {
                 <div className="fav-hero-actions">
                   <button
                     type="button"
-                    className="btn btn-wa"
-                    onClick={handleWhatsAppEnquiry}
-                    aria-label="Enquire for all saved products on WhatsApp"
-                    style={{ minHeight: 44, padding: "0 18px", borderRadius: 12, fontWeight: 700 }}
-                  >
-                    <Icon name="wa" size={18} />
-                    <span>WhatsApp Order ({favoritedProducts.length})</span>
-                  </button>
-
-                  <button
-                    type="button"
-                    className="btn btn-ghost"
-                    onClick={handleShareShortlist}
-                    title="Share shortlist link"
-                    style={{ minHeight: 44, padding: "0 14px", borderRadius: 12 }}
-                  >
-                    <span className="material-symbols-outlined" style={{ fontSize: 18 }}>share</span>
-                    <span>{copiedShareLink ? "Copied Link!" : "Share"}</span>
-                  </button>
-
-                  <button
-                    type="button"
                     className="btn btn-ghost"
                     onClick={() => {
                       if (window.confirm("Are you sure you want to clear all your saved favorites?")) {
@@ -238,7 +180,7 @@ export default function Favorites() {
 
                 <p className="fav-empty-desc">
                   {t("favorites_empty_sub") ||
-                    "Bookmark your top Sunshine appliances while browsing the catalog for quick wholesale pricing comparisons, instant client sharing, and 1-tap WhatsApp bulk orders."}
+                    "Bookmark your top Sunshine appliances while browsing the catalog for quick wholesale pricing comparisons and shortlisted model review."}
                 </p>
 
                 <div className="fav-empty-ctas">
@@ -360,16 +302,6 @@ export default function Favorites() {
                 </div>
 
                 <div style={{ display: "flex", alignItems: "center", gap: 10, flexWrap: "wrap" }}>
-                  <button
-                    type="button"
-                    className="btn btn-wa btn-sm"
-                    onClick={handleWhatsAppEnquiry}
-                    style={{ fontWeight: 700, borderRadius: 10 }}
-                  >
-                    <Icon name="wa" size={16} />
-                    <span>WhatsApp Order Quote</span>
-                  </button>
-
                   <Link to="/products" className="btn btn-ghost btn-sm" style={{ borderRadius: 10 }}>
                     <span className="material-symbols-outlined" style={{ fontSize: 16 }}>add</span>
                     <span>Add More</span>
@@ -387,16 +319,6 @@ export default function Favorites() {
           )}
         </div>
       </section>
-
-      {/* Share Toast Notification */}
-      {copiedShareLink && (
-        <div className="fav-share-toast">
-          <span className="material-symbols-outlined fill-1" style={{ fontSize: 18, color: "#86efac" }}>
-            check_circle
-          </span>
-          <span>Shortlist link copied to clipboard!</span>
-        </div>
-      )}
     </div>
   );
 }

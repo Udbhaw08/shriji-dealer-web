@@ -4,25 +4,26 @@
 
 ## Key Concepts
 
-- **semantic-zoom.test.mjs** (6 connections) — `.agents/skills/archify/test/semantic-zoom.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/semantic-zoom.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/semantic-zoom.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/semantic-zoom.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/semantic-zoom.test.mjs`
-- **svg()** (1 connections) — `.agents/skills/archify/test/semantic-zoom.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/semantic-zoom.test.mjs`
+- **settled-flow.test.mjs** (8 connections) — `.agents/skills/archify/test/settled-flow.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/settled-flow.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/settled-flow.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/settled-flow.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/settled-flow.test.mjs`
+- **template** (1 connections) — `.agents/skills/archify/test/settled-flow.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/settled-flow.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Zoho Backend & Proxy Endpoints]] (1 shared connections)
+- [[Community 31]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/semantic-zoom.test.mjs`
+- `.agents/skills/archify/test/settled-flow.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

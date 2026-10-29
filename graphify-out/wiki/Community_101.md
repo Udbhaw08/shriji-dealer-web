@@ -25,11 +25,11 @@
 
 ## Relationships
 
-- [[Community 42]] (4 shared connections)
-- [[Pricing Regression Test Suite]] (4 shared connections)
-- [[Community 72]] (3 shared connections)
-- [[Community 117]] (2 shared connections)
-- [[Community 210]] (2 shared connections)
+- [[Community 40]] (4 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (4 shared connections)
+- [[Community 71]] (3 shared connections)
+- [[Community 119]] (2 shared connections)
+- [[Community 208]] (2 shared connections)
 
 ## Source Files
 

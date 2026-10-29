@@ -12,7 +12,7 @@
 
 ## Relationships
 
-- [[Community 51]] (1 shared connections)
+- [[Product Requirements Documentation]] (1 shared connections)
 
 ## Source Files
 

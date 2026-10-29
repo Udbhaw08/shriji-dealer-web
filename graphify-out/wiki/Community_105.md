@@ -1,38 +1,45 @@
 # Community 105
 
-> 17 nodes · cohesion 0.12
+> 17 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **HIG reference lookup** (16 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
-- **hig-lookup.md** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
-- **Components › Content** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
-- **Components › Layout and organization** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
-- **Components › Menus and actions** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
-- **Components › Navigation and search** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
-- **Components › Presentation** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
-- **Components › Selection and input** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
-- **Components › Status** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
-- **Components › System experiences** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
-- **Curated guides** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
-- **Foundations** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
-- **Getting started** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
-- **Inputs** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
-- **Pages Apple publishes that are not included** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
-- **Patterns** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
-- **Technologies** (1 connections) — `.agents/skills/apple-design/references/hig-lookup.md`
+- **Ti()** (14 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
+- **gc()** (11 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
+- **kc()** (8 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
+- **ki()** (8 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
+- **za()** (7 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
+- **Ai()** (6 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
+- **Oi()** (6 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
+- **qc()** (6 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
+- **Mi()** (5 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
+- **La()** (4 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
+- **pc()** (4 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
+- **Pi()** (4 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
+- **Uc()** (4 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
+- **di()** (3 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
+- **ji()** (3 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
+- **to()** (3 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
+- **Ni()** (2 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Price Presentation & Product UI]] (18 shared connections)
+- [[Product Brand & Business Vision]] (10 shared connections)
+- [[Zoho Integration Architecture]] (10 shared connections)
+- [[Community 32]] (5 shared connections)
+- [[Community 76]] (4 shared connections)
+- [[Dependencies & Package Config]] (3 shared connections)
+- [[Oxlint Linter Configuration]] (2 shared connections)
+- [[Pricing Regression Test Suite]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig-lookup.md`
+- `ios/App/App/public/assets/index-3OpJEkTN.js`
 
 ## Audit Trail
 
-- EXTRACTED: 32 (100%)
+- EXTRACTED: 98 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

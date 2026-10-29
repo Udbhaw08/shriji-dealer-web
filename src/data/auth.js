@@ -314,8 +314,9 @@ export async function verifyPhoneOtp(phone, code) {
   return data;
 }
 
-export async function fetchMe() {
-  const res = await callBackend("/api/auth/me");
+export async function fetchMe(force = false) {
+  const url = force ? "/api/auth/me?refresh=true" : "/api/auth/me";
+  const res = await callBackend(url);
   if (res.status === 401) return null;
   const data = await res.json();
   if (!res.ok) throw new Error(data.error || "Could not load session");
@@ -402,7 +403,9 @@ export async function staffList() {
   const res = await callBackend("/api/dealers/staff");
   const data = await res.json();
   if (!res.ok) throw new Error(data.error || "Could not load staff");
-  return data.staff || [];
+  const list = data.staff || [];
+  list.hide_staff_dealer_price = Boolean(data.hide_staff_dealer_price);
+  return list;
 }
 
 export async function staffApprove(userId) {
@@ -534,8 +537,10 @@ export function sessionFromAuth(user, dealer) {
           id: dealer.id,
           name: dealer.business_name,
           person: dealer.contact_name || dealer.person || null,
-          city: dealer.city || null,
+          city: dealer.city || (dealer.address ? dealer.address.split(',').map(s => s.trim()).filter(s => s && !/^\d+$/.test(s))[1] || dealer.address.split(',')[0]?.trim() : null) || null,
           state: dealer.state || null,
+          address: dealer.address || null,
+          pincode: dealer.pincode || dealer.pin || null,
           phone: dealer.phone || null,
           status: dealerStatus,
           dealer_code: dealer.dealer_code,

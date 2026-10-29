@@ -18,7 +18,7 @@
 
 ## Relationships
 
-- [[Community 237]] (3 shared connections)
+- [[Community 236]] (3 shared connections)
 - [[Community 397]] (1 shared connections)
 - [[Community 178]] (1 shared connections)
 

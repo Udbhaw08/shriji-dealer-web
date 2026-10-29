@@ -1,48 +1,42 @@
 # Community 77
 
-> 22 nodes · cohesion 0.09
+> 21 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **$defs** (16 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **id** (3 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **animation** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **brandMark** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **componentType** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **legendMode** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **locale** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **qualityProfile** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **side** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **variant** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **visualPreset** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **oneOf** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **pattern** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **Machine learning** (15 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
+- **The role of machine learning in your app** (6 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
+- **machine-learning.md** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
+- **Attribution** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
+- **Calibration** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
+- **Confidence** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
+- **Corrections** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
+- **Critical or complementary** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
+- **Dynamic or static** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
+- **Explicit feedback** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
+- **Implicit feedback** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
+- **Limitations** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
+- **Mistakes** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
+- **Multiple options** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
+- **Planning your design** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
+- **Private or public** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
+- **Proactive or reactive** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
+- **Visible or invisible** (1 connections) — `.agents/skills/apple-design/references/hig/machine-learning.md`
 
 ## Relationships
 
-- [[Community 419]] (1 shared connections)
-- [[Community 237]] (1 shared connections)
-- [[Community 472]] (1 shared connections)
-- [[Community 178]] (1 shared connections)
-- [[Community 361]] (1 shared connections)
-- [[Community 473]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/common.schema.json`
+- `.agents/skills/apple-design/references/hig/machine-learning.md`
 
 ## Audit Trail
 
-- EXTRACTED: 48 (100%)
+- EXTRACTED: 40 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

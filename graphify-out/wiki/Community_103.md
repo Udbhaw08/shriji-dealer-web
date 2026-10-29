@@ -24,7 +24,7 @@
 
 ## Relationships
 
-- [[Architecture Doc Generator]] (3 shared connections)
+- [[Community 45]] (3 shared connections)
 
 ## Source Files
 

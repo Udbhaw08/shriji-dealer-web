@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **Session Security Lifecycle & Token Rotation** (2 connections) — `docs/architecture/session-security-lifecycle.md`
-- **session-security-lifecycle.md** (1 connections) — `docs/architecture/session-security-lifecycle.md`
-- **Token Lifecycles** (1 connections) — `docs/architecture/session-security-lifecycle.md`
+- **Portal Access Gate Specification** (2 connections) — `docs/architecture/portal-gate-specification.md`
+- **portal-gate-specification.md** (1 connections) — `docs/architecture/portal-gate-specification.md`
+- **Gating Mechanism** (1 connections) — `docs/architecture/portal-gate-specification.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/architecture/session-security-lifecycle.md`
+- `docs/architecture/portal-gate-specification.md`
 
 ## Audit Trail
 

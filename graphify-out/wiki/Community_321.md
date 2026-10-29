@@ -1,28 +1,31 @@
 # Community 321
 
-> 7 nodes · cohesion 0.29
+> 7 nodes · cohesion 0.38
 
 ## Key Concepts
 
-- **lifecycle.schema.json** (7 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **$id** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **required** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **$schema** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **title** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **reset-test-users.js** (11 connections) — `backend/scripts/reset-test-users.js`
+- **runReset()** (5 connections) — `backend/scripts/reset-test-users.js`
+- **deleteCrmRecords()** (2 connections) — `backend/scripts/reset-test-users.js`
+- **searchCrmRecordIds()** (2 connections) — `backend/scripts/reset-test-users.js`
+- **args** (1 connections) — `backend/scripts/reset-test-users.js`
+- **customNumbers** (1 connections) — `backend/scripts/reset-test-users.js`
+- **isDryRun** (1 connections) — `backend/scripts/reset-test-users.js`
 
 ## Relationships
 
-- [[Community 124]] (1 shared connections)
+- [[Community 37]] (3 shared connections)
+- [[Zoho Integration Skill]] (2 shared connections)
+- [[Graphify Knowledge Graph Skill]] (1 shared connections)
+- [[Community 109]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/lifecycle.schema.json`
+- `backend/scripts/reset-test-users.js`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (100%)
+- EXTRACTED: 23 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

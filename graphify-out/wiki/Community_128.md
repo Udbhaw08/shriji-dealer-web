@@ -1,40 +1,48 @@
 # Community 128
 
-> 14 nodes · cohesion 0.24
+> 14 nodes · cohesion 0.19
 
 ## Key Concepts
 
-- **getZohoConfig()** (10 connections) — `api/_lib/zoho.js`
-- **createDealerContact()** (9 connections) — `api/_lib/zoho.js`
-- **fetchZohoWithRetry()** (9 connections) — `api/_lib/zoho.js`
-- **fetchAllRawZohoProducts()** (6 connections) — `api/_lib/zoho.js`
-- **getAccessToken()** (6 connections) — `api/_lib/zoho.js`
-- **fetchZohoPricebooks()** (4 connections) — `api/_lib/zoho.js`
-- **fetchZohoRawCategories()** (4 connections) — `api/_lib/zoho.js`
-- **getDealerById()** (4 connections) — `api/_lib/zoho.js`
-- **loadEnv()** (4 connections) — `api/_lib/zoho.js`
-- **test-zoho-api.mjs** (4 connections) — `scripts/test-zoho-api.mjs`
-- **apply.js** (3 connections) — `api/dealer/apply.js`
-- **handler()** (2 connections) — `api/dealer/apply.js`
-- **readDiskCache()** (2 connections) — `api/_lib/zoho.js`
-- **{ dc, orgId }** (1 connections) — `scripts/test-zoho-api.mjs`
+- **findChrome()** (22 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **export-cleanup-browser.test.mjs** (8 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
+- **viewer-identifiers-browser.test.mjs** (7 connections) — `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
+- **evaluate()** (4 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
+- **executable()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **findOnPath()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **load()** (3 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
+- **load()** (3 connections) — `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
+- **run()** (3 connections) — `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
+- **exported()** (2 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
+- **cases** (1 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
+- **cases** (1 connections) — `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
 
 ## Relationships
 
-- [[Community 46]] (13 shared connections)
-- [[Community 356]] (5 shared connections)
-- [[Community 188]] (3 shared connections)
-- [[Community 111]] (3 shared connections)
+- [[Community 52]] (7 shared connections)
+- [[Community 47]] (6 shared connections)
+- [[Community 88]] (2 shared connections)
+- [[Community 62]] (2 shared connections)
+- [[Community 79]] (2 shared connections)
+- [[Community 148]] (1 shared connections)
+- [[Community 149]] (1 shared connections)
+- [[Community 126]] (1 shared connections)
+- [[Community 36]] (1 shared connections)
+- [[Community 183]] (1 shared connections)
+- [[Community 249]] (1 shared connections)
+- [[Community 150]] (1 shared connections)
 
 ## Source Files
 
-- `api/_lib/zoho.js`
-- `api/dealer/apply.js`
-- `scripts/test-zoho-api.mjs`
+- `.agents/skills/archify/bin/visual-check.mjs`
+- `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
+- `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 68 (100%)
+- EXTRACTED: 62 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

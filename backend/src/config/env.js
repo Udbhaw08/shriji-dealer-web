@@ -54,7 +54,7 @@ export const env = {
   },
 
   catalogTtlMinutes: num(process.env.CATALOG_TTL_MINUTES, 60),
-  crmPollMinutes: num(process.env.CRM_POLL_MINUTES, 5),
+  crmPollMinutes: num(process.env.CRM_POLL_MINUTES, 1),
 };
 
 if (!env.databaseUrl) {

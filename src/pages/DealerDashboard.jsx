@@ -2,11 +2,11 @@ import { useEffect, useState } from "react";
 import { Link, useNavigate, Navigate } from "react-router-dom";
 import { useSession, revalidateSession, signOut } from "../data/session";
 import {
+  hasSession,
   staffInvite, staffList, staffApprove, staffHold, staffResume, staffRevoke, staffDelete,
   staffTogglePrice, staffTogglePriceAll,
-  updateDealerCode, syncDealerWithCrm,
+  syncDealerWithCrm,
 } from "../data/auth";
-import { generateLoginCode, formatLoginCode } from "../data/loginCode";
 
 /* Dealer dashboard — Workspace modules, 2x2 Hub menu buttons, store identity,
  * live Zoho CRM sync, and comprehensive staff permissions management.
@@ -21,38 +21,28 @@ export default function DealerDashboard() {
   const [copiedDealerCode, setCopiedDealerCode] = useState(false);
   const [copiedInviteLink, setCopiedInviteLink] = useState(false);
   const [copiedInviteCode, setCopiedInviteCode] = useState(false);
-  const [codeDraft, setCodeDraft] = useState("");
-  const [codeSuccessMsg, setCodeSuccessMsg] = useState("");
   const [actionSuccessMsg, setActionSuccessMsg] = useState("");
   const [activeTab, setActiveTab] = useState("workspace"); // 'workspace' | 'staff'
   const [filter, setFilter] = useState("all"); // 'all' | 'pending' | 'active' | 'hold'
   const [activeModal, setActiveModal] = useState(null); // null | 'invite' | 'details' | 'manage'
   const [crmSyncing, setCrmSyncing] = useState(false);
+  const [hideStaffDealerPrice, setHideStaffDealerPrice] = useState(
+    Boolean(s.dealer?.hide_staff_dealer_price)
+  );
 
-  const saveStoreCode = async (overrideCode) => {
-    const raw = (overrideCode || codeDraft || "").trim();
-    const finalCode = formatLoginCode(raw);
-    setBusy(true);
-    setError("");
-    setCodeSuccessMsg("");
-    try {
-      const res = await updateDealerCode(finalCode);
-      await revalidateSession();
-      setCodeDraft("");
-      setCodeSuccessMsg(res.crm_synced ? "✓ Store Code saved & synced live to Zoho CRM (Accounts & Contacts)!" : "✓ Store Code saved!");
-      setTimeout(() => setCodeSuccessMsg(""), 4500);
-      setActiveModal(null);
-    } catch (err) {
-      setError(err.message || "Failed to save Store Code");
-    } finally {
-      setBusy(false);
+  useEffect(() => {
+    if (s.dealer && typeof s.dealer.hide_staff_dealer_price === "boolean") {
+      setHideStaffDealerPrice(Boolean(s.dealer.hide_staff_dealer_price));
     }
-  };
+  }, [s.dealer?.hide_staff_dealer_price]);
 
   const loadStaff = async (silent = false) => {
     try {
       const list = await staffList();
       setStaff(list);
+      if (typeof list.hide_staff_dealer_price === "boolean") {
+        setHideStaffDealerPrice(list.hide_staff_dealer_price);
+      }
       if (!silent) setError("");
     } catch (err) {
       if (!silent) setError(err.message);
@@ -103,16 +93,20 @@ export default function DealerDashboard() {
     setBusy(true);
     setError("");
     setActionSuccessMsg("");
+    setStaff((prev) =>
+      prev.map((m) => (m.id === userId ? { ...m, can_see_dealer_price: enablePrice } : m))
+    );
     try {
       await staffTogglePrice(userId, enablePrice);
-      await revalidateSession();
-      await loadStaff();
+      await revalidateSession(true);
+      await loadStaff(true);
       const actionText = enablePrice
         ? `✓ Wholesale dealer price unlocked for ${staffName || "staff member"}.`
         : `✓ Wholesale dealer price hidden for ${staffName || "staff member"}. They will now only see retail MRP.`;
       setActionSuccessMsg(actionText);
       setTimeout(() => setActionSuccessMsg(""), 4500);
     } catch (err) {
+      await loadStaff(true);
       setError(err.message || "Failed to update staff wholesale price visibility");
     } finally {
       setBusy(false);
@@ -120,19 +114,24 @@ export default function DealerDashboard() {
   };
 
   const handleToggleAllStaffPrices = async (enablePrice) => {
+    // enablePrice === true  -> Unlock wholesale rates for staff (hide_staff_dealer_price: false)
+    // enablePrice === false -> Hide wholesale rates for staff (hide_staff_dealer_price: true)
+    const nextHidden = !enablePrice;
     setBusy(true);
     setError("");
     setActionSuccessMsg("");
+    setHideStaffDealerPrice(nextHidden);
     try {
       await staffTogglePriceAll(enablePrice);
-      await revalidateSession();
-      await loadStaff();
+      await revalidateSession(true);
+      await loadStaff(true);
       const actionText = enablePrice
         ? "✓ Wholesale dealer pricing unlocked for all store staff members."
         : "✓ Wholesale dealer pricing hidden for all store staff. Staff now see retail MRP.";
       setActionSuccessMsg(actionText);
       setTimeout(() => setActionSuccessMsg(""), 4500);
     } catch (err) {
+      setHideStaffDealerPrice(!nextHidden);
       setError(err.message || "Failed to update all staff wholesale price visibility");
     } finally {
       setBusy(false);
@@ -194,7 +193,25 @@ export default function DealerDashboard() {
     return <Navigate to="/staff" replace />;
   }
 
-  if (s.role !== "dealer" || s.status !== "approved") {
+  // Smooth hydrating state while tokens exist: eliminates "Sign in" gate flash
+  if (hasSession() && (s.role === "guest" || !s.dealer)) {
+    return (
+      <div className="dealer-ws-page" style={{ minHeight: "80vh", display: "flex", alignItems: "center", justifyContent: "center" }}>
+        <div style={{ textAlign: "center" }}>
+          <div style={{ margin: "0 auto 16px", width: 36, height: 36, border: "3px solid #e2e8f0", borderTopColor: "#1d4ed8", borderRadius: "50%", animation: "spin 0.8s linear infinite" }} />
+          <p style={{ color: "#64748b", fontSize: "0.95rem", fontWeight: 600 }}>Loading Dealer Workspace…</p>
+        </div>
+      </div>
+    );
+  }
+
+  if (s.role === "dealer" && (s.status === "pending" || s.dealer?.status === "pending")) {
+    return <Navigate to="/dealer/pending" replace />;
+  }
+
+  const isApprovedDealer = (s.role === "dealer" || s.role === "admin") && (s.status === "approved" || s.status === "active");
+
+  if (!isApprovedDealer) {
     return (
       <section className="sec" style={{ paddingTop: "var(--s6)" }}>
         <div className="wrap" style={{ maxWidth: 560, textAlign: "center" }}>
@@ -319,7 +336,7 @@ export default function DealerDashboard() {
                 <span style={{ color: "#c4c6cd" }}>•</span>
                 <span style={{ display: "inline-flex", alignItems: "center", gap: 4 }}>
                   <span className="material-symbols-outlined" style={{ fontSize: 15 }}>location_on</span>
-                  {s.dealer?.city || s.dealer?.state || "Andheri, Mumbai"}
+                  {[s.dealer?.city, s.dealer?.state].filter(Boolean).join(", ") || s.dealer?.city || s.dealer?.address || "Location on File"}
                 </span>
               </div>
             </div>
@@ -534,80 +551,29 @@ export default function DealerDashboard() {
                 </div>
               </button>
 
-              {/* Button 4: Store Management */}
+              {/* Button 4: Manage Access */}
               <button
                 type="button"
                 className="dealer-hub-card"
-                onClick={() => {
-                  setCodeDraft(dealerCode);
-                  setActiveModal("manage");
-                }}
-                aria-label="Store Management"
+                onClick={() => setActiveModal("manage")}
+                aria-label="Manage Access"
+                id="hubManageAccessBtn"
               >
                 <div className="dealer-hub-top-row">
                   <div className="dealer-hub-icon-tile manage-tile">
-                    <span className="material-symbols-outlined">manage_accounts</span>
+                    <span className="material-symbols-outlined">admin_panel_settings</span>
                   </div>
                   <span className="material-symbols-outlined dealer-hub-arrow">arrow_forward</span>
                 </div>
                 <div className="dealer-hub-body">
-                  <h4 className="dealer-hub-title">Store Management</h4>
-                  <p className="dealer-hub-stat">Tokens &amp; Controls</p>
-                  <p className="dealer-hub-desc">Registration keys &amp; limits</p>
+                  <h4 className="dealer-hub-title">Manage Access</h4>
+                  <p className="dealer-hub-stat">
+                    {hideStaffDealerPrice ? "Rates Hidden (MRP)" : "Rates Active"}
+                  </p>
+                  <p className="dealer-hub-desc">Dealer rates &amp; staff permissions</p>
                 </div>
               </button>
             </div>
-
-            {/* Storewide Dealer Rates Permission Toggle Card */}
-            <section className="dealer-storewide-card">
-              <div className="dealer-storewide-header">
-                <div style={{ display: "flex", alignItems: "center", gap: 10, minWidth: 0 }}>
-                  <div className="dealer-storewide-icon">
-                    <span className="material-symbols-outlined" style={{ fontSize: 22 }}>storefront</span>
-                  </div>
-                  <div style={{ minWidth: 0 }}>
-                    <p style={{ fontSize: 14, fontWeight: 700, color: "#001021", margin: 0 }}>
-                      Storewide Dealer Rates
-                    </p>
-                    <p style={{ fontSize: 13, color: "#43474c", margin: "2px 0 0" }}>
-                      {s.dealer?.hide_staff_dealer_price ? "Hidden for staff (Retail MRP)" : "Visible to authorized staff"}
-                    </p>
-                  </div>
-                </div>
-                <span
-                  style={{
-                    padding: "2px 10px",
-                    borderRadius: 9999,
-                    fontSize: 11,
-                    fontWeight: 600,
-                    backgroundColor: s.dealer?.hide_staff_dealer_price ? "#fef3c7" : "#eceef1",
-                    color: s.dealer?.hide_staff_dealer_price ? "#b45309" : "#31618f",
-                    flexShrink: 0,
-                  }}
-                >
-                  {s.dealer?.hide_staff_dealer_price ? "Hidden" : "Active"}
-                </span>
-              </div>
-
-              <p style={{ fontSize: 13, lineHeight: "19px", color: "#43474c", margin: 0 }}>
-                Staff view wholesale bulk quotes during catalog browsing. Toggle off to limit non-admin screens to retail MRP when interacting with counter walk-ins.
-              </p>
-
-              <button
-                type="button"
-                className="dealer-storewide-btn"
-                onClick={() => handleToggleAllStaffPrices(!s.dealer?.hide_staff_dealer_price)}
-                disabled={busy}
-                id="toggleStorewidePriceBtn"
-              >
-                <span className="material-symbols-outlined" style={{ fontSize: 18 }} id="toggleLockIcon">
-                  {s.dealer?.hide_staff_dealer_price ? "visibility" : "visibility_off"}
-                </span>
-                <span id="toggleLockLabel">
-                  {s.dealer?.hide_staff_dealer_price ? "Show to All Staff" : "Hide for All Staff"}
-                </span>
-              </button>
-            </section>
 
             {/* Temporary 7-Day Invite Code Backup card */}
             <section className="dealer-temp-invite-card">
@@ -822,53 +788,60 @@ export default function DealerDashboard() {
                           </>
                         ) : (
                           <>
+                            {/* Wholesale Price Visibility Toggle */}
                             <button
                               type="button"
-                              className="dealer-staff-btn-primary"
+                              className={isPriceVisible ? "dealer-staff-btn-secondary" : "dealer-staff-btn-primary"}
                               disabled={busy}
-                              onClick={() => handleToggleStaffPrice(m.id, m.can_see_dealer_price === false, m.full_name || m.phone)}
+                              onClick={() => handleToggleStaffPrice(m.id, !isPriceVisible, m.full_name || m.phone)}
+                              title={isPriceVisible ? "Hide dealer wholesale price for this staff member" : "Show dealer wholesale price to this staff member"}
                             >
                               <span className="material-symbols-outlined" style={{ fontSize: 18 }}>
-                                {m.can_see_dealer_price === false ? "visibility" : "visibility_off"}
+                                {isPriceVisible ? "visibility_off" : "visibility"}
                               </span>
-                              <span>{m.can_see_dealer_price === false ? "Turn On Price" : "Hide Price"}</span>
+                              <span>{isPriceVisible ? "Hide Rate" : "Show Rate"}</span>
                             </button>
-                            <button
-                              type="button"
-                              className="dealer-staff-btn-secondary"
-                              onClick={() => setActiveModal("manage")}
-                            >
-                              <span className="material-symbols-outlined" style={{ fontSize: 18 }}>admin_panel_settings</span>
-                              <span>Manage Access</span>
-                            </button>
+
+                            {/* Account Hold / Resume Toggle */}
+                            {m.status === "active" ? (
+                              <button
+                                type="button"
+                                className="dealer-staff-btn-secondary"
+                                disabled={busy}
+                                onClick={() => act(staffHold, m.id, `⏸ Placed ${m.full_name || m.phone} on hold.`)}
+                                title="Temporarily pause staff access"
+                              >
+                                <span className="material-symbols-outlined" style={{ fontSize: 18 }}>pause_circle</span>
+                                <span>Put on Hold</span>
+                              </button>
+                            ) : (
+                              <button
+                                type="button"
+                                className="dealer-staff-btn-primary"
+                                disabled={busy}
+                                onClick={() => act(staffResume, m.id, `▶ Resumed access for ${m.full_name || m.phone}.`)}
+                                title="Resume staff access"
+                              >
+                                <span className="material-symbols-outlined" style={{ fontSize: 18 }}>play_circle</span>
+                                <span>Resume Access</span>
+                              </button>
+                            )}
                           </>
                         )}
                       </div>
 
-                      {/* Sub-actions Row (Put on Hold, Inactivate) */}
+                      {/* Sub-actions Row (Manage Store Access & Inactivate) */}
                       {m.status !== "pending" && (
                         <div className="dealer-staff-footer-row">
-                          {m.status === "active" ? (
-                            <button
-                              type="button"
-                              className="dealer-staff-footer-btn"
-                              disabled={busy}
-                              onClick={() => act(staffHold, m.id, `⏸ Placed ${m.full_name || m.phone} on hold.`)}
-                            >
-                              <span className="material-symbols-outlined" style={{ fontSize: 15 }}>pause_circle</span>
-                              <span>Put on Hold</span>
-                            </button>
-                          ) : m.status === "hold" ? (
-                            <button
-                              type="button"
-                              className="dealer-staff-footer-btn"
-                              disabled={busy}
-                              onClick={() => act(staffResume, m.id, `▶ Resumed access for ${m.full_name || m.phone}.`)}
-                            >
-                              <span className="material-symbols-outlined" style={{ fontSize: 15 }}>play_circle</span>
-                              <span>Resume Access</span>
-                            </button>
-                          ) : null}
+                          <button
+                            type="button"
+                            className="dealer-staff-footer-btn"
+                            onClick={() => setActiveModal("manage")}
+                            title="Open Store Access controls"
+                          >
+                            <span className="material-symbols-outlined" style={{ fontSize: 15 }}>admin_panel_settings</span>
+                            <span>Store Access Rules</span>
+                          </button>
 
                           <button
                             type="button"
@@ -894,31 +867,6 @@ export default function DealerDashboard() {
         )}
       </main>
 
-      {/* Dealer Priority Floating Call Bar */}
-      <aside className="dealer-floating-call-aside">
-        <div className="dealer-floating-call-container">
-          <div className="dealer-floating-call-card">
-            <a className="dealer-floating-call-link" href="tel:+917738369367">
-              <div className="dealer-call-icon-wrap">
-                <span className="material-symbols-outlined" style={{ fontSize: 20 }}>call</span>
-              </div>
-              <div style={{ minWidth: 0 }}>
-                <span style={{ display: "block", fontSize: 13, fontWeight: 700, color: "#ffffff", letterSpacing: "0.02em" }}>
-                  +91 77383 69367
-                </span>
-                <span style={{ display: "block", fontSize: 10, fontWeight: 700, textTransform: "uppercase", color: "#cfe5ff", letterSpacing: "0.05em" }}>
-                  Dealer Priority Desk
-                </span>
-              </div>
-            </a>
-
-            <a className="dealer-call-action-btn" href="tel:+917738369367">
-              <span>Call Desk</span>
-              <span className="material-symbols-outlined" style={{ fontSize: 16 }}>chevron_right</span>
-            </a>
-          </div>
-        </div>
-      </aside>
 
       {/* MODAL 1: INVITE STAFF MODAL */}
       {activeModal === "invite" && (
@@ -1122,99 +1070,281 @@ export default function DealerDashboard() {
         </div>
       )}
 
-      {/* MODAL 3: STORE MANAGEMENT MODAL */}
+      {/* MODAL 3: MANAGE ACCESS MODAL */}
       {activeModal === "manage" && (
         <div className="dealer-modal-overlay" onClick={() => setActiveModal(null)}>
           <div className="dealer-modal-card" onClick={(e) => e.stopPropagation()}>
             <div className="dealer-modal-header">
               <div>
-                <h3 className="dealer-modal-title">Store Management</h3>
+                <h3 className="dealer-modal-title">Manage Store Access</h3>
                 <p className="dealer-modal-subtitle">
-                  Configure store registration codes, tokens, and staff access limits.
+                  Control wholesale dealer rates visibility and staff member permissions.
                 </p>
               </div>
               <button
                 type="button"
                 className="dealer-modal-close-btn"
                 onClick={() => setActiveModal(null)}
+                aria-label="Close"
               >
                 <span className="material-symbols-outlined" style={{ fontSize: 20 }}>close</span>
               </button>
             </div>
 
-            {codeSuccessMsg && (
-              <div
-                style={{
-                  backgroundColor: "#f0fdf4",
-                  border: "1px solid #86efac",
-                  color: "#15803d",
-                  padding: "8px 12px",
-                  borderRadius: 8,
-                  fontSize: 13,
-                  fontWeight: 600,
-                }}
-              >
-                {codeSuccessMsg}
-              </div>
-            )}
+            {/* 1. Master Storewide Dealer Rates Visibility Card */}
+            <div className="dealer-manage-card">
+              <div style={{ display: "flex", alignItems: "flex-start", justifyContent: "space-between", gap: 10 }}>
+                <div style={{ display: "flex", alignItems: "center", gap: 10, minWidth: 0 }}>
+                  <div
+                    style={{
+                      width: 38,
+                      height: 38,
+                      borderRadius: "50%",
+                      backgroundColor: hideStaffDealerPrice ? "#fef3c7" : "#d0e4ff",
+                      color: hideStaffDealerPrice ? "#b45309" : "#1d4ed8",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                      flexShrink: 0,
+                    }}
+                  >
+                    <span className="material-symbols-outlined" style={{ fontSize: 22 }}>
+                      {hideStaffDealerPrice ? "visibility_off" : "storefront"}
+                    </span>
+                  </div>
+                  <div style={{ minWidth: 0 }}>
+                    <p style={{ fontSize: 14, fontWeight: 700, color: "#001021", margin: 0 }}>
+                      Storewide Wholesale Rates
+                    </p>
+                    <p style={{ fontSize: 12, color: "#43474c", margin: "2px 0 0" }}>
+                      {hideStaffDealerPrice ? "Staff view retail MRP only" : "Visible to authorized team members"}
+                    </p>
+                  </div>
+                </div>
 
-            <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
-              <label style={{ fontSize: 12, fontWeight: 700, color: "#43474c", textTransform: "uppercase" }}>
-                Official Dealer Registration Code
-              </label>
-
-              <div style={{ display: "flex", gap: 8 }}>
-                <input
-                  type="text"
-                  value={codeDraft}
-                  onChange={(e) => setCodeDraft(formatLoginCode(e.target.value))}
-                  placeholder="e.g. DE-BKV-8180"
+                <span
                   style={{
-                    flex: 1,
-                    padding: "10px 14px",
-                    borderRadius: 10,
-                    border: "1.5px solid #31618f",
-                    fontSize: 16,
+                    padding: "3px 10px",
+                    borderRadius: 9999,
+                    fontSize: 11,
                     fontWeight: 700,
-                    letterSpacing: "0.06em",
-                    textTransform: "uppercase",
+                    backgroundColor: hideStaffDealerPrice ? "#fef3c7" : "#dcfce7",
+                    color: hideStaffDealerPrice ? "#b45309" : "#15803d",
+                    flexShrink: 0,
                   }}
-                />
-                <button
-                  type="button"
-                  className="dealer-temp-btn"
-                  onClick={() => {
-                    const gen = generateLoginCode("DE");
-                    setCodeDraft(gen);
-                  }}
-                  title="Generate new unique store code"
                 >
-                  <span className="material-symbols-outlined" style={{ fontSize: 16 }}>auto_fix_high</span>
-                  <span>Generate</span>
-                </button>
+                  {hideStaffDealerPrice ? "Rates Hidden" : "Rates Active"}
+                </span>
               </div>
 
-              <p style={{ fontSize: 12, color: "#74777d", margin: 0 }}>
-                Standard format: <b>DE-XXX-0000</b>. Saving this code updates your Store Code in Zoho CRM Accounts and Contacts immediately.
+              <p style={{ fontSize: 12.5, lineHeight: "18px", color: "#43474c", margin: 0 }}>
+                Hide wholesale rates for all staff when using the portal at the sales counter. Staff will browse with retail MRP, protecting wholesale margins in front of walk-in customers.
               </p>
+
+              <button
+                type="button"
+                className={hideStaffDealerPrice ? "dealer-staff-btn-primary" : "dealer-storewide-btn"}
+                style={{
+                  minHeight: 44,
+                  width: "100%",
+                  fontWeight: 700,
+                  backgroundColor: hideStaffDealerPrice ? "#001021" : "#e6e8eb",
+                  color: hideStaffDealerPrice ? "#ffffff" : "#001021",
+                }}
+                onClick={() => handleToggleAllStaffPrices(hideStaffDealerPrice)}
+                disabled={busy}
+                id="toggleStorewidePriceBtn"
+              >
+                <span className="material-symbols-outlined" style={{ fontSize: 19 }}>
+                  {hideStaffDealerPrice ? "visibility" : "visibility_off"}
+                </span>
+                <span>
+                  {hideStaffDealerPrice ? "Make Rates Visible to All Staff" : "Hide Rates for All Staff"}
+                </span>
+              </button>
             </div>
 
-            <div style={{ display: "flex", gap: 8, marginTop: 8 }}>
+            {/* 2. Team Member Permissions & Access Controls (Hold/Resume, Individual Rates) */}
+            <div className="dealer-manage-card">
+              <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
+                <div>
+                  <h4 style={{ fontSize: 13, fontWeight: 700, color: "#001021", margin: 0 }}>
+                    Team Member Permissions
+                  </h4>
+                  <p style={{ fontSize: 12, color: "#64748b", margin: "2px 0 0" }}>
+                    Manage counter staff access, hold accounts, and set rate visibility
+                  </p>
+                </div>
+                <span
+                  style={{
+                    fontSize: 12,
+                    fontWeight: 700,
+                    color: "#31618f",
+                    backgroundColor: "#eceef1",
+                    padding: "2px 8px",
+                    borderRadius: 9999,
+                  }}
+                >
+                  {staff.length} {staff.length === 1 ? "Member" : "Members"}
+                </span>
+              </div>
+
+              {staff.filter((m) => m.status !== "pending").length === 0 ? (
+                <div style={{ textAlign: "center", padding: "16px 8px", background: "#ffffff", borderRadius: 10, border: "1px dashed #cbd5e1" }}>
+                  <p style={{ fontSize: 13, color: "#64748b", margin: 0 }}>
+                    No approved staff members yet.
+                  </p>
+                  <button
+                    type="button"
+                    className="dealer-manage-pill-btn"
+                    style={{ marginTop: 8 }}
+                    onClick={() => {
+                      setActiveModal("invite");
+                    }}
+                  >
+                    <span className="material-symbols-outlined" style={{ fontSize: 16 }}>person_add</span>
+                    <span>Invite Store Staff</span>
+                  </button>
+                </div>
+              ) : (
+                <div className="dealer-manage-staff-list">
+                  {staff.filter((m) => m.status !== "pending").map((m) => {
+                    const isStaffPriceOn = m.can_see_dealer_price !== false && !hideStaffDealerPrice;
+                    const isHold = m.status === "hold";
+
+                    return (
+                      <div key={m.id} className="dealer-manage-staff-item">
+                        <div className="dealer-manage-staff-row">
+                          <div style={{ minWidth: 0 }}>
+                            <span style={{ fontSize: 13, fontWeight: 700, color: "#001021", display: "block" }}>
+                              {m.full_name || "Staff Member"}
+                            </span>
+                            <span style={{ fontSize: 11.5, color: "#64748b" }}>
+                              {m.phone || m.email || "No direct phone"}
+                            </span>
+                          </div>
+
+                          <div style={{ display: "flex", alignItems: "center", gap: 5 }}>
+                            <span
+                              style={{
+                                padding: "1px 7px",
+                                borderRadius: 9999,
+                                fontSize: 10,
+                                fontWeight: 700,
+                                backgroundColor: isHold ? "#fff7ed" : "#f0fdf4",
+                                color: isHold ? "#c2410c" : "#15803d",
+                              }}
+                            >
+                              {isHold ? "On Hold" : "Active"}
+                            </span>
+                            <span
+                              style={{
+                                padding: "1px 7px",
+                                borderRadius: 9999,
+                                fontSize: 10,
+                                fontWeight: 700,
+                                backgroundColor: isStaffPriceOn ? "#eff6ff" : "#f1f5f9",
+                                color: isStaffPriceOn ? "#1d4ed8" : "#64748b",
+                              }}
+                            >
+                              {isStaffPriceOn ? "Rate Visible" : "Rate Hidden"}
+                            </span>
+                          </div>
+                        </div>
+
+                        <div className="dealer-manage-staff-btns">
+                          {/* Hold / Resume Access */}
+                          {m.status === "active" ? (
+                            <button
+                              type="button"
+                              className="dealer-manage-pill-btn btn-hold"
+                              disabled={busy}
+                              onClick={() => act(staffHold, m.id, `⏸ Placed ${m.full_name || m.phone} on hold.`)}
+                              title="Pause this team member's access"
+                            >
+                              <span className="material-symbols-outlined" style={{ fontSize: 15 }}>pause_circle</span>
+                              <span>Put on Hold</span>
+                            </button>
+                          ) : (
+                            <button
+                              type="button"
+                              className="dealer-manage-pill-btn btn-active"
+                              disabled={busy}
+                              onClick={() => act(staffResume, m.id, `▶ Resumed access for ${m.full_name || m.phone}.`)}
+                              title="Resume staff access"
+                            >
+                              <span className="material-symbols-outlined" style={{ fontSize: 15 }}>play_circle</span>
+                              <span>Resume Access</span>
+                            </button>
+                          )}
+
+                          {/* Individual Rate Visibility */}
+                          <button
+                            type="button"
+                            className={`dealer-manage-pill-btn ${!isStaffPriceOn ? "btn-active" : ""}`}
+                            disabled={busy}
+                            onClick={() => handleToggleStaffPrice(m.id, !isStaffPriceOn, m.full_name || m.phone)}
+                            title={isStaffPriceOn ? "Hide wholesale dealer rate" : "Show wholesale dealer rate"}
+                          >
+                            <span className="material-symbols-outlined" style={{ fontSize: 15 }}>
+                              {isStaffPriceOn ? "visibility_off" : "visibility"}
+                            </span>
+                            <span>{isStaffPriceOn ? "Hide Rate" : "Show Rate"}</span>
+                          </button>
+                        </div>
+                      </div>
+                    );
+                  })}
+                </div>
+              )}
+
+              <button
+                type="button"
+                className="dealer-staff-btn-secondary"
+                style={{ minHeight: 38, fontSize: 12.5 }}
+                onClick={() => {
+                  setActiveModal(null);
+                  setActiveTab("staff");
+                }}
+              >
+                <span className="material-symbols-outlined" style={{ fontSize: 17 }}>badge</span>
+                <span>Open Full Team Directory ({staff.length})</span>
+              </button>
+            </div>
+
+            {/* 3. Official Store Code (Fixed & Read-Only) */}
+            <div className="dealer-gst-box" style={{ padding: "12px 14px", backgroundColor: "#f2f4f7" }}>
+              <div style={{ minWidth: 0 }}>
+                <span className="dealer-gst-label">Official Store Code (Permanent)</span>
+                <span style={{ fontSize: 18, fontWeight: 800, color: "#001021", letterSpacing: "0.06em" }}>
+                  {dealerCode}
+                </span>
+                <span style={{ display: "block", fontSize: 11, color: "#64748b", marginTop: 2 }}>
+                  Linked with Zoho CRM Dealership • Cannot be altered
+                </span>
+              </div>
+              <button
+                type="button"
+                className="dealer-copy-btn"
+                onClick={() => copyDealerCode(dealerCode)}
+                title="Copy Official Store Code"
+              >
+                <span className="material-symbols-outlined" style={{ fontSize: 16 }}>
+                  {copiedDealerCode ? "check" : "content_copy"}
+                </span>
+                <span>{copiedDealerCode ? "Copied" : "Copy"}</span>
+              </button>
+            </div>
+
+            {/* Done / Close Button */}
+            <div style={{ display: "flex", gap: 8, marginTop: 4 }}>
               <button
                 type="button"
                 className="dealer-staff-btn-primary"
                 style={{ flex: 1 }}
-                disabled={busy || !codeDraft.trim()}
-                onClick={() => saveStoreCode(codeDraft)}
-              >
-                <span>{busy ? "Saving…" : "Save & Sync to CRM"}</span>
-              </button>
-              <button
-                type="button"
-                className="dealer-staff-btn-secondary"
                 onClick={() => setActiveModal(null)}
               >
-                <span>Cancel</span>
+                <span>Done</span>
               </button>
             </div>
           </div>

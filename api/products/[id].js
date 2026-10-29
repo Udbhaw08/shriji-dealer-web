@@ -34,9 +34,10 @@ export default async function handler(req, res) {
 
     // Server-side authorization check: never trust client-supplied pricebook_id
     const { eligible, pricebookId } = await getDealerPricingEligibility(req);
-    const targetPricebookId = eligible ? (pricebookId || req.query?.pricebook_id || "3334672000000547177") : "3334672000000547177";
+    const targetPricebookId = eligible ? (req.query?.pricebook_id || pricebookId || "3334672000000547177") : "3334672000000547177";
+    const refresh = req.query?.refresh === "true" || req.query?.refresh === "1";
 
-    const rawProduct = await fetchZohoProductById(id, { pricebookId: targetPricebookId });
+    const rawProduct = await fetchZohoProductById(id, { refresh, pricebookId: targetPricebookId });
     if (!rawProduct) {
       return res.status(404).json({ error: "Product not found in Zoho" });
     }

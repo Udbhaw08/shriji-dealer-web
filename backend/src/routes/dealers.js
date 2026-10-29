@@ -157,6 +157,10 @@ async function handleDealerRegistrationFinalize(req, res, next) {
       gst_treatment,
       gst_number,
       address,
+      city,
+      state,
+      pin,
+      pincode,
     } = req.body || {};
 
     const { user, dealer } = await finalizeDealerRegistration({

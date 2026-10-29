@@ -13,7 +13,7 @@
 
 ## Relationships
 
-- [[Zoho API Diagnostic Script]] (1 shared connections)
+- [[Project Readme & Layout]] (1 shared connections)
 
 ## Source Files
 

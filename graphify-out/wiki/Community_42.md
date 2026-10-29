@@ -1,52 +1,55 @@
 # Community 42
 
-> 35 nodes · cohesion 0.16
+> 34 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **archify.mjs** (50 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commandDeliver()** (20 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commandMigrate()** (17 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commandValidate()** (13 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commandRender()** (10 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commandPreview()** (9 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **diagnostic()** (9 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **rendererPath()** (9 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **renderValidatedArchitecture()** (8 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **extractQualityArgs()** (7 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **extractRepoRootArgs()** (7 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **rejectCliArgument()** (7 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **assertEvidenceType()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **checkerDiagnostics()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **rendererEnv()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **rendererFailure()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **reportArtifactFailure()** (5 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **inputDiagnostic()** (4 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **engineeringProfileFromArtifact()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **extractMigrationOptions()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **formatDiagnostics()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **migrationPathDiagnostics()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **migrationReport()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **reportArtifactArgumentFailure()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **reportDeliveryFailure()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- *... and 10 more nodes in this community*
+- **Or()** (27 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
+- **gf()** (21 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
+- **ii()** (10 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
+- **Ar()** (9 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
+- **qr()** (9 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
+- **cu()** (8 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
+- **xr()** (7 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
+- **Fr()** (6 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
+- **mr()** (6 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
+- **Vr()** (6 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
+- **xn()** (6 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
+- **bn()** (5 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
+- **Ir()** (5 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
+- **jr()** (5 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
+- **pr()** (5 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
+- **qf()** (5 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
+- **ur()** (5 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
+- **Yt()** (5 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
+- **zr()** (5 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
+- **br()** (4 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
+- **gr()** (4 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
+- **kt()** (4 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
+- **Ld()** (4 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
+- **Lr()** (4 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
+- **pc()** (4 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
+- *... and 9 more nodes in this community*
 
 ## Relationships
 
-- [[Community 117]] (35 shared connections)
-- [[Community 72]] (4 shared connections)
-- [[Community 101]] (4 shared connections)
-- [[Community 41]] (3 shared connections)
-- [[Graphify Agent Rules]] (1 shared connections)
+- [[Dealer Auth & Session Management]] (40 shared connections)
+- [[Product Pages Specification]] (9 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (9 shared connections)
+- [[Client Products Data Store]] (7 shared connections)
+- [[Community 30]] (6 shared connections)
+- [[Community 41]] (6 shared connections)
+- [[Mobile Responsive UI Skill]] (2 shared connections)
+- [[Community 53]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/bin/archify.mjs`
+- `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
 
 ## Audit Trail
 
-- EXTRACTED: 229 (97%)
-- INFERRED: 6 (3%)
+- EXTRACTED: 204 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

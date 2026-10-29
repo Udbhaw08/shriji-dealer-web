@@ -405,7 +405,7 @@ authRouter.get('/me', jwtAuth, async (req, res, next) => {
     if (dealer?.zoho_account_id && crm.isCrmConfigured()) {
       const last = lastCrmSyncByDealerId.get(dealer.id) || 0;
       const forceRefresh = req.query?.refresh === 'true' || req.query?.force === 'true';
-      const syncInterval = dealer.status === 'pending' ? 15_000 : 60_000;
+      const syncInterval = 15_000; // 15s interval for fast CRM convergence
       if (forceRefresh || Date.now() - last > syncInterval) {
         lastCrmSyncByDealerId.set(dealer.id, Date.now());
         try {

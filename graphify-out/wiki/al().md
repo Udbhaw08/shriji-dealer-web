@@ -1,25 +1,24 @@
 # al()
 
-> God node · 40 connections · `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+> God node · 41 connections · `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
 
-**Community:** [[Graphify Knowledge Graph Skill]]
+**Community:** [[Mobile Responsive UI Skill]]
 
 ## Connections by Relation
 
 ### calls
 - [[i()]] `EXTRACTED`
-- [[ha()]] `EXTRACTED`
-- [[fp()]] `EXTRACTED`
-- [[r()]] `EXTRACTED`
 - [[ga()]] `EXTRACTED`
+- [[fp()]] `EXTRACTED`
 - [[lm()]] `EXTRACTED`
-- [[mo()]] `EXTRACTED`
+- [[r()]] `EXTRACTED`
+- [[Ei()]] `EXTRACTED`
 - [[nl()]] `EXTRACTED`
+- [[ye()]] `EXTRACTED`
 - [[il()]] `EXTRACTED`
 - [[ta()]] `EXTRACTED`
-- [[ve()]] `EXTRACTED`
 - [[aa()]] `EXTRACTED`
-- [[Ei()]] `EXTRACTED`
+- [[ha()]] `EXTRACTED`
 - [[kc()]] `EXTRACTED`
 - [[Sp()]] `EXTRACTED`
 - [[Xd()]] `EXTRACTED`
@@ -27,6 +26,7 @@
 - [[jc()]] `EXTRACTED`
 - [[no()]] `EXTRACTED`
 - [[qi()]] `EXTRACTED`
+- [[sa()]] `EXTRACTED`
 
 ### contains
 - [[_()]] `EXTRACTED`

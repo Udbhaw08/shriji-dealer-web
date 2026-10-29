@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **Multi-Tenant Dealer Schema** (2 connections) — `docs/architecture/multi-tenant-dealer-schema.md`
-- **multi-tenant-dealer-schema.md** (1 connections) — `docs/architecture/multi-tenant-dealer-schema.md`
-- **Workspace Isolation** (1 connections) — `docs/architecture/multi-tenant-dealer-schema.md`
+- **Microservices Decoupled Architecture** (2 connections) — `docs/architecture/microservices-architecture.md`
+- **microservices-architecture.md** (1 connections) — `docs/architecture/microservices-architecture.md`
+- **Overview** (1 connections) — `docs/architecture/microservices-architecture.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/architecture/multi-tenant-dealer-schema.md`
+- `docs/architecture/microservices-architecture.md`
 
 ## Audit Trail
 

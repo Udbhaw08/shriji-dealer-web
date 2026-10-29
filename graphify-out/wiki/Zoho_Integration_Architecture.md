@@ -1,62 +1,55 @@
 # Zoho Integration Architecture
 
-> 56 nodes · cohesion 0.07
+> 60 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **render-lifecycle.mjs** (81 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **utils.mjs** (26 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
-- **i18n.mjs** (21 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **translateMessage()** (21 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **legend.mjs** (21 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
-- **renderLegend()** (14 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
-- **svgAccessibleText()** (13 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **svgRootAttrs()** (13 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **renderDefinitions()** (11 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
-- **resolveLegend()** (10 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
-- **applyTemplate()** (9 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
-- **renderSvg()** (8 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **renderLegend()** (7 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **resolveLocale()** (7 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **renderSvg()** (6 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **renderSvg()** (6 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **renderLegend()** (6 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **renderSvg()** (6 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **legendFootprint()** (6 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
-- **measureLegend()** (6 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
-- **renderLegend()** (5 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **renderBands()** (5 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **renderLegend()** (5 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **relationshipLegendObstacles()** (5 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
-- **componentContext()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- *... and 31 more nodes in this community*
+- **al()** (41 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
+- **fl()** (26 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
+- **U()** (19 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
+- **bc()** (18 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
+- **lm()** (13 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
+- **me()** (13 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
+- **ia()** (12 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
+- **ml()** (11 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
+- **il()** (10 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
+- **pl()** (10 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
+- **ta()** (10 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
+- **be()** (9 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
+- **Se()** (9 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
+- **aa()** (8 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
+- **jo()** (8 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
+- **Sp()** (8 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
+- **Do()** (7 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
+- **hc()** (7 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
+- **jc()** (7 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
+- **no()** (7 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
+- **sa()** (7 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
+- **ao()** (6 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
+- **dc()** (6 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
+- **eo()** (6 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
+- **lh()** (6 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
+- *... and 35 more nodes in this community*
 
 ## Relationships
 
-- [[Product Pages Specification]] (54 shared connections)
-- [[Zoho Backend & Proxy Endpoints]] (51 shared connections)
-- [[Community 62]] (20 shared connections)
-- [[Pricing Regression Test Suite]] (17 shared connections)
-- [[Live Pricing Audit Tool]] (16 shared connections)
-- [[Community 125]] (5 shared connections)
-- [[Graphify Agent Rules]] (2 shared connections)
-- [[Community 291]] (1 shared connections)
+- [[Price Presentation & Product UI]] (69 shared connections)
+- [[Product Brand & Business Vision]] (32 shared connections)
+- [[Pricing Regression Test Suite]] (26 shared connections)
+- [[Dependencies & Package Config]] (21 shared connections)
+- [[Oxlint Linter Configuration]] (14 shared connections)
+- [[Community 76]] (13 shared connections)
+- [[Community 105]] (10 shared connections)
+- [[Community 32]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- `.agents/skills/archify/renderers/shared/cli.mjs`
-- `.agents/skills/archify/renderers/shared/i18n.mjs`
-- `.agents/skills/archify/renderers/shared/legend.mjs`
-- `.agents/skills/archify/renderers/shared/utils.mjs`
+- `ios/App/App/public/assets/index-3OpJEkTN.js`
 
 ## Audit Trail
 
-- EXTRACTED: 369 (99%)
-- INFERRED: 5 (1%)
+- EXTRACTED: 420 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

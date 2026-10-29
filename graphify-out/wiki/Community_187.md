@@ -1,35 +1,34 @@
 # Community 187
 
-> 10 nodes · cohesion 0.29
+> 10 nodes · cohesion 0.42
 
 ## Key Concepts
 
-- **np()** (20 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **mm()** (9 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **jm()** (7 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **om()** (7 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **zm()** (7 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **km()** (4 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **M()** (4 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **Um()** (4 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **jp()** (3 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **Xm()** (3 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **vite.config.js** (19 connections) — `vite.config.js`
+- **zohoApiPlugin()** (12 connections) — `vite.config.js`
+- **og.js** (7 connections) — `api/og.js`
+- **htmlEscape.js** (6 connections) — `api/_lib/htmlEscape.js`
+- **escapeHtml()** (6 connections) — `api/_lib/htmlEscape.js`
+- **sanitizeUrl()** (6 connections) — `api/_lib/htmlEscape.js`
+- **handler()** (5 connections) — `api/og.js`
+- **sanitizeHost()** (4 connections) — `api/_lib/htmlEscape.js`
+- **loadContentService()** (2 connections) — `vite.config.js`
+- **liveAutoSyncPlugin()** (1 connections) — `vite.config.js`
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (10 shared connections)
-- [[Dependencies & Package Config]] (9 shared connections)
-- [[Pricing & Roles Skill]] (7 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (6 shared connections)
-- [[Community 40]] (4 shared connections)
-- [[Community 47]] (2 shared connections)
-- [[Graphify Knowledge Graph Skill]] (2 shared connections)
-- [[Community 70]] (1 shared connections)
-- [[Project Readme & Layout]] (1 shared connections)
+- [[Community 113]] (8 shared connections)
+- [[Community 85]] (8 shared connections)
+- [[Community 46]] (4 shared connections)
+- [[Community 356]] (4 shared connections)
+- [[Community 251]] (3 shared connections)
+- [[Community 129]] (3 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- `api/_lib/htmlEscape.js`
+- `api/og.js`
+- `vite.config.js`
 
 ## Audit Trail
 

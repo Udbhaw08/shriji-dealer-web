@@ -4,15 +4,15 @@
 
 ## Key Concepts
 
-- **Edit menus** (6 connections) — `.agents/skills/apple-design/references/hig/edit-menus.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/edit-menus.md`
-- **edit-menus.md** (1 connections) — `.agents/skills/apple-design/references/hig/edit-menus.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/edit-menus.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/edit-menus.md`
-- **Content** (1 connections) — `.agents/skills/apple-design/references/hig/edit-menus.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/edit-menus.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/edit-menus.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/edit-menus.md`
+- **Materials** (6 connections) — `.agents/skills/apple-design/references/hig/materials.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/materials.md`
+- **materials.md** (1 connections) — `.agents/skills/apple-design/references/hig/materials.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/materials.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/materials.md`
+- **Liquid Glass** (1 connections) — `.agents/skills/apple-design/references/hig/materials.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/materials.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/materials.md`
+- **Standard materials** (1 connections) — `.agents/skills/apple-design/references/hig/materials.md`
 
 ## Relationships
 
@@ -20,7 +20,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/edit-menus.md`
+- `.agents/skills/apple-design/references/hig/materials.md`
 
 ## Audit Trail
 

@@ -1,38 +1,31 @@
 # Community 188
 
-> 10 nodes · cohesion 0.42
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **vite.config.js** (19 connections) — `vite.config.js`
-- **zohoApiPlugin()** (12 connections) — `vite.config.js`
-- **og.js** (7 connections) — `api/og.js`
-- **htmlEscape.js** (6 connections) — `api/_lib/htmlEscape.js`
-- **escapeHtml()** (6 connections) — `api/_lib/htmlEscape.js`
-- **sanitizeUrl()** (6 connections) — `api/_lib/htmlEscape.js`
-- **handler()** (5 connections) — `api/og.js`
-- **sanitizeHost()** (4 connections) — `api/_lib/htmlEscape.js`
-- **loadContentService()** (2 connections) — `vite.config.js`
-- **liveAutoSyncPlugin()** (1 connections) — `vite.config.js`
+- **ROLES-AND-SHARING.md — who sees which price** (9 connections) — `docs/ROLES-AND-SHARING.md`
+- **ROLES-AND-SHARING.md** (1 connections) — `docs/ROLES-AND-SHARING.md`
+- **1. The four viewers** (1 connections) — `docs/ROLES-AND-SHARING.md`
+- **2. The rule, in one function** (1 connections) — `docs/ROLES-AND-SHARING.md`
+- **3. ⚠️ What this is not** (1 connections) — `docs/ROLES-AND-SHARING.md`
+- **4. The share link** (1 connections) — `docs/ROLES-AND-SHARING.md`
+- **5. What the customer sees — `CustomerPrice` in `PriceBlock.jsx`** (1 connections) — `docs/ROLES-AND-SHARING.md`
+- **6. The login flow** (1 connections) — `docs/ROLES-AND-SHARING.md`
+- **7. Also gated** (1 connections) — `docs/ROLES-AND-SHARING.md`
+- **8. Checks** (1 connections) — `docs/ROLES-AND-SHARING.md`
 
 ## Relationships
 
-- [[Community 111]] (8 shared connections)
-- [[Community 86]] (8 shared connections)
-- [[Community 46]] (4 shared connections)
-- [[Community 356]] (4 shared connections)
-- [[Community 253]] (3 shared connections)
-- [[Community 128]] (3 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `api/_lib/htmlEscape.js`
-- `api/og.js`
-- `vite.config.js`
+- `docs/ROLES-AND-SHARING.md`
 
 ## Audit Trail
 
-- EXTRACTED: 68 (100%)
+- EXTRACTED: 18 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { useSession, revalidateSession, signOut } from "../data/session";
+import { hasSession } from "../data/auth";
 import { updateUserProfile, requestEmailOtp, verifyEmailOtp } from "../data/auth";
 import { isValidEmail, isValidName } from "../data/validators";
 import { useFavorites } from "../data/favoritesStore";
@@ -159,6 +160,18 @@ export default function StaffDashboard() {
       setEmailBusy(false);
     }
   };
+
+  // If user has active session tokens in browser, show smooth loading state while hydrating
+  if (hasSession() && (!session || session.role === "guest")) {
+    return (
+      <div style={{ minHeight: "80vh", display: "flex", alignItems: "center", justifyContent: "center" }}>
+        <div style={{ textAlign: "center" }}>
+          <div style={{ margin: "0 auto 16px", width: 36, height: 36, border: "3px solid #e2e8f0", borderTopColor: "#1d4ed8", borderRadius: "50%", animation: "spin 0.8s linear infinite" }} />
+          <p style={{ color: "#64748b", fontSize: "0.95rem", fontWeight: 600 }}>Loading Staff Workspace…</p>
+        </div>
+      </div>
+    );
+  }
 
   // If user is unauthenticated, prompt to log in
   if (!session || session.role === "guest") {

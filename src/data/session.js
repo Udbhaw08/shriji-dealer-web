@@ -81,6 +81,18 @@ export const DEFAULT_AUTH_TOKENS = {
   expiresAt: null,
 };
 
+function decodeJwtPayload(token) {
+  try {
+    if (!token || typeof token !== "string") return null;
+    const parts = token.split(".");
+    if (parts.length < 2) return null;
+    const base64 = parts[1].replace(/-/g, "+").replace(/_/g, "/");
+    return JSON.parse(decodeURIComponent(escape(atob(base64))));
+  } catch {
+    return null;
+  }
+}
+
 function loadCachedSession() {
   if (typeof window === "undefined") return GUEST;
   try {
@@ -99,6 +111,36 @@ function loadCachedSession() {
       }
       if (profile && profile.role) {
         return profile;
+      }
+    }
+
+    // Synchronous JWT pre-hydration: eliminates 100% of frame-0 guest flickers
+    if (rawTokens) {
+      const tokenObj = JSON.parse(rawTokens);
+      const claims = decodeJwtPayload(tokenObj?.accessToken);
+      if (claims && claims.sub) {
+        const isDealerSide = claims.role === "dealer" || claims.role === "dealer_staff" || claims.role === "admin";
+        const fallbackProfile = {
+          role: isDealerSide ? "dealer" : (claims.role || "customer"),
+          status: claims.status === "active" ? "approved" : (claims.status || "approved"),
+          userStatus: claims.status || "active",
+          userId: claims.sub,
+          dealerId: claims.dealer_id || null,
+          authRole: claims.role || "customer",
+          canSeeDealerPrice: claims.can_see_dealer_price !== false,
+          dealer: isDealerSide
+            ? {
+                id: claims.dealer_id || "dealer",
+                name: "Dealership",
+                status: "approved",
+                price_tier: claims.price_tier || null,
+                pricebookId: claims.pricebook_id || claims.price_tier || null,
+              }
+            : null,
+        };
+        if (fallbackProfile.dealer) registerDealer(fallbackProfile.dealer);
+        syncPricebookWithSession(fallbackProfile);
+        return fallbackProfile;
       }
     }
   } catch {}
@@ -198,7 +240,7 @@ let inFlightRevalidate = null;
  * Re-validate against the backend: who am I, and is my dealer approved yet?
  * This is also the pending-approval poll & live staff permissions sync.
  */
-export async function revalidateSession() {
+export async function revalidateSession(force = false) {
   // If user deliberately selected Customer / Viewer mode, preserve it
   if (state?.role === "customer" && state?.userId === "customer-viewer") {
     return state;
@@ -208,11 +250,11 @@ export async function revalidateSession() {
     return state || GUEST;
   }
 
-  if (inFlightRevalidate) return inFlightRevalidate;
+  if (inFlightRevalidate && !force) return inFlightRevalidate;
 
   inFlightRevalidate = (async () => {
     try {
-      const data = await fetchMe();
+      const data = await fetchMe(force);
       if (!data || !data.user) {
         return state || GUEST;
       }
@@ -276,18 +318,18 @@ if (typeof window !== "undefined") {
   // Cross-tab real-time sync via BroadcastChannel
   onAuthBroadcast((msg) => {
     if (msg?.type === "AUTH_UPDATED" || msg?.type === "STAFF_PRICE_TOGGLED" || msg?.type === "STAFF_UPDATED") {
-      revalidateSession();
+      revalidateSession(true);
     }
   });
 
-  // Immediate revalidation on tab focus or visibility change
+  // Immediate forced CRM revalidation on tab focus or visibility change
   window.addEventListener("focus", () => {
-    if (hasSession()) revalidateSession();
+    if (hasSession()) revalidateSession(true);
   });
 
   document.addEventListener("visibilitychange", () => {
     if (document.visibilityState === "visible" && hasSession()) {
-      revalidateSession();
+      revalidateSession(true);
     }
   });
 

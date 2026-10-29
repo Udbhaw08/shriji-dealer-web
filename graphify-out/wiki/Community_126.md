@@ -1,35 +1,40 @@
 # Community 126
 
-> 14 nodes · cohesion 0.23
+> 15 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **web-CRclPuvi.js** (13 connections) — `android/app/src/main/assets/public/assets/web-CRclPuvi.js`
-- **applyPrefix()** (4 connections) — `android/app/src/main/assets/public/assets/web-CRclPuvi.js`
-- **keys()** (4 connections) — `android/app/src/main/assets/public/assets/web-CRclPuvi.js`
-- **get()** (3 connections) — `android/app/src/main/assets/public/assets/web-CRclPuvi.js`
-- **migrate()** (3 connections) — `android/app/src/main/assets/public/assets/web-CRclPuvi.js`
-- **rawKeys()** (3 connections) — `android/app/src/main/assets/public/assets/web-CRclPuvi.js`
-- **clear()** (2 connections) — `android/app/src/main/assets/public/assets/web-CRclPuvi.js`
-- **remove()** (2 connections) — `android/app/src/main/assets/public/assets/web-CRclPuvi.js`
-- **removeOld()** (2 connections) — `android/app/src/main/assets/public/assets/web-CRclPuvi.js`
-- **set()** (2 connections) — `android/app/src/main/assets/public/assets/web-CRclPuvi.js`
-- **configure()** (1 connections) — `android/app/src/main/assets/public/assets/web-CRclPuvi.js`
-- **constructor()** (1 connections) — `android/app/src/main/assets/public/assets/web-CRclPuvi.js`
-- **impl()** (1 connections) — `android/app/src/main/assets/public/assets/web-CRclPuvi.js`
-- **prefix()** (1 connections) — `android/app/src/main/assets/public/assets/web-CRclPuvi.js`
+- **i18n.test.mjs** (20 connections) — `.agents/skills/archify/test/i18n.test.mjs`
+- **catalogKeys()** (2 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **SUPPORTED_LOCALES** (2 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **authoredExample()** (2 connections) — `.agents/skills/archify/test/i18n.test.mjs`
+- **evaluate()** (2 connections) — `.agents/skills/archify/test/i18n.test.mjs`
+- **example()** (2 connections) — `.agents/skills/archify/test/i18n.test.mjs`
+- **loadArtifact()** (2 connections) — `.agents/skills/archify/test/i18n.test.mjs`
+- **AUTHORED_TEXT_KEYS** (1 connections) — `.agents/skills/archify/test/i18n.test.mjs`
+- **cli** (1 connections) — `.agents/skills/archify/test/i18n.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/i18n.test.mjs`
+- **EXAMPLES** (1 connections) — `.agents/skills/archify/test/i18n.test.mjs`
+- **run()** (1 connections) — `.agents/skills/archify/test/i18n.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/i18n.test.mjs`
+- **templatePath** (1 connections) — `.agents/skills/archify/test/i18n.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/i18n.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Zoho Backend & Proxy Endpoints]] (5 shared connections)
+- [[Community 47]] (1 shared connections)
+- [[Community 79]] (1 shared connections)
+- [[Community 128]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/web-CRclPuvi.js`
+- `.agents/skills/archify/renderers/shared/i18n.mjs`
+- `.agents/skills/archify/test/i18n.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 42 (100%)
+- EXTRACTED: 40 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

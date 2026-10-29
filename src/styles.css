@@ -3156,9 +3156,6 @@ h4 {
   padding: var(--s5);
   box-shadow: var(--sh-sm);
 }
-.filters[data-open] {
-  display: block;
-}
 @media (min-width: 960px) {
   .filters {
     display: block;
@@ -3170,6 +3167,11 @@ h4 {
   .filter-btn,
   .done-btn {
     display: none;
+  }
+}
+@media (max-width: 959px) {
+  .filters {
+    display: none !important;
   }
 }
 
@@ -3812,7 +3814,7 @@ h4 {
   /* Eliminate wide top spacing on mobile product detail */
   .product-detail-sec {
     padding-top: 8px !important;
-    padding-bottom: 145px !important;
+    padding-bottom: calc(76px + env(safe-area-inset-bottom, 0px)) !important;
   }
 
   /* Hide desktop search input and breadcrumbs on mobile product detail */
@@ -5722,8 +5724,17 @@ h4 {
   display: flex;
   flex-direction: column;
   overflow: hidden;
+  overflow-x: clip;
+  min-width: 0;
   box-shadow: 0 -10px 40px rgba(16, 38, 58, 0.25);
   animation: slideUp 0.28s var(--ease);
+}
+
+@media (min-width: 960px) {
+  .filters-backdrop,
+  .filters-sheet {
+    display: none !important;
+  }
 }
 
 .sheet-drag-handle {
@@ -5783,8 +5794,10 @@ h4 {
 }
 
 .sheet-close-btn {
-  width: 32px;
-  height: 32px;
+  width: 38px;
+  height: 38px;
+  min-width: 38px;
+  min-height: 38px;
   border-radius: 50%;
   background: var(--bg);
   border: 1px solid var(--line);
@@ -5793,6 +5806,7 @@ h4 {
   color: var(--tx-2);
   cursor: pointer;
   transition: all 0.15s ease;
+  padding: 0;
 }
 
 .sheet-close-btn:hover {
@@ -5803,8 +5817,11 @@ h4 {
 .sheet-body {
   padding: 18px 20px;
   overflow-y: auto;
+  overflow-x: clip;
+  min-width: 0;
   flex: 1;
   -webkit-overflow-scrolling: touch;
+  overscroll-behavior: contain;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -5822,11 +5839,40 @@ h4 {
   justify-content: space-between;
 }
 
+.sheet-sec-title-wrap {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
 .sheet-sec-title {
-  font-size: 0.92rem;
-  font-weight: 700;
+  font-size: 0.94rem;
+  font-weight: 800;
   color: var(--tx);
   margin: 0;
+}
+
+.sheet-sec-badge {
+  background: var(--blue-100);
+  color: var(--blue-ink);
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 1px 7px;
+  border-radius: 999px;
+}
+
+.sheet-sec-clear-btn {
+  background: none;
+  border: none;
+  color: var(--blue-ink);
+  font-size: 0.8rem;
+  font-weight: 700;
+  cursor: pointer;
+  padding: 4px 6px;
+}
+
+.sheet-sec-clear-btn:hover {
+  text-decoration: underline;
 }
 
 .sheet-sec-sub {
@@ -5842,22 +5888,48 @@ h4 {
 }
 
 .sheet-chip {
+  min-height: 40px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
   padding: 8px 14px;
   border-radius: 999px;
-  font-size: 0.82rem;
+  font-size: 0.84rem;
   font-weight: 600;
   border: 1px solid var(--line);
   background: var(--bg);
   color: var(--tx);
   cursor: pointer;
   transition: all 0.15s ease;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.sheet-chip:active {
+  transform: scale(0.97);
 }
 
 .sheet-chip.active {
   background: var(--navy);
   color: #ffffff;
   border-color: var(--navy);
-  box-shadow: 0 2px 8px rgba(16, 38, 58, 0.15);
+  box-shadow: 0 2px 8px rgba(16, 38, 58, 0.18);
+}
+
+.sheet-chip-count {
+  font-size: 0.72rem;
+  font-weight: 700;
+  opacity: 0.75;
+  margin-left: 2px;
+  padding: 1px 6px;
+  border-radius: 999px;
+  background: rgba(0, 0, 0, 0.06);
+}
+
+.sheet-chip.active .sheet-chip-count {
+  background: rgba(255, 255, 255, 0.22);
+  color: #ffffff;
+  opacity: 1;
 }
 
 /* 2-Column Categories Grid (Frame 3) */
@@ -5871,6 +5943,7 @@ h4 {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  min-height: 44px;
   padding: 10px 14px;
   border-radius: 12px;
   border: 1px solid var(--line);
@@ -5880,6 +5953,12 @@ h4 {
   font-weight: 600;
   cursor: pointer;
   transition: all 0.15s ease;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.sheet-cat-card:active {
+  transform: scale(0.98);
 }
 
 .sheet-cat-card.active {
@@ -5887,6 +5966,17 @@ h4 {
   border-color: var(--blue-300);
   color: var(--blue-ink);
   font-weight: 700;
+}
+
+.sheet-cat-name {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.sheet-check-mark {
+  font-weight: 800;
+  color: var(--blue-ink);
 }
 
 .sheet-cat-count {
@@ -5899,7 +5989,8 @@ h4 {
 }
 
 .sheet-cat-card.active .sheet-cat-count {
-  background: rgba(23, 77, 122, 0.12);
+  background: rgba(23, 77, 122, 0.14);
+  color: var(--blue-ink);
   opacity: 1;
 }
 
@@ -6632,9 +6723,7 @@ h4 {
 }
 
 .prod-tax-note {
-  font-size: 0.65rem;
-  color: #94a3b8;
-  font-weight: 500;
+  display: none !important;
 }
 
 .prod-dealer-action.unlocked {
@@ -8618,6 +8707,119 @@ h4 {
 .dealer-temp-btn:active {
   transform: scale(0.95);
 }
+
+/* Manage Access Modal & Staff Controls */
+.dealer-manage-card {
+  background-color: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 14px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+}
+
+.dealer-manage-rates-status {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  padding: 10px 14px;
+  border-radius: 10px;
+  border: 1.5px solid #e2e8f0;
+}
+
+.dealer-manage-rates-status.active {
+  background-color: #f0fdf4;
+  border-color: #bbf7d0;
+  color: #166534;
+}
+
+.dealer-manage-rates-status.hidden {
+  background-color: #fffbeb;
+  border-color: #fde68a;
+  color: #92400e;
+}
+
+.dealer-manage-staff-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+  max-height: 240px;
+  overflow-y: auto;
+  padding-right: 4px;
+}
+
+.dealer-manage-staff-item {
+  background-color: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  padding: 10px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  transition: border-color 0.15s ease;
+}
+
+.dealer-manage-staff-item:hover {
+  border-color: #cbd5e1;
+}
+
+.dealer-manage-staff-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.dealer-manage-staff-btns {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.dealer-manage-pill-btn {
+  min-height: 36px;
+  padding: 0 10px;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  border: 1px solid #e2e8f0;
+  background-color: #ffffff;
+  color: #1e293b;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.dealer-manage-pill-btn:hover {
+  background-color: #f1f5f9;
+  border-color: #cbd5e1;
+}
+
+.dealer-manage-pill-btn:active {
+  transform: scale(0.96);
+}
+
+.dealer-manage-pill-btn.btn-active {
+  background-color: #001021;
+  color: #ffffff;
+  border-color: #001021;
+}
+
+.dealer-manage-pill-btn.btn-hold {
+  background-color: #fff7ed;
+  color: #c2410c;
+  border-color: #fed7aa;
+}
+
+.dealer-manage-pill-btn.btn-hold:hover {
+  background-color: #ffedd5;
+}
+
 
 /* Staff Member Card (Matching Sketch) */
 .dealer-staff-card {

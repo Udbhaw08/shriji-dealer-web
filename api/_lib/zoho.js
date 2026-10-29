@@ -682,8 +682,16 @@ function normalizeProduct(p, livePricebookRates = {}) {
 
   // Extract features
   const features = [];
+  const isGasCategory = catKey === "gas_stoves" || catKey === "hobs" || catKey === "hob_tops" || catKey === "commercial_burners";
+  const hasGasKeyword = lowerName.includes("gas") || lowerName.includes("stove") || lowerName.includes("burner") || lowerName.includes("hob");
   if (lowerName.includes("bldc")) features.push("BLDC Motor");
-  if (lowerName.includes("auto")) features.push("Auto Ignition");
+  if ((lowerName.includes("auto") || lowerName.includes("ignition")) && (isGasCategory || hasGasKeyword)) {
+    features.push("Auto Ignition");
+  } else if (lowerName.includes("auto cut") || lowerName.includes("cut-off") || lowerName.includes("cut off") || catKey === "small_appliances") {
+    features.push("Auto Cut-Off");
+  } else if (lowerName.includes("auto clean") || lowerName.includes("autoclean")) {
+    features.push("Auto Clean");
+  }
   if (lowerName.includes("spill")) features.push("Spill Proof");
   if (lowerName.includes("flame")) features.push("Flame Failure Device");
 
@@ -746,10 +754,14 @@ function normalizeProduct(p, livePricebookRates = {}) {
           !rawLabel ||
           /^tile\s*icon\s*text\s*\d*$/i.test(rawLabel) ||
           /^feature\s*\d*$/i.test(rawLabel);
+        let cleanTileText = text;
+        if (cleanTileText.toLowerCase().includes("ignition") && !isGasCategory && !hasGasKeyword) {
+          cleanTileText = "Auto Cut-Off";
+        }
         tileIcons.push({
           index: i,
           image: imgUrl,
-          text,
+          text: cleanTileText,
           label: isPlaceholderLabel ? "" : rawLabel,
         });
       }
@@ -1192,7 +1204,7 @@ export async function fetchZohoProducts({ refresh = false, pricebookId = "333467
   const now = Date.now();
 
   const cachedEntry = cachedProductsByPricebook.get(pbId);
-  if (!refresh && cachedEntry && cachedEntry.products?.length > 0 && now - cachedEntry.time < 600000) {
+  if (!refresh && cachedEntry && cachedEntry.products?.length > 0 && now - cachedEntry.time < 120000) {
     return cachedEntry.products;
   }
 
@@ -1220,13 +1232,20 @@ export async function fetchZohoProducts({ refresh = false, pricebookId = "333467
   const listToNormalize = activeProducts.length > 0 ? activeProducts : allProducts;
 
   // 3. Normalize products with this specific pricebook's wholesale rates
+  const detailCache = readProductDetailsDiskCache();
   const normalized = listToNormalize.map((p) => {
-    // If product is already normalized (e.g. from disk cache), attach rate
+    let item;
     if (p.slug && p.cat && p.mrp !== undefined) {
       const rate = livePricebookRates[p.id] ?? p.dealerRate;
-      return { ...p, dealerRate: rate };
+      item = { ...p, dealerRate: rate };
+    } else {
+      item = normalizeProduct(p, livePricebookRates);
     }
-    return normalizeProduct(p, livePricebookRates);
+    const cachedDetail = detailCache[item.id]?.product || detailCache[item.slug]?.product;
+    if (cachedDetail?.tileIcons?.length && (!item.tileIcons || item.tileIcons.length === 0)) {
+      item.tileIcons = cachedDetail.tileIcons;
+    }
+    return item;
   });
 
   if (normalized.length > 0) {
@@ -1237,7 +1256,7 @@ export async function fetchZohoProducts({ refresh = false, pricebookId = "333467
   return normalized;
 }
 
-export async function fetchZohoProductById(identifier, { pricebookId = "3334672000000547177" } = {}) {
+export async function fetchZohoProductById(identifier, { refresh = false, pricebookId = "3334672000000547177" } = {}) {
   if (!identifier) return null;
   const resolvedId = await resolvePricebookId(pricebookId);
   const pbId = String(resolvedId || "3334672000000547177").trim();
@@ -1246,26 +1265,32 @@ export async function fetchZohoProductById(identifier, { pricebookId = "33346720
 
   let targetId = clean;
   const isNumericId = /^\d+$/.test(clean);
+  const slugifiedClean = slugifyProduct(clean);
 
   // 1. Check persistent details disk cache first (instant response & 0 Zoho API calls!)
   const diskDetails = readProductDetailsDiskCache();
-  if (diskDetails[clean]?.product) {
-    const cachedProd = diskDetails[clean].product;
-    const liveRates = await fetchResolvedPricebookRates(pbId);
+  if (!refresh && (diskDetails[clean]?.product || (slugifiedClean && diskDetails[slugifiedClean]?.product))) {
+    const cachedProd = diskDetails[clean]?.product || diskDetails[slugifiedClean]?.product;
+    const liveRates = await fetchResolvedPricebookRates(pbId, { refresh });
     const targetKey = cachedProd.id || clean;
     const resolvedRate = liveRates[targetKey] ?? null;
     return { ...cachedProd, dealerRate: resolvedRate };
   }
 
   // 2. Find matching product in catalog
-  const all = await fetchZohoProducts({ pricebookId: pbId });
+  const all = await fetchZohoProducts({ refresh, pricebookId: pbId });
   const match = all.find(
     (p) =>
       p.id === clean ||
       p.slug === clean ||
+      p.slug === slugifiedClean ||
       slugifyProduct(p.name) === clean ||
+      slugifyProduct(p.name) === slugifiedClean ||
       slugifyProduct(p.model) === clean ||
-      slugifyProduct(p.zohoTitle) === clean
+      slugifyProduct(p.model) === slugifiedClean ||
+      slugifyProduct(p.zohoTitle) === clean ||
+      slugifyProduct(p.zohoTitle) === slugifiedClean ||
+      (p.name && p.name.toLowerCase() === clean.toLowerCase())
   );
 
   if (match) {
@@ -1276,13 +1301,14 @@ export async function fetchZohoProductById(identifier, { pricebookId = "33346720
 
   // 3. Check memory & disk detail cache for targetId
   const detailCacheKey = `${targetId}:${pbId}`;
+  if (refresh) cachedProductDetails.delete(detailCacheKey);
   const cachedDetail = cachedProductDetails.get(detailCacheKey);
-  if (cachedDetail && now - cachedDetail.time < 600000) {
+  if (!refresh && cachedDetail && now - cachedDetail.time < 600000) {
     return cachedDetail.product;
   }
-  if (diskDetails[targetId]?.product) {
+  if (!refresh && diskDetails[targetId]?.product) {
     const cachedProd = diskDetails[targetId].product;
-    const liveRates = await fetchResolvedPricebookRates(pbId);
+    const liveRates = await fetchResolvedPricebookRates(pbId, { refresh });
     const resolvedRate = liveRates[targetId] ?? null;
     return { ...cachedProd, dealerRate: resolvedRate };
   }
@@ -1302,7 +1328,7 @@ export async function fetchZohoProductById(identifier, { pricebookId = "33346720
           "X-com-zoho-store-organizationid": orgId,
         },
       }),
-      fetchResolvedPricebookRates(pbId),
+      fetchResolvedPricebookRates(pbId, { refresh }),
     ]);
 
     if (res.status === 429) {

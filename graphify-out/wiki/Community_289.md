@@ -1,29 +1,30 @@
 # Community 289
 
-> 8 nodes · cohesion 0.25
+> 8 nodes · cohesion 0.32
 
 ## Key Concepts
 
-- **route-share-card.test.mjs** (7 connections) — `.agents/skills/archify/test/route-share-card.test.mjs`
-- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/route-share-card.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/route-share-card.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/route-share-card.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/route-share-card.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/route-share-card.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/route-share-card.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/route-share-card.test.mjs`
+- **sequence-column-fit.test.mjs** (9 connections) — `.agents/skills/archify/test/sequence-column-fit.test.mjs`
+- **labelledSequence()** (2 connections) — `.agents/skills/archify/test/sequence-column-fit.test.mjs`
+- **render()** (2 connections) — `.agents/skills/archify/test/sequence-column-fit.test.mjs`
+- **renderOutcome()** (2 connections) — `.agents/skills/archify/test/sequence-column-fit.test.mjs`
+- **wideSequence()** (2 connections) — `.agents/skills/archify/test/sequence-column-fit.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/sequence-column-fit.test.mjs`
+- **participantBoxes()** (1 connections) — `.agents/skills/archify/test/sequence-column-fit.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/sequence-column-fit.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Zoho Backend & Proxy Endpoints]] (1 shared connections)
+- [[Community 61]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/route-share-card.test.mjs`
+- `.agents/skills/archify/test/sequence-column-fit.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
+- EXTRACTED: 20 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

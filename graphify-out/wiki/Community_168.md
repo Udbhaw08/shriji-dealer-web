@@ -18,10 +18,10 @@
 
 ## Relationships
 
-- [[Architecture Doc Generator]] (8 shared connections)
-- [[Claude Agent Instructions]] (5 shared connections)
-- [[Community 51]] (3 shared connections)
-- [[Oxlint Linter Configuration]] (1 shared connections)
+- [[Product Requirements Documentation]] (12 shared connections)
+- [[Community 45]] (3 shared connections)
+- [[Community 214]] (1 shared connections)
+- [[Roles & Customer Sharing Spec]] (1 shared connections)
 
 ## Source Files
 
