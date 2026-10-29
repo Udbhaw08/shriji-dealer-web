@@ -222,7 +222,11 @@ export function viewerFor(session, fromId, searchParams) {
   }
 
   const me = isDealer(session)
-    ? { ...(dealerById(session?.dealerId) || {}), ...(session?.dealer || {}) }
+    ? {
+        ...(dealerById(session?.dealerId) || {}),
+        ...(session?.dealer || {}),
+        phone: session?.dealer?.phone || session?.phone || (dealerById(session?.dealerId)?.phone) || "",
+      }
     : null;
 
   return { sharedBy, me, customerView: Boolean(fromId) || Boolean(sharedBy) || !me };

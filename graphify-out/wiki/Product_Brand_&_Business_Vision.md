@@ -1,54 +1,55 @@
 # Product Brand & Business Vision
 
-> 56 nodes · cohesion 0.08
+> 56 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **i()** (68 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
-- **yc()** (21 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
-- **ic()** (16 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
-- **Md()** (15 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
-- **s()** (15 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
-- **nc()** (13 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
-- **pa()** (12 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
-- **nl()** (11 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
-- **wc()** (11 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
-- **bi()** (10 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
-- **gs()** (9 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
-- **hh()** (9 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
-- **kd()** (9 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
-- **rc()** (9 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
-- **Si()** (9 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
-- **yh()** (9 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
-- **c()** (8 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
-- **co()** (8 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
-- **ha()** (8 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
-- **ec()** (7 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
-- **mh()** (7 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
-- **Mp()** (7 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
-- **oc()** (7 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
-- **qi()** (7 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
-- **yi()** (7 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
+- **hash.js** (25 connections) — `backend/src/utils/hash.js`
+- **phase2DealerStaffOnboarding.test.mjs** (17 connections) — `backend/test/phase2DealerStaffOnboarding.test.mjs`
+- **loginCode.js** (17 connections) — `backend/src/utils/loginCode.js`
+- **dealerRegistrationTwoChannel.test.mjs** (15 connections) — `backend/test/dealerRegistrationTwoChannel.test.mjs`
+- **onboardingVerification.test.mjs** (15 connections) — `backend/test/onboardingVerification.test.mjs`
+- **hashOtp()** (10 connections) — `backend/src/utils/hash.js`
+- **verifyOtpHash()** (10 connections) — `backend/src/utils/hash.js`
+- **hash.test.mjs** (9 connections) — `backend/test/hash.test.mjs`
+- **sha256()** (9 connections) — `backend/src/utils/hash.js`
+- **formatLoginCode()** (8 connections) — `backend/src/utils/loginCode.js`
+- **generateLoginCode()** (8 connections) — `backend/src/utils/loginCode.js`
+- **loginCode.test.mjs** (7 connections) — `backend/test/loginCode.test.mjs`
+- **generateOtp()** (5 connections) — `backend/src/utils/hash.js`
+- **hashPassword()** (5 connections) — `backend/src/utils/hash.js`
+- **verifyPassword()** (4 connections) — `backend/src/utils/hash.js`
+- **isValidLoginCode()** (4 connections) — `backend/src/utils/loginCode.js`
+- **parseLoginCode()** (4 connections) — `backend/src/utils/loginCode.js`
+- **scryptKey()** (3 connections) — `backend/src/utils/hash.js`
+- **USER_CATEGORIES** (3 connections) — `backend/src/utils/loginCode.js`
+- **generateCode()** (2 connections) — `backend/src/utils/hash.js`
+- **randomToken()** (2 connections) — `backend/src/utils/hash.js`
+- **generateRandomDigits()** (2 connections) — `backend/src/utils/loginCode.js`
+- **generateRandomLetters()** (2 connections) — `backend/src/utils/loginCode.js`
+- **GST_TREATMENT_OPTIONS** (2 connections) — `backend/src/utils/loginCode.js`
+- **app** (1 connections) — `backend/test/dealerRegistrationTwoChannel.test.mjs`
 - *... and 31 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (73 shared connections)
-- [[Zoho Integration Architecture]] (32 shared connections)
-- [[Dependencies & Package Config]] (24 shared connections)
-- [[Pricing Regression Test Suite]] (24 shared connections)
-- [[Community 76]] (20 shared connections)
-- [[Oxlint Linter Configuration]] (12 shared connections)
-- [[Community 105]] (10 shared connections)
-- [[Community 32]] (9 shared connections)
+- [[Master Codebase Architecture Reference]] (20 shared connections)
+- [[Live Pricing Audit Tool]] (10 shared connections)
+- [[Mobile Responsive UI Skill]] (2 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-3OpJEkTN.js`
+- `backend/src/utils/hash.js`
+- `backend/src/utils/loginCode.js`
+- `backend/test/dealerRegistrationTwoChannel.test.mjs`
+- `backend/test/hash.test.mjs`
+- `backend/test/loginCode.test.mjs`
+- `backend/test/onboardingVerification.test.mjs`
+- `backend/test/phase2DealerStaffOnboarding.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 452 (100%)
+- EXTRACTED: 220 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

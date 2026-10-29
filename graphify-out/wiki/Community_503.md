@@ -1,12 +1,11 @@
 # Community 503
 
-> 3 nodes · cohesion 0.67
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **objectUtils.js** (2 connections) — `src/utils/objectUtils.js`
-- **omit()** (1 connections) — `src/utils/objectUtils.js`
-- **pick()** (1 connections) — `src/utils/objectUtils.js`
+- **esm-D5yR2fOV.js** (1 connections) — `android/app/src/main/assets/public/assets/esm-D5yR2fOV.js`
+- **__vite__mapDeps()** (1 connections) — `android/app/src/main/assets/public/assets/esm-D5yR2fOV.js`
 
 ## Relationships
 
@@ -14,11 +13,11 @@
 
 ## Source Files
 
-- `src/utils/objectUtils.js`
+- `android/app/src/main/assets/public/assets/esm-D5yR2fOV.js`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 2 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

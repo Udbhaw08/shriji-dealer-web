@@ -2,7 +2,7 @@
 
 > God node · 42 connections · `src/data/session.js`
 
-**Community:** [[Product Requirements Documentation]]
+**Community:** [[Product Pages Specification]]
 
 ## Connections by Relation
 

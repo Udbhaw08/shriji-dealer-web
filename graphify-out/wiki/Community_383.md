@@ -4,11 +4,11 @@
 
 ## Key Concepts
 
-- **Image wells** (4 connections) — `.agents/skills/apple-design/references/hig/image-wells.md`
-- **image-wells.md** (1 connections) — `.agents/skills/apple-design/references/hig/image-wells.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/image-wells.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/image-wells.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/image-wells.md`
+- **Performance** (4 connections) — `.agents/skills/swiftui-pro/references/performance.md`
+- **performance.md** (1 connections) — `.agents/skills/swiftui-pro/references/performance.md`
+- **Collections and row updates** (1 connections) — `.agents/skills/swiftui-pro/references/performance.md`
+- **Frequent changes** (1 connections) — `.agents/skills/swiftui-pro/references/performance.md`
+- **Remote images** (1 connections) — `.agents/skills/swiftui-pro/references/performance.md`
 
 ## Relationships
 
@@ -16,7 +16,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/image-wells.md`
+- `.agents/skills/swiftui-pro/references/performance.md`
 
 ## Audit Trail
 

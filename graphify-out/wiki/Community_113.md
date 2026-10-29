@@ -1,49 +1,41 @@
 # Community 113
 
-> 16 nodes · cohesion 0.26
+> 16 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **fetchZohoProducts()** (15 connections) — `api/_lib/zoho.js`
-- **securityPhase2.test.mjs** (11 connections) — `backend/test/securityPhase2.test.mjs`
-- **dealerPricingAuth.js** (10 connections) — `api/_lib/dealerPricingAuth.js`
-- **getDealerPricingEligibility()** (8 connections) — `api/_lib/dealerPricingAuth.js`
-- **index.js** (8 connections) — `api/products/index.js`
-- **fetchZohoCategories()** (6 connections) — `api/_lib/zoho.js`
-- **[id].js** (6 connections) — `api/products/[id].js`
-- **handler()** (6 connections) — `api/products/index.js`
-- **maskCatalogPricing()** (5 connections) — `api/_lib/dealerPricingAuth.js`
-- **maskProductPricing()** (5 connections) — `api/_lib/dealerPricingAuth.js`
-- **getCategoryVisibilityMap()** (5 connections) — `api/_lib/zoho.js`
-- **readProductsDiskCache()** (5 connections) — `api/_lib/zoho.js`
-- **handler()** (4 connections) — `api/products/[id].js`
-- **writeProductsDiskCache()** (2 connections) — `api/_lib/zoho.js`
-- **tokenCache** (1 connections) — `api/_lib/dealerPricingAuth.js`
-- **mockWebhookAuthCheck()** (1 connections) — `backend/test/securityPhase2.test.mjs`
+- **compareArchitecture()** (12 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **fail()** (8 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **canonicalArchitecture()** (5 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **boundaryIndex()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **canonicalArchitectureJson()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **equal()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **normalizeRepository()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **canonical()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **extractArchitectureSvg()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **extractArtifactCss()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **presentationChanged()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **requireComparableShape()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **stableIndex()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **boundaryKey()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **sortedBy()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **summaryFor()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
 
 ## Relationships
 
-- [[Community 187]] (8 shared connections)
-- [[Community 46]] (7 shared connections)
-- [[Community 356]] (7 shared connections)
-- [[Community 49]] (4 shared connections)
-- [[Graphify Knowledge Graph Skill]] (3 shared connections)
-- [[Community 129]] (3 shared connections)
-- [[Zoho Integration Skill]] (2 shared connections)
-- [[Community 147]] (2 shared connections)
+- [[Community 61]] (18 shared connections)
+- [[Community 293]] (4 shared connections)
+- [[Community 141]] (2 shared connections)
+- [[Community 163]] (1 shared connections)
 
 ## Source Files
 
-- `api/_lib/dealerPricingAuth.js`
-- `api/_lib/zoho.js`
-- `api/products/[id].js`
-- `api/products/index.js`
-- `backend/test/securityPhase2.test.mjs`
+- `.agents/skills/archify/delta/architecture-delta.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 98 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 61 (94%)
+- INFERRED: 4 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

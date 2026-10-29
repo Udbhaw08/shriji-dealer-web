@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **Repository Architecture Audit Report** (2 connections) — `docs/architecture/final-audit-report.md`
-- **final-audit-report.md** (1 connections) — `docs/architecture/final-audit-report.md`
-- **Verification Summary** (1 connections) — `docs/architecture/final-audit-report.md`
+- **Supabase Database Schema Reference** (2 connections) — `docs/architecture/supabase-schema-reference.md`
+- **supabase-schema-reference.md** (1 connections) — `docs/architecture/supabase-schema-reference.md`
+- **Primary Tables** (1 connections) — `docs/architecture/supabase-schema-reference.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/architecture/final-audit-report.md`
+- `docs/architecture/supabase-schema-reference.md`
 
 ## Audit Trail
 

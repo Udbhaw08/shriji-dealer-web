@@ -4,18 +4,18 @@
 
 ## Key Concepts
 
-- **Playing haptics** (6 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
-- **Phone (iOS)** (4 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
-- **playing-haptics.md** (1 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
-- **Custom haptics** (1 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
-- **Impact** (1 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
-- **Notification** (1 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
-- **Selection** (1 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
+- **SF Symbols** (11 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
+- **sf-symbols.md** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
+- **Animations** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
+- **Custom symbols** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
+- **Design variants** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
+- **Gradients** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
+- **Rendering modes** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
+- **Variable color** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
+- **Weights and scales** (1 connections) — `.agents/skills/apple-design/references/hig/sf-symbols.md`
 
 ## Relationships
 
@@ -23,7 +23,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/playing-haptics.md`
+- `.agents/skills/apple-design/references/hig/sf-symbols.md`
 
 ## Audit Trail
 

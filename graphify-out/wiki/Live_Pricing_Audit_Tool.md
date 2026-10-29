@@ -1,55 +1,63 @@
 # Live Pricing Audit Tool
 
-> 56 nodes · cohesion 0.06
+> 54 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **hash.js** (25 connections) — `backend/src/utils/hash.js`
-- **phase2DealerStaffOnboarding.test.mjs** (17 connections) — `backend/test/phase2DealerStaffOnboarding.test.mjs`
-- **loginCode.js** (17 connections) — `backend/src/utils/loginCode.js`
-- **dealerRegistrationTwoChannel.test.mjs** (15 connections) — `backend/test/dealerRegistrationTwoChannel.test.mjs`
-- **onboardingVerification.test.mjs** (15 connections) — `backend/test/onboardingVerification.test.mjs`
-- **hashOtp()** (10 connections) — `backend/src/utils/hash.js`
-- **verifyOtpHash()** (10 connections) — `backend/src/utils/hash.js`
-- **hash.test.mjs** (9 connections) — `backend/test/hash.test.mjs`
-- **sha256()** (9 connections) — `backend/src/utils/hash.js`
-- **formatLoginCode()** (8 connections) — `backend/src/utils/loginCode.js`
-- **generateLoginCode()** (8 connections) — `backend/src/utils/loginCode.js`
-- **loginCode.test.mjs** (7 connections) — `backend/test/loginCode.test.mjs`
-- **generateOtp()** (5 connections) — `backend/src/utils/hash.js`
-- **hashPassword()** (5 connections) — `backend/src/utils/hash.js`
-- **verifyPassword()** (4 connections) — `backend/src/utils/hash.js`
-- **isValidLoginCode()** (4 connections) — `backend/src/utils/loginCode.js`
-- **parseLoginCode()** (4 connections) — `backend/src/utils/loginCode.js`
-- **scryptKey()** (3 connections) — `backend/src/utils/hash.js`
-- **USER_CATEGORIES** (3 connections) — `backend/src/utils/loginCode.js`
-- **generateCode()** (2 connections) — `backend/src/utils/hash.js`
-- **randomToken()** (2 connections) — `backend/src/utils/hash.js`
-- **generateRandomDigits()** (2 connections) — `backend/src/utils/loginCode.js`
-- **generateRandomLetters()** (2 connections) — `backend/src/utils/loginCode.js`
-- **GST_TREATMENT_OPTIONS** (2 connections) — `backend/src/utils/loginCode.js`
-- **app** (1 connections) — `backend/test/dealerRegistrationTwoChannel.test.mjs`
-- *... and 31 more nodes in this community*
+- **auth.js** (55 connections) — `backend/src/routes/auth.js`
+- **crmClient.js** (35 connections) — `backend/src/services/crmClient.js`
+- **normalizePhone()** (21 connections) — `backend/src/utils/phone.js`
+- **normalizeEmail()** (18 connections) — `backend/src/utils/validators.js`
+- **notifications.js** (16 connections) — `backend/src/services/notifications.js`
+- **env** (15 connections) — `backend/src/config/env.js`
+- **validators.js** (15 connections) — `backend/src/utils/validators.js`
+- **crmFetch()** (14 connections) — `backend/src/services/crmClient.js`
+- **requestDealerRegistrationOtp()** (14 connections) — `backend/src/services/dealerApp.js`
+- **finalizeDealerRegistration()** (12 connections) — `backend/src/services/dealerApp.js`
+- **isValidPhone()** (11 connections) — `backend/src/utils/validators.js`
+- **cleanName()** (9 connections) — `backend/src/utils/validators.js`
+- **httpError()** (8 connections) — `backend/src/middleware/errorHandler.js`
+- **crmConfigured()** (8 connections) — `backend/src/services/crmClient.js`
+- **validators.test.mjs** (8 connections) — `backend/test/validators.test.mjs`
+- **phone.js** (8 connections) — `backend/src/utils/phone.js`
+- **issueSession()** (7 connections) — `backend/src/routes/auth.js`
+- **sendWhatsAppOtp()** (7 connections) — `backend/src/services/notifications.js`
+- **isValidEmail()** (7 connections) — `backend/src/utils/validators.js`
+- **interconnection.test.mjs** (6 connections) — `backend/test/interconnection.test.mjs`
+- **isValidName()** (6 connections) — `backend/src/utils/validators.js`
+- **createDealerAccount()** (5 connections) — `backend/src/services/crmClient.js`
+- **createDealerContact()** (5 connections) — `backend/src/services/crmClient.js`
+- **findOwnerContactInAccount()** (5 connections) — `backend/src/services/crmClient.js`
+- **updateContactDetails()** (5 connections) — `backend/src/services/crmClient.js`
+- *... and 29 more nodes in this community*
 
 ## Relationships
 
-- [[Community 37]] (16 shared connections)
-- [[Zoho Integration Skill]] (14 shared connections)
-- [[Community 114]] (2 shared connections)
+- [[Master Codebase Architecture Reference]] (62 shared connections)
+- [[Community 51]] (16 shared connections)
+- [[Mobile Responsive UI Skill]] (13 shared connections)
+- [[Product Brand & Business Vision]] (10 shared connections)
+- [[Community 317]] (4 shared connections)
+- [[Community 90]] (1 shared connections)
 
 ## Source Files
 
-- `backend/src/utils/hash.js`
-- `backend/src/utils/loginCode.js`
-- `backend/test/dealerRegistrationTwoChannel.test.mjs`
-- `backend/test/hash.test.mjs`
-- `backend/test/loginCode.test.mjs`
-- `backend/test/onboardingVerification.test.mjs`
-- `backend/test/phase2DealerStaffOnboarding.test.mjs`
+- `backend/src/config/env.js`
+- `backend/src/middleware/errorHandler.js`
+- `backend/src/middleware/rateLimit.js`
+- `backend/src/routes/auth.js`
+- `backend/src/routes/dealers.js`
+- `backend/src/services/crmClient.js`
+- `backend/src/services/dealerApp.js`
+- `backend/src/services/notifications.js`
+- `backend/src/utils/phone.js`
+- `backend/src/utils/validators.js`
+- `backend/test/interconnection.test.mjs`
+- `backend/test/validators.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 220 (100%)
+- EXTRACTED: 400 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

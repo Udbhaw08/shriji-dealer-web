@@ -2,7 +2,7 @@
 
 > God node · 80 connections · `backend/src/db/pool.js`
 
-**Community:** [[Zoho Integration Skill]]
+**Community:** [[Master Codebase Architecture Reference]]
 
 ## Connections by Relation
 

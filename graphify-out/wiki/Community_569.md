@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **lifecycle** (0 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **metaTemplateHelper.test.mjs** (0 connections) — `backend/test/metaTemplateHelper.test.mjs`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- `backend/test/metaTemplateHelper.test.mjs`
 
 ## Audit Trail
 

@@ -1,38 +1,44 @@
 # Community 112
 
-> 16 nodes · cohesion 0.12
+> 16 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **Color** (10 connections) — `.agents/skills/apple-design/references/hig/color.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/color.md`
-- **Specifications** (3 connections) — `.agents/skills/apple-design/references/hig/color.md`
-- **Desktop (macOS)** (2 connections) — `.agents/skills/apple-design/references/hig/color.md`
-- **color.md** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
-- **App accent colors** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
-- **Color management** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
-- **Inclusive color** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
-- **iOS, iPadOS system gray colors** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
-- **Liquid Glass color** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
-- **System colors** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
-- **System colors** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
+- **HeroSlider.jsx** (12 connections) — `src/components/HeroSlider.jsx`
+- **ContentAdminDashboard.jsx** (12 connections) — `src/pages/ContentAdminDashboard.jsx`
+- **video.js** (6 connections) — `src/utils/video.js`
+- **parseVideoUrl()** (5 connections) — `src/utils/video.js`
+- **FileOrUrlInput.jsx** (4 connections) — `src/components/FileOrUrlInput.jsx`
+- **HeroSlider()** (3 connections) — `src/components/HeroSlider.jsx`
+- **video-banner.test.mjs** (3 connections) — `src/data/video-banner.test.mjs`
+- **FileOrUrlInput()** (2 connections) — `src/components/FileOrUrlInput.jsx`
+- **ContentAdminDashboard()** (2 connections) — `src/pages/ContentAdminDashboard.jsx`
+- **getVideoBadgeLabel()** (2 connections) — `src/utils/video.js`
+- **DEFAULT_HERO_BANNERS** (1 connections) — `src/components/HeroSlider.jsx`
+- **getCachedBanners()** (1 connections) — `src/components/HeroSlider.jsx`
+- **DEFAULT_BANNER_FORM** (1 connections) — `src/pages/ContentAdminDashboard.jsx`
+- **DEFAULT_BRANDING_FORM** (1 connections) — `src/pages/ContentAdminDashboard.jsx`
+- **DEFAULT_SCHEME_FORM** (1 connections) — `src/pages/ContentAdminDashboard.jsx`
+- **QUICK_COLORS** (1 connections) — `src/pages/ContentAdminDashboard.jsx`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Product Pages Specification]] (13 shared connections)
+- [[Community 92]] (2 shared connections)
+- [[Community 50]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/color.md`
+- `src/components/FileOrUrlInput.jsx`
+- `src/components/HeroSlider.jsx`
+- `src/data/video-banner.test.mjs`
+- `src/pages/ContentAdminDashboard.jsx`
+- `src/utils/video.js`
 
 ## Audit Trail
 
-- EXTRACTED: 30 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 56 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **dealerStatus.test.mjs** (0 connections) — `backend/test/dealerStatus.test.mjs`
+- **roleGating.test.mjs** (0 connections) — `backend/test/roleGating.test.mjs`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `backend/test/dealerStatus.test.mjs`
+- `backend/test/roleGating.test.mjs`
 
 ## Audit Trail
 

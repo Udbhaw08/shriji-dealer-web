@@ -1,40 +1,35 @@
 # Community 126
 
-> 15 nodes · cohesion 0.15
+> 14 nodes · cohesion 0.23
 
 ## Key Concepts
 
-- **i18n.test.mjs** (20 connections) — `.agents/skills/archify/test/i18n.test.mjs`
-- **catalogKeys()** (2 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **SUPPORTED_LOCALES** (2 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **authoredExample()** (2 connections) — `.agents/skills/archify/test/i18n.test.mjs`
-- **evaluate()** (2 connections) — `.agents/skills/archify/test/i18n.test.mjs`
-- **example()** (2 connections) — `.agents/skills/archify/test/i18n.test.mjs`
-- **loadArtifact()** (2 connections) — `.agents/skills/archify/test/i18n.test.mjs`
-- **AUTHORED_TEXT_KEYS** (1 connections) — `.agents/skills/archify/test/i18n.test.mjs`
-- **cli** (1 connections) — `.agents/skills/archify/test/i18n.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/i18n.test.mjs`
-- **EXAMPLES** (1 connections) — `.agents/skills/archify/test/i18n.test.mjs`
-- **run()** (1 connections) — `.agents/skills/archify/test/i18n.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/i18n.test.mjs`
-- **templatePath** (1 connections) — `.agents/skills/archify/test/i18n.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/i18n.test.mjs`
+- **web-DMVD5tKi.js** (13 connections) — `android/app/src/main/assets/public/assets/web-DMVD5tKi.js`
+- **applyPrefix()** (4 connections) — `android/app/src/main/assets/public/assets/web-DMVD5tKi.js`
+- **keys()** (4 connections) — `android/app/src/main/assets/public/assets/web-DMVD5tKi.js`
+- **get()** (3 connections) — `android/app/src/main/assets/public/assets/web-DMVD5tKi.js`
+- **migrate()** (3 connections) — `android/app/src/main/assets/public/assets/web-DMVD5tKi.js`
+- **rawKeys()** (3 connections) — `android/app/src/main/assets/public/assets/web-DMVD5tKi.js`
+- **clear()** (2 connections) — `android/app/src/main/assets/public/assets/web-DMVD5tKi.js`
+- **remove()** (2 connections) — `android/app/src/main/assets/public/assets/web-DMVD5tKi.js`
+- **removeOld()** (2 connections) — `android/app/src/main/assets/public/assets/web-DMVD5tKi.js`
+- **set()** (2 connections) — `android/app/src/main/assets/public/assets/web-DMVD5tKi.js`
+- **configure()** (1 connections) — `android/app/src/main/assets/public/assets/web-DMVD5tKi.js`
+- **constructor()** (1 connections) — `android/app/src/main/assets/public/assets/web-DMVD5tKi.js`
+- **impl()** (1 connections) — `android/app/src/main/assets/public/assets/web-DMVD5tKi.js`
+- **prefix()** (1 connections) — `android/app/src/main/assets/public/assets/web-DMVD5tKi.js`
 
 ## Relationships
 
-- [[Zoho Backend & Proxy Endpoints]] (5 shared connections)
-- [[Community 47]] (1 shared connections)
-- [[Community 79]] (1 shared connections)
-- [[Community 128]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/shared/i18n.mjs`
-- `.agents/skills/archify/test/i18n.test.mjs`
+- `android/app/src/main/assets/public/assets/web-DMVD5tKi.js`
 
 ## Audit Trail
 
-- EXTRACTED: 40 (100%)
+- EXTRACTED: 42 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

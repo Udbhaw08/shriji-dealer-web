@@ -1,48 +1,58 @@
 # Community 50
 
-> 29 nodes · cohesion 0.09
+> 32 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **AppDelegate** (10 connections) — `ios/App/App/AppDelegate.swift`
-- **.application()** (7 connections) — `ios/App/App/AppDelegate.swift`
-- **.scene()** (7 connections) — `ios/App/App/SceneDelegate.swift`
-- **UIApplication** (6 connections) — `ios/App/App/AppDelegate.swift`
-- **SceneDelegate** (5 connections) — `ios/App/App/SceneDelegate.swift`
-- **AppDelegate.swift** (3 connections) — `ios/App/App/AppDelegate.swift`
-- **SceneDelegate.swift** (3 connections) — `ios/App/App/SceneDelegate.swift`
-- **.applicationDidBecomeActive()** (2 connections) — `ios/App/App/AppDelegate.swift`
-- **.applicationDidEnterBackground()** (2 connections) — `ios/App/App/AppDelegate.swift`
-- **.applicationWillEnterForeground()** (2 connections) — `ios/App/App/AppDelegate.swift`
-- **.applicationWillResignActive()** (2 connections) — `ios/App/App/AppDelegate.swift`
-- **.applicationWillTerminate()** (2 connections) — `ios/App/App/AppDelegate.swift`
-- **Capacitor** (2 connections) — `ios/App/App/SceneDelegate.swift`
-- **UIWindow** (2 connections) — `ios/App/App/SceneDelegate.swift`
-- **UIKit** (2 connections) — `ios/App/App/SceneDelegate.swift`
-- **UIResponder** (2 connections)
-- **Any** (1 connections) — `ios/App/App/AppDelegate.swift`
-- **Bool** (1 connections) — `ios/App/App/AppDelegate.swift`
-- **UIScene** (1 connections) — `ios/App/App/AppDelegate.swift`
-- **UISceneSession** (1 connections) — `ios/App/App/AppDelegate.swift`
-- **UIWindow** (1 connections) — `ios/App/App/AppDelegate.swift`
-- **UIScene** (1 connections) — `ios/App/App/SceneDelegate.swift`
-- **UISceneSession** (1 connections) — `ios/App/App/SceneDelegate.swift`
-- **NSUserActivity** (1 connections) — `ios/App/App/SceneDelegate.swift`
-- **Set** (1 connections) — `ios/App/App/SceneDelegate.swift`
-- *... and 4 more nodes in this community*
+- **Product.jsx** (41 connections) — `src/pages/Product.jsx`
+- **dealer.js** (29 connections) — `src/data/dealer.js`
+- **dealer.test.mjs** (18 connections) — `src/data/dealer.test.mjs`
+- **PriceBlock.jsx** (15 connections) — `src/components/PriceBlock.jsx`
+- **Product()** (15 connections) — `src/pages/Product.jsx`
+- **priceFor()** (14 connections) — `src/data/dealer.js`
+- **inr()** (12 connections) — `src/data/dealer.js`
+- **viewerFor()** (8 connections) — `src/data/dealer.js`
+- **CustomerPrice()** (7 connections) — `src/components/PriceBlock.jsx`
+- **productSlug()** (7 connections) — `src/data/dealer.js`
+- **shareLink()** (7 connections) — `src/data/dealer.js`
+- **slugifyProduct()** (6 connections) — `src/data/dealer.js`
+- **tagFor()** (6 connections) — `src/data/dealer.js`
+- **DealerPrice()** (5 connections) — `src/components/PriceBlock.jsx`
+- **formatWhatsAppPhone()** (4 connections) — `src/data/dealer.js`
+- **tierOf()** (4 connections) — `src/data/dealer.js`
+- **DEALERS** (3 connections) — `src/data/dealer.js`
+- **PriceBlock()** (2 connections) — `src/components/PriceBlock.jsx`
+- **price99()** (2 connections) — `src/data/dealer.js`
+- **getCachedProductDetail()** (2 connections) — `src/pages/Product.jsx`
+- **setCachedProductDetail()** (2 connections) — `src/pages/Product.jsx`
+- **BAND** (1 connections) — `src/data/dealer.js`
+- **hash()** (1 connections) — `src/data/dealer.js`
+- **approved** (1 connections) — `src/data/dealer.test.mjs`
+- **customer** (1 connections) — `src/data/dealer.test.mjs`
+- *... and 7 more nodes in this community*
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Product Pages Specification]] (55 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (8 shared connections)
+- [[Community 92]] (5 shared connections)
+- [[Community 165]] (3 shared connections)
+- [[Community 210]] (3 shared connections)
+- [[Community 108]] (3 shared connections)
+- [[Community 149]] (2 shared connections)
+- [[Community 112]] (2 shared connections)
+- [[Community 37]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/AppDelegate.swift`
-- `ios/App/App/SceneDelegate.swift`
+- `src/components/PriceBlock.jsx`
+- `src/data/dealer.js`
+- `src/data/dealer.test.mjs`
+- `src/pages/Product.jsx`
 
 ## Audit Trail
 
-- EXTRACTED: 72 (100%)
+- EXTRACTED: 220 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

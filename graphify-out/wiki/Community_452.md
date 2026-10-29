@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **ReSTOR / Shriji Dealer Web Changelog** (2 connections) — `docs/CHANGELOG.md`
-- **CHANGELOG.md** (1 connections) — `docs/CHANGELOG.md`
-- **2026-10-25** (1 connections) — `docs/CHANGELOG.md`
+- **GSTIN Verification Flow** (2 connections) — `docs/guides/gstin-verification-flow.md`
+- **gstin-verification-flow.md** (1 connections) — `docs/guides/gstin-verification-flow.md`
+- **State Code Resolution** (1 connections) — `docs/guides/gstin-verification-flow.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/CHANGELOG.md`
+- `docs/guides/gstin-verification-flow.md`
 
 ## Audit Trail
 

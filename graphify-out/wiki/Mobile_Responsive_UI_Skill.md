@@ -1,54 +1,71 @@
 # Mobile Responsive UI Skill
 
-> 49 nodes · cohesion 0.08
+> 51 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **al()** (41 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
-- **fl()** (26 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
-- **bc()** (18 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
-- **me()** (13 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
-- **ia()** (12 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
-- **ml()** (11 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
-- **il()** (10 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
-- **pl()** (10 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
-- **ta()** (10 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
-- **be()** (9 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
-- **Se()** (9 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
-- **aa()** (8 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
-- **jo()** (8 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
-- **Sp()** (8 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
-- **hc()** (7 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
-- **no()** (7 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
-- **sa()** (7 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
-- **dc()** (6 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
-- **P()** (6 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
-- **xe()** (6 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
-- **Ca()** (5 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
-- **da()** (5 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
-- **he()** (5 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
-- **hm()** (5 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
-- **jl()** (5 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
-- *... and 24 more nodes in this community*
+- **server.js** (36 connections) — `backend/src/server.js`
+- **app.js** (30 connections) — `backend/src/app.js`
+- **compatibilitySuite.test.mjs** (20 connections) — `backend/test/compatibilitySuite.test.mjs`
+- **upload.js** (12 connections) — `backend/src/routes/upload.js`
+- **errorHandler.js** (10 connections) — `backend/src/middleware/errorHandler.js`
+- **rateLimit.js** (10 connections) — `backend/src/middleware/rateLimit.js`
+- **rateLimit()** (9 connections) — `backend/src/middleware/rateLimit.js`
+- **admin.js** (9 connections) — `backend/src/routes/admin.js`
+- **health.js** (9 connections) — `backend/src/routes/health.js`
+- **uploads.js** (9 connections) — `backend/src/routes/uploads.js`
+- **securityPhase3.test.mjs** (9 connections) — `backend/test/securityPhase3.test.mjs`
+- **prices.js** (7 connections) — `backend/src/routes/prices.js`
+- **migrate.js** (6 connections) — `backend/src/db/migrate.js`
+- **contentRouter** (5 connections) — `backend/src/routes/content.js`
+- **uploadRouter** (5 connections) — `backend/src/routes/upload.js`
+- **uploadsRouter** (5 connections) — `backend/src/routes/uploads.js`
+- **migrate()** (4 connections) — `backend/src/db/migrate.js`
+- **errorHandler()** (4 connections) — `backend/src/middleware/errorHandler.js`
+- **adminRouter** (4 connections) — `backend/src/routes/admin.js`
+- **app** (4 connections) — `backend/src/app.js`
+- **rateLimitFix.test.mjs** (4 connections) — `backend/test/rateLimitFix.test.mjs`
+- **[...path].js** (3 connections) — `api/auth/[...path].js`
+- **applied()** (3 connections) — `backend/src/db/migrate.js`
+- **[...path].js** (3 connections) — `api/dealers/[...path].js`
+- **startJobs()** (3 connections) — `backend/src/jobs/index.js`
+- *... and 26 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (57 shared connections)
-- [[Community 41]] (21 shared connections)
-- [[Product Pages Specification]] (21 shared connections)
-- [[Client Products Data Store]] (21 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (20 shared connections)
-- [[Community 30]] (11 shared connections)
-- [[Community 53]] (4 shared connections)
-- [[Community 42]] (2 shared connections)
+- [[Master Codebase Architecture Reference]] (29 shared connections)
+- [[Community 51]] (13 shared connections)
+- [[Live Pricing Audit Tool]] (13 shared connections)
+- [[Project Readme & Layout]] (12 shared connections)
+- [[Community 90]] (4 shared connections)
+- [[Product Brand & Business Vision]] (2 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
+- `api/auth/[...path].js`
+- `api/dealers/[...path].js`
+- `backend/src/app.js`
+- `backend/src/db/migrate.js`
+- `backend/src/jobs/index.js`
+- `backend/src/middleware/errorHandler.js`
+- `backend/src/middleware/rateLimit.js`
+- `backend/src/routes/admin.js`
+- `backend/src/routes/auth.js`
+- `backend/src/routes/content.js`
+- `backend/src/routes/dealers.js`
+- `backend/src/routes/health.js`
+- `backend/src/routes/prices.js`
+- `backend/src/routes/upload.js`
+- `backend/src/routes/uploads.js`
+- `backend/src/routes/webhooks.js`
+- `backend/src/server.js`
+- `backend/test/compatibilitySuite.test.mjs`
+- `backend/test/rateLimitFix.test.mjs`
+- `backend/test/securityPhase3.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 337 (100%)
+- EXTRACTED: 263 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **validateContentType.js** (1 connections) — `backend/src/middleware/validateContentType.js`
-- **validateContentType()** (1 connections) — `backend/src/middleware/validateContentType.js`
+- **performance-plus.md** (1 connections) — `.agents/skills/swiftui-pro/references/performance-plus.md`
+- **Deeper performance work** (1 connections) — `.agents/skills/swiftui-pro/references/performance-plus.md`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `backend/src/middleware/validateContentType.js`
+- `.agents/skills/swiftui-pro/references/performance-plus.md`
 
 ## Audit Trail
 

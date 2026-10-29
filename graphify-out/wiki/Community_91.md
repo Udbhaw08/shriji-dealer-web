@@ -4,43 +4,37 @@
 
 ## Key Concepts
 
-- **$defs** (16 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **animation** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **brandMark** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **componentType** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **legendMode** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **locale** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **qualityProfile** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **side** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **variant** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **visualPreset** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **oneOf** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **Apple Design Skill** (7 connections) — `.agents/skills/apple-design/SKILL.md`
+- **Step 3: Audit through five lenses, in this order** (6 connections) — `.agents/skills/apple-design/SKILL.md`
+- **Review process** (5 connections) — `.agents/skills/apple-design/SKILL.md`
+- **The references** (3 connections) — `.agents/skills/apple-design/SKILL.md`
+- **SKILL.md** (1 connections) — `.agents/skills/apple-design/SKILL.md`
+- **Always load** (1 connections) — `.agents/skills/apple-design/SKILL.md`
+- **Apple's design principles** (1 connections) — `.agents/skills/apple-design/SKILL.md`
+- **Design improvement mode** (1 connections) — `.agents/skills/apple-design/SKILL.md`
+- **Lens 1: Accessibility (failures are Critical)** (1 connections) — `.agents/skills/apple-design/SKILL.md`
+- **Lens 2: Platform conventions (failures are usually High)** (1 connections) — `.agents/skills/apple-design/SKILL.md`
+- **Lens 3: Visual design and craft (findings are High or Medium)** (1 connections) — `.agents/skills/apple-design/SKILL.md`
+- **Lens 4: Interaction (findings are usually Medium)** (1 connections) — `.agents/skills/apple-design/SKILL.md`
+- **Lens 5: Content and writing (findings are usually Medium)** (1 connections) — `.agents/skills/apple-design/SKILL.md`
+- **Load by what is on screen** (1 connections) — `.agents/skills/apple-design/SKILL.md`
+- **Specialized review modes** (1 connections) — `.agents/skills/apple-design/SKILL.md`
+- **Step 1: Establish context** (1 connections) — `.agents/skills/apple-design/SKILL.md`
+- **Step 2: Load references** (1 connections) — `.agents/skills/apple-design/SKILL.md`
+- **Step 4: Write the report** (1 connections) — `.agents/skills/apple-design/SKILL.md`
+- **Working rules** (1 connections) — `.agents/skills/apple-design/SKILL.md`
 
 ## Relationships
 
-- [[Community 419]] (1 shared connections)
-- [[Community 236]] (1 shared connections)
-- [[Community 473]] (1 shared connections)
-- [[Community 474]] (1 shared connections)
-- [[Community 178]] (1 shared connections)
-- [[Community 361]] (1 shared connections)
-- [[Community 475]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/common.schema.json`
+- `.agents/skills/apple-design/SKILL.md`
 
 ## Audit Trail
 
-- EXTRACTED: 43 (100%)
+- EXTRACTED: 36 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

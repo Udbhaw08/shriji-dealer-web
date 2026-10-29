@@ -1,54 +1,54 @@
 # Pricing Regression Test Suite
 
-> 62 nodes · cohesion 0.06
+> 60 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **at()** (22 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
-- **k()** (19 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
-- **A()** (14 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
-- **zd()** (13 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
-- **Nd()** (12 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
-- **pt()** (12 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
-- **qd()** (12 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
-- **dt()** (11 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
-- **mt()** (11 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
-- **ye()** (11 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
-- **af()** (10 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
-- **tf()** (10 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
-- **st()** (9 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
-- **xt()** (9 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
-- **ef()** (8 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
-- **kf()** (8 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
-- **lt()** (8 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
-- **nt()** (8 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
-- **tt()** (8 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
-- **uf()** (8 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
-- **Xd()** (8 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
-- **F()** (7 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
-- **Gd()** (7 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
-- **Id()** (7 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
-- **it()** (7 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
-- *... and 37 more nodes in this community*
+- **i()** (66 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
+- **n()** (30 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
+- **D()** (23 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
+- **t()** (21 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
+- **es()** (16 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
+- **Ka()** (15 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
+- **vc()** (14 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
+- **r()** (13 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
+- **ks()** (11 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
+- **O()** (11 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
+- **s()** (11 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
+- **c()** (8 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
+- **ic()** (8 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
+- **F()** (7 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
+- **gc()** (7 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
+- **j()** (7 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
+- **l()** (7 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
+- **ls()** (7 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
+- **Mp()** (7 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
+- **ms()** (7 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
+- **vs()** (7 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
+- **E()** (6 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
+- **fh()** (6 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
+- **ns()** (6 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
+- **ss()** (6 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
+- *... and 35 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (72 shared connections)
-- [[Zoho Integration Architecture]] (26 shared connections)
-- [[Product Brand & Business Vision]] (24 shared connections)
-- [[Community 76]] (16 shared connections)
-- [[Dependencies & Package Config]] (14 shared connections)
-- [[Oxlint Linter Configuration]] (11 shared connections)
-- [[Community 32]] (7 shared connections)
-- [[Community 105]] (2 shared connections)
+- [[Dealer Auth & Session Management]] (72 shared connections)
+- [[Graphify Knowledge Graph Skill]] (29 shared connections)
+- [[Design System & UI Tokens]] (26 shared connections)
+- [[Community 32]] (25 shared connections)
+- [[Zoho Integration Architecture]] (20 shared connections)
+- [[Community 43]] (18 shared connections)
+- [[Community 64]] (11 shared connections)
+- [[Vercel Deployment Routing]] (7 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-3OpJEkTN.js`
+- `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
 
 ## Audit Trail
 
-- EXTRACTED: 416 (100%)
+- EXTRACTED: 448 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

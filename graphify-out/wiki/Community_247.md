@@ -1,18 +1,17 @@
 # Community 247
 
-> 9 nodes · cohesion 0.22
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **relationship-permalink.test.mjs** (8 connections) — `.agents/skills/archify/test/relationship-permalink.test.mjs`
-- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/relationship-permalink.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/relationship-permalink.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/relationship-permalink.test.mjs`
-- **fixture()** (1 connections) — `.agents/skills/archify/test/relationship-permalink.test.mjs`
-- **relationshipKey()** (1 connections) — `.agents/skills/archify/test/relationship-permalink.test.mjs`
-- **run()** (1 connections) — `.agents/skills/archify/test/relationship-permalink.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/relationship-permalink.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/relationship-permalink.test.mjs`
+- **Boxes** (5 connections) — `.agents/skills/apple-design/references/hig/boxes.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/boxes.md`
+- **boxes.md** (1 connections) — `.agents/skills/apple-design/references/hig/boxes.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/boxes.md`
+- **Content** (1 connections) — `.agents/skills/apple-design/references/hig/boxes.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/boxes.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/boxes.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/boxes.md`
 
 ## Relationships
 
@@ -20,11 +19,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/relationship-permalink.test.mjs`
+- `.agents/skills/apple-design/references/hig/boxes.md`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

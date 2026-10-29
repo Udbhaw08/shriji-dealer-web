@@ -1,13 +1,13 @@
 # Community 429
 
-> 4 nodes · cohesion 0.67
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **capture-dealer-workspace.mjs** (3 connections) — `scripts/capture-dealer-workspace.mjs`
-- **call()** (2 connections) — `scripts/capture-dealer-workspace.mjs`
-- **run()** (2 connections) — `scripts/capture-dealer-workspace.mjs`
-- **chrome** (1 connections) — `scripts/capture-dealer-workspace.mjs`
+- **cursor-onboarding.test.mjs** (3 connections) — `.agents/skills/archify/test/cursor-onboarding.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/cursor-onboarding.test.mjs`
+- **repoRoot** (1 connections) — `.agents/skills/archify/test/cursor-onboarding.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/cursor-onboarding.test.mjs`
 
 ## Relationships
 
@@ -15,11 +15,11 @@
 
 ## Source Files
 
-- `scripts/capture-dealer-workspace.mjs`
+- `.agents/skills/archify/test/cursor-onboarding.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

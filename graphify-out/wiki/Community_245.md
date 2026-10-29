@@ -4,27 +4,27 @@
 
 ## Key Concepts
 
-- **cli-output-types.test.mjs** (10 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
-- **architecture** (1 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
-- **base** (1 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
-- **cli** (1 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
-- **head** (1 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
-- **root** (1 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
-- **run()** (1 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
-- **workflow** (1 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
-- **workspace()** (1 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
+- **vertical-edge.test.mjs** (8 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
+- **bin** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
+- **edgePath()** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
+- **REPRO** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
+- **segments()** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/vertical-edge.test.mjs`
 
 ## Relationships
 
-- [[Community 71]] (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/test/cli-output-types.test.mjs`
+- `.agents/skills/archify/test/vertical-edge.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

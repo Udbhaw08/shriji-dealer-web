@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **esm-B7nXpSJ6.js** (1 connections) — `android/app/src/main/assets/public/assets/esm-B7nXpSJ6.js`
-- **__vite__mapDeps()** (1 connections) — `android/app/src/main/assets/public/assets/esm-B7nXpSJ6.js`
+- **A11yAnnouncer.jsx** (1 connections) — `src/components/A11yAnnouncer.jsx`
+- **A11yAnnouncer()** (1 connections) — `src/components/A11yAnnouncer.jsx`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/esm-B7nXpSJ6.js`
+- `src/components/A11yAnnouncer.jsx`
 
 ## Audit Trail
 

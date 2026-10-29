@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **Zoho Commerce API Rate Limiting & Multi-Tier Caching** (2 connections) — `docs/guides/zoho-rate-limits-and-caching.md`
-- **zoho-rate-limits-and-caching.md** (1 connections) — `docs/guides/zoho-rate-limits-and-caching.md`
-- **Rate Limits** (1 connections) — `docs/guides/zoho-rate-limits-and-caching.md`
+- **Capacitor Native Mobile Sync Workflow** (2 connections) — `docs/mobile/capacitor-native-sync.md`
+- **capacitor-native-sync.md** (1 connections) — `docs/mobile/capacitor-native-sync.md`
+- **Commands** (1 connections) — `docs/mobile/capacitor-native-sync.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/guides/zoho-rate-limits-and-caching.md`
+- `docs/mobile/capacitor-native-sync.md`
 
 ## Audit Trail
 

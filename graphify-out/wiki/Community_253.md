@@ -4,14 +4,14 @@
 
 ## Key Concepts
 
-- **Controls** (7 connections) — `.agents/skills/apple-design/references/hig/controls.md`
-- **controls.md** (1 connections) — `.agents/skills/apple-design/references/hig/controls.md`
-- **Anatomy** (1 connections) — `.agents/skills/apple-design/references/hig/controls.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/controls.md`
-- **Camera experiences on a locked device** (1 connections) — `.agents/skills/apple-design/references/hig/controls.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/controls.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/controls.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/controls.md`
+- **Image views** (6 connections) — `.agents/skills/apple-design/references/hig/image-views.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/image-views.md`
+- **image-views.md** (1 connections) — `.agents/skills/apple-design/references/hig/image-views.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/image-views.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/image-views.md`
+- **Content** (1 connections) — `.agents/skills/apple-design/references/hig/image-views.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/image-views.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/image-views.md`
 
 ## Relationships
 
@@ -19,7 +19,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/controls.md`
+- `.agents/skills/apple-design/references/hig/image-views.md`
 
 ## Audit Trail
 

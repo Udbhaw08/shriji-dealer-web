@@ -4,21 +4,21 @@
 
 ## Key Concepts
 
-- **Capacitor Native Mobile Sync Workflow** (2 connections) — `docs/mobile/capacitor-native-sync.md`
-- **capacitor-native-sync.md** (1 connections) — `docs/mobile/capacitor-native-sync.md`
-- **Commands** (1 connections) — `docs/mobile/capacitor-native-sync.md`
+- **13. AI-Slop Anti-Patterns** (3 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Instant Red Flags** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Quick Test** (1 connections) — `.agents/skills/refero-design/references/typography.md`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 230]] (1 shared connections)
 
 ## Source Files
 
-- `docs/mobile/capacitor-native-sync.md`
+- `.agents/skills/refero-design/references/typography.md`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 5 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **README.md** (1 connections) — `ios/App/CapApp-SPM/README.md`
-- **CapApp-SPM** (1 connections) — `ios/App/CapApp-SPM/README.md`
+- **fail-migration-cleanup.mjs** (1 connections) — `.agents/skills/archify/test/fixtures/fail-migration-cleanup.mjs`
+- **originalRmSync** (1 connections) — `.agents/skills/archify/test/fixtures/fail-migration-cleanup.mjs`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `ios/App/CapApp-SPM/README.md`
+- `.agents/skills/archify/test/fixtures/fail-migration-cleanup.mjs`
 
 ## Audit Trail
 

@@ -4,17 +4,17 @@
 
 ## Key Concepts
 
-- **Alerts** (8 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
-- **alerts.md** (1 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
-- **Anatomy** (1 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
-- **Buttons** (1 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
-- **Content** (1 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
+- **Dark Mode** (6 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
+- **Dark Mode colors** (3 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
+- **dark-mode.md** (1 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
+- **Icons and images** (1 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
+- **Text** (1 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
 
 ## Relationships
 
@@ -22,7 +22,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/alerts.md`
+- `.agents/skills/apple-design/references/hig/dark-mode.md`
 
 ## Audit Trail
 

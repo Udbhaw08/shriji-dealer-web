@@ -4,15 +4,15 @@
 
 ## Key Concepts
 
-- **web-B22rAODt.js** (8 connections) — `android/app/src/main/assets/public/assets/web-B22rAODt.js`
-- **constructor()** (1 connections) — `android/app/src/main/assets/public/assets/web-B22rAODt.js`
-- **exitApp()** (1 connections) — `android/app/src/main/assets/public/assets/web-B22rAODt.js`
-- **getAppLanguage()** (1 connections) — `android/app/src/main/assets/public/assets/web-B22rAODt.js`
-- **getInfo()** (1 connections) — `android/app/src/main/assets/public/assets/web-B22rAODt.js`
-- **getLaunchUrl()** (1 connections) — `android/app/src/main/assets/public/assets/web-B22rAODt.js`
-- **getState()** (1 connections) — `android/app/src/main/assets/public/assets/web-B22rAODt.js`
-- **minimizeApp()** (1 connections) — `android/app/src/main/assets/public/assets/web-B22rAODt.js`
-- **toggleBackButtonHandler()** (1 connections) — `android/app/src/main/assets/public/assets/web-B22rAODt.js`
+- **Context menus** (6 connections) — `.agents/skills/apple-design/references/hig/context-menus.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/context-menus.md`
+- **context-menus.md** (1 connections) — `.agents/skills/apple-design/references/hig/context-menus.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/context-menus.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/context-menus.md`
+- **Content** (1 connections) — `.agents/skills/apple-design/references/hig/context-menus.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/context-menus.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/context-menus.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/context-menus.md`
 
 ## Relationships
 
@@ -20,7 +20,7 @@
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/web-B22rAODt.js`
+- `.agents/skills/apple-design/references/hig/context-menus.md`
 
 ## Audit Trail
 

@@ -1,44 +1,40 @@
 # Community 101
 
-> 18 nodes · cohesion 0.23
+> 18 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **output-path.mjs** (22 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
-- **resolveOutputPath()** (11 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
-- **futurePathsAlias()** (6 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
-- **pathsAlias()** (6 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
-- **canonicalFuturePath()** (5 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
-- **sameFileIdentity()** (5 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
-- **probeDirectorySemantics()** (4 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
-- **canonicalize()** (3 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
-- **directoryIdentityKey()** (3 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
-- **hasFileIdentity()** (3 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
-- **pathIsInside()** (3 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
-- **probeNamesAlias()** (3 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
-- **sameDirectory()** (3 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
-- **nearestExistingDirectory()** (2 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
-- **OutputPathError** (2 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
-- **splitAbsolute()** (2 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
-- **directorySemanticsCache** (1 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
-- **.constructor()** (1 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **DESIGN.md — the design system as actually built** (8 connections) — `docs/DESIGN.md`
+- **4. Components already built — reuse these** (7 connections) — `docs/DESIGN.md`
+- **2. Tokens** (4 connections) — `docs/DESIGN.md`
+- **DESIGN.md** (1 connections) — `docs/DESIGN.md`
+- **1. The direction in one paragraph** (1 connections) — `docs/DESIGN.md`
+- **3. Layout primitives** (1 connections) — `docs/DESIGN.md`
+- **5. Icons** (1 connections) — `docs/DESIGN.md`
+- **6. Responsive rules** (1 connections) — `docs/DESIGN.md`
+- **7. Motion and accessibility** (1 connections) — `docs/DESIGN.md`
+- **Actions** (1 connections) — `docs/DESIGN.md`
+- **Colour** (1 connections) — `docs/DESIGN.md`
+- **Content** (1 connections) — `docs/DESIGN.md`
+- **Detail** (1 connections) — `docs/DESIGN.md`
+- **Listing sidebar** (1 connections) — `docs/DESIGN.md`
+- **Navigation and filtering** (1 connections) — `docs/DESIGN.md`
+- **Product** (1 connections) — `docs/DESIGN.md`
+- **Spacing, radius, shadow, motion** (1 connections) — `docs/DESIGN.md`
+- **Type** (1 connections) — `docs/DESIGN.md`
 
 ## Relationships
 
-- [[Community 40]] (4 shared connections)
-- [[Zoho Backend & Proxy Endpoints]] (4 shared connections)
-- [[Community 71]] (3 shared connections)
-- [[Community 119]] (2 shared connections)
-- [[Community 208]] (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/shared/output-path.mjs`
+- `docs/DESIGN.md`
 
 ## Audit Trail
 
-- EXTRACTED: 82 (96%)
-- INFERRED: 3 (4%)
+- EXTRACTED: 34 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

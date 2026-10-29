@@ -4,22 +4,22 @@
 
 ## Key Concepts
 
-- **col** (4 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **maximum** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **minimum** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **watch-sync.mjs** (3 connections) — `scripts/watch-sync.mjs`
+- **rootDir** (1 connections) — `scripts/watch-sync.mjs`
+- **srcDir** (1 connections) — `scripts/watch-sync.mjs`
+- **triggerSync()** (1 connections) — `scripts/watch-sync.mjs`
 
 ## Relationships
 
-- [[Graphify Agent Rules]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/workflow.schema.json`
+- `scripts/watch-sync.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

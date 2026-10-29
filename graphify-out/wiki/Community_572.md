@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **cryptoHelper.test.mjs** (0 connections) — `backend/test/cryptoHelper.test.mjs`
+- **rateLimiterEdgeCases.test.mjs** (0 connections) — `backend/test/rateLimiterEdgeCases.test.mjs`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `backend/test/cryptoHelper.test.mjs`
+- `backend/test/rateLimiterEdgeCases.test.mjs`
 
 ## Audit Trail
 

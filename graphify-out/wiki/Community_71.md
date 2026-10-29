@@ -1,52 +1,47 @@
 # Community 71
 
-> 23 nodes · cohesion 0.13
+> 24 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **preview.mjs** (23 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **startPreview()** (10 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **open-artifact.mjs** (7 connections) — `.agents/skills/archify/bin/open-artifact.mjs`
-- **openLoopbackUrl()** (5 connections) — `.agents/skills/archify/bin/open-artifact.mjs`
-- **open-artifact.test.mjs** (5 connections) — `.agents/skills/archify/test/open-artifact.test.mjs`
-- **launchTarget()** (4 connections) — `.agents/skills/archify/bin/open-artifact.mjs`
-- **openArtifact()** (4 connections) — `.agents/skills/archify/bin/open-artifact.mjs`
-- **runPreview()** (3 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **compactMessage()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **initialAuthoredOutput()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **previewPage()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **redactDiagnostic()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **sha256()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **sourceDigest()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **spawn()** (2 connections) — `.agents/skills/archify/test/open-artifact.test.mjs`
-- **OPENERS** (1 connections) — `.agents/skills/archify/bin/open-artifact.mjs`
-- **cliPath** (1 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **diagramTypes** (1 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **here** (1 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **parseReceipt()** (1 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **responseHeaders()** (1 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **safeJson()** (1 connections) — `.agents/skills/archify/bin/preview.mjs`
-- **target** (1 connections) — `.agents/skills/archify/test/open-artifact.test.mjs`
+- **properties** (11 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **viewBox** (6 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **title** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **animation** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **locale** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **output** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **quality_profile** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **subtitle** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **views** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **visual_preset** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **minLength** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **items** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **maxItems** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **minItems** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **prefixItems** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
 
 ## Relationships
 
-- [[Community 40]] (4 shared connections)
-- [[Community 101]] (3 shared connections)
-- [[Community 245]] (2 shared connections)
-- [[Community 208]] (2 shared connections)
-- [[Community 331]] (2 shared connections)
-- [[Community 249]] (2 shared connections)
+- [[Community 195]] (1 shared connections)
+- [[Community 117]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/bin/open-artifact.mjs`
-- `.agents/skills/archify/bin/preview.mjs`
-- `.agents/skills/archify/test/open-artifact.test.mjs`
+- `.agents/skills/archify/schemas/dataflow.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 79 (95%)
-- INFERRED: 4 (5%)
+- EXTRACTED: 48 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

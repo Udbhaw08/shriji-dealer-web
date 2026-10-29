@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **ci-scope.test.mjs** (1 connections) — `.agents/skills/archify/test/ci-scope.test.mjs`
-- **script** (1 connections) — `.agents/skills/archify/test/ci-scope.test.mjs`
+- **envValidator.js** (1 connections) — `backend/src/utils/envValidator.js`
+- **requireEnv()** (1 connections) — `backend/src/utils/envValidator.js`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/ci-scope.test.mjs`
+- `backend/src/utils/envValidator.js`
 
 ## Audit Trail
 

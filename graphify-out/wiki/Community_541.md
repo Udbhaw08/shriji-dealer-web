@@ -1,11 +1,10 @@
 # Community 541
 
-> 2 nodes · cohesion 1.00
+> 1 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **envValidator.js** (1 connections) — `backend/src/utils/envValidator.js`
-- **requireEnv()** (1 connections) — `backend/src/utils/envValidator.js`
+- **cordova.js** (0 connections) — `android/app/src/main/assets/public/cordova.js`
 
 ## Relationships
 
@@ -13,11 +12,11 @@
 
 ## Source Files
 
-- `backend/src/utils/envValidator.js`
+- `android/app/src/main/assets/public/cordova.js`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 0 (0%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

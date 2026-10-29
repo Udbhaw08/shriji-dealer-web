@@ -1,53 +1,55 @@
 # Community 46
 
-> 32 nodes · cohesion 0.09
+> 34 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **zoho.js** (60 connections) — `api/_lib/zoho.js`
-- **syncRecentProductTags()** (7 connections) — `api/_lib/zoho.js`
-- **normalizeProduct()** (6 connections) — `api/_lib/zoho.js`
-- **readTagCache()** (6 connections) — `api/_lib/zoho.js`
-- **updateCachedProductTags()** (4 connections) — `api/_lib/zoho.js`
-- **sync-tags.js** (4 connections) — `api/products/sync-tags.js`
-- **getCachedProductTags()** (3 connections) — `api/_lib/zoho.js`
-- **isItemOnline()** (3 connections) — `api/_lib/zoho.js`
-- **slugifyProduct()** (3 connections) — `api/_lib/zoho.js`
-- **handler()** (3 connections) — `api/products/sync-tags.js`
-- **isItemCategoryOnline()** (2 connections) — `api/_lib/zoho.js`
-- **parseRate()** (2 connections) — `api/_lib/zoho.js`
-- **slugifyCategory()** (2 connections) — `api/_lib/zoho.js`
-- **writeTagCache()** (2 connections) — `api/_lib/zoho.js`
-- **cachedPricebooks** (1 connections) — `api/_lib/zoho.js`
-- **cachedProductDetails** (1 connections) — `api/_lib/zoho.js`
-- **cachedProductsByPricebook** (1 connections) — `api/_lib/zoho.js`
-- **clearDiskCache()** (1 connections) — `api/_lib/zoho.js`
-- **DEFAULT_SCHEMES** (1 connections) — `api/_lib/zoho.js`
-- **DEFAULT_STORE_BANNERS** (1 connections) — `api/_lib/zoho.js`
-- **isBannerItem()** (1 connections) — `api/_lib/zoho.js`
-- **isLogoItem()** (1 connections) — `api/_lib/zoho.js`
-- **isSchemeItem()** (1 connections) — `api/_lib/zoho.js`
-- **localCacheFile** (1 connections) — `api/_lib/zoho.js`
-- **localDetailCacheFile** (1 connections) — `api/_lib/zoho.js`
-- *... and 7 more nodes in this community*
+- **b()** (20 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **.addEventListener()** (19 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **fp()** (13 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **h()** (13 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **.removeEventListener()** (12 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **ip()** (10 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **tp()** (9 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **cm()** (7 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **v()** (7 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **.blur()** (6 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **.scrollIntoView()** (6 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **ln()** (6 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **tm()** (6 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **g()** (5 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **me()** (5 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **Rp()** (5 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **uh()** (5 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **Bp()** (4 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **.getClientRects()** (4 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **pe()** (4 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **pm()** (4 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **rn()** (4 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **Vp()** (4 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **xp()** (4 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **.focusLast()** (3 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- *... and 9 more nodes in this community*
 
 ## Relationships
 
-- [[Community 129]] (13 shared connections)
-- [[Community 356]] (10 shared connections)
-- [[Community 113]] (7 shared connections)
-- [[Community 187]] (4 shared connections)
-- [[Community 85]] (2 shared connections)
-- [[Community 147]] (1 shared connections)
+- [[Price Presentation & Product UI]] (30 shared connections)
+- [[Product Requirements Documentation]] (14 shared connections)
+- [[Graphify Agent Rules]] (13 shared connections)
+- [[Roles & Customer Sharing Spec]] (8 shared connections)
+- [[Community 69]] (7 shared connections)
+- [[Claude Agent Instructions]] (7 shared connections)
+- [[Architecture Doc Generator]] (5 shared connections)
+- [[Community 68]] (1 shared connections)
+- [[Graphify Workflow]] (1 shared connections)
 
 ## Source Files
 
-- `api/_lib/zoho.js`
-- `api/products/sync-tags.js`
+- `ios/App/App/public/assets/index-BjhAVtWq.js`
 
 ## Audit Trail
 
-- EXTRACTED: 125 (100%)
+- EXTRACTED: 206 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

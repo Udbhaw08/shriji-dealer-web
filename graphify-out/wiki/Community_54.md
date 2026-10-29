@@ -1,35 +1,35 @@
 # Community 54
 
-> 26 nodes · cohesion 0.08
+> 29 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **Widgets** (9 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Best practices** (6 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Anatomy** (4 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Rendering modes** (4 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Mobile (iOS, iPadOS)** (3 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Specifications** (3 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **widgets.md** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Accented** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Accessory widgets** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Adding interactivity** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Appearances** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Apple HomeView** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Choosing margins and padding** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Displaying text in widgets** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Full-color** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **iOS dimensions** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **iPadOS dimensions** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Previews and placeholders** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **StandBy and CarPlay** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **System family widgets** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Updating widget content** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Using color** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- *... and 1 more nodes in this community*
+- **AppDelegate** (10 connections) — `ios/App/App/AppDelegate.swift`
+- **.application()** (7 connections) — `ios/App/App/AppDelegate.swift`
+- **.scene()** (7 connections) — `ios/App/App/SceneDelegate.swift`
+- **UIApplication** (6 connections) — `ios/App/App/AppDelegate.swift`
+- **SceneDelegate** (5 connections) — `ios/App/App/SceneDelegate.swift`
+- **AppDelegate.swift** (3 connections) — `ios/App/App/AppDelegate.swift`
+- **SceneDelegate.swift** (3 connections) — `ios/App/App/SceneDelegate.swift`
+- **.applicationDidBecomeActive()** (2 connections) — `ios/App/App/AppDelegate.swift`
+- **.applicationDidEnterBackground()** (2 connections) — `ios/App/App/AppDelegate.swift`
+- **.applicationWillEnterForeground()** (2 connections) — `ios/App/App/AppDelegate.swift`
+- **.applicationWillResignActive()** (2 connections) — `ios/App/App/AppDelegate.swift`
+- **.applicationWillTerminate()** (2 connections) — `ios/App/App/AppDelegate.swift`
+- **Capacitor** (2 connections) — `ios/App/App/SceneDelegate.swift`
+- **UIWindow** (2 connections) — `ios/App/App/SceneDelegate.swift`
+- **UIKit** (2 connections) — `ios/App/App/SceneDelegate.swift`
+- **UIResponder** (2 connections)
+- **Any** (1 connections) — `ios/App/App/AppDelegate.swift`
+- **Bool** (1 connections) — `ios/App/App/AppDelegate.swift`
+- **UIScene** (1 connections) — `ios/App/App/AppDelegate.swift`
+- **UISceneSession** (1 connections) — `ios/App/App/AppDelegate.swift`
+- **UIWindow** (1 connections) — `ios/App/App/AppDelegate.swift`
+- **UIScene** (1 connections) — `ios/App/App/SceneDelegate.swift`
+- **UISceneSession** (1 connections) — `ios/App/App/SceneDelegate.swift`
+- **NSUserActivity** (1 connections) — `ios/App/App/SceneDelegate.swift`
+- **Set** (1 connections) — `ios/App/App/SceneDelegate.swift`
+- *... and 4 more nodes in this community*
 
 ## Relationships
 
@@ -37,11 +37,12 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/widgets.md`
+- `ios/App/App/AppDelegate.swift`
+- `ios/App/App/SceneDelegate.swift`
 
 ## Audit Trail
 
-- EXTRACTED: 50 (100%)
+- EXTRACTED: 72 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

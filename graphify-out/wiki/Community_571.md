@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **corsPolicy.test.mjs** (0 connections) — `backend/test/corsPolicy.test.mjs`
+- **phoneSanitizer.test.mjs** (0 connections) — `backend/test/phoneSanitizer.test.mjs`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `backend/test/corsPolicy.test.mjs`
+- `backend/test/phoneSanitizer.test.mjs`
 
 ## Audit Trail
 

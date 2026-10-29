@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **variables.gradle** (0 connections) — `android/variables.gradle`
+- **searchHelper.test.mjs** (0 connections) — `src/data/searchHelper.test.mjs`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `android/variables.gradle`
+- `src/data/searchHelper.test.mjs`
 
 ## Audit Trail
 

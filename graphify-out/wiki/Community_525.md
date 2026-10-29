@@ -4,20 +4,20 @@
 
 ## Key Concepts
 
-- **labelAt** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **smsFallback.js** (1 connections) — `backend/src/services/smsFallback.js`
+- **sendSmsOtpFallback()** (1 connections) — `backend/src/services/smsFallback.js`
 
 ## Relationships
 
-- [[Vercel Deployment Routing]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/lifecycle.schema.json`
+- `backend/src/services/smsFallback.js`
 
 ## Audit Trail
 
-- EXTRACTED: 3 (100%)
+- EXTRACTED: 2 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

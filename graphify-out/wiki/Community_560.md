@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **searchHelper.test.mjs** (0 connections) — `src/data/searchHelper.test.mjs`
+- **architecture** (0 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `src/data/searchHelper.test.mjs`
+- `.agents/skills/archify/renderers/shared/generated-validators.mjs`
 
 ## Audit Trail
 

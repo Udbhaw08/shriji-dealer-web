@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **dataflow** (0 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **errorHandler.test.mjs** (0 connections) — `backend/test/errorHandler.test.mjs`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- `backend/test/errorHandler.test.mjs`
 
 ## Audit Trail
 

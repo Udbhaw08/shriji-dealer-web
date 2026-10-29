@@ -1,71 +1,54 @@
 # Graphify Knowledge Graph Skill
 
-> 50 nodes · cohesion 0.08
+> 51 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **server.js** (39 connections) — `backend/src/server.js`
-- **pool.js** (35 connections) — `backend/src/db/pool.js`
-- **env.js** (17 connections) — `backend/src/config/env.js`
-- **catalog.js** (16 connections) — `backend/src/services/catalog.js`
-- **env** (14 connections) — `backend/src/config/env.js`
-- **webhooks.js** (14 connections) — `backend/src/routes/webhooks.js`
-- **logger.js** (14 connections) — `backend/src/utils/logger.js`
-- **crmPoll.js** (13 connections) — `backend/src/jobs/crmPoll.js`
-- **log** (13 connections) — `backend/src/utils/logger.js`
-- **index.js** (11 connections) — `backend/src/jobs/index.js`
-- **catalogSync.js** (9 connections) — `backend/src/jobs/catalogSync.js`
-- **health.js** (8 connections) — `backend/src/routes/health.js`
-- **syncCatalog()** (7 connections) — `backend/src/services/catalog.js`
-- **migrate.js** (6 connections) — `backend/src/db/migrate.js`
-- **prices.js** (6 connections) — `backend/src/routes/prices.js`
-- **crmPoll()** (5 connections) — `backend/src/jobs/crmPoll.js`
-- **migrate()** (4 connections) — `backend/src/db/migrate.js`
-- **catalogFor()** (4 connections) — `backend/src/services/catalog.js`
-- **loadCatalog()** (4 connections) — `backend/src/services/catalog.js`
-- **applied()** (3 connections) — `backend/src/db/migrate.js`
-- **catalogSync()** (3 connections) — `backend/src/jobs/catalogSync.js`
-- **tokenCleanup()** (3 connections) — `backend/src/jobs/catalogSync.js`
-- **markPollRun()** (3 connections) — `backend/src/jobs/crmPoll.js`
-- **startJobs()** (3 connections) — `backend/src/jobs/index.js`
-- **migrate-content.js** (3 connections) — `backend/scripts/migrate-content.js`
-- *... and 25 more nodes in this community*
+- **ol()** (42 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
+- **xc()** (16 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
+- **kc()** (13 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
+- **Lc()** (13 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
+- **aa()** (12 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
+- **al()** (12 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
+- **lm()** (12 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
+- **rl()** (12 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
+- **ac()** (11 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
+- **na()** (11 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
+- **am()** (10 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
+- **bc()** (9 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
+- **Ai()** (8 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
+- **jc()** (8 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
+- **ma()** (8 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
+- **oa()** (8 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
+- **Oi()** (8 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
+- **ca()** (7 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
+- **jo()** (7 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
+- **ro()** (7 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
+- **zc()** (7 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
+- **ha()** (6 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
+- **ji()** (6 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
+- **Xd()** (6 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
+- **fi()** (5 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
+- *... and 26 more nodes in this community*
 
 ## Relationships
 
-- [[Zoho Integration Skill]] (39 shared connections)
-- [[Community 37]] (18 shared connections)
-- [[Community 49]] (11 shared connections)
-- [[Community 139]] (10 shared connections)
-- [[Community 109]] (8 shared connections)
-- [[Community 114]] (8 shared connections)
-- [[Community 113]] (3 shared connections)
-- [[Community 85]] (3 shared connections)
-- [[Community 321]] (1 shared connections)
+- [[Dealer Auth & Session Management]] (59 shared connections)
+- [[Pricing Regression Test Suite]] (29 shared connections)
+- [[Community 32]] (19 shared connections)
+- [[Design System & UI Tokens]] (15 shared connections)
+- [[Zoho Integration Architecture]] (13 shared connections)
+- [[Community 64]] (12 shared connections)
+- [[Vercel Deployment Routing]] (10 shared connections)
+- [[Community 43]] (5 shared connections)
 
 ## Source Files
 
-- `backend/scripts/migrate-content.js`
-- `backend/scripts/test-storage.js`
-- `backend/src/config/env.js`
-- `backend/src/db/migrate.js`
-- `backend/src/db/pool.js`
-- `backend/src/jobs/catalogSync.js`
-- `backend/src/jobs/crmPoll.js`
-- `backend/src/jobs/index.js`
-- `backend/src/routes/auth.js`
-- `backend/src/routes/dealers.js`
-- `backend/src/routes/health.js`
-- `backend/src/routes/prices.js`
-- `backend/src/routes/webhooks.js`
-- `backend/src/server.js`
-- `backend/src/services/catalog.js`
-- `backend/src/utils/logger.js`
-- `backend/test/priceGate.test.mjs`
+- `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
 
 ## Audit Trail
 
-- EXTRACTED: 295 (100%)
+- EXTRACTED: 360 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

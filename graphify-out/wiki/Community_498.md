@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **cryptoUtils.js** (2 connections) — `backend/src/utils/cryptoUtils.js`
-- **generateSecureOtp()** (1 connections) — `backend/src/utils/cryptoUtils.js`
-- **generateSecureToken()** (1 connections) — `backend/src/utils/cryptoUtils.js`
+- **numberUtils.js** (2 connections) — `src/utils/numberUtils.js`
+- **calculateDiscountPercentage()** (1 connections) — `src/utils/numberUtils.js`
+- **clamp()** (1 connections) — `src/utils/numberUtils.js`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `backend/src/utils/cryptoUtils.js`
+- `src/utils/numberUtils.js`
 
 ## Audit Trail
 

@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **repository-language-metadata.test.mjs** (2 connections) — `.agents/skills/archify/test/repository-language-metadata.test.mjs`
-- **linguistGenerated()** (1 connections) — `.agents/skills/archify/test/repository-language-metadata.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/repository-language-metadata.test.mjs`
+- **Automated Testing & Quality Assurance Strategy** (2 connections) — `docs/testing/testing-strategy.md`
+- **testing-strategy.md** (1 connections) — `docs/testing/testing-strategy.md`
+- **Testing Layers** (1 connections) — `docs/testing/testing-strategy.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/repository-language-metadata.test.mjs`
+- `docs/testing/testing-strategy.md`
 
 ## Audit Trail
 

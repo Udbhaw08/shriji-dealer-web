@@ -4,15 +4,15 @@
 
 ## Key Concepts
 
-- **architecture-compare-recovery.test.mjs** (8 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
-- **base** (1 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
-- **cases** (1 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
-- **cli** (1 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
-- **fixture()** (1 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
-- **hash()** (1 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
-- **head** (1 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
-- **inject()** (1 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
+- **relationship-permalink.test.mjs** (8 connections) — `.agents/skills/archify/test/relationship-permalink.test.mjs`
+- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/relationship-permalink.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/relationship-permalink.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/relationship-permalink.test.mjs`
+- **fixture()** (1 connections) — `.agents/skills/archify/test/relationship-permalink.test.mjs`
+- **relationshipKey()** (1 connections) — `.agents/skills/archify/test/relationship-permalink.test.mjs`
+- **run()** (1 connections) — `.agents/skills/archify/test/relationship-permalink.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/relationship-permalink.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/relationship-permalink.test.mjs`
 
 ## Relationships
 
@@ -20,7 +20,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
+- `.agents/skills/archify/test/relationship-permalink.test.mjs`
 
 ## Audit Trail
 

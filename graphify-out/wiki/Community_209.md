@@ -1,33 +1,30 @@
 # Community 209
 
-> 10 nodes · cohesion 0.22
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **site-language-continuity.test.mjs** (12 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
-- **clickAndNavigate()** (2 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
-- **evaluate()** (2 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
-- **loadRuntime()** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
-- **navigate()** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
-- **navigationPath** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
-- **runtimePath** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
-- **startStaticServer()** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **web-POtroZOu.js** (8 connections) — `android/app/src/main/assets/public/assets/web-POtroZOu.js`
+- **constructor()** (1 connections) — `android/app/src/main/assets/public/assets/web-POtroZOu.js`
+- **exitApp()** (1 connections) — `android/app/src/main/assets/public/assets/web-POtroZOu.js`
+- **getAppLanguage()** (1 connections) — `android/app/src/main/assets/public/assets/web-POtroZOu.js`
+- **getInfo()** (1 connections) — `android/app/src/main/assets/public/assets/web-POtroZOu.js`
+- **getLaunchUrl()** (1 connections) — `android/app/src/main/assets/public/assets/web-POtroZOu.js`
+- **getState()** (1 connections) — `android/app/src/main/assets/public/assets/web-POtroZOu.js`
+- **minimizeApp()** (1 connections) — `android/app/src/main/assets/public/assets/web-POtroZOu.js`
+- **toggleBackButtonHandler()** (1 connections) — `android/app/src/main/assets/public/assets/web-POtroZOu.js`
 
 ## Relationships
 
-- [[Community 47]] (1 shared connections)
-- [[Community 79]] (1 shared connections)
-- [[Community 128]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- `android/app/src/main/assets/public/assets/web-POtroZOu.js`
 
 ## Audit Trail
 
-- EXTRACTED: 23 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

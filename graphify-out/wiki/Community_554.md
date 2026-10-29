@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **build.gradle** (0 connections) — `android/app/build.gradle`
+- **site.test.mjs** (0 connections) — `src/data/site.test.mjs`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `android/app/build.gradle`
+- `src/data/site.test.mjs`
 
 ## Audit Trail
 

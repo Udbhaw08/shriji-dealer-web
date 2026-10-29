@@ -1,55 +1,62 @@
 # Community 53
 
-> 26 nodes · cohesion 0.12
+> 31 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **n()** (32 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
-- **t()** (20 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
-- **cs()** (8 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
-- **O()** (8 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
-- **os()** (7 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
-- **j()** (6 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
-- **ps()** (6 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
-- **es()** (5 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
-- **fs()** (5 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
-- **js()** (5 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
-- **ns()** (5 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
-- **ts()** (5 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
-- **x()** (5 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
-- **ds()** (4 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
-- **ee()** (4 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
-- **ls()** (4 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
-- **M()** (4 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
-- **rs()** (4 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
-- **us()** (4 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
-- **as()** (3 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
-- **is()** (3 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
-- **ms()** (3 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
-- **te()** (3 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
-- **hs()** (2 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
-- **nf()** (2 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
-- *... and 1 more nodes in this community*
+- **visual-check.mjs** (50 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **runVisualCheck()** (18 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **desktop-readability.mjs** (9 connections) — `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
+- **adaptive-reader-layout.test.mjs** (9 connections) — `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
+- **desktop-reader-browser.test.mjs** (8 connections) — `.agents/skills/archify/test/desktop-reader-browser.test.mjs`
+- **DESKTOP_READABILITY_VIEWPORT** (5 connections) — `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
+- **observationDiagnostics()** (4 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **safeUnlink()** (4 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **writeAtomic()** (4 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **baseReceipt()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **cleanupCaptureSidecars()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **contactSheetHtml()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **failureDiagnostic()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **persistReceipt()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **sha256()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **sidecarPaths()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **htmlEscape()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **observation()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **screenshotKey()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **viewportSubject()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **CAPTURE_VIEWPORTS** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **EXIT** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **THEMES** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
+- **reader** (1 connections) — `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
+- *... and 6 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (30 shared connections)
-- [[Product Pages Specification]] (14 shared connections)
-- [[Client Products Data Store]] (13 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (10 shared connections)
-- [[Community 41]] (5 shared connections)
-- [[Mobile Responsive UI Skill]] (4 shared connections)
-- [[Community 30]] (2 shared connections)
-- [[Community 42]] (1 shared connections)
+- [[Community 84]] (8 shared connections)
+- [[Community 127]] (6 shared connections)
+- [[Community 56]] (5 shared connections)
+- [[Oxlint Linter Configuration]] (4 shared connections)
+- [[Community 66]] (3 shared connections)
+- [[Pricing & Roles Skill]] (3 shared connections)
+- [[Community 140]] (2 shared connections)
+- [[Community 93]] (2 shared connections)
+- [[Community 106]] (2 shared connections)
+- [[Community 145]] (1 shared connections)
+- [[Community 146]] (1 shared connections)
+- [[Community 125]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
+- `.agents/skills/archify/bin/visual-check.mjs`
+- `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
+- `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
+- `.agents/skills/archify/test/desktop-reader-browser.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 159 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 150 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

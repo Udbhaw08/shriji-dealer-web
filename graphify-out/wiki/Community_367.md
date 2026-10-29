@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **authoring-safety-contract.test.mjs** (5 connections) — `.agents/skills/archify/test/authoring-safety-contract.test.mjs`
-- **authoringContract** (1 connections) — `.agents/skills/archify/test/authoring-safety-contract.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/authoring-safety-contract.test.mjs`
-- **schemaReadme** (1 connections) — `.agents/skills/archify/test/authoring-safety-contract.test.mjs`
-- **skill** (1 connections) — `.agents/skills/archify/test/authoring-safety-contract.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/authoring-safety-contract.test.mjs`
+- **story-trail.test.mjs** (5 connections) — `.agents/skills/archify/test/story-trail.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/story-trail.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/story-trail.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/story-trail.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/story-trail.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/story-trail.test.mjs`
 
 ## Relationships
 
@@ -17,7 +17,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/authoring-safety-contract.test.mjs`
+- `.agents/skills/archify/test/story-trail.test.mjs`
 
 ## Audit Trail
 

@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **Vercel Production Deployment Checklist** (2 connections) — `docs/deployment/vercel-production-checklist.md`
-- **vercel-production-checklist.md** (1 connections) — `docs/deployment/vercel-production-checklist.md`
-- **Environment Variables** (1 connections) — `docs/deployment/vercel-production-checklist.md`
+- **Developer Cheat Sheet** (2 connections) — `docs/guides/developer-cheat-sheet.md`
+- **developer-cheat-sheet.md** (1 connections) — `docs/guides/developer-cheat-sheet.md`
+- **Common Commands** (1 connections) — `docs/guides/developer-cheat-sheet.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/deployment/vercel-production-checklist.md`
+- `docs/guides/developer-cheat-sheet.md`
 
 ## Audit Trail
 

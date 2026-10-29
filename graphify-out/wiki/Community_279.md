@@ -4,14 +4,14 @@
 
 ## Key Concepts
 
-- **guided-views.test.mjs** (7 connections) — `.agents/skills/archify/test/guided-views.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/guided-views.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/guided-views.test.mjs`
-- **fixture()** (1 connections) — `.agents/skills/archify/test/guided-views.test.mjs`
-- **run()** (1 connections) — `.agents/skills/archify/test/guided-views.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/guided-views.test.mjs`
-- **svg()** (1 connections) — `.agents/skills/archify/test/guided-views.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/guided-views.test.mjs`
+- **relationship-lens.test.mjs** (7 connections) — `.agents/skills/archify/test/relationship-lens.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/relationship-lens.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/relationship-lens.test.mjs`
+- **escapeAttr()** (1 connections) — `.agents/skills/archify/test/relationship-lens.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/relationship-lens.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/relationship-lens.test.mjs`
+- **svg()** (1 connections) — `.agents/skills/archify/test/relationship-lens.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/relationship-lens.test.mjs`
 
 ## Relationships
 
@@ -19,7 +19,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/guided-views.test.mjs`
+- `.agents/skills/archify/test/relationship-lens.test.mjs`
 
 ## Audit Trail
 

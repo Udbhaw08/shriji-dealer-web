@@ -4,23 +4,23 @@
 
 ## Key Concepts
 
-- **Ratings and reviews** (4 connections) — `.agents/skills/apple-design/references/hig/ratings-and-reviews.md`
-- **ratings-and-reviews.md** (1 connections) — `.agents/skills/apple-design/references/hig/ratings-and-reviews.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/ratings-and-reviews.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/ratings-and-reviews.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/ratings-and-reviews.md`
+- **7. Vertical Rhythm** (5 connections) — `.agents/skills/refero-design/references/typography.md`
+- **CSS Implementation** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Example** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Golden Rule** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **The Simple Rule** (1 connections) — `.agents/skills/refero-design/references/typography.md`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 230]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/ratings-and-reviews.md`
+- `.agents/skills/refero-design/references/typography.md`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 9 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

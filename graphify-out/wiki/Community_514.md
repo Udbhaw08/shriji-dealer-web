@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **fail-migration-cleanup.mjs** (1 connections) — `.agents/skills/archify/test/fixtures/fail-migration-cleanup.mjs`
-- **originalRmSync** (1 connections) — `.agents/skills/archify/test/fixtures/fail-migration-cleanup.mjs`
+- **securityHeaders.js** (1 connections) — `backend/src/middleware/securityHeaders.js`
+- **securityHeaders()** (1 connections) — `backend/src/middleware/securityHeaders.js`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/fixtures/fail-migration-cleanup.mjs`
+- `backend/src/middleware/securityHeaders.js`
 
 ## Audit Trail
 

@@ -1,52 +1,57 @@
 # Community 40
 
-> 35 nodes · cohesion 0.16
+> 39 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **archify.mjs** (50 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commandDeliver()** (20 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commandMigrate()** (17 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commandValidate()** (13 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commandRender()** (10 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commandPreview()** (9 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **diagnostic()** (9 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **rendererPath()** (9 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **renderValidatedArchitecture()** (8 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **extractQualityArgs()** (7 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **extractRepoRootArgs()** (7 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **rejectCliArgument()** (7 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **assertEvidenceType()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **checkerDiagnostics()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **rendererEnv()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **rendererFailure()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **reportArtifactFailure()** (5 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **inputDiagnostic()** (4 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **engineeringProfileFromArtifact()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **extractMigrationOptions()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **formatDiagnostics()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **migrationPathDiagnostics()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **migrationReport()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **reportArtifactArgumentFailure()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **reportDeliveryFailure()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- *... and 10 more nodes in this community*
+- **properties** (33 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **height** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **variant** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **brand** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **channelX** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **channelY** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **fromSide** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **id** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **labelAt** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **labelDx** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **labelDy** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **lane** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **role** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **route** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **sublabel** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **tag** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **toSide** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **type** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **yOffset** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **minimum** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- *... and 14 more nodes in this community*
 
 ## Relationships
 
-- [[Community 119]] (35 shared connections)
-- [[Community 71]] (4 shared connections)
-- [[Community 101]] (4 shared connections)
-- [[Community 134]] (3 shared connections)
-- [[Testing & Workflow Skill]] (1 shared connections)
+- [[Community 135]] (5 shared connections)
+- [[Community 98]] (2 shared connections)
+- [[Community 420]] (1 shared connections)
+- [[Community 421]] (1 shared connections)
+- [[Community 422]] (1 shared connections)
+- [[Community 479]] (1 shared connections)
+- [[Community 480]] (1 shared connections)
+- [[Community 423]] (1 shared connections)
+- [[Community 62]] (1 shared connections)
+- [[Community 481]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/bin/archify.mjs`
+- `.agents/skills/archify/schemas/workflow.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 229 (97%)
-- INFERRED: 6 (3%)
+- EXTRACTED: 91 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

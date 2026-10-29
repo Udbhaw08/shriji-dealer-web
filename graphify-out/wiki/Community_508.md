@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **README.md** (1 connections) — `.agents/skills/archify/brand-marks/README.md`
-- **Built-in brand marks** (1 connections) — `.agents/skills/archify/brand-marks/README.md`
+- **NetworkStatusBadge.jsx** (1 connections) — `src/components/NetworkStatusBadge.jsx`
+- **NetworkStatusBadge()** (1 connections) — `src/components/NetworkStatusBadge.jsx`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/brand-marks/README.md`
+- `src/components/NetworkStatusBadge.jsx`
 
 ## Audit Trail
 

@@ -10,8 +10,8 @@
     "semantic_hash": ""
   },
   "api/dealer/info.js": {
-    "mtime": 1792883160.5995739,
-    "ast_hash": "696873b99622f8fda0146c2c84dd9cbd",
+    "mtime": 1793298904.0702684,
+    "ast_hash": "7db7c68f4103c90d4f30f49a8d0ad55f",
     "semantic_hash": ""
   },
   "api/products/[id].js": {
@@ -55,8 +55,8 @@
     "semantic_hash": ""
   },
   "src/data/dealer.js": {
-    "mtime": 1793285603.7811117,
-    "ast_hash": "878e82743d73b9714448f21c84d5ea04",
+    "mtime": 1793298793.7897656,
+    "ast_hash": "1dd94e5b32120634a5fc820a1756dae9",
     "semantic_hash": ""
   },
   "src/data/dealer.test.mjs": {
@@ -85,8 +85,8 @@
     "semantic_hash": ""
   },
   "src/data/site.js": {
-    "mtime": 1792883161.0726252,
-    "ast_hash": "e56f0e5e5004f89ccee75af4eb3facad",
+    "mtime": 1793298086.753934,
+    "ast_hash": "77f51bdb5be32b0062da8a98d8cf5d2e",
     "semantic_hash": ""
   },
   "src/main.jsx": {
@@ -95,8 +95,8 @@
     "semantic_hash": ""
   },
   "src/pages/Home.jsx": {
-    "mtime": 1793223589.9617853,
-    "ast_hash": "2f72f521a7cf1480b3ded345b126bf80",
+    "mtime": 1793298219.2824986,
+    "ast_hash": "78cc02ab1fd8070f81e22712fd8f38b7",
     "semantic_hash": ""
   },
   "src/pages/Login.jsx": {
@@ -105,8 +105,8 @@
     "semantic_hash": ""
   },
   "src/pages/Product.jsx": {
-    "mtime": 1793290838.9768674,
-    "ast_hash": "769c9a41b2288ff7e5d23967b86460ef",
+    "mtime": 1793298841.6484005,
+    "ast_hash": "b4fa1add97a64a865b29194f6f4fdc46",
     "semantic_hash": ""
   },
   "src/pages/Products.jsx": {
@@ -120,8 +120,8 @@
     "semantic_hash": ""
   },
   "src/pages/Support.jsx": {
-    "mtime": 1793223589.9657857,
-    "ast_hash": "f6adc3b1f621065503050e2d34c305f1",
+    "mtime": 1793298112.6658068,
+    "ast_hash": "216c0cb7421034594e2ac97350f8e0a5",
     "semantic_hash": ""
   },
   "src/ui.jsx": {
@@ -135,8 +135,8 @@
     "semantic_hash": ""
   },
   "vite.config.js": {
-    "mtime": 1792883161.0950625,
-    "ast_hash": "35463184995d118a548cdd6576a5477d",
+    "mtime": 1793298883.6482706,
+    "ast_hash": "67d537f6db5b348d150b00770f234438",
     "semantic_hash": ""
   },
   ".agents/rules/graphify.md": {
@@ -180,8 +180,8 @@
     "semantic_hash": ""
   },
   "CODEBASE.md": {
-    "mtime": 1793292822.3118296,
-    "ast_hash": "433f8cafc29f28b7022cd557c7b0936f",
+    "mtime": 1793298925.9019442,
+    "ast_hash": "9da4998fc2ffcebb29236fe5e549cbff",
     "semantic_hash": ""
   },
   "PRD.md": {
@@ -320,8 +320,8 @@
     "semantic_hash": ""
   },
   "src/data/translations.js": {
-    "mtime": 1793290394.8280396,
-    "ast_hash": "322601122e31cd529162be90ae23dbee",
+    "mtime": 1793298278.6064029,
+    "ast_hash": "fda6823652085fc638670a3fd8ece30c",
     "semantic_hash": ""
   },
   "src/components/MobileBottomNav.jsx": {
@@ -590,7 +590,7 @@
     "semantic_hash": ""
   },
   "android/app/capacitor.build.gradle": {
-    "mtime": 1793292826.5866096,
+    "mtime": 1793298946.295863,
     "ast_hash": "6f95eb3e9a08ae902e6ebee49fae0e87",
     "semantic_hash": ""
   },
@@ -600,22 +600,22 @@
     "semantic_hash": ""
   },
   "android/app/src/main/assets/capacitor.config.json": {
-    "mtime": 1793292826.5237935,
+    "mtime": 1793298946.1454353,
     "ast_hash": "c3b7521daf5e0ffb05c899566a409603",
     "semantic_hash": ""
   },
   "android/app/src/main/assets/capacitor.plugins.json": {
-    "mtime": 1793292826.5582886,
+    "mtime": 1793298946.243371,
     "ast_hash": "5b7f24f78381c296e8f45d2e08b3387d",
     "semantic_hash": ""
   },
   "android/app/src/main/assets/public/cordova.js": {
-    "mtime": 1793292826.580601,
+    "mtime": 1793298946.2851708,
     "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
     "semantic_hash": ""
   },
   "android/app/src/main/assets/public/cordova_plugins.js": {
-    "mtime": 1793292826.580601,
+    "mtime": 1793298946.2866437,
     "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
     "semantic_hash": ""
   },
@@ -635,17 +635,17 @@
     "semantic_hash": ""
   },
   "android/capacitor-cordova-android-plugins/build.gradle": {
-    "mtime": 1793292826.6016026,
+    "mtime": 1793298946.3004985,
     "ast_hash": "2af61653d70c95d20802c8b5c433ba90",
     "semantic_hash": ""
   },
   "android/capacitor-cordova-android-plugins/cordova.variables.gradle": {
-    "mtime": 1793292826.602606,
+    "mtime": 1793298946.30196,
     "ast_hash": "d2372a0ae9aa60abb8d03e7f06bf9194",
     "semantic_hash": ""
   },
   "android/capacitor.settings.gradle": {
-    "mtime": 1793292826.585603,
+    "mtime": 1793298946.2943394,
     "ast_hash": "33ed8a9bcb1cb579ff402e4441ceba0e",
     "semantic_hash": ""
   },
@@ -695,22 +695,22 @@
     "semantic_hash": ""
   },
   "ios/App/App/capacitor.config.json": {
-    "mtime": 1793292826.785946,
+    "mtime": 1793298946.7040052,
     "ast_hash": "153d51185cd9c15b71dd6730350bbb1e",
     "semantic_hash": ""
   },
   "ios/App/App/public/cordova.js": {
-    "mtime": 1793292826.7660923,
+    "mtime": 1793298946.6316943,
     "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
     "semantic_hash": ""
   },
   "ios/App/App/public/cordova_plugins.js": {
-    "mtime": 1793292826.7666187,
+    "mtime": 1793298946.6316943,
     "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
     "semantic_hash": ""
   },
   "ios/App/CapApp-SPM/Package.swift": {
-    "mtime": 1793292826.7723534,
+    "mtime": 1793298946.6463137,
     "ast_hash": "d382a118912be7b151ceff8ace266e42",
     "semantic_hash": ""
   },
@@ -940,8 +940,8 @@
     "semantic_hash": ""
   },
   "api/og.js": {
-    "mtime": 1792883160.6005695,
-    "ast_hash": "9a396136e732246547108cc07789e6af",
+    "mtime": 1793298870.523775,
+    "ast_hash": "9bc62e9f83c3a870460191723bebc778",
     "semantic_hash": ""
   },
   "scripts/sync-all.mjs": {
@@ -2125,8 +2125,8 @@
     "semantic_hash": ""
   },
   "backend/src/jobs/catalogSync.js": {
-    "mtime": 1792883191.6039085,
-    "ast_hash": "9bb818b1a9bbc8cd05d9f329b7216035",
+    "mtime": 1793298498.5463822,
+    "ast_hash": "6bc4ae73f457b5392ad0979b4b782dd4",
     "semantic_hash": ""
   },
   "backend/src/jobs/crmPoll.js": {
@@ -2150,8 +2150,8 @@
     "semantic_hash": ""
   },
   "backend/src/middleware/rateLimit.js": {
-    "mtime": 1792924620.718322,
-    "ast_hash": "32da32533753f36edf452a884d5873cb",
+    "mtime": 1793298669.2353933,
+    "ast_hash": "1dd688c35b371177a4c97195a5a8c8be",
     "semantic_hash": ""
   },
   "backend/src/routes/auth.js": {
@@ -2180,8 +2180,8 @@
     "semantic_hash": ""
   },
   "backend/src/server.js": {
-    "mtime": 1793274150.4526024,
-    "ast_hash": "7bc82a99deaad502ae4b69a139f99269",
+    "mtime": 1793297903.7623243,
+    "ast_hash": "37bc66593771a9f4ae22cd9b1e5fa9a2",
     "semantic_hash": ""
   },
   "backend/src/services/catalog.js": {
@@ -2245,8 +2245,8 @@
     "semantic_hash": ""
   },
   "src/data/auth.js": {
-    "mtime": 1793292000.3853612,
-    "ast_hash": "ed74eb5a15d9806a733191cf747ae2ec",
+    "mtime": 1793298751.7502832,
+    "ast_hash": "dbf08a699420839ad9e31600334d42b5",
     "semantic_hash": ""
   },
   "src/pages/DealerDashboard.jsx": {
@@ -3275,8 +3275,8 @@
     "semantic_hash": ""
   },
   "src/pages/ContentAdminDashboard.jsx": {
-    "mtime": 1792883161.0746243,
-    "ast_hash": "20c64db7bb242e8cee2b5a6e0ab815b9",
+    "mtime": 1793298637.3429773,
+    "ast_hash": "6262b4da79e8f62bd04ef38121c07282",
     "semantic_hash": ""
   },
   "public/img/logo.webp": {
@@ -3315,8 +3315,8 @@
     "semantic_hash": ""
   },
   "android/app/src/main/assets/public/index.html": {
-    "mtime": 1793292824.5904489,
-    "ast_hash": "ccaac6efb6597ca2403b6ccd1c468ac4",
+    "mtime": 1793298930.1646607,
+    "ast_hash": "949698db987abb30fd9bc8b5b341d8e2",
     "semantic_hash": ""
   },
   "android/app/src/main/assets/public/privacy.html": {
@@ -3340,8 +3340,8 @@
     "semantic_hash": ""
   },
   "ios/App/App/public/index.html": {
-    "mtime": 1793292824.5904489,
-    "ast_hash": "ccaac6efb6597ca2403b6ccd1c468ac4",
+    "mtime": 1793298930.1646607,
+    "ast_hash": "949698db987abb30fd9bc8b5b341d8e2",
     "semantic_hash": ""
   },
   "ios/App/App/public/privacy.html": {
@@ -4105,8 +4105,8 @@
     "semantic_hash": ""
   },
   ".tag_cache.json": {
-    "mtime": 1793292779.2083864,
-    "ast_hash": "a2722bb87de0a35b7012b343d3b77f1e",
+    "mtime": 1793298457.0352924,
+    "ast_hash": "1421f861fe347ec4d29bce11644524d1",
     "semantic_hash": ""
   },
   "api/products/sync-tags.js": {
@@ -4125,13 +4125,13 @@
     "semantic_hash": ""
   },
   ".product_details_cache.json": {
-    "mtime": 1793290172.868368,
-    "ast_hash": "5a3382daec06cfdf1348ac7a2831e61b",
+    "mtime": 1793298453.4023592,
+    "ast_hash": "e28488c340e855a180271abdfba908cc",
     "semantic_hash": ""
   },
   ".products_cache.json": {
-    "mtime": 1793292776.3650138,
-    "ast_hash": "4d5342b691e328c5b9f96560844d3fbd",
+    "mtime": 1793298454.1558955,
+    "ast_hash": "91af2c9d22aedc2728d0f227c6a9c759",
     "semantic_hash": ""
   },
   "backend/src/db/migrations/010_phone_verified_and_onboarding.sql": {
@@ -4240,8 +4240,8 @@
     "semantic_hash": ""
   },
   "api/_lib/zoho.js": {
-    "mtime": 1793290319.646741,
-    "ast_hash": "44bcc9f98549136a02ecc04c642ddf29",
+    "mtime": 1793298443.6452339,
+    "ast_hash": "98dba4b7445ec7b79ffc4e4b5c091ce8",
     "semantic_hash": ""
   },
   "backend/src/middleware/requestLogger.js": {
@@ -4710,53 +4710,13 @@
     "semantic_hash": ""
   },
   "backend/src/db/migrations/013_dealers_location_fields.sql": {
-    "mtime": 1793291830.3046155,
-    "ast_hash": "ba2baea256244269463bd5d47f091983",
-    "semantic_hash": ""
-  },
-  "android/app/src/main/assets/public/assets/esm-B7nXpSJ6.js": {
-    "mtime": 1793292824.5851605,
-    "ast_hash": "7aea9c6cf5850354ddf674a0a3727270",
-    "semantic_hash": ""
-  },
-  "android/app/src/main/assets/public/assets/index-3OpJEkTN.js": {
-    "mtime": 1793292824.584147,
-    "ast_hash": "1a17aa190dacb9c34c7b6803a4d6ab4d",
-    "semantic_hash": ""
-  },
-  "android/app/src/main/assets/public/assets/web-B22rAODt.js": {
-    "mtime": 1793292824.5861588,
-    "ast_hash": "abf061f40e0ac9cfa95ae8d7feff04d7",
-    "semantic_hash": ""
-  },
-  "android/app/src/main/assets/public/assets/web-D_Rwtsp9.js": {
-    "mtime": 1793292824.5873244,
-    "ast_hash": "861e471ebd0cf8e69b56c263bf340d90",
-    "semantic_hash": ""
-  },
-  "ios/App/App/public/assets/esm-B7nXpSJ6.js": {
-    "mtime": 1793292824.5851605,
-    "ast_hash": "7aea9c6cf5850354ddf674a0a3727270",
-    "semantic_hash": ""
-  },
-  "ios/App/App/public/assets/index-3OpJEkTN.js": {
-    "mtime": 1793292824.584147,
-    "ast_hash": "1a17aa190dacb9c34c7b6803a4d6ab4d",
-    "semantic_hash": ""
-  },
-  "ios/App/App/public/assets/web-B22rAODt.js": {
-    "mtime": 1793292824.5861588,
-    "ast_hash": "abf061f40e0ac9cfa95ae8d7feff04d7",
-    "semantic_hash": ""
-  },
-  "ios/App/App/public/assets/web-D_Rwtsp9.js": {
-    "mtime": 1793292824.5873244,
-    "ast_hash": "861e471ebd0cf8e69b56c263bf340d90",
+    "mtime": 1793292915.485363,
+    "ast_hash": "26c8c515975837b5fd242ac5def317bc",
     "semantic_hash": ""
   },
   "scripts/capture-dealer-workspace.mjs": {
-    "mtime": 1793292678.8780465,
-    "ast_hash": "6f30789292638ad342f1f55229263b7e",
+    "mtime": 1793292915.554185,
+    "ast_hash": "e49467bd831f8d65fa285d07c15ff236",
     "semantic_hash": ""
   },
   "docs/screenshots/01_login_gateway.png": {
@@ -4832,6 +4792,66 @@
   "docs/screenshots/test_node.png": {
     "mtime": 1793292346.6733928,
     "ast_hash": "d8b5318603d3e40973fdca5be2f89c8e",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/assets/esm-D5yR2fOV.js": {
+    "mtime": 1793298930.161473,
+    "ast_hash": "4650b8c631470e1783979cef8e464cfb",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/assets/index-BjhAVtWq.js": {
+    "mtime": 1793298930.1599689,
+    "ast_hash": "4d2fadbb0dd9482cad93e871fb9adff5",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/assets/web-DMVD5tKi.js": {
+    "mtime": 1793298930.161473,
+    "ast_hash": "fc17c303b80268190f6f30b55c549b9e",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/assets/web-POtroZOu.js": {
+    "mtime": 1793298930.162551,
+    "ast_hash": "430461ab746c800ea6981df0fad20428",
+    "semantic_hash": ""
+  },
+  "api/auth/[...path].js": {
+    "mtime": 1793297910.2835317,
+    "ast_hash": "e25172c5fbfa5812eb85b97af88cb99a",
+    "semantic_hash": ""
+  },
+  "api/dealers/[...path].js": {
+    "mtime": 1793297916.3717644,
+    "ast_hash": "97e030cb9d333659737ecbdc8b46b368",
+    "semantic_hash": ""
+  },
+  "backend/src/app.js": {
+    "mtime": 1793298700.5205045,
+    "ast_hash": "385181b1f767dbb9739816b9f60bdfe2",
+    "semantic_hash": ""
+  },
+  "ios/App/App/public/assets/esm-D5yR2fOV.js": {
+    "mtime": 1793298930.161473,
+    "ast_hash": "4650b8c631470e1783979cef8e464cfb",
+    "semantic_hash": ""
+  },
+  "ios/App/App/public/assets/index-BjhAVtWq.js": {
+    "mtime": 1793298930.1599689,
+    "ast_hash": "4d2fadbb0dd9482cad93e871fb9adff5",
+    "semantic_hash": ""
+  },
+  "ios/App/App/public/assets/web-DMVD5tKi.js": {
+    "mtime": 1793298930.161473,
+    "ast_hash": "fc17c303b80268190f6f30b55c549b9e",
+    "semantic_hash": ""
+  },
+  "ios/App/App/public/assets/web-POtroZOu.js": {
+    "mtime": 1793298930.162551,
+    "ast_hash": "430461ab746c800ea6981df0fad20428",
+    "semantic_hash": ""
+  },
+  "scripts/sync-product-details.mjs": {
+    "mtime": 1793298513.160735,
+    "ast_hash": "48aa223d51cf3559c770aaea5831bc04",
     "semantic_hash": ""
   }
 }

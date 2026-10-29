@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **MockStorage** (6 connections) — `src/data/productsStore.test.mjs`
-- **productsStore.test.mjs** (1 connections) — `src/data/productsStore.test.mjs`
-- **.clear()** (1 connections) — `src/data/productsStore.test.mjs`
-- **.constructor()** (1 connections) — `src/data/productsStore.test.mjs`
-- **.getItem()** (1 connections) — `src/data/productsStore.test.mjs`
-- **.removeItem()** (1 connections) — `src/data/productsStore.test.mjs`
-- **.setItem()** (1 connections) — `src/data/productsStore.test.mjs`
+- **Images** (6 connections) — `.agents/skills/apple-design/references/hig/images.md`
+- **images.md** (1 connections) — `.agents/skills/apple-design/references/hig/images.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/images.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/images.md`
+- **Formats** (1 connections) — `.agents/skills/apple-design/references/hig/images.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/images.md`
+- **Resolution** (1 connections) — `.agents/skills/apple-design/references/hig/images.md`
 
 ## Relationships
 
@@ -18,7 +18,7 @@
 
 ## Source Files
 
-- `src/data/productsStore.test.mjs`
+- `.agents/skills/apple-design/references/hig/images.md`
 
 ## Audit Trail
 

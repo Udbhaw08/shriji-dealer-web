@@ -1,41 +1,39 @@
 # Community 100
 
-> 18 nodes · cohesion 0.22
+> 18 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **acquireOperation()** (10 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **cacheTokenFor()** (10 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **cacheWriteFile()** (9 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **promoteOperationClaim()** (9 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **reserveOperation()** (9 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **guardedCacheRead()** (7 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **cacheMkdir()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **inspectActiveClaim()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **readState()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **fenceLowerOperations()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **listOperations()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **operationName()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **operationWasFenced()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **prepareOperationClaim()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **retireActiveClaim()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **hasActivePendingOperation()** (4 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **operationIsSuperseded()** (4 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **discardPreparedClaim()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **BACKEND-ARCHITECTURE.md — Dedicated Node Backend, Supabase Postgres & Zoho Ownership Model** (11 connections) — `docs/BACKEND-ARCHITECTURE.md`
+- **1. What is done in Zoho (setup checklist)** (4 connections) — `docs/BACKEND-ARCHITECTURE.md`
+- **6. Decision record — why this stack** (3 connections) — `docs/BACKEND-ARCHITECTURE.md`
+- **5. Storage — what the backend keeps** (2 connections) — `docs/BACKEND-ARCHITECTURE.md`
+- **BACKEND-ARCHITECTURE.md** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
+- **0. The Ownership Rule — one sentence per system** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
+- **1.1 CRM — dealers and staff** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
+- **1.2 CRM — API access** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
+- **1.3 Commerce** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
+- **2. Backend responsibilities** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
+- **3. Integration flows** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
+- **4. Data movement** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
+- **5.1 Schema (Supabase Postgres)** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
+- **7. Service layout** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
+- **8. Phased delivery** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
+- **9. Migration checklist** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
+- **Database: Supabase (chosen over Postgres-elsewhere and Firebase)** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
+- **Runtime: dedicated Node.js 20 service (chosen over extending Vercel serverless)** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
 
 ## Relationships
 
-- [[Community 48]] (19 shared connections)
-- [[Community 94]] (14 shared connections)
-- [[Community 108]] (12 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/scripts/check-update.mjs`
+- `docs/BACKEND-ARCHITECTURE.md`
 
 ## Audit Trail
 
-- EXTRACTED: 113 (100%)
+- EXTRACTED: 34 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

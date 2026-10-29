@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **hygiene.md** (1 connections) — `.agents/skills/swiftui-pro/references/hygiene.md`
-- **Hygiene** (1 connections) — `.agents/skills/swiftui-pro/references/hygiene.md`
+- **test-supabase.mjs** (1 connections) — `scripts/test-supabase.mjs`
+- **test()** (1 connections) — `scripts/test-supabase.mjs`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `.agents/skills/swiftui-pro/references/hygiene.md`
+- `scripts/test-supabase.mjs`
 
 ## Audit Trail
 

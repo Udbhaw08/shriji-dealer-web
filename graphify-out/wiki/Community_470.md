@@ -4,17 +4,17 @@
 
 ## Key Concepts
 
-- **13. AI-Slop Anti-Patterns** (3 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Instant Red Flags** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Quick Test** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **relationshipWidth** (3 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **minimum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
 
 ## Relationships
 
-- [[Community 234]] (1 shared connections)
+- [[Community 96]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/refero-design/references/typography.md`
+- `.agents/skills/archify/schemas/common.schema.json`
 
 ## Audit Trail
 

@@ -1,13 +1,12 @@
 # Community 436
 
-> 4 nodes · cohesion 0.50
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **generate-viewer.test.mjs** (3 connections) — `.agents/skills/archify/test/generate-viewer.test.mjs`
-- **fixture()** (1 connections) — `.agents/skills/archify/test/generate-viewer.test.mjs`
-- **fragments** (1 connections) — `.agents/skills/archify/test/generate-viewer.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/generate-viewer.test.mjs`
+- **OpenAPI 3.0 Specification Summary** (2 connections) — `docs/api/swagger-openapi-spec.md`
+- **swagger-openapi-spec.md** (1 connections) — `docs/api/swagger-openapi-spec.md`
+- **Services** (1 connections) — `docs/api/swagger-openapi-spec.md`
 
 ## Relationships
 
@@ -15,11 +14,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/generate-viewer.test.mjs`
+- `docs/api/swagger-openapi-spec.md`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

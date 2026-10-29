@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **Bulk Order Inquiry Workflow** (2 connections) — `docs/guides/bulk-order-inquiry-workflow.md`
-- **bulk-order-inquiry-workflow.md** (1 connections) — `docs/guides/bulk-order-inquiry-workflow.md`
-- **Lifecycle** (1 connections) — `docs/guides/bulk-order-inquiry-workflow.md`
+- **PIN Code Serviceability Matrix** (2 connections) — `docs/guides/pincode-serviceability-matrix.md`
+- **pincode-serviceability-matrix.md** (1 connections) — `docs/guides/pincode-serviceability-matrix.md`
+- **Logistics Coverage** (1 connections) — `docs/guides/pincode-serviceability-matrix.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/guides/bulk-order-inquiry-workflow.md`
+- `docs/guides/pincode-serviceability-matrix.md`
 
 ## Audit Trail
 

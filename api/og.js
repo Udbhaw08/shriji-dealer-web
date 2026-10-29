@@ -13,7 +13,7 @@ import { escapeHtml, sanitizeUrl, sanitizeHost } from "./_lib/htmlEscape.js";
  */
 export default async function handler(req, res) {
   try {
-    const { slug, pid, name, city, state } = req.query || {};
+    const { slug, pid, name, city, state, phone } = req.query || {};
     const lookupKey = pid || slug;
 
     // Load static HTML template
@@ -48,12 +48,13 @@ export default async function handler(req, res) {
     const dealerName = typeof name === "string" ? name.trim() : "";
     const dealerCity = typeof city === "string" ? city.trim() : "";
     const dealerState = typeof state === "string" ? state.trim() : "";
+    const dealerPhone = typeof phone === "string" ? phone.trim() : "";
     const dealerLoc = [dealerCity, dealerState].filter(Boolean).join(", ");
     const priceStr = product.mrp > 0 ? `₹${Number(product.mrp).toLocaleString("en-IN")}` : "Price on Request";
 
     const rawTitle = `${product.name || "Sunshine Appliance"} · Sunshine Appliances`;
     const rawDesc = dealerName
-      ? `Retail MRP: ${priceStr} (Incl. of all taxes) · Available with ${dealerName}${dealerLoc ? ` (${dealerLoc})` : ""}`
+      ? `Retail MRP: ${priceStr} (Incl. of all taxes) · Available with Sunshine Partner (${dealerName})${dealerLoc ? ` (${dealerLoc})` : ""}${dealerPhone ? ` • Contact: ${dealerPhone}` : ""}`
       : `Retail MRP: ${priceStr} (Incl. of all taxes) · Sunshine ReSTOR`;
 
     // Strictly sanitize scheme, host and path

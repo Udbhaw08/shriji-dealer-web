@@ -443,11 +443,12 @@ function zohoApiPlugin() {
               const dealerName = urlObj.searchParams.get('name') || '';
               const dealerCity = urlObj.searchParams.get('city') || '';
               const dealerState = urlObj.searchParams.get('state') || '';
+              const dealerPhone = urlObj.searchParams.get('phone') || '';
               const dealerLoc = [dealerCity, dealerState].filter(Boolean).join(', ');
               const rawTitle = `${product.name || 'Sunshine Appliance'} · Sunshine Appliances`;
               const priceStr = product.mrp > 0 ? `₹${Number(product.mrp).toLocaleString('en-IN')}` : 'Price on Request';
               const rawDesc = dealerName
-                ? `Retail MRP: ${priceStr} (Incl. of all taxes) · Available with ${dealerName}${dealerLoc ? ` (${dealerLoc})` : ''}`
+                ? `Retail MRP: ${priceStr} (Incl. of all taxes) · Available with Sunshine Partner (${dealerName})${dealerLoc ? ` (${dealerLoc})` : ''}${dealerPhone ? ` • Contact: ${dealerPhone}` : ''}`
                 : `Retail MRP: ${priceStr} (Incl. of all taxes) · Sunshine ReSTOR`;
               const safeImgUrl = sanitizeUrl(product.img) || '/img/hero-stove.webp';
 

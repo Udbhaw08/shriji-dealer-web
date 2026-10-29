@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **OpenAPI 3.0 Specification Summary** (2 connections) — `docs/api/swagger-openapi-spec.md`
-- **swagger-openapi-spec.md** (1 connections) — `docs/api/swagger-openapi-spec.md`
-- **Services** (1 connections) — `docs/api/swagger-openapi-spec.md`
+- **Multi-Tenant Dealer Schema** (2 connections) — `docs/architecture/multi-tenant-dealer-schema.md`
+- **multi-tenant-dealer-schema.md** (1 connections) — `docs/architecture/multi-tenant-dealer-schema.md`
+- **Workspace Isolation** (1 connections) — `docs/architecture/multi-tenant-dealer-schema.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/api/swagger-openapi-spec.md`
+- `docs/architecture/multi-tenant-dealer-schema.md`
 
 ## Audit Trail
 

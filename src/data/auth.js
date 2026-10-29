@@ -539,7 +539,7 @@ export function sessionFromAuth(user, dealer) {
           state: dealer.state || null,
           address: dealer.address || null,
           pincode: dealer.pincode || dealer.pin || null,
-          phone: dealer.phone || null,
+          phone: dealer.phone || user.phone || null,
           status: dealerStatus,
           dealer_code: dealer.dealer_code,
           price_tier: dealer.price_tier || null,

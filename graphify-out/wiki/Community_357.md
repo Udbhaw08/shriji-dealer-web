@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **Lifecycle Renderer** (5 connections) — `.agents/skills/archify/renderers/lifecycle/README.md`
-- **README.md** (1 connections) — `.agents/skills/archify/renderers/lifecycle/README.md`
-- **Design Rules** (1 connections) — `.agents/skills/archify/renderers/lifecycle/README.md`
-- **Input** (1 connections) — `.agents/skills/archify/renderers/lifecycle/README.md`
-- **Layout budget** (1 connections) — `.agents/skills/archify/renderers/lifecycle/README.md`
-- **Legend** (1 connections) — `.agents/skills/archify/renderers/lifecycle/README.md`
+- **CacheManager** (4 connections) — `backend/src/services/cacheManager.js`
+- **cacheManager.js** (2 connections) — `backend/src/services/cacheManager.js`
+- **.constructor()** (1 connections) — `backend/src/services/cacheManager.js`
+- **.get()** (1 connections) — `backend/src/services/cacheManager.js`
+- **.set()** (1 connections) — `backend/src/services/cacheManager.js`
+- **globalCache** (1 connections) — `backend/src/services/cacheManager.js`
 
 ## Relationships
 
@@ -17,7 +17,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/lifecycle/README.md`
+- `backend/src/services/cacheManager.js`
 
 ## Audit Trail
 

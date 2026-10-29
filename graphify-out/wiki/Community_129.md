@@ -1,40 +1,35 @@
 # Community 129
 
-> 14 nodes · cohesion 0.24
+> 14 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **getZohoConfig()** (10 connections) — `api/_lib/zoho.js`
-- **createDealerContact()** (9 connections) — `api/_lib/zoho.js`
-- **fetchZohoWithRetry()** (9 connections) — `api/_lib/zoho.js`
-- **fetchAllRawZohoProducts()** (6 connections) — `api/_lib/zoho.js`
-- **getAccessToken()** (6 connections) — `api/_lib/zoho.js`
-- **fetchZohoPricebooks()** (4 connections) — `api/_lib/zoho.js`
-- **fetchZohoRawCategories()** (4 connections) — `api/_lib/zoho.js`
-- **getDealerById()** (4 connections) — `api/_lib/zoho.js`
-- **loadEnv()** (4 connections) — `api/_lib/zoho.js`
-- **test-zoho-api.mjs** (4 connections) — `scripts/test-zoho-api.mjs`
-- **apply.js** (3 connections) — `api/dealer/apply.js`
-- **handler()** (2 connections) — `api/dealer/apply.js`
-- **readDiskCache()** (2 connections) — `api/_lib/zoho.js`
-- **{ dc, orgId }** (1 connections) — `scripts/test-zoho-api.mjs`
+- **File management** (7 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
+- **Desktop (macOS)** (3 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
+- **Mobile (iOS, iPadOS)** (3 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
+- **file-management.md** (1 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
+- **Creating and opening files** (1 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
+- **Custom file management** (1 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
+- **Document launcher** (1 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
+- **File provider app extension** (1 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
+- **Finder Sync extensions** (1 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
+- **Quick Look previews** (1 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
+- **Saving work** (1 connections) — `.agents/skills/apple-design/references/hig/file-management.md`
 
 ## Relationships
 
-- [[Community 46]] (13 shared connections)
-- [[Community 356]] (5 shared connections)
-- [[Community 187]] (3 shared connections)
-- [[Community 113]] (3 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `api/_lib/zoho.js`
-- `api/dealer/apply.js`
-- `scripts/test-zoho-api.mjs`
+- `.agents/skills/apple-design/references/hig/file-management.md`
 
 ## Audit Trail
 
-- EXTRACTED: 68 (100%)
+- EXTRACTED: 26 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

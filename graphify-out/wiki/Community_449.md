@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **Supabase Database Schema Reference** (2 connections) — `docs/architecture/supabase-schema-reference.md`
-- **supabase-schema-reference.md** (1 connections) — `docs/architecture/supabase-schema-reference.md`
-- **Primary Tables** (1 connections) — `docs/architecture/supabase-schema-reference.md`
+- **Customer Share Link (?from=) Specification** (2 connections) — `docs/guides/customer-share-link-spec.md`
+- **customer-share-link-spec.md** (1 connections) — `docs/guides/customer-share-link-spec.md`
+- **Behavior** (1 connections) — `docs/guides/customer-share-link-spec.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/architecture/supabase-schema-reference.md`
+- `docs/guides/customer-share-link-spec.md`
 
 ## Audit Trail
 

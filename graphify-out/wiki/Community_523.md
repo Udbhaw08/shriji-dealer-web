@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **performance-plus.md** (1 connections) — `.agents/skills/swiftui-pro/references/performance-plus.md`
-- **Deeper performance work** (1 connections) — `.agents/skills/swiftui-pro/references/performance-plus.md`
+- **healthService.js** (1 connections) — `backend/src/services/healthService.js`
+- **getSystemHealth()** (1 connections) — `backend/src/services/healthService.js`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `.agents/skills/swiftui-pro/references/performance-plus.md`
+- `backend/src/services/healthService.js`
 
 ## Audit Trail
 

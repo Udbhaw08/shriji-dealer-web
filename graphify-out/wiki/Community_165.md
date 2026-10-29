@@ -1,33 +1,36 @@
 # Community 165
 
-> 12 nodes · cohesion 0.17
+> 11 nodes · cohesion 0.24
 
 ## Key Concepts
 
-- **generate-codebase-doc.mjs** (11 connections) — `scripts/generate-codebase-doc.mjs`
-- **allFiles** (1 connections) — `scripts/generate-codebase-doc.mjs`
-- **apiFiles** (1 connections) — `scripts/generate-codebase-doc.mjs`
-- **components** (1 connections) — `scripts/generate-codebase-doc.mjs`
-- **dataStores** (1 connections) — `scripts/generate-codebase-doc.mjs`
-- **getFiles()** (1 connections) — `scripts/generate-codebase-doc.mjs`
-- **istDateString** (1 connections) — `scripts/generate-codebase-doc.mjs`
-- **pages** (1 connections) — `scripts/generate-codebase-doc.mjs`
-- **pkg** (1 connections) — `scripts/generate-codebase-doc.mjs`
-- **rootDir** (1 connections) — `scripts/generate-codebase-doc.mjs`
-- **routes** (1 connections) — `scripts/generate-codebase-doc.mjs`
-- **scripts** (1 connections) — `scripts/generate-codebase-doc.mjs`
+- **i18n.js** (25 connections) — `src/data/i18n.js`
+- **setLanguage()** (3 connections) — `src/data/i18n.js`
+- **tCat()** (3 connections) — `src/data/i18n.js`
+- **emit()** (2 connections) — `src/data/i18n.js`
+- **toggleLanguage()** (2 connections) — `src/data/i18n.js`
+- **translations.js** (2 connections) — `src/data/translations.js`
+- **TRANSLATIONS** (2 connections) — `src/data/translations.js`
+- **currentLang** (1 connections) — `src/data/i18n.js`
+- **getInitialLang()** (1 connections) — `src/data/i18n.js`
+- **getLanguage()** (1 connections) — `src/data/i18n.js`
+- **listeners** (1 connections) — `src/data/i18n.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Product Pages Specification]] (12 shared connections)
+- [[Community 50]] (3 shared connections)
+- [[Community 210]] (1 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (1 shared connections)
 
 ## Source Files
 
-- `scripts/generate-codebase-doc.mjs`
+- `src/data/i18n.js`
+- `src/data/translations.js`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (100%)
+- EXTRACTED: 43 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

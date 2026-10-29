@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **semantic-camera.test.mjs** (6 connections) — `.agents/skills/archify/test/semantic-camera.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/semantic-camera.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/semantic-camera.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/semantic-camera.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/semantic-camera.test.mjs`
-- **svg()** (1 connections) — `.agents/skills/archify/test/semantic-camera.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/semantic-camera.test.mjs`
+- **semantic-zoom.test.mjs** (6 connections) — `.agents/skills/archify/test/semantic-zoom.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/semantic-zoom.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/semantic-zoom.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/semantic-zoom.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/semantic-zoom.test.mjs`
+- **svg()** (1 connections) — `.agents/skills/archify/test/semantic-zoom.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/semantic-zoom.test.mjs`
 
 ## Relationships
 
@@ -18,7 +18,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/semantic-camera.test.mjs`
+- `.agents/skills/archify/test/semantic-zoom.test.mjs`
 
 ## Audit Trail
 

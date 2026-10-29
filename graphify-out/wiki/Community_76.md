@@ -1,50 +1,44 @@
 # Community 76
 
-> 22 nodes · cohesion 0.19
+> 23 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **ga()** (22 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
-- **ct()** (17 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
-- **Ri()** (16 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
-- **Dn()** (12 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
-- **q()** (12 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
-- **Ei()** (11 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
-- **go()** (11 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
-- **va()** (10 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
-- **l()** (9 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
-- **lo()** (9 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
-- **ra()** (9 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
-- **ho()** (8 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
-- **Ka()** (6 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
-- **uo()** (6 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
-- **ea()** (5 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
-- **po()** (5 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
-- **Ya()** (5 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
-- **Er()** (4 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
-- **fo()** (4 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
-- **ut()** (4 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
-- **qn()** (3 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
-- **w()** (2 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
+- **package.json** (9 connections) — `backend/package.json`
+- **dependencies** (7 connections) — `backend/package.json`
+- **scripts** (7 connections) — `backend/package.json`
+- **engines** (2 connections) — `backend/package.json`
+- **dotenv** (1 connections) — `backend/package.json`
+- **express** (1 connections) — `backend/package.json`
+- **google-auth-library** (1 connections) — `backend/package.json`
+- **jsonwebtoken** (1 connections) — `backend/package.json`
+- **postgres** (1 connections) — `backend/package.json`
+- **resend** (1 connections) — `backend/package.json`
+- **description** (1 connections) — `backend/package.json`
+- **node** (1 connections) — `backend/package.json`
+- **main** (1 connections) — `backend/package.json`
+- **name** (1 connections) — `backend/package.json`
+- **private** (1 connections) — `backend/package.json`
+- **build** (1 connections) — `backend/package.json`
+- **check:ready** (1 connections) — `backend/package.json`
+- **dev** (1 connections) — `backend/package.json`
+- **migrate** (1 connections) — `backend/package.json`
+- **start** (1 connections) — `backend/package.json`
+- **test** (1 connections) — `backend/package.json`
+- **type** (1 connections) — `backend/package.json`
+- **version** (1 connections) — `backend/package.json`
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (29 shared connections)
-- [[Product Brand & Business Vision]] (20 shared connections)
-- [[Pricing Regression Test Suite]] (16 shared connections)
-- [[Zoho Integration Architecture]] (13 shared connections)
-- [[Dependencies & Package Config]] (8 shared connections)
-- [[Community 32]] (5 shared connections)
-- [[Oxlint Linter Configuration]] (5 shared connections)
-- [[Community 105]] (4 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-3OpJEkTN.js`
+- `backend/package.json`
 
 ## Audit Trail
 
-- EXTRACTED: 190 (100%)
+- EXTRACTED: 44 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

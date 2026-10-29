@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **portalGate.test.mjs** (0 connections) — `src/data/portalGate.test.mjs`
+- **verify-all.mjs** (0 connections) — `scripts/verify-all.mjs`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `src/data/portalGate.test.mjs`
+- `scripts/verify-all.mjs`
 
 ## Audit Trail
 

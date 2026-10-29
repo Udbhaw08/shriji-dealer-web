@@ -1,52 +1,61 @@
 # Project Readme & Layout
 
-> 44 nodes · cohesion 0.05
+> 47 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **properties** (30 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **label** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **pad** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **row** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **brand** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **from** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **fromSide** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **id** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **kind** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **labelAt** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **labelDx** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **labelDy** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **pos** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **route** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **sublabel** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **tag** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **to** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **toSide** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **variant** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **width** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- *... and 19 more nodes in this community*
+- **vite.config.js** (20 connections) — `vite.config.js`
+- **content.js** (19 connections) — `backend/src/services/content.js`
+- **content.js** (17 connections) — `backend/src/routes/content.js`
+- **securityPhase1.test.mjs** (16 connections) — `backend/test/securityPhase1.test.mjs`
+- **content.js** (14 connections) — `api/content.js`
+- **zohoApiPlugin()** (12 connections) — `vite.config.js`
+- **handler()** (11 connections) — `api/content.js`
+- **upload.js** (9 connections) — `api/upload.js`
+- **verifyAdminAuth()** (9 connections) — `api/_lib/adminAuth.js`
+- **getSupabaseBanners()** (9 connections) — `backend/src/services/content.js`
+- **getSupabaseSchemes()** (8 connections) — `backend/src/services/content.js`
+- **getSupabaseBranding()** (7 connections) — `backend/src/services/content.js`
+- **download.js** (6 connections) — `api/download.js`
+- **adminAuth.js** (6 connections) — `api/_lib/adminAuth.js`
+- **getActiveContent()** (6 connections) — `backend/src/services/content.js`
+- **getHeroSliderSettings()** (6 connections) — `backend/src/services/content.js`
+- **handler()** (5 connections) — `api/download.js`
+- **ssrf.js** (5 connections) — `api/_lib/ssrf.js`
+- **validateSafeDownloadUrl()** (5 connections) — `api/_lib/ssrf.js`
+- **saveHeroSliderSettings()** (5 connections) — `backend/src/services/content.js`
+- **handler()** (4 connections) — `api/upload.js`
+- **deleteStoreContent()** (4 connections) — `backend/src/services/content.js`
+- **getAllStoreContent()** (4 connections) — `backend/src/services/content.js`
+- **toggleStoreContentActive()** (4 connections) — `backend/src/services/content.js`
+- **upsertStoreContent()** (4 connections) — `backend/src/services/content.js`
+- *... and 22 more nodes in this community*
 
 ## Relationships
 
-- [[Community 123]] (5 shared connections)
-- [[Community 275]] (2 shared connections)
-- [[Community 471]] (1 shared connections)
-- [[Community 472]] (1 shared connections)
-- [[Community 359]] (1 shared connections)
+- [[Master Codebase Architecture Reference]] (16 shared connections)
+- [[Mobile Responsive UI Skill]] (12 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (12 shared connections)
+- [[Community 90]] (7 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/architecture.schema.json`
+- `api/_lib/adminAuth.js`
+- `api/_lib/ssrf.js`
+- `api/_lib/zoho.js`
+- `api/admin/login.js`
+- `api/content.js`
+- `api/download.js`
+- `api/upload.js`
+- `backend/src/routes/content.js`
+- `backend/src/services/content.js`
+- `backend/test/securityPhase1.test.mjs`
+- `vite.config.js`
 
 ## Audit Trail
 
-- EXTRACTED: 96 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 247 (98%)
+- INFERRED: 4 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

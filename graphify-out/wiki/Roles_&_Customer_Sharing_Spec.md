@@ -1,66 +1,55 @@
 # Roles & Customer Sharing Spec
 
-> 52 nodes · cohesion 0.10
+> 53 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **session.js** (54 connections) — `src/data/session.js`
-- **Login.jsx** (45 connections) — `src/pages/Login.jsx`
-- **DealerApply.jsx** (26 connections) — `src/pages/DealerApply.jsx`
-- **BrandApplyFlow.jsx** (23 connections) — `src/components/BrandApplyFlow.jsx`
-- **StaffDashboard.jsx** (16 connections) — `src/pages/StaffDashboard.jsx`
-- **revalidateSession()** (14 connections) — `src/data/session.js`
-- **StaffJoin.jsx** (14 connections) — `src/pages/StaffJoin.jsx`
-- **EmailVerificationPrompt.jsx** (12 connections) — `src/components/EmailVerificationPrompt.jsx`
-- **PhoneVerificationPrompt.jsx** (12 connections) — `src/components/PhoneVerificationPrompt.jsx`
-- **validators.js** (12 connections) — `src/data/validators.js`
-- **loginCode.js** (11 connections) — `src/data/loginCode.js`
-- **setSession()** (11 connections) — `src/data/session.js`
-- **hasSession()** (8 connections) — `src/data/auth.js`
-- **signOut()** (8 connections) — `src/data/session.js`
-- **registerDealer()** (7 connections) — `src/data/dealer.js`
-- **isValidEmail()** (7 connections) — `src/data/validators.js`
-- **applyAsDealer()** (6 connections) — `src/data/auth.js`
-- **requestEmailOtp()** (6 connections) — `src/data/auth.js`
-- **formatLoginCode()** (6 connections) — `src/data/loginCode.js`
-- **isValidName()** (6 connections) — `src/data/validators.js`
-- **isValidPhone()** (6 connections) — `src/data/validators.js`
-- **DealerPending.jsx** (6 connections) — `src/pages/DealerPending.jsx`
-- **OtpDispatchFeedback.jsx** (5 connections) — `src/components/OtpDispatchFeedback.jsx`
-- **OtpDispatchFeedback()** (5 connections) — `src/components/OtpDispatchFeedback.jsx`
-- **switchToDealerSession()** (5 connections) — `src/data/session.js`
-- *... and 27 more nodes in this community*
+- **ot()** (23 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **k()** (21 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **lt()** (16 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **nt()** (15 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **ft()** (14 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **mt()** (12 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **yn()** (11 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **be()** (10 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **kt()** (10 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **xi()** (10 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **yh()** (10 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **af()** (9 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **at()** (9 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **hh()** (9 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **ut()** (9 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **ct()** (8 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **it()** (8 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **mn()** (8 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **Id()** (7 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **kf()** (7 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **mh()** (7 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **mo()** (7 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **nn()** (7 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **pn()** (7 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **un()** (7 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- *... and 28 more nodes in this community*
 
 ## Relationships
 
-- [[Community 35]] (56 shared connections)
-- [[Product Requirements Documentation]] (53 shared connections)
-- [[Community 87]] (12 shared connections)
-- [[Community 45]] (8 shared connections)
-- [[Community 168]] (1 shared connections)
-- [[Community 152]] (1 shared connections)
+- [[Price Presentation & Product UI]] (67 shared connections)
+- [[Claude Agent Instructions]] (23 shared connections)
+- [[Graphify Agent Rules]] (20 shared connections)
+- [[Product Requirements Documentation]] (16 shared connections)
+- [[Community 68]] (12 shared connections)
+- [[Architecture Doc Generator]] (12 shared connections)
+- [[Community 69]] (11 shared connections)
+- [[Graphify Workflow]] (10 shared connections)
+- [[Community 46]] (8 shared connections)
 
 ## Source Files
 
-- `src/components/BrandApplyFlow.jsx`
-- `src/components/EmailVerificationPrompt.jsx`
-- `src/components/OtpDispatchFeedback.jsx`
-- `src/components/PhoneVerificationPrompt.jsx`
-- `src/data/auth.js`
-- `src/data/dealer.js`
-- `src/data/loginCode.js`
-- `src/data/session.js`
-- `src/data/validators.js`
-- `src/pages/DealerApply.jsx`
-- `src/pages/DealerDashboard.jsx`
-- `src/pages/DealerPending.jsx`
-- `src/pages/Login.jsx`
-- `src/pages/StaffDashboard.jsx`
-- `src/pages/StaffJoin.jsx`
+- `ios/App/App/public/assets/index-BjhAVtWq.js`
 
 ## Audit Trail
 
-- EXTRACTED: 395 (100%)
+- EXTRACTED: 385 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

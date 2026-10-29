@@ -1,47 +1,54 @@
 # Graphify Workflow
 
-> 41 nodes · cohesion 0.05
+> 43 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **scripts** (17 connections) — `package.json`
-- **dependencies** (13 connections) — `package.json`
-- **package.json** (7 connections) — `package.json`
-- **devDependencies** (6 connections) — `package.json`
-- **@capacitor/android** (1 connections) — `package.json`
-- **@capacitor/app** (1 connections) — `package.json`
-- **@capacitor/cli** (1 connections) — `package.json`
-- **@capacitor/core** (1 connections) — `package.json`
-- **@capacitor/ios** (1 connections) — `package.json`
-- **@capacitor/preferences** (1 connections) — `package.json`
-- **dotenv** (1 connections) — `package.json`
-- **jsonwebtoken** (1 connections) — `package.json`
-- **postgres** (1 connections) — `package.json`
-- **react** (1 connections) — `package.json`
-- **react-dom** (1 connections) — `package.json`
-- **react-router-dom** (1 connections) — `package.json`
-- **oxlint** (1 connections) — `package.json`
-- **@types/react** (1 connections) — `package.json`
-- **@types/react-dom** (1 connections) — `package.json`
-- **vite** (1 connections) — `package.json`
-- **@vitejs/plugin-react** (1 connections) — `package.json`
-- **name** (1 connections) — `package.json`
-- **private** (1 connections) — `package.json`
-- **build** (1 connections) — `package.json`
-- **build:backend** (1 connections) — `package.json`
-- *... and 16 more nodes in this community*
+- **kr()** (29 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **Nr()** (23 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **gf()** (18 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **Ei()** (16 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **jr()** (11 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **Ci()** (9 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **Ti()** (7 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **fr()** (6 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **gr()** (6 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **hr()** (6 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **Ir()** (6 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **om()** (6 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **Sn()** (6 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **Sr()** (6 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **vr()** (6 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **Br()** (5 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **li()** (5 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **Lr()** (5 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **qf()** (5 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **Rr()** (5 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **Si()** (5 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **sm()** (5 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **wr()** (5 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **xn()** (5 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **zr()** (5 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- *... and 18 more nodes in this community*
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Price Presentation & Product UI]] (46 shared connections)
+- [[Roles & Customer Sharing Spec]] (10 shared connections)
+- [[Architecture Doc Generator]] (10 shared connections)
+- [[Claude Agent Instructions]] (6 shared connections)
+- [[Product Requirements Documentation]] (6 shared connections)
+- [[Graphify Agent Rules]] (5 shared connections)
+- [[Community 68]] (2 shared connections)
+- [[Community 46]] (1 shared connections)
 
 ## Source Files
 
-- `package.json`
+- `ios/App/App/public/assets/index-BjhAVtWq.js`
 
 ## Audit Trail
 
-- EXTRACTED: 80 (100%)
+- EXTRACTED: 266 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

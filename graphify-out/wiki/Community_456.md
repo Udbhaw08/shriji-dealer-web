@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **Developer Cheat Sheet** (2 connections) — `docs/guides/developer-cheat-sheet.md`
-- **developer-cheat-sheet.md** (1 connections) — `docs/guides/developer-cheat-sheet.md`
-- **Common Commands** (1 connections) — `docs/guides/developer-cheat-sheet.md`
+- **Designing for iOS** (2 connections) — `.agents/skills/apple-design/references/hig/designing-for-ios.md`
+- **designing-for-ios.md** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-ios.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-ios.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/guides/developer-cheat-sheet.md`
+- `.agents/skills/apple-design/references/hig/designing-for-ios.md`
 
 ## Audit Trail
 

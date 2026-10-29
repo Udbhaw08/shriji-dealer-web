@@ -4,29 +4,30 @@
 
 ## Key Concepts
 
-- **Shriji Backend Skill** (9 connections) — `.agents/skills/shriji-backend/SKILL.md`
-- **SKILL.md** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
-- **Commands** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
-- **Environment (backend/.env — never committed)** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
-- **Frontend Integration (built)** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
-- **Hard Rules** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
-- **Key Files (populated as built)** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
-- **Ownership Rule (invariant)** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
-- **Pending Seam — price proxy switch (do when backend is deployed)** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
-- **Stack Record — what was chosen, do not substitute** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
+- **v1-compatibility.test.mjs** (9 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
+- **validate()** (3 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
+- **check()** (1 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
+- **legacyDataflowDocument()** (1 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
+- **narrowExplicitViewBoxDocuments()** (1 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
+- **OFFICIAL_V1_EXAMPLES** (1 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 47]] (1 shared connections)
+- [[Client Products Data Store]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/shriji-backend/SKILL.md`
+- `.agents/skills/archify/test/v1-compatibility.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 18 (90%)
+- INFERRED: 2 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

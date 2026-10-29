@@ -1,22 +1,21 @@
 # Community 424
 
-> 4 nodes · cohesion 0.50
+> 4 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **meta** (5 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **required** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **capture-dealer-workspace.mjs** (3 connections) — `scripts/capture-dealer-workspace.mjs`
+- **call()** (2 connections) — `scripts/capture-dealer-workspace.mjs`
+- **run()** (2 connections) — `scripts/capture-dealer-workspace.mjs`
+- **chrome** (1 connections) — `scripts/capture-dealer-workspace.mjs`
 
 ## Relationships
 
-- [[Community 92]] (1 shared connections)
-- [[Community 67]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/sequence.schema.json`
+- `scripts/capture-dealer-workspace.mjs`
 
 ## Audit Trail
 

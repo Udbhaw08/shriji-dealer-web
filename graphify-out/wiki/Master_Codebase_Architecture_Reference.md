@@ -1,60 +1,72 @@
 # Master Codebase Architecture Reference
 
-> 68 nodes · cohesion 0.06
+> 62 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **render-lifecycle.mjs** (81 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **render-dataflow.mjs** (78 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **focusEdgeAttrs()** (15 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **svgAccessibleText()** (13 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **svgRootAttrs()** (13 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **routePointsValue()** (12 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **anchor()** (11 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **automaticPortSpread()** (11 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **chosenSide()** (11 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **defaultFromSide()** (11 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **defaultToSide()** (11 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **renderDefinitions()** (11 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
-- **resolveLegend()** (10 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
-- **variantAccent()** (9 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **renderConnectionLabel()** (8 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **pathFor()** (8 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **renderFlowLabel()** (8 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **pathFor()** (8 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **renderSvg()** (8 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **renderTransitionLabel()** (8 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **connectionSides()** (6 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **renderSvg()** (6 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **renderSvg()** (6 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **renderLegend()** (6 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **renderSvg()** (6 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- *... and 43 more nodes in this community*
+- **sql** (80 connections) — `backend/src/db/pool.js`
+- **dealers.js** (51 connections) — `backend/src/routes/dealers.js`
+- **dealerApp.js** (44 connections) — `backend/src/services/dealerApp.js`
+- **pool.js** (35 connections) — `backend/src/db/pool.js`
+- **staff.js** (23 connections) — `backend/src/services/staff.js`
+- **audit()** (18 connections) — `backend/src/utils/audit.js`
+- **webhooks.js** (15 connections) — `backend/src/routes/webhooks.js`
+- **crmPoll.js** (13 connections) — `backend/src/jobs/crmPoll.js`
+- **auth.js** (13 connections) — `backend/src/middleware/auth.js`
+- **applyCrmAccountState()** (12 connections) — `backend/src/services/dealerApp.js`
+- **generateUniqueDealerCode()** (10 connections) — `backend/src/utils/loginCode.js`
+- **applyDealer()** (7 connections) — `backend/src/services/dealerApp.js`
+- **verifyDealerRegistrationOtp()** (7 connections) — `backend/src/services/dealerApp.js`
+- **audit.js** (7 connections) — `backend/src/utils/audit.js`
+- **sync-supabase-content.js** (6 connections) — `backend/scripts/sync-supabase-content.js`
+- **provisionDealerInCrm()** (6 connections) — `backend/src/services/dealerApp.js`
+- **createInvite()** (6 connections) — `backend/src/services/staff.js`
+- **crmPoll()** (5 connections) — `backend/src/jobs/crmPoll.js`
+- **jwtAuth()** (5 connections) — `backend/src/middleware/auth.js`
+- **requireAdmin()** (5 connections) — `backend/src/middleware/auth.js`
+- **applyCrmContactState()** (5 connections) — `backend/src/services/dealerApp.js`
+- **seed-content.js** (4 connections) — `backend/scripts/seed-content.js`
+- **deactivateDealer()** (4 connections) — `backend/src/services/dealerApp.js`
+- **approveStaff()** (4 connections) — `backend/src/services/staff.js`
+- **deleteStaff()** (4 connections) — `backend/src/services/staff.js`
+- *... and 37 more nodes in this community*
 
 ## Relationships
 
-- [[Design System & UI Tokens]] (80 shared connections)
-- [[Community 31]] (50 shared connections)
-- [[Zoho Backend & Proxy Endpoints]] (30 shared connections)
-- [[Architecture Doc Generator]] (23 shared connections)
-- [[Community 61]] (22 shared connections)
-- [[Testing & Workflow Skill]] (2 shared connections)
+- [[Live Pricing Audit Tool]] (62 shared connections)
+- [[Community 51]] (30 shared connections)
+- [[Mobile Responsive UI Skill]] (29 shared connections)
+- [[Product Brand & Business Vision]] (20 shared connections)
+- [[Project Readme & Layout]] (16 shared connections)
+- [[Community 90]] (3 shared connections)
+- [[Community 317]] (3 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- `.agents/skills/archify/renderers/shared/cli.mjs`
-- `.agents/skills/archify/renderers/shared/geometry.mjs`
-- `.agents/skills/archify/renderers/shared/legend.mjs`
-- `.agents/skills/archify/renderers/shared/utils.mjs`
+- `api/dealer/info.js`
+- `backend/scripts/check-readiness.js`
+- `backend/scripts/inspect-db.js`
+- `backend/scripts/migrate-content.js`
+- `backend/scripts/seed-content.js`
+- `backend/scripts/setup-buckets.js`
+- `backend/scripts/setup-policies.js`
+- `backend/scripts/sync-supabase-content.js`
+- `backend/scripts/test-storage.js`
+- `backend/src/db/pool.js`
+- `backend/src/jobs/crmPoll.js`
+- `backend/src/middleware/auth.js`
+- `backend/src/routes/dealers.js`
+- `backend/src/routes/webhooks.js`
+- `backend/src/services/dealerApp.js`
+- `backend/src/services/staff.js`
+- `backend/src/utils/audit.js`
+- `backend/src/utils/loginCode.js`
+- `backend/test/crmSync.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 469 (98%)
-- INFERRED: 8 (2%)
+- EXTRACTED: 467 (99%)
+- INFERRED: 4 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

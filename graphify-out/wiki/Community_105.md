@@ -1,46 +1,44 @@
 # Community 105
 
-> 17 nodes · cohesion 0.16
+> 18 nodes · cohesion 0.23
 
 ## Key Concepts
 
-- **Ti()** (14 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
-- **gc()** (11 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
-- **kc()** (8 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
-- **ki()** (8 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
-- **za()** (7 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
-- **Ai()** (6 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
-- **Oi()** (6 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
-- **qc()** (6 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
-- **Mi()** (5 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
-- **La()** (4 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
-- **pc()** (4 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
-- **Pi()** (4 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
-- **Uc()** (4 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
-- **di()** (3 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
-- **ji()** (3 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
-- **to()** (3 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
-- **Ni()** (2 connections) — `ios/App/App/public/assets/index-3OpJEkTN.js`
+- **output-path.mjs** (22 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **resolveOutputPath()** (11 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **futurePathsAlias()** (6 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **pathsAlias()** (6 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **canonicalFuturePath()** (5 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **sameFileIdentity()** (5 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **probeDirectorySemantics()** (4 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **canonicalize()** (3 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **directoryIdentityKey()** (3 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **hasFileIdentity()** (3 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **pathIsInside()** (3 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **probeNamesAlias()** (3 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **sameDirectory()** (3 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **nearestExistingDirectory()** (2 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **OutputPathError** (2 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **splitAbsolute()** (2 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **directorySemanticsCache** (1 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **.constructor()** (1 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (18 shared connections)
-- [[Product Brand & Business Vision]] (10 shared connections)
-- [[Zoho Integration Architecture]] (10 shared connections)
-- [[Community 32]] (5 shared connections)
-- [[Community 76]] (4 shared connections)
-- [[Dependencies & Package Config]] (3 shared connections)
-- [[Oxlint Linter Configuration]] (2 shared connections)
-- [[Pricing Regression Test Suite]] (2 shared connections)
+- [[Community 49]] (4 shared connections)
+- [[Client Products Data Store]] (4 shared connections)
+- [[Community 65]] (3 shared connections)
+- [[Community 293]] (2 shared connections)
+- [[Community 204]] (2 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-3OpJEkTN.js`
+- `.agents/skills/archify/renderers/shared/output-path.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 98 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 82 (96%)
+- INFERRED: 3 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

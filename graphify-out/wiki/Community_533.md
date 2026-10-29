@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **checkout-line-endings.test.mjs** (1 connections) — `.agents/skills/archify/test/checkout-line-endings.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/checkout-line-endings.test.mjs`
+- **dateUtils.js** (1 connections) — `src/utils/dateUtils.js`
+- **formatRelativeTime()** (1 connections) — `src/utils/dateUtils.js`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/checkout-line-endings.test.mjs`
+- `src/utils/dateUtils.js`
 
 ## Audit Trail
 

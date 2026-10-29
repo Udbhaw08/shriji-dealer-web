@@ -4,15 +4,15 @@
 
 ## Key Concepts
 
-- **generate-validators.mjs** (8 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
-- **ajv** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
-- **diagramTypes** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
-- **output** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
-- **root** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
-- **schemaIds** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
-- **schemasDir** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
-- **validatorCode** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
+- **architecture-compare-recovery.test.mjs** (8 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
+- **base** (1 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
+- **cases** (1 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
+- **cli** (1 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
+- **fixture()** (1 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
+- **hash()** (1 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
+- **head** (1 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
+- **inject()** (1 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
 
 ## Relationships
 
@@ -20,7 +20,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/scripts/generate-validators.mjs`
+- `.agents/skills/archify/test/architecture-compare-recovery.test.mjs`
 
 ## Audit Trail
 

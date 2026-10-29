@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **route-probe.test.mjs** (6 connections) — `.agents/skills/archify/test/route-probe.test.mjs`
-- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/route-probe.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/route-probe.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/route-probe.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/route-probe.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/route-probe.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/route-probe.test.mjs`
+- **semantic-passport.test.mjs** (6 connections) — `.agents/skills/archify/test/semantic-passport.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/semantic-passport.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/semantic-passport.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/semantic-passport.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/semantic-passport.test.mjs`
+- **svg()** (1 connections) — `.agents/skills/archify/test/semantic-passport.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/semantic-passport.test.mjs`
 
 ## Relationships
 
@@ -18,7 +18,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/route-probe.test.mjs`
+- `.agents/skills/archify/test/semantic-passport.test.mjs`
 
 ## Audit Trail
 

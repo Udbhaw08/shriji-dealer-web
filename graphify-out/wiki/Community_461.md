@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **Designing for iOS** (2 connections) — `.agents/skills/apple-design/references/hig/designing-for-ios.md`
-- **designing-for-ios.md** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-ios.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-ios.md`
+- **iOS Code Signing & TestFlight Deployment** (2 connections) — `docs/mobile/ios-provisioning-and-signing.md`
+- **ios-provisioning-and-signing.md** (1 connections) — `docs/mobile/ios-provisioning-and-signing.md`
+- **Overview** (1 connections) — `docs/mobile/ios-provisioning-and-signing.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/designing-for-ios.md`
+- `docs/mobile/ios-provisioning-and-signing.md`
 
 ## Audit Trail
 

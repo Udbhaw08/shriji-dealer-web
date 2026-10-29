@@ -1,68 +1,55 @@
 # Zoho Backend & Proxy Endpoints
 
-> 73 nodes · cohesion 0.05
+> 71 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **cli.mjs** (43 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **diagnostics.mjs** (27 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
-- **utils.mjs** (26 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
-- **i18n.mjs** (21 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **translateMessage()** (21 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **legend.mjs** (21 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
-- **throwDiagnosticError()** (16 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
-- **throwDiagnosticProblems()** (15 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
-- **renderLegend()** (14 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
-- **writeDiagram()** (10 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **engineering-profiles.mjs** (10 connections) — `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
-- **validator.mjs** (10 connections) — `.agents/skills/archify/renderers/shared/validator.mjs`
-- **validateSchema()** (10 connections) — `.agents/skills/archify/renderers/shared/validator.mjs`
-- **engineering-profile.test.mjs** (10 connections) — `.agents/skills/archify/test/engineering-profile.test.mjs`
-- **render-workflow.mjs** (10 connections) — `.agents/skills/archify/renderers/workflow/render-workflow.mjs`
-- **loadDiagram()** (9 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **applyTemplate()** (9 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
-- **loadDiagramWithBrandMarks()** (8 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **prepareDiagramBrandMarks()** (7 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **resolveLocale()** (7 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
-- **validateEngineeringProfile()** (6 connections) — `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
-- **legendFootprint()** (6 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
-- **measureLegend()** (6 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
-- **normalizedDiagnostic()** (4 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
-- **deploymentOwnershipDiagnostics()** (4 connections) — `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
-- *... and 48 more nodes in this community*
+- **zoho.js** (63 connections) — `api/_lib/zoho.js`
+- **fetchZohoProductById()** (20 connections) — `api/_lib/zoho.js`
+- **fetchZohoProducts()** (16 connections) — `api/_lib/zoho.js`
+- **audit_prices.mjs** (14 connections) — `scripts/audit_prices.mjs`
+- **syncProductDetailsPool()** (12 connections) — `api/_lib/zoho.js`
+- **getZohoConfig()** (11 connections) — `api/_lib/zoho.js`
+- **fetchZohoWithRetry()** (10 connections) — `api/_lib/zoho.js`
+- **createDealerContact()** (9 connections) — `api/_lib/zoho.js`
+- **fetchAllRawZohoProducts()** (7 connections) — `api/_lib/zoho.js`
+- **fetchZohoPricebookItems()** (7 connections) — `api/_lib/zoho.js`
+- **normalizeProduct()** (7 connections) — `api/_lib/zoho.js`
+- **syncRecentProductTags()** (7 connections) — `api/_lib/zoho.js`
+- **getAccessToken()** (6 connections) — `api/_lib/zoho.js`
+- **readTagCache()** (6 connections) — `api/_lib/zoho.js`
+- **resolvePricebookId()** (6 connections) — `api/_lib/zoho.js`
+- **fetchResolvedPricebookRates()** (5 connections) — `api/_lib/zoho.js`
+- **getCategoryVisibilityMap()** (5 connections) — `api/_lib/zoho.js`
+- **readProductDetailsDiskCache()** (5 connections) — `api/_lib/zoho.js`
+- **fetchZohoPricebooks()** (4 connections) — `api/_lib/zoho.js`
+- **fetchZohoRawCategories()** (4 connections) — `api/_lib/zoho.js`
+- **getDealerById()** (4 connections) — `api/_lib/zoho.js`
+- **loadEnv()** (4 connections) — `api/_lib/zoho.js`
+- **updateCachedProductTags()** (4 connections) — `api/_lib/zoho.js`
+- **writeProductDetailDiskCache()** (4 connections) — `api/_lib/zoho.js`
+- **sync-tags.js** (4 connections) — `api/products/sync-tags.js`
+- *... and 46 more nodes in this community*
 
 ## Relationships
 
-- [[Master Codebase Architecture Reference]] (30 shared connections)
-- [[Community 31]] (24 shared connections)
-- [[Design System & UI Tokens]] (21 shared connections)
-- [[Community 61]] (19 shared connections)
-- [[Architecture Doc Generator]] (15 shared connections)
-- [[Testing & Workflow Skill]] (8 shared connections)
-- [[Community 166]] (6 shared connections)
-- [[Community 126]] (5 shared connections)
-- [[Community 101]] (4 shared connections)
-- [[Community 134]] (4 shared connections)
-- [[Community 208]] (3 shared connections)
-- [[Community 339]] (1 shared connections)
+- [[Community 90]] (14 shared connections)
+- [[Project Readme & Layout]] (12 shared connections)
+- [[Community 51]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- `.agents/skills/archify/renderers/shared/cli.mjs`
-- `.agents/skills/archify/renderers/shared/diagnostics.mjs`
-- `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
-- `.agents/skills/archify/renderers/shared/i18n.mjs`
-- `.agents/skills/archify/renderers/shared/legend.mjs`
-- `.agents/skills/archify/renderers/shared/utils.mjs`
-- `.agents/skills/archify/renderers/shared/validator.mjs`
-- `.agents/skills/archify/renderers/workflow/render-workflow.mjs`
-- `.agents/skills/archify/test/engineering-profile.test.mjs`
+- `api/_lib/zoho.js`
+- `api/dealer/apply.js`
+- `api/products/sync-tags.js`
+- `scripts/audit_prices.mjs`
+- `scripts/sync-product-details.mjs`
+- `scripts/test-zoho-api.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 404 (99%)
-- INFERRED: 3 (1%)
+- EXTRACTED: 313 (100%)
+- INFERRED: 1 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

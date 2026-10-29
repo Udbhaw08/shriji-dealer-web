@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **test-supabase.mjs** (1 connections) — `scripts/test-supabase.mjs`
-- **test()** (1 connections) — `scripts/test-supabase.mjs`
+- **a11y.js** (1 connections) — `src/utils/a11y.js`
+- **trapFocus()** (1 connections) — `src/utils/a11y.js`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `scripts/test-supabase.mjs`
+- `src/utils/a11y.js`
 
 ## Audit Trail
 

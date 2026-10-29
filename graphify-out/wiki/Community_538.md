@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **clipboard.js** (1 connections) — `src/utils/clipboard.js`
-- **copyToClipboard()** (1 connections) — `src/utils/clipboard.js`
+- **slugify.js** (1 connections) — `backend/src/utils/slugify.js`
+- **slugify()** (1 connections) — `backend/src/utils/slugify.js`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `src/utils/clipboard.js`
+- `backend/src/utils/slugify.js`
 
 ## Audit Trail
 

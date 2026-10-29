@@ -4,16 +4,16 @@
 
 ## Key Concepts
 
-- **App Shortcuts** (6 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
-- **Best practices** (2 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
-- **app-shortcuts.md** (1 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
-- **Editorial guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
-- **Responding to App Shortcuts** (1 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
+- **Notifications** (9 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
+- **notifications.md** (1 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
+- **Anatomy** (1 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
+- **Badging** (1 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
+- **Content** (1 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
+- **Notification actions** (1 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
 
 ## Relationships
 
@@ -21,7 +21,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/app-shortcuts.md`
+- `.agents/skills/apple-design/references/hig/notifications.md`
 
 ## Audit Trail
 

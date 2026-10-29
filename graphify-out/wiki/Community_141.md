@@ -1,35 +1,36 @@
 # Community 141
 
-> 14 nodes · cohesion 0.14
+> 13 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **real-repository-proof.test.mjs** (15 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
-- **automaticMcoRoot()** (2 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
-- **artifactPath** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
-- **cli** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
-- **connectionLabelGeometry()** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
-- **evidencePayload()** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
-- **experimentArtifactPath** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
-- **experimentSourcePath** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
-- **pinnedSource** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
-- **shareCardPath** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
-- **sourcePath** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
+- **architecture-delta.test.mjs** (16 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
+- **ArchitectureDeltaError** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **.constructor()** (1 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **baseFixture** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
+- **checkedArtifact** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
+- **checkedReceipt** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
+- **cli** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
+- **headFixture** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
+- **read()** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
+- **run()** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/architecture-delta.test.mjs`
 
 ## Relationships
 
-- [[Community 166]] (3 shared connections)
+- [[Community 61]] (4 shared connections)
+- [[Community 113]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/real-repository-proof.test.mjs`
+- `.agents/skills/archify/delta/architecture-delta.mjs`
+- `.agents/skills/archify/test/architecture-delta.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 29 (100%)
+- EXTRACTED: 30 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

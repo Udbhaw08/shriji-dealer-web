@@ -1,31 +1,29 @@
 # Community 251
 
-> 8 nodes · cohesion 0.43
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **download.js** (6 connections) — `api/download.js`
-- **handler()** (5 connections) — `api/download.js`
-- **ssrf.js** (5 connections) — `api/_lib/ssrf.js`
-- **validateSafeDownloadUrl()** (5 connections) — `api/_lib/ssrf.js`
-- **safeFetchWithRedirects()** (3 connections) — `api/download.js`
-- **isPrivateOrReservedIp()** (3 connections) — `api/_lib/ssrf.js`
-- **wrapJpegInPdf()** (2 connections) — `api/download.js`
-- **ALLOWED_REMOTE_HOSTS** (1 connections) — `api/_lib/ssrf.js`
+- **Gauges** (6 connections) — `.agents/skills/apple-design/references/hig/gauges.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/gauges.md`
+- **gauges.md** (1 connections) — `.agents/skills/apple-design/references/hig/gauges.md`
+- **Anatomy** (1 connections) — `.agents/skills/apple-design/references/hig/gauges.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/gauges.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/gauges.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/gauges.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/gauges.md`
 
 ## Relationships
 
-- [[Community 187]] (3 shared connections)
-- [[Community 49]] (3 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `api/_lib/ssrf.js`
-- `api/download.js`
+- `.agents/skills/apple-design/references/hig/gauges.md`
 
 ## Audit Trail
 
-- EXTRACTED: 30 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

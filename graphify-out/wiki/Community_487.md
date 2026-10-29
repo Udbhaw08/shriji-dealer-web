@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **Content Security Policy (CSP) Directives** (2 connections) — `docs/security/content-security-policy.md`
-- **content-security-policy.md** (1 connections) — `docs/security/content-security-policy.md`
-- **Directives** (1 connections) — `docs/security/content-security-policy.md`
+- **XSS Prevention & Content Sanitization Guidelines** (2 connections) — `docs/security/xss-and-content-sanitization.md`
+- **xss-and-content-sanitization.md** (1 connections) — `docs/security/xss-and-content-sanitization.md`
+- **Guidelines** (1 connections) — `docs/security/xss-and-content-sanitization.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/security/content-security-policy.md`
+- `docs/security/xss-and-content-sanitization.md`
 
 ## Audit Trail
 

@@ -4,18 +4,18 @@
 
 ## Key Concepts
 
-- **Generative AI** (11 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
-- **generative-ai.md** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
-- **Continuous improvement** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
-- **Inputs** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
-- **Models and datasets** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
-- **Outputs** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
-- **Privacy** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
-- **Transparency** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
+- **Playing haptics** (6 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
+- **Phone (iOS)** (4 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
+- **playing-haptics.md** (1 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
+- **Custom haptics** (1 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
+- **Impact** (1 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
+- **Notification** (1 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
+- **Selection** (1 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
 
 ## Relationships
 
@@ -23,7 +23,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/generative-ai.md`
+- `.agents/skills/apple-design/references/hig/playing-haptics.md`
 
 ## Audit Trail
 

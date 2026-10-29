@@ -1,43 +1,37 @@
 # Community 119
 
-> 15 nodes · cohesion 0.24
+> 15 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **commandCompare()** (20 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **fail()** (15 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **usage()** (11 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **runNode()** (9 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commandDemo()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **exitFrom()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commandCheck()** (5 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commandExamples()** (5 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commandVisualCheck()** (5 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commandDoctor()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commitComparePair()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **extractCompareOptions()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **reportCompareFailure()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **compareCommitError()** (2 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **compareReceiptPath()** (2 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **Buttons** (8 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
+- **Desktop (macOS)** (5 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
+- **buttons.md** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
+- **Content** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
+- **Help buttons** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
+- **Image buttons** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
+- **Push buttons** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
+- **Role** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
+- **Square buttons** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
+- **Style** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
 
 ## Relationships
 
-- [[Community 40]] (35 shared connections)
-- [[Community 111]] (4 shared connections)
-- [[Community 80]] (2 shared connections)
-- [[Community 58]] (2 shared connections)
-- [[Community 101]] (2 shared connections)
-- [[Community 47]] (2 shared connections)
-- [[Testing & Workflow Skill]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/bin/archify.mjs`
+- `.agents/skills/apple-design/references/hig/buttons.md`
 
 ## Audit Trail
 
-- EXTRACTED: 88 (90%)
-- INFERRED: 10 (10%)
+- EXTRACTED: 28 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

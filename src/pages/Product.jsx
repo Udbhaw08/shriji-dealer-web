@@ -477,11 +477,17 @@ export default function Product() {
     ? tab
     : (availableTabs[0]?.key || "");
 
+  const activeDealer = me || sharedBy;
+  const dealerName = activeDealer?.name || activeDealer?.shop || "Authorised Partner";
+  const dealerLoc = [activeDealer?.city, activeDealer?.state].filter(Boolean).join(", ");
+  const dealerPhone = activeDealer?.phone || activeDealer?.phoneRaw || session?.phone || "";
+  const dealerAttribution = `Available with Sunshine Partner (${dealerName})${dealerLoc ? ` (${dealerLoc})` : ""}${dealerPhone ? ` • Contact: ${dealerPhone}` : ""}`;
+
   const share = () => {
-    const url = shareLink(p, me || sharedBy);
+    const url = shareLink(p, activeDealer);
     const data = {
       title: p.name,
-      text: `${displayTitle} — ${p.catLabel} from ${COMPANY.brand}.`,
+      text: `Hello! Take a look at Sunshine ${displayTitle} (${p.name}):\nRetail MRP: ${inr(priceFor(p).mrp)}\n\n${dealerAttribution}`,
       url,
     };
     if (navigator.share) {
@@ -740,7 +746,7 @@ export default function Product() {
                 <a
                   className="btn btn-wa"
                   href={`https://api.whatsapp.com/send?text=${encodeURIComponent(
-                    `Hello! Take a look at Sunshine ${displayTitle} (${p.name}):\nRetail MRP: ${inr(priceFor(p).mrp)}\n\n${shareLink(p, me)}\n\nAvailable with ${me?.name || "Authorised Dealer"}${[me?.city, me?.state].filter(Boolean).length ? ` (${[me?.city, me?.state].filter(Boolean).join(", ")})` : ""}${me?.phone ? ` · Contact: ${me.phone}` : ""}`
+                    `Hello! Take a look at Sunshine ${displayTitle} (${p.name}):\nRetail MRP: ${inr(priceFor(p).mrp)}\n\n${shareLink(p, activeDealer)}\n\n${dealerAttribution}`
                   )}`}
                   target="_blank"
                   rel="noreferrer"

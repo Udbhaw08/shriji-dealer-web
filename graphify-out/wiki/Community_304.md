@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **Labels** (5 connections) — `.agents/skills/apple-design/references/hig/labels.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/labels.md`
-- **labels.md** (1 connections) — `.agents/skills/apple-design/references/hig/labels.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/labels.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/labels.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/labels.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/labels.md`
+- **Managing notifications** (6 connections) — `.agents/skills/apple-design/references/hig/managing-notifications.md`
+- **managing-notifications.md** (1 connections) — `.agents/skills/apple-design/references/hig/managing-notifications.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/managing-notifications.md`
+- **Integrating with Focus** (1 connections) — `.agents/skills/apple-design/references/hig/managing-notifications.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/managing-notifications.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/managing-notifications.md`
+- **Sending marketing notifications** (1 connections) — `.agents/skills/apple-design/references/hig/managing-notifications.md`
 
 ## Relationships
 
@@ -18,7 +18,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/labels.md`
+- `.agents/skills/apple-design/references/hig/managing-notifications.md`
 
 ## Audit Trail
 

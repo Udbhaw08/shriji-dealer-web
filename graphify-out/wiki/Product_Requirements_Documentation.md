@@ -1,75 +1,56 @@
 # Product Requirements Documentation
 
-> 66 nodes · cohesion 0.11
+> 61 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **main.jsx** (54 connections) — `src/main.jsx`
-- **ui.jsx** (45 connections) — `src/ui.jsx`
-- **useSession()** (42 connections) — `src/data/session.js`
-- **useLanguage()** (31 connections) — `src/data/i18n.js`
-- **Home.jsx** (26 connections) — `src/pages/Home.jsx`
-- **Products.jsx** (25 connections) — `src/pages/Products.jsx`
-- **site.js** (24 connections) — `src/data/site.js`
-- **Favorites.jsx** (20 connections) — `src/pages/Favorites.jsx`
-- **Icon()** (20 connections) — `src/ui.jsx`
-- **ProductCard.jsx** (19 connections) — `src/components/ProductCard.jsx`
-- **isDealer()** (18 connections) — `src/data/dealer.js`
-- **t()** (18 connections) — `src/data/i18n.js`
-- **Schemes.jsx** (17 connections) — `src/pages/Schemes.jsx`
-- **MobileBottomNav.jsx** (16 connections) — `src/components/MobileBottomNav.jsx`
-- **COMPANY** (16 connections) — `src/data/site.js`
-- **Support.jsx** (16 connections) — `src/pages/Support.jsx`
-- **ProductCard()** (15 connections) — `src/components/ProductCard.jsx`
-- **useFavorites()** (15 connections) — `src/data/favoritesStore.js`
-- **isPortalGated()** (14 connections) — `src/data/portalGate.js`
-- **dealerById()** (12 connections) — `src/data/dealer.js`
-- **useProducts()** (12 connections) — `src/data/productsStore.js`
-- **Favorites()** (9 connections) — `src/pages/Favorites.jsx`
-- **Products()** (9 connections) — `src/pages/Products.jsx`
-- **Header()** (9 connections) — `src/ui.jsx`
-- **MobileBottomNav()** (8 connections) — `src/components/MobileBottomNav.jsx`
-- *... and 41 more nodes in this community*
+- **get()** (27 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **ff()** (25 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **np()** (21 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **du()** (16 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **Eu()** (16 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **bm()** (12 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **gl()** (11 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **lu()** (11 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **pi()** (11 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **ep()** (10 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **Nu()** (10 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **yu()** (10 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **di()** (9 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **kl()** (9 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **mm()** (9 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **Sp()** (9 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **go()** (8 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **jd()** (8 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **on()** (8 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **uu()** (8 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **Au()** (7 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **bl()** (7 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **jm()** (7 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **jt()** (7 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **wl()** (7 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- *... and 36 more nodes in this community*
 
 ## Relationships
 
-- [[Community 45]] (55 shared connections)
-- [[Roles & Customer Sharing Spec]] (53 shared connections)
-- [[Community 110]] (13 shared connections)
-- [[Community 87]] (13 shared connections)
-- [[Community 168]] (12 shared connections)
-- [[Community 214]] (12 shared connections)
-- [[Community 152]] (7 shared connections)
-- [[Community 35]] (4 shared connections)
-- [[Community 400]] (1 shared connections)
+- [[Price Presentation & Product UI]] (67 shared connections)
+- [[Graphify Agent Rules]] (20 shared connections)
+- [[Claude Agent Instructions]] (16 shared connections)
+- [[Roles & Customer Sharing Spec]] (16 shared connections)
+- [[Architecture Doc Generator]] (15 shared connections)
+- [[Community 46]] (14 shared connections)
+- [[Graphify Workflow]] (6 shared connections)
+- [[Community 68]] (6 shared connections)
+- [[Community 69]] (3 shared connections)
 
 ## Source Files
 
-- `src/components/EmailVerificationPrompt.jsx`
-- `src/components/MobileBottomNav.jsx`
-- `src/components/NativeBackHandler.jsx`
-- `src/components/PhoneVerificationPrompt.jsx`
-- `src/components/ProductCard.jsx`
-- `src/components/ProductSearchBar.jsx`
-- `src/components/UnderMaintenance.jsx`
-- `src/data/dealer.js`
-- `src/data/favoritesStore.js`
-- `src/data/i18n.js`
-- `src/data/portalGate.js`
-- `src/data/productsStore.js`
-- `src/data/session.js`
-- `src/data/site.js`
-- `src/main.jsx`
-- `src/pages/DealerApply.jsx`
-- `src/pages/Favorites.jsx`
-- `src/pages/Home.jsx`
-- `src/pages/LegalPrivacy.jsx`
-- `src/pages/LegalTerms.jsx`
+- `ios/App/App/public/assets/index-BjhAVtWq.js`
 
 ## Audit Trail
 
-- EXTRACTED: 649 (100%)
-- INFERRED: 1 (0%)
+- EXTRACTED: 429 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

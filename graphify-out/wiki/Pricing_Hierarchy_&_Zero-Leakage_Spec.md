@@ -1,54 +1,66 @@
 # Pricing Hierarchy & Zero-Leakage Spec
 
-> 50 nodes · cohesion 0.08
+> 52 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **at()** (22 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
-- **ga()** (22 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
-- **k()** (19 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
-- **ct()** (17 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
-- **Ri()** (16 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
-- **A()** (14 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
-- **Dn()** (12 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
-- **pt()** (12 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
-- **dt()** (11 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
-- **go()** (11 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
-- **mt()** (11 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
-- **ye()** (11 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
-- **af()** (10 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
-- **va()** (10 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
-- **lo()** (9 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
-- **st()** (9 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
-- **xt()** (9 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
-- **ho()** (8 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
-- **kf()** (8 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
-- **lt()** (8 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
-- **tt()** (8 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
-- **F()** (7 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
-- **Id()** (7 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
-- **it()** (7 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
-- **jn()** (7 connections) — `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
-- *... and 25 more nodes in this community*
+- **session.js** (54 connections) — `src/data/session.js`
+- **Login.jsx** (45 connections) — `src/pages/Login.jsx`
+- **DealerApply.jsx** (26 connections) — `src/pages/DealerApply.jsx`
+- **BrandApplyFlow.jsx** (23 connections) — `src/components/BrandApplyFlow.jsx`
+- **StaffDashboard.jsx** (16 connections) — `src/pages/StaffDashboard.jsx`
+- **revalidateSession()** (14 connections) — `src/data/session.js`
+- **StaffJoin.jsx** (14 connections) — `src/pages/StaffJoin.jsx`
+- **EmailVerificationPrompt.jsx** (12 connections) — `src/components/EmailVerificationPrompt.jsx`
+- **PhoneVerificationPrompt.jsx** (12 connections) — `src/components/PhoneVerificationPrompt.jsx`
+- **validators.js** (12 connections) — `src/data/validators.js`
+- **loginCode.js** (11 connections) — `src/data/loginCode.js`
+- **setSession()** (11 connections) — `src/data/session.js`
+- **hasSession()** (8 connections) — `src/data/auth.js`
+- **signOut()** (8 connections) — `src/data/session.js`
+- **registerDealer()** (7 connections) — `src/data/dealer.js`
+- **isValidEmail()** (7 connections) — `src/data/validators.js`
+- **applyAsDealer()** (6 connections) — `src/data/auth.js`
+- **requestEmailOtp()** (6 connections) — `src/data/auth.js`
+- **formatLoginCode()** (6 connections) — `src/data/loginCode.js`
+- **isValidName()** (6 connections) — `src/data/validators.js`
+- **isValidPhone()** (6 connections) — `src/data/validators.js`
+- **DealerPending.jsx** (6 connections) — `src/pages/DealerPending.jsx`
+- **OtpDispatchFeedback.jsx** (5 connections) — `src/components/OtpDispatchFeedback.jsx`
+- **OtpDispatchFeedback()** (5 connections) — `src/components/OtpDispatchFeedback.jsx`
+- **switchToDealerSession()** (5 connections) — `src/data/session.js`
+- *... and 27 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (68 shared connections)
-- [[Client Products Data Store]] (29 shared connections)
-- [[Mobile Responsive UI Skill]] (20 shared connections)
-- [[Community 41]] (18 shared connections)
-- [[Product Pages Specification]] (14 shared connections)
-- [[Community 30]] (12 shared connections)
-- [[Community 53]] (10 shared connections)
-- [[Community 42]] (9 shared connections)
+- [[Community 37]] (56 shared connections)
+- [[Product Pages Specification]] (53 shared connections)
+- [[Community 92]] (12 shared connections)
+- [[Community 50]] (8 shared connections)
+- [[Community 165]] (1 shared connections)
+- [[Community 149]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-3OpJEkTN.js`
+- `src/components/BrandApplyFlow.jsx`
+- `src/components/EmailVerificationPrompt.jsx`
+- `src/components/OtpDispatchFeedback.jsx`
+- `src/components/PhoneVerificationPrompt.jsx`
+- `src/data/auth.js`
+- `src/data/dealer.js`
+- `src/data/loginCode.js`
+- `src/data/session.js`
+- `src/data/validators.js`
+- `src/pages/DealerApply.jsx`
+- `src/pages/DealerDashboard.jsx`
+- `src/pages/DealerPending.jsx`
+- `src/pages/Login.jsx`
+- `src/pages/StaffDashboard.jsx`
+- `src/pages/StaffJoin.jsx`
 
 ## Audit Trail
 
-- EXTRACTED: 388 (100%)
+- EXTRACTED: 395 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

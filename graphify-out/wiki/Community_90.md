@@ -1,40 +1,51 @@
 # Community 90
 
-> 19 nodes · cohesion 0.11
+> 19 nodes · cohesion 0.23
 
 ## Key Concepts
 
-- **The menu bar** (15 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
-- **Desktop (macOS)** (2 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
-- **the-menu-bar.md** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
-- **Anatomy** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
-- **App menu** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
-- **App-specific menus** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
-- **Dynamic menu items** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
-- **Edit menu** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
-- **File menu** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
-- **Format menu** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
-- **Help menu** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
-- **Menu bar extras** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
-- **Tablet (iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
-- **View menu** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
-- **Window menu** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
+- **securityPhase2.test.mjs** (11 connections) — `backend/test/securityPhase2.test.mjs`
+- **dealerPricingAuth.js** (10 connections) — `api/_lib/dealerPricingAuth.js`
+- **getDealerPricingEligibility()** (8 connections) — `api/_lib/dealerPricingAuth.js`
+- **index.js** (8 connections) — `api/products/index.js`
+- **og.js** (7 connections) — `api/og.js`
+- **htmlEscape.js** (6 connections) — `api/_lib/htmlEscape.js`
+- **escapeHtml()** (6 connections) — `api/_lib/htmlEscape.js`
+- **sanitizeUrl()** (6 connections) — `api/_lib/htmlEscape.js`
+- **fetchZohoCategories()** (6 connections) — `api/_lib/zoho.js`
+- **[id].js** (6 connections) — `api/products/[id].js`
+- **handler()** (6 connections) — `api/products/index.js`
+- **handler()** (5 connections) — `api/og.js`
+- **maskCatalogPricing()** (5 connections) — `api/_lib/dealerPricingAuth.js`
+- **maskProductPricing()** (5 connections) — `api/_lib/dealerPricingAuth.js`
+- **readProductsDiskCache()** (5 connections) — `api/_lib/zoho.js`
+- **sanitizeHost()** (4 connections) — `api/_lib/htmlEscape.js`
+- **handler()** (4 connections) — `api/products/[id].js`
+- **tokenCache** (1 connections) — `api/_lib/dealerPricingAuth.js`
+- **mockWebhookAuthCheck()** (1 connections) — `backend/test/securityPhase2.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Zoho Backend & Proxy Endpoints]] (14 shared connections)
+- [[Project Readme & Layout]] (7 shared connections)
+- [[Mobile Responsive UI Skill]] (4 shared connections)
+- [[Master Codebase Architecture Reference]] (3 shared connections)
+- [[Community 51]] (1 shared connections)
+- [[Live Pricing Audit Tool]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/the-menu-bar.md`
+- `api/_lib/dealerPricingAuth.js`
+- `api/_lib/htmlEscape.js`
+- `api/_lib/zoho.js`
+- `api/og.js`
+- `api/products/[id].js`
+- `api/products/index.js`
+- `backend/test/securityPhase2.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 36 (100%)
+- EXTRACTED: 110 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

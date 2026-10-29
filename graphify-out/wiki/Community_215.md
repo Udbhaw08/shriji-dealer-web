@@ -4,15 +4,15 @@
 
 ## Key Concepts
 
-- **2. Customer vs. Dealer Price Resolution (`src/data/dealer.js`)** (4 connections) — `docs/PRICING-ARCHITECTURE.md`
-- **PRICING-ARCHITECTURE.md — Pricing Engine & Audit Specification** (4 connections) — `docs/PRICING-ARCHITECTURE.md`
-- **1. Source of Truth: Live Zoho Commerce Store API** (2 connections) — `docs/PRICING-ARCHITECTURE.md`
-- **PRICING-ARCHITECTURE.md** (1 connections) — `docs/PRICING-ARCHITECTURE.md`
-- **2.1 Customer View** (1 connections) — `docs/PRICING-ARCHITECTURE.md`
-- **2.2 Dealer View** (1 connections) — `docs/PRICING-ARCHITECTURE.md`
-- **2.3 Share Link Invariant** (1 connections) — `docs/PRICING-ARCHITECTURE.md`
-- **3. Automated Pricing Regression Protection** (1 connections) — `docs/PRICING-ARCHITECTURE.md`
-- **Rate Priority Hierarchy** (1 connections) — `docs/PRICING-ARCHITECTURE.md`
+- **Drag and drop** (6 connections) — `.agents/skills/apple-design/references/hig/drag-and-drop.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/drag-and-drop.md`
+- **drag-and-drop.md** (1 connections) — `.agents/skills/apple-design/references/hig/drag-and-drop.md`
+- **Accepting drops** (1 connections) — `.agents/skills/apple-design/references/hig/drag-and-drop.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/drag-and-drop.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/drag-and-drop.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/drag-and-drop.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/drag-and-drop.md`
+- **Providing feedback** (1 connections) — `.agents/skills/apple-design/references/hig/drag-and-drop.md`
 
 ## Relationships
 
@@ -20,7 +20,7 @@
 
 ## Source Files
 
-- `docs/PRICING-ARCHITECTURE.md`
+- `.agents/skills/apple-design/references/hig/drag-and-drop.md`
 
 ## Audit Trail
 

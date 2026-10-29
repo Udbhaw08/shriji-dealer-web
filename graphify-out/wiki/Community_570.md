@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **sequence** (0 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **payloadValidator.test.mjs** (0 connections) — `backend/test/payloadValidator.test.mjs`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- `backend/test/payloadValidator.test.mjs`
 
 ## Audit Trail
 

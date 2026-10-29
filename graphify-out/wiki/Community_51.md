@@ -1,48 +1,58 @@
 # Community 51
 
-> 29 nodes · cohesion 0.07
+> 32 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **Live Activities** (8 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Anatomy** (6 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Best practices** (6 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Presentation** (6 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Specifications** (5 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **live-activities.md** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Adding transitions and animating content updates** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **CarPlay** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **CarPlay dimensions** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Choosing colors** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Compact** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Compact presentation** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Creating Live Activity layouts** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Expanded** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Expanded presentation** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **iOS dimensions** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **iPadOS dimensions** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Lock Screen** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Lock Screen presentation** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **macOS dimensions** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Minimal** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Minimal presentation** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- *... and 4 more nodes in this community*
+- **commerceClient.js** (22 connections) — `backend/src/services/commerceClient.js`
+- **env.js** (18 connections) — `backend/src/config/env.js`
+- **catalog.js** (16 connections) — `backend/src/services/catalog.js`
+- **logger.js** (14 connections) — `backend/src/utils/logger.js`
+- **log** (13 connections) — `backend/src/utils/logger.js`
+- **index.js** (11 connections) — `backend/src/jobs/index.js`
+- **catalogSync.js** (9 connections) — `backend/src/jobs/catalogSync.js`
+- **ensureContactPricebookForCrmAccount()** (9 connections) — `backend/src/services/commerceClient.js`
+- **syncCatalog()** (7 connections) — `backend/src/services/catalog.js`
+- **fetchCatalog()** (6 connections) — `backend/src/services/commerceClient.js`
+- **resolvePricebookId()** (6 connections) — `backend/src/services/commerceClient.js`
+- **catalogSync()** (5 connections) — `backend/src/jobs/catalogSync.js`
+- **booksFetch()** (5 connections) — `backend/src/services/commerceClient.js`
+- **commerceConfigured()** (5 connections) — `backend/src/services/commerceClient.js`
+- **commerceFetch()** (5 connections) — `backend/src/services/commerceClient.js`
+- **isCommerceConfigured()** (5 connections) — `backend/src/services/commerceClient.js`
+- **catalogFor()** (4 connections) — `backend/src/services/catalog.js`
+- **loadCatalog()** (4 connections) — `backend/src/services/catalog.js`
+- **assignPricebookToContact()** (4 connections) — `backend/src/services/commerceClient.js`
+- **tokenCleanup()** (3 connections) — `backend/src/jobs/catalogSync.js`
+- **priceView()** (3 connections) — `backend/src/services/catalog.js`
+- **deactivateCommerceContact()** (3 connections) — `backend/src/services/commerceClient.js`
+- **fetchCommercePricebooks()** (3 connections) — `backend/src/services/commerceClient.js`
+- **fetchPricebookRates()** (3 connections) — `backend/src/services/commerceClient.js`
+- **getAccessToken()** (3 connections) — `backend/src/services/commerceClient.js`
+- *... and 7 more nodes in this community*
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Master Codebase Architecture Reference]] (30 shared connections)
+- [[Live Pricing Audit Tool]] (16 shared connections)
+- [[Mobile Responsive UI Skill]] (13 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (2 shared connections)
+- [[Community 90]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/live-activities.md`
+- `backend/src/config/env.js`
+- `backend/src/jobs/catalogSync.js`
+- `backend/src/jobs/index.js`
+- `backend/src/services/catalog.js`
+- `backend/src/services/commerceClient.js`
+- `backend/src/utils/logger.js`
+- `backend/test/priceGate.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 56 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 195 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

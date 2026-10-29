@@ -31,7 +31,7 @@ export default async function handler(req, res) {
 
     try {
       const rows = await sql`
-        SELECT id, business_name, city, state, dealer_code, status
+        SELECT id, business_name, city, state, dealer_code, status, phone
         FROM dealers
         WHERE id = ${cleanId} OR dealer_code = ${cleanId}
         LIMIT 1;
@@ -43,6 +43,7 @@ export default async function handler(req, res) {
           name: d.business_name,
           city: d.city || "",
           state: d.state || "",
+          phone: d.phone || "",
           code: d.dealer_code || "",
           status: d.status,
         };
