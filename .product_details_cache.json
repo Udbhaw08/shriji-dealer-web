@@ -7,15 +7,12 @@
       "model": "Kuchenbau Electric Kettle 1.8L",
       "zohoTitle": "1.8L Electric Kettle SA KuchenBau",
       "shortDescription": "Kuchenbau Electric Kettle 1.8L",
-      "size": "1.8 Litres",
+      "size": "",
       "burners": null,
-      "finish": "Stainless Steel Body",
+      "finish": "Standard",
       "fkey": "steel",
       "features": [
-        "Auto Cut-Off",
-        "Concealed Heating Element",
-        "360° Swivel Base",
-        "Rapid Boil Technology"
+        "Auto Cut-Off"
       ],
       "brand": "KuchenBau",
       "tags": [
@@ -28,8 +25,7 @@
       "sellingPrice": 2999,
       "labelPrice": 2999,
       "dealerRate": 1025,
-      "purchaseRate": 500,
-      "stock": 105,
+      "stock": 101,
       "img": "https://cdn2.zohoecommerce.com/product-images/imgi_4_Kuchenbau_Electric_Kettle_1024x1024.jpg/3334672000003942261/600x600?storefront_domain=www.shrijidomestic.com",
       "images": [
         "https://cdn2.zohoecommerce.com/product-images/imgi_4_Kuchenbau_Electric_Kettle_1024x1024.jpg/3334672000003942261/600x600?storefront_domain=www.shrijidomestic.com",
@@ -45,82 +41,52 @@
         "https://cdn2.zohoecommerce.com/product-images/imgi_17_IMG-0842_1024x1024.jpg/3334672000003942269/600x600?storefront_domain=www.shrijidomestic.com",
         "https://cdn2.zohoecommerce.com/product-images/imgi_12_WhatsApp_Image_2025-02-11_at_10.28.16_AM_11_1024x1024.jpg/3334672000003942271/600x600?storefront_domain=www.shrijidomestic.com"
       ],
-      "description": "Experience the perfect blend of modernity and functionality with the Kuchenbau Electric Kettle, designed for quick boiling, safety, and long-lasting durability.",
+      "description": "",
       "productDescriptionHtml": "",
+      "overview": "Experience the perfect blend of modernity and functionality with the Kuchenbau Electric Kettle, designed for modern connoisseurs who appreciate the finer things in life. With its premium aesthetics, sleek body, and wooden handle, this kettle is more than just an appliance—it’s a statement piece for your kitchen and home.\n\nPowered by a robust 1500W heating element, it features rapid boil technology, ensuring that your tea, green tea, coffee, or any hot beverage is ready in no time. The one-touch open mechanism allows for a seamless user experience, while the stylish LED indicator signals when the kettle is actively heating.\n\nInside, the premium stainless-steel construction guarantees that every cup is pure, free from any plastic exposure, and maintains the authentic taste of your beverages. Its cord-free serving design makes it incredibly convenient to pour and serve with ease.",
       "tileIcons": [
         {
           "index": 1,
-          "image": "",
+          "image": "https://cdn2.zohoecommerce.com/product-images/auto-ignition.png/3334672000008545107/600x600?storefront_domain=www.shrijidomestic.com",
           "text": "Auto Cut-Off",
-          "label": "Tile Icon Text 1"
+          "label": ""
         },
         {
           "index": 2,
-          "image": "",
+          "image": "https://cdn2.zohoecommerce.com/product-images/flame.png/3334672000008545110/600x600?storefront_domain=www.shrijidomestic.com",
           "text": "Quick Performance",
-          "label": "Tile Icon Text 2"
+          "label": ""
         },
         {
           "index": 3,
-          "image": "",
+          "image": "https://cdn2.zohoecommerce.com/product-images/stainless-steel-layers.png/3334672000008545113/600x600?storefront_domain=www.shrijidomestic.com",
           "text": "Stainless Steel Body",
-          "label": "Tile Icon Text 3"
+          "label": ""
         }
       ],
       "customFields": {
-        "warranty": "Sunshine 1-Yr Official Warranty",
-        "keyFeatures": "Auto Cut-Off Protection · Concealed Rapid Boil Element · 360° Swivel Base · Stainless Steel Body",
-        "overview": "Experience the perfect blend of modernity and functionality with the Kuchenbau Electric Kettle, designed for quick boiling, safety, and long-lasting durability in modern Indian kitchens."
+        "warranty": "2 Years",
+        "keyFeatures": "Cool Touch Body, Wooden Finish Handle, Huge Capacity, High Performance",
+        "overview": "Experience the perfect blend of modernity and functionality with the Kuchenbau Electric Kettle, designed for modern connoisseurs who appreciate the finer things in life. With its premium aesthetics, sleek body, and wooden handle, this kettle is more than just an appliance—it’s a statement piece for your kitchen and home.\n\nPowered by a robust 1500W heating element, it features rapid boil technology, ensuring that your tea, green tea, coffee, or any hot beverage is ready in no time. The one-touch open mechanism allows for a seamless user experience, while the stylish LED indicator signals when the kettle is actively heating.\n\nInside, the premium stainless-steel construction guarantees that every cup is pure, free from any plastic exposure, and maintains the authentic taste of your beverages. Its cord-free serving design makes it incredibly convenient to pour and serve with ease."
       },
-      "extraFields": [
-        {
-          "label": "Operating Voltage",
-          "value": "230V AC ~ 50Hz",
-          "key": "voltage"
-        },
-        {
-          "label": "Power Consumption",
-          "value": "1500 Watts",
-          "key": "power"
-        },
-        {
-          "label": "Body Finish",
-          "value": "Stainless Steel Body",
-          "key": "finish"
-        }
-      ],
+      "extraFields": [],
       "specifications": [
         {
           "group": "General",
-          "name": "Capacity",
-          "value": "1.8 Litres"
+          "name": "Burner Count",
+          "value": "1B"
         },
         {
           "group": "General",
-          "name": "Body Material",
-          "value": "Food Grade Stainless Steel"
-        },
-        {
-          "group": "Performance",
-          "name": "Power",
-          "value": "1500W"
-        },
-        {
-          "group": "Safety",
-          "name": "Auto Shut-Off",
-          "value": "Yes, with Boil-Dry Protection"
-        },
-        {
-          "group": "Convenience",
-          "name": "Base Type",
-          "value": "360° Cordless Swivel Base"
+          "name": "Ignition Type",
+          "value": "Auto"
         }
       ],
       "videos": [],
       "status": "active",
       "showInStore": true
     },
-    "time": 1792780000000
+    "time": 1793296832435
   },
   "kuchenbau-electric-kettle-1-8l": {
     "product": {
@@ -130,15 +96,12 @@
       "model": "Kuchenbau Electric Kettle 1.8L",
       "zohoTitle": "1.8L Electric Kettle SA KuchenBau",
       "shortDescription": "Kuchenbau Electric Kettle 1.8L",
-      "size": "1.8 Litres",
+      "size": "",
       "burners": null,
-      "finish": "Stainless Steel Body",
+      "finish": "Standard",
       "fkey": "steel",
       "features": [
-        "Auto Cut-Off",
-        "Concealed Heating Element",
-        "360° Swivel Base",
-        "Rapid Boil Technology"
+        "Auto Cut-Off"
       ],
       "brand": "KuchenBau",
       "tags": [
@@ -151,8 +114,7 @@
       "sellingPrice": 2999,
       "labelPrice": 2999,
       "dealerRate": 1025,
-      "purchaseRate": 500,
-      "stock": 105,
+      "stock": 101,
       "img": "https://cdn2.zohoecommerce.com/product-images/imgi_4_Kuchenbau_Electric_Kettle_1024x1024.jpg/3334672000003942261/600x600?storefront_domain=www.shrijidomestic.com",
       "images": [
         "https://cdn2.zohoecommerce.com/product-images/imgi_4_Kuchenbau_Electric_Kettle_1024x1024.jpg/3334672000003942261/600x600?storefront_domain=www.shrijidomestic.com",
@@ -168,82 +130,52 @@
         "https://cdn2.zohoecommerce.com/product-images/imgi_17_IMG-0842_1024x1024.jpg/3334672000003942269/600x600?storefront_domain=www.shrijidomestic.com",
         "https://cdn2.zohoecommerce.com/product-images/imgi_12_WhatsApp_Image_2025-02-11_at_10.28.16_AM_11_1024x1024.jpg/3334672000003942271/600x600?storefront_domain=www.shrijidomestic.com"
       ],
-      "description": "Experience the perfect blend of modernity and functionality with the Kuchenbau Electric Kettle, designed for quick boiling, safety, and long-lasting durability.",
+      "description": "",
       "productDescriptionHtml": "",
+      "overview": "Experience the perfect blend of modernity and functionality with the Kuchenbau Electric Kettle, designed for modern connoisseurs who appreciate the finer things in life. With its premium aesthetics, sleek body, and wooden handle, this kettle is more than just an appliance—it’s a statement piece for your kitchen and home.\n\nPowered by a robust 1500W heating element, it features rapid boil technology, ensuring that your tea, green tea, coffee, or any hot beverage is ready in no time. The one-touch open mechanism allows for a seamless user experience, while the stylish LED indicator signals when the kettle is actively heating.\n\nInside, the premium stainless-steel construction guarantees that every cup is pure, free from any plastic exposure, and maintains the authentic taste of your beverages. Its cord-free serving design makes it incredibly convenient to pour and serve with ease.",
       "tileIcons": [
         {
           "index": 1,
-          "image": "",
+          "image": "https://cdn2.zohoecommerce.com/product-images/auto-ignition.png/3334672000008545107/600x600?storefront_domain=www.shrijidomestic.com",
           "text": "Auto Cut-Off",
-          "label": "Tile Icon Text 1"
+          "label": ""
         },
         {
           "index": 2,
-          "image": "",
+          "image": "https://cdn2.zohoecommerce.com/product-images/flame.png/3334672000008545110/600x600?storefront_domain=www.shrijidomestic.com",
           "text": "Quick Performance",
-          "label": "Tile Icon Text 2"
+          "label": ""
         },
         {
           "index": 3,
-          "image": "",
+          "image": "https://cdn2.zohoecommerce.com/product-images/stainless-steel-layers.png/3334672000008545113/600x600?storefront_domain=www.shrijidomestic.com",
           "text": "Stainless Steel Body",
-          "label": "Tile Icon Text 3"
+          "label": ""
         }
       ],
       "customFields": {
-        "warranty": "Sunshine 1-Yr Official Warranty",
-        "keyFeatures": "Auto Cut-Off Protection · Concealed Rapid Boil Element · 360° Swivel Base · Stainless Steel Body",
-        "overview": "Experience the perfect blend of modernity and functionality with the Kuchenbau Electric Kettle, designed for quick boiling, safety, and long-lasting durability in modern Indian kitchens."
+        "warranty": "2 Years",
+        "keyFeatures": "Cool Touch Body, Wooden Finish Handle, Huge Capacity, High Performance",
+        "overview": "Experience the perfect blend of modernity and functionality with the Kuchenbau Electric Kettle, designed for modern connoisseurs who appreciate the finer things in life. With its premium aesthetics, sleek body, and wooden handle, this kettle is more than just an appliance—it’s a statement piece for your kitchen and home.\n\nPowered by a robust 1500W heating element, it features rapid boil technology, ensuring that your tea, green tea, coffee, or any hot beverage is ready in no time. The one-touch open mechanism allows for a seamless user experience, while the stylish LED indicator signals when the kettle is actively heating.\n\nInside, the premium stainless-steel construction guarantees that every cup is pure, free from any plastic exposure, and maintains the authentic taste of your beverages. Its cord-free serving design makes it incredibly convenient to pour and serve with ease."
       },
-      "extraFields": [
-        {
-          "label": "Operating Voltage",
-          "value": "230V AC ~ 50Hz",
-          "key": "voltage"
-        },
-        {
-          "label": "Power Consumption",
-          "value": "1500 Watts",
-          "key": "power"
-        },
-        {
-          "label": "Body Finish",
-          "value": "Stainless Steel Body",
-          "key": "finish"
-        }
-      ],
+      "extraFields": [],
       "specifications": [
         {
           "group": "General",
-          "name": "Capacity",
-          "value": "1.8 Litres"
+          "name": "Burner Count",
+          "value": "1B"
         },
         {
           "group": "General",
-          "name": "Body Material",
-          "value": "Food Grade Stainless Steel"
-        },
-        {
-          "group": "Performance",
-          "name": "Power",
-          "value": "1500W"
-        },
-        {
-          "group": "Safety",
-          "name": "Auto Shut-Off",
-          "value": "Yes, with Boil-Dry Protection"
-        },
-        {
-          "group": "Convenience",
-          "name": "Base Type",
-          "value": "360° Cordless Swivel Base"
+          "name": "Ignition Type",
+          "value": "Auto"
         }
       ],
       "videos": [],
       "status": "active",
       "showInStore": true
     },
-    "time": 1792780000000
+    "time": 1793296832437
   },
   "3334672000000839126": {
     "product": {
@@ -330,5 +262,379 @@
       "showInStore": true
     },
     "time": 1792919718088
+  },
+  "3334672000000839771": {
+    "product": {
+      "id": "3334672000000839771",
+      "slug": "crystal-3b",
+      "name": "Crystal 3B",
+      "model": "Crystal 3B",
+      "zohoTitle": "3B Crystal BK HT Sunshine",
+      "shortDescription": "Crystal 3B",
+      "size": "",
+      "burners": 3,
+      "finish": "Standard",
+      "fkey": "steel",
+      "features": [],
+      "brand": "Sunshine",
+      "tags": [],
+      "cat": "hob_tops",
+      "catLabel": "Hob Tops",
+      "code": "HO",
+      "mrp": 22895,
+      "sellingPrice": 22895,
+      "labelPrice": 22895,
+      "dealerRate": 8800,
+      "stock": 0,
+      "img": "https://cdn2.zohoecommerce.com/product-images/Artboard1_c271a2fa-9d63-4741-93c4-b20a10c72073.webp/3334672000005205916/600x600?storefront_domain=www.shrijidomestic.com",
+      "images": [
+        "https://cdn2.zohoecommerce.com/product-images/Artboard1_c271a2fa-9d63-4741-93c4-b20a10c72073.webp/3334672000005205916/600x600?storefront_domain=www.shrijidomestic.com",
+        "https://cdn2.zohoecommerce.com/product-images/Artboard_3_8b8fd789-b0d2-4421-a60f-8723b23019d2.webp/3334672000005205926/600x600?storefront_domain=www.shrijidomestic.com",
+        "https://cdn2.zohoecommerce.com/product-images/Artboard_4_f62396e1-5658-4953-b17a-291309a27790.webp/3334672000005205936/600x600?storefront_domain=www.shrijidomestic.com",
+        "https://cdn2.zohoecommerce.com/product-images/Artboard_5_95335090-5c69-4535-a796-693a66054934.webp/3334672000005205946/600x600?storefront_domain=www.shrijidomestic.com",
+        "https://cdn2.zohoecommerce.com/product-images/Artboard_2_4eda532d-8721-480e-97c8-d2b3487e57c3.webp/3334672000005205956/600x600?storefront_domain=www.shrijidomestic.com"
+      ],
+      "description": "",
+      "productDescriptionHtml": "",
+      "overview": "",
+      "tileIcons": [],
+      "customFields": {
+        "warranty": "",
+        "keyFeatures": "",
+        "overview": ""
+      },
+      "extraFields": [],
+      "specifications": [],
+      "videos": [],
+      "status": "active",
+      "showInStore": true
+    },
+    "time": 1793296844699
+  },
+  "crystal-3b": {
+    "product": {
+      "id": "3334672000000839771",
+      "slug": "crystal-3b",
+      "name": "Crystal 3B",
+      "model": "Crystal 3B",
+      "zohoTitle": "3B Crystal BK HT Sunshine",
+      "shortDescription": "Crystal 3B",
+      "size": "",
+      "burners": 3,
+      "finish": "Standard",
+      "fkey": "steel",
+      "features": [],
+      "brand": "Sunshine",
+      "tags": [],
+      "cat": "hob_tops",
+      "catLabel": "Hob Tops",
+      "code": "HO",
+      "mrp": 22895,
+      "sellingPrice": 22895,
+      "labelPrice": 22895,
+      "dealerRate": 8800,
+      "stock": 0,
+      "img": "https://cdn2.zohoecommerce.com/product-images/Artboard1_c271a2fa-9d63-4741-93c4-b20a10c72073.webp/3334672000005205916/600x600?storefront_domain=www.shrijidomestic.com",
+      "images": [
+        "https://cdn2.zohoecommerce.com/product-images/Artboard1_c271a2fa-9d63-4741-93c4-b20a10c72073.webp/3334672000005205916/600x600?storefront_domain=www.shrijidomestic.com",
+        "https://cdn2.zohoecommerce.com/product-images/Artboard_3_8b8fd789-b0d2-4421-a60f-8723b23019d2.webp/3334672000005205926/600x600?storefront_domain=www.shrijidomestic.com",
+        "https://cdn2.zohoecommerce.com/product-images/Artboard_4_f62396e1-5658-4953-b17a-291309a27790.webp/3334672000005205936/600x600?storefront_domain=www.shrijidomestic.com",
+        "https://cdn2.zohoecommerce.com/product-images/Artboard_5_95335090-5c69-4535-a796-693a66054934.webp/3334672000005205946/600x600?storefront_domain=www.shrijidomestic.com",
+        "https://cdn2.zohoecommerce.com/product-images/Artboard_2_4eda532d-8721-480e-97c8-d2b3487e57c3.webp/3334672000005205956/600x600?storefront_domain=www.shrijidomestic.com"
+      ],
+      "description": "",
+      "productDescriptionHtml": "",
+      "overview": "",
+      "tileIcons": [],
+      "customFields": {
+        "warranty": "",
+        "keyFeatures": "",
+        "overview": ""
+      },
+      "extraFields": [],
+      "specifications": [],
+      "videos": [],
+      "status": "active",
+      "showInStore": true
+    },
+    "time": 1793296844702
+  },
+  "3334672000000194738": {
+    "product": {
+      "id": "3334672000000194738",
+      "slug": "nutri-vita-pro-1000w-black",
+      "name": "Nutri Vita Pro (1000W) Black",
+      "model": "Nutri Vita Pro (1000W) Black",
+      "zohoTitle": "1000W Nutri Vita Pro Black 2 in 1 SA Sunshine",
+      "shortDescription": "Nutri Vita Pro (1000W) Black",
+      "size": "",
+      "burners": null,
+      "finish": "Black Finish",
+      "fkey": "glass",
+      "features": [
+        "Auto Cut-Off"
+      ],
+      "brand": "Sunshine",
+      "tags": [
+        "HOT SELLING"
+      ],
+      "cat": "small_appliances",
+      "catLabel": "Small Appliances",
+      "code": "SM",
+      "mrp": 9990,
+      "sellingPrice": 9990,
+      "labelPrice": 9990,
+      "dealerRate": 4100,
+      "stock": 0,
+      "img": "",
+      "images": [],
+      "description": "",
+      "productDescriptionHtml": "",
+      "overview": "",
+      "tileIcons": [
+        {
+          "index": 1,
+          "image": "",
+          "text": "adfyguhkhmn",
+          "label": ""
+        }
+      ],
+      "customFields": {
+        "warranty": "",
+        "keyFeatures": "",
+        "overview": ""
+      },
+      "extraFields": [],
+      "specifications": [],
+      "videos": [],
+      "status": "active",
+      "showInStore": true
+    },
+    "time": 1793298452624
+  },
+  "nutri-vita-pro-1000w-black": {
+    "product": {
+      "id": "3334672000000194738",
+      "slug": "nutri-vita-pro-1000w-black",
+      "name": "Nutri Vita Pro (1000W) Black",
+      "model": "Nutri Vita Pro (1000W) Black",
+      "zohoTitle": "1000W Nutri Vita Pro Black 2 in 1 SA Sunshine",
+      "shortDescription": "Nutri Vita Pro (1000W) Black",
+      "size": "",
+      "burners": null,
+      "finish": "Black Finish",
+      "fkey": "glass",
+      "features": [
+        "Auto Cut-Off"
+      ],
+      "brand": "Sunshine",
+      "tags": [
+        "HOT SELLING"
+      ],
+      "cat": "small_appliances",
+      "catLabel": "Small Appliances",
+      "code": "SM",
+      "mrp": 9990,
+      "sellingPrice": 9990,
+      "labelPrice": 9990,
+      "dealerRate": 4100,
+      "stock": 0,
+      "img": "",
+      "images": [],
+      "description": "",
+      "productDescriptionHtml": "",
+      "overview": "",
+      "tileIcons": [
+        {
+          "index": 1,
+          "image": "",
+          "text": "adfyguhkhmn",
+          "label": ""
+        }
+      ],
+      "customFields": {
+        "warranty": "",
+        "keyFeatures": "",
+        "overview": ""
+      },
+      "extraFields": [],
+      "specifications": [],
+      "videos": [],
+      "status": "active",
+      "showInStore": true
+    },
+    "time": 1793298452627
+  },
+  "3334672000000194753": {
+    "product": {
+      "id": "3334672000000194753",
+      "slug": "nutri-vita-pro-1000w-slate-grey",
+      "name": "Nutri Vita Pro (1000W) Slate Grey",
+      "model": "Nutri Vita Pro (1000W) Slate Grey",
+      "zohoTitle": "1000W Nutri Vita Pro Slate Gray 2 in 1 SA Sunshine",
+      "shortDescription": "Nutri Vita Pro (1000W) Slate Grey",
+      "size": "",
+      "burners": null,
+      "finish": "Standard",
+      "fkey": "steel",
+      "features": [
+        "Auto Cut-Off"
+      ],
+      "brand": "Sunshine",
+      "tags": [],
+      "cat": "small_appliances",
+      "catLabel": "Small Appliances",
+      "code": "SM",
+      "mrp": 9990,
+      "sellingPrice": 9990,
+      "labelPrice": 9990,
+      "dealerRate": 4100,
+      "stock": 3,
+      "img": "",
+      "images": [],
+      "description": "",
+      "productDescriptionHtml": "",
+      "overview": "",
+      "tileIcons": [],
+      "customFields": {
+        "warranty": "",
+        "keyFeatures": "",
+        "overview": ""
+      },
+      "extraFields": [],
+      "specifications": [],
+      "videos": [],
+      "status": "active",
+      "showInStore": true
+    },
+    "time": 1793298453042
+  },
+  "nutri-vita-pro-1000w-slate-grey": {
+    "product": {
+      "id": "3334672000000194753",
+      "slug": "nutri-vita-pro-1000w-slate-grey",
+      "name": "Nutri Vita Pro (1000W) Slate Grey",
+      "model": "Nutri Vita Pro (1000W) Slate Grey",
+      "zohoTitle": "1000W Nutri Vita Pro Slate Gray 2 in 1 SA Sunshine",
+      "shortDescription": "Nutri Vita Pro (1000W) Slate Grey",
+      "size": "",
+      "burners": null,
+      "finish": "Standard",
+      "fkey": "steel",
+      "features": [
+        "Auto Cut-Off"
+      ],
+      "brand": "Sunshine",
+      "tags": [],
+      "cat": "small_appliances",
+      "catLabel": "Small Appliances",
+      "code": "SM",
+      "mrp": 9990,
+      "sellingPrice": 9990,
+      "labelPrice": 9990,
+      "dealerRate": 4100,
+      "stock": 3,
+      "img": "",
+      "images": [],
+      "description": "",
+      "productDescriptionHtml": "",
+      "overview": "",
+      "tileIcons": [],
+      "customFields": {
+        "warranty": "",
+        "keyFeatures": "",
+        "overview": ""
+      },
+      "extraFields": [],
+      "specifications": [],
+      "videos": [],
+      "status": "active",
+      "showInStore": true
+    },
+    "time": 1793298453045
+  },
+  "3334672000000839081": {
+    "product": {
+      "id": "3334672000000839081",
+      "slug": "jyoti-diamond-10ltr-hp",
+      "name": "Jyoti Diamond 10ltr HP",
+      "model": "Jyoti Diamond 10ltr HP",
+      "zohoTitle": "10L HP GY Jyoti",
+      "shortDescription": "Jyoti Diamond 10ltr HP",
+      "size": "",
+      "burners": null,
+      "finish": "Standard",
+      "fkey": "steel",
+      "features": [],
+      "brand": "Jyoti",
+      "tags": [],
+      "cat": "gas_geysers",
+      "catLabel": "Gas Geysers",
+      "code": "GA",
+      "mrp": 0,
+      "sellingPrice": 0,
+      "labelPrice": 0,
+      "dealerRate": null,
+      "stock": -3,
+      "img": "",
+      "images": [],
+      "description": "",
+      "productDescriptionHtml": "",
+      "overview": "",
+      "tileIcons": [],
+      "customFields": {
+        "warranty": "",
+        "keyFeatures": "",
+        "overview": ""
+      },
+      "extraFields": [],
+      "specifications": [],
+      "videos": [],
+      "status": "active",
+      "showInStore": true
+    },
+    "time": 1793298453399
+  },
+  "jyoti-diamond-10ltr-hp": {
+    "product": {
+      "id": "3334672000000839081",
+      "slug": "jyoti-diamond-10ltr-hp",
+      "name": "Jyoti Diamond 10ltr HP",
+      "model": "Jyoti Diamond 10ltr HP",
+      "zohoTitle": "10L HP GY Jyoti",
+      "shortDescription": "Jyoti Diamond 10ltr HP",
+      "size": "",
+      "burners": null,
+      "finish": "Standard",
+      "fkey": "steel",
+      "features": [],
+      "brand": "Jyoti",
+      "tags": [],
+      "cat": "gas_geysers",
+      "catLabel": "Gas Geysers",
+      "code": "GA",
+      "mrp": 0,
+      "sellingPrice": 0,
+      "labelPrice": 0,
+      "dealerRate": null,
+      "stock": -3,
+      "img": "",
+      "images": [],
+      "description": "",
+      "productDescriptionHtml": "",
+      "overview": "",
+      "tileIcons": [],
+      "customFields": {
+        "warranty": "",
+        "keyFeatures": "",
+        "overview": ""
+      },
+      "extraFields": [],
+      "specifications": [],
+      "videos": [],
+      "status": "active",
+      "showInStore": true
+    },
+    "time": 1793298453401
   }
 }

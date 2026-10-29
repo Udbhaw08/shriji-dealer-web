@@ -6,6 +6,12 @@ import { log } from '../utils/logger.js';
 export async function catalogSync() {
   try {
     await syncCatalog();
+    try {
+      const { syncProductDetailsPool } = await import('../../../api/_lib/zoho.js');
+      await syncProductDetailsPool({ batchSize: 15 });
+    } catch (poolErr) {
+      log.warn('[catalogSync] detail pool sync notice:', poolErr.message);
+    }
   } catch (err) {
     log.error('[catalogSync] failed:', err.message);
   }

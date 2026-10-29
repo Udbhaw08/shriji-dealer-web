@@ -43,34 +43,45 @@
       ],
       "description": "",
       "productDescriptionHtml": "",
-      "overview": "",
+      "overview": "Experience the perfect blend of modernity and functionality with the Kuchenbau Electric Kettle, designed for modern connoisseurs who appreciate the finer things in life. With its premium aesthetics, sleek body, and wooden handle, this kettle is more than just an appliance—it’s a statement piece for your kitchen and home.\n\nPowered by a robust 1500W heating element, it features rapid boil technology, ensuring that your tea, green tea, coffee, or any hot beverage is ready in no time. The one-touch open mechanism allows for a seamless user experience, while the stylish LED indicator signals when the kettle is actively heating.\n\nInside, the premium stainless-steel construction guarantees that every cup is pure, free from any plastic exposure, and maintains the authentic taste of your beverages. Its cord-free serving design makes it incredibly convenient to pour and serve with ease.",
       "tileIcons": [
         {
           "index": 1,
-          "image": "",
+          "image": "https://cdn2.zohoecommerce.com/product-images/auto-ignition.png/3334672000008545107/600x600?storefront_domain=www.shrijidomestic.com",
           "text": "Auto Cut-Off",
-          "label": "Tile Icon Text 1"
+          "label": ""
         },
         {
           "index": 2,
-          "image": "",
+          "image": "https://cdn2.zohoecommerce.com/product-images/flame.png/3334672000008545110/600x600?storefront_domain=www.shrijidomestic.com",
           "text": "Quick Performance",
-          "label": "Tile Icon Text 2"
+          "label": ""
         },
         {
           "index": 3,
-          "image": "",
+          "image": "https://cdn2.zohoecommerce.com/product-images/stainless-steel-layers.png/3334672000008545113/600x600?storefront_domain=www.shrijidomestic.com",
           "text": "Stainless Steel Body",
-          "label": "Tile Icon Text 3"
+          "label": ""
         }
       ],
       "customFields": {
-        "warranty": "",
-        "keyFeatures": "",
-        "overview": ""
+        "warranty": "2 Years",
+        "keyFeatures": "Cool Touch Body, Wooden Finish Handle, Huge Capacity, High Performance",
+        "overview": "Experience the perfect blend of modernity and functionality with the Kuchenbau Electric Kettle, designed for modern connoisseurs who appreciate the finer things in life. With its premium aesthetics, sleek body, and wooden handle, this kettle is more than just an appliance—it’s a statement piece for your kitchen and home.\n\nPowered by a robust 1500W heating element, it features rapid boil technology, ensuring that your tea, green tea, coffee, or any hot beverage is ready in no time. The one-touch open mechanism allows for a seamless user experience, while the stylish LED indicator signals when the kettle is actively heating.\n\nInside, the premium stainless-steel construction guarantees that every cup is pure, free from any plastic exposure, and maintains the authentic taste of your beverages. Its cord-free serving design makes it incredibly convenient to pour and serve with ease."
       },
       "extraFields": [],
-      "specifications": [],
+      "specifications": [
+        {
+          "group": "General",
+          "name": "Burner Count",
+          "value": "1B"
+        },
+        {
+          "group": "General",
+          "name": "Ignition Type",
+          "value": "Auto"
+        }
+      ],
       "videos": [],
       "status": "active",
       "showInStore": true
@@ -106,7 +117,14 @@
       "description": "",
       "productDescriptionHtml": "",
       "overview": "",
-      "tileIcons": [],
+      "tileIcons": [
+        {
+          "index": 1,
+          "image": "",
+          "text": "adfyguhkhmn",
+          "label": ""
+        }
+      ],
       "customFields": {
         "warranty": "",
         "keyFeatures": "",
@@ -12688,52 +12706,6 @@
       "showInStore": true
     }
   ],
-  "categories": [
-    {
-      "id": "3334672000000145102",
-      "key": "hob_tops",
-      "label": "Hob Tops",
-      "code": "HO",
-      "img": "https://cdn2.zohoecommerce.com/product-images/942B681C-CDC7-4519-A58F-B9464E38E884.webp/3334672000008631012/600x600?storefront_domain=www.shrijidomestic.com",
-      "document_id": "3334672000008631012",
-      "file_name": "942B681C-CDC7-4519-A58F-B9464E38E884.webp"
-    },
-    {
-      "id": "3334672000000145120",
-      "key": "gas_stoves",
-      "label": "Gas Stoves",
-      "code": "GA",
-      "img": "https://cdn2.zohoecommerce.com/product-images/PHOTO-2026-07-30-19-53-21_2.webp/3334672000008631023/600x600?storefront_domain=www.shrijidomestic.com",
-      "document_id": "3334672000008631023",
-      "file_name": "PHOTO-2026-07-30-19-53-21_2.webp"
-    },
-    {
-      "id": "3334672000000145108",
-      "key": "hobs",
-      "label": "Hobs",
-      "code": "HO",
-      "img": "https://cdn2.zohoecommerce.com/product-images/7D8AC9B6-A98A-43B2-81A3-509FB3B7D3A0.webp/3334672000008631034/600x600?storefront_domain=www.shrijidomestic.com",
-      "document_id": "3334672000008631034",
-      "file_name": "7D8AC9B6-A98A-43B2-81A3-509FB3B7D3A0.webp"
-    },
-    {
-      "id": "3334672000000145132",
-      "key": "chimneys",
-      "label": "Chimneys",
-      "code": "CH",
-      "img": "https://cdn2.zohoecommerce.com/product-images/1CA76EC0-674D-4C12-A1BB-C3E69E440D8B.webp/3334672000008631045/600x600?storefront_domain=www.shrijidomestic.com",
-      "document_id": "3334672000008631045",
-      "file_name": "1CA76EC0-674D-4C12-A1BB-C3E69E440D8B.webp"
-    },
-    {
-      "id": "3334672000000145084",
-      "key": "small_appliances",
-      "label": "Small Appliances",
-      "code": "SM",
-      "img": "https://cdn2.zohoecommerce.com/product-images/WhatsApp_Image_2026-10-03_at_7.08.46_PM_1.webp/3334672000008631056/600x600?storefront_domain=www.shrijidomestic.com",
-      "document_id": "3334672000008631056",
-      "file_name": "WhatsApp_Image_2026-10-03_at_7.08.46_PM_1.webp"
-    }
-  ],
-  "time": 1793292776360
+  "categories": [],
+  "time": 1793298454152
 }

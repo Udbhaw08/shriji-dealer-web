@@ -1242,8 +1242,25 @@ export async function fetchZohoProducts({ refresh = false, pricebookId = "333467
       item = normalizeProduct(p, livePricebookRates);
     }
     const cachedDetail = detailCache[item.id]?.product || detailCache[item.slug]?.product;
-    if (cachedDetail?.tileIcons?.length && (!item.tileIcons || item.tileIcons.length === 0)) {
-      item.tileIcons = cachedDetail.tileIcons;
+    if (cachedDetail) {
+      if (cachedDetail.tileIcons?.length && (!item.tileIcons || item.tileIcons.length === 0)) {
+        item.tileIcons = cachedDetail.tileIcons;
+      }
+      if (cachedDetail.specifications?.length && (!item.specifications || item.specifications.length === 0)) {
+        item.specifications = cachedDetail.specifications;
+      }
+      if (cachedDetail.overview && !item.overview) {
+        item.overview = cachedDetail.overview;
+      }
+      if (cachedDetail.videos?.length && (!item.videos || item.videos.length === 0)) {
+        item.videos = cachedDetail.videos;
+      }
+      if (cachedDetail.customFields && (!item.customFields || (!item.customFields.warranty && !item.customFields.keyFeatures))) {
+        item.customFields = { ...item.customFields, ...cachedDetail.customFields };
+      }
+      if (cachedDetail.extraFields?.length && (!item.extraFields || item.extraFields.length === 0)) {
+        item.extraFields = cachedDetail.extraFields;
+      }
     }
     return item;
   });
@@ -1267,14 +1284,24 @@ export async function fetchZohoProductById(identifier, { refresh = false, priceb
   const isNumericId = /^\d+$/.test(clean);
   const slugifiedClean = slugifyProduct(clean);
 
-  // 1. Check persistent details disk cache first (instant response & 0 Zoho API calls!)
+  const isCompleteProduct = (p) => {
+    if (!p) return false;
+    const hasSpecs = Array.isArray(p.specifications) && p.specifications.length > 0;
+    const hasOverview = Boolean(p.overview || p.customFields?.overview);
+    const hasVideos = Array.isArray(p.videos) && p.videos.length > 0;
+    return hasSpecs || hasOverview || hasVideos;
+  };
+
+  // 1. Check persistent details disk cache first (instant response if complete)
   const diskDetails = readProductDetailsDiskCache();
   if (!refresh && (diskDetails[clean]?.product || (slugifiedClean && diskDetails[slugifiedClean]?.product))) {
     const cachedProd = diskDetails[clean]?.product || diskDetails[slugifiedClean]?.product;
-    const liveRates = await fetchResolvedPricebookRates(pbId, { refresh });
-    const targetKey = cachedProd.id || clean;
-    const resolvedRate = liveRates[targetKey] ?? null;
-    return { ...cachedProd, dealerRate: resolvedRate };
+    if (isCompleteProduct(cachedProd)) {
+      const liveRates = await fetchResolvedPricebookRates(pbId, { refresh });
+      const targetKey = cachedProd.id || clean;
+      const resolvedRate = liveRates[targetKey] ?? null;
+      return { ...cachedProd, dealerRate: resolvedRate };
+    }
   }
 
   // 2. Find matching product in catalog
@@ -1303,10 +1330,10 @@ export async function fetchZohoProductById(identifier, { refresh = false, priceb
   const detailCacheKey = `${targetId}:${pbId}`;
   if (refresh) cachedProductDetails.delete(detailCacheKey);
   const cachedDetail = cachedProductDetails.get(detailCacheKey);
-  if (!refresh && cachedDetail && now - cachedDetail.time < 600000) {
+  if (!refresh && cachedDetail && now - cachedDetail.time < 600000 && isCompleteProduct(cachedDetail.product)) {
     return cachedDetail.product;
   }
-  if (!refresh && diskDetails[targetId]?.product) {
+  if (!refresh && diskDetails[targetId]?.product && isCompleteProduct(diskDetails[targetId].product)) {
     const cachedProd = diskDetails[targetId].product;
     const liveRates = await fetchResolvedPricebookRates(pbId, { refresh });
     const resolvedRate = liveRates[targetId] ?? null;
@@ -1361,5 +1388,72 @@ export async function fetchZohoProductById(identifier, { refresh = false, priceb
     console.warn(`[fetchZohoProductById] Network/parse error for ${targetId}:`, err.message);
     return match || null;
   }
+}
+
+/**
+ * Background pooling worker to progressively fetch & cache full product details
+ * (specifications, overview, video embed links, custom fields) from Zoho Commerce.
+ * Paces requests with delays to respect Zoho API rate limits.
+ */
+export async function syncProductDetailsPool({ batchSize = 10, force = false, delayMs = 250 } = {}) {
+  const all = await fetchAllRawZohoProducts();
+  const diskDetails = readProductDetailsDiskCache();
+
+  const isCompleteProduct = (p) => {
+    if (!p) return false;
+    const hasSpecs = Array.isArray(p.specifications) && p.specifications.length > 0;
+    const hasOverview = Boolean(p.overview || p.customFields?.overview);
+    const hasVideos = Array.isArray(p.videos) && p.videos.length > 0;
+    return hasSpecs || hasOverview || hasVideos;
+  };
+
+  const candidates = all.filter((p) => {
+    const id = p.product_id || p.id;
+    if (force) return true;
+    const existing = diskDetails[id]?.product;
+    return !existing || !isCompleteProduct(existing);
+  });
+
+  const batch = candidates.slice(0, batchSize);
+  if (batch.length === 0) {
+    return { synced: 0, total: all.length, remaining: 0 };
+  }
+
+  const { dc, orgId } = getZohoConfig();
+  const livePricebookRates = await fetchResolvedPricebookRates("3334672000000547177");
+  let synced = 0;
+
+  for (const item of batch) {
+    const id = item.product_id || item.id;
+    try {
+      const res = await fetchZohoWithRetry(`https://commerce.zoho.${dc}/store/api/v1/products/${id}`, {
+        headers: { "X-com-zoho-store-organizationid": orgId },
+      });
+      if (res.status === 429) {
+        console.warn("[syncProductDetailsPool] Zoho API 429 rate limit exceeded. Pausing pool.");
+        zohoRateLimitUntil = Date.now() + 15 * 60 * 1000;
+        break;
+      }
+      if (res.ok) {
+        const data = await res.json();
+        if (data.product) {
+          const normalized = normalizeProduct(data.product, livePricebookRates);
+          writeProductDetailDiskCache(id, normalized);
+          if (normalized.slug) writeProductDetailDiskCache(normalized.slug, normalized);
+          synced++;
+        }
+      }
+      if (delayMs > 0) {
+        await new Promise((r) => setTimeout(r, delayMs));
+      }
+    } catch (err) {
+      console.warn(`[syncProductDetailsPool] Error syncing product ${id}:`, err.message);
+    }
+  }
+
+  // Refresh merged catalog disk cache with newly pooled details
+  await fetchZohoProducts({ refresh: true });
+
+  return { synced, total: all.length, remaining: candidates.length - synced };
 }
 
