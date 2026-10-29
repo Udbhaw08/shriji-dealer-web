@@ -10,7 +10,7 @@
 
 ## Relationships
 
-- [[Community 84]] (1 shared connections)
+- [[Community 75]] (1 shared connections)
 
 ## Source Files
 

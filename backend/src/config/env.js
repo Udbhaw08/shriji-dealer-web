@@ -28,10 +28,10 @@ export const env = {
   get dealersGlobalRateLimitMax() { return num(process.env.DEALERS_GLOBAL_RATE_LIMIT_MAX, 1200); },
 
   whatsapp: {
-    token: process.env.WHATSAPP_TOKEN || '',
-    phoneId: process.env.WHATSAPP_PHONE_ID || '',
-    templateName: process.env.WHATSAPP_TEMPLATE_NAME || 'otp',
-    templateLang: process.env.WHATSAPP_TEMPLATE_LANG || 'en_US',
+    token: process.env.WHATSAPP_TOKEN || process.env.META_WHATSAPP_TOKEN || '',
+    phoneId: process.env.WHATSAPP_PHONE_ID || process.env.META_PHONE_ID || '1454730707713736',
+    templateName: process.env.WHATSAPP_TEMPLATE_NAME || 'otp_template',
+    templateLang: process.env.WHATSAPP_TEMPLATE_LANG || 'en',
     graphApiVersion: process.env.WHATSAPP_GRAPH_API_VERSION || 'v21.0',
     templateHasButton: process.env.WHATSAPP_TEMPLATE_HAS_BUTTON !== 'false',
   },

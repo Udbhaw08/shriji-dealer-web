@@ -7,10 +7,12 @@ export function errorHandler(err, req, res, _next) {
 
   if (status >= 500) {
     log.error(`[http] [${correlationId}] ${req.method} ${req.path} →`, err.stack || err.message);
-    const message = process.env.NODE_ENV === 'production'
-      ? (err.publicMessage || 'internal_server_error')
-      : (err.publicMessage || err.message || 'internal_server_error');
-    return res.status(status).json({ error: message, correlationId });
+    const message = err.publicMessage || err.message || 'internal_server_error';
+    return res.status(status).json({
+      error: message,
+      message: err.message || message,
+      correlationId,
+    });
   }
 
   res.status(status).json({ error: err.publicMessage || err.message || 'error' });

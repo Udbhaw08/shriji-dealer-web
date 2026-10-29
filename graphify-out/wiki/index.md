@@ -9,8 +9,8 @@
 ## Communities
 (sorted by size, largest first)
 
-- [[Dealer Auth & Session Management]] — 89 nodes
-- [[Price Presentation & Product UI]] — 70 nodes
+- [[Dealer Auth & Session Management]] — 70 nodes
+- [[Price Presentation & Product UI]] — 69 nodes
 - [[Zoho Backend & Proxy Endpoints]] — 68 nodes
 - [[Dependencies & Package Config]] — 67 nodes
 - [[Product Pages Specification]] — 62 nodes
@@ -18,48 +18,48 @@
 - [[Design System & UI Tokens]] — 60 nodes
 - [[Product Requirements Documentation]] — 59 nodes
 - [[Pricing Regression Test Suite]] — 57 nodes
-- [[Zoho Integration Architecture]] — 56 nodes
-- [[Client Products Data Store]] — 51 nodes
-- [[Product Brand & Business Vision]] — 51 nodes
+- [[Zoho Integration Architecture]] — 57 nodes
+- [[Client Products Data Store]] — 56 nodes
+- [[Product Brand & Business Vision]] — 54 nodes
 - [[Live Pricing Audit Tool]] — 50 nodes
-- [[Architecture Doc Generator]] — 50 nodes
-- [[Roles & Customer Sharing Spec]] — 49 nodes
+- [[Architecture Doc Generator]] — 49 nodes
+- [[Roles & Customer Sharing Spec]] — 48 nodes
 - [[Pricing Hierarchy & Zero-Leakage Spec]] — 48 nodes
 - [[Graphify Knowledge Graph Skill]] — 48 nodes
 - [[Pricing & Roles Skill]] — 46 nodes
-- [[Mobile Responsive UI Skill]] — 45 nodes
+- [[Mobile Responsive UI Skill]] — 46 nodes
 - [[Oxlint Linter Configuration]] — 45 nodes
 - [[Zoho Integration Skill]] — 45 nodes
-- [[Claude Agent Instructions]] — 45 nodes
+- [[Claude Agent Instructions]] — 44 nodes
 - [[Project Readme & Layout]] — 44 nodes
-- [[Agent Guidelines (AGENTS.md)]] — 44 nodes
+- [[Agent Guidelines (AGENTS.md)]] — 43 nodes
 - [[Zoho API Diagnostic Script]] — 43 nodes
-- [[Testing & Workflow Skill]] — 43 nodes
+- [[Testing & Workflow Skill]] — 42 nodes
 - [[Vercel Deployment Routing]] — 42 nodes
-- [[Graphify Agent Rules]] — 42 nodes
+- [[Graphify Agent Rules]] — 41 nodes
 - [[Graphify Workflow]] — 41 nodes
 - [[Community 29]] — 41 nodes
 - [[Community 30]] — 41 nodes
 - [[Community 31]] — 40 nodes
 - [[Community 32]] — 40 nodes
 - [[Community 33]] — 40 nodes
-- [[Community 34]] — 40 nodes
+- [[Community 34]] — 39 nodes
 - [[Community 35]] — 39 nodes
 - [[Community 36]] — 39 nodes
-- [[Community 37]] — 39 nodes
+- [[Community 37]] — 38 nodes
 - [[Community 38]] — 38 nodes
-- [[Community 39]] — 38 nodes
-- [[Community 40]] — 38 nodes
-- [[Community 41]] — 37 nodes
-- [[Community 42]] — 37 nodes
-- [[Community 43]] — 35 nodes
-- [[Community 44]] — 34 nodes
-- [[Community 45]] — 34 nodes
+- [[Community 39]] — 37 nodes
+- [[Community 40]] — 36 nodes
+- [[Community 41]] — 35 nodes
+- [[Community 42]] — 34 nodes
+- [[Community 43]] — 34 nodes
+- [[Community 44]] — 33 nodes
+- [[Community 45]] — 33 nodes
 - [[Community 46]] — 33 nodes
-- [[Community 47]] — 33 nodes
-- [[Community 48]] — 32 nodes
+- [[Community 47]] — 32 nodes
+- [[Community 48]] — 31 nodes
 - [[Community 49]] — 31 nodes
-- [[Community 50]] — 31 nodes
+- [[Community 50]] — 30 nodes
 - [[Community 51]] — 30 nodes
 - [[Community 52]] — 29 nodes
 - [[Community 53]] — 29 nodes
@@ -76,7 +76,7 @@
 - [[Community 64]] — 25 nodes
 - [[Community 65]] — 25 nodes
 - [[Community 66]] — 25 nodes
-- [[Community 67]] — 24 nodes
+- [[Community 67]] — 25 nodes
 - [[Community 68]] — 24 nodes
 - [[Community 69]] — 24 nodes
 - [[Community 70]] — 24 nodes
@@ -84,25 +84,25 @@
 - [[Community 72]] — 24 nodes
 - [[Community 73]] — 24 nodes
 - [[Community 74]] — 24 nodes
-- [[Community 75]] — 23 nodes
-- [[Community 76]] — 23 nodes
+- [[Community 75]] — 24 nodes
+- [[Community 76]] — 24 nodes
 - [[Community 77]] — 23 nodes
 - [[Community 78]] — 23 nodes
-- [[Community 79]] — 22 nodes
-- [[Community 80]] — 22 nodes
+- [[Community 79]] — 23 nodes
+- [[Community 80]] — 23 nodes
 - [[Community 81]] — 22 nodes
-- [[Community 82]] — 21 nodes
-- [[Community 83]] — 21 nodes
-- [[Community 84]] — 21 nodes
+- [[Community 82]] — 22 nodes
+- [[Community 83]] — 22 nodes
+- [[Community 84]] — 22 nodes
 - [[Community 85]] — 21 nodes
-- [[Community 86]] — 20 nodes
-- [[Community 87]] — 20 nodes
+- [[Community 86]] — 21 nodes
+- [[Community 87]] — 21 nodes
 - [[Community 88]] — 20 nodes
 - [[Community 89]] — 20 nodes
 - [[Community 90]] — 20 nodes
 - [[Community 91]] — 20 nodes
-- [[Community 92]] — 19 nodes
-- [[Community 93]] — 19 nodes
+- [[Community 92]] — 20 nodes
+- [[Community 93]] — 20 nodes
 - [[Community 94]] — 19 nodes
 - [[Community 95]] — 19 nodes
 - [[Community 96]] — 19 nodes
@@ -110,28 +110,28 @@
 - [[Community 98]] — 19 nodes
 - [[Community 99]] — 19 nodes
 - [[Community 100]] — 19 nodes
-- [[Community 101]] — 18 nodes
-- [[Community 102]] — 18 nodes
+- [[Community 101]] — 19 nodes
+- [[Community 102]] — 19 nodes
 - [[Community 103]] — 18 nodes
 - [[Community 104]] — 18 nodes
 - [[Community 105]] — 18 nodes
 - [[Community 106]] — 18 nodes
 - [[Community 107]] — 18 nodes
 - [[Community 108]] — 18 nodes
-- [[Community 109]] — 17 nodes
-- [[Community 110]] — 17 nodes
+- [[Community 109]] — 18 nodes
+- [[Community 110]] — 18 nodes
 - [[Community 111]] — 17 nodes
 - [[Community 112]] — 17 nodes
 - [[Community 113]] — 17 nodes
-- [[Community 114]] — 16 nodes
-- [[Community 115]] — 16 nodes
+- [[Community 114]] — 17 nodes
+- [[Community 115]] — 17 nodes
 - [[Community 116]] — 16 nodes
 - [[Community 117]] — 16 nodes
 - [[Community 118]] — 16 nodes
 - [[Community 119]] — 16 nodes
 - [[Community 120]] — 16 nodes
-- [[Community 121]] — 15 nodes
-- [[Community 122]] — 15 nodes
+- [[Community 121]] — 16 nodes
+- [[Community 122]] — 16 nodes
 - [[Community 123]] — 15 nodes
 - [[Community 124]] — 15 nodes
 - [[Community 125]] — 15 nodes
@@ -139,7 +139,7 @@
 - [[Community 127]] — 15 nodes
 - [[Community 128]] — 15 nodes
 - [[Community 129]] — 15 nodes
-- [[Community 130]] — 14 nodes
+- [[Community 130]] — 15 nodes
 - [[Community 131]] — 14 nodes
 - [[Community 132]] — 14 nodes
 - [[Community 133]] — 14 nodes
@@ -154,7 +154,7 @@
 - [[Community 142]] — 14 nodes
 - [[Community 143]] — 14 nodes
 - [[Community 144]] — 14 nodes
-- [[Community 145]] — 13 nodes
+- [[Community 145]] — 14 nodes
 - [[Community 146]] — 13 nodes
 - [[Community 147]] — 13 nodes
 - [[Community 148]] — 13 nodes
@@ -166,7 +166,7 @@
 - [[Community 154]] — 13 nodes
 - [[Community 155]] — 13 nodes
 - [[Community 156]] — 13 nodes
-- [[Community 157]] — 12 nodes
+- [[Community 157]] — 13 nodes
 - [[Community 158]] — 12 nodes
 - [[Community 159]] — 12 nodes
 - [[Community 160]] — 12 nodes
@@ -181,7 +181,7 @@
 - [[Community 169]] — 12 nodes
 - [[Community 170]] — 12 nodes
 - [[Community 171]] — 12 nodes
-- [[Community 172]] — 11 nodes
+- [[Community 172]] — 12 nodes
 - [[Community 173]] — 11 nodes
 - [[Community 174]] — 11 nodes
 - [[Community 175]] — 11 nodes
@@ -199,7 +199,7 @@
 - [[Community 187]] — 11 nodes
 - [[Community 188]] — 11 nodes
 - [[Community 189]] — 11 nodes
-- [[Community 190]] — 10 nodes
+- [[Community 190]] — 11 nodes
 - [[Community 191]] — 10 nodes
 - [[Community 192]] — 10 nodes
 - [[Community 193]] — 10 nodes
@@ -226,7 +226,7 @@
 - [[Community 214]] — 10 nodes
 - [[Community 215]] — 10 nodes
 - [[Community 216]] — 10 nodes
-- [[Community 217]] — 9 nodes
+- [[Community 217]] — 10 nodes
 - [[Community 218]] — 9 nodes
 - [[Community 219]] — 9 nodes
 - [[Community 220]] — 9 nodes
@@ -263,7 +263,7 @@
 - [[Community 251]] — 9 nodes
 - [[Community 252]] — 9 nodes
 - [[Community 253]] — 9 nodes
-- [[Community 254]] — 8 nodes
+- [[Community 254]] — 9 nodes
 - [[Community 255]] — 8 nodes
 - [[Community 256]] — 8 nodes
 - [[Community 257]] — 8 nodes
@@ -311,7 +311,7 @@
 - [[Community 299]] — 8 nodes
 - [[Community 300]] — 8 nodes
 - [[Community 301]] — 8 nodes
-- [[Community 302]] — 7 nodes
+- [[Community 302]] — 8 nodes
 - [[Community 303]] — 7 nodes
 - [[Community 304]] — 7 nodes
 - [[Community 305]] — 7 nodes
@@ -353,7 +353,7 @@
 - [[Community 341]] — 7 nodes
 - [[Community 342]] — 7 nodes
 - [[Community 343]] — 7 nodes
-- [[Community 344]] — 6 nodes
+- [[Community 344]] — 7 nodes
 - [[Community 345]] — 6 nodes
 - [[Community 346]] — 6 nodes
 - [[Community 347]] — 6 nodes
@@ -384,7 +384,7 @@
 - [[Community 372]] — 6 nodes
 - [[Community 373]] — 6 nodes
 - [[Community 374]] — 6 nodes
-- [[Community 375]] — 5 nodes
+- [[Community 375]] — 6 nodes
 - [[Community 376]] — 5 nodes
 - [[Community 377]] — 5 nodes
 - [[Community 378]] — 5 nodes
@@ -413,7 +413,7 @@
 - [[Community 401]] — 5 nodes
 - [[Community 402]] — 5 nodes
 - [[Community 403]] — 5 nodes
-- [[Community 404]] — 4 nodes
+- [[Community 404]] — 5 nodes
 - [[Community 405]] — 4 nodes
 - [[Community 406]] — 4 nodes
 - [[Community 407]] — 4 nodes
@@ -451,7 +451,7 @@
 - [[Community 439]] — 4 nodes
 - [[Community 440]] — 4 nodes
 - [[Community 441]] — 4 nodes
-- [[Community 442]] — 3 nodes
+- [[Community 442]] — 4 nodes
 - [[Community 443]] — 3 nodes
 - [[Community 444]] — 3 nodes
 - [[Community 445]] — 3 nodes

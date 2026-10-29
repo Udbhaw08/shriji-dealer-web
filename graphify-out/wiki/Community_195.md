@@ -4,16 +4,16 @@
 
 ## Key Concepts
 
-- **Layout** (7 connections) — `.agents/skills/apple-design/references/hig/layout.md`
-- **Adaptability** (2 connections) — `.agents/skills/apple-design/references/hig/layout.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/layout.md`
-- **layout.md** (1 connections) — `.agents/skills/apple-design/references/hig/layout.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/layout.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/layout.md`
-- **Guides and safe areas** (1 connections) — `.agents/skills/apple-design/references/hig/layout.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/layout.md`
-- **Size classes** (1 connections) — `.agents/skills/apple-design/references/hig/layout.md`
-- **Visual hierarchy** (1 connections) — `.agents/skills/apple-design/references/hig/layout.md`
+- **App Shortcuts** (6 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
+- **Best practices** (2 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
+- **app-shortcuts.md** (1 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
+- **Editorial guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
+- **Responding to App Shortcuts** (1 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
 
 ## Relationships
 
@@ -21,7 +21,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/layout.md`
+- `.agents/skills/apple-design/references/hig/app-shortcuts.md`
 
 ## Audit Trail
 

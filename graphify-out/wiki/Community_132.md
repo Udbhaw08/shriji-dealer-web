@@ -1,48 +1,46 @@
 # Community 132
 
-> 14 nodes · cohesion 0.19
+> 14 nodes · cohesion 0.30
 
 ## Key Concepts
 
-- **findChrome()** (22 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **export-cleanup-browser.test.mjs** (8 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
-- **viewer-identifiers-browser.test.mjs** (7 connections) — `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
-- **evaluate()** (4 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
-- **executable()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **findOnPath()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **load()** (3 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
-- **load()** (3 connections) — `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
-- **run()** (3 connections) — `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
-- **exported()** (2 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
-- **cases** (1 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
-- **cases** (1 connections) — `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
+- **vite.config.js** (20 connections) — `vite.config.js`
+- **zohoApiPlugin()** (12 connections) — `vite.config.js`
+- **securityPhase2.test.mjs** (11 connections) — `backend/test/securityPhase2.test.mjs`
+- **og.js** (7 connections) — `api/og.js`
+- **htmlEscape.js** (6 connections) — `api/_lib/htmlEscape.js`
+- **escapeHtml()** (6 connections) — `api/_lib/htmlEscape.js`
+- **sanitizeUrl()** (6 connections) — `api/_lib/htmlEscape.js`
+- **fetchZohoCategories()** (6 connections) — `api/_lib/zoho.js`
+- **handler()** (5 connections) — `api/og.js`
+- **sanitizeHost()** (4 connections) — `api/_lib/htmlEscape.js`
+- **getBackendApp()** (2 connections) — `vite.config.js`
+- **loadContentService()** (2 connections) — `vite.config.js`
+- **mockWebhookAuthCheck()** (1 connections) — `backend/test/securityPhase2.test.mjs`
+- **liveAutoSyncPlugin()** (1 connections) — `vite.config.js`
 
 ## Relationships
 
-- [[Community 56]] (7 shared connections)
-- [[Community 49]] (6 shared connections)
-- [[Community 94]] (2 shared connections)
-- [[Community 68]] (2 shared connections)
-- [[Community 86]] (2 shared connections)
-- [[Community 153]] (1 shared connections)
-- [[Community 154]] (1 shared connections)
-- [[Community 129]] (1 shared connections)
-- [[Community 35]] (1 shared connections)
-- [[Community 186]] (1 shared connections)
-- [[Community 252]] (1 shared connections)
-- [[Community 155]] (1 shared connections)
+- [[Community 150]] (8 shared connections)
+- [[Community 94]] (8 shared connections)
+- [[Community 127]] (6 shared connections)
+- [[Community 47]] (5 shared connections)
+- [[Community 255]] (3 shared connections)
+- [[Community 49]] (2 shared connections)
+- [[Community 256]] (2 shared connections)
+- [[Product Pages Specification]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/bin/visual-check.mjs`
-- `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
-- `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
+- `api/_lib/htmlEscape.js`
+- `api/_lib/zoho.js`
+- `api/og.js`
+- `backend/test/securityPhase2.test.mjs`
+- `vite.config.js`
 
 ## Audit Trail
 
-- EXTRACTED: 62 (100%)
+- EXTRACTED: 89 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

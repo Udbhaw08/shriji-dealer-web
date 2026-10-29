@@ -1,52 +1,55 @@
 # Community 29
 
-> 41 nodes · cohesion 0.16
+> 41 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **auth.js** (59 connections) — `src/data/auth.js`
-- **callBackend()** (32 connections) — `src/data/auth.js`
-- **json()** (32 connections) — `src/data/auth.js`
-- **DealerDashboard.jsx** (24 connections) — `src/pages/DealerDashboard.jsx`
-- **broadcastAuthChange()** (13 connections) — `src/data/auth.js`
-- **applyAuthResponse()** (9 connections) — `src/data/auth.js`
-- **finalizeDealerRegistration()** (8 connections) — `src/data/auth.js`
-- **requestDealerRegistrationOtp()** (7 connections) — `src/data/auth.js`
-- **staffSignup()** (7 connections) — `src/data/auth.js`
-- **verifyDealerRegistrationOtp()** (7 connections) — `src/data/auth.js`
-- **verifyEmailOtp()** (7 connections) — `src/data/auth.js`
-- **logout()** (6 connections) — `src/data/auth.js`
-- **verifyPhoneOtp()** (6 connections) — `src/data/auth.js`
-- **fetchMe()** (5 connections) — `src/data/auth.js`
-- **googleLogin()** (5 connections) — `src/data/auth.js`
-- **login()** (5 connections) — `src/data/auth.js`
-- **lookupStaffCode()** (5 connections) — `src/data/auth.js`
-- **requestPhoneOtp()** (5 connections) — `src/data/auth.js`
-- **signup()** (5 connections) — `src/data/auth.js`
-- **staffTogglePrice()** (5 connections) — `src/data/auth.js`
-- **staffTogglePriceAll()** (5 connections) — `src/data/auth.js`
-- **verifyOtp()** (5 connections) — `src/data/auth.js`
-- **persistTokens()** (4 connections) — `src/data/auth.js`
-- **requestOtp()** (4 connections) — `src/data/auth.js`
-- **staffApprove()** (4 connections) — `src/data/auth.js`
+- **Ar()** (26 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **Pr()** (23 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **gf()** (18 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **Ei()** (16 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **jr()** (8 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **Ci()** (7 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **gr()** (7 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **kr()** (7 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **vr()** (7 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **hr()** (6 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **Ir()** (6 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **Ni()** (6 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **Sn()** (6 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **Sr()** (6 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **fr()** (5 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **li()** (5 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **Lr()** (5 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **no()** (5 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **qf()** (5 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **sm()** (5 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **xn()** (5 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **zr()** (5 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **Br()** (4 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **dr()** (4 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **Ld()** (4 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
 - *... and 16 more nodes in this community*
 
 ## Relationships
 
-- [[Graphify Knowledge Graph Skill]] (55 shared connections)
-- [[Community 101]] (11 shared connections)
-- [[Dependencies & Package Config]] (4 shared connections)
-- [[Community 44]] (1 shared connections)
-- [[Community 145]] (1 shared connections)
+- [[Price Presentation & Product UI]] (43 shared connections)
+- [[Product Brand & Business Vision]] (9 shared connections)
+- [[Community 40]] (7 shared connections)
+- [[Zoho Integration Architecture]] (7 shared connections)
+- [[Graphify Knowledge Graph Skill]] (6 shared connections)
+- [[Mobile Responsive UI Skill]] (5 shared connections)
+- [[Community 46]] (3 shared connections)
+- [[Community 50]] (2 shared connections)
+- [[Community 83]] (1 shared connections)
 
 ## Source Files
 
-- `src/data/auth.js`
-- `src/pages/DealerDashboard.jsx`
+- `ios/App/App/public/assets/index-STbSaCMn.js`
 
 ## Audit Trail
 
-- EXTRACTED: 328 (100%)
+- EXTRACTED: 253 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

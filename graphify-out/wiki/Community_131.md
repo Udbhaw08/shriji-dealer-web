@@ -1,46 +1,35 @@
 # Community 131
 
-> 14 nodes · cohesion 0.30
+> 14 nodes · cohesion 0.23
 
 ## Key Concepts
 
-- **vite.config.js** (20 connections) — `vite.config.js`
-- **zohoApiPlugin()** (12 connections) — `vite.config.js`
-- **securityPhase2.test.mjs** (11 connections) — `backend/test/securityPhase2.test.mjs`
-- **og.js** (7 connections) — `api/og.js`
-- **htmlEscape.js** (6 connections) — `api/_lib/htmlEscape.js`
-- **escapeHtml()** (6 connections) — `api/_lib/htmlEscape.js`
-- **sanitizeUrl()** (6 connections) — `api/_lib/htmlEscape.js`
-- **fetchZohoCategories()** (6 connections) — `api/_lib/zoho.js`
-- **handler()** (5 connections) — `api/og.js`
-- **sanitizeHost()** (4 connections) — `api/_lib/htmlEscape.js`
-- **getBackendApp()** (2 connections) — `vite.config.js`
-- **loadContentService()** (2 connections) — `vite.config.js`
-- **mockWebhookAuthCheck()** (1 connections) — `backend/test/securityPhase2.test.mjs`
-- **liveAutoSyncPlugin()** (1 connections) — `vite.config.js`
+- **web-DdaFhVbd.js** (13 connections) — `android/app/src/main/assets/public/assets/web-DdaFhVbd.js`
+- **applyPrefix()** (4 connections) — `android/app/src/main/assets/public/assets/web-DdaFhVbd.js`
+- **keys()** (4 connections) — `android/app/src/main/assets/public/assets/web-DdaFhVbd.js`
+- **get()** (3 connections) — `android/app/src/main/assets/public/assets/web-DdaFhVbd.js`
+- **migrate()** (3 connections) — `android/app/src/main/assets/public/assets/web-DdaFhVbd.js`
+- **rawKeys()** (3 connections) — `android/app/src/main/assets/public/assets/web-DdaFhVbd.js`
+- **clear()** (2 connections) — `android/app/src/main/assets/public/assets/web-DdaFhVbd.js`
+- **remove()** (2 connections) — `android/app/src/main/assets/public/assets/web-DdaFhVbd.js`
+- **removeOld()** (2 connections) — `android/app/src/main/assets/public/assets/web-DdaFhVbd.js`
+- **set()** (2 connections) — `android/app/src/main/assets/public/assets/web-DdaFhVbd.js`
+- **configure()** (1 connections) — `android/app/src/main/assets/public/assets/web-DdaFhVbd.js`
+- **constructor()** (1 connections) — `android/app/src/main/assets/public/assets/web-DdaFhVbd.js`
+- **impl()** (1 connections) — `android/app/src/main/assets/public/assets/web-DdaFhVbd.js`
+- **prefix()** (1 connections) — `android/app/src/main/assets/public/assets/web-DdaFhVbd.js`
 
 ## Relationships
 
-- [[Community 149]] (8 shared connections)
-- [[Community 92]] (8 shared connections)
-- [[Community 126]] (6 shared connections)
-- [[Community 48]] (5 shared connections)
-- [[Community 254]] (3 shared connections)
-- [[Community 50]] (2 shared connections)
-- [[Community 255]] (2 shared connections)
-- [[Product Pages Specification]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `api/_lib/htmlEscape.js`
-- `api/_lib/zoho.js`
-- `api/og.js`
-- `backend/test/securityPhase2.test.mjs`
-- `vite.config.js`
+- `android/app/src/main/assets/public/assets/web-DdaFhVbd.js`
 
 ## Audit Trail
 
-- EXTRACTED: 89 (100%)
+- EXTRACTED: 42 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

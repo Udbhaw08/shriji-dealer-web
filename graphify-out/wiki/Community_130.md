@@ -1,35 +1,40 @@
 # Community 130
 
-> 14 nodes · cohesion 0.23
+> 15 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **web-DdaFhVbd.js** (13 connections) — `android/app/src/main/assets/public/assets/web-DdaFhVbd.js`
-- **applyPrefix()** (4 connections) — `android/app/src/main/assets/public/assets/web-DdaFhVbd.js`
-- **keys()** (4 connections) — `android/app/src/main/assets/public/assets/web-DdaFhVbd.js`
-- **get()** (3 connections) — `android/app/src/main/assets/public/assets/web-DdaFhVbd.js`
-- **migrate()** (3 connections) — `android/app/src/main/assets/public/assets/web-DdaFhVbd.js`
-- **rawKeys()** (3 connections) — `android/app/src/main/assets/public/assets/web-DdaFhVbd.js`
-- **clear()** (2 connections) — `android/app/src/main/assets/public/assets/web-DdaFhVbd.js`
-- **remove()** (2 connections) — `android/app/src/main/assets/public/assets/web-DdaFhVbd.js`
-- **removeOld()** (2 connections) — `android/app/src/main/assets/public/assets/web-DdaFhVbd.js`
-- **set()** (2 connections) — `android/app/src/main/assets/public/assets/web-DdaFhVbd.js`
-- **configure()** (1 connections) — `android/app/src/main/assets/public/assets/web-DdaFhVbd.js`
-- **constructor()** (1 connections) — `android/app/src/main/assets/public/assets/web-DdaFhVbd.js`
-- **impl()** (1 connections) — `android/app/src/main/assets/public/assets/web-DdaFhVbd.js`
-- **prefix()** (1 connections) — `android/app/src/main/assets/public/assets/web-DdaFhVbd.js`
+- **i18n.test.mjs** (20 connections) — `.agents/skills/archify/test/i18n.test.mjs`
+- **catalogKeys()** (2 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **SUPPORTED_LOCALES** (2 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **authoredExample()** (2 connections) — `.agents/skills/archify/test/i18n.test.mjs`
+- **evaluate()** (2 connections) — `.agents/skills/archify/test/i18n.test.mjs`
+- **example()** (2 connections) — `.agents/skills/archify/test/i18n.test.mjs`
+- **loadArtifact()** (2 connections) — `.agents/skills/archify/test/i18n.test.mjs`
+- **AUTHORED_TEXT_KEYS** (1 connections) — `.agents/skills/archify/test/i18n.test.mjs`
+- **cli** (1 connections) — `.agents/skills/archify/test/i18n.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/i18n.test.mjs`
+- **EXAMPLES** (1 connections) — `.agents/skills/archify/test/i18n.test.mjs`
+- **run()** (1 connections) — `.agents/skills/archify/test/i18n.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/i18n.test.mjs`
+- **templatePath** (1 connections) — `.agents/skills/archify/test/i18n.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/i18n.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 87]] (5 shared connections)
+- [[Community 48]] (1 shared connections)
+- [[Community 88]] (1 shared connections)
+- [[Community 133]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/web-DdaFhVbd.js`
+- `.agents/skills/archify/renderers/shared/i18n.mjs`
+- `.agents/skills/archify/test/i18n.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 42 (100%)
+- EXTRACTED: 40 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

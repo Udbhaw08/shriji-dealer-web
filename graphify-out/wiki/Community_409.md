@@ -4,10 +4,10 @@
 
 ## Key Concepts
 
-- **Status bars** (3 connections) — `.agents/skills/apple-design/references/hig/status-bars.md`
-- **status-bars.md** (1 connections) — `.agents/skills/apple-design/references/hig/status-bars.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/status-bars.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/status-bars.md`
+- **Pricing Calculation & Zero-Leakage Rules Specification** (3 connections) — `docs/guides/pricing-rules.md`
+- **pricing-rules.md** (1 connections) — `docs/guides/pricing-rules.md`
+- **Overview** (1 connections) — `docs/guides/pricing-rules.md`
+- **Role Gating Rules** (1 connections) — `docs/guides/pricing-rules.md`
 
 ## Relationships
 
@@ -15,7 +15,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/status-bars.md`
+- `docs/guides/pricing-rules.md`
 
 ## Audit Trail
 

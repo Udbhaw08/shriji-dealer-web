@@ -1,56 +1,67 @@
 # Community 39
 
-> 38 nodes · cohesion 0.09
+> 37 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **n()** (30 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
-- **t()** (21 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
-- **b()** (20 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
-- **fp()** (13 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
-- **h()** (13 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
-- **O()** (11 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
-- **be()** (10 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
-- **j()** (7 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
-- **v()** (7 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
-- **E()** (6 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
-- **.blur()** (6 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
-- **.scrollIntoView()** (6 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
-- **g()** (5 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
-- **me()** (5 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
-- **x()** (5 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
-- **ee()** (4 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
-- **.getClientRects()** (4 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
-- **go()** (4 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
-- **M()** (4 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
-- **pe()** (4 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
-- **up()** (4 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
-- **Vp()** (4 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
-- **we()** (4 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
-- **xp()** (4 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
-- **as()** (3 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
-- *... and 13 more nodes in this community*
+- **sql** (80 connections) — `backend/src/db/pool.js`
+- **staff.js** (23 connections) — `backend/src/services/staff.js`
+- **audit()** (18 connections) — `backend/src/utils/audit.js`
+- **applyDealer()** (7 connections) — `backend/src/services/dealerApp.js`
+- **audit.js** (7 connections) — `backend/src/utils/audit.js`
+- **sync-supabase-content.js** (6 connections) — `backend/scripts/sync-supabase-content.js`
+- **provisionDealerInCrm()** (6 connections) — `backend/src/services/dealerApp.js`
+- **createInvite()** (6 connections) — `backend/src/services/staff.js`
+- **seed-content.js** (4 connections) — `backend/scripts/seed-content.js`
+- **deactivateDealer()** (4 connections) — `backend/src/services/dealerApp.js`
+- **approveStaff()** (4 connections) — `backend/src/services/staff.js`
+- **deleteStaff()** (4 connections) — `backend/src/services/staff.js`
+- **holdStaff()** (4 connections) — `backend/src/services/staff.js`
+- **resumeStaff()** (4 connections) — `backend/src/services/staff.js`
+- **revokeStaff()** (4 connections) — `backend/src/services/staff.js`
+- **toggleAllStaffPrice()** (4 connections) — `backend/src/services/staff.js`
+- **toggleStaffPrice()** (4 connections) — `backend/src/services/staff.js`
+- **info.js** (3 connections) — `api/dealer/info.js`
+- **inspect-db.js** (3 connections) — `backend/scripts/inspect-db.js`
+- **setup-buckets.js** (3 connections) — `backend/scripts/setup-buckets.js`
+- **setup-policies.js** (3 connections) — `backend/scripts/setup-policies.js`
+- **test-storage.js** (3 connections) — `backend/scripts/test-storage.js`
+- **consumeInvite()** (3 connections) — `backend/src/services/staff.js`
+- **generateInviteCode()** (3 connections) — `backend/src/services/staff.js`
+- **handler()** (2 connections) — `api/dealer/info.js`
+- *... and 12 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (35 shared connections)
-- [[Oxlint Linter Configuration]] (19 shared connections)
-- [[Live Pricing Audit Tool]] (15 shared connections)
-- [[Client Products Data Store]] (13 shared connections)
-- [[Product Brand & Business Vision]] (11 shared connections)
-- [[Community 42]] (8 shared connections)
-- [[Community 125]] (5 shared connections)
-- [[Zoho Integration Skill]] (5 shared connections)
-- [[Community 31]] (3 shared connections)
+- [[Community 31]] (30 shared connections)
+- [[Community 49]] (26 shared connections)
+- [[Product Pages Specification]] (12 shared connections)
+- [[Community 94]] (9 shared connections)
+- [[Client Products Data Store]] (9 shared connections)
+- [[Community 55]] (3 shared connections)
+- [[Community 153]] (3 shared connections)
+- [[Community 191]] (2 shared connections)
+- [[Community 150]] (2 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-STbSaCMn.js`
+- `api/dealer/info.js`
+- `backend/scripts/check-readiness.js`
+- `backend/scripts/inspect-db.js`
+- `backend/scripts/seed-content.js`
+- `backend/scripts/setup-buckets.js`
+- `backend/scripts/setup-policies.js`
+- `backend/scripts/sync-supabase-content.js`
+- `backend/scripts/test-storage.js`
+- `backend/src/db/pool.js`
+- `backend/src/services/dealerApp.js`
+- `backend/src/services/staff.js`
+- `backend/src/utils/audit.js`
 
 ## Audit Trail
 
-- EXTRACTED: 236 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 227 (99%)
+- INFERRED: 3 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

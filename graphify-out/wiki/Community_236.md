@@ -4,15 +4,15 @@
 
 ## Key Concepts
 
-- **Delivery contract** (8 connections) — `.agents/skills/archify/references/delivery-contract.md`
-- **delivery-contract.md** (1 connections) — `.agents/skills/archify/references/delivery-contract.md`
-- **Automated browser evidence** (1 connections) — `.agents/skills/archify/references/delivery-contract.md`
-- **Handoff receipt** (1 connections) — `.agents/skills/archify/references/delivery-contract.md`
-- **Last-Good Live Preview** (1 connections) — `.agents/skills/archify/references/delivery-contract.md`
-- **Optional opening** (1 connections) — `.agents/skills/archify/references/delivery-contract.md`
-- **Perceptual delivery gate** (1 connections) — `.agents/skills/archify/references/delivery-contract.md`
-- **Recovering a failed comparison** (1 connections) — `.agents/skills/archify/references/delivery-contract.md`
-- **Validate and deliver** (1 connections) — `.agents/skills/archify/references/delivery-contract.md`
+- **web-v8geNgiP.js** (8 connections) — `ios/App/App/public/assets/web-v8geNgiP.js`
+- **constructor()** (1 connections) — `ios/App/App/public/assets/web-v8geNgiP.js`
+- **exitApp()** (1 connections) — `ios/App/App/public/assets/web-v8geNgiP.js`
+- **getAppLanguage()** (1 connections) — `ios/App/App/public/assets/web-v8geNgiP.js`
+- **getInfo()** (1 connections) — `ios/App/App/public/assets/web-v8geNgiP.js`
+- **getLaunchUrl()** (1 connections) — `ios/App/App/public/assets/web-v8geNgiP.js`
+- **getState()** (1 connections) — `ios/App/App/public/assets/web-v8geNgiP.js`
+- **minimizeApp()** (1 connections) — `ios/App/App/public/assets/web-v8geNgiP.js`
+- **toggleBackButtonHandler()** (1 connections) — `ios/App/App/public/assets/web-v8geNgiP.js`
 
 ## Relationships
 
@@ -20,7 +20,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/references/delivery-contract.md`
+- `ios/App/App/public/assets/web-v8geNgiP.js`
 
 ## Audit Trail
 

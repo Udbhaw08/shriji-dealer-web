@@ -1,55 +1,65 @@
 # Pricing Hierarchy & Zero-Leakage Spec
 
-> 48 nodes · cohesion 0.08
+> 48 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **i()** (66 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **n()** (30 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **t()** (21 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **es()** (16 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **r()** (13 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **ks()** (11 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **O()** (11 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **s()** (11 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **da()** (7 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **j()** (7 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **l()** (7 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **ls()** (7 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **Mp()** (7 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **ms()** (7 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **E()** (6 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **ns()** (6 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **ss()** (6 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **ts()** (6 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **va()** (6 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **fs()** (5 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **hs()** (5 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **ja()** (5 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **js()** (5 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **Ka()** (5 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **us()** (5 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **session.js** (54 connections) — `src/data/session.js`
+- **Login.jsx** (45 connections) — `src/pages/Login.jsx`
+- **DealerApply.jsx** (26 connections) — `src/pages/DealerApply.jsx`
+- **BrandApplyFlow.jsx** (23 connections) — `src/components/BrandApplyFlow.jsx`
+- **StaffDashboard.jsx** (16 connections) — `src/pages/StaffDashboard.jsx`
+- **revalidateSession()** (14 connections) — `src/data/session.js`
+- **StaffJoin.jsx** (14 connections) — `src/pages/StaffJoin.jsx`
+- **EmailVerificationPrompt.jsx** (12 connections) — `src/components/EmailVerificationPrompt.jsx`
+- **PhoneVerificationPrompt.jsx** (12 connections) — `src/components/PhoneVerificationPrompt.jsx`
+- **validators.js** (12 connections) — `src/data/validators.js`
+- **loginCode.js** (11 connections) — `src/data/loginCode.js`
+- **setSession()** (11 connections) — `src/data/session.js`
+- **hasSession()** (8 connections) — `src/data/auth.js`
+- **signOut()** (8 connections) — `src/data/session.js`
+- **registerDealer()** (7 connections) — `src/data/dealer.js`
+- **isValidEmail()** (7 connections) — `src/data/validators.js`
+- **applyAsDealer()** (6 connections) — `src/data/auth.js`
+- **requestEmailOtp()** (6 connections) — `src/data/auth.js`
+- **formatLoginCode()** (6 connections) — `src/data/loginCode.js`
+- **isValidName()** (6 connections) — `src/data/validators.js`
+- **isValidPhone()** (6 connections) — `src/data/validators.js`
+- **OtpDispatchFeedback.jsx** (5 connections) — `src/components/OtpDispatchFeedback.jsx`
+- **OtpDispatchFeedback()** (5 connections) — `src/components/OtpDispatchFeedback.jsx`
+- **switchToDealerSession()** (5 connections) — `src/data/session.js`
+- **BrandApplyFlow()** (4 connections) — `src/components/BrandApplyFlow.jsx`
 - *... and 23 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (52 shared connections)
-- [[Design System & UI Tokens]] (27 shared connections)
-- [[Master Codebase Architecture Reference]] (22 shared connections)
-- [[Roles & Customer Sharing Spec]] (16 shared connections)
-- [[Community 67]] (15 shared connections)
-- [[Community 38]] (15 shared connections)
-- [[Pricing & Roles Skill]] (9 shared connections)
-- [[Graphify Workflow]] (6 shared connections)
-- [[Community 61]] (6 shared connections)
+- [[Graphify Workflow]] (55 shared connections)
+- [[Dependencies & Package Config]] (44 shared connections)
+- [[Community 103]] (12 shared connections)
+- [[Community 42]] (10 shared connections)
+- [[Community 146]] (3 shared connections)
+- [[Community 62]] (2 shared connections)
+- [[Community 158]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- `src/components/BrandApplyFlow.jsx`
+- `src/components/EmailVerificationPrompt.jsx`
+- `src/components/OtpDispatchFeedback.jsx`
+- `src/components/PhoneVerificationPrompt.jsx`
+- `src/data/auth.js`
+- `src/data/dealer.js`
+- `src/data/loginCode.js`
+- `src/data/session.js`
+- `src/data/validators.js`
+- `src/pages/DealerApply.jsx`
+- `src/pages/Login.jsx`
+- `src/pages/StaffDashboard.jsx`
+- `src/pages/StaffJoin.jsx`
 
 ## Audit Trail
 
-- EXTRACTED: 356 (100%)
+- EXTRACTED: 377 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -32,12 +32,12 @@
 
 ## Relationships
 
-- [[Community 87]] (20 shared connections)
-- [[Community 114]] (18 shared connections)
-- [[Mobile Responsive UI Skill]] (5 shared connections)
-- [[Community 146]] (4 shared connections)
-- [[Community 171]] (2 shared connections)
-- [[Community 121]] (2 shared connections)
+- [[Community 89]] (20 shared connections)
+- [[Community 116]] (18 shared connections)
+- [[Oxlint Linter Configuration]] (5 shared connections)
+- [[Community 147]] (4 shared connections)
+- [[Community 172]] (2 shared connections)
+- [[Community 123]] (2 shared connections)
 
 ## Source Files
 

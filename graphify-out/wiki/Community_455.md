@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **Customer Share Link (?from=) Specification** (2 connections) — `docs/guides/customer-share-link-spec.md`
-- **customer-share-link-spec.md** (1 connections) — `docs/guides/customer-share-link-spec.md`
-- **Behavior** (1 connections) — `docs/guides/customer-share-link-spec.md`
+- **Bulk Order Inquiry Workflow** (2 connections) — `docs/guides/bulk-order-inquiry-workflow.md`
+- **bulk-order-inquiry-workflow.md** (1 connections) — `docs/guides/bulk-order-inquiry-workflow.md`
+- **Lifecycle** (1 connections) — `docs/guides/bulk-order-inquiry-workflow.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/guides/customer-share-link-spec.md`
+- `docs/guides/bulk-order-inquiry-workflow.md`
 
 ## Audit Trail
 

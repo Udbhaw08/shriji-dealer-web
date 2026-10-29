@@ -1,44 +1,36 @@
 # Community 137
 
-> 14 nodes · cohesion 0.30
+> 14 nodes · cohesion 0.23
 
 ## Key Concepts
 
-- **workflow-v2.mjs** (21 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- **migrateWorkflowDocument()** (15 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- **compileWorkflow()** (13 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **clone()** (4 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- **legacyLayoutProbe()** (4 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- **legacyRequirementProbe()** (4 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- **expandableViewBox()** (3 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- **requiredViewBoxFrom()** (3 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- **schemaDiagnostics()** (3 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- **workflow-semantic-contract.test.mjs** (3 connections) — `.agents/skills/archify/test/workflow-semantic-contract.test.mjs`
-- **diagnostic()** (2 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- **result()** (2 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- **serializeMigratedWorkflow()** (2 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
-- **document()** (1 connections) — `.agents/skills/archify/test/workflow-semantic-contract.test.mjs`
+- **web-DdaFhVbd.js** (13 connections) — `ios/App/App/public/assets/web-DdaFhVbd.js`
+- **applyPrefix()** (4 connections) — `ios/App/App/public/assets/web-DdaFhVbd.js`
+- **keys()** (4 connections) — `ios/App/App/public/assets/web-DdaFhVbd.js`
+- **get()** (3 connections) — `ios/App/App/public/assets/web-DdaFhVbd.js`
+- **migrate()** (3 connections) — `ios/App/App/public/assets/web-DdaFhVbd.js`
+- **rawKeys()** (3 connections) — `ios/App/App/public/assets/web-DdaFhVbd.js`
+- **clear()** (2 connections) — `ios/App/App/public/assets/web-DdaFhVbd.js`
+- **remove()** (2 connections) — `ios/App/App/public/assets/web-DdaFhVbd.js`
+- **removeOld()** (2 connections) — `ios/App/App/public/assets/web-DdaFhVbd.js`
+- **set()** (2 connections) — `ios/App/App/public/assets/web-DdaFhVbd.js`
+- **configure()** (1 connections) — `ios/App/App/public/assets/web-DdaFhVbd.js`
+- **constructor()** (1 connections) — `ios/App/App/public/assets/web-DdaFhVbd.js`
+- **impl()** (1 connections) — `ios/App/App/public/assets/web-DdaFhVbd.js`
+- **prefix()** (1 connections) — `ios/App/App/public/assets/web-DdaFhVbd.js`
 
 ## Relationships
 
-- [[Community 301]] (8 shared connections)
-- [[Product Requirements Documentation]] (4 shared connections)
-- [[Community 66]] (4 shared connections)
-- [[Community 43]] (3 shared connections)
-- [[Community 144]] (3 shared connections)
-- [[Community 156]] (2 shared connections)
-- [[Community 60]] (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/migrations/workflow-v2.mjs`
-- `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- `.agents/skills/archify/test/workflow-semantic-contract.test.mjs`
+- `ios/App/App/public/assets/web-DdaFhVbd.js`
 
 ## Audit Trail
 
-- EXTRACTED: 78 (98%)
-- INFERRED: 2 (2%)
+- EXTRACTED: 42 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

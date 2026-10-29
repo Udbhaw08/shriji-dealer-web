@@ -136,6 +136,32 @@ export async function issueSession(rawUser) {
   };
 }
 
+/* GET /api/auth/diagnostic — operational health & config check */
+authRouter.get('/diagnostic', async (_req, res) => {
+  let dbStatus = 'untested';
+  let dbError = null;
+  try {
+    const rows = await sql`select 1 as test`;
+    dbStatus = rows?.[0]?.test === 1 ? 'connected' : 'unexpected';
+  } catch (err) {
+    dbStatus = 'error';
+    dbError = err.message;
+  }
+
+  res.json({
+    ok: true,
+    has_database_url: Boolean(env.databaseUrl),
+    database_status: dbStatus,
+    database_error: dbError,
+    has_whatsapp_token: Boolean(env.whatsapp?.token),
+    has_whatsapp_phone_id: Boolean(env.whatsapp?.phoneId),
+    whatsapp_phone_id: env.whatsapp?.phoneId || null,
+    whatsapp_template: env.whatsapp?.templateName,
+    whatsapp_lang: env.whatsapp?.templateLang,
+    has_jwt_secret: Boolean(env.jwtSecret),
+  });
+});
+
 /* POST /api/auth/otp/request — generate and send WhatsApp OTP */
 authRouter.post('/otp/request', otpRequestLimit, async (req, res, next) => {
   try {

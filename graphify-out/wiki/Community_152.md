@@ -1,37 +1,35 @@
 # Community 152
 
-> 13 nodes · cohesion 0.36
+> 13 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **commerceClient.js** (22 connections) — `backend/src/services/commerceClient.js`
-- **ensureContactPricebookForCrmAccount()** (9 connections) — `backend/src/services/commerceClient.js`
-- **fetchCatalog()** (6 connections) — `backend/src/services/commerceClient.js`
-- **resolvePricebookId()** (6 connections) — `backend/src/services/commerceClient.js`
-- **booksFetch()** (5 connections) — `backend/src/services/commerceClient.js`
-- **commerceConfigured()** (5 connections) — `backend/src/services/commerceClient.js`
-- **commerceFetch()** (5 connections) — `backend/src/services/commerceClient.js`
-- **assignPricebookToContact()** (4 connections) — `backend/src/services/commerceClient.js`
-- **deactivateCommerceContact()** (3 connections) — `backend/src/services/commerceClient.js`
-- **fetchCommercePricebooks()** (3 connections) — `backend/src/services/commerceClient.js`
-- **fetchPricebookRates()** (3 connections) — `backend/src/services/commerceClient.js`
-- **getAccessToken()** (3 connections) — `backend/src/services/commerceClient.js`
-- **parseRate()** (2 connections) — `backend/src/services/commerceClient.js`
+- **audit_prices.mjs** (14 connections) — `scripts/audit_prices.mjs`
+- **run()** (2 connections) — `scripts/audit_prices.mjs`
+- **content** (1 connections) — `scripts/audit_prices.mjs`
+- **csvItems** (1 connections) — `scripts/audit_prices.mjs`
+- **idIdx** (1 connections) — `scripts/audit_prices.mjs`
+- **lines** (1 connections) — `scripts/audit_prices.mjs`
+- **lpIdx** (1 connections) — `scripts/audit_prices.mjs`
+- **nameIdx** (1 connections) — `scripts/audit_prices.mjs`
+- **parseCSVLine()** (1 connections) — `scripts/audit_prices.mjs`
+- **parsedHeader** (1 connections) — `scripts/audit_prices.mjs`
+- **showIdx** (1 connections) — `scripts/audit_prices.mjs`
+- **spIdx** (1 connections) — `scripts/audit_prices.mjs`
+- **statusIdx** (1 connections) — `scripts/audit_prices.mjs`
 
 ## Relationships
 
-- [[Community 50]] (9 shared connections)
-- [[Community 32]] (7 shared connections)
-- [[Community 41]] (3 shared connections)
-- [[Product Pages Specification]] (1 shared connections)
+- [[Community 150]] (2 shared connections)
+- [[Community 47]] (1 shared connections)
 
 ## Source Files
 
-- `backend/src/services/commerceClient.js`
+- `scripts/audit_prices.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 76 (100%)
+- EXTRACTED: 27 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,36 +1,32 @@
 # Community 190
 
-> 10 nodes · cohesion 0.31
+> 11 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **upload.js** (9 connections) — `api/upload.js`
-- **verifyAdminAuth()** (9 connections) — `api/_lib/adminAuth.js`
-- **adminAuth.js** (6 connections) — `api/_lib/adminAuth.js`
-- **handler()** (4 connections) — `api/upload.js`
-- **login.js** (3 connections) — `api/admin/login.js`
-- **handler()** (2 connections) — `api/admin/login.js`
-- **validateMagicBytes()** (2 connections) — `api/upload.js`
-- **ALLOWED_EXTENSIONS** (1 connections) — `api/upload.js`
-- **ALLOWED_FOLDERS** (1 connections) — `api/upload.js`
-- **MIME_TYPES** (1 connections) — `api/upload.js`
+- **httpErrors.js** (5 connections) — `backend/src/utils/httpErrors.js`
+- **BadRequestError** (2 connections) — `backend/src/utils/httpErrors.js`
+- **ForbiddenError** (2 connections) — `backend/src/utils/httpErrors.js`
+- **HttpError** (2 connections) — `backend/src/utils/httpErrors.js`
+- **NotFoundError** (2 connections) — `backend/src/utils/httpErrors.js`
+- **UnauthorizedError** (2 connections) — `backend/src/utils/httpErrors.js`
+- **.constructor()** (1 connections) — `backend/src/utils/httpErrors.js`
+- **.constructor()** (1 connections) — `backend/src/utils/httpErrors.js`
+- **.constructor()** (1 connections) — `backend/src/utils/httpErrors.js`
+- **.constructor()** (1 connections) — `backend/src/utils/httpErrors.js`
+- **.constructor()** (1 connections) — `backend/src/utils/httpErrors.js`
 
 ## Relationships
 
-- [[Product Pages Specification]] (4 shared connections)
-- [[Community 92]] (3 shared connections)
-- [[Community 41]] (2 shared connections)
-- [[Community 50]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `api/_lib/adminAuth.js`
-- `api/admin/login.js`
-- `api/upload.js`
+- `backend/src/utils/httpErrors.js`
 
 ## Audit Trail
 
-- EXTRACTED: 38 (100%)
+- EXTRACTED: 20 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -4,14 +4,14 @@
 
 ## Key Concepts
 
-- **crmProvisioningReliability.test.mjs** (7 connections) — `backend/test/crmProvisioningReliability.test.mjs`
-- **crmCalls** (1 connections) — `backend/test/crmProvisioningReliability.test.mjs`
-- **db** (1 connections) — `backend/test/crmProvisioningReliability.test.mjs`
-- **mockCrm** (1 connections) — `backend/test/crmProvisioningReliability.test.mjs`
-- **mockSql()** (1 connections) — `backend/test/crmProvisioningReliability.test.mjs`
-- **resetCrm()** (1 connections) — `backend/test/crmProvisioningReliability.test.mjs`
-- **resetDb()** (1 connections) — `backend/test/crmProvisioningReliability.test.mjs`
-- **testEnv** (1 connections) — `backend/test/crmProvisioningReliability.test.mjs`
+- **animation.test.mjs** (7 connections) — `.agents/skills/archify/test/animation.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/animation.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/animation.test.mjs`
+- **NODE_COLLECTION** (1 connections) — `.agents/skills/archify/test/animation.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/animation.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/animation.test.mjs`
+- **svgBlock()** (1 connections) — `.agents/skills/archify/test/animation.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/animation.test.mjs`
 
 ## Relationships
 
@@ -19,7 +19,7 @@
 
 ## Source Files
 
-- `backend/test/crmProvisioningReliability.test.mjs`
+- `.agents/skills/archify/test/animation.test.mjs`
 
 ## Audit Trail
 

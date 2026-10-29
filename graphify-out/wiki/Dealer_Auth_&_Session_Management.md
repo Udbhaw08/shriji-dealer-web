@@ -1,55 +1,55 @@
 # Dealer Auth & Session Management
 
-> 89 nodes · cohesion 0.04
+> 70 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **_()** (453 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
-- **tf()** (10 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
-- **ef()** (8 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
-- **mc()** (8 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
-- **Id()** (7 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
-- **lf()** (7 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
-- **request()** (7 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
-- **uf()** (7 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
-- **Ih()** (6 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
-- **of()** (6 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
-- **sf()** (6 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
-- **eh()** (5 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
-- **Le()** (5 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
-- **Pc()** (5 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
-- **Pd()** (5 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
-- **qn()** (5 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
-- **th()** (5 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
-- **unavailable()** (5 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
-- **Wd()** (5 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
-- **Ae()** (4 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
-- **cf()** (4 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
-- **ht()** (4 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
-- **jf()** (4 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
-- **ke()** (4 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
-- **nh()** (4 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
-- *... and 64 more nodes in this community*
+- **_()** (453 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **mc()** (8 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **request()** (7 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **eh()** (5 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **Le()** (5 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **Pc()** (5 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **Pd()** (5 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **qn()** (5 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **unavailable()** (5 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **Ae()** (4 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **ht()** (4 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **ke()** (4 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **removeWindowListener()** (4 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **ua()** (4 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **zn()** (4 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **Ad()** (3 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **addListener()** (3 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **addWindowListener()** (3 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **ch()** (3 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **Cu()** (3 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **Do()** (3 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **Fe()** (3 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **gs()** (3 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **op()** (3 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **Su()** (3 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- *... and 45 more nodes in this community*
 
 ## Relationships
 
-- [[Client Products Data Store]] (68 shared connections)
-- [[Live Pricing Audit Tool]] (59 shared connections)
-- [[Product Brand & Business Vision]] (57 shared connections)
-- [[Oxlint Linter Configuration]] (51 shared connections)
-- [[Zoho Integration Skill]] (49 shared connections)
-- [[Community 42]] (44 shared connections)
-- [[Community 31]] (42 shared connections)
-- [[Community 39]] (35 shared connections)
-- [[Community 125]] (16 shared connections)
+- [[Master Codebase Architecture Reference]] (68 shared connections)
+- [[Design System & UI Tokens]] (64 shared connections)
+- [[Architecture Doc Generator]] (52 shared connections)
+- [[Roles & Customer Sharing Spec]] (52 shared connections)
+- [[Pricing & Roles Skill]] (47 shared connections)
+- [[Graphify Agent Rules]] (43 shared connections)
+- [[Community 37]] (34 shared connections)
+- [[Community 68]] (27 shared connections)
+- [[Community 61]] (26 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-STbSaCMn.js`
+- `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
 
 ## Audit Trail
 
-- EXTRACTED: 720 (100%)
+- EXTRACTED: 624 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

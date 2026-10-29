@@ -28,13 +28,16 @@ export async function sendWhatsAppOtp({ phone, code }) {
 
   if (!token || !phoneId) {
     log.error('[notify:whatsapp] WhatsApp Cloud API credentials missing (WHATSAPP_TOKEN, WHATSAPP_PHONE_ID)');
-    throw Object.assign(new Error('WhatsApp messaging service is not configured. Please contact support.'), { statusCode: 503 });
+    throw Object.assign(new Error('WhatsApp messaging service is not configured. Please ensure WHATSAPP_TOKEN is configured in Vercel.'), {
+      statusCode: 503,
+      publicMessage: 'WhatsApp messaging service is not configured. Please ensure WHATSAPP_TOKEN is configured in Vercel.',
+    });
   }
 
   // Meta recipient phone format: country code without leading '+' e.g. 919876543210
   const recipientPhone = `91${norm.nationalNumber}`;
-  const tName = templateName || 'otp';
-  const tLang = templateLang || 'en_US';
+  const tName = templateName || 'otp_template';
+  const tLang = templateLang || 'en';
   const version = graphApiVersion || 'v21.0';
 
   const components = [

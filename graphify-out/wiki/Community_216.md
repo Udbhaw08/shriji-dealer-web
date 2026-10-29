@@ -1,19 +1,19 @@
 # Community 216
 
-> 10 nodes · cohesion 0.20
+> 10 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **Workflow Renderer** (6 connections) — `.agents/skills/archify/renderers/workflow/README.md`
-- **Layout contracts** (3 connections) — `.agents/skills/archify/renderers/workflow/README.md`
-- **Design Rules** (2 connections) — `.agents/skills/archify/renderers/workflow/README.md`
-- **README.md** (1 connections) — `.agents/skills/archify/renderers/workflow/README.md`
-- **Fixed v1** (1 connections) — `.agents/skills/archify/renderers/workflow/README.md`
-- **Input** (1 connections) — `.agents/skills/archify/renderers/workflow/README.md`
-- **Legend** (1 connections) — `.agents/skills/archify/renderers/workflow/README.md`
-- **Migration and layout receipt** (1 connections) — `.agents/skills/archify/renderers/workflow/README.md`
-- **Optional semantic checks** (1 connections) — `.agents/skills/archify/renderers/workflow/README.md`
-- **Readable v2** (1 connections) — `.agents/skills/archify/renderers/workflow/README.md`
+- **whatsappOtp.test.mjs** (9 connections) — `backend/test/whatsappOtp.test.mjs`
+- **resetConfig()** (2 connections) — `backend/test/whatsappOtp.test.mjs`
+- **resetDb()** (2 connections) — `backend/test/whatsappOtp.test.mjs`
+- **app** (1 connections) — `backend/test/whatsappOtp.test.mjs`
+- **db** (1 connections) — `backend/test/whatsappOtp.test.mjs`
+- **logEntries** (1 connections) — `backend/test/whatsappOtp.test.mjs`
+- **mockSql()** (1 connections) — `backend/test/whatsappOtp.test.mjs`
+- **startServer()** (1 connections) — `backend/test/whatsappOtp.test.mjs`
+- **stopServer()** (1 connections) — `backend/test/whatsappOtp.test.mjs`
+- **testEnv** (1 connections) — `backend/test/whatsappOtp.test.mjs`
 
 ## Relationships
 
@@ -21,11 +21,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/workflow/README.md`
+- `backend/test/whatsappOtp.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (100%)
+- EXTRACTED: 20 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

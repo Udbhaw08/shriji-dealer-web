@@ -1,44 +1,51 @@
 # Community 83
 
-> 21 nodes · cohesion 0.10
+> 22 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **properties** (9 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **architecture.schema.json** (7 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **meta** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **components** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **cards** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **diagram_type** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **schema_version** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **minItems** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **const** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **$id** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **required** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **required** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **$schema** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **const** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **title** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **b()** (20 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **fp()** (13 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **h()** (13 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **be()** (10 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **v()** (7 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **.blur()** (6 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **.scrollIntoView()** (6 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **g()** (5 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **me()** (5 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **.getClientRects()** (4 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **pe()** (4 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **up()** (4 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **Vp()** (4 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **xp()** (4 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **.focusLast()** (3 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **.unobserveUsing()** (3 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **Yp()** (3 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **.observeUsing()** (2 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **Gp()** (2 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **Qp()** (2 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **y()** (2 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **ye()** (2 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
 
 ## Relationships
 
-- [[Community 127]] (3 shared connections)
-- [[Community 77]] (1 shared connections)
-- [[Community 91]] (1 shared connections)
+- [[Price Presentation & Product UI]] (16 shared connections)
+- [[Community 46]] (10 shared connections)
+- [[Graphify Knowledge Graph Skill]] (9 shared connections)
+- [[Zoho Integration Architecture]] (6 shared connections)
+- [[Community 64]] (5 shared connections)
+- [[Product Brand & Business Vision]] (4 shared connections)
+- [[Mobile Responsive UI Skill]] (3 shared connections)
+- [[Community 40]] (2 shared connections)
+- [[Community 29]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/architecture.schema.json`
+- `ios/App/App/public/assets/index-STbSaCMn.js`
 
 ## Audit Trail
 
-- EXTRACTED: 45 (100%)
+- EXTRACTED: 124 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

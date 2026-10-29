@@ -34,17 +34,17 @@
 ## Relationships
 
 - [[Zoho Backend & Proxy Endpoints]] (12 shared connections)
-- [[Mobile Responsive UI Skill]] (11 shared connections)
-- [[Community 85]] (10 shared connections)
-- [[Community 66]] (8 shared connections)
-- [[Vercel Deployment Routing]] (7 shared connections)
-- [[Community 47]] (7 shared connections)
-- [[Community 171]] (6 shared connections)
+- [[Oxlint Linter Configuration]] (11 shared connections)
+- [[Community 87]] (10 shared connections)
+- [[Community 67]] (8 shared connections)
+- [[Testing & Workflow Skill]] (7 shared connections)
+- [[Community 45]] (7 shared connections)
+- [[Community 172]] (6 shared connections)
 - [[Pricing Regression Test Suite]] (5 shared connections)
 - [[Community 54]] (5 shared connections)
-- [[Community 107]] (4 shared connections)
-- [[Community 137]] (4 shared connections)
-- [[Community 212]] (3 shared connections)
+- [[Community 109]] (4 shared connections)
+- [[Community 138]] (4 shared connections)
+- [[Community 213]] (3 shared connections)
 
 ## Source Files
 

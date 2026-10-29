@@ -1,47 +1,56 @@
 # Community 46
 
-> 33 nodes · cohesion 0.06
+> 33 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **scripts** (15 connections) — `.agents/skills/archify/package.json`
-- **package.json** (11 connections) — `.agents/skills/archify/package.json`
-- **devDependencies** (5 connections) — `.agents/skills/archify/package.json`
-- **bin** (2 connections) — `.agents/skills/archify/package.json`
-- **engines** (2 connections) — `.agents/skills/archify/package.json`
-- **overrides** (2 connections) — `.agents/skills/archify/package.json`
-- **archify** (1 connections) — `.agents/skills/archify/package.json`
-- **description** (1 connections) — `.agents/skills/archify/package.json`
-- **ajv** (1 connections) — `.agents/skills/archify/package.json`
-- **parse5** (1 connections) — `.agents/skills/archify/package.json`
-- **saxes** (1 connections) — `.agents/skills/archify/package.json`
-- **simple-icons** (1 connections) — `.agents/skills/archify/package.json`
-- **node** (1 connections) — `.agents/skills/archify/package.json`
-- **license** (1 connections) — `.agents/skills/archify/package.json`
-- **name** (1 connections) — `.agents/skills/archify/package.json`
-- **fast-uri** (1 connections) — `.agents/skills/archify/package.json`
-- **private** (1 connections) — `.agents/skills/archify/package.json`
-- **build:gallery** (1 connections) — `.agents/skills/archify/package.json`
-- **build:guide** (1 connections) — `.agents/skills/archify/package.json`
-- **build:readme-showcase** (1 connections) — `.agents/skills/archify/package.json`
-- **build:start** (1 connections) — `.agents/skills/archify/package.json`
-- **check:brand-marks** (1 connections) — `.agents/skills/archify/package.json`
-- **check:release-identity** (1 connections) — `.agents/skills/archify/package.json`
-- **check:validators** (1 connections) — `.agents/skills/archify/package.json`
-- **check:viewer** (1 connections) — `.agents/skills/archify/package.json`
+- **get()** (27 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **D()** (23 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **np()** (21 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **.addEventListener()** (19 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **bm()** (12 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **.removeEventListener()** (12 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **am()** (10 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **ep()** (10 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **ip()** (10 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **mm()** (9 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **tp()** (9 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **cm()** (7 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **jm()** (7 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **jt()** (7 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **zm()** (7 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **em()** (6 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **ln()** (6 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **nm()** (6 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **om()** (6 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **tm()** (6 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **qm()** (5 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **Rp()** (5 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **uh()** (5 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **Bp()** (4 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **km()** (4 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
 - *... and 8 more nodes in this community*
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Price Presentation & Product UI]] (36 shared connections)
+- [[Graphify Knowledge Graph Skill]] (19 shared connections)
+- [[Zoho Integration Architecture]] (16 shared connections)
+- [[Product Brand & Business Vision]] (15 shared connections)
+- [[Mobile Responsive UI Skill]] (14 shared connections)
+- [[Community 83]] (10 shared connections)
+- [[Community 40]] (5 shared connections)
+- [[Community 64]] (5 shared connections)
+- [[Community 50]] (3 shared connections)
+- [[Community 29]] (3 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/package.json`
+- `ios/App/App/public/assets/index-STbSaCMn.js`
 
 ## Audit Trail
 
-- EXTRACTED: 64 (100%)
+- EXTRACTED: 268 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,53 +1,59 @@
 # Community 67
 
-> 24 nodes · cohesion 0.18
+> 25 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **get()** (27 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **D()** (23 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **np()** (21 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **bm()** (12 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **am()** (10 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **ep()** (10 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **mm()** (9 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **jm()** (7 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **jt()** (7 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **pn()** (7 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **un()** (7 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **Yt()** (7 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **zm()** (7 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **nm()** (6 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **om()** (6 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **an()** (5 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **en()** (5 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **qm()** (5 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **ra()** (5 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **km()** (4 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **pf()** (4 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **Um()** (4 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **vn()** (4 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
-- **Vm()** (3 connections) — `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- **workflow-compiler.mjs** (102 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **textUnits()** (33 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
+- **minimumNodeTextWidth()** (12 connections) — `.agents/skills/archify/renderers/shared/text-fit.mjs`
+- **createReadableLayout()** (12 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **text-fit.mjs** (11 connections) — `.agents/skills/archify/renderers/shared/text-fit.mjs`
+- **readableGroupBounds()** (5 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **authoredNodeWidth()** (4 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **compileWorkflowWithFeedback()** (4 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **authoredNodeHeight()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **compilerFailure()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **feedbackFailure()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **nodeWidthContributor()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **verticalIntervalsOverlap()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **workflowLabelWidth()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **createLegacyLayout()** (2 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **stableCompare()** (2 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **stableText()** (2 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **stableValueKey()** (2 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **workflowEdgeName()** (2 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **WorkflowLayoutFeedback** (2 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **nodeTextFit** (1 connections) — `.agents/skills/archify/renderers/shared/text-fit.mjs`
+- **cloneWorkflow()** (1 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **LEGACY_COLUMN_CENTERS** (1 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **READABLE_CANDIDATE_COST_PRIORITY** (1 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **.constructor()** (1 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (27 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (15 shared connections)
-- [[Master Codebase Architecture Reference]] (15 shared connections)
-- [[Design System & UI Tokens]] (14 shared connections)
-- [[Community 38]] (13 shared connections)
-- [[Pricing & Roles Skill]] (11 shared connections)
-- [[Roles & Customer Sharing Spec]] (5 shared connections)
-- [[Graphify Workflow]] (4 shared connections)
-- [[Community 61]] (3 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (48 shared connections)
+- [[Oxlint Linter Configuration]] (20 shared connections)
+- [[Pricing Regression Test Suite]] (11 shared connections)
+- [[Community 87]] (11 shared connections)
+- [[Community 54]] (10 shared connections)
+- [[Community 45]] (8 shared connections)
+- [[Product Requirements Documentation]] (8 shared connections)
+- [[Community 138]] (4 shared connections)
+- [[Community 302]] (4 shared connections)
+- [[Testing & Workflow Skill]] (2 shared connections)
+- [[Community 294]] (1 shared connections)
+- [[Community 157]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
+- `.agents/skills/archify/renderers/shared/text-fit.mjs`
+- `.agents/skills/archify/renderers/shared/utils.mjs`
+- `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 205 (100%)
+- EXTRACTED: 218 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

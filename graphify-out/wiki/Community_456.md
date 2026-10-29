@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **Dealer Onboarding & Approval Lifecycle** (2 connections) — `docs/guides/dealer-onboarding-flow.md`
-- **dealer-onboarding-flow.md** (1 connections) — `docs/guides/dealer-onboarding-flow.md`
-- **Lifecycle States** (1 connections) — `docs/guides/dealer-onboarding-flow.md`
+- **Customer Share Link (?from=) Specification** (2 connections) — `docs/guides/customer-share-link-spec.md`
+- **customer-share-link-spec.md** (1 connections) — `docs/guides/customer-share-link-spec.md`
+- **Behavior** (1 connections) — `docs/guides/customer-share-link-spec.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/guides/dealer-onboarding-flow.md`
+- `docs/guides/customer-share-link-spec.md`
 
 ## Audit Trail
 

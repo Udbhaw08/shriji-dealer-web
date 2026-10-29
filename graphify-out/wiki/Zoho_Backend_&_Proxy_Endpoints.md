@@ -33,16 +33,16 @@
 
 ## Relationships
 
-- [[Community 66]] (48 shared connections)
+- [[Community 67]] (48 shared connections)
 - [[Pricing Regression Test Suite]] (44 shared connections)
 - [[Community 54]] (39 shared connections)
-- [[Community 47]] (34 shared connections)
-- [[Mobile Responsive UI Skill]] (33 shared connections)
+- [[Community 45]] (34 shared connections)
+- [[Oxlint Linter Configuration]] (33 shared connections)
 - [[Product Requirements Documentation]] (12 shared connections)
-- [[Community 85]] (9 shared connections)
-- [[Architecture Doc Generator]] (6 shared connections)
-- [[Community 301]] (3 shared connections)
-- [[Vercel Deployment Routing]] (1 shared connections)
+- [[Community 87]] (9 shared connections)
+- [[Live Pricing Audit Tool]] (6 shared connections)
+- [[Community 302]] (3 shared connections)
+- [[Testing & Workflow Skill]] (1 shared connections)
 
 ## Source Files
 

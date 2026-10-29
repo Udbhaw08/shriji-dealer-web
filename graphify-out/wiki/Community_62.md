@@ -33,11 +33,11 @@
 ## Relationships
 
 - [[Dependencies & Package Config]] (27 shared connections)
-- [[Community 44]] (14 shared connections)
-- [[Community 101]] (4 shared connections)
-- [[Community 145]] (2 shared connections)
-- [[Graphify Knowledge Graph Skill]] (2 shared connections)
-- [[Community 157]] (1 shared connections)
+- [[Community 42]] (14 shared connections)
+- [[Community 103]] (4 shared connections)
+- [[Community 146]] (2 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (2 shared connections)
+- [[Community 158]] (1 shared connections)
 
 ## Source Files
 

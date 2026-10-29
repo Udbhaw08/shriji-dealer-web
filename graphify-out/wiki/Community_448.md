@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **Portal Access Gate Specification** (2 connections) — `docs/architecture/portal-gate-specification.md`
-- **portal-gate-specification.md** (1 connections) — `docs/architecture/portal-gate-specification.md`
-- **Gating Mechanism** (1 connections) — `docs/architecture/portal-gate-specification.md`
+- **Multi-Tenant Dealer Schema** (2 connections) — `docs/architecture/multi-tenant-dealer-schema.md`
+- **multi-tenant-dealer-schema.md** (1 connections) — `docs/architecture/multi-tenant-dealer-schema.md`
+- **Workspace Isolation** (1 connections) — `docs/architecture/multi-tenant-dealer-schema.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/architecture/portal-gate-specification.md`
+- `docs/architecture/multi-tenant-dealer-schema.md`
 
 ## Audit Trail
 

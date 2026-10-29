@@ -1,35 +1,32 @@
 # Community 186
 
-> 11 nodes · cohesion 0.29
+> 11 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **reader-layout-browser.test.mjs** (13 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
-- **load()** (6 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
-- **evaluate()** (5 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
-- **media()** (3 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
-- **stable()** (3 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
-- **viewport()** (3 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
-- **snapshot()** (2 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
-- **cases** (1 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
-- **inactive()** (1 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
-- **variant()** (1 connections) — `.agents/skills/archify/test/reader-layout-browser.test.mjs`
+- **multiAuth.test.mjs** (8 connections) — `backend/test/multiAuth.test.mjs`
+- **MockOAuth2Client** (3 connections) — `backend/test/multiAuth.test.mjs`
+- **app** (1 connections) — `backend/test/multiAuth.test.mjs`
+- **db** (1 connections) — `backend/test/multiAuth.test.mjs`
+- **.constructor()** (1 connections) — `backend/test/multiAuth.test.mjs`
+- **.verifyIdToken()** (1 connections) — `backend/test/multiAuth.test.mjs`
+- **mockSql()** (1 connections) — `backend/test/multiAuth.test.mjs`
+- **resetDb()** (1 connections) — `backend/test/multiAuth.test.mjs`
+- **startServer()** (1 connections) — `backend/test/multiAuth.test.mjs`
+- **stopServer()** (1 connections) — `backend/test/multiAuth.test.mjs`
+- **testEnv** (1 connections) — `backend/test/multiAuth.test.mjs`
 
 ## Relationships
 
-- [[Community 56]] (4 shared connections)
-- [[Community 49]] (1 shared connections)
-- [[Community 86]] (1 shared connections)
-- [[Community 132]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/test/reader-layout-browser.test.mjs`
+- `backend/test/multiAuth.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 39 (100%)
+- EXTRACTED: 20 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

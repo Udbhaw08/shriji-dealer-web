@@ -1,5 +1,7 @@
 import react from '@vitejs/plugin-react'
 import { defineConfig } from 'vite'
+import path from 'node:path'
+import { pathToFileURL } from 'node:url'
 import {
   createDealerContact,
   fetchZohoProducts,
@@ -12,8 +14,8 @@ import { escapeHtml, sanitizeUrl } from './api/_lib/htmlEscape.js'
 
 async function loadContentService() {
   try {
-    const servicePath = './backend/src/services/content.js';
-    return await import(/* @vite-ignore */ servicePath);
+    const fullPath = path.resolve(process.cwd(), 'backend/src/services/content.js');
+    return await import(/* @vite-ignore */ pathToFileURL(fullPath).href);
   } catch (err) {
     console.warn('[vite] Backend content service not loaded:', err.message);
     return null;
@@ -25,8 +27,8 @@ async function getBackendApp() {
   if (!backendApp) {
     try {
       process.env.SERVERLESS = 'true';
-      const appPath = './backend/src/app.js';
-      const mod = await import(/* @vite-ignore */ appPath);
+      const fullPath = path.resolve(process.cwd(), 'backend/src/app.js');
+      const mod = await import(/* @vite-ignore */ pathToFileURL(fullPath).href);
       backendApp = mod.default;
     } catch (err) {
       console.warn('[vite] Backend auth middleware could not be loaded:', err.message);

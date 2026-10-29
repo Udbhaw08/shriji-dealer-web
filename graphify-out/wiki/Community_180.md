@@ -4,17 +4,17 @@
 
 ## Key Concepts
 
-- **Website & App Redesign Instructions** (7 connections) — `instructions.md`
-- **2. Tri-Skill Synthesis Engine** (4 connections) — `instructions.md`
-- **instructions.md** (1 connections) — `instructions.md`
-- **1. Core Purpose & Architectural Goals** (1 connections) — `instructions.md`
-- **3. Adaptive Platform UX Strategies** (1 connections) — `instructions.md`
-- **4. Mobile Responsiveness & Layout Hard Rules** (1 connections) — `instructions.md`
-- **5. Domain Rules for Shriji Dealer Web** (1 connections) — `instructions.md`
-- **6. Execution Flow for Redesign Tasks** (1 connections) — `instructions.md`
-- **Skill 1: `refero-design` (Website & Aesthetic Authority)** (1 connections) — `instructions.md`
-- **Skill 2: `apple-design` (HIG Standards & Design Audit Authority)** (1 connections) — `instructions.md`
-- **Skill 3: `swiftui-pro` (Mobile App Ergonomics & View Performance Authority)** (1 connections) — `instructions.md`
+- **Toggles** (5 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
+- **Desktop (macOS)** (4 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
+- **toggles.md** (1 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
+- **Checkboxes** (1 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
+- **Radio buttons** (1 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
+- **Switches** (1 connections) — `.agents/skills/apple-design/references/hig/toggles.md`
 
 ## Relationships
 
@@ -22,7 +22,7 @@
 
 ## Source Files
 
-- `instructions.md`
+- `.agents/skills/apple-design/references/hig/toggles.md`
 
 ## Audit Trail
 

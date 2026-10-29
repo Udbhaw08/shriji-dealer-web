@@ -4,14 +4,14 @@
 
 ## Key Concepts
 
-- **Pickers** (5 connections) — `.agents/skills/apple-design/references/hig/pickers.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/pickers.md`
-- **pickers.md** (1 connections) — `.agents/skills/apple-design/references/hig/pickers.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/pickers.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/pickers.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/pickers.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/pickers.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/pickers.md`
+- **Page controls** (6 connections) — `.agents/skills/apple-design/references/hig/page-controls.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/page-controls.md`
+- **page-controls.md** (1 connections) — `.agents/skills/apple-design/references/hig/page-controls.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/page-controls.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/page-controls.md`
+- **Customizing indicators** (1 connections) — `.agents/skills/apple-design/references/hig/page-controls.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/page-controls.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/page-controls.md`
 
 ## Relationships
 
@@ -19,7 +19,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/pickers.md`
+- `.agents/skills/apple-design/references/hig/page-controls.md`
 
 ## Audit Trail
 

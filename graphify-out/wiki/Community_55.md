@@ -33,9 +33,9 @@
 
 ## Relationships
 
-- [[Community 32]] (30 shared connections)
-- [[Community 50]] (8 shared connections)
-- [[Community 41]] (3 shared connections)
+- [[Community 31]] (30 shared connections)
+- [[Community 49]] (8 shared connections)
+- [[Community 39]] (3 shared connections)
 - [[Product Pages Specification]] (2 shared connections)
 
 ## Source Files

@@ -33,17 +33,17 @@
 
 ## Relationships
 
-- [[Community 50]] (25 shared connections)
-- [[Community 32]] (21 shared connections)
-- [[Community 41]] (12 shared connections)
-- [[Community 92]] (7 shared connections)
-- [[Community 190]] (4 shared connections)
-- [[Community 149]] (4 shared connections)
-- [[Community 254]] (3 shared connections)
+- [[Community 49]] (25 shared connections)
+- [[Community 31]] (21 shared connections)
+- [[Community 39]] (12 shared connections)
+- [[Community 94]] (7 shared connections)
+- [[Community 191]] (4 shared connections)
+- [[Community 150]] (4 shared connections)
+- [[Community 255]] (3 shared connections)
 - [[Community 55]] (2 shared connections)
-- [[Zoho Integration Architecture]] (2 shared connections)
-- [[Community 152]] (1 shared connections)
-- [[Community 131]] (1 shared connections)
+- [[Client Products Data Store]] (2 shared connections)
+- [[Community 153]] (1 shared connections)
+- [[Community 132]] (1 shared connections)
 
 ## Source Files
 

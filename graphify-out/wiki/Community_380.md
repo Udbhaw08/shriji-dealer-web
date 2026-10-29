@@ -4,11 +4,11 @@
 
 ## Key Concepts
 
-- **Feedback** (4 connections) — `.agents/skills/apple-design/references/hig/feedback.md`
-- **feedback.md** (1 connections) — `.agents/skills/apple-design/references/hig/feedback.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/feedback.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/feedback.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/feedback.md`
+- **Dock menus** (4 connections) — `.agents/skills/apple-design/references/hig/dock-menus.md`
+- **dock-menus.md** (1 connections) — `.agents/skills/apple-design/references/hig/dock-menus.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/dock-menus.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/dock-menus.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/dock-menus.md`
 
 ## Relationships
 
@@ -16,7 +16,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/feedback.md`
+- `.agents/skills/apple-design/references/hig/dock-menus.md`
 
 ## Audit Trail
 

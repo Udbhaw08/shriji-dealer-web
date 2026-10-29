@@ -33,15 +33,15 @@
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (68 shared connections)
-- [[Roles & Customer Sharing Spec]] (23 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (22 shared connections)
+- [[Dealer Auth & Session Management]] (68 shared connections)
+- [[Architecture Doc Generator]] (23 shared connections)
+- [[Roles & Customer Sharing Spec]] (22 shared connections)
 - [[Design System & UI Tokens]] (19 shared connections)
 - [[Community 61]] (15 shared connections)
-- [[Community 67]] (15 shared connections)
+- [[Community 68]] (15 shared connections)
 - [[Pricing & Roles Skill]] (12 shared connections)
-- [[Community 38]] (8 shared connections)
-- [[Graphify Workflow]] (8 shared connections)
+- [[Community 37]] (8 shared connections)
+- [[Graphify Agent Rules]] (8 shared connections)
 
 ## Source Files
 

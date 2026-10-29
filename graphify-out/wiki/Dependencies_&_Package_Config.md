@@ -33,14 +33,14 @@
 
 ## Relationships
 
-- [[Community 44]] (55 shared connections)
-- [[Graphify Knowledge Graph Skill]] (44 shared connections)
+- [[Community 42]] (55 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (44 shared connections)
 - [[Community 62]] (27 shared connections)
-- [[Community 145]] (14 shared connections)
-- [[Community 101]] (11 shared connections)
-- [[Community 157]] (4 shared connections)
-- [[Community 29]] (4 shared connections)
-- [[Community 401]] (1 shared connections)
+- [[Community 146]] (14 shared connections)
+- [[Community 103]] (11 shared connections)
+- [[Community 158]] (4 shared connections)
+- [[Graphify Workflow]] (4 shared connections)
+- [[Community 402]] (1 shared connections)
 
 ## Source Files
 

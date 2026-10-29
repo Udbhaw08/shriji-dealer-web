@@ -1,57 +1,57 @@
 # Zoho Integration Architecture
 
-> 56 nodes · cohesion 0.06
+> 57 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **hash.js** (25 connections) — `backend/src/utils/hash.js`
-- **phase2DealerStaffOnboarding.test.mjs** (17 connections) — `backend/test/phase2DealerStaffOnboarding.test.mjs`
-- **loginCode.js** (17 connections) — `backend/src/utils/loginCode.js`
-- **dealerRegistrationTwoChannel.test.mjs** (15 connections) — `backend/test/dealerRegistrationTwoChannel.test.mjs`
-- **onboardingVerification.test.mjs** (15 connections) — `backend/test/onboardingVerification.test.mjs`
-- **hashOtp()** (10 connections) — `backend/src/utils/hash.js`
-- **verifyOtpHash()** (10 connections) — `backend/src/utils/hash.js`
-- **generateUniqueDealerCode()** (10 connections) — `backend/src/utils/loginCode.js`
-- **hash.test.mjs** (9 connections) — `backend/test/hash.test.mjs`
-- **sha256()** (9 connections) — `backend/src/utils/hash.js`
-- **formatLoginCode()** (8 connections) — `backend/src/utils/loginCode.js`
-- **generateLoginCode()** (8 connections) — `backend/src/utils/loginCode.js`
-- **loginCode.test.mjs** (7 connections) — `backend/test/loginCode.test.mjs`
-- **hashPassword()** (5 connections) — `backend/src/utils/hash.js`
-- **verifyPassword()** (4 connections) — `backend/src/utils/hash.js`
-- **isValidLoginCode()** (4 connections) — `backend/src/utils/loginCode.js`
-- **parseLoginCode()** (4 connections) — `backend/src/utils/loginCode.js`
-- **scryptKey()** (3 connections) — `backend/src/utils/hash.js`
-- **USER_CATEGORIES** (3 connections) — `backend/src/utils/loginCode.js`
-- **generateCode()** (2 connections) — `backend/src/utils/hash.js`
-- **randomToken()** (2 connections) — `backend/src/utils/hash.js`
-- **generateRandomDigits()** (2 connections) — `backend/src/utils/loginCode.js`
-- **generateRandomLetters()** (2 connections) — `backend/src/utils/loginCode.js`
-- **GST_TREATMENT_OPTIONS** (2 connections) — `backend/src/utils/loginCode.js`
-- **app** (1 connections) — `backend/test/dealerRegistrationTwoChannel.test.mjs`
-- *... and 31 more nodes in this community*
+- **ot()** (23 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **k()** (21 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **nt()** (15 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **A()** (14 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **ft()** (14 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **zd()** (14 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **qd()** (13 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **Ii()** (12 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **mt()** (12 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **Nd()** (12 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **yn()** (11 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **tf()** (10 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **af()** (9 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **at()** (9 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **ut()** (9 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **ef()** (8 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **Gd()** (8 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **it()** (8 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **mn()** (8 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **kf()** (7 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **lf()** (7 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **nn()** (7 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **pn()** (7 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **rt()** (7 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- **uf()** (7 connections) — `ios/App/App/public/assets/index-STbSaCMn.js`
+- *... and 32 more nodes in this community*
 
 ## Relationships
 
-- [[Community 32]] (19 shared connections)
-- [[Community 41]] (9 shared connections)
-- [[Product Pages Specification]] (2 shared connections)
-- [[Community 50]] (1 shared connections)
+- [[Price Presentation & Product UI]] (63 shared connections)
+- [[Graphify Knowledge Graph Skill]] (18 shared connections)
+- [[Community 40]] (18 shared connections)
+- [[Community 46]] (16 shared connections)
+- [[Community 50]] (14 shared connections)
+- [[Community 64]] (13 shared connections)
+- [[Product Brand & Business Vision]] (10 shared connections)
+- [[Mobile Responsive UI Skill]] (9 shared connections)
+- [[Community 29]] (7 shared connections)
+- [[Community 83]] (6 shared connections)
 
 ## Source Files
 
-- `backend/src/utils/hash.js`
-- `backend/src/utils/loginCode.js`
-- `backend/test/dealerRegistrationTwoChannel.test.mjs`
-- `backend/test/hash.test.mjs`
-- `backend/test/loginCode.test.mjs`
-- `backend/test/onboardingVerification.test.mjs`
-- `backend/test/phase2DealerStaffOnboarding.test.mjs`
+- `ios/App/App/public/assets/index-STbSaCMn.js`
 
 ## Audit Trail
 
-- EXTRACTED: 224 (100%)
-- INFERRED: 1 (0%)
+- EXTRACTED: 410 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

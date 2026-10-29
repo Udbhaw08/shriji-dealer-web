@@ -2,7 +2,7 @@
 
 > God node · 66 connections · `android/app/src/main/assets/public/assets/index-STbSaCMn.js`
 
-**Community:** [[Pricing Hierarchy & Zero-Leakage Spec]]
+**Community:** [[Roles & Customer Sharing Spec]]
 
 ## Connections by Relation
 

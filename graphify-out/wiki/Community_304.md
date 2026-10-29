@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **Charting data** (6 connections) — `.agents/skills/apple-design/references/hig/charting-data.md`
-- **charting-data.md** (1 connections) — `.agents/skills/apple-design/references/hig/charting-data.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/charting-data.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/charting-data.md`
-- **Designing effective charts** (1 connections) — `.agents/skills/apple-design/references/hig/charting-data.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/charting-data.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/charting-data.md`
+- **MockStorage** (6 connections) — `src/data/productsStore.test.mjs`
+- **productsStore.test.mjs** (1 connections) — `src/data/productsStore.test.mjs`
+- **.clear()** (1 connections) — `src/data/productsStore.test.mjs`
+- **.constructor()** (1 connections) — `src/data/productsStore.test.mjs`
+- **.getItem()** (1 connections) — `src/data/productsStore.test.mjs`
+- **.removeItem()** (1 connections) — `src/data/productsStore.test.mjs`
+- **.setItem()** (1 connections) — `src/data/productsStore.test.mjs`
 
 ## Relationships
 
@@ -18,7 +18,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/charting-data.md`
+- `src/data/productsStore.test.mjs`
 
 ## Audit Trail
 

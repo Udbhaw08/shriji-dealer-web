@@ -4,14 +4,14 @@
 
 ## Key Concepts
 
-- **guided-views.test.mjs** (7 connections) — `.agents/skills/archify/test/guided-views.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/guided-views.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/guided-views.test.mjs`
-- **fixture()** (1 connections) — `.agents/skills/archify/test/guided-views.test.mjs`
-- **run()** (1 connections) — `.agents/skills/archify/test/guided-views.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/guided-views.test.mjs`
-- **svg()** (1 connections) — `.agents/skills/archify/test/guided-views.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/guided-views.test.mjs`
+- **crmProvisioningReliability.test.mjs** (7 connections) — `backend/test/crmProvisioningReliability.test.mjs`
+- **crmCalls** (1 connections) — `backend/test/crmProvisioningReliability.test.mjs`
+- **db** (1 connections) — `backend/test/crmProvisioningReliability.test.mjs`
+- **mockCrm** (1 connections) — `backend/test/crmProvisioningReliability.test.mjs`
+- **mockSql()** (1 connections) — `backend/test/crmProvisioningReliability.test.mjs`
+- **resetCrm()** (1 connections) — `backend/test/crmProvisioningReliability.test.mjs`
+- **resetDb()** (1 connections) — `backend/test/crmProvisioningReliability.test.mjs`
+- **testEnv** (1 connections) — `backend/test/crmProvisioningReliability.test.mjs`
 
 ## Relationships
 
@@ -19,7 +19,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/guided-views.test.mjs`
+- `backend/test/crmProvisioningReliability.test.mjs`
 
 ## Audit Trail
 
