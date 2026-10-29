@@ -33,15 +33,15 @@
 
 ## Relationships
 
-- [[Community 42]] (63 shared connections)
-- [[Zoho Integration Skill]] (45 shared connections)
-- [[Pricing & Roles Skill]] (35 shared connections)
-- [[Community 44]] (33 shared connections)
-- [[Community 83]] (31 shared connections)
-- [[Client Products Data Store]] (8 shared connections)
-- [[Oxlint Linter Configuration]] (6 shared connections)
-- [[Community 107]] (4 shared connections)
-- [[Community 292]] (3 shared connections)
+- [[Community 40]] (63 shared connections)
+- [[Mobile Responsive UI Skill]] (45 shared connections)
+- [[Roles & Customer Sharing Spec]] (35 shared connections)
+- [[Community 41]] (33 shared connections)
+- [[Community 81]] (31 shared connections)
+- [[Pricing Regression Test Suite]] (8 shared connections)
+- [[Pricing & Roles Skill]] (6 shared connections)
+- [[Community 110]] (4 shared connections)
+- [[Community 297]] (3 shared connections)
 
 ## Source Files
 

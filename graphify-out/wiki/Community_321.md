@@ -4,25 +4,25 @@
 
 ## Key Concepts
 
-- **chapter-rail.test.mjs** (6 connections) — `.agents/skills/archify/test/chapter-rail.test.mjs`
-- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/chapter-rail.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/chapter-rail.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/chapter-rail.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/chapter-rail.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/chapter-rail.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/chapter-rail.test.mjs`
+- **lifecycle.schema.json** (7 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **$id** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **required** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **$schema** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **title** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 129]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/chapter-rail.test.mjs`
+- `.agents/skills/archify/schemas/lifecycle.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
+- EXTRACTED: 13 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

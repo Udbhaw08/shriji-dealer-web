@@ -1,54 +1,55 @@
 # Zoho Integration Architecture
 
-> 57 nodes · cohesion 0.07
+> 56 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **ot()** (23 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **k()** (21 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **Md()** (15 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **nt()** (15 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **ft()** (14 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **mt()** (12 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **yn()** (11 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **be()** (10 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **kt()** (10 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **xi()** (10 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **yh()** (10 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **af()** (9 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **at()** (9 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **hh()** (9 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **ut()** (9 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **ct()** (8 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **it()** (8 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **mn()** (8 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **Id()** (7 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **kf()** (7 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **mh()** (7 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **nn()** (7 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **pn()** (7 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **un()** (7 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **Xt()** (7 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- *... and 32 more nodes in this community*
+- **hash.js** (25 connections) — `backend/src/utils/hash.js`
+- **phase2DealerStaffOnboarding.test.mjs** (17 connections) — `backend/test/phase2DealerStaffOnboarding.test.mjs`
+- **loginCode.js** (17 connections) — `backend/src/utils/loginCode.js`
+- **dealerRegistrationTwoChannel.test.mjs** (15 connections) — `backend/test/dealerRegistrationTwoChannel.test.mjs`
+- **onboardingVerification.test.mjs** (15 connections) — `backend/test/onboardingVerification.test.mjs`
+- **hashOtp()** (10 connections) — `backend/src/utils/hash.js`
+- **verifyOtpHash()** (10 connections) — `backend/src/utils/hash.js`
+- **hash.test.mjs** (9 connections) — `backend/test/hash.test.mjs`
+- **sha256()** (9 connections) — `backend/src/utils/hash.js`
+- **formatLoginCode()** (8 connections) — `backend/src/utils/loginCode.js`
+- **generateLoginCode()** (8 connections) — `backend/src/utils/loginCode.js`
+- **loginCode.test.mjs** (7 connections) — `backend/test/loginCode.test.mjs`
+- **generateOtp()** (5 connections) — `backend/src/utils/hash.js`
+- **hashPassword()** (5 connections) — `backend/src/utils/hash.js`
+- **verifyPassword()** (4 connections) — `backend/src/utils/hash.js`
+- **isValidLoginCode()** (4 connections) — `backend/src/utils/loginCode.js`
+- **parseLoginCode()** (4 connections) — `backend/src/utils/loginCode.js`
+- **scryptKey()** (3 connections) — `backend/src/utils/hash.js`
+- **USER_CATEGORIES** (3 connections) — `backend/src/utils/loginCode.js`
+- **generateCode()** (2 connections) — `backend/src/utils/hash.js`
+- **randomToken()** (2 connections) — `backend/src/utils/hash.js`
+- **generateRandomDigits()** (2 connections) — `backend/src/utils/loginCode.js`
+- **generateRandomLetters()** (2 connections) — `backend/src/utils/loginCode.js`
+- **GST_TREATMENT_OPTIONS** (2 connections) — `backend/src/utils/loginCode.js`
+- **app** (1 connections) — `backend/test/dealerRegistrationTwoChannel.test.mjs`
+- *... and 31 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (75 shared connections)
-- [[Community 32]] (26 shared connections)
-- [[Pricing Regression Test Suite]] (20 shared connections)
-- [[Design System & UI Tokens]] (14 shared connections)
-- [[Graphify Knowledge Graph Skill]] (13 shared connections)
-- [[Vercel Deployment Routing]] (10 shared connections)
-- [[Community 43]] (10 shared connections)
-- [[Community 64]] (9 shared connections)
+- [[Master Codebase Architecture Reference]] (20 shared connections)
+- [[Client Products Data Store]] (10 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (2 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
+- `backend/src/utils/hash.js`
+- `backend/src/utils/loginCode.js`
+- `backend/test/dealerRegistrationTwoChannel.test.mjs`
+- `backend/test/hash.test.mjs`
+- `backend/test/loginCode.test.mjs`
+- `backend/test/onboardingVerification.test.mjs`
+- `backend/test/phase2DealerStaffOnboarding.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 399 (100%)
+- EXTRACTED: 220 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

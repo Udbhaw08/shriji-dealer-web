@@ -1,59 +1,62 @@
 # Community 50
 
-> 32 nodes · cohesion 0.14
+> 31 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **Product.jsx** (41 connections) — `src/pages/Product.jsx`
-- **dealer.js** (29 connections) — `src/data/dealer.js`
-- **dealer.test.mjs** (18 connections) — `src/data/dealer.test.mjs`
-- **PriceBlock.jsx** (15 connections) — `src/components/PriceBlock.jsx`
-- **Product()** (15 connections) — `src/pages/Product.jsx`
-- **priceFor()** (14 connections) — `src/data/dealer.js`
-- **inr()** (12 connections) — `src/data/dealer.js`
-- **viewerFor()** (8 connections) — `src/data/dealer.js`
-- **CustomerPrice()** (7 connections) — `src/components/PriceBlock.jsx`
-- **productSlug()** (7 connections) — `src/data/dealer.js`
-- **shareLink()** (7 connections) — `src/data/dealer.js`
-- **slugifyProduct()** (6 connections) — `src/data/dealer.js`
-- **tagFor()** (6 connections) — `src/data/dealer.js`
-- **DealerPrice()** (5 connections) — `src/components/PriceBlock.jsx`
-- **formatWhatsAppPhone()** (4 connections) — `src/data/dealer.js`
-- **tierOf()** (4 connections) — `src/data/dealer.js`
-- **DEALERS** (3 connections) — `src/data/dealer.js`
-- **PriceBlock()** (2 connections) — `src/components/PriceBlock.jsx`
-- **price99()** (2 connections) — `src/data/dealer.js`
-- **getCachedProductDetail()** (2 connections) — `src/pages/Product.jsx`
-- **setCachedProductDetail()** (2 connections) — `src/pages/Product.jsx`
-- **BAND** (1 connections) — `src/data/dealer.js`
-- **hash()** (1 connections) — `src/data/dealer.js`
-- **approved** (1 connections) — `src/data/dealer.test.mjs`
-- **customer** (1 connections) — `src/data/dealer.test.mjs`
-- *... and 7 more nodes in this community*
+- **visual-check.mjs** (50 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **runVisualCheck()** (18 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **desktop-readability.mjs** (9 connections) — `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
+- **adaptive-reader-layout.test.mjs** (9 connections) — `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
+- **desktop-reader-browser.test.mjs** (8 connections) — `.agents/skills/archify/test/desktop-reader-browser.test.mjs`
+- **DESKTOP_READABILITY_VIEWPORT** (5 connections) — `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
+- **observationDiagnostics()** (4 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **safeUnlink()** (4 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **writeAtomic()** (4 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **baseReceipt()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **cleanupCaptureSidecars()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **contactSheetHtml()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **failureDiagnostic()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **persistReceipt()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **sha256()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **sidecarPaths()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **htmlEscape()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **observation()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **screenshotKey()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **viewportSubject()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **CAPTURE_VIEWPORTS** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **EXIT** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **THEMES** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
+- **reader** (1 connections) — `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
+- *... and 6 more nodes in this community*
 
 ## Relationships
 
-- [[Product Pages Specification]] (55 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (8 shared connections)
-- [[Community 92]] (5 shared connections)
-- [[Community 165]] (3 shared connections)
-- [[Community 210]] (3 shared connections)
-- [[Community 108]] (3 shared connections)
-- [[Community 149]] (2 shared connections)
-- [[Community 112]] (2 shared connections)
-- [[Community 37]] (1 shared connections)
+- [[Community 84]] (8 shared connections)
+- [[Community 132]] (6 shared connections)
+- [[Community 54]] (5 shared connections)
+- [[Pricing & Roles Skill]] (4 shared connections)
+- [[Community 65]] (3 shared connections)
+- [[Roles & Customer Sharing Spec]] (3 shared connections)
+- [[Community 145]] (2 shared connections)
+- [[Community 94]] (2 shared connections)
+- [[Community 108]] (2 shared connections)
+- [[Community 150]] (1 shared connections)
+- [[Community 151]] (1 shared connections)
+- [[Community 130]] (1 shared connections)
 
 ## Source Files
 
-- `src/components/PriceBlock.jsx`
-- `src/data/dealer.js`
-- `src/data/dealer.test.mjs`
-- `src/pages/Product.jsx`
+- `.agents/skills/archify/bin/visual-check.mjs`
+- `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
+- `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
+- `.agents/skills/archify/test/desktop-reader-browser.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 220 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 150 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **Zoho Commerce Inventory Synchronization** (2 connections) — `docs/architecture/zoho-inventory-sync.md`
-- **zoho-inventory-sync.md** (1 connections) — `docs/architecture/zoho-inventory-sync.md`
-- **Strategy** (1 connections) — `docs/architecture/zoho-inventory-sync.md`
+- **Multi-Tenant Dealer Schema** (2 connections) — `docs/architecture/multi-tenant-dealer-schema.md`
+- **multi-tenant-dealer-schema.md** (1 connections) — `docs/architecture/multi-tenant-dealer-schema.md`
+- **Workspace Isolation** (1 connections) — `docs/architecture/multi-tenant-dealer-schema.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/architecture/zoho-inventory-sync.md`
+- `docs/architecture/multi-tenant-dealer-schema.md`
 
 ## Audit Trail
 

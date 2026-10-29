@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **dbHealthCheck.test.mjs** (0 connections) — `backend/test/dbHealthCheck.test.mjs`
+- **verify-all.mjs** (0 connections) — `scripts/verify-all.mjs`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `backend/test/dbHealthCheck.test.mjs`
+- `scripts/verify-all.mjs`
 
 ## Audit Trail
 

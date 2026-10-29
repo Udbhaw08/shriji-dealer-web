@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **ipUtils.js** (1 connections) — `backend/src/utils/ipUtils.js`
-- **getClientIp()** (1 connections) — `backend/src/utils/ipUtils.js`
+- **a11y.js** (1 connections) — `src/utils/a11y.js`
+- **trapFocus()** (1 connections) — `src/utils/a11y.js`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `backend/src/utils/ipUtils.js`
+- `src/utils/a11y.js`
 
 ## Audit Trail
 

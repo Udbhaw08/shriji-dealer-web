@@ -1,32 +1,34 @@
 # Community 166
 
-> 11 nodes · cohesion 0.18
+> 12 nodes · cohesion 0.26
 
 ## Key Concepts
 
-- **Alerts** (8 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
-- **alerts.md** (1 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
-- **Anatomy** (1 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
-- **Buttons** (1 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
-- **Content** (1 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/alerts.md`
+- **items** (5 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **items** (5 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **additionalProperties** (4 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **required** (4 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **type** (4 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **messages** (4 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **activations** (3 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **minItems** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 80]] (4 shared connections)
+- [[Community 98]] (4 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/alerts.md`
+- `.agents/skills/archify/schemas/sequence.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
+- EXTRACTED: 42 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

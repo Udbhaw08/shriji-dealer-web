@@ -4,11 +4,11 @@
 
 ## Key Concepts
 
-- **Archify Diagram Generation Protocol** (4 connections) — `.agents/rules/archify.md`
-- **archify.md** (1 connections) — `.agents/rules/archify.md`
-- **Rule 1: Dedicated Subfolder Per Diagram** (1 connections) — `.agents/rules/archify.md`
-- **Rule 2: Output Artifacts (HTML & Dark Image Only)** (1 connections) — `.agents/rules/archify.md`
-- **Rule 3: Intermediate File Cleanup** (1 connections) — `.agents/rules/archify.md`
+- **Performance** (4 connections) — `.agents/skills/swiftui-pro/references/performance.md`
+- **performance.md** (1 connections) — `.agents/skills/swiftui-pro/references/performance.md`
+- **Collections and row updates** (1 connections) — `.agents/skills/swiftui-pro/references/performance.md`
+- **Frequent changes** (1 connections) — `.agents/skills/swiftui-pro/references/performance.md`
+- **Remote images** (1 connections) — `.agents/skills/swiftui-pro/references/performance.md`
 
 ## Relationships
 
@@ -16,7 +16,7 @@
 
 ## Source Files
 
-- `.agents/rules/archify.md`
+- `.agents/skills/swiftui-pro/references/performance.md`
 
 ## Audit Trail
 

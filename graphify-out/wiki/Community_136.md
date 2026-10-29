@@ -1,23 +1,23 @@
 # Community 136
 
-> 14 nodes · cohesion 0.14
+> 14 nodes · cohesion 0.23
 
 ## Key Concepts
 
-- **generate-brand-marks.mjs** (13 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
-- **catalog** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
-- **catalogPath** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
-- **domains** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
-- **fail()** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
-- **generated** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
-- **here** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
-- **ids** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
-- **lookupForms()** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
-- **lookupKeys** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
-- **normalizedList()** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
-- **outputPath** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
-- **root** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
-- **simpleBySlug** (1 connections) — `.agents/skills/archify/scripts/generate-brand-marks.mjs`
+- **web-DMVD5tKi.js** (13 connections) — `ios/App/App/public/assets/web-DMVD5tKi.js`
+- **applyPrefix()** (4 connections) — `ios/App/App/public/assets/web-DMVD5tKi.js`
+- **keys()** (4 connections) — `ios/App/App/public/assets/web-DMVD5tKi.js`
+- **get()** (3 connections) — `ios/App/App/public/assets/web-DMVD5tKi.js`
+- **migrate()** (3 connections) — `ios/App/App/public/assets/web-DMVD5tKi.js`
+- **rawKeys()** (3 connections) — `ios/App/App/public/assets/web-DMVD5tKi.js`
+- **clear()** (2 connections) — `ios/App/App/public/assets/web-DMVD5tKi.js`
+- **remove()** (2 connections) — `ios/App/App/public/assets/web-DMVD5tKi.js`
+- **removeOld()** (2 connections) — `ios/App/App/public/assets/web-DMVD5tKi.js`
+- **set()** (2 connections) — `ios/App/App/public/assets/web-DMVD5tKi.js`
+- **configure()** (1 connections) — `ios/App/App/public/assets/web-DMVD5tKi.js`
+- **constructor()** (1 connections) — `ios/App/App/public/assets/web-DMVD5tKi.js`
+- **impl()** (1 connections) — `ios/App/App/public/assets/web-DMVD5tKi.js`
+- **prefix()** (1 connections) — `ios/App/App/public/assets/web-DMVD5tKi.js`
 
 ## Relationships
 
@@ -25,11 +25,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/scripts/generate-brand-marks.mjs`
+- `ios/App/App/public/assets/web-DMVD5tKi.js`
 
 ## Audit Trail
 
-- EXTRACTED: 26 (100%)
+- EXTRACTED: 42 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -4,15 +4,15 @@
 
 ## Key Concepts
 
-- **relationship-permalink.test.mjs** (8 connections) — `.agents/skills/archify/test/relationship-permalink.test.mjs`
-- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/relationship-permalink.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/relationship-permalink.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/relationship-permalink.test.mjs`
-- **fixture()** (1 connections) — `.agents/skills/archify/test/relationship-permalink.test.mjs`
-- **relationshipKey()** (1 connections) — `.agents/skills/archify/test/relationship-permalink.test.mjs`
-- **run()** (1 connections) — `.agents/skills/archify/test/relationship-permalink.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/relationship-permalink.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/relationship-permalink.test.mjs`
+- **Critical Mobile Responsiveness Safeguards** (6 connections) — `.agents/skills/shriji-responsive-ui/SKILL.md`
+- **Shriji Responsive UI Skill** (3 connections) — `.agents/skills/shriji-responsive-ui/SKILL.md`
+- **SKILL.md** (1 connections) — `.agents/skills/shriji-responsive-ui/SKILL.md`
+- **1. Viewport Zoom-Out Prevention** (1 connections) — `.agents/skills/shriji-responsive-ui/SKILL.md`
+- **2. CSS Grid Child Shrinking** (1 connections) — `.agents/skills/shriji-responsive-ui/SKILL.md`
+- **3. Product Card Rows on Mobile (`<= 719px`)** (1 connections) — `.agents/skills/shriji-responsive-ui/SKILL.md`
+- **4. Horizontal Scrollable Tabs (`.utabs`, `.tabs`)** (1 connections) — `.agents/skills/shriji-responsive-ui/SKILL.md`
+- **5. Hero Banner on Small Screens (`<= 640px`)** (1 connections) — `.agents/skills/shriji-responsive-ui/SKILL.md`
+- **Design System Tokens** (1 connections) — `.agents/skills/shriji-responsive-ui/SKILL.md`
 
 ## Relationships
 
@@ -20,7 +20,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/relationship-permalink.test.mjs`
+- `.agents/skills/shriji-responsive-ui/SKILL.md`
 
 ## Audit Trail
 

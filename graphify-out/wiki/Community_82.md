@@ -1,44 +1,51 @@
 # Community 82
 
-> 21 nodes · cohesion 0.10
+> 20 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **properties** (9 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **architecture.schema.json** (7 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **meta** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **components** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **cards** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **diagram_type** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **schema_version** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **minItems** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **const** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **$id** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **required** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **required** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **$schema** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **const** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **title** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **A()** (17 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
+- **lt()** (16 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
+- **zi()** (16 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
+- **Ka()** (15 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
+- **ga()** (8 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
+- **mc()** (8 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
+- **ua()** (8 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
+- **ya()** (8 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
+- **mo()** (7 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
+- **qa()** (7 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
+- **Pc()** (6 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
+- **za()** (6 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
+- **Do()** (5 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
+- **fo()** (4 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
+- **po()** (4 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
+- **va()** (4 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
+- **Xa()** (3 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
+- **xo()** (3 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
+- **bo()** (2 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
+- **w()** (2 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
 
 ## Relationships
 
-- [[Community 122]] (3 shared connections)
-- [[Community 77]] (1 shared connections)
-- [[Community 89]] (1 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (22 shared connections)
+- [[Graphify Knowledge Graph Skill]] (14 shared connections)
+- [[Agent Guidelines (AGENTS.md)]] (12 shared connections)
+- [[Design System & UI Tokens]] (8 shared connections)
+- [[Product Brand & Business Vision]] (8 shared connections)
+- [[Community 83]] (7 shared connections)
+- [[Community 63]] (4 shared connections)
+- [[Community 109]] (2 shared connections)
+- [[Community 43]] (2 shared connections)
+- [[Community 62]] (1 shared connections)
+- [[Testing & Workflow Skill]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/architecture.schema.json`
+- `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
 
 ## Audit Trail
 
-- EXTRACTED: 45 (100%)
+- EXTRACTED: 149 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,66 +1,71 @@
 # Pricing Hierarchy & Zero-Leakage Spec
 
-> 52 nodes · cohesion 0.10
+> 51 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **session.js** (54 connections) — `src/data/session.js`
-- **Login.jsx** (45 connections) — `src/pages/Login.jsx`
-- **DealerApply.jsx** (26 connections) — `src/pages/DealerApply.jsx`
-- **BrandApplyFlow.jsx** (23 connections) — `src/components/BrandApplyFlow.jsx`
-- **StaffDashboard.jsx** (16 connections) — `src/pages/StaffDashboard.jsx`
-- **revalidateSession()** (14 connections) — `src/data/session.js`
-- **StaffJoin.jsx** (14 connections) — `src/pages/StaffJoin.jsx`
-- **EmailVerificationPrompt.jsx** (12 connections) — `src/components/EmailVerificationPrompt.jsx`
-- **PhoneVerificationPrompt.jsx** (12 connections) — `src/components/PhoneVerificationPrompt.jsx`
-- **validators.js** (12 connections) — `src/data/validators.js`
-- **loginCode.js** (11 connections) — `src/data/loginCode.js`
-- **setSession()** (11 connections) — `src/data/session.js`
-- **hasSession()** (8 connections) — `src/data/auth.js`
-- **signOut()** (8 connections) — `src/data/session.js`
-- **registerDealer()** (7 connections) — `src/data/dealer.js`
-- **isValidEmail()** (7 connections) — `src/data/validators.js`
-- **applyAsDealer()** (6 connections) — `src/data/auth.js`
-- **requestEmailOtp()** (6 connections) — `src/data/auth.js`
-- **formatLoginCode()** (6 connections) — `src/data/loginCode.js`
-- **isValidName()** (6 connections) — `src/data/validators.js`
-- **isValidPhone()** (6 connections) — `src/data/validators.js`
-- **DealerPending.jsx** (6 connections) — `src/pages/DealerPending.jsx`
-- **OtpDispatchFeedback.jsx** (5 connections) — `src/components/OtpDispatchFeedback.jsx`
-- **OtpDispatchFeedback()** (5 connections) — `src/components/OtpDispatchFeedback.jsx`
-- **switchToDealerSession()** (5 connections) — `src/data/session.js`
-- *... and 27 more nodes in this community*
+- **server.js** (36 connections) — `backend/src/server.js`
+- **app.js** (30 connections) — `backend/src/app.js`
+- **compatibilitySuite.test.mjs** (20 connections) — `backend/test/compatibilitySuite.test.mjs`
+- **upload.js** (12 connections) — `backend/src/routes/upload.js`
+- **errorHandler.js** (10 connections) — `backend/src/middleware/errorHandler.js`
+- **rateLimit.js** (10 connections) — `backend/src/middleware/rateLimit.js`
+- **rateLimit()** (9 connections) — `backend/src/middleware/rateLimit.js`
+- **admin.js** (9 connections) — `backend/src/routes/admin.js`
+- **health.js** (9 connections) — `backend/src/routes/health.js`
+- **uploads.js** (9 connections) — `backend/src/routes/uploads.js`
+- **securityPhase3.test.mjs** (9 connections) — `backend/test/securityPhase3.test.mjs`
+- **prices.js** (7 connections) — `backend/src/routes/prices.js`
+- **migrate.js** (6 connections) — `backend/src/db/migrate.js`
+- **contentRouter** (5 connections) — `backend/src/routes/content.js`
+- **uploadRouter** (5 connections) — `backend/src/routes/upload.js`
+- **uploadsRouter** (5 connections) — `backend/src/routes/uploads.js`
+- **migrate()** (4 connections) — `backend/src/db/migrate.js`
+- **errorHandler()** (4 connections) — `backend/src/middleware/errorHandler.js`
+- **adminRouter** (4 connections) — `backend/src/routes/admin.js`
+- **app** (4 connections) — `backend/src/app.js`
+- **rateLimitFix.test.mjs** (4 connections) — `backend/test/rateLimitFix.test.mjs`
+- **[...path].js** (3 connections) — `api/auth/[...path].js`
+- **applied()** (3 connections) — `backend/src/db/migrate.js`
+- **[...path].js** (3 connections) — `api/dealers/[...path].js`
+- **startJobs()** (3 connections) — `backend/src/jobs/index.js`
+- *... and 26 more nodes in this community*
 
 ## Relationships
 
-- [[Community 37]] (56 shared connections)
-- [[Product Pages Specification]] (53 shared connections)
-- [[Community 92]] (12 shared connections)
-- [[Community 50]] (8 shared connections)
-- [[Community 165]] (1 shared connections)
-- [[Community 149]] (1 shared connections)
+- [[Master Codebase Architecture Reference]] (29 shared connections)
+- [[Community 49]] (13 shared connections)
+- [[Client Products Data Store]] (13 shared connections)
+- [[Oxlint Linter Configuration]] (12 shared connections)
+- [[Community 91]] (4 shared connections)
+- [[Zoho Integration Architecture]] (2 shared connections)
 
 ## Source Files
 
-- `src/components/BrandApplyFlow.jsx`
-- `src/components/EmailVerificationPrompt.jsx`
-- `src/components/OtpDispatchFeedback.jsx`
-- `src/components/PhoneVerificationPrompt.jsx`
-- `src/data/auth.js`
-- `src/data/dealer.js`
-- `src/data/loginCode.js`
-- `src/data/session.js`
-- `src/data/validators.js`
-- `src/pages/DealerApply.jsx`
-- `src/pages/DealerDashboard.jsx`
-- `src/pages/DealerPending.jsx`
-- `src/pages/Login.jsx`
-- `src/pages/StaffDashboard.jsx`
-- `src/pages/StaffJoin.jsx`
+- `api/auth/[...path].js`
+- `api/dealers/[...path].js`
+- `backend/src/app.js`
+- `backend/src/db/migrate.js`
+- `backend/src/jobs/index.js`
+- `backend/src/middleware/errorHandler.js`
+- `backend/src/middleware/rateLimit.js`
+- `backend/src/routes/admin.js`
+- `backend/src/routes/auth.js`
+- `backend/src/routes/content.js`
+- `backend/src/routes/dealers.js`
+- `backend/src/routes/health.js`
+- `backend/src/routes/prices.js`
+- `backend/src/routes/upload.js`
+- `backend/src/routes/uploads.js`
+- `backend/src/routes/webhooks.js`
+- `backend/src/server.js`
+- `backend/test/compatibilitySuite.test.mjs`
+- `backend/test/rateLimitFix.test.mjs`
+- `backend/test/securityPhase3.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 395 (100%)
+- EXTRACTED: 263 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -4,10 +4,10 @@
 
 ## Key Concepts
 
-- **proof-aperture.test.mjs** (3 connections) — `.agents/skills/archify/test/proof-aperture.test.mjs`
-- **cssRule()** (1 connections) — `.agents/skills/archify/test/proof-aperture.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/proof-aperture.test.mjs`
-- **landing** (1 connections) — `.agents/skills/archify/test/proof-aperture.test.mjs`
+- **cursor-onboarding.test.mjs** (3 connections) — `.agents/skills/archify/test/cursor-onboarding.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/cursor-onboarding.test.mjs`
+- **repoRoot** (1 connections) — `.agents/skills/archify/test/cursor-onboarding.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/cursor-onboarding.test.mjs`
 
 ## Relationships
 
@@ -15,7 +15,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/proof-aperture.test.mjs`
+- `.agents/skills/archify/test/cursor-onboarding.test.mjs`
 
 ## Audit Trail
 

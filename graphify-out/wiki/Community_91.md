@@ -1,40 +1,51 @@
 # Community 91
 
-> 19 nodes · cohesion 0.11
+> 19 nodes · cohesion 0.23
 
 ## Key Concepts
 
-- **Apple Design Skill** (7 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Step 3: Audit through five lenses, in this order** (6 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Review process** (5 connections) — `.agents/skills/apple-design/SKILL.md`
-- **The references** (3 connections) — `.agents/skills/apple-design/SKILL.md`
-- **SKILL.md** (1 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Always load** (1 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Apple's design principles** (1 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Design improvement mode** (1 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Lens 1: Accessibility (failures are Critical)** (1 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Lens 2: Platform conventions (failures are usually High)** (1 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Lens 3: Visual design and craft (findings are High or Medium)** (1 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Lens 4: Interaction (findings are usually Medium)** (1 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Lens 5: Content and writing (findings are usually Medium)** (1 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Load by what is on screen** (1 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Specialized review modes** (1 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Step 1: Establish context** (1 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Step 2: Load references** (1 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Step 4: Write the report** (1 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Working rules** (1 connections) — `.agents/skills/apple-design/SKILL.md`
+- **securityPhase2.test.mjs** (11 connections) — `backend/test/securityPhase2.test.mjs`
+- **dealerPricingAuth.js** (10 connections) — `api/_lib/dealerPricingAuth.js`
+- **getDealerPricingEligibility()** (8 connections) — `api/_lib/dealerPricingAuth.js`
+- **index.js** (8 connections) — `api/products/index.js`
+- **og.js** (7 connections) — `api/og.js`
+- **htmlEscape.js** (6 connections) — `api/_lib/htmlEscape.js`
+- **escapeHtml()** (6 connections) — `api/_lib/htmlEscape.js`
+- **sanitizeUrl()** (6 connections) — `api/_lib/htmlEscape.js`
+- **fetchZohoCategories()** (6 connections) — `api/_lib/zoho.js`
+- **[id].js** (6 connections) — `api/products/[id].js`
+- **handler()** (6 connections) — `api/products/index.js`
+- **handler()** (5 connections) — `api/og.js`
+- **maskCatalogPricing()** (5 connections) — `api/_lib/dealerPricingAuth.js`
+- **maskProductPricing()** (5 connections) — `api/_lib/dealerPricingAuth.js`
+- **readProductsDiskCache()** (5 connections) — `api/_lib/zoho.js`
+- **sanitizeHost()** (4 connections) — `api/_lib/htmlEscape.js`
+- **handler()** (4 connections) — `api/products/[id].js`
+- **tokenCache** (1 connections) — `api/_lib/dealerPricingAuth.js`
+- **mockWebhookAuthCheck()** (1 connections) — `backend/test/securityPhase2.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Price Presentation & Product UI]] (14 shared connections)
+- [[Oxlint Linter Configuration]] (7 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (4 shared connections)
+- [[Master Codebase Architecture Reference]] (3 shared connections)
+- [[Community 49]] (1 shared connections)
+- [[Client Products Data Store]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/SKILL.md`
+- `api/_lib/dealerPricingAuth.js`
+- `api/_lib/htmlEscape.js`
+- `api/_lib/zoho.js`
+- `api/og.js`
+- `api/products/[id].js`
+- `api/products/index.js`
+- `backend/test/securityPhase2.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 36 (100%)
+- EXTRACTED: 110 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

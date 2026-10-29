@@ -33,15 +33,16 @@
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (67 shared connections)
-- [[Graphify Agent Rules]] (20 shared connections)
+- [[Dealer Auth & Session Management]] (71 shared connections)
 - [[Claude Agent Instructions]] (16 shared connections)
-- [[Roles & Customer Sharing Spec]] (16 shared connections)
-- [[Architecture Doc Generator]] (15 shared connections)
-- [[Community 46]] (14 shared connections)
-- [[Graphify Workflow]] (6 shared connections)
-- [[Community 68]] (6 shared connections)
-- [[Community 69]] (3 shared connections)
+- [[Community 45]] (15 shared connections)
+- [[Live Pricing Audit Tool]] (15 shared connections)
+- [[Community 42]] (14 shared connections)
+- [[Zoho Integration Skill]] (13 shared connections)
+- [[Community 87]] (8 shared connections)
+- [[Vercel Deployment Routing]] (6 shared connections)
+- [[Community 97]] (3 shared connections)
+- [[Community 119]] (2 shared connections)
 
 ## Source Files
 

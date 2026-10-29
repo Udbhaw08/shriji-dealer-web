@@ -4,24 +4,24 @@
 
 ## Key Concepts
 
-- **MetricsTracker** (4 connections) — `backend/src/services/metrics.js`
-- **metrics.js** (2 connections) — `backend/src/services/metrics.js`
-- **metrics** (1 connections) — `backend/src/services/metrics.js`
-- **.constructor()** (1 connections) — `backend/src/services/metrics.js`
-- **.getSnapshot()** (1 connections) — `backend/src/services/metrics.js`
-- **.track()** (1 connections) — `backend/src/services/metrics.js`
+- **size** (6 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **items** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **maxItems** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **minItems** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **prefixItems** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Zoho API Diagnostic Script]] (1 shared connections)
 
 ## Source Files
 
-- `backend/src/services/metrics.js`
+- `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
+- EXTRACTED: 11 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

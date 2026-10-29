@@ -1,30 +1,34 @@
 # Community 215
 
-> 9 nodes · cohesion 0.22
+> 9 nodes · cohesion 0.39
 
 ## Key Concepts
 
-- **Drag and drop** (6 connections) — `.agents/skills/apple-design/references/hig/drag-and-drop.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/drag-and-drop.md`
-- **drag-and-drop.md** (1 connections) — `.agents/skills/apple-design/references/hig/drag-and-drop.md`
-- **Accepting drops** (1 connections) — `.agents/skills/apple-design/references/hig/drag-and-drop.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/drag-and-drop.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/drag-and-drop.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/drag-and-drop.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/drag-and-drop.md`
-- **Providing feedback** (1 connections) — `.agents/skills/apple-design/references/hig/drag-and-drop.md`
+- **ProductSearchBar.jsx** (15 connections) — `src/components/ProductSearchBar.jsx`
+- **searchHelper.js** (11 connections) — `src/data/searchHelper.js`
+- **getSuggestions()** (5 connections) — `src/data/searchHelper.js`
+- **autocorrectQuery()** (4 connections) — `src/data/searchHelper.js`
+- **buildSearchDictionary()** (4 connections) — `src/data/searchHelper.js`
+- **getPopularSearches()** (2 connections) — `src/data/searchHelper.js`
+- **scoreProduct()** (2 connections) — `src/data/searchHelper.js`
+- **COLLOQUIAL_SYNONYMS** (1 connections) — `src/data/searchHelper.js`
+- **levenshteinDistance()** (1 connections) — `src/data/searchHelper.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Product Pages Specification]] (12 shared connections)
+- [[Community 48]] (3 shared connections)
+- [[Community 170]] (1 shared connections)
+- [[Community 93]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/drag-and-drop.md`
+- `src/components/ProductSearchBar.jsx`
+- `src/data/searchHelper.js`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 45 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

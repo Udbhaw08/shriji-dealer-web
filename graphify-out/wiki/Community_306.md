@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **Popovers** (4 connections) — `.agents/skills/apple-design/references/hig/popovers.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/popovers.md`
-- **popovers.md** (1 connections) — `.agents/skills/apple-design/references/hig/popovers.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/popovers.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/popovers.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/popovers.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/popovers.md`
+- **Live-viewing apps** (6 connections) — `.agents/skills/apple-design/references/hig/live-viewing-apps.md`
+- **live-viewing-apps.md** (1 connections) — `.agents/skills/apple-design/references/hig/live-viewing-apps.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/live-viewing-apps.md`
+- **Cloud DVR** (1 connections) — `.agents/skills/apple-design/references/hig/live-viewing-apps.md`
+- **EPG experience** (1 connections) — `.agents/skills/apple-design/references/hig/live-viewing-apps.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/live-viewing-apps.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/live-viewing-apps.md`
 
 ## Relationships
 
@@ -18,7 +18,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/popovers.md`
+- `.agents/skills/apple-design/references/hig/live-viewing-apps.md`
 
 ## Audit Trail
 

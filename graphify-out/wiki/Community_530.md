@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **asyncHandler.js** (1 connections) — `backend/src/utils/asyncHandler.js`
-- **asyncHandler()** (1 connections) — `backend/src/utils/asyncHandler.js`
+- **healthService.js** (1 connections) — `backend/src/services/healthService.js`
+- **getSystemHealth()** (1 connections) — `backend/src/services/healthService.js`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `backend/src/utils/asyncHandler.js`
+- `backend/src/services/healthService.js`
 
 ## Audit Trail
 

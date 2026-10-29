@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **clipboard.js** (1 connections) — `src/utils/clipboard.js`
-- **copyToClipboard()** (1 connections) — `src/utils/clipboard.js`
+- **notificationDispatcher.js** (1 connections) — `backend/src/services/notificationDispatcher.js`
+- **dispatchNotification()** (1 connections) — `backend/src/services/notificationDispatcher.js`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `src/utils/clipboard.js`
+- `backend/src/services/notificationDispatcher.js`
 
 ## Audit Trail
 

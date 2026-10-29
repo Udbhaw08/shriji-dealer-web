@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **Multi-Tenant Dealer Schema** (2 connections) — `docs/architecture/multi-tenant-dealer-schema.md`
-- **multi-tenant-dealer-schema.md** (1 connections) — `docs/architecture/multi-tenant-dealer-schema.md`
-- **Workspace Isolation** (1 connections) — `docs/architecture/multi-tenant-dealer-schema.md`
+- **Zoho CRM Webhook Event Payloads** (2 connections) — `docs/api/webhook-event-types.md`
+- **webhook-event-types.md** (1 connections) — `docs/api/webhook-event-types.md`
+- **Event: dealer.approved** (1 connections) — `docs/api/webhook-event-types.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/architecture/multi-tenant-dealer-schema.md`
+- `docs/api/webhook-event-types.md`
 
 ## Audit Trail
 

@@ -4,18 +4,18 @@
 
 ## Key Concepts
 
-- **Playing haptics** (6 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
-- **Phone (iOS)** (4 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
-- **playing-haptics.md** (1 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
-- **Custom haptics** (1 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
-- **Impact** (1 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
-- **Notification** (1 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
-- **Selection** (1 connections) — `.agents/skills/apple-design/references/hig/playing-haptics.md`
+- **Charts** (11 connections) — `.agents/skills/apple-design/references/hig/charts.md`
+- **charts.md** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
+- **Anatomy** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
+- **Axes** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
+- **Color** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
+- **Descriptive content** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
+- **Enhancing the accessibility of a chart** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
+- **Marks** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
 
 ## Relationships
 
@@ -23,7 +23,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/playing-haptics.md`
+- `.agents/skills/apple-design/references/hig/charts.md`
 
 ## Audit Trail
 

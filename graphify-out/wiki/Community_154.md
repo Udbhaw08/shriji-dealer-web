@@ -1,33 +1,35 @@
 # Community 154
 
-> 12 nodes · cohesion 0.17
+> 12 nodes · cohesion 0.26
 
 ## Key Concepts
 
-- **Generative AI** (11 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
-- **generative-ai.md** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
-- **Continuous improvement** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
-- **Inputs** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
-- **Models and datasets** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
-- **Outputs** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
-- **Privacy** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
-- **Transparency** (1 connections) — `.agents/skills/apple-design/references/hig/generative-ai.md`
+- **favoritesStore.js** (19 connections) — `src/data/favoritesStore.js`
+- **persist()** (5 connections) — `src/data/favoritesStore.js`
+- **addFavorite()** (3 connections) — `src/data/favoritesStore.js`
+- **isFavorite()** (3 connections) — `src/data/favoritesStore.js`
+- **removeFavorite()** (3 connections) — `src/data/favoritesStore.js`
+- **toggleFavorite()** (3 connections) — `src/data/favoritesStore.js`
+- **clearFavorites()** (2 connections) — `src/data/favoritesStore.js`
+- **notify()** (2 connections) — `src/data/favoritesStore.js`
+- **favoritesState** (1 connections) — `src/data/favoritesStore.js`
+- **getFavorites()** (1 connections) — `src/data/favoritesStore.js`
+- **listeners** (1 connections) — `src/data/favoritesStore.js`
+- **loadFromStorage()** (1 connections) — `src/data/favoritesStore.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Product Pages Specification]] (7 shared connections)
+- [[Community 48]] (2 shared connections)
+- [[Architecture Doc Generator]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/generative-ai.md`
+- `src/data/favoritesStore.js`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (100%)
+- EXTRACTED: 44 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

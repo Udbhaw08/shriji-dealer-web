@@ -2,7 +2,7 @@
 
 > God node · 42 connections · `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
 
-**Community:** [[Graphify Knowledge Graph Skill]]
+**Community:** [[Product Brand & Business Vision]]
 
 ## Connections by Relation
 

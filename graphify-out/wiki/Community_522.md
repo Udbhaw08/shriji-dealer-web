@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **auditLog.js** (1 connections) — `backend/src/services/auditLog.js`
-- **recordAuditLog()** (1 connections) — `backend/src/services/auditLog.js`
+- **localization.md** (1 connections) — `.agents/skills/swiftui-pro/references/localization.md`
+- **Localization** (1 connections) — `.agents/skills/swiftui-pro/references/localization.md`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `backend/src/services/auditLog.js`
+- `.agents/skills/swiftui-pro/references/localization.md`
 
 ## Audit Trail
 

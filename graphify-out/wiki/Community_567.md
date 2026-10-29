@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **dealerStatus.test.mjs** (0 connections) — `backend/test/dealerStatus.test.mjs`
+- **architecture** (0 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `backend/test/dealerStatus.test.mjs`
+- `.agents/skills/archify/renderers/shared/generated-validators.mjs`
 
 ## Audit Trail
 

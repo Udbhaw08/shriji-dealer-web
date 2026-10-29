@@ -27,9 +27,9 @@
 
 ## Relationships
 
-- [[Community 61]] (20 shared connections)
-- [[Community 293]] (2 shared connections)
-- [[Zoho Integration Skill]] (2 shared connections)
+- [[Community 59]] (20 shared connections)
+- [[Community 298]] (2 shared connections)
+- [[Mobile Responsive UI Skill]] (2 shared connections)
 
 ## Source Files
 

@@ -4,11 +4,11 @@
 
 ## Key Concepts
 
-- **Performance** (4 connections) — `.agents/skills/swiftui-pro/references/performance.md`
-- **performance.md** (1 connections) — `.agents/skills/swiftui-pro/references/performance.md`
-- **Collections and row updates** (1 connections) — `.agents/skills/swiftui-pro/references/performance.md`
-- **Frequent changes** (1 connections) — `.agents/skills/swiftui-pro/references/performance.md`
-- **Remote images** (1 connections) — `.agents/skills/swiftui-pro/references/performance.md`
+- **NFC** (4 connections) — `.agents/skills/apple-design/references/hig/nfc.md`
+- **nfc.md** (1 connections) — `.agents/skills/apple-design/references/hig/nfc.md`
+- **Background tag reading** (1 connections) — `.agents/skills/apple-design/references/hig/nfc.md`
+- **In-app tag reading** (1 connections) — `.agents/skills/apple-design/references/hig/nfc.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/nfc.md`
 
 ## Relationships
 
@@ -16,7 +16,7 @@
 
 ## Source Files
 
-- `.agents/skills/swiftui-pro/references/performance.md`
+- `.agents/skills/apple-design/references/hig/nfc.md`
 
 ## Audit Trail
 

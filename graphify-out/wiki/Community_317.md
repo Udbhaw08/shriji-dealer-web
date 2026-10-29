@@ -1,29 +1,28 @@
 # Community 317
 
-> 7 nodes · cohesion 0.38
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **reset-test-users.js** (11 connections) — `backend/scripts/reset-test-users.js`
-- **runReset()** (5 connections) — `backend/scripts/reset-test-users.js`
-- **deleteCrmRecords()** (2 connections) — `backend/scripts/reset-test-users.js`
-- **searchCrmRecordIds()** (2 connections) — `backend/scripts/reset-test-users.js`
-- **args** (1 connections) — `backend/scripts/reset-test-users.js`
-- **customNumbers** (1 connections) — `backend/scripts/reset-test-users.js`
-- **isDryRun** (1 connections) — `backend/scripts/reset-test-users.js`
+- **VoiceOver** (6 connections) — `.agents/skills/apple-design/references/hig/voiceover.md`
+- **voiceover.md** (1 connections) — `.agents/skills/apple-design/references/hig/voiceover.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/voiceover.md`
+- **Descriptions** (1 connections) — `.agents/skills/apple-design/references/hig/voiceover.md`
+- **Navigation** (1 connections) — `.agents/skills/apple-design/references/hig/voiceover.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/voiceover.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/voiceover.md`
 
 ## Relationships
 
-- [[Live Pricing Audit Tool]] (4 shared connections)
-- [[Master Codebase Architecture Reference]] (3 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `backend/scripts/reset-test-users.js`
+- `.agents/skills/apple-design/references/hig/voiceover.md`
 
 ## Audit Trail
 
-- EXTRACTED: 23 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

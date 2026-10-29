@@ -4,18 +4,18 @@
 
 ## Key Concepts
 
-- **common.schema.json** (4 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **$id** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **$schema** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **title** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **2. Type Scale** (4 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Common Ratios** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **CSS Tokens** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Practical Scale (Minor Third × 16px base)** (1 connections) — `.agents/skills/refero-design/references/typography.md`
 
 ## Relationships
 
-- [[Community 96]] (1 shared connections)
+- [[Community 235]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/common.schema.json`
+- `.agents/skills/refero-design/references/typography.md`
 
 ## Audit Trail
 

@@ -1,61 +1,49 @@
 # Project Readme & Layout
 
-> 47 nodes · cohesion 0.09
+> 45 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **vite.config.js** (20 connections) — `vite.config.js`
-- **content.js** (19 connections) — `backend/src/services/content.js`
-- **content.js** (17 connections) — `backend/src/routes/content.js`
-- **securityPhase1.test.mjs** (16 connections) — `backend/test/securityPhase1.test.mjs`
-- **content.js** (14 connections) — `api/content.js`
-- **zohoApiPlugin()** (12 connections) — `vite.config.js`
-- **handler()** (11 connections) — `api/content.js`
-- **upload.js** (9 connections) — `api/upload.js`
-- **verifyAdminAuth()** (9 connections) — `api/_lib/adminAuth.js`
-- **getSupabaseBanners()** (9 connections) — `backend/src/services/content.js`
-- **getSupabaseSchemes()** (8 connections) — `backend/src/services/content.js`
-- **getSupabaseBranding()** (7 connections) — `backend/src/services/content.js`
-- **download.js** (6 connections) — `api/download.js`
-- **adminAuth.js** (6 connections) — `api/_lib/adminAuth.js`
-- **getActiveContent()** (6 connections) — `backend/src/services/content.js`
-- **getHeroSliderSettings()** (6 connections) — `backend/src/services/content.js`
-- **handler()** (5 connections) — `api/download.js`
-- **ssrf.js** (5 connections) — `api/_lib/ssrf.js`
-- **validateSafeDownloadUrl()** (5 connections) — `api/_lib/ssrf.js`
-- **saveHeroSliderSettings()** (5 connections) — `backend/src/services/content.js`
-- **handler()** (4 connections) — `api/upload.js`
-- **deleteStoreContent()** (4 connections) — `backend/src/services/content.js`
-- **getAllStoreContent()** (4 connections) — `backend/src/services/content.js`
-- **toggleStoreContentActive()** (4 connections) — `backend/src/services/content.js`
-- **upsertStoreContent()** (4 connections) — `backend/src/services/content.js`
-- *... and 22 more nodes in this community*
+- **generated-validators.mjs** (41 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **func3()** (11 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **generate-validators.test.mjs** (5 connections) — `.agents/skills/archify/test/generate-validators.test.mjs`
+- **validate20()** (4 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **validate22()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **validate27()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **validate28()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **validate30()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **validate31()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **validate33()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **validate34()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **validate36()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **validate37()** (3 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **validate24()** (2 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **pattern17** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **pattern18** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **pattern20** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **pattern4** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **pattern57** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **schema112** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **schema116** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **schema118** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **schema149** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **schema31** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **schema33** (1 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- *... and 20 more nodes in this community*
 
 ## Relationships
 
-- [[Master Codebase Architecture Reference]] (16 shared connections)
-- [[Mobile Responsive UI Skill]] (12 shared connections)
-- [[Zoho Backend & Proxy Endpoints]] (12 shared connections)
-- [[Community 90]] (7 shared connections)
+- [[Pricing Regression Test Suite]] (1 shared connections)
 
 ## Source Files
 
-- `api/_lib/adminAuth.js`
-- `api/_lib/ssrf.js`
-- `api/_lib/zoho.js`
-- `api/admin/login.js`
-- `api/content.js`
-- `api/download.js`
-- `api/upload.js`
-- `backend/src/routes/content.js`
-- `backend/src/services/content.js`
-- `backend/test/securityPhase1.test.mjs`
-- `vite.config.js`
+- `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- `.agents/skills/archify/test/generate-validators.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 247 (98%)
-- INFERRED: 4 (2%)
+- EXTRACTED: 121 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

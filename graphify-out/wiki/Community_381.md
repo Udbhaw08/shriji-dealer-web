@@ -4,11 +4,11 @@
 
 ## Key Concepts
 
-- **Ratings and reviews** (4 connections) — `.agents/skills/apple-design/references/hig/ratings-and-reviews.md`
-- **ratings-and-reviews.md** (1 connections) — `.agents/skills/apple-design/references/hig/ratings-and-reviews.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/ratings-and-reviews.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/ratings-and-reviews.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/ratings-and-reviews.md`
+- **iCloud** (4 connections) — `.agents/skills/apple-design/references/hig/icloud.md`
+- **icloud.md** (1 connections) — `.agents/skills/apple-design/references/hig/icloud.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/icloud.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/icloud.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/icloud.md`
 
 ## Relationships
 
@@ -16,7 +16,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/ratings-and-reviews.md`
+- `.agents/skills/apple-design/references/hig/icloud.md`
 
 ## Audit Trail
 

@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **SkipToContent.jsx** (1 connections) — `src/components/SkipToContent.jsx`
-- **SkipToContent()** (1 connections) — `src/components/SkipToContent.jsx`
+- **Package.swift** (1 connections) — `ios/App/CapApp-SPM/Package.swift`
+- **PackageDescription** (1 connections) — `ios/App/CapApp-SPM/Package.swift`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `src/components/SkipToContent.jsx`
+- `ios/App/CapApp-SPM/Package.swift`
 
 ## Audit Trail
 

@@ -4,11 +4,11 @@
 
 ## Key Concepts
 
-- **base-input-compatibility.test.mjs** (4 connections) — `.agents/skills/archify/test/base-input-compatibility.test.mjs`
-- **here** (1 connections) — `.agents/skills/archify/test/base-input-compatibility.test.mjs`
-- **renderBaseFixture()** (1 connections) — `.agents/skills/archify/test/base-input-compatibility.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/base-input-compatibility.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/base-input-compatibility.test.mjs`
+- **Multi-Skill Redesign & Cross-Platform UI Protocol** (4 connections) — `.agents/rules/redesign_instructions.md`
+- **redesign_instructions.md** (1 connections) — `.agents/rules/redesign_instructions.md`
+- **Rule 1: Mandatory Multi-Skill Consultation** (1 connections) — `.agents/rules/redesign_instructions.md`
+- **Rule 2: Adaptive Multi-Device Responsiveness** (1 connections) — `.agents/rules/redesign_instructions.md`
+- **Rule 3: Merge for Better Results** (1 connections) — `.agents/rules/redesign_instructions.md`
 
 ## Relationships
 
@@ -16,7 +16,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/base-input-compatibility.test.mjs`
+- `.agents/rules/redesign_instructions.md`
 
 ## Audit Trail
 

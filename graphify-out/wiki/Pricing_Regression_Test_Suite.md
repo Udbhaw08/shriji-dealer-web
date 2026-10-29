@@ -1,55 +1,66 @@
 # Pricing Regression Test Suite
 
-> 60 nodes · cohesion 0.07
+> 56 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **i()** (66 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **n()** (30 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **D()** (23 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **t()** (21 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **es()** (16 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **Ka()** (15 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **vc()** (14 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **r()** (13 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **ks()** (11 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **O()** (11 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **s()** (11 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **c()** (8 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **ic()** (8 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **F()** (7 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **gc()** (7 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **j()** (7 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **l()** (7 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **ls()** (7 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **Mp()** (7 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **ms()** (7 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **vs()** (7 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **E()** (6 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **fh()** (6 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **ns()** (6 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **ss()** (6 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- *... and 35 more nodes in this community*
+- **cli.mjs** (43 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- **diagnostics.mjs** (27 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
+- **throwDiagnosticError()** (16 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
+- **throwDiagnosticProblems()** (15 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
+- **writeDiagram()** (10 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- **engineering-profiles.mjs** (10 connections) — `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
+- **validator.mjs** (10 connections) — `.agents/skills/archify/renderers/shared/validator.mjs`
+- **validateSchema()** (10 connections) — `.agents/skills/archify/renderers/shared/validator.mjs`
+- **engineering-profile.test.mjs** (10 connections) — `.agents/skills/archify/test/engineering-profile.test.mjs`
+- **render-workflow.mjs** (10 connections) — `.agents/skills/archify/renderers/workflow/render-workflow.mjs`
+- **loadDiagram()** (9 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- **loadDiagramWithBrandMarks()** (8 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- **settled-flow.test.mjs** (8 connections) — `.agents/skills/archify/test/settled-flow.test.mjs`
+- **validateEngineeringProfile()** (6 connections) — `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
+- **normalizedDiagnostic()** (4 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
+- **deploymentOwnershipDiagnostics()** (4 connections) — `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
+- **validateGuidedViews()** (3 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- **validateRelationshipIds()** (3 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- **fallbackDiagnostic()** (3 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
+- **withDiagnosticRecordingSuppressed()** (3 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
+- **renderCards()** (3 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
+- **installRendererDiagnosticBoundary()** (2 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
+- **plainObject()** (2 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
+- **rendererFailure()** (2 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
+- **subject()** (2 connections) — `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
+- *... and 31 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (72 shared connections)
-- [[Graphify Knowledge Graph Skill]] (29 shared connections)
-- [[Design System & UI Tokens]] (26 shared connections)
-- [[Community 32]] (25 shared connections)
-- [[Zoho Integration Architecture]] (20 shared connections)
-- [[Community 43]] (18 shared connections)
-- [[Community 64]] (11 shared connections)
-- [[Vercel Deployment Routing]] (7 shared connections)
+- [[Mobile Responsive UI Skill]] (11 shared connections)
+- [[Community 41]] (10 shared connections)
+- [[Community 40]] (9 shared connections)
+- [[Community 81]] (8 shared connections)
+- [[Dependencies & Package Config]] (8 shared connections)
+- [[Community 110]] (7 shared connections)
+- [[Community 29]] (6 shared connections)
+- [[Community 168]] (6 shared connections)
+- [[Roles & Customer Sharing Spec]] (5 shared connections)
+- [[Community 107]] (4 shared connections)
+- [[Community 137]] (4 shared connections)
+- [[Community 209]] (3 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
+- `.agents/skills/archify/renderers/shared/cli.mjs`
+- `.agents/skills/archify/renderers/shared/diagnostics.mjs`
+- `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
+- `.agents/skills/archify/renderers/shared/utils.mjs`
+- `.agents/skills/archify/renderers/shared/validator.mjs`
+- `.agents/skills/archify/renderers/workflow/render-workflow.mjs`
+- `.agents/skills/archify/test/engineering-profile.test.mjs`
+- `.agents/skills/archify/test/settled-flow.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 448 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 256 (100%)
+- INFERRED: 1 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

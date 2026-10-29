@@ -1,13 +1,14 @@
 # Community 401
 
-> 4 nodes · cohesion 0.50
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **Pricing Calculation & Zero-Leakage Rules Specification** (3 connections) — `docs/guides/pricing-rules.md`
-- **pricing-rules.md** (1 connections) — `docs/guides/pricing-rules.md`
-- **Overview** (1 connections) — `docs/guides/pricing-rules.md`
-- **Role Gating Rules** (1 connections) — `docs/guides/pricing-rules.md`
+- **integration.test.mjs** (4 connections) — `backend/test/integration.test.mjs`
+- **api()** (1 connections) — `backend/test/integration.test.mjs`
+- **COMMERCE_FIXTURE** (1 connections) — `backend/test/integration.test.mjs`
+- **crmMock** (1 connections) — `backend/test/integration.test.mjs`
+- **uniq()** (1 connections) — `backend/test/integration.test.mjs`
 
 ## Relationships
 
@@ -15,11 +16,11 @@
 
 ## Source Files
 
-- `docs/guides/pricing-rules.md`
+- `backend/test/integration.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

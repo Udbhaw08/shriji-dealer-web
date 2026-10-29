@@ -1,38 +1,44 @@
 # Community 116
 
-> 16 nodes · cohesion 0.12
+> 16 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **Refero MCP Tools Reference** (7 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
-- **Screens** (5 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
-- **Flows** (3 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
-- **Styles** (3 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
-- **mcp-tools.md** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
-- **Common Mistakes** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
-- **If Results Are Weak** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
-- **`refero_get_flow`** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
-- **`refero_get_screen`** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
-- **`refero_get_screen_image`** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
-- **`refero_get_similar_screens`** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
-- **`refero_get_style`** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
-- **`refero_search_flows`** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
-- **`refero_search_screens`** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
-- **`refero_search_styles`** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
-- **Response Formats** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
+- **HeroSlider.jsx** (12 connections) — `src/components/HeroSlider.jsx`
+- **ContentAdminDashboard.jsx** (12 connections) — `src/pages/ContentAdminDashboard.jsx`
+- **video.js** (6 connections) — `src/utils/video.js`
+- **parseVideoUrl()** (5 connections) — `src/utils/video.js`
+- **FileOrUrlInput.jsx** (4 connections) — `src/components/FileOrUrlInput.jsx`
+- **HeroSlider()** (3 connections) — `src/components/HeroSlider.jsx`
+- **video-banner.test.mjs** (3 connections) — `src/data/video-banner.test.mjs`
+- **FileOrUrlInput()** (2 connections) — `src/components/FileOrUrlInput.jsx`
+- **ContentAdminDashboard()** (2 connections) — `src/pages/ContentAdminDashboard.jsx`
+- **getVideoBadgeLabel()** (2 connections) — `src/utils/video.js`
+- **DEFAULT_HERO_BANNERS** (1 connections) — `src/components/HeroSlider.jsx`
+- **getCachedBanners()** (1 connections) — `src/components/HeroSlider.jsx`
+- **DEFAULT_BANNER_FORM** (1 connections) — `src/pages/ContentAdminDashboard.jsx`
+- **DEFAULT_BRANDING_FORM** (1 connections) — `src/pages/ContentAdminDashboard.jsx`
+- **DEFAULT_SCHEME_FORM** (1 connections) — `src/pages/ContentAdminDashboard.jsx`
+- **QUICK_COLORS** (1 connections) — `src/pages/ContentAdminDashboard.jsx`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Product Pages Specification]] (13 shared connections)
+- [[Community 93]] (2 shared connections)
+- [[Community 48]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/refero-design/references/mcp-tools.md`
+- `src/components/FileOrUrlInput.jsx`
+- `src/components/HeroSlider.jsx`
+- `src/data/video-banner.test.mjs`
+- `src/pages/ContentAdminDashboard.jsx`
+- `src/utils/video.js`
 
 ## Audit Trail
 
-- EXTRACTED: 30 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 56 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,30 +1,33 @@
 # Community 209
 
-> 9 nodes · cohesion 0.22
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **web-POtroZOu.js** (8 connections) — `android/app/src/main/assets/public/assets/web-POtroZOu.js`
-- **constructor()** (1 connections) — `android/app/src/main/assets/public/assets/web-POtroZOu.js`
-- **exitApp()** (1 connections) — `android/app/src/main/assets/public/assets/web-POtroZOu.js`
-- **getAppLanguage()** (1 connections) — `android/app/src/main/assets/public/assets/web-POtroZOu.js`
-- **getInfo()** (1 connections) — `android/app/src/main/assets/public/assets/web-POtroZOu.js`
-- **getLaunchUrl()** (1 connections) — `android/app/src/main/assets/public/assets/web-POtroZOu.js`
-- **getState()** (1 connections) — `android/app/src/main/assets/public/assets/web-POtroZOu.js`
-- **minimizeApp()** (1 connections) — `android/app/src/main/assets/public/assets/web-POtroZOu.js`
-- **toggleBackButtonHandler()** (1 connections) — `android/app/src/main/assets/public/assets/web-POtroZOu.js`
+- **output-path.test.mjs** (16 connections) — `.agents/skills/archify/test/output-path.test.mjs`
+- **baseFixture** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
+- **cli** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
+- **copyInstalledSkill()** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
+- **directoryAliasesNames()** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
+- **headFixture** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
+- **here** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
+- **run()** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
+- **workflowFixture** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Pricing Regression Test Suite]] (3 shared connections)
+- [[Community 64]] (2 shared connections)
+- [[Community 107]] (2 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/web-POtroZOu.js`
+- `.agents/skills/archify/test/output-path.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 25 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

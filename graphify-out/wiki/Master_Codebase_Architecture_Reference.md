@@ -33,13 +33,13 @@
 
 ## Relationships
 
-- [[Live Pricing Audit Tool]] (62 shared connections)
-- [[Community 51]] (30 shared connections)
-- [[Mobile Responsive UI Skill]] (29 shared connections)
-- [[Product Brand & Business Vision]] (20 shared connections)
-- [[Project Readme & Layout]] (16 shared connections)
-- [[Community 90]] (3 shared connections)
-- [[Community 317]] (3 shared connections)
+- [[Client Products Data Store]] (62 shared connections)
+- [[Community 49]] (30 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (29 shared connections)
+- [[Zoho Integration Architecture]] (20 shared connections)
+- [[Oxlint Linter Configuration]] (16 shared connections)
+- [[Community 91]] (3 shared connections)
+- [[Community 322]] (3 shared connections)
 
 ## Source Files
 

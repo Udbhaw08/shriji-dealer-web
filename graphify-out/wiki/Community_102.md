@@ -4,24 +4,24 @@
 
 ## Key Concepts
 
-- **Standard icons** (10 connections) — `.agents/skills/apple-design/references/hig/icons.md`
-- **Icons** (6 connections) — `.agents/skills/apple-design/references/hig/icons.md`
-- **Desktop (macOS)** (2 connections) — `.agents/skills/apple-design/references/hig/icons.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/icons.md`
-- **icons.md** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
-- **Document icons** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
-- **Editing** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
-- **Layer ordering** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
-- **Other** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
-- **Ratings** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
-- **Search** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
-- **Selection** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
-- **Sharing and exporting** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
-- **Text formatting** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
-- **Users and accounts** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **BACKEND-ARCHITECTURE.md — Dedicated Node Backend, Supabase Postgres & Zoho Ownership Model** (11 connections) — `docs/BACKEND-ARCHITECTURE.md`
+- **1. What is done in Zoho (setup checklist)** (4 connections) — `docs/BACKEND-ARCHITECTURE.md`
+- **6. Decision record — why this stack** (3 connections) — `docs/BACKEND-ARCHITECTURE.md`
+- **5. Storage — what the backend keeps** (2 connections) — `docs/BACKEND-ARCHITECTURE.md`
+- **BACKEND-ARCHITECTURE.md** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
+- **0. The Ownership Rule — one sentence per system** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
+- **1.1 CRM — dealers and staff** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
+- **1.2 CRM — API access** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
+- **1.3 Commerce** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
+- **2. Backend responsibilities** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
+- **3. Integration flows** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
+- **4. Data movement** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
+- **5.1 Schema (Supabase Postgres)** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
+- **7. Service layout** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
+- **8. Phased delivery** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
+- **9. Migration checklist** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
+- **Database: Supabase (chosen over Postgres-elsewhere and Firebase)** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
+- **Runtime: dedicated Node.js 20 service (chosen over extending Vercel serverless)** (1 connections) — `docs/BACKEND-ARCHITECTURE.md`
 
 ## Relationships
 
@@ -29,7 +29,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/icons.md`
+- `docs/BACKEND-ARCHITECTURE.md`
 
 ## Audit Trail
 

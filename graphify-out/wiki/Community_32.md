@@ -1,54 +1,47 @@
 # Community 32
 
-> 41 nodes · cohesion 0.08
+> 41 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **A()** (17 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **lt()** (16 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **tc()** (16 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **zi()** (16 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **rc()** (12 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **kd()** (9 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **bi()** (8 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **ga()** (8 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **lo()** (8 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **mc()** (8 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **ua()** (8 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **uo()** (8 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **ya()** (8 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **ec()** (7 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **mo()** (7 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **qa()** (7 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **wc()** (7 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **dh()** (6 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **lh()** (6 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **Pc()** (6 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **sc()** (6 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **za()** (6 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **Ba()** (5 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **co()** (5 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
-- **df()** (5 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
+- **Motion & Micro-interactions Guide** (13 connections) — `.agents/skills/refero-design/references/motion.md`
+- **8. Anti-Patterns** (7 connections) — `.agents/skills/refero-design/references/motion.md`
+- **1. The Motion Pyramid** (5 connections) — `.agents/skills/refero-design/references/motion.md`
+- **4. Micro-interactions That Work** (5 connections) — `.agents/skills/refero-design/references/motion.md`
+- **2. Timing That Actually Works** (4 connections) — `.agents/skills/refero-design/references/motion.md`
+- **3. Easing: Native Feel Without Cringe** (4 connections) — `.agents/skills/refero-design/references/motion.md`
+- **6. Reduced Motion: Not Optional** (4 connections) — `.agents/skills/refero-design/references/motion.md`
+- **5. Motion Tokens for Design Systems** (3 connections) — `.agents/skills/refero-design/references/motion.md`
+- **7. Libraries and Tools** (3 connections) — `.agents/skills/refero-design/references/motion.md`
+- **motion.md** (1 connections) — `.agents/skills/refero-design/references/motion.md`
+- **0. Context First** (1 connections) — `.agents/skills/refero-design/references/motion.md`
+- **9. Pre-Ship Checklist** (1 connections) — `.agents/skills/refero-design/references/motion.md`
+- **Animations Must Be Interruptible** (1 connections) — `.agents/skills/refero-design/references/motion.md`
+- **Appendix: Complete Token System** (1 connections) — `.agents/skills/refero-design/references/motion.md`
+- **Basic Principle** (1 connections) — `.agents/skills/refero-design/references/motion.md`
+- **Buttons and Controls** (1 connections) — `.agents/skills/refero-design/references/motion.md`
+- **Component Mapping** (1 connections) — `.agents/skills/refero-design/references/motion.md`
+- **Critical: Never Use `transition: all`** (1 connections) — `.agents/skills/refero-design/references/motion.md`
+- **CSS Shortcut** (1 connections) — `.agents/skills/refero-design/references/motion.md`
+- **CSS Tokens** (1 connections) — `.agents/skills/refero-design/references/motion.md`
+- **Duration Reference** (1 connections) — `.agents/skills/refero-design/references/motion.md`
+- **For Complex Scenarios** (1 connections) — `.agents/skills/refero-design/references/motion.md`
+- **For Web/SaaS (React/Next)** (1 connections) — `.agents/skills/refero-design/references/motion.md`
+- **Implementation** (1 connections) — `.agents/skills/refero-design/references/motion.md`
+- **Inputs** (1 connections) — `.agents/skills/refero-design/references/motion.md`
 - *... and 16 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (47 shared connections)
-- [[Zoho Integration Architecture]] (26 shared connections)
-- [[Pricing Regression Test Suite]] (25 shared connections)
-- [[Graphify Knowledge Graph Skill]] (19 shared connections)
-- [[Design System & UI Tokens]] (14 shared connections)
-- [[Vercel Deployment Routing]] (6 shared connections)
-- [[Community 64]] (4 shared connections)
-- [[Community 43]] (4 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
+- `.agents/skills/refero-design/references/motion.md`
 
 ## Audit Trail
 
-- EXTRACTED: 275 (100%)
+- EXTRACTED: 80 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

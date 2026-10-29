@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **paginationHelper.js** (1 connections) — `backend/src/utils/paginationHelper.js`
-- **paginate()** (1 connections) — `backend/src/utils/paginationHelper.js`
+- **analytics.js** (1 connections) — `src/utils/analytics.js`
+- **trackEvent()** (1 connections) — `src/utils/analytics.js`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `backend/src/utils/paginationHelper.js`
+- `src/utils/analytics.js`
 
 ## Audit Trail
 

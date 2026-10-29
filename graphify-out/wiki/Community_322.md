@@ -1,28 +1,29 @@
 # Community 322
 
-> 7 nodes · cohesion 0.29
+> 7 nodes · cohesion 0.38
 
 ## Key Concepts
 
-- **diagram-guide.test.mjs** (6 connections) — `.agents/skills/archify/test/diagram-guide.test.mjs`
-- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/diagram-guide.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/diagram-guide.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/diagram-guide.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/diagram-guide.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/diagram-guide.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/diagram-guide.test.mjs`
+- **reset-test-users.js** (11 connections) — `backend/scripts/reset-test-users.js`
+- **runReset()** (5 connections) — `backend/scripts/reset-test-users.js`
+- **deleteCrmRecords()** (2 connections) — `backend/scripts/reset-test-users.js`
+- **searchCrmRecordIds()** (2 connections) — `backend/scripts/reset-test-users.js`
+- **args** (1 connections) — `backend/scripts/reset-test-users.js`
+- **customNumbers** (1 connections) — `backend/scripts/reset-test-users.js`
+- **isDryRun** (1 connections) — `backend/scripts/reset-test-users.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Client Products Data Store]] (4 shared connections)
+- [[Master Codebase Architecture Reference]] (3 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/diagram-guide.test.mjs`
+- `backend/scripts/reset-test-users.js`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
+- EXTRACTED: 23 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

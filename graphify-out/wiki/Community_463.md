@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **Navigation and presentation** (2 connections) — `.agents/skills/swiftui-pro/references/navigation.md`
-- **navigation.md** (1 connections) — `.agents/skills/swiftui-pro/references/navigation.md`
-- **Alerts, confirmation dialogs, and sheets** (1 connections) — `.agents/skills/swiftui-pro/references/navigation.md`
+- **Android Release Keystore & Bundle Guide** (2 connections) — `docs/mobile/android-keystore-generation.md`
+- **android-keystore-generation.md** (1 connections) — `docs/mobile/android-keystore-generation.md`
+- **Commands** (1 connections) — `docs/mobile/android-keystore-generation.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `.agents/skills/swiftui-pro/references/navigation.md`
+- `docs/mobile/android-keystore-generation.md`
 
 ## Audit Trail
 

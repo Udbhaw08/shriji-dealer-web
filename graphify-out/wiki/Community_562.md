@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **lifecycle** (0 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **context.md** (0 connections) — `design/context.md`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- `design/context.md`
 
 ## Audit Trail
 

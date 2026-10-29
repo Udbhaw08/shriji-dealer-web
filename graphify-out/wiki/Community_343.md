@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **Collaboration and sharing** (5 connections) — `.agents/skills/apple-design/references/hig/collaboration-and-sharing.md`
-- **collaboration-and-sharing.md** (1 connections) — `.agents/skills/apple-design/references/hig/collaboration-and-sharing.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/collaboration-and-sharing.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/collaboration-and-sharing.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/collaboration-and-sharing.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/collaboration-and-sharing.md`
+- **ErrorBoundary** (5 connections) — `src/components/ErrorBoundary.jsx`
+- **ErrorBoundary.jsx** (1 connections) — `src/components/ErrorBoundary.jsx`
+- **.componentDidCatch()** (1 connections) — `src/components/ErrorBoundary.jsx`
+- **.constructor()** (1 connections) — `src/components/ErrorBoundary.jsx`
+- **.getDerivedStateFromError()** (1 connections) — `src/components/ErrorBoundary.jsx`
+- **.render()** (1 connections) — `src/components/ErrorBoundary.jsx`
 
 ## Relationships
 
@@ -17,7 +17,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/collaboration-and-sharing.md`
+- `src/components/ErrorBoundary.jsx`
 
 ## Audit Trail
 

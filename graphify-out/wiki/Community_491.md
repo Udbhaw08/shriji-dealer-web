@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **Autocannon Load Test Benchmarks** (2 connections) — `docs/testing/load-testing-benchmarks.md`
-- **load-testing-benchmarks.md** (1 connections) — `docs/testing/load-testing-benchmarks.md`
-- **Targets** (1 connections) — `docs/testing/load-testing-benchmarks.md`
+- **XSS Prevention & Content Sanitization Guidelines** (2 connections) — `docs/security/xss-and-content-sanitization.md`
+- **xss-and-content-sanitization.md** (1 connections) — `docs/security/xss-and-content-sanitization.md`
+- **Guidelines** (1 connections) — `docs/security/xss-and-content-sanitization.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/testing/load-testing-benchmarks.md`
+- `docs/security/xss-and-content-sanitization.md`
 
 ## Audit Trail
 

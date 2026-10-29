@@ -1,72 +1,67 @@
 # Mobile Responsive UI Skill
 
-> 51 nodes · cohesion 0.07
+> 49 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **server.js** (36 connections) — `backend/src/server.js`
-- **app.js** (30 connections) — `backend/src/app.js`
-- **compatibilitySuite.test.mjs** (20 connections) — `backend/test/compatibilitySuite.test.mjs`
-- **upload.js** (12 connections) — `backend/src/routes/upload.js`
-- **errorHandler.js** (10 connections) — `backend/src/middleware/errorHandler.js`
-- **rateLimit.js** (10 connections) — `backend/src/middleware/rateLimit.js`
-- **rateLimit()** (9 connections) — `backend/src/middleware/rateLimit.js`
-- **admin.js** (9 connections) — `backend/src/routes/admin.js`
-- **health.js** (9 connections) — `backend/src/routes/health.js`
-- **uploads.js** (9 connections) — `backend/src/routes/uploads.js`
-- **securityPhase3.test.mjs** (9 connections) — `backend/test/securityPhase3.test.mjs`
-- **prices.js** (7 connections) — `backend/src/routes/prices.js`
-- **migrate.js** (6 connections) — `backend/src/db/migrate.js`
-- **contentRouter** (5 connections) — `backend/src/routes/content.js`
-- **uploadRouter** (5 connections) — `backend/src/routes/upload.js`
-- **uploadsRouter** (5 connections) — `backend/src/routes/uploads.js`
-- **migrate()** (4 connections) — `backend/src/db/migrate.js`
-- **errorHandler()** (4 connections) — `backend/src/middleware/errorHandler.js`
-- **adminRouter** (4 connections) — `backend/src/routes/admin.js`
-- **app** (4 connections) — `backend/src/app.js`
-- **rateLimitFix.test.mjs** (4 connections) — `backend/test/rateLimitFix.test.mjs`
-- **[...path].js** (3 connections) — `api/auth/[...path].js`
-- **applied()** (3 connections) — `backend/src/db/migrate.js`
-- **[...path].js** (3 connections) — `api/dealers/[...path].js`
-- **startJobs()** (3 connections) — `backend/src/jobs/index.js`
-- *... and 26 more nodes in this community*
+- **render-lifecycle.mjs** (81 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **esc()** (31 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **escapeHtml()** (26 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **animateAttr()** (16 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- **focusEdgeAttrs()** (15 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- **labelPoint()** (15 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **renderBrandMark()** (14 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **renderNode()** (13 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **renderState()** (13 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **focusNodeAttrs()** (13 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- **renderSemanticSigil()** (13 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
+- **renderComponent()** (12 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **renderParticipant()** (12 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- **brandLabelFitWidth()** (12 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **brandMetadataFor()** (12 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **focusNodeTitle()** (12 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- **routePointsValue()** (12 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **fittedNodeFontSize()** (12 connections) — `.agents/skills/archify/renderers/shared/text-fit.mjs`
+- **variantAccent()** (9 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **renderConnectionLabel()** (8 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **renderFlowLabel()** (8 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **renderTransitionLabel()** (8 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **renderMessage()** (8 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- **brandMarkFor()** (7 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **messageLabel()** (6 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- *... and 24 more nodes in this community*
 
 ## Relationships
 
-- [[Master Codebase Architecture Reference]] (29 shared connections)
-- [[Community 51]] (13 shared connections)
-- [[Live Pricing Audit Tool]] (13 shared connections)
-- [[Project Readme & Layout]] (12 shared connections)
-- [[Community 90]] (4 shared connections)
-- [[Product Brand & Business Vision]] (2 shared connections)
+- [[Dependencies & Package Config]] (45 shared connections)
+- [[Community 40]] (42 shared connections)
+- [[Community 41]] (35 shared connections)
+- [[Roles & Customer Sharing Spec]] (21 shared connections)
+- [[Community 81]] (14 shared connections)
+- [[Community 110]] (12 shared connections)
+- [[Pricing Regression Test Suite]] (11 shared connections)
+- [[Community 29]] (7 shared connections)
+- [[Community 59]] (5 shared connections)
+- [[Community 85]] (2 shared connections)
 
 ## Source Files
 
-- `api/auth/[...path].js`
-- `api/dealers/[...path].js`
-- `backend/src/app.js`
-- `backend/src/db/migrate.js`
-- `backend/src/jobs/index.js`
-- `backend/src/middleware/errorHandler.js`
-- `backend/src/middleware/rateLimit.js`
-- `backend/src/routes/admin.js`
-- `backend/src/routes/auth.js`
-- `backend/src/routes/content.js`
-- `backend/src/routes/dealers.js`
-- `backend/src/routes/health.js`
-- `backend/src/routes/prices.js`
-- `backend/src/routes/upload.js`
-- `backend/src/routes/uploads.js`
-- `backend/src/routes/webhooks.js`
-- `backend/src/server.js`
-- `backend/test/compatibilitySuite.test.mjs`
-- `backend/test/rateLimitFix.test.mjs`
-- `backend/test/securityPhase3.test.mjs`
+- `.agents/skills/archify/delta/architecture-delta.mjs`
+- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- `.agents/skills/archify/renderers/shared/cli.mjs`
+- `.agents/skills/archify/renderers/shared/geometry.mjs`
+- `.agents/skills/archify/renderers/shared/i18n.mjs`
+- `.agents/skills/archify/renderers/shared/text-fit.mjs`
+- `.agents/skills/archify/renderers/shared/utils.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 263 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 406 (90%)
+- INFERRED: 44 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

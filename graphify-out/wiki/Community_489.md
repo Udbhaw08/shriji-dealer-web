@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **repository-language-metadata.test.mjs** (2 connections) — `.agents/skills/archify/test/repository-language-metadata.test.mjs`
-- **linguistGenerated()** (1 connections) — `.agents/skills/archify/test/repository-language-metadata.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/repository-language-metadata.test.mjs`
+- **Payment Data Isolation & Compliance Notes** (2 connections) — `docs/security/pci-dss-compliance-notes.md`
+- **pci-dss-compliance-notes.md** (1 connections) — `docs/security/pci-dss-compliance-notes.md`
+- **Architecture** (1 connections) — `docs/security/pci-dss-compliance-notes.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/repository-language-metadata.test.mjs`
+- `docs/security/pci-dss-compliance-notes.md`
 
 ## Audit Trail
 

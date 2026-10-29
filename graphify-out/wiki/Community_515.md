@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **validateContentType.js** (1 connections) — `backend/src/middleware/validateContentType.js`
-- **validateContentType()** (1 connections) — `backend/src/middleware/validateContentType.js`
+- **esm-D5yR2fOV.js** (1 connections) — `ios/App/App/public/assets/esm-D5yR2fOV.js`
+- **__vite__mapDeps()** (1 connections) — `ios/App/App/public/assets/esm-D5yR2fOV.js`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `backend/src/middleware/validateContentType.js`
+- `ios/App/App/public/assets/esm-D5yR2fOV.js`
 
 ## Audit Trail
 

@@ -1,42 +1,39 @@
 # Community 104
 
-> 18 nodes · cohesion 0.22
+> 18 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **checkForUpdate()** (19 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **commitOperation()** (14 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **acknowledgeUpdate()** (13 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **cancelOperation()** (7 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **resultForCandidate()** (7 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **silent()** (7 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **readState()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **resultAfterLosingOperation()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **readJsonFile()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **transitionOperation()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **operationOwnsActiveClaim()** (4 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **runCli()** (4 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **freshStateResult()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **versionCacheDirectory()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **assertBoundedRegularFile()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **digestForEventKey()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **fetchCandidate()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
-- **waitUntilRetry()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **Standard icons** (10 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Icons** (6 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Desktop (macOS)** (2 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **icons.md** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Document icons** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Editing** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Layer ordering** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Other** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Ratings** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Search** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Selection** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Sharing and exporting** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Text formatting** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Users and accounts** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
 
 ## Relationships
 
-- [[Community 52]] (20 shared connections)
-- [[Community 47]] (18 shared connections)
-- [[Community 63]] (3 shared connections)
-- [[Community 41]] (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/scripts/check-update.mjs`
+- `.agents/skills/apple-design/references/hig/icons.md`
 
 ## Audit Trail
 
-- EXTRACTED: 111 (100%)
+- EXTRACTED: 34 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

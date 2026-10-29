@@ -1,55 +1,47 @@
 # Graphify Agent Rules
 
-> 43 nodes · cohesion 0.08
+> 43 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **n()** (30 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
-- **D()** (23 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
-- **t()** (21 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
-- **A()** (17 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
-- **zi()** (16 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
-- **vc()** (14 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
-- **r()** (13 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
-- **O()** (11 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
-- **s()** (11 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
-- **c()** (8 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
-- **ga()** (8 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
-- **ua()** (8 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
-- **ya()** (8 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
-- **gc()** (7 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
-- **j()** (7 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
-- **Mp()** (7 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
-- **qa()** (7 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
-- **vs()** (7 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
-- **wc()** (7 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
-- **E()** (6 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
-- **fh()** (6 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
-- **Ba()** (5 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
-- **x()** (5 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
-- **xs()** (5 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
-- **Da()** (4 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **Craft Details Guide** (11 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **2. Forms** (10 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **6. Accessibility Quick Wins** (6 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **4. Touch & Mobile** (5 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **5. Performance Patterns** (5 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **1. Focus States** (4 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **3. Images** (4 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **7. Navigation & State** (4 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **craft-details.md** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **8. Content Copy Rules** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **9. Anti-Patterns Checklist** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **Always Set Dimensions** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **Async Updates Need Announcements** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **Autocomplete Matters** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **AutoFocus Rules** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **Avoid Layout Reads in Render** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **Compound Controls: `:focus-within`** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **Destructive Actions Need Confirmation** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **Disable Spellcheck Where Appropriate** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **Error Handling** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **Heading Hierarchy** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **In React/Next.js** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **Input Types and Attributes** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **Keyboard Handlers** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **Labels and Hit Targets** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
 - *... and 18 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (50 shared connections)
-- [[Claude Agent Instructions]] (27 shared connections)
-- [[Architecture Doc Generator]] (22 shared connections)
-- [[Roles & Customer Sharing Spec]] (20 shared connections)
-- [[Product Requirements Documentation]] (20 shared connections)
-- [[Community 46]] (13 shared connections)
-- [[Community 69]] (8 shared connections)
-- [[Graphify Workflow]] (5 shared connections)
-- [[Community 68]] (3 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-BjhAVtWq.js`
+- `.agents/skills/refero-design/references/craft-details.md`
 
 ## Audit Trail
 
-- EXTRACTED: 318 (100%)
+- EXTRACTED: 84 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

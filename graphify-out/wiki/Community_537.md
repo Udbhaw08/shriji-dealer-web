@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **retryHelper.js** (1 connections) — `backend/src/utils/retryHelper.js`
-- **retryWithBackoff()** (1 connections) — `backend/src/utils/retryHelper.js`
+- **asyncHandler.js** (1 connections) — `backend/src/utils/asyncHandler.js`
+- **asyncHandler()** (1 connections) — `backend/src/utils/asyncHandler.js`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `backend/src/utils/retryHelper.js`
+- `backend/src/utils/asyncHandler.js`
 
 ## Audit Trail
 

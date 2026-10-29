@@ -1,35 +1,34 @@
 # Community 148
 
-> 13 nodes · cohesion 0.21
+> 13 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **workflow-compiler-hard-contract.test.mjs** (14 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
-- **workflow()** (4 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
-- **oneLaneAnchors()** (3 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
-- **oneLaneWorkflow()** (3 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
-- **crossingAtForwardCollinearViaWorkflow()** (2 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
-- **nestedOutsideRightCorridorWorkflow()** (2 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
-- **assertExplicitPinConflict()** (1 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
-- **assertOrthogonal()** (1 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
-- **assertSupportedFixesNameChangedEdge()** (1 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
-- **clone()** (1 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
-- **mutate()** (1 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
-- **routeContainsChannel()** (1 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
-- **segmentMeetsRect()** (1 connections) — `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
+- **Toolbars** (9 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
+- **Platform considerations** (4 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
+- **toolbars.md** (1 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
+- **Actions** (1 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
+- **Item groupings** (1 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
+- **Navigation** (1 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
+- **Phone (iOS)** (1 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
+- **Tablet (iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
+- **Titles** (1 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
 
 ## Relationships
 
-- [[Community 132]] (2 shared connections)
-- [[Community 83]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/test/workflow-compiler-hard-contract.test.mjs`
+- `.agents/skills/apple-design/references/hig/toolbars.md`
 
 ## Audit Trail
 
-- EXTRACTED: 35 (100%)
+- EXTRACTED: 24 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

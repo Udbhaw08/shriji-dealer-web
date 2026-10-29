@@ -1,24 +1,25 @@
 # Community 121
 
-> 15 nodes · cohesion 0.13
+> 16 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **Sign in with Apple** (6 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
-- **Using the system-provided buttons** (5 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
-- **Creating a custom Sign in with Apple button** (3 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
-- **Displaying buttons** (3 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
-- **sign-in-with-apple.md** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
-- **Black** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
-- **Button size and corner radius** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
-- **Collecting data** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
-- **Custom buttons with a logo and text** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
-- **Custom logo-only buttons** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
-- **Offering Sign in with Apple** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
-- **White** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
-- **White with outline** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- **Refero MCP Tools Reference** (7 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
+- **Screens** (5 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
+- **Flows** (3 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
+- **Styles** (3 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
+- **mcp-tools.md** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
+- **Common Mistakes** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
+- **If Results Are Weak** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
+- **`refero_get_flow`** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
+- **`refero_get_screen`** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
+- **`refero_get_screen_image`** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
+- **`refero_get_similar_screens`** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
+- **`refero_get_style`** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
+- **`refero_search_flows`** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
+- **`refero_search_screens`** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
+- **`refero_search_styles`** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
+- **Response Formats** (1 connections) — `.agents/skills/refero-design/references/mcp-tools.md`
 
 ## Relationships
 
@@ -26,11 +27,11 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- `.agents/skills/refero-design/references/mcp-tools.md`
 
 ## Audit Trail
 
-- EXTRACTED: 28 (100%)
+- EXTRACTED: 30 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

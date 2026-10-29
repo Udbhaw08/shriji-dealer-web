@@ -33,15 +33,15 @@
 
 ## Relationships
 
-- [[Community 50]] (55 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (53 shared connections)
-- [[Community 112]] (13 shared connections)
-- [[Community 92]] (13 shared connections)
-- [[Community 165]] (12 shared connections)
-- [[Community 210]] (12 shared connections)
-- [[Community 149]] (7 shared connections)
-- [[Community 37]] (4 shared connections)
-- [[Community 394]] (1 shared connections)
+- [[Community 48]] (55 shared connections)
+- [[Architecture Doc Generator]] (53 shared connections)
+- [[Community 116]] (13 shared connections)
+- [[Community 93]] (13 shared connections)
+- [[Community 170]] (12 shared connections)
+- [[Community 215]] (12 shared connections)
+- [[Community 154]] (7 shared connections)
+- [[Community 35]] (4 shared connections)
+- [[Community 399]] (1 shared connections)
 
 ## Source Files
 

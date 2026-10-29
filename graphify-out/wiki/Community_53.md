@@ -1,62 +1,48 @@
 # Community 53
 
-> 31 nodes · cohesion 0.12
+> 29 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **visual-check.mjs** (50 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **runVisualCheck()** (18 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **desktop-readability.mjs** (9 connections) — `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
-- **adaptive-reader-layout.test.mjs** (9 connections) — `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
-- **desktop-reader-browser.test.mjs** (8 connections) — `.agents/skills/archify/test/desktop-reader-browser.test.mjs`
-- **DESKTOP_READABILITY_VIEWPORT** (5 connections) — `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
-- **observationDiagnostics()** (4 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **safeUnlink()** (4 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **writeAtomic()** (4 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **baseReceipt()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **cleanupCaptureSidecars()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **contactSheetHtml()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **failureDiagnostic()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **persistReceipt()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **sha256()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **sidecarPaths()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **htmlEscape()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **observation()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **screenshotKey()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **viewportSubject()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **CAPTURE_VIEWPORTS** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **EXIT** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **THEMES** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
-- **reader** (1 connections) — `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
-- *... and 6 more nodes in this community*
+- **Live Activities** (8 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
+- **Anatomy** (6 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
+- **Best practices** (6 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
+- **Presentation** (6 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
+- **Specifications** (5 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
+- **live-activities.md** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
+- **Adding transitions and animating content updates** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
+- **CarPlay** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
+- **CarPlay dimensions** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
+- **Choosing colors** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
+- **Compact** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
+- **Compact presentation** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
+- **Creating Live Activity layouts** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
+- **Expanded** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
+- **Expanded presentation** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
+- **iOS dimensions** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
+- **iPadOS dimensions** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
+- **Lock Screen** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
+- **Lock Screen presentation** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
+- **macOS dimensions** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
+- **Minimal** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
+- **Minimal presentation** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
+- *... and 4 more nodes in this community*
 
 ## Relationships
 
-- [[Community 84]] (8 shared connections)
-- [[Community 127]] (6 shared connections)
-- [[Community 56]] (5 shared connections)
-- [[Oxlint Linter Configuration]] (4 shared connections)
-- [[Community 66]] (3 shared connections)
-- [[Pricing & Roles Skill]] (3 shared connections)
-- [[Community 140]] (2 shared connections)
-- [[Community 93]] (2 shared connections)
-- [[Community 106]] (2 shared connections)
-- [[Community 145]] (1 shared connections)
-- [[Community 146]] (1 shared connections)
-- [[Community 125]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/bin/visual-check.mjs`
-- `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
-- `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
-- `.agents/skills/archify/test/desktop-reader-browser.test.mjs`
+- `.agents/skills/apple-design/references/hig/live-activities.md`
 
 ## Audit Trail
 
-- EXTRACTED: 150 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 56 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

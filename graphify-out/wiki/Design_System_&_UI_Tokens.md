@@ -33,14 +33,17 @@
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (69 shared connections)
-- [[Pricing Regression Test Suite]] (26 shared connections)
-- [[Community 43]] (16 shared connections)
-- [[Graphify Knowledge Graph Skill]] (15 shared connections)
-- [[Zoho Integration Architecture]] (14 shared connections)
-- [[Community 32]] (14 shared connections)
-- [[Vercel Deployment Routing]] (6 shared connections)
-- [[Community 64]] (3 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (66 shared connections)
+- [[Agent Guidelines (AGENTS.md)]] (15 shared connections)
+- [[Product Brand & Business Vision]] (15 shared connections)
+- [[Community 43]] (14 shared connections)
+- [[Graphify Knowledge Graph Skill]] (14 shared connections)
+- [[Community 83]] (12 shared connections)
+- [[Community 82]] (8 shared connections)
+- [[Testing & Workflow Skill]] (6 shared connections)
+- [[Community 62]] (6 shared connections)
+- [[Community 109]] (4 shared connections)
+- [[Community 63]] (3 shared connections)
 
 ## Source Files
 

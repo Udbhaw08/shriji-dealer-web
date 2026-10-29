@@ -1,44 +1,39 @@
 # Community 112
 
-> 16 nodes · cohesion 0.17
+> 17 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **HeroSlider.jsx** (12 connections) — `src/components/HeroSlider.jsx`
-- **ContentAdminDashboard.jsx** (12 connections) — `src/pages/ContentAdminDashboard.jsx`
-- **video.js** (6 connections) — `src/utils/video.js`
-- **parseVideoUrl()** (5 connections) — `src/utils/video.js`
-- **FileOrUrlInput.jsx** (4 connections) — `src/components/FileOrUrlInput.jsx`
-- **HeroSlider()** (3 connections) — `src/components/HeroSlider.jsx`
-- **video-banner.test.mjs** (3 connections) — `src/data/video-banner.test.mjs`
-- **FileOrUrlInput()** (2 connections) — `src/components/FileOrUrlInput.jsx`
-- **ContentAdminDashboard()** (2 connections) — `src/pages/ContentAdminDashboard.jsx`
-- **getVideoBadgeLabel()** (2 connections) — `src/utils/video.js`
-- **DEFAULT_HERO_BANNERS** (1 connections) — `src/components/HeroSlider.jsx`
-- **getCachedBanners()** (1 connections) — `src/components/HeroSlider.jsx`
-- **DEFAULT_BANNER_FORM** (1 connections) — `src/pages/ContentAdminDashboard.jsx`
-- **DEFAULT_BRANDING_FORM** (1 connections) — `src/pages/ContentAdminDashboard.jsx`
-- **DEFAULT_SCHEME_FORM** (1 connections) — `src/pages/ContentAdminDashboard.jsx`
-- **QUICK_COLORS** (1 connections) — `src/pages/ContentAdminDashboard.jsx`
+- **3. Exactly which keys to fetch, and from where** (9 connections) — `docs/ZOHO-INTEGRATION.md`
+- **ZOHO-INTEGRATION.md — Live Zoho Commerce & Books Backend** (7 connections) — `docs/ZOHO-INTEGRATION.md`
+- **5. API surface** (2 connections) — `docs/ZOHO-INTEGRATION.md`
+- **ZOHO-INTEGRATION.md** (1 connections) — `docs/ZOHO-INTEGRATION.md`
+- **1. Active Integration Summary** (1 connections) — `docs/ZOHO-INTEGRATION.md`
+- **2. The Code Seams** (1 connections) — `docs/ZOHO-INTEGRATION.md`
+- **3.1 Organization ID — from the Commerce dashboard** (1 connections) — `docs/ZOHO-INTEGRATION.md`
+- **3.2 Client ID + Client Secret — from the API console, not the store** (1 connections) — `docs/ZOHO-INTEGRATION.md`
+- **3.3 Refresh Token — generated once, then permanent** (1 connections) — `docs/ZOHO-INTEGRATION.md`
+- **3.4 Scopes** (1 connections) — `docs/ZOHO-INTEGRATION.md`
+- **3.5 Data centre** (1 connections) — `docs/ZOHO-INTEGRATION.md`
+- **3.6 The API call the keys unlock** (1 connections) — `docs/ZOHO-INTEGRATION.md`
+- **3.7 Still to confirm — only the store owner can answer** (1 connections) — `docs/ZOHO-INTEGRATION.md`
+- **4. Architecture — the part that cannot be skipped** (1 connections) — `docs/ZOHO-INTEGRATION.md`
+- **6. Migration checklist** (1 connections) — `docs/ZOHO-INTEGRATION.md`
+- **How to hand the credentials over safely** (1 connections) — `docs/ZOHO-INTEGRATION.md`
+- **Sources** (1 connections) — `docs/ZOHO-INTEGRATION.md`
 
 ## Relationships
 
-- [[Product Pages Specification]] (13 shared connections)
-- [[Community 92]] (2 shared connections)
-- [[Community 50]] (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `src/components/FileOrUrlInput.jsx`
-- `src/components/HeroSlider.jsx`
-- `src/data/video-banner.test.mjs`
-- `src/pages/ContentAdminDashboard.jsx`
-- `src/utils/video.js`
+- `docs/ZOHO-INTEGRATION.md`
 
 ## Audit Trail
 
-- EXTRACTED: 56 (98%)
-- INFERRED: 1 (2%)
+- EXTRACTED: 32 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

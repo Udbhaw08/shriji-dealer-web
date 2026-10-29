@@ -1,11 +1,12 @@
 # Community 504
 
-> 2 nodes · cohesion 1.00
+> 3 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **README.md** (1 connections) — `.agents/skills/archify/brand-marks/README.md`
-- **Built-in brand marks** (1 connections) — `.agents/skills/archify/brand-marks/README.md`
+- **sanitize.js** (2 connections) — `backend/src/utils/sanitize.js`
+- **sanitizeInput()** (2 connections) — `backend/src/utils/sanitize.js`
+- **sanitizeObject()** (2 connections) — `backend/src/utils/sanitize.js`
 
 ## Relationships
 
@@ -13,11 +14,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/brand-marks/README.md`
+- `backend/src/utils/sanitize.js`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

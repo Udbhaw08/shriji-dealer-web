@@ -1,20 +1,21 @@
 # Community 167
 
-> 11 nodes · cohesion 0.18
+> 12 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **App icons** (10 connections) — `.agents/skills/apple-design/references/hig/app-icons.md`
-- **app-icons.md** (1 connections) — `.agents/skills/apple-design/references/hig/app-icons.md`
-- **Appearances** (1 connections) — `.agents/skills/apple-design/references/hig/app-icons.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/app-icons.md`
-- **Design** (1 connections) — `.agents/skills/apple-design/references/hig/app-icons.md`
-- **Icon shape** (1 connections) — `.agents/skills/apple-design/references/hig/app-icons.md`
-- **Layer design** (1 connections) — `.agents/skills/apple-design/references/hig/app-icons.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/app-icons.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/app-icons.md`
-- **Specifications** (1 connections) — `.agents/skills/apple-design/references/hig/app-icons.md`
-- **Visual effects** (1 connections) — `.agents/skills/apple-design/references/hig/app-icons.md`
+- **generate-codebase-doc.mjs** (11 connections) — `scripts/generate-codebase-doc.mjs`
+- **allFiles** (1 connections) — `scripts/generate-codebase-doc.mjs`
+- **apiFiles** (1 connections) — `scripts/generate-codebase-doc.mjs`
+- **components** (1 connections) — `scripts/generate-codebase-doc.mjs`
+- **dataStores** (1 connections) — `scripts/generate-codebase-doc.mjs`
+- **getFiles()** (1 connections) — `scripts/generate-codebase-doc.mjs`
+- **istDateString** (1 connections) — `scripts/generate-codebase-doc.mjs`
+- **pages** (1 connections) — `scripts/generate-codebase-doc.mjs`
+- **pkg** (1 connections) — `scripts/generate-codebase-doc.mjs`
+- **rootDir** (1 connections) — `scripts/generate-codebase-doc.mjs`
+- **routes** (1 connections) — `scripts/generate-codebase-doc.mjs`
+- **scripts** (1 connections) — `scripts/generate-codebase-doc.mjs`
 
 ## Relationships
 
@@ -22,11 +23,11 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/app-icons.md`
+- `scripts/generate-codebase-doc.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
+- EXTRACTED: 22 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

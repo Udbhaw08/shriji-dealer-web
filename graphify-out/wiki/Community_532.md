@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **colorUtils.js** (1 connections) — `src/utils/colorUtils.js`
-- **hexToRgba()** (1 connections) — `src/utils/colorUtils.js`
+- **smsFallback.js** (1 connections) — `backend/src/services/smsFallback.js`
+- **sendSmsOtpFallback()** (1 connections) — `backend/src/services/smsFallback.js`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `src/utils/colorUtils.js`
+- `backend/src/services/smsFallback.js`
 
 ## Audit Trail
 

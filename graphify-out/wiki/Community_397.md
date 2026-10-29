@@ -1,13 +1,14 @@
 # Community 397
 
-> 4 nodes · cohesion 0.50
+> 5 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **Shriji Dealer Web — Agent Guidelines** (3 connections) — `AGENTS.md`
-- **AGENTS.md** (1 connections) — `AGENTS.md`
-- **Hard Rules** (1 connections) — `AGENTS.md`
-- **Specialized Skills Available** (1 connections) — `AGENTS.md`
+- **export_pricebooks_for_crm.mjs** (4 connections) — `scripts/export_pricebooks_for_crm.mjs`
+- **getAccessToken()** (2 connections) — `scripts/export_pricebooks_for_crm.mjs`
+- **main()** (2 connections) — `scripts/export_pricebooks_for_crm.mjs`
+- **env** (1 connections) — `scripts/export_pricebooks_for_crm.mjs`
+- **getMergedEnv()** (1 connections) — `scripts/export_pricebooks_for_crm.mjs`
 
 ## Relationships
 
@@ -15,11 +16,11 @@
 
 ## Source Files
 
-- `AGENTS.md`
+- `scripts/export_pricebooks_for_crm.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 10 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

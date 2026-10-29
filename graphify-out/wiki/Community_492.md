@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **OWASP Top 10 Security Checklist** (2 connections) — `docs/testing/security-penetration-testing-notes.md`
-- **security-penetration-testing-notes.md** (1 connections) — `docs/testing/security-penetration-testing-notes.md`
-- **Verified Protections** (1 connections) — `docs/testing/security-penetration-testing-notes.md`
+- **renderer-diagnostic-boundary.test.mjs** (2 connections) — `.agents/skills/archify/test/renderer-diagnostic-boundary.test.mjs`
+- **crashingRenderer()** (1 connections) — `.agents/skills/archify/test/renderer-diagnostic-boundary.test.mjs`
+- **runCrashingRenderer()** (1 connections) — `.agents/skills/archify/test/renderer-diagnostic-boundary.test.mjs`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/testing/security-penetration-testing-notes.md`
+- `.agents/skills/archify/test/renderer-diagnostic-boundary.test.mjs`
 
 ## Audit Trail
 

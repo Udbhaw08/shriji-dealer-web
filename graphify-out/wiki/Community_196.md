@@ -1,32 +1,31 @@
 # Community 196
 
-> 10 nodes · cohesion 0.29
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **items** (5 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **items** (5 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **stages** (5 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **items** (5 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **additionalProperties** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **required** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **type** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **maxItems** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **minItems** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **Notifications** (9 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
+- **notifications.md** (1 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
+- **Anatomy** (1 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
+- **Badging** (1 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
+- **Content** (1 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
+- **Notification actions** (1 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/notifications.md`
 
 ## Relationships
 
-- [[Community 30]] (3 shared connections)
-- [[Community 117]] (3 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/dataflow.schema.json`
+- `.agents/skills/apple-design/references/hig/notifications.md`
 
 ## Audit Trail
 
-- EXTRACTED: 32 (100%)
+- EXTRACTED: 18 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

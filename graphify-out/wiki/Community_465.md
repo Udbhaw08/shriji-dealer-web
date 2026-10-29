@@ -4,21 +4,21 @@
 
 ## Key Concepts
 
-- **13. AI-Slop Anti-Patterns** (3 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Instant Red Flags** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Quick Test** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **iOS Code Signing & TestFlight Deployment** (2 connections) — `docs/mobile/ios-provisioning-and-signing.md`
+- **ios-provisioning-and-signing.md** (1 connections) — `docs/mobile/ios-provisioning-and-signing.md`
+- **Overview** (1 connections) — `docs/mobile/ios-provisioning-and-signing.md`
 
 ## Relationships
 
-- [[Community 230]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/refero-design/references/typography.md`
+- `docs/mobile/ios-provisioning-and-signing.md`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

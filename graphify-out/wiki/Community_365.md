@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **repository-evidence-replacement.test.mjs** (5 connections) — `.agents/skills/archify/test/repository-evidence-replacement.test.mjs`
-- **cases** (1 connections) — `.agents/skills/archify/test/repository-evidence-replacement.test.mjs`
-- **checkEvidence()** (1 connections) — `.agents/skills/archify/test/repository-evidence-replacement.test.mjs`
-- **cli** (1 connections) — `.agents/skills/archify/test/repository-evidence-replacement.test.mjs`
-- **fixture()** (1 connections) — `.agents/skills/archify/test/repository-evidence-replacement.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/repository-evidence-replacement.test.mjs`
+- **SKILL.md** (3 connections) — `.agents/skills/swiftui-pro/SKILL.md`
+- **Output Format** (3 connections) — `.agents/skills/swiftui-pro/SKILL.md`
+- **ContentView.swift** (1 connections) — `.agents/skills/swiftui-pro/SKILL.md`
+- **Core Instructions** (1 connections) — `.agents/skills/swiftui-pro/SKILL.md`
+- **References** (1 connections) — `.agents/skills/swiftui-pro/SKILL.md`
+- **Summary** (1 connections) — `.agents/skills/swiftui-pro/SKILL.md`
 
 ## Relationships
 
@@ -17,7 +17,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/repository-evidence-replacement.test.mjs`
+- `.agents/skills/swiftui-pro/SKILL.md`
 
 ## Audit Trail
 

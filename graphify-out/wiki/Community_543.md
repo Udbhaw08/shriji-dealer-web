@@ -1,10 +1,11 @@
 # Community 543
 
-> 1 nodes · cohesion 1.00
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **build.gradle** (0 connections) — `android/build.gradle`
+- **paginationHelper.js** (1 connections) — `backend/src/utils/paginationHelper.js`
+- **paginate()** (1 connections) — `backend/src/utils/paginationHelper.js`
 
 ## Relationships
 
@@ -12,11 +13,11 @@
 
 ## Source Files
 
-- `android/build.gradle`
+- `backend/src/utils/paginationHelper.js`
 
 ## Audit Trail
 
-- EXTRACTED: 0 (0%)
+- EXTRACTED: 2 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

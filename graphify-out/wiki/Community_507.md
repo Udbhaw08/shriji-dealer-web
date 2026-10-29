@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **A11yAnnouncer.jsx** (1 connections) — `src/components/A11yAnnouncer.jsx`
-- **A11yAnnouncer()** (1 connections) — `src/components/A11yAnnouncer.jsx`
+- **esm-D5yR2fOV.js** (1 connections) — `android/app/src/main/assets/public/assets/esm-D5yR2fOV.js`
+- **__vite__mapDeps()** (1 connections) — `android/app/src/main/assets/public/assets/esm-D5yR2fOV.js`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `src/components/A11yAnnouncer.jsx`
+- `android/app/src/main/assets/public/assets/esm-D5yR2fOV.js`
 
 ## Audit Trail
 

@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **Bulk Order Inquiry Workflow** (2 connections) — `docs/guides/bulk-order-inquiry-workflow.md`
-- **bulk-order-inquiry-workflow.md** (1 connections) — `docs/guides/bulk-order-inquiry-workflow.md`
-- **Lifecycle** (1 connections) — `docs/guides/bulk-order-inquiry-workflow.md`
+- **Supabase Database Schema Reference** (2 connections) — `docs/architecture/supabase-schema-reference.md`
+- **supabase-schema-reference.md** (1 connections) — `docs/architecture/supabase-schema-reference.md`
+- **Primary Tables** (1 connections) — `docs/architecture/supabase-schema-reference.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/guides/bulk-order-inquiry-workflow.md`
+- `docs/architecture/supabase-schema-reference.md`
 
 ## Audit Trail
 

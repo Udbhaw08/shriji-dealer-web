@@ -1,12 +1,13 @@
 # Community 438
 
-> 3 nodes · cohesion 1.00
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **MainActivity.java** (2 connections) — `android/app/src/main/java/com/shrijidomestic/app/MainActivity.java`
-- **MainActivity** (2 connections) — `android/app/src/main/java/com/shrijidomestic/app/MainActivity.java`
-- **BridgeActivity** (2 connections)
+- **constants.js** (3 connections) — `backend/src/utils/constants.js`
+- **DEALER_STATUS** (1 connections) — `backend/src/utils/constants.js`
+- **ROLES** (1 connections) — `backend/src/utils/constants.js`
+- **TOKEN_TTL** (1 connections) — `backend/src/utils/constants.js`
 
 ## Relationships
 
@@ -14,7 +15,7 @@
 
 ## Source Files
 
-- `android/app/src/main/java/com/shrijidomestic/app/MainActivity.java`
+- `backend/src/utils/constants.js`
 
 ## Audit Trail
 

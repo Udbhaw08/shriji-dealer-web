@@ -1,55 +1,58 @@
 # Zoho Backend & Proxy Endpoints
 
-> 71 nodes · cohesion 0.06
+> 70 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **zoho.js** (63 connections) — `api/_lib/zoho.js`
-- **fetchZohoProductById()** (20 connections) — `api/_lib/zoho.js`
-- **fetchZohoProducts()** (16 connections) — `api/_lib/zoho.js`
-- **audit_prices.mjs** (14 connections) — `scripts/audit_prices.mjs`
-- **syncProductDetailsPool()** (12 connections) — `api/_lib/zoho.js`
-- **getZohoConfig()** (11 connections) — `api/_lib/zoho.js`
-- **fetchZohoWithRetry()** (10 connections) — `api/_lib/zoho.js`
-- **createDealerContact()** (9 connections) — `api/_lib/zoho.js`
-- **fetchAllRawZohoProducts()** (7 connections) — `api/_lib/zoho.js`
-- **fetchZohoPricebookItems()** (7 connections) — `api/_lib/zoho.js`
-- **normalizeProduct()** (7 connections) — `api/_lib/zoho.js`
-- **syncRecentProductTags()** (7 connections) — `api/_lib/zoho.js`
-- **getAccessToken()** (6 connections) — `api/_lib/zoho.js`
-- **readTagCache()** (6 connections) — `api/_lib/zoho.js`
-- **resolvePricebookId()** (6 connections) — `api/_lib/zoho.js`
-- **fetchResolvedPricebookRates()** (5 connections) — `api/_lib/zoho.js`
-- **getCategoryVisibilityMap()** (5 connections) — `api/_lib/zoho.js`
-- **readProductDetailsDiskCache()** (5 connections) — `api/_lib/zoho.js`
-- **fetchZohoPricebooks()** (4 connections) — `api/_lib/zoho.js`
-- **fetchZohoRawCategories()** (4 connections) — `api/_lib/zoho.js`
-- **getDealerById()** (4 connections) — `api/_lib/zoho.js`
-- **loadEnv()** (4 connections) — `api/_lib/zoho.js`
-- **updateCachedProductTags()** (4 connections) — `api/_lib/zoho.js`
-- **writeProductDetailDiskCache()** (4 connections) — `api/_lib/zoho.js`
-- **sync-tags.js** (4 connections) — `api/products/sync-tags.js`
-- *... and 46 more nodes in this community*
+- **_()** (452 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
+- **request()** (7 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
+- **Xt()** (7 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
+- **Yt()** (7 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
+- **an()** (5 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
+- **eh()** (5 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
+- **en()** (5 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
+- **Le()** (5 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
+- **Pd()** (5 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
+- **ra()** (5 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
+- **unavailable()** (5 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
+- **Ae()** (4 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
+- **Da()** (4 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
+- **ht()** (4 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
+- **ke()** (4 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
+- **pa()** (4 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
+- **removeWindowListener()** (4 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
+- **Zt()** (4 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
+- **Ad()** (3 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
+- **addListener()** (3 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
+- **addWindowListener()** (3 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
+- **ah()** (3 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
+- **ch()** (3 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
+- **Cu()** (3 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
+- **Fe()** (3 connections) — `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
+- *... and 45 more nodes in this community*
 
 ## Relationships
 
-- [[Community 90]] (14 shared connections)
-- [[Project Readme & Layout]] (12 shared connections)
-- [[Community 51]] (2 shared connections)
+- [[Design System & UI Tokens]] (66 shared connections)
+- [[Graphify Knowledge Graph Skill]] (59 shared connections)
+- [[Product Brand & Business Vision]] (56 shared connections)
+- [[Agent Guidelines (AGENTS.md)]] (47 shared connections)
+- [[Testing & Workflow Skill]] (45 shared connections)
+- [[Community 43]] (28 shared connections)
+- [[Community 62]] (28 shared connections)
+- [[Community 63]] (26 shared connections)
+- [[Community 83]] (23 shared connections)
+- [[Community 82]] (22 shared connections)
+- [[Community 109]] (18 shared connections)
 
 ## Source Files
 
-- `api/_lib/zoho.js`
-- `api/dealer/apply.js`
-- `api/products/sync-tags.js`
-- `scripts/audit_prices.mjs`
-- `scripts/sync-product-details.mjs`
-- `scripts/test-zoho-api.mjs`
+- `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
 
 ## Audit Trail
 
-- EXTRACTED: 313 (100%)
-- INFERRED: 1 (0%)
+- EXTRACTED: 631 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

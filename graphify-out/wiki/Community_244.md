@@ -1,33 +1,30 @@
 # Community 244
 
-> 9 nodes · cohesion 0.25
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **repository-evidence.test.mjs** (13 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
-- **fixture()** (2 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
-- **git()** (2 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
-- **cli** (1 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
-- **evidencePayload()** (1 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
-- **here** (1 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
-- **run()** (1 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
-- **waitForState()** (1 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
+- **authored-reachability.test.mjs** (8 connections) — `.agents/skills/archify/test/authored-reachability.test.mjs`
+- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/authored-reachability.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/authored-reachability.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/authored-reachability.test.mjs`
+- **reachabilityFunction()** (1 connections) — `.agents/skills/archify/test/authored-reachability.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/authored-reachability.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/authored-reachability.test.mjs`
+- **template** (1 connections) — `.agents/skills/archify/test/authored-reachability.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/authored-reachability.test.mjs`
 
 ## Relationships
 
-- [[Community 65]] (2 shared connections)
-- [[Community 53]] (1 shared connections)
-- [[Community 84]] (1 shared connections)
-- [[Community 127]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/test/repository-evidence.test.mjs`
+- `.agents/skills/archify/test/authored-reachability.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 23 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

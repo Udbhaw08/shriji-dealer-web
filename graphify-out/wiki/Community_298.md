@@ -4,26 +4,31 @@
 
 ## Key Concepts
 
-- **Focus and selection** (5 connections) — `.agents/skills/apple-design/references/hig/focus-and-selection.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/focus-and-selection.md`
-- **focus-and-selection.md** (1 connections) — `.agents/skills/apple-design/references/hig/focus-and-selection.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/focus-and-selection.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/focus-and-selection.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/focus-and-selection.md`
-- **Tablet (iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/focus-and-selection.md`
+- **commandCompare()** (20 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commitComparePair()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **extractCompareOptions()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **formatDiagnostics()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **reportCompareFailure()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **compareCommitError()** (2 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **compareReceiptPath()** (2 connections) — `.agents/skills/archify/bin/archify.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 47]] (11 shared connections)
+- [[Community 117]] (4 shared connections)
+- [[Community 145]] (3 shared connections)
+- [[Community 85]] (2 shared connections)
+- [[Community 59]] (2 shared connections)
+- [[Community 107]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/focus-and-selection.md`
+- `.agents/skills/archify/bin/archify.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 27 (75%)
+- INFERRED: 9 (25%)
 - AMBIGUOUS: 0 (0%)
 
 ---

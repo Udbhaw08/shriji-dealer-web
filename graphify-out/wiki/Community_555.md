@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **context.md** (0 connections) — `design/context.md`
+- **capacitor.build.gradle** (0 connections) — `android/app/capacitor.build.gradle`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `design/context.md`
+- `android/app/capacitor.build.gradle`
 
 ## Audit Trail
 

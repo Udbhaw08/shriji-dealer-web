@@ -2,7 +2,7 @@
 
 > God node · 42 connections · `ios/App/App/public/assets/index-BjhAVtWq.js`
 
-**Community:** [[Architecture Doc Generator]]
+**Community:** [[Live Pricing Audit Tool]]
 
 ## Connections by Relation
 

@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **cryptoHelper.test.mjs** (0 connections) — `backend/test/cryptoHelper.test.mjs`
+- **build_wiki.py** (0 connections) — `scripts/build_wiki.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `backend/test/cryptoHelper.test.mjs`
+- `scripts/build_wiki.py`
 
 ## Audit Trail
 

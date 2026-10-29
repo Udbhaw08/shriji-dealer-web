@@ -1,36 +1,45 @@
 # Community 119
 
-> 15 nodes · cohesion 0.13
+> 16 nodes · cohesion 0.23
 
 ## Key Concepts
 
-- **Buttons** (8 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
-- **Desktop (macOS)** (5 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
-- **buttons.md** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
-- **Content** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
-- **Help buttons** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
-- **Image buttons** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
-- **Push buttons** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
-- **Role** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
-- **Square buttons** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
-- **Style** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
+- **zd()** (14 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **qd()** (13 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **Nd()** (12 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **Ii()** (11 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **Gd()** (8 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **rt()** (7 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **vi()** (6 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **Bd()** (5 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **Rd()** (5 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **cl()** (4 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **ll()** (4 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **Hd()** (3 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **Ud()** (3 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **Vd()** (3 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **Ym()** (3 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
+- **Fd()** (2 connections) — `ios/App/App/public/assets/index-BjhAVtWq.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Dealer Auth & Session Management]] (21 shared connections)
+- [[Live Pricing Audit Tool]] (6 shared connections)
+- [[Claude Agent Instructions]] (6 shared connections)
+- [[Zoho Integration Skill]] (5 shared connections)
+- [[Community 97]] (4 shared connections)
+- [[Product Requirements Documentation]] (2 shared connections)
+- [[Vercel Deployment Routing]] (2 shared connections)
+- [[Community 45]] (2 shared connections)
+- [[Community 42]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/buttons.md`
+- `ios/App/App/public/assets/index-BjhAVtWq.js`
 
 ## Audit Trail
 
-- EXTRACTED: 28 (100%)
+- EXTRACTED: 103 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

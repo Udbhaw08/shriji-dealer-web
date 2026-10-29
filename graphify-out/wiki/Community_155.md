@@ -4,18 +4,18 @@
 
 ## Key Concepts
 
-- **Inclusion** (11 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
-- **inclusion.md** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
-- **Accessibility** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
-- **Avoiding stereotypes** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
-- **Being approachable** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
-- **Gender identity** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
-- **Inclusive by design** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
-- **Languages** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
-- **People and settings** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
-- **Welcoming language** (1 connections) — `.agents/skills/apple-design/references/hig/inclusion.md`
+- **DEALER-HIERARCHY-AND-WORKFLOW.md — Business, Dealer & Staff Hierarchy Model** (6 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
+- **3. End-to-End User Journey & Life Cycle** (3 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
+- **4. Zoho CRM Data Structure** (3 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
+- **1. The Three-Tier Hierarchy Model** (2 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
+- **DEALER-HIERARCHY-AND-WORKFLOW.md** (1 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
+- **2. Two-Stage Approval Separation** (1 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
+- **5. Technical Seams to Adapt** (1 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
+- **Accounts Module (Business Entity)** (1 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
+- **Contacts Module (People Hierarchy)** (1 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
+- **Hierarchy Breakdown:** (1 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
+- **Phase A: Dealer Onboarding (Head Approval)** (1 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
+- **Phase B: Staff Onboarding via Dealer Code (Dealer Approval)** (1 connections) — `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
 
 ## Relationships
 
@@ -23,7 +23,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/inclusion.md`
+- `docs/DEALER-HIERARCHY-AND-WORKFLOW.md`
 
 ## Audit Trail
 

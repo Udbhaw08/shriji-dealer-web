@@ -1,48 +1,40 @@
 # Community 92
 
-> 19 nodes · cohesion 0.19
+> 19 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **productsStore.js** (25 connections) — `src/data/productsStore.js`
-- **apiFetch()** (20 connections) — `src/data/api.js`
-- **api.js** (11 connections) — `src/data/api.js`
-- **apiUrl()** (9 connections) — `src/data/api.js`
-- **fetchLiveProducts()** (7 connections) — `src/data/productsStore.js`
-- **syncPricebookWithSession()** (7 connections) — `src/data/productsStore.js`
-- **products.js** (5 connections) — `src/data/products.js`
-- **getAccessToken()** (4 connections) — `src/data/auth.js`
-- **loadCached()** (4 connections) — `src/data/productsStore.js`
-- **emit()** (3 connections) — `src/data/productsStore.js`
-- **syncTagsLive()** (3 connections) — `src/data/productsStore.js`
-- **CATEGORIES** (2 connections) — `src/data/products.js`
-- **getCacheKey()** (2 connections) — `src/data/productsStore.js`
-- **sanitizeCategories()** (2 connections) — `src/data/productsStore.js`
-- **useProduct()** (2 connections) — `src/data/productsStore.js`
-- **PRODUCTS** (1 connections) — `src/data/products.js`
-- **listeners** (1 connections) — `src/data/productsStore.js`
-- **PREFERRED_ORDER** (1 connections) — `src/data/productsStore.js`
-- **storeState** (1 connections) — `src/data/productsStore.js`
+- **Apple Design Skill** (7 connections) — `.agents/skills/apple-design/SKILL.md`
+- **Step 3: Audit through five lenses, in this order** (6 connections) — `.agents/skills/apple-design/SKILL.md`
+- **Review process** (5 connections) — `.agents/skills/apple-design/SKILL.md`
+- **The references** (3 connections) — `.agents/skills/apple-design/SKILL.md`
+- **SKILL.md** (1 connections) — `.agents/skills/apple-design/SKILL.md`
+- **Always load** (1 connections) — `.agents/skills/apple-design/SKILL.md`
+- **Apple's design principles** (1 connections) — `.agents/skills/apple-design/SKILL.md`
+- **Design improvement mode** (1 connections) — `.agents/skills/apple-design/SKILL.md`
+- **Lens 1: Accessibility (failures are Critical)** (1 connections) — `.agents/skills/apple-design/SKILL.md`
+- **Lens 2: Platform conventions (failures are usually High)** (1 connections) — `.agents/skills/apple-design/SKILL.md`
+- **Lens 3: Visual design and craft (findings are High or Medium)** (1 connections) — `.agents/skills/apple-design/SKILL.md`
+- **Lens 4: Interaction (findings are usually Medium)** (1 connections) — `.agents/skills/apple-design/SKILL.md`
+- **Lens 5: Content and writing (findings are usually Medium)** (1 connections) — `.agents/skills/apple-design/SKILL.md`
+- **Load by what is on screen** (1 connections) — `.agents/skills/apple-design/SKILL.md`
+- **Specialized review modes** (1 connections) — `.agents/skills/apple-design/SKILL.md`
+- **Step 1: Establish context** (1 connections) — `.agents/skills/apple-design/SKILL.md`
+- **Step 2: Load references** (1 connections) — `.agents/skills/apple-design/SKILL.md`
+- **Step 4: Write the report** (1 connections) — `.agents/skills/apple-design/SKILL.md`
+- **Working rules** (1 connections) — `.agents/skills/apple-design/SKILL.md`
 
 ## Relationships
 
-- [[Product Pages Specification]] (13 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (12 shared connections)
-- [[Community 37]] (11 shared connections)
-- [[Community 50]] (5 shared connections)
-- [[Community 112]] (2 shared connections)
-- [[Community 210]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `src/data/api.js`
-- `src/data/auth.js`
-- `src/data/products.js`
-- `src/data/productsStore.js`
+- `.agents/skills/apple-design/SKILL.md`
 
 ## Audit Trail
 
-- EXTRACTED: 110 (100%)
+- EXTRACTED: 36 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

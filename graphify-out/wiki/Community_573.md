@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **resendEmailTemplate.test.mjs** (0 connections) — `backend/test/resendEmailTemplate.test.mjs`
+- **dbHealthCheck.test.mjs** (0 connections) — `backend/test/dbHealthCheck.test.mjs`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `backend/test/resendEmailTemplate.test.mjs`
+- `backend/test/dbHealthCheck.test.mjs`
 
 ## Audit Trail
 

@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **graphify.md** (1 connections) — `.agents/workflows/graphify.md`
-- **Workflow: graphify** (1 connections) — `.agents/workflows/graphify.md`
+- **dateUtils.js** (1 connections) — `src/utils/dateUtils.js`
+- **formatRelativeTime()** (1 connections) — `src/utils/dateUtils.js`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `.agents/workflows/graphify.md`
+- `src/utils/dateUtils.js`
 
 ## Audit Trail
 

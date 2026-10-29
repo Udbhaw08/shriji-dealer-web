@@ -2,7 +2,7 @@
 
 > God node · 66 connections · `android/app/src/main/assets/public/assets/index-BjhAVtWq.js`
 
-**Community:** [[Pricing Regression Test Suite]]
+**Community:** [[Agent Guidelines (AGENTS.md)]]
 
 ## Connections by Relation
 

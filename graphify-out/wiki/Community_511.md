@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **esm-D5yR2fOV.js** (1 connections) — `ios/App/App/public/assets/esm-D5yR2fOV.js`
-- **__vite__mapDeps()** (1 connections) — `ios/App/App/public/assets/esm-D5yR2fOV.js`
+- **A11yAnnouncer.jsx** (1 connections) — `src/components/A11yAnnouncer.jsx`
+- **A11yAnnouncer()** (1 connections) — `src/components/A11yAnnouncer.jsx`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `ios/App/App/public/assets/esm-D5yR2fOV.js`
+- `src/components/A11yAnnouncer.jsx`
 
 ## Audit Trail
 

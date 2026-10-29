@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **objectUtils.js** (2 connections) — `src/utils/objectUtils.js`
-- **omit()** (1 connections) — `src/utils/objectUtils.js`
-- **pick()** (1 connections) — `src/utils/objectUtils.js`
+- **debounce.js** (2 connections) — `src/utils/debounce.js`
+- **debounce()** (1 connections) — `src/utils/debounce.js`
+- **throttle()** (1 connections) — `src/utils/debounce.js`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `src/utils/objectUtils.js`
+- `src/utils/debounce.js`
 
 ## Audit Trail
 

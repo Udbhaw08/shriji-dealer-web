@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **dataflow** (0 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- **site.test.mjs** (0 connections) — `src/data/site.test.mjs`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/shared/generated-validators.mjs`
+- `src/data/site.test.mjs`
 
 ## Audit Trail
 
