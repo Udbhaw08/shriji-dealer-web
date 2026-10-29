@@ -97,13 +97,22 @@ export default function Home() {
     return c;
   }, [PRODUCTS]);
 
-  const featured = useMemo(
-    () =>
-      CATEGORIES.map((c) => PRODUCTS.filter((p) => p.cat === c.key && p.img).slice(0, 2))
-        .flat()
-        .slice(0, 14),
-    [PRODUCTS, CATEGORIES],
-  );
+  const featured = useMemo(() => {
+    // If products in category 'trial' exist, prioritize them
+    const trialItems = PRODUCTS.filter(
+      (p) =>
+        p.cat === "trial" ||
+        p.cat?.toLowerCase() === "trial" ||
+        (Array.isArray(p.tags) && p.tags.some((t) => typeof t === "string" && t.toLowerCase() === "trial"))
+    );
+    if (trialItems.length > 0) {
+      return trialItems;
+    }
+    // Fallback so the section remains populated while the category is configured in Zoho Commerce
+    return CATEGORIES.map((c) => PRODUCTS.filter((p) => p.cat === c.key && p.img).slice(0, 2))
+      .flat()
+      .slice(0, 14);
+  }, [PRODUCTS, CATEGORIES]);
 
   const [liveSchemes, setLiveSchemes] = useState(() => {
     try {
@@ -298,7 +307,7 @@ export default function Home() {
                       <Icon name="chev" size={17} />
                     </button>
                   </div>
-                  <Link className="link" to="/products">
+                  <Link className="link" to="/products?cat=trial">
                     {t("view_all")} <Icon name="arrowsm" size={15} />
                   </Link>
                 </div>
@@ -325,7 +334,7 @@ export default function Home() {
                     <ProductCard key={p.id} p={p} />
                   ))}
                   <div className="carousel-more-card">
-                    <Link to="/products" className="carousel-more-btn">
+                    <Link to="/products?cat=trial" className="carousel-more-btn">
                       <span className="carousel-more-circle">
                         <Icon name="arrowsm" size={22} />
                       </span>
