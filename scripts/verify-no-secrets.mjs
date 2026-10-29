@@ -25,9 +25,14 @@ const EXCLUDED_FILES = new Set([
   'package-lock.json'
 ]);
 
+let files = [];
 try {
+  if (process.env.VERCEL || !fs.existsSync('.git')) {
+    console.log('ℹ Skipping git secret scan in non-git / Vercel deployment environment.');
+    process.exit(0);
+  }
   const trackedFilesOutput = execSync('git ls-files', { encoding: 'utf8' });
-  const files = trackedFilesOutput.split(/\r?\n/).filter(Boolean);
+  files = trackedFilesOutput.split(/\r?\n/).filter(Boolean);
 
   let violations = 0;
 

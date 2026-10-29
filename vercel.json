@@ -48,6 +48,22 @@
       "destination": "/api/products/[id]?id=:id"
     },
     {
+      "source": "/api/auth/(.*)",
+      "destination": "/api/auth/[...path]"
+    },
+    {
+      "source": "/api/auth",
+      "destination": "/api/auth/[...path]"
+    },
+    {
+      "source": "/api/dealers/(.*)",
+      "destination": "/api/dealers/[...path]"
+    },
+    {
+      "source": "/api/dealers",
+      "destination": "/api/dealers/[...path]"
+    },
+    {
       "source": "/api/(.*)",
       "destination": "/api/$1"
     },
