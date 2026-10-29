@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **phoneSanitizer.test.mjs** (0 connections) — `backend/test/phoneSanitizer.test.mjs`
+- **tokenSecurity.test.mjs** (0 connections) — `backend/test/tokenSecurity.test.mjs`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `backend/test/phoneSanitizer.test.mjs`
+- `backend/test/tokenSecurity.test.mjs`
 
 ## Audit Trail
 

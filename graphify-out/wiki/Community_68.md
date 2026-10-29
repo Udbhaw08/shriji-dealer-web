@@ -4,42 +4,44 @@
 
 ## Key Concepts
 
-- **Refero Design** (13 connections) — `.agents/skills/refero-design/SKILL.md`
-- **Tool Routing** (5 connections) — `.agents/skills/refero-design/SKILL.md`
-- **Research Workflow** (4 connections) — `.agents/skills/refero-design/SKILL.md`
-- **Synthesis** (4 connections) — `.agents/skills/refero-design/SKILL.md`
-- **SKILL.md** (1 connections) — `.agents/skills/refero-design/SKILL.md`
-- **1. Research Visual Direction With Styles** (1 connections) — `.agents/skills/refero-design/SKILL.md`
-- **2. Research Screens For Product Details** (1 connections) — `.agents/skills/refero-design/SKILL.md`
-- **3. Research Flows For Journey Logic** (1 connections) — `.agents/skills/refero-design/SKILL.md`
-- **Design Craft** (1 connections) — `.agents/skills/refero-design/SKILL.md`
-- **Discovery** (1 connections) — `.agents/skills/refero-design/SKILL.md`
-- **Example** (1 connections) — `.agents/skills/refero-design/SKILL.md`
-- **Journey Logic** (1 connections) — `.agents/skills/refero-design/SKILL.md`
-- **MCP Setup** (1 connections) — `.agents/skills/refero-design/SKILL.md`
-- **Non-Negotiables** (1 connections) — `.agents/skills/refero-design/SKILL.md`
-- **Present Findings** (1 connections) — `.agents/skills/refero-design/SKILL.md`
-- **Product Pattern** (1 connections) — `.agents/skills/refero-design/SKILL.md`
-- **Quality Gate** (1 connections) — `.agents/skills/refero-design/SKILL.md`
-- **Research Depth** (1 connections) — `.agents/skills/refero-design/SKILL.md`
-- **Use Flows For Journeys** (1 connections) — `.agents/skills/refero-design/SKILL.md`
-- **Use Screens For Concrete UI Patterns** (1 connections) — `.agents/skills/refero-design/SKILL.md`
-- **Use Styles First For Visual Work** (1 connections) — `.agents/skills/refero-design/SKILL.md`
-- **Use Visual Workflow For Images And QA** (1 connections) — `.agents/skills/refero-design/SKILL.md`
-- **Visual Direction** (1 connections) — `.agents/skills/refero-design/SKILL.md`
-- **Workflow Routing** (1 connections) — `.agents/skills/refero-design/SKILL.md`
+- **properties** (12 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **viewBox** (6 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **column_fit** (3 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **animation** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **locale** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **output** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **quality_profile** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **subtitle** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **views** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **visual_preset** (2 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **description** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **enum** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **items** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **maxItems** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **minItems** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **prefixItems** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 204]] (1 shared connections)
+- [[Community 481]] (1 shared connections)
+- [[Community 424]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/refero-design/SKILL.md`
+- `.agents/skills/archify/schemas/sequence.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 46 (100%)
+- EXTRACTED: 49 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

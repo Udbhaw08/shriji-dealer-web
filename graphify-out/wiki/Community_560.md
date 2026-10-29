@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **build.gradle** (0 connections) — `android/app/build.gradle`
+- **searchHelper.test.mjs** (0 connections) — `src/data/searchHelper.test.mjs`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `android/app/build.gradle`
+- `src/data/searchHelper.test.mjs`
 
 ## Audit Trail
 

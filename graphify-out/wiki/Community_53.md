@@ -1,72 +1,56 @@
 # Community 53
 
-> 29 nodes · cohesion 0.19
+> 29 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **main.jsx** (54 connections) — `src/main.jsx`
-- **useSession()** (42 connections) — `src/data/session.js`
-- **isDealer()** (18 connections) — `src/data/dealer.js`
-- **t()** (18 connections) — `src/data/i18n.js`
-- **MobileBottomNav.jsx** (16 connections) — `src/components/MobileBottomNav.jsx`
-- **isPortalGated()** (14 connections) — `src/data/portalGate.js`
-- **dealerById()** (12 connections) — `src/data/dealer.js`
-- **Products()** (9 connections) — `src/pages/Products.jsx`
-- **Header()** (9 connections) — `src/ui.jsx`
-- **MobileBottomNav()** (8 connections) — `src/components/MobileBottomNav.jsx`
-- **portalGate.js** (8 connections) — `src/data/portalGate.js`
-- **Home()** (8 connections) — `src/pages/Home.jsx`
-- **Login()** (7 connections) — `src/pages/Login.jsx`
-- **DealerPending.jsx** (6 connections) — `src/pages/DealerPending.jsx`
-- **Schemes()** (6 connections) — `src/pages/Schemes.jsx`
-- **AccountLink()** (6 connections) — `src/ui.jsx`
-- **Footer()** (6 connections) — `src/ui.jsx`
-- **Support()** (5 connections) — `src/pages/Support.jsx`
-- **StaffDashboard()** (4 connections) — `src/pages/StaffDashboard.jsx`
-- **EmailVerificationPrompt()** (3 connections) — `src/components/EmailVerificationPrompt.jsx`
-- **PhoneVerificationPrompt()** (3 connections) — `src/components/PhoneVerificationPrompt.jsx`
-- **DealerApply()** (3 connections) — `src/pages/DealerApply.jsx`
-- **DealerDashboard()** (3 connections) — `src/pages/DealerDashboard.jsx`
-- **DealerPending()** (3 connections) — `src/pages/DealerPending.jsx`
-- **ConditionalBottomNav()** (3 connections) — `src/main.jsx`
+- **n()** (32 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **t()** (22 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **cs()** (8 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **os()** (7 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **ps()** (6 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **ee()** (5 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **es()** (5 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **fs()** (5 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **j()** (5 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **js()** (5 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **ns()** (5 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **ts()** (5 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **x()** (5 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **ds()** (4 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **ls()** (4 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **ms()** (4 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **rs()** (4 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **us()** (4 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **we()** (4 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **Ad()** (3 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **as()** (3 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **Ge()** (3 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **hs()** (3 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **is()** (3 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **te()** (3 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
 - *... and 4 more nodes in this community*
 
 ## Relationships
 
-- [[Client Products Data Store]] (53 shared connections)
-- [[Graphify Knowledge Graph Skill]] (39 shared connections)
-- [[Roles & Customer Sharing Spec]] (30 shared connections)
-- [[Community 174]] (3 shared connections)
-- [[Community 32]] (3 shared connections)
-- [[Community 173]] (1 shared connections)
-- [[Community 406]] (1 shared connections)
+- [[Dealer Auth & Session Management]] (35 shared connections)
+- [[Master Codebase Architecture Reference]] (19 shared connections)
+- [[Design System & UI Tokens]] (11 shared connections)
+- [[Community 29]] (5 shared connections)
+- [[Product Brand & Business Vision]] (4 shared connections)
+- [[Mobile Responsive UI Skill]] (3 shared connections)
+- [[Community 64]] (2 shared connections)
+- [[Community 121]] (1 shared connections)
+- [[Community 199]] (1 shared connections)
 
 ## Source Files
 
-- `src/components/EmailVerificationPrompt.jsx`
-- `src/components/MobileBottomNav.jsx`
-- `src/components/NativeBackHandler.jsx`
-- `src/components/PhoneVerificationPrompt.jsx`
-- `src/data/dealer.js`
-- `src/data/i18n.js`
-- `src/data/portalGate.js`
-- `src/data/session.js`
-- `src/main.jsx`
-- `src/pages/DealerApply.jsx`
-- `src/pages/DealerDashboard.jsx`
-- `src/pages/DealerPending.jsx`
-- `src/pages/Home.jsx`
-- `src/pages/Login.jsx`
-- `src/pages/Products.jsx`
-- `src/pages/Schemes.jsx`
-- `src/pages/StaffDashboard.jsx`
-- `src/pages/Support.jsx`
-- `src/ui.jsx`
+- `ios/App/App/public/assets/index-1EUJIH5f.js`
 
 ## Audit Trail
 
-- EXTRACTED: 281 (100%)
-- INFERRED: 1 (0%)
+- EXTRACTED: 165 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

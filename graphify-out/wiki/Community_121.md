@@ -1,37 +1,43 @@
 # Community 121
 
-> 16 nodes · cohesion 0.12
+> 15 nodes · cohesion 0.21
 
 ## Key Concepts
 
-- **Anti-AI-Slop Guide** (15 connections) — `.agents/skills/refero-design/references/anti-ai-slop.md`
-- **anti-ai-slop.md** (1 connections) — `.agents/skills/refero-design/references/anti-ai-slop.md`
-- **Litmus Tests** (1 connections) — `.agents/skills/refero-design/references/anti-ai-slop.md`
-- **Safe vs. Intentional** (1 connections) — `.agents/skills/refero-design/references/anti-ai-slop.md`
-- **🚨 THE #1 TELL: INDIGO/VIOLET** (1 connections) — `.agents/skills/refero-design/references/anti-ai-slop.md`
-- **🚨 THE #2 TELL: CARDS EVERYWHERE** (1 connections) — `.agents/skills/refero-design/references/anti-ai-slop.md`
-- **🚨 THE #3 TELL: DARK MODE BY DEFAULT** (1 connections) — `.agents/skills/refero-design/references/anti-ai-slop.md`
-- **🚨 THE #4 TELL: CALM EDITORIAL SERIF ON AUTOPILOT** (1 connections) — `.agents/skills/refero-design/references/anti-ai-slop.md`
-- **🚨 THE #5 TELL: EMOJI AS ICONS** (1 connections) — `.agents/skills/refero-design/references/anti-ai-slop.md`
-- **🚨 THE #6 TELL: LEFT ACCENT STRIPE** (1 connections) — `.agents/skills/refero-design/references/anti-ai-slop.md`
-- **🚨 THE #7 TELL: REFERENCE AVERAGING** (1 connections) — `.agents/skills/refero-design/references/anti-ai-slop.md`
-- **🚨 THE #8 TELL: TOKEN ROLE DRIFT** (1 connections) — `.agents/skills/refero-design/references/anti-ai-slop.md`
-- **🚨 THE #9 TELL: FAKE GRAPHICS OR TEXT-ONLY COLLAPSE** (1 connections) — `.agents/skills/refero-design/references/anti-ai-slop.md`
-- **The AI Slop Detector Checklist** (1 connections) — `.agents/skills/refero-design/references/anti-ai-slop.md`
-- **The Antidote: Intentional Design** (1 connections) — `.agents/skills/refero-design/references/anti-ai-slop.md`
-- **What Makes Design Look Generic** (1 connections) — `.agents/skills/refero-design/references/anti-ai-slop.md`
+- **Ti()** (13 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **gc()** (11 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **Ei()** (8 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **kc()** (8 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **ki()** (7 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **qc()** (6 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **Ai()** (5 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **Mi()** (5 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **qm()** (5 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **di()** (4 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **La()** (4 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **Pi()** (4 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **Uc()** (4 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **za()** (4 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **Ni()** (2 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Dealer Auth & Session Management]] (21 shared connections)
+- [[Master Codebase Architecture Reference]] (10 shared connections)
+- [[Product Brand & Business Vision]] (7 shared connections)
+- [[Mobile Responsive UI Skill]] (3 shared connections)
+- [[Design System & UI Tokens]] (2 shared connections)
+- [[Community 53]] (1 shared connections)
+- [[Community 29]] (1 shared connections)
+- [[Community 199]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/refero-design/references/anti-ai-slop.md`
+- `ios/App/App/public/assets/index-1EUJIH5f.js`
 
 ## Audit Trail
 
-- EXTRACTED: 30 (100%)
+- EXTRACTED: 90 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

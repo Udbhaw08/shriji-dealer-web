@@ -2,7 +2,7 @@
 
 > God node · 40 connections · `ios/App/App/public/assets/index-1EUJIH5f.js`
 
-**Community:** [[Dependencies & Package Config]]
+**Community:** [[Product Brand & Business Vision]]
 
 ## Connections by Relation
 

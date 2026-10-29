@@ -1,48 +1,35 @@
 # Community 133
 
-> 14 nodes · cohesion 0.19
+> 14 nodes · cohesion 0.23
 
 ## Key Concepts
 
-- **findChrome()** (22 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **export-cleanup-browser.test.mjs** (8 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
-- **viewer-identifiers-browser.test.mjs** (7 connections) — `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
-- **evaluate()** (4 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
-- **executable()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **findOnPath()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **load()** (3 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
-- **load()** (3 connections) — `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
-- **run()** (3 connections) — `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
-- **exported()** (2 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
-- **cases** (1 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
-- **cases** (1 connections) — `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
+- **web-CRclPuvi.js** (13 connections) — `ios/App/App/public/assets/web-CRclPuvi.js`
+- **applyPrefix()** (4 connections) — `ios/App/App/public/assets/web-CRclPuvi.js`
+- **keys()** (4 connections) — `ios/App/App/public/assets/web-CRclPuvi.js`
+- **get()** (3 connections) — `ios/App/App/public/assets/web-CRclPuvi.js`
+- **migrate()** (3 connections) — `ios/App/App/public/assets/web-CRclPuvi.js`
+- **rawKeys()** (3 connections) — `ios/App/App/public/assets/web-CRclPuvi.js`
+- **clear()** (2 connections) — `ios/App/App/public/assets/web-CRclPuvi.js`
+- **remove()** (2 connections) — `ios/App/App/public/assets/web-CRclPuvi.js`
+- **removeOld()** (2 connections) — `ios/App/App/public/assets/web-CRclPuvi.js`
+- **set()** (2 connections) — `ios/App/App/public/assets/web-CRclPuvi.js`
+- **configure()** (1 connections) — `ios/App/App/public/assets/web-CRclPuvi.js`
+- **constructor()** (1 connections) — `ios/App/App/public/assets/web-CRclPuvi.js`
+- **impl()** (1 connections) — `ios/App/App/public/assets/web-CRclPuvi.js`
+- **prefix()** (1 connections) — `ios/App/App/public/assets/web-CRclPuvi.js`
 
 ## Relationships
 
-- [[Community 55]] (7 shared connections)
-- [[Community 49]] (6 shared connections)
-- [[Community 90]] (2 shared connections)
-- [[Community 66]] (2 shared connections)
-- [[Community 81]] (2 shared connections)
-- [[Community 154]] (1 shared connections)
-- [[Community 155]] (1 shared connections)
-- [[Community 131]] (1 shared connections)
-- [[Community 33]] (1 shared connections)
-- [[Community 188]] (1 shared connections)
-- [[Community 253]] (1 shared connections)
-- [[Community 156]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/bin/visual-check.mjs`
-- `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
-- `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
+- `ios/App/App/public/assets/web-CRclPuvi.js`
 
 ## Audit Trail
 
-- EXTRACTED: 62 (100%)
+- EXTRACTED: 42 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

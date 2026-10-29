@@ -4,18 +4,18 @@
 
 ## Key Concepts
 
-- **Charts** (11 connections) — `.agents/skills/apple-design/references/hig/charts.md`
-- **charts.md** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
-- **Anatomy** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
-- **Axes** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
-- **Color** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
-- **Descriptive content** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
-- **Enhancing the accessibility of a chart** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
-- **Marks** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/charts.md`
+- **Privacy** (8 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
+- **Requesting permission** (3 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
+- **privacy.md** (1 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
+- **Location button** (1 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
+- **Pre-alert screens, windows, or views** (1 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
+- **Protecting data** (1 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
+- **Tracking requests** (1 connections) — `.agents/skills/apple-design/references/hig/privacy.md`
 
 ## Relationships
 
@@ -23,7 +23,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/charts.md`
+- `.agents/skills/apple-design/references/hig/privacy.md`
 
 ## Audit Trail
 

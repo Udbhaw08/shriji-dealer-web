@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **Microservices Decoupled Architecture** (2 connections) — `docs/architecture/microservices-architecture.md`
-- **microservices-architecture.md** (1 connections) — `docs/architecture/microservices-architecture.md`
-- **Overview** (1 connections) — `docs/architecture/microservices-architecture.md`
+- **Vercel Production Deployment Checklist** (2 connections) — `docs/deployment/vercel-production-checklist.md`
+- **vercel-production-checklist.md** (1 connections) — `docs/deployment/vercel-production-checklist.md`
+- **Environment Variables** (1 connections) — `docs/deployment/vercel-production-checklist.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/architecture/microservices-architecture.md`
+- `docs/deployment/vercel-production-checklist.md`
 
 ## Audit Trail
 

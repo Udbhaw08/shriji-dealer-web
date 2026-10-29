@@ -1,70 +1,57 @@
 # Pricing Hierarchy & Zero-Leakage Spec
 
-> 47 nodes · cohesion 0.09
+> 49 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **sql** (80 connections) — `backend/src/db/pool.js`
-- **dealers.js** (50 connections) — `backend/src/routes/dealers.js`
-- **staff.js** (23 connections) — `backend/src/services/staff.js`
-- **audit()** (18 connections) — `backend/src/utils/audit.js`
-- **auth.js** (13 connections) — `backend/src/middleware/auth.js`
-- **applyCrmAccountState()** (12 connections) — `backend/src/services/dealerApp.js`
-- **generateUniqueDealerCode()** (10 connections) — `backend/src/utils/loginCode.js`
-- **applyDealer()** (7 connections) — `backend/src/services/dealerApp.js`
-- **audit.js** (7 connections) — `backend/src/utils/audit.js`
-- **sync-supabase-content.js** (6 connections) — `backend/scripts/sync-supabase-content.js`
-- **provisionDealerInCrm()** (6 connections) — `backend/src/services/dealerApp.js`
-- **createInvite()** (6 connections) — `backend/src/services/staff.js`
-- **jwtAuth()** (5 connections) — `backend/src/middleware/auth.js`
-- **requireAdmin()** (5 connections) — `backend/src/middleware/auth.js`
-- **seed-content.js** (4 connections) — `backend/scripts/seed-content.js`
-- **deactivateDealer()** (4 connections) — `backend/src/services/dealerApp.js`
-- **approveStaff()** (4 connections) — `backend/src/services/staff.js`
-- **deleteStaff()** (4 connections) — `backend/src/services/staff.js`
-- **holdStaff()** (4 connections) — `backend/src/services/staff.js`
-- **resumeStaff()** (4 connections) — `backend/src/services/staff.js`
-- **revokeStaff()** (4 connections) — `backend/src/services/staff.js`
-- **toggleAllStaffPrice()** (4 connections) — `backend/src/services/staff.js`
-- **toggleStaffPrice()** (4 connections) — `backend/src/services/staff.js`
-- **info.js** (3 connections) — `api/dealer/info.js`
-- **optionalAuth()** (3 connections) — `backend/src/middleware/auth.js`
-- *... and 22 more nodes in this community*
+- **it()** (21 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **k()** (19 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **ha()** (18 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **st()** (17 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **A()** (15 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **ft()** (13 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **Dn()** (12 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **mo()** (11 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **ut()** (11 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **jt()** (10 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **ct()** (9 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **nt()** (9 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **ve()** (9 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **go()** (8 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **ho()** (8 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **ot()** (8 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **P()** (8 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **xt()** (8 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **dt()** (7 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **F()** (7 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **Gt()** (7 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **Id()** (7 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **jn()** (7 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **kf()** (7 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **kt()** (7 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- *... and 24 more nodes in this community*
 
 ## Relationships
 
-- [[Product Brand & Business Vision]] (39 shared connections)
-- [[Community 36]] (38 shared connections)
-- [[Design System & UI Tokens]] (14 shared connections)
-- [[Community 87]] (11 shared connections)
-- [[Community 51]] (7 shared connections)
-- [[Community 120]] (6 shared connections)
-- [[Community 144]] (6 shared connections)
-- [[Community 116]] (4 shared connections)
-- [[Community 119]] (2 shared connections)
-- [[Community 327]] (2 shared connections)
+- [[Price Presentation & Product UI]] (57 shared connections)
+- [[Dependencies & Package Config]] (34 shared connections)
+- [[Community 70]] (18 shared connections)
+- [[Community 47]] (14 shared connections)
+- [[Pricing & Roles Skill]] (10 shared connections)
+- [[Graphify Knowledge Graph Skill]] (10 shared connections)
+- [[Project Readme & Layout]] (9 shared connections)
+- [[Community 40]] (7 shared connections)
+- [[Community 187]] (6 shared connections)
+- [[Community 141]] (5 shared connections)
 
 ## Source Files
 
-- `api/dealer/info.js`
-- `backend/scripts/check-readiness.js`
-- `backend/scripts/inspect-db.js`
-- `backend/scripts/seed-content.js`
-- `backend/scripts/setup-buckets.js`
-- `backend/scripts/setup-policies.js`
-- `backend/scripts/sync-supabase-content.js`
-- `backend/src/db/pool.js`
-- `backend/src/middleware/auth.js`
-- `backend/src/routes/dealers.js`
-- `backend/src/services/dealerApp.js`
-- `backend/src/services/staff.js`
-- `backend/src/utils/audit.js`
-- `backend/src/utils/loginCode.js`
+- `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
 
 ## Audit Trail
 
-- EXTRACTED: 327 (99%)
-- INFERRED: 4 (1%)
+- EXTRACTED: 372 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

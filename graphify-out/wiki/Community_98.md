@@ -1,48 +1,39 @@
 # Community 98
 
-> 18 nodes · cohesion 0.22
+> 18 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **D()** (23 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **np()** (20 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **r()** (13 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **bm()** (12 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **mo()** (11 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **am()** (10 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **mm()** (9 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **jm()** (7 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **kt()** (7 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **Mp()** (7 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **om()** (7 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **zm()** (7 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **nm()** (6 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **km()** (4 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **Um()** (4 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **Vm()** (3 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **Xm()** (3 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **Qa()** (2 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **Standard icons** (10 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Icons** (6 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Desktop (macOS)** (2 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **icons.md** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Document icons** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Editing** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Layer ordering** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Other** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Ratings** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Search** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Selection** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Sharing and exporting** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Text formatting** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
+- **Users and accounts** (1 connections) — `.agents/skills/apple-design/references/hig/icons.md`
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (18 shared connections)
-- [[Zoho Backend & Proxy Endpoints]] (18 shared connections)
-- [[Product Requirements Documentation]] (15 shared connections)
-- [[Community 42]] (10 shared connections)
-- [[Community 29]] (7 shared connections)
-- [[Community 31]] (6 shared connections)
-- [[Community 30]] (5 shared connections)
-- [[Agent Guidelines (AGENTS.md)]] (4 shared connections)
-- [[Community 108]] (3 shared connections)
-- [[Community 56]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- `.agents/skills/apple-design/references/hig/icons.md`
 
 ## Audit Trail
 
-- EXTRACTED: 155 (100%)
+- EXTRACTED: 34 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **check-env.mjs** (2 connections) — `scripts/check-env.mjs`
-- **missing** (1 connections) — `scripts/check-env.mjs`
-- **requiredEnv** (1 connections) — `scripts/check-env.mjs`
+- **renderer-diagnostic-boundary.test.mjs** (2 connections) — `.agents/skills/archify/test/renderer-diagnostic-boundary.test.mjs`
+- **crashingRenderer()** (1 connections) — `.agents/skills/archify/test/renderer-diagnostic-boundary.test.mjs`
+- **runCrashingRenderer()** (1 connections) — `.agents/skills/archify/test/renderer-diagnostic-boundary.test.mjs`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `scripts/check-env.mjs`
+- `.agents/skills/archify/test/renderer-diagnostic-boundary.test.mjs`
 
 ## Audit Trail
 

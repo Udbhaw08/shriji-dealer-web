@@ -4,14 +4,14 @@
 
 ## Key Concepts
 
-- **Boxes** (5 connections) — `.agents/skills/apple-design/references/hig/boxes.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/boxes.md`
-- **boxes.md** (1 connections) — `.agents/skills/apple-design/references/hig/boxes.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/boxes.md`
-- **Content** (1 connections) — `.agents/skills/apple-design/references/hig/boxes.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/boxes.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/boxes.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/boxes.md`
+- **Game controls** (7 connections) — `.agents/skills/apple-design/references/hig/game-controls.md`
+- **game-controls.md** (1 connections) — `.agents/skills/apple-design/references/hig/game-controls.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/game-controls.md`
+- **Keyboards** (1 connections) — `.agents/skills/apple-design/references/hig/game-controls.md`
+- **Physical controllers** (1 connections) — `.agents/skills/apple-design/references/hig/game-controls.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/game-controls.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/game-controls.md`
+- **Touch controls** (1 connections) — `.agents/skills/apple-design/references/hig/game-controls.md`
 
 ## Relationships
 
@@ -19,7 +19,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/boxes.md`
+- `.agents/skills/apple-design/references/hig/game-controls.md`
 
 ## Audit Trail
 

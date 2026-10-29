@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **Customer Share Link (?from=) Specification** (2 connections) — `docs/guides/customer-share-link-spec.md`
-- **customer-share-link-spec.md** (1 connections) — `docs/guides/customer-share-link-spec.md`
-- **Behavior** (1 connections) — `docs/guides/customer-share-link-spec.md`
+- **Zoho Commerce API Rate Limiting & Multi-Tier Caching** (2 connections) — `docs/guides/zoho-rate-limits-and-caching.md`
+- **zoho-rate-limits-and-caching.md** (1 connections) — `docs/guides/zoho-rate-limits-and-caching.md`
+- **Rate Limits** (1 connections) — `docs/guides/zoho-rate-limits-and-caching.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/guides/customer-share-link-spec.md`
+- `docs/guides/zoho-rate-limits-and-caching.md`
 
 ## Audit Trail
 

@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **portalGate.test.mjs** (0 connections) — `src/data/portalGate.test.mjs`
+- **build_wiki.py** (0 connections) — `scripts/build_wiki.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `src/data/portalGate.test.mjs`
+- `scripts/build_wiki.py`
 
 ## Audit Trail
 

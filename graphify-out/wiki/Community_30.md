@@ -1,55 +1,47 @@
 # Community 30
 
-> 39 nodes · cohesion 0.09
+> 41 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **Or()** (28 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **gf()** (20 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **vn()** (11 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **Ar()** (9 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **qr()** (8 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **fn()** (7 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **hn()** (7 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **ln()** (7 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **Fr()** (6 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **mr()** (6 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **xn()** (6 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **xr()** (6 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **bn()** (5 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **E()** (5 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **Ir()** (5 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **jr()** (5 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **pr()** (5 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **qf()** (5 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **sm()** (5 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **br()** (4 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **gr()** (4 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **Ld()** (4 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **Lr()** (4 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **pc()** (4 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **pf()** (4 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- *... and 14 more nodes in this community*
+- **scripts** (17 connections) — `package.json`
+- **dependencies** (13 connections) — `package.json`
+- **package.json** (7 connections) — `package.json`
+- **devDependencies** (6 connections) — `package.json`
+- **@capacitor/android** (1 connections) — `package.json`
+- **@capacitor/app** (1 connections) — `package.json`
+- **@capacitor/cli** (1 connections) — `package.json`
+- **@capacitor/core** (1 connections) — `package.json`
+- **@capacitor/ios** (1 connections) — `package.json`
+- **@capacitor/preferences** (1 connections) — `package.json`
+- **dotenv** (1 connections) — `package.json`
+- **jsonwebtoken** (1 connections) — `package.json`
+- **postgres** (1 connections) — `package.json`
+- **react** (1 connections) — `package.json`
+- **react-dom** (1 connections) — `package.json`
+- **react-router-dom** (1 connections) — `package.json`
+- **oxlint** (1 connections) — `package.json`
+- **@types/react** (1 connections) — `package.json`
+- **@types/react-dom** (1 connections) — `package.json`
+- **vite** (1 connections) — `package.json`
+- **@vitejs/plugin-react** (1 connections) — `package.json`
+- **name** (1 connections) — `package.json`
+- **private** (1 connections) — `package.json`
+- **build** (1 connections) — `package.json`
+- **build:backend** (1 connections) — `package.json`
+- *... and 16 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (43 shared connections)
-- [[Zoho Backend & Proxy Endpoints]] (10 shared connections)
-- [[Community 29]] (7 shared connections)
-- [[Community 98]] (5 shared connections)
-- [[Community 31]] (4 shared connections)
-- [[Community 42]] (4 shared connections)
-- [[Product Requirements Documentation]] (4 shared connections)
-- [[Agent Guidelines (AGENTS.md)]] (4 shared connections)
-- [[Community 56]] (4 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- `package.json`
 
 ## Audit Trail
 
-- EXTRACTED: 219 (100%)
+- EXTRACTED: 80 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

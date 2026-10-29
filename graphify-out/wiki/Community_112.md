@@ -1,46 +1,45 @@
 # Community 112
 
-> 17 nodes · cohesion 0.24
+> 16 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **fl()** (25 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **pe()** (13 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **ml()** (11 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **pl()** (10 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **xe()** (9 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **ye()** (9 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **aa()** (8 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **cl()** (6 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **jo()** (6 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **da()** (5 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **sl()** (5 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **xo()** (5 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **ll()** (3 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **ol()** (3 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **Vd()** (3 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **Ym()** (3 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **vc()** (2 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **errorHandler.js** (9 connections) — `backend/src/middleware/errorHandler.js`
+- **rateLimit.js** (9 connections) — `backend/src/middleware/rateLimit.js`
+- **securityPhase3.test.mjs** (9 connections) — `backend/test/securityPhase3.test.mjs`
+- **admin.js** (8 connections) — `backend/src/routes/admin.js`
+- **rateLimit()** (7 connections) — `backend/src/middleware/rateLimit.js`
+- **rateLimitFix.test.mjs** (4 connections) — `backend/test/rateLimitFix.test.mjs`
+- **errorHandler()** (3 connections) — `backend/src/middleware/errorHandler.js`
+- **getClientIp()** (3 connections) — `backend/src/middleware/rateLimit.js`
+- **adminRouter** (3 connections) — `backend/src/routes/admin.js`
+- **buckets** (1 connections) — `backend/src/middleware/rateLimit.js`
+- **loginRateLimit** (1 connections) — `backend/src/routes/admin.js`
+- **json()** (1 connections) — `backend/test/rateLimitFix.test.mjs`
+- **status()** (1 connections) — `backend/test/rateLimitFix.test.mjs`
+- **atomicRotate()** (1 connections) — `backend/test/securityPhase3.test.mjs`
+- **json()** (1 connections) — `backend/test/securityPhase3.test.mjs`
+- **status()** (1 connections) — `backend/test/securityPhase3.test.mjs`
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (19 shared connections)
-- [[Dependencies & Package Config]] (12 shared connections)
-- [[Community 41]] (9 shared connections)
-- [[Community 43]] (5 shared connections)
-- [[Zoho Integration Architecture]] (5 shared connections)
-- [[Community 58]] (5 shared connections)
-- [[Community 102]] (3 shared connections)
-- [[Zoho API Diagnostic Script]] (1 shared connections)
-- [[Community 35]] (1 shared connections)
+- [[Roles & Customer Sharing Spec]] (8 shared connections)
+- [[Community 36]] (6 shared connections)
+- [[Zoho Integration Skill]] (6 shared connections)
+- [[Community 49]] (2 shared connections)
+- [[Client Products Data Store]] (2 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-1EUJIH5f.js`
+- `backend/src/middleware/errorHandler.js`
+- `backend/src/middleware/rateLimit.js`
+- `backend/src/routes/admin.js`
+- `backend/test/rateLimitFix.test.mjs`
+- `backend/test/securityPhase3.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 126 (100%)
+- EXTRACTED: 62 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

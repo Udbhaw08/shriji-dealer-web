@@ -1,57 +1,55 @@
 # Community 35
 
-> 39 nodes · cohesion 0.08
+> 39 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **n()** (32 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **t()** (22 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **Ri()** (17 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **q()** (14 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **ga()** (12 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **va()** (10 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **cs()** (8 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **O()** (8 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **os()** (7 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **Do()** (6 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **Ja()** (6 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **es()** (5 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **fs()** (5 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **j()** (5 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **js()** (5 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **ns()** (5 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **qs()** (5 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **ts()** (5 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **x()** (5 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **Ya()** (5 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **ds()** (4 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **ea()** (4 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **eo()** (4 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **Ka()** (4 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **ls()** (4 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **offline-font-browser.test.mjs** (13 connections) — `.agents/skills/archify/test/offline-font-browser.test.mjs`
+- **cli.test.mjs** (11 connections) — `.agents/skills/archify/test/cli.test.mjs`
+- **offline-self-containment.test.mjs** (9 connections) — `.agents/skills/archify/test/offline-self-containment.test.mjs`
+- **generated-artifact-xml.test.mjs** (8 connections) — `.agents/skills/archify/test/generated-artifact-xml.test.mjs`
+- **offline-fonts.mjs** (7 connections) — `.agents/skills/archify/test/helpers/offline-fonts.mjs`
+- **inspectDocuments()** (5 connections) — `.agents/skills/archify/test/helpers/offline-fonts.mjs`
+- **xml.mjs** (5 connections) — `.agents/skills/archify/test/helpers/xml.mjs`
+- **assertFontCss()** (4 connections) — `.agents/skills/archify/test/helpers/offline-fonts.mjs`
+- **assertOfflineArtifact()** (4 connections) — `.agents/skills/archify/test/helpers/offline-fonts.mjs`
+- **extractSvgs()** (4 connections) — `.agents/skills/archify/test/helpers/xml.mjs`
+- **parseXml()** (3 connections) — `.agents/skills/archify/test/helpers/xml.mjs`
+- **visit()** (3 connections) — `.agents/skills/archify/test/helpers/xml.mjs`
+- **evaluate()** (2 connections) — `.agents/skills/archify/test/offline-font-browser.test.mjs`
+- **exported()** (2 connections) — `.agents/skills/archify/test/offline-font-browser.test.mjs`
+- **EXPECTED_FACES** (1 connections) — `.agents/skills/archify/test/helpers/offline-fonts.mjs`
+- **FONT_LICENSE** (1 connections) — `.agents/skills/archify/test/helpers/offline-fonts.mjs`
+- **cli** (1 connections) — `.agents/skills/archify/test/cli.test.mjs`
+- **copyInstalledSkill()** (1 connections) — `.agents/skills/archify/test/cli.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/cli.test.mjs`
+- **makeFakeOpeners()** (1 connections) — `.agents/skills/archify/test/cli.test.mjs`
+- **run()** (1 connections) — `.agents/skills/archify/test/cli.test.mjs`
+- **sha256()** (1 connections) — `.agents/skills/archify/test/cli.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/cli.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/cli.test.mjs`
+- **artifactRoots** (1 connections) — `.agents/skills/archify/test/generated-artifact-xml.test.mjs`
 - *... and 14 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (44 shared connections)
-- [[Dependencies & Package Config]] (29 shared connections)
-- [[Zoho API Diagnostic Script]] (13 shared connections)
-- [[Community 41]] (13 shared connections)
-- [[Zoho Integration Architecture]] (9 shared connections)
-- [[Community 102]] (6 shared connections)
-- [[Community 43]] (5 shared connections)
-- [[Community 34]] (4 shared connections)
-- [[Community 58]] (3 shared connections)
-- [[Community 112]] (1 shared connections)
+- [[Community 43]] (1 shared connections)
+- [[Community 151]] (1 shared connections)
+- [[Community 127]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-1EUJIH5f.js`
+- `.agents/skills/archify/test/cli.test.mjs`
+- `.agents/skills/archify/test/generated-artifact-xml.test.mjs`
+- `.agents/skills/archify/test/helpers/offline-fonts.mjs`
+- `.agents/skills/archify/test/helpers/xml.mjs`
+- `.agents/skills/archify/test/offline-font-browser.test.mjs`
+- `.agents/skills/archify/test/offline-self-containment.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 251 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 103 (98%)
+- INFERRED: 2 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

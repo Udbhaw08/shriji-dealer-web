@@ -1,32 +1,39 @@
 # Community 187
 
-> 11 nodes · cohesion 0.18
+> 10 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **multiAuth.test.mjs** (8 connections) — `backend/test/multiAuth.test.mjs`
-- **MockOAuth2Client** (3 connections) — `backend/test/multiAuth.test.mjs`
-- **app** (1 connections) — `backend/test/multiAuth.test.mjs`
-- **db** (1 connections) — `backend/test/multiAuth.test.mjs`
-- **.constructor()** (1 connections) — `backend/test/multiAuth.test.mjs`
-- **.verifyIdToken()** (1 connections) — `backend/test/multiAuth.test.mjs`
-- **mockSql()** (1 connections) — `backend/test/multiAuth.test.mjs`
-- **resetDb()** (1 connections) — `backend/test/multiAuth.test.mjs`
-- **startServer()** (1 connections) — `backend/test/multiAuth.test.mjs`
-- **stopServer()** (1 connections) — `backend/test/multiAuth.test.mjs`
-- **testEnv** (1 connections) — `backend/test/multiAuth.test.mjs`
+- **np()** (20 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **mm()** (9 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **jm()** (7 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **om()** (7 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **zm()** (7 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **km()** (4 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **M()** (4 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **Um()** (4 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **jp()** (3 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **Xm()** (3 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Price Presentation & Product UI]] (10 shared connections)
+- [[Dependencies & Package Config]] (9 shared connections)
+- [[Pricing & Roles Skill]] (7 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (6 shared connections)
+- [[Community 40]] (4 shared connections)
+- [[Community 47]] (2 shared connections)
+- [[Graphify Knowledge Graph Skill]] (2 shared connections)
+- [[Community 70]] (1 shared connections)
+- [[Project Readme & Layout]] (1 shared connections)
 
 ## Source Files
 
-- `backend/test/multiAuth.test.mjs`
+- `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
+- EXTRACTED: 68 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

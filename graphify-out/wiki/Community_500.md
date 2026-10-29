@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **toolbar-polish.test.mjs** (2 connections) — `.agents/skills/archify/test/toolbar-polish.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/toolbar-polish.test.mjs`
-- **template** (1 connections) — `.agents/skills/archify/test/toolbar-polish.test.mjs`
+- **formatters.js** (2 connections) — `src/utils/formatters.js`
+- **formatCurrencyINR()** (1 connections) — `src/utils/formatters.js`
+- **formatPhoneNumber()** (1 connections) — `src/utils/formatters.js`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/toolbar-polish.test.mjs`
+- `src/utils/formatters.js`
 
 ## Audit Trail
 

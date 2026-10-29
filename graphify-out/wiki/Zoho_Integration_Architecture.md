@@ -1,57 +1,62 @@
 # Zoho Integration Architecture
 
-> 51 nodes · cohesion 0.10
+> 56 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **get()** (27 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **ff()** (26 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **Tu()** (19 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **fi()** (15 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **gl()** (15 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **uu()** (13 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **lu()** (12 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **ep()** (11 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **vu()** (11 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **hl()** (10 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **ui()** (10 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **zl()** (10 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **Iu()** (9 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **ku()** (9 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **l()** (9 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **mu()** (9 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **wl()** (9 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **cu()** (8 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **Eu()** (8 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **go()** (8 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **ho()** (8 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **jd()** (8 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **Sp()** (8 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **bl()** (7 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **hc()** (7 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- *... and 26 more nodes in this community*
+- **render-lifecycle.mjs** (81 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **utils.mjs** (26 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
+- **i18n.mjs** (21 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **translateMessage()** (21 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **legend.mjs** (21 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
+- **renderLegend()** (14 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
+- **svgAccessibleText()** (13 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- **svgRootAttrs()** (13 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- **renderDefinitions()** (11 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
+- **resolveLegend()** (10 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
+- **applyTemplate()** (9 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
+- **renderSvg()** (8 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **renderLegend()** (7 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **resolveLocale()** (7 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **renderSvg()** (6 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **renderSvg()** (6 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **renderLegend()** (6 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **renderSvg()** (6 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- **legendFootprint()** (6 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
+- **measureLegend()** (6 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
+- **renderLegend()** (5 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **renderBands()** (5 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **renderLegend()** (5 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- **relationshipLegendObstacles()** (5 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
+- **componentContext()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- *... and 31 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (61 shared connections)
-- [[Dependencies & Package Config]] (23 shared connections)
-- [[Community 102]] (15 shared connections)
-- [[Community 43]] (9 shared connections)
-- [[Community 35]] (9 shared connections)
-- [[Community 58]] (8 shared connections)
-- [[Community 41]] (8 shared connections)
-- [[Zoho API Diagnostic Script]] (7 shared connections)
-- [[Community 112]] (5 shared connections)
-- [[Community 34]] (4 shared connections)
+- [[Product Pages Specification]] (54 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (51 shared connections)
+- [[Community 62]] (20 shared connections)
+- [[Pricing Regression Test Suite]] (17 shared connections)
+- [[Live Pricing Audit Tool]] (16 shared connections)
+- [[Community 125]] (5 shared connections)
+- [[Graphify Agent Rules]] (2 shared connections)
+- [[Community 291]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-1EUJIH5f.js`
+- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- `.agents/skills/archify/renderers/shared/cli.mjs`
+- `.agents/skills/archify/renderers/shared/i18n.mjs`
+- `.agents/skills/archify/renderers/shared/legend.mjs`
+- `.agents/skills/archify/renderers/shared/utils.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 397 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 369 (99%)
+- INFERRED: 5 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

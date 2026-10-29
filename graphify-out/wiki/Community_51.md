@@ -1,60 +1,72 @@
 # Community 51
 
-> 29 nodes · cohesion 0.10
+> 29 nodes · cohesion 0.19
 
 ## Key Concepts
 
-- **compatibilitySuite.test.mjs** (20 connections) — `backend/test/compatibilitySuite.test.mjs`
-- **securityPhase1.test.mjs** (16 connections) — `backend/test/securityPhase1.test.mjs`
-- **upload.js** (11 connections) — `backend/src/routes/upload.js`
-- **upload.js** (9 connections) — `api/upload.js`
-- **verifyAdminAuth()** (9 connections) — `api/_lib/adminAuth.js`
-- **uploads.js** (8 connections) — `backend/src/routes/uploads.js`
-- **adminAuth.js** (6 connections) — `api/_lib/adminAuth.js`
-- **handler()** (4 connections) — `api/upload.js`
-- **contentRouter** (4 connections) — `backend/src/routes/content.js`
-- **uploadRouter** (4 connections) — `backend/src/routes/upload.js`
-- **uploadsRouter** (4 connections) — `backend/src/routes/uploads.js`
-- **login.js** (3 connections) — `api/admin/login.js`
-- **handler()** (2 connections) — `api/admin/login.js`
-- **validateMagicBytes()** (2 connections) — `api/upload.js`
-- **ALLOWED_EXTENSIONS** (1 connections) — `api/upload.js`
-- **ALLOWED_FOLDERS** (1 connections) — `api/upload.js`
-- **MIME_TYPES** (1 connections) — `api/upload.js`
-- **ALLOWED_FOLDERS** (1 connections) — `backend/src/routes/upload.js`
-- **SAFE_EXTENSIONS** (1 connections) — `backend/src/routes/upload.js`
-- **validateMagicBytes()** (1 connections) — `backend/src/routes/upload.js`
-- **ALLOWED_FOLDERS** (1 connections) — `backend/src/routes/uploads.js`
-- **MIME_TYPES** (1 connections) — `backend/src/routes/uploads.js`
-- **json()** (1 connections) — `backend/test/compatibilitySuite.test.mjs`
-- **status()** (1 connections) — `backend/test/compatibilitySuite.test.mjs`
-- **json()** (1 connections) — `backend/test/securityPhase1.test.mjs`
+- **main.jsx** (54 connections) — `src/main.jsx`
+- **useSession()** (42 connections) — `src/data/session.js`
+- **isDealer()** (18 connections) — `src/data/dealer.js`
+- **t()** (18 connections) — `src/data/i18n.js`
+- **MobileBottomNav.jsx** (16 connections) — `src/components/MobileBottomNav.jsx`
+- **isPortalGated()** (14 connections) — `src/data/portalGate.js`
+- **dealerById()** (12 connections) — `src/data/dealer.js`
+- **Products()** (9 connections) — `src/pages/Products.jsx`
+- **Header()** (9 connections) — `src/ui.jsx`
+- **MobileBottomNav()** (8 connections) — `src/components/MobileBottomNav.jsx`
+- **portalGate.js** (8 connections) — `src/data/portalGate.js`
+- **Home()** (8 connections) — `src/pages/Home.jsx`
+- **Login()** (7 connections) — `src/pages/Login.jsx`
+- **DealerPending.jsx** (6 connections) — `src/pages/DealerPending.jsx`
+- **Schemes()** (6 connections) — `src/pages/Schemes.jsx`
+- **AccountLink()** (6 connections) — `src/ui.jsx`
+- **Footer()** (6 connections) — `src/ui.jsx`
+- **Support()** (5 connections) — `src/pages/Support.jsx`
+- **StaffDashboard()** (4 connections) — `src/pages/StaffDashboard.jsx`
+- **EmailVerificationPrompt()** (3 connections) — `src/components/EmailVerificationPrompt.jsx`
+- **PhoneVerificationPrompt()** (3 connections) — `src/components/PhoneVerificationPrompt.jsx`
+- **DealerApply()** (3 connections) — `src/pages/DealerApply.jsx`
+- **DealerDashboard()** (3 connections) — `src/pages/DealerDashboard.jsx`
+- **DealerPending()** (3 connections) — `src/pages/DealerPending.jsx`
+- **ConditionalBottomNav()** (3 connections) — `src/main.jsx`
 - *... and 4 more nodes in this community*
 
 ## Relationships
 
-- [[Product Brand & Business Vision]] (11 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (7 shared connections)
-- [[Community 87]] (6 shared connections)
-- [[Community 119]] (4 shared connections)
-- [[Community 255]] (3 shared connections)
-- [[Community 120]] (2 shared connections)
+- [[Architecture Doc Generator]] (53 shared connections)
+- [[Claude Agent Instructions]] (39 shared connections)
+- [[Oxlint Linter Configuration]] (30 shared connections)
+- [[Community 168]] (3 shared connections)
+- [[Community 34]] (3 shared connections)
+- [[Community 167]] (1 shared connections)
+- [[Community 400]] (1 shared connections)
 
 ## Source Files
 
-- `api/_lib/adminAuth.js`
-- `api/admin/login.js`
-- `api/upload.js`
-- `backend/src/routes/content.js`
-- `backend/src/routes/upload.js`
-- `backend/src/routes/uploads.js`
-- `backend/test/compatibilitySuite.test.mjs`
-- `backend/test/securityPhase1.test.mjs`
+- `src/components/EmailVerificationPrompt.jsx`
+- `src/components/MobileBottomNav.jsx`
+- `src/components/NativeBackHandler.jsx`
+- `src/components/PhoneVerificationPrompt.jsx`
+- `src/data/dealer.js`
+- `src/data/i18n.js`
+- `src/data/portalGate.js`
+- `src/data/session.js`
+- `src/main.jsx`
+- `src/pages/DealerApply.jsx`
+- `src/pages/DealerDashboard.jsx`
+- `src/pages/DealerPending.jsx`
+- `src/pages/Home.jsx`
+- `src/pages/Login.jsx`
+- `src/pages/Products.jsx`
+- `src/pages/Schemes.jsx`
+- `src/pages/StaffDashboard.jsx`
+- `src/pages/Support.jsx`
+- `src/ui.jsx`
 
 ## Audit Trail
 
-- EXTRACTED: 117 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 281 (100%)
+- INFERRED: 1 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

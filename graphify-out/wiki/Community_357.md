@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **Panels** (5 connections) — `.agents/skills/apple-design/references/hig/panels.md`
-- **panels.md** (1 connections) — `.agents/skills/apple-design/references/hig/panels.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/panels.md`
-- **HUD-style panels** (1 connections) — `.agents/skills/apple-design/references/hig/panels.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/panels.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/panels.md`
+- **Lifecycle Renderer** (5 connections) — `.agents/skills/archify/renderers/lifecycle/README.md`
+- **README.md** (1 connections) — `.agents/skills/archify/renderers/lifecycle/README.md`
+- **Design Rules** (1 connections) — `.agents/skills/archify/renderers/lifecycle/README.md`
+- **Input** (1 connections) — `.agents/skills/archify/renderers/lifecycle/README.md`
+- **Layout budget** (1 connections) — `.agents/skills/archify/renderers/lifecycle/README.md`
+- **Legend** (1 connections) — `.agents/skills/archify/renderers/lifecycle/README.md`
 
 ## Relationships
 
@@ -17,7 +17,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/panels.md`
+- `.agents/skills/archify/renderers/lifecycle/README.md`
 
 ## Audit Trail
 

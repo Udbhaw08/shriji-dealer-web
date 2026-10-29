@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **Automated Testing & Quality Assurance Strategy** (2 connections) — `docs/testing/testing-strategy.md`
-- **testing-strategy.md** (1 connections) — `docs/testing/testing-strategy.md`
-- **Testing Layers** (1 connections) — `docs/testing/testing-strategy.md`
+- **objectUtils.js** (2 connections) — `src/utils/objectUtils.js`
+- **omit()** (1 connections) — `src/utils/objectUtils.js`
+- **pick()** (1 connections) — `src/utils/objectUtils.js`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/testing/testing-strategy.md`
+- `src/utils/objectUtils.js`
 
 ## Audit Trail
 

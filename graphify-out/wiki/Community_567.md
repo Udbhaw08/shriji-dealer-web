@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **site.test.mjs** (0 connections) — `src/data/site.test.mjs`
+- **architecture** (0 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `src/data/site.test.mjs`
+- `.agents/skills/archify/renderers/shared/generated-validators.mjs`
 
 ## Audit Trail
 

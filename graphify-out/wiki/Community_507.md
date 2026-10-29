@@ -1,12 +1,11 @@
 # Community 507
 
-> 3 nodes · cohesion 0.67
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **maskSensitiveData.js** (2 connections) — `backend/src/utils/maskSensitiveData.js`
-- **maskEmail()** (1 connections) — `backend/src/utils/maskSensitiveData.js`
-- **maskPhoneNumber()** (1 connections) — `backend/src/utils/maskSensitiveData.js`
+- **esm-CeYCIqt3.js** (1 connections) — `android/app/src/main/assets/public/assets/esm-CeYCIqt3.js`
+- **__vite__mapDeps()** (1 connections) — `android/app/src/main/assets/public/assets/esm-CeYCIqt3.js`
 
 ## Relationships
 
@@ -14,11 +13,11 @@
 
 ## Source Files
 
-- `backend/src/utils/maskSensitiveData.js`
+- `android/app/src/main/assets/public/assets/esm-CeYCIqt3.js`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 2 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

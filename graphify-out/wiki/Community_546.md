@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **dateUtils.js** (1 connections) — `src/utils/dateUtils.js`
-- **formatRelativeTime()** (1 connections) — `src/utils/dateUtils.js`
+- **urlUtils.js** (1 connections) — `src/utils/urlUtils.js`
+- **buildUrlWithQuery()** (1 connections) — `src/utils/urlUtils.js`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `src/utils/dateUtils.js`
+- `src/utils/urlUtils.js`
 
 ## Audit Trail
 

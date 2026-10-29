@@ -1,35 +1,37 @@
 # Community 138
 
-> 14 nodes · cohesion 0.23
+> 14 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **web-CRclPuvi.js** (13 connections) — `ios/App/App/public/assets/web-CRclPuvi.js`
-- **applyPrefix()** (4 connections) — `ios/App/App/public/assets/web-CRclPuvi.js`
-- **keys()** (4 connections) — `ios/App/App/public/assets/web-CRclPuvi.js`
-- **get()** (3 connections) — `ios/App/App/public/assets/web-CRclPuvi.js`
-- **migrate()** (3 connections) — `ios/App/App/public/assets/web-CRclPuvi.js`
-- **rawKeys()** (3 connections) — `ios/App/App/public/assets/web-CRclPuvi.js`
-- **clear()** (2 connections) — `ios/App/App/public/assets/web-CRclPuvi.js`
-- **remove()** (2 connections) — `ios/App/App/public/assets/web-CRclPuvi.js`
-- **removeOld()** (2 connections) — `ios/App/App/public/assets/web-CRclPuvi.js`
-- **set()** (2 connections) — `ios/App/App/public/assets/web-CRclPuvi.js`
-- **configure()** (1 connections) — `ios/App/App/public/assets/web-CRclPuvi.js`
-- **constructor()** (1 connections) — `ios/App/App/public/assets/web-CRclPuvi.js`
-- **impl()** (1 connections) — `ios/App/App/public/assets/web-CRclPuvi.js`
-- **prefix()** (1 connections) — `ios/App/App/public/assets/web-CRclPuvi.js`
+- **commerceClient.js** (22 connections) — `backend/src/services/commerceClient.js`
+- **ensureContactPricebookForCrmAccount()** (9 connections) — `backend/src/services/commerceClient.js`
+- **fetchCatalog()** (6 connections) — `backend/src/services/commerceClient.js`
+- **resolvePricebookId()** (6 connections) — `backend/src/services/commerceClient.js`
+- **booksFetch()** (5 connections) — `backend/src/services/commerceClient.js`
+- **commerceConfigured()** (5 connections) — `backend/src/services/commerceClient.js`
+- **commerceFetch()** (5 connections) — `backend/src/services/commerceClient.js`
+- **isCommerceConfigured()** (5 connections) — `backend/src/services/commerceClient.js`
+- **assignPricebookToContact()** (4 connections) — `backend/src/services/commerceClient.js`
+- **deactivateCommerceContact()** (3 connections) — `backend/src/services/commerceClient.js`
+- **fetchCommercePricebooks()** (3 connections) — `backend/src/services/commerceClient.js`
+- **fetchPricebookRates()** (3 connections) — `backend/src/services/commerceClient.js`
+- **getAccessToken()** (3 connections) — `backend/src/services/commerceClient.js`
+- **parseRate()** (2 connections) — `backend/src/services/commerceClient.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Roles & Customer Sharing Spec]] (10 shared connections)
+- [[Zoho Integration Skill]] (6 shared connections)
+- [[Community 36]] (5 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/web-CRclPuvi.js`
+- `backend/src/services/commerceClient.js`
 
 ## Audit Trail
 
-- EXTRACTED: 42 (100%)
+- EXTRACTED: 81 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

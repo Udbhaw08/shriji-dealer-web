@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **asyncHandler.js** (1 connections) — `backend/src/utils/asyncHandler.js`
-- **asyncHandler()** (1 connections) — `backend/src/utils/asyncHandler.js`
+- **paginationHelper.js** (1 connections) — `backend/src/utils/paginationHelper.js`
+- **paginate()** (1 connections) — `backend/src/utils/paginationHelper.js`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `backend/src/utils/asyncHandler.js`
+- `backend/src/utils/paginationHelper.js`
 
 ## Audit Trail
 

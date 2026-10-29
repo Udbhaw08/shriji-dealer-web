@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **Managing notifications** (6 connections) — `.agents/skills/apple-design/references/hig/managing-notifications.md`
-- **managing-notifications.md** (1 connections) — `.agents/skills/apple-design/references/hig/managing-notifications.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/managing-notifications.md`
-- **Integrating with Focus** (1 connections) — `.agents/skills/apple-design/references/hig/managing-notifications.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/managing-notifications.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/managing-notifications.md`
-- **Sending marketing notifications** (1 connections) — `.agents/skills/apple-design/references/hig/managing-notifications.md`
+- **Snippets** (6 connections) — `.agents/skills/apple-design/references/hig/snippets.md`
+- **snippets.md** (1 connections) — `.agents/skills/apple-design/references/hig/snippets.md`
+- **Anatomy** (1 connections) — `.agents/skills/apple-design/references/hig/snippets.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/snippets.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/snippets.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/snippets.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/snippets.md`
 
 ## Relationships
 
@@ -18,7 +18,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/managing-notifications.md`
+- `.agents/skills/apple-design/references/hig/snippets.md`
 
 ## Audit Trail
 

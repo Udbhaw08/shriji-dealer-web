@@ -1,12 +1,11 @@
 # Community 512
 
-> 3 nodes · cohesion 0.67
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **stringUtils.js** (2 connections) — `src/utils/stringUtils.js`
-- **titleCase()** (1 connections) — `src/utils/stringUtils.js`
-- **truncate()** (1 connections) — `src/utils/stringUtils.js`
+- **NetworkStatusBadge.jsx** (1 connections) — `src/components/NetworkStatusBadge.jsx`
+- **NetworkStatusBadge()** (1 connections) — `src/components/NetworkStatusBadge.jsx`
 
 ## Relationships
 
@@ -14,11 +13,11 @@
 
 ## Source Files
 
-- `src/utils/stringUtils.js`
+- `src/components/NetworkStatusBadge.jsx`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 2 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,28 +1,31 @@
 # Community 322
 
-> 7 nodes · cohesion 0.29
+> 7 nodes · cohesion 0.38
 
 ## Key Concepts
 
-- **VoiceOver** (6 connections) — `.agents/skills/apple-design/references/hig/voiceover.md`
-- **voiceover.md** (1 connections) — `.agents/skills/apple-design/references/hig/voiceover.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/voiceover.md`
-- **Descriptions** (1 connections) — `.agents/skills/apple-design/references/hig/voiceover.md`
-- **Navigation** (1 connections) — `.agents/skills/apple-design/references/hig/voiceover.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/voiceover.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/voiceover.md`
+- **reset-test-users.js** (11 connections) — `backend/scripts/reset-test-users.js`
+- **runReset()** (5 connections) — `backend/scripts/reset-test-users.js`
+- **deleteCrmRecords()** (2 connections) — `backend/scripts/reset-test-users.js`
+- **searchCrmRecordIds()** (2 connections) — `backend/scripts/reset-test-users.js`
+- **args** (1 connections) — `backend/scripts/reset-test-users.js`
+- **customNumbers** (1 connections) — `backend/scripts/reset-test-users.js`
+- **isDryRun** (1 connections) — `backend/scripts/reset-test-users.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 36]] (3 shared connections)
+- [[Zoho Integration Skill]] (2 shared connections)
+- [[Roles & Customer Sharing Spec]] (1 shared connections)
+- [[Community 108]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/voiceover.md`
+- `backend/scripts/reset-test-users.js`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
+- EXTRACTED: 23 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **A11yAnnouncer.jsx** (1 connections) — `src/components/A11yAnnouncer.jsx`
-- **A11yAnnouncer()** (1 connections) — `src/components/A11yAnnouncer.jsx`
+- **requestLogger.js** (1 connections) — `backend/src/middleware/requestLogger.js`
+- **requestLogger()** (1 connections) — `backend/src/middleware/requestLogger.js`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `src/components/A11yAnnouncer.jsx`
+- `backend/src/middleware/requestLogger.js`
 
 ## Audit Trail
 

@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **OWASP Top 10 Security Checklist** (2 connections) — `docs/testing/security-penetration-testing-notes.md`
-- **security-penetration-testing-notes.md** (1 connections) — `docs/testing/security-penetration-testing-notes.md`
-- **Verified Protections** (1 connections) — `docs/testing/security-penetration-testing-notes.md`
+- **numberUtils.js** (2 connections) — `src/utils/numberUtils.js`
+- **calculateDiscountPercentage()** (1 connections) — `src/utils/numberUtils.js`
+- **clamp()** (1 connections) — `src/utils/numberUtils.js`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/testing/security-penetration-testing-notes.md`
+- `src/utils/numberUtils.js`
 
 ## Audit Trail
 

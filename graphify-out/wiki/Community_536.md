@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **healthService.js** (1 connections) — `backend/src/services/healthService.js`
-- **getSystemHealth()** (1 connections) — `backend/src/services/healthService.js`
+- **analytics.js** (1 connections) — `src/utils/analytics.js`
+- **trackEvent()** (1 connections) — `src/utils/analytics.js`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `backend/src/services/healthService.js`
+- `src/utils/analytics.js`
 
 ## Audit Trail
 

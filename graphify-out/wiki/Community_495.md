@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **Payment Data Isolation & Compliance Notes** (2 connections) — `docs/security/pci-dss-compliance-notes.md`
-- **pci-dss-compliance-notes.md** (1 connections) — `docs/security/pci-dss-compliance-notes.md`
-- **Architecture** (1 connections) — `docs/security/pci-dss-compliance-notes.md`
+- **Autocannon Load Test Benchmarks** (2 connections) — `docs/testing/load-testing-benchmarks.md`
+- **load-testing-benchmarks.md** (1 connections) — `docs/testing/load-testing-benchmarks.md`
+- **Targets** (1 connections) — `docs/testing/load-testing-benchmarks.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/security/pci-dss-compliance-notes.md`
+- `docs/testing/load-testing-benchmarks.md`
 
 ## Audit Trail
 

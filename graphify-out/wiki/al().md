@@ -2,7 +2,7 @@
 
 > God node · 40 connections · `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
 
-**Community:** [[Zoho Backend & Proxy Endpoints]]
+**Community:** [[Graphify Knowledge Graph Skill]]
 
 ## Connections by Relation
 

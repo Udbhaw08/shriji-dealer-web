@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **PIN Code Serviceability Matrix** (2 connections) — `docs/guides/pincode-serviceability-matrix.md`
-- **pincode-serviceability-matrix.md** (1 connections) — `docs/guides/pincode-serviceability-matrix.md`
-- **Logistics Coverage** (1 connections) — `docs/guides/pincode-serviceability-matrix.md`
+- **Android Release Keystore & Bundle Guide** (2 connections) — `docs/mobile/android-keystore-generation.md`
+- **android-keystore-generation.md** (1 connections) — `docs/mobile/android-keystore-generation.md`
+- **Commands** (1 connections) — `docs/mobile/android-keystore-generation.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/guides/pincode-serviceability-matrix.md`
+- `docs/mobile/android-keystore-generation.md`
 
 ## Audit Trail
 

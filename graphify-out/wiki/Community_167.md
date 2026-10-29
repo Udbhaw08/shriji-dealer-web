@@ -1,33 +1,35 @@
 # Community 167
 
-> 12 nodes · cohesion 0.17
+> 11 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **Search fields** (6 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
-- **Phone (iOS)** (4 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
-- **search-fields.md** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
-- **Scope bars and tokens** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
-- **Search as a tab** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
-- **Search as an inline field** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
-- **Search in a toolbar** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
-- **Tablet and desktop (iPadOS, macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/search-fields.md`
+- **favoritesStore.js** (19 connections) — `src/data/favoritesStore.js`
+- **persist()** (5 connections) — `src/data/favoritesStore.js`
+- **addFavorite()** (3 connections) — `src/data/favoritesStore.js`
+- **removeFavorite()** (3 connections) — `src/data/favoritesStore.js`
+- **toggleFavorite()** (3 connections) — `src/data/favoritesStore.js`
+- **clearFavorites()** (2 connections) — `src/data/favoritesStore.js`
+- **notify()** (2 connections) — `src/data/favoritesStore.js`
+- **favoritesState** (1 connections) — `src/data/favoritesStore.js`
+- **getFavorites()** (1 connections) — `src/data/favoritesStore.js`
+- **listeners** (1 connections) — `src/data/favoritesStore.js`
+- **loadFromStorage()** (1 connections) — `src/data/favoritesStore.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Architecture Doc Generator]] (6 shared connections)
+- [[Community 51]] (1 shared connections)
+- [[Oxlint Linter Configuration]] (1 shared connections)
+- [[Claude Agent Instructions]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/search-fields.md`
+- `src/data/favoritesStore.js`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (100%)
+- EXTRACTED: 41 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

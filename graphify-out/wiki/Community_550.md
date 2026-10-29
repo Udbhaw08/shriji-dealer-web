@@ -1,11 +1,10 @@
 # Community 550
 
-> 2 nodes · cohesion 1.00
+> 1 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **retryHelper.js** (1 connections) — `backend/src/utils/retryHelper.js`
-- **retryWithBackoff()** (1 connections) — `backend/src/utils/retryHelper.js`
+- **build.gradle** (0 connections) — `android/build.gradle`
 
 ## Relationships
 
@@ -13,11 +12,11 @@
 
 ## Source Files
 
-- `backend/src/utils/retryHelper.js`
+- `android/build.gradle`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 0 (0%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

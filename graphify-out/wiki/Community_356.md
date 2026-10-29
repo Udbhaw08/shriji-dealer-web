@@ -1,27 +1,30 @@
 # Community 356
 
-> 6 nodes · cohesion 0.33
+> 6 nodes · cohesion 0.60
 
 ## Key Concepts
 
-- **Modality** (5 connections) — `.agents/skills/apple-design/references/hig/modality.md`
-- **modality.md** (1 connections) — `.agents/skills/apple-design/references/hig/modality.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/modality.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/modality.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/modality.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/modality.md`
+- **fetchZohoProductById()** (19 connections) — `api/_lib/zoho.js`
+- **fetchZohoPricebookItems()** (7 connections) — `api/_lib/zoho.js`
+- **resolvePricebookId()** (6 connections) — `api/_lib/zoho.js`
+- **fetchResolvedPricebookRates()** (4 connections) — `api/_lib/zoho.js`
+- **readProductDetailsDiskCache()** (3 connections) — `api/_lib/zoho.js`
+- **writeProductDetailDiskCache()** (3 connections) — `api/_lib/zoho.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 46]] (9 shared connections)
+- [[Community 111]] (6 shared connections)
+- [[Community 128]] (5 shared connections)
+- [[Community 188]] (4 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/modality.md`
+- `api/_lib/zoho.js`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
+- EXTRACTED: 42 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

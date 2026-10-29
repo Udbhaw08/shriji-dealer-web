@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **formatters.js** (2 connections) — `src/utils/formatters.js`
-- **formatCurrencyINR()** (1 connections) — `src/utils/formatters.js`
-- **formatPhoneNumber()** (1 connections) — `src/utils/formatters.js`
+- **stringUtils.js** (2 connections) — `src/utils/stringUtils.js`
+- **titleCase()** (1 connections) — `src/utils/stringUtils.js`
+- **truncate()** (1 connections) — `src/utils/stringUtils.js`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `src/utils/formatters.js`
+- `src/utils/stringUtils.js`
 
 ## Audit Trail
 

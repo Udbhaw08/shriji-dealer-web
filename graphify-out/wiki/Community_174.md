@@ -1,36 +1,32 @@
 # Community 174
 
-> 11 nodes · cohesion 0.24
+> 11 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **i18n.js** (25 connections) — `src/data/i18n.js`
-- **setLanguage()** (3 connections) — `src/data/i18n.js`
-- **tCat()** (3 connections) — `src/data/i18n.js`
-- **emit()** (2 connections) — `src/data/i18n.js`
-- **toggleLanguage()** (2 connections) — `src/data/i18n.js`
-- **translations.js** (2 connections) — `src/data/translations.js`
-- **TRANSLATIONS** (2 connections) — `src/data/translations.js`
-- **currentLang** (1 connections) — `src/data/i18n.js`
-- **getInitialLang()** (1 connections) — `src/data/i18n.js`
-- **getLanguage()** (1 connections) — `src/data/i18n.js`
-- **listeners** (1 connections) — `src/data/i18n.js`
+- **Gestures** (7 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
+- **Specifications** (2 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
+- **gestures.md** (1 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
+- **Custom gestures** (1 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
+- **Standard gestures** (1 connections) — `.agents/skills/apple-design/references/hig/gestures.md`
 
 ## Relationships
 
-- [[Client Products Data Store]] (8 shared connections)
-- [[Graphify Knowledge Graph Skill]] (5 shared connections)
-- [[Community 53]] (3 shared connections)
-- [[Roles & Customer Sharing Spec]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `src/data/i18n.js`
-- `src/data/translations.js`
+- `.agents/skills/apple-design/references/hig/gestures.md`
 
 ## Audit Trail
 
-- EXTRACTED: 43 (100%)
+- EXTRACTED: 20 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

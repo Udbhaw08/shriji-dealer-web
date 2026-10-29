@@ -1,56 +1,52 @@
 # Product Requirements Documentation
 
-> 51 nodes · cohesion 0.10
+> 59 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **get()** (27 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **ff()** (26 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **Tu()** (19 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **fi()** (15 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **gl()** (15 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **uu()** (13 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **lu()** (12 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **ep()** (11 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **vu()** (11 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **hl()** (10 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **ui()** (10 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **zl()** (10 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **Iu()** (9 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **ku()** (9 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **l()** (9 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **mu()** (9 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **wl()** (9 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **cu()** (8 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **Eu()** (8 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **go()** (8 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **ho()** (8 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **jd()** (8 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **Sp()** (8 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **bl()** (7 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **hc()** (7 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- *... and 26 more nodes in this community*
+- **check-render-output.mjs** (57 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **desktop-readability.mjs** (9 connections) — `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
+- **adaptive-reader-layout.test.mjs** (9 connections) — `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
+- **parseAttrs()** (7 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **collectArrows()** (6 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **numberAttr()** (6 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **collectCompositionFrames()** (5 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **collectLegendBoxes()** (5 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **lineSegments()** (5 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **DESKTOP_READABILITY_VIEWPORT** (5 connections) — `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
+- **collectDesktopReadability()** (4 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **collectNonFiniteAttrs()** (4 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **pathSegments()** (4 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **straightPathSegments()** (4 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **textBox()** (4 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **minimumReadableSourceTextPx()** (4 connections) — `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
+- **projectedNodeTextPx()** (4 connections) — `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
+- **attrEntries()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **collectLegendCollisions()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **collectRelationshipLabelMasks()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **crossProduct()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **isCommand()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **pointsFromPath()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **properSegmentIntersection()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- **segmentIntersectsBox()** (3 connections) — `.agents/skills/archify/scripts/check-render-output.mjs`
+- *... and 34 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (59 shared connections)
-- [[Zoho Backend & Proxy Endpoints]] (23 shared connections)
-- [[Community 98]] (15 shared connections)
-- [[Community 29]] (10 shared connections)
-- [[Community 42]] (9 shared connections)
-- [[Community 31]] (9 shared connections)
-- [[Community 56]] (8 shared connections)
-- [[Agent Guidelines (AGENTS.md)]] (7 shared connections)
-- [[Community 108]] (5 shared connections)
-- [[Community 30]] (4 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (6 shared connections)
+- [[Community 43]] (4 shared connections)
+- [[Live Pricing Audit Tool]] (3 shared connections)
+- [[Community 102]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
+- `.agents/skills/archify/scripts/check-render-output.mjs`
+- `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 397 (100%)
+- EXTRACTED: 214 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

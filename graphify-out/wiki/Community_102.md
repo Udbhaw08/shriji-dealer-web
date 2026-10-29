@@ -1,48 +1,43 @@
 # Community 102
 
-> 18 nodes · cohesion 0.22
+> 18 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **D()** (23 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **np()** (20 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **r()** (13 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **bm()** (12 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **mo()** (11 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **am()** (10 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **mm()** (9 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **jm()** (7 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **kt()** (7 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **Mp()** (7 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **om()** (7 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **zm()** (7 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **nm()** (6 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **km()** (4 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **Um()** (4 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **Vm()** (3 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **Xm()** (3 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **Qa()** (2 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **viewer-chrome-layout.test.mjs** (21 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **evaluate()** (5 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **waitForLayout()** (4 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **finalGeometry()** (3 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **load()** (3 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **resize()** (3 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **edgePaintHitsUnderDock()** (2 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **state()** (2 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **clearStage()** (1 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **renderWithoutLegend()** (1 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **variant()** (1 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
+- **zero()** (1 connections) — `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (18 shared connections)
-- [[Dependencies & Package Config]] (18 shared connections)
-- [[Zoho Integration Architecture]] (15 shared connections)
-- [[Community 43]] (10 shared connections)
-- [[Community 41]] (7 shared connections)
-- [[Community 35]] (6 shared connections)
-- [[Community 34]] (5 shared connections)
-- [[Zoho API Diagnostic Script]] (4 shared connections)
-- [[Community 112]] (3 shared connections)
+- [[Community 43]] (1 shared connections)
+- [[Community 151]] (1 shared connections)
+- [[Community 127]] (1 shared connections)
+- [[Product Requirements Documentation]] (1 shared connections)
 - [[Community 58]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-1EUJIH5f.js`
+- `.agents/skills/archify/test/viewer-chrome-layout.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 155 (100%)
+- EXTRACTED: 53 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

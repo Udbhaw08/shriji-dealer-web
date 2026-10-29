@@ -1,56 +1,47 @@
 # Community 56
 
-> 26 nodes · cohesion 0.14
+> 26 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **zd()** (13 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **Nd()** (12 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **qd()** (12 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **af()** (10 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **tf()** (10 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **ef()** (8 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **uf()** (8 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **Xd()** (8 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **et()** (7 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **Gd()** (7 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **lf()** (7 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **tt()** (7 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **of()** (6 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **Rd()** (6 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **Bd()** (5 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **sf()** (5 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **Vr()** (5 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **cf()** (4 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **jf()** (4 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **Oi()** (4 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **Zo()** (4 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **Hd()** (3 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **Ud()** (3 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **Fd()** (2 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **fm()** (2 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **layout-rules.test.mjs** (25 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **assertRelationshipsAvoidAllNodeBorders()** (5 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **workflowNodeBorderOverlap()** (3 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **assertWorkflowEdgesAvoidAllNodeBorders()** (2 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **axisOverlapLength()** (2 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **workflowEdgePoints()** (2 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **workflowNodeRect()** (2 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **ambiguousCorridorDocument()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **autoRoutePassThroughDocument()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **boundaryFrameRect()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **boundaryTitleMasks()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **EXAMPLES** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **hash()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **load()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **rectanglesOverlap()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **rectContainsRect()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **SHRINK_CASES** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **TAG_SHRINK_CASES** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **tangentViaLifecycle()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
+- **validateCli()** (1 connections) — `.agents/skills/archify/test/layout-rules.test.mjs`
 - *... and 1 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (29 shared connections)
-- [[Community 29]] (10 shared connections)
-- [[Zoho Backend & Proxy Endpoints]] (10 shared connections)
-- [[Product Requirements Documentation]] (8 shared connections)
-- [[Community 108]] (5 shared connections)
-- [[Community 30]] (4 shared connections)
-- [[Community 31]] (3 shared connections)
-- [[Community 42]] (1 shared connections)
-- [[Community 98]] (1 shared connections)
-- [[Agent Guidelines (AGENTS.md)]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- `.agents/skills/archify/test/layout-rules.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 164 (100%)
+- EXTRACTED: 60 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

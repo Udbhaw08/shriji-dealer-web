@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **payloadValidator.test.mjs** (0 connections) — `backend/test/payloadValidator.test.mjs`
+- **site-language-integration.mjs** (0 connections) — `.agents/skills/archify/test/site-language-integration.mjs`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `backend/test/payloadValidator.test.mjs`
+- `.agents/skills/archify/test/site-language-integration.mjs`
 
 ## Audit Trail
 

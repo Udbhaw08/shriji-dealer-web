@@ -1,47 +1,53 @@
 # Community 46
 
-> 33 nodes · cohesion 0.06
+> 32 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **scripts** (15 connections) — `.agents/skills/archify/package.json`
-- **package.json** (11 connections) — `.agents/skills/archify/package.json`
-- **devDependencies** (5 connections) — `.agents/skills/archify/package.json`
-- **bin** (2 connections) — `.agents/skills/archify/package.json`
-- **engines** (2 connections) — `.agents/skills/archify/package.json`
-- **overrides** (2 connections) — `.agents/skills/archify/package.json`
-- **archify** (1 connections) — `.agents/skills/archify/package.json`
-- **description** (1 connections) — `.agents/skills/archify/package.json`
-- **ajv** (1 connections) — `.agents/skills/archify/package.json`
-- **parse5** (1 connections) — `.agents/skills/archify/package.json`
-- **saxes** (1 connections) — `.agents/skills/archify/package.json`
-- **simple-icons** (1 connections) — `.agents/skills/archify/package.json`
-- **node** (1 connections) — `.agents/skills/archify/package.json`
-- **license** (1 connections) — `.agents/skills/archify/package.json`
-- **name** (1 connections) — `.agents/skills/archify/package.json`
-- **fast-uri** (1 connections) — `.agents/skills/archify/package.json`
-- **private** (1 connections) — `.agents/skills/archify/package.json`
-- **build:gallery** (1 connections) — `.agents/skills/archify/package.json`
-- **build:guide** (1 connections) — `.agents/skills/archify/package.json`
-- **build:readme-showcase** (1 connections) — `.agents/skills/archify/package.json`
-- **build:start** (1 connections) — `.agents/skills/archify/package.json`
-- **check:brand-marks** (1 connections) — `.agents/skills/archify/package.json`
-- **check:release-identity** (1 connections) — `.agents/skills/archify/package.json`
-- **check:validators** (1 connections) — `.agents/skills/archify/package.json`
-- **check:viewer** (1 connections) — `.agents/skills/archify/package.json`
-- *... and 8 more nodes in this community*
+- **zoho.js** (60 connections) — `api/_lib/zoho.js`
+- **syncRecentProductTags()** (7 connections) — `api/_lib/zoho.js`
+- **normalizeProduct()** (6 connections) — `api/_lib/zoho.js`
+- **readTagCache()** (6 connections) — `api/_lib/zoho.js`
+- **updateCachedProductTags()** (4 connections) — `api/_lib/zoho.js`
+- **sync-tags.js** (4 connections) — `api/products/sync-tags.js`
+- **getCachedProductTags()** (3 connections) — `api/_lib/zoho.js`
+- **isItemOnline()** (3 connections) — `api/_lib/zoho.js`
+- **handler()** (3 connections) — `api/products/sync-tags.js`
+- **isItemCategoryOnline()** (2 connections) — `api/_lib/zoho.js`
+- **parseRate()** (2 connections) — `api/_lib/zoho.js`
+- **slugifyCategory()** (2 connections) — `api/_lib/zoho.js`
+- **slugifyProduct()** (2 connections) — `api/_lib/zoho.js`
+- **writeTagCache()** (2 connections) — `api/_lib/zoho.js`
+- **cachedPricebooks** (1 connections) — `api/_lib/zoho.js`
+- **cachedProductDetails** (1 connections) — `api/_lib/zoho.js`
+- **cachedProductsByPricebook** (1 connections) — `api/_lib/zoho.js`
+- **clearDiskCache()** (1 connections) — `api/_lib/zoho.js`
+- **DEFAULT_SCHEMES** (1 connections) — `api/_lib/zoho.js`
+- **DEFAULT_STORE_BANNERS** (1 connections) — `api/_lib/zoho.js`
+- **isBannerItem()** (1 connections) — `api/_lib/zoho.js`
+- **isLogoItem()** (1 connections) — `api/_lib/zoho.js`
+- **isSchemeItem()** (1 connections) — `api/_lib/zoho.js`
+- **localCacheFile** (1 connections) — `api/_lib/zoho.js`
+- **localDetailCacheFile** (1 connections) — `api/_lib/zoho.js`
+- *... and 7 more nodes in this community*
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 128]] (13 shared connections)
+- [[Community 356]] (9 shared connections)
+- [[Community 111]] (7 shared connections)
+- [[Community 188]] (4 shared connections)
+- [[Community 86]] (2 shared connections)
+- [[Community 146]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/package.json`
+- `api/_lib/zoho.js`
+- `api/products/sync-tags.js`
 
 ## Audit Trail
 
-- EXTRACTED: 64 (100%)
+- EXTRACTED: 124 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

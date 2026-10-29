@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **verify-all.mjs** (0 connections) — `scripts/verify-all.mjs`
+- **cryptoHelper.test.mjs** (0 connections) — `backend/test/cryptoHelper.test.mjs`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `scripts/verify-all.mjs`
+- `backend/test/cryptoHelper.test.mjs`
 
 ## Audit Trail
 

@@ -1,68 +1,56 @@
 # Graphify Knowledge Graph Skill
 
-> 46 nodes · cohesion 0.09
+> 49 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **ui.jsx** (45 connections) — `src/ui.jsx`
-- **Home.jsx** (26 connections) — `src/pages/Home.jsx`
-- **site.js** (24 connections) — `src/data/site.js`
-- **Icon()** (20 connections) — `src/ui.jsx`
-- **Schemes.jsx** (17 connections) — `src/pages/Schemes.jsx`
-- **COMPANY** (16 connections) — `src/data/site.js`
-- **Support.jsx** (16 connections) — `src/pages/Support.jsx`
-- **HeroSlider.jsx** (12 connections) — `src/components/HeroSlider.jsx`
-- **ContentAdminDashboard.jsx** (12 connections) — `src/pages/ContentAdminDashboard.jsx`
-- **UnderMaintenance.jsx** (8 connections) — `src/components/UnderMaintenance.jsx`
-- **video.js** (6 connections) — `src/utils/video.js`
-- **UnderMaintenance()** (5 connections) — `src/components/UnderMaintenance.jsx`
-- **LegalPrivacy.jsx** (5 connections) — `src/pages/LegalPrivacy.jsx`
-- **LegalTerms.jsx** (5 connections) — `src/pages/LegalTerms.jsx`
-- **PrivacyPolicy.jsx** (5 connections) — `src/pages/PrivacyPolicy.jsx`
-- **TermsOfService.jsx** (5 connections) — `src/pages/TermsOfService.jsx`
-- **parseVideoUrl()** (5 connections) — `src/utils/video.js`
-- **FileOrUrlInput.jsx** (4 connections) — `src/components/FileOrUrlInput.jsx`
-- **EnquiryButtons()** (4 connections) — `src/ui.jsx`
-- **HeroSlider()** (3 connections) — `src/components/HeroSlider.jsx`
-- **SCHEMES** (3 connections) — `src/data/site.js`
-- **STATS** (3 connections) — `src/data/site.js`
-- **video-banner.test.mjs** (3 connections) — `src/data/video-banner.test.mjs`
-- **FileOrUrlInput()** (2 connections) — `src/components/FileOrUrlInput.jsx`
-- **ISSUE_TYPES** (2 connections) — `src/data/site.js`
-- *... and 21 more nodes in this community*
+- **al()** (40 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **bc()** (18 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **Ti()** (13 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **ia()** (12 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **lm()** (12 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **gc()** (11 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **il()** (10 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **Ei()** (8 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **kc()** (8 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **jc()** (7 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **ki()** (7 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **no()** (7 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **qi()** (7 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **ao()** (6 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **lh()** (6 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **qc()** (6 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **Ai()** (5 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **Ca()** (5 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **dc()** (5 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **hm()** (5 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **ma()** (5 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **Mi()** (5 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **qm()** (5 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **rl()** (5 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **di()** (4 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- *... and 24 more nodes in this community*
 
 ## Relationships
 
-- [[Community 53]] (39 shared connections)
-- [[Client Products Data Store]] (34 shared connections)
-- [[Roles & Customer Sharing Spec]] (13 shared connections)
-- [[Community 89]] (11 shared connections)
-- [[Community 174]] (5 shared connections)
-- [[Community 32]] (2 shared connections)
-- [[Community 173]] (1 shared connections)
+- [[Price Presentation & Product UI]] (52 shared connections)
+- [[Dependencies & Package Config]] (40 shared connections)
+- [[Community 47]] (11 shared connections)
+- [[Community 70]] (10 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (10 shared connections)
+- [[Pricing & Roles Skill]] (8 shared connections)
+- [[Project Readme & Layout]] (7 shared connections)
+- [[Community 40]] (5 shared connections)
+- [[Community 187]] (2 shared connections)
 
 ## Source Files
 
-- `src/components/FileOrUrlInput.jsx`
-- `src/components/HeroSlider.jsx`
-- `src/components/UnderMaintenance.jsx`
-- `src/data/site.js`
-- `src/data/video-banner.test.mjs`
-- `src/pages/ContentAdminDashboard.jsx`
-- `src/pages/Home.jsx`
-- `src/pages/LegalPrivacy.jsx`
-- `src/pages/LegalTerms.jsx`
-- `src/pages/PrivacyPolicy.jsx`
-- `src/pages/Schemes.jsx`
-- `src/pages/Support.jsx`
-- `src/pages/TermsOfService.jsx`
-- `src/ui.jsx`
-- `src/utils/video.js`
+- `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
 
 ## Audit Trail
 
-- EXTRACTED: 286 (100%)
-- INFERRED: 1 (0%)
+- EXTRACTED: 299 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

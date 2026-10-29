@@ -33,13 +33,13 @@
 
 ## Relationships
 
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (38 shared connections)
-- [[Community 116]] (19 shared connections)
-- [[Product Brand & Business Vision]] (18 shared connections)
-- [[Design System & UI Tokens]] (16 shared connections)
-- [[Community 120]] (6 shared connections)
-- [[Community 144]] (5 shared connections)
-- [[Community 327]] (3 shared connections)
+- [[Zoho Integration Skill]] (38 shared connections)
+- [[Community 108]] (19 shared connections)
+- [[Roles & Customer Sharing Spec]] (18 shared connections)
+- [[Client Products Data Store]] (16 shared connections)
+- [[Community 112]] (6 shared connections)
+- [[Community 138]] (5 shared connections)
+- [[Community 322]] (3 shared connections)
 
 ## Source Files
 

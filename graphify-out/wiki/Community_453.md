@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **Session Security Lifecycle & Token Rotation** (2 connections) — `docs/architecture/session-security-lifecycle.md`
-- **session-security-lifecycle.md** (1 connections) — `docs/architecture/session-security-lifecycle.md`
-- **Token Lifecycles** (1 connections) — `docs/architecture/session-security-lifecycle.md`
+- **Customer Share Link (?from=) Specification** (2 connections) — `docs/guides/customer-share-link-spec.md`
+- **customer-share-link-spec.md** (1 connections) — `docs/guides/customer-share-link-spec.md`
+- **Behavior** (1 connections) — `docs/guides/customer-share-link-spec.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/architecture/session-security-lifecycle.md`
+- `docs/guides/customer-share-link-spec.md`
 
 ## Audit Trail
 

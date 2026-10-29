@@ -1,51 +1,55 @@
 # Mobile Responsive UI Skill
 
-> 44 nodes · cohesion 0.05
+> 49 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **properties** (30 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **label** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **pad** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **row** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **brand** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **from** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **fromSide** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **id** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **kind** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **labelAt** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **labelDx** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **labelDy** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **pos** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **route** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **sublabel** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **tag** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **to** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **toSide** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **variant** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **width** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- *... and 19 more nodes in this community*
+- **get()** (27 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **ff()** (26 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **Tu()** (19 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **fi()** (15 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **gl()** (15 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **uu()** (13 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **bm()** (12 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **lu()** (12 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **ep()** (11 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **vu()** (11 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **hl()** (10 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **ui()** (10 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **zl()** (10 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **Iu()** (9 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **ku()** (9 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **mu()** (9 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **wl()** (9 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **cu()** (8 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **Eu()** (8 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **jd()** (8 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **Sp()** (8 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **bl()** (7 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **hc()** (7 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **wa()** (7 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **yl()** (7 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- *... and 24 more nodes in this community*
 
 ## Relationships
 
-- [[Community 129]] (5 shared connections)
-- [[Community 280]] (2 shared connections)
-- [[Community 476]] (1 shared connections)
-- [[Community 477]] (1 shared connections)
-- [[Community 364]] (1 shared connections)
+- [[Dealer Auth & Session Management]] (62 shared connections)
+- [[Master Codebase Architecture Reference]] (24 shared connections)
+- [[Community 29]] (13 shared connections)
+- [[Design System & UI Tokens]] (12 shared connections)
+- [[Product Brand & Business Vision]] (9 shared connections)
+- [[Community 199]] (7 shared connections)
+- [[Community 64]] (6 shared connections)
+- [[Community 53]] (3 shared connections)
+- [[Community 121]] (3 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/architecture.schema.json`
+- `ios/App/App/public/assets/index-1EUJIH5f.js`
 
 ## Audit Trail
 
-- EXTRACTED: 96 (100%)
+- EXTRACTED: 383 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

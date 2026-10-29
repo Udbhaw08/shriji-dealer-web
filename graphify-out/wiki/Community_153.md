@@ -1,35 +1,33 @@
 # Community 153
 
-> 13 nodes · cohesion 0.15
+> 12 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **audit_prices.mjs** (14 connections) — `scripts/audit_prices.mjs`
-- **run()** (2 connections) — `scripts/audit_prices.mjs`
-- **content** (1 connections) — `scripts/audit_prices.mjs`
-- **csvItems** (1 connections) — `scripts/audit_prices.mjs`
-- **idIdx** (1 connections) — `scripts/audit_prices.mjs`
-- **lines** (1 connections) — `scripts/audit_prices.mjs`
-- **lpIdx** (1 connections) — `scripts/audit_prices.mjs`
-- **nameIdx** (1 connections) — `scripts/audit_prices.mjs`
-- **parseCSVLine()** (1 connections) — `scripts/audit_prices.mjs`
-- **parsedHeader** (1 connections) — `scripts/audit_prices.mjs`
-- **showIdx** (1 connections) — `scripts/audit_prices.mjs`
-- **spIdx** (1 connections) — `scripts/audit_prices.mjs`
-- **statusIdx** (1 connections) — `scripts/audit_prices.mjs`
+- **Apple Pencil and Scribble** (11 connections) — `.agents/skills/apple-design/references/hig/apple-pencil-and-scribble.md`
+- **apple-pencil-and-scribble.md** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pencil-and-scribble.md`
+- **Barrel roll** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pencil-and-scribble.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pencil-and-scribble.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pencil-and-scribble.md`
+- **Custom drawing** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pencil-and-scribble.md`
+- **Double tap** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pencil-and-scribble.md`
+- **Hover** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pencil-and-scribble.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pencil-and-scribble.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pencil-and-scribble.md`
+- **Scribble** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pencil-and-scribble.md`
+- **Squeeze** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pencil-and-scribble.md`
 
 ## Relationships
 
-- [[Community 119]] (2 shared connections)
-- [[Community 48]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `scripts/audit_prices.mjs`
+- `.agents/skills/apple-design/references/hig/apple-pencil-and-scribble.md`
 
 ## Audit Trail
 
-- EXTRACTED: 27 (100%)
+- EXTRACTED: 22 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

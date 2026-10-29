@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **Autocannon Load Test Benchmarks** (2 connections) — `docs/testing/load-testing-benchmarks.md`
-- **load-testing-benchmarks.md** (1 connections) — `docs/testing/load-testing-benchmarks.md`
-- **Targets** (1 connections) — `docs/testing/load-testing-benchmarks.md`
+- **maskSensitiveData.js** (2 connections) — `backend/src/utils/maskSensitiveData.js`
+- **maskEmail()** (1 connections) — `backend/src/utils/maskSensitiveData.js`
+- **maskPhoneNumber()** (1 connections) — `backend/src/utils/maskSensitiveData.js`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/testing/load-testing-benchmarks.md`
+- `backend/src/utils/maskSensitiveData.js`
 
 ## Audit Trail
 

@@ -1,35 +1,41 @@
 # Community 141
 
-> 14 nodes · cohesion 0.14
+> 13 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **Icons & Glyphs Guide** (10 connections) — `.agents/skills/refero-design/references/icons.md`
-- **Libraries** (4 connections) — `.agents/skills/refero-design/references/icons.md`
-- **icons.md** (1 connections) — `.agents/skills/refero-design/references/icons.md`
-- **Accessibility** (1 connections) — `.agents/skills/refero-design/references/icons.md`
-- **Color** (1 connections) — `.agents/skills/refero-design/references/icons.md`
-- **For Product UI (SVG-based)** (1 connections) — `.agents/skills/refero-design/references/icons.md`
-- **Icon Sizing** (1 connections) — `.agents/skills/refero-design/references/icons.md`
-- **Icon + Text Pairing** (1 connections) — `.agents/skills/refero-design/references/icons.md`
-- **Optical Corrections** (1 connections) — `.agents/skills/refero-design/references/icons.md`
-- **Pre-Ship Checklist** (1 connections) — `.agents/skills/refero-design/references/icons.md`
-- **Style Consistency** (1 connections) — `.agents/skills/refero-design/references/icons.md`
-- **Two Contexts** (1 connections) — `.agents/skills/refero-design/references/icons.md`
-- **Variable Glyph Systems** (1 connections) — `.agents/skills/refero-design/references/icons.md`
-- **When to Use What** (1 connections) — `.agents/skills/refero-design/references/icons.md`
+- **tf()** (10 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **ef()** (8 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **uf()** (8 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **et()** (7 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **lf()** (7 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **of()** (6 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **sf()** (5 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **cf()** (4 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **jf()** (4 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **vf()** (3 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **Wf()** (3 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **fm()** (2 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **hp()** (2 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Price Presentation & Product UI]] (14 shared connections)
+- [[Pricing & Roles Skill]] (5 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (5 shared connections)
+- [[Dependencies & Package Config]] (3 shared connections)
+- [[Community 47]] (3 shared connections)
+- [[Project Readme & Layout]] (3 shared connections)
+- [[Community 70]] (1 shared connections)
+- [[Community 40]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/refero-design/references/icons.md`
+- `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
 
 ## Audit Trail
 
-- EXTRACTED: 26 (100%)
+- EXTRACTED: 69 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

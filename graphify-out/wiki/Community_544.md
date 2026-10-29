@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **clipboard.js** (1 connections) — `src/utils/clipboard.js`
-- **copyToClipboard()** (1 connections) — `src/utils/clipboard.js`
+- **retryHelper.js** (1 connections) — `backend/src/utils/retryHelper.js`
+- **retryWithBackoff()** (1 connections) — `backend/src/utils/retryHelper.js`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `src/utils/clipboard.js`
+- `backend/src/utils/retryHelper.js`
 
 ## Audit Trail
 

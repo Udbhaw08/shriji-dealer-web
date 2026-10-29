@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **Content Security Policy (CSP) Directives** (2 connections) — `docs/security/content-security-policy.md`
-- **content-security-policy.md** (1 connections) — `docs/security/content-security-policy.md`
-- **Directives** (1 connections) — `docs/security/content-security-policy.md`
+- **repository-language-metadata.test.mjs** (2 connections) — `.agents/skills/archify/test/repository-language-metadata.test.mjs`
+- **linguistGenerated()** (1 connections) — `.agents/skills/archify/test/repository-language-metadata.test.mjs`
+- **repoRoot** (1 connections) — `.agents/skills/archify/test/repository-language-metadata.test.mjs`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/security/content-security-policy.md`
+- `.agents/skills/archify/test/repository-language-metadata.test.mjs`
 
 ## Audit Trail
 

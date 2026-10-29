@@ -1,28 +1,28 @@
 # Community 332
 
-> 7 nodes · cohesion 0.29
+> 7 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **diagram-guide.test.mjs** (6 connections) — `.agents/skills/archify/test/diagram-guide.test.mjs`
-- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/diagram-guide.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/diagram-guide.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/diagram-guide.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/diagram-guide.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/diagram-guide.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/diagram-guide.test.mjs`
+- **preview.test.mjs** (8 connections) — `.agents/skills/archify/test/preview.test.mjs`
+- **stateAt()** (2 connections) — `.agents/skills/archify/test/preview.test.mjs`
+- **waitForState()** (2 connections) — `.agents/skills/archify/test/preview.test.mjs`
+- **here** (1 connections) — `.agents/skills/archify/test/preview.test.mjs`
+- **rawRequest()** (1 connections) — `.agents/skills/archify/test/preview.test.mjs`
+- **sha256()** (1 connections) — `.agents/skills/archify/test/preview.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/preview.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 72]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/diagram-guide.test.mjs`
+- `.agents/skills/archify/test/preview.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

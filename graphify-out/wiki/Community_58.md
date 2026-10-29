@@ -1,57 +1,60 @@
 # Community 58
 
-> 26 nodes · cohesion 0.14
+> 25 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **zd()** (13 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **Nd()** (12 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **qd()** (12 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **af()** (10 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **tf()** (10 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **ef()** (8 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **uf()** (8 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **Xd()** (8 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **et()** (7 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **Gd()** (7 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **lf()** (7 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **tt()** (7 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **of()** (6 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **Rd()** (6 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **Bd()** (5 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **sf()** (5 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **Vr()** (5 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **cf()** (4 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **jf()** (4 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **Oi()** (4 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **Zo()** (4 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **Hd()** (3 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **Ud()** (3 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **Fd()** (2 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **fm()** (2 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- *... and 1 more nodes in this community*
+- **.send()** (54 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **semantic-lens-browser.test.mjs** (14 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **export-browser.test.mjs** (9 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
+- **motion-governor-browser.test.mjs** (9 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
+- **run()** (6 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **run()** (5 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
+- **run()** (5 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
+- **load()** (4 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
+- **point()** (4 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **click()** (3 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
+- **load()** (3 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
+- **record()** (3 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
+- **media()** (3 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
+- **screenshot()** (3 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
+- **click()** (3 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **load()** (3 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **move()** (3 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **key()** (2 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
+- **snapshot()** (2 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
+- **hash()** (2 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **key()** (2 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **snapshot()** (2 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (30 shared connections)
-- [[Dependencies & Package Config]] (10 shared connections)
-- [[Community 41]] (9 shared connections)
-- [[Zoho Integration Architecture]] (8 shared connections)
-- [[Community 112]] (5 shared connections)
-- [[Community 34]] (4 shared connections)
-- [[Community 35]] (3 shared connections)
-- [[Community 43]] (1 shared connections)
+- [[Community 129]] (9 shared connections)
+- [[Community 89]] (8 shared connections)
+- [[Community 127]] (7 shared connections)
+- [[Community 151]] (6 shared connections)
+- [[Community 147]] (5 shared connections)
+- [[Community 148]] (5 shared connections)
+- [[Community 183]] (4 shared connections)
+- [[Community 252]] (4 shared connections)
+- [[Community 43]] (3 shared connections)
 - [[Community 102]] (1 shared connections)
-- [[Zoho API Diagnostic Script]] (1 shared connections)
+- [[Community 41]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-1EUJIH5f.js`
+- `.agents/skills/archify/bin/visual-check.mjs`
+- `.agents/skills/archify/test/export-browser.test.mjs`
+- `.agents/skills/archify/test/motion-governor-browser.test.mjs`
+- `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 164 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 145 (99%)
+- INFERRED: 2 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **Zoho Commerce Inventory Synchronization** (2 connections) — `docs/architecture/zoho-inventory-sync.md`
-- **zoho-inventory-sync.md** (1 connections) — `docs/architecture/zoho-inventory-sync.md`
-- **Strategy** (1 connections) — `docs/architecture/zoho-inventory-sync.md`
+- **Developer Cheat Sheet** (2 connections) — `docs/guides/developer-cheat-sheet.md`
+- **developer-cheat-sheet.md** (1 connections) — `docs/guides/developer-cheat-sheet.md`
+- **Common Commands** (1 connections) — `docs/guides/developer-cheat-sheet.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/architecture/zoho-inventory-sync.md`
+- `docs/guides/developer-cheat-sheet.md`
 
 ## Audit Trail
 

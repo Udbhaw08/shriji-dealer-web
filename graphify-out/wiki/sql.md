@@ -2,7 +2,7 @@
 
 > God node · 80 connections · `backend/src/db/pool.js`
 
-**Community:** [[Pricing Hierarchy & Zero-Leakage Spec]]
+**Community:** [[Zoho Integration Skill]]
 
 ## Connections by Relation
 

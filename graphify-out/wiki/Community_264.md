@@ -4,14 +4,14 @@
 
 ## Key Concepts
 
-- **Keyboards** (7 connections) — `.agents/skills/apple-design/references/hig/keyboards.md`
-- **keyboards.md** (1 connections) — `.agents/skills/apple-design/references/hig/keyboards.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/keyboards.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/keyboards.md`
-- **Custom keyboard shortcuts** (1 connections) — `.agents/skills/apple-design/references/hig/keyboards.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/keyboards.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/keyboards.md`
-- **Standard keyboard shortcuts** (1 connections) — `.agents/skills/apple-design/references/hig/keyboards.md`
+- **Offering help** (6 connections) — `.agents/skills/apple-design/references/hig/offering-help.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/offering-help.md`
+- **offering-help.md** (1 connections) — `.agents/skills/apple-design/references/hig/offering-help.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/offering-help.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/offering-help.md`
+- **Creating tips** (1 connections) — `.agents/skills/apple-design/references/hig/offering-help.md`
+- **Desktop (macOS, visionOS)** (1 connections) — `.agents/skills/apple-design/references/hig/offering-help.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/offering-help.md`
 
 ## Relationships
 
@@ -19,7 +19,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/keyboards.md`
+- `.agents/skills/apple-design/references/hig/offering-help.md`
 
 ## Audit Trail
 

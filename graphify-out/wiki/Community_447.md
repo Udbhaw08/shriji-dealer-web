@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **Zoho CRM Webhook Event Payloads** (2 connections) — `docs/api/webhook-event-types.md`
-- **webhook-event-types.md** (1 connections) — `docs/api/webhook-event-types.md`
-- **Event: dealer.approved** (1 connections) — `docs/api/webhook-event-types.md`
+- **Session Security Lifecycle & Token Rotation** (2 connections) — `docs/architecture/session-security-lifecycle.md`
+- **session-security-lifecycle.md** (1 connections) — `docs/architecture/session-security-lifecycle.md`
+- **Token Lifecycles** (1 connections) — `docs/architecture/session-security-lifecycle.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/api/webhook-event-types.md`
+- `docs/architecture/session-security-lifecycle.md`
 
 ## Audit Trail
 

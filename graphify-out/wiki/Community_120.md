@@ -1,45 +1,36 @@
 # Community 120
 
-> 16 nodes · cohesion 0.16
+> 15 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **errorHandler.js** (9 connections) — `backend/src/middleware/errorHandler.js`
-- **rateLimit.js** (9 connections) — `backend/src/middleware/rateLimit.js`
-- **securityPhase3.test.mjs** (9 connections) — `backend/test/securityPhase3.test.mjs`
-- **admin.js** (8 connections) — `backend/src/routes/admin.js`
-- **rateLimit()** (7 connections) — `backend/src/middleware/rateLimit.js`
-- **rateLimitFix.test.mjs** (4 connections) — `backend/test/rateLimitFix.test.mjs`
-- **errorHandler()** (3 connections) — `backend/src/middleware/errorHandler.js`
-- **getClientIp()** (3 connections) — `backend/src/middleware/rateLimit.js`
-- **adminRouter** (3 connections) — `backend/src/routes/admin.js`
-- **buckets** (1 connections) — `backend/src/middleware/rateLimit.js`
-- **loginRateLimit** (1 connections) — `backend/src/routes/admin.js`
-- **json()** (1 connections) — `backend/test/rateLimitFix.test.mjs`
-- **status()** (1 connections) — `backend/test/rateLimitFix.test.mjs`
-- **atomicRotate()** (1 connections) — `backend/test/securityPhase3.test.mjs`
-- **json()** (1 connections) — `backend/test/securityPhase3.test.mjs`
-- **status()** (1 connections) — `backend/test/securityPhase3.test.mjs`
+- **Sign in with Apple** (6 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- **Using the system-provided buttons** (5 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- **Creating a custom Sign in with Apple button** (3 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- **Displaying buttons** (3 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- **sign-in-with-apple.md** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- **Black** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- **Button size and corner radius** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- **Collecting data** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- **Custom buttons with a logo and text** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- **Custom logo-only buttons** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- **Offering Sign in with Apple** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- **White** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- **White with outline** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
 
 ## Relationships
 
-- [[Product Brand & Business Vision]] (8 shared connections)
-- [[Community 36]] (6 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (6 shared connections)
-- [[Community 51]] (2 shared connections)
-- [[Design System & UI Tokens]] (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `backend/src/middleware/errorHandler.js`
-- `backend/src/middleware/rateLimit.js`
-- `backend/src/routes/admin.js`
-- `backend/test/rateLimitFix.test.mjs`
-- `backend/test/securityPhase3.test.mjs`
+- `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
 
 ## Audit Trail
 
-- EXTRACTED: 62 (100%)
+- EXTRACTED: 28 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

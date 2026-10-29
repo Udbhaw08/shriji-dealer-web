@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **debounce.js** (2 connections) — `src/utils/debounce.js`
-- **debounce()** (1 connections) — `src/utils/debounce.js`
-- **throttle()** (1 connections) — `src/utils/debounce.js`
+- **storage.js** (2 connections) — `src/utils/storage.js`
+- **memoryStore** (1 connections) — `src/utils/storage.js`
+- **safeStorage** (1 connections) — `src/utils/storage.js`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `src/utils/debounce.js`
+- `src/utils/storage.js`
 
 ## Audit Trail
 

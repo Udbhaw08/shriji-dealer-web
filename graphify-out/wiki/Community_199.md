@@ -1,31 +1,38 @@
 # Community 199
 
-> 10 nodes · cohesion 0.20
+> 10 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **Maps** (7 connections) — `.agents/skills/apple-design/references/hig/maps.md`
-- **Place cards** (3 connections) — `.agents/skills/apple-design/references/hig/maps.md`
-- **maps.md** (1 connections) — `.agents/skills/apple-design/references/hig/maps.md`
-- **Adding place cards outside of a map** (1 connections) — `.agents/skills/apple-design/references/hig/maps.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/maps.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/maps.md`
-- **Custom information** (1 connections) — `.agents/skills/apple-design/references/hig/maps.md`
-- **Displaying place cards in a map** (1 connections) — `.agents/skills/apple-design/references/hig/maps.md`
-- **Indoor maps** (1 connections) — `.agents/skills/apple-design/references/hig/maps.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/maps.md`
+- **np()** (20 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **mm()** (9 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **jm()** (7 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **om()** (7 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **zm()** (7 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **km()** (4 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **M()** (4 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **Um()** (4 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **jp()** (3 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
+- **Xm()** (3 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Dealer Auth & Session Management]] (11 shared connections)
+- [[Master Codebase Architecture Reference]] (9 shared connections)
+- [[Mobile Responsive UI Skill]] (7 shared connections)
+- [[Design System & UI Tokens]] (6 shared connections)
+- [[Community 29]] (4 shared connections)
+- [[Product Brand & Business Vision]] (3 shared connections)
+- [[Community 53]] (1 shared connections)
+- [[Community 121]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/maps.md`
+- `ios/App/App/public/assets/index-1EUJIH5f.js`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (100%)
+- EXTRACTED: 68 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

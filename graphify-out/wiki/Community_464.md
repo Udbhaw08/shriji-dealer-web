@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **Volume Tier Discounts & Quantity Slabs** (2 connections) — `docs/guides/pricing-tiers-and-slabs.md`
-- **pricing-tiers-and-slabs.md** (1 connections) — `docs/guides/pricing-tiers-and-slabs.md`
-- **Slab Structure** (1 connections) — `docs/guides/pricing-tiers-and-slabs.md`
+- **Capacitor Native Mobile Sync Workflow** (2 connections) — `docs/mobile/capacitor-native-sync.md`
+- **capacitor-native-sync.md** (1 connections) — `docs/mobile/capacitor-native-sync.md`
+- **Commands** (1 connections) — `docs/mobile/capacitor-native-sync.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/guides/pricing-tiers-and-slabs.md`
+- `docs/mobile/capacitor-native-sync.md`
 
 ## Audit Trail
 

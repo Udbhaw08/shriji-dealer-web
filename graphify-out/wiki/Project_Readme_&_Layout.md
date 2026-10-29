@@ -1,55 +1,56 @@
 # Project Readme & Layout
 
-> 42 nodes · cohesion 0.05
+> 45 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **properties** (30 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **col** (4 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **height** (3 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **brand** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **channelX** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **channelY** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **from** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **id** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **labelDx** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **labelDy** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **lane** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **route** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **step** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **sublabel** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **tag** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **to** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **toSide** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **type** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **variant** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **yOffset** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **maximum** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **minimum** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- *... and 17 more nodes in this community*
+- **Or()** (28 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **gf()** (20 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **vn()** (11 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **af()** (10 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **Ar()** (9 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **qr()** (8 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **fn()** (7 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **hn()** (7 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **ln()** (7 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **Fr()** (6 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **hr()** (6 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **mr()** (6 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **xr()** (6 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **bn()** (5 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **E()** (5 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **Ir()** (5 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **jr()** (5 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **li()** (5 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **pr()** (5 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **sm()** (5 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **Vr()** (5 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **br()** (4 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **gr()** (4 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **Ld()** (4 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **Lr()** (4 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- *... and 20 more nodes in this community*
 
 ## Relationships
 
-- [[Community 207]] (3 shared connections)
-- [[Community 484]] (1 shared connections)
-- [[Community 530]] (1 shared connections)
-- [[Community 485]] (1 shared connections)
-- [[Community 531]] (1 shared connections)
-- [[Community 486]] (1 shared connections)
-- [[Community 532]] (1 shared connections)
-- [[Community 428]] (1 shared connections)
-- [[Community 429]] (1 shared connections)
+- [[Price Presentation & Product UI]] (46 shared connections)
+- [[Dependencies & Package Config]] (13 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (9 shared connections)
+- [[Pricing & Roles Skill]] (8 shared connections)
+- [[Graphify Knowledge Graph Skill]] (7 shared connections)
+- [[Community 40]] (4 shared connections)
+- [[Community 141]] (3 shared connections)
+- [[Community 70]] (3 shared connections)
+- [[Community 47]] (1 shared connections)
+- [[Community 187]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/lifecycle.schema.json`
+- `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
 
 ## Audit Trail
 
-- EXTRACTED: 93 (100%)
+- EXTRACTED: 247 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

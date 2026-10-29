@@ -1,65 +1,71 @@
 # Roles & Customer Sharing Spec
 
-> 47 nodes · cohesion 0.11
+> 50 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **session.js** (53 connections) — `src/data/session.js`
-- **Login.jsx** (45 connections) — `src/pages/Login.jsx`
-- **DealerApply.jsx** (26 connections) — `src/pages/DealerApply.jsx`
-- **BrandApplyFlow.jsx** (23 connections) — `src/components/BrandApplyFlow.jsx`
-- **StaffDashboard.jsx** (15 connections) — `src/pages/StaffDashboard.jsx`
-- **revalidateSession()** (14 connections) — `src/data/session.js`
-- **StaffJoin.jsx** (14 connections) — `src/pages/StaffJoin.jsx`
-- **EmailVerificationPrompt.jsx** (12 connections) — `src/components/EmailVerificationPrompt.jsx`
-- **PhoneVerificationPrompt.jsx** (12 connections) — `src/components/PhoneVerificationPrompt.jsx`
-- **validators.js** (12 connections) — `src/data/validators.js`
-- **loginCode.js** (11 connections) — `src/data/loginCode.js`
-- **setSession()** (11 connections) — `src/data/session.js`
-- **signOut()** (8 connections) — `src/data/session.js`
-- **registerDealer()** (7 connections) — `src/data/dealer.js`
-- **isValidEmail()** (7 connections) — `src/data/validators.js`
-- **applyAsDealer()** (6 connections) — `src/data/auth.js`
-- **requestEmailOtp()** (6 connections) — `src/data/auth.js`
-- **formatLoginCode()** (6 connections) — `src/data/loginCode.js`
-- **isValidName()** (6 connections) — `src/data/validators.js`
-- **isValidPhone()** (6 connections) — `src/data/validators.js`
-- **OtpDispatchFeedback.jsx** (5 connections) — `src/components/OtpDispatchFeedback.jsx`
-- **OtpDispatchFeedback()** (5 connections) — `src/components/OtpDispatchFeedback.jsx`
-- **switchToDealerSession()** (5 connections) — `src/data/session.js`
-- **BrandApplyFlow()** (4 connections) — `src/components/BrandApplyFlow.jsx`
-- **hasSession()** (4 connections) — `src/data/auth.js`
-- *... and 22 more nodes in this community*
+- **server.js** (39 connections) — `backend/src/server.js`
+- **pool.js** (35 connections) — `backend/src/db/pool.js`
+- **env.js** (17 connections) — `backend/src/config/env.js`
+- **catalog.js** (16 connections) — `backend/src/services/catalog.js`
+- **env** (14 connections) — `backend/src/config/env.js`
+- **webhooks.js** (14 connections) — `backend/src/routes/webhooks.js`
+- **logger.js** (14 connections) — `backend/src/utils/logger.js`
+- **crmPoll.js** (13 connections) — `backend/src/jobs/crmPoll.js`
+- **log** (13 connections) — `backend/src/utils/logger.js`
+- **index.js** (11 connections) — `backend/src/jobs/index.js`
+- **catalogSync.js** (9 connections) — `backend/src/jobs/catalogSync.js`
+- **health.js** (8 connections) — `backend/src/routes/health.js`
+- **syncCatalog()** (7 connections) — `backend/src/services/catalog.js`
+- **migrate.js** (6 connections) — `backend/src/db/migrate.js`
+- **prices.js** (6 connections) — `backend/src/routes/prices.js`
+- **crmPoll()** (5 connections) — `backend/src/jobs/crmPoll.js`
+- **migrate()** (4 connections) — `backend/src/db/migrate.js`
+- **catalogFor()** (4 connections) — `backend/src/services/catalog.js`
+- **loadCatalog()** (4 connections) — `backend/src/services/catalog.js`
+- **applied()** (3 connections) — `backend/src/db/migrate.js`
+- **catalogSync()** (3 connections) — `backend/src/jobs/catalogSync.js`
+- **tokenCleanup()** (3 connections) — `backend/src/jobs/catalogSync.js`
+- **markPollRun()** (3 connections) — `backend/src/jobs/crmPoll.js`
+- **startJobs()** (3 connections) — `backend/src/jobs/index.js`
+- **migrate-content.js** (3 connections) — `backend/scripts/migrate-content.js`
+- *... and 25 more nodes in this community*
 
 ## Relationships
 
-- [[Community 32]] (54 shared connections)
-- [[Community 53]] (30 shared connections)
-- [[Graphify Knowledge Graph Skill]] (13 shared connections)
-- [[Client Products Data Store]] (13 shared connections)
-- [[Community 89]] (12 shared connections)
-- [[Community 174]] (1 shared connections)
-- [[Community 173]] (1 shared connections)
+- [[Zoho Integration Skill]] (39 shared connections)
+- [[Community 36]] (18 shared connections)
+- [[Community 49]] (11 shared connections)
+- [[Community 138]] (10 shared connections)
+- [[Community 108]] (8 shared connections)
+- [[Community 112]] (8 shared connections)
+- [[Community 111]] (3 shared connections)
+- [[Community 86]] (3 shared connections)
+- [[Community 322]] (1 shared connections)
 
 ## Source Files
 
-- `src/components/BrandApplyFlow.jsx`
-- `src/components/EmailVerificationPrompt.jsx`
-- `src/components/OtpDispatchFeedback.jsx`
-- `src/components/PhoneVerificationPrompt.jsx`
-- `src/data/auth.js`
-- `src/data/dealer.js`
-- `src/data/loginCode.js`
-- `src/data/session.js`
-- `src/data/validators.js`
-- `src/pages/DealerApply.jsx`
-- `src/pages/Login.jsx`
-- `src/pages/StaffDashboard.jsx`
-- `src/pages/StaffJoin.jsx`
+- `backend/scripts/migrate-content.js`
+- `backend/scripts/test-storage.js`
+- `backend/src/config/env.js`
+- `backend/src/db/migrate.js`
+- `backend/src/db/pool.js`
+- `backend/src/jobs/catalogSync.js`
+- `backend/src/jobs/crmPoll.js`
+- `backend/src/jobs/index.js`
+- `backend/src/routes/auth.js`
+- `backend/src/routes/dealers.js`
+- `backend/src/routes/health.js`
+- `backend/src/routes/prices.js`
+- `backend/src/routes/webhooks.js`
+- `backend/src/server.js`
+- `backend/src/services/catalog.js`
+- `backend/src/utils/logger.js`
+- `backend/test/priceGate.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 368 (100%)
+- EXTRACTED: 295 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **esm-CeYCIqt3.js** (1 connections) — `ios/App/App/public/assets/esm-CeYCIqt3.js`
-- **__vite__mapDeps()** (1 connections) — `ios/App/App/public/assets/esm-CeYCIqt3.js`
+- **hygiene.md** (1 connections) — `.agents/skills/swiftui-pro/references/hygiene.md`
+- **Hygiene** (1 connections) — `.agents/skills/swiftui-pro/references/hygiene.md`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `ios/App/App/public/assets/esm-CeYCIqt3.js`
+- `.agents/skills/swiftui-pro/references/hygiene.md`
 
 ## Audit Trail
 

@@ -1,57 +1,58 @@
 # Community 41
 
-> 37 nodes · cohesion 0.12
+> 36 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **it()** (21 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **k()** (19 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **st()** (17 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **A()** (15 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **ft()** (13 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **Dn()** (12 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **ut()** (11 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **jt()** (10 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **ct()** (9 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **nt()** (9 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **ve()** (9 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **ot()** (8 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **P()** (8 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **xt()** (8 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **dt()** (7 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **F()** (7 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **Gt()** (7 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **Id()** (7 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **jn()** (7 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **kf()** (7 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **rt()** (7 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **tn()** (7 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **hf()** (6 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **qt()** (6 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- **Yt()** (6 connections) — `ios/App/App/public/assets/index-1EUJIH5f.js`
-- *... and 12 more nodes in this community*
+- **workflow-migration.test.mjs** (22 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **workflow-v2.mjs** (21 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
+- **migrateWorkflowDocument()** (15 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
+- **compileWorkflow()** (13 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **workflow-migration-geometry.mjs** (10 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
+- **createMappedWorkflowCandidate()** (9 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
+- **intrinsicWorkflow()** (8 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
+- **planningWorkflow()** (7 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
+- **clone()** (4 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
+- **legacyLayoutProbe()** (4 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
+- **legacyRequirementProbe()** (4 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
+- **createHorizontalRankMapper()** (4 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
+- **expandableViewBox()** (3 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
+- **requiredViewBoxFrom()** (3 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
+- **schemaDiagnostics()** (3 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
+- **workflow-semantic-contract.test.mjs** (3 connections) — `.agents/skills/archify/test/workflow-semantic-contract.test.mjs`
+- **clone()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
+- **mapExplicitCoordinates()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
+- **diagnostic()** (2 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
+- **result()** (2 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
+- **serializeMigratedWorkflow()** (2 connections) — `.agents/skills/archify/migrations/workflow-v2.mjs`
+- **cli** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **copyFixture()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **explicitPinConflictWorkflow()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- *... and 11 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (47 shared connections)
-- [[Dependencies & Package Config]] (14 shared connections)
-- [[Zoho API Diagnostic Script]] (13 shared connections)
-- [[Community 35]] (13 shared connections)
-- [[Community 112]] (9 shared connections)
-- [[Community 58]] (9 shared connections)
-- [[Zoho Integration Architecture]] (8 shared connections)
-- [[Community 102]] (7 shared connections)
-- [[Community 34]] (7 shared connections)
-- [[Community 43]] (4 shared connections)
+- [[Community 62]] (9 shared connections)
+- [[Pricing Regression Test Suite]] (4 shared connections)
+- [[Community 42]] (3 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (3 shared connections)
+- [[Community 150]] (2 shared connections)
+- [[Community 57]] (2 shared connections)
+- [[Community 58]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-1EUJIH5f.js`
+- `.agents/skills/archify/migrations/workflow-v2.mjs`
+- `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- `.agents/skills/archify/renderers/workflow/workflow-migration-geometry.mjs`
+- `.agents/skills/archify/test/workflow-migration.test.mjs`
+- `.agents/skills/archify/test/workflow-semantic-contract.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 287 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 157 (98%)
+- INFERRED: 3 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

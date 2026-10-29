@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **ReSTOR / Shriji Dealer Web Changelog** (2 connections) — `docs/CHANGELOG.md`
-- **CHANGELOG.md** (1 connections) — `docs/CHANGELOG.md`
-- **2026-10-25** (1 connections) — `docs/CHANGELOG.md`
+- **PIN Code Serviceability Matrix** (2 connections) — `docs/guides/pincode-serviceability-matrix.md`
+- **pincode-serviceability-matrix.md** (1 connections) — `docs/guides/pincode-serviceability-matrix.md`
+- **Logistics Coverage** (1 connections) — `docs/guides/pincode-serviceability-matrix.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/CHANGELOG.md`
+- `docs/guides/pincode-serviceability-matrix.md`
 
 ## Audit Trail
 

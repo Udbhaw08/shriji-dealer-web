@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **Searching** (6 connections) — `.agents/skills/apple-design/references/hig/searching.md`
-- **searching.md** (1 connections) — `.agents/skills/apple-design/references/hig/searching.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/searching.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/searching.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/searching.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/searching.md`
-- **Systemwide search** (1 connections) — `.agents/skills/apple-design/references/hig/searching.md`
+- **Writing** (6 connections) — `.agents/skills/apple-design/references/hig/writing.md`
+- **writing.md** (1 connections) — `.agents/skills/apple-design/references/hig/writing.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/writing.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/writing.md`
+- **Getting started** (1 connections) — `.agents/skills/apple-design/references/hig/writing.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/writing.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/writing.md`
 
 ## Relationships
 
@@ -18,7 +18,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/searching.md`
+- `.agents/skills/apple-design/references/hig/writing.md`
 
 ## Audit Trail
 

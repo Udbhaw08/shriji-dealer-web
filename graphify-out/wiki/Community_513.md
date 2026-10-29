@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **esm-CeYCIqt3.js** (1 connections) — `android/app/src/main/assets/public/assets/esm-CeYCIqt3.js`
-- **__vite__mapDeps()** (1 connections) — `android/app/src/main/assets/public/assets/esm-CeYCIqt3.js`
+- **SkipToContent.jsx** (1 connections) — `src/components/SkipToContent.jsx`
+- **SkipToContent()** (1 connections) — `src/components/SkipToContent.jsx`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/esm-CeYCIqt3.js`
+- `src/components/SkipToContent.jsx`
 
 ## Audit Trail
 

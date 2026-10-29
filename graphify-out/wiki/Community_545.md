@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **colorUtils.js** (1 connections) — `src/utils/colorUtils.js`
-- **hexToRgba()** (1 connections) — `src/utils/colorUtils.js`
+- **slugify.js** (1 connections) — `backend/src/utils/slugify.js`
+- **slugify()** (1 connections) — `backend/src/utils/slugify.js`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `src/utils/colorUtils.js`
+- `backend/src/utils/slugify.js`
 
 ## Audit Trail
 

@@ -1,46 +1,41 @@
 # Community 108
 
-> 17 nodes · cohesion 0.24
+> 17 nodes · cohesion 0.26
 
 ## Key Concepts
 
-- **fl()** (25 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **pe()** (13 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **ml()** (11 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **pl()** (10 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **xe()** (9 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **ye()** (9 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **aa()** (8 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **cl()** (6 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **jo()** (6 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **da()** (5 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **sl()** (5 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **xo()** (5 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **ll()** (3 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **ol()** (3 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **Vd()** (3 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **Ym()** (3 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
-- **vc()** (2 connections) — `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- **crmClient.js** (35 connections) — `backend/src/services/crmClient.js`
+- **crmFetch()** (14 connections) — `backend/src/services/crmClient.js`
+- **crmConfigured()** (8 connections) — `backend/src/services/crmClient.js`
+- **createDealerContact()** (5 connections) — `backend/src/services/crmClient.js`
+- **findOwnerContactInAccount()** (5 connections) — `backend/src/services/crmClient.js`
+- **updateContactDetails()** (5 connections) — `backend/src/services/crmClient.js`
+- **updateDealerCodeInCrm()** (5 connections) — `backend/src/services/crmClient.js`
+- **resolveContactNames()** (4 connections) — `backend/src/services/crmClient.js`
+- **deactivateAccountInCrm()** (3 connections) — `backend/src/services/crmClient.js`
+- **deactivateContactInCrm()** (3 connections) — `backend/src/services/crmClient.js`
+- **getDealerAccount()** (3 connections) — `backend/src/services/crmClient.js`
+- **isCrmConfigured()** (3 connections) — `backend/src/services/crmClient.js`
+- **getAccessToken()** (2 connections) — `backend/src/services/crmClient.js`
+- **getDealerContact()** (2 connections) — `backend/src/services/crmClient.js`
+- **getPrimaryContactForAccount()** (2 connections) — `backend/src/services/crmClient.js`
+- **linkContactToBackendUser()** (2 connections) — `backend/src/services/crmClient.js`
+- **FIELDS** (1 connections) — `backend/src/services/crmClient.js`
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (19 shared connections)
-- [[Zoho Backend & Proxy Endpoints]] (12 shared connections)
-- [[Community 29]] (9 shared connections)
-- [[Community 42]] (5 shared connections)
-- [[Product Requirements Documentation]] (5 shared connections)
-- [[Community 56]] (5 shared connections)
-- [[Community 98]] (3 shared connections)
-- [[Agent Guidelines (AGENTS.md)]] (1 shared connections)
-- [[Community 31]] (1 shared connections)
+- [[Community 36]] (19 shared connections)
+- [[Roles & Customer Sharing Spec]] (8 shared connections)
+- [[Zoho Integration Skill]] (4 shared connections)
+- [[Community 322]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-1EUJIH5f.js`
+- `backend/src/services/crmClient.js`
 
 ## Audit Trail
 
-- EXTRACTED: 126 (100%)
+- EXTRACTED: 102 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

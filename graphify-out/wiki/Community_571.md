@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **build_wiki.py** (0 connections) — `scripts/build_wiki.py`
+- **corsPolicy.test.mjs** (0 connections) — `backend/test/corsPolicy.test.mjs`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `scripts/build_wiki.py`
+- `backend/test/corsPolicy.test.mjs`
 
 ## Audit Trail
 

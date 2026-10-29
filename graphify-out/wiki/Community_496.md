@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **Rate Limiting Strategies & Brute-Force Defense** (2 connections) — `docs/security/rate-limiting-strategies.md`
-- **rate-limiting-strategies.md** (1 connections) — `docs/security/rate-limiting-strategies.md`
-- **Security Thresholds** (1 connections) — `docs/security/rate-limiting-strategies.md`
+- **OWASP Top 10 Security Checklist** (2 connections) — `docs/testing/security-penetration-testing-notes.md`
+- **security-penetration-testing-notes.md** (1 connections) — `docs/testing/security-penetration-testing-notes.md`
+- **Verified Protections** (1 connections) — `docs/testing/security-penetration-testing-notes.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/security/rate-limiting-strategies.md`
+- `docs/testing/security-penetration-testing-notes.md`
 
 ## Audit Trail
 

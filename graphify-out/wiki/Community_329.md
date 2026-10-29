@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **artifact-receipt-flush.test.mjs** (6 connections) — `.agents/skills/archify/test/artifact-receipt-flush.test.mjs`
-- **checker** (1 connections) — `.agents/skills/archify/test/artifact-receipt-flush.test.mjs`
-- **cli** (1 connections) — `.agents/skills/archify/test/artifact-receipt-flush.test.mjs`
-- **denseArchitecture()** (1 connections) — `.agents/skills/archify/test/artifact-receipt-flush.test.mjs`
-- **run()** (1 connections) — `.agents/skills/archify/test/artifact-receipt-flush.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/artifact-receipt-flush.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/artifact-receipt-flush.test.mjs`
+- **intent-trace.test.mjs** (6 connections) — `.agents/skills/archify/test/intent-trace.test.mjs`
+- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/intent-trace.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/intent-trace.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/intent-trace.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/intent-trace.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/intent-trace.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/intent-trace.test.mjs`
 
 ## Relationships
 
@@ -18,7 +18,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/artifact-receipt-flush.test.mjs`
+- `.agents/skills/archify/test/intent-trace.test.mjs`
 
 ## Audit Trail
 

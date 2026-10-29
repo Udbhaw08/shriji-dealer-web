@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **SkipToContent.jsx** (1 connections) — `src/components/SkipToContent.jsx`
-- **SkipToContent()** (1 connections) — `src/components/SkipToContent.jsx`
+- **validateContentType.js** (1 connections) — `backend/src/middleware/validateContentType.js`
+- **validateContentType()** (1 connections) — `backend/src/middleware/validateContentType.js`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `src/components/SkipToContent.jsx`
+- `backend/src/middleware/validateContentType.js`
 
 ## Audit Trail
 
