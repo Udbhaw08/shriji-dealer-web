@@ -1,49 +1,56 @@
 # Community 59
 
-> 26 nodes · cohesion 0.11
+> 26 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **workflow-compiler.test.mjs** (27 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **assertReadableAdjacentResult()** (6 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **attribute()** (4 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **numericRect()** (4 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **edgeLabelRect()** (3 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **edgePoints()** (3 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **nodeRect()** (3 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **svgViewBox()** (3 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **asciiGroupLabelTextRect()** (2 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **assertRectInsideViewBox()** (2 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **compileSuccessfully()** (2 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **groupFrameRect()** (2 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **adjacentWorkflow()** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **asciiLaneHeaderTextRect()** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **assertRectInsideRect()** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **attributeOrUndefined()** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **cli** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **clone()** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **legendGeometry()** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **orthogonalSegmentIntersectsRect()** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **readJson()** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **rectsOverlap()** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **sha256()** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- **fetchZohoProductById()** (21 connections) — `api/_lib/zoho.js`
+- **fetchZohoProducts()** (20 connections) — `api/_lib/zoho.js`
+- **getZohoConfig()** (16 connections) — `api/_lib/zoho.js`
+- **fetchZohoWithRetry()** (15 connections) — `api/_lib/zoho.js`
+- **sync-all-product-details.mjs** (15 connections) — `scripts/sync-all-product-details.mjs`
+- **syncProductDetailsPool()** (14 connections) — `api/_lib/zoho.js`
+- **main()** (14 connections) — `scripts/sync-all-product-details.mjs`
+- **fetchAllRawZohoProducts()** (11 connections) — `api/_lib/zoho.js`
+- **fetchZohoCollectionProductIds()** (10 connections) — `api/_lib/zoho.js`
+- **fetchResolvedPricebookRates()** (7 connections) — `api/_lib/zoho.js`
+- **fetchZohoPricebookItems()** (7 connections) — `api/_lib/zoho.js`
+- **getTrialCollectionId()** (7 connections) — `api/_lib/zoho.js`
+- **readProductDetailsDiskCache()** (7 connections) — `api/_lib/zoho.js`
+- **verify-10-products.mjs** (7 connections) — `scripts/verify-10-products.mjs`
+- **resolvePricebookId()** (6 connections) — `api/_lib/zoho.js`
+- **writeProductDetailDiskCache()** (6 connections) — `api/_lib/zoho.js`
+- **getCategoryVisibilityMap()** (5 connections) — `api/_lib/zoho.js`
+- **verify10Products()** (5 connections) — `scripts/verify-10-products.mjs`
+- **fetchZohoPricebooks()** (4 connections) — `api/_lib/zoho.js`
+- **fetchZohoRawCategories()** (4 connections) — `api/_lib/zoho.js`
+- **getDealerById()** (4 connections) — `api/_lib/zoho.js`
+- **isBannerItem()** (3 connections) — `api/_lib/zoho.js`
+- **isLogoItem()** (3 connections) — `api/_lib/zoho.js`
+- **isSchemeItem()** (3 connections) — `api/_lib/zoho.js`
+- **sync-product-details.mjs** (3 connections) — `scripts/sync-product-details.mjs`
 - *... and 1 more nodes in this community*
 
 ## Relationships
 
-- [[Community 131]] (2 shared connections)
-- [[Community 80]] (1 shared connections)
+- [[Community 43]] (36 shared connections)
+- [[Community 177]] (7 shared connections)
+- [[Community 141]] (7 shared connections)
+- [[Community 254]] (6 shared connections)
+- [[Community 146]] (2 shared connections)
+- [[Community 47]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/workflow-compiler.test.mjs`
+- `api/_lib/zoho.js`
+- `scripts/sync-all-product-details.mjs`
+- `scripts/sync-product-details.mjs`
+- `scripts/verify-10-products.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 75 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 218 (100%)
+- INFERRED: 1 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

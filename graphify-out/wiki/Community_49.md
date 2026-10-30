@@ -34,9 +34,9 @@
 ## Relationships
 
 - [[Community 41]] (27 shared connections)
-- [[Graphify Knowledge Graph Skill]] (7 shared connections)
-- [[Roles & Customer Sharing Spec]] (6 shared connections)
-- [[Community 43]] (3 shared connections)
+- [[Community 47]] (8 shared connections)
+- [[Mobile Responsive UI Skill]] (6 shared connections)
+- [[Product Brand & Business Vision]] (2 shared connections)
 
 ## Source Files
 

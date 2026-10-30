@@ -4,14 +4,14 @@
 
 ## Key Concepts
 
-- **Page controls** (6 connections) — `.agents/skills/apple-design/references/hig/page-controls.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/page-controls.md`
-- **page-controls.md** (1 connections) — `.agents/skills/apple-design/references/hig/page-controls.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/page-controls.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/page-controls.md`
-- **Customizing indicators** (1 connections) — `.agents/skills/apple-design/references/hig/page-controls.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/page-controls.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/page-controls.md`
+- **Going full screen** (5 connections) — `.agents/skills/apple-design/references/hig/going-full-screen.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/going-full-screen.md`
+- **going-full-screen.md** (1 connections) — `.agents/skills/apple-design/references/hig/going-full-screen.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/going-full-screen.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/going-full-screen.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/going-full-screen.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/going-full-screen.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/going-full-screen.md`
 
 ## Relationships
 
@@ -19,7 +19,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/page-controls.md`
+- `.agents/skills/apple-design/references/hig/going-full-screen.md`
 
 ## Audit Trail
 

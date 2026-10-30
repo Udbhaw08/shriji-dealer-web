@@ -1,25 +1,26 @@
 # Community 400
 
-> 4 nodes · cohesion 0.50
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **REST API Endpoints Specification** (3 connections) — `docs/api/endpoints-spec.md`
-- **endpoints-spec.md** (1 connections) — `docs/api/endpoints-spec.md`
-- **Authentication Endpoints** (1 connections) — `docs/api/endpoints-spec.md`
-- **Catalog Endpoints** (1 connections) — `docs/api/endpoints-spec.md`
+- **ErrorBoundary** (5 connections) — `src/main.jsx`
+- **.componentDidCatch()** (1 connections) — `src/main.jsx`
+- **.constructor()** (1 connections) — `src/main.jsx`
+- **.getDerivedStateFromError()** (1 connections) — `src/main.jsx`
+- **.render()** (1 connections) — `src/main.jsx`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Pricing Regression Test Suite]] (1 shared connections)
 
 ## Source Files
 
-- `docs/api/endpoints-spec.md`
+- `src/main.jsx`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 9 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

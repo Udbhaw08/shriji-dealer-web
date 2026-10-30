@@ -922,11 +922,11 @@ export async function applyCrmAccountState(dealer, account) {
   const statusMap = { Approved: 'approved', Rejected: 'rejected', Revoked: 'revoked', Pending: 'pending' };
   const newStatus = statusMap[account.dealerStatus] || (account.dealerStatus ? String(account.dealerStatus).toLowerCase() : 'pending');
 
-  const targetPriceList = account.priceList || account.priceTier || null;
+  const cleanPriceTier = (account.priceList || account.priceTier) ? String(account.priceList || account.priceTier).trim() : null;
 
   // Ensure Zoho Commerce contact has the appropriate dealer pricebook attached
   if (account.zohoAccountId) {
-    ensureContactPricebookForCrmAccount(account.zohoAccountId, targetPriceList).catch(() => {});
+    ensureContactPricebookForCrmAccount(account.zohoAccountId, cleanPriceTier).catch(() => {});
   }
 
   const cleanBusinessName = account.businessName ? String(account.businessName).trim() : null;
@@ -943,7 +943,7 @@ export async function applyCrmAccountState(dealer, account) {
   const hasAddressChange = Boolean(cleanAddress && cleanAddress !== (dealer.address ?? null));
   const hasStatusChange = newStatus !== dealer.status;
   const hasCodeChange = Boolean(account.dealerCode && account.dealerCode !== (dealer.dealer_code ?? null));
-  const hasTierChange = Boolean(targetPriceList && targetPriceList !== (dealer.price_tier ?? null));
+  const hasTierChange = Boolean(cleanPriceTier !== (dealer.price_tier ?? null));
 
   if (
     !hasNameChange &&
@@ -978,7 +978,7 @@ export async function applyCrmAccountState(dealer, account) {
       pincode = coalesce(${cleanPincode}, pincode),
       status = ${newStatus},
       dealer_code = coalesce(${effectiveCode}, dealer_code),
-      price_tier = coalesce(${targetPriceList}, price_tier),
+      price_tier = ${cleanPriceTier},
       zoho_account_id = coalesce(${zohoAccountIdVal}, zoho_account_id),
       reject_reason = ${rejectReasonVal},
       approved_at = ${approvedAtVal}

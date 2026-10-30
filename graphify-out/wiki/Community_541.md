@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **urlUtils.js** (1 connections) — `src/utils/urlUtils.js`
-- **buildUrlWithQuery()** (1 connections) — `src/utils/urlUtils.js`
+- **envValidator.js** (1 connections) — `backend/src/utils/envValidator.js`
+- **requireEnv()** (1 connections) — `backend/src/utils/envValidator.js`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `src/utils/urlUtils.js`
+- `backend/src/utils/envValidator.js`
 
 ## Audit Trail
 

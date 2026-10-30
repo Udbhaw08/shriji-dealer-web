@@ -81,6 +81,96 @@ export const DEFAULT_AUTH_TOKENS = {
   expiresAt: null,
 };
 
+export const INCOGNITO_KEY = "shriji_incognito_mode";
+
+export function isIncognitoMode() {
+  if (typeof window === "undefined") return false;
+  try {
+    return localStorage.getItem(INCOGNITO_KEY) === "true";
+  } catch {
+    return false;
+  }
+}
+
+export function canUseIncognito(session) {
+  if (!session) return false;
+  if (isIncognitoMode() || session.isIncognito) return true;
+  const isDealerSide = session.role === "dealer" || session.authRole === "dealer" || session.authRole === "dealer_staff" || Boolean(session.dealer);
+  const isApproved = session.status === "approved" || session.status === "active";
+  return Boolean(isDealerSide && isApproved);
+}
+
+export function applyIncognito(session) {
+  if (!session || session.role === "guest") return session;
+  const active = isIncognitoMode();
+  if (!active) {
+    if (session.isIncognito) {
+      return {
+        ...session,
+        isIncognito: false,
+        role: session.rawRole || session.role,
+        authRole: session.rawAuthRole || session.authRole,
+        canSeeDealerPrice: session.rawCanSeeDealerPrice !== undefined ? session.rawCanSeeDealerPrice : true,
+      };
+    }
+    return session;
+  }
+
+  const isDealerSide = session.role === "dealer" || session.authRole === "dealer" || session.authRole === "dealer_staff" || Boolean(session.dealer);
+  if (!isDealerSide && !session.isIncognito) return session;
+
+  return {
+    ...session,
+    isIncognito: true,
+    role: "customer",
+    authRole: "customer",
+    canSeeDealerPrice: false,
+    rawRole: session.rawRole || session.role || "dealer",
+    rawAuthRole: session.rawAuthRole || session.authRole || "dealer",
+    rawCanSeeDealerPrice: session.rawCanSeeDealerPrice !== undefined ? session.rawCanSeeDealerPrice : session.canSeeDealerPrice,
+    rawDealer: session.rawDealer || session.dealer,
+  };
+}
+
+export function setIncognitoMode(active) {
+  if (typeof window === "undefined") return;
+  const isEnabled = Boolean(active);
+  try {
+    if (isEnabled) {
+      localStorage.setItem(INCOGNITO_KEY, "true");
+    } else {
+      localStorage.removeItem(INCOGNITO_KEY);
+    }
+  } catch {}
+
+  let baseSession = state;
+  try {
+    const rawProfile = localStorage.getItem(SESSION_PROFILE_KEY) || sessionStorage.getItem(SESSION_PROFILE_KEY);
+    if (rawProfile) baseSession = JSON.parse(rawProfile);
+  } catch {}
+
+  const next = isEnabled
+    ? applyIncognito(baseSession)
+    : {
+        ...baseSession,
+        isIncognito: false,
+        role: baseSession?.rawRole || baseSession?.role || "dealer",
+        authRole: baseSession?.rawAuthRole || baseSession?.authRole || "dealer",
+        canSeeDealerPrice: baseSession?.rawCanSeeDealerPrice !== undefined ? baseSession.rawCanSeeDealerPrice : (baseSession?.canSeeDealerPrice ?? true),
+      };
+
+  state = next;
+  syncPricebookWithSession(next);
+  emit();
+  broadcastAuthChange("INCOGNITO_TOGGLED");
+}
+
+export function toggleIncognitoMode() {
+  const current = isIncognitoMode();
+  setIncognitoMode(!current);
+  return !current;
+}
+
 function decodeJwtPayload(token) {
   try {
     if (!token || typeof token !== "string") return null;
@@ -100,17 +190,13 @@ function loadCachedSession() {
     const rawProfile = localStorage.getItem(SESSION_PROFILE_KEY) || sessionStorage.getItem(SESSION_PROFILE_KEY);
     if (rawTokens && rawProfile) {
       const profile = JSON.parse(rawProfile);
-      if (profile && profile.role === "customer") {
-        syncPricebookWithSession(profile);
-        return profile;
-      }
       if (profile && (profile.role === "dealer" || profile.role === "dealer_staff") && profile.dealer) {
         registerDealer(profile.dealer);
-        syncPricebookWithSession(profile);
-        return profile;
       }
       if (profile && profile.role) {
-        return profile;
+        const effective = isIncognitoMode() ? applyIncognito(profile) : profile;
+        syncPricebookWithSession(effective);
+        return effective;
       }
     }
 
@@ -142,8 +228,9 @@ function loadCachedSession() {
             : null,
         };
         if (fallbackProfile.dealer && isApproved) registerDealer(fallbackProfile.dealer);
-        syncPricebookWithSession(fallbackProfile);
-        return fallbackProfile;
+        const effectiveFallback = isIncognitoMode() ? applyIncognito(fallbackProfile) : fallbackProfile;
+        syncPricebookWithSession(effectiveFallback);
+        return effectiveFallback;
       }
     }
   } catch {}
@@ -168,6 +255,7 @@ function isSessionEqual(a, b) {
     a.userId === b.userId &&
     a.authRole === b.authRole &&
     Boolean(a.canSeeDealerPrice) === Boolean(b.canSeeDealerPrice) &&
+    Boolean(a.isIncognito) === Boolean(b.isIncognito) &&
     a.email === b.email &&
     Boolean(a.email_verified) === Boolean(b.email_verified) &&
     a.fullName === b.fullName &&
@@ -188,15 +276,23 @@ function isSessionEqual(a, b) {
 
 export function setSession(next) {
   if (next?.dealer) registerDealer(next.dealer);
-  state = next;
-  syncPricebookWithSession(next);
+  const effective = isIncognitoMode() ? applyIncognito(next) : next;
+  state = effective;
+  syncPricebookWithSession(effective);
   if (typeof window !== "undefined") {
     try {
       if (!next || next.role === "guest") {
         localStorage.removeItem(SESSION_PROFILE_KEY);
         sessionStorage.removeItem(SESSION_PROFILE_KEY);
       } else {
-        localStorage.setItem(SESSION_PROFILE_KEY, JSON.stringify(next));
+        const toStore = {
+          ...next,
+          role: next.rawRole || next.role,
+          authRole: next.rawAuthRole || next.authRole,
+          canSeeDealerPrice: next.rawCanSeeDealerPrice !== undefined ? next.rawCanSeeDealerPrice : next.canSeeDealerPrice,
+        };
+        delete toStore.isIncognito;
+        localStorage.setItem(SESSION_PROFILE_KEY, JSON.stringify(toStore));
       }
     } catch {}
   }
@@ -209,6 +305,7 @@ export async function signOut() {
     try {
       localStorage.removeItem(SESSION_PROFILE_KEY);
       sessionStorage.removeItem(SESSION_PROFILE_KEY);
+      localStorage.removeItem(INCOGNITO_KEY);
     } catch {}
   }
   setSession(GUEST);
@@ -261,13 +358,15 @@ export async function revalidateSession(force = false) {
       if (!data || !data.user) {
         return state || GUEST;
       }
-      const next = sessionFromAuth(data.user, data.dealer);
+      const rawNext = sessionFromAuth(data.user, data.dealer);
+      if (typeof window !== "undefined") {
+        try {
+          localStorage.setItem(SESSION_PROFILE_KEY, JSON.stringify(rawNext));
+        } catch {}
+      }
+      const next = isIncognitoMode() ? applyIncognito(rawNext) : rawNext;
       if (!isSessionEqual(state, next)) {
         setSession(next);
-      } else if (typeof window !== "undefined") {
-        try {
-          localStorage.setItem(SESSION_PROFILE_KEY, JSON.stringify(next));
-        } catch {}
       }
       return next;
     } catch {
@@ -320,7 +419,26 @@ if (typeof window !== "undefined") {
 
   // Cross-tab real-time sync via BroadcastChannel
   onAuthBroadcast((msg) => {
-    if (msg?.type === "AUTH_UPDATED" || msg?.type === "STAFF_PRICE_TOGGLED" || msg?.type === "STAFF_UPDATED") {
+    if (msg?.type === "INCOGNITO_TOGGLED") {
+      const incognito = isIncognitoMode();
+      let baseSession = state;
+      try {
+        const rawProfile = localStorage.getItem(SESSION_PROFILE_KEY) || sessionStorage.getItem(SESSION_PROFILE_KEY);
+        if (rawProfile) baseSession = JSON.parse(rawProfile);
+      } catch {}
+      const next = incognito
+        ? applyIncognito(baseSession)
+        : {
+            ...baseSession,
+            isIncognito: false,
+            role: baseSession?.rawRole || baseSession?.role || "dealer",
+            authRole: baseSession?.rawAuthRole || baseSession?.authRole || "dealer",
+            canSeeDealerPrice: baseSession?.rawCanSeeDealerPrice !== undefined ? baseSession.rawCanSeeDealerPrice : (baseSession?.canSeeDealerPrice ?? true),
+          };
+      state = next;
+      syncPricebookWithSession(next);
+      emit();
+    } else if (msg?.type === "AUTH_UPDATED" || msg?.type === "STAFF_PRICE_TOGGLED" || msg?.type === "STAFF_UPDATED") {
       revalidateSession(true);
     }
   });
@@ -338,7 +456,26 @@ if (typeof window !== "undefined") {
 
   // Cross-tab fallback via storage events
   window.addEventListener("storage", (e) => {
-    if (e.key === "shriji_auth_token" || e.key === "shriji.auth.tokens" || e.key === SESSION_PROFILE_KEY) {
+    if (e.key === INCOGNITO_KEY) {
+      const incognito = isIncognitoMode();
+      let baseSession = state;
+      try {
+        const rawProfile = localStorage.getItem(SESSION_PROFILE_KEY) || sessionStorage.getItem(SESSION_PROFILE_KEY);
+        if (rawProfile) baseSession = JSON.parse(rawProfile);
+      } catch {}
+      const next = incognito
+        ? applyIncognito(baseSession)
+        : {
+            ...baseSession,
+            isIncognito: false,
+            role: baseSession?.rawRole || baseSession?.role || "dealer",
+            authRole: baseSession?.rawAuthRole || baseSession?.authRole || "dealer",
+            canSeeDealerPrice: baseSession?.rawCanSeeDealerPrice !== undefined ? baseSession.rawCanSeeDealerPrice : (baseSession?.canSeeDealerPrice ?? true),
+          };
+      state = next;
+      syncPricebookWithSession(next);
+      emit();
+    } else if (e.key === "shriji_auth_token" || e.key === "shriji.auth.tokens" || e.key === SESSION_PROFILE_KEY) {
       if (!hasSession()) {
         setSession(GUEST);
       } else {

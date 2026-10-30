@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link, NavLink, useLocation } from "react-router-dom";
 import { COMPANY, NAV } from "./data/site";
-import { isDealer, useSession, signOut } from "./data/session";
+import { isDealer, useSession, signOut, canUseIncognito, isIncognitoMode, toggleIncognitoMode, setIncognitoMode } from "./data/session";
 import { dealerById } from "./data/dealer";
 import { useLanguage } from "./data/i18n";
 import { isPortalGated } from "./data/portalGate";

@@ -2,7 +2,7 @@
 
 > God node · 40 connections · `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
 
-**Community:** [[Design System & UI Tokens]]
+**Community:** [[Product Pages Specification]]
 
 ## Connections by Relation
 

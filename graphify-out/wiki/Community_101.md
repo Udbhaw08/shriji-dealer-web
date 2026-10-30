@@ -1,44 +1,39 @@
 # Community 101
 
-> 18 nodes · cohesion 0.22
+> 18 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **dl()** (26 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
-- **pe()** (13 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
-- **fl()** (10 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
-- **ye()** (10 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
-- **pl()** (9 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
-- **ia()** (8 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
-- **bo()** (7 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
-- **ua()** (7 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
-- **Do()** (6 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
-- **sl()** (6 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
-- **hm()** (5 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
-- **qi()** (5 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
-- **ol()** (4 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
-- **cl()** (3 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
-- **Vd()** (3 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
-- **Ym()** (3 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
-- **ge()** (2 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
-- **ll()** (2 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **DESIGN.md — the design system as actually built** (8 connections) — `docs/DESIGN.md`
+- **4. Components already built — reuse these** (7 connections) — `docs/DESIGN.md`
+- **2. Tokens** (4 connections) — `docs/DESIGN.md`
+- **DESIGN.md** (1 connections) — `docs/DESIGN.md`
+- **1. The direction in one paragraph** (1 connections) — `docs/DESIGN.md`
+- **3. Layout primitives** (1 connections) — `docs/DESIGN.md`
+- **5. Icons** (1 connections) — `docs/DESIGN.md`
+- **6. Responsive rules** (1 connections) — `docs/DESIGN.md`
+- **7. Motion and accessibility** (1 connections) — `docs/DESIGN.md`
+- **Actions** (1 connections) — `docs/DESIGN.md`
+- **Colour** (1 connections) — `docs/DESIGN.md`
+- **Content** (1 connections) — `docs/DESIGN.md`
+- **Detail** (1 connections) — `docs/DESIGN.md`
+- **Listing sidebar** (1 connections) — `docs/DESIGN.md`
+- **Navigation and filtering** (1 connections) — `docs/DESIGN.md`
+- **Product** (1 connections) — `docs/DESIGN.md`
+- **Spacing, radius, shadow, motion** (1 connections) — `docs/DESIGN.md`
+- **Type** (1 connections) — `docs/DESIGN.md`
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (21 shared connections)
-- [[Master Codebase Architecture Reference]] (13 shared connections)
-- [[Product Requirements Documentation]] (8 shared connections)
-- [[Client Products Data Store]] (8 shared connections)
-- [[Community 47]] (8 shared connections)
-- [[Community 40]] (5 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- `docs/DESIGN.md`
 
 ## Audit Trail
 
-- EXTRACTED: 129 (100%)
+- EXTRACTED: 34 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -4,22 +4,22 @@
 
 ## Key Concepts
 
-- **11. Responsive Typography** (4 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Breakpoint Adjustments** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Fluid Type (Clamp)** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **What Changes** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **REST API Endpoints Specification** (3 connections) — `docs/api/endpoints-spec.md`
+- **endpoints-spec.md** (1 connections) — `docs/api/endpoints-spec.md`
+- **Authentication Endpoints** (1 connections) — `docs/api/endpoints-spec.md`
+- **Catalog Endpoints** (1 connections) — `docs/api/endpoints-spec.md`
 
 ## Relationships
 
-- [[Community 231]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/refero-design/references/typography.md`
+- `docs/api/endpoints-spec.md`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

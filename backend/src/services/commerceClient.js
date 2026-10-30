@@ -146,10 +146,15 @@ export async function assignPricebookToContact(contactId, pricebookId = env.zoho
 let cachedPricebooksList = null;
 let pricebooksFetchedAt = 0;
 
-/** Fetch all pricebooks live from Zoho Commerce, cached for 10 minutes */
+export function invalidatePricebooksCache() {
+  cachedPricebooksList = null;
+  pricebooksFetchedAt = 0;
+}
+
+/** Fetch all pricebooks live from Zoho Commerce, cached for 60 seconds or invalidated on demand */
 export async function fetchCommercePricebooks({ refresh = false } = {}) {
   const now = Date.now();
-  if (!refresh && cachedPricebooksList && now - pricebooksFetchedAt < 10 * 60 * 1000) {
+  if (!refresh && cachedPricebooksList && now - pricebooksFetchedAt < 60 * 1000) {
     return cachedPricebooksList;
   }
   try {

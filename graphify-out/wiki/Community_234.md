@@ -4,15 +4,15 @@
 
 ## Key Concepts
 
-- **generate-validators.mjs** (8 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
-- **ajv** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
-- **diagramTypes** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
-- **output** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
-- **root** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
-- **schemaIds** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
-- **schemasDir** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
-- **validatorCode** (1 connections) — `.agents/skills/archify/scripts/generate-validators.mjs`
+- **web-BllZ0_v7.js** (8 connections) — `ios/App/App/public/assets/web-BllZ0_v7.js`
+- **constructor()** (1 connections) — `ios/App/App/public/assets/web-BllZ0_v7.js`
+- **exitApp()** (1 connections) — `ios/App/App/public/assets/web-BllZ0_v7.js`
+- **getAppLanguage()** (1 connections) — `ios/App/App/public/assets/web-BllZ0_v7.js`
+- **getInfo()** (1 connections) — `ios/App/App/public/assets/web-BllZ0_v7.js`
+- **getLaunchUrl()** (1 connections) — `ios/App/App/public/assets/web-BllZ0_v7.js`
+- **getState()** (1 connections) — `ios/App/App/public/assets/web-BllZ0_v7.js`
+- **minimizeApp()** (1 connections) — `ios/App/App/public/assets/web-BllZ0_v7.js`
+- **toggleBackButtonHandler()** (1 connections) — `ios/App/App/public/assets/web-BllZ0_v7.js`
 
 ## Relationships
 
@@ -20,7 +20,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/scripts/generate-validators.mjs`
+- `ios/App/App/public/assets/web-BllZ0_v7.js`
 
 ## Audit Trail
 

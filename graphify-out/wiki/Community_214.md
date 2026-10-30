@@ -1,30 +1,36 @@
 # Community 214
 
-> 9 nodes · cohesion 0.22
+> 9 nodes · cohesion 0.28
 
 ## Key Concepts
 
-- **Context menus** (6 connections) — `.agents/skills/apple-design/references/hig/context-menus.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/context-menus.md`
-- **context-menus.md** (1 connections) — `.agents/skills/apple-design/references/hig/context-menus.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/context-menus.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/context-menus.md`
-- **Content** (1 connections) — `.agents/skills/apple-design/references/hig/context-menus.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/context-menus.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/context-menus.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/context-menus.md`
+- **mc()** (11 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
+- **ac()** (8 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
+- **dh()** (6 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
+- **ct()** (5 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
+- **yo()** (5 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
+- **co()** (4 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
+- **La()** (3 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
+- **To()** (3 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
+- **vo()** (2 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Zoho Backend & Proxy Endpoints]] (9 shared connections)
+- [[Dependencies & Package Config]] (5 shared connections)
+- [[Product Pages Specification]] (5 shared connections)
+- [[Product Requirements Documentation]] (4 shared connections)
+- [[Community 31]] (2 shared connections)
+- [[Community 64]] (1 shared connections)
+- [[Community 37]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/context-menus.md`
+- `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 47 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

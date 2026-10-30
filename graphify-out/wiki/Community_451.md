@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **PIN Code Serviceability Matrix** (2 connections) — `docs/guides/pincode-serviceability-matrix.md`
-- **pincode-serviceability-matrix.md** (1 connections) — `docs/guides/pincode-serviceability-matrix.md`
-- **Logistics Coverage** (1 connections) — `docs/guides/pincode-serviceability-matrix.md`
+- **Customer Share Link (?from=) Specification** (2 connections) — `docs/guides/customer-share-link-spec.md`
+- **customer-share-link-spec.md** (1 connections) — `docs/guides/customer-share-link-spec.md`
+- **Behavior** (1 connections) — `docs/guides/customer-share-link-spec.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/guides/pincode-serviceability-matrix.md`
+- `docs/guides/customer-share-link-spec.md`
 
 ## Audit Trail
 

@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **NetworkStatusBadge.jsx** (1 connections) — `src/components/NetworkStatusBadge.jsx`
-- **NetworkStatusBadge()** (1 connections) — `src/components/NetworkStatusBadge.jsx`
+- **esm-D4YuRg1O.js** (1 connections) — `android/app/src/main/assets/public/assets/esm-D4YuRg1O.js`
+- **__vite__mapDeps()** (1 connections) — `android/app/src/main/assets/public/assets/esm-D4YuRg1O.js`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `src/components/NetworkStatusBadge.jsx`
+- `android/app/src/main/assets/public/assets/esm-D4YuRg1O.js`
 
 ## Audit Trail
 

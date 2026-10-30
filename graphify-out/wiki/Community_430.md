@@ -4,10 +4,10 @@
 
 ## Key Concepts
 
-- **guide-page.test.mjs** (3 connections) — `.agents/skills/archify/test/guide-page.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/guide-page.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/guide-page.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/guide-page.test.mjs`
+- **community-proof-intake.test.mjs** (3 connections) — `.agents/skills/archify/test/community-proof-intake.test.mjs`
+- **here** (1 connections) — `.agents/skills/archify/test/community-proof-intake.test.mjs`
+- **read()** (1 connections) — `.agents/skills/archify/test/community-proof-intake.test.mjs`
+- **repoRoot** (1 connections) — `.agents/skills/archify/test/community-proof-intake.test.mjs`
 
 ## Relationships
 
@@ -15,7 +15,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/guide-page.test.mjs`
+- `.agents/skills/archify/test/community-proof-intake.test.mjs`
 
 ## Audit Trail
 

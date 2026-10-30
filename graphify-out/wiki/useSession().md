@@ -2,7 +2,7 @@
 
 > God node · 44 connections · `src/data/session.js`
 
-**Community:** [[Zoho Integration Architecture]]
+**Community:** [[Pricing Regression Test Suite]]
 
 ## Connections by Relation
 

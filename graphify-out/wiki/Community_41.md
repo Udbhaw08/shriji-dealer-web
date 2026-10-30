@@ -1,6 +1,6 @@
 # Community 41
 
-> 36 nodes · cohesion 0.16
+> 35 nodes · cohesion 0.16
 
 ## Key Concepts
 
@@ -26,23 +26,23 @@
 - **isValidGstin()** (5 connections) — `backend/src/utils/validators.js`
 - **isUserFullyOnboarded()** (4 connections) — `backend/src/routes/auth.js`
 - **resolveUserWithDealer()** (4 connections) — `backend/src/routes/auth.js`
-- **getClientIp()** (3 connections) — `backend/src/middleware/rateLimit.js`
 - **emailOnlyIdentifier()** (3 connections) — `backend/src/routes/auth.js`
 - **findUserByEmail()** (3 connections) — `backend/src/routes/auth.js`
-- *... and 11 more nodes in this community*
+- **publicUser()** (3 connections) — `backend/src/routes/auth.js`
+- *... and 10 more nodes in this community*
 
 ## Relationships
 
-- [[Graphify Knowledge Graph Skill]] (39 shared connections)
+- [[Mobile Responsive UI Skill]] (36 shared connections)
 - [[Community 49]] (27 shared connections)
-- [[Roles & Customer Sharing Spec]] (19 shared connections)
-- [[Live Pricing Audit Tool]] (17 shared connections)
-- [[Community 43]] (12 shared connections)
+- [[Community 47]] (20 shared connections)
+- [[Live Pricing Audit Tool]] (16 shared connections)
+- [[Product Brand & Business Vision]] (9 shared connections)
+- [[Community 137]] (5 shared connections)
 
 ## Source Files
 
 - `backend/src/middleware/errorHandler.js`
-- `backend/src/middleware/rateLimit.js`
 - `backend/src/routes/auth.js`
 - `backend/src/routes/dealers.js`
 - `backend/src/services/dealerApp.js`
@@ -52,7 +52,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 310 (100%)
+- EXTRACTED: 307 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

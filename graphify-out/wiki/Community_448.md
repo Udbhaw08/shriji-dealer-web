@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **Dealer Onboarding & Approval Lifecycle** (2 connections) — `docs/guides/dealer-onboarding-flow.md`
-- **dealer-onboarding-flow.md** (1 connections) — `docs/guides/dealer-onboarding-flow.md`
-- **Lifecycle States** (1 connections) — `docs/guides/dealer-onboarding-flow.md`
+- **Vercel Production Deployment Checklist** (2 connections) — `docs/deployment/vercel-production-checklist.md`
+- **vercel-production-checklist.md** (1 connections) — `docs/deployment/vercel-production-checklist.md`
+- **Environment Variables** (1 connections) — `docs/deployment/vercel-production-checklist.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/guides/dealer-onboarding-flow.md`
+- `docs/deployment/vercel-production-checklist.md`
 
 ## Audit Trail
 

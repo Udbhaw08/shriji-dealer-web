@@ -127,19 +127,23 @@ export async function issueSession(rawUser) {
   const userDealerId = user?.dealer_id || null;
   let dealer = (await sql`select * from dealers where id = ${userDealerId} or owner_user_id = ${user.id} order by case when status = 'approved' then 1 when status = 'pending' then 2 else 3 end asc limit 1`)[0] || null;
   if (dealer) {
-    if (dealer.zoho_account_id && crm.isCrmConfigured() && dealer.status !== 'approved') {
-      try {
-        const account = await crm.getDealerAccount(dealer.zoho_account_id);
-        if (account) {
-          const changed = await applyCrmAccountState(dealer, account);
-          if (changed) {
-            dealer = (await sql`select * from dealers where id = ${dealer.id} limit 1`)[0] || dealer;
-            const updatedUser = (await sql`select * from users where id = ${user.id} limit 1`)[0];
-            if (updatedUser) user = updatedUser;
+    if (dealer.zoho_account_id && crm.isCrmConfigured()) {
+      const last = lastCrmSyncByDealerId.get(dealer.id) || 0;
+      if (dealer.status !== 'approved' || Date.now() - last > 10_000) {
+        lastCrmSyncByDealerId.set(dealer.id, Date.now());
+        try {
+          const account = await crm.getDealerAccount(dealer.zoho_account_id);
+          if (account) {
+            const changed = await applyCrmAccountState(dealer, account);
+            if (changed) {
+              dealer = (await sql`select * from dealers where id = ${dealer.id} limit 1`)[0] || dealer;
+              const updatedUser = (await sql`select * from users where id = ${user.id} limit 1`)[0];
+              if (updatedUser) user = updatedUser;
+            }
           }
+        } catch (err) {
+          log.warn('[issueSession] CRM sync error:', err.message);
         }
-      } catch (err) {
-        log.warn('[issueSession] CRM sync error:', err.message);
       }
     }
     dealer.pricebook_id = dealer.status === 'approved' ? await resolvePricebookId(dealer.price_tier) : null;

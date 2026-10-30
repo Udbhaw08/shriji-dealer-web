@@ -139,9 +139,9 @@ export const inr = (n) => {
   return `₹${n.toLocaleString("en-IN")}`;
 };
 
-/** The one check that gates dealer pricing. Pending applicants do not pass. */
+/** The one check that gates dealer pricing. Pending applicants and incognito mode do not pass. */
 export function isDealer(session) {
-  return Boolean(session) && session.role === "dealer" && session.status === "approved";
+  return Boolean(session) && session.role === "dealer" && session.status === "approved" && !session.isIncognito;
 }
 
 /** Which Zoho price list applies to this viewer. */
@@ -229,7 +229,7 @@ export function viewerFor(session, fromId, searchParams) {
       }
     : null;
 
-  return { sharedBy, me, customerView: Boolean(fromId) || Boolean(sharedBy) || !me };
+  return { sharedBy, me, customerView: Boolean(fromId) || Boolean(sharedBy) || !me || Boolean(session?.isIncognito) };
 }
 
 /**

@@ -88,7 +88,7 @@ export default function Product() {
     }
   };
 
-  const canSeePrice = Boolean(session?.canSeeDealerPrice);
+  const canSeePrice = Boolean(session?.canSeeDealerPrice && !session?.isIncognito);
 
   useEffect(() => {
     if (lookupKey) {
@@ -235,7 +235,7 @@ export default function Product() {
   }, [fromId, localSharedBy, remoteSharedBy]);
 
   const sharedBy = localSharedBy || remoteSharedBy;
-  const customerView = Boolean(fromId) || viewerCustomerView;
+  const customerView = Boolean(fromId) || viewerCustomerView || Boolean(session?.isIncognito);
 
   const related = useMemo(
     () => (p ? PRODUCTS.filter((x) => x.cat === p.cat && x.id !== p.id && x.img).slice(0, 4) : []),

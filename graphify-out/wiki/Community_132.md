@@ -1,23 +1,23 @@
 # Community 132
 
-> 14 nodes · cohesion 0.14
+> 14 nodes · cohesion 0.23
 
 ## Key Concepts
 
-- **.oxlintrc.json** (6 connections) — `.oxlintrc.json`
-- **env** (4 connections) — `.oxlintrc.json`
-- **rules** (4 connections) — `.oxlintrc.json`
-- **globals** (2 connections) — `.oxlintrc.json`
-- **browser** (1 connections) — `.oxlintrc.json`
-- **builtin** (1 connections) — `.oxlintrc.json`
-- **node** (1 connections) — `.oxlintrc.json`
-- **Archify** (1 connections) — `.oxlintrc.json`
-- **ignorePatterns** (1 connections) — `.oxlintrc.json`
-- **plugins** (1 connections) — `.oxlintrc.json`
-- **no-undef** (1 connections) — `.oxlintrc.json`
-- **react/only-export-components** (1 connections) — `.oxlintrc.json`
-- **react/rules-of-hooks** (1 connections) — `.oxlintrc.json`
-- **$schema** (1 connections) — `.oxlintrc.json`
+- **web-DaYS6Jmz.js** (13 connections) — `ios/App/App/public/assets/web-DaYS6Jmz.js`
+- **applyPrefix()** (4 connections) — `ios/App/App/public/assets/web-DaYS6Jmz.js`
+- **keys()** (4 connections) — `ios/App/App/public/assets/web-DaYS6Jmz.js`
+- **get()** (3 connections) — `ios/App/App/public/assets/web-DaYS6Jmz.js`
+- **migrate()** (3 connections) — `ios/App/App/public/assets/web-DaYS6Jmz.js`
+- **rawKeys()** (3 connections) — `ios/App/App/public/assets/web-DaYS6Jmz.js`
+- **clear()** (2 connections) — `ios/App/App/public/assets/web-DaYS6Jmz.js`
+- **remove()** (2 connections) — `ios/App/App/public/assets/web-DaYS6Jmz.js`
+- **removeOld()** (2 connections) — `ios/App/App/public/assets/web-DaYS6Jmz.js`
+- **set()** (2 connections) — `ios/App/App/public/assets/web-DaYS6Jmz.js`
+- **configure()** (1 connections) — `ios/App/App/public/assets/web-DaYS6Jmz.js`
+- **constructor()** (1 connections) — `ios/App/App/public/assets/web-DaYS6Jmz.js`
+- **impl()** (1 connections) — `ios/App/App/public/assets/web-DaYS6Jmz.js`
+- **prefix()** (1 connections) — `ios/App/App/public/assets/web-DaYS6Jmz.js`
 
 ## Relationships
 
@@ -25,11 +25,11 @@
 
 ## Source Files
 
-- `.oxlintrc.json`
+- `ios/App/App/public/assets/web-DaYS6Jmz.js`
 
 ## Audit Trail
 
-- EXTRACTED: 26 (100%)
+- EXTRACTED: 42 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

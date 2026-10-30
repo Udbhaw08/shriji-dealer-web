@@ -1,6 +1,6 @@
 # Live Pricing Audit Tool
 
-> 57 nodes · cohesion 0.06
+> 56 nodes · cohesion 0.06
 
 ## Key Concepts
 
@@ -11,7 +11,6 @@
 - **onboardingVerification.test.mjs** (15 connections) — `backend/test/onboardingVerification.test.mjs`
 - **hashOtp()** (10 connections) — `backend/src/utils/hash.js`
 - **verifyOtpHash()** (10 connections) — `backend/src/utils/hash.js`
-- **generateUniqueDealerCode()** (10 connections) — `backend/src/utils/loginCode.js`
 - **hash.test.mjs** (9 connections) — `backend/test/hash.test.mjs`
 - **sha256()** (9 connections) — `backend/src/utils/hash.js`
 - **formatLoginCode()** (8 connections) — `backend/src/utils/loginCode.js`
@@ -29,14 +28,14 @@
 - **generateRandomDigits()** (2 connections) — `backend/src/utils/loginCode.js`
 - **generateRandomLetters()** (2 connections) — `backend/src/utils/loginCode.js`
 - **GST_TREATMENT_OPTIONS** (2 connections) — `backend/src/utils/loginCode.js`
-- *... and 32 more nodes in this community*
+- **app** (1 connections) — `backend/test/dealerRegistrationTwoChannel.test.mjs`
+- *... and 31 more nodes in this community*
 
 ## Relationships
 
-- [[Community 41]] (17 shared connections)
-- [[Graphify Knowledge Graph Skill]] (12 shared connections)
-- [[Roles & Customer Sharing Spec]] (2 shared connections)
-- [[Community 43]] (1 shared connections)
+- [[Community 41]] (16 shared connections)
+- [[Mobile Responsive UI Skill]] (14 shared connections)
+- [[Product Brand & Business Vision]] (2 shared connections)
 
 ## Source Files
 
@@ -50,8 +49,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 229 (100%)
-- INFERRED: 1 (0%)
+- EXTRACTED: 220 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

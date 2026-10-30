@@ -4,14 +4,14 @@
 
 ## Key Concepts
 
-- **crmProvisioningReliability.test.mjs** (7 connections) — `backend/test/crmProvisioningReliability.test.mjs`
-- **crmCalls** (1 connections) — `backend/test/crmProvisioningReliability.test.mjs`
-- **db** (1 connections) — `backend/test/crmProvisioningReliability.test.mjs`
-- **mockCrm** (1 connections) — `backend/test/crmProvisioningReliability.test.mjs`
-- **mockSql()** (1 connections) — `backend/test/crmProvisioningReliability.test.mjs`
-- **resetCrm()** (1 connections) — `backend/test/crmProvisioningReliability.test.mjs`
-- **resetDb()** (1 connections) — `backend/test/crmProvisioningReliability.test.mjs`
-- **testEnv** (1 connections) — `backend/test/crmProvisioningReliability.test.mjs`
+- **Text fields** (5 connections) — `.agents/skills/apple-design/references/hig/text-fields.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/text-fields.md`
+- **text-fields.md** (1 connections) — `.agents/skills/apple-design/references/hig/text-fields.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/text-fields.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/text-fields.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/text-fields.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/text-fields.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/text-fields.md`
 
 ## Relationships
 
@@ -19,7 +19,7 @@
 
 ## Source Files
 
-- `backend/test/crmProvisioningReliability.test.mjs`
+- `.agents/skills/apple-design/references/hig/text-fields.md`
 
 ## Audit Trail
 

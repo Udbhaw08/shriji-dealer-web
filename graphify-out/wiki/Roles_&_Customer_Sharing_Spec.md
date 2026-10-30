@@ -1,74 +1,66 @@
 # Roles & Customer Sharing Spec
 
-> 55 nodes · cohesion 0.07
+> 51 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **server.js** (36 connections) — `backend/src/server.js`
-- **app.js** (30 connections) — `backend/src/app.js`
-- **compatibilitySuite.test.mjs** (20 connections) — `backend/test/compatibilitySuite.test.mjs`
-- **env** (15 connections) — `backend/src/config/env.js`
-- **webhooks.js** (15 connections) — `backend/src/routes/webhooks.js`
-- **logger.js** (14 connections) — `backend/src/utils/logger.js`
-- **log** (13 connections) — `backend/src/utils/logger.js`
-- **upload.js** (12 connections) — `backend/src/routes/upload.js`
-- **errorHandler.js** (10 connections) — `backend/src/middleware/errorHandler.js`
-- **rateLimit.js** (10 connections) — `backend/src/middleware/rateLimit.js`
-- **rateLimit()** (9 connections) — `backend/src/middleware/rateLimit.js`
-- **admin.js** (9 connections) — `backend/src/routes/admin.js`
-- **health.js** (9 connections) — `backend/src/routes/health.js`
-- **uploads.js** (9 connections) — `backend/src/routes/uploads.js`
-- **securityPhase3.test.mjs** (9 connections) — `backend/test/securityPhase3.test.mjs`
-- **prices.js** (7 connections) — `backend/src/routes/prices.js`
-- **migrate.js** (6 connections) — `backend/src/db/migrate.js`
-- **contentRouter** (5 connections) — `backend/src/routes/content.js`
-- **uploadRouter** (5 connections) — `backend/src/routes/upload.js`
-- **uploadsRouter** (5 connections) — `backend/src/routes/uploads.js`
-- **migrate()** (4 connections) — `backend/src/db/migrate.js`
-- **errorHandler()** (4 connections) — `backend/src/middleware/errorHandler.js`
-- **adminRouter** (4 connections) — `backend/src/routes/admin.js`
-- **app** (4 connections) — `backend/src/app.js`
-- **rateLimitFix.test.mjs** (4 connections) — `backend/test/rateLimitFix.test.mjs`
-- *... and 30 more nodes in this community*
+- **session.js** (55 connections) — `src/data/session.js`
+- **Login.jsx** (47 connections) — `src/pages/Login.jsx`
+- **DealerApply.jsx** (26 connections) — `src/pages/DealerApply.jsx`
+- **BrandApplyFlow.jsx** (24 connections) — `src/components/BrandApplyFlow.jsx`
+- **Icon()** (22 connections) — `src/ui.jsx`
+- **StaffJoinFlow.jsx** (21 connections) — `src/components/StaffJoinFlow.jsx`
+- **StaffJoin.jsx** (18 connections) — `src/pages/StaffJoin.jsx`
+- **StaffDashboard.jsx** (16 connections) — `src/pages/StaffDashboard.jsx`
+- **revalidateSession()** (15 connections) — `src/data/session.js`
+- **validators.js** (14 connections) — `src/data/validators.js`
+- **EmailVerificationPrompt.jsx** (12 connections) — `src/components/EmailVerificationPrompt.jsx`
+- **PhoneVerificationPrompt.jsx** (12 connections) — `src/components/PhoneVerificationPrompt.jsx`
+- **loginCode.js** (12 connections) — `src/data/loginCode.js`
+- **setSession()** (11 connections) — `src/data/session.js`
+- **isValidEmail()** (9 connections) — `src/data/validators.js`
+- **hasSession()** (8 connections) — `src/data/auth.js`
+- **formatLoginCode()** (8 connections) — `src/data/loginCode.js`
+- **signOut()** (8 connections) — `src/data/session.js`
+- **isValidName()** (7 connections) — `src/data/validators.js`
+- **isValidPhone()** (7 connections) — `src/data/validators.js`
+- **OtpDispatchFeedback.jsx** (6 connections) — `src/components/OtpDispatchFeedback.jsx`
+- **OtpDispatchFeedback()** (6 connections) — `src/components/OtpDispatchFeedback.jsx`
+- **StaffJoinFlow()** (6 connections) — `src/components/StaffJoinFlow.jsx`
+- **applyAsDealer()** (6 connections) — `src/data/auth.js`
+- **lookupStaffCode()** (6 connections) — `src/data/auth.js`
+- *... and 26 more nodes in this community*
 
 ## Relationships
 
-- [[Graphify Knowledge Graph Skill]] (33 shared connections)
-- [[Community 43]] (24 shared connections)
-- [[Community 41]] (19 shared connections)
-- [[Community 63]] (7 shared connections)
-- [[Community 49]] (6 shared connections)
-- [[Community 54]] (5 shared connections)
-- [[Community 124]] (4 shared connections)
-- [[Live Pricing Audit Tool]] (2 shared connections)
-- [[Dependencies & Package Config]] (1 shared connections)
+- [[Graphify Agent Rules]] (61 shared connections)
+- [[Pricing Regression Test Suite]] (53 shared connections)
+- [[Vercel Deployment Routing]] (19 shared connections)
+- [[Community 91]] (12 shared connections)
+- [[Community 56]] (4 shared connections)
+- [[Community 151]] (2 shared connections)
+- [[Community 167]] (1 shared connections)
 
 ## Source Files
 
-- `api/auth/[...path].js`
-- `api/dealers/[...path].js`
-- `backend/src/app.js`
-- `backend/src/config/env.js`
-- `backend/src/db/migrate.js`
-- `backend/src/jobs/index.js`
-- `backend/src/middleware/errorHandler.js`
-- `backend/src/middleware/rateLimit.js`
-- `backend/src/routes/admin.js`
-- `backend/src/routes/auth.js`
-- `backend/src/routes/content.js`
-- `backend/src/routes/dealers.js`
-- `backend/src/routes/health.js`
-- `backend/src/routes/prices.js`
-- `backend/src/routes/upload.js`
-- `backend/src/routes/uploads.js`
-- `backend/src/routes/webhooks.js`
-- `backend/src/server.js`
-- `backend/src/utils/logger.js`
-- `backend/test/compatibilitySuite.test.mjs`
+- `src/components/BrandApplyFlow.jsx`
+- `src/components/EmailVerificationPrompt.jsx`
+- `src/components/OtpDispatchFeedback.jsx`
+- `src/components/PhoneVerificationPrompt.jsx`
+- `src/components/StaffJoinFlow.jsx`
+- `src/data/auth.js`
+- `src/data/loginCode.js`
+- `src/data/session.js`
+- `src/data/validators.js`
+- `src/pages/DealerApply.jsx`
+- `src/pages/Login.jsx`
+- `src/pages/StaffDashboard.jsx`
+- `src/pages/StaffJoin.jsx`
+- `src/ui.jsx`
 
 ## Audit Trail
 
-- EXTRACTED: 319 (100%)
+- EXTRACTED: 444 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

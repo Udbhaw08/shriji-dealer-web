@@ -1,46 +1,46 @@
 # Price Presentation & Product UI
 
-> 104 nodes · cohesion 0.03
+> 84 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **_()** (450 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
-- **t()** (19 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **i()** (67 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **zd()** (16 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **fc()** (15 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **jc()** (15 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **Md()** (15 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
 - **Nr()** (14 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **wi()** (14 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **ea()** (13 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **Pi()** (13 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **s()** (13 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **Cc()** (12 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **Nd()** (11 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **tc()** (11 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **c()** (10 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
 - **ss()** (10 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **Wc()** (10 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
 - **ws()** (10 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **fa()** (9 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **hh()** (9 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **kd()** (9 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **qs()** (9 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **yh()** (9 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **yi()** (9 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
 - **as()** (8 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
-- **ha()** (8 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
-- **request()** (7 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
-- **x()** (7 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
-- **_f()** (6 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
-- **me()** (6 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
-- **ps()** (6 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
-- **Sc()** (6 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
-- **us()** (6 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
-- **vs()** (6 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
-- **ya()** (6 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
-- **bu()** (5 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
-- **ds()** (5 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
-- **ee()** (5 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
-- **eh()** (5 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
-- **j()** (5 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
-- **ls()** (5 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
-- **nn()** (5 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
-- **th()** (5 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
-- **unavailable()** (5 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
-- *... and 79 more nodes in this community*
+- **et()** (8 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- *... and 59 more nodes in this community*
 
 ## Relationships
 
-- [[Master Codebase Architecture Reference]] (112 shared connections)
-- [[Product Requirements Documentation]] (84 shared connections)
-- [[Client Products Data Store]] (73 shared connections)
-- [[Community 39]] (42 shared connections)
-- [[Community 47]] (40 shared connections)
-- [[Community 40]] (39 shared connections)
-- [[Community 101]] (21 shared connections)
-- [[Community 100]] (19 shared connections)
+- [[Dealer Auth & Session Management]] (107 shared connections)
+- [[Master Codebase Architecture Reference]] (37 shared connections)
+- [[Community 48]] (32 shared connections)
+- [[Zoho Integration Architecture]] (30 shared connections)
+- [[Community 40]] (24 shared connections)
+- [[Community 35]] (17 shared connections)
+- [[Community 38]] (7 shared connections)
+- [[Community 233]] (5 shared connections)
 
 ## Source Files
 
@@ -48,7 +48,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 797 (100%)
+- EXTRACTED: 615 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

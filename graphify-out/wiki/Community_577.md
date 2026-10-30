@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **sessionExpiry.test.mjs** (0 connections) — `backend/test/sessionExpiry.test.mjs`
+- **payloadValidator.test.mjs** (0 connections) — `backend/test/payloadValidator.test.mjs`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `backend/test/sessionExpiry.test.mjs`
+- `backend/test/payloadValidator.test.mjs`
 
 ## Audit Trail
 

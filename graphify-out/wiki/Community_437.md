@@ -1,12 +1,13 @@
 # Community 437
 
-> 3 nodes · cohesion 0.67
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **Repository Architecture Audit Report** (2 connections) — `docs/architecture/final-audit-report.md`
-- **final-audit-report.md** (1 connections) — `docs/architecture/final-audit-report.md`
-- **Verification Summary** (1 connections) — `docs/architecture/final-audit-report.md`
+- **vercel.json** (3 connections) — `vercel.json`
+- **framework** (1 connections) — `vercel.json`
+- **headers** (1 connections) — `vercel.json`
+- **rewrites** (1 connections) — `vercel.json`
 
 ## Relationships
 
@@ -14,11 +15,11 @@
 
 ## Source Files
 
-- `docs/architecture/final-audit-report.md`
+- `vercel.json`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

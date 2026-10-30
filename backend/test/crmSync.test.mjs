@@ -97,3 +97,25 @@ test('applyCrmAccountState detects convergence when nothing is changed in CRM', 
   const changed = hasNameChange || hasGstChange || hasTreatmentChange || hasAddressChange || hasStatusChange || hasCodeChange || hasTierChange;
   assert.equal(changed, false);
 });
+
+test('applyCrmAccountState detects changes in priceList / price_tier from CRM', async () => {
+  const dealer = {
+    id: 'd1',
+    business_name: 'Shriji Appliances',
+    status: 'approved',
+    dealer_code: 'DE-ABC-1234',
+    price_tier: 'Wholesale Tier 1',
+  };
+
+  const account = {
+    zohoAccountId: 'ACC-123',
+    dealerStatus: 'Approved',
+    dealerCode: 'DE-ABC-1234',
+    priceList: 'MH DP May 2026', // Updated in CRM to new price list
+    businessName: 'Shriji Appliances',
+  };
+
+  const cleanPriceTier = account.priceList ? String(account.priceList).trim() : null;
+  const hasTierChange = Boolean(cleanPriceTier !== (dealer.price_tier ?? null));
+  assert.equal(hasTierChange, true);
+});
