@@ -1,11 +1,65 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Icon } from "../ui";
 import { useLanguage } from "../data/i18n";
 import { COMPANY, ISSUE_TYPES } from "../data/site";
+import { apiFetch } from "../data/api";
 
 export default function Support() {
   const { t } = useLanguage();
+
+  const [siteSettings, setSiteSettings] = useState(() => {
+    try {
+      const cached = sessionStorage.getItem("shriji_site_settings") || localStorage.getItem("shriji_site_settings");
+      if (cached) return JSON.parse(cached);
+    } catch {}
+    return null;
+  });
+
+  useEffect(() => {
+    let active = true;
+
+    // Fetch live settings from /api/content?scope=settings
+    apiFetch("/api/content?scope=settings")
+      .then((res) => (res.ok ? res.json() : null))
+      .then((data) => {
+        if (active && data?.settings) {
+          setSiteSettings(data.settings);
+          try {
+            sessionStorage.setItem("shriji_site_settings", JSON.stringify(data.settings));
+            localStorage.setItem("shriji_site_settings", JSON.stringify(data.settings));
+          } catch {}
+        }
+      })
+      .catch(() => {});
+
+    // Listen to local event when updated from Admin Dashboard
+    const onSettingsUpdate = (e) => {
+      if (e?.detail) setSiteSettings(e.detail);
+    };
+    window.addEventListener("shriji_settings_updated", onSettingsUpdate);
+
+    // Cross-tab broadcast listener
+    let channel = null;
+    try {
+      channel = new BroadcastChannel("shriji_settings_channel");
+      channel.onmessage = (event) => {
+        if (event?.data?.type === "settings_updated" && event.data.settings) {
+          setSiteSettings(event.data.settings);
+        }
+      };
+    } catch {}
+
+    return () => {
+      active = false;
+      window.removeEventListener("shriji_settings_updated", onSettingsUpdate);
+      if (channel) {
+        try {
+          channel.close();
+        } catch {}
+      }
+    };
+  }, []);
 
   const [form, setForm] = useState({
     name: "",
@@ -73,6 +127,19 @@ export default function Support() {
       setTimeout(() => setToastMsg(""), 5000);
     } finally {
       setIsSubmitting(false);
+    }
+  };
+
+  const catalogueUrl = (siteSettings?.catalogue_download_url ?? "/downloads/Sunshine-Range-Brochure-2026.pdf").trim();
+  const catalogueTitle = siteSettings?.catalogue_title || "Looking for Product Catalogues?";
+  const catalogueSubtitle = siteSettings?.catalogue_subtitle || "Download the official Sunshine 2026 range brochure (PDF)";
+  const catalogueEnabled = siteSettings?.catalogue_enabled !== false;
+
+  const handleCatalogueClick = (e) => {
+    if (!catalogueUrl) {
+      e.preventDefault();
+      setToastMsg("ℹ️ Product catalogue will be available for download shortly.");
+      setTimeout(() => setToastMsg(""), 5000);
     }
   };
 
@@ -336,44 +403,47 @@ export default function Support() {
       </section>
 
       {/* Minimal Product Catalogue Resource Bar */}
-      <section className="sec" style={{ paddingTop: 0, paddingBottom: "var(--s5)" }}>
-        <div className="wrap">
-          <div
-            style={{
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "space-between",
-              gap: 16,
-              padding: "18px 24px",
-              borderRadius: "16px",
-              background: "#ffffff",
-              border: "1px solid var(--line)",
-              flexWrap: "wrap",
-            }}
-          >
-            <div style={{ display: "flex", alignItems: "center", gap: 12 }}>
-              <Icon name="doc" size={22} style={{ color: "var(--navy)" }} />
-              <div>
-                <div style={{ fontWeight: 700, fontSize: "0.95rem", color: "var(--navy)" }}>
-                  Looking for Product Catalogues?
-                </div>
-                <div style={{ fontSize: "0.85rem", color: "var(--tx-2)" }}>
-                  Download the official Sunshine 2026 range brochure (PDF)
+      {catalogueEnabled && (
+        <section className="sec" style={{ paddingTop: 0, paddingBottom: "var(--s5)" }}>
+          <div className="wrap">
+            <div
+              style={{
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "space-between",
+                gap: 16,
+                padding: "18px 24px",
+                borderRadius: "16px",
+                background: "#ffffff",
+                border: "1px solid var(--line)",
+                flexWrap: "wrap",
+              }}
+            >
+              <div style={{ display: "flex", alignItems: "center", gap: 12 }}>
+                <Icon name="doc" size={22} style={{ color: "var(--navy)" }} />
+                <div>
+                  <div style={{ fontWeight: 700, fontSize: "0.95rem", color: "var(--navy)" }}>
+                    {catalogueTitle}
+                  </div>
+                  <div style={{ fontSize: "0.85rem", color: "var(--tx-2)" }}>
+                    {catalogueSubtitle}
+                  </div>
                 </div>
               </div>
+              <a
+                href={catalogueUrl || "#"}
+                target={catalogueUrl ? "_blank" : undefined}
+                rel={catalogueUrl ? "noopener noreferrer" : undefined}
+                className="btn btn-ghost btn-sm"
+                style={{ minHeight: "38px" }}
+                onClick={handleCatalogueClick}
+              >
+                <Icon name="download" size={15} /> Download Catalogue
+              </a>
             </div>
-            <a
-              href="/downloads/Sunshine-Range-Brochure-2026.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn btn-ghost btn-sm"
-              style={{ minHeight: "38px" }}
-            >
-              <Icon name="download" size={15} /> Download Catalogue
-            </a>
           </div>
-        </div>
-      </section>
+        </section>
+      )}
     </div>
   );
 }

@@ -268,10 +268,12 @@ const mockCrm = {
     return null;
   },
   getPrimaryContactForAccount: async () => null,
+  syncAccountUserSourceToContacts: async () => true,
   getDealerAccount: async (accId) => ({
     zohoAccountId: accId,
     dealerStatus: 'Pending',
     businessName: 'Mock Store',
+    userSource: 'ReStor Dealer',
   }),
 };
 

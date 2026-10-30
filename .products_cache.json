@@ -71,7 +71,7 @@
         {
           "index": 1,
           "image": "https://cdn2.zohoecommerce.com/product-images/auto-ignition.png/3334672000008545107/600x600?storefront_domain=www.shrijidomestic.com",
-          "text": "Auto Cut-Off",
+          "text": "Powerful",
           "label": ""
         },
         {
@@ -678,7 +678,7 @@
       "sellingPrice": 6695,
       "labelPrice": 6695,
       "dealerRate": 2650,
-      "stock": -320,
+      "stock": -321,
       "img": "https://cdn2.zohoecommerce.com/product-images/apollo%202bb%20(1).png/3334672000003968376/600x600?storefront_domain=www.shrijidomestic.com",
       "images": [
         "https://cdn2.zohoecommerce.com/product-images/apollo%202bb%20(1).png/3334672000003968376/600x600?storefront_domain=www.shrijidomestic.com"
@@ -768,7 +768,7 @@
       "sellingPrice": 6449,
       "labelPrice": 6449,
       "dealerRate": 2525,
-      "stock": -286,
+      "stock": -289,
       "img": "",
       "images": [],
       "description": "",
@@ -784,12 +784,7 @@
       "specifications": [],
       "videos": [],
       "status": "active",
-      "showInStore": true,
-      "isTrial": true,
-      "trialOrder": 0,
-      "collections": [
-        "trial"
-      ]
+      "showInStore": true
     },
     {
       "id": "3334672000000195068",
@@ -837,9 +832,13 @@
       "status": "active",
       "showInStore": true,
       "isTrial": true,
-      "trialOrder": 1,
+      "isBestseller": true,
+      "trialOrder": 0,
+      "bestsellerOrder": 0,
       "collections": [
-        "trial"
+        "trial",
+        "bestseller",
+        "bestsellers"
       ]
     },
     {
@@ -890,9 +889,13 @@
       "status": "active",
       "showInStore": true,
       "isTrial": true,
-      "trialOrder": 2,
+      "isBestseller": true,
+      "trialOrder": 1,
+      "bestsellerOrder": 1,
       "collections": [
-        "trial"
+        "trial",
+        "bestseller",
+        "bestsellers"
       ]
     },
     {
@@ -939,12 +942,7 @@
       "specifications": [],
       "videos": [],
       "status": "active",
-      "showInStore": true,
-      "isTrial": true,
-      "trialOrder": 3,
-      "collections": [
-        "trial"
-      ]
+      "showInStore": true
     },
     {
       "id": "3334672000000195098",
@@ -1414,7 +1412,7 @@
       "sellingPrice": 13695,
       "labelPrice": 13695,
       "dealerRate": 5400,
-      "stock": -25,
+      "stock": -26,
       "img": "https://cdn2.zohoecommerce.com/product-images/royal%20blue%202b.png/3334672000003973077/600x600?storefront_domain=www.shrijidomestic.com",
       "images": [
         "https://cdn2.zohoecommerce.com/product-images/royal%20blue%202b.png/3334672000003973077/600x600?storefront_domain=www.shrijidomestic.com"
@@ -1954,7 +1952,7 @@
       "sellingPrice": 9895,
       "labelPrice": 9895,
       "dealerRate": 3675,
-      "stock": -52,
+      "stock": -53,
       "img": "",
       "images": [],
       "description": "",
@@ -2447,7 +2445,7 @@
       "sellingPrice": 8895,
       "labelPrice": 8895,
       "dealerRate": 3550,
-      "stock": -282,
+      "stock": -291,
       "img": "",
       "images": [],
       "description": "",
@@ -2539,7 +2537,7 @@
       "sellingPrice": 16895,
       "labelPrice": 16895,
       "dealerRate": 7025,
-      "stock": -222,
+      "stock": -225,
       "img": "https://cdn2.zohoecommerce.com/product-images/ARROW%203%20B.png/3334672000003973254/600x600?storefront_domain=www.shrijidomestic.com",
       "images": [
         "https://cdn2.zohoecommerce.com/product-images/ARROW%203%20B.png/3334672000003973254/600x600?storefront_domain=www.shrijidomestic.com"
@@ -2913,7 +2911,7 @@
       "sellingPrice": 20195,
       "labelPrice": 20195,
       "dealerRate": 8550,
-      "stock": -85,
+      "stock": -87,
       "img": "https://cdn2.zohoecommerce.com/product-images/Artboard4_7ca3d977-7d72-4292-9374-3f9af6f5cd09.webp/3334672000005205832/600x600?storefront_domain=www.shrijidomestic.com",
       "images": [
         "https://cdn2.zohoecommerce.com/product-images/Artboard4_7ca3d977-7d72-4292-9374-3f9af6f5cd09.webp/3334672000005205832/600x600?storefront_domain=www.shrijidomestic.com",
@@ -4301,7 +4299,7 @@
       "sellingPrice": 9095,
       "labelPrice": 9095,
       "dealerRate": 4225,
-      "stock": -7,
+      "stock": -9,
       "img": "",
       "images": [],
       "description": "",
@@ -4345,7 +4343,7 @@
       "sellingPrice": 0,
       "labelPrice": 0,
       "dealerRate": 4175,
-      "stock": -273,
+      "stock": -278,
       "img": "https://cdn2.zohoecommerce.com/product-images/WhatsApp%20Image%202026-06-04%20at%202.11.52%20PM.jpeg/3334672000003968992/600x600?storefront_domain=www.shrijidomestic.com",
       "images": [
         "https://cdn2.zohoecommerce.com/product-images/WhatsApp%20Image%202026-06-04%20at%202.11.52%20PM.jpeg/3334672000003968992/600x600?storefront_domain=www.shrijidomestic.com"
@@ -4525,7 +4523,7 @@
       "sellingPrice": 18395,
       "labelPrice": 18395,
       "dealerRate": 7350,
-      "stock": -98,
+      "stock": -100,
       "img": "https://cdn2.zohoecommerce.com/product-images/royalblue3br.webp/3334672000005205988/600x600?storefront_domain=www.shrijidomestic.com",
       "images": [
         "https://cdn2.zohoecommerce.com/product-images/royalblue3br.webp/3334672000005205988/600x600?storefront_domain=www.shrijidomestic.com",
@@ -4572,7 +4570,7 @@
       "sellingPrice": 0,
       "labelPrice": 0,
       "dealerRate": 3475,
-      "stock": -439,
+      "stock": -443,
       "img": "https://cdn2.zohoecommerce.com/product-images/WhatsApp%20Image%202026-06-04%20at%202.11.52%20PM.jpeg/3334672000003973004/600x600?storefront_domain=www.shrijidomestic.com",
       "images": [
         "https://cdn2.zohoecommerce.com/product-images/WhatsApp%20Image%202026-06-04%20at%202.11.52%20PM.jpeg/3334672000003973004/600x600?storefront_domain=www.shrijidomestic.com"
@@ -4806,7 +4804,7 @@
       "sellingPrice": 20495,
       "labelPrice": 20495,
       "dealerRate": 10075,
-      "stock": 3,
+      "stock": 1,
       "img": "https://cdn2.zohoecommerce.com/product-images/PHOTO-2026-07-07-19-04-48.webp/3334672000005205426/600x600?storefront_domain=www.shrijidomestic.com",
       "images": [
         "https://cdn2.zohoecommerce.com/product-images/PHOTO-2026-07-07-19-04-48.webp/3334672000005205426/600x600?storefront_domain=www.shrijidomestic.com",
@@ -5103,7 +5101,7 @@
       "sellingPrice": 0,
       "labelPrice": 0,
       "dealerRate": 6025,
-      "stock": -137,
+      "stock": -140,
       "img": "https://cdn2.zohoecommerce.com/product-images/WhatsApp%20Image%202026-05-27%20at%207.54.25%20PM%20(1).jpeg/3334672000003968247/600x600?storefront_domain=www.shrijidomestic.com",
       "images": [
         "https://cdn2.zohoecommerce.com/product-images/WhatsApp%20Image%202026-05-27%20at%207.54.25%20PM%20(1).jpeg/3334672000003968247/600x600?storefront_domain=www.shrijidomestic.com",
@@ -5509,7 +5507,7 @@
       "sellingPrice": 18295,
       "labelPrice": 18295,
       "dealerRate": 7700,
-      "stock": -58,
+      "stock": -59,
       "img": "https://cdn2.zohoecommerce.com/product-images/imgi_85_3_54445fb5-c7e1-400c-bf46-57f401104814.jpg/3334672000003973026/600x600?storefront_domain=www.shrijidomestic.com",
       "images": [
         "https://cdn2.zohoecommerce.com/product-images/imgi_85_3_54445fb5-c7e1-400c-bf46-57f401104814.jpg/3334672000003973026/600x600?storefront_domain=www.shrijidomestic.com",
@@ -5556,7 +5554,7 @@
       "sellingPrice": 16795,
       "labelPrice": 16795,
       "dealerRate": 5750,
-      "stock": -623,
+      "stock": -627,
       "img": "https://cdn2.zohoecommerce.com/product-images/WhatsApp%20Image%202026-06-05%20at%202.00.52%20PM.jpeg/3334672000003968172/600x600?storefront_domain=www.shrijidomestic.com",
       "images": [
         "https://cdn2.zohoecommerce.com/product-images/WhatsApp%20Image%202026-06-05%20at%202.00.52%20PM.jpeg/3334672000003968172/600x600?storefront_domain=www.shrijidomestic.com",
@@ -5828,7 +5826,7 @@
       "sellingPrice": 7385,
       "labelPrice": 7385,
       "dealerRate": 4075,
-      "stock": -363,
+      "stock": -377,
       "img": "",
       "images": [],
       "description": "",
@@ -5962,7 +5960,7 @@
       "sellingPrice": 7585,
       "labelPrice": 7585,
       "dealerRate": 4250,
-      "stock": -239,
+      "stock": -242,
       "img": "",
       "images": [],
       "description": "",
@@ -6498,7 +6496,7 @@
       "sellingPrice": 4999,
       "labelPrice": 4999,
       "dealerRate": 2125,
-      "stock": -332,
+      "stock": -372,
       "img": "https://cdn2.zohoecommerce.com/product-images/IMG_0025.jpg/3334672000004546102/600x600?storefront_domain=www.shrijidomestic.com",
       "images": [
         "https://cdn2.zohoecommerce.com/product-images/IMG_0025.jpg/3334672000004546102/600x600?storefront_domain=www.shrijidomestic.com",
@@ -7005,7 +7003,7 @@
       "sellingPrice": 20395,
       "labelPrice": 20395,
       "dealerRate": 8800,
-      "stock": -120,
+      "stock": -122,
       "img": "",
       "images": [],
       "description": "",
@@ -7097,7 +7095,7 @@
       "sellingPrice": 15595,
       "labelPrice": 15595,
       "dealerRate": 6575,
-      "stock": -154,
+      "stock": -155,
       "img": "https://cdn2.zohoecommerce.com/product-images/brio%204b%20png.png/3334672000003968160/600x600?storefront_domain=www.shrijidomestic.com",
       "images": [
         "https://cdn2.zohoecommerce.com/product-images/brio%204b%20png.png/3334672000003968160/600x600?storefront_domain=www.shrijidomestic.com"
@@ -7558,7 +7556,7 @@
       "sellingPrice": 25095,
       "labelPrice": 25095,
       "dealerRate": 10700,
-      "stock": -82,
+      "stock": -84,
       "img": "https://cdn2.zohoecommerce.com/product-images/Artboard4_2a346cc8-385a-48c9-b295-a96be78e658c.webp/3334672000005205771/600x600?storefront_domain=www.shrijidomestic.com",
       "images": [
         "https://cdn2.zohoecommerce.com/product-images/Artboard4_2a346cc8-385a-48c9-b295-a96be78e658c.webp/3334672000005205771/600x600?storefront_domain=www.shrijidomestic.com",
@@ -8294,7 +8292,7 @@
       "sellingPrice": 17395,
       "labelPrice": 17395,
       "dealerRate": 7800,
-      "stock": -21,
+      "stock": -22,
       "img": "",
       "images": [],
       "description": "",
@@ -8741,7 +8739,7 @@
       "sellingPrice": 0,
       "labelPrice": 0,
       "dealerRate": null,
-      "stock": -37,
+      "stock": -41,
       "img": "https://cdn2.zohoecommerce.com/product-images/imgi_14_4-BURNER-ROYAL-BLACK-_LEFT.jpg/3334672000003968424/600x600?storefront_domain=www.shrijidomestic.com",
       "images": [
         "https://cdn2.zohoecommerce.com/product-images/imgi_14_4-BURNER-ROYAL-BLACK-_LEFT.jpg/3334672000003968424/600x600?storefront_domain=www.shrijidomestic.com",
@@ -8997,7 +8995,7 @@
       "sellingPrice": 0,
       "labelPrice": 0,
       "dealerRate": 12525,
-      "stock": -46,
+      "stock": -48,
       "img": "https://cdn2.zohoecommerce.com/product-images/WhatsApp%20Image%202026-05-16%20at%202.02.20%20PM%20(1).jpeg/3334672000003968296/600x600?storefront_domain=www.shrijidomestic.com",
       "images": [
         "https://cdn2.zohoecommerce.com/product-images/WhatsApp%20Image%202026-05-16%20at%202.02.20%20PM%20(1).jpeg/3334672000003968296/600x600?storefront_domain=www.shrijidomestic.com",
@@ -9462,7 +9460,7 @@
       "sellingPrice": 25395,
       "labelPrice": 25395,
       "dealerRate": 12050,
-      "stock": -78,
+      "stock": -81,
       "img": "https://cdn2.zohoecommerce.com/product-images/PHOTO-2026-07-07-19-04-49_1.webp/3334672000005205525/600x600?storefront_domain=www.shrijidomestic.com",
       "images": [
         "https://cdn2.zohoecommerce.com/product-images/PHOTO-2026-07-07-19-04-49_1.webp/3334672000005205525/600x600?storefront_domain=www.shrijidomestic.com",
@@ -9514,7 +9512,7 @@
       "sellingPrice": 31395,
       "labelPrice": 31395,
       "dealerRate": 14000,
-      "stock": -31,
+      "stock": -32,
       "img": "https://cdn2.zohoecommerce.com/product-images/DocTemplates_ItemImage_3334672000005205162.webp/3334672000005205233/600x600?storefront_domain=www.shrijidomestic.com",
       "images": [
         "https://cdn2.zohoecommerce.com/product-images/DocTemplates_ItemImage_3334672000005205162.webp/3334672000005205233/600x600?storefront_domain=www.shrijidomestic.com",
@@ -10196,7 +10194,7 @@
       "sellingPrice": 21995,
       "labelPrice": 21995,
       "dealerRate": 9175,
-      "stock": -94,
+      "stock": -95,
       "img": "https://cdn2.zohoecommerce.com/product-images/imgi_5_1.44.jpg/3334672000003973059/600x600?storefront_domain=www.shrijidomestic.com",
       "images": [
         "https://cdn2.zohoecommerce.com/product-images/imgi_5_1.44.jpg/3334672000003973059/600x600?storefront_domain=www.shrijidomestic.com",
@@ -10886,7 +10884,7 @@
       "sellingPrice": 31995,
       "labelPrice": 31995,
       "dealerRate": 14425,
-      "stock": -42,
+      "stock": -44,
       "img": "https://cdn2.zohoecommerce.com/product-images/PHOTO-2026-07-07-19-04-49.webp/3334672000005205576/600x600?storefront_domain=www.shrijidomestic.com",
       "images": [
         "https://cdn2.zohoecommerce.com/product-images/PHOTO-2026-07-07-19-04-49.webp/3334672000005205576/600x600?storefront_domain=www.shrijidomestic.com",
@@ -11585,7 +11583,7 @@
       "sellingPrice": 26895,
       "labelPrice": 26895,
       "dealerRate": 11400,
-      "stock": -50,
+      "stock": -40,
       "img": "https://cdn2.zohoecommerce.com/product-images/front1copy.webp/3334672000005206415/600x600?storefront_domain=www.shrijidomestic.com",
       "images": [
         "https://cdn2.zohoecommerce.com/product-images/front1copy.webp/3334672000005206415/600x600?storefront_domain=www.shrijidomestic.com",
@@ -12703,7 +12701,7 @@
       "sellingPrice": 28095,
       "labelPrice": 28095,
       "dealerRate": 12375,
-      "stock": 1,
+      "stock": 0,
       "img": "https://cdn2.zohoecommerce.com/product-images/front1copy.webp/3334672000005206446/600x600?storefront_domain=www.shrijidomestic.com",
       "images": [
         "https://cdn2.zohoecommerce.com/product-images/front1copy.webp/3334672000005206446/600x600?storefront_domain=www.shrijidomestic.com",
@@ -13393,7 +13391,7 @@
       "sellingPrice": 48000,
       "labelPrice": 48000,
       "dealerRate": 18475,
-      "stock": -33,
+      "stock": -34,
       "img": "https://cdn2.zohoecommerce.com/product-images/dijonSize.webp/3334672000005206710/600x600?storefront_domain=www.shrijidomestic.com",
       "images": [
         "https://cdn2.zohoecommerce.com/product-images/dijonSize.webp/3334672000005206710/600x600?storefront_domain=www.shrijidomestic.com",
@@ -13529,7 +13527,7 @@
       "sellingPrice": 29595,
       "labelPrice": 29595,
       "dealerRate": 14750,
-      "stock": -4,
+      "stock": -5,
       "img": "https://cdn2.zohoecommerce.com/product-images/front1copy.webp/3334672000005206477/600x600?storefront_domain=www.shrijidomestic.com",
       "images": [
         "https://cdn2.zohoecommerce.com/product-images/front1copy.webp/3334672000005206477/600x600?storefront_domain=www.shrijidomestic.com",
@@ -14289,52 +14287,6 @@
       "showInStore": true
     }
   ],
-  "categories": [
-    {
-      "id": "3334672000000145102",
-      "key": "hob_tops",
-      "label": "Hob Tops",
-      "code": "HO",
-      "img": "https://cdn2.zohoecommerce.com/product-images/942B681C-CDC7-4519-A58F-B9464E38E884.webp/3334672000008631012/600x600?storefront_domain=www.shrijidomestic.com",
-      "document_id": "3334672000008631012",
-      "file_name": "942B681C-CDC7-4519-A58F-B9464E38E884.webp"
-    },
-    {
-      "id": "3334672000000145120",
-      "key": "gas_stoves",
-      "label": "Gas Stoves",
-      "code": "GA",
-      "img": "https://cdn2.zohoecommerce.com/product-images/PHOTO-2026-07-30-19-53-21_2.webp/3334672000008631023/600x600?storefront_domain=www.shrijidomestic.com",
-      "document_id": "3334672000008631023",
-      "file_name": "PHOTO-2026-07-30-19-53-21_2.webp"
-    },
-    {
-      "id": "3334672000000145108",
-      "key": "hobs",
-      "label": "Hobs",
-      "code": "HO",
-      "img": "https://cdn2.zohoecommerce.com/product-images/7D8AC9B6-A98A-43B2-81A3-509FB3B7D3A0.webp/3334672000008631034/600x600?storefront_domain=www.shrijidomestic.com",
-      "document_id": "3334672000008631034",
-      "file_name": "7D8AC9B6-A98A-43B2-81A3-509FB3B7D3A0.webp"
-    },
-    {
-      "id": "3334672000000145132",
-      "key": "chimneys",
-      "label": "Chimneys",
-      "code": "CH",
-      "img": "https://cdn2.zohoecommerce.com/product-images/1CA76EC0-674D-4C12-A1BB-C3E69E440D8B.webp/3334672000008631045/600x600?storefront_domain=www.shrijidomestic.com",
-      "document_id": "3334672000008631045",
-      "file_name": "1CA76EC0-674D-4C12-A1BB-C3E69E440D8B.webp"
-    },
-    {
-      "id": "3334672000000145084",
-      "key": "small_appliances",
-      "label": "Small Appliances",
-      "code": "SM",
-      "img": "https://cdn2.zohoecommerce.com/product-images/WhatsApp_Image_2026-10-03_at_7.08.46_PM_1.webp/3334672000008631056/600x600?storefront_domain=www.shrijidomestic.com",
-      "document_id": "3334672000008631056",
-      "file_name": "WhatsApp_Image_2026-10-03_at_7.08.46_PM_1.webp"
-    }
-  ],
-  "time": 1793312294167
+  "categories": [],
+  "time": 1793378231913
 }

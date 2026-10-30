@@ -1,55 +1,55 @@
 # Dependencies & Package Config
 
-> 64 nodes · cohesion 0.07
+> 67 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **get()** (27 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
-- **D()** (23 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
-- **np()** (20 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
-- **.addEventListener()** (19 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
-- **b()** (17 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
-- **h()** (16 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
-- **fp()** (13 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
-- **bm()** (12 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
-- **.removeEventListener()** (12 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
-- **ep()** (11 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
-- **vn()** (11 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
-- **am()** (10 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
-- **ip()** (10 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
-- **tp()** (10 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
-- **mm()** (9 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
-- **mo()** (9 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
-- **fn()** (7 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
-- **jm()** (7 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
-- **kt()** (7 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
-- **ln()** (7 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
-- **lp()** (7 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
-- **om()** (7 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
-- **tn()** (7 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
-- **zm()** (7 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
-- **cm()** (6 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
-- *... and 39 more nodes in this community*
+- **get()** (27 connections) — `android/app/src/main/assets/public/assets/index-CZ0bF0iF.js`
+- **ff()** (26 connections) — `android/app/src/main/assets/public/assets/index-CZ0bF0iF.js`
+- **D()** (23 connections) — `android/app/src/main/assets/public/assets/index-CZ0bF0iF.js`
+- **np()** (20 connections) — `android/app/src/main/assets/public/assets/index-CZ0bF0iF.js`
+- **Tu()** (19 connections) — `android/app/src/main/assets/public/assets/index-CZ0bF0iF.js`
+- **fi()** (16 connections) — `android/app/src/main/assets/public/assets/index-CZ0bF0iF.js`
+- **gl()** (15 connections) — `android/app/src/main/assets/public/assets/index-CZ0bF0iF.js`
+- **uu()** (13 connections) — `android/app/src/main/assets/public/assets/index-CZ0bF0iF.js`
+- **bm()** (12 connections) — `android/app/src/main/assets/public/assets/index-CZ0bF0iF.js`
+- **lu()** (12 connections) — `android/app/src/main/assets/public/assets/index-CZ0bF0iF.js`
+- **ep()** (11 connections) — `android/app/src/main/assets/public/assets/index-CZ0bF0iF.js`
+- **vu()** (11 connections) — `android/app/src/main/assets/public/assets/index-CZ0bF0iF.js`
+- **am()** (10 connections) — `android/app/src/main/assets/public/assets/index-CZ0bF0iF.js`
+- **hl()** (10 connections) — `android/app/src/main/assets/public/assets/index-CZ0bF0iF.js`
+- **ip()** (10 connections) — `android/app/src/main/assets/public/assets/index-CZ0bF0iF.js`
+- **tp()** (10 connections) — `android/app/src/main/assets/public/assets/index-CZ0bF0iF.js`
+- **ui()** (10 connections) — `android/app/src/main/assets/public/assets/index-CZ0bF0iF.js`
+- **zl()** (10 connections) — `android/app/src/main/assets/public/assets/index-CZ0bF0iF.js`
+- **ku()** (9 connections) — `android/app/src/main/assets/public/assets/index-CZ0bF0iF.js`
+- **mm()** (9 connections) — `android/app/src/main/assets/public/assets/index-CZ0bF0iF.js`
+- **mu()** (9 connections) — `android/app/src/main/assets/public/assets/index-CZ0bF0iF.js`
+- **wl()** (9 connections) — `android/app/src/main/assets/public/assets/index-CZ0bF0iF.js`
+- **cu()** (8 connections) — `android/app/src/main/assets/public/assets/index-CZ0bF0iF.js`
+- **Eu()** (8 connections) — `android/app/src/main/assets/public/assets/index-CZ0bF0iF.js`
+- **jd()** (8 connections) — `android/app/src/main/assets/public/assets/index-CZ0bF0iF.js`
+- *... and 42 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (64 shared connections)
-- [[Project Readme & Layout]] (35 shared connections)
-- [[Roles & Customer Sharing Spec]] (23 shared connections)
-- [[Product Brand & Business Vision]] (16 shared connections)
-- [[Community 44]] (14 shared connections)
-- [[Agent Guidelines (AGENTS.md)]] (11 shared connections)
-- [[Community 33]] (5 shared connections)
-- [[Community 113]] (4 shared connections)
-- [[Community 54]] (1 shared connections)
+- [[Price Presentation & Product UI]] (77 shared connections)
+- [[Master Codebase Architecture Reference]] (29 shared connections)
+- [[Live Pricing Audit Tool]] (28 shared connections)
+- [[Community 39]] (20 shared connections)
+- [[Community 36]] (14 shared connections)
+- [[Testing & Workflow Skill]] (10 shared connections)
+- [[Community 74]] (10 shared connections)
+- [[Community 78]] (9 shared connections)
+- [[Community 62]] (3 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
+- `android/app/src/main/assets/public/assets/index-CZ0bF0iF.js`
 
 ## Audit Trail
 
-- EXTRACTED: 443 (100%)
+- EXTRACTED: 520 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,13 +1,15 @@
 # Zoho Backend & Proxy Endpoints
 
-> 68 nodes · cohesion 0.10
+> 86 nodes · cohesion 0.07
 
 ## Key Concepts
 
 - **geometry.mjs** (75 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **render-sequence.mjs** (67 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
 - **compileWorkflowInternal()** (67 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
 - **asArray()** (43 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
 - **geometry.test.mjs** (34 connections) — `.agents/skills/archify/test/geometry.test.mjs`
+- **textUnits()** (33 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
 - **validateArchitecture()** (22 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
 - **validateDataflow()** (22 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
 - **validateLifecycle()** (22 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
@@ -19,30 +21,29 @@
 - **cleanAmbiguousCorridorProblems()** (15 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
 - **cleanBorderRunProblems()** (15 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
 - **cleanRouteRhythmProblems()** (15 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **labelPoint()** (15 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
 - **cleanEndpointSideProblems()** (14 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
 - **cleanLabelRouteClearanceProblems()** (14 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
 - **brandTopRailProblem()** (13 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
 - **collectLabelRouteClearance()** (12 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **segmentIntersectsRect()** (12 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
 - **suggestLabelObstacleFix()** (12 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
+- **minimumNodeTextWidth()** (12 connections) — `.agents/skills/archify/renderers/shared/text-fit.mjs`
+- **text-fit.mjs** (11 connections) — `.agents/skills/archify/renderers/shared/text-fit.mjs`
 - **availableNodeTextWidth()** (11 connections) — `.agents/skills/archify/renderers/shared/text-fit.mjs`
-- **collectBorderRuns()** (10 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **normalizeRoutePoints()** (10 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- *... and 43 more nodes in this community*
+- *... and 61 more nodes in this community*
 
 ## Relationships
 
-- [[Community 65]] (48 shared connections)
-- [[Client Products Data Store]] (44 shared connections)
-- [[Community 53]] (39 shared connections)
-- [[Community 43]] (34 shared connections)
-- [[Oxlint Linter Configuration]] (33 shared connections)
-- [[Product Requirements Documentation]] (12 shared connections)
-- [[Community 84]] (9 shared connections)
-- [[Graphify Knowledge Graph Skill]] (6 shared connections)
-- [[Community 299]] (3 shared connections)
-- [[Community 30]] (1 shared connections)
+- [[Community 47]] (51 shared connections)
+- [[Community 33]] (51 shared connections)
+- [[Community 52]] (46 shared connections)
+- [[Product Brand & Business Vision]] (44 shared connections)
+- [[Community 86]] (37 shared connections)
+- [[Zoho Integration Architecture]] (17 shared connections)
+- [[Community 127]] (6 shared connections)
+- [[Roles & Customer Sharing Spec]] (6 shared connections)
+- [[Zoho API Diagnostic Script]] (3 shared connections)
+- [[Community 298]] (3 shared connections)
+- [[Community 290]] (1 shared connections)
 
 ## Source Files
 
@@ -54,13 +55,14 @@
 - `.agents/skills/archify/renderers/shared/diagnostics.mjs`
 - `.agents/skills/archify/renderers/shared/geometry.mjs`
 - `.agents/skills/archify/renderers/shared/text-fit.mjs`
+- `.agents/skills/archify/renderers/shared/utils.mjs`
 - `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
 - `.agents/skills/archify/test/geometry.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 705 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 812 (100%)
+- INFERRED: 1 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

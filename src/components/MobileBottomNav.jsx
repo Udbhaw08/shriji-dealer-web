@@ -1,4 +1,5 @@
 import { Link, useLocation } from "react-router-dom";
+import { createPortal } from "react-dom";
 import { Icon } from "../ui";
 import { useLanguage } from "../data/i18n";
 import { useSession } from "../data/session";
@@ -18,7 +19,7 @@ export default function MobileBottomNav() {
   const isSchemes = pathname.startsWith("/schemes");
   const isSupport = pathname.startsWith("/support");
 
-  return (
+  const navContent = (
     <nav className="mobile-bottom-nav" aria-label="Mobile Navigation">
       <div className="mobile-bottom-inner">
         {/* 5-Tab Bar */}
@@ -93,4 +94,10 @@ export default function MobileBottomNav() {
       </div>
     </nav>
   );
+
+  if (typeof document !== "undefined" && document.body) {
+    return createPortal(navContent, document.body);
+  }
+
+  return navContent;
 }

@@ -1,55 +1,55 @@
 # Testing & Workflow Skill
 
-> 44 nodes · cohesion 0.11
+> 42 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **kr()** (25 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **Nr()** (21 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **gf()** (20 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **r()** (14 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **Ei()** (12 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **jr()** (11 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **af()** (10 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **ii()** (10 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **Si()** (10 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **hr()** (8 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **kc()** (8 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **ki()** (8 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **qr()** (8 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **xr()** (8 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **br()** (7 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **Fr()** (7 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **hn()** (7 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **Oi()** (7 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **ci()** (6 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **Ir()** (6 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **mr()** (6 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **Rr()** (6 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **Vr()** (6 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **wr()** (6 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **xn()** (6 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- *... and 19 more nodes in this community*
+- **kr()** (25 connections) — `android/app/src/main/assets/public/assets/index-CZ0bF0iF.js`
+- **Nr()** (21 connections) — `android/app/src/main/assets/public/assets/index-CZ0bF0iF.js`
+- **gf()** (20 connections) — `android/app/src/main/assets/public/assets/index-CZ0bF0iF.js`
+- **Ei()** (12 connections) — `android/app/src/main/assets/public/assets/index-CZ0bF0iF.js`
+- **jr()** (11 connections) — `android/app/src/main/assets/public/assets/index-CZ0bF0iF.js`
+- **af()** (10 connections) — `android/app/src/main/assets/public/assets/index-CZ0bF0iF.js`
+- **ii()** (10 connections) — `android/app/src/main/assets/public/assets/index-CZ0bF0iF.js`
+- **Si()** (10 connections) — `android/app/src/main/assets/public/assets/index-CZ0bF0iF.js`
+- **hr()** (8 connections) — `android/app/src/main/assets/public/assets/index-CZ0bF0iF.js`
+- **kc()** (8 connections) — `android/app/src/main/assets/public/assets/index-CZ0bF0iF.js`
+- **ki()** (8 connections) — `android/app/src/main/assets/public/assets/index-CZ0bF0iF.js`
+- **qr()** (8 connections) — `android/app/src/main/assets/public/assets/index-CZ0bF0iF.js`
+- **xr()** (8 connections) — `android/app/src/main/assets/public/assets/index-CZ0bF0iF.js`
+- **br()** (7 connections) — `android/app/src/main/assets/public/assets/index-CZ0bF0iF.js`
+- **Fr()** (7 connections) — `android/app/src/main/assets/public/assets/index-CZ0bF0iF.js`
+- **hn()** (7 connections) — `android/app/src/main/assets/public/assets/index-CZ0bF0iF.js`
+- **Oi()** (7 connections) — `android/app/src/main/assets/public/assets/index-CZ0bF0iF.js`
+- **ci()** (6 connections) — `android/app/src/main/assets/public/assets/index-CZ0bF0iF.js`
+- **Ir()** (6 connections) — `android/app/src/main/assets/public/assets/index-CZ0bF0iF.js`
+- **mr()** (6 connections) — `android/app/src/main/assets/public/assets/index-CZ0bF0iF.js`
+- **Rr()** (6 connections) — `android/app/src/main/assets/public/assets/index-CZ0bF0iF.js`
+- **Vr()** (6 connections) — `android/app/src/main/assets/public/assets/index-CZ0bF0iF.js`
+- **wr()** (6 connections) — `android/app/src/main/assets/public/assets/index-CZ0bF0iF.js`
+- **xn()** (6 connections) — `android/app/src/main/assets/public/assets/index-CZ0bF0iF.js`
+- **Lr()** (5 connections) — `android/app/src/main/assets/public/assets/index-CZ0bF0iF.js`
+- *... and 17 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (45 shared connections)
-- [[Product Pages Specification]] (11 shared connections)
-- [[Zoho API Diagnostic Script]] (11 shared connections)
-- [[Community 34]] (10 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (7 shared connections)
-- [[Live Pricing Audit Tool]] (7 shared connections)
-- [[Community 57]] (6 shared connections)
-- [[Community 116]] (6 shared connections)
-- [[Community 46]] (4 shared connections)
+- [[Price Presentation & Product UI]] (44 shared connections)
+- [[Master Codebase Architecture Reference]] (14 shared connections)
+- [[Dependencies & Package Config]] (10 shared connections)
+- [[Live Pricing Audit Tool]] (9 shared connections)
+- [[Community 78]] (9 shared connections)
+- [[Community 62]] (5 shared connections)
+- [[Community 36]] (3 shared connections)
+- [[Community 74]] (2 shared connections)
+- [[Community 39]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-LiwW60BS.js`
+- `android/app/src/main/assets/public/assets/index-CZ0bF0iF.js`
 
 ## Audit Trail
 
-- EXTRACTED: 313 (100%)
+- EXTRACTED: 293 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **numberUtils.js** (2 connections) — `src/utils/numberUtils.js`
-- **calculateDiscountPercentage()** (1 connections) — `src/utils/numberUtils.js`
-- **clamp()** (1 connections) — `src/utils/numberUtils.js`
+- **debounce.js** (2 connections) — `src/utils/debounce.js`
+- **debounce()** (1 connections) — `src/utils/debounce.js`
+- **throttle()** (1 connections) — `src/utils/debounce.js`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `src/utils/numberUtils.js`
+- `src/utils/debounce.js`
 
 ## Audit Trail
 

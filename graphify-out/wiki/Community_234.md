@@ -16,16 +16,16 @@
 
 ## Relationships
 
-- [[Community 390]] (1 shared connections)
-- [[Community 411]] (1 shared connections)
 - [[Community 391]] (1 shared connections)
-- [[Community 412]] (1 shared connections)
 - [[Community 413]] (1 shared connections)
-- [[Community 414]] (1 shared connections)
 - [[Community 392]] (1 shared connections)
+- [[Community 414]] (1 shared connections)
 - [[Community 415]] (1 shared connections)
 - [[Community 416]] (1 shared connections)
 - [[Community 393]] (1 shared connections)
+- [[Community 417]] (1 shared connections)
+- [[Community 418]] (1 shared connections)
+- [[Community 394]] (1 shared connections)
 - [[Community 235]] (1 shared connections)
 - [[Community 469]] (1 shared connections)
 

@@ -1,45 +1,46 @@
 # Community 116
 
-> 16 nodes · cohesion 0.20
+> 16 nodes · cohesion 0.26
 
 ## Key Concepts
 
-- **yc()** (20 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **Ti()** (14 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **gc()** (11 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **Ai()** (6 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **qc()** (6 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **Do()** (5 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **Mi()** (5 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **sm()** (5 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **La()** (4 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **Pi()** (4 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **Uc()** (4 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **wo()** (4 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **za()** (4 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **di()** (3 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **eo()** (3 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **Ni()** (2 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
+- **fetchZohoProducts()** (20 connections) — `api/_lib/zoho.js`
+- **securityPhase2.test.mjs** (11 connections) — `backend/test/securityPhase2.test.mjs`
+- **dealerPricingAuth.js** (10 connections) — `api/_lib/dealerPricingAuth.js`
+- **getDealerPricingEligibility()** (8 connections) — `api/_lib/dealerPricingAuth.js`
+- **index.js** (8 connections) — `api/products/index.js`
+- **fetchZohoCategories()** (6 connections) — `api/_lib/zoho.js`
+- **[id].js** (6 connections) — `api/products/[id].js`
+- **handler()** (6 connections) — `api/products/index.js`
+- **maskCatalogPricing()** (5 connections) — `api/_lib/dealerPricingAuth.js`
+- **maskProductPricing()** (5 connections) — `api/_lib/dealerPricingAuth.js`
+- **getCategoryVisibilityMap()** (5 connections) — `api/_lib/zoho.js`
+- **readProductsDiskCache()** (5 connections) — `api/_lib/zoho.js`
+- **handler()** (4 connections) — `api/products/[id].js`
+- **writeProductsDiskCache()** (2 connections) — `api/_lib/zoho.js`
+- **tokenCache** (1 connections) — `api/_lib/dealerPricingAuth.js`
+- **mockWebhookAuthCheck()** (1 connections) — `backend/test/securityPhase2.test.mjs`
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (16 shared connections)
-- [[Live Pricing Audit Tool]] (8 shared connections)
-- [[Community 34]] (7 shared connections)
-- [[Testing & Workflow Skill]] (6 shared connections)
-- [[Zoho API Diagnostic Script]] (5 shared connections)
-- [[Product Pages Specification]] (4 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (2 shared connections)
-- [[Community 57]] (2 shared connections)
-- [[Community 46]] (2 shared connections)
+- [[Community 68]] (15 shared connections)
+- [[Community 92]] (8 shared connections)
+- [[Community 46]] (7 shared connections)
+- [[Product Pages Specification]] (6 shared connections)
+- [[Pricing Regression Test Suite]] (3 shared connections)
+- [[Community 148]] (2 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-LiwW60BS.js`
+- `api/_lib/dealerPricingAuth.js`
+- `api/_lib/zoho.js`
+- `api/products/[id].js`
+- `api/products/index.js`
+- `backend/test/securityPhase2.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 100 (100%)
+- EXTRACTED: 103 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

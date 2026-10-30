@@ -1,45 +1,42 @@
 # Community 113
 
-> 16 nodes · cohesion 0.20
+> 17 nodes · cohesion 0.23
 
 ## Key Concepts
 
-- **yc()** (20 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
-- **Ti()** (14 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
-- **gc()** (11 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
-- **Ai()** (6 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
-- **qc()** (6 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
-- **Do()** (5 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
-- **Mi()** (5 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
-- **sm()** (5 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
-- **La()** (4 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
-- **Pi()** (4 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
-- **Uc()** (4 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
-- **wo()** (4 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
-- **za()** (4 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
-- **di()** (3 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
-- **eo()** (3 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
-- **Ni()** (2 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
+- **checkForUpdate()** (19 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **commitOperation()** (14 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **acknowledgeUpdate()** (13 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **cancelOperation()** (7 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **resultForCandidate()** (7 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **silent()** (7 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **resultAfterLosingOperation()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **readJsonFile()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **transitionOperation()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **operationOwnsActiveClaim()** (4 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **runCli()** (4 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **freshStateResult()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **versionCacheDirectory()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **assertBoundedRegularFile()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **digestForEventKey()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **fetchCandidate()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **waitUntilRetry()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (16 shared connections)
-- [[Product Brand & Business Vision]] (8 shared connections)
-- [[Community 33]] (7 shared connections)
-- [[Agent Guidelines (AGENTS.md)]] (6 shared connections)
-- [[Project Readme & Layout]] (5 shared connections)
-- [[Dependencies & Package Config]] (4 shared connections)
-- [[Roles & Customer Sharing Spec]] (2 shared connections)
-- [[Community 54]] (2 shared connections)
-- [[Community 44]] (2 shared connections)
+- [[Community 55]] (19 shared connections)
+- [[Community 106]] (12 shared connections)
+- [[Community 99]] (7 shared connections)
+- [[Community 65]] (3 shared connections)
+- [[Community 38]] (2 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
+- `.agents/skills/archify/scripts/check-update.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 100 (100%)
+- EXTRACTED: 105 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

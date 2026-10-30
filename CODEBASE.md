@@ -1,8 +1,8 @@
 # CODEBASE.md — Project Architecture & Feature Guide
 
 > **Auto-generated documentation**
-> Last synchronized: 2026-10-30T03:48:19.581+05:30 (GMT+5:30)
-> Total Project Files: 2218
+> Last synchronized: 2026-10-30T22:07:15.123+05:30 (GMT+5:30)
+> Total Project Files: 2255
 
 ---
 
@@ -92,22 +92,22 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 ## 4. Codebase Directory Map
 
 ### 4.1 Pages (`src/pages/`)
-- **`src/pages/ContentAdminDashboard.jsx`** (101.6 KB)
+- **`src/pages/ContentAdminDashboard.jsx`** (143.2 KB)
 - **`src/pages/DealerApply.jsx`** (0.4 KB)
 - **`src/pages/DealerDashboard.jsx`** (54.5 KB)
 - **`src/pages/DealerPending.jsx`** (23.3 KB)
 - **`src/pages/Favorites.jsx`** (12.6 KB)
-- **`src/pages/Home.jsx`** (23.5 KB)
+- **`src/pages/Home.jsx`** (25.5 KB)
 - **`src/pages/LegalPrivacy.jsx`** (5.8 KB)
 - **`src/pages/LegalTerms.jsx`** (4.2 KB)
 - **`src/pages/Login.jsx`** (83.8 KB)
 - **`src/pages/PrivacyPolicy.jsx`** (0.0 KB)
 - **`src/pages/Product.jsx`** (38.7 KB)
-- **`src/pages/Products.jsx`** (45.9 KB)
+- **`src/pages/Products.jsx`** (46.7 KB)
 - **`src/pages/Schemes.jsx`** (17.1 KB)
 - **`src/pages/StaffDashboard.jsx`** (47.4 KB)
 - **`src/pages/StaffJoin.jsx`** (26.6 KB)
-- **`src/pages/Support.jsx`** (14.6 KB)
+- **`src/pages/Support.jsx`** (17.0 KB)
 - **`src/pages/TermsOfService.jsx`** (0.0 KB)
 
 ### 4.2 Reusable Components (`src/components/` & `src/ui.jsx`)
@@ -116,8 +116,8 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 - **`src/components/EmailVerificationPrompt.jsx`** (10.8 KB)
 - **`src/components/ErrorBoundary.jsx`** (0.8 KB)
 - **`src/components/FileOrUrlInput.jsx`** (15.2 KB)
-- **`src/components/HeroSlider.jsx`** (18.2 KB)
-- **`src/components/MobileBottomNav.jsx`** (3.5 KB)
+- **`src/components/HeroSlider.jsx`** (19.7 KB)
+- **`src/components/MobileBottomNav.jsx`** (3.7 KB)
 - **`src/components/NativeBackHandler.jsx`** (4.1 KB)
 - **`src/components/NetworkStatusBadge.jsx`** (0.8 KB)
 - **`src/components/OtpDispatchFeedback.jsx`** (3.4 KB)
@@ -144,22 +144,22 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 - **`src/data/portalGate.test.mjs`** (1.1 KB)
 - **`src/data/pricing.test.mjs`** (4.2 KB)
 - **`src/data/products.js`** (1.8 KB)
-- **`src/data/productsStore.js`** (6.5 KB)
+- **`src/data/productsStore.js`** (6.6 KB)
 - **`src/data/productsStore.test.mjs`** (5.2 KB)
 - **`src/data/searchHelper.js`** (9.8 KB)
 - **`src/data/searchHelper.test.mjs`** (0.9 KB)
 - **`src/data/session.js`** (10.4 KB)
 - **`src/data/site.js`** (3.7 KB)
 - **`src/data/site.test.mjs`** (0.7 KB)
-- **`src/data/translations.js`** (32.5 KB)
-- **`src/data/trial-collection.test.mjs`** (2.8 KB)
+- **`src/data/translations.js`** (32.9 KB)
+- **`src/data/trial-collection.test.mjs`** (5.4 KB)
 - **`src/data/validators.js`** (1.6 KB)
 - **`src/data/video-banner.test.mjs`** (2.3 KB)
 
 ### 4.4 Zoho API & Serverless Handlers (`api/`)
 - **`api/admin/login.js`** (2.5 KB)
 - **`api/auth/[...path].js`** (1.2 KB)
-- **`api/content.js`** (7.0 KB)
+- **`api/content.js`** (7.5 KB)
 - **`api/dealer/apply.js`** (1.0 KB)
 - **`api/dealer/info.js`** (1.9 KB)
 - **`api/dealers/[...path].js`** (1.2 KB)
@@ -168,12 +168,13 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 - **`api/products/index.js`** (2.7 KB)
 - **`api/products/sync-tags.js`** (0.9 KB)
 - **`api/products/[id].js`** (2.1 KB)
+- **`api/settings.js`** (1.0 KB)
 - **`api/upload.js`** (10.9 KB)
 - **`api/_lib/adminAuth.js`** (1.6 KB)
 - **`api/_lib/dealerPricingAuth.js`** (6.2 KB)
 - **`api/_lib/htmlEscape.js`** (1.1 KB)
 - **`api/_lib/ssrf.js`** (5.8 KB)
-- **`api/_lib/zoho.js`** (59.8 KB)
+- **`api/_lib/zoho.js`** (60.1 KB)
 
 ### 4.5 Automation & Utility Scripts (`scripts/`)
 - **`scripts/audit_prices.mjs`** (3.9 KB)

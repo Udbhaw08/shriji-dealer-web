@@ -1,55 +1,47 @@
 # Community 44
 
-> 31 nodes · cohesion 0.13
+> 33 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **it()** (20 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
-- **k()** (19 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
-- **st()** (17 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
-- **Dn()** (12 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
-- **ut()** (11 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
-- **jt()** (10 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
-- **ct()** (9 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
-- **nt()** (9 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
-- **ot()** (8 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
-- **xt()** (8 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
-- **dt()** (7 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
-- **Gt()** (7 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
-- **Id()** (7 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
-- **jn()** (7 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
-- **rt()** (7 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
-- **fo()** (6 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
-- **hf()** (6 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
-- **qt()** (6 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
-- **Yt()** (6 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
-- **en()** (5 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
-- **_f()** (5 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
-- **vo()** (5 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
-- **Wd()** (5 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
-- **Wt()** (5 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
-- **bt()** (4 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
-- *... and 6 more nodes in this community*
+- **scripts** (15 connections) — `.agents/skills/archify/package.json`
+- **package.json** (11 connections) — `.agents/skills/archify/package.json`
+- **devDependencies** (5 connections) — `.agents/skills/archify/package.json`
+- **bin** (2 connections) — `.agents/skills/archify/package.json`
+- **engines** (2 connections) — `.agents/skills/archify/package.json`
+- **overrides** (2 connections) — `.agents/skills/archify/package.json`
+- **archify** (1 connections) — `.agents/skills/archify/package.json`
+- **description** (1 connections) — `.agents/skills/archify/package.json`
+- **ajv** (1 connections) — `.agents/skills/archify/package.json`
+- **parse5** (1 connections) — `.agents/skills/archify/package.json`
+- **saxes** (1 connections) — `.agents/skills/archify/package.json`
+- **simple-icons** (1 connections) — `.agents/skills/archify/package.json`
+- **node** (1 connections) — `.agents/skills/archify/package.json`
+- **license** (1 connections) — `.agents/skills/archify/package.json`
+- **name** (1 connections) — `.agents/skills/archify/package.json`
+- **fast-uri** (1 connections) — `.agents/skills/archify/package.json`
+- **private** (1 connections) — `.agents/skills/archify/package.json`
+- **build:gallery** (1 connections) — `.agents/skills/archify/package.json`
+- **build:guide** (1 connections) — `.agents/skills/archify/package.json`
+- **build:readme-showcase** (1 connections) — `.agents/skills/archify/package.json`
+- **build:start** (1 connections) — `.agents/skills/archify/package.json`
+- **check:brand-marks** (1 connections) — `.agents/skills/archify/package.json`
+- **check:release-identity** (1 connections) — `.agents/skills/archify/package.json`
+- **check:validators** (1 connections) — `.agents/skills/archify/package.json`
+- **check:viewer** (1 connections) — `.agents/skills/archify/package.json`
+- *... and 8 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (34 shared connections)
-- [[Project Readme & Layout]] (23 shared connections)
-- [[Product Brand & Business Vision]] (15 shared connections)
-- [[Dependencies & Package Config]] (14 shared connections)
-- [[Community 54]] (8 shared connections)
-- [[Community 33]] (7 shared connections)
-- [[Roles & Customer Sharing Spec]] (5 shared connections)
-- [[Agent Guidelines (AGENTS.md)]] (4 shared connections)
-- [[Community 113]] (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
+- `.agents/skills/archify/package.json`
 
 ## Audit Trail
 
-- EXTRACTED: 230 (100%)
+- EXTRACTED: 64 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

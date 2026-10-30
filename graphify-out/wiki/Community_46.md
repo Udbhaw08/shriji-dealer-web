@@ -1,55 +1,54 @@
 # Community 46
 
-> 31 nodes · cohesion 0.13
+> 33 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **it()** (20 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **k()** (19 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **st()** (17 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **Dn()** (12 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **ut()** (11 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **jt()** (10 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **ct()** (9 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **nt()** (9 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **ot()** (8 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **xt()** (8 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **dt()** (7 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **Gt()** (7 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **Id()** (7 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **jn()** (7 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **rt()** (7 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **fo()** (6 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **hf()** (6 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **qt()** (6 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **Yt()** (6 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **en()** (5 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **_f()** (5 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **vo()** (5 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **Wd()** (5 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **Wt()** (5 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **bt()** (4 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- *... and 6 more nodes in this community*
+- **zoho.js** (71 connections) — `api/_lib/zoho.js`
+- **normalizeProduct()** (11 connections) — `api/_lib/zoho.js`
+- **syncRecentProductTags()** (7 connections) — `api/_lib/zoho.js`
+- **readTagCache()** (6 connections) — `api/_lib/zoho.js`
+- **updateCachedProductTags()** (4 connections) — `api/_lib/zoho.js`
+- **sync-tags.js** (4 connections) — `api/products/sync-tags.js`
+- **getCachedProductTags()** (3 connections) — `api/_lib/zoho.js`
+- **isItemOnline()** (3 connections) — `api/_lib/zoho.js`
+- **readCollectionDiskCache()** (3 connections) — `api/_lib/zoho.js`
+- **slugifyProduct()** (3 connections) — `api/_lib/zoho.js`
+- **writeCollectionDiskCache()** (3 connections) — `api/_lib/zoho.js`
+- **handler()** (3 connections) — `api/products/sync-tags.js`
+- **isItemCategoryOnline()** (2 connections) — `api/_lib/zoho.js`
+- **parseRate()** (2 connections) — `api/_lib/zoho.js`
+- **slugifyCategory()** (2 connections) — `api/_lib/zoho.js`
+- **writeTagCache()** (2 connections) — `api/_lib/zoho.js`
+- **cachedPricebooks** (1 connections) — `api/_lib/zoho.js`
+- **cachedProductDetails** (1 connections) — `api/_lib/zoho.js`
+- **cachedProductsByPricebook** (1 connections) — `api/_lib/zoho.js`
+- **clearDiskCache()** (1 connections) — `api/_lib/zoho.js`
+- **DEFAULT_SCHEMES** (1 connections) — `api/_lib/zoho.js`
+- **DEFAULT_STORE_BANNERS** (1 connections) — `api/_lib/zoho.js`
+- **localCacheFile** (1 connections) — `api/_lib/zoho.js`
+- **localCollectionCacheFile** (1 connections) — `api/_lib/zoho.js`
+- **localDetailCacheFile** (1 connections) — `api/_lib/zoho.js`
+- *... and 8 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (34 shared connections)
-- [[Zoho API Diagnostic Script]] (23 shared connections)
-- [[Live Pricing Audit Tool]] (15 shared connections)
-- [[Product Pages Specification]] (14 shared connections)
-- [[Community 57]] (8 shared connections)
-- [[Community 34]] (7 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (5 shared connections)
-- [[Testing & Workflow Skill]] (4 shared connections)
-- [[Community 116]] (2 shared connections)
+- [[Community 68]] (33 shared connections)
+- [[Community 116]] (7 shared connections)
+- [[Community 252]] (6 shared connections)
+- [[Community 92]] (4 shared connections)
+- [[Community 43]] (2 shared connections)
+- [[Community 45]] (1 shared connections)
+- [[Community 148]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-LiwW60BS.js`
+- `api/_lib/zoho.js`
+- `api/products/sync-tags.js`
 
 ## Audit Trail
 
-- EXTRACTED: 230 (100%)
+- EXTRACTED: 146 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

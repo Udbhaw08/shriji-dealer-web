@@ -1,52 +1,54 @@
 # Graphify Agent Rules
 
-> 43 nodes · cohesion 0.15
+> 41 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **auth.js** (59 connections) — `src/data/auth.js`
-- **callBackend()** (32 connections) — `src/data/auth.js`
-- **json()** (32 connections) — `src/data/auth.js`
-- **DealerDashboard.jsx** (24 connections) — `src/pages/DealerDashboard.jsx`
-- **apiFetch()** (20 connections) — `src/data/api.js`
-- **broadcastAuthChange()** (13 connections) — `src/data/auth.js`
-- **applyAuthResponse()** (9 connections) — `src/data/auth.js`
-- **finalizeDealerRegistration()** (8 connections) — `src/data/auth.js`
-- **requestDealerRegistrationOtp()** (7 connections) — `src/data/auth.js`
-- **staffSignup()** (7 connections) — `src/data/auth.js`
-- **verifyDealerRegistrationOtp()** (7 connections) — `src/data/auth.js`
-- **verifyEmailOtp()** (7 connections) — `src/data/auth.js`
-- **logout()** (6 connections) — `src/data/auth.js`
-- **requestEmailOtp()** (6 connections) — `src/data/auth.js`
-- **verifyPhoneOtp()** (6 connections) — `src/data/auth.js`
-- **fetchMe()** (5 connections) — `src/data/auth.js`
-- **googleLogin()** (5 connections) — `src/data/auth.js`
-- **login()** (5 connections) — `src/data/auth.js`
-- **lookupStaffCode()** (5 connections) — `src/data/auth.js`
-- **requestPhoneOtp()** (5 connections) — `src/data/auth.js`
-- **signup()** (5 connections) — `src/data/auth.js`
-- **staffTogglePrice()** (5 connections) — `src/data/auth.js`
-- **staffTogglePriceAll()** (5 connections) — `src/data/auth.js`
-- **verifyOtp()** (5 connections) — `src/data/auth.js`
-- **persistTokens()** (4 connections) — `src/data/auth.js`
-- *... and 18 more nodes in this community*
+- **ff()** (26 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
+- **fi()** (16 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
+- **gl()** (15 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
+- **q()** (13 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
+- **uu()** (13 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
+- **lu()** (12 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
+- **hl()** (10 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
+- **ui()** (10 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
+- **wa()** (10 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
+- **zl()** (10 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
+- **Iu()** (9 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
+- **ku()** (9 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
+- **mu()** (9 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
+- **wl()** (9 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
+- **Eu()** (8 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
+- **jd()** (8 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
+- **yl()** (7 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
+- **fu()** (6 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
+- **kl()** (6 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
+- **ul()** (6 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
+- **Do()** (5 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
+- **Nu()** (5 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
+- **Wu()** (5 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
+- **ba()** (4 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
+- **bu()** (4 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
+- *... and 16 more nodes in this community*
 
 ## Relationships
 
-- [[Mobile Responsive UI Skill]] (58 shared connections)
-- [[Design System & UI Tokens]] (9 shared connections)
-- [[Community 107]] (7 shared connections)
-- [[Zoho Integration Architecture]] (4 shared connections)
+- [[Dealer Auth & Session Management]] (47 shared connections)
+- [[Mobile Responsive UI Skill]] (21 shared connections)
+- [[Design System & UI Tokens]] (18 shared connections)
+- [[Architecture Doc Generator]] (8 shared connections)
+- [[Product Requirements Documentation]] (7 shared connections)
+- [[Community 49]] (6 shared connections)
+- [[Community 37]] (6 shared connections)
+- [[Community 40]] (5 shared connections)
 
 ## Source Files
 
-- `src/data/api.js`
-- `src/data/auth.js`
-- `src/pages/DealerDashboard.jsx`
+- `ios/App/App/public/assets/index-CZ0bF0iF.js`
 
 ## Audit Trail
 
-- EXTRACTED: 354 (100%)
+- EXTRACTED: 286 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

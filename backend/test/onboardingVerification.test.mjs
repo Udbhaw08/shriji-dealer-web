@@ -416,6 +416,8 @@ mock.module('../src/services/crmClient.js', {
     createDealerContact: async () => 'con-zoho-123',
     linkContactToBackendUser: async () => {},
     getDealerAccount: async () => null,
+    syncAccountUserSourceToContacts: async () => true,
+    getPrimaryContactForAccount: async () => null,
   },
 });
 mock.module('../src/services/commerceClient.js', {

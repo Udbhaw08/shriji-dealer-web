@@ -17,8 +17,8 @@
 
 ## Relationships
 
-- [[Community 98]] (1 shared connections)
-- [[Product Requirements Documentation]] (1 shared connections)
+- [[Community 99]] (1 shared connections)
+- [[Zoho Integration Architecture]] (1 shared connections)
 
 ## Source Files
 

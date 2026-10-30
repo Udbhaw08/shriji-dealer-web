@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **rateLimiterEdgeCases.test.mjs** (0 connections) — `backend/test/rateLimiterEdgeCases.test.mjs`
+- **metaTemplateHelper.test.mjs** (0 connections) — `backend/test/metaTemplateHelper.test.mjs`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `backend/test/rateLimiterEdgeCases.test.mjs`
+- `backend/test/metaTemplateHelper.test.mjs`
 
 ## Audit Trail
 

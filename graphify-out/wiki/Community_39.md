@@ -1,50 +1,55 @@
 # Community 39
 
-> 39 nodes · cohesion 0.07
+> 37 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **scenarios.mjs** (15 connections) — `.agents/skills/archify/recipes/scenarios.mjs`
-- **FakeElement** (12 connections) — `.agents/skills/archify/test/start-page.test.mjs`
-- **gallery.test.mjs** (9 connections) — `.agents/skills/archify/test/gallery.test.mjs`
-- **start-page.test.mjs** (8 connections) — `.agents/skills/archify/test/start-page.test.mjs`
-- **guide.test.mjs** (6 connections) — `.agents/skills/archify/test/guide.test.mjs`
-- **recommendScenario()** (4 connections) — `.agents/skills/archify/recipes/scenarios.mjs`
-- **SCENARIO_RECIPES** (4 connections) — `.agents/skills/archify/recipes/scenarios.mjs`
-- **detectGuideLanguage()** (3 connections) — `.agents/skills/archify/recipes/scenarios.mjs`
-- **listScenarioRecipes()** (3 connections) — `.agents/skills/archify/recipes/scenarios.mjs`
-- **formatScenarioList()** (2 connections) — `.agents/skills/archify/recipes/scenarios.mjs`
-- **localized()** (2 connections) — `.agents/skills/archify/recipes/scenarios.mjs`
-- **normalized()** (2 connections) — `.agents/skills/archify/recipes/scenarios.mjs`
-- **publicGuideData()** (2 connections) — `.agents/skills/archify/recipes/scenarios.mjs`
-- **scoreRecipe()** (2 connections) — `.agents/skills/archify/recipes/scenarios.mjs`
-- **startPromptsFor()** (2 connections) — `.agents/skills/archify/recipes/scenarios.mjs`
-- **formatScenarioRecommendation()** (1 connections) — `.agents/skills/archify/recipes/scenarios.mjs`
-- **RAW_RECIPES** (1 connections) — `.agents/skills/archify/recipes/scenarios.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/gallery.test.mjs`
-- **generatedRoot** (1 connections) — `.agents/skills/archify/test/gallery.test.mjs`
-- **normalize()** (1 connections) — `.agents/skills/archify/test/gallery.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/gallery.test.mjs`
-- **sha256()** (1 connections) — `.agents/skills/archify/test/gallery.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/gallery.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/gallery.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/start-page.test.mjs`
-- *... and 14 more nodes in this community*
+- **.addEventListener()** (19 connections) — `android/app/src/main/assets/public/assets/index-CZ0bF0iF.js`
+- **b()** (17 connections) — `android/app/src/main/assets/public/assets/index-CZ0bF0iF.js`
+- **h()** (16 connections) — `android/app/src/main/assets/public/assets/index-CZ0bF0iF.js`
+- **fp()** (13 connections) — `android/app/src/main/assets/public/assets/index-CZ0bF0iF.js`
+- **.removeEventListener()** (12 connections) — `android/app/src/main/assets/public/assets/index-CZ0bF0iF.js`
+- **delete()** (11 connections) — `android/app/src/main/assets/public/assets/index-CZ0bF0iF.js`
+- **v()** (8 connections) — `android/app/src/main/assets/public/assets/index-CZ0bF0iF.js`
+- **lp()** (7 connections) — `android/app/src/main/assets/public/assets/index-CZ0bF0iF.js`
+- **cm()** (6 connections) — `android/app/src/main/assets/public/assets/index-CZ0bF0iF.js`
+- **em()** (6 connections) — `android/app/src/main/assets/public/assets/index-CZ0bF0iF.js`
+- **.blur()** (6 connections) — `android/app/src/main/assets/public/assets/index-CZ0bF0iF.js`
+- **.scrollIntoView()** (6 connections) — `android/app/src/main/assets/public/assets/index-CZ0bF0iF.js`
+- **g()** (6 connections) — `android/app/src/main/assets/public/assets/index-CZ0bF0iF.js`
+- **tm()** (6 connections) — `android/app/src/main/assets/public/assets/index-CZ0bF0iF.js`
+- **hm()** (5 connections) — `android/app/src/main/assets/public/assets/index-CZ0bF0iF.js`
+- **Rp()** (5 connections) — `android/app/src/main/assets/public/assets/index-CZ0bF0iF.js`
+- **uh()** (5 connections) — `android/app/src/main/assets/public/assets/index-CZ0bF0iF.js`
+- **Bp()** (4 connections) — `android/app/src/main/assets/public/assets/index-CZ0bF0iF.js`
+- **fe()** (4 connections) — `android/app/src/main/assets/public/assets/index-CZ0bF0iF.js`
+- **.getClientRects()** (4 connections) — `android/app/src/main/assets/public/assets/index-CZ0bF0iF.js`
+- **pm()** (4 connections) — `android/app/src/main/assets/public/assets/index-CZ0bF0iF.js`
+- **Se()** (4 connections) — `android/app/src/main/assets/public/assets/index-CZ0bF0iF.js`
+- **U()** (4 connections) — `android/app/src/main/assets/public/assets/index-CZ0bF0iF.js`
+- **up()** (4 connections) — `android/app/src/main/assets/public/assets/index-CZ0bF0iF.js`
+- **Vp()** (4 connections) — `android/app/src/main/assets/public/assets/index-CZ0bF0iF.js`
+- *... and 12 more nodes in this community*
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Price Presentation & Product UI]] (36 shared connections)
+- [[Dependencies & Package Config]] (20 shared connections)
+- [[Live Pricing Audit Tool]] (12 shared connections)
+- [[Master Codebase Architecture Reference]] (10 shared connections)
+- [[Community 36]] (5 shared connections)
+- [[Community 74]] (5 shared connections)
+- [[Community 78]] (1 shared connections)
+- [[Community 62]] (1 shared connections)
+- [[Testing & Workflow Skill]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/recipes/scenarios.mjs`
-- `.agents/skills/archify/test/gallery.test.mjs`
-- `.agents/skills/archify/test/guide.test.mjs`
-- `.agents/skills/archify/test/start-page.test.mjs`
+- `android/app/src/main/assets/public/assets/index-CZ0bF0iF.js`
 
 ## Audit Trail
 
-- EXTRACTED: 100 (100%)
+- EXTRACTED: 219 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -140,6 +140,21 @@ function zohoApiPlugin() {
           }
         }
 
+        // Site Settings route: /api/settings (Supabase)
+        if (req.url === '/api/settings' || req.url.startsWith('/api/settings?')) {
+          try {
+            const contentService = await loadContentService();
+            const settings = contentService ? await contentService.getHeroSliderSettings() : null;
+            res.statusCode = 200;
+            res.setHeader('Content-Type', 'application/json');
+            return res.end(JSON.stringify({ ok: true, settings }));
+          } catch (err) {
+            res.statusCode = 500;
+            res.setHeader('Content-Type', 'application/json');
+            return res.end(JSON.stringify({ ok: false, error: err.message }));
+          }
+        }
+
         // File Upload route: /api/upload (Device drag & drop and local uploads)
         if (req.url === '/api/upload' || req.url.startsWith('/api/upload?') || req.url.startsWith('/api/upload/')) {
           try {
@@ -274,31 +289,48 @@ function zohoApiPlugin() {
           try {
             const fullPath = path.resolve(process.cwd(), 'api/content.js');
             const contentHandler = (await import(/* @vite-ignore */ `${pathToFileURL(fullPath).href}?t=${Date.now()}`)).default;
+            const runHandler = async (parsedBody) => {
+              const fakeReq = {
+                method: req.method,
+                url: req.url,
+                headers: req.headers,
+                body: parsedBody || {},
+              };
+              const fakeRes = {
+                statusCode: 200,
+                setHeader(name, val) { res.setHeader(name, val); },
+                status(code) {
+                  this.statusCode = code;
+                  res.statusCode = code;
+                  return this;
+                },
+                json(obj) {
+                  res.statusCode = this.statusCode;
+                  res.setHeader('Content-Type', 'application/json');
+                  return res.end(JSON.stringify(obj));
+                },
+                end(data) {
+                  res.statusCode = this.statusCode;
+                  return res.end(data);
+                },
+              };
+              await contentHandler(fakeReq, fakeRes);
+            };
+
+            if (req.method === 'GET' || req.method === 'HEAD') {
+              await runHandler({});
+              return;
+            }
+
             let body = '';
             req.on('data', (chunk) => { body += chunk; });
             req.on('end', async () => {
               try {
-                const fakeReq = {
-                  method: req.method,
-                  url: req.url,
-                  headers: req.headers,
-                  body: body ? JSON.parse(body) : {},
-                };
-                const fakeRes = {
-                  statusCode: 200,
-                  setHeader(name, val) { res.setHeader(name, val); },
-                  status(code) {
-                    this.statusCode = code;
-                    res.statusCode = code;
-                    return this;
-                  },
-                  json(obj) {
-                    res.statusCode = this.statusCode;
-                    res.setHeader('Content-Type', 'application/json');
-                    return res.end(JSON.stringify(obj));
-                  },
-                };
-                await contentHandler(fakeReq, fakeRes);
+                let parsed = {};
+                if (body) {
+                  try { parsed = JSON.parse(body); } catch {}
+                }
+                await runHandler(parsed);
               } catch (parseErr) {
                 res.statusCode = 500;
                 res.setHeader('Content-Type', 'application/json');

@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **README.md** (1 connections) — `ios/App/CapApp-SPM/README.md`
-- **CapApp-SPM** (1 connections) — `ios/App/CapApp-SPM/README.md`
+- **esm-CpbiA9R_.js** (1 connections) — `android/app/src/main/assets/public/assets/esm-CpbiA9R_.js`
+- **__vite__mapDeps()** (1 connections) — `android/app/src/main/assets/public/assets/esm-CpbiA9R_.js`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `ios/App/CapApp-SPM/README.md`
+- `android/app/src/main/assets/public/assets/esm-CpbiA9R_.js`
 
 ## Audit Trail
 

@@ -1,69 +1,69 @@
 # Pricing & Roles Skill
 
-> 49 nodes · cohesion 0.08
+> 46 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **sql** (80 connections) — `backend/src/db/pool.js`
-- **pool.js** (35 connections) — `backend/src/db/pool.js`
-- **staff.js** (23 connections) — `backend/src/services/staff.js`
-- **audit()** (18 connections) — `backend/src/utils/audit.js`
-- **auth.js** (13 connections) — `backend/src/middleware/auth.js`
-- **audit.js** (7 connections) — `backend/src/utils/audit.js`
-- **migrate.js** (6 connections) — `backend/src/db/migrate.js`
-- **sync-supabase-content.js** (6 connections) — `backend/scripts/sync-supabase-content.js`
-- **createInvite()** (6 connections) — `backend/src/services/staff.js`
-- **jwtAuth()** (5 connections) — `backend/src/middleware/auth.js`
-- **migrate()** (4 connections) — `backend/src/db/migrate.js`
-- **seed-content.js** (4 connections) — `backend/scripts/seed-content.js`
-- **deactivateDealer()** (4 connections) — `backend/src/services/dealerApp.js`
-- **approveStaff()** (4 connections) — `backend/src/services/staff.js`
-- **deleteStaff()** (4 connections) — `backend/src/services/staff.js`
-- **holdStaff()** (4 connections) — `backend/src/services/staff.js`
-- **resumeStaff()** (4 connections) — `backend/src/services/staff.js`
-- **revokeStaff()** (4 connections) — `backend/src/services/staff.js`
-- **toggleAllStaffPrice()** (4 connections) — `backend/src/services/staff.js`
-- **toggleStaffPrice()** (4 connections) — `backend/src/services/staff.js`
-- **applied()** (3 connections) — `backend/src/db/migrate.js`
-- **info.js** (3 connections) — `api/dealer/info.js`
-- **optionalAuth()** (3 connections) — `backend/src/middleware/auth.js`
-- **requireApprovedDealer()** (3 connections) — `backend/src/middleware/auth.js`
-- **inspect-db.js** (3 connections) — `backend/scripts/inspect-db.js`
-- *... and 24 more nodes in this community*
+- **ui.jsx** (45 connections) — `src/ui.jsx`
+- **Home.jsx** (26 connections) — `src/pages/Home.jsx`
+- **site.js** (24 connections) — `src/data/site.js`
+- **Icon()** (20 connections) — `src/ui.jsx`
+- **Schemes.jsx** (17 connections) — `src/pages/Schemes.jsx`
+- **Support.jsx** (17 connections) — `src/pages/Support.jsx`
+- **COMPANY** (16 connections) — `src/data/site.js`
+- **HeroSlider.jsx** (12 connections) — `src/components/HeroSlider.jsx`
+- **api.js** (12 connections) — `src/data/api.js`
+- **ContentAdminDashboard.jsx** (12 connections) — `src/pages/ContentAdminDashboard.jsx`
+- **UnderMaintenance.jsx** (8 connections) — `src/components/UnderMaintenance.jsx`
+- **video.js** (6 connections) — `src/utils/video.js`
+- **UnderMaintenance()** (5 connections) — `src/components/UnderMaintenance.jsx`
+- **LegalPrivacy.jsx** (5 connections) — `src/pages/LegalPrivacy.jsx`
+- **LegalTerms.jsx** (5 connections) — `src/pages/LegalTerms.jsx`
+- **PrivacyPolicy.jsx** (5 connections) — `src/pages/PrivacyPolicy.jsx`
+- **TermsOfService.jsx** (5 connections) — `src/pages/TermsOfService.jsx`
+- **parseVideoUrl()** (5 connections) — `src/utils/video.js`
+- **FileOrUrlInput.jsx** (4 connections) — `src/components/FileOrUrlInput.jsx`
+- **EnquiryButtons()** (4 connections) — `src/ui.jsx`
+- **HeroSlider()** (3 connections) — `src/components/HeroSlider.jsx`
+- **SCHEMES** (3 connections) — `src/data/site.js`
+- **STATS** (3 connections) — `src/data/site.js`
+- **video-banner.test.mjs** (3 connections) — `src/data/video-banner.test.mjs`
+- **FileOrUrlInput()** (2 connections) — `src/components/FileOrUrlInput.jsx`
+- *... and 21 more nodes in this community*
 
 ## Relationships
 
-- [[Master Codebase Architecture Reference]] (42 shared connections)
-- [[Pricing Regression Test Suite]] (25 shared connections)
-- [[Community 48]] (15 shared connections)
-- [[Community 165]] (11 shared connections)
-- [[Architecture Doc Generator]] (7 shared connections)
-- [[Community 83]] (5 shared connections)
-- [[Community 135]] (3 shared connections)
-- [[Community 323]] (3 shared connections)
+- [[Community 54]] (39 shared connections)
+- [[Community 30]] (28 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (16 shared connections)
+- [[Community 41]] (11 shared connections)
+- [[Claude Agent Instructions]] (9 shared connections)
+- [[Community 170]] (5 shared connections)
+- [[Community 169]] (1 shared connections)
 
 ## Source Files
 
-- `api/dealer/info.js`
-- `backend/scripts/check-readiness.js`
-- `backend/scripts/inspect-db.js`
-- `backend/scripts/migrate-content.js`
-- `backend/scripts/seed-content.js`
-- `backend/scripts/setup-buckets.js`
-- `backend/scripts/setup-policies.js`
-- `backend/scripts/sync-supabase-content.js`
-- `backend/scripts/test-storage.js`
-- `backend/src/db/migrate.js`
-- `backend/src/db/pool.js`
-- `backend/src/middleware/auth.js`
-- `backend/src/services/dealerApp.js`
-- `backend/src/services/staff.js`
-- `backend/src/utils/audit.js`
+- `src/components/FileOrUrlInput.jsx`
+- `src/components/HeroSlider.jsx`
+- `src/components/UnderMaintenance.jsx`
+- `src/data/api.js`
+- `src/data/site.js`
+- `src/data/video-banner.test.mjs`
+- `src/pages/ContentAdminDashboard.jsx`
+- `src/pages/Home.jsx`
+- `src/pages/LegalPrivacy.jsx`
+- `src/pages/LegalTerms.jsx`
+- `src/pages/PrivacyPolicy.jsx`
+- `src/pages/Schemes.jsx`
+- `src/pages/Support.jsx`
+- `src/pages/TermsOfService.jsx`
+- `src/ui.jsx`
+- `src/utils/video.js`
 
 ## Audit Trail
 
-- EXTRACTED: 294 (99%)
-- INFERRED: 3 (1%)
+- EXTRACTED: 298 (100%)
+- INFERRED: 1 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

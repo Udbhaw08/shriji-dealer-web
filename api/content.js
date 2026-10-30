@@ -1,15 +1,18 @@
-import {
-  getAllStoreContent,
-  upsertStoreContent,
-  deleteStoreContent,
-  toggleStoreContentActive,
-  getHeroSliderSettings,
-  saveHeroSliderSettings,
-  getSupabaseBanners,
-  getSupabaseSchemes,
-  getSupabaseBranding,
-} from "../backend/src/services/content.js";
+import path from "node:path";
+import { pathToFileURL } from "node:url";
 import { verifyAdminAuth } from "./_lib/adminAuth.js";
+
+async function getContentService() {
+  if (process.env.NODE_ENV !== "production") {
+    try {
+      const fullPath = path.resolve(process.cwd(), "backend/src/services/content.js");
+      return await import(/* @vite-ignore */ `${pathToFileURL(fullPath).href}?t=${Date.now()}`);
+    } catch (e) {
+      console.warn("[api/content] Dynamic content service load failed:", e.message);
+    }
+  }
+  return await import("../backend/src/services/content.js");
+}
 
 const ALLOWED_CONTENT_TYPES = ["hero_banner", "scheme", "branding", "setting"];
 
@@ -17,6 +20,18 @@ export default async function handler(req, res) {
   res.setHeader("Content-Type", "application/json");
 
   try {
+    const {
+      getAllStoreContent,
+      upsertStoreContent,
+      deleteStoreContent,
+      toggleStoreContentActive,
+      getHeroSliderSettings,
+      saveHeroSliderSettings,
+      getSupabaseBanners,
+      getSupabaseSchemes,
+      getSupabaseBranding,
+    } = await getContentService();
+
     const method = req.method?.toUpperCase() || "GET";
     const urlObj = new URL(req.url, "http://localhost");
     const query = Object.fromEntries(urlObj.searchParams.entries());

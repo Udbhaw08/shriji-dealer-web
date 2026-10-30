@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **dealerStatus.test.mjs** (0 connections) — `backend/test/dealerStatus.test.mjs`
+- **corsPolicy.test.mjs** (0 connections) — `backend/test/corsPolicy.test.mjs`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `backend/test/dealerStatus.test.mjs`
+- `backend/test/corsPolicy.test.mjs`
 
 ## Audit Trail
 

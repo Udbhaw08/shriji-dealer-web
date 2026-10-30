@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **logger** (0 connections) — `backend/src/utils/logger.js`
+- **site-language-integration.mjs** (0 connections) — `.agents/skills/archify/test/site-language-integration.mjs`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `backend/src/utils/logger.js`
+- `.agents/skills/archify/test/site-language-integration.mjs`
 
 ## Audit Trail
 

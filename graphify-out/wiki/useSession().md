@@ -2,7 +2,7 @@
 
 > God node · 42 connections · `src/data/session.js`
 
-**Community:** [[Design System & UI Tokens]]
+**Community:** [[Community 54]]
 
 ## Connections by Relation
 
@@ -44,9 +44,9 @@
 - [[Favorites.jsx]] `EXTRACTED`
 - [[ProductCard.jsx]] `EXTRACTED`
 - [[Schemes.jsx]] `EXTRACTED`
+- [[Support.jsx]] `EXTRACTED`
 - [[MobileBottomNav.jsx]] `EXTRACTED`
 - [[StaffDashboard.jsx]] `EXTRACTED`
-- [[Support.jsx]] `EXTRACTED`
 - [[StaffJoin.jsx]] `EXTRACTED`
 - [[EmailVerificationPrompt.jsx]] `EXTRACTED`
 - [[PhoneVerificationPrompt.jsx]] `EXTRACTED`

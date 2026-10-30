@@ -29,7 +29,8 @@
         "formattedWeight": "2 kg"
       },
       "shortDescription": "Kuchenbau Electric Kettle 1.8L",
-      "size": "",
+      "size": "1.8 L",
+      "motorType": "",
       "burners": null,
       "finish": "Standard",
       "fkey": "steel",
@@ -70,7 +71,7 @@
         {
           "index": 1,
           "image": "https://cdn2.zohoecommerce.com/product-images/auto-ignition.png/3334672000008545107/600x600?storefront_domain=www.shrijidomestic.com",
-          "text": "Auto Cut-Off",
+          "text": "Powerful",
           "label": ""
         },
         {
@@ -108,7 +109,7 @@
       "status": "active",
       "showInStore": true
     },
-    "time": 1793309441846
+    "time": 1793375156230
   },
   "kuchenbau-electric-kettle-1-8l": {
     "product": {
@@ -140,7 +141,8 @@
         "formattedWeight": "2 kg"
       },
       "shortDescription": "Kuchenbau Electric Kettle 1.8L",
-      "size": "",
+      "size": "1.8 L",
+      "motorType": "",
       "burners": null,
       "finish": "Standard",
       "fkey": "steel",
@@ -181,7 +183,7 @@
         {
           "index": 1,
           "image": "https://cdn2.zohoecommerce.com/product-images/auto-ignition.png/3334672000008545107/600x600?storefront_domain=www.shrijidomestic.com",
-          "text": "Auto Cut-Off",
+          "text": "Powerful",
           "label": ""
         },
         {
@@ -219,7 +221,7 @@
       "status": "active",
       "showInStore": true
     },
-    "time": 1793309441847
+    "time": 1793375156232
   },
   "3334672000000839126": {
     "product": {
@@ -234,6 +236,7 @@
       "packageDetails": null,
       "shortDescription": "Apollo 1B",
       "size": "",
+      "motorType": "",
       "burners": 1,
       "finish": "Stainless Steel",
       "fkey": "steel",
@@ -267,7 +270,7 @@
       "status": "active",
       "showInStore": true
     },
-    "time": 1793309577208
+    "time": 1793375151634
   },
   "apollo-1b": {
     "product": {
@@ -282,6 +285,7 @@
       "packageDetails": null,
       "shortDescription": "Apollo 1B",
       "size": "",
+      "motorType": "",
       "burners": 1,
       "finish": "Stainless Steel",
       "fkey": "steel",
@@ -315,7 +319,7 @@
       "status": "active",
       "showInStore": true
     },
-    "time": 1793309577210
+    "time": 1793375151638
   },
   "3334672000000839771": {
     "product": {
@@ -426,6 +430,7 @@
       "packageDetails": null,
       "shortDescription": "Nutri Vita Pro (1000W) Black",
       "size": "",
+      "motorType": "",
       "burners": null,
       "finish": "Black Finish",
       "fkey": "glass",
@@ -468,7 +473,7 @@
       "status": "active",
       "showInStore": true
     },
-    "time": 1793309574716
+    "time": 1793375149251
   },
   "nutri-vita-pro-1000w-black": {
     "product": {
@@ -483,6 +488,7 @@
       "packageDetails": null,
       "shortDescription": "Nutri Vita Pro (1000W) Black",
       "size": "",
+      "motorType": "",
       "burners": null,
       "finish": "Black Finish",
       "fkey": "glass",
@@ -525,7 +531,7 @@
       "status": "active",
       "showInStore": true
     },
-    "time": 1793309574719
+    "time": 1793375149253
   },
   "3334672000000194753": {
     "product": {
@@ -540,6 +546,7 @@
       "packageDetails": null,
       "shortDescription": "Nutri Vita Pro (1000W) Slate Grey",
       "size": "",
+      "motorType": "",
       "burners": null,
       "finish": "Standard",
       "fkey": "steel",
@@ -573,7 +580,7 @@
       "status": "active",
       "showInStore": true
     },
-    "time": 1793309575243
+    "time": 1793375149620
   },
   "nutri-vita-pro-1000w-slate-grey": {
     "product": {
@@ -588,6 +595,7 @@
       "packageDetails": null,
       "shortDescription": "Nutri Vita Pro (1000W) Slate Grey",
       "size": "",
+      "motorType": "",
       "burners": null,
       "finish": "Standard",
       "fkey": "steel",
@@ -621,7 +629,7 @@
       "status": "active",
       "showInStore": true
     },
-    "time": 1793309575245
+    "time": 1793375149622
   },
   "3334672000000839081": {
     "product": {
@@ -636,6 +644,7 @@
       "packageDetails": null,
       "shortDescription": "Jyoti Diamond 10ltr HP",
       "size": "",
+      "motorType": "",
       "burners": null,
       "finish": "Standard",
       "fkey": "steel",
@@ -667,7 +676,7 @@
       "status": "active",
       "showInStore": true
     },
-    "time": 1793309575638
+    "time": 1793375150053
   },
   "jyoti-diamond-10ltr-hp": {
     "product": {
@@ -682,6 +691,7 @@
       "packageDetails": null,
       "shortDescription": "Jyoti Diamond 10ltr HP",
       "size": "",
+      "motorType": "",
       "burners": null,
       "finish": "Standard",
       "fkey": "steel",
@@ -713,7 +723,7 @@
       "status": "active",
       "showInStore": true
     },
-    "time": 1793309575640
+    "time": 1793375150062
   },
   "3334672000000194768": {
     "product": {
@@ -728,6 +738,7 @@
       "packageDetails": null,
       "shortDescription": "Jyoti Diamond 10ltr LP",
       "size": "",
+      "motorType": "",
       "burners": null,
       "finish": "Standard",
       "fkey": "steel",
@@ -759,7 +770,7 @@
       "status": "active",
       "showInStore": true
     },
-    "time": 1793309576044
+    "time": 1793375150437
   },
   "jyoti-diamond-10ltr-lp": {
     "product": {
@@ -774,6 +785,7 @@
       "packageDetails": null,
       "shortDescription": "Jyoti Diamond 10ltr LP",
       "size": "",
+      "motorType": "",
       "burners": null,
       "finish": "Standard",
       "fkey": "steel",
@@ -805,7 +817,7 @@
       "status": "active",
       "showInStore": true
     },
-    "time": 1793309576046
+    "time": 1793375150439
   },
   "3334672000000839096": {
     "product": {
@@ -820,6 +832,7 @@
       "packageDetails": null,
       "shortDescription": "Jyoti Platinum&nbsp;16ltr&nbsp;HP",
       "size": "",
+      "motorType": "",
       "burners": null,
       "finish": "Standard",
       "fkey": "steel",
@@ -851,7 +864,7 @@
       "status": "active",
       "showInStore": true
     },
-    "time": 1793309576416
+    "time": 1793375150850
   },
   "jyoti-platinum-nbsp-16ltr-nbsp-hp": {
     "product": {
@@ -866,6 +879,7 @@
       "packageDetails": null,
       "shortDescription": "Jyoti Platinum&nbsp;16ltr&nbsp;HP",
       "size": "",
+      "motorType": "",
       "burners": null,
       "finish": "Standard",
       "fkey": "steel",
@@ -897,7 +911,7 @@
       "status": "active",
       "showInStore": true
     },
-    "time": 1793309576418
+    "time": 1793375150852
   },
   "3334672000009384718": {
     "product": {
@@ -912,6 +926,7 @@
       "packageDetails": null,
       "shortDescription": "",
       "size": "",
+      "motorType": "",
       "burners": null,
       "finish": "Standard",
       "fkey": "steel",
@@ -927,7 +942,7 @@
       "sellingPrice": 3550,
       "labelPrice": 0,
       "dealerRate": null,
-      "stock": -31,
+      "stock": -35,
       "img": "",
       "images": [],
       "description": "",
@@ -945,7 +960,7 @@
       "status": "active",
       "showInStore": false
     },
-    "time": 1793309582150
+    "time": 1793375157839
   },
   "air-fryer-aero-chef-sunshine-4-5-lt": {
     "product": {
@@ -960,6 +975,7 @@
       "packageDetails": null,
       "shortDescription": "",
       "size": "",
+      "motorType": "",
       "burners": null,
       "finish": "Standard",
       "fkey": "steel",
@@ -975,7 +991,7 @@
       "sellingPrice": 3550,
       "labelPrice": 0,
       "dealerRate": null,
-      "stock": -31,
+      "stock": -35,
       "img": "",
       "images": [],
       "description": "",
@@ -993,7 +1009,7 @@
       "status": "active",
       "showInStore": false
     },
-    "time": 1793309582153
+    "time": 1793375157842
   },
   "3334672000000195113": {
     "product": {
@@ -1008,6 +1024,7 @@
       "packageDetails": null,
       "shortDescription": "Eon 2B",
       "size": "",
+      "motorType": "",
       "burners": 2,
       "finish": "Standard",
       "fkey": "steel",
@@ -1039,7 +1056,7 @@
       "status": "active",
       "showInStore": true
     },
-    "time": 1793309582702
+    "time": 1793375155648
   },
   "eon-2b": {
     "product": {
@@ -1054,6 +1071,7 @@
       "packageDetails": null,
       "shortDescription": "Eon 2B",
       "size": "",
+      "motorType": "",
       "burners": 2,
       "finish": "Standard",
       "fkey": "steel",
@@ -1085,7 +1103,7 @@
       "status": "active",
       "showInStore": true
     },
-    "time": 1793309582706
+    "time": 1793375155651
   },
   "3334672000000839216": {
     "product": {
@@ -1100,6 +1118,7 @@
       "packageDetails": null,
       "shortDescription": "Test",
       "size": "",
+      "motorType": "",
       "burners": 2,
       "finish": "Standard",
       "fkey": "steel",
@@ -1131,7 +1150,7 @@
       "status": "active",
       "showInStore": true
     },
-    "time": 1793309583266
+    "time": 1793375153715
   },
   "2b-073-janta-gs-sunjyoti": {
     "product": {
@@ -1146,6 +1165,7 @@
       "packageDetails": null,
       "shortDescription": "Test",
       "size": "",
+      "motorType": "",
       "burners": 2,
       "finish": "Standard",
       "fkey": "steel",
@@ -1177,7 +1197,7 @@
       "status": "active",
       "showInStore": true
     },
-    "time": 1793309583269
+    "time": 1793375153720
   },
   "3334672000000201324": {
     "product": {
@@ -1192,6 +1212,7 @@
       "packageDetails": null,
       "shortDescription": "Test",
       "size": "",
+      "motorType": "",
       "burners": null,
       "finish": "Standard",
       "fkey": "steel",
@@ -1205,7 +1226,7 @@
       "sellingPrice": 450,
       "labelPrice": 0,
       "dealerRate": null,
-      "stock": -8969,
+      "stock": -8981,
       "img": "",
       "images": [],
       "description": "",
@@ -1223,7 +1244,7 @@
       "status": "active",
       "showInStore": true
     },
-    "time": 1793309583779
+    "time": 1793375157311
   },
   "tvl-regulator-comm-yellow": {
     "product": {
@@ -1238,6 +1259,7 @@
       "packageDetails": null,
       "shortDescription": "Test",
       "size": "",
+      "motorType": "",
       "burners": null,
       "finish": "Standard",
       "fkey": "steel",
@@ -1251,7 +1273,7 @@
       "sellingPrice": 450,
       "labelPrice": 0,
       "dealerRate": null,
-      "stock": -8969,
+      "stock": -8981,
       "img": "",
       "images": [],
       "description": "",
@@ -1269,7 +1291,7 @@
       "status": "active",
       "showInStore": true
     },
-    "time": 1793309583783
+    "time": 1793375157314
   },
   "3334672000000196433": {
     "product": {
@@ -1321,7 +1343,7 @@
       "status": "active",
       "showInStore": true
     },
-    "time": 1793309584359
+    "time": 1793313185459
   },
   "thunder-3b": {
     "product": {
@@ -1373,7 +1395,7 @@
       "status": "active",
       "showInStore": true
     },
-    "time": 1793309584363
+    "time": 1793313185469
   },
   "3334672000000839111": {
     "product": {
@@ -1388,6 +1410,7 @@
       "packageDetails": null,
       "shortDescription": "Jyoti Platinum 16ltr LP",
       "size": "",
+      "motorType": "",
       "burners": null,
       "finish": "Standard",
       "fkey": "steel",
@@ -1419,7 +1442,7 @@
       "status": "active",
       "showInStore": true
     },
-    "time": 1793309576820
+    "time": 1793375151226
   },
   "jyoti-platinum-16ltr-lp": {
     "product": {
@@ -1434,6 +1457,7 @@
       "packageDetails": null,
       "shortDescription": "Jyoti Platinum 16ltr LP",
       "size": "",
+      "motorType": "",
       "burners": null,
       "finish": "Standard",
       "fkey": "steel",
@@ -1465,7 +1489,7 @@
       "status": "active",
       "showInStore": true
     },
-    "time": 1793309576822
+    "time": 1793375151228
   },
   "3334672000000194858": {
     "product": {
@@ -1480,6 +1504,7 @@
       "packageDetails": null,
       "shortDescription": "Single Br Jumbo",
       "size": "",
+      "motorType": "",
       "burners": 1,
       "finish": "Standard",
       "fkey": "steel",
@@ -1511,7 +1536,7 @@
       "status": "active",
       "showInStore": true
     },
-    "time": 1793309577613
+    "time": 1793375152026
   },
   "single-br-jumbo": {
     "product": {
@@ -1526,6 +1551,7 @@
       "packageDetails": null,
       "shortDescription": "Single Br Jumbo",
       "size": "",
+      "motorType": "",
       "burners": 1,
       "finish": "Standard",
       "fkey": "steel",
@@ -1557,7 +1583,7 @@
       "status": "active",
       "showInStore": true
     },
-    "time": 1793309577615
+    "time": 1793375152029
   },
   "3334672000000194873": {
     "product": {
@@ -1572,6 +1598,7 @@
       "packageDetails": null,
       "shortDescription": "Single Br Small",
       "size": "",
+      "motorType": "",
       "burners": 1,
       "finish": "Stainless Steel",
       "fkey": "steel",
@@ -1603,7 +1630,7 @@
       "status": "active",
       "showInStore": true
     },
-    "time": 1793309577997
+    "time": 1793375152462
   },
   "single-br-small": {
     "product": {
@@ -1618,6 +1645,7 @@
       "packageDetails": null,
       "shortDescription": "Single Br Small",
       "size": "",
+      "motorType": "",
       "burners": 1,
       "finish": "Stainless Steel",
       "fkey": "steel",
@@ -1649,7 +1677,7 @@
       "status": "active",
       "showInStore": true
     },
-    "time": 1793309577999
+    "time": 1793375152465
   },
   "3334672000000839141": {
     "product": {
@@ -1664,6 +1692,7 @@
       "packageDetails": null,
       "shortDescription": "Test",
       "size": "",
+      "motorType": "",
       "burners": 1,
       "finish": "Stainless Steel",
       "fkey": "steel",
@@ -1695,7 +1724,7 @@
       "status": "active",
       "showInStore": true
     },
-    "time": 1793309578416
+    "time": 1793375152854
   },
   "1b-single-ss-mini-gs-surya-urja": {
     "product": {
@@ -1710,6 +1739,7 @@
       "packageDetails": null,
       "shortDescription": "Test",
       "size": "",
+      "motorType": "",
       "burners": 1,
       "finish": "Stainless Steel",
       "fkey": "steel",
@@ -1741,7 +1771,7 @@
       "status": "active",
       "showInStore": true
     },
-    "time": 1793309578418
+    "time": 1793375152856
   },
   "3334672000000839156": {
     "product": {
@@ -1756,6 +1786,7 @@
       "packageDetails": null,
       "shortDescription": "Single Br Medium",
       "size": "",
+      "motorType": "",
       "burners": 1,
       "finish": "Standard",
       "fkey": "steel",
@@ -1787,7 +1818,7 @@
       "status": "active",
       "showInStore": true
     },
-    "time": 1793309578794
+    "time": 1793375153317
   },
   "single-br-medium": {
     "product": {
@@ -1802,6 +1833,7 @@
       "packageDetails": null,
       "shortDescription": "Single Br Medium",
       "size": "",
+      "motorType": "",
       "burners": 1,
       "finish": "Standard",
       "fkey": "steel",
@@ -1833,7 +1865,7 @@
       "status": "active",
       "showInStore": true
     },
-    "time": 1793309578797
+    "time": 1793375153322
   },
   "3334672000000839231": {
     "product": {
@@ -1848,6 +1880,7 @@
       "packageDetails": null,
       "shortDescription": "Test",
       "size": "",
+      "motorType": "",
       "burners": 2,
       "finish": "Standard",
       "fkey": "steel",
@@ -1879,7 +1912,7 @@
       "status": "active",
       "showInStore": true
     },
-    "time": 1793309579807
+    "time": 1793375154142
   },
   "2b-211-heavy-gs-sunjyoti": {
     "product": {
@@ -1894,6 +1927,7 @@
       "packageDetails": null,
       "shortDescription": "Test",
       "size": "",
+      "motorType": "",
       "burners": 2,
       "finish": "Standard",
       "fkey": "steel",
@@ -1925,7 +1959,7 @@
       "status": "active",
       "showInStore": true
     },
-    "time": 1793309579808
+    "time": 1793375154145
   },
   "3334672000000839246": {
     "product": {
@@ -1971,7 +2005,7 @@
       "status": "active",
       "showInStore": true
     },
-    "time": 1793309580214
+    "time": 1793374948937
   },
   "2b-276-jointless-gs-sunjyoti": {
     "product": {
@@ -2017,7 +2051,7 @@
       "status": "active",
       "showInStore": true
     },
-    "time": 1793309580217
+    "time": 1793374948942
   },
   "3334672000000839261": {
     "product": {
@@ -2063,7 +2097,7 @@
       "status": "active",
       "showInStore": true
     },
-    "time": 1793309580609
+    "time": 1793374949358
   },
   "2b-alfa-mini-gs-sunshine": {
     "product": {
@@ -2109,6 +2143,300 @@
       "status": "active",
       "showInStore": true
     },
-    "time": 1793309580611
+    "time": 1793374949374
+  },
+  "3334672000000201311": {
+    "product": {
+      "id": "3334672000000201311",
+      "slug": "tvl-lp-regulator-comm-blue",
+      "name": "TVL LP REGULATOR(COMM) BLUE",
+      "model": "TVL LP REGULATOR(COMM) BLUE",
+      "zohoTitle": "TVL LP REGULATOR(COMM) BLUE",
+      "sku": null,
+      "hsnCode": "84818090",
+      "fulfillment": null,
+      "packageDetails": null,
+      "shortDescription": "Test",
+      "size": "",
+      "motorType": "",
+      "burners": null,
+      "finish": "Standard",
+      "fkey": "steel",
+      "features": [],
+      "brand": "TVL",
+      "tags": [],
+      "cat": "spares",
+      "catLabel": "Spares",
+      "code": "SP",
+      "mrp": 450,
+      "sellingPrice": 450,
+      "labelPrice": 0,
+      "dealerRate": null,
+      "stock": -2961,
+      "img": "",
+      "images": [],
+      "description": "",
+      "productDescriptionHtml": "",
+      "overview": "",
+      "tileIcons": [],
+      "customFields": {
+        "warranty": "",
+        "keyFeatures": "",
+        "overview": ""
+      },
+      "extraFields": [],
+      "specifications": [],
+      "videos": [],
+      "status": "active",
+      "showInStore": true
+    },
+    "time": 1793375156753
+  },
+  "tvl-lp-regulator-comm-blue": {
+    "product": {
+      "id": "3334672000000201311",
+      "slug": "tvl-lp-regulator-comm-blue",
+      "name": "TVL LP REGULATOR(COMM) BLUE",
+      "model": "TVL LP REGULATOR(COMM) BLUE",
+      "zohoTitle": "TVL LP REGULATOR(COMM) BLUE",
+      "sku": null,
+      "hsnCode": "84818090",
+      "fulfillment": null,
+      "packageDetails": null,
+      "shortDescription": "Test",
+      "size": "",
+      "motorType": "",
+      "burners": null,
+      "finish": "Standard",
+      "fkey": "steel",
+      "features": [],
+      "brand": "TVL",
+      "tags": [],
+      "cat": "spares",
+      "catLabel": "Spares",
+      "code": "SP",
+      "mrp": 450,
+      "sellingPrice": 450,
+      "labelPrice": 0,
+      "dealerRate": null,
+      "stock": -2961,
+      "img": "",
+      "images": [],
+      "description": "",
+      "productDescriptionHtml": "",
+      "overview": "",
+      "tileIcons": [],
+      "customFields": {
+        "warranty": "",
+        "keyFeatures": "",
+        "overview": ""
+      },
+      "extraFields": [],
+      "specifications": [],
+      "videos": [],
+      "status": "active",
+      "showInStore": true
+    },
+    "time": 1793375156756
+  },
+  "3334672000000195068": {
+    "product": {
+      "id": "3334672000000195068",
+      "slug": "arrow-plus-2b",
+      "name": "Arrow Plus 2B",
+      "model": "Arrow Plus 2B",
+      "zohoTitle": "2B Arrow Plus TT GS Sunshine",
+      "sku": null,
+      "hsnCode": "73211110",
+      "fulfillment": null,
+      "packageDetails": null,
+      "shortDescription": "Arrow Plus 2B",
+      "size": "",
+      "motorType": "",
+      "burners": 2,
+      "finish": "Standard",
+      "fkey": "steel",
+      "features": [],
+      "brand": "Sunshine",
+      "tags": [],
+      "cat": "gas_stoves",
+      "catLabel": "Gas Stoves",
+      "code": "GA",
+      "mrp": 11995,
+      "sellingPrice": 11995,
+      "labelPrice": 11995,
+      "dealerRate": 5550,
+      "stock": -15,
+      "img": "https://cdn2.zohoecommerce.com/product-images/ARROW%202.png/3334672000003968388/600x600?storefront_domain=www.shrijidomestic.com",
+      "images": [
+        "https://cdn2.zohoecommerce.com/product-images/ARROW%202.png/3334672000003968388/600x600?storefront_domain=www.shrijidomestic.com"
+      ],
+      "description": "",
+      "productDescriptionHtml": "",
+      "overview": "",
+      "tileIcons": [],
+      "customFields": {
+        "warranty": "",
+        "keyFeatures": "",
+        "overview": ""
+      },
+      "extraFields": [],
+      "specifications": [],
+      "videos": [],
+      "status": "active",
+      "showInStore": true
+    },
+    "time": 1793375148403
+  },
+  "arrow-plus-2b": {
+    "product": {
+      "id": "3334672000000195068",
+      "slug": "arrow-plus-2b",
+      "name": "Arrow Plus 2B",
+      "model": "Arrow Plus 2B",
+      "zohoTitle": "2B Arrow Plus TT GS Sunshine",
+      "sku": null,
+      "hsnCode": "73211110",
+      "fulfillment": null,
+      "packageDetails": null,
+      "shortDescription": "Arrow Plus 2B",
+      "size": "",
+      "motorType": "",
+      "burners": 2,
+      "finish": "Standard",
+      "fkey": "steel",
+      "features": [],
+      "brand": "Sunshine",
+      "tags": [],
+      "cat": "gas_stoves",
+      "catLabel": "Gas Stoves",
+      "code": "GA",
+      "mrp": 11995,
+      "sellingPrice": 11995,
+      "labelPrice": 11995,
+      "dealerRate": 5550,
+      "stock": -15,
+      "img": "https://cdn2.zohoecommerce.com/product-images/ARROW%202.png/3334672000003968388/600x600?storefront_domain=www.shrijidomestic.com",
+      "images": [
+        "https://cdn2.zohoecommerce.com/product-images/ARROW%202.png/3334672000003968388/600x600?storefront_domain=www.shrijidomestic.com"
+      ],
+      "description": "",
+      "productDescriptionHtml": "",
+      "overview": "",
+      "tileIcons": [],
+      "customFields": {
+        "warranty": "",
+        "keyFeatures": "",
+        "overview": ""
+      },
+      "extraFields": [],
+      "specifications": [],
+      "videos": [],
+      "status": "active",
+      "showInStore": true
+    },
+    "time": 1793375148405
+  },
+  "3334672000002350063": {
+    "product": {
+      "id": "3334672000002350063",
+      "slug": "2b-brio-auto-ss-gs-sunshine",
+      "name": "2B BRIO AUTO SS GS SUNSHINE",
+      "model": "2B BRIO AUTO SS GS SUNSHINE",
+      "zohoTitle": "2B BRIO AUTO SS GS SUNSHINE",
+      "sku": null,
+      "hsnCode": "73211110",
+      "fulfillment": null,
+      "packageDetails": null,
+      "shortDescription": "Test",
+      "size": "",
+      "motorType": "",
+      "burners": 2,
+      "finish": "Stainless Steel",
+      "fkey": "steel",
+      "features": [
+        "Auto Ignition"
+      ],
+      "brand": "Sunshine",
+      "tags": [],
+      "cat": "gas_stoves",
+      "catLabel": "Gas Stoves",
+      "code": "GA",
+      "mrp": 0,
+      "sellingPrice": 0,
+      "labelPrice": 0,
+      "dealerRate": 4600,
+      "stock": 14,
+      "img": "https://cdn2.zohoecommerce.com/product-images/BRIO%202B.png/3334672000003968400/600x600?storefront_domain=www.shrijidomestic.com",
+      "images": [
+        "https://cdn2.zohoecommerce.com/product-images/BRIO%202B.png/3334672000003968400/600x600?storefront_domain=www.shrijidomestic.com"
+      ],
+      "description": "",
+      "productDescriptionHtml": "",
+      "overview": "",
+      "tileIcons": [],
+      "customFields": {
+        "warranty": "",
+        "keyFeatures": "",
+        "overview": ""
+      },
+      "extraFields": [],
+      "specifications": [],
+      "videos": [],
+      "status": "active",
+      "showInStore": true
+    },
+    "time": 1793375148802
+  },
+  "2b-brio-auto-ss-gs-sunshine": {
+    "product": {
+      "id": "3334672000002350063",
+      "slug": "2b-brio-auto-ss-gs-sunshine",
+      "name": "2B BRIO AUTO SS GS SUNSHINE",
+      "model": "2B BRIO AUTO SS GS SUNSHINE",
+      "zohoTitle": "2B BRIO AUTO SS GS SUNSHINE",
+      "sku": null,
+      "hsnCode": "73211110",
+      "fulfillment": null,
+      "packageDetails": null,
+      "shortDescription": "Test",
+      "size": "",
+      "motorType": "",
+      "burners": 2,
+      "finish": "Stainless Steel",
+      "fkey": "steel",
+      "features": [
+        "Auto Ignition"
+      ],
+      "brand": "Sunshine",
+      "tags": [],
+      "cat": "gas_stoves",
+      "catLabel": "Gas Stoves",
+      "code": "GA",
+      "mrp": 0,
+      "sellingPrice": 0,
+      "labelPrice": 0,
+      "dealerRate": 4600,
+      "stock": 14,
+      "img": "https://cdn2.zohoecommerce.com/product-images/BRIO%202B.png/3334672000003968400/600x600?storefront_domain=www.shrijidomestic.com",
+      "images": [
+        "https://cdn2.zohoecommerce.com/product-images/BRIO%202B.png/3334672000003968400/600x600?storefront_domain=www.shrijidomestic.com"
+      ],
+      "description": "",
+      "productDescriptionHtml": "",
+      "overview": "",
+      "tileIcons": [],
+      "customFields": {
+        "warranty": "",
+        "keyFeatures": "",
+        "overview": ""
+      },
+      "extraFields": [],
+      "specifications": [],
+      "videos": [],
+      "status": "active",
+      "showInStore": true
+    },
+    "time": 1793375148804
   }
 }

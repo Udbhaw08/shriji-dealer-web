@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **slugify.js** (1 connections) — `backend/src/utils/slugify.js`
-- **slugify()** (1 connections) — `backend/src/utils/slugify.js`
+- **ipUtils.js** (1 connections) — `backend/src/utils/ipUtils.js`
+- **getClientIp()** (1 connections) — `backend/src/utils/ipUtils.js`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `backend/src/utils/slugify.js`
+- `backend/src/utils/ipUtils.js`
 
 ## Audit Trail
 

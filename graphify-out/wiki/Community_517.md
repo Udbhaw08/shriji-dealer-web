@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **securityHeaders.js** (1 connections) — `backend/src/middleware/securityHeaders.js`
-- **securityHeaders()** (1 connections) — `backend/src/middleware/securityHeaders.js`
+- **esm-CpbiA9R_.js** (1 connections) — `ios/App/App/public/assets/esm-CpbiA9R_.js`
+- **__vite__mapDeps()** (1 connections) — `ios/App/App/public/assets/esm-CpbiA9R_.js`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `backend/src/middleware/securityHeaders.js`
+- `ios/App/App/public/assets/esm-CpbiA9R_.js`
 
 ## Audit Trail
 

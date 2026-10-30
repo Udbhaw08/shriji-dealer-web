@@ -1,47 +1,54 @@
 # Community 37
 
-> 40 nodes · cohesion 0.09
+> 38 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **webm-artifact.smoke.mjs** (39 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **navigateReady()** (12 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **evaluate()** (11 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **delay()** (7 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **withTimeout()** (7 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **verifyArchitectureDeltaNavigator()** (5 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **captureCopiedShareCard()** (4 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **captureReachShareCard()** (4 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **captureRouteShareCard()** (4 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **captureRouteVisualMatrix()** (4 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **captureShareCard()** (4 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **verifyDynamicReducedMotionRoute()** (4 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **verifyResolvedLegendContract()** (3 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **verifySemanticPassportDismissal()** (3 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **devtoolsEndpoint()** (2 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **removeTempTree()** (2 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **waitForExit()** (2 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **chrome** (1 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **chromeProcess** (1 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **connectCdp()** (1 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **executable()** (1 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **ffmpeg** (1 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **freePort()** (1 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- **input** (1 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
-- *... and 15 more nodes in this community*
+- **al()** (39 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
+- **bc()** (18 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
+- **ia()** (12 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
+- **lm()** (12 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
+- **il()** (10 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
+- **ta()** (10 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
+- **no()** (9 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
+- **aa()** (8 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
+- **cs()** (8 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
+- **Sp()** (8 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
+- **jc()** (7 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
+- **sa()** (7 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
+- **lh()** (6 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
+- **ao()** (5 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
+- **be()** (5 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
+- **Ca()** (5 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
+- **dc()** (5 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
+- **jl()** (5 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
+- **ma()** (5 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
+- **rl()** (5 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
+- **bo()** (4 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
+- **el()** (4 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
+- **im()** (4 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
+- **Lc()** (4 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
+- **oa()** (4 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
+- *... and 13 more nodes in this community*
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Dealer Auth & Session Management]] (42 shared connections)
+- [[Design System & UI Tokens]] (29 shared connections)
+- [[Architecture Doc Generator]] (14 shared connections)
+- [[Community 49]] (11 shared connections)
+- [[Mobile Responsive UI Skill]] (10 shared connections)
+- [[Product Requirements Documentation]] (8 shared connections)
+- [[Graphify Agent Rules]] (6 shared connections)
+- [[Community 40]] (5 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- `ios/App/App/public/assets/index-CZ0bF0iF.js`
 
 ## Audit Trail
 
-- EXTRACTED: 140 (100%)
+- EXTRACTED: 247 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

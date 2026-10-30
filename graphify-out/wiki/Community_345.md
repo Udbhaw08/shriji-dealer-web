@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **Data Flow Renderer** (5 connections) — `.agents/skills/archify/renderers/dataflow/README.md`
-- **README.md** (1 connections) — `.agents/skills/archify/renderers/dataflow/README.md`
-- **Design Rules** (1 connections) — `.agents/skills/archify/renderers/dataflow/README.md`
-- **Input** (1 connections) — `.agents/skills/archify/renderers/dataflow/README.md`
-- **Layout budget** (1 connections) — `.agents/skills/archify/renderers/dataflow/README.md`
-- **Legend** (1 connections) — `.agents/skills/archify/renderers/dataflow/README.md`
+- **ErrorBoundary** (5 connections) — `src/components/ErrorBoundary.jsx`
+- **ErrorBoundary.jsx** (1 connections) — `src/components/ErrorBoundary.jsx`
+- **.componentDidCatch()** (1 connections) — `src/components/ErrorBoundary.jsx`
+- **.constructor()** (1 connections) — `src/components/ErrorBoundary.jsx`
+- **.getDerivedStateFromError()** (1 connections) — `src/components/ErrorBoundary.jsx`
+- **.render()** (1 connections) — `src/components/ErrorBoundary.jsx`
 
 ## Relationships
 
@@ -17,7 +17,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/dataflow/README.md`
+- `src/components/ErrorBoundary.jsx`
 
 ## Audit Trail
 

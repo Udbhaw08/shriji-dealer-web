@@ -10,7 +10,7 @@
 
 ## Relationships
 
-- [[Vercel Deployment Routing]] (1 shared connections)
+- [[Community 29]] (1 shared connections)
 
 ## Source Files
 

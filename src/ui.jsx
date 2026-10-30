@@ -469,9 +469,38 @@ export function Header() {
     };
 
     window.addEventListener("shriji_settings_updated", handleUpdated);
+
+    // Cross-tab broadcast channel
+    let channel;
+    try {
+      channel = new BroadcastChannel("shriji_settings_channel");
+      channel.onmessage = (event) => {
+        if (event.data?.settings) {
+          setSiteSettings(event.data.settings);
+          try {
+            localStorage.setItem("shriji_site_settings", JSON.stringify(event.data.settings));
+            sessionStorage.setItem("shriji_site_settings", JSON.stringify(event.data.settings));
+          } catch {}
+        }
+      };
+    } catch {}
+
+    const handleStorage = (e) => {
+      if (e.key === "shriji_site_settings" && e.newValue) {
+        try {
+          setSiteSettings(JSON.parse(e.newValue));
+        } catch {}
+      }
+    };
+    window.addEventListener("storage", handleStorage);
+
     return () => {
       active = false;
       window.removeEventListener("shriji_settings_updated", handleUpdated);
+      window.removeEventListener("storage", handleStorage);
+      try {
+        if (channel) channel.close();
+      } catch {}
     };
   }, []);
 

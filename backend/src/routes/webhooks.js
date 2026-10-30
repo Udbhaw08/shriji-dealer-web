@@ -96,6 +96,14 @@ webhooksRouter.all(['/crm/approval', '/crm/sync', '/crm/update', '/crm/webhook']
       const contact = await crm.getDealerContact(String(refId));
       if (!contact) return res.json({ ok: true, ignored: 'contact_unreadable' });
       const changed = await applyCrmContactState(contact);
+      if (!contact.userSource && contact.accountId) {
+        try {
+          const acc = await crm.getDealerAccount(contact.accountId);
+          await crm.syncAccountUserSourceToContacts(contact.accountId, acc?.userSource || 'ReStor Dealer');
+        } catch (sErr) {
+          log.warn(`[webhook] User source sync to contact ${refId} skipped: ${sErr.message}`);
+        }
+      }
       log.info(`[webhook] Contact ${refId} synced from CRM (changed: ${changed})`);
       return res.json({ ok: true, module: 'Contacts', id: refId, changed });
     }

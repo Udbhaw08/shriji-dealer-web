@@ -42,7 +42,7 @@ function loadCached(pbId = activePricebookId) {
       const data = JSON.parse(raw);
       const isStale = !data.time || (Date.now() - data.time > CACHE_TTL_MS);
       const hasAnyTags = Array.isArray(data.products) && data.products.some((p) => p.tags && p.tags.length > 0);
-      const hasAnyTrial = Array.isArray(data.products) && data.products.some((p) => p.isTrial);
+      const hasAnyTrial = Array.isArray(data.products) && data.products.some((p) => p.isTrial || p.isBestseller || p.collections?.includes("bestseller"));
       if (Array.isArray(data.products) && data.products.length > 0) {
         return {
           products: data.products,

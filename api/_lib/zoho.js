@@ -127,7 +127,7 @@ const DEFAULT_TRIAL_COLLECTION_ID = "3334672000009225009";
 
 export function getTrialCollectionId() {
   const env = loadEnv();
-  return env.ZOHO_TRIAL_COLLECTION_ID || DEFAULT_TRIAL_COLLECTION_ID;
+  return env.ZOHO_BESTSELLER_COLLECTION_ID || env.ZOHO_TRIAL_COLLECTION_ID || DEFAULT_TRIAL_COLLECTION_ID;
 }
 
 const localCollectionCacheFile = path.resolve(process.cwd(), ".collection_cache.json");
@@ -1414,9 +1414,13 @@ export async function fetchZohoProducts({ refresh = false, pricebookId = "333467
     const trialIndex = trialProductIds.indexOf(pid);
     if (trialIndex !== -1) {
       item.isTrial = true;
+      item.isBestseller = true;
       item.trialOrder = trialIndex;
+      item.bestsellerOrder = trialIndex;
       if (!Array.isArray(item.collections)) item.collections = [];
       if (!item.collections.includes("trial")) item.collections.push("trial");
+      if (!item.collections.includes("bestseller")) item.collections.push("bestseller");
+      if (!item.collections.includes("bestsellers")) item.collections.push("bestsellers");
     }
     const cachedDetail = detailCache[item.id]?.product || detailCache[item.slug]?.product;
     if (cachedDetail) {

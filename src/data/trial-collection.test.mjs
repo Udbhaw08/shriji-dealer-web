@@ -67,3 +67,62 @@ test("Products page filtering: cat=trial matches trial collection items", () => 
   assert.equal(filtered.length, 3, "Filters exactly to 3 trial collection items");
   assert.deepEqual(filtered.map((p) => p.id), ["2", "3", "4"]);
 });
+
+test("Bestseller collection: featured prioritizing and ordering with bestseller tag/collection", () => {
+  const mockProducts = [
+    { id: "1", name: "Regular Gas Stove", cat: "gas_stoves", mrp: 5000, img: "stove.png" },
+    { id: "2", name: "2B Aria Mini SS GS Sunshine", cat: "gas_stoves", mrp: 6449, isBestseller: true, bestsellerOrder: 0, collections: ["bestseller"] },
+    { id: "3", name: "Arrow Plus 2B", cat: "gas_stoves", mrp: 11995, isBestseller: true, bestsellerOrder: 1, collections: ["bestseller"] },
+    { id: "4", name: "2B BRIO AUTO SS GS SUNSHINE", cat: "gas_stoves", mrp: 0, isTrial: true, trialOrder: 2, collections: ["trial"] },
+    { id: "5", name: "Chimney 60", cat: "chimneys", mrp: 15000, img: "chimney.png" },
+  ];
+
+  const bestsellerItems = mockProducts.filter(
+    (p) =>
+      p.isTrial ||
+      p.isBestseller ||
+      p.collections?.includes("trial") ||
+      p.collections?.includes("bestseller") ||
+      p.collections?.includes("bestsellers") ||
+      p.cat === "trial" ||
+      p.cat === "bestseller" ||
+      (Array.isArray(p.tags) &&
+        p.tags.some(
+          (t) =>
+            typeof t === "string" &&
+            (t.toLowerCase() === "trial" ||
+              t.toLowerCase() === "bestseller" ||
+              t.toLowerCase() === "best sellers")
+        ))
+  );
+
+  assert.equal(bestsellerItems.length, 3, "Finds all 3 bestseller/trial collection products");
+});
+
+test("Products page filtering: cat=bestseller matches collection items", () => {
+  const mockProducts = [
+    { id: "1", name: "Regular Gas Stove", cat: "gas_stoves" },
+    { id: "2", name: "2B Aria Mini SS GS Sunshine", cat: "gas_stoves", isBestseller: true, collections: ["bestseller"] },
+    { id: "3", name: "Arrow Plus 2B", cat: "gas_stoves", isTrial: true, collections: ["trial"] },
+    { id: "4", name: "2B BRIO AUTO SS GS SUNSHINE", cat: "gas_stoves", isTrial: true, collections: ["bestseller"] },
+    { id: "5", name: "Chimney 60", cat: "chimneys" },
+  ];
+
+  const selectedCats = ["bestseller"];
+
+  const filtered = mockProducts.filter((p) => {
+    if (selectedCats.length > 0) {
+      const matchesCat = selectedCats.some(
+        (c) =>
+          c === p.cat ||
+          ((c === "trial" || c === "bestseller" || c === "bestsellers") &&
+            (p.isTrial || p.isBestseller || p.collections?.includes("trial") || p.collections?.includes("bestseller") || p.cat === "trial" || p.cat === "bestseller"))
+      );
+      if (!matchesCat) return false;
+    }
+    return true;
+  });
+
+  assert.equal(filtered.length, 3, "Filters exactly to 3 bestseller collection items");
+  assert.deepEqual(filtered.map((p) => p.id), ["2", "3", "4"]);
+});

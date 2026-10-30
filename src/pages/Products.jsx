@@ -135,8 +135,10 @@ export default function Products() {
     const c = {};
     for (const p of PRODUCTS) {
       c[p.cat] = (c[p.cat] || 0) + 1;
-      if (p.isTrial || p.collections?.includes("trial")) {
+      if (p.isTrial || p.isBestseller || p.collections?.includes("trial") || p.collections?.includes("bestseller") || p.collections?.includes("bestsellers")) {
         c["trial"] = (c["trial"] || 0) + 1;
+        c["bestseller"] = (c["bestseller"] || 0) + 1;
+        c["bestsellers"] = (c["bestsellers"] || 0) + 1;
       }
     }
     return c;
@@ -150,7 +152,7 @@ export default function Products() {
             selectedCats.some(
               (c) =>
                 c === p.cat ||
-                (c === "trial" && (p.isTrial || p.collections?.includes("trial") || p.cat === "trial"))
+                ((c === "trial" || c === "bestseller" || c === "bestsellers") && (p.isTrial || p.isBestseller || p.collections?.includes("trial") || p.collections?.includes("bestseller") || p.collections?.includes("bestsellers") || p.cat === "trial" || p.cat === "bestseller" || p.cat === "bestsellers"))
             )
           )
         : PRODUCTS;
@@ -205,7 +207,7 @@ export default function Products() {
         const matchesCat = selectedCats.some(
           (c) =>
             c === p.cat ||
-            (c === "trial" && (p.isTrial || p.collections?.includes("trial") || p.cat === "trial"))
+            ((c === "trial" || c === "bestseller" || c === "bestsellers") && (p.isTrial || p.isBestseller || p.collections?.includes("trial") || p.collections?.includes("bestseller") || p.collections?.includes("bestsellers") || p.cat === "trial" || p.cat === "bestseller" || p.cat === "bestsellers"))
         );
         if (!matchesCat) return false;
       }
@@ -933,8 +935,8 @@ export default function Products() {
                 <>
                   <Icon name="chev" size={13} />
                   <span>
-                    {selectedCats[0] === "trial"
-                      ? (t("sec_fast_title") || "Trial")
+                    {(selectedCats[0] === "trial" || selectedCats[0] === "bestseller" || selectedCats[0] === "bestsellers")
+                      ? (t("sec_fast_title") || "Best Sellers")
                       : tCat(
                           selectedCats[0],
                           CATEGORIES.find((c) => c.key === selectedCats[0])?.label
@@ -951,7 +953,7 @@ export default function Products() {
                   const catObj = CATEGORIES.find((c) => c.key === catKey);
                   return (
                     <span key={catKey} className="active-filter-pill">
-                      <span>{catKey === "trial" ? (t("sec_fast_title") || "Trial") : (catObj ? tCat(catObj.key, catObj.label) : catKey)}</span>
+                      <span>{(catKey === "trial" || catKey === "bestseller" || catKey === "bestsellers") ? (t("sec_fast_title") || "Best Sellers") : (catObj ? tCat(catObj.key, catObj.label) : catKey)}</span>
                       <button
                         type="button"
                         onClick={() => updateFilters({ cats: selectedCats.filter((c) => c !== catKey) })}
@@ -1101,8 +1103,8 @@ export default function Products() {
             <div className="sec-head">
               <h2>
                 {selectedCats.length === 1
-                  ? (selectedCats[0] === "trial"
-                      ? (t("sec_fast_title") || "Trial")
+                  ? ((selectedCats[0] === "trial" || selectedCats[0] === "bestseller" || selectedCats[0] === "bestsellers")
+                      ? (t("sec_fast_title") || "Best Sellers")
                       : tCat(
                           selectedCats[0],
                           CATEGORIES.find((c) => c.key === selectedCats[0])?.label

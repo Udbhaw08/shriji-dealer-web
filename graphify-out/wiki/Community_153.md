@@ -1,42 +1,44 @@
 # Community 153
 
-> 12 nodes · cohesion 0.36
+> 12 nodes · cohesion 0.21
 
 ## Key Concepts
 
-- **vite.config.js** (20 connections) — `vite.config.js`
-- **zohoApiPlugin()** (12 connections) — `vite.config.js`
-- **securityPhase2.test.mjs** (11 connections) — `backend/test/securityPhase2.test.mjs`
-- **og.js** (7 connections) — `api/og.js`
-- **htmlEscape.js** (6 connections) — `api/_lib/htmlEscape.js`
-- **escapeHtml()** (6 connections) — `api/_lib/htmlEscape.js`
-- **sanitizeUrl()** (6 connections) — `api/_lib/htmlEscape.js`
-- **handler()** (5 connections) — `api/og.js`
-- **sanitizeHost()** (4 connections) — `api/_lib/htmlEscape.js`
-- **getBackendApp()** (2 connections) — `vite.config.js`
-- **mockWebhookAuthCheck()** (1 connections) — `backend/test/securityPhase2.test.mjs`
-- **liveAutoSyncPlugin()** (1 connections) — `vite.config.js`
+- **ChromeVisualBrowser** (21 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **PipeCdp** (7 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **.inspect()** (5 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **.attach()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **.close()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **.constructor()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **evaluate()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **.failAll()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **.consume()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **.waitFor()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **.constructor()** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **.failure()** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
 
 ## Relationships
 
-- [[Community 135]] (8 shared connections)
-- [[Community 48]] (8 shared connections)
-- [[Community 166]] (5 shared connections)
-- [[Community 47]] (4 shared connections)
-- [[Pricing Regression Test Suite]] (3 shared connections)
-- [[Community 251]] (3 shared connections)
-- [[Community 253]] (2 shared connections)
+- [[Community 53]] (7 shared connections)
+- [[Community 63]] (5 shared connections)
+- [[Community 130]] (2 shared connections)
+- [[Community 94]] (2 shared connections)
+- [[Community 328]] (1 shared connections)
+- [[Community 128]] (1 shared connections)
+- [[Community 331]] (1 shared connections)
+- [[Community 34]] (1 shared connections)
+- [[Community 184]] (1 shared connections)
+- [[Community 248]] (1 shared connections)
+- [[Community 151]] (1 shared connections)
+- [[Community 210]] (1 shared connections)
 
 ## Source Files
 
-- `api/_lib/htmlEscape.js`
-- `api/og.js`
-- `backend/test/securityPhase2.test.mjs`
-- `vite.config.js`
+- `.agents/skills/archify/bin/visual-check.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 81 (100%)
+- EXTRACTED: 54 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

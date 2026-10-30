@@ -1,56 +1,74 @@
 # Community 54
 
-> 27 nodes · cohesion 0.14
+> 30 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **ft()** (13 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
-- **zd()** (13 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
-- **Nd()** (12 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
-- **qd()** (12 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
-- **tf()** (10 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
-- **ef()** (8 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
-- **uf()** (8 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
-- **Xd()** (8 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
-- **et()** (7 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
-- **Gd()** (7 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
-- **kf()** (7 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
-- **lf()** (7 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
-- **tt()** (7 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
-- **of()** (6 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
-- **Rd()** (6 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
-- **Bd()** (5 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
-- **sf()** (5 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
-- **cf()** (4 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
-- **jf()** (4 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
-- **Zo()** (4 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
-- **Hd()** (3 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
-- **mf()** (3 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
-- **ra()** (3 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
-- **Ud()** (3 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
-- **Fd()** (2 connections) — `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
-- *... and 2 more nodes in this community*
+- **main.jsx** (54 connections) — `src/main.jsx`
+- **useSession()** (42 connections) — `src/data/session.js`
+- **isDealer()** (18 connections) — `src/data/dealer.js`
+- **t()** (18 connections) — `src/data/i18n.js`
+- **MobileBottomNav.jsx** (16 connections) — `src/components/MobileBottomNav.jsx`
+- **isPortalGated()** (14 connections) — `src/data/portalGate.js`
+- **dealerById()** (12 connections) — `src/data/dealer.js`
+- **Products()** (9 connections) — `src/pages/Products.jsx`
+- **Header()** (9 connections) — `src/ui.jsx`
+- **MobileBottomNav()** (8 connections) — `src/components/MobileBottomNav.jsx`
+- **portalGate.js** (8 connections) — `src/data/portalGate.js`
+- **Home()** (8 connections) — `src/pages/Home.jsx`
+- **Login()** (7 connections) — `src/pages/Login.jsx`
+- **DealerPending.jsx** (6 connections) — `src/pages/DealerPending.jsx`
+- **Schemes()** (6 connections) — `src/pages/Schemes.jsx`
+- **AccountLink()** (6 connections) — `src/ui.jsx`
+- **Footer()** (6 connections) — `src/ui.jsx`
+- **StaffDashboard()** (5 connections) — `src/pages/StaffDashboard.jsx`
+- **Support()** (5 connections) — `src/pages/Support.jsx`
+- **DealerDashboard()** (4 connections) — `src/pages/DealerDashboard.jsx`
+- **StaffJoin()** (4 connections) — `src/pages/StaffJoin.jsx`
+- **EmailVerificationPrompt()** (3 connections) — `src/components/EmailVerificationPrompt.jsx`
+- **PhoneVerificationPrompt()** (3 connections) — `src/components/PhoneVerificationPrompt.jsx`
+- **DealerApply()** (3 connections) — `src/pages/DealerApply.jsx`
+- **DealerPending()** (3 connections) — `src/pages/DealerPending.jsx`
+- *... and 5 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (32 shared connections)
-- [[Project Readme & Layout]] (10 shared connections)
-- [[Community 44]] (8 shared connections)
-- [[Product Brand & Business Vision]] (8 shared connections)
-- [[Roles & Customer Sharing Spec]] (6 shared connections)
-- [[Agent Guidelines (AGENTS.md)]] (6 shared connections)
-- [[Community 113]] (2 shared connections)
-- [[Community 33]] (2 shared connections)
-- [[Dependencies & Package Config]] (1 shared connections)
+- [[Community 30]] (46 shared connections)
+- [[Pricing & Roles Skill]] (39 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (32 shared connections)
+- [[Community 41]] (7 shared connections)
+- [[Community 170]] (3 shared connections)
+- [[Claude Agent Instructions]] (3 shared connections)
+- [[Community 169]] (1 shared connections)
+- [[Community 401]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-LiwW60BS.js`
+- `src/components/EmailVerificationPrompt.jsx`
+- `src/components/MobileBottomNav.jsx`
+- `src/components/NativeBackHandler.jsx`
+- `src/components/PhoneVerificationPrompt.jsx`
+- `src/data/dealer.js`
+- `src/data/i18n.js`
+- `src/data/portalGate.js`
+- `src/data/session.js`
+- `src/main.jsx`
+- `src/pages/DealerApply.jsx`
+- `src/pages/DealerDashboard.jsx`
+- `src/pages/DealerPending.jsx`
+- `src/pages/Home.jsx`
+- `src/pages/Login.jsx`
+- `src/pages/Products.jsx`
+- `src/pages/Schemes.jsx`
+- `src/pages/StaffDashboard.jsx`
+- `src/pages/StaffJoin.jsx`
+- `src/pages/Support.jsx`
+- `src/ui.jsx`
 
 ## Audit Trail
 
-- EXTRACTED: 171 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 287 (100%)
+- INFERRED: 1 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

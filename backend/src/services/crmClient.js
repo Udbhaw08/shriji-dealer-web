@@ -83,9 +83,46 @@ export async function crmFetch(path, { method = 'GET', body } = {}) {
   return data;
 }
 
+export const ALLOWED_USER_SOURCES = [
+  'ReStor Dealer',
+  'ReStor Staff',
+  'ReStor Brand',
+  'ReStor Customer',
+];
+
+export const VALID_USER_SOURCES = {
+  dealer: 'ReStor Dealer',
+  dealer_staff: 'ReStor Staff',
+  staff: 'ReStor Staff',
+  brand: 'ReStor Brand',
+  brand_representative: 'ReStor Brand',
+  customer: 'ReStor Customer',
+  retail_customer: 'ReStor Customer',
+};
+
+/**
+ * Normalizes user source strictly to one of the 4 verified CRM picklist values:
+ * 'ReStor Dealer', 'ReStor Staff', 'ReStor Brand', 'ReStor Customer'.
+ * Never sets arbitrary or synthetic channel sources.
+ */
+export function normalizeUserSource(source, fallbackRole = 'dealer') {
+  if (source && ALLOWED_USER_SOURCES.includes(source)) {
+    return source;
+  }
+  if (typeof source === 'string') {
+    const clean = source.trim().toLowerCase();
+    if (clean.includes('staff')) return 'ReStor Staff';
+    if (clean.includes('brand')) return 'ReStor Brand';
+    if (clean.includes('customer')) return 'ReStor Customer';
+    if (clean.includes('dealer')) return 'ReStor Dealer';
+  }
+  return VALID_USER_SOURCES[fallbackRole] || 'ReStor Dealer';
+}
+
 /** Create the dealer Account in CRM. Returns the CRM Account id. */
 export async function createDealerAccount({ businessName, gstNumber, gstTreatment, phone, email, address, city, state, pin, pincode, userSource = 'ReStor Dealer', dealerCode }) {
   const norm = normalizePhone(phone);
+  const cleanSource = normalizeUserSource(userSource, 'dealer');
   const account = {
     Account_Name: cleanName(businessName),
     Phone: norm.nationalNumber || undefined,
@@ -97,7 +134,7 @@ export async function createDealerAccount({ businessName, gstNumber, gstTreatmen
     [FIELDS.account.gst()]: gstNumber || undefined,
     ...(gstTreatment ? { [FIELDS.account.gstTreatment()]: String(gstTreatment).trim() } : {}),
     [FIELDS.account.dealerStatus()]: 'Pending',
-    ...(userSource ? { [FIELDS.account.userSource()]: userSource } : {}),
+    [FIELDS.account.userSource()]: cleanSource,
     ...(dealerCode ? { [FIELDS.account.dealerCode()]: String(dealerCode).trim() } : {}),
   };
   const data = await crmFetch('/Accounts', {
@@ -159,13 +196,16 @@ export async function createDealerContact({
   email,
   portalRole = 'Owner',
   dealerCode,
-  userSource = 'ReStor Dealer',
+  userSource,
   reportingToContactId,
   backendUserId,
 }) {
   const norm = normalizePhone(phone);
-  const defaultLast = portalRole === 'Staff' ? 'Dealer Staff' : 'Dealer Owner';
+  const defaultLast = portalRole === 'Staff' ? 'Dealer Staff' : (portalRole === 'Brand' ? 'Brand Representative' : 'Dealer Owner');
   const names = resolveContactNames({ firstName, lastName, personName, defaultLast });
+
+  const roleFallback = portalRole === 'Staff' ? 'staff' : (portalRole === 'Brand' ? 'brand' : (portalRole === 'Customer' ? 'customer' : 'dealer'));
+  const cleanSource = normalizeUserSource(userSource, roleFallback);
 
   const contact = {
     ...(names.firstName ? { First_Name: names.firstName } : {}),
@@ -177,7 +217,7 @@ export async function createDealerContact({
     [FIELDS.contact.portalRole()]: portalRole,
     ...(norm.countryCode ? { [FIELDS.contact.countryCode()]: norm.countryCode } : {}),
     ...(dealerCode ? { [FIELDS.account.dealerCode()]: dealerCode } : {}),
-    ...(userSource ? { [FIELDS.contact.userSource()]: userSource } : {}),
+    [FIELDS.contact.userSource()]: cleanSource,
     ...(reportingToContactId ? { Reporting_To: { id: reportingToContactId } } : {}),
     ...(backendUserId ? { [FIELDS.contact.backendUserId()]: String(backendUserId) } : {}),
   };
@@ -193,22 +233,29 @@ export async function createDealerContact({
 }
 
 /** Stamp the backend user id onto a CRM Contact so both systems can link. */
-export async function linkContactToBackendUser(contactId, backendUserId) {
+export async function linkContactToBackendUser(contactId, backendUserId, { userSource, role = 'dealer' } = {}) {
+  const cleanSource = normalizeUserSource(userSource, role);
+  const payload = {
+    id: contactId,
+    [FIELDS.contact.backendUserId()]: backendUserId,
+    [FIELDS.contact.userSource()]: cleanSource,
+  };
   await crmFetch(`/Contacts/${contactId}`, {
     method: 'PUT',
-    body: { data: [{ id: contactId, [FIELDS.contact.backendUserId()]: backendUserId }] },
+    body: { data: [payload] },
   });
 }
 
 /**
  * Read a dealer Account from CRM — the source of truth for approval & profile.
- * Returns { zohoAccountId, dealerStatus, dealerCode, priceList, priceTier, businessName, gstNumber, gstTreatment, phone, address } or null.
+ * Returns { zohoAccountId, dealerStatus, dealerCode, priceList, priceTier, businessName, gstNumber, gstTreatment, phone, address, userSource } or null.
  */
 export async function getDealerAccount(zohoAccountId) {
   const data = await crmFetch(`/Accounts/${zohoAccountId}`);
   const acc = data?.data?.[0];
   if (!acc) return null;
   const priceListVal = acc[FIELDS.account.priceList()] || acc.Price_List || acc['Price List'] || acc.Price_Tier || null;
+  const userSourceVal = acc[FIELDS.account.userSource()] || acc.User_Source || 'ReStor Dealer';
   const addressParts = [
     acc.Billing_Street,
     acc.Billing_City,
@@ -229,12 +276,13 @@ export async function getDealerAccount(zohoAccountId) {
     city: acc.Billing_City || null,
     state: acc.Billing_State || null,
     pincode: acc.Billing_Code || null,
+    userSource: userSourceVal,
   };
 }
 
 /**
  * Read a Contact from CRM.
- * Returns { zohoContactId, firstName, lastName, fullName, email, phone, portalRole, accountId } or null.
+ * Returns { zohoContactId, firstName, lastName, fullName, email, phone, portalRole, accountId, userSource } or null.
  */
 export async function getDealerContact(zohoContactId) {
   const data = await crmFetch(`/Contacts/${zohoContactId}`);
@@ -250,6 +298,7 @@ export async function getDealerContact(zohoContactId) {
     portalRole: con[FIELDS.contact.portalRole()] || con.Portal_Role || null,
     dealerCode: con[FIELDS.account.dealerCode()] || null,
     accountId: con.Account_Name?.id || null,
+    userSource: con[FIELDS.contact.userSource()] || con.User_Source || null,
   };
 }
 
@@ -349,10 +398,10 @@ export async function findOwnerContactInAccount(zohoAccountId, { backendUserId, 
 }
 
 /**
- * Update the Store Code (api name: Dealer_Code) on both the Account
+ * Update the Store Code (api name: Dealer_Code) and user source on both the Account
  * and its associated Contacts in Zoho CRM.
  */
-export async function updateDealerCodeInCrm({ zohoAccountId, dealerCode, ownerPhone }) {
+export async function updateDealerCodeInCrm({ zohoAccountId, dealerCode, ownerPhone, userSource }) {
   if (!zohoAccountId || !crmConfigured()) return false;
   try {
     const norm = normalizePhone(ownerPhone);
@@ -361,6 +410,7 @@ export async function updateDealerCodeInCrm({ zohoAccountId, dealerCode, ownerPh
       id: String(zohoAccountId),
       ...(dealerCode ? { [FIELDS.account.dealerCode()]: String(dealerCode).trim() } : {}),
       ...(norm.nationalNumber ? { Phone: norm.nationalNumber } : {}),
+      ...(userSource ? { [FIELDS.account.userSource()]: String(userSource).trim() } : {}),
     };
     await crmFetch('/Accounts', {
       method: 'PUT',
@@ -374,6 +424,8 @@ export async function updateDealerCodeInCrm({ zohoAccountId, dealerCode, ownerPh
       if (contacts.length > 0) {
         const contactUpdates = contacts.map((c) => {
           const isOwner = c.Portal_Role === 'Owner' || !c.Reporting_To;
+          const currentSource = c[FIELDS.contact.userSource()] || c.User_Source;
+          const targetSource = isOwner ? (userSource || currentSource || 'ReStor Dealer') : (currentSource || 'ReStor Staff');
           return {
             id: c.id,
             ...(dealerCode ? { [FIELDS.account.dealerCode()]: String(dealerCode).trim() } : {}),
@@ -382,6 +434,7 @@ export async function updateDealerCodeInCrm({ zohoAccountId, dealerCode, ownerPh
               Mobile: norm.nationalNumber,
               [FIELDS.contact.countryCode()]: norm.countryCode,
             } : {}),
+            ...(targetSource ? { [FIELDS.contact.userSource()]: targetSource } : {}),
           };
         });
         await crmFetch('/Contacts', {
@@ -392,10 +445,65 @@ export async function updateDealerCodeInCrm({ zohoAccountId, dealerCode, ownerPh
     } catch (conErr) {
       log.warn(`[crm] Contact update for account ${zohoAccountId} skipped:`, conErr.message);
     }
-    log.info(`[crm] Synced Store Code ${dealerCode || ''} & phone to Account ${zohoAccountId} & Contacts`);
+    log.info(`[crm] Synced Store Code ${dealerCode || ''}, phone & user source to Account ${zohoAccountId} & Contacts`);
     return true;
   } catch (err) {
     log.error(`[crm] Failed to sync Store Code to CRM:`, err.message);
+    return false;
+  }
+}
+
+/**
+ * Sync the Account's User Source onto all Contacts under this CRM Account.
+ * Matches exact CRM picklist values: 'ReStor Dealer', 'ReStor Staff', 'ReStor Brand', 'ReStor Customer'.
+ * Never sets arbitrary or synthetic channel sources.
+ */
+export async function syncAccountUserSourceToContacts(zohoAccountId, accountUserSource = 'ReStor Dealer') {
+  if (!zohoAccountId || !crmConfigured()) return false;
+  try {
+    const contactsRes = await crmFetch(`/Contacts/search?criteria=(Account_Name:equals:${zohoAccountId})`);
+    const contacts = contactsRes?.data || [];
+    if (!contacts.length) return false;
+
+    const baseSource = normalizeUserSource(accountUserSource, 'dealer');
+
+    const contactUpdates = [];
+    for (const c of contacts) {
+      const isStaff = c[FIELDS.contact.portalRole()] === 'Staff' || c.Portal_Role === 'Staff';
+      const isBrand = c[FIELDS.contact.portalRole()] === 'Brand' || c.Portal_Role === 'Brand';
+
+      let targetSource;
+      if (isStaff) {
+        targetSource = 'ReStor Staff';
+      } else if (isBrand) {
+        targetSource = 'ReStor Brand';
+      } else if (baseSource === 'ReStor Customer') {
+        targetSource = 'ReStor Customer';
+      } else {
+        targetSource = baseSource || 'ReStor Dealer';
+      }
+
+      const currentSource = c[FIELDS.contact.userSource()] || c.User_Source;
+
+      if (!currentSource || currentSource !== targetSource) {
+        contactUpdates.push({
+          id: c.id,
+          [FIELDS.contact.userSource()]: targetSource,
+        });
+      }
+    }
+
+    if (contactUpdates.length > 0) {
+      await crmFetch('/Contacts', {
+        method: 'PUT',
+        body: { data: contactUpdates },
+      });
+      log.info(`[crm] Synced User_Source (${contactUpdates.map(u => u[FIELDS.contact.userSource()]).join(', ')}) to ${contactUpdates.length} contact(s) under Account ${zohoAccountId}`);
+      return true;
+    }
+    return false;
+  } catch (err) {
+    log.warn(`[crm] syncAccountUserSourceToContacts failed for Account ${zohoAccountId}:`, err.message);
     return false;
   }
 }

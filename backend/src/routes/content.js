@@ -26,7 +26,7 @@ contentRouter.get('/banners', async (req, res, next) => {
   }
 });
 
-// GET /api/content/settings/hero
+// GET /api/content/settings/hero and /api/content/settings
 contentRouter.get('/settings/hero', async (req, res, next) => {
   try {
     const settings = await getHeroSliderSettings();
@@ -36,8 +36,26 @@ contentRouter.get('/settings/hero', async (req, res, next) => {
   }
 });
 
-// POST /api/content/settings/hero (Admin Only)
+contentRouter.get('/settings', async (req, res, next) => {
+  try {
+    const settings = await getHeroSliderSettings();
+    return res.json({ ok: true, settings });
+  } catch (err) {
+    next(err);
+  }
+});
+
+// POST /api/content/settings/hero and /api/content/settings (Admin Only)
 contentRouter.post('/settings/hero', requireAdmin, async (req, res, next) => {
+  try {
+    const saved = await saveHeroSliderSettings(req.body);
+    return res.json({ ok: true, settings: saved });
+  } catch (err) {
+    next(err);
+  }
+});
+
+contentRouter.post('/settings', requireAdmin, async (req, res, next) => {
   try {
     const saved = await saveHeroSliderSettings(req.body);
     return res.json({ ok: true, settings: saved });

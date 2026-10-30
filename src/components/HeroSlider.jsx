@@ -18,6 +18,7 @@ export const DEFAULT_HERO_BANNERS = [
     order: 1,
     duration_seconds: 6,
     duration: 6,
+    fitMode: "cover",
   },
   {
     id: "hero-restor-chimney-smart",
@@ -30,6 +31,7 @@ export const DEFAULT_HERO_BANNERS = [
     order: 2,
     duration_seconds: 6,
     duration: 6,
+    fitMode: "cover",
   },
   {
     id: "hero-restor-integrated-suite",
@@ -42,6 +44,7 @@ export const DEFAULT_HERO_BANNERS = [
     order: 3,
     duration_seconds: 6,
     duration: 6,
+    fitMode: "cover",
   },
 ];
 
@@ -74,6 +77,7 @@ export default function HeroSlider({ isGated = true }) {
   const touchStartXRef = useRef(0);
   const touchStartYRef = useRef(0);
   const isSwipingRef = useRef(false);
+  const didSwipeRef = useRef(false);
 
   // Fetch dynamic banners and slider settings from Supabase / API
   useEffect(() => {
@@ -178,7 +182,11 @@ export default function HeroSlider({ isGated = true }) {
     const deltaX = touchEndX - touchStartXRef.current;
     const deltaY = touchEndY - touchStartYRef.current;
 
-    if (Math.abs(deltaX) > 40 && Math.abs(deltaX) > Math.abs(deltaY)) {
+    if (Math.abs(deltaX) > 25 && Math.abs(deltaX) > Math.abs(deltaY)) {
+      didSwipeRef.current = true;
+      setTimeout(() => {
+        didSwipeRef.current = false;
+      }, 350);
       if (deltaX < 0) {
         nextSlide();
       } else {
@@ -323,14 +331,34 @@ export default function HeroSlider({ isGated = true }) {
     }
 
     // 2. Render Static Image Banner
+    const fitMode = slide.fitMode || slide.metadata?.fit_mode || slide.fit || "contain";
+    const mobileSrc = slide.mobileSrc || slide.metadata?.mobile_image_url || null;
+
     const imageEl = slide.src ? (
-      <img
-        src={slide.src}
-        alt={slide.alt || slide.title || "Banner"}
-        className="store-banner-img"
-        loading={idx === 0 ? "eager" : "lazy"}
-        draggable={false}
-      />
+      <div className={`store-banner-media-container fit-${fitMode}`}>
+        {/* Ambient blurred backdrop aura for contained/framed banners */}
+        {fitMode === "contain" && (
+          <div
+            className="store-banner-ambient-bg"
+            style={{
+              backgroundImage: `url(${slide.src})`,
+            }}
+            aria-hidden="true"
+          />
+        )}
+        <picture className="store-banner-picture">
+          {mobileSrc && (
+            <source media="(max-width: 600px)" srcSet={mobileSrc} />
+          )}
+          <img
+            src={slide.src}
+            alt={slide.alt || slide.title || "Banner"}
+            className={`store-banner-img fit-${fitMode}`}
+            loading={idx === 0 ? "eager" : "lazy"}
+            draggable={false}
+          />
+        </picture>
+      </div>
     ) : (
       <div className="stitch-hero-card">
         <div className="stitch-hero-glow-1" aria-hidden="true" />
@@ -358,17 +386,29 @@ export default function HeroSlider({ isGated = true }) {
 
     if (slide.link) {
       const isExternal = slide.link.startsWith("http://") || slide.link.startsWith("https://");
+      const handleBannerClick = (e) => {
+        if (didSwipeRef.current) {
+          e.preventDefault();
+          e.stopPropagation();
+        }
+      };
+
       return isExternal ? (
         <a
           href={slide.link}
           target="_blank"
           rel="noopener noreferrer"
           style={{ display: "block", width: "100%", height: "100%" }}
+          onClick={handleBannerClick}
         >
           {imageEl}
         </a>
       ) : (
-        <Link to={slide.link} style={{ display: "block", width: "100%", height: "100%" }}>
+        <Link
+          to={slide.link}
+          style={{ display: "block", width: "100%", height: "100%" }}
+          onClick={handleBannerClick}
+        >
           {imageEl}
         </Link>
       );
@@ -444,20 +484,28 @@ export default function HeroSlider({ isGated = true }) {
               <button
                 type="button"
                 className="store-carousel-nav prev"
-                onClick={prevSlide}
+                onClick={(e) => {
+                  e.preventDefault();
+                  e.stopPropagation();
+                  prevSlide();
+                }}
                 aria-label="Previous banner"
-                title="Previous"
+                title="Previous slide"
               >
-                <Icon name="chevleft" size={24} />
+                <Icon name="chevleft" size={20} />
               </button>
               <button
                 type="button"
                 className="store-carousel-nav next"
-                onClick={nextSlide}
+                onClick={(e) => {
+                  e.preventDefault();
+                  e.stopPropagation();
+                  nextSlide();
+                }}
                 aria-label="Next banner"
-                title="Next"
+                title="Next slide"
               >
-                <Icon name="chev" size={24} />
+                <Icon name="chev" size={20} />
               </button>
             </>
           )}

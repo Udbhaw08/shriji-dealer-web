@@ -1,55 +1,54 @@
 # Architecture Doc Generator
 
-> 56 nodes · cohesion 0.06
+> 51 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **hash.js** (25 connections) — `backend/src/utils/hash.js`
-- **phase2DealerStaffOnboarding.test.mjs** (17 connections) — `backend/test/phase2DealerStaffOnboarding.test.mjs`
-- **loginCode.js** (17 connections) — `backend/src/utils/loginCode.js`
-- **dealerRegistrationTwoChannel.test.mjs** (15 connections) — `backend/test/dealerRegistrationTwoChannel.test.mjs`
-- **onboardingVerification.test.mjs** (15 connections) — `backend/test/onboardingVerification.test.mjs`
-- **hashOtp()** (10 connections) — `backend/src/utils/hash.js`
-- **verifyOtpHash()** (10 connections) — `backend/src/utils/hash.js`
-- **hash.test.mjs** (9 connections) — `backend/test/hash.test.mjs`
-- **sha256()** (9 connections) — `backend/src/utils/hash.js`
-- **formatLoginCode()** (8 connections) — `backend/src/utils/loginCode.js`
-- **generateLoginCode()** (8 connections) — `backend/src/utils/loginCode.js`
-- **loginCode.test.mjs** (7 connections) — `backend/test/loginCode.test.mjs`
-- **generateOtp()** (5 connections) — `backend/src/utils/hash.js`
-- **hashPassword()** (5 connections) — `backend/src/utils/hash.js`
-- **verifyPassword()** (4 connections) — `backend/src/utils/hash.js`
-- **isValidLoginCode()** (4 connections) — `backend/src/utils/loginCode.js`
-- **parseLoginCode()** (4 connections) — `backend/src/utils/loginCode.js`
-- **scryptKey()** (3 connections) — `backend/src/utils/hash.js`
-- **USER_CATEGORIES** (3 connections) — `backend/src/utils/loginCode.js`
-- **generateCode()** (2 connections) — `backend/src/utils/hash.js`
-- **randomToken()** (2 connections) — `backend/src/utils/hash.js`
-- **generateRandomDigits()** (2 connections) — `backend/src/utils/loginCode.js`
-- **generateRandomLetters()** (2 connections) — `backend/src/utils/loginCode.js`
-- **GST_TREATMENT_OPTIONS** (2 connections) — `backend/src/utils/loginCode.js`
-- **app** (1 connections) — `backend/test/dealerRegistrationTwoChannel.test.mjs`
-- *... and 31 more nodes in this community*
+- **n()** (32 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
+- **it()** (20 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
+- **Ya()** (20 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
+- **k()** (19 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
+- **st()** (17 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
+- **A()** (15 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
+- **Ri()** (15 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
+- **ft()** (13 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
+- **Dn()** (12 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
+- **ut()** (11 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
+- **jt()** (10 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
+- **ct()** (9 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
+- **go()** (9 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
+- **nt()** (9 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
+- **ve()** (9 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
+- **O()** (8 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
+- **ot()** (8 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
+- **po()** (8 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
+- **xt()** (8 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
+- **dt()** (7 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
+- **Gt()** (7 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
+- **Id()** (7 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
+- **jn()** (7 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
+- **kf()** (7 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
+- **Ko()** (7 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
+- *... and 26 more nodes in this community*
 
 ## Relationships
 
-- [[Master Codebase Architecture Reference]] (23 shared connections)
-- [[Pricing & Roles Skill]] (7 shared connections)
-- [[Pricing Regression Test Suite]] (2 shared connections)
+- [[Dealer Auth & Session Management]] (70 shared connections)
+- [[Design System & UI Tokens]] (34 shared connections)
+- [[Mobile Responsive UI Skill]] (27 shared connections)
+- [[Community 49]] (18 shared connections)
+- [[Community 37]] (14 shared connections)
+- [[Community 40]] (12 shared connections)
+- [[Product Requirements Documentation]] (9 shared connections)
+- [[Graphify Agent Rules]] (8 shared connections)
 
 ## Source Files
 
-- `backend/src/utils/hash.js`
-- `backend/src/utils/loginCode.js`
-- `backend/test/dealerRegistrationTwoChannel.test.mjs`
-- `backend/test/hash.test.mjs`
-- `backend/test/loginCode.test.mjs`
-- `backend/test/onboardingVerification.test.mjs`
-- `backend/test/phase2DealerStaffOnboarding.test.mjs`
+- `ios/App/App/public/assets/index-CZ0bF0iF.js`
 
 ## Audit Trail
 
-- EXTRACTED: 220 (100%)
+- EXTRACTED: 424 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -98,17 +98,33 @@ export default function Home() {
   }, [PRODUCTS]);
 
   const featured = useMemo(() => {
-    // If products from Zoho Commerce 'Trial' collection exist, prioritize them in exact collection order
+    // If products from Zoho Commerce 'Bestseller' / 'Trial' collection exist, prioritize them in exact collection order
     const trialItems = PRODUCTS.filter(
       (p) =>
         p.isTrial ||
+        p.isBestseller ||
         p.collections?.includes("trial") ||
+        p.collections?.includes("bestseller") ||
+        p.collections?.includes("bestsellers") ||
         p.cat === "trial" ||
+        p.cat === "bestseller" ||
+        p.cat === "bestsellers" ||
         p.cat?.toLowerCase() === "trial" ||
-        (Array.isArray(p.tags) && p.tags.some((t) => typeof t === "string" && t.toLowerCase() === "trial"))
+        p.cat?.toLowerCase() === "bestseller" ||
+        p.cat?.toLowerCase() === "bestsellers" ||
+        (Array.isArray(p.tags) &&
+          p.tags.some(
+            (t) =>
+              typeof t === "string" &&
+              (t.toLowerCase() === "trial" ||
+                t.toLowerCase() === "bestseller" ||
+                t.toLowerCase() === "bestsellers" ||
+                t.toLowerCase() === "best sellers" ||
+                t.toLowerCase() === "best seller")
+          ))
     );
     if (trialItems.length > 0) {
-      return [...trialItems].sort((a, b) => (a.trialOrder ?? 999) - (b.trialOrder ?? 999));
+      return [...trialItems].sort((a, b) => (a.trialOrder ?? a.bestsellerOrder ?? 999) - (b.trialOrder ?? b.bestsellerOrder ?? 999));
     }
     // Fallback so the section remains populated while the category is configured in Zoho Commerce
     return CATEGORIES.map((c) => PRODUCTS.filter((p) => p.cat === c.key && p.img).slice(0, 2))
@@ -203,9 +219,39 @@ export default function Home() {
     };
 
     window.addEventListener("shriji_settings_updated", handleUpdated);
+
+    // Listen to cross-tab storage changes
+    const handleStorage = (e) => {
+      if (e.key === "shriji_site_settings" && e.newValue) {
+        try {
+          updateFromSettings(JSON.parse(e.newValue));
+        } catch {}
+      } else if (e.key === "shriji_home_tagline_config" && e.newValue) {
+        try {
+          setTaglineConfig(JSON.parse(e.newValue));
+        } catch {}
+      }
+    };
+    window.addEventListener("storage", handleStorage);
+
+    // Listen to cross-tab BroadcastChannel
+    let channel;
+    try {
+      channel = new BroadcastChannel("shriji_settings_channel");
+      channel.onmessage = (event) => {
+        if (event.data?.settings) {
+          updateFromSettings(event.data.settings);
+        }
+      };
+    } catch {}
+
     return () => {
       active = false;
       window.removeEventListener("shriji_settings_updated", handleUpdated);
+      window.removeEventListener("storage", handleStorage);
+      try {
+        if (channel) channel.close();
+      } catch {}
     };
   }, []);
 
@@ -225,7 +271,7 @@ export default function Home() {
           <div className="wrap">
             <div className="home-tagline-block">
               <h2 className="home-tagline-title">
-                {taglineConfig.text || t("home_tagline") || "Delivering the heart of every kitchen"}
+                {taglineConfig.text}
               </h2>
               <div className="home-tagline-accent" aria-hidden="true" />
             </div>
@@ -342,7 +388,7 @@ export default function Home() {
                       <Icon name="chev" size={17} />
                     </button>
                   </div>
-                  <Link className="link" to="/products?cat=trial">
+                  <Link className="link" to="/products?cat=bestseller">
                     {t("view_all")} <Icon name="arrowsm" size={15} />
                   </Link>
                 </div>
@@ -369,7 +415,7 @@ export default function Home() {
                     <ProductCard key={p.id} p={p} />
                   ))}
                   <div className="carousel-more-card">
-                    <Link to="/products?cat=trial" className="carousel-more-btn">
+                    <Link to="/products?cat=bestseller" className="carousel-more-btn">
                       <span className="carousel-more-circle">
                         <Icon name="arrowsm" size={22} />
                       </span>

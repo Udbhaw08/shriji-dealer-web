@@ -486,6 +486,7 @@ const mockCrm = {
   }),
   findOwnerContactInAccount: async () => null,
   getPrimaryContactForAccount: async () => null,
+  syncAccountUserSourceToContacts: async () => true,
   updateDealerCodeInCrm: async () => true,
   deactivateAccountInCrm: async () => true,
   deactivateContactInCrm: async () => true,

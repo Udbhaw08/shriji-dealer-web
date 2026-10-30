@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **site-language-integration.mjs** (0 connections) — `.agents/skills/archify/test/site-language-integration.mjs`
+- **resendEmailTemplate.test.mjs** (0 connections) — `backend/test/resendEmailTemplate.test.mjs`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/site-language-integration.mjs`
+- `backend/test/resendEmailTemplate.test.mjs`
 
 ## Audit Trail
 

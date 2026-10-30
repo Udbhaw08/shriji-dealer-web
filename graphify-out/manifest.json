@@ -75,8 +75,8 @@
     "semantic_hash": ""
   },
   "src/data/productsStore.js": {
-    "mtime": 1793310037.1853657,
-    "ast_hash": "aa9a5b1100a82cc28fb8da0d8bcd7e37",
+    "mtime": 1793314100.93318,
+    "ast_hash": "f80bb77afc6a980070b369c5e100a1ec",
     "semantic_hash": ""
   },
   "src/data/session.js": {
@@ -95,8 +95,8 @@
     "semantic_hash": ""
   },
   "src/pages/Home.jsx": {
-    "mtime": 1793310880.0771651,
-    "ast_hash": "b85e2844e98ca897a841d8e0042608c2",
+    "mtime": 1793313993.8539364,
+    "ast_hash": "b72d51f288ba5e4c91ef589a6164ed22",
     "semantic_hash": ""
   },
   "src/pages/Login.jsx": {
@@ -110,8 +110,8 @@
     "semantic_hash": ""
   },
   "src/pages/Products.jsx": {
-    "mtime": 1793311752.9806736,
-    "ast_hash": "b2b44f2f7c0b52c62091eda622812f39",
+    "mtime": 1793314031.6811564,
+    "ast_hash": "6d7507f4c7985cef9a1a100ebd9ffb07",
     "semantic_hash": ""
   },
   "src/pages/Schemes.jsx": {
@@ -120,13 +120,13 @@
     "semantic_hash": ""
   },
   "src/pages/Support.jsx": {
-    "mtime": 1793311007.4786625,
-    "ast_hash": "81485fb484d9c0345dfd9f7027e02f8b",
+    "mtime": 1793313965.0485616,
+    "ast_hash": "fbadda14da53f14f17d3130f553ab5e1",
     "semantic_hash": ""
   },
   "src/ui.jsx": {
-    "mtime": 1793310880.073178,
-    "ast_hash": "25b50da5e3660a91aa9deb84eb287793",
+    "mtime": 1793313468.296317,
+    "ast_hash": "f9f531d75f0e73629646b277af904883",
     "semantic_hash": ""
   },
   "vercel.json": {
@@ -135,8 +135,8 @@
     "semantic_hash": ""
   },
   "vite.config.js": {
-    "mtime": 1793310819.1799417,
-    "ast_hash": "1e498a01fd7215499d9643709bbc00f8",
+    "mtime": 1793313922.35703,
+    "ast_hash": "d4c47feb1fc819590ec5d3379aa4a473",
     "semantic_hash": ""
   },
   ".agents/rules/graphify.md": {
@@ -180,8 +180,8 @@
     "semantic_hash": ""
   },
   "CODEBASE.md": {
-    "mtime": 1793311787.174618,
-    "ast_hash": "4ab5808fc705ad8bcb1caad4ac020815",
+    "mtime": 1793375113.077561,
+    "ast_hash": "ca4056cc3a6132dd6706e69a15e3fafe",
     "semantic_hash": ""
   },
   "PRD.md": {
@@ -225,8 +225,8 @@
     "semantic_hash": ""
   },
   "index.html": {
-    "mtime": 1792883161.0186121,
-    "ast_hash": "bfba7c8a1f326c0834babc74803eb0ee",
+    "mtime": 1793315312.6661217,
+    "ast_hash": "7ec10232f26634d8e1fb2482f5975bff",
     "semantic_hash": ""
   },
   "mobile ref.jpeg": {
@@ -320,13 +320,13 @@
     "semantic_hash": ""
   },
   "src/data/translations.js": {
-    "mtime": 1793311572.990376,
-    "ast_hash": "0651a2ab327fe1180a6c0353237a3f9a",
+    "mtime": 1793313970.4178421,
+    "ast_hash": "6500ee62c215ad2047c06217cb1e8295",
     "semantic_hash": ""
   },
   "src/components/MobileBottomNav.jsx": {
-    "mtime": 1793289735.4191806,
-    "ast_hash": "73db87815de3ad37fc90ed34feec48f3",
+    "mtime": 1793315337.3403368,
+    "ast_hash": "de85b0a42567c90bbaade49fe6a64042",
     "semantic_hash": ""
   },
   "public/favicon.png": {
@@ -425,8 +425,8 @@
     "semantic_hash": ""
   },
   "src/components/HeroSlider.jsx": {
-    "mtime": 1793223589.959785,
-    "ast_hash": "f5756bfecb029eb9e36012157fa008ac",
+    "mtime": 1793314233.7079835,
+    "ast_hash": "448d350e01726352a407673a76b02e67",
     "semantic_hash": ""
   },
   "public/img/hero-defender.jpg": {
@@ -590,7 +590,7 @@
     "semantic_hash": ""
   },
   "android/app/capacitor.build.gradle": {
-    "mtime": 1793311789.9250214,
+    "mtime": 1793375117.1173017,
     "ast_hash": "6f95eb3e9a08ae902e6ebee49fae0e87",
     "semantic_hash": ""
   },
@@ -600,22 +600,22 @@
     "semantic_hash": ""
   },
   "android/app/src/main/assets/capacitor.config.json": {
-    "mtime": 1793311789.8841739,
+    "mtime": 1793375117.047046,
     "ast_hash": "c3b7521daf5e0ffb05c899566a409603",
     "semantic_hash": ""
   },
   "android/app/src/main/assets/capacitor.plugins.json": {
-    "mtime": 1793311789.9081602,
+    "mtime": 1793375117.0855148,
     "ast_hash": "5b7f24f78381c296e8f45d2e08b3387d",
     "semantic_hash": ""
   },
   "android/app/src/main/assets/public/cordova.js": {
-    "mtime": 1793311789.9220257,
+    "mtime": 1793375117.11208,
     "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
     "semantic_hash": ""
   },
   "android/app/src/main/assets/public/cordova_plugins.js": {
-    "mtime": 1793311789.9220257,
+    "mtime": 1793375117.1133018,
     "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
     "semantic_hash": ""
   },
@@ -635,17 +635,17 @@
     "semantic_hash": ""
   },
   "android/capacitor-cordova-android-plugins/build.gradle": {
-    "mtime": 1793311789.9260223,
+    "mtime": 1793375117.1193013,
     "ast_hash": "2af61653d70c95d20802c8b5c433ba90",
     "semantic_hash": ""
   },
   "android/capacitor-cordova-android-plugins/cordova.variables.gradle": {
-    "mtime": 1793311789.9270225,
+    "mtime": 1793375117.1222997,
     "ast_hash": "d2372a0ae9aa60abb8d03e7f06bf9194",
     "semantic_hash": ""
   },
   "android/capacitor.settings.gradle": {
-    "mtime": 1793311789.9240227,
+    "mtime": 1793375117.1163034,
     "ast_hash": "33ed8a9bcb1cb579ff402e4441ceba0e",
     "semantic_hash": ""
   },
@@ -695,22 +695,22 @@
     "semantic_hash": ""
   },
   "ios/App/App/capacitor.config.json": {
-    "mtime": 1793311790.0289543,
+    "mtime": 1793375117.505143,
     "ast_hash": "153d51185cd9c15b71dd6730350bbb1e",
     "semantic_hash": ""
   },
   "ios/App/App/public/cordova.js": {
-    "mtime": 1793311790.011985,
+    "mtime": 1793375117.475353,
     "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
     "semantic_hash": ""
   },
   "ios/App/App/public/cordova_plugins.js": {
-    "mtime": 1793311790.011985,
+    "mtime": 1793375117.475353,
     "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
     "semantic_hash": ""
   },
   "ios/App/CapApp-SPM/Package.swift": {
-    "mtime": 1793311790.0169687,
+    "mtime": 1793375117.485917,
     "ast_hash": "d382a118912be7b151ceff8ace266e42",
     "semantic_hash": ""
   },
@@ -882,16 +882,6 @@
   "ios/App/App/Assets.xcassets/Splash.imageset/splash-2732x2732.png": {
     "mtime": 1789138889.0,
     "ast_hash": "958532b95c3e7d4997327dc977b80600",
-    "semantic_hash": ""
-  },
-  "ios/App/App/public/img/banners/banner-restor-mobile.jpg": {
-    "mtime": 1790123899.8912413,
-    "ast_hash": "dd4ccaf566961ffd2e3ecc8291a5bee0",
-    "semantic_hash": ""
-  },
-  "ios/App/App/public/img/banners/banner-restor.jpg": {
-    "mtime": 1790123895.1240036,
-    "ast_hash": "dfa05280a936c33e5c85086eb337904b",
     "semantic_hash": ""
   },
   "ios/App/App/public/img/cat-hob_tops.webp": {
@@ -2100,8 +2090,8 @@
     "semantic_hash": ""
   },
   "backend/src/jobs/crmPoll.js": {
-    "mtime": 1792883160.606657,
-    "ast_hash": "56ec3a34cd85c3f6f2e9630d6e1f331c",
+    "mtime": 1793315700.9624646,
+    "ast_hash": "9d41e27f1ebf01286ec244c35886db4c",
     "semantic_hash": ""
   },
   "backend/src/jobs/index.js": {
@@ -2110,8 +2100,8 @@
     "semantic_hash": ""
   },
   "backend/src/middleware/auth.js": {
-    "mtime": 1793273782.0218158,
-    "ast_hash": "e515325b2c73fd9529e38ef1bcafcfe5",
+    "mtime": 1793375094.564201,
+    "ast_hash": "3f95be2cab33ab95226ed026990df514",
     "semantic_hash": ""
   },
   "backend/src/middleware/errorHandler.js": {
@@ -2145,8 +2135,8 @@
     "semantic_hash": ""
   },
   "backend/src/routes/webhooks.js": {
-    "mtime": 1792883160.6121588,
-    "ast_hash": "4f6c59ccc46984e22cc030863e2637da",
+    "mtime": 1793315733.681317,
+    "ast_hash": "c585e62d687549f7bff7256ed4df6d01",
     "semantic_hash": ""
   },
   "backend/src/server.js": {
@@ -2165,13 +2155,13 @@
     "semantic_hash": ""
   },
   "backend/src/services/crmClient.js": {
-    "mtime": 1793291937.7236352,
-    "ast_hash": "1f7cb03907825bbce3dd772ee1846a56",
+    "mtime": 1793316185.277402,
+    "ast_hash": "16e1425f9c529975daf40eb99855c474",
     "semantic_hash": ""
   },
   "backend/src/services/dealerApp.js": {
-    "mtime": 1793291972.673646,
-    "ast_hash": "94ad1cd539e21383a5100eb134d01441",
+    "mtime": 1793315687.6831472,
+    "ast_hash": "a7632d6b4822cc6a0c3116097b554aaf",
     "semantic_hash": ""
   },
   "backend/src/services/notifications.js": {
@@ -2180,8 +2170,8 @@
     "semantic_hash": ""
   },
   "backend/src/services/staff.js": {
-    "mtime": 1792883191.6055405,
-    "ast_hash": "bd7f36a90884cb930da9651808bbbd94",
+    "mtime": 1793315717.6404526,
+    "ast_hash": "8c6b74779872f8700c89a9d4b4ea11ee",
     "semantic_hash": ""
   },
   "backend/src/utils/audit.js": {
@@ -2205,8 +2195,8 @@
     "semantic_hash": ""
   },
   "backend/test/integration.test.mjs": {
-    "mtime": 1792883191.6086802,
-    "ast_hash": "96e9885acc07b4daf3c4a81f44b4927e",
+    "mtime": 1793315796.553687,
+    "ast_hash": "edf421859f9c6a44a07ec6a911424caf",
     "semantic_hash": ""
   },
   "backend/test/priceGate.test.mjs": {
@@ -2385,13 +2375,13 @@
     "semantic_hash": ""
   },
   "backend/src/routes/content.js": {
-    "mtime": 1793309910.8576674,
-    "ast_hash": "3e1a080385fef4f4133067a8b68d0a89",
+    "mtime": 1793313901.168259,
+    "ast_hash": "562c2be0e440850727e9cc6471e15ac3",
     "semantic_hash": ""
   },
   "backend/src/services/content.js": {
-    "mtime": 1793309864.11428,
-    "ast_hash": "2e1c36f7b9c52027dd3d6ff94a701614",
+    "mtime": 1793313888.9411876,
+    "ast_hash": "02ded12b7e8ceb240e83a70ed5df18dd",
     "semantic_hash": ""
   },
   "scripts/test-supabase.mjs": {
@@ -3240,13 +3230,13 @@
     "semantic_hash": ""
   },
   "api/content.js": {
-    "mtime": 1793309893.4956229,
-    "ast_hash": "df963e3c997c974052ba6c64ad3f81c6",
+    "mtime": 1793313182.0377614,
+    "ast_hash": "5aa2d31d947f69ae1f9be3ce64896f6a",
     "semantic_hash": ""
   },
   "src/pages/ContentAdminDashboard.jsx": {
-    "mtime": 1793310880.0787506,
-    "ast_hash": "5c036baefbd81be87a5a20f4e08c694f",
+    "mtime": 1793314140.5361538,
+    "ast_hash": "3b0f6b6b6c86eda1eaefb48b4165bb1c",
     "semantic_hash": ""
   },
   "public/img/logo.webp": {
@@ -3285,8 +3275,8 @@
     "semantic_hash": ""
   },
   "ios/App/App/public/index.html": {
-    "mtime": 1793311788.6646633,
-    "ast_hash": "37f47f163a304ff4bc9feebdce20a866",
+    "mtime": 1793375115.154498,
+    "ast_hash": "dbec29cfd0878bca4fc58c4da13ea031",
     "semantic_hash": ""
   },
   "ios/App/App/public/privacy.html": {
@@ -3309,21 +3299,6 @@
     "ast_hash": "52a6da96a4b60b4815066bd2a2dbd6b2",
     "semantic_hash": ""
   },
-  "ios/App/App/public/downloads/03_Scheme_Official_Circular.pdf": {
-    "mtime": 1792883191.874446,
-    "ast_hash": "5c094a958d03e810cdc7429b0352465c",
-    "semantic_hash": ""
-  },
-  "ios/App/App/public/downloads/Sunshine-Annual-Business-Scheme-FY26-27.pdf": {
-    "mtime": 1790120989.3799646,
-    "ast_hash": "bdeed19404336b7896c91b7ba9b5a5a6",
-    "semantic_hash": ""
-  },
-  "ios/App/App/public/downloads/Sunshine-Diwali-Scheme-2026.pdf": {
-    "mtime": 1790120989.3833773,
-    "ast_hash": "5c094a958d03e810cdc7429b0352465c",
-    "semantic_hash": ""
-  },
   "ios/App/App/public/uploads/circulars/Sunshine_Dealer_Scheme_Circular-1792675822248.pdf": {
     "mtime": 1792883161.0432565,
     "ast_hash": "fa06ff4d8ba4f990334e251614985d98",
@@ -3337,81 +3312,6 @@
   "android/app/src/main/assets/public/img/test-def-feat.png": {
     "mtime": 1790123874.063981,
     "ast_hash": "fc9767d6ff7179fc1a3e6864bb83f8de",
-    "semantic_hash": ""
-  },
-  "ios/App/App/public/favicon.png": {
-    "mtime": 1790120672.5045967,
-    "ast_hash": "92c6e11b715d1fc7b5fbaf4add2ef995",
-    "semantic_hash": ""
-  },
-  "ios/App/App/public/favicon.svg": {
-    "mtime": 1790120722.3329093,
-    "ast_hash": "891628f87807f327b6450431e829445c",
-    "semantic_hash": ""
-  },
-  "ios/App/App/public/icons.svg": {
-    "mtime": 1789682547.1171334,
-    "ast_hash": "3b4fcfcf393eca4d264dca4a4663bc37",
-    "semantic_hash": ""
-  },
-  "ios/App/App/public/img/01_Hero_Banner_Image.jpg": {
-    "mtime": 1792883191.8792167,
-    "ast_hash": "dd5d23ea23fc7308d8ad5f129af6cac8",
-    "semantic_hash": ""
-  },
-  "ios/App/App/public/img/02_Scheme_Flyer_Image.jpg": {
-    "mtime": 1792883191.8868685,
-    "ast_hash": "d55feb683cf66ae9b318d9adeccdfe13",
-    "semantic_hash": ""
-  },
-  "ios/App/App/public/img/1st.jpeg": {
-    "mtime": 1790124054.3019013,
-    "ast_hash": "f44b82f67c8fa16e62396aecdf2037e7",
-    "semantic_hash": ""
-  },
-  "ios/App/App/public/img/2nd.jpeg": {
-    "mtime": 1790124058.7918606,
-    "ast_hash": "e5c4aa3ee52001ceb3437593ce2a5bd8",
-    "semantic_hash": ""
-  },
-  "ios/App/App/public/img/3rd.jpeg": {
-    "mtime": 1790124049.289179,
-    "ast_hash": "485c6d4e4b080b2c076b645349bc8195",
-    "semantic_hash": ""
-  },
-  "ios/App/App/public/img/banner-defender-wide.jpg": {
-    "mtime": 1790123794.0137103,
-    "ast_hash": "a8cb8d1579e9b8e8076ef58d01fef64c",
-    "semantic_hash": ""
-  },
-  "ios/App/App/public/img/banner-restor-wide.jpg": {
-    "mtime": 1790123793.9661984,
-    "ast_hash": "8e745d7d0ec0c025687aa79249feeeea",
-    "semantic_hash": ""
-  },
-  "ios/App/App/public/img/banner-shine-platinum-wide.jpg": {
-    "mtime": 1790123793.989824,
-    "ast_hash": "b494690257f36023daa6bc965dee0ab1",
-    "semantic_hash": ""
-  },
-  "ios/App/App/public/img/banners/banner-defender-mobile.jpg": {
-    "mtime": 1790123899.8679492,
-    "ast_hash": "96e90096c39549569b4e1921831cf9b0",
-    "semantic_hash": ""
-  },
-  "ios/App/App/public/img/banners/banner-defender.jpg": {
-    "mtime": 1790123888.811285,
-    "ast_hash": "5f5aecc1b17f5b86e5ccca5f495b4f7a",
-    "semantic_hash": ""
-  },
-  "ios/App/App/public/img/banners/banner-shine-platinum-mobile.jpg": {
-    "mtime": 1790123899.8455434,
-    "ast_hash": "96404bcfa5628fac8cf7f3b44d9d24f0",
-    "semantic_hash": ""
-  },
-  "ios/App/App/public/img/banners/banner-shine-platinum.jpg": {
-    "mtime": 1790123882.1362906,
-    "ast_hash": "f57473d5309f54ac6fccd90a73f746b7",
     "semantic_hash": ""
   },
   "ios/App/App/public/img/cat-chimneys.webp": {
@@ -3730,8 +3630,8 @@
     "semantic_hash": ""
   },
   ".tag_cache.json": {
-    "mtime": 1793310997.0384655,
-    "ast_hash": "b050c5ab920c3b49dae8b6561d2deca7",
+    "mtime": 1793315321.9292145,
+    "ast_hash": "8ddd112ebc9ba29d0ab7d769974f039c",
     "semantic_hash": ""
   },
   "api/products/sync-tags.js": {
@@ -3750,13 +3650,13 @@
     "semantic_hash": ""
   },
   ".product_details_cache.json": {
-    "mtime": 1793310997.037468,
-    "ast_hash": "04354bd4b238ef681b64d72b04f594d9",
+    "mtime": 1793315321.9282029,
+    "ast_hash": "593e285c2adbc50b2f24fbb300ef4fea",
     "semantic_hash": ""
   },
   ".products_cache.json": {
-    "mtime": 1793311754.1214886,
-    "ast_hash": "2fca5019465c6b2d9a458fb66cd0e8b7",
+    "mtime": 1793315319.7049022,
+    "ast_hash": "7493d2b03de220a0f73deb7e3a2e87f0",
     "semantic_hash": ""
   },
   "backend/src/db/migrations/010_phone_verified_and_onboarding.sql": {
@@ -3765,13 +3665,13 @@
     "semantic_hash": ""
   },
   "backend/test/onboardingVerification.test.mjs": {
-    "mtime": 1792883160.6256814,
-    "ast_hash": "04f1fcae936ef9d9c2f08cd59b6bc2ac",
+    "mtime": 1793315814.7944405,
+    "ast_hash": "9c8911a1840a5d8324e93f01a4c75ca4",
     "semantic_hash": ""
   },
   "backend/test/phase2DealerStaffOnboarding.test.mjs": {
-    "mtime": 1792883160.6256814,
-    "ast_hash": "cec41def3c382bc7ac1fd9f87d92bba6",
+    "mtime": 1793315827.2595575,
+    "ast_hash": "d2c093c0143f05b38bba07b2b4daaf2b",
     "semantic_hash": ""
   },
   "src/pages/DealerApply.jsx": {
@@ -3795,13 +3695,13 @@
     "semantic_hash": ""
   },
   "backend/test/crmProvisioningReliability.test.mjs": {
-    "mtime": 1792883160.622039,
-    "ast_hash": "3b60f9dfc9e83a585c8dbafcaf21b434",
+    "mtime": 1793315768.8311715,
+    "ast_hash": "71e55386d82edeb4fa9847ea93af7cd1",
     "semantic_hash": ""
   },
   "backend/test/dealerRegistrationTwoChannel.test.mjs": {
-    "mtime": 1792883160.623028,
-    "ast_hash": "fbd80090ea7b3710cda39de543c804a5",
+    "mtime": 1793315783.9004753,
+    "ast_hash": "8bd564b14ab7350ee73534766a0de561",
     "semantic_hash": ""
   },
   "backend/src/db/migrations/012_dealer_registration_token_hash.sql": {
@@ -3865,8 +3765,8 @@
     "semantic_hash": ""
   },
   "api/_lib/zoho.js": {
-    "mtime": 1793311533.4519548,
-    "ast_hash": "b15d0643651b4c9cae1c0f24b362267b",
+    "mtime": 1793314057.685825,
+    "ast_hash": "84c9aebbd76aa77890ac047f01a0ba38",
     "semantic_hash": ""
   },
   "backend/src/middleware/requestLogger.js": {
@@ -4450,33 +4350,33 @@
     "semantic_hash": ""
   },
   ".collection_cache.json": {
-    "mtime": 1793310993.7510898,
-    "ast_hash": "bddedeeb083e83faad85a756dddeb8f5",
+    "mtime": 1793315318.5448103,
+    "ast_hash": "0af354489340b91f236032123ff6f0e9",
     "semantic_hash": ""
   },
   "backend/.product_details_cache.json": {
-    "mtime": 1793309584.406923,
-    "ast_hash": "393f280d95864aaa6d01f37bb5187944",
+    "mtime": 1793375148.8047903,
+    "ast_hash": "cc4998f68368b44db8d0170950c16996",
     "semantic_hash": ""
   },
   "backend/.products_cache.json": {
-    "mtime": 1793309581.5127008,
-    "ast_hash": "6fdac1c7dd3a127838339aab729f62e0",
+    "mtime": 1793374950.5640738,
+    "ast_hash": "b4fbcc058258ee3dac2a59d77043455f",
     "semantic_hash": ""
   },
   "backend/.tag_cache.json": {
-    "mtime": 1793309584.409601,
-    "ast_hash": "920f1bc3ed9bbd81e7967469804242f4",
+    "mtime": 1793374953.7593527,
+    "ast_hash": "bc766e5871c896d769f5010953f68cbb",
     "semantic_hash": ""
   },
   "src/data/trial-collection.test.mjs": {
-    "mtime": 1793310160.706684,
-    "ast_hash": "9d1fadd191222effe8c77c6b8812281e",
+    "mtime": 1793314123.0572696,
+    "ast_hash": "fa6fc3c10bf6d49ff13d22d36f2fc5fe",
     "semantic_hash": ""
   },
   "android/app/src/main/assets/public/index.html": {
-    "mtime": 1793311788.6646633,
-    "ast_hash": "37f47f163a304ff4bc9feebdce20a866",
+    "mtime": 1793375115.154498,
+    "ast_hash": "dbec29cfd0878bca4fc58c4da13ea031",
     "semantic_hash": ""
   },
   "android/app/src/main/assets/public/privacy.html": {
@@ -4499,109 +4399,9 @@
     "ast_hash": "52a6da96a4b60b4815066bd2a2dbd6b2",
     "semantic_hash": ""
   },
-  "android/app/src/main/assets/public/downloads/03_Scheme_Official_Circular.pdf": {
-    "mtime": 1792883191.874446,
-    "ast_hash": "5c094a958d03e810cdc7429b0352465c",
-    "semantic_hash": ""
-  },
-  "android/app/src/main/assets/public/downloads/Sunshine-Annual-Business-Scheme-FY26-27.pdf": {
-    "mtime": 1790120989.3799646,
-    "ast_hash": "bdeed19404336b7896c91b7ba9b5a5a6",
-    "semantic_hash": ""
-  },
-  "android/app/src/main/assets/public/downloads/Sunshine-Diwali-Scheme-2026.pdf": {
-    "mtime": 1790120989.3833773,
-    "ast_hash": "5c094a958d03e810cdc7429b0352465c",
-    "semantic_hash": ""
-  },
   "android/app/src/main/assets/public/uploads/circulars/Sunshine_Dealer_Scheme_Circular-1792675822248.pdf": {
     "mtime": 1792883161.0432565,
     "ast_hash": "fa06ff4d8ba4f990334e251614985d98",
-    "semantic_hash": ""
-  },
-  "android/app/src/main/assets/public/favicon.png": {
-    "mtime": 1790120672.5045967,
-    "ast_hash": "92c6e11b715d1fc7b5fbaf4add2ef995",
-    "semantic_hash": ""
-  },
-  "android/app/src/main/assets/public/favicon.svg": {
-    "mtime": 1790120722.3329093,
-    "ast_hash": "891628f87807f327b6450431e829445c",
-    "semantic_hash": ""
-  },
-  "android/app/src/main/assets/public/icons.svg": {
-    "mtime": 1789682547.1171334,
-    "ast_hash": "3b4fcfcf393eca4d264dca4a4663bc37",
-    "semantic_hash": ""
-  },
-  "android/app/src/main/assets/public/img/01_Hero_Banner_Image.jpg": {
-    "mtime": 1792883191.8792167,
-    "ast_hash": "dd5d23ea23fc7308d8ad5f129af6cac8",
-    "semantic_hash": ""
-  },
-  "android/app/src/main/assets/public/img/02_Scheme_Flyer_Image.jpg": {
-    "mtime": 1792883191.8868685,
-    "ast_hash": "d55feb683cf66ae9b318d9adeccdfe13",
-    "semantic_hash": ""
-  },
-  "android/app/src/main/assets/public/img/1st.jpeg": {
-    "mtime": 1790124054.3019013,
-    "ast_hash": "f44b82f67c8fa16e62396aecdf2037e7",
-    "semantic_hash": ""
-  },
-  "android/app/src/main/assets/public/img/2nd.jpeg": {
-    "mtime": 1790124058.7918606,
-    "ast_hash": "e5c4aa3ee52001ceb3437593ce2a5bd8",
-    "semantic_hash": ""
-  },
-  "android/app/src/main/assets/public/img/3rd.jpeg": {
-    "mtime": 1790124049.289179,
-    "ast_hash": "485c6d4e4b080b2c076b645349bc8195",
-    "semantic_hash": ""
-  },
-  "android/app/src/main/assets/public/img/banner-defender-wide.jpg": {
-    "mtime": 1790123794.0137103,
-    "ast_hash": "a8cb8d1579e9b8e8076ef58d01fef64c",
-    "semantic_hash": ""
-  },
-  "android/app/src/main/assets/public/img/banner-restor-wide.jpg": {
-    "mtime": 1790123793.9661984,
-    "ast_hash": "8e745d7d0ec0c025687aa79249feeeea",
-    "semantic_hash": ""
-  },
-  "android/app/src/main/assets/public/img/banner-shine-platinum-wide.jpg": {
-    "mtime": 1790123793.989824,
-    "ast_hash": "b494690257f36023daa6bc965dee0ab1",
-    "semantic_hash": ""
-  },
-  "android/app/src/main/assets/public/img/banners/banner-defender-mobile.jpg": {
-    "mtime": 1790123899.8679492,
-    "ast_hash": "96e90096c39549569b4e1921831cf9b0",
-    "semantic_hash": ""
-  },
-  "android/app/src/main/assets/public/img/banners/banner-defender.jpg": {
-    "mtime": 1790123888.811285,
-    "ast_hash": "5f5aecc1b17f5b86e5ccca5f495b4f7a",
-    "semantic_hash": ""
-  },
-  "android/app/src/main/assets/public/img/banners/banner-restor-mobile.jpg": {
-    "mtime": 1790123899.8912413,
-    "ast_hash": "dd4ccaf566961ffd2e3ecc8291a5bee0",
-    "semantic_hash": ""
-  },
-  "android/app/src/main/assets/public/img/banners/banner-restor.jpg": {
-    "mtime": 1790123895.1240036,
-    "ast_hash": "dfa05280a936c33e5c85086eb337904b",
-    "semantic_hash": ""
-  },
-  "android/app/src/main/assets/public/img/banners/banner-shine-platinum-mobile.jpg": {
-    "mtime": 1790123899.8455434,
-    "ast_hash": "96404bcfa5628fac8cf7f3b44d9d24f0",
-    "semantic_hash": ""
-  },
-  "android/app/src/main/assets/public/img/banners/banner-shine-platinum.jpg": {
-    "mtime": 1790123882.1362906,
-    "ast_hash": "f57473d5309f54ac6fccd90a73f746b7",
     "semantic_hash": ""
   },
   "android/app/src/main/assets/public/img/cat-chimneys.webp": {
@@ -4849,54 +4649,264 @@
     "ast_hash": "0bb9336599333ee2c8a225cf86e76ed3",
     "semantic_hash": ""
   },
-  "android/app/src/main/assets/public/assets/esm-BYUBtnaC.js": {
-    "mtime": 1793311788.6623712,
-    "ast_hash": "2247006b0474890ff18bdd571739f507",
-    "semantic_hash": ""
-  },
-  "android/app/src/main/assets/public/assets/index-LiwW60BS.js": {
-    "mtime": 1793311788.6623712,
-    "ast_hash": "eaf46072ee0607fce4d8b51ec1498043",
-    "semantic_hash": ""
-  },
-  "android/app/src/main/assets/public/assets/web-BvC9f5V0.js": {
-    "mtime": 1793311788.6623712,
-    "ast_hash": "f84cb7f448c93247c65fef5819bd52ab",
-    "semantic_hash": ""
-  },
-  "android/app/src/main/assets/public/assets/web-C_CRXol7.js": {
-    "mtime": 1793311788.663371,
-    "ast_hash": "d60b9589b3245b4ac5c8f08f1216dbe8",
-    "semantic_hash": ""
-  },
-  "ios/App/App/public/assets/esm-BYUBtnaC.js": {
-    "mtime": 1793311788.6623712,
-    "ast_hash": "2247006b0474890ff18bdd571739f507",
-    "semantic_hash": ""
-  },
-  "ios/App/App/public/assets/index-LiwW60BS.js": {
-    "mtime": 1793311788.6623712,
-    "ast_hash": "eaf46072ee0607fce4d8b51ec1498043",
-    "semantic_hash": ""
-  },
-  "ios/App/App/public/assets/web-BvC9f5V0.js": {
-    "mtime": 1793311788.6623712,
-    "ast_hash": "f84cb7f448c93247c65fef5819bd52ab",
-    "semantic_hash": ""
-  },
-  "ios/App/App/public/assets/web-C_CRXol7.js": {
-    "mtime": 1793311788.663371,
-    "ast_hash": "d60b9589b3245b4ac5c8f08f1216dbe8",
-    "semantic_hash": ""
-  },
   "src/data/filters.test.mjs": {
     "mtime": 1793311727.2399597,
     "ast_hash": "b84aec9e5c5170f96ef115985660bfa9",
     "semantic_hash": ""
   },
   "src/data/filtersHelper.js": {
-    "mtime": 1793311718.876115,
-    "ast_hash": "0cec8353296e350ed28ba5ee056d569d",
+    "mtime": 1793312105.5500188,
+    "ast_hash": "5f12f811b8734260062f1bb159aa5ce8",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/2nd.jpeg": {
+    "mtime": 1790124058.7918606,
+    "ast_hash": "e5c4aa3ee52001ceb3437593ce2a5bd8",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/3rd.jpeg": {
+    "mtime": 1790124049.289179,
+    "ast_hash": "485c6d4e4b080b2c076b645349bc8195",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/banner-defender-wide.jpg": {
+    "mtime": 1790123794.0137103,
+    "ast_hash": "a8cb8d1579e9b8e8076ef58d01fef64c",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/banner-restor-wide.jpg": {
+    "mtime": 1790123793.9661984,
+    "ast_hash": "8e745d7d0ec0c025687aa79249feeeea",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/banner-shine-platinum-wide.jpg": {
+    "mtime": 1790123793.989824,
+    "ast_hash": "b494690257f36023daa6bc965dee0ab1",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/banners/banner-defender-mobile.jpg": {
+    "mtime": 1790123899.8679492,
+    "ast_hash": "96e90096c39549569b4e1921831cf9b0",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/banners/banner-defender.jpg": {
+    "mtime": 1790123888.811285,
+    "ast_hash": "5f5aecc1b17f5b86e5ccca5f495b4f7a",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/banners/banner-restor-mobile.jpg": {
+    "mtime": 1790123899.8912413,
+    "ast_hash": "dd4ccaf566961ffd2e3ecc8291a5bee0",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/banners/banner-restor.jpg": {
+    "mtime": 1790123895.1240036,
+    "ast_hash": "dfa05280a936c33e5c85086eb337904b",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/banners/banner-shine-platinum-mobile.jpg": {
+    "mtime": 1790123899.8455434,
+    "ast_hash": "96404bcfa5628fac8cf7f3b44d9d24f0",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/banners/banner-shine-platinum.jpg": {
+    "mtime": 1790123882.1362906,
+    "ast_hash": "f57473d5309f54ac6fccd90a73f746b7",
+    "semantic_hash": ""
+  },
+  "ios/App/App/public/img/2nd.jpeg": {
+    "mtime": 1790124058.7918606,
+    "ast_hash": "e5c4aa3ee52001ceb3437593ce2a5bd8",
+    "semantic_hash": ""
+  },
+  "ios/App/App/public/img/3rd.jpeg": {
+    "mtime": 1790124049.289179,
+    "ast_hash": "485c6d4e4b080b2c076b645349bc8195",
+    "semantic_hash": ""
+  },
+  "ios/App/App/public/img/banner-defender-wide.jpg": {
+    "mtime": 1790123794.0137103,
+    "ast_hash": "a8cb8d1579e9b8e8076ef58d01fef64c",
+    "semantic_hash": ""
+  },
+  "ios/App/App/public/img/banner-restor-wide.jpg": {
+    "mtime": 1790123793.9661984,
+    "ast_hash": "8e745d7d0ec0c025687aa79249feeeea",
+    "semantic_hash": ""
+  },
+  "ios/App/App/public/img/banner-shine-platinum-wide.jpg": {
+    "mtime": 1790123793.989824,
+    "ast_hash": "b494690257f36023daa6bc965dee0ab1",
+    "semantic_hash": ""
+  },
+  "ios/App/App/public/img/banners/banner-defender-mobile.jpg": {
+    "mtime": 1790123899.8679492,
+    "ast_hash": "96e90096c39549569b4e1921831cf9b0",
+    "semantic_hash": ""
+  },
+  "ios/App/App/public/img/banners/banner-defender.jpg": {
+    "mtime": 1790123888.811285,
+    "ast_hash": "5f5aecc1b17f5b86e5ccca5f495b4f7a",
+    "semantic_hash": ""
+  },
+  "ios/App/App/public/img/banners/banner-restor-mobile.jpg": {
+    "mtime": 1790123899.8912413,
+    "ast_hash": "dd4ccaf566961ffd2e3ecc8291a5bee0",
+    "semantic_hash": ""
+  },
+  "ios/App/App/public/img/banners/banner-restor.jpg": {
+    "mtime": 1790123895.1240036,
+    "ast_hash": "dfa05280a936c33e5c85086eb337904b",
+    "semantic_hash": ""
+  },
+  "ios/App/App/public/img/banners/banner-shine-platinum-mobile.jpg": {
+    "mtime": 1790123899.8455434,
+    "ast_hash": "96404bcfa5628fac8cf7f3b44d9d24f0",
+    "semantic_hash": ""
+  },
+  "ios/App/App/public/img/banners/banner-shine-platinum.jpg": {
+    "mtime": 1790123882.1362906,
+    "ast_hash": "f57473d5309f54ac6fccd90a73f746b7",
+    "semantic_hash": ""
+  },
+  "api/settings.js": {
+    "mtime": 1793314179.8707693,
+    "ast_hash": "08838b4f20250f8541e7a467322961fa",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/downloads/03_Scheme_Official_Circular.pdf": {
+    "mtime": 1792883191.874446,
+    "ast_hash": "5c094a958d03e810cdc7429b0352465c",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/downloads/Sunshine-Annual-Business-Scheme-FY26-27.pdf": {
+    "mtime": 1790120989.3799646,
+    "ast_hash": "bdeed19404336b7896c91b7ba9b5a5a6",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/downloads/Sunshine-Diwali-Scheme-2026.pdf": {
+    "mtime": 1790120989.3833773,
+    "ast_hash": "5c094a958d03e810cdc7429b0352465c",
+    "semantic_hash": ""
+  },
+  "ios/App/App/public/downloads/03_Scheme_Official_Circular.pdf": {
+    "mtime": 1792883191.874446,
+    "ast_hash": "5c094a958d03e810cdc7429b0352465c",
+    "semantic_hash": ""
+  },
+  "ios/App/App/public/downloads/Sunshine-Annual-Business-Scheme-FY26-27.pdf": {
+    "mtime": 1790120989.3799646,
+    "ast_hash": "bdeed19404336b7896c91b7ba9b5a5a6",
+    "semantic_hash": ""
+  },
+  "ios/App/App/public/downloads/Sunshine-Diwali-Scheme-2026.pdf": {
+    "mtime": 1790120989.3833773,
+    "ast_hash": "5c094a958d03e810cdc7429b0352465c",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/favicon.png": {
+    "mtime": 1790120672.5045967,
+    "ast_hash": "92c6e11b715d1fc7b5fbaf4add2ef995",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/favicon.svg": {
+    "mtime": 1790120722.3329093,
+    "ast_hash": "891628f87807f327b6450431e829445c",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/icons.svg": {
+    "mtime": 1789682547.1171334,
+    "ast_hash": "3b4fcfcf393eca4d264dca4a4663bc37",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/01_Hero_Banner_Image.jpg": {
+    "mtime": 1792883191.8792167,
+    "ast_hash": "dd5d23ea23fc7308d8ad5f129af6cac8",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/02_Scheme_Flyer_Image.jpg": {
+    "mtime": 1792883191.8868685,
+    "ast_hash": "d55feb683cf66ae9b318d9adeccdfe13",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/img/1st.jpeg": {
+    "mtime": 1790124054.3019013,
+    "ast_hash": "f44b82f67c8fa16e62396aecdf2037e7",
+    "semantic_hash": ""
+  },
+  "ios/App/App/public/favicon.png": {
+    "mtime": 1790120672.5045967,
+    "ast_hash": "92c6e11b715d1fc7b5fbaf4add2ef995",
+    "semantic_hash": ""
+  },
+  "ios/App/App/public/favicon.svg": {
+    "mtime": 1790120722.3329093,
+    "ast_hash": "891628f87807f327b6450431e829445c",
+    "semantic_hash": ""
+  },
+  "ios/App/App/public/icons.svg": {
+    "mtime": 1789682547.1171334,
+    "ast_hash": "3b4fcfcf393eca4d264dca4a4663bc37",
+    "semantic_hash": ""
+  },
+  "ios/App/App/public/img/01_Hero_Banner_Image.jpg": {
+    "mtime": 1792883191.8792167,
+    "ast_hash": "dd5d23ea23fc7308d8ad5f129af6cac8",
+    "semantic_hash": ""
+  },
+  "ios/App/App/public/img/02_Scheme_Flyer_Image.jpg": {
+    "mtime": 1792883191.8868685,
+    "ast_hash": "d55feb683cf66ae9b318d9adeccdfe13",
+    "semantic_hash": ""
+  },
+  "ios/App/App/public/img/1st.jpeg": {
+    "mtime": 1790124054.3019013,
+    "ast_hash": "f44b82f67c8fa16e62396aecdf2037e7",
+    "semantic_hash": ""
+  },
+  "backend/test/crmUserSourceContactSync.test.mjs": {
+    "mtime": 1793316203.8360064,
+    "ast_hash": "0961a9c749ea6ed02c89b8c63d42fb70",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/assets/esm-CpbiA9R_.js": {
+    "mtime": 1793375115.1479392,
+    "ast_hash": "808c8cdcb9af73b2297e9306cdbb9630",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/assets/index-CZ0bF0iF.js": {
+    "mtime": 1793375115.1469398,
+    "ast_hash": "1dfd09c9c87b7b59bd016aacf3689133",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/assets/web-B2we_ISM.js": {
+    "mtime": 1793375115.1479392,
+    "ast_hash": "b068df1e9eff8320b4d7c150f9591d9b",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/assets/public/assets/web-Dnu9XDgE.js": {
+    "mtime": 1793375115.1494462,
+    "ast_hash": "5aee000a63a87bb7702a16ea2fc4278c",
+    "semantic_hash": ""
+  },
+  "ios/App/App/public/assets/esm-CpbiA9R_.js": {
+    "mtime": 1793375115.1479392,
+    "ast_hash": "808c8cdcb9af73b2297e9306cdbb9630",
+    "semantic_hash": ""
+  },
+  "ios/App/App/public/assets/index-CZ0bF0iF.js": {
+    "mtime": 1793375115.1469398,
+    "ast_hash": "1dfd09c9c87b7b59bd016aacf3689133",
+    "semantic_hash": ""
+  },
+  "ios/App/App/public/assets/web-B2we_ISM.js": {
+    "mtime": 1793375115.1479392,
+    "ast_hash": "b068df1e9eff8320b4d7c150f9591d9b",
+    "semantic_hash": ""
+  },
+  "ios/App/App/public/assets/web-Dnu9XDgE.js": {
+    "mtime": 1793375115.1494462,
+    "ast_hash": "5aee000a63a87bb7702a16ea2fc4278c",
     "semantic_hash": ""
   }
 }

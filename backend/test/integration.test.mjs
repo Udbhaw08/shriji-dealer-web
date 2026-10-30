@@ -37,6 +37,8 @@ mock.module('../src/services/crmClient.js', {
       if (crmMock.fail) throw new Error('CRM down');
     },
     getDealerAccount: async (id) => crmMock.account,
+    syncAccountUserSourceToContacts: async () => true,
+    getPrimaryContactForAccount: async () => null,
   },
 });
 

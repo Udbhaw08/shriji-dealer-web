@@ -1,4 +1,4 @@
-import { useEffect, useState, useMemo } from "react";
+import { useEffect, useState, useMemo, useRef } from "react";
 import { Link } from "react-router-dom";
 import { Icon } from "../ui";
 import FileOrUrlInput from "../components/FileOrUrlInput";
@@ -11,6 +11,8 @@ const DEFAULT_BANNER_FORM = {
   subtitle: "",
   badge: "",
   image_url: "",
+  mobile_image_url: "",
+  fit_mode: "contain",
   file_url: "",
   video_url: "",
   link_url: "/products",
@@ -78,17 +80,27 @@ export default function ContentAdminDashboard() {
   const [brandingForm, setBrandingForm] = useState(DEFAULT_BRANDING_FORM);
   const [editingId, setEditingId] = useState(null);
 
-  // Admin Session State (In-memory only, never persisted in localStorage/sessionStorage)
-  const [adminToken, setAdminToken] = useState(null);
+  // Admin Session State (Persisted in sessionStorage for smooth multi-step editing within session)
+  const [adminToken, setAdminToken] = useState(() => {
+    try {
+      return sessionStorage.getItem("shriji_admin_token") || null;
+    } catch {
+      return null;
+    }
+  });
   const [showAuthModal, setShowAuthModal] = useState(false);
   const [adminKeyInput, setAdminKeyInput] = useState("");
   const [authError, setAuthError] = useState("");
   const [authBusy, setAuthBusy] = useState(false);
+  const pendingActionRef = useRef(null);
 
-  const getAuthHeaders = () => ({
-    "Content-Type": "application/json",
-    ...(adminToken ? { Authorization: `Bearer ${adminToken}` } : {}),
-  });
+  const getAuthHeaders = (explicitToken = null) => {
+    const tok = explicitToken || adminToken;
+    return {
+      "Content-Type": "application/json",
+      ...(tok ? { Authorization: `Bearer ${tok}` } : {}),
+    };
+  };
 
   const handleAdminLogin = async (e) => {
     if (e) e.preventDefault();
@@ -109,9 +121,17 @@ export default function ContentAdminDashboard() {
         throw new Error(data.message || data.error || "Authentication failed. Check your key.");
       }
       setAdminToken(data.token);
+      try {
+        sessionStorage.setItem("shriji_admin_token", data.token);
+      } catch {}
       setAdminKeyInput("");
       setShowAuthModal(false);
       notify("✓ Administrative session unlocked (valid for 1 hour).");
+      if (pendingActionRef.current) {
+        const action = pendingActionRef.current;
+        pendingActionRef.current = null;
+        setTimeout(() => action(data.token), 60);
+      }
     } catch (err) {
       setAuthError(err.message || "Failed to authenticate administrator.");
     } finally {
@@ -121,11 +141,18 @@ export default function ContentAdminDashboard() {
 
   const handleAdminLogout = () => {
     setAdminToken(null);
+    try {
+      sessionStorage.removeItem("shriji_admin_token");
+    } catch {}
     notify("Admin session locked. Mutation operations are now protected.");
   };
 
-  const handleAuthRequired = () => {
+  const handleAuthRequired = (pendingFn = null) => {
     setAdminToken(null);
+    try {
+      sessionStorage.removeItem("shriji_admin_token");
+    } catch {}
+    if (pendingFn) pendingActionRef.current = pendingFn;
     setShowAuthModal(true);
     setError("Administrative authentication required. Please unlock with your Admin Key.");
   };
@@ -140,6 +167,13 @@ export default function ContentAdminDashboard() {
   const [headerTagline2, setHeaderTagline2] = useState("Stronger Partners");
   const [headerTagline3, setHeaderTagline3] = useState("Brighter Homes");
   const [settingsSaving, setSettingsSaving] = useState(false);
+
+  // Catalogue & Download Link Settings
+  const [catalogueUrl, setCatalogueUrl] = useState("/downloads/Sunshine-Range-Brochure-2026.pdf");
+  const [catalogueTitle, setCatalogueTitle] = useState("Looking for Product Catalogues?");
+  const [catalogueSubtitle, setCatalogueSubtitle] = useState("Download the official Sunshine 2026 range brochure (PDF)");
+  const [catalogueEnabled, setCatalogueEnabled] = useState(true);
+  const [catalogueLinkType, setCatalogueLinkType] = useState("drive"); // 'drive' | 'custom' | 'default' | 'upload'
 
   const notify = (msg) => {
     setSuccessMsg(msg);
@@ -163,17 +197,48 @@ export default function ContentAdminDashboard() {
         if (data.settings.header_tagline_1 !== undefined) setHeaderTagline1(data.settings.header_tagline_1);
         if (data.settings.header_tagline_2 !== undefined) setHeaderTagline2(data.settings.header_tagline_2);
         if (data.settings.header_tagline_3 !== undefined) setHeaderTagline3(data.settings.header_tagline_3);
+
+        if (data.settings.catalogue_download_url !== undefined) {
+          setCatalogueUrl(data.settings.catalogue_download_url);
+          if (data.settings.catalogue_download_url.includes("drive.google.com")) {
+            setCatalogueLinkType("drive");
+          } else if (data.settings.catalogue_download_url.includes("Sunshine-Range-Brochure")) {
+            setCatalogueLinkType("default");
+          } else if (data.settings.catalogue_download_url.startsWith("/uploads/")) {
+            setCatalogueLinkType("upload");
+          } else {
+            setCatalogueLinkType("custom");
+          }
+        }
+        if (data.settings.catalogue_title !== undefined) setCatalogueTitle(data.settings.catalogue_title);
+        if (data.settings.catalogue_subtitle !== undefined) setCatalogueSubtitle(data.settings.catalogue_subtitle);
+        if (data.settings.catalogue_enabled !== undefined) setCatalogueEnabled(data.settings.catalogue_enabled !== false);
       }
     } catch {}
   };
 
-  const handleSaveGlobalSettings = async (overrides = {}) => {
-    if (!adminToken) {
+  const handleSaveGlobalSettings = async (overrides = {}, explicitToken = null) => {
+    const token = explicitToken || adminToken;
+    if (!token) {
+      pendingActionRef.current = (t) => handleSaveGlobalSettings(overrides, t);
       setShowAuthModal(true);
-      return;
+      return false;
     }
     try {
       setSettingsSaving(true);
+      if (overrides.autoplay_interval !== undefined) setGlobalInterval(Number(overrides.autoplay_interval));
+      if (overrides.autoplay_enabled !== undefined) setGlobalAutoplay(Boolean(overrides.autoplay_enabled));
+      if (overrides.home_tagline !== undefined) setHomeTagline(overrides.home_tagline);
+      if (overrides.home_tagline_enabled !== undefined) setHomeTaglineEnabled(overrides.home_tagline_enabled);
+      if (overrides.header_tagline_enabled !== undefined) setHeaderTaglineEnabled(overrides.header_tagline_enabled);
+      if (overrides.header_tagline_1 !== undefined) setHeaderTagline1(overrides.header_tagline_1);
+      if (overrides.header_tagline_2 !== undefined) setHeaderTagline2(overrides.header_tagline_2);
+      if (overrides.header_tagline_3 !== undefined) setHeaderTagline3(overrides.header_tagline_3);
+      if (overrides.catalogue_download_url !== undefined) setCatalogueUrl(overrides.catalogue_download_url);
+      if (overrides.catalogue_title !== undefined) setCatalogueTitle(overrides.catalogue_title);
+      if (overrides.catalogue_subtitle !== undefined) setCatalogueSubtitle(overrides.catalogue_subtitle);
+      if (overrides.catalogue_enabled !== undefined) setCatalogueEnabled(overrides.catalogue_enabled);
+
       const payload = {
         autoplay_interval: overrides.autoplay_interval !== undefined ? overrides.autoplay_interval : globalInterval,
         autoplay_enabled: overrides.autoplay_enabled !== undefined ? overrides.autoplay_enabled : globalAutoplay,
@@ -184,39 +249,58 @@ export default function ContentAdminDashboard() {
         header_tagline_1: (overrides.header_tagline_1 !== undefined ? overrides.header_tagline_1 : headerTagline1).trim(),
         header_tagline_2: (overrides.header_tagline_2 !== undefined ? overrides.header_tagline_2 : headerTagline2).trim(),
         header_tagline_3: (overrides.header_tagline_3 !== undefined ? overrides.header_tagline_3 : headerTagline3).trim(),
+        catalogue_download_url: (overrides.catalogue_download_url !== undefined ? overrides.catalogue_download_url : catalogueUrl).trim(),
+        catalogue_title: (overrides.catalogue_title !== undefined ? overrides.catalogue_title : catalogueTitle).trim(),
+        catalogue_subtitle: (overrides.catalogue_subtitle !== undefined ? overrides.catalogue_subtitle : catalogueSubtitle).trim(),
+        catalogue_enabled: overrides.catalogue_enabled !== undefined ? overrides.catalogue_enabled : catalogueEnabled,
       };
       const res = await fetch("/api/content?scope=slider_settings", {
         method: "POST",
-        headers: getAuthHeaders(),
+        headers: getAuthHeaders(token),
         body: JSON.stringify(payload),
       });
       const data = await res.json();
       if (res.status === 401) {
-        handleAuthRequired();
-        return;
+        handleAuthRequired((t) => handleSaveGlobalSettings(overrides, t));
+        return false;
       }
-      if (data.ok) {
+      if (data.ok && data.settings) {
         try {
           localStorage.setItem("shriji_site_settings", JSON.stringify(data.settings));
           sessionStorage.setItem("shriji_site_settings", JSON.stringify(data.settings));
           const homeConfig = {
             enabled: data.settings.home_tagline_enabled !== false,
-            text: data.settings.home_tagline,
+            text: data.settings.home_tagline !== undefined ? data.settings.home_tagline : "",
           };
           localStorage.setItem("shriji_home_tagline_config", JSON.stringify(homeConfig));
           sessionStorage.setItem("shriji_home_tagline_config", JSON.stringify(homeConfig));
         } catch {}
         window.dispatchEvent(new CustomEvent("shriji_settings_updated", { detail: data.settings }));
+        try {
+          const channel = new BroadcastChannel("shriji_settings_channel");
+          channel.postMessage({ type: "settings_updated", settings: data.settings });
+          channel.close();
+        } catch {}
         await refreshLiveCache();
         notify("✓ Settings & Taglines successfully updated and published live!");
+        return true;
       } else {
         throw new Error(data.error || "Failed to update settings");
       }
     } catch (err) {
       setError(err.message || "Failed to update settings");
+      return false;
     } finally {
       setSettingsSaving(false);
     }
+  };
+
+  const handleSaveCatalogueSettings = async (explicitToken = null) => {
+    const success = await handleSaveGlobalSettings({}, explicitToken);
+    if (success) {
+      notify("✓ Product Catalogue download link saved and updated live on the Support page!");
+    }
+    return success;
   };
 
   const fetchContent = async () => {
@@ -270,6 +354,9 @@ export default function ContentAdminDashboard() {
         sessionStorage.removeItem("shriji_site_settings");
         sessionStorage.removeItem("shriji_home_tagline_config");
         sessionStorage.removeItem("shriji_home_tagline");
+        localStorage.removeItem("shriji_site_settings");
+        localStorage.removeItem("shriji_home_tagline_config");
+        localStorage.removeItem("shriji_home_tagline");
       } catch {}
       await Promise.all([
         fetch("/api/banners?refresh=true").catch(() => {}),
@@ -277,6 +364,7 @@ export default function ContentAdminDashboard() {
         fetch("/api/branding?refresh=true").catch(() => {}),
       ]);
       await fetchContent();
+      await fetchSliderSettings();
       notify("✓ Live cache refreshed! Home page and Schemes page are completely in sync with Supabase.");
     } catch (err) {
       setError("Cache refresh failed: " + err.message);
@@ -359,6 +447,7 @@ export default function ContentAdminDashboard() {
   // Edit item prefill
   const startEditBanner = (item) => {
     setEditingId(item.id);
+    const meta = item.metadata || {};
     setBannerForm({
       id: item.id,
       type: "hero_banner",
@@ -366,14 +455,16 @@ export default function ContentAdminDashboard() {
       subtitle: item.subtitle || "",
       badge: item.badge || "",
       image_url: item.image_url || "",
+      mobile_image_url: meta.mobile_image_url || "",
+      fit_mode: meta.fit_mode || meta.fit || (item.id?.startsWith("hero-restor-") ? "cover" : "contain"),
       file_url: item.file_url || "",
       video_url: item.video_url || "",
       link_url: item.link_url || "/products",
       bg_color: item.bg_color || "#0110a7",
       display_order: item.display_order || 1,
-      duration_seconds: Number(item.metadata?.duration_seconds) || 5,
+      duration_seconds: Number(meta.duration_seconds) || 5,
       is_active: item.is_active !== false,
-      metadata: item.metadata || {},
+      metadata: meta,
     });
     window.scrollTo({ top: 400, behavior: "smooth" });
   };
@@ -440,6 +531,8 @@ export default function ContentAdminDashboard() {
       metadata: {
         ...(bannerForm.metadata || {}),
         duration_seconds: Math.max(2, Math.min(120, Number(bannerForm.duration_seconds) || 5)),
+        fit_mode: bannerForm.fit_mode || "contain",
+        mobile_image_url: (bannerForm.mobile_image_url || "").trim(),
       },
     };
 
@@ -802,6 +895,27 @@ export default function ContentAdminDashboard() {
             <span>Branding & Logo</span>
             <span className="tab-counter-badge">{brandingItems.length}</span>
           </button>
+
+          <button
+            type="button"
+            className={`content-nav-btn ${activeTab === "catalogue" ? "active" : ""}`}
+            onClick={() => {
+              setActiveTab("catalogue");
+              setEditingId(null);
+            }}
+          >
+            <Icon name="download" size={18} />
+            <span>Product Catalogue</span>
+            <span
+              className="tab-counter-badge"
+              style={{
+                background: catalogueUrl && catalogueUrl.trim() ? "var(--c-brand, #0110a7)" : "#94a3b8",
+                color: "#ffffff",
+              }}
+            >
+              {catalogueEnabled ? (catalogueUrl?.includes("drive.google.com") ? "Drive" : "Live") : "Off"}
+            </span>
+          </button>
         </div>
 
         {/* ============================================================
@@ -952,10 +1066,29 @@ export default function ContentAdminDashboard() {
                   </small>
                 </div>
 
+                {/* Recommended Dimensions Guide */}
+                <div className="banner-dimensions-guide">
+                  <div className="bdg-title">
+                    <Icon name="info" size={14} /> <strong>Recommended Hero Banner Sizing</strong>
+                  </div>
+                  <div className="bdg-grid">
+                    <div className="bdg-card">
+                      <span className="bdg-tag">Desktop Web (16:5 / 16:6)</span>
+                      <code>1920 × 600 px</code> or <code>1600 × 500 px</code>
+                      <p>Panoramic banner across desktops. Keep core text centered.</p>
+                    </div>
+                    <div className="bdg-card">
+                      <span className="bdg-tag">Mobile Web & App (16:10 or 1:1)</span>
+                      <code>1080 × 675 px</code> or <code>1080 × 1080 px</code>
+                      <p>Touch screens & flyers. In "Framed" mode, any square or flyer fits 100%.</p>
+                    </div>
+                  </div>
+                </div>
+
                 <div className="field-group">
                   <FileOrUrlInput
                     id="b-img"
-                    label="Banner Image"
+                    label="Banner Image (Desktop & Primary)"
                     value={bannerForm.image_url || ""}
                     onChange={(url) => setBannerForm({ ...bannerForm, image_url: url })}
                     accept="image/png,image/jpeg,image/webp,image/svg+xml"
@@ -974,14 +1107,95 @@ export default function ContentAdminDashboard() {
                   />
                 </div>
 
+                {/* Display Framing Mode Selector */}
+                <div className="field-group">
+                  <label>Display Framing Mode</label>
+                  <div className="fit-mode-toggle-group">
+                    <button
+                      type="button"
+                      className={`fit-mode-pill ${(bannerForm.fit_mode || "contain") === "contain" ? "active" : ""}`}
+                      onClick={() => setBannerForm({ ...bannerForm, fit_mode: "contain" })}
+                    >
+                      <span className="fit-mode-title">🖼️ Framed & Full (No Cropping)</span>
+                      <span className="fit-mode-desc">
+                        100% of the graphic stays visible. Ideal for logos, square flyers, and posters with text. Ambient aura and matching background fill the sides.
+                      </span>
+                    </button>
+                    <button
+                      type="button"
+                      className={`fit-mode-pill ${bannerForm.fit_mode === "cover" ? "active" : ""}`}
+                      onClick={() => setBannerForm({ ...bannerForm, fit_mode: "cover" })}
+                    >
+                      <span className="fit-mode-title">📐 Edge-to-Edge Bleed</span>
+                      <span className="fit-mode-desc">
+                        Fills the entire slot edge-to-edge. Ideal for landscape product photography where slight edge trimming is acceptable.
+                      </span>
+                    </button>
+                  </div>
+                </div>
+
+                {/* Optional Mobile-Specific Image Upload */}
+                <div className="field-group">
+                  <FileOrUrlInput
+                    id="b-mobile-img"
+                    label="Mobile Banner Image (Optional)"
+                    value={bannerForm.mobile_image_url || ""}
+                    onChange={(url) => setBannerForm({ ...bannerForm, mobile_image_url: url })}
+                    accept="image/png,image/jpeg,image/webp,image/svg+xml"
+                    folder="hero-banners"
+                    fileTypeLabel="Mobile Banner Image"
+                    adminToken={adminToken}
+                    onRequireAuth={() => setShowAuthModal(true)}
+                    helperText="Optional: If you have a dedicated mobile graphic (e.g. 1080×1080 square or 800×500) specifically designed for smartphones."
+                  />
+                </div>
+
                 {/* Image Live Preview Stage */}
                 {bannerForm.image_url && (
                   <div className="preview-stage-wrap">
-                    <span className="preview-stage-lbl">Image Live Preview</span>
-                    <div className="banner-preview-box" style={{ background: bannerForm.bg_color || "#0110a7" }}>
+                    <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "6px" }}>
+                      <span className="preview-stage-lbl" style={{ margin: 0 }}>Banner Live Preview</span>
+                      <span style={{ fontSize: "0.75rem", color: "var(--tx-3)" }}>
+                        Mode: <strong>{(bannerForm.fit_mode || "contain") === "cover" ? "Edge-to-Edge Bleed" : "Framed & Full Graphic"}</strong>
+                      </span>
+                    </div>
+                    <div
+                      className="banner-preview-box"
+                      style={{
+                        background: bannerForm.bg_color || "#0110a7",
+                        position: "relative",
+                        height: 140,
+                        overflow: "hidden",
+                      }}
+                    >
+                      {(bannerForm.fit_mode || "contain") !== "cover" && (
+                        <div
+                          style={{
+                            position: "absolute",
+                            inset: "-20px",
+                            backgroundImage: `url(${bannerForm.image_url})`,
+                            backgroundSize: "cover",
+                            backgroundPosition: "center",
+                            filter: "blur(24px) brightness(0.65) saturate(1.3)",
+                            opacity: 0.6,
+                            pointerEvents: "none",
+                          }}
+                          aria-hidden="true"
+                        />
+                      )}
                       <img
                         src={bannerForm.image_url}
                         alt="Preview"
+                        style={{
+                          position: "relative",
+                          zIndex: 2,
+                          maxWidth: "100%",
+                          maxHeight: "100%",
+                          width: bannerForm.fit_mode === "cover" ? "100%" : "auto",
+                          height: bannerForm.fit_mode === "cover" ? "100%" : "auto",
+                          objectFit: bannerForm.fit_mode === "cover" ? "cover" : "contain",
+                          filter: (bannerForm.fit_mode || "contain") !== "cover" ? "drop-shadow(0 4px 14px rgba(0,0,0,0.3))" : "none",
+                        }}
                         onError={(e) => {
                           e.currentTarget.style.display = "none";
                         }}
@@ -1463,7 +1677,12 @@ export default function ContentAdminDashboard() {
                   </div>
                   <button
                     type="button"
-                    onClick={() => setHeaderTaglineEnabled(!headerTaglineEnabled)}
+                    disabled={settingsSaving}
+                    onClick={() => {
+                      const next = !headerTaglineEnabled;
+                      setHeaderTaglineEnabled(next);
+                      handleSaveGlobalSettings({ header_tagline_enabled: next });
+                    }}
                     className={`btn btn-sm ${headerTaglineEnabled ? "btn-navy" : "btn-ghost"}`}
                     style={{ minHeight: 34, fontWeight: 700, fontSize: "0.8rem", whiteSpace: "nowrap" }}
                   >
@@ -1516,28 +1735,58 @@ export default function ContentAdminDashboard() {
                   </div>
                 </div>
 
-                {/* Quick Helper Buttons */}
-                <div style={{ display: "flex", gap: "8px", marginTop: "14px", flexWrap: "wrap" }}>
+                {/* Quick Helper Buttons & Save */}
+                <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: "8px", marginTop: "14px", flexWrap: "wrap" }}>
+                  <div style={{ display: "flex", gap: "8px", flexWrap: "wrap" }}>
+                    <button
+                      type="button"
+                      className="btn btn-ghost btn-sm"
+                      disabled={settingsSaving}
+                      onClick={() => {
+                        setHeaderTagline1("Better Products");
+                        setHeaderTagline2("Stronger Partners");
+                        setHeaderTagline3("Brighter Homes");
+                        setHeaderTaglineEnabled(true);
+                        handleSaveGlobalSettings({
+                          header_tagline_1: "Better Products",
+                          header_tagline_2: "Stronger Partners",
+                          header_tagline_3: "Brighter Homes",
+                          header_tagline_enabled: true,
+                        });
+                      }}
+                      style={{ fontSize: "0.75rem", padding: "4px 10px" }}
+                    >
+                      Reset to Default 3 Lines
+                    </button>
+                    <button
+                      type="button"
+                      className="btn btn-ghost btn-sm"
+                      disabled={settingsSaving}
+                      onClick={() => {
+                        setHeaderTaglineEnabled(false);
+                        handleSaveGlobalSettings({ header_tagline_enabled: false });
+                      }}
+                      style={{ fontSize: "0.75rem", padding: "4px 10px", color: "var(--err, #dc2626)" }}
+                    >
+                      Hide / Remove Tagline
+                    </button>
+                  </div>
                   <button
                     type="button"
-                    className="btn btn-ghost btn-sm"
+                    className="btn btn-navy btn-sm"
+                    disabled={settingsSaving}
                     onClick={() => {
-                      setHeaderTagline1("Better Products");
-                      setHeaderTagline2("Stronger Partners");
-                      setHeaderTagline3("Brighter Homes");
-                      setHeaderTaglineEnabled(true);
+                      handleSaveGlobalSettings({
+                        header_tagline_enabled: headerTaglineEnabled,
+                        header_tagline_1: headerTagline1,
+                        header_tagline_2: headerTagline2,
+                        header_tagline_3: headerTagline3,
+                      });
                     }}
-                    style={{ fontSize: "0.75rem", padding: "4px 10px" }}
+                    style={{ minHeight: 32, fontSize: "0.78rem", fontWeight: 700 }}
                   >
-                    Reset to Default 3 Lines
-                  </button>
-                  <button
-                    type="button"
-                    className="btn btn-ghost btn-sm"
-                    onClick={() => setHeaderTaglineEnabled(false)}
-                    style={{ fontSize: "0.75rem", padding: "4px 10px", color: "var(--err, #dc2626)" }}
-                  >
-                    Hide / Remove Tagline
+                    <Icon name="check" size={14} />
+                    <span>{settingsSaving ? "Saving…" : "Save & Publish Header Taglines"}</span>
                   </button>
                 </div>
 
@@ -1677,7 +1926,12 @@ export default function ContentAdminDashboard() {
                   </div>
                   <button
                     type="button"
-                    onClick={() => setHomeTaglineEnabled(!homeTaglineEnabled)}
+                    disabled={settingsSaving}
+                    onClick={() => {
+                      const next = !homeTaglineEnabled;
+                      setHomeTaglineEnabled(next);
+                      handleSaveGlobalSettings({ home_tagline_enabled: next });
+                    }}
                     className={`btn btn-sm ${homeTaglineEnabled ? "btn-navy" : "btn-ghost"}`}
                     style={{ minHeight: 34, fontWeight: 700, fontSize: "0.8rem", whiteSpace: "nowrap" }}
                   >
@@ -1703,26 +1957,52 @@ export default function ContentAdminDashboard() {
                   </div>
                 </div>
 
-                {/* Quick Helper Buttons */}
-                <div style={{ display: "flex", gap: "8px", marginTop: "14px", flexWrap: "wrap" }}>
+                {/* Quick Helper Buttons & Save */}
+                <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: "8px", marginTop: "14px", flexWrap: "wrap" }}>
+                  <div style={{ display: "flex", gap: "8px", flexWrap: "wrap" }}>
+                    <button
+                      type="button"
+                      className="btn btn-ghost btn-sm"
+                      disabled={settingsSaving}
+                      onClick={() => {
+                        setHomeTagline("Delivering the heart of every kitchen");
+                        setHomeTaglineEnabled(true);
+                        handleSaveGlobalSettings({
+                          home_tagline: "Delivering the heart of every kitchen",
+                          home_tagline_enabled: true,
+                        });
+                      }}
+                      style={{ fontSize: "0.75rem", padding: "4px 10px" }}
+                    >
+                      Reset to Default ("Delivering the heart of every kitchen")
+                    </button>
+                    <button
+                      type="button"
+                      className="btn btn-ghost btn-sm"
+                      disabled={settingsSaving}
+                      onClick={() => {
+                        setHomeTaglineEnabled(false);
+                        handleSaveGlobalSettings({ home_tagline_enabled: false });
+                      }}
+                      style={{ fontSize: "0.75rem", padding: "4px 10px", color: "var(--err, #dc2626)" }}
+                    >
+                      Hide / Remove Tagline
+                    </button>
+                  </div>
                   <button
                     type="button"
-                    className="btn btn-ghost btn-sm"
+                    className="btn btn-navy btn-sm"
+                    disabled={settingsSaving}
                     onClick={() => {
-                      setHomeTagline("Delivering the heart of every kitchen");
-                      setHomeTaglineEnabled(true);
+                      handleSaveGlobalSettings({
+                        home_tagline_enabled: homeTaglineEnabled,
+                        home_tagline: homeTagline,
+                      });
                     }}
-                    style={{ fontSize: "0.75rem", padding: "4px 10px" }}
+                    style={{ minHeight: 32, fontSize: "0.78rem", fontWeight: 700 }}
                   >
-                    Reset to Default ("Delivering the heart of every kitchen")
-                  </button>
-                  <button
-                    type="button"
-                    className="btn btn-ghost btn-sm"
-                    onClick={() => setHomeTaglineEnabled(false)}
-                    style={{ fontSize: "0.75rem", padding: "4px 10px", color: "var(--err, #dc2626)" }}
-                  >
-                    Hide / Remove Tagline
+                    <Icon name="check" size={14} />
+                    <span>{settingsSaving ? "Saving…" : "Save & Publish Main Tagline"}</span>
                   </button>
                 </div>
 
@@ -2408,6 +2688,529 @@ export default function ContentAdminDashboard() {
             </div>
           </div>
           </>
+        )}
+
+        {/* ============================================================
+            TAB 5: PRODUCT CATALOGUE & BROCHURE DOWNLOAD
+            ============================================================ */}
+        {activeTab === "catalogue" && (
+          <div style={{ display: "flex", flexDirection: "column", gap: "24px" }}>
+            {/* Top Announcement Banner */}
+            <div
+              style={{
+                background: "linear-gradient(135deg, rgba(1, 16, 167, 0.06) 0%, rgba(14, 165, 233, 0.08) 100%)",
+                border: "1px solid rgba(1, 16, 167, 0.16)",
+                borderRadius: "var(--r-lg, 14px)",
+                padding: "18px 22px",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "space-between",
+                gap: "16px",
+                flexWrap: "wrap",
+              }}
+            >
+              <div>
+                <div style={{ display: "flex", alignItems: "center", gap: "10px", marginBottom: "4px" }}>
+                  <h3 style={{ margin: 0, fontSize: "1.1rem", fontWeight: 800, color: "var(--navy, #0e1c36)" }}>
+                    Support Page Product Catalogue & Brochure Manager
+                  </h3>
+                  <span
+                    className={`status-pill ${catalogueEnabled ? "status-pill-active" : "status-pill-inactive"}`}
+                    style={{ fontSize: "0.74rem", padding: "3px 10px" }}
+                  >
+                    {catalogueEnabled ? "✓ Active on /support" : "✕ Hidden on /support"}
+                  </span>
+                </div>
+                <p style={{ margin: 0, fontSize: "0.85rem", color: "var(--tx-2, #334155)", lineHeight: 1.5, maxWidth: "760px" }}>
+                  Attach a Google Drive share link, cloud URL, or upload a PDF document for the official Sunshine product catalogue.
+                  When customers or dealers click <strong>Download Catalogue</strong> on the Support page, this configured link connects and delivers the file directly.
+                </p>
+              </div>
+              <button
+                type="button"
+                className="btn btn-navy"
+                disabled={busy || settingsSaving}
+                onClick={() => handleSaveCatalogueSettings()}
+                style={{ padding: "10px 22px", fontSize: "0.88rem", fontWeight: 700, minHeight: 44 }}
+              >
+                <Icon name="check" size={17} />
+                <span>{settingsSaving ? "Publishing…" : "Publish Catalogue Link"}</span>
+              </button>
+            </div>
+
+            {/* 2-Column Content Tab Grid */}
+            <div className="content-tab-content-grid">
+              {/* ================= COLUMN 1: CONFIGURATION FORM ================= */}
+              <div className="content-card form-card">
+                <div className="content-card-head" style={{ borderBottom: "1px solid var(--line, #e2e8f0)", paddingBottom: "12px", marginBottom: "18px" }}>
+                  <div className="card-head-title-wrap">
+                    <span className="card-eyebrow">SUPPORT PAGE DOWNLOAD RESOURCE</span>
+                    <h2 className="card-main-heading">Catalogue Link Configuration</h2>
+                  </div>
+                  <span
+                    style={{
+                      display: "inline-flex",
+                      alignItems: "center",
+                      gap: 6,
+                      fontSize: "0.75rem",
+                      fontWeight: 700,
+                      color: catalogueUrl?.includes("drive.google.com") ? "#15803d" : "#0284c7",
+                      background: catalogueUrl?.includes("drive.google.com") ? "#dcfce7" : "#e0f2fe",
+                      padding: "4px 10px",
+                      borderRadius: "999px",
+                    }}
+                  >
+                    {catalogueUrl?.includes("drive.google.com") ? "Google Drive Connected" : "Custom Link Mode"}
+                  </span>
+                </div>
+
+                <form
+                  onSubmit={(e) => {
+                    e.preventDefault();
+                    handleSaveCatalogueSettings();
+                  }}
+                  className="content-admin-form"
+                >
+                  {/* Dropdown Menu (Source / Mode) */}
+                  <div className="field-group">
+                    <label htmlFor="cat-mode-select" style={{ fontWeight: 700, fontSize: "0.88rem", color: "var(--navy)" }}>
+                      Link Source / Dropdown Menu
+                    </label>
+                    <select
+                      id="cat-mode-select"
+                      className="form-select"
+                      value={catalogueLinkType}
+                      onChange={(e) => {
+                        const val = e.target.value;
+                        setCatalogueLinkType(val);
+                        if (val === "default") {
+                          setCatalogueUrl("/downloads/Sunshine-Range-Brochure-2026.pdf");
+                        } else if (val === "drive" && catalogueUrl?.includes("Sunshine-Range-Brochure")) {
+                          setCatalogueUrl("");
+                        }
+                      }}
+                      style={{
+                        width: "100%",
+                        padding: "10px 14px",
+                        borderRadius: "10px",
+                        border: "1px solid var(--line)",
+                        fontSize: "0.9rem",
+                        fontWeight: 600,
+                        color: "var(--navy)",
+                        background: "#f8fafc",
+                      }}
+                    >
+                      <option value="drive">Google Drive Share Link (drive.google.com)</option>
+                      <option value="custom">Custom Online URL / Cloud Storage (Direct Link)</option>
+                      <option value="default">Default Sunshine System Brochure (/downloads/Sunshine-Range-Brochure-2026.pdf)</option>
+                      <option value="upload">Upload PDF Document from Computer</option>
+                    </select>
+                    <small style={{ color: "var(--tx-2)", fontSize: "0.78rem", marginTop: 4 }}>
+                      Choose how you want to provide the catalogue link.
+                    </small>
+                  </div>
+
+                  {/* Mode: Device PDF Upload */}
+                  {catalogueLinkType === "upload" && (
+                    <div className="field-group" style={{ background: "#f8fafc", padding: "14px", borderRadius: "12px", border: "1px solid var(--line)" }}>
+                      <FileOrUrlInput
+                        id="cat-pdf-upload"
+                        label="Upload Catalogue PDF from Computer"
+                        value={catalogueUrl || ""}
+                        onChange={(url, meta) => {
+                          setCatalogueUrl(url);
+                          if (meta?.originalName) {
+                            setCatalogueSubtitle(`Download the official ${meta.originalName} (PDF)`);
+                          }
+                        }}
+                        accept=".pdf,application/pdf"
+                        folder="catalogues"
+                        fileTypeLabel="PDF Brochure"
+                        previewType="pdf"
+                        adminToken={adminToken}
+                        onRequireAuth={() => setShowAuthModal(true)}
+                        presets={[
+                          { label: "Sunshine-Range-Brochure-2026.pdf", url: "/downloads/Sunshine-Range-Brochure-2026.pdf" },
+                        ]}
+                        helperText="Upload your PDF file directly. It will be stored on the webstore and downloadable by all visitors."
+                      />
+                    </div>
+                  )}
+
+                  {/* Mode: Drive or Custom or Default */}
+                  {catalogueLinkType !== "upload" && (
+                    <div className="field-group">
+                      <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: 8, marginBottom: 6 }}>
+                        <label htmlFor="cat-url-input" style={{ fontWeight: 700, fontSize: "0.88rem", color: "var(--navy)", margin: 0 }}>
+                          Catalogue Download / Drive Link URL
+                        </label>
+                        {catalogueUrl && (
+                          <div style={{ display: "flex", gap: 6 }}>
+                            <a
+                              href={catalogueUrl}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="btn btn-ghost btn-xs"
+                              style={{ padding: "3px 8px", fontSize: "0.75rem", display: "inline-flex", alignItems: "center", gap: 4 }}
+                              title="Test this link in a new tab"
+                            >
+                              <Icon name="external" size={13} /> Test Link
+                            </a>
+                            <button
+                              type="button"
+                              className="btn btn-ghost btn-xs"
+                              onClick={() => setCatalogueUrl("")}
+                              style={{ padding: "3px 8px", fontSize: "0.75rem", color: "#ef4444" }}
+                              title="Clear link"
+                            >
+                              Clear
+                            </button>
+                          </div>
+                        )}
+                      </div>
+
+                      <div style={{ position: "relative" }}>
+                        <input
+                          id="cat-url-input"
+                          type="text"
+                          placeholder={
+                            catalogueLinkType === "drive"
+                              ? "Paste Google Drive link: https://drive.google.com/file/d/.../view?usp=sharing"
+                              : "Enter direct download URL (e.g. https://.../brochure.pdf)"
+                          }
+                          value={catalogueUrl}
+                          onChange={(e) => setCatalogueUrl(e.target.value)}
+                          style={{
+                            width: "100%",
+                            padding: "11px 14px",
+                            borderRadius: "10px",
+                            border: "1px solid var(--line)",
+                            fontSize: "0.88rem",
+                            fontFamily: "monospace",
+                            background: "#ffffff",
+                          }}
+                        />
+                      </div>
+
+                      {/* Google Drive Smart Helpers */}
+                      {(() => {
+                        const driveMatch = catalogueUrl?.match(/\/d\/([a-zA-Z0-9_-]+)/) || catalogueUrl?.match(/id=([a-zA-Z0-9_-]+)/);
+                        const fileId = driveMatch ? driveMatch[1] : null;
+                        if (!fileId) {
+                          if (!catalogueUrl) {
+                            return (
+                              <div style={{ marginTop: 8, padding: "8px 12px", background: "#f8fafc", borderRadius: 8, border: "1px dashed #cbd5e1", fontSize: "0.78rem", color: "#64748b" }}>
+                                💡 <strong>No link entered yet:</strong> When you get your Google Drive link or PDF URL, paste it above and click Save. Visitors will instantly download via your link.
+                              </div>
+                            );
+                          }
+                          return null;
+                        }
+
+                        const isDirectDl = catalogueUrl.includes("export=download") || catalogueUrl.includes("uc?id=");
+
+                        return (
+                          <div
+                            style={{
+                              marginTop: 10,
+                              padding: "10px 14px",
+                              borderRadius: "10px",
+                              background: "rgba(34, 197, 94, 0.08)",
+                              border: "1px solid rgba(34, 197, 94, 0.25)",
+                              display: "flex",
+                              flexDirection: "column",
+                              gap: 6,
+                            }}
+                          >
+                            <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", flexWrap: "wrap", gap: 8 }}>
+                              <span style={{ fontSize: "0.8rem", fontWeight: 700, color: "#166534", display: "inline-flex", alignItems: "center", gap: 6 }}>
+                                <Icon name="check" size={14} /> Google Drive File Detected (ID: {fileId.slice(0, 8)}…)
+                              </span>
+                              <span style={{ fontSize: "0.74rem", color: "#475569" }}>
+                                Mode: <strong>{isDirectDl ? "Direct File Download" : "Drive Document Viewer & Download"}</strong>
+                              </span>
+                            </div>
+
+                            <div style={{ display: "flex", gap: 8, flexWrap: "wrap", marginTop: 4 }}>
+                              <button
+                                type="button"
+                                className="btn btn-ghost btn-xs"
+                                onClick={() => setCatalogueUrl(`https://drive.google.com/file/d/${fileId}/view?usp=sharing`)}
+                                style={{
+                                  fontSize: "0.75rem",
+                                  padding: "4px 9px",
+                                  background: !isDirectDl ? "#ffffff" : "transparent",
+                                  borderColor: !isDirectDl ? "#16a34a" : "var(--line)",
+                                  fontWeight: !isDirectDl ? 700 : 500,
+                                }}
+                              >
+                                View & Download Mode (Recommended)
+                              </button>
+                              <button
+                                type="button"
+                                className="btn btn-ghost btn-xs"
+                                onClick={() => setCatalogueUrl(`https://drive.google.com/uc?export=download&id=${fileId}`)}
+                                style={{
+                                  fontSize: "0.75rem",
+                                  padding: "4px 9px",
+                                  background: isDirectDl ? "#ffffff" : "transparent",
+                                  borderColor: isDirectDl ? "#16a34a" : "var(--line)",
+                                  fontWeight: isDirectDl ? 700 : 500,
+                                }}
+                              >
+                                Direct Download Prompt Mode
+                              </button>
+                            </div>
+                          </div>
+                        );
+                      })()}
+                    </div>
+                  )}
+
+                  {/* Title & Subtitle Inputs */}
+                  <div className="field-group">
+                    <label htmlFor="cat-title-input" style={{ fontWeight: 700, fontSize: "0.88rem", color: "var(--navy)" }}>
+                      Resource Card Heading
+                    </label>
+                    <input
+                      id="cat-title-input"
+                      type="text"
+                      placeholder="Looking for Product Catalogues?"
+                      value={catalogueTitle}
+                      onChange={(e) => setCatalogueTitle(e.target.value)}
+                      style={{
+                        width: "100%",
+                        padding: "10px 14px",
+                        borderRadius: "10px",
+                        border: "1px solid var(--line)",
+                        fontSize: "0.9rem",
+                      }}
+                    />
+                  </div>
+
+                  <div className="field-group">
+                    <label htmlFor="cat-sub-input" style={{ fontWeight: 700, fontSize: "0.88rem", color: "var(--navy)" }}>
+                      Resource Card Subtitle Description
+                    </label>
+                    <input
+                      id="cat-sub-input"
+                      type="text"
+                      placeholder="Download the official Sunshine 2026 range brochure (PDF)"
+                      value={catalogueSubtitle}
+                      onChange={(e) => setCatalogueSubtitle(e.target.value)}
+                      style={{
+                        width: "100%",
+                        padding: "10px 14px",
+                        borderRadius: "10px",
+                        border: "1px solid var(--line)",
+                        fontSize: "0.9rem",
+                      }}
+                    />
+                  </div>
+
+                  {/* Active Toggle */}
+                  <div className="toggle-checkbox-row" style={{ marginTop: 8 }}>
+                    <label className="toggle-label">
+                      <input
+                        type="checkbox"
+                        checked={catalogueEnabled}
+                        onChange={(e) => setCatalogueEnabled(e.target.checked)}
+                      />
+                      <span className="toggle-custom-box" />
+                      <span className="toggle-text-wrap">
+                        <b>Show Catalogue Resource Bar on Support Page</b>
+                        <small>When enabled, visitors on /support see the catalogue download bar.</small>
+                      </span>
+                    </label>
+                  </div>
+
+                  {/* Action Button */}
+                  <div className="form-action-bar" style={{ marginTop: 18 }}>
+                    <button
+                      type="submit"
+                      className="btn btn-navy"
+                      disabled={busy || settingsSaving}
+                      style={{ width: "100%", minHeight: 48, fontSize: "0.92rem", fontWeight: 700 }}
+                    >
+                      <Icon name="check" size={18} />
+                      <span>{settingsSaving ? "Saving & Publishing to Supabase…" : "Save Catalogue Link to Live Site"}</span>
+                    </button>
+                  </div>
+                </form>
+              </div>
+
+              {/* ================= COLUMN 2: LIVE SUPPORT PAGE PREVIEW & GUIDE ================= */}
+              <div style={{ display: "flex", flexDirection: "column", gap: "20px" }}>
+                {/* Live Preview Card */}
+                <div className="content-card">
+                  <div className="content-card-head" style={{ borderBottom: "1px solid var(--line, #e2e8f0)", paddingBottom: "12px", marginBottom: "16px" }}>
+                    <div className="card-head-title-wrap">
+                      <span className="card-eyebrow">LIVE CUSTOMER PREVIEW</span>
+                      <h2 className="card-main-heading">Support Page Resource Bar</h2>
+                    </div>
+                    <span
+                      className={`status-pill ${catalogueEnabled ? "status-pill-active" : "status-pill-inactive"}`}
+                      style={{ fontSize: "0.74rem", padding: "3px 10px" }}
+                    >
+                      {catalogueEnabled ? "✓ Active" : "✕ Hidden"}
+                    </span>
+                  </div>
+
+                  <p style={{ fontSize: "0.82rem", color: "var(--tx-2, #475569)", marginBottom: "14px", lineHeight: 1.45 }}>
+                    Below is the exact component rendered at the bottom of the Customer Support page (<strong>/support</strong>).
+                  </p>
+
+                  {/* Mockup Box */}
+                  <div
+                    style={{
+                      padding: "16px",
+                      borderRadius: "14px",
+                      background: "#f1f5f9",
+                      border: "1px dashed #cbd5e1",
+                    }}
+                  >
+                    <div
+                      style={{
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "space-between",
+                        gap: 16,
+                        padding: "18px 22px",
+                        borderRadius: "16px",
+                        background: "#ffffff",
+                        border: "1px solid var(--line)",
+                        flexWrap: "wrap",
+                        boxShadow: "0 2px 10px rgba(0, 0, 0, 0.04)",
+                        opacity: catalogueEnabled ? 1 : 0.5,
+                      }}
+                    >
+                      <div style={{ display: "flex", alignItems: "center", gap: 12 }}>
+                        <div
+                          style={{
+                            width: 40,
+                            height: 40,
+                            borderRadius: 10,
+                            background: "#eff6ff",
+                            color: "var(--navy)",
+                            display: "flex",
+                            alignItems: "center",
+                            justifyContent: "center",
+                            flexShrink: 0,
+                          }}
+                        >
+                          <Icon name="doc" size={22} />
+                        </div>
+                        <div>
+                          <div style={{ fontWeight: 700, fontSize: "0.95rem", color: "var(--navy)" }}>
+                            {catalogueTitle || "Looking for Product Catalogues?"}
+                          </div>
+                          <div style={{ fontSize: "0.85rem", color: "var(--tx-2)" }}>
+                            {catalogueSubtitle || "Download the official Sunshine 2026 range brochure (PDF)"}
+                          </div>
+                        </div>
+                      </div>
+
+                      <a
+                        href={catalogueUrl || "#"}
+                        target={catalogueUrl ? "_blank" : undefined}
+                        rel={catalogueUrl ? "noopener noreferrer" : undefined}
+                        className="btn btn-ghost btn-sm"
+                        style={{ minHeight: "38px" }}
+                        onClick={(e) => {
+                          if (!catalogueUrl) {
+                            e.preventDefault();
+                            alert("No download link configured yet. Enter a Google Drive link or URL on the left.");
+                          }
+                        }}
+                      >
+                        <Icon name="download" size={15} /> Download Catalogue
+                      </a>
+                    </div>
+                  </div>
+
+                  {/* Destination Info Box */}
+                  <div
+                    style={{
+                      marginTop: 14,
+                      padding: "12px 16px",
+                      borderRadius: "10px",
+                      background: "#f8fafc",
+                      border: "1px solid var(--line)",
+                      fontSize: "0.8rem",
+                      display: "flex",
+                      flexDirection: "column",
+                      gap: 4,
+                    }}
+                  >
+                    <div style={{ display: "flex", justifyContent: "space-between", gap: 8 }}>
+                      <span style={{ color: "#64748b", fontWeight: 600 }}>Active Destination:</span>
+                      <span
+                        style={{
+                          fontWeight: 700,
+                          color: catalogueUrl ? "var(--navy)" : "#ef4444",
+                          fontFamily: "monospace",
+                          maxWidth: "280px",
+                          overflow: "hidden",
+                          textOverflow: "ellipsis",
+                          whiteSpace: "nowrap",
+                        }}
+                        title={catalogueUrl || "Not configured"}
+                      >
+                        {catalogueUrl || "(No link configured yet)"}
+                      </span>
+                    </div>
+                    <div style={{ display: "flex", justifyContent: "space-between", gap: 8 }}>
+                      <span style={{ color: "#64748b", fontWeight: 600 }}>Target Behavior:</span>
+                      <span style={{ fontWeight: 600, color: "var(--tx-2)" }}>
+                        Opens in new tab directly (target="_blank")
+                      </span>
+                    </div>
+                    <div style={{ display: "flex", justifyContent: "space-between", gap: 8 }}>
+                      <span style={{ color: "#64748b", fontWeight: 600 }}>Live Location:</span>
+                      <Link to="/support" target="_blank" style={{ fontWeight: 700, color: "var(--c-brand, #0110a7)", textDecoration: "underline" }}>
+                        View /support page ↗
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Google Drive Guide Card */}
+                <div className="content-card" style={{ background: "#ffffff" }}>
+                  <div className="content-card-head" style={{ borderBottom: "1px solid var(--line, #e2e8f0)", paddingBottom: "10px", marginBottom: "12px" }}>
+                    <div className="card-head-title-wrap">
+                      <span className="card-eyebrow">GOOGLE DRIVE SETUP</span>
+                      <h3 style={{ margin: 0, fontSize: "0.96rem", fontWeight: 700, color: "var(--navy)" }}>
+                        How to Attach Your Google Drive Brochure Link
+                      </h3>
+                    </div>
+                  </div>
+
+                  <div style={{ display: "flex", flexDirection: "column", gap: 10, fontSize: "0.82rem", color: "var(--tx-2)", lineHeight: 1.5 }}>
+                    <div style={{ display: "flex", gap: 10 }}>
+                      <span style={{ width: 22, height: 22, borderRadius: "50%", background: "#eff6ff", color: "var(--c-brand, #0110a7)", fontWeight: 800, display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0 }}>1</span>
+                      <div>
+                        <strong>Upload your PDF:</strong> Upload the 2026 catalogue PDF to your Google Drive.
+                      </div>
+                    </div>
+
+                    <div style={{ display: "flex", gap: 10 }}>
+                      <span style={{ width: 22, height: 22, borderRadius: "50%", background: "#eff6ff", color: "var(--c-brand, #0110a7)", fontWeight: 800, display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0 }}>2</span>
+                      <div>
+                        <strong>Set Share Permission:</strong> Right-click the file &gt; click <em>Share</em> &gt; under <em>General Access</em> select <strong>"Anyone with the link" (Viewer)</strong>.
+                      </div>
+                    </div>
+
+                    <div style={{ display: "flex", gap: 10 }}>
+                      <span style={{ width: 22, height: 22, borderRadius: "50%", background: "#eff6ff", color: "var(--c-brand, #0110a7)", fontWeight: 800, display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0 }}>3</span>
+                      <div>
+                        <strong>Paste &amp; Save:</strong> Click <em>Copy link</em>, paste it in the field on the left, and click <strong>"Save Catalogue Link to Live Site"</strong>.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         )}
       </div>
     </section>

@@ -2,7 +2,7 @@
 
 > God node · 80 connections · `backend/src/db/pool.js`
 
-**Community:** [[Pricing & Roles Skill]]
+**Community:** [[Pricing Regression Test Suite]]
 
 ## Connections by Relation
 
@@ -14,10 +14,10 @@
 - [[getDealerPricingEligibility()]] `EXTRACTED`
 - [[issueSession()]] `EXTRACTED`
 - [[syncCatalog()]] `EXTRACTED`
+- [[getHeroSliderSettings()]] `EXTRACTED`
 - [[applyDealer()]] `EXTRACTED`
 - [[verifyDealerRegistrationOtp()]] `EXTRACTED`
 - [[getActiveContent()]] `EXTRACTED`
-- [[getHeroSliderSettings()]] `EXTRACTED`
 - [[provisionDealerInCrm()]] `EXTRACTED`
 - [[createInvite()]] `EXTRACTED`
 - [[crmPoll()]] `EXTRACTED`
@@ -37,8 +37,8 @@
 - [[dealerApp.js]] `EXTRACTED`
 - [[server.js]] `EXTRACTED`
 - [[staff.js]] `EXTRACTED`
-- [[compatibilitySuite.test.mjs]] `EXTRACTED`
 - [[content.js]] `EXTRACTED`
+- [[compatibilitySuite.test.mjs]] `EXTRACTED`
 - [[content.js]] `EXTRACTED`
 - [[catalog.js]] `EXTRACTED`
 - [[notifications.js]] `EXTRACTED`

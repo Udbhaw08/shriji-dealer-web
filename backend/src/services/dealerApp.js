@@ -69,6 +69,7 @@ export async function provisionDealerInCrm({
   firstName,
   lastName,
   phone,
+  userSource = 'ReStor Dealer',
 }) {
   let zohoAccountId = null;
   const effectivePhone = (phone ? String(phone).trim() : null) || user.phone || null;
@@ -86,7 +87,7 @@ export async function provisionDealerInCrm({
       state,
       pin: pin || pincode,
       pincode: pincode || pin,
-      userSource: 'ReStor Dealer',
+      userSource,
       dealerCode,
     });
     if (zohoAccountId) {
@@ -100,11 +101,11 @@ export async function provisionDealerInCrm({
       phone: effectivePhone,
       email: user.email,
       portalRole: 'Owner',
-      userSource: 'ReStor Dealer',
+      userSource,
       dealerCode,
       backendUserId: user.id,
     });
-    await crm.linkContactToBackendUser(contactId, user.id);
+    await crm.linkContactToBackendUser(contactId, user.id, { userSource });
     await sql`update users set zoho_contact_id = ${contactId} where id = ${user.id}`;
     ensureContactPricebookForCrmAccount(zohoAccountId).catch(() => {});
     return { zohoAccountId, contactId };
@@ -1008,6 +1009,15 @@ export async function applyCrmAccountState(dealer, account) {
       }
     } catch (cErr) {
       log.warn(`[dealerApp:applyCrmAccountState] primary contact sync skipped: ${cErr.message}`);
+    }
+  }
+
+  // Ensure all Contacts under this CRM Account have User_Source populated
+  if (zohoAccountIdVal) {
+    try {
+      await crm.syncAccountUserSourceToContacts(zohoAccountIdVal, account.userSource || 'ReStor Dealer');
+    } catch (sErr) {
+      log.warn(`[dealerApp:applyCrmAccountState] userSource sync to contacts skipped: ${sErr.message}`);
     }
   }
 

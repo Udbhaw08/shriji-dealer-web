@@ -23,7 +23,7 @@
 
 ## Relationships
 
-- [[Community 203]] (3 shared connections)
+- [[Community 202]] (3 shared connections)
 - [[Community 322]] (1 shared connections)
 - [[Community 71]] (1 shared connections)
 

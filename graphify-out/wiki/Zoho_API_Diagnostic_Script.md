@@ -1,56 +1,58 @@
 # Zoho API Diagnostic Script
 
-> 44 nodes · cohesion 0.09
+> 43 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **i()** (68 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **n()** (32 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **t()** (23 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **Ja()** (19 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **Ri()** (16 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **A()** (15 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **O()** (13 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **q()** (13 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **ga()** (12 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **wc()** (11 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **ha()** (9 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **va()** (8 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **go()** (7 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **zc()** (7 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **Cc()** (6 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **E()** (6 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **ho()** (6 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **Ko()** (6 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **xc()** (6 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **Ya()** (6 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **df()** (5 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **ea()** (5 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **j()** (5 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **Ka()** (5 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **qo()** (5 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- *... and 19 more nodes in this community*
+- **brand-marks.mjs** (51 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **brand-marks.test.mjs** (15 connections) — `.agents/skills/archify/test/brand-marks.test.mjs`
+- **captureRemoteBrand()** (7 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **prepareDiagramBrandMarks()** (7 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **captureBrandReference()** (6 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **findBrandMark()** (5 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **checkedFetch()** (4 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **isPrivateBrandAddress()** (4 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **resolveRequestTarget()** (4 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **asUrl()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **iconCandidates()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **imageData()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **ipv4Private()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **ipv6Private()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **lookupForms()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **readLimited()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **validateUrlShape()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **generated-brand-marks.mjs** (3 connections) — `.agents/skills/archify/renderers/shared/generated-brand-marks.mjs`
+- **BRAND_MARKS** (3 connections) — `.agents/skills/archify/renderers/shared/generated-brand-marks.mjs`
+- **attribute()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **beforeDeadline()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **captureTimeoutMilliseconds()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **domainMark()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **mapConcurrent()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **remoteBrand()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- *... and 18 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (59 shared connections)
-- [[Product Pages Specification]] (35 shared connections)
-- [[Live Pricing Audit Tool]] (28 shared connections)
-- [[Community 46]] (23 shared connections)
-- [[Community 34]] (23 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (17 shared connections)
-- [[Testing & Workflow Skill]] (11 shared connections)
-- [[Community 57]] (10 shared connections)
-- [[Community 116]] (5 shared connections)
+- [[Community 47]] (6 shared connections)
+- [[Zoho Integration Architecture]] (6 shared connections)
+- [[Community 143]] (3 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (3 shared connections)
+- [[Product Brand & Business Vision]] (1 shared connections)
+- [[Community 52]] (1 shared connections)
+- [[Community 33]] (1 shared connections)
+- [[Community 127]] (1 shared connections)
+- [[Community 86]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-LiwW60BS.js`
+- `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- `.agents/skills/archify/renderers/shared/generated-brand-marks.mjs`
+- `.agents/skills/archify/test/brand-marks.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 373 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 164 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

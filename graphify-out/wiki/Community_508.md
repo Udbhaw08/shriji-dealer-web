@@ -1,11 +1,12 @@
 # Community 508
 
-> 2 nodes · cohesion 1.00
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **Package.swift** (1 connections) — `ios/App/CapApp-SPM/Package.swift`
-- **PackageDescription** (1 connections) — `ios/App/CapApp-SPM/Package.swift`
+- **stringUtils.js** (2 connections) — `src/utils/stringUtils.js`
+- **titleCase()** (1 connections) — `src/utils/stringUtils.js`
+- **truncate()** (1 connections) — `src/utils/stringUtils.js`
 
 ## Relationships
 
@@ -13,11 +14,11 @@
 
 ## Source Files
 
-- `ios/App/CapApp-SPM/Package.swift`
+- `src/utils/stringUtils.js`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

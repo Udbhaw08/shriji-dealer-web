@@ -80,8 +80,9 @@ export async function crmPoll() {
         });
       }
 
-      await crm.linkContactToBackendUser(contactId, d.owner_id);
+      await crm.linkContactToBackendUser(contactId, d.owner_id, { userSource: 'ReStor Dealer' });
       await sql`update users set zoho_contact_id = ${contactId} where id = ${d.owner_id}`;
+      await crm.syncAccountUserSourceToContacts(d.zoho_account_id, 'ReStor Dealer').catch(() => {});
       log.info(`[crmPoll] linked dealer ${d.id} → CRM contact ${contactId}`);
     } catch (err) {
       log.warn(`[crmPoll] CRM contact create/link retry failed for dealer ${d.id}: ${err.message}`);

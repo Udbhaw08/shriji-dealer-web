@@ -4,15 +4,15 @@
 
 ## Key Concepts
 
-- **web-BvC9f5V0.js** (8 connections) — `android/app/src/main/assets/public/assets/web-BvC9f5V0.js`
-- **constructor()** (1 connections) — `android/app/src/main/assets/public/assets/web-BvC9f5V0.js`
-- **exitApp()** (1 connections) — `android/app/src/main/assets/public/assets/web-BvC9f5V0.js`
-- **getAppLanguage()** (1 connections) — `android/app/src/main/assets/public/assets/web-BvC9f5V0.js`
-- **getInfo()** (1 connections) — `android/app/src/main/assets/public/assets/web-BvC9f5V0.js`
-- **getLaunchUrl()** (1 connections) — `android/app/src/main/assets/public/assets/web-BvC9f5V0.js`
-- **getState()** (1 connections) — `android/app/src/main/assets/public/assets/web-BvC9f5V0.js`
-- **minimizeApp()** (1 connections) — `android/app/src/main/assets/public/assets/web-BvC9f5V0.js`
-- **toggleBackButtonHandler()** (1 connections) — `android/app/src/main/assets/public/assets/web-BvC9f5V0.js`
+- **web-Dnu9XDgE.js** (8 connections) — `android/app/src/main/assets/public/assets/web-Dnu9XDgE.js`
+- **constructor()** (1 connections) — `android/app/src/main/assets/public/assets/web-Dnu9XDgE.js`
+- **exitApp()** (1 connections) — `android/app/src/main/assets/public/assets/web-Dnu9XDgE.js`
+- **getAppLanguage()** (1 connections) — `android/app/src/main/assets/public/assets/web-Dnu9XDgE.js`
+- **getInfo()** (1 connections) — `android/app/src/main/assets/public/assets/web-Dnu9XDgE.js`
+- **getLaunchUrl()** (1 connections) — `android/app/src/main/assets/public/assets/web-Dnu9XDgE.js`
+- **getState()** (1 connections) — `android/app/src/main/assets/public/assets/web-Dnu9XDgE.js`
+- **minimizeApp()** (1 connections) — `android/app/src/main/assets/public/assets/web-Dnu9XDgE.js`
+- **toggleBackButtonHandler()** (1 connections) — `android/app/src/main/assets/public/assets/web-Dnu9XDgE.js`
 
 ## Relationships
 
@@ -20,7 +20,7 @@
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/web-BvC9f5V0.js`
+- `android/app/src/main/assets/public/assets/web-Dnu9XDgE.js`
 
 ## Audit Trail
 

@@ -289,6 +289,7 @@ const mockCrm = {
     businessName: 'Mock Business',
   }),
   getPrimaryContactForAccount: async () => null,
+  syncAccountUserSourceToContacts: async () => true,
   findOwnerContactInAccount: async () => null,
   deactivateAccountInCrm: async () => true,
   deactivateContactInCrm: async () => true,

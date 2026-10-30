@@ -1,55 +1,66 @@
 # Pricing Hierarchy & Zero-Leakage Spec
 
-> 51 nodes · cohesion 0.09
+> 47 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **ff()** (26 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **Tu()** (19 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **fi()** (16 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **gl()** (15 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **uu()** (13 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **lu()** (12 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **delete()** (11 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **vu()** (11 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **hl()** (10 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **ui()** (10 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **zl()** (10 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **Iu()** (9 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **ku()** (9 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **l()** (9 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **mu()** (9 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **wl()** (9 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **cu()** (8 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **Eu()** (8 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **jd()** (8 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **Sp()** (8 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **ba()** (7 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **bl()** (7 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **hc()** (7 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **wa()** (7 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **yl()** (7 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- *... and 26 more nodes in this community*
+- **session.js** (54 connections) — `src/data/session.js`
+- **Login.jsx** (45 connections) — `src/pages/Login.jsx`
+- **DealerApply.jsx** (26 connections) — `src/pages/DealerApply.jsx`
+- **BrandApplyFlow.jsx** (23 connections) — `src/components/BrandApplyFlow.jsx`
+- **StaffDashboard.jsx** (16 connections) — `src/pages/StaffDashboard.jsx`
+- **revalidateSession()** (14 connections) — `src/data/session.js`
+- **StaffJoin.jsx** (14 connections) — `src/pages/StaffJoin.jsx`
+- **EmailVerificationPrompt.jsx** (12 connections) — `src/components/EmailVerificationPrompt.jsx`
+- **PhoneVerificationPrompt.jsx** (12 connections) — `src/components/PhoneVerificationPrompt.jsx`
+- **validators.js** (12 connections) — `src/data/validators.js`
+- **loginCode.js** (11 connections) — `src/data/loginCode.js`
+- **setSession()** (11 connections) — `src/data/session.js`
+- **apiUrl()** (9 connections) — `src/data/api.js`
+- **hasSession()** (8 connections) — `src/data/auth.js`
+- **signOut()** (8 connections) — `src/data/session.js`
+- **registerDealer()** (7 connections) — `src/data/dealer.js`
+- **isValidEmail()** (7 connections) — `src/data/validators.js`
+- **applyAsDealer()** (6 connections) — `src/data/auth.js`
+- **formatLoginCode()** (6 connections) — `src/data/loginCode.js`
+- **isValidName()** (6 connections) — `src/data/validators.js`
+- **isValidPhone()** (6 connections) — `src/data/validators.js`
+- **OtpDispatchFeedback.jsx** (5 connections) — `src/components/OtpDispatchFeedback.jsx`
+- **OtpDispatchFeedback()** (5 connections) — `src/components/OtpDispatchFeedback.jsx`
+- **switchToDealerSession()** (5 connections) — `src/data/session.js`
+- **BrandApplyFlow()** (4 connections) — `src/components/BrandApplyFlow.jsx`
+- *... and 22 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (59 shared connections)
-- [[Product Pages Specification]] (23 shared connections)
-- [[Zoho API Diagnostic Script]] (17 shared connections)
-- [[Live Pricing Audit Tool]] (11 shared connections)
-- [[Testing & Workflow Skill]] (7 shared connections)
-- [[Community 57]] (6 shared connections)
-- [[Community 34]] (6 shared connections)
-- [[Community 46]] (5 shared connections)
-- [[Community 116]] (2 shared connections)
+- [[Claude Agent Instructions]] (60 shared connections)
+- [[Community 54]] (32 shared connections)
+- [[Pricing & Roles Skill]] (16 shared connections)
+- [[Community 30]] (13 shared connections)
+- [[Community 41]] (7 shared connections)
+- [[Community 170]] (1 shared connections)
+- [[Community 169]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-LiwW60BS.js`
+- `src/components/BrandApplyFlow.jsx`
+- `src/components/EmailVerificationPrompt.jsx`
+- `src/components/OtpDispatchFeedback.jsx`
+- `src/components/PhoneVerificationPrompt.jsx`
+- `src/data/api.js`
+- `src/data/auth.js`
+- `src/data/dealer.js`
+- `src/data/loginCode.js`
+- `src/data/session.js`
+- `src/data/validators.js`
+- `src/pages/DealerApply.jsx`
+- `src/pages/Login.jsx`
+- `src/pages/StaffDashboard.jsx`
+- `src/pages/StaffJoin.jsx`
 
 ## Audit Trail
 
-- EXTRACTED: 368 (100%)
+- EXTRACTED: 376 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

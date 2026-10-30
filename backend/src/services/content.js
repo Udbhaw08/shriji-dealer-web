@@ -65,6 +65,10 @@ export async function getHeroSliderSettings() {
       header_tagline_1: meta.header_tagline_1 !== undefined ? meta.header_tagline_1 : "Better Products",
       header_tagline_2: meta.header_tagline_2 !== undefined ? meta.header_tagline_2 : "Stronger Partners",
       header_tagline_3: meta.header_tagline_3 !== undefined ? meta.header_tagline_3 : "Brighter Homes",
+      catalogue_download_url: meta.catalogue_download_url !== undefined ? meta.catalogue_download_url : "/downloads/Sunshine-Range-Brochure-2026.pdf",
+      catalogue_title: meta.catalogue_title !== undefined ? meta.catalogue_title : "Looking for Product Catalogues?",
+      catalogue_subtitle: meta.catalogue_subtitle !== undefined ? meta.catalogue_subtitle : "Download the official Sunshine 2026 range brochure (PDF)",
+      catalogue_enabled: meta.catalogue_enabled !== false,
     };
   } catch (err) {
     console.warn('[Supabase Content] Could not fetch slider settings:', err.message);
@@ -79,6 +83,10 @@ export async function getHeroSliderSettings() {
       header_tagline_1: "Better Products",
       header_tagline_2: "Stronger Partners",
       header_tagline_3: "Brighter Homes",
+      catalogue_download_url: "/downloads/Sunshine-Range-Brochure-2026.pdf",
+      catalogue_title: "Looking for Product Catalogues?",
+      catalogue_subtitle: "Download the official Sunshine 2026 range brochure (PDF)",
+      catalogue_enabled: true,
     };
   }
 }
@@ -129,6 +137,18 @@ export async function saveHeroSliderSettings(settings = {}) {
     header_tagline_3: settings.header_tagline_3 !== undefined
       ? String(settings.header_tagline_3).trim()
       : (current.header_tagline_3 ?? "Brighter Homes"),
+    catalogue_download_url: settings.catalogue_download_url !== undefined
+      ? String(settings.catalogue_download_url).trim()
+      : (current.catalogue_download_url ?? "/downloads/Sunshine-Range-Brochure-2026.pdf"),
+    catalogue_title: settings.catalogue_title !== undefined
+      ? String(settings.catalogue_title).trim()
+      : (current.catalogue_title ?? "Looking for Product Catalogues?"),
+    catalogue_subtitle: settings.catalogue_subtitle !== undefined
+      ? String(settings.catalogue_subtitle).trim()
+      : (current.catalogue_subtitle ?? "Download the official Sunshine 2026 range brochure (PDF)"),
+    catalogue_enabled: settings.catalogue_enabled !== undefined
+      ? Boolean(settings.catalogue_enabled)
+      : (current.catalogue_enabled !== false),
     updated_at: new Date().toISOString(),
   };
 
@@ -172,6 +192,8 @@ export async function getSupabaseBanners() {
       duration: durationSeconds,
       source: 'supabase',
       metadata: meta,
+      fitMode: meta.fit_mode || meta.fit || (r.id?.startsWith('hero-restor-') ? 'cover' : 'contain'),
+      mobileSrc: meta.mobile_image_url || null,
     };
   });
 }

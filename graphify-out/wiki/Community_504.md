@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **storage.js** (2 connections) — `src/utils/storage.js`
-- **memoryStore** (1 connections) — `src/utils/storage.js`
-- **safeStorage** (1 connections) — `src/utils/storage.js`
+- **numberUtils.js** (2 connections) — `src/utils/numberUtils.js`
+- **calculateDiscountPercentage()** (1 connections) — `src/utils/numberUtils.js`
+- **clamp()** (1 connections) — `src/utils/numberUtils.js`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `src/utils/storage.js`
+- `src/utils/numberUtils.js`
 
 ## Audit Trail
 

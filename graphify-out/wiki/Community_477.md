@@ -10,7 +10,7 @@
 
 ## Relationships
 
-- [[Community 29]] (1 shared connections)
+- [[Agent Guidelines (AGENTS.md)]] (1 shared connections)
 
 ## Source Files
 

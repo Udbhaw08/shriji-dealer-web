@@ -1,55 +1,73 @@
 # Product Pages Specification
 
-> 64 nodes · cohesion 0.07
+> 62 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **get()** (27 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **D()** (23 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **np()** (20 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **.addEventListener()** (19 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **b()** (17 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **h()** (16 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **fp()** (13 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **bm()** (12 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **.removeEventListener()** (12 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **ep()** (11 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **vn()** (11 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **am()** (10 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **ip()** (10 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **tp()** (10 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **mm()** (9 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **mo()** (9 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **fn()** (7 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **jm()** (7 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **kt()** (7 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **ln()** (7 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **lp()** (7 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **om()** (7 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **tn()** (7 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **zm()** (7 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- **cm()** (6 connections) — `ios/App/App/public/assets/index-LiwW60BS.js`
-- *... and 39 more nodes in this community*
+- **server.js** (36 connections) — `backend/src/server.js`
+- **app.js** (30 connections) — `backend/src/app.js`
+- **compatibilitySuite.test.mjs** (20 connections) — `backend/test/compatibilitySuite.test.mjs`
+- **env.js** (18 connections) — `backend/src/config/env.js`
+- **securityPhase1.test.mjs** (16 connections) — `backend/test/securityPhase1.test.mjs`
+- **env** (15 connections) — `backend/src/config/env.js`
+- **webhooks.js** (15 connections) — `backend/src/routes/webhooks.js`
+- **upload.js** (12 connections) — `backend/src/routes/upload.js`
+- **errorHandler.js** (10 connections) — `backend/src/middleware/errorHandler.js`
+- **rateLimit.js** (10 connections) — `backend/src/middleware/rateLimit.js`
+- **rateLimit()** (9 connections) — `backend/src/middleware/rateLimit.js`
+- **admin.js** (9 connections) — `backend/src/routes/admin.js`
+- **health.js** (9 connections) — `backend/src/routes/health.js`
+- **uploads.js** (9 connections) — `backend/src/routes/uploads.js`
+- **securityPhase3.test.mjs** (9 connections) — `backend/test/securityPhase3.test.mjs`
+- **prices.js** (7 connections) — `backend/src/routes/prices.js`
+- **migrate.js** (6 connections) — `backend/src/db/migrate.js`
+- **contentRouter** (5 connections) — `backend/src/routes/content.js`
+- **uploadRouter** (5 connections) — `backend/src/routes/upload.js`
+- **uploadsRouter** (5 connections) — `backend/src/routes/uploads.js`
+- **migrate()** (4 connections) — `backend/src/db/migrate.js`
+- **errorHandler()** (4 connections) — `backend/src/middleware/errorHandler.js`
+- **adminRouter** (4 connections) — `backend/src/routes/admin.js`
+- **app** (4 connections) — `backend/src/app.js`
+- **rateLimitFix.test.mjs** (4 connections) — `backend/test/rateLimitFix.test.mjs`
+- *... and 37 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (64 shared connections)
-- [[Zoho API Diagnostic Script]] (35 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (23 shared connections)
-- [[Live Pricing Audit Tool]] (16 shared connections)
-- [[Community 46]] (14 shared connections)
-- [[Testing & Workflow Skill]] (11 shared connections)
-- [[Community 34]] (5 shared connections)
-- [[Community 116]] (4 shared connections)
-- [[Community 57]] (1 shared connections)
+- [[Pricing Regression Test Suite]] (33 shared connections)
+- [[Community 45]] (21 shared connections)
+- [[Community 50]] (15 shared connections)
+- [[Community 43]] (9 shared connections)
+- [[Community 116]] (6 shared connections)
+- [[Community 51]] (5 shared connections)
+- [[Community 92]] (4 shared connections)
+- [[Client Products Data Store]] (2 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-LiwW60BS.js`
+- `api/auth/[...path].js`
+- `api/dealers/[...path].js`
+- `backend/src/app.js`
+- `backend/src/config/env.js`
+- `backend/src/db/migrate.js`
+- `backend/src/jobs/index.js`
+- `backend/src/middleware/errorHandler.js`
+- `backend/src/middleware/rateLimit.js`
+- `backend/src/routes/admin.js`
+- `backend/src/routes/auth.js`
+- `backend/src/routes/content.js`
+- `backend/src/routes/dealers.js`
+- `backend/src/routes/health.js`
+- `backend/src/routes/prices.js`
+- `backend/src/routes/upload.js`
+- `backend/src/routes/uploads.js`
+- `backend/src/routes/webhooks.js`
+- `backend/src/server.js`
+- `backend/test/compatibilitySuite.test.mjs`
+- `backend/test/rateLimitFix.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 443 (100%)
+- EXTRACTED: 333 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

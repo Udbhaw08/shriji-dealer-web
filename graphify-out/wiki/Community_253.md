@@ -1,34 +1,29 @@
 # Community 253
 
-> 8 nodes · cohesion 0.32
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **createDealerContact()** (9 connections) — `api/_lib/zoho.js`
-- **getAccessToken()** (6 connections) — `api/_lib/zoho.js`
-- **loadEnv()** (5 connections) — `api/_lib/zoho.js`
-- **test-zoho-api.mjs** (4 connections) — `scripts/test-zoho-api.mjs`
-- **apply.js** (3 connections) — `api/dealer/apply.js`
-- **handler()** (2 connections) — `api/dealer/apply.js`
-- **readDiskCache()** (2 connections) — `api/_lib/zoho.js`
-- **{ dc, orgId }** (1 connections) — `scripts/test-zoho-api.mjs`
+- **Boxes** (5 connections) — `.agents/skills/apple-design/references/hig/boxes.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/boxes.md`
+- **boxes.md** (1 connections) — `.agents/skills/apple-design/references/hig/boxes.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/boxes.md`
+- **Content** (1 connections) — `.agents/skills/apple-design/references/hig/boxes.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/boxes.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/boxes.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/boxes.md`
 
 ## Relationships
 
-- [[Community 47]] (6 shared connections)
-- [[Community 166]] (5 shared connections)
-- [[Community 153]] (2 shared connections)
-- [[Community 125]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `api/_lib/zoho.js`
-- `api/dealer/apply.js`
-- `scripts/test-zoho-api.mjs`
+- `.agents/skills/apple-design/references/hig/boxes.md`
 
 ## Audit Trail
 
-- EXTRACTED: 32 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

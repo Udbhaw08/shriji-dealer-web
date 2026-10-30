@@ -56,7 +56,7 @@ export async function approveStaff(dealer, staffUserId) {
         reportingToContactId: ownerUser?.zoho_contact_id || undefined,
         dealerCode: dealer.dealer_code,
       });
-      await crm.linkContactToBackendUser(contactId, staff.id);
+      await crm.linkContactToBackendUser(contactId, staff.id, { userSource: 'ReStor Staff' });
       await sql`update users set zoho_contact_id = ${contactId} where id = ${staff.id}`;
       log.info(`[staff] linked approved staff ${staff.id} to CRM contact ${contactId}`);
     } catch (err) {

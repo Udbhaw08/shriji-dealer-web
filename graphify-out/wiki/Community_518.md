@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **validateContentType.js** (1 connections) — `backend/src/middleware/validateContentType.js`
-- **validateContentType()** (1 connections) — `backend/src/middleware/validateContentType.js`
+- **.mcp.json** (1 connections) — `.mcp.json`
+- **supabase** (1 connections) — `.mcp.json`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `backend/src/middleware/validateContentType.js`
+- `.mcp.json`
 
 ## Audit Trail
 

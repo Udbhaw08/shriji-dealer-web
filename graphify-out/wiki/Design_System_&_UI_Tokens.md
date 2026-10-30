@@ -1,71 +1,55 @@
 # Design System & UI Tokens
 
-> 59 nodes · cohesion 0.08
+> 61 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **main.jsx** (53 connections) — `src/main.jsx`
-- **useSession()** (42 connections) — `src/data/session.js`
-- **Home.jsx** (26 connections) — `src/pages/Home.jsx`
-- **site.js** (24 connections) — `src/data/site.js`
-- **Icon()** (20 connections) — `src/ui.jsx`
-- **Schemes.jsx** (17 connections) — `src/pages/Schemes.jsx`
-- **COMPANY** (16 connections) — `src/data/site.js`
-- **Support.jsx** (15 connections) — `src/pages/Support.jsx`
-- **HeroSlider.jsx** (12 connections) — `src/components/HeroSlider.jsx`
-- **api.js** (11 connections) — `src/data/api.js`
-- **UnderMaintenance.jsx** (8 connections) — `src/components/UnderMaintenance.jsx`
-- **Home()** (8 connections) — `src/pages/Home.jsx`
-- **ContentAdminDashboard.jsx** (7 connections) — `src/pages/ContentAdminDashboard.jsx`
-- **Login()** (7 connections) — `src/pages/Login.jsx`
-- **DealerPending.jsx** (6 connections) — `src/pages/DealerPending.jsx`
-- **Schemes()** (6 connections) — `src/pages/Schemes.jsx`
-- **Footer()** (6 connections) — `src/ui.jsx`
-- **video.js** (6 connections) — `src/utils/video.js`
-- **UnderMaintenance()** (5 connections) — `src/components/UnderMaintenance.jsx`
-- **LegalPrivacy.jsx** (5 connections) — `src/pages/LegalPrivacy.jsx`
-- **LegalTerms.jsx** (5 connections) — `src/pages/LegalTerms.jsx`
-- **PrivacyPolicy.jsx** (5 connections) — `src/pages/PrivacyPolicy.jsx`
-- **Support()** (5 connections) — `src/pages/Support.jsx`
-- **TermsOfService.jsx** (5 connections) — `src/pages/TermsOfService.jsx`
-- **ErrorBoundary** (5 connections) — `src/main.jsx`
-- *... and 34 more nodes in this community*
+- **i()** (68 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
+- **yc()** (21 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
+- **ic()** (16 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
+- **Md()** (15 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
+- **s()** (15 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
+- **r()** (14 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
+- **nc()** (13 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
+- **ga()** (12 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
+- **nl()** (11 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
+- **wc()** (11 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
+- **bi()** (10 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
+- **gs()** (9 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
+- **hh()** (9 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
+- **kd()** (9 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
+- **l()** (9 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
+- **rc()** (9 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
+- **va()** (9 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
+- **c()** (8 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
+- **co()** (8 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
+- **ha()** (8 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
+- **pa()** (8 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
+- **yh()** (8 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
+- **ec()** (7 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
+- **fa()** (7 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
+- **mh()** (7 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
+- *... and 36 more nodes in this community*
 
 ## Relationships
 
-- [[Zoho Integration Architecture]] (84 shared connections)
-- [[Mobile Responsive UI Skill]] (38 shared connections)
-- [[Community 56]] (10 shared connections)
-- [[Graphify Agent Rules]] (9 shared connections)
-- [[Community 107]] (5 shared connections)
+- [[Dealer Auth & Session Management]] (77 shared connections)
+- [[Architecture Doc Generator]] (34 shared connections)
+- [[Community 37]] (29 shared connections)
+- [[Product Requirements Documentation]] (23 shared connections)
+- [[Mobile Responsive UI Skill]] (20 shared connections)
+- [[Graphify Agent Rules]] (18 shared connections)
+- [[Community 49]] (12 shared connections)
+- [[Community 40]] (10 shared connections)
 
 ## Source Files
 
-- `src/components/EmailVerificationPrompt.jsx`
-- `src/components/FileOrUrlInput.jsx`
-- `src/components/HeroSlider.jsx`
-- `src/components/NativeBackHandler.jsx`
-- `src/components/PhoneVerificationPrompt.jsx`
-- `src/components/UnderMaintenance.jsx`
-- `src/data/api.js`
-- `src/data/session.js`
-- `src/data/site.js`
-- `src/data/video-banner.test.mjs`
-- `src/main.jsx`
-- `src/pages/ContentAdminDashboard.jsx`
-- `src/pages/DealerApply.jsx`
-- `src/pages/DealerDashboard.jsx`
-- `src/pages/DealerPending.jsx`
-- `src/pages/Home.jsx`
-- `src/pages/LegalPrivacy.jsx`
-- `src/pages/LegalTerms.jsx`
-- `src/pages/Login.jsx`
-- `src/pages/PrivacyPolicy.jsx`
+- `ios/App/App/public/assets/index-CZ0bF0iF.js`
 
 ## Audit Trail
 
-- EXTRACTED: 403 (100%)
-- INFERRED: 1 (0%)
+- EXTRACTED: 495 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

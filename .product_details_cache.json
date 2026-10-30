@@ -71,7 +71,7 @@
         {
           "index": 1,
           "image": "https://cdn2.zohoecommerce.com/product-images/auto-ignition.png/3334672000008545107/600x600?storefront_domain=www.shrijidomestic.com",
-          "text": "Auto Cut-Off",
+          "text": "Powerful",
           "label": ""
         },
         {
@@ -109,7 +109,7 @@
       "status": "active",
       "showInStore": true
     },
-    "time": 1793312292643
+    "time": 1793375812713
   },
   "kuchenbau-electric-kettle-1-8l": {
     "product": {
@@ -183,7 +183,7 @@
         {
           "index": 1,
           "image": "https://cdn2.zohoecommerce.com/product-images/auto-ignition.png/3334672000008545107/600x600?storefront_domain=www.shrijidomestic.com",
-          "text": "Auto Cut-Off",
+          "text": "Powerful",
           "label": ""
         },
         {
@@ -221,7 +221,7 @@
       "status": "active",
       "showInStore": true
     },
-    "time": 1793312292645
+    "time": 1793375812715
   },
   "3334672000000839126": {
     "product": {
@@ -940,7 +940,7 @@
       "sellingPrice": 3550,
       "labelPrice": 0,
       "dealerRate": null,
-      "stock": -31,
+      "stock": -35,
       "img": "",
       "images": [],
       "description": "",
@@ -958,7 +958,7 @@
       "status": "active",
       "showInStore": false
     },
-    "time": 1793312294279
+    "time": 1793375810852
   },
   "air-fryer-aero-chef-sunshine-4-5-lt": {
     "product": {
@@ -989,7 +989,7 @@
       "sellingPrice": 3550,
       "labelPrice": 0,
       "dealerRate": null,
-      "stock": -31,
+      "stock": -35,
       "img": "",
       "images": [],
       "description": "",
@@ -1007,7 +1007,7 @@
       "status": "active",
       "showInStore": false
     },
-    "time": 1793312294282
+    "time": 1793375810857
   },
   "3334672000000195113": {
     "product": {
@@ -1054,7 +1054,7 @@
       "status": "active",
       "showInStore": true
     },
-    "time": 1793312294811
+    "time": 1793375812110
   },
   "eon-2b": {
     "product": {
@@ -1101,7 +1101,7 @@
       "status": "active",
       "showInStore": true
     },
-    "time": 1793312294813
+    "time": 1793375812115
   },
   "3334672000000839216": {
     "product": {
@@ -1148,7 +1148,7 @@
       "status": "active",
       "showInStore": true
     },
-    "time": 1793312295362
+    "time": 1793315320787
   },
   "2b-073-janta-gs-sunjyoti": {
     "product": {
@@ -1195,7 +1195,7 @@
       "status": "active",
       "showInStore": true
     },
-    "time": 1793312295365
+    "time": 1793315320788
   },
   "3334672000000201324": {
     "product": {
@@ -1224,7 +1224,7 @@
       "sellingPrice": 450,
       "labelPrice": 0,
       "dealerRate": null,
-      "stock": -8969,
+      "stock": -8981,
       "img": "",
       "images": [],
       "description": "",
@@ -1242,7 +1242,7 @@
       "status": "active",
       "showInStore": true
     },
-    "time": 1793312295890
+    "time": 1793375809736
   },
   "tvl-regulator-comm-yellow": {
     "product": {
@@ -1271,7 +1271,7 @@
       "sellingPrice": 450,
       "labelPrice": 0,
       "dealerRate": null,
-      "stock": -8969,
+      "stock": -8981,
       "img": "",
       "images": [],
       "description": "",
@@ -1289,7 +1289,7 @@
       "status": "active",
       "showInStore": true
     },
-    "time": 1793312295894
+    "time": 1793375809744
   },
   "3334672000000196433": {
     "product": {
@@ -1342,7 +1342,7 @@
       "status": "active",
       "showInStore": true
     },
-    "time": 1793312296444
+    "time": 1793315321924
   },
   "thunder-3b": {
     "product": {
@@ -1395,7 +1395,7 @@
       "status": "active",
       "showInStore": true
     },
-    "time": 1793312296447
+    "time": 1793315321927
   },
   "3334672000000195053": {
     "product": {
@@ -1868,5 +1868,99 @@
       "showInStore": true
     },
     "time": 1793310181556
+  },
+  "3334672000000201311": {
+    "product": {
+      "id": "3334672000000201311",
+      "slug": "tvl-lp-regulator-comm-blue",
+      "name": "TVL LP REGULATOR(COMM) BLUE",
+      "model": "TVL LP REGULATOR(COMM) BLUE",
+      "zohoTitle": "TVL LP REGULATOR(COMM) BLUE",
+      "sku": null,
+      "hsnCode": "84818090",
+      "fulfillment": null,
+      "packageDetails": null,
+      "shortDescription": "Test",
+      "size": "",
+      "motorType": "",
+      "burners": null,
+      "finish": "Standard",
+      "fkey": "steel",
+      "features": [],
+      "brand": "TVL",
+      "tags": [],
+      "cat": "spares",
+      "catLabel": "Spares",
+      "code": "SP",
+      "mrp": 450,
+      "sellingPrice": 450,
+      "labelPrice": 0,
+      "dealerRate": null,
+      "stock": -2961,
+      "img": "",
+      "images": [],
+      "description": "",
+      "productDescriptionHtml": "",
+      "overview": "",
+      "tileIcons": [],
+      "customFields": {
+        "warranty": "",
+        "keyFeatures": "",
+        "overview": ""
+      },
+      "extraFields": [],
+      "specifications": [],
+      "videos": [],
+      "status": "active",
+      "showInStore": true
+    },
+    "time": 1793375810289
+  },
+  "tvl-lp-regulator-comm-blue": {
+    "product": {
+      "id": "3334672000000201311",
+      "slug": "tvl-lp-regulator-comm-blue",
+      "name": "TVL LP REGULATOR(COMM) BLUE",
+      "model": "TVL LP REGULATOR(COMM) BLUE",
+      "zohoTitle": "TVL LP REGULATOR(COMM) BLUE",
+      "sku": null,
+      "hsnCode": "84818090",
+      "fulfillment": null,
+      "packageDetails": null,
+      "shortDescription": "Test",
+      "size": "",
+      "motorType": "",
+      "burners": null,
+      "finish": "Standard",
+      "fkey": "steel",
+      "features": [],
+      "brand": "TVL",
+      "tags": [],
+      "cat": "spares",
+      "catLabel": "Spares",
+      "code": "SP",
+      "mrp": 450,
+      "sellingPrice": 450,
+      "labelPrice": 0,
+      "dealerRate": null,
+      "stock": -2961,
+      "img": "",
+      "images": [],
+      "description": "",
+      "productDescriptionHtml": "",
+      "overview": "",
+      "tileIcons": [],
+      "customFields": {
+        "warranty": "",
+        "keyFeatures": "",
+        "overview": ""
+      },
+      "extraFields": [],
+      "specifications": [],
+      "videos": [],
+      "status": "active",
+      "showInStore": true
+    },
+    "time": 1793375810294
   }
 }
