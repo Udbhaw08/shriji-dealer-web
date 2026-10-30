@@ -4,10 +4,10 @@
 
 ## Key Concepts
 
-- **constants.js** (3 connections) — `backend/src/utils/constants.js`
-- **DEALER_STATUS** (1 connections) — `backend/src/utils/constants.js`
-- **ROLES** (1 connections) — `backend/src/utils/constants.js`
-- **TOKEN_TTL** (1 connections) — `backend/src/utils/constants.js`
+- **vercel.json** (3 connections) — `vercel.json`
+- **framework** (1 connections) — `vercel.json`
+- **headers** (1 connections) — `vercel.json`
+- **rewrites** (1 connections) — `vercel.json`
 
 ## Relationships
 
@@ -15,7 +15,7 @@
 
 ## Source Files
 
-- `backend/src/utils/constants.js`
+- `vercel.json`
 
 ## Audit Trail
 

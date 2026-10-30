@@ -4,10 +4,10 @@
 
 ## Key Concepts
 
-- **sync-all.mjs** (3 connections) — `scripts/sync-all.mjs`
-- **isVercel** (1 connections) — `scripts/sync-all.mjs`
-- **rootDir** (1 connections) — `scripts/sync-all.mjs`
-- **run()** (1 connections) — `scripts/sync-all.mjs`
+- **watch-sync.mjs** (3 connections) — `scripts/watch-sync.mjs`
+- **rootDir** (1 connections) — `scripts/watch-sync.mjs`
+- **srcDir** (1 connections) — `scripts/watch-sync.mjs`
+- **triggerSync()** (1 connections) — `scripts/watch-sync.mjs`
 
 ## Relationships
 
@@ -15,7 +15,7 @@
 
 ## Source Files
 
-- `scripts/sync-all.mjs`
+- `scripts/watch-sync.mjs`
 
 ## Audit Trail
 

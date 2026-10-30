@@ -1,47 +1,54 @@
 # Community 58
 
-> 26 nodes · cohesion 0.08
+> 26 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **Widgets** (9 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Best practices** (6 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Anatomy** (4 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Rendering modes** (4 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Mobile (iOS, iPadOS)** (3 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Specifications** (3 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **widgets.md** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Accented** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Accessory widgets** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Adding interactivity** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Appearances** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Apple HomeView** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Choosing margins and padding** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Displaying text in widgets** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Full-color** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **iOS dimensions** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **iPadOS dimensions** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Previews and placeholders** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **StandBy and CarPlay** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **System family widgets** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Updating widget content** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Using color** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
+- **zd()** (13 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
+- **Nd()** (12 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
+- **qd()** (12 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
+- **tf()** (10 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
+- **ef()** (8 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
+- **uf()** (8 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
+- **Xd()** (8 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
+- **et()** (7 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
+- **Gd()** (7 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
+- **lf()** (7 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
+- **tt()** (7 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
+- **of()** (6 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
+- **Rd()** (6 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
+- **Bd()** (5 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
+- **sf()** (5 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
+- **cf()** (4 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
+- **jf()** (4 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
+- **Zo()** (4 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
+- **Hd()** (3 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
+- **Ja()** (3 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
+- **mf()** (3 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
+- **ra()** (3 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
+- **Ud()** (3 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
+- **Fd()** (2 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
+- **fm()** (2 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
 - *... and 1 more nodes in this community*
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Price Presentation & Product UI]] (30 shared connections)
+- [[Product Requirements Documentation]] (11 shared connections)
+- [[Product Brand & Business Vision]] (9 shared connections)
+- [[Architecture Doc Generator]] (5 shared connections)
+- [[Pricing Regression Test Suite]] (4 shared connections)
+- [[Community 100]] (4 shared connections)
+- [[Community 37]] (3 shared connections)
+- [[Community 122]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/widgets.md`
+- `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
 
 ## Audit Trail
 
-- EXTRACTED: 50 (100%)
+- EXTRACTED: 154 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

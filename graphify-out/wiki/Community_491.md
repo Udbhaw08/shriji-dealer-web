@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **Rate Limiting Strategies & Brute-Force Defense** (2 connections) — `docs/security/rate-limiting-strategies.md`
-- **rate-limiting-strategies.md** (1 connections) — `docs/security/rate-limiting-strategies.md`
-- **Security Thresholds** (1 connections) — `docs/security/rate-limiting-strategies.md`
+- **crmUserSourceContactSync.test.mjs** (2 connections) — `backend/test/crmUserSourceContactSync.test.mjs`
+- **crmCalls** (1 connections) — `backend/test/crmUserSourceContactSync.test.mjs`
+- **mockContactsUnderAccount** (1 connections) — `backend/test/crmUserSourceContactSync.test.mjs`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/security/rate-limiting-strategies.md`
+- `backend/test/crmUserSourceContactSync.test.mjs`
 
 ## Audit Trail
 

@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **CacheManager** (4 connections) — `backend/src/services/cacheManager.js`
-- **cacheManager.js** (2 connections) — `backend/src/services/cacheManager.js`
-- **.constructor()** (1 connections) — `backend/src/services/cacheManager.js`
-- **.get()** (1 connections) — `backend/src/services/cacheManager.js`
-- **.set()** (1 connections) — `backend/src/services/cacheManager.js`
-- **globalCache** (1 connections) — `backend/src/services/cacheManager.js`
+- **MetricsTracker** (4 connections) — `backend/src/services/metrics.js`
+- **metrics.js** (2 connections) — `backend/src/services/metrics.js`
+- **metrics** (1 connections) — `backend/src/services/metrics.js`
+- **.constructor()** (1 connections) — `backend/src/services/metrics.js`
+- **.getSnapshot()** (1 connections) — `backend/src/services/metrics.js`
+- **.track()** (1 connections) — `backend/src/services/metrics.js`
 
 ## Relationships
 
@@ -17,7 +17,7 @@
 
 ## Source Files
 
-- `backend/src/services/cacheManager.js`
+- `backend/src/services/metrics.js`
 
 ## Audit Trail
 

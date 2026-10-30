@@ -299,7 +299,7 @@ dealersRouter.post('/sync-crm', async (req, res, next) => {
     if (!account) return res.json({ ok: false, message: 'CRM account not found' });
     await applyCrmAccountState(dealer, account);
     const updated = (await sql`select * from dealers where id = ${dealer.id}`)[0];
-    const pricebookId = updated.price_tier ? await resolvePricebookId(updated.price_tier) : null;
+    const pricebookId = updated.status === 'approved' && updated.price_tier ? await resolvePricebookId(updated.price_tier) : null;
     res.json({ ok: true, dealer: { ...updated, pricebook_id: pricebookId } });
   } catch (err) { next(err); }
 });

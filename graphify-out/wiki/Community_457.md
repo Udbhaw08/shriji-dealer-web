@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **PIN Code Serviceability Matrix** (2 connections) — `docs/guides/pincode-serviceability-matrix.md`
-- **pincode-serviceability-matrix.md** (1 connections) — `docs/guides/pincode-serviceability-matrix.md`
-- **Logistics Coverage** (1 connections) — `docs/guides/pincode-serviceability-matrix.md`
+- **Volume Tier Discounts & Quantity Slabs** (2 connections) — `docs/guides/pricing-tiers-and-slabs.md`
+- **pricing-tiers-and-slabs.md** (1 connections) — `docs/guides/pricing-tiers-and-slabs.md`
+- **Slab Structure** (1 connections) — `docs/guides/pricing-tiers-and-slabs.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/guides/pincode-serviceability-matrix.md`
+- `docs/guides/pricing-tiers-and-slabs.md`
 
 ## Audit Trail
 

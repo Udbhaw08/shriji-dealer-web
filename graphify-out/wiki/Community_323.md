@@ -1,28 +1,29 @@
 # Community 323
 
-> 7 nodes · cohesion 0.29
+> 7 nodes · cohesion 0.38
 
 ## Key Concepts
 
-- **Sequence Renderer** (5 connections) — `.agents/skills/archify/renderers/sequence/README.md`
-- **Layout budget** (2 connections) — `.agents/skills/archify/renderers/sequence/README.md`
-- **README.md** (1 connections) — `.agents/skills/archify/renderers/sequence/README.md`
-- **Column fit** (1 connections) — `.agents/skills/archify/renderers/sequence/README.md`
-- **Design Rules** (1 connections) — `.agents/skills/archify/renderers/sequence/README.md`
-- **Input** (1 connections) — `.agents/skills/archify/renderers/sequence/README.md`
-- **Legend** (1 connections) — `.agents/skills/archify/renderers/sequence/README.md`
+- **reset-test-users.js** (11 connections) — `backend/scripts/reset-test-users.js`
+- **runReset()** (5 connections) — `backend/scripts/reset-test-users.js`
+- **deleteCrmRecords()** (2 connections) — `backend/scripts/reset-test-users.js`
+- **searchCrmRecordIds()** (2 connections) — `backend/scripts/reset-test-users.js`
+- **args** (1 connections) — `backend/scripts/reset-test-users.js`
+- **customNumbers** (1 connections) — `backend/scripts/reset-test-users.js`
+- **isDryRun** (1 connections) — `backend/scripts/reset-test-users.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Master Codebase Architecture Reference]] (4 shared connections)
+- [[Live Pricing Audit Tool]] (3 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/sequence/README.md`
+- `backend/scripts/reset-test-users.js`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
+- EXTRACTED: 23 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

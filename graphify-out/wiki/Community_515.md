@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **SkipToContent.jsx** (1 connections) — `src/components/SkipToContent.jsx`
-- **SkipToContent()** (1 connections) — `src/components/SkipToContent.jsx`
+- **esm-CDaDaUT6.js** (1 connections) — `ios/App/App/public/assets/esm-CDaDaUT6.js`
+- **__vite__mapDeps()** (1 connections) — `ios/App/App/public/assets/esm-CDaDaUT6.js`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `src/components/SkipToContent.jsx`
+- `ios/App/App/public/assets/esm-CDaDaUT6.js`
 
 ## Audit Trail
 

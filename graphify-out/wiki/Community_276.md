@@ -15,7 +15,7 @@
 
 ## Relationships
 
-- [[Community 29]] (2 shared connections)
+- [[Zoho API Diagnostic Script]] (2 shared connections)
 
 ## Source Files
 

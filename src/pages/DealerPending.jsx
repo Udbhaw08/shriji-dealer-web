@@ -17,9 +17,13 @@ export default function DealerPending() {
   const isRejected = status === "rejected";
   const isRevoked = status === "revoked";
 
-  // Revalidate session once on mount to get freshest status from CRM/backend
+  // Live polling every 4s for instant convergence with Zoho CRM state changes
   useEffect(() => {
-    revalidateSession().catch(() => {});
+    revalidateSession(true).catch(() => {});
+    const interval = setInterval(() => {
+      revalidateSession(true).catch(() => {});
+    }, 4000);
+    return () => clearInterval(interval);
   }, []);
 
   const handleCheckStatus = async () => {
@@ -27,7 +31,7 @@ export default function DealerPending() {
     setRefreshing(true);
     setRefreshMessage("");
     try {
-      const updated = await revalidateSession();
+      const updated = await revalidateSession(true);
       const newStatus = updated?.dealer?.status || updated?.status;
       if (newStatus === "approved") {
         setRefreshMessage("🎉 Congratulations! Your dealership access has been approved.");
@@ -206,8 +210,8 @@ export default function DealerPending() {
               display: "inline-flex",
               alignItems: "center",
               justifyContent: "center",
-              width: 56,
-              height: 56,
+              width: 60,
+              height: 60,
               borderRadius: "50%",
               background: "#fee2e2",
               color: "#dc2626",
@@ -217,47 +221,150 @@ export default function DealerPending() {
             }}>
               ✕
             </div>
+            <div style={{
+              display: "inline-block",
+              padding: "4px 12px",
+              background: "#fee2e2",
+              border: "1px solid #fca5a5",
+              borderRadius: 20,
+              fontSize: ".78rem",
+              fontWeight: 700,
+              color: "#b91c1c",
+              textTransform: "uppercase",
+              letterSpacing: "0.05em",
+              marginBottom: 12,
+            }}>
+              {isRevoked ? "Dealership Inactive" : "Dealer Access Revoked / Not Approved"}
+            </div>
             <h1 style={{
-              fontSize: "1.45rem",
+              fontSize: "1.5rem",
               fontWeight: 800,
               margin: "0 0 8px",
               color: "#0f172a",
               letterSpacing: "-0.02em",
             }}>
-              {isRevoked ? "Dealership Inactive" : "Application Not Approved"}
+              {dealer?.name || dealer?.business_name ? (dealer.name || dealer.business_name) : "Dealer Account"}
             </h1>
             <p style={{
-              fontSize: ".92rem",
-              color: "#64748b",
+              fontSize: ".94rem",
+              color: "#475569",
               margin: "0 0 20px",
               lineHeight: 1.5,
             }}>
-              {dealer?.reject_reason ||
-                "Your application could not be verified with the provided business details."}
+              {dealer?.reject_reason
+                ? `CRM Verification Note: "${dealer.reject_reason}"`
+                : "Your dealership credentials are currently inactive or could not be verified in Zoho CRM."}
             </p>
 
+            {/* Strict feature stripping explanation */}
             <div style={{
-              padding: "14px 16px",
-              background: "#fef2f2",
-              border: "1px solid #fecaca",
-              borderRadius: 10,
-              fontSize: ".86rem",
-              color: "#991b1b",
-              marginBottom: 24,
-              lineHeight: 1.45,
+              background: "#fff1f2",
+              border: "1px solid #fecdd3",
+              borderRadius: "var(--r-md, 12px)",
+              padding: "16px 20px",
+              textAlign: "left",
+              marginBottom: 20,
             }}>
-              If you believe this is an error or would like to provide updated GST documentation, please contact Shriji Sunshine Support at <b>info@sunshine.in</b> or call support.
+              <div style={{ fontWeight: 700, fontSize: ".9rem", color: "#9f1239", marginBottom: 10, display: "flex", alignItems: "center", gap: 6 }}>
+                <span>🔒</span> Access Restrictions Enforced:
+              </div>
+              <ul style={{ margin: 0, padding: "0 0 0 18px", color: "#4c0519", fontSize: ".86rem", display: "grid", gap: 6 }}>
+                <li>Wholesale dealer pricing disabled — catalog switches to retail MRP only</li>
+                <li>Trade discounts, pricebooks, & 5+1 schemes locked</li>
+                <li>Staff invite and store team management disabled</li>
+                <li>Wholesale ordering and quote generation suspended</li>
+              </ul>
             </div>
 
+            {/* Live CRM Status Sync Section */}
+            <div style={{
+              background: "#f8fafc",
+              border: "1px solid #e2e8f0",
+              borderRadius: 12,
+              padding: "14px 16px",
+              marginBottom: 20,
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "space-between",
+              gap: 12,
+              flexWrap: "wrap",
+            }}>
+              <div style={{ textAlign: "left" }}>
+                <div style={{ fontSize: ".86rem", fontWeight: 700, color: "#1e293b", display: "flex", alignItems: "center", gap: 6 }}>
+                  <span style={{ display: "inline-block", width: 8, height: 8, borderRadius: "50%", background: "#ef4444" }} />
+                  Live Zoho CRM Status Sync
+                </div>
+                <div style={{ fontSize: ".78rem", color: "#64748b" }}>
+                  If your status was updated in CRM, click below to re-verify instantly
+                </div>
+              </div>
+              <button
+                type="button"
+                onClick={handleCheckStatus}
+                disabled={refreshing}
+                style={{
+                  padding: "8px 16px",
+                  fontSize: ".84rem",
+                  fontWeight: 700,
+                  borderRadius: 8,
+                  background: "#0f172a",
+                  color: "#ffffff",
+                  border: "none",
+                  cursor: refreshing ? "not-allowed" : "pointer",
+                  display: "inline-flex",
+                  alignItems: "center",
+                  gap: 6,
+                }}
+              >
+                {refreshing ? "Checking CRM…" : "Check Status Now ↻"}
+              </button>
+            </div>
+
+            {refreshMessage && (
+              <div style={{
+                padding: "10px 14px",
+                background: refreshMessage.includes("🎉") ? "#f0fdf4" : "#fef2f2",
+                border: `1px solid ${refreshMessage.includes("🎉") ? "#bbf7d0" : "#fecaca"}`,
+                borderRadius: 8,
+                fontSize: ".86rem",
+                color: refreshMessage.includes("🎉") ? "#166534" : "#991b1b",
+                marginBottom: 16,
+              }}>
+                {refreshMessage}
+              </div>
+            )}
+
+            {/* Quick Actions */}
             <div style={{ display: "grid", gap: 10 }}>
+              <a
+                href="https://wa.me/918826867932?text=Hello%20Shriji%20Sunshine%20Support,%20I%20am%20inquiring%20about%20my%20dealership%20account%20status."
+                target="_blank"
+                rel="noreferrer"
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  gap: 8,
+                  padding: "13px 20px",
+                  fontSize: ".96rem",
+                  fontWeight: 700,
+                  borderRadius: "var(--r-md, 10px)",
+                  background: "#25D366",
+                  color: "#ffffff",
+                  textDecoration: "none",
+                  boxShadow: "0 2px 8px rgba(37, 211, 102, 0.2)",
+                }}
+              >
+                <span>💬</span> Contact Support on WhatsApp
+              </a>
               <Link
                 to="/dealer/apply"
                 style={{
                   display: "flex",
                   alignItems: "center",
                   justifyContent: "center",
-                  padding: "13px 20px",
-                  fontSize: ".96rem",
+                  padding: "12px 20px",
+                  fontSize: ".94rem",
                   fontWeight: 700,
                   borderRadius: "var(--r-md, 10px)",
                   background: "var(--brand, #0f172a)",
@@ -265,7 +372,7 @@ export default function DealerPending() {
                   textDecoration: "none",
                 }}
               >
-                Submit New Application
+                Submit Updated Application
               </Link>
               <Link
                 to="/products"
@@ -283,7 +390,7 @@ export default function DealerPending() {
                   textDecoration: "none",
                 }}
               >
-                Continue Browsing as Retail Customer
+                Continue Browsing Catalog (Retail View)
               </Link>
             </div>
           </div>

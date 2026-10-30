@@ -1,32 +1,33 @@
 # Community 212
 
-> 10 nodes · cohesion 0.22
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **whatsappOtp.test.mjs** (9 connections) — `backend/test/whatsappOtp.test.mjs`
-- **resetConfig()** (2 connections) — `backend/test/whatsappOtp.test.mjs`
-- **resetDb()** (2 connections) — `backend/test/whatsappOtp.test.mjs`
-- **app** (1 connections) — `backend/test/whatsappOtp.test.mjs`
-- **db** (1 connections) — `backend/test/whatsappOtp.test.mjs`
-- **logEntries** (1 connections) — `backend/test/whatsappOtp.test.mjs`
-- **mockSql()** (1 connections) — `backend/test/whatsappOtp.test.mjs`
-- **startServer()** (1 connections) — `backend/test/whatsappOtp.test.mjs`
-- **stopServer()** (1 connections) — `backend/test/whatsappOtp.test.mjs`
-- **testEnv** (1 connections) — `backend/test/whatsappOtp.test.mjs`
+- **v1-compatibility.test.mjs** (9 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
+- **validate()** (3 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
+- **check()** (1 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
+- **legacyDataflowDocument()** (1 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
+- **narrowExplicitViewBoxDocuments()** (1 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
+- **OFFICIAL_V1_EXAMPLES** (1 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 97]] (1 shared connections)
+- [[Zoho Integration Architecture]] (1 shared connections)
 
 ## Source Files
 
-- `backend/test/whatsappOtp.test.mjs`
+- `.agents/skills/archify/test/v1-compatibility.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 18 (90%)
+- INFERRED: 2 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

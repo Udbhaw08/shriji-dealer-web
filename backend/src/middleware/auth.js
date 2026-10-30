@@ -27,16 +27,16 @@ export async function jwtAuth(req, res, next) {
         left join dealers d on d.id = u.dealer_id
         where u.id = ${claims.sub}`;
       const user = rows[0];
-      // pending users keep access so the app can poll /me while awaiting approval;
-      // rejected/revoked accounts are cut off immediately.
-      if (!user || user.status === 'rejected' || user.status === 'revoked' || user.status === 'inactive') {
+      // pending and rejected users keep access so the app can poll /me, converge with CRM, and display status;
+      // revoked/inactive accounts are cut off immediately.
+      if (!user || user.status === 'revoked' || user.status === 'inactive') {
         return res.status(401).json({ error: 'account_inactive' });
       }
       req.user = user;
       return next();
     } catch (dbErr) {
       // If DB is temporarily unreachable or times out, fallback gracefully to verified claims
-      if (claims && claims.sub && claims.status !== 'rejected' && claims.status !== 'revoked' && claims.status !== 'inactive') {
+      if (claims && claims.sub && claims.status !== 'revoked' && claims.status !== 'inactive') {
         req.user = {
           id: claims.sub,
           role: claims.role,

@@ -120,25 +120,28 @@ function loadCachedSession() {
       const claims = decodeJwtPayload(tokenObj?.accessToken);
       if (claims && claims.sub) {
         const isDealerSide = claims.role === "dealer" || claims.role === "dealer_staff" || claims.role === "admin";
+        const isApproved = claims.status === "active" || claims.status === "approved";
+        const dealerStatus = isApproved ? "approved" : (claims.status || "pending");
+        const canSeePrice = isApproved && claims.can_see_dealer_price !== false;
         const fallbackProfile = {
           role: isDealerSide ? "dealer" : (claims.role || "customer"),
-          status: claims.status === "active" ? "approved" : (claims.status || "approved"),
+          status: isDealerSide ? dealerStatus : "approved",
           userStatus: claims.status || "active",
           userId: claims.sub,
-          dealerId: claims.dealer_id || null,
+          dealerId: isApproved ? (claims.dealer_id || null) : null,
           authRole: claims.role || "customer",
-          canSeeDealerPrice: claims.can_see_dealer_price !== false,
+          canSeeDealerPrice: canSeePrice,
           dealer: isDealerSide
             ? {
                 id: claims.dealer_id || "dealer",
                 name: "Dealership",
-                status: "approved",
-                price_tier: claims.price_tier || null,
-                pricebookId: claims.pricebook_id || claims.price_tier || null,
+                status: dealerStatus,
+                price_tier: isApproved ? (claims.price_tier || null) : null,
+                pricebookId: isApproved ? (claims.pricebook_id || claims.price_tier || null) : null,
               }
             : null,
         };
-        if (fallbackProfile.dealer) registerDealer(fallbackProfile.dealer);
+        if (fallbackProfile.dealer && isApproved) registerDealer(fallbackProfile.dealer);
         syncPricebookWithSession(fallbackProfile);
         return fallbackProfile;
       }

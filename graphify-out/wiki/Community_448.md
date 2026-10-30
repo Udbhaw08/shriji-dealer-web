@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **Supabase Database Schema Reference** (2 connections) — `docs/architecture/supabase-schema-reference.md`
-- **supabase-schema-reference.md** (1 connections) — `docs/architecture/supabase-schema-reference.md`
-- **Primary Tables** (1 connections) — `docs/architecture/supabase-schema-reference.md`
+- **Zoho Commerce Inventory Synchronization** (2 connections) — `docs/architecture/zoho-inventory-sync.md`
+- **zoho-inventory-sync.md** (1 connections) — `docs/architecture/zoho-inventory-sync.md`
+- **Strategy** (1 connections) — `docs/architecture/zoho-inventory-sync.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/architecture/supabase-schema-reference.md`
+- `docs/architecture/zoho-inventory-sync.md`
 
 ## Audit Trail
 

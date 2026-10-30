@@ -57,7 +57,7 @@ const parseRate = (v) => {
 };
 
 /** item_id → dealer pricebook_rate */
-export async function fetchPricebookRates(pricebookId = env.zoho.commerce.dealerPricebookId) {
+export async function fetchPricebookRates(pricebookId = env.zoho?.commerce?.dealerPricebookId || null) {
   const data = await commerceFetch(`/pricebooks/${pricebookId}`);
   const items = data?.pricebook?.pricebook_items || [];
   const rates = {};
@@ -130,7 +130,7 @@ async function booksFetch(path, { method = 'GET', body } = {}) {
 }
 
 /** Assign a pricebook to a contact in Zoho Books / Commerce by contact_id */
-export async function assignPricebookToContact(contactId, pricebookId = env.zoho.commerce.dealerPricebookId) {
+export async function assignPricebookToContact(contactId, pricebookId = env.zoho?.commerce?.dealerPricebookId || null) {
   if (!contactId || !commerceConfigured()) return false;
   try {
     const data = await booksFetch(`/contacts/${contactId}?organization_id=${env.zoho.commerce.orgId}`, {
@@ -173,7 +173,7 @@ export async function fetchCommercePricebooks({ refresh = false } = {}) {
  * If not in cache, immediately fetches fresh pricebooks from Zoho Commerce.
  */
 export async function resolvePricebookId(tierOrId) {
-  if (!tierOrId) return env.zoho.commerce.dealerPricebookId;
+  if (!tierOrId) return env.zoho?.commerce?.dealerPricebookId || null;
   const clean = String(tierOrId).trim();
   if (/^\d{10,}$/.test(clean)) return clean; // Already a numeric Zoho ID
 
@@ -190,7 +190,7 @@ export async function resolvePricebookId(tierOrId) {
   if (match) return match.id;
 
   // 3. Fallback to default dealer pricebook
-  return env.zoho.commerce.dealerPricebookId;
+  return env.zoho?.commerce?.dealerPricebookId || null;
 }
 
 /**

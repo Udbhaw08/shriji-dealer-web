@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **OpenAPI 3.0 Specification Summary** (2 connections) — `docs/api/swagger-openapi-spec.md`
-- **swagger-openapi-spec.md** (1 connections) — `docs/api/swagger-openapi-spec.md`
-- **Services** (1 connections) — `docs/api/swagger-openapi-spec.md`
+- **Zoho CRM Webhook Event Payloads** (2 connections) — `docs/api/webhook-event-types.md`
+- **webhook-event-types.md** (1 connections) — `docs/api/webhook-event-types.md`
+- **Event: dealer.approved** (1 connections) — `docs/api/webhook-event-types.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/api/swagger-openapi-spec.md`
+- `docs/api/webhook-event-types.md`
 
 ## Audit Trail
 

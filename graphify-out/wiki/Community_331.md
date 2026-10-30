@@ -1,31 +1,28 @@
 # Community 331
 
-> 7 nodes · cohesion 0.48
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **motion-governor-browser.test.mjs** (9 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **run()** (5 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **load()** (4 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **media()** (3 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **screenshot()** (3 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **snapshot()** (2 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
+- **motion-governor.test.mjs** (6 connections) — `.agents/skills/archify/test/motion-governor.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/motion-governor.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/motion-governor.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/motion-governor.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/motion-governor.test.mjs`
+- **svgBlock()** (1 connections) — `.agents/skills/archify/test/motion-governor.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/motion-governor.test.mjs`
 
 ## Relationships
 
-- [[Community 63]] (4 shared connections)
-- [[Community 53]] (1 shared connections)
-- [[Community 153]] (1 shared connections)
-- [[Community 130]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/test/motion-governor-browser.test.mjs`
+- `.agents/skills/archify/test/motion-governor.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 27 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

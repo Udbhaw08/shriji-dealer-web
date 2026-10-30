@@ -1,48 +1,35 @@
 # Community 130
 
-> 14 nodes · cohesion 0.19
+> 14 nodes · cohesion 0.23
 
 ## Key Concepts
 
-- **findChrome()** (22 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **export-cleanup-browser.test.mjs** (8 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
-- **viewer-identifiers-browser.test.mjs** (7 connections) — `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
-- **evaluate()** (4 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
-- **executable()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **findOnPath()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **load()** (3 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
-- **load()** (3 connections) — `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
-- **run()** (3 connections) — `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
-- **exported()** (2 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
-- **cases** (1 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
-- **cases** (1 connections) — `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
+- **web-B9dQFlti.js** (13 connections) — `android/app/src/main/assets/public/assets/web-B9dQFlti.js`
+- **applyPrefix()** (4 connections) — `android/app/src/main/assets/public/assets/web-B9dQFlti.js`
+- **keys()** (4 connections) — `android/app/src/main/assets/public/assets/web-B9dQFlti.js`
+- **get()** (3 connections) — `android/app/src/main/assets/public/assets/web-B9dQFlti.js`
+- **migrate()** (3 connections) — `android/app/src/main/assets/public/assets/web-B9dQFlti.js`
+- **rawKeys()** (3 connections) — `android/app/src/main/assets/public/assets/web-B9dQFlti.js`
+- **clear()** (2 connections) — `android/app/src/main/assets/public/assets/web-B9dQFlti.js`
+- **remove()** (2 connections) — `android/app/src/main/assets/public/assets/web-B9dQFlti.js`
+- **removeOld()** (2 connections) — `android/app/src/main/assets/public/assets/web-B9dQFlti.js`
+- **set()** (2 connections) — `android/app/src/main/assets/public/assets/web-B9dQFlti.js`
+- **configure()** (1 connections) — `android/app/src/main/assets/public/assets/web-B9dQFlti.js`
+- **constructor()** (1 connections) — `android/app/src/main/assets/public/assets/web-B9dQFlti.js`
+- **impl()** (1 connections) — `android/app/src/main/assets/public/assets/web-B9dQFlti.js`
+- **prefix()** (1 connections) — `android/app/src/main/assets/public/assets/web-B9dQFlti.js`
 
 ## Relationships
 
-- [[Community 63]] (6 shared connections)
-- [[Community 53]] (5 shared connections)
-- [[Community 94]] (2 shared connections)
-- [[Community 153]] (2 shared connections)
-- [[Community 139]] (1 shared connections)
-- [[Community 328]] (1 shared connections)
-- [[Community 149]] (1 shared connections)
-- [[Community 150]] (1 shared connections)
-- [[Community 128]] (1 shared connections)
-- [[Community 331]] (1 shared connections)
-- [[Community 34]] (1 shared connections)
-- [[Community 184]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/bin/visual-check.mjs`
-- `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
-- `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
+- `android/app/src/main/assets/public/assets/web-B9dQFlti.js`
 
 ## Audit Trail
 
-- EXTRACTED: 62 (100%)
+- EXTRACTED: 42 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

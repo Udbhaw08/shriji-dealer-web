@@ -1,54 +1,66 @@
 # Mobile Responsive UI Skill
 
-> 46 nodes · cohesion 0.09
+> 47 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **get()** (27 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
-- **D()** (23 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
-- **np()** (20 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
-- **Tu()** (19 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
-- **bm()** (12 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
-- **ep()** (11 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
-- **vn()** (11 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
-- **vu()** (11 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
-- **am()** (10 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
-- **ip()** (10 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
-- **tp()** (10 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
-- **mm()** (9 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
-- **cu()** (8 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
-- **mo()** (8 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
-- **bl()** (7 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
-- **fn()** (7 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
-- **hc()** (7 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
-- **jm()** (7 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
-- **kt()** (7 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
-- **ln()** (7 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
-- **om()** (7 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
-- **tn()** (7 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
-- **zm()** (7 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
-- **cn()** (6 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
-- **ju()** (6 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
-- *... and 21 more nodes in this community*
+- **session.js** (54 connections) — `src/data/session.js`
+- **Login.jsx** (45 connections) — `src/pages/Login.jsx`
+- **DealerApply.jsx** (26 connections) — `src/pages/DealerApply.jsx`
+- **BrandApplyFlow.jsx** (23 connections) — `src/components/BrandApplyFlow.jsx`
+- **StaffDashboard.jsx** (16 connections) — `src/pages/StaffDashboard.jsx`
+- **revalidateSession()** (14 connections) — `src/data/session.js`
+- **StaffJoin.jsx** (14 connections) — `src/pages/StaffJoin.jsx`
+- **EmailVerificationPrompt.jsx** (12 connections) — `src/components/EmailVerificationPrompt.jsx`
+- **PhoneVerificationPrompt.jsx** (12 connections) — `src/components/PhoneVerificationPrompt.jsx`
+- **validators.js** (12 connections) — `src/data/validators.js`
+- **loginCode.js** (11 connections) — `src/data/loginCode.js`
+- **setSession()** (11 connections) — `src/data/session.js`
+- **apiUrl()** (9 connections) — `src/data/api.js`
+- **hasSession()** (8 connections) — `src/data/auth.js`
+- **signOut()** (8 connections) — `src/data/session.js`
+- **registerDealer()** (7 connections) — `src/data/dealer.js`
+- **isValidEmail()** (7 connections) — `src/data/validators.js`
+- **applyAsDealer()** (6 connections) — `src/data/auth.js`
+- **formatLoginCode()** (6 connections) — `src/data/loginCode.js`
+- **isValidName()** (6 connections) — `src/data/validators.js`
+- **isValidPhone()** (6 connections) — `src/data/validators.js`
+- **OtpDispatchFeedback.jsx** (5 connections) — `src/components/OtpDispatchFeedback.jsx`
+- **OtpDispatchFeedback()** (5 connections) — `src/components/OtpDispatchFeedback.jsx`
+- **switchToDealerSession()** (5 connections) — `src/data/session.js`
+- **BrandApplyFlow()** (4 connections) — `src/components/BrandApplyFlow.jsx`
+- *... and 22 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (50 shared connections)
-- [[Architecture Doc Generator]] (27 shared connections)
-- [[Graphify Agent Rules]] (21 shared connections)
-- [[Design System & UI Tokens]] (20 shared connections)
-- [[Community 40]] (16 shared connections)
-- [[Product Requirements Documentation]] (11 shared connections)
-- [[Community 37]] (10 shared connections)
-- [[Community 49]] (4 shared connections)
+- [[Testing & Workflow Skill]] (60 shared connections)
+- [[Community 53]] (32 shared connections)
+- [[Zoho Integration Skill]] (16 shared connections)
+- [[Community 32]] (13 shared connections)
+- [[Community 44]] (7 shared connections)
+- [[Community 170]] (1 shared connections)
+- [[Community 169]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-CZ0bF0iF.js`
+- `src/components/BrandApplyFlow.jsx`
+- `src/components/EmailVerificationPrompt.jsx`
+- `src/components/OtpDispatchFeedback.jsx`
+- `src/components/PhoneVerificationPrompt.jsx`
+- `src/data/api.js`
+- `src/data/auth.js`
+- `src/data/dealer.js`
+- `src/data/loginCode.js`
+- `src/data/session.js`
+- `src/data/validators.js`
+- `src/pages/DealerApply.jsx`
+- `src/pages/Login.jsx`
+- `src/pages/StaffDashboard.jsx`
+- `src/pages/StaffJoin.jsx`
 
 ## Audit Trail
 
-- EXTRACTED: 339 (100%)
+- EXTRACTED: 376 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

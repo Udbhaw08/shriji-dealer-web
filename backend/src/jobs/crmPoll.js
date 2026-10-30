@@ -89,9 +89,9 @@ export async function crmPoll() {
     }
   }
 
-  // 2. converge status and price tier for pending & approved dealers (webhook fallback)
+  // 2. converge status and price tier for all dealers linked to CRM (webhook fallback)
   const activeDealers = await sql`
-    select * from dealers where status in ('pending', 'approved') and zoho_account_id is not null`;
+    select * from dealers where zoho_account_id is not null`;
   for (const dealer of activeDealers) {
     try {
       const account = await crm.getDealerAccount(dealer.zoho_account_id);

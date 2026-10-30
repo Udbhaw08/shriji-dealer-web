@@ -4,25 +4,25 @@
 
 ## Key Concepts
 
-- **Apple Design Skill** (7 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Step 3: Audit through five lenses, in this order** (6 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Review process** (5 connections) — `.agents/skills/apple-design/SKILL.md`
-- **The references** (3 connections) — `.agents/skills/apple-design/SKILL.md`
-- **SKILL.md** (1 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Always load** (1 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Apple's design principles** (1 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Design improvement mode** (1 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Lens 1: Accessibility (failures are Critical)** (1 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Lens 2: Platform conventions (failures are usually High)** (1 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Lens 3: Visual design and craft (findings are High or Medium)** (1 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Lens 4: Interaction (findings are usually Medium)** (1 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Lens 5: Content and writing (findings are usually Medium)** (1 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Load by what is on screen** (1 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Specialized review modes** (1 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Step 1: Establish context** (1 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Step 2: Load references** (1 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Step 4: Write the report** (1 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Working rules** (1 connections) — `.agents/skills/apple-design/SKILL.md`
+- **App Clips** (9 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
+- **App Clip Codes** (5 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
+- **Designing your App Clip** (5 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
+- **Printing guidelines** (2 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
+- **app-clips.md** (1 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
+- **Creating App Clips for businesses** (1 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
+- **Creating content for an App Clip card** (1 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
+- **Customizing your App Clip Code** (1 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
+- **Displaying App Clip Codes** (1 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
+- **Interacting with App Clip Codes** (1 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
+- **Legal requirements** (1 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
+- **Limiting notifications** (1 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
+- **Preserving privacy** (1 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
+- **Showcasing your app** (1 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
+- **Using clear messaging** (1 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
+- **Verifying your printer’s calibration** (1 connections) — `.agents/skills/apple-design/references/hig/app-clips.md`
 
 ## Relationships
 
@@ -30,7 +30,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/SKILL.md`
+- `.agents/skills/apple-design/references/hig/app-clips.md`
 
 ## Audit Trail
 

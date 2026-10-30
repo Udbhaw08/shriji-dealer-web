@@ -342,7 +342,22 @@ function AccountLink({ className = "" }) {
   const s = useSession();
   const dealer = isDealer(s) ? (dealerById(s.dealerId) || s.dealer) : null;
   const isPending = s && (s.status === "pending" || s.dealer?.status === "pending");
+  const isRejected = s && (s.status === "rejected" || s.dealer?.status === "rejected");
   const isAuthenticated = s && s.role !== "guest";
+
+  if (isRejected) {
+    return (
+      <Link className={`acct ${className}`.trim()} to="/dealer/pending" title="Dealership application not approved · Click for details">
+        <span className="acct-dot" style={{ background: "#dc2626", color: "#fff" }} aria-hidden="true">
+          <Icon name="close" size={13} />
+        </span>
+        <span>
+          <b>{s.dealer?.business_name || s.dealer?.name || "Dealer App"}</b>
+          <span style={{ color: "#dc2626", fontWeight: 700 }}>Not Approved</span>
+        </span>
+      </Link>
+    );
+  }
 
   if (isPending) {
     return (

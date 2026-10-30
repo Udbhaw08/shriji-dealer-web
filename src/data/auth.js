@@ -540,15 +540,18 @@ export function sessionFromAuth(user, dealer) {
     ? user.status
     : dealer?.status || (isDealerSide ? (dealer ? dealer.status : "pending") : "approved");
 
+  const isApprovedDealer = dealerStatus === "approved" && (user.status === "active" || user.status === "approved");
+
   const canSeeDealerPrice =
-    user.role === "dealer" ||
-    (user.role === "dealer_staff" && user.can_see_dealer_price !== false && !dealer?.hide_staff_dealer_price);
+    isApprovedDealer &&
+    (user.role === "dealer" ||
+      (user.role === "dealer_staff" && user.can_see_dealer_price !== false && !dealer?.hide_staff_dealer_price));
 
   return {
     role: isDealerSide ? "dealer" : "customer",
     status: isDealerSide ? dealerStatus : "approved",
     userStatus: user.status,
-    dealerId: dealer?.id || user.dealer_id || null,
+    dealerId: isApprovedDealer ? (dealer?.id || user.dealer_id || null) : null,
     dealer: dealer
       ? {
           id: dealer.id,
@@ -560,12 +563,13 @@ export function sessionFromAuth(user, dealer) {
           pincode: dealer.pincode || dealer.pin || null,
           phone: dealer.phone || user.phone || null,
           status: dealerStatus,
-          dealer_code: dealer.dealer_code,
-          price_tier: dealer.price_tier || null,
-          pricebookId: dealer.pricebook_id || dealer.pricebookId || dealer.price_tier || null,
+          dealer_code: isApprovedDealer ? dealer.dealer_code : null,
+          price_tier: isApprovedDealer ? (dealer.price_tier || null) : null,
+          pricebookId: isApprovedDealer ? (dealer.pricebook_id || dealer.pricebookId || dealer.price_tier || null) : null,
           gst_number: dealer.gst_number || null,
           gst_treatment: dealer.gst_treatment || null,
           hide_staff_dealer_price: Boolean(dealer.hide_staff_dealer_price),
+          reject_reason: dealer.reject_reason || null,
         }
       : null,
     email: user.email || null,

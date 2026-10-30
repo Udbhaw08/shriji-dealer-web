@@ -4,27 +4,25 @@
 
 ## Key Concepts
 
-- **main()** (7 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **pruneStaleFiles()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **uniqueBySlug()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **generatedFiles()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **mapWithConcurrency()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **parseArgs()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **CacheManager** (4 connections) — `backend/src/services/cacheManager.js`
+- **cacheManager.js** (2 connections) — `backend/src/services/cacheManager.js`
+- **.constructor()** (1 connections) — `backend/src/services/cacheManager.js`
+- **.get()** (1 connections) — `backend/src/services/cacheManager.js`
+- **.set()** (1 connections) — `backend/src/services/cacheManager.js`
+- **globalCache** (1 connections) — `backend/src/services/cacheManager.js`
 
 ## Relationships
 
-- [[Community 77]] (6 shared connections)
-- [[Community 239]] (2 shared connections)
-- [[Community 247]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- `backend/src/services/cacheManager.js`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (95%)
-- INFERRED: 1 (5%)
+- EXTRACTED: 10 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

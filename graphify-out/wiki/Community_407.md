@@ -4,10 +4,10 @@
 
 ## Key Concepts
 
-- **REST API Endpoints Specification** (3 connections) — `docs/api/endpoints-spec.md`
-- **endpoints-spec.md** (1 connections) — `docs/api/endpoints-spec.md`
-- **Authentication Endpoints** (1 connections) — `docs/api/endpoints-spec.md`
-- **Catalog Endpoints** (1 connections) — `docs/api/endpoints-spec.md`
+- **Pricing Calculation & Zero-Leakage Rules Specification** (3 connections) — `docs/guides/pricing-rules.md`
+- **pricing-rules.md** (1 connections) — `docs/guides/pricing-rules.md`
+- **Overview** (1 connections) — `docs/guides/pricing-rules.md`
+- **Role Gating Rules** (1 connections) — `docs/guides/pricing-rules.md`
 
 ## Relationships
 
@@ -15,7 +15,7 @@
 
 ## Source Files
 
-- `docs/api/endpoints-spec.md`
+- `docs/guides/pricing-rules.md`
 
 ## Audit Trail
 

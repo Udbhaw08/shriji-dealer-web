@@ -1,54 +1,54 @@
 # Dealer Auth & Session Management
 
-> 91 nodes · cohesion 0.04
+> 94 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **_()** (448 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
-- **t()** (23 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
-- **tf()** (10 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
-- **ef()** (8 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
-- **uf()** (8 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
-- **et()** (7 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
-- **lf()** (7 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
-- **os()** (7 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
-- **request()** (7 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
-- **of()** (6 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
-- **ps()** (6 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
-- **eh()** (5 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
-- **es()** (5 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
-- **fs()** (5 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
-- **js()** (5 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
-- **Pd()** (5 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
-- **pt()** (5 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
-- **sf()** (5 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
-- **th()** (5 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
-- **ts()** (5 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
-- **unavailable()** (5 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
-- **cf()** (4 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
-- **De()** (4 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
-- **ds()** (4 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
-- **jf()** (4 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
-- *... and 66 more nodes in this community*
+- **_()** (448 connections) — `ios/App/App/public/assets/index-u94l9tSd.js`
+- **t()** (23 connections) — `ios/App/App/public/assets/index-u94l9tSd.js`
+- **tf()** (10 connections) — `ios/App/App/public/assets/index-u94l9tSd.js`
+- **ef()** (8 connections) — `ios/App/App/public/assets/index-u94l9tSd.js`
+- **uf()** (8 connections) — `ios/App/App/public/assets/index-u94l9tSd.js`
+- **et()** (7 connections) — `ios/App/App/public/assets/index-u94l9tSd.js`
+- **lf()** (7 connections) — `ios/App/App/public/assets/index-u94l9tSd.js`
+- **os()** (7 connections) — `ios/App/App/public/assets/index-u94l9tSd.js`
+- **request()** (7 connections) — `ios/App/App/public/assets/index-u94l9tSd.js`
+- **me()** (6 connections) — `ios/App/App/public/assets/index-u94l9tSd.js`
+- **of()** (6 connections) — `ios/App/App/public/assets/index-u94l9tSd.js`
+- **ps()** (6 connections) — `ios/App/App/public/assets/index-u94l9tSd.js`
+- **eh()** (5 connections) — `ios/App/App/public/assets/index-u94l9tSd.js`
+- **es()** (5 connections) — `ios/App/App/public/assets/index-u94l9tSd.js`
+- **fs()** (5 connections) — `ios/App/App/public/assets/index-u94l9tSd.js`
+- **js()** (5 connections) — `ios/App/App/public/assets/index-u94l9tSd.js`
+- **Pd()** (5 connections) — `ios/App/App/public/assets/index-u94l9tSd.js`
+- **pt()** (5 connections) — `ios/App/App/public/assets/index-u94l9tSd.js`
+- **sf()** (5 connections) — `ios/App/App/public/assets/index-u94l9tSd.js`
+- **th()** (5 connections) — `ios/App/App/public/assets/index-u94l9tSd.js`
+- **ts()** (5 connections) — `ios/App/App/public/assets/index-u94l9tSd.js`
+- **unavailable()** (5 connections) — `ios/App/App/public/assets/index-u94l9tSd.js`
+- **cf()** (4 connections) — `ios/App/App/public/assets/index-u94l9tSd.js`
+- **De()** (4 connections) — `ios/App/App/public/assets/index-u94l9tSd.js`
+- **ds()** (4 connections) — `ios/App/App/public/assets/index-u94l9tSd.js`
+- *... and 69 more nodes in this community*
 
 ## Relationships
 
-- [[Design System & UI Tokens]] (77 shared connections)
-- [[Architecture Doc Generator]] (70 shared connections)
-- [[Product Requirements Documentation]] (63 shared connections)
-- [[Mobile Responsive UI Skill]] (50 shared connections)
-- [[Graphify Agent Rules]] (47 shared connections)
-- [[Community 37]] (42 shared connections)
-- [[Community 49]] (38 shared connections)
-- [[Community 40]] (35 shared connections)
+- [[Dependencies & Package Config]] (84 shared connections)
+- [[Pricing & Roles Skill]] (69 shared connections)
+- [[Design System & UI Tokens]] (63 shared connections)
+- [[Claude Agent Instructions]] (50 shared connections)
+- [[Community 38]] (43 shared connections)
+- [[Community 45]] (40 shared connections)
+- [[Community 51]] (39 shared connections)
+- [[Community 41]] (35 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-CZ0bF0iF.js`
+- `ios/App/App/public/assets/index-u94l9tSd.js`
 
 ## Audit Trail
 
-- EXTRACTED: 747 (100%)
+- EXTRACTED: 760 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

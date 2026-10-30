@@ -147,7 +147,7 @@ export function fetchLiveProducts(force = false, pricebookId = null) {
  * Ensures the product store instantly adapts to the dealer's assigned Zoho Commerce Pricebook.
  */
 export function syncPricebookWithSession(session) {
-  const canSeePrice = session?.canSeeDealerPrice !== false;
+  const canSeePrice = Boolean(session?.canSeeDealerPrice);
   const isApproved = session?.status === "approved" || session?.status === "active";
   const pbId = (session && (session.role === "dealer" || session.role === "staff" || session.role === "dealer_staff" || session.role === "admin") && isApproved && canSeePrice)
     ? (session.dealer?.pricebookId || session.dealer?.price_tier || "3334672000000547177")

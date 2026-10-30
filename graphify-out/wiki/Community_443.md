@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **Repository Architecture Audit Report** (2 connections) — `docs/architecture/final-audit-report.md`
-- **final-audit-report.md** (1 connections) — `docs/architecture/final-audit-report.md`
-- **Verification Summary** (1 connections) — `docs/architecture/final-audit-report.md`
+- **Microservices Decoupled Architecture** (2 connections) — `docs/architecture/microservices-architecture.md`
+- **microservices-architecture.md** (1 connections) — `docs/architecture/microservices-architecture.md`
+- **Overview** (1 connections) — `docs/architecture/microservices-architecture.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/architecture/final-audit-report.md`
+- `docs/architecture/microservices-architecture.md`
 
 ## Audit Trail
 

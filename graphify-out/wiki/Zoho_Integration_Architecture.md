@@ -33,18 +33,18 @@
 
 ## Relationships
 
-- [[Zoho Backend & Proxy Endpoints]] (17 shared connections)
-- [[Community 33]] (10 shared connections)
-- [[Community 86]] (8 shared connections)
-- [[Community 47]] (7 shared connections)
-- [[Zoho API Diagnostic Script]] (6 shared connections)
-- [[Community 127]] (6 shared connections)
+- [[Graphify Knowledge Graph Skill]] (11 shared connections)
+- [[Community 43]] (10 shared connections)
+- [[Community 40]] (9 shared connections)
+- [[Community 83]] (8 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (8 shared connections)
+- [[Community 109]] (7 shared connections)
+- [[Graphify Workflow]] (6 shared connections)
 - [[Community 167]] (6 shared connections)
-- [[Product Brand & Business Vision]] (5 shared connections)
-- [[Community 52]] (5 shared connections)
+- [[Roles & Customer Sharing Spec]] (5 shared connections)
 - [[Community 107]] (4 shared connections)
-- [[Community 135]] (4 shared connections)
-- [[Community 209]] (3 shared connections)
+- [[Community 136]] (4 shared connections)
+- [[Community 210]] (3 shared connections)
 
 ## Source Files
 

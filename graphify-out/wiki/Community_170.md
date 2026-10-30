@@ -18,11 +18,11 @@
 
 ## Relationships
 
-- [[Community 30]] (6 shared connections)
-- [[Pricing & Roles Skill]] (5 shared connections)
-- [[Community 54]] (3 shared connections)
-- [[Community 41]] (2 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (1 shared connections)
+- [[Community 32]] (6 shared connections)
+- [[Zoho Integration Skill]] (5 shared connections)
+- [[Community 53]] (3 shared connections)
+- [[Community 44]] (2 shared connections)
+- [[Mobile Responsive UI Skill]] (1 shared connections)
 
 ## Source Files
 

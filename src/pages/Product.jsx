@@ -88,7 +88,7 @@ export default function Product() {
     }
   };
 
-  const canSeePrice = session?.canSeeDealerPrice !== false;
+  const canSeePrice = Boolean(session?.canSeeDealerPrice);
 
   useEffect(() => {
     if (lookupKey) {
@@ -735,7 +735,7 @@ export default function Product() {
               customerView={customerView}
               dealer={me}
               sharedBy={sharedBy}
-              canSeeDealerPrice={session?.canSeeDealerPrice !== false}
+              canSeeDealerPrice={Boolean(session?.canSeeDealerPrice)}
               loadingPrice={isPriceFetching}
             />
 

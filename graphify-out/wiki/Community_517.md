@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **esm-CpbiA9R_.js** (1 connections) — `ios/App/App/public/assets/esm-CpbiA9R_.js`
-- **__vite__mapDeps()** (1 connections) — `ios/App/App/public/assets/esm-CpbiA9R_.js`
+- **requestLogger.js** (1 connections) — `backend/src/middleware/requestLogger.js`
+- **requestLogger()** (1 connections) — `backend/src/middleware/requestLogger.js`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `ios/App/App/public/assets/esm-CpbiA9R_.js`
+- `backend/src/middleware/requestLogger.js`
 
 ## Audit Trail
 

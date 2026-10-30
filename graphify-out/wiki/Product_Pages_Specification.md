@@ -1,6 +1,6 @@
 # Product Pages Specification
 
-> 62 nodes · cohesion 0.06
+> 61 nodes · cohesion 0.06
 
 ## Key Concepts
 
@@ -12,7 +12,6 @@
 - **env** (15 connections) — `backend/src/config/env.js`
 - **webhooks.js** (15 connections) — `backend/src/routes/webhooks.js`
 - **upload.js** (12 connections) — `backend/src/routes/upload.js`
-- **errorHandler.js** (10 connections) — `backend/src/middleware/errorHandler.js`
 - **rateLimit.js** (10 connections) — `backend/src/middleware/rateLimit.js`
 - **rateLimit()** (9 connections) — `backend/src/middleware/rateLimit.js`
 - **admin.js** (9 connections) — `backend/src/routes/admin.js`
@@ -29,17 +28,18 @@
 - **adminRouter** (4 connections) — `backend/src/routes/admin.js`
 - **app** (4 connections) — `backend/src/app.js`
 - **rateLimitFix.test.mjs** (4 connections) — `backend/test/rateLimitFix.test.mjs`
-- *... and 37 more nodes in this community*
+- **[...path].js** (3 connections) — `api/auth/[...path].js`
+- *... and 36 more nodes in this community*
 
 ## Relationships
 
-- [[Pricing Regression Test Suite]] (33 shared connections)
-- [[Community 45]] (21 shared connections)
-- [[Community 50]] (15 shared connections)
-- [[Community 43]] (9 shared connections)
-- [[Community 116]] (6 shared connections)
-- [[Community 51]] (5 shared connections)
-- [[Community 92]] (4 shared connections)
+- [[Live Pricing Audit Tool]] (32 shared connections)
+- [[Community 47]] (23 shared connections)
+- [[Master Codebase Architecture Reference]] (17 shared connections)
+- [[Community 164]] (6 shared connections)
+- [[Community 72]] (5 shared connections)
+- [[Community 90]] (4 shared connections)
+- [[Community 188]] (4 shared connections)
 - [[Client Products Data Store]] (2 shared connections)
 
 ## Source Files
@@ -67,7 +67,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 333 (100%)
+- EXTRACTED: 323 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

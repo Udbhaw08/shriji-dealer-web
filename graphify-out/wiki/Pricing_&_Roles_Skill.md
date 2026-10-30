@@ -1,69 +1,55 @@
 # Pricing & Roles Skill
 
-> 46 nodes · cohesion 0.09
+> 49 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **ui.jsx** (45 connections) — `src/ui.jsx`
-- **Home.jsx** (26 connections) — `src/pages/Home.jsx`
-- **site.js** (24 connections) — `src/data/site.js`
-- **Icon()** (20 connections) — `src/ui.jsx`
-- **Schemes.jsx** (17 connections) — `src/pages/Schemes.jsx`
-- **Support.jsx** (17 connections) — `src/pages/Support.jsx`
-- **COMPANY** (16 connections) — `src/data/site.js`
-- **HeroSlider.jsx** (12 connections) — `src/components/HeroSlider.jsx`
-- **api.js** (12 connections) — `src/data/api.js`
-- **ContentAdminDashboard.jsx** (12 connections) — `src/pages/ContentAdminDashboard.jsx`
-- **UnderMaintenance.jsx** (8 connections) — `src/components/UnderMaintenance.jsx`
-- **video.js** (6 connections) — `src/utils/video.js`
-- **UnderMaintenance()** (5 connections) — `src/components/UnderMaintenance.jsx`
-- **LegalPrivacy.jsx** (5 connections) — `src/pages/LegalPrivacy.jsx`
-- **LegalTerms.jsx** (5 connections) — `src/pages/LegalTerms.jsx`
-- **PrivacyPolicy.jsx** (5 connections) — `src/pages/PrivacyPolicy.jsx`
-- **TermsOfService.jsx** (5 connections) — `src/pages/TermsOfService.jsx`
-- **parseVideoUrl()** (5 connections) — `src/utils/video.js`
-- **FileOrUrlInput.jsx** (4 connections) — `src/components/FileOrUrlInput.jsx`
-- **EnquiryButtons()** (4 connections) — `src/ui.jsx`
-- **HeroSlider()** (3 connections) — `src/components/HeroSlider.jsx`
-- **SCHEMES** (3 connections) — `src/data/site.js`
-- **STATS** (3 connections) — `src/data/site.js`
-- **video-banner.test.mjs** (3 connections) — `src/data/video-banner.test.mjs`
-- **FileOrUrlInput()** (2 connections) — `src/components/FileOrUrlInput.jsx`
-- *... and 21 more nodes in this community*
+- **n()** (32 connections) — `ios/App/App/public/assets/index-u94l9tSd.js`
+- **it()** (20 connections) — `ios/App/App/public/assets/index-u94l9tSd.js`
+- **Ya()** (20 connections) — `ios/App/App/public/assets/index-u94l9tSd.js`
+- **k()** (19 connections) — `ios/App/App/public/assets/index-u94l9tSd.js`
+- **st()** (17 connections) — `ios/App/App/public/assets/index-u94l9tSd.js`
+- **A()** (15 connections) — `ios/App/App/public/assets/index-u94l9tSd.js`
+- **Ri()** (15 connections) — `ios/App/App/public/assets/index-u94l9tSd.js`
+- **ft()** (13 connections) — `ios/App/App/public/assets/index-u94l9tSd.js`
+- **Dn()** (12 connections) — `ios/App/App/public/assets/index-u94l9tSd.js`
+- **ut()** (11 connections) — `ios/App/App/public/assets/index-u94l9tSd.js`
+- **jt()** (10 connections) — `ios/App/App/public/assets/index-u94l9tSd.js`
+- **ct()** (9 connections) — `ios/App/App/public/assets/index-u94l9tSd.js`
+- **go()** (9 connections) — `ios/App/App/public/assets/index-u94l9tSd.js`
+- **nt()** (9 connections) — `ios/App/App/public/assets/index-u94l9tSd.js`
+- **ve()** (9 connections) — `ios/App/App/public/assets/index-u94l9tSd.js`
+- **O()** (8 connections) — `ios/App/App/public/assets/index-u94l9tSd.js`
+- **ot()** (8 connections) — `ios/App/App/public/assets/index-u94l9tSd.js`
+- **po()** (8 connections) — `ios/App/App/public/assets/index-u94l9tSd.js`
+- **xt()** (8 connections) — `ios/App/App/public/assets/index-u94l9tSd.js`
+- **dt()** (7 connections) — `ios/App/App/public/assets/index-u94l9tSd.js`
+- **Gt()** (7 connections) — `ios/App/App/public/assets/index-u94l9tSd.js`
+- **Id()** (7 connections) — `ios/App/App/public/assets/index-u94l9tSd.js`
+- **jn()** (7 connections) — `ios/App/App/public/assets/index-u94l9tSd.js`
+- **kf()** (7 connections) — `ios/App/App/public/assets/index-u94l9tSd.js`
+- **Ko()** (7 connections) — `ios/App/App/public/assets/index-u94l9tSd.js`
+- *... and 24 more nodes in this community*
 
 ## Relationships
 
-- [[Community 54]] (39 shared connections)
-- [[Community 30]] (28 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (16 shared connections)
+- [[Dealer Auth & Session Management]] (69 shared connections)
+- [[Dependencies & Package Config]] (36 shared connections)
+- [[Claude Agent Instructions]] (27 shared connections)
+- [[Community 51]] (17 shared connections)
+- [[Community 38]] (13 shared connections)
 - [[Community 41]] (11 shared connections)
-- [[Claude Agent Instructions]] (9 shared connections)
-- [[Community 170]] (5 shared connections)
-- [[Community 169]] (1 shared connections)
+- [[Design System & UI Tokens]] (9 shared connections)
+- [[Community 45]] (6 shared connections)
 
 ## Source Files
 
-- `src/components/FileOrUrlInput.jsx`
-- `src/components/HeroSlider.jsx`
-- `src/components/UnderMaintenance.jsx`
-- `src/data/api.js`
-- `src/data/site.js`
-- `src/data/video-banner.test.mjs`
-- `src/pages/ContentAdminDashboard.jsx`
-- `src/pages/Home.jsx`
-- `src/pages/LegalPrivacy.jsx`
-- `src/pages/LegalTerms.jsx`
-- `src/pages/PrivacyPolicy.jsx`
-- `src/pages/Schemes.jsx`
-- `src/pages/Support.jsx`
-- `src/pages/TermsOfService.jsx`
-- `src/ui.jsx`
-- `src/utils/video.js`
+- `ios/App/App/public/assets/index-u94l9tSd.js`
 
 ## Audit Trail
 
-- EXTRACTED: 298 (100%)
-- INFERRED: 1 (0%)
+- EXTRACTED: 414 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

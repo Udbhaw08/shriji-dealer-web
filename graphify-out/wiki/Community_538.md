@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **analytics.js** (1 connections) — `src/utils/analytics.js`
-- **trackEvent()** (1 connections) — `src/utils/analytics.js`
+- **clipboard.js** (1 connections) — `src/utils/clipboard.js`
+- **copyToClipboard()** (1 connections) — `src/utils/clipboard.js`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `src/utils/analytics.js`
+- `src/utils/clipboard.js`
 
 ## Audit Trail
 

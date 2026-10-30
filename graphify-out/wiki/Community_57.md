@@ -1,48 +1,56 @@
 # Community 57
 
-> 29 nodes · cohesion 0.07
+> 27 nodes · cohesion 0.23
 
 ## Key Concepts
 
-- **Live Activities** (8 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Anatomy** (6 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Best practices** (6 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Presentation** (6 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Specifications** (5 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **live-activities.md** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Adding transitions and animating content updates** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **CarPlay** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **CarPlay dimensions** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Choosing colors** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Compact** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Compact presentation** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Creating Live Activity layouts** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Expanded** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Expanded presentation** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **iOS dimensions** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **iPadOS dimensions** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Lock Screen** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Lock Screen presentation** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **macOS dimensions** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Minimal** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Minimal presentation** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- *... and 4 more nodes in this community*
+- **fetchZohoProductById()** (21 connections) — `api/_lib/zoho.js`
+- **fetchZohoProducts()** (20 connections) — `api/_lib/zoho.js`
+- **getZohoConfig()** (16 connections) — `api/_lib/zoho.js`
+- **fetchZohoWithRetry()** (15 connections) — `api/_lib/zoho.js`
+- **sync-all-product-details.mjs** (15 connections) — `scripts/sync-all-product-details.mjs`
+- **syncProductDetailsPool()** (14 connections) — `api/_lib/zoho.js`
+- **main()** (14 connections) — `scripts/sync-all-product-details.mjs`
+- **fetchAllRawZohoProducts()** (11 connections) — `api/_lib/zoho.js`
+- **fetchZohoCollectionProductIds()** (10 connections) — `api/_lib/zoho.js`
+- **fetchResolvedPricebookRates()** (7 connections) — `api/_lib/zoho.js`
+- **fetchZohoPricebookItems()** (7 connections) — `api/_lib/zoho.js`
+- **getTrialCollectionId()** (7 connections) — `api/_lib/zoho.js`
+- **readProductDetailsDiskCache()** (7 connections) — `api/_lib/zoho.js`
+- **verify-10-products.mjs** (7 connections) — `scripts/verify-10-products.mjs`
+- **resolvePricebookId()** (6 connections) — `api/_lib/zoho.js`
+- **writeProductDetailDiskCache()** (6 connections) — `api/_lib/zoho.js`
+- **getCategoryVisibilityMap()** (5 connections) — `api/_lib/zoho.js`
+- **readProductsDiskCache()** (5 connections) — `api/_lib/zoho.js`
+- **verify10Products()** (5 connections) — `scripts/verify-10-products.mjs`
+- **fetchZohoPricebooks()** (4 connections) — `api/_lib/zoho.js`
+- **fetchZohoRawCategories()** (4 connections) — `api/_lib/zoho.js`
+- **getDealerById()** (4 connections) — `api/_lib/zoho.js`
+- **isBannerItem()** (3 connections) — `api/_lib/zoho.js`
+- **isLogoItem()** (3 connections) — `api/_lib/zoho.js`
+- **isSchemeItem()** (3 connections) — `api/_lib/zoho.js`
+- *... and 2 more nodes in this community*
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 48]] (37 shared connections)
+- [[Community 90]] (7 shared connections)
+- [[Community 164]] (7 shared connections)
+- [[Community 252]] (6 shared connections)
+- [[Community 148]] (2 shared connections)
+- [[Community 47]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/live-activities.md`
+- `api/_lib/zoho.js`
+- `scripts/sync-all-product-details.mjs`
+- `scripts/sync-product-details.mjs`
+- `scripts/verify-10-products.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 56 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 223 (100%)
+- INFERRED: 1 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

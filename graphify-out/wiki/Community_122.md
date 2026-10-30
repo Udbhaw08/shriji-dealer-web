@@ -1,36 +1,45 @@
 # Community 122
 
-> 15 nodes · cohesion 0.13
+> 15 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **Buttons** (8 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
-- **Desktop (macOS)** (5 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
-- **buttons.md** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
-- **Content** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
-- **Help buttons** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
-- **Image buttons** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
-- **Push buttons** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
-- **Role** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
-- **Square buttons** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
-- **Style** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
+- **q()** (13 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
+- **wa()** (10 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
+- **Iu()** (9 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
+- **fu()** (6 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
+- **Do()** (5 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
+- **Nu()** (5 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
+- **ba()** (4 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
+- **eo()** (4 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
+- **Ru()** (4 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
+- **xa()** (4 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
+- **du()** (3 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
+- **pu()** (3 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
+- **qn()** (3 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
+- **wp()** (3 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
+- **Ua()** (2 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Price Presentation & Product UI]] (16 shared connections)
+- [[Product Requirements Documentation]] (7 shared connections)
+- [[Pricing Regression Test Suite]] (7 shared connections)
+- [[Product Brand & Business Vision]] (4 shared connections)
+- [[Community 37]] (2 shared connections)
+- [[Community 58]] (2 shared connections)
+- [[Community 129]] (1 shared connections)
+- [[Community 100]] (1 shared connections)
+- [[Community 31]] (1 shared connections)
+- [[Architecture Doc Generator]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/buttons.md`
+- `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
 
 ## Audit Trail
 
-- EXTRACTED: 28 (100%)
+- EXTRACTED: 78 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

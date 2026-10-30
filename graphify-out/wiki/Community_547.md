@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **slugify.js** (1 connections) — `backend/src/utils/slugify.js`
-- **slugify()** (1 connections) — `backend/src/utils/slugify.js`
+- **graphify.md** (1 connections) — `.agents/workflows/graphify.md`
+- **Workflow: graphify** (1 connections) — `.agents/workflows/graphify.md`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `backend/src/utils/slugify.js`
+- `.agents/workflows/graphify.md`
 
 ## Audit Trail
 

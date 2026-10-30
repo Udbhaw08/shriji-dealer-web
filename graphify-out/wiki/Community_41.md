@@ -1,60 +1,54 @@
 # Community 41
 
-> 35 nodes · cohesion 0.11
+> 36 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **Products.jsx** (28 connections) — `src/pages/Products.jsx`
-- **productsStore.js** (25 connections) — `src/data/productsStore.js`
-- **ProductSearchBar.jsx** (15 connections) — `src/components/ProductSearchBar.jsx`
-- **useProducts()** (12 connections) — `src/data/productsStore.js`
-- **searchHelper.js** (11 connections) — `src/data/searchHelper.js`
-- **fetchLiveProducts()** (7 connections) — `src/data/productsStore.js`
-- **syncPricebookWithSession()** (7 connections) — `src/data/productsStore.js`
-- **ProductSearchBar()** (6 connections) — `src/components/ProductSearchBar.jsx`
-- **products.js** (5 connections) — `src/data/products.js`
-- **getSuggestions()** (5 connections) — `src/data/searchHelper.js`
-- **getAccessToken()** (4 connections) — `src/data/auth.js`
-- **filters.test.mjs** (4 connections) — `src/data/filters.test.mjs`
-- **filtersHelper.js** (4 connections) — `src/data/filtersHelper.js`
-- **loadCached()** (4 connections) — `src/data/productsStore.js`
-- **autocorrectQuery()** (4 connections) — `src/data/searchHelper.js`
-- **buildSearchDictionary()** (4 connections) — `src/data/searchHelper.js`
-- **getProductMotorType()** (3 connections) — `src/data/filtersHelper.js`
-- **getProductSize()** (3 connections) — `src/data/filtersHelper.js`
-- **emit()** (3 connections) — `src/data/productsStore.js`
-- **syncTagsLive()** (3 connections) — `src/data/productsStore.js`
-- **CATEGORIES** (2 connections) — `src/data/products.js`
-- **getCacheKey()** (2 connections) — `src/data/productsStore.js`
-- **sanitizeCategories()** (2 connections) — `src/data/productsStore.js`
-- **useProduct()** (2 connections) — `src/data/productsStore.js`
-- **getPopularSearches()** (2 connections) — `src/data/searchHelper.js`
-- *... and 10 more nodes in this community*
+- **.addEventListener()** (19 connections) — `ios/App/App/public/assets/index-u94l9tSd.js`
+- **b()** (17 connections) — `ios/App/App/public/assets/index-u94l9tSd.js`
+- **h()** (16 connections) — `ios/App/App/public/assets/index-u94l9tSd.js`
+- **fp()** (13 connections) — `ios/App/App/public/assets/index-u94l9tSd.js`
+- **.removeEventListener()** (12 connections) — `ios/App/App/public/assets/index-u94l9tSd.js`
+- **delete()** (11 connections) — `ios/App/App/public/assets/index-u94l9tSd.js`
+- **v()** (8 connections) — `ios/App/App/public/assets/index-u94l9tSd.js`
+- **lp()** (7 connections) — `ios/App/App/public/assets/index-u94l9tSd.js`
+- **cm()** (6 connections) — `ios/App/App/public/assets/index-u94l9tSd.js`
+- **em()** (6 connections) — `ios/App/App/public/assets/index-u94l9tSd.js`
+- **.blur()** (6 connections) — `ios/App/App/public/assets/index-u94l9tSd.js`
+- **.scrollIntoView()** (6 connections) — `ios/App/App/public/assets/index-u94l9tSd.js`
+- **g()** (6 connections) — `ios/App/App/public/assets/index-u94l9tSd.js`
+- **tm()** (6 connections) — `ios/App/App/public/assets/index-u94l9tSd.js`
+- **hm()** (5 connections) — `ios/App/App/public/assets/index-u94l9tSd.js`
+- **Rp()** (5 connections) — `ios/App/App/public/assets/index-u94l9tSd.js`
+- **uh()** (5 connections) — `ios/App/App/public/assets/index-u94l9tSd.js`
+- **Bp()** (4 connections) — `ios/App/App/public/assets/index-u94l9tSd.js`
+- **fe()** (4 connections) — `ios/App/App/public/assets/index-u94l9tSd.js`
+- **.getClientRects()** (4 connections) — `ios/App/App/public/assets/index-u94l9tSd.js`
+- **pm()** (4 connections) — `ios/App/App/public/assets/index-u94l9tSd.js`
+- **Se()** (4 connections) — `ios/App/App/public/assets/index-u94l9tSd.js`
+- **U()** (4 connections) — `ios/App/App/public/assets/index-u94l9tSd.js`
+- **up()** (4 connections) — `ios/App/App/public/assets/index-u94l9tSd.js`
+- **Vp()** (4 connections) — `ios/App/App/public/assets/index-u94l9tSd.js`
+- *... and 11 more nodes in this community*
 
 ## Relationships
 
-- [[Community 30]] (19 shared connections)
+- [[Dealer Auth & Session Management]] (35 shared connections)
+- [[Claude Agent Instructions]] (16 shared connections)
 - [[Pricing & Roles Skill]] (11 shared connections)
-- [[Community 54]] (7 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (7 shared connections)
-- [[Claude Agent Instructions]] (5 shared connections)
-- [[Community 170]] (2 shared connections)
-- [[Community 169]] (1 shared connections)
+- [[Dependencies & Package Config]] (10 shared connections)
+- [[Community 51]] (6 shared connections)
+- [[Community 45]] (5 shared connections)
+- [[Community 38]] (5 shared connections)
+- [[Design System & UI Tokens]] (2 shared connections)
 
 ## Source Files
 
-- `src/components/ProductSearchBar.jsx`
-- `src/data/auth.js`
-- `src/data/filters.test.mjs`
-- `src/data/filtersHelper.js`
-- `src/data/products.js`
-- `src/data/productsStore.js`
-- `src/data/searchHelper.js`
-- `src/pages/Products.jsx`
+- `ios/App/App/public/assets/index-u94l9tSd.js`
 
 ## Audit Trail
 
-- EXTRACTED: 178 (100%)
+- EXTRACTED: 216 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

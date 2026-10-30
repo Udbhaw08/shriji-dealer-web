@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **crmUserSourceContactSync.test.mjs** (2 connections) — `backend/test/crmUserSourceContactSync.test.mjs`
-- **crmCalls** (1 connections) — `backend/test/crmUserSourceContactSync.test.mjs`
-- **mockContactsUnderAccount** (1 connections) — `backend/test/crmUserSourceContactSync.test.mjs`
+- **repository-language-metadata.test.mjs** (2 connections) — `.agents/skills/archify/test/repository-language-metadata.test.mjs`
+- **linguistGenerated()** (1 connections) — `.agents/skills/archify/test/repository-language-metadata.test.mjs`
+- **repoRoot** (1 connections) — `.agents/skills/archify/test/repository-language-metadata.test.mjs`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `backend/test/crmUserSourceContactSync.test.mjs`
+- `.agents/skills/archify/test/repository-language-metadata.test.mjs`
 
 ## Audit Trail
 

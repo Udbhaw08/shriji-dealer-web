@@ -21,8 +21,8 @@
 
 - [[Zoho Integration Architecture]] (6 shared connections)
 - [[Community 141]] (3 shared connections)
-- [[Community 64]] (2 shared connections)
-- [[Community 114]] (1 shared connections)
+- [[Community 63]] (2 shared connections)
+- [[Community 115]] (1 shared connections)
 
 ## Source Files
 

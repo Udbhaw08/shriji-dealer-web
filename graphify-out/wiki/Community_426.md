@@ -4,14 +4,14 @@
 
 ## Key Concepts
 
-- **bias** (4 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **col** (4 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
 - **maximum** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
 - **minimum** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
 - **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
 
 ## Relationships
 
-- [[Graphify Knowledge Graph Skill]] (1 shared connections)
+- [[Oxlint Linter Configuration]] (1 shared connections)
 
 ## Source Files
 

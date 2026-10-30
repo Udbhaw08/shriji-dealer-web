@@ -33,8 +33,8 @@
 
 ## Relationships
 
-- [[Community 50]] (16 shared connections)
-- [[Pricing Regression Test Suite]] (14 shared connections)
+- [[Master Codebase Architecture Reference]] (16 shared connections)
+- [[Live Pricing Audit Tool]] (14 shared connections)
 - [[Product Pages Specification]] (2 shared connections)
 
 ## Source Files

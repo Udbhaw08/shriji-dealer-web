@@ -4,51 +4,53 @@
 
 ## Key Concepts
 
-- **n()** (32 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
-- **it()** (20 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
-- **Ya()** (20 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
-- **k()** (19 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
-- **st()** (17 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
-- **A()** (15 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
-- **Ri()** (15 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
-- **ft()** (13 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
-- **Dn()** (12 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
-- **ut()** (11 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
-- **jt()** (10 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
-- **ct()** (9 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
-- **go()** (9 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
-- **nt()** (9 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
-- **ve()** (9 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
-- **O()** (8 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
-- **ot()** (8 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
-- **po()** (8 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
-- **xt()** (8 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
-- **dt()** (7 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
-- **Gt()** (7 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
-- **Id()** (7 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
-- **jn()** (7 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
-- **kf()** (7 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
-- **Ko()** (7 connections) — `ios/App/App/public/assets/index-CZ0bF0iF.js`
+- **kr()** (25 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
+- **Nr()** (21 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
+- **gf()** (20 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
+- **Ei()** (12 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
+- **jr()** (11 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
+- **vn()** (11 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
+- **af()** (10 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
+- **ii()** (10 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
+- **Si()** (10 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
+- **hr()** (8 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
+- **kc()** (8 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
+- **ki()** (8 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
+- **qr()** (8 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
+- **xr()** (8 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
+- **br()** (7 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
+- **fn()** (7 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
+- **Fr()** (7 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
+- **hn()** (7 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
+- **ln()** (7 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
+- **Oi()** (7 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
+- **ci()** (6 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
+- **Ir()** (6 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
+- **mr()** (6 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
+- **Rr()** (6 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
+- **Vr()** (6 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
 - *... and 26 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (70 shared connections)
-- [[Design System & UI Tokens]] (34 shared connections)
-- [[Mobile Responsive UI Skill]] (27 shared connections)
-- [[Community 49]] (18 shared connections)
-- [[Community 37]] (14 shared connections)
-- [[Community 40]] (12 shared connections)
-- [[Product Requirements Documentation]] (9 shared connections)
-- [[Graphify Agent Rules]] (8 shared connections)
+- [[Price Presentation & Product UI]] (52 shared connections)
+- [[Product Requirements Documentation]] (18 shared connections)
+- [[Product Brand & Business Vision]] (14 shared connections)
+- [[Pricing Regression Test Suite]] (12 shared connections)
+- [[Community 129]] (7 shared connections)
+- [[Community 58]] (5 shared connections)
+- [[Community 37]] (3 shared connections)
+- [[Community 31]] (3 shared connections)
+- [[Community 100]] (2 shared connections)
+- [[Community 122]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-CZ0bF0iF.js`
+- `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
 
 ## Audit Trail
 
-- EXTRACTED: 424 (100%)
+- EXTRACTED: 341 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

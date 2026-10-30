@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **Volume Tier Discounts & Quantity Slabs** (2 connections) — `docs/guides/pricing-tiers-and-slabs.md`
-- **pricing-tiers-and-slabs.md** (1 connections) — `docs/guides/pricing-tiers-and-slabs.md`
-- **Slab Structure** (1 connections) — `docs/guides/pricing-tiers-and-slabs.md`
+- **Zoho Commerce API Rate Limiting & Multi-Tier Caching** (2 connections) — `docs/guides/zoho-rate-limits-and-caching.md`
+- **zoho-rate-limits-and-caching.md** (1 connections) — `docs/guides/zoho-rate-limits-and-caching.md`
+- **Rate Limits** (1 connections) — `docs/guides/zoho-rate-limits-and-caching.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/guides/pricing-tiers-and-slabs.md`
+- `docs/guides/zoho-rate-limits-and-caching.md`
 
 ## Audit Trail
 

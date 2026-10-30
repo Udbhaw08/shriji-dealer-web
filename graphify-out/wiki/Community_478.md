@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **cornerRadius** (3 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **labelSegment** (3 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
 - **minimum** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
 - **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
 
 ## Relationships
 
-- [[Vercel Deployment Routing]] (1 shared connections)
+- [[Community 29]] (1 shared connections)
 
 ## Source Files
 

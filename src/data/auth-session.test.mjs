@@ -197,3 +197,48 @@ test("Client-side validation rules for login and signup", () => {
   assert.equal(isValidPhone("1234567890"), false, "Must start with 6-9");
   assert.equal(isValidPhone("98765"), false, "Too short");
 });
+
+
+test("sessionFromAuth cleanly strips wholesale dealer privileges on rejection and restores them on re-approval", () => {
+  const rejectedUser = {
+    id: "usr-dealer-rejected",
+    role: "dealer",
+    status: "rejected",
+    full_name: "Rejected Dealer",
+  };
+
+  const rejectedDealerRecord = {
+    id: "dlr-rejected-123",
+    business_name: "Sample Shop",
+    status: "rejected",
+    dealer_code: "DE-XYZ-9999",
+    price_tier: "MH Dist Basic Oct 2026",
+    pricebook_id: "pb-3334",
+    reject_reason: "GST documentation incomplete",
+  };
+
+  // 1. REJECTED STATE: All wholesale privileges stripped
+  const rejectedSession = sessionFromAuth(rejectedUser, rejectedDealerRecord);
+  assert.equal(rejectedSession.status, "rejected");
+  assert.equal(rejectedSession.canSeeDealerPrice, false, "canSeeDealerPrice MUST be false for rejected dealers");
+  assert.equal(rejectedSession.dealer?.pricebookId, null, "pricebookId MUST be null for rejected dealers");
+  assert.equal(rejectedSession.dealer?.dealer_code, null, "dealer_code MUST be hidden for rejected dealers");
+  assert.equal(rejectedSession.dealer?.price_tier, null, "price_tier MUST be null for rejected dealers");
+  assert.equal(rejectedSession.dealer?.reject_reason, "GST documentation incomplete", "rejection reason must be accessible to UI");
+
+  // 2. RE-APPROVED STATE: Privileges fully restored
+  const approvedUser = {
+    ...rejectedUser,
+    status: "active",
+  };
+  const approvedDealerRecord = {
+    ...rejectedDealerRecord,
+    status: "approved",
+    reject_reason: null,
+  };
+  const approvedSession = sessionFromAuth(approvedUser, approvedDealerRecord);
+  assert.equal(approvedSession.status, "approved");
+  assert.equal(approvedSession.canSeeDealerPrice, true, "canSeeDealerPrice MUST be true for approved dealers");
+  assert.equal(approvedSession.dealer?.pricebookId, "pb-3334", "pricebookId MUST be restored");
+  assert.equal(approvedSession.dealer?.dealer_code, "DE-XYZ-9999", "dealer_code MUST be restored");
+});

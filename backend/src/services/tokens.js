@@ -7,15 +7,16 @@ const ACCESS_TTL_SECONDS = 30 * 24 * 60 * 60; // 30 days
 const REFRESH_TTL_DAYS = 30; // 30 days
 
 export function signAccessToken(user, dealer = null) {
+  const isApproved = dealer?.status === 'approved' || (!dealer && user.status === 'active' && user.role === 'admin');
   return jwt.sign(
     {
       sub: user.id,
       role: user.role,
       dealer_id: user.dealer_id,
       status: user.status,
-      can_see_dealer_price: user.can_see_dealer_price !== false,
-      price_tier: dealer?.price_tier || user.price_tier || null,
-      pricebook_id: dealer?.pricebook_id || null,
+      can_see_dealer_price: isApproved && user.can_see_dealer_price !== false,
+      price_tier: isApproved ? (dealer?.price_tier || user.price_tier || null) : null,
+      pricebook_id: isApproved ? (dealer?.pricebook_id || null) : null,
     },
     env.jwtSecret,
     { expiresIn: ACCESS_TTL_SECONDS },

@@ -1,55 +1,53 @@
 # Testing & Workflow Skill
 
-> 42 nodes · cohesion 0.11
+> 43 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **kr()** (25 connections) — `android/app/src/main/assets/public/assets/index-CZ0bF0iF.js`
-- **Nr()** (21 connections) — `android/app/src/main/assets/public/assets/index-CZ0bF0iF.js`
-- **gf()** (20 connections) — `android/app/src/main/assets/public/assets/index-CZ0bF0iF.js`
-- **Ei()** (12 connections) — `android/app/src/main/assets/public/assets/index-CZ0bF0iF.js`
-- **jr()** (11 connections) — `android/app/src/main/assets/public/assets/index-CZ0bF0iF.js`
-- **af()** (10 connections) — `android/app/src/main/assets/public/assets/index-CZ0bF0iF.js`
-- **ii()** (10 connections) — `android/app/src/main/assets/public/assets/index-CZ0bF0iF.js`
-- **Si()** (10 connections) — `android/app/src/main/assets/public/assets/index-CZ0bF0iF.js`
-- **hr()** (8 connections) — `android/app/src/main/assets/public/assets/index-CZ0bF0iF.js`
-- **kc()** (8 connections) — `android/app/src/main/assets/public/assets/index-CZ0bF0iF.js`
-- **ki()** (8 connections) — `android/app/src/main/assets/public/assets/index-CZ0bF0iF.js`
-- **qr()** (8 connections) — `android/app/src/main/assets/public/assets/index-CZ0bF0iF.js`
-- **xr()** (8 connections) — `android/app/src/main/assets/public/assets/index-CZ0bF0iF.js`
-- **br()** (7 connections) — `android/app/src/main/assets/public/assets/index-CZ0bF0iF.js`
-- **Fr()** (7 connections) — `android/app/src/main/assets/public/assets/index-CZ0bF0iF.js`
-- **hn()** (7 connections) — `android/app/src/main/assets/public/assets/index-CZ0bF0iF.js`
-- **Oi()** (7 connections) — `android/app/src/main/assets/public/assets/index-CZ0bF0iF.js`
-- **ci()** (6 connections) — `android/app/src/main/assets/public/assets/index-CZ0bF0iF.js`
-- **Ir()** (6 connections) — `android/app/src/main/assets/public/assets/index-CZ0bF0iF.js`
-- **mr()** (6 connections) — `android/app/src/main/assets/public/assets/index-CZ0bF0iF.js`
-- **Rr()** (6 connections) — `android/app/src/main/assets/public/assets/index-CZ0bF0iF.js`
-- **Vr()** (6 connections) — `android/app/src/main/assets/public/assets/index-CZ0bF0iF.js`
-- **wr()** (6 connections) — `android/app/src/main/assets/public/assets/index-CZ0bF0iF.js`
-- **xn()** (6 connections) — `android/app/src/main/assets/public/assets/index-CZ0bF0iF.js`
-- **Lr()** (5 connections) — `android/app/src/main/assets/public/assets/index-CZ0bF0iF.js`
-- *... and 17 more nodes in this community*
+- **auth.js** (59 connections) — `src/data/auth.js`
+- **callBackend()** (32 connections) — `src/data/auth.js`
+- **json()** (32 connections) — `src/data/auth.js`
+- **DealerDashboard.jsx** (24 connections) — `src/pages/DealerDashboard.jsx`
+- **apiFetch()** (21 connections) — `src/data/api.js`
+- **broadcastAuthChange()** (13 connections) — `src/data/auth.js`
+- **applyAuthResponse()** (9 connections) — `src/data/auth.js`
+- **finalizeDealerRegistration()** (8 connections) — `src/data/auth.js`
+- **requestDealerRegistrationOtp()** (7 connections) — `src/data/auth.js`
+- **staffSignup()** (7 connections) — `src/data/auth.js`
+- **verifyDealerRegistrationOtp()** (7 connections) — `src/data/auth.js`
+- **verifyEmailOtp()** (7 connections) — `src/data/auth.js`
+- **logout()** (6 connections) — `src/data/auth.js`
+- **requestEmailOtp()** (6 connections) — `src/data/auth.js`
+- **verifyPhoneOtp()** (6 connections) — `src/data/auth.js`
+- **fetchMe()** (5 connections) — `src/data/auth.js`
+- **googleLogin()** (5 connections) — `src/data/auth.js`
+- **login()** (5 connections) — `src/data/auth.js`
+- **lookupStaffCode()** (5 connections) — `src/data/auth.js`
+- **requestPhoneOtp()** (5 connections) — `src/data/auth.js`
+- **signup()** (5 connections) — `src/data/auth.js`
+- **staffTogglePrice()** (5 connections) — `src/data/auth.js`
+- **staffTogglePriceAll()** (5 connections) — `src/data/auth.js`
+- **verifyOtp()** (5 connections) — `src/data/auth.js`
+- **persistTokens()** (4 connections) — `src/data/auth.js`
+- *... and 18 more nodes in this community*
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (44 shared connections)
-- [[Master Codebase Architecture Reference]] (14 shared connections)
-- [[Dependencies & Package Config]] (10 shared connections)
-- [[Live Pricing Audit Tool]] (9 shared connections)
-- [[Community 78]] (9 shared connections)
-- [[Community 62]] (5 shared connections)
-- [[Community 36]] (3 shared connections)
-- [[Community 74]] (2 shared connections)
-- [[Community 39]] (1 shared connections)
+- [[Mobile Responsive UI Skill]] (60 shared connections)
+- [[Zoho Integration Skill]] (9 shared connections)
+- [[Community 44]] (5 shared connections)
+- [[Community 53]] (3 shared connections)
+- [[Community 32]] (2 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-CZ0bF0iF.js`
+- `src/data/api.js`
+- `src/data/auth.js`
+- `src/pages/DealerDashboard.jsx`
 
 ## Audit Trail
 
-- EXTRACTED: 293 (100%)
+- EXTRACTED: 355 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

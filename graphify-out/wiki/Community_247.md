@@ -1,32 +1,31 @@
 # Community 247
 
-> 9 nodes · cohesion 0.33
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **release-identity.test.mjs** (8 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
-- **writeFile()** (5 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
-- **stableUpdateManifest()** (3 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
-- **writeValidDevelopmentFixture()** (3 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
-- **writeValidStableFixture()** (3 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
-- **checker** (1 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
-- **here** (1 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
-- **runCheck()** (1 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
+- **relationship-permalink.test.mjs** (8 connections) — `.agents/skills/archify/test/relationship-permalink.test.mjs`
+- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/relationship-permalink.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/relationship-permalink.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/relationship-permalink.test.mjs`
+- **fixture()** (1 connections) — `.agents/skills/archify/test/relationship-permalink.test.mjs`
+- **relationshipKey()** (1 connections) — `.agents/skills/archify/test/relationship-permalink.test.mjs`
+- **run()** (1 connections) — `.agents/skills/archify/test/relationship-permalink.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/relationship-permalink.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/relationship-permalink.test.mjs`
 
 ## Relationships
 
-- [[Community 77]] (1 shared connections)
-- [[Community 363]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/test/release-identity.test.mjs`
+- `.agents/skills/archify/test/relationship-permalink.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 24 (92%)
-- INFERRED: 2 (8%)
+- EXTRACTED: 16 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

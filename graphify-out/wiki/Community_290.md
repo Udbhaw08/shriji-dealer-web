@@ -15,8 +15,8 @@
 
 ## Relationships
 
-- [[Community 127]] (1 shared connections)
-- [[Zoho Backend & Proxy Endpoints]] (1 shared connections)
+- [[Community 109]] (1 shared connections)
+- [[Community 40]] (1 shared connections)
 
 ## Source Files
 

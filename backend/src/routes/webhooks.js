@@ -63,8 +63,15 @@ webhooksRouter.all(['/crm/approval', '/crm/sync', '/crm/update', '/crm/webhook']
     const payloadHash = crypto.createHash('sha256').update(rawStr + JSON.stringify(query)).digest('hex');
 
     const seen = await sql`
-      select id from webhook_events where source = 'crm' and payload_hash = ${payloadHash} limit 1`;
-    if (seen.length) return res.json({ ok: true, deduped: true });
+      select id from webhook_events
+      where source = 'crm'
+        and payload_hash = ${payloadHash}
+        and processed_at > now() - interval '2 minutes'
+      limit 1`;
+    if (seen.length) {
+      log.info(`[webhook] CRM event deduped within 2m window (${payloadHash.slice(0, 8)})`);
+      return res.json({ ok: true, deduped: true });
+    }
 
     const refId =
       payload.id || query.id ||
@@ -75,7 +82,7 @@ webhooksRouter.all(['/crm/approval', '/crm/sync', '/crm/update', '/crm/webhook']
       payload.entity_id || query.entity_id ||
       payload.data?.[0]?.id || null;
 
-    await sql`insert into webhook_events (source, ref_id, payload_hash) values ('crm', ${String(refId || '')}, ${payloadHash})`;
+    await sql`insert into webhook_events (source, ref_id, payload_hash, processed_at) values ('crm', ${String(refId || '')}, ${payloadHash}, now())`;
 
     if (!refId) {
       log.warn('[webhook] CRM webhook without a resolvable id:', JSON.stringify(payload).slice(0, 200));

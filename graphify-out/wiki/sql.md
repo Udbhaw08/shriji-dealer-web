@@ -1,8 +1,8 @@
 # sql
 
-> God node · 80 connections · `backend/src/db/pool.js`
+> God node · 82 connections · `backend/src/db/pool.js`
 
-**Community:** [[Pricing Regression Test Suite]]
+**Community:** [[Live Pricing Audit Tool]]
 
 ## Connections by Relation
 

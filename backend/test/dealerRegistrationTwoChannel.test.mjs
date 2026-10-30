@@ -400,7 +400,8 @@ function mockSql(strings, ...values) {
     if (dbFailOnInsertDealer) {
       throw new Error('Database Error: Simulated Dealer Insert Failure');
     }
-    const [ownerUserId, businessName, gstNumber, gstTreatment, address, dealerCode] = values;
+    const [ownerUserId, businessName, gstNumber, gstTreatment, address] = values;
+    const dealerCode = values.find((v) => typeof v === 'string' && /^DE-[A-Z]{3}-\d{4}$/.test(v)) || values[values.length - 1];
     const newDealer = {
       id: crypto.randomUUID(),
       owner_user_id: ownerUserId,

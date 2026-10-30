@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **Automated Testing & Quality Assurance Strategy** (2 connections) — `docs/testing/testing-strategy.md`
-- **testing-strategy.md** (1 connections) — `docs/testing/testing-strategy.md`
-- **Testing Layers** (1 connections) — `docs/testing/testing-strategy.md`
+- **debounce.js** (2 connections) — `src/utils/debounce.js`
+- **debounce()** (1 connections) — `src/utils/debounce.js`
+- **throttle()** (1 connections) — `src/utils/debounce.js`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/testing/testing-strategy.md`
+- `src/utils/debounce.js`
 
 ## Audit Trail
 

@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **tokenSecurity.test.mjs** (0 connections) — `backend/test/tokenSecurity.test.mjs`
+- **logger** (0 connections) — `backend/src/utils/logger.js`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `backend/test/tokenSecurity.test.mjs`
+- `backend/src/utils/logger.js`
 
 ## Audit Trail
 

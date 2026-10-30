@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **dateUtils.js** (1 connections) — `src/utils/dateUtils.js`
-- **formatRelativeTime()** (1 connections) — `src/utils/dateUtils.js`
+- **ipUtils.js** (1 connections) — `backend/src/utils/ipUtils.js`
+- **getClientIp()** (1 connections) — `backend/src/utils/ipUtils.js`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `src/utils/dateUtils.js`
+- `backend/src/utils/ipUtils.js`
 
 ## Audit Trail
 

@@ -1,59 +1,55 @@
 # Product Brand & Business Vision
 
-> 52 nodes · cohesion 0.06
+> 55 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **render-architecture.mjs** (122 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **segmentIntersectsRect()** (12 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **pathFor()** (10 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **routeHonorsEndpointSides()** (9 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **routeVia()** (7 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **grid.mjs** (6 connections) — `.agents/skills/archify/renderers/architecture/grid.mjs`
-- **alignFacingPorts()** (6 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **buildLayoutReport()** (6 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **layoutBoundaryTitles()** (5 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **sideAwareBridgeCandidates()** (5 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **automaticPortRhythmBridge()** (5 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **resolveComponentPos()** (4 connections) — `.agents/skills/archify/renderers/architecture/grid.mjs`
-- **validateGridPlacement()** (4 connections) — `.agents/skills/archify/renderers/architecture/grid.mjs`
-- **boundaryLabelWidth()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **measureBoundaryTitle()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **resolveBoundaryTitles()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **routeClearsComponents()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **routeClearsEndpointComponents()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **layout-report.mjs** (4 connections) — `.agents/skills/archify/renderers/shared/layout-report.mjs`
-- **grid.test.mjs** (4 connections) — `.agents/skills/archify/test/grid.test.mjs`
-- **gridLayout()** (3 connections) — `.agents/skills/archify/renderers/architecture/grid.mjs`
-- **autoViewBoxFor()** (3 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **expandBoundaryForReadableTitle()** (3 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **resolvedViewBoxWidth()** (3 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **connectionPath()** (3 connections) — `.agents/skills/archify/renderers/shared/layout-report.mjs`
-- *... and 27 more nodes in this community*
+- **n()** (32 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
+- **it()** (20 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
+- **Ya()** (20 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
+- **k()** (19 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
+- **st()** (17 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
+- **A()** (15 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
+- **Ri()** (15 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
+- **ft()** (13 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
+- **Dn()** (12 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
+- **ut()** (11 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
+- **jt()** (10 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
+- **ct()** (9 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
+- **go()** (9 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
+- **nt()** (9 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
+- **ve()** (9 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
+- **O()** (8 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
+- **ot()** (8 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
+- **po()** (8 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
+- **xt()** (8 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
+- **dt()** (7 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
+- **Gt()** (7 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
+- **Id()** (7 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
+- **jn()** (7 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
+- **kf()** (7 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
+- **Ko()** (7 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
+- *... and 30 more nodes in this community*
 
 ## Relationships
 
-- [[Zoho Backend & Proxy Endpoints]] (44 shared connections)
-- [[Community 47]] (23 shared connections)
-- [[Community 52]] (14 shared connections)
-- [[Community 33]] (14 shared connections)
-- [[Zoho Integration Architecture]] (5 shared connections)
-- [[Community 139]] (3 shared connections)
-- [[Community 127]] (2 shared connections)
-- [[Community 86]] (2 shared connections)
-- [[Zoho API Diagnostic Script]] (1 shared connections)
+- [[Price Presentation & Product UI]] (69 shared connections)
+- [[Product Requirements Documentation]] (34 shared connections)
+- [[Pricing Regression Test Suite]] (26 shared connections)
+- [[Community 100]] (14 shared connections)
+- [[Architecture Doc Generator]] (14 shared connections)
+- [[Community 37]] (14 shared connections)
+- [[Community 31]] (13 shared connections)
+- [[Community 58]] (9 shared connections)
+- [[Community 122]] (4 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/architecture/grid.mjs`
-- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- `.agents/skills/archify/renderers/shared/geometry.mjs`
-- `.agents/skills/archify/renderers/shared/layout-report.mjs`
-- `.agents/skills/archify/test/grid.test.mjs`
+- `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
 
 ## Audit Trail
 
-- EXTRACTED: 278 (100%)
+- EXTRACTED: 441 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

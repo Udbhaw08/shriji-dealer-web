@@ -122,11 +122,26 @@ export function publicUser(user) {
 }
 
 export async function issueSession(rawUser) {
-  const user = await resolveUserWithDealer(rawUser);
+  let user = await resolveUserWithDealer(rawUser);
   const userDealerId = user?.dealer_id || null;
   let dealer = (await sql`select * from dealers where id = ${userDealerId} or owner_user_id = ${user.id} order by case when status = 'approved' then 1 when status = 'pending' then 2 else 3 end asc limit 1`)[0] || null;
   if (dealer) {
-    dealer.pricebook_id = await resolvePricebookId(dealer.price_tier);
+    if (dealer.zoho_account_id && crm.isCrmConfigured() && dealer.status !== 'approved') {
+      try {
+        const account = await crm.getDealerAccount(dealer.zoho_account_id);
+        if (account) {
+          const changed = await applyCrmAccountState(dealer, account);
+          if (changed) {
+            dealer = (await sql`select * from dealers where id = ${dealer.id} limit 1`)[0] || dealer;
+            const updatedUser = (await sql`select * from users where id = ${user.id} limit 1`)[0];
+            if (updatedUser) user = updatedUser;
+          }
+        }
+      } catch (err) {
+        log.warn('[issueSession] CRM sync error:', err.message);
+      }
+    }
+    dealer.pricebook_id = dealer.status === 'approved' ? await resolvePricebookId(dealer.price_tier) : null;
   }
   return {
     accessToken: signAccessToken(user, dealer),
@@ -347,7 +362,7 @@ authRouter.post('/refresh', async (req, res, next) => {
     const user = await resolveUserWithDealer(rotated.user);
     const userDealerId = user?.dealer_id || null;
     let dealer = (await sql`select * from dealers where id = ${userDealerId} or owner_user_id = ${user.id} order by case when status = 'approved' then 1 when status = 'pending' then 2 else 3 end asc limit 1`)[0] || null;
-    if (dealer) dealer.pricebook_id = await resolvePricebookId(dealer.price_tier);
+    if (dealer) dealer.pricebook_id = dealer.status === 'approved' ? await resolvePricebookId(dealer.price_tier) : null;
     res.json({ accessToken: signAccessToken(user, dealer), refreshToken: rotated.refreshToken, expiresIn: 30 * 24 * 60 * 60, user: publicUser(user) });
   } catch (error) { next(error); }
 });
@@ -441,12 +456,24 @@ authRouter.get('/me', jwtAuth, async (req, res, next) => {
             if (changed) {
               const fresh = (await sql`select * from dealers where id = ${dealer.id} limit 1`)[0];
               if (fresh) dealer = fresh;
+              const refreshedUserRows = await sql`
+                select u.id, u.email, u.phone, u.phone_verified, u.role, u.status, u.dealer_id, u.email_verified,
+                       u.can_see_dealer_price, d.hide_staff_dealer_price, u.created_at, u.full_name
+                from users u
+                left join dealers d on d.id = u.dealer_id
+                where u.id = ${user.id}`;
+              if (refreshedUserRows[0]) {
+                user = await resolveUserWithDealer(refreshedUserRows[0]);
+              }
             }
           }
         } catch (error) { log.warn('[auth/me] CRM sync skipped:', error.message); }
       }
     }
-    if (dealer) dealer = { ...dealer, pricebook_id: await resolvePricebookId(dealer.price_tier), hide_staff_dealer_price: Boolean(dealer.hide_staff_dealer_price) };
+    if (dealer) {
+      const pricebookId = dealer.status === 'approved' && dealer.price_tier ? await resolvePricebookId(dealer.price_tier) : null;
+      dealer = { ...dealer, pricebook_id: pricebookId, hide_staff_dealer_price: Boolean(dealer.hide_staff_dealer_price) };
+    }
     res.json({ user: publicUser(user), dealer });
   } catch (error) { next(error); }
 });

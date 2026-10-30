@@ -114,7 +114,7 @@ export function createApp() {
   });
 
   app.use('/health', healthRouter);
-  app.use('/webhooks', webhooksRouter);
+  app.use(['/webhooks', '/api/webhooks'], webhooksRouter);
   app.use(['/api/auth', '/auth'], rateLimit({ windowMs: 60_000, max: () => env.authGlobalRateLimitMax || 1200, prefix: 'auth_global' }), authRouter);
   app.use(['/api/dealers', '/dealers'], rateLimit({ windowMs: 60_000, max: () => env.dealersGlobalRateLimitMax || 1200, prefix: 'dealers_global' }), dealersRouter);
   app.use('/api/prices', pricesRouter);

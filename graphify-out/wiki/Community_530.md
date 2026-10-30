@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **test-supabase.mjs** (1 connections) — `scripts/test-supabase.mjs`
-- **test()** (1 connections) — `scripts/test-supabase.mjs`
+- **healthService.js** (1 connections) — `backend/src/services/healthService.js`
+- **getSystemHealth()** (1 connections) — `backend/src/services/healthService.js`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `scripts/test-supabase.mjs`
+- `backend/src/services/healthService.js`
 
 ## Audit Trail
 

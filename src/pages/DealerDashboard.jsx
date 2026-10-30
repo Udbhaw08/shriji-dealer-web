@@ -51,7 +51,8 @@ export default function DealerDashboard() {
     loadStaff();
     const interval = setInterval(() => {
       loadStaff(true);
-    }, 10000);
+      revalidateSession().catch(() => {});
+    }, 8000);
     return () => clearInterval(interval);
   }, []);
 
@@ -154,8 +155,8 @@ export default function DealerDashboard() {
     return <Navigate to="/staff" replace />;
   }
 
-  // Smooth hydrating state while tokens exist: eliminates "Sign in" gate flash
-  if (hasSession() && (s.role === "guest" || !s.dealer)) {
+  // Hydrating state only while session is truly in initial unhydrated guest state
+  if (hasSession() && s.role === "guest") {
     return (
       <div className="dealer-ws-page" style={{ minHeight: "80vh", display: "flex", alignItems: "center", justifyContent: "center" }}>
         <div style={{ textAlign: "center" }}>
@@ -170,6 +171,10 @@ export default function DealerDashboard() {
     return <Navigate to="/dealer/pending" replace />;
   }
 
+  if (s.role === "dealer" && (s.status === "rejected" || s.dealer?.status === "rejected")) {
+    return <Navigate to="/dealer/pending" replace />;
+  }
+
   const isApprovedDealer = (s.role === "dealer" || s.role === "admin") && (s.status === "approved" || s.status === "active");
 
   if (!isApprovedDealer) {
@@ -177,10 +182,25 @@ export default function DealerDashboard() {
       <section className="sec" style={{ paddingTop: "var(--s6)" }}>
         <div className="wrap" style={{ maxWidth: 560, textAlign: "center" }}>
           <h1 className="d2">Dealer Dashboard</h1>
-          <p className="sub">This area is for approved dealers only.</p>
-          <Link className="btn btn-navy" to="/login?needAuth=true">
-            Sign in
-          </Link>
+          <p className="sub" style={{ marginBottom: 20 }}>
+            {s && s.role === "customer"
+              ? "This workspace is reserved for verified dealer partners. Complete your dealership application to unlock trade wholesale rates, staff management, and ordering tools."
+              : "This area is for approved dealers only."}
+          </p>
+          <div style={{ display: "flex", gap: 12, justifyContent: "center", flexWrap: "wrap" }}>
+            {s && s.role === "customer" ? (
+              <Link className="btn btn-navy" to="/dealer/apply">
+                Apply for Dealership →
+              </Link>
+            ) : (
+              <Link className="btn btn-navy" to="/login?role=dealer">
+                Sign in as Dealer
+              </Link>
+            )}
+            <Link className="btn btn-ghost" to="/products">
+              Browse Catalog
+            </Link>
+          </div>
         </div>
       </section>
     );

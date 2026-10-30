@@ -4,15 +4,15 @@
 
 ## Key Concepts
 
-- **Multitasking** (5 connections) — `.agents/skills/apple-design/references/hig/multitasking.md`
-- **Platform considerations** (4 connections) — `.agents/skills/apple-design/references/hig/multitasking.md`
-- **multitasking.md** (1 connections) — `.agents/skills/apple-design/references/hig/multitasking.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/multitasking.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/multitasking.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/multitasking.md`
-- **Phone (iOS)** (1 connections) — `.agents/skills/apple-design/references/hig/multitasking.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/multitasking.md`
-- **Tablet (iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/multitasking.md`
+- **Materials** (6 connections) — `.agents/skills/apple-design/references/hig/materials.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/materials.md`
+- **materials.md** (1 connections) — `.agents/skills/apple-design/references/hig/materials.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/materials.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/materials.md`
+- **Liquid Glass** (1 connections) — `.agents/skills/apple-design/references/hig/materials.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/materials.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/materials.md`
+- **Standard materials** (1 connections) — `.agents/skills/apple-design/references/hig/materials.md`
 
 ## Relationships
 
@@ -20,7 +20,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/multitasking.md`
+- `.agents/skills/apple-design/references/hig/materials.md`
 
 ## Audit Trail
 

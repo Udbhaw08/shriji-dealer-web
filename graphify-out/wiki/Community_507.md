@@ -1,12 +1,11 @@
 # Community 507
 
-> 3 nodes · cohesion 0.67
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **storage.js** (2 connections) — `src/utils/storage.js`
-- **memoryStore** (1 connections) — `src/utils/storage.js`
-- **safeStorage** (1 connections) — `src/utils/storage.js`
+- **esm-CDaDaUT6.js** (1 connections) — `android/app/src/main/assets/public/assets/esm-CDaDaUT6.js`
+- **__vite__mapDeps()** (1 connections) — `android/app/src/main/assets/public/assets/esm-CDaDaUT6.js`
 
 ## Relationships
 
@@ -14,11 +13,11 @@
 
 ## Source Files
 
-- `src/utils/storage.js`
+- `android/app/src/main/assets/public/assets/esm-CDaDaUT6.js`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 2 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -158,13 +158,8 @@ export default function Login() {
               setError(null);
               try {
                 await googleLogin(response.credential);
-                const fresh = await revalidateSession();
-                const isDealer = fresh?.role === "dealer" || fresh?.dealer?.status === "approved" || fresh?.dealer?.status === "pending";
-                if (!isDealer && (fromPath === "/products" || fromPath === "/login")) {
-                  navigate("/dealer/apply", { replace: true });
-                } else {
-                  navigate(fromPath !== "/login" ? fromPath : "/products", { replace: true });
-                }
+                const fresh = await revalidateSession(true);
+                navigateAfterAuth(fresh, fromPath);
               } catch (err) {
                 setError(err.message || "Google sign-in failed. Please try again.");
               } finally {
@@ -208,6 +203,41 @@ export default function Login() {
       };
     }
   }, [isAuthenticated, fromPath, navigate, selectedRole, authMethod, isLocalhost]);
+
+  // Intelligent post-authentication router
+  const navigateAfterAuth = (freshSession, targetFrom) => {
+    const hasSpecificTarget = targetFrom && targetFrom !== "/login" && targetFrom !== "/products";
+
+    if (freshSession?.authRole === "dealer_staff" || freshSession?.role === "dealer_staff") {
+      if (freshSession?.userStatus === "pending" || freshSession?.status === "pending") {
+        navigate("/dealer/pending?kind=staff", { replace: true });
+      } else {
+        navigate(hasSpecificTarget ? targetFrom : "/staff", { replace: true });
+      }
+      return;
+    }
+
+    const isDealerApproved =
+      freshSession?.role === "dealer" &&
+      (freshSession?.status === "approved" || freshSession?.dealer?.status === "approved");
+    const isDealerPending =
+      (freshSession?.role === "dealer" || Boolean(freshSession?.dealer)) &&
+      (freshSession?.status === "pending" || freshSession?.dealer?.status === "pending");
+    const isDealerRejected =
+      (freshSession?.role === "dealer" || Boolean(freshSession?.dealer)) &&
+      (freshSession?.status === "rejected" || freshSession?.dealer?.status === "rejected");
+
+    if (isDealerApproved) {
+      navigate(hasSpecificTarget ? targetFrom : "/dealer", { replace: true });
+    } else if (isDealerPending || isDealerRejected) {
+      navigate("/dealer/pending", { replace: true });
+    } else if (selectedRole === "dealer" && freshSession?.role === "customer") {
+      // User signed in via Dealer gateway, but doesn't have a dealer application yet
+      navigate("/dealer/apply", { replace: true });
+    } else {
+      navigate(hasSpecificTarget ? targetFrom : "/products", { replace: true });
+    }
+  };
 
   /* ---- WhatsApp Flow Handlers ---- */
   const handleSendOtp = async (e) => {
@@ -327,8 +357,8 @@ export default function Login() {
 
     try {
       await verifyOtp(phone, code);
-      await revalidateSession();
-      navigate(fromPath !== "/login" ? fromPath : "/products", { replace: true });
+      const fresh = await revalidateSession(true);
+      navigateAfterAuth(fresh, fromPath);
     } catch (err) {
       setError(err.message || "Invalid verification code. Please check and try again.");
     } finally {
@@ -377,8 +407,8 @@ export default function Login() {
         });
       }
 
-      await revalidateSession();
-      navigate(fromPath !== "/login" ? fromPath : "/products", { replace: true });
+      const fresh = await revalidateSession(true);
+      navigateAfterAuth(fresh, fromPath);
     } catch (err) {
       setError(err.message || (emailMode === "signup" ? "Account creation failed." : "Invalid email or password."));
     } finally {
@@ -408,12 +438,8 @@ export default function Login() {
         password: staffLoginPassword,
       });
 
-      const fresh = await revalidateSession();
-      if (fresh?.role === "dealer_staff" && fresh?.userStatus === "pending") {
-        navigate("/dealer/pending?kind=staff", { replace: true });
-      } else {
-        navigate(fromPath !== "/login" ? fromPath : "/products", { replace: true });
-      }
+      const fresh = await revalidateSession(true);
+      navigateAfterAuth(fresh, fromPath);
     } catch (err) {
       setStaffSubmitError(err.message || "Invalid work email or password. Please check your credentials.");
     } finally {
@@ -498,6 +524,7 @@ export default function Login() {
         {/* ALREADY AUTHENTICATED STATE */}
         {isAuthenticated && (() => {
           const isPending = session.status === "pending" || session.dealer?.status === "pending";
+          const isRejected = session.status === "rejected" || session.dealer?.status === "rejected";
 
           return (
             <div
@@ -517,16 +544,18 @@ export default function Login() {
                   gap: 6,
                   padding: "5px 14px",
                   borderRadius: 999,
-                  background: isPending ? "var(--amber-50, #fffbeb)" : dealerActive ? "var(--ok-bg)" : "var(--blue-50)",
-                  color: isPending ? "var(--amber-700, #b45309)" : dealerActive ? "var(--ok-tx)" : "var(--navy-2)",
+                  background: isRejected ? "#fee2e2" : isPending ? "var(--amber-50, #fffbeb)" : dealerActive ? "var(--ok-bg)" : "var(--blue-50)",
+                  color: isRejected ? "#b91c1c" : isPending ? "var(--amber-700, #b45309)" : dealerActive ? "var(--ok-tx)" : "var(--navy-2)",
                   fontSize: "0.82rem",
                   fontWeight: 700,
                   marginBottom: 16,
-                  border: isPending ? "1px solid #fde68a" : "none",
+                  border: isRejected ? "1px solid #fca5a5" : isPending ? "1px solid #fde68a" : "none",
                 }}
               >
-                <Icon name={dealerActive ? "shield" : isPending ? "clock" : "user"} size={14} />
-                {isPending
+                <Icon name={dealerActive ? "shield" : isRejected ? "close" : isPending ? "clock" : "user"} size={14} />
+                {isRejected
+                  ? "Dealership Application Not Approved"
+                  : isPending
                   ? "Dealership Application Under Review"
                   : isStaffActive
                   ? `Authorized Store Staff · ${session.dealer?.name || "Dealership"}`
@@ -556,7 +585,7 @@ export default function Login() {
 
               <div style={{ display: "grid", gap: 10 }}>
                 {/* Upgrade / Apply for Dealership prompt for retail/customer sessions */}
-                {!dealerActive && !isPending && (
+                {!dealerActive && !isPending && !isRejected && (
                   <div
                     style={{
                       background: "linear-gradient(135deg, rgba(23, 77, 122, 0.05), rgba(30, 64, 175, 0.08))",
@@ -609,6 +638,12 @@ export default function Login() {
                       <Icon name="edit" size={16} /> Complete Dealership Application →
                     </Link>
                   </div>
+                )}
+
+                {isRejected && (
+                  <Link to="/dealer/pending" className="btn btn-navy btn-block" style={{ minHeight: 48, background: "#dc2626", borderColor: "#dc2626" }}>
+                    <Icon name="close" size={16} /> View Application Status & Details
+                  </Link>
                 )}
 
                 {isPending && (

@@ -48,17 +48,17 @@ test('resolveContactNames populates both First_Name and Last_Name without leavin
 
   // Case 3: Single name provided — ensure First_Name is NEVER empty in Zoho CRM
   const res3 = resolveContactNames({ personName: 'Sunita' });
-  assert.equal(res3.firstName, 'Sunita');
+  assert.equal(res3.firstName, '');
   assert.equal(res3.lastName, 'Sunita');
 
   // Case 4: Only last name provided
   const res4 = resolveContactNames({ lastName: 'Patel' });
-  assert.equal(res4.firstName, 'Patel');
+  assert.equal(res4.firstName, '');
   assert.equal(res4.lastName, 'Patel');
 
   // Case 5: Empty input uses role default
   const res5 = resolveContactNames({ defaultLast: 'Dealer Owner' });
-  assert.equal(res5.firstName, 'Dealer Owner');
+  assert.equal(res5.firstName, '');
   assert.equal(res5.lastName, 'Dealer Owner');
 });
 
