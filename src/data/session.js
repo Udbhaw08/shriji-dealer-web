@@ -1,10 +1,10 @@
 import { useSyncExternalStore } from "react";
-import { isDealer, tierOf, registerDealer } from "./dealer";
+import { isDealer, tierOf, registerDealer } from "./dealer.js";
 import {
   initTokens, hasSession, fetchMe, logout as authLogout, sessionFromAuth,
   broadcastAuthChange, onAuthBroadcast, SESSION_PROFILE_KEY,
-} from "./auth";
-import { syncPricebookWithSession } from "./productsStore";
+} from "./auth.js";
+import { syncPricebookWithSession } from "./productsStore.js";
 
 export { isDealer, tierOf, broadcastAuthChange };
 
@@ -401,6 +401,9 @@ export function startSessionPolling() {
       revalidateSession();
     }
   }, 2500);
+  if (pollTimer && typeof pollTimer.unref === "function") {
+    pollTimer.unref();
+  }
 }
 
 export function stopSessionPolling() {
@@ -411,7 +414,7 @@ export function stopSessionPolling() {
 }
 
 // Restore tokens from secure storage and hydrate the session on startup
-if (typeof window !== "undefined") {
+if (typeof window !== "undefined" && !process?.env?.NODE_TEST_CONTEXT) {
   initTokens().then(() => {
     revalidateSession();
     startSessionPolling();

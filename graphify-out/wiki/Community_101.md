@@ -1,40 +1,44 @@
 # Community 101
 
-> 18 nodes · cohesion 0.11
+> 19 nodes · cohesion 0.26
 
 ## Key Concepts
 
-- **DESIGN.md — the design system as actually built** (8 connections) — `docs/DESIGN.md`
-- **4. Components already built — reuse these** (7 connections) — `docs/DESIGN.md`
-- **2. Tokens** (4 connections) — `docs/DESIGN.md`
-- **DESIGN.md** (1 connections) — `docs/DESIGN.md`
-- **1. The direction in one paragraph** (1 connections) — `docs/DESIGN.md`
-- **3. Layout primitives** (1 connections) — `docs/DESIGN.md`
-- **5. Icons** (1 connections) — `docs/DESIGN.md`
-- **6. Responsive rules** (1 connections) — `docs/DESIGN.md`
-- **7. Motion and accessibility** (1 connections) — `docs/DESIGN.md`
-- **Actions** (1 connections) — `docs/DESIGN.md`
-- **Colour** (1 connections) — `docs/DESIGN.md`
-- **Content** (1 connections) — `docs/DESIGN.md`
-- **Detail** (1 connections) — `docs/DESIGN.md`
-- **Listing sidebar** (1 connections) — `docs/DESIGN.md`
-- **Navigation and filtering** (1 connections) — `docs/DESIGN.md`
-- **Product** (1 connections) — `docs/DESIGN.md`
-- **Spacing, radius, shadow, motion** (1 connections) — `docs/DESIGN.md`
-- **Type** (1 connections) — `docs/DESIGN.md`
+- **cacheRename()** (13 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **cacheRm()** (10 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **captureMutationParentSnapshots()** (10 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **invalidateCacheToken()** (9 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **prepareCacheDirectory()** (9 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **resolveCacheTarget()** (9 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **stableCacheEntry()** (9 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **verifyCacheToken()** (9 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **guardedCacheMutation()** (7 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **assertSafeDirectory()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **isSameFile()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **cacheMkdirWithToken()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **stablePreparedDirectory()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **verifyDirectorySnapshots()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **verifyMutationContext()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **verifyMutationParentSnapshots()** (5 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **assertCacheTargetAbsent()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **canonicalizeTrustedDirectoryPrefix()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **isWithinDirectory()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 41]] (21 shared connections)
+- [[Community 109]] (14 shared connections)
+- [[Community 116]] (7 shared connections)
+- [[Community 208]] (1 shared connections)
 
 ## Source Files
 
-- `docs/DESIGN.md`
+- `.agents/skills/archify/scripts/check-update.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 34 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 130 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

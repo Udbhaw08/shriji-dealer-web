@@ -4,15 +4,15 @@
 
 ## Key Concepts
 
-- **Scroll views** (6 connections) — `.agents/skills/apple-design/references/hig/scroll-views.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/scroll-views.md`
-- **scroll-views.md** (1 connections) — `.agents/skills/apple-design/references/hig/scroll-views.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/scroll-views.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/scroll-views.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/scroll-views.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/scroll-views.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/scroll-views.md`
-- **Scroll edge effects** (1 connections) — `.agents/skills/apple-design/references/hig/scroll-views.md`
+- **Siri** (7 connections) — `.agents/skills/apple-design/references/hig/siri.md`
+- **Getting your app to work with Siri** (2 connections) — `.agents/skills/apple-design/references/hig/siri.md`
+- **siri.md** (1 connections) — `.agents/skills/apple-design/references/hig/siri.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/siri.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/siri.md`
+- **Customizing your app’s experience with Siri** (1 connections) — `.agents/skills/apple-design/references/hig/siri.md`
+- **Editorial guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/siri.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/siri.md`
+- **Sharing contextual information** (1 connections) — `.agents/skills/apple-design/references/hig/siri.md`
 
 ## Relationships
 
@@ -20,7 +20,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/scroll-views.md`
+- `.agents/skills/apple-design/references/hig/siri.md`
 
 ## Audit Trail
 

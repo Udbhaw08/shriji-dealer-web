@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **renderer-diagnostic-boundary.test.mjs** (2 connections) — `.agents/skills/archify/test/renderer-diagnostic-boundary.test.mjs`
-- **crashingRenderer()** (1 connections) — `.agents/skills/archify/test/renderer-diagnostic-boundary.test.mjs`
-- **runCrashingRenderer()** (1 connections) — `.agents/skills/archify/test/renderer-diagnostic-boundary.test.mjs`
+- **toolbar-polish.test.mjs** (2 connections) — `.agents/skills/archify/test/toolbar-polish.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/toolbar-polish.test.mjs`
+- **template** (1 connections) — `.agents/skills/archify/test/toolbar-polish.test.mjs`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/renderer-diagnostic-boundary.test.mjs`
+- `.agents/skills/archify/test/toolbar-polish.test.mjs`
 
 ## Audit Trail
 

@@ -37,11 +37,13 @@ assert.equal(inr(8999), "₹8,999");
 /* ---- who may see a dealer price ---- */
 
 const approved = { role: "dealer", status: "approved", dealerId: a.id };
+const incognitoDealer = { role: "dealer", status: "approved", dealerId: a.id, isIncognito: true };
 const pending = { role: "dealer", status: "pending", shop: "New Shop" };
 const customer = { role: "customer" };
 const guest = { role: "guest" };
 
 assert.ok(isDealer(approved));
+assert.ok(!isDealer(incognitoDealer), "incognito mode must temporarily deactivate isDealer");
 assert.ok(!isDealer(pending), "a pending application must not unlock pricing");
 assert.ok(!isDealer(customer));
 assert.ok(!isDealer(guest));
@@ -54,6 +56,8 @@ assert.equal(tierOf(guest), "guest");
 
 // Only a signed-in approved dealer with no share token gets the dealer view.
 assert.equal(viewerFor(approved, null).customerView, false);
+assert.equal(viewerFor(incognitoDealer, null).customerView, true, "incognito mode forces customerView");
+assert.equal(viewerFor(incognitoDealer, null).me, null, "incognito mode hides dealer me identity");
 assert.equal(viewerFor(pending, null).customerView, true);
 assert.equal(viewerFor(customer, null).customerView, true);
 assert.equal(viewerFor(guest, null).customerView, true);

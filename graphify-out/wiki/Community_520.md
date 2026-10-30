@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **accessibility.md** (1 connections) — `.agents/skills/swiftui-pro/references/accessibility.md`
-- **Accessibility** (1 connections) — `.agents/skills/swiftui-pro/references/accessibility.md`
+- **localization.md** (1 connections) — `.agents/skills/swiftui-pro/references/localization.md`
+- **Localization** (1 connections) — `.agents/skills/swiftui-pro/references/localization.md`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `.agents/skills/swiftui-pro/references/accessibility.md`
+- `.agents/skills/swiftui-pro/references/localization.md`
 
 ## Audit Trail
 

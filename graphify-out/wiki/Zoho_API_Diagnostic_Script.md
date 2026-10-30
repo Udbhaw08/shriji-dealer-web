@@ -1,60 +1,52 @@
 # Zoho API Diagnostic Script
 
-> 42 nodes · cohesion 0.08
+> 44 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **brand-marks.mjs** (51 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **brand-marks.test.mjs** (15 connections) — `.agents/skills/archify/test/brand-marks.test.mjs`
-- **captureRemoteBrand()** (7 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **captureBrandReference()** (6 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **commandBrands()** (5 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **findBrandMark()** (5 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **checkedFetch()** (4 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **isPrivateBrandAddress()** (4 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **resolveRequestTarget()** (4 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **asUrl()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **iconCandidates()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **imageData()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **ipv4Private()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **ipv6Private()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **lookupForms()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **readLimited()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **validateUrlShape()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **generated-brand-marks.mjs** (3 connections) — `.agents/skills/archify/renderers/shared/generated-brand-marks.mjs`
-- **BRAND_MARKS** (3 connections) — `.agents/skills/archify/renderers/shared/generated-brand-marks.mjs`
-- **attribute()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **beforeDeadline()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **domainMark()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **listBrandMarks()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **remoteBrand()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **requestPinned()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- *... and 17 more nodes in this community*
+- **properties** (30 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **label** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **pad** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **row** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **brand** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **from** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **fromSide** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **id** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **kind** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **labelAt** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **labelDx** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **labelDy** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **pos** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **route** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **sublabel** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **tag** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **to** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **toSide** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **variant** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **width** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- *... and 19 more nodes in this community*
 
 ## Relationships
 
-- [[Pricing & Roles Skill]] (7 shared connections)
-- [[Client Products Data Store]] (7 shared connections)
-- [[Community 46]] (2 shared connections)
-- [[Community 39]] (1 shared connections)
-- [[Community 120]] (1 shared connections)
-- [[Architecture Doc Generator]] (1 shared connections)
-- [[Community 45]] (1 shared connections)
-- [[Community 51]] (1 shared connections)
-- [[Design System & UI Tokens]] (1 shared connections)
-- [[Community 108]] (1 shared connections)
+- [[Community 126]] (5 shared connections)
+- [[Community 273]] (2 shared connections)
+- [[Community 467]] (1 shared connections)
+- [[Community 468]] (1 shared connections)
+- [[Community 353]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/bin/archify.mjs`
-- `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- `.agents/skills/archify/renderers/shared/generated-brand-marks.mjs`
-- `.agents/skills/archify/test/brand-marks.test.mjs`
+- `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 157 (98%)
-- INFERRED: 4 (2%)
+- EXTRACTED: 96 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

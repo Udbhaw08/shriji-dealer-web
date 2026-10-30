@@ -1,40 +1,53 @@
 # Community 90
 
-> 19 nodes · cohesion 0.11
+> 20 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **Apple Design Skill** (7 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Step 3: Audit through five lenses, in this order** (6 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Review process** (5 connections) — `.agents/skills/apple-design/SKILL.md`
-- **The references** (3 connections) — `.agents/skills/apple-design/SKILL.md`
-- **SKILL.md** (1 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Always load** (1 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Apple's design principles** (1 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Design improvement mode** (1 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Lens 1: Accessibility (failures are Critical)** (1 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Lens 2: Platform conventions (failures are usually High)** (1 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Lens 3: Visual design and craft (findings are High or Medium)** (1 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Lens 4: Interaction (findings are usually Medium)** (1 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Lens 5: Content and writing (findings are usually Medium)** (1 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Load by what is on screen** (1 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Specialized review modes** (1 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Step 1: Establish context** (1 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Step 2: Load references** (1 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Step 4: Write the report** (1 connections) — `.agents/skills/apple-design/SKILL.md`
-- **Working rules** (1 connections) — `.agents/skills/apple-design/SKILL.md`
+- **ChromeVisualBrowser** (21 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **visual-check.test.mjs** (14 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
+- **PipeCdp** (7 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **.attach()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **.close()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **.constructor()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **chromeVisualBrowserArgs()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **.failAll()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **.consume()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **VISUAL_CHECK_VIEWPORTS** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **.constructor()** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **.failure()** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **artifact()** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
+- **fakeBrowser()** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
+- **fakeChromeChild()** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
+- **png** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
+- **sha256()** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 53]] (8 shared connections)
+- [[Community 58]] (7 shared connections)
+- [[Community 130]] (2 shared connections)
+- [[Community 96]] (2 shared connections)
+- [[Community 71]] (1 shared connections)
+- [[Community 128]] (1 shared connections)
+- [[Community 35]] (1 shared connections)
+- [[Community 181]] (1 shared connections)
+- [[Community 246]] (1 shared connections)
+- [[Community 150]] (1 shared connections)
+- [[Community 207]] (1 shared connections)
+- [[Community 110]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/SKILL.md`
+- `.agents/skills/archify/bin/visual-check.mjs`
+- `.agents/skills/archify/test/visual-check.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 36 (100%)
+- EXTRACTED: 71 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

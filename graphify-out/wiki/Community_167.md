@@ -18,10 +18,10 @@
 
 ## Relationships
 
-- [[Vercel Deployment Routing]] (5 shared connections)
-- [[Pricing Regression Test Suite]] (2 shared connections)
-- [[Community 56]] (1 shared connections)
-- [[Roles & Customer Sharing Spec]] (1 shared connections)
+- [[Product Brand & Business Vision]] (6 shared connections)
+- [[Community 59]] (1 shared connections)
+- [[Community 48]] (1 shared connections)
+- [[Live Pricing Audit Tool]] (1 shared connections)
 
 ## Source Files
 

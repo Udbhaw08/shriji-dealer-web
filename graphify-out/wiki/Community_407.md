@@ -4,22 +4,22 @@
 
 ## Key Concepts
 
-- **Pricing Calculation & Zero-Leakage Rules Specification** (3 connections) — `docs/guides/pricing-rules.md`
-- **pricing-rules.md** (1 connections) — `docs/guides/pricing-rules.md`
-- **Overview** (1 connections) — `docs/guides/pricing-rules.md`
-- **Role Gating Rules** (1 connections) — `docs/guides/pricing-rules.md`
+- **11. Responsive Typography** (4 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Breakpoint Adjustments** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Fluid Type (Clamp)** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **What Changes** (1 connections) — `.agents/skills/refero-design/references/typography.md`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 232]] (1 shared connections)
 
 ## Source Files
 
-- `docs/guides/pricing-rules.md`
+- `.agents/skills/refero-design/references/typography.md`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 7 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,50 +1,53 @@
 # Community 77
 
-> 23 nodes · cohesion 0.10
+> 23 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **pull-hig.mjs** (65 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **crawlSection()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **fetchPageJson()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **abstractOf()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **anchorEntries()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **anchorMapFor()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **listedPages()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **plainText()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **ALL_PLATFORMS** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **cellText()** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **collectReferences()** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **CURATED_FILES** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **DESIGNING_FOR_COVERAGE** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **DROPPED_PLATFORMS** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **githubSlug()** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **IMAGE_GLYPHS** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **KEPT_PLATFORMS** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **OMITTED_PAGES** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **PLATFORM_LIST_RE** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **PLATFORM_NAMES** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **platformsOf()** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **REPO_ROOT** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **SECTIONS** (1 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **zd()** (16 connections) — `android/app/src/main/assets/public/assets/index-DpX2FidJ.js`
+- **qd()** (13 connections) — `android/app/src/main/assets/public/assets/index-DpX2FidJ.js`
+- **Nd()** (11 connections) — `android/app/src/main/assets/public/assets/index-DpX2FidJ.js`
+- **tf()** (10 connections) — `android/app/src/main/assets/public/assets/index-DpX2FidJ.js`
+- **et()** (8 connections) — `android/app/src/main/assets/public/assets/index-DpX2FidJ.js`
+- **Gd()** (8 connections) — `android/app/src/main/assets/public/assets/index-DpX2FidJ.js`
+- **ef()** (7 connections) — `android/app/src/main/assets/public/assets/index-DpX2FidJ.js`
+- **lf()** (7 connections) — `android/app/src/main/assets/public/assets/index-DpX2FidJ.js`
+- **Xo()** (7 connections) — `android/app/src/main/assets/public/assets/index-DpX2FidJ.js`
+- **Bd()** (6 connections) — `android/app/src/main/assets/public/assets/index-DpX2FidJ.js`
+- **gi()** (6 connections) — `android/app/src/main/assets/public/assets/index-DpX2FidJ.js`
+- **of()** (6 connections) — `android/app/src/main/assets/public/assets/index-DpX2FidJ.js`
+- **Rd()** (6 connections) — `android/app/src/main/assets/public/assets/index-DpX2FidJ.js`
+- **uf()** (6 connections) — `android/app/src/main/assets/public/assets/index-DpX2FidJ.js`
+- **Xd()** (6 connections) — `android/app/src/main/assets/public/assets/index-DpX2FidJ.js`
+- **sf()** (5 connections) — `android/app/src/main/assets/public/assets/index-DpX2FidJ.js`
+- **vc()** (5 connections) — `android/app/src/main/assets/public/assets/index-DpX2FidJ.js`
+- **cf()** (4 connections) — `android/app/src/main/assets/public/assets/index-DpX2FidJ.js`
+- **jf()** (4 connections) — `android/app/src/main/assets/public/assets/index-DpX2FidJ.js`
+- **Fd()** (3 connections) — `android/app/src/main/assets/public/assets/index-DpX2FidJ.js`
+- **Hd()** (3 connections) — `android/app/src/main/assets/public/assets/index-DpX2FidJ.js`
+- **Ud()** (3 connections) — `android/app/src/main/assets/public/assets/index-DpX2FidJ.js`
+- **hp()** (2 connections) — `android/app/src/main/assets/public/assets/index-DpX2FidJ.js`
 
 ## Relationships
 
-- [[Community 205]] (10 shared connections)
-- [[Community 206]] (10 shared connections)
-- [[Community 241]] (9 shared connections)
-- [[Community 279]] (8 shared connections)
-- [[Community 362]] (6 shared connections)
-- [[Community 250]] (1 shared connections)
+- [[Product Pages Specification]] (26 shared connections)
+- [[Price Presentation & Product UI]] (11 shared connections)
+- [[Community 51]] (9 shared connections)
+- [[Pricing & Roles Skill]] (7 shared connections)
+- [[Community 67]] (5 shared connections)
+- [[Community 47]] (3 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (3 shared connections)
+- [[Claude Agent Instructions]] (2 shared connections)
+- [[Community 52]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- `android/app/src/main/assets/public/assets/index-DpX2FidJ.js`
 
 ## Audit Trail
 
-- EXTRACTED: 95 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 152 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

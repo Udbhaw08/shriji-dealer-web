@@ -1,53 +1,48 @@
 # Community 84
 
-> 20 nodes · cohesion 0.12
+> 22 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **ChromeVisualBrowser** (21 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **visual-check.test.mjs** (14 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
-- **PipeCdp** (7 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **.attach()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **.close()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **.constructor()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **chromeVisualBrowserArgs()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **.failAll()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **.consume()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **VISUAL_CHECK_VIEWPORTS** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **.constructor()** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **.failure()** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **artifact()** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
-- **fakeBrowser()** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
-- **fakeChromeChild()** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
-- **png** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
-- **sha256()** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/visual-check.test.mjs`
+- **$defs** (16 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **relationshipWidth** (3 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **animation** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **brandMark** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **componentType** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **legendMode** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **locale** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **qualityProfile** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **side** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **variant** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **visualPreset** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **oneOf** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **minimum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **enum** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
 
 ## Relationships
 
-- [[Community 50]] (8 shared connections)
-- [[Community 57]] (7 shared connections)
-- [[Community 128]] (2 shared connections)
-- [[Community 92]] (2 shared connections)
-- [[Community 65]] (1 shared connections)
-- [[Community 126]] (1 shared connections)
-- [[Community 32]] (1 shared connections)
-- [[Community 183]] (1 shared connections)
-- [[Community 251]] (1 shared connections)
-- [[Community 149]] (1 shared connections)
-- [[Community 210]] (1 shared connections)
-- [[Community 107]] (1 shared connections)
+- [[Community 414]] (1 shared connections)
+- [[Community 234]] (1 shared connections)
+- [[Community 469]] (1 shared connections)
+- [[Community 470]] (1 shared connections)
+- [[Community 177]] (1 shared connections)
+- [[Community 355]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/bin/visual-check.mjs`
-- `.agents/skills/archify/test/visual-check.test.mjs`
+- `.agents/skills/archify/schemas/common.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 71 (100%)
+- EXTRACTED: 48 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

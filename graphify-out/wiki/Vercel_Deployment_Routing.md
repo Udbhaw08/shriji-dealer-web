@@ -1,62 +1,56 @@
 # Vercel Deployment Routing
 
-> 41 nodes · cohesion 0.13
+> 43 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **Product.jsx** (41 connections) — `src/pages/Product.jsx`
-- **dealer.js** (30 connections) — `src/data/dealer.js`
-- **Favorites.jsx** (20 connections) — `src/pages/Favorites.jsx`
-- **ProductCard.jsx** (19 connections) — `src/components/ProductCard.jsx`
-- **isDealer()** (18 connections) — `src/data/dealer.js`
-- **dealer.test.mjs** (18 connections) — `src/data/dealer.test.mjs`
-- **Product()** (16 connections) — `src/pages/Product.jsx`
-- **PriceBlock.jsx** (15 connections) — `src/components/PriceBlock.jsx`
-- **ProductCard()** (15 connections) — `src/components/ProductCard.jsx`
-- **priceFor()** (15 connections) — `src/data/dealer.js`
-- **useFavorites()** (15 connections) — `src/data/favoritesStore.js`
-- **inr()** (12 connections) — `src/data/dealer.js`
-- **viewerFor()** (8 connections) — `src/data/dealer.js`
-- **portalGate.js** (8 connections) — `src/data/portalGate.js`
-- **CustomerPrice()** (7 connections) — `src/components/PriceBlock.jsx`
-- **productSlug()** (7 connections) — `src/data/dealer.js`
+- **session.js** (60 connections) — `src/data/session.js`
+- **productsStore.js** (25 connections) — `src/data/productsStore.js`
+- **apiFetch()** (21 connections) — `src/data/api.js`
+- **setSession()** (13 connections) — `src/data/session.js`
+- **api.js** (12 connections) — `src/data/api.js`
+- **apiUrl()** (9 connections) — `src/data/api.js`
+- **syncPricebookWithSession()** (8 connections) — `src/data/productsStore.js`
+- **signOut()** (8 connections) — `src/data/session.js`
 - **registerDealer()** (7 connections) — `src/data/dealer.js`
-- **shareLink()** (7 connections) — `src/data/dealer.js`
-- **slugifyProduct()** (6 connections) — `src/data/dealer.js`
-- **tagFor()** (6 connections) — `src/data/dealer.js`
-- **DealerPrice()** (5 connections) — `src/components/PriceBlock.jsx`
-- **formatWhatsAppPhone()** (4 connections) — `src/data/dealer.js`
-- **tierOf()** (4 connections) — `src/data/dealer.js`
-- **DEALERS** (3 connections) — `src/data/dealer.js`
-- **isFavorite()** (3 connections) — `src/data/favoritesStore.js`
-- *... and 16 more nodes in this community*
+- **fetchLiveProducts()** (7 connections) — `src/data/productsStore.js`
+- **setIncognitoMode()** (7 connections) — `src/data/session.js`
+- **isIncognitoMode()** (6 connections) — `src/data/session.js`
+- **loadCachedSession()** (6 connections) — `src/data/session.js`
+- **products.js** (5 connections) — `src/data/products.js`
+- **applyIncognito()** (5 connections) — `src/data/session.js`
+- **switchToDealerSession()** (5 connections) — `src/data/session.js`
+- **getAccessToken()** (4 connections) — `src/data/auth.js`
+- **loadCached()** (4 connections) — `src/data/productsStore.js`
+- **switchToViewerSession()** (4 connections) — `src/data/session.js`
+- **toggleIncognitoMode()** (4 connections) — `src/data/session.js`
+- **sessionFromAuth()** (3 connections) — `src/data/auth.js`
+- **emit()** (3 connections) — `src/data/productsStore.js`
+- **syncTagsLive()** (3 connections) — `src/data/productsStore.js`
+- **emit()** (3 connections) — `src/data/session.js`
+- **onAuthBroadcast()** (2 connections) — `src/data/auth.js`
+- *... and 18 more nodes in this community*
 
 ## Relationships
 
-- [[Pricing Regression Test Suite]] (65 shared connections)
-- [[Roles & Customer Sharing Spec]] (19 shared connections)
-- [[Community 56]] (14 shared connections)
-- [[Community 91]] (6 shared connections)
-- [[Community 167]] (5 shared connections)
-- [[Community 109]] (3 shared connections)
-- [[Community 151]] (2 shared connections)
-- [[Graphify Agent Rules]] (1 shared connections)
+- [[Live Pricing Audit Tool]] (26 shared connections)
+- [[Community 30]] (24 shared connections)
+- [[Community 48]] (24 shared connections)
+- [[Product Brand & Business Vision]] (18 shared connections)
+- [[Community 59]] (3 shared connections)
 
 ## Source Files
 
-- `src/components/PriceBlock.jsx`
-- `src/components/ProductCard.jsx`
+- `src/data/api.js`
+- `src/data/auth.js`
 - `src/data/dealer.js`
-- `src/data/dealer.test.mjs`
-- `src/data/favoritesStore.js`
-- `src/data/portalGate.js`
-- `src/data/trial-collection.test.mjs`
-- `src/pages/Favorites.jsx`
-- `src/pages/Product.jsx`
+- `src/data/products.js`
+- `src/data/productsStore.js`
+- `src/data/session.js`
 
 ## Audit Trail
 
-- EXTRACTED: 331 (100%)
+- EXTRACTED: 257 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

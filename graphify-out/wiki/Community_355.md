@@ -4,24 +4,24 @@
 
 ## Key Concepts
 
-- **Rating indicators** (5 connections) — `.agents/skills/apple-design/references/hig/rating-indicators.md`
-- **rating-indicators.md** (1 connections) — `.agents/skills/apple-design/references/hig/rating-indicators.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/rating-indicators.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/rating-indicators.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/rating-indicators.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/rating-indicators.md`
+- **point** (6 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **items** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **maxItems** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **minItems** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **prefixItems** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 84]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/rating-indicators.md`
+- `.agents/skills/archify/schemas/common.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
+- EXTRACTED: 11 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

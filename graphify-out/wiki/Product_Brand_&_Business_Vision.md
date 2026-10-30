@@ -1,77 +1,71 @@
 # Product Brand & Business Vision
 
-> 57 nodes · cohesion 0.07
+> 55 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **server.js** (36 connections) — `backend/src/server.js`
-- **app.js** (30 connections) — `backend/src/app.js`
-- **compatibilitySuite.test.mjs** (20 connections) — `backend/test/compatibilitySuite.test.mjs`
-- **securityPhase1.test.mjs** (16 connections) — `backend/test/securityPhase1.test.mjs`
-- **upload.js** (12 connections) — `backend/src/routes/upload.js`
-- **errorHandler.js** (10 connections) — `backend/src/middleware/errorHandler.js`
-- **rateLimit.js** (10 connections) — `backend/src/middleware/rateLimit.js`
-- **rateLimit()** (9 connections) — `backend/src/middleware/rateLimit.js`
-- **admin.js** (9 connections) — `backend/src/routes/admin.js`
-- **health.js** (9 connections) — `backend/src/routes/health.js`
-- **uploads.js** (9 connections) — `backend/src/routes/uploads.js`
-- **securityPhase3.test.mjs** (9 connections) — `backend/test/securityPhase3.test.mjs`
-- **prices.js** (7 connections) — `backend/src/routes/prices.js`
-- **migrate.js** (6 connections) — `backend/src/db/migrate.js`
-- **contentRouter** (5 connections) — `backend/src/routes/content.js`
-- **uploadRouter** (5 connections) — `backend/src/routes/upload.js`
-- **uploadsRouter** (5 connections) — `backend/src/routes/uploads.js`
-- **migrate()** (4 connections) — `backend/src/db/migrate.js`
-- **errorHandler()** (4 connections) — `backend/src/middleware/errorHandler.js`
-- **adminRouter** (4 connections) — `backend/src/routes/admin.js`
-- **app** (4 connections) — `backend/src/app.js`
-- **rateLimitFix.test.mjs** (4 connections) — `backend/test/rateLimitFix.test.mjs`
-- **[...path].js** (3 connections) — `api/auth/[...path].js`
-- **applied()** (3 connections) — `backend/src/db/migrate.js`
-- **[...path].js** (3 connections) — `api/dealers/[...path].js`
-- *... and 32 more nodes in this community*
+- **Product.jsx** (41 connections) — `src/pages/Product.jsx`
+- **useLanguage()** (32 connections) — `src/data/i18n.js`
+- **dealer.js** (30 connections) — `src/data/dealer.js`
+- **Favorites.jsx** (20 connections) — `src/pages/Favorites.jsx`
+- **ProductCard.jsx** (19 connections) — `src/components/ProductCard.jsx`
+- **dealer.test.mjs** (19 connections) — `src/data/dealer.test.mjs`
+- **isDealer()** (18 connections) — `src/data/dealer.js`
+- **t()** (18 connections) — `src/data/i18n.js`
+- **MobileBottomNav.jsx** (16 connections) — `src/components/MobileBottomNav.jsx`
+- **Product()** (16 connections) — `src/pages/Product.jsx`
+- **PriceBlock.jsx** (15 connections) — `src/components/PriceBlock.jsx`
+- **ProductCard()** (15 connections) — `src/components/ProductCard.jsx`
+- **priceFor()** (15 connections) — `src/data/dealer.js`
+- **useFavorites()** (15 connections) — `src/data/favoritesStore.js`
+- **dealerById()** (12 connections) — `src/data/dealer.js`
+- **inr()** (12 connections) — `src/data/dealer.js`
+- **useProducts()** (12 connections) — `src/data/productsStore.js`
+- **Favorites()** (9 connections) — `src/pages/Favorites.jsx`
+- **Products()** (9 connections) — `src/pages/Products.jsx`
+- **Header()** (9 connections) — `src/ui.jsx`
+- **MobileBottomNav()** (8 connections) — `src/components/MobileBottomNav.jsx`
+- **viewerFor()** (8 connections) — `src/data/dealer.js`
+- **portalGate.js** (8 connections) — `src/data/portalGate.js`
+- **CustomerPrice()** (7 connections) — `src/components/PriceBlock.jsx`
+- **productSlug()** (7 connections) — `src/data/dealer.js`
+- *... and 30 more nodes in this community*
 
 ## Relationships
 
-- [[Community 47]] (24 shared connections)
-- [[Mobile Responsive UI Skill]] (20 shared connections)
-- [[Community 41]] (9 shared connections)
-- [[Community 72]] (5 shared connections)
-- [[Community 187]] (4 shared connections)
-- [[Community 177]] (4 shared connections)
-- [[Community 253]] (3 shared connections)
-- [[Community 49]] (2 shared connections)
-- [[Live Pricing Audit Tool]] (2 shared connections)
-- [[Community 137]] (1 shared connections)
-- [[Community 141]] (1 shared connections)
+- [[Live Pricing Audit Tool]] (74 shared connections)
+- [[Community 59]] (24 shared connections)
+- [[Vercel Deployment Routing]] (18 shared connections)
+- [[Community 48]] (13 shared connections)
+- [[Community 167]] (6 shared connections)
+- [[Community 112]] (3 shared connections)
+- [[Community 152]] (2 shared connections)
+- [[Community 30]] (1 shared connections)
 
 ## Source Files
 
-- `api/auth/[...path].js`
-- `api/dealers/[...path].js`
-- `backend/src/app.js`
-- `backend/src/db/migrate.js`
-- `backend/src/jobs/index.js`
-- `backend/src/middleware/errorHandler.js`
-- `backend/src/middleware/rateLimit.js`
-- `backend/src/routes/admin.js`
-- `backend/src/routes/auth.js`
-- `backend/src/routes/content.js`
-- `backend/src/routes/dealers.js`
-- `backend/src/routes/health.js`
-- `backend/src/routes/prices.js`
-- `backend/src/routes/upload.js`
-- `backend/src/routes/uploads.js`
-- `backend/src/routes/webhooks.js`
-- `backend/src/server.js`
-- `backend/test/compatibilitySuite.test.mjs`
-- `backend/test/rateLimitFix.test.mjs`
-- `backend/test/securityPhase1.test.mjs`
+- `src/components/MobileBottomNav.jsx`
+- `src/components/PriceBlock.jsx`
+- `src/components/ProductCard.jsx`
+- `src/components/ProductSearchBar.jsx`
+- `src/data/dealer.js`
+- `src/data/dealer.test.mjs`
+- `src/data/favoritesStore.js`
+- `src/data/i18n.js`
+- `src/data/portalGate.js`
+- `src/data/productsStore.js`
+- `src/data/trial-collection.test.mjs`
+- `src/pages/Favorites.jsx`
+- `src/pages/Login.jsx`
+- `src/pages/Product.jsx`
+- `src/pages/Products.jsx`
+- `src/pages/Schemes.jsx`
+- `src/ui.jsx`
 
 ## Audit Trail
 
-- EXTRACTED: 285 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 478 (100%)
+- INFERRED: 1 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

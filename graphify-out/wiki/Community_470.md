@@ -4,14 +4,13 @@
 
 ## Key Concepts
 
-- **guidedViews** (4 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **maxItems** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **id** (3 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **pattern** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
 - **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
 
 ## Relationships
 
-- [[Community 76]] (1 shared connections)
-- [[Community 238]] (1 shared connections)
+- [[Community 84]] (1 shared connections)
 
 ## Source Files
 
@@ -19,7 +18,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 5 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

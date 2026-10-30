@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **iOS Code Signing & TestFlight Deployment** (2 connections) — `docs/mobile/ios-provisioning-and-signing.md`
-- **ios-provisioning-and-signing.md** (1 connections) — `docs/mobile/ios-provisioning-and-signing.md`
-- **Overview** (1 connections) — `docs/mobile/ios-provisioning-and-signing.md`
+- **Brand marks** (2 connections) — `.agents/skills/archify/references/brand-marks.md`
+- **brand-marks.md** (1 connections) — `.agents/skills/archify/references/brand-marks.md`
+- **Agent decision path** (1 connections) — `.agents/skills/archify/references/brand-marks.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/mobile/ios-provisioning-and-signing.md`
+- `.agents/skills/archify/references/brand-marks.md`
 
 ## Audit Trail
 

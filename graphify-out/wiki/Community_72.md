@@ -1,54 +1,46 @@
 # Community 72
 
-> 23 nodes · cohesion 0.22
+> 24 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **content.js** (21 connections) — `backend/src/services/content.js`
-- **content.js** (17 connections) — `backend/src/routes/content.js`
-- **content.js** (15 connections) — `api/content.js`
-- **handler()** (12 connections) — `api/content.js`
-- **getSupabaseBanners()** (9 connections) — `backend/src/services/content.js`
-- **getSupabaseSchemes()** (8 connections) — `backend/src/services/content.js`
-- **getHeroSliderSettings()** (7 connections) — `backend/src/services/content.js`
-- **getSupabaseBranding()** (7 connections) — `backend/src/services/content.js`
-- **getActiveContent()** (6 connections) — `backend/src/services/content.js`
-- **saveHeroSliderSettings()** (5 connections) — `backend/src/services/content.js`
-- **deleteStoreContent()** (4 connections) — `backend/src/services/content.js`
-- **getAllStoreContent()** (4 connections) — `backend/src/services/content.js`
-- **toggleStoreContentActive()** (4 connections) — `backend/src/services/content.js`
-- **upsertStoreContent()** (4 connections) — `backend/src/services/content.js`
-- **getContentService()** (3 connections) — `api/content.js`
-- **getContentService()** (3 connections) — `api/settings.js`
-- **handler()** (3 connections) — `api/settings.js`
-- **fetchZohoBanners()** (3 connections) — `api/_lib/zoho.js`
-- **fetchZohoSchemes()** (3 connections) — `api/_lib/zoho.js`
-- **settings.js** (2 connections) — `api/settings.js`
-- **ALLOWED_CONTENT_TYPES** (1 connections) — `api/content.js`
-- **ALLOWED_CONTENT_TYPES** (1 connections) — `backend/src/routes/content.js`
-- **formatGoogleDriveUrl()** (1 connections) — `backend/src/services/content.js`
+- **Apple Pay** (11 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Using Apple Pay buttons** (5 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Button styles** (4 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Button types** (3 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Handling problems** (3 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Streamlining checkout** (2 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **apple-pay.md** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Apple Pay button** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Apple Pay mark** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Black** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Button size and position** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Customizing the payment sheet** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Data validation errors** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Displaying a website icon** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Offering Apple Pay** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Payment processing problems** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Referring to Apple Pay** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Set Up Apple Pay button** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Supporting donations** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **Supporting subscriptions** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **White** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
+- **White with outline** (1 connections) — `.agents/skills/apple-design/references/hig/apple-pay.md`
 
 ## Relationships
 
-- [[Mobile Responsive UI Skill]] (11 shared connections)
-- [[Community 141]] (8 shared connections)
-- [[Product Brand & Business Vision]] (5 shared connections)
-- [[Community 187]] (3 shared connections)
-- [[Community 43]] (2 shared connections)
-- [[Community 47]] (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `api/_lib/zoho.js`
-- `api/content.js`
-- `api/settings.js`
-- `backend/src/routes/content.js`
-- `backend/src/services/content.js`
+- `.agents/skills/apple-design/references/hig/apple-pay.md`
 
 ## Audit Trail
 
-- EXTRACTED: 137 (96%)
-- INFERRED: 6 (4%)
+- EXTRACTED: 46 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

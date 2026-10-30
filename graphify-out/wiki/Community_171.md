@@ -4,17 +4,17 @@
 
 ## Key Concepts
 
-- **Apple In-App Purchase** (5 connections) — `.agents/skills/apple-design/references/hig/apple-in-app-purchase.md`
-- **Auto-renewable subscriptions** (4 connections) — `.agents/skills/apple-design/references/hig/apple-in-app-purchase.md`
-- **Best practices** (3 connections) — `.agents/skills/apple-design/references/hig/apple-in-app-purchase.md`
-- **apple-in-app-purchase.md** (1 connections) — `.agents/skills/apple-design/references/hig/apple-in-app-purchase.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/apple-in-app-purchase.md`
-- **Helping people manage their subscriptions** (1 connections) — `.agents/skills/apple-design/references/hig/apple-in-app-purchase.md`
-- **Making signup effortless** (1 connections) — `.agents/skills/apple-design/references/hig/apple-in-app-purchase.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/apple-in-app-purchase.md`
-- **Providing help** (1 connections) — `.agents/skills/apple-design/references/hig/apple-in-app-purchase.md`
-- **Supporting Family Sharing** (1 connections) — `.agents/skills/apple-design/references/hig/apple-in-app-purchase.md`
-- **Supporting offer codes** (1 connections) — `.agents/skills/apple-design/references/hig/apple-in-app-purchase.md`
+- **Dark Mode** (6 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
+- **Dark Mode colors** (3 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
+- **dark-mode.md** (1 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
+- **Icons and images** (1 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
+- **Text** (1 connections) — `.agents/skills/apple-design/references/hig/dark-mode.md`
 
 ## Relationships
 
@@ -22,7 +22,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/apple-in-app-purchase.md`
+- `.agents/skills/apple-design/references/hig/dark-mode.md`
 
 ## Audit Trail
 

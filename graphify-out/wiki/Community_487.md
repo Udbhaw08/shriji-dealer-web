@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **JWT Refresh Token Rotation Policy** (2 connections) — `docs/security/jwt-rotation-policy.md`
-- **jwt-rotation-policy.md** (1 connections) — `docs/security/jwt-rotation-policy.md`
-- **Rotation Rules** (1 connections) — `docs/security/jwt-rotation-policy.md`
+- **Rate Limiting Strategies & Brute-Force Defense** (2 connections) — `docs/security/rate-limiting-strategies.md`
+- **rate-limiting-strategies.md** (1 connections) — `docs/security/rate-limiting-strategies.md`
+- **Security Thresholds** (1 connections) — `docs/security/rate-limiting-strategies.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/security/jwt-rotation-policy.md`
+- `docs/security/rate-limiting-strategies.md`
 
 ## Audit Trail
 

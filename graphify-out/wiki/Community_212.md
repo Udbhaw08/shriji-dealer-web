@@ -1,19 +1,18 @@
 # Community 212
 
-> 10 nodes · cohesion 0.22
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **whatsappOtp.test.mjs** (9 connections) — `backend/test/whatsappOtp.test.mjs`
-- **resetConfig()** (2 connections) — `backend/test/whatsappOtp.test.mjs`
-- **resetDb()** (2 connections) — `backend/test/whatsappOtp.test.mjs`
-- **app** (1 connections) — `backend/test/whatsappOtp.test.mjs`
-- **db** (1 connections) — `backend/test/whatsappOtp.test.mjs`
-- **logEntries** (1 connections) — `backend/test/whatsappOtp.test.mjs`
-- **mockSql()** (1 connections) — `backend/test/whatsappOtp.test.mjs`
-- **startServer()** (1 connections) — `backend/test/whatsappOtp.test.mjs`
-- **stopServer()** (1 connections) — `backend/test/whatsappOtp.test.mjs`
-- **testEnv** (1 connections) — `backend/test/whatsappOtp.test.mjs`
+- **MockStorage** (6 connections) — `src/data/incognito.test.mjs`
+- **incognito.test.mjs** (3 connections) — `src/data/incognito.test.mjs`
+- **addEventListener()** (1 connections) — `src/data/incognito.test.mjs`
+- **.clear()** (1 connections) — `src/data/incognito.test.mjs`
+- **.constructor()** (1 connections) — `src/data/incognito.test.mjs`
+- **.getItem()** (1 connections) — `src/data/incognito.test.mjs`
+- **.removeItem()** (1 connections) — `src/data/incognito.test.mjs`
+- **.setItem()** (1 connections) — `src/data/incognito.test.mjs`
+- **removeEventListener()** (1 connections) — `src/data/incognito.test.mjs`
 
 ## Relationships
 
@@ -21,11 +20,11 @@
 
 ## Source Files
 
-- `backend/test/whatsappOtp.test.mjs`
+- `src/data/incognito.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

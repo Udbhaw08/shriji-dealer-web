@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **Autocannon Load Test Benchmarks** (2 connections) — `docs/testing/load-testing-benchmarks.md`
-- **load-testing-benchmarks.md** (1 connections) — `docs/testing/load-testing-benchmarks.md`
-- **Targets** (1 connections) — `docs/testing/load-testing-benchmarks.md`
+- **Automated Testing & Quality Assurance Strategy** (2 connections) — `docs/testing/testing-strategy.md`
+- **testing-strategy.md** (1 connections) — `docs/testing/testing-strategy.md`
+- **Testing Layers** (1 connections) — `docs/testing/testing-strategy.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/testing/load-testing-benchmarks.md`
+- `docs/testing/testing-strategy.md`
 
 ## Audit Trail
 

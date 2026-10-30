@@ -1,16 +1,15 @@
 # Community 338
 
-> 7 nodes · cohesion 0.29
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **semantic-lens.test.mjs** (6 connections) — `.agents/skills/archify/test/semantic-lens.test.mjs`
-- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/semantic-lens.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/semantic-lens.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/semantic-lens.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/semantic-lens.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/semantic-lens.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/semantic-lens.test.mjs`
+- **ErrorBoundary** (5 connections) — `src/components/ErrorBoundary.jsx`
+- **ErrorBoundary.jsx** (1 connections) — `src/components/ErrorBoundary.jsx`
+- **.componentDidCatch()** (1 connections) — `src/components/ErrorBoundary.jsx`
+- **.constructor()** (1 connections) — `src/components/ErrorBoundary.jsx`
+- **.getDerivedStateFromError()** (1 connections) — `src/components/ErrorBoundary.jsx`
+- **.render()** (1 connections) — `src/components/ErrorBoundary.jsx`
 
 ## Relationships
 
@@ -18,11 +17,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/semantic-lens.test.mjs`
+- `src/components/ErrorBoundary.jsx`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
+- EXTRACTED: 10 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

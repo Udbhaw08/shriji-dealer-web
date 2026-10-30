@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **performance-plus.md** (1 connections) — `.agents/skills/swiftui-pro/references/performance-plus.md`
-- **Deeper performance work** (1 connections) — `.agents/skills/swiftui-pro/references/performance-plus.md`
+- **test-supabase.mjs** (1 connections) — `scripts/test-supabase.mjs`
+- **test()** (1 connections) — `scripts/test-supabase.mjs`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `.agents/skills/swiftui-pro/references/performance-plus.md`
+- `scripts/test-supabase.mjs`
 
 ## Audit Trail
 

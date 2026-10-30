@@ -1,29 +1,28 @@
 # Community 179
 
-> 11 nodes · cohesion 0.18
+> 11 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **legendEntry** (5 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **label** (5 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **properties** (3 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **visible** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **maxLength** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **minLength** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **minProperties** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **degraded.test.mjs** (10 connections) — `.agents/skills/archify/test/degraded.test.mjs`
+- **assertFriendlyFailure()** (2 connections) — `.agents/skills/archify/test/degraded.test.mjs`
+- **render()** (2 connections) — `.agents/skills/archify/test/degraded.test.mjs`
+- **ARRAY_FIELDS** (1 connections) — `.agents/skills/archify/test/degraded.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/degraded.test.mjs`
+- **EXAMPLES** (1 connections) — `.agents/skills/archify/test/degraded.test.mjs`
+- **filter()** (1 connections) — `.agents/skills/archify/test/degraded.test.mjs`
+- **installedRoot** (1 connections) — `.agents/skills/archify/test/degraded.test.mjs`
+- **mulberry32()** (1 connections) — `.agents/skills/archify/test/degraded.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/degraded.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/degraded.test.mjs`
 
 ## Relationships
 
-- [[Community 76]] (1 shared connections)
-- [[Community 180]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/common.schema.json`
+- `.agents/skills/archify/test/degraded.test.mjs`
 
 ## Audit Trail
 

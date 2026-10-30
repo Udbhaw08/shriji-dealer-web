@@ -1,33 +1,29 @@
 # Community 251
 
-> 9 nodes · cohesion 0.25
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **repository-evidence.test.mjs** (13 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
-- **fixture()** (2 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
-- **git()** (2 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
-- **cli** (1 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
-- **evidencePayload()** (1 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
-- **here** (1 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
-- **run()** (1 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
-- **waitForState()** (1 connections) — `.agents/skills/archify/test/repository-evidence.test.mjs`
+- **Controls** (7 connections) — `.agents/skills/apple-design/references/hig/controls.md`
+- **controls.md** (1 connections) — `.agents/skills/apple-design/references/hig/controls.md`
+- **Anatomy** (1 connections) — `.agents/skills/apple-design/references/hig/controls.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/controls.md`
+- **Camera experiences on a locked device** (1 connections) — `.agents/skills/apple-design/references/hig/controls.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/controls.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/controls.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/controls.md`
 
 ## Relationships
 
-- [[Community 74]] (2 shared connections)
-- [[Community 50]] (1 shared connections)
-- [[Community 84]] (1 shared connections)
-- [[Community 128]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/test/repository-evidence.test.mjs`
+- `.agents/skills/apple-design/references/hig/controls.md`
 
 ## Audit Trail
 
-- EXTRACTED: 23 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

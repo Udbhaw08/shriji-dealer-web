@@ -1,34 +1,31 @@
 # Community 205
 
-> 10 nodes · cohesion 0.24
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **renderInline()** (6 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **renderInlineNode()** (6 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **renderHigLink()** (4 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **renderLink()** (4 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **renderParagraph()** (4 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **renderImage()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **renderReference()** (3 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **imageLabel()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **resolveAnchor()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
-- **wrapInline()** (2 connections) — `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- **Shriji Backend Skill** (9 connections) — `.agents/skills/shriji-backend/SKILL.md`
+- **SKILL.md** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
+- **Commands** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
+- **Environment (backend/.env — never committed)** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
+- **Frontend Integration (built)** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
+- **Hard Rules** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
+- **Key Files (populated as built)** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
+- **Ownership Rule (invariant)** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
+- **Pending Seam — price proxy switch (do when backend is deployed)** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
+- **Stack Record — what was chosen, do not substitute** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
 
 ## Relationships
 
-- [[Community 77]] (10 shared connections)
-- [[Community 206]] (2 shared connections)
-- [[Community 241]] (1 shared connections)
-- [[Community 279]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/apple-design/scripts/pull-hig.mjs`
+- `.agents/skills/shriji-backend/SKILL.md`
 
 ## Audit Trail
 
-- EXTRACTED: 36 (100%)
+- EXTRACTED: 18 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

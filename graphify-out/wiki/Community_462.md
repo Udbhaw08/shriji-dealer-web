@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **Capacitor Native Mobile Sync Workflow** (2 connections) — `docs/mobile/capacitor-native-sync.md`
-- **capacitor-native-sync.md** (1 connections) — `docs/mobile/capacitor-native-sync.md`
-- **Commands** (1 connections) — `docs/mobile/capacitor-native-sync.md`
+- **iOS Code Signing & TestFlight Deployment** (2 connections) — `docs/mobile/ios-provisioning-and-signing.md`
+- **ios-provisioning-and-signing.md** (1 connections) — `docs/mobile/ios-provisioning-and-signing.md`
+- **Overview** (1 connections) — `docs/mobile/ios-provisioning-and-signing.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/mobile/capacitor-native-sync.md`
+- `docs/mobile/ios-provisioning-and-signing.md`
 
 ## Audit Trail
 

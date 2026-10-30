@@ -1,46 +1,54 @@
 # Community 68
 
-> 24 nodes · cohesion 0.08
+> 25 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **properties** (11 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **viewBox** (6 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **title** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **animation** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **locale** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **output** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **quality_profile** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **subtitle** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **views** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **visual_preset** (2 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **minLength** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **items** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **maxItems** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **minItems** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **prefixItems** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **na()** (18 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
+- **To()** (18 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
+- **mc()** (11 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
+- **so()** (9 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
+- **Ti()** (9 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
+- **ac()** (8 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
+- **co()** (8 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
+- **no()** (7 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
+- **oo()** (7 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
+- **bc()** (6 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
+- **df()** (6 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
+- **dh()** (6 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
+- **ct()** (5 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
+- **Er()** (5 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
+- **va()** (5 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
+- **xc()** (5 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
+- **yo()** (5 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
+- **zn()** (5 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
+- **ba()** (4 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
+- **La()** (4 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
+- **vo()** (4 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
+- **xa()** (4 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
+- **ya()** (4 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
+- **hi()** (3 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
+- **w()** (2 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
 
 ## Relationships
 
-- [[Community 199]] (1 shared connections)
-- [[Community 117]] (1 shared connections)
+- [[Dealer Auth & Session Management]] (29 shared connections)
+- [[Master Codebase Architecture Reference]] (25 shared connections)
+- [[Community 54]] (10 shared connections)
+- [[Dependencies & Package Config]] (8 shared connections)
+- [[Agent Guidelines (AGENTS.md)]] (7 shared connections)
+- [[Community 49]] (7 shared connections)
+- [[Mobile Responsive UI Skill]] (5 shared connections)
+- [[Community 79]] (2 shared connections)
+- [[Community 60]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/dataflow.schema.json`
+- `ios/App/App/public/assets/index-DpX2FidJ.js`
 
 ## Audit Trail
 
-- EXTRACTED: 48 (100%)
+- EXTRACTED: 168 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

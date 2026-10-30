@@ -1,38 +1,35 @@
 # Community 137
 
-> 14 nodes · cohesion 0.32
+> 14 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **commerceClient.js** (23 connections) — `backend/src/services/commerceClient.js`
-- **ensureContactPricebookForCrmAccount()** (9 connections) — `backend/src/services/commerceClient.js`
-- **fetchCatalog()** (6 connections) — `backend/src/services/commerceClient.js`
-- **resolvePricebookId()** (6 connections) — `backend/src/services/commerceClient.js`
-- **booksFetch()** (5 connections) — `backend/src/services/commerceClient.js`
-- **commerceConfigured()** (5 connections) — `backend/src/services/commerceClient.js`
-- **commerceFetch()** (5 connections) — `backend/src/services/commerceClient.js`
-- **assignPricebookToContact()** (4 connections) — `backend/src/services/commerceClient.js`
-- **deactivateCommerceContact()** (3 connections) — `backend/src/services/commerceClient.js`
-- **fetchCommercePricebooks()** (3 connections) — `backend/src/services/commerceClient.js`
-- **fetchPricebookRates()** (3 connections) — `backend/src/services/commerceClient.js`
-- **getAccessToken()** (3 connections) — `backend/src/services/commerceClient.js`
-- **parseRate()** (2 connections) — `backend/src/services/commerceClient.js`
-- **invalidatePricebooksCache()** (1 connections) — `backend/src/services/commerceClient.js`
+- **Icons & Glyphs Guide** (10 connections) — `.agents/skills/refero-design/references/icons.md`
+- **Libraries** (4 connections) — `.agents/skills/refero-design/references/icons.md`
+- **icons.md** (1 connections) — `.agents/skills/refero-design/references/icons.md`
+- **Accessibility** (1 connections) — `.agents/skills/refero-design/references/icons.md`
+- **Color** (1 connections) — `.agents/skills/refero-design/references/icons.md`
+- **For Product UI (SVG-based)** (1 connections) — `.agents/skills/refero-design/references/icons.md`
+- **Icon Sizing** (1 connections) — `.agents/skills/refero-design/references/icons.md`
+- **Icon + Text Pairing** (1 connections) — `.agents/skills/refero-design/references/icons.md`
+- **Optical Corrections** (1 connections) — `.agents/skills/refero-design/references/icons.md`
+- **Pre-Ship Checklist** (1 connections) — `.agents/skills/refero-design/references/icons.md`
+- **Style Consistency** (1 connections) — `.agents/skills/refero-design/references/icons.md`
+- **Two Contexts** (1 connections) — `.agents/skills/refero-design/references/icons.md`
+- **Variable Glyph Systems** (1 connections) — `.agents/skills/refero-design/references/icons.md`
+- **When to Use What** (1 connections) — `.agents/skills/refero-design/references/icons.md`
 
 ## Relationships
 
-- [[Community 47]] (9 shared connections)
-- [[Community 41]] (5 shared connections)
-- [[Mobile Responsive UI Skill]] (5 shared connections)
-- [[Product Brand & Business Vision]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `backend/src/services/commerceClient.js`
+- `.agents/skills/refero-design/references/icons.md`
 
 ## Audit Trail
 
-- EXTRACTED: 78 (100%)
+- EXTRACTED: 26 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

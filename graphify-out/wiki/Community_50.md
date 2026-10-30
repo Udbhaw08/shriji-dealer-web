@@ -1,62 +1,54 @@
 # Community 50
 
-> 31 nodes · cohesion 0.12
+> 32 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **visual-check.mjs** (50 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **runVisualCheck()** (18 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **desktop-readability.mjs** (9 connections) — `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
-- **adaptive-reader-layout.test.mjs** (9 connections) — `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
-- **desktop-reader-browser.test.mjs** (8 connections) — `.agents/skills/archify/test/desktop-reader-browser.test.mjs`
-- **DESKTOP_READABILITY_VIEWPORT** (5 connections) — `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
-- **observationDiagnostics()** (4 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **safeUnlink()** (4 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **writeAtomic()** (4 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **baseReceipt()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **cleanupCaptureSidecars()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **contactSheetHtml()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **failureDiagnostic()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **persistReceipt()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **sha256()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **sidecarPaths()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **htmlEscape()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **observation()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **screenshotKey()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **viewportSubject()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **CAPTURE_VIEWPORTS** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **EXIT** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **THEMES** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
-- **reader** (1 connections) — `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
-- *... and 6 more nodes in this community*
+- **crmClient.js** (39 connections) — `backend/src/services/crmClient.js`
+- **normalizePhone()** (21 connections) — `backend/src/utils/phone.js`
+- **crmFetch()** (15 connections) — `backend/src/services/crmClient.js`
+- **reset-test-users.js** (11 connections) — `backend/scripts/reset-test-users.js`
+- **crmConfigured()** (9 connections) — `backend/src/services/crmClient.js`
+- **phone.js** (8 connections) — `backend/src/utils/phone.js`
+- **createDealerAccount()** (6 connections) — `backend/src/services/crmClient.js`
+- **createDealerContact()** (6 connections) — `backend/src/services/crmClient.js`
+- **interconnection.test.mjs** (6 connections) — `backend/test/interconnection.test.mjs`
+- **runReset()** (5 connections) — `backend/scripts/reset-test-users.js`
+- **findOwnerContactInAccount()** (5 connections) — `backend/src/services/crmClient.js`
+- **normalizeUserSource()** (5 connections) — `backend/src/services/crmClient.js`
+- **updateContactDetails()** (5 connections) — `backend/src/services/crmClient.js`
+- **updateDealerCodeInCrm()** (5 connections) — `backend/src/services/crmClient.js`
+- **resolveContactNames()** (4 connections) — `backend/src/services/crmClient.js`
+- **syncAccountUserSourceToContacts()** (4 connections) — `backend/src/services/crmClient.js`
+- **deactivateAccountInCrm()** (3 connections) — `backend/src/services/crmClient.js`
+- **deactivateContactInCrm()** (3 connections) — `backend/src/services/crmClient.js`
+- **getDealerAccount()** (3 connections) — `backend/src/services/crmClient.js`
+- **isCrmConfigured()** (3 connections) — `backend/src/services/crmClient.js`
+- **linkContactToBackendUser()** (3 connections) — `backend/src/services/crmClient.js`
+- **deleteCrmRecords()** (2 connections) — `backend/scripts/reset-test-users.js`
+- **searchCrmRecordIds()** (2 connections) — `backend/scripts/reset-test-users.js`
+- **getAccessToken()** (2 connections) — `backend/src/services/crmClient.js`
+- **getDealerContact()** (2 connections) — `backend/src/services/crmClient.js`
+- *... and 7 more nodes in this community*
 
 ## Relationships
 
-- [[Community 84]] (8 shared connections)
-- [[Community 128]] (6 shared connections)
-- [[Community 57]] (5 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (4 shared connections)
-- [[Community 65]] (3 shared connections)
-- [[Architecture Doc Generator]] (3 shared connections)
-- [[Community 120]] (2 shared connections)
-- [[Community 92]] (2 shared connections)
-- [[Community 107]] (2 shared connections)
-- [[Community 147]] (1 shared connections)
-- [[Community 148]] (1 shared connections)
-- [[Community 126]] (1 shared connections)
+- [[Community 40]] (27 shared connections)
+- [[Community 46]] (8 shared connections)
+- [[Project Readme & Layout]] (6 shared connections)
+- [[Client Products Data Store]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/bin/visual-check.mjs`
-- `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
-- `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
-- `.agents/skills/archify/test/desktop-reader-browser.test.mjs`
+- `backend/scripts/reset-test-users.js`
+- `backend/src/services/crmClient.js`
+- `backend/src/utils/phone.js`
+- `backend/test/interconnection.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 150 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 185 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

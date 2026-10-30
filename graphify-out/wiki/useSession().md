@@ -1,8 +1,8 @@
 # useSession()
 
-> God node · 44 connections · `src/data/session.js`
+> God node · 45 connections · `src/data/session.js`
 
-**Community:** [[Pricing Regression Test Suite]]
+**Community:** [[Live Pricing Audit Tool]]
 
 ## Connections by Relation
 
@@ -24,17 +24,17 @@
 - [[Support()]] `EXTRACTED`
 - [[DealerDashboard()]] `EXTRACTED`
 - [[StaffJoin()]] `EXTRACTED`
+- [[IncognitoToggle()]] `EXTRACTED`
 - [[EmailVerificationPrompt()]] `EXTRACTED`
 - [[PhoneVerificationPrompt()]] `EXTRACTED`
-- [[DealerApply()]] `EXTRACTED`
 
 ### contains
 - [[session.js]] `EXTRACTED`
 
 ### imports
 - [[main.jsx]] `EXTRACTED`
-- [[Login.jsx]] `EXTRACTED`
 - [[ui.jsx]] `EXTRACTED`
+- [[Login.jsx]] `EXTRACTED`
 - [[Product.jsx]] `EXTRACTED`
 - [[Products.jsx]] `EXTRACTED`
 - [[DealerApply.jsx]] `EXTRACTED`

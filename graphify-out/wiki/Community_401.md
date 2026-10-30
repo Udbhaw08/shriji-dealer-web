@@ -1,14 +1,13 @@
 # Community 401
 
-> 5 nodes · cohesion 0.40
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **base-input-compatibility.test.mjs** (4 connections) — `.agents/skills/archify/test/base-input-compatibility.test.mjs`
-- **here** (1 connections) — `.agents/skills/archify/test/base-input-compatibility.test.mjs`
-- **renderBaseFixture()** (1 connections) — `.agents/skills/archify/test/base-input-compatibility.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/base-input-compatibility.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/base-input-compatibility.test.mjs`
+- **REST API Endpoints Specification** (3 connections) — `docs/api/endpoints-spec.md`
+- **endpoints-spec.md** (1 connections) — `docs/api/endpoints-spec.md`
+- **Authentication Endpoints** (1 connections) — `docs/api/endpoints-spec.md`
+- **Catalog Endpoints** (1 connections) — `docs/api/endpoints-spec.md`
 
 ## Relationships
 
@@ -16,11 +15,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/base-input-compatibility.test.mjs`
+- `docs/api/endpoints-spec.md`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

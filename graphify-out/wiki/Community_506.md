@@ -1,12 +1,11 @@
 # Community 506
 
-> 3 nodes · cohesion 0.67
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **stringUtils.js** (2 connections) — `src/utils/stringUtils.js`
-- **titleCase()** (1 connections) — `src/utils/stringUtils.js`
-- **truncate()** (1 connections) — `src/utils/stringUtils.js`
+- **README.md** (1 connections) — `.agents/skills/archify/brand-marks/README.md`
+- **Built-in brand marks** (1 connections) — `.agents/skills/archify/brand-marks/README.md`
 
 ## Relationships
 
@@ -14,11 +13,11 @@
 
 ## Source Files
 
-- `src/utils/stringUtils.js`
+- `.agents/skills/archify/brand-marks/README.md`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 2 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

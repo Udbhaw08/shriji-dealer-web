@@ -1,51 +1,47 @@
 # Graphify Agent Rules
 
-> 41 nodes · cohesion 0.16
+> 43 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **auth.js** (60 connections) — `src/data/auth.js`
-- **callBackend()** (32 connections) — `src/data/auth.js`
-- **json()** (32 connections) — `src/data/auth.js`
-- **DealerDashboard.jsx** (24 connections) — `src/pages/DealerDashboard.jsx`
-- **broadcastAuthChange()** (13 connections) — `src/data/auth.js`
-- **applyAuthResponse()** (9 connections) — `src/data/auth.js`
-- **finalizeDealerRegistration()** (8 connections) — `src/data/auth.js`
-- **requestDealerRegistrationOtp()** (8 connections) — `src/data/auth.js`
-- **staffSignup()** (8 connections) — `src/data/auth.js`
-- **verifyDealerRegistrationOtp()** (8 connections) — `src/data/auth.js`
-- **verifyEmailOtp()** (7 connections) — `src/data/auth.js`
-- **logout()** (6 connections) — `src/data/auth.js`
-- **requestEmailOtp()** (6 connections) — `src/data/auth.js`
-- **verifyPhoneOtp()** (6 connections) — `src/data/auth.js`
-- **fetchMe()** (5 connections) — `src/data/auth.js`
-- **googleLogin()** (5 connections) — `src/data/auth.js`
-- **login()** (5 connections) — `src/data/auth.js`
-- **requestPhoneOtp()** (5 connections) — `src/data/auth.js`
-- **signup()** (5 connections) — `src/data/auth.js`
-- **staffTogglePrice()** (5 connections) — `src/data/auth.js`
-- **staffTogglePriceAll()** (5 connections) — `src/data/auth.js`
-- **verifyOtp()** (5 connections) — `src/data/auth.js`
-- **persistTokens()** (4 connections) — `src/data/auth.js`
-- **requestOtp()** (4 connections) — `src/data/auth.js`
-- **staffApprove()** (4 connections) — `src/data/auth.js`
-- *... and 16 more nodes in this community*
+- **Craft Details Guide** (11 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **2. Forms** (10 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **6. Accessibility Quick Wins** (6 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **4. Touch & Mobile** (5 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **5. Performance Patterns** (5 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **1. Focus States** (4 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **3. Images** (4 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **7. Navigation & State** (4 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **craft-details.md** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **8. Content Copy Rules** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **9. Anti-Patterns Checklist** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **Always Set Dimensions** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **Async Updates Need Announcements** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **Autocomplete Matters** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **AutoFocus Rules** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **Avoid Layout Reads in Render** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **Compound Controls: `:focus-within`** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **Destructive Actions Need Confirmation** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **Disable Spellcheck Where Appropriate** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **Error Handling** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **Heading Hierarchy** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **In React/Next.js** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **Input Types and Attributes** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **Keyboard Handlers** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **Labels and Hit Targets** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- *... and 18 more nodes in this community*
 
 ## Relationships
 
-- [[Roles & Customer Sharing Spec]] (61 shared connections)
-- [[Community 91]] (11 shared connections)
-- [[Pricing Regression Test Suite]] (4 shared connections)
-- [[Vercel Deployment Routing]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `src/data/auth.js`
-- `src/pages/DealerDashboard.jsx`
+- `.agents/skills/refero-design/references/craft-details.md`
 
 ## Audit Trail
 
-- EXTRACTED: 333 (100%)
+- EXTRACTED: 84 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

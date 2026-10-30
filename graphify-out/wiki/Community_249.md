@@ -1,30 +1,33 @@
 # Community 249
 
-> 9 nodes · cohesion 0.22
+> 8 nodes · cohesion 0.32
 
 ## Key Concepts
 
-- **relationship-permalink.test.mjs** (8 connections) — `.agents/skills/archify/test/relationship-permalink.test.mjs`
-- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/relationship-permalink.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/relationship-permalink.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/relationship-permalink.test.mjs`
-- **fixture()** (1 connections) — `.agents/skills/archify/test/relationship-permalink.test.mjs`
-- **relationshipKey()** (1 connections) — `.agents/skills/archify/test/relationship-permalink.test.mjs`
-- **run()** (1 connections) — `.agents/skills/archify/test/relationship-permalink.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/relationship-permalink.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/relationship-permalink.test.mjs`
+- **createDealerContact()** (9 connections) — `api/_lib/zoho.js`
+- **getAccessToken()** (6 connections) — `api/_lib/zoho.js`
+- **loadEnv()** (5 connections) — `api/_lib/zoho.js`
+- **test-zoho-api.mjs** (4 connections) — `scripts/test-zoho-api.mjs`
+- **apply.js** (3 connections) — `api/dealer/apply.js`
+- **handler()** (2 connections) — `api/dealer/apply.js`
+- **readDiskCache()** (2 connections) — `api/_lib/zoho.js`
+- **{ dc, orgId }** (1 connections) — `scripts/test-zoho-api.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 44]] (6 shared connections)
+- [[Community 69]] (6 shared connections)
+- [[Community 61]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/relationship-permalink.test.mjs`
+- `api/_lib/zoho.js`
+- `api/dealer/apply.js`
+- `scripts/test-zoho-api.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 32 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

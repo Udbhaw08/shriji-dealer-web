@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **esm-D4YuRg1O.js** (1 connections) — `android/app/src/main/assets/public/assets/esm-D4YuRg1O.js`
-- **__vite__mapDeps()** (1 connections) — `android/app/src/main/assets/public/assets/esm-D4YuRg1O.js`
+- **Package.swift** (1 connections) — `ios/App/CapApp-SPM/Package.swift`
+- **PackageDescription** (1 connections) — `ios/App/CapApp-SPM/Package.swift`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/esm-D4YuRg1O.js`
+- `ios/App/CapApp-SPM/Package.swift`
 
 ## Audit Trail
 

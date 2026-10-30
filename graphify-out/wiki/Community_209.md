@@ -1,33 +1,31 @@
 # Community 209
 
-> 10 nodes · cohesion 0.20
+> 10 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **output-path.test.mjs** (16 connections) — `.agents/skills/archify/test/output-path.test.mjs`
-- **baseFixture** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
-- **cli** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
-- **copyInstalledSkill()** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
-- **directoryAliasesNames()** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
-- **headFixture** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
-- **here** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
-- **run()** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
-- **workflowFixture** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
+- **whatsappOtp.test.mjs** (9 connections) — `backend/test/whatsappOtp.test.mjs`
+- **resetConfig()** (2 connections) — `backend/test/whatsappOtp.test.mjs`
+- **resetDb()** (2 connections) — `backend/test/whatsappOtp.test.mjs`
+- **app** (1 connections) — `backend/test/whatsappOtp.test.mjs`
+- **db** (1 connections) — `backend/test/whatsappOtp.test.mjs`
+- **logEntries** (1 connections) — `backend/test/whatsappOtp.test.mjs`
+- **mockSql()** (1 connections) — `backend/test/whatsappOtp.test.mjs`
+- **startServer()** (1 connections) — `backend/test/whatsappOtp.test.mjs`
+- **stopServer()** (1 connections) — `backend/test/whatsappOtp.test.mjs`
+- **testEnv** (1 connections) — `backend/test/whatsappOtp.test.mjs`
 
 ## Relationships
 
-- [[Client Products Data Store]] (3 shared connections)
-- [[Community 74]] (2 shared connections)
-- [[Community 106]] (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/test/output-path.test.mjs`
+- `backend/test/whatsappOtp.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 25 (100%)
+- EXTRACTED: 20 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

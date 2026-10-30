@@ -4,15 +4,15 @@
 
 ## Key Concepts
 
-- **2. Customer vs. Dealer Price Resolution (`src/data/dealer.js`)** (4 connections) — `docs/PRICING-ARCHITECTURE.md`
-- **PRICING-ARCHITECTURE.md — Pricing Engine & Audit Specification** (4 connections) — `docs/PRICING-ARCHITECTURE.md`
-- **1. Source of Truth: Live Zoho Commerce Store API** (2 connections) — `docs/PRICING-ARCHITECTURE.md`
-- **PRICING-ARCHITECTURE.md** (1 connections) — `docs/PRICING-ARCHITECTURE.md`
-- **2.1 Customer View** (1 connections) — `docs/PRICING-ARCHITECTURE.md`
-- **2.2 Dealer View** (1 connections) — `docs/PRICING-ARCHITECTURE.md`
-- **2.3 Share Link Invariant** (1 connections) — `docs/PRICING-ARCHITECTURE.md`
-- **3. Automated Pricing Regression Protection** (1 connections) — `docs/PRICING-ARCHITECTURE.md`
-- **Rate Priority Hierarchy** (1 connections) — `docs/PRICING-ARCHITECTURE.md`
+- **Designing for games** (8 connections) — `.agents/skills/apple-design/references/hig/designing-for-games.md`
+- **designing-for-games.md** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-games.md`
+- **Adopt Apple technologies** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-games.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-games.md`
+- **Enable intuitive interactions** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-games.md`
+- **Jump into gameplay** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-games.md`
+- **Look stunning on every display** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-games.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-games.md`
+- **Welcome everyone** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-games.md`
 
 ## Relationships
 
@@ -20,7 +20,7 @@
 
 ## Source Files
 
-- `docs/PRICING-ARCHITECTURE.md`
+- `.agents/skills/apple-design/references/hig/designing-for-games.md`
 
 ## Audit Trail
 

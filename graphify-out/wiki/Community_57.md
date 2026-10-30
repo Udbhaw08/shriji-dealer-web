@@ -1,60 +1,52 @@
 # Community 57
 
-> 27 nodes · cohesion 0.13
+> 28 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **.send()** (54 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **viewer-camera-browser.test.mjs** (11 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **export-browser.test.mjs** (9 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **motion-governor-browser.test.mjs** (9 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **.inspect()** (5 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **run()** (5 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **run()** (5 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **load()** (4 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **load()** (4 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **run()** (4 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **evaluate()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **click()** (3 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **load()** (3 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **record()** (3 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **media()** (3 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **screenshot()** (3 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **stable()** (3 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **viewport()** (3 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **.waitFor()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **key()** (2 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **snapshot()** (2 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- **screenshot()** (2 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **snapshot()** (2 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- *... and 2 more nodes in this community*
+- **output-path.mjs** (22 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **output-path.test.mjs** (16 connections) — `.agents/skills/archify/test/output-path.test.mjs`
+- **resolveOutputPath()** (11 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **futurePathsAlias()** (6 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **pathsAlias()** (6 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **canonicalFuturePath()** (5 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **sameFileIdentity()** (5 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **probeDirectorySemantics()** (4 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **canonicalize()** (3 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **directoryIdentityKey()** (3 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **hasFileIdentity()** (3 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **pathIsInside()** (3 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **probeNamesAlias()** (3 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **sameDirectory()** (3 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **nearestExistingDirectory()** (2 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **OutputPathError** (2 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **splitAbsolute()** (2 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **directorySemanticsCache** (1 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **.constructor()** (1 connections) — `.agents/skills/archify/renderers/shared/output-path.mjs`
+- **baseFixture** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
+- **cli** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
+- **copyInstalledSkill()** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
+- **directoryAliasesNames()** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
+- **headFixture** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
+- **here** (1 connections) — `.agents/skills/archify/test/output-path.test.mjs`
+- *... and 3 more nodes in this community*
 
 ## Relationships
 
-- [[Community 65]] (11 shared connections)
-- [[Community 92]] (8 shared connections)
-- [[Community 84]] (7 shared connections)
-- [[Community 128]] (7 shared connections)
-- [[Community 50]] (5 shared connections)
-- [[Community 147]] (5 shared connections)
-- [[Community 148]] (5 shared connections)
-- [[Community 183]] (4 shared connections)
-- [[Community 107]] (1 shared connections)
-- [[Community 300]] (1 shared connections)
+- [[Zoho Integration Architecture]] (7 shared connections)
+- [[Community 34]] (5 shared connections)
+- [[Graphify Knowledge Graph Skill]] (4 shared connections)
+- [[Product Requirements Documentation]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/bin/visual-check.mjs`
-- `.agents/skills/archify/test/export-browser.test.mjs`
-- `.agents/skills/archify/test/motion-governor-browser.test.mjs`
-- `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- `.agents/skills/archify/renderers/shared/output-path.mjs`
+- `.agents/skills/archify/test/output-path.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 146 (99%)
-- INFERRED: 2 (1%)
+- EXTRACTED: 107 (97%)
+- INFERRED: 3 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

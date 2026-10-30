@@ -1,36 +1,31 @@
 # Community 187
 
-> 10 nodes · cohesion 0.31
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **upload.js** (9 connections) — `api/upload.js`
-- **verifyAdminAuth()** (9 connections) — `api/_lib/adminAuth.js`
-- **adminAuth.js** (6 connections) — `api/_lib/adminAuth.js`
-- **handler()** (4 connections) — `api/upload.js`
-- **login.js** (3 connections) — `api/admin/login.js`
-- **handler()** (2 connections) — `api/admin/login.js`
-- **validateMagicBytes()** (2 connections) — `api/upload.js`
-- **ALLOWED_EXTENSIONS** (1 connections) — `api/upload.js`
-- **ALLOWED_FOLDERS** (1 connections) — `api/upload.js`
-- **MIME_TYPES** (1 connections) — `api/upload.js`
+- **Accessibility** (9 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
+- **accessibility.md** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
+- **Cognitive** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
+- **Hearing** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
+- **Mobility** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
+- **Speech** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
+- **Vision** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
 
 ## Relationships
 
-- [[Product Brand & Business Vision]] (4 shared connections)
-- [[Community 72]] (3 shared connections)
-- [[Mobile Responsive UI Skill]] (2 shared connections)
-- [[Community 47]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `api/_lib/adminAuth.js`
-- `api/admin/login.js`
-- `api/upload.js`
+- `.agents/skills/apple-design/references/hig/accessibility.md`
 
 ## Audit Trail
 
-- EXTRACTED: 38 (100%)
+- EXTRACTED: 18 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

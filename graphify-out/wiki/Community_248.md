@@ -1,30 +1,31 @@
 # Community 248
 
-> 9 nodes · cohesion 0.22
+> 8 nodes · cohesion 0.43
 
 ## Key Concepts
 
-- **preview-contract.test.mjs** (8 connections) — `.agents/skills/archify/test/preview-contract.test.mjs`
-- **chinese** (1 connections) — `.agents/skills/archify/test/preview-contract.test.mjs`
-- **delivery** (1 connections) — `.agents/skills/archify/test/preview-contract.test.mjs`
-- **english** (1 connections) — `.agents/skills/archify/test/preview-contract.test.mjs`
-- **here** (1 connections) — `.agents/skills/archify/test/preview-contract.test.mjs`
-- **readme** (1 connections) — `.agents/skills/archify/test/preview-contract.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/preview-contract.test.mjs`
-- **skill** (1 connections) — `.agents/skills/archify/test/preview-contract.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/preview-contract.test.mjs`
+- **download.js** (6 connections) — `api/download.js`
+- **handler()** (5 connections) — `api/download.js`
+- **ssrf.js** (5 connections) — `api/_lib/ssrf.js`
+- **validateSafeDownloadUrl()** (5 connections) — `api/_lib/ssrf.js`
+- **safeFetchWithRedirects()** (3 connections) — `api/download.js`
+- **isPrivateOrReservedIp()** (3 connections) — `api/_lib/ssrf.js`
+- **wrapJpegInPdf()** (2 connections) — `api/download.js`
+- **ALLOWED_REMOTE_HOSTS** (1 connections) — `api/_lib/ssrf.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 61]] (3 shared connections)
+- [[Client Products Data Store]] (3 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/preview-contract.test.mjs`
+- `api/_lib/ssrf.js`
+- `api/download.js`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 30 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

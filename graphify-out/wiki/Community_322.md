@@ -4,25 +4,25 @@
 
 ## Key Concepts
 
-- **dataflow.schema.json** (7 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **$id** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **required** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **$schema** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **title** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **chapter-rail.test.mjs** (6 connections) — `.agents/skills/archify/test/chapter-rail.test.mjs`
+- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/chapter-rail.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/chapter-rail.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/chapter-rail.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/chapter-rail.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/chapter-rail.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/chapter-rail.test.mjs`
 
 ## Relationships
 
-- [[Community 117]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/dataflow.schema.json`
+- `.agents/skills/archify/test/chapter-rail.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

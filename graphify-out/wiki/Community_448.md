@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **Vercel Production Deployment Checklist** (2 connections) — `docs/deployment/vercel-production-checklist.md`
-- **vercel-production-checklist.md** (1 connections) — `docs/deployment/vercel-production-checklist.md`
-- **Environment Variables** (1 connections) — `docs/deployment/vercel-production-checklist.md`
+- **ReSTOR / Shriji Dealer Web Changelog** (2 connections) — `docs/CHANGELOG.md`
+- **CHANGELOG.md** (1 connections) — `docs/CHANGELOG.md`
+- **2026-10-25** (1 connections) — `docs/CHANGELOG.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/deployment/vercel-production-checklist.md`
+- `docs/CHANGELOG.md`
 
 ## Audit Trail
 

@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link, NavLink, useLocation } from "react-router-dom";
 import { COMPANY, NAV } from "./data/site";
-import { isDealer, useSession, signOut, canUseIncognito, isIncognitoMode, toggleIncognitoMode, setIncognitoMode } from "./data/session";
+import { isDealer, useSession, signOut, canUseIncognito, toggleIncognitoMode, setIncognitoMode } from "./data/session";
 import { dealerById } from "./data/dealer";
 import { useLanguage } from "./data/i18n";
 import { isPortalGated } from "./data/portalGate";
@@ -244,6 +244,15 @@ const PATHS = {
       <path d="m9.5 10.5 7-7" />
     </>
   ),
+  incognito: (
+    <>
+      <path d="M2.5 7.5h15" />
+      <path d="M5.5 7.5l1.2-4.5h6.6l1.2 4.5" />
+      <circle cx="6.5" cy="13" r="2.5" />
+      <circle cx="13.5" cy="13" r="2.5" />
+      <path d="M9 13h2" />
+    </>
+  ),
   logout: (
     <>
       <path d="M7 3.5H4a1.5 1.5 0 0 0-1.5 1.5v10A1.5 1.5 0 0 0 4 16.5h3" />
@@ -337,13 +346,121 @@ export function LangToggle({ className = "" }) {
   );
 }
 
+export function IncognitoToggle({ inDrawer = false, className = "" }) {
+  const s = useSession();
+  const { isHindi } = useLanguage();
+  const isIncognito = Boolean(s?.isIncognito);
+  const canUse = canUseIncognito(s);
+
+  if (!canUse) return null;
+
+  const handleToggle = (e) => {
+    e.preventDefault();
+    e.stopPropagation();
+    toggleIncognitoMode();
+  };
+
+  if (inDrawer) {
+    return (
+      <div
+        className={`drawer-incognito-card ${isIncognito ? "active" : ""}`}
+        onClick={handleToggle}
+        role="button"
+        tabIndex={0}
+        onKeyDown={(e) => {
+          if (e.key === "Enter" || e.key === " ") {
+            e.preventDefault();
+            toggleIncognitoMode();
+          }
+        }}
+        title={isIncognito ? "Click to exit Incognito Mode" : "Click to enable Incognito Customer Mode"}
+      >
+        <div className="drawer-incognito-left">
+          <span className="drawer-incognito-icon" aria-hidden="true">
+            <Icon name="incognito" size={19} />
+          </span>
+          <div className="drawer-incognito-text">
+            <div className="drawer-incognito-head">
+              <b>{isHindi ? "इनकॉग्निटो मोड" : "Incognito Mode"}</b>
+              <span className={`drawer-incognito-pill ${isIncognito ? "on" : "off"}`}>
+                {isIncognito ? (isHindi ? "चालू" : "ON") : (isHindi ? "बंद" : "OFF")}
+              </span>
+            </div>
+            <small>
+              {isIncognito
+                ? (isHindi ? "ग्राहक दृश्य सक्रिय · डीलर कीमतें छिपी हैं" : "Customer View · Dealer rates paused")
+                : (isHindi ? "ग्राहक दृश्य के लिए डीलर कीमतें छुपाएं" : "Hide dealer wholesale rates")}
+            </small>
+          </div>
+        </div>
+        <button
+          type="button"
+          role="switch"
+          aria-checked={isIncognito}
+          aria-label={isHindi ? "इनकॉग्निटो मोड स्विच" : "Toggle Incognito Mode"}
+          className={`incognito-switch ${isIncognito ? "active" : ""}`}
+          onClick={(e) => {
+            e.stopPropagation();
+            handleToggle(e);
+          }}
+        >
+          <span className="incognito-switch-thumb" />
+        </button>
+      </div>
+    );
+  }
+
+  return (
+    <button
+      type="button"
+      onClick={handleToggle}
+      className={`hdr-incognito-btn ${isIncognito ? "active" : ""} ${className}`.trim()}
+      aria-pressed={isIncognito}
+      aria-label={
+        isIncognito
+          ? (isHindi ? "इनकॉग्निटो मोड सक्रिय: डीलर दरें बंद हैं। डीलर दृश्य पर लौटने के लिए क्लिक करें" : "Incognito Mode Active: Dealer rates hidden. Click to restore dealer view")
+          : (isHindi ? "इनकॉग्निटो मोड: डीलर थोक कीमतें छुपाएं" : "Incognito Mode: Hide dealer wholesale prices")
+      }
+      title={
+        isIncognito
+          ? (isHindi ? "इनकॉग्निटो मोड सक्रिय (ग्राहक दृश्य) · सामान्य डीलर दृश्य के लिए क्लिक करें" : "Incognito Mode Active (Customer View) · Click to restore Dealer Mode")
+          : (isHindi ? "इनकॉग्निटो मोड · ग्राहक के सामने डीलर थोक दरें छुपाएं" : "Incognito Mode · Hide dealer wholesale prices for walk-in customers")
+      }
+    >
+      <Icon name="incognito" size={16} />
+      <span className="hdr-incognito-lbl">
+        {isIncognito ? (isHindi ? "इनकॉग्निटो: चालू" : "Incognito: ON") : (isHindi ? "इनकॉग्निटो" : "Incognito")}
+      </span>
+      {isIncognito && <span className="incognito-pulse-dot" aria-hidden="true" />}
+    </button>
+  );
+}
+
 /* One control, rendered twice (inside the mobile nav and beside it on desktop). */
 function AccountLink({ className = "" }) {
   const s = useSession();
+  if (s?.isIncognito) {
+    return (
+      <div
+        className={`acct ${className}`.trim()}
+        title="Incognito Customer View Active · Dealer rates paused"
+      >
+        <span className="acct-dot" style={{ background: "#4f46e5", color: "#fff" }} aria-hidden="true">
+          <Icon name="incognito" size={13} />
+        </span>
+        <span>
+          <b>Customer View</b>
+          <span style={{ color: "#4f46e5", fontWeight: 700 }}>Incognito ON</span>
+        </span>
+      </div>
+    );
+  }
   const dealer = isDealer(s) ? (dealerById(s.dealerId) || s.dealer) : null;
   const isPending = s && (s.status === "pending" || s.dealer?.status === "pending");
   const isRejected = s && (s.status === "rejected" || s.dealer?.status === "rejected");
   const isAuthenticated = s && s.role !== "guest";
+
+
 
   if (isRejected) {
     return (
@@ -437,12 +554,14 @@ function AccountLink({ className = "" }) {
 export function Header() {
   const [open, setOpen] = useState(false);
   const s = useSession();
-  const { t } = useLanguage();
+  const { t, isHindi } = useLanguage();
   const { pathname, hash } = useLocation();
   const isGated = isPortalGated(s);
   const { count: favCount } = useFavorites();
   const dealer = isDealer(s) ? (dealerById(s.dealerId) || s.dealer) : null;
   const isAuthenticated = s && s.role !== "guest";
+
+
 
   const [siteSettings, setSiteSettings] = useState(() => {
     try {
@@ -546,6 +665,28 @@ export function Header() {
 
   return (
     <header className="hdr">
+      {s?.isIncognito && (
+        <div className="incognito-top-bar" role="status">
+          <div className="wrap incognito-top-bar-in">
+            <div className="incognito-bar-text">
+              <Icon name="incognito" size={15} />
+              <span>
+                <b>{isHindi ? "ग्राहक प्रस्तुति दृश्य सक्रिय:" : "Customer Presentation View:"}</b>{" "}
+                {isHindi ? "डीलर थोक दरें छिपी हैं" : "Dealer wholesale rates & roles are paused"}
+              </span>
+            </div>
+            <button
+              type="button"
+              onClick={() => setIncognitoMode(false)}
+              className="incognito-bar-exit"
+              aria-label={isHindi ? "इनकॉग्निटो मोड से बाहर निकलें" : "Exit Incognito Mode"}
+            >
+              <Icon name="close" size={12} />
+              <span>{isHindi ? "डीलर दृश्य पर लौटें" : "Exit Incognito"}</span>
+            </button>
+          </div>
+        </div>
+      )}
       <div className="wrap hdr-in">
         <Mark />
 
@@ -559,6 +700,7 @@ export function Header() {
             </NavLink>
           ))}
           <div className="nav-drawer-actions">
+            <IncognitoToggle inDrawer={true} />
             <LangToggle />
             <AccountLink />
             {isAuthenticated && (
@@ -597,6 +739,7 @@ export function Header() {
         )}
 
         <div className="hdr-actions" style={isGated ? { marginLeft: "auto" } : undefined}>
+          <IncognitoToggle />
           {!isGated && (
             <Link
               to="/favorites"
@@ -642,6 +785,19 @@ export function Header() {
         </div>
 
         <div className="hdr-mobile-right">
+          {s?.isIncognito && (
+            <button
+              type="button"
+              onClick={() => toggleIncognitoMode()}
+              className="hdr-mobile-incognito-pill"
+              title={isHindi ? "इनकॉग्निटो सक्रिय · बाहर निकलने के लिए क्लिक करें" : "Incognito Active · Tap to exit"}
+              aria-label="Incognito Active"
+            >
+              <Icon name="incognito" size={14} />
+              <span>{isHindi ? "ग्राहक" : "Customer"}</span>
+              <span className="incognito-pulse-dot" />
+            </button>
+          )}
           {isAuthenticated && (
             <button
               type="button"

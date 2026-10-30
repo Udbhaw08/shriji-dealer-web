@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **SkipToContent.jsx** (1 connections) — `src/components/SkipToContent.jsx`
-- **SkipToContent()** (1 connections) — `src/components/SkipToContent.jsx`
+- **esm-mkuG-jMg.js** (1 connections) — `ios/App/App/public/assets/esm-mkuG-jMg.js`
+- **__vite__mapDeps()** (1 connections) — `ios/App/App/public/assets/esm-mkuG-jMg.js`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `src/components/SkipToContent.jsx`
+- `ios/App/App/public/assets/esm-mkuG-jMg.js`
 
 ## Audit Trail
 

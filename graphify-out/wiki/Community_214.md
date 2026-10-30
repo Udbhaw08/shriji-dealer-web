@@ -1,36 +1,30 @@
 # Community 214
 
-> 9 nodes · cohesion 0.28
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **mc()** (11 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
-- **ac()** (8 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
-- **dh()** (6 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
-- **ct()** (5 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
-- **yo()** (5 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
-- **co()** (4 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
-- **La()** (3 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
-- **To()** (3 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
-- **vo()** (2 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
+- **Primary Commands** (5 connections) — `.agents/skills/graphify/SKILL.md`
+- **Graphify Knowledge Graph Skill** (4 connections) — `.agents/skills/graphify/SKILL.md`
+- **SKILL.md** (1 connections) — `.agents/skills/graphify/SKILL.md`
+- **1. Query the Graph (Context-Efficient)** (1 connections) — `.agents/skills/graphify/SKILL.md`
+- **2. Trace Relationships (Shortest Path)** (1 connections) — `.agents/skills/graphify/SKILL.md`
+- **3. Explain a Node or Symbol** (1 connections) — `.agents/skills/graphify/SKILL.md`
+- **4. Update the Graph (AST Re-Extraction)** (1 connections) — `.agents/skills/graphify/SKILL.md`
+- **Key Output Artifacts in `graphify-out/`** (1 connections) — `.agents/skills/graphify/SKILL.md`
+- **Why Use Graphify** (1 connections) — `.agents/skills/graphify/SKILL.md`
 
 ## Relationships
 
-- [[Zoho Backend & Proxy Endpoints]] (9 shared connections)
-- [[Dependencies & Package Config]] (5 shared connections)
-- [[Product Pages Specification]] (5 shared connections)
-- [[Product Requirements Documentation]] (4 shared connections)
-- [[Community 31]] (2 shared connections)
-- [[Community 64]] (1 shared connections)
-- [[Community 37]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
+- `.agents/skills/graphify/SKILL.md`
 
 ## Audit Trail
 
-- EXTRACTED: 47 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -4,10 +4,10 @@
 
 ## Key Concepts
 
-- **proof-aperture.test.mjs** (3 connections) — `.agents/skills/archify/test/proof-aperture.test.mjs`
-- **cssRule()** (1 connections) — `.agents/skills/archify/test/proof-aperture.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/proof-aperture.test.mjs`
-- **landing** (1 connections) — `.agents/skills/archify/test/proof-aperture.test.mjs`
+- **constants.js** (3 connections) — `backend/src/utils/constants.js`
+- **DEALER_STATUS** (1 connections) — `backend/src/utils/constants.js`
+- **ROLES** (1 connections) — `backend/src/utils/constants.js`
+- **TOKEN_TTL** (1 connections) — `backend/src/utils/constants.js`
 
 ## Relationships
 
@@ -15,7 +15,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/proof-aperture.test.mjs`
+- `backend/src/utils/constants.js`
 
 ## Audit Trail
 

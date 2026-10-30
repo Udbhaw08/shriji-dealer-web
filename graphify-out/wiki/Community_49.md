@@ -1,53 +1,55 @@
 # Community 49
 
-> 32 nodes · cohesion 0.14
+> 32 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **crmClient.js** (39 connections) — `backend/src/services/crmClient.js`
-- **normalizePhone()** (21 connections) — `backend/src/utils/phone.js`
-- **crmFetch()** (15 connections) — `backend/src/services/crmClient.js`
-- **reset-test-users.js** (11 connections) — `backend/scripts/reset-test-users.js`
-- **crmConfigured()** (9 connections) — `backend/src/services/crmClient.js`
-- **phone.js** (8 connections) — `backend/src/utils/phone.js`
-- **createDealerAccount()** (6 connections) — `backend/src/services/crmClient.js`
-- **createDealerContact()** (6 connections) — `backend/src/services/crmClient.js`
-- **interconnection.test.mjs** (6 connections) — `backend/test/interconnection.test.mjs`
-- **runReset()** (5 connections) — `backend/scripts/reset-test-users.js`
-- **findOwnerContactInAccount()** (5 connections) — `backend/src/services/crmClient.js`
-- **normalizeUserSource()** (5 connections) — `backend/src/services/crmClient.js`
-- **updateContactDetails()** (5 connections) — `backend/src/services/crmClient.js`
-- **updateDealerCodeInCrm()** (5 connections) — `backend/src/services/crmClient.js`
-- **resolveContactNames()** (4 connections) — `backend/src/services/crmClient.js`
-- **syncAccountUserSourceToContacts()** (4 connections) — `backend/src/services/crmClient.js`
-- **deactivateAccountInCrm()** (3 connections) — `backend/src/services/crmClient.js`
-- **deactivateContactInCrm()** (3 connections) — `backend/src/services/crmClient.js`
-- **getDealerAccount()** (3 connections) — `backend/src/services/crmClient.js`
-- **isCrmConfigured()** (3 connections) — `backend/src/services/crmClient.js`
-- **linkContactToBackendUser()** (3 connections) — `backend/src/services/crmClient.js`
-- **deleteCrmRecords()** (2 connections) — `backend/scripts/reset-test-users.js`
-- **searchCrmRecordIds()** (2 connections) — `backend/scripts/reset-test-users.js`
-- **getAccessToken()** (2 connections) — `backend/src/services/crmClient.js`
-- **getDealerContact()** (2 connections) — `backend/src/services/crmClient.js`
+- **il()** (39 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
+- **zc()** (14 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
+- **tl()** (13 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
+- **rl()** (12 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
+- **Wc()** (10 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
+- **Oc()** (9 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
+- **Sa()** (9 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
+- **ve()** (9 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
+- **Ei()** (7 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
+- **kc()** (7 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
+- **io()** (6 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
+- **lh()** (6 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
+- **wo()** (6 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
+- **ao()** (5 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
+- **be()** (5 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
+- **el()** (5 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
+- **Go()** (5 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
+- **ha()** (5 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
+- **nl()** (5 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
+- **ua()** (5 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
+- **im()** (4 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
+- **Lc()** (4 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
+- **po()** (4 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
+- **rm()** (4 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
+- **uc()** (4 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
 - *... and 7 more nodes in this community*
 
 ## Relationships
 
-- [[Community 41]] (27 shared connections)
-- [[Community 47]] (8 shared connections)
-- [[Mobile Responsive UI Skill]] (6 shared connections)
-- [[Product Brand & Business Vision]] (2 shared connections)
+- [[Master Codebase Architecture Reference]] (32 shared connections)
+- [[Dealer Auth & Session Management]] (28 shared connections)
+- [[Dependencies & Package Config]] (11 shared connections)
+- [[Mobile Responsive UI Skill]] (10 shared connections)
+- [[Community 60]] (9 shared connections)
+- [[Community 68]] (7 shared connections)
+- [[Community 54]] (7 shared connections)
+- [[Community 79]] (3 shared connections)
+- [[Agent Guidelines (AGENTS.md)]] (3 shared connections)
 
 ## Source Files
 
-- `backend/scripts/reset-test-users.js`
-- `backend/src/services/crmClient.js`
-- `backend/src/utils/phone.js`
-- `backend/test/interconnection.test.mjs`
+- `ios/App/App/public/assets/index-DpX2FidJ.js`
 
 ## Audit Trail
 
-- EXTRACTED: 185 (100%)
+- EXTRACTED: 222 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -4,22 +4,22 @@
 
 ## Key Concepts
 
-- **SwiftUI Views** (3 connections) — `.agents/skills/swiftui-pro/references/views.md`
-- **views.md** (1 connections) — `.agents/skills/swiftui-pro/references/views.md`
-- **Animating views** (1 connections) — `.agents/skills/swiftui-pro/references/views.md`
-- **Reordering and swipe actions** (1 connections) — `.agents/skills/swiftui-pro/references/views.md`
+- **via** (3 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **items** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Testing & Workflow Skill]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/swiftui-pro/references/views.md`
+- `.agents/skills/archify/schemas/lifecycle.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 7 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

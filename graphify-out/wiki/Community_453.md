@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **Developer Cheat Sheet** (2 connections) — `docs/guides/developer-cheat-sheet.md`
-- **developer-cheat-sheet.md** (1 connections) — `docs/guides/developer-cheat-sheet.md`
-- **Common Commands** (1 connections) — `docs/guides/developer-cheat-sheet.md`
+- **GSTIN Verification Flow** (2 connections) — `docs/guides/gstin-verification-flow.md`
+- **gstin-verification-flow.md** (1 connections) — `docs/guides/gstin-verification-flow.md`
+- **State Code Resolution** (1 connections) — `docs/guides/gstin-verification-flow.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/guides/developer-cheat-sheet.md`
+- `docs/guides/gstin-verification-flow.md`
 
 ## Audit Trail
 

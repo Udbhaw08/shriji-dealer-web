@@ -4,15 +4,15 @@
 
 ## Key Concepts
 
-- **Playing audio** (6 connections) — `.agents/skills/apple-design/references/hig/playing-audio.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/playing-audio.md`
-- **playing-audio.md** (1 connections) — `.agents/skills/apple-design/references/hig/playing-audio.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/playing-audio.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/playing-audio.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/playing-audio.md`
-- **Handling interruptions** (1 connections) — `.agents/skills/apple-design/references/hig/playing-audio.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/playing-audio.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/playing-audio.md`
+- **Scroll views** (6 connections) — `.agents/skills/apple-design/references/hig/scroll-views.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/scroll-views.md`
+- **scroll-views.md** (1 connections) — `.agents/skills/apple-design/references/hig/scroll-views.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/scroll-views.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/scroll-views.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/scroll-views.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/scroll-views.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/scroll-views.md`
+- **Scroll edge effects** (1 connections) — `.agents/skills/apple-design/references/hig/scroll-views.md`
 
 ## Relationships
 
@@ -20,7 +20,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/playing-audio.md`
+- `.agents/skills/apple-design/references/hig/scroll-views.md`
 
 ## Audit Trail
 

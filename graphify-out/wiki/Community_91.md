@@ -1,47 +1,41 @@
 # Community 91
 
-> 19 nodes · cohesion 0.19
+> 20 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **productsStore.js** (25 connections) — `src/data/productsStore.js`
-- **apiFetch()** (21 connections) — `src/data/api.js`
-- **api.js** (12 connections) — `src/data/api.js`
-- **apiUrl()** (9 connections) — `src/data/api.js`
-- **fetchLiveProducts()** (7 connections) — `src/data/productsStore.js`
-- **syncPricebookWithSession()** (7 connections) — `src/data/productsStore.js`
-- **products.js** (5 connections) — `src/data/products.js`
-- **getAccessToken()** (4 connections) — `src/data/auth.js`
-- **loadCached()** (4 connections) — `src/data/productsStore.js`
-- **emit()** (3 connections) — `src/data/productsStore.js`
-- **syncTagsLive()** (3 connections) — `src/data/productsStore.js`
-- **CATEGORIES** (2 connections) — `src/data/products.js`
-- **getCacheKey()** (2 connections) — `src/data/productsStore.js`
-- **sanitizeCategories()** (2 connections) — `src/data/productsStore.js`
-- **useProduct()** (2 connections) — `src/data/productsStore.js`
-- **PRODUCTS** (1 connections) — `src/data/products.js`
-- **listeners** (1 connections) — `src/data/productsStore.js`
-- **PREFERRED_ORDER** (1 connections) — `src/data/productsStore.js`
-- **storeState** (1 connections) — `src/data/productsStore.js`
+- **PRODUCT-PAGES.md — listing, detail, and dealer pricing** (9 connections) — `docs/PRODUCT-PAGES.md`
+- **4. Product listing — `/products`, `src/pages/Products.jsx`** (6 connections) — `docs/PRODUCT-PAGES.md`
+- **6. Product detail — `/products/:id`, `src/pages/Product.jsx`** (6 connections) — `docs/PRODUCT-PAGES.md`
+- **PRODUCT-PAGES.md** (1 connections) — `docs/PRODUCT-PAGES.md`
+- **1. Price visibility — the rule everything else follows** (1 connections) — `docs/PRODUCT-PAGES.md`
+- **2. The pricing module — `src/data/dealer.js`** (1 connections) — `docs/PRODUCT-PAGES.md`
+- **3. `<PriceBlock>` — `src/components/PriceBlock.jsx`** (1 connections) — `docs/PRODUCT-PAGES.md`
+- **5. Product card — `src/components/ProductCard.jsx`** (1 connections) — `docs/PRODUCT-PAGES.md`
+- **7. What is deliberately not here** (1 connections) — `docs/PRODUCT-PAGES.md`
+- **8. Files touched on 2026-09-20** (1 connections) — `docs/PRODUCT-PAGES.md`
+- **Below the whole grid** (1 connections) — `docs/PRODUCT-PAGES.md`
+- **Filters and facets** (1 connections) — `docs/PRODUCT-PAGES.md`
+- **Left column** (1 connections) — `docs/PRODUCT-PAGES.md`
+- **Pagination** (1 connections) — `docs/PRODUCT-PAGES.md`
+- **Responsive behaviour** (1 connections) — `docs/PRODUCT-PAGES.md`
+- **Right column** (1 connections) — `docs/PRODUCT-PAGES.md`
+- **Share with Customer** (1 connections) — `docs/PRODUCT-PAGES.md`
+- **Sort** (1 connections) — `docs/PRODUCT-PAGES.md`
+- **Structure** (1 connections) — `docs/PRODUCT-PAGES.md`
+- **Tabs** (1 connections) — `docs/PRODUCT-PAGES.md`
 
 ## Relationships
 
-- [[Pricing Regression Test Suite]] (15 shared connections)
-- [[Roles & Customer Sharing Spec]] (12 shared connections)
-- [[Graphify Agent Rules]] (11 shared connections)
-- [[Vercel Deployment Routing]] (6 shared connections)
-- [[Community 56]] (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `src/data/api.js`
-- `src/data/auth.js`
-- `src/data/products.js`
-- `src/data/productsStore.js`
+- `docs/PRODUCT-PAGES.md`
 
 ## Audit Trail
 
-- EXTRACTED: 112 (100%)
+- EXTRACTED: 38 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

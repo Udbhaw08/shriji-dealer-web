@@ -1,55 +1,55 @@
 # Dependencies & Package Config
 
-> 78 nodes · cohesion 0.05
+> 76 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **i()** (67 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
-- **zd()** (16 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
-- **fc()** (15 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
-- **jc()** (15 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
-- **Md()** (15 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
-- **wi()** (14 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
-- **ea()** (13 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
-- **Pi()** (13 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
-- **qd()** (13 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
-- **s()** (13 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
-- **Cc()** (12 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
-- **Nd()** (11 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
-- **tc()** (11 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
-- **c()** (10 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
-- **Wc()** (10 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
-- **fa()** (9 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
-- **hh()** (9 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
-- **yh()** (9 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
-- **yi()** (9 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
-- **et()** (8 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
-- **Gd()** (8 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
-- **rc()** (8 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
-- **ef()** (7 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
-- **Ei()** (7 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
-- **Go()** (7 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
-- *... and 53 more nodes in this community*
+- **n()** (40 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
+- **get()** (27 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
+- **D()** (23 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
+- **np()** (20 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
+- **.addEventListener()** (19 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
+- **b()** (17 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
+- **h()** (16 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
+- **bm()** (14 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
+- **fp()** (14 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
+- **kt()** (13 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
+- **Xt()** (13 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
+- **.removeEventListener()** (12 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
+- **ep()** (11 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
+- **ip()** (11 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
+- **am()** (10 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
+- **tp()** (10 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
+- **mm()** (9 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
+- **cn()** (8 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
+- **dn()** (8 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
+- **om()** (8 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
+- **tm()** (8 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
+- **E()** (7 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
+- **g()** (7 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
+- **jm()** (7 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
+- **lp()** (7 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
+- *... and 51 more nodes in this community*
 
 ## Relationships
 
-- [[Zoho Backend & Proxy Endpoints]] (94 shared connections)
-- [[Product Pages Specification]] (35 shared connections)
-- [[Community 31]] (34 shared connections)
-- [[Product Requirements Documentation]] (33 shared connections)
-- [[Community 64]] (21 shared connections)
-- [[Community 36]] (14 shared connections)
-- [[Community 99]] (13 shared connections)
-- [[Community 37]] (6 shared connections)
-- [[Community 214]] (5 shared connections)
+- [[Master Codebase Architecture Reference]] (75 shared connections)
+- [[Dealer Auth & Session Management]] (41 shared connections)
+- [[Agent Guidelines (AGENTS.md)]] (25 shared connections)
+- [[Community 54]] (21 shared connections)
+- [[Mobile Responsive UI Skill]] (13 shared connections)
+- [[Community 49]] (11 shared connections)
+- [[Community 60]] (10 shared connections)
+- [[Community 68]] (8 shared connections)
+- [[Community 79]] (3 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
+- `ios/App/App/public/assets/index-DpX2FidJ.js`
 
 ## Audit Trail
 
-- EXTRACTED: 585 (100%)
+- EXTRACTED: 553 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

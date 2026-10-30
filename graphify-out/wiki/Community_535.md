@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **a11y.js** (1 connections) — `src/utils/a11y.js`
-- **trapFocus()** (1 connections) — `src/utils/a11y.js`
+- **dateUtils.js** (1 connections) — `src/utils/dateUtils.js`
+- **formatRelativeTime()** (1 connections) — `src/utils/dateUtils.js`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `src/utils/a11y.js`
+- `src/utils/dateUtils.js`
 
 ## Audit Trail
 

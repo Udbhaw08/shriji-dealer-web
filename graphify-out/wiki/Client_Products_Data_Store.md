@@ -1,67 +1,76 @@
 # Client Products Data Store
 
-> 59 nodes · cohesion 0.05
+> 55 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **cli.mjs** (43 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **diagnostics.mjs** (27 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
-- **throwDiagnosticError()** (16 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
-- **throwDiagnosticProblems()** (15 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
-- **writeDiagram()** (10 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **engineering-profiles.mjs** (10 connections) — `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
-- **validator.mjs** (10 connections) — `.agents/skills/archify/renderers/shared/validator.mjs`
-- **validateSchema()** (10 connections) — `.agents/skills/archify/renderers/shared/validator.mjs`
-- **engineering-profile.test.mjs** (10 connections) — `.agents/skills/archify/test/engineering-profile.test.mjs`
-- **render-workflow.mjs** (10 connections) — `.agents/skills/archify/renderers/workflow/render-workflow.mjs`
-- **loadDiagram()** (9 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **loadDiagramWithBrandMarks()** (8 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **settled-flow.test.mjs** (8 connections) — `.agents/skills/archify/test/settled-flow.test.mjs`
-- **prepareDiagramBrandMarks()** (7 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **validateEngineeringProfile()** (6 connections) — `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
-- **normalizedDiagnostic()** (4 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
-- **deploymentOwnershipDiagnostics()** (4 connections) — `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
-- **validateGuidedViews()** (3 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **validateRelationshipIds()** (3 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **fallbackDiagnostic()** (3 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
-- **withDiagnosticRecordingSuppressed()** (3 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
-- **renderCards()** (3 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
-- **captureTimeoutMilliseconds()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **mapConcurrent()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- **installRendererDiagnosticBoundary()** (2 connections) — `.agents/skills/archify/renderers/shared/diagnostics.mjs`
-- *... and 34 more nodes in this community*
+- **server.js** (36 connections) — `backend/src/server.js`
+- **app.js** (30 connections) — `backend/src/app.js`
+- **compatibilitySuite.test.mjs** (20 connections) — `backend/test/compatibilitySuite.test.mjs`
+- **content.js** (17 connections) — `backend/src/routes/content.js`
+- **securityPhase1.test.mjs** (16 connections) — `backend/test/securityPhase1.test.mjs`
+- **upload.js** (12 connections) — `backend/src/routes/upload.js`
+- **errorHandler.js** (10 connections) — `backend/src/middleware/errorHandler.js`
+- **rateLimit.js** (10 connections) — `backend/src/middleware/rateLimit.js`
+- **rateLimit()** (9 connections) — `backend/src/middleware/rateLimit.js`
+- **admin.js** (9 connections) — `backend/src/routes/admin.js`
+- **health.js** (9 connections) — `backend/src/routes/health.js`
+- **uploads.js** (9 connections) — `backend/src/routes/uploads.js`
+- **prices.js** (7 connections) — `backend/src/routes/prices.js`
+- **migrate.js** (6 connections) — `backend/src/db/migrate.js`
+- **requireAdmin()** (5 connections) — `backend/src/middleware/auth.js`
+- **contentRouter** (5 connections) — `backend/src/routes/content.js`
+- **uploadRouter** (5 connections) — `backend/src/routes/upload.js`
+- **uploadsRouter** (5 connections) — `backend/src/routes/uploads.js`
+- **migrate()** (4 connections) — `backend/src/db/migrate.js`
+- **errorHandler()** (4 connections) — `backend/src/middleware/errorHandler.js`
+- **adminRouter** (4 connections) — `backend/src/routes/admin.js`
+- **app** (4 connections) — `backend/src/app.js`
+- **rateLimitFix.test.mjs** (4 connections) — `backend/test/rateLimitFix.test.mjs`
+- **[...path].js** (3 connections) — `api/auth/[...path].js`
+- **applied()** (3 connections) — `backend/src/db/migrate.js`
+- *... and 30 more nodes in this community*
 
 ## Relationships
 
-- [[Design System & UI Tokens]] (12 shared connections)
-- [[Pricing & Roles Skill]] (11 shared connections)
-- [[Community 46]] (11 shared connections)
-- [[Zoho API Diagnostic Script]] (7 shared connections)
-- [[Community 51]] (7 shared connections)
-- [[Community 108]] (7 shared connections)
-- [[Community 165]] (6 shared connections)
-- [[Architecture Doc Generator]] (5 shared connections)
-- [[Community 45]] (5 shared connections)
-- [[Community 106]] (4 shared connections)
-- [[Community 133]] (4 shared connections)
-- [[Community 209]] (3 shared connections)
+- [[Community 46]] (25 shared connections)
+- [[Project Readme & Layout]] (21 shared connections)
+- [[Community 40]] (9 shared connections)
+- [[Community 61]] (8 shared connections)
+- [[Pricing Regression Test Suite]] (4 shared connections)
+- [[Community 185]] (4 shared connections)
+- [[Community 89]] (4 shared connections)
+- [[Community 248]] (3 shared connections)
+- [[Community 50]] (2 shared connections)
+- [[Community 140]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/shared/brand-marks.mjs`
-- `.agents/skills/archify/renderers/shared/cli.mjs`
-- `.agents/skills/archify/renderers/shared/diagnostics.mjs`
-- `.agents/skills/archify/renderers/shared/engineering-profiles.mjs`
-- `.agents/skills/archify/renderers/shared/utils.mjs`
-- `.agents/skills/archify/renderers/shared/validator.mjs`
-- `.agents/skills/archify/renderers/workflow/render-workflow.mjs`
-- `.agents/skills/archify/test/engineering-profile.test.mjs`
-- `.agents/skills/archify/test/settled-flow.test.mjs`
+- `api/auth/[...path].js`
+- `api/dealers/[...path].js`
+- `backend/src/app.js`
+- `backend/src/db/migrate.js`
+- `backend/src/jobs/index.js`
+- `backend/src/middleware/auth.js`
+- `backend/src/middleware/errorHandler.js`
+- `backend/src/middleware/rateLimit.js`
+- `backend/src/routes/admin.js`
+- `backend/src/routes/auth.js`
+- `backend/src/routes/content.js`
+- `backend/src/routes/dealers.js`
+- `backend/src/routes/health.js`
+- `backend/src/routes/prices.js`
+- `backend/src/routes/upload.js`
+- `backend/src/routes/uploads.js`
+- `backend/src/routes/webhooks.js`
+- `backend/src/server.js`
+- `backend/test/compatibilitySuite.test.mjs`
+- `backend/test/rateLimitFix.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 267 (100%)
-- INFERRED: 1 (0%)
+- EXTRACTED: 293 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

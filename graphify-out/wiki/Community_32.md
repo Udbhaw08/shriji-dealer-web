@@ -1,55 +1,48 @@
 # Community 32
 
-> 39 nodes · cohesion 0.07
+> 40 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **offline-font-browser.test.mjs** (13 connections) — `.agents/skills/archify/test/offline-font-browser.test.mjs`
-- **cli.test.mjs** (11 connections) — `.agents/skills/archify/test/cli.test.mjs`
-- **offline-self-containment.test.mjs** (9 connections) — `.agents/skills/archify/test/offline-self-containment.test.mjs`
-- **generated-artifact-xml.test.mjs** (8 connections) — `.agents/skills/archify/test/generated-artifact-xml.test.mjs`
-- **offline-fonts.mjs** (7 connections) — `.agents/skills/archify/test/helpers/offline-fonts.mjs`
-- **inspectDocuments()** (5 connections) — `.agents/skills/archify/test/helpers/offline-fonts.mjs`
-- **xml.mjs** (5 connections) — `.agents/skills/archify/test/helpers/xml.mjs`
-- **assertFontCss()** (4 connections) — `.agents/skills/archify/test/helpers/offline-fonts.mjs`
-- **assertOfflineArtifact()** (4 connections) — `.agents/skills/archify/test/helpers/offline-fonts.mjs`
-- **extractSvgs()** (4 connections) — `.agents/skills/archify/test/helpers/xml.mjs`
-- **parseXml()** (3 connections) — `.agents/skills/archify/test/helpers/xml.mjs`
-- **visit()** (3 connections) — `.agents/skills/archify/test/helpers/xml.mjs`
-- **evaluate()** (2 connections) — `.agents/skills/archify/test/offline-font-browser.test.mjs`
-- **exported()** (2 connections) — `.agents/skills/archify/test/offline-font-browser.test.mjs`
-- **EXPECTED_FACES** (1 connections) — `.agents/skills/archify/test/helpers/offline-fonts.mjs`
-- **FONT_LICENSE** (1 connections) — `.agents/skills/archify/test/helpers/offline-fonts.mjs`
-- **cli** (1 connections) — `.agents/skills/archify/test/cli.test.mjs`
-- **copyInstalledSkill()** (1 connections) — `.agents/skills/archify/test/cli.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/cli.test.mjs`
-- **makeFakeOpeners()** (1 connections) — `.agents/skills/archify/test/cli.test.mjs`
-- **run()** (1 connections) — `.agents/skills/archify/test/cli.test.mjs`
-- **sha256()** (1 connections) — `.agents/skills/archify/test/cli.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/cli.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/cli.test.mjs`
-- **artifactRoots** (1 connections) — `.agents/skills/archify/test/generated-artifact-xml.test.mjs`
-- *... and 14 more nodes in this community*
+- **Color Guide** (13 connections) — `.agents/skills/refero-design/references/color.md`
+- **2. Palette Structure** (5 connections) — `.agents/skills/refero-design/references/color.md`
+- **5. Light and Dark Themes** (5 connections) — `.agents/skills/refero-design/references/color.md`
+- **7. Building a Palette from Scratch** (5 connections) — `.agents/skills/refero-design/references/color.md`
+- **4. Contrast and Readability** (4 connections) — `.agents/skills/refero-design/references/color.md`
+- **6. Naming Tokens** (4 connections) — `.agents/skills/refero-design/references/color.md`
+- **9. Anti-Patterns** (4 connections) — `.agents/skills/refero-design/references/color.md`
+- **1. Color Space** (3 connections) — `.agents/skills/refero-design/references/color.md`
+- **3. The 60/30/10 Rule** (3 connections) — `.agents/skills/refero-design/references/color.md`
+- **8. Gradients** (2 connections) — `.agents/skills/refero-design/references/color.md`
+- **color.md** (1 connections) — `.agents/skills/refero-design/references/color.md`
+- **0. Context First** (1 connections) — `.agents/skills/refero-design/references/color.md`
+- **10. Pre-Ship Checklist** (1 connections) — `.agents/skills/refero-design/references/color.md`
+- **2.1 Neutrals (Most Important)** (1 connections) — `.agents/skills/refero-design/references/color.md`
+- **2.2 Primary Accent** (1 connections) — `.agents/skills/refero-design/references/color.md`
+- **2.3 Semantic Colors** (1 connections) — `.agents/skills/refero-design/references/color.md`
+- **2.4 Effects (Only If Needed)** (1 connections) — `.agents/skills/refero-design/references/color.md`
+- **Appendix: Complete Token System** (1 connections) — `.agents/skills/refero-design/references/color.md`
+- **Bad** (1 connections) — `.agents/skills/refero-design/references/color.md`
+- **Common Failures** (1 connections) — `.agents/skills/refero-design/references/color.md`
+- **Component Color Limit** (1 connections) — `.agents/skills/refero-design/references/color.md`
+- **Dark Mode: Technical Implementation** (1 connections) — `.agents/skills/refero-design/references/color.md`
+- **Dark Theme Elevation** (1 connections) — `.agents/skills/refero-design/references/color.md`
+- **Good** (1 connections) — `.agents/skills/refero-design/references/color.md`
+- **Minimum Requirements** (1 connections) — `.agents/skills/refero-design/references/color.md`
+- *... and 15 more nodes in this community*
 
 ## Relationships
 
-- [[Community 50]] (1 shared connections)
-- [[Community 84]] (1 shared connections)
-- [[Community 128]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/test/cli.test.mjs`
-- `.agents/skills/archify/test/generated-artifact-xml.test.mjs`
-- `.agents/skills/archify/test/helpers/offline-fonts.mjs`
-- `.agents/skills/archify/test/helpers/xml.mjs`
-- `.agents/skills/archify/test/offline-font-browser.test.mjs`
-- `.agents/skills/archify/test/offline-self-containment.test.mjs`
+- `.agents/skills/refero-design/references/color.md`
 
 ## Audit Trail
 
-- EXTRACTED: 103 (98%)
-- INFERRED: 2 (2%)
+- EXTRACTED: 78 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

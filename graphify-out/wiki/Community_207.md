@@ -1,31 +1,33 @@
 # Community 207
 
-> 10 nodes · cohesion 0.20
+> 10 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **Shriji Backend Skill** (9 connections) — `.agents/skills/shriji-backend/SKILL.md`
-- **SKILL.md** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
-- **Commands** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
-- **Environment (backend/.env — never committed)** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
-- **Frontend Integration (built)** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
-- **Hard Rules** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
-- **Key Files (populated as built)** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
-- **Ownership Rule (invariant)** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
-- **Pending Seam — price proxy switch (do when backend is deployed)** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
-- **Stack Record — what was chosen, do not substitute** (1 connections) — `.agents/skills/shriji-backend/SKILL.md`
+- **site-language-continuity.test.mjs** (12 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **clickAndNavigate()** (2 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **evaluate()** (2 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **loadRuntime()** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **navigate()** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **navigationPath** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **repoRoot** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **runtimePath** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **startStaticServer()** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 53]] (1 shared connections)
+- [[Community 90]] (1 shared connections)
+- [[Community 130]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/shriji-backend/SKILL.md`
+- `.agents/skills/archify/test/site-language-continuity.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (100%)
+- EXTRACTED: 23 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

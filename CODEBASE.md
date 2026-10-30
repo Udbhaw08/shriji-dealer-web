@@ -1,8 +1,8 @@
 # CODEBASE.md — Project Architecture & Feature Guide
 
 > **Auto-generated documentation**
-> Last synchronized: 2026-10-31T04:56:55.747+05:30 (GMT+5:30)
-> Total Project Files: 2275
+> Last synchronized: 2026-10-31T05:08:47.423+05:30 (GMT+5:30)
+> Total Project Files: 2273
 
 ---
 
@@ -135,11 +135,12 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 - **`src/data/auth-session.test.mjs`** (9.0 KB)
 - **`src/data/auth.js`** (20.2 KB)
 - **`src/data/dealer.js`** (9.3 KB)
-- **`src/data/dealer.test.mjs`** (4.3 KB)
+- **`src/data/dealer.test.mjs`** (4.7 KB)
 - **`src/data/favoritesStore.js`** (2.3 KB)
 - **`src/data/filters.test.mjs`** (3.0 KB)
 - **`src/data/filtersHelper.js`** (1.8 KB)
 - **`src/data/i18n.js`** (1.7 KB)
+- **`src/data/incognito.test.mjs`** (5.7 KB)
 - **`src/data/loginCode.js`** (3.2 KB)
 - **`src/data/portalGate.js`** (0.8 KB)
 - **`src/data/portalGate.test.mjs`** (1.1 KB)
@@ -149,10 +150,10 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 - **`src/data/productsStore.test.mjs`** (5.2 KB)
 - **`src/data/searchHelper.js`** (9.8 KB)
 - **`src/data/searchHelper.test.mjs`** (0.9 KB)
-- **`src/data/session.js`** (15.1 KB)
+- **`src/data/session.js`** (16.0 KB)
 - **`src/data/site.js`** (3.7 KB)
 - **`src/data/site.test.mjs`** (0.7 KB)
-- **`src/data/translations.js`** (32.9 KB)
+- **`src/data/translations.js`** (33.9 KB)
 - **`src/data/trial-collection.test.mjs`** (5.4 KB)
 - **`src/data/validators.js`** (1.9 KB)
 - **`src/data/video-banner.test.mjs`** (2.3 KB)

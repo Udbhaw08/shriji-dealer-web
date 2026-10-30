@@ -1,56 +1,53 @@
 # Product Requirements Documentation
 
-> 63 nodes · cohesion 0.07
+> 64 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **ff()** (26 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
-- **k()** (20 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
-- **rt()** (20 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
-- **ot()** (17 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
-- **lu()** (16 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
-- **at()** (14 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
-- **dt()** (13 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
-- **A()** (12 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
-- **ju()** (12 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
-- **fu()** (10 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
-- **lt()** (10 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
-- **tf()** (10 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
-- **nt()** (9 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
-- **O()** (9 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
-- **st()** (9 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
-- **vl()** (9 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
-- **af()** (8 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
-- **Ca()** (7 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
-- **en()** (7 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
-- **gl()** (7 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
-- **ho()** (7 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
-- **Jt()** (7 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
-- **kf()** (7 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
-- **lf()** (7 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
-- **ml()** (7 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
-- *... and 38 more nodes in this community*
+- **architecture-delta.mjs** (65 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **commandCompare()** (20 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **buildDeltaSvg()** (16 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **compareArchitecture()** (12 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **validateArchitectureDeltaHtml()** (11 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **annotateArchitectureSideSvg()** (9 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **fail()** (8 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **renderArchitectureDeltaHtml()** (6 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **canonicalArchitecture()** (5 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **architectureDeltaChangeRows()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **boundaryElements()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **boundaryIndex()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **canonicalArchitectureJson()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **compareEntities()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **edgeSymbolMarkup()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **equal()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **markerFor()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **normalizeRepository()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **reviewTargetTags()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **extractCompareOptions()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **addNodeMarker()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **boundaryChangeMap()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **boundaryMarkupByKey()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **boundaryMarkupParts()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **boundarySymbolMarkup()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- *... and 39 more nodes in this community*
 
 ## Relationships
 
-- [[Zoho Backend & Proxy Endpoints]] (71 shared connections)
-- [[Dependencies & Package Config]] (33 shared connections)
-- [[Product Pages Specification]] (28 shared connections)
-- [[Community 37]] (23 shared connections)
-- [[Community 31]] (12 shared connections)
-- [[Community 99]] (8 shared connections)
-- [[Community 36]] (6 shared connections)
-- [[Community 214]] (4 shared connections)
-- [[Community 64]] (1 shared connections)
+- [[Graphify Knowledge Graph Skill]] (11 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (7 shared connections)
+- [[Community 143]] (6 shared connections)
+- [[Community 64]] (3 shared connections)
+- [[Community 57]] (2 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
+- `.agents/skills/archify/bin/archify.mjs`
+- `.agents/skills/archify/delta/architecture-delta.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 460 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 284 (94%)
+- INFERRED: 17 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

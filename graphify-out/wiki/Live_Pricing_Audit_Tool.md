@@ -1,56 +1,74 @@
 # Live Pricing Audit Tool
 
-> 56 nodes · cohesion 0.06
+> 52 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **hash.js** (25 connections) — `backend/src/utils/hash.js`
-- **phase2DealerStaffOnboarding.test.mjs** (17 connections) — `backend/test/phase2DealerStaffOnboarding.test.mjs`
-- **loginCode.js** (17 connections) — `backend/src/utils/loginCode.js`
-- **dealerRegistrationTwoChannel.test.mjs** (15 connections) — `backend/test/dealerRegistrationTwoChannel.test.mjs`
-- **onboardingVerification.test.mjs** (15 connections) — `backend/test/onboardingVerification.test.mjs`
-- **hashOtp()** (10 connections) — `backend/src/utils/hash.js`
-- **verifyOtpHash()** (10 connections) — `backend/src/utils/hash.js`
-- **hash.test.mjs** (9 connections) — `backend/test/hash.test.mjs`
-- **sha256()** (9 connections) — `backend/src/utils/hash.js`
-- **formatLoginCode()** (8 connections) — `backend/src/utils/loginCode.js`
-- **generateLoginCode()** (8 connections) — `backend/src/utils/loginCode.js`
-- **loginCode.test.mjs** (7 connections) — `backend/test/loginCode.test.mjs`
-- **generateOtp()** (5 connections) — `backend/src/utils/hash.js`
-- **hashPassword()** (5 connections) — `backend/src/utils/hash.js`
-- **verifyPassword()** (4 connections) — `backend/src/utils/hash.js`
-- **isValidLoginCode()** (4 connections) — `backend/src/utils/loginCode.js`
-- **parseLoginCode()** (4 connections) — `backend/src/utils/loginCode.js`
-- **scryptKey()** (3 connections) — `backend/src/utils/hash.js`
-- **USER_CATEGORIES** (3 connections) — `backend/src/utils/loginCode.js`
-- **generateCode()** (2 connections) — `backend/src/utils/hash.js`
-- **randomToken()** (2 connections) — `backend/src/utils/hash.js`
-- **generateRandomDigits()** (2 connections) — `backend/src/utils/loginCode.js`
-- **generateRandomLetters()** (2 connections) — `backend/src/utils/loginCode.js`
-- **GST_TREATMENT_OPTIONS** (2 connections) — `backend/src/utils/loginCode.js`
-- **app** (1 connections) — `backend/test/dealerRegistrationTwoChannel.test.mjs`
-- *... and 31 more nodes in this community*
+- **main.jsx** (54 connections) — `src/main.jsx`
+- **ui.jsx** (51 connections) — `src/ui.jsx`
+- **useSession()** (45 connections) — `src/data/session.js`
+- **Home.jsx** (26 connections) — `src/pages/Home.jsx`
+- **site.js** (24 connections) — `src/data/site.js`
+- **Schemes.jsx** (17 connections) — `src/pages/Schemes.jsx`
+- **Support.jsx** (17 connections) — `src/pages/Support.jsx`
+- **COMPANY** (16 connections) — `src/data/site.js`
+- **isPortalGated()** (14 connections) — `src/data/portalGate.js`
+- **HeroSlider.jsx** (12 connections) — `src/components/HeroSlider.jsx`
+- **UnderMaintenance.jsx** (8 connections) — `src/components/UnderMaintenance.jsx`
+- **Home()** (8 connections) — `src/pages/Home.jsx`
+- **DealerPending.jsx** (6 connections) — `src/pages/DealerPending.jsx`
+- **Footer()** (6 connections) — `src/ui.jsx`
+- **UnderMaintenance()** (5 connections) — `src/components/UnderMaintenance.jsx`
+- **LegalPrivacy.jsx** (5 connections) — `src/pages/LegalPrivacy.jsx`
+- **LegalTerms.jsx** (5 connections) — `src/pages/LegalTerms.jsx`
+- **PrivacyPolicy.jsx** (5 connections) — `src/pages/PrivacyPolicy.jsx`
+- **Support()** (5 connections) — `src/pages/Support.jsx`
+- **TermsOfService.jsx** (5 connections) — `src/pages/TermsOfService.jsx`
+- **canUseIncognito()** (4 connections) — `src/data/session.js`
+- **DealerDashboard()** (4 connections) — `src/pages/DealerDashboard.jsx`
+- **StaffJoin()** (4 connections) — `src/pages/StaffJoin.jsx`
+- **EnquiryButtons()** (4 connections) — `src/ui.jsx`
+- **IncognitoToggle()** (4 connections) — `src/ui.jsx`
+- *... and 27 more nodes in this community*
 
 ## Relationships
 
-- [[Community 41]] (16 shared connections)
-- [[Mobile Responsive UI Skill]] (14 shared connections)
-- [[Product Brand & Business Vision]] (2 shared connections)
+- [[Product Brand & Business Vision]] (74 shared connections)
+- [[Community 48]] (39 shared connections)
+- [[Vercel Deployment Routing]] (26 shared connections)
+- [[Community 59]] (11 shared connections)
+- [[Community 152]] (6 shared connections)
+- [[Community 30]] (4 shared connections)
+- [[Community 395]] (1 shared connections)
+- [[Community 167]] (1 shared connections)
 
 ## Source Files
 
-- `backend/src/utils/hash.js`
-- `backend/src/utils/loginCode.js`
-- `backend/test/dealerRegistrationTwoChannel.test.mjs`
-- `backend/test/hash.test.mjs`
-- `backend/test/loginCode.test.mjs`
-- `backend/test/onboardingVerification.test.mjs`
-- `backend/test/phase2DealerStaffOnboarding.test.mjs`
+- `src/components/EmailVerificationPrompt.jsx`
+- `src/components/HeroSlider.jsx`
+- `src/components/NativeBackHandler.jsx`
+- `src/components/PhoneVerificationPrompt.jsx`
+- `src/components/UnderMaintenance.jsx`
+- `src/data/portalGate.js`
+- `src/data/session.js`
+- `src/data/site.js`
+- `src/main.jsx`
+- `src/pages/DealerApply.jsx`
+- `src/pages/DealerDashboard.jsx`
+- `src/pages/DealerPending.jsx`
+- `src/pages/Home.jsx`
+- `src/pages/LegalPrivacy.jsx`
+- `src/pages/LegalTerms.jsx`
+- `src/pages/PrivacyPolicy.jsx`
+- `src/pages/Schemes.jsx`
+- `src/pages/StaffJoin.jsx`
+- `src/pages/Support.jsx`
+- `src/pages/TermsOfService.jsx`
 
 ## Audit Trail
 
-- EXTRACTED: 220 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 409 (100%)
+- INFERRED: 1 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

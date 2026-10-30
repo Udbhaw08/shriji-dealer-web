@@ -1,31 +1,29 @@
 # Community 253
 
-> 8 nodes · cohesion 0.43
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **download.js** (6 connections) — `api/download.js`
-- **handler()** (5 connections) — `api/download.js`
-- **ssrf.js** (5 connections) — `api/_lib/ssrf.js`
-- **validateSafeDownloadUrl()** (5 connections) — `api/_lib/ssrf.js`
-- **safeFetchWithRedirects()** (3 connections) — `api/download.js`
-- **isPrivateOrReservedIp()** (3 connections) — `api/_lib/ssrf.js`
-- **wrapJpegInPdf()** (2 connections) — `api/download.js`
-- **ALLOWED_REMOTE_HOSTS** (1 connections) — `api/_lib/ssrf.js`
+- **Game controls** (7 connections) — `.agents/skills/apple-design/references/hig/game-controls.md`
+- **game-controls.md** (1 connections) — `.agents/skills/apple-design/references/hig/game-controls.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/game-controls.md`
+- **Keyboards** (1 connections) — `.agents/skills/apple-design/references/hig/game-controls.md`
+- **Physical controllers** (1 connections) — `.agents/skills/apple-design/references/hig/game-controls.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/game-controls.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/game-controls.md`
+- **Touch controls** (1 connections) — `.agents/skills/apple-design/references/hig/game-controls.md`
 
 ## Relationships
 
-- [[Community 141]] (3 shared connections)
-- [[Product Brand & Business Vision]] (3 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `api/_lib/ssrf.js`
-- `api/download.js`
+- `.agents/skills/apple-design/references/hig/game-controls.md`
 
 ## Audit Trail
 
-- EXTRACTED: 30 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

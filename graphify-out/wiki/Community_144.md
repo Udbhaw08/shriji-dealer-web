@@ -4,19 +4,19 @@
 
 ## Key Concepts
 
-- **Toolbars** (9 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
-- **Platform considerations** (4 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
-- **toolbars.md** (1 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
-- **Actions** (1 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
-- **Item groupings** (1 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
-- **Navigation** (1 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
-- **Phone (iOS)** (1 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
-- **Tablet (iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
-- **Titles** (1 connections) — `.agents/skills/apple-design/references/hig/toolbars.md`
+- **Shriji Dealer Backend — Render Deployment Runbook** (7 connections) — `docs/RENDER-DEPLOYMENT-RUNBOOK.md`
+- **5. Connecting Frontend to the Live Backend** (4 connections) — `docs/RENDER-DEPLOYMENT-RUNBOOK.md`
+- **2. Choosing Your Deployment Method** (3 connections) — `docs/RENDER-DEPLOYMENT-RUNBOOK.md`
+- **RENDER-DEPLOYMENT-RUNBOOK.md** (1 connections) — `docs/RENDER-DEPLOYMENT-RUNBOOK.md`
+- **1. In Vercel (or production frontend host):** (1 connections) — `docs/RENDER-DEPLOYMENT-RUNBOOK.md`
+- **1. Summary of Changes Made to Prepare the Codebase** (1 connections) — `docs/RENDER-DEPLOYMENT-RUNBOOK.md`
+- **2. In Local `.env.local` (for testing):** (1 connections) — `docs/RENDER-DEPLOYMENT-RUNBOOK.md`
+- **3. Environment Variables Reference** (1 connections) — `docs/RENDER-DEPLOYMENT-RUNBOOK.md`
+- **3. In Zoho CRM Workflow (Dealer Approval Webhook):** (1 connections) — `docs/RENDER-DEPLOYMENT-RUNBOOK.md`
+- **4. Free vs. Starter Plan Note** (1 connections) — `docs/RENDER-DEPLOYMENT-RUNBOOK.md`
+- **6. How to Verify After Deployment** (1 connections) — `docs/RENDER-DEPLOYMENT-RUNBOOK.md`
+- **Method A: One-Click Render Blueprint (Recommended)** (1 connections) — `docs/RENDER-DEPLOYMENT-RUNBOOK.md`
+- **Method B: Manual Web Service Setup (Step-by-Step)** (1 connections) — `docs/RENDER-DEPLOYMENT-RUNBOOK.md`
 
 ## Relationships
 
@@ -24,7 +24,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/toolbars.md`
+- `docs/RENDER-DEPLOYMENT-RUNBOOK.md`
 
 ## Audit Trail
 

@@ -1,58 +1,51 @@
 # Community 41
 
-> 35 nodes · cohesion 0.16
+> 36 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **auth.js** (55 connections) — `backend/src/routes/auth.js`
-- **dealerApp.js** (45 connections) — `backend/src/services/dealerApp.js`
-- **normalizeEmail()** (18 connections) — `backend/src/utils/validators.js`
-- **notifications.js** (16 connections) — `backend/src/services/notifications.js`
-- **validators.js** (16 connections) — `backend/src/utils/validators.js`
-- **requestDealerRegistrationOtp()** (14 connections) — `backend/src/services/dealerApp.js`
-- **finalizeDealerRegistration()** (13 connections) — `backend/src/services/dealerApp.js`
-- **isValidPhone()** (11 connections) — `backend/src/utils/validators.js`
-- **validators.test.mjs** (9 connections) — `backend/test/validators.test.mjs`
-- **cleanName()** (9 connections) — `backend/src/utils/validators.js`
-- **httpError()** (8 connections) — `backend/src/middleware/errorHandler.js`
-- **issueSession()** (8 connections) — `backend/src/routes/auth.js`
-- **verifyDealerRegistrationOtp()** (7 connections) — `backend/src/services/dealerApp.js`
-- **sendWhatsAppOtp()** (7 connections) — `backend/src/services/notifications.js`
-- **isValidEmail()** (7 connections) — `backend/src/utils/validators.js`
-- **isGstRequiredTreatment()** (6 connections) — `backend/src/utils/validators.js`
-- **isValidName()** (6 connections) — `backend/src/utils/validators.js`
-- **applyCrmContactState()** (5 connections) — `backend/src/services/dealerApp.js`
-- **sendEmailOtp()** (5 connections) — `backend/src/services/notifications.js`
-- **isValidGstin()** (5 connections) — `backend/src/utils/validators.js`
-- **isUserFullyOnboarded()** (4 connections) — `backend/src/routes/auth.js`
-- **resolveUserWithDealer()** (4 connections) — `backend/src/routes/auth.js`
-- **emailOnlyIdentifier()** (3 connections) — `backend/src/routes/auth.js`
-- **findUserByEmail()** (3 connections) — `backend/src/routes/auth.js`
-- **publicUser()** (3 connections) — `backend/src/routes/auth.js`
-- *... and 10 more nodes in this community*
+- **check-update.mjs** (99 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **normalizeState()** (7 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **encodeRecoverableState()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **validateCachedCandidate()** (6 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **isPlainObject()** (4 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **guardedCacheEntryRead()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **hasOnlyKeys()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **notification()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **operationIsActive()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **stateAfterFailedCheck()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **stateWithFailureCheck()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **validateClaimOwner()** (3 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **assertSafeCacheEntry()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **cancelResponseBody()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **corruptClaimStatus()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **emptyState()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **encodeBoundedState()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **eventKeyForDigest()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **metadataIsWithinLease()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **nextFailedCheck()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **readBoundedBody()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **stateAfterAcknowledgement()** (2 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **assertRenameableCacheEntry()** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **assertSafeRegularFile()** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- **CacheOperationRaceError** (1 connections) — `.agents/skills/archify/scripts/check-update.mjs`
+- *... and 11 more nodes in this community*
 
 ## Relationships
 
-- [[Mobile Responsive UI Skill]] (36 shared connections)
-- [[Community 49]] (27 shared connections)
-- [[Community 47]] (20 shared connections)
-- [[Live Pricing Audit Tool]] (16 shared connections)
-- [[Product Brand & Business Vision]] (9 shared connections)
-- [[Community 137]] (5 shared connections)
+- [[Community 101]] (21 shared connections)
+- [[Community 116]] (19 shared connections)
+- [[Community 109]] (19 shared connections)
+- [[Community 102]] (13 shared connections)
+- [[Community 38]] (1 shared connections)
 
 ## Source Files
 
-- `backend/src/middleware/errorHandler.js`
-- `backend/src/routes/auth.js`
-- `backend/src/routes/dealers.js`
-- `backend/src/services/dealerApp.js`
-- `backend/src/services/notifications.js`
-- `backend/src/utils/validators.js`
-- `backend/test/validators.test.mjs`
+- `.agents/skills/archify/scripts/check-update.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 307 (100%)
+- EXTRACTED: 177 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

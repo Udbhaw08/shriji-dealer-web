@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **build.gradle** (0 connections) — `android/app/build.gradle`
+- **portalGate.test.mjs** (0 connections) — `src/data/portalGate.test.mjs`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `android/app/build.gradle`
+- `src/data/portalGate.test.mjs`
 
 ## Audit Trail
 

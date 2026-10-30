@@ -1,23 +1,23 @@
 # Community 134
 
-> 14 nodes · cohesion 0.14
+> 14 nodes · cohesion 0.23
 
 ## Key Concepts
 
-- **.oxlintrc.json** (6 connections) — `.oxlintrc.json`
-- **env** (4 connections) — `.oxlintrc.json`
-- **rules** (4 connections) — `.oxlintrc.json`
-- **globals** (2 connections) — `.oxlintrc.json`
-- **browser** (1 connections) — `.oxlintrc.json`
-- **builtin** (1 connections) — `.oxlintrc.json`
-- **node** (1 connections) — `.oxlintrc.json`
-- **Archify** (1 connections) — `.oxlintrc.json`
-- **ignorePatterns** (1 connections) — `.oxlintrc.json`
-- **plugins** (1 connections) — `.oxlintrc.json`
-- **no-undef** (1 connections) — `.oxlintrc.json`
-- **react/only-export-components** (1 connections) — `.oxlintrc.json`
-- **react/rules-of-hooks** (1 connections) — `.oxlintrc.json`
-- **$schema** (1 connections) — `.oxlintrc.json`
+- **web-De8JXme8.js** (13 connections) — `ios/App/App/public/assets/web-De8JXme8.js`
+- **applyPrefix()** (4 connections) — `ios/App/App/public/assets/web-De8JXme8.js`
+- **keys()** (4 connections) — `ios/App/App/public/assets/web-De8JXme8.js`
+- **get()** (3 connections) — `ios/App/App/public/assets/web-De8JXme8.js`
+- **migrate()** (3 connections) — `ios/App/App/public/assets/web-De8JXme8.js`
+- **rawKeys()** (3 connections) — `ios/App/App/public/assets/web-De8JXme8.js`
+- **clear()** (2 connections) — `ios/App/App/public/assets/web-De8JXme8.js`
+- **remove()** (2 connections) — `ios/App/App/public/assets/web-De8JXme8.js`
+- **removeOld()** (2 connections) — `ios/App/App/public/assets/web-De8JXme8.js`
+- **set()** (2 connections) — `ios/App/App/public/assets/web-De8JXme8.js`
+- **configure()** (1 connections) — `ios/App/App/public/assets/web-De8JXme8.js`
+- **constructor()** (1 connections) — `ios/App/App/public/assets/web-De8JXme8.js`
+- **impl()** (1 connections) — `ios/App/App/public/assets/web-De8JXme8.js`
+- **prefix()** (1 connections) — `ios/App/App/public/assets/web-De8JXme8.js`
 
 ## Relationships
 
@@ -25,11 +25,11 @@
 
 ## Source Files
 
-- `.oxlintrc.json`
+- `ios/App/App/public/assets/web-De8JXme8.js`
 
 ## Audit Trail
 
-- EXTRACTED: 26 (100%)
+- EXTRACTED: 42 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

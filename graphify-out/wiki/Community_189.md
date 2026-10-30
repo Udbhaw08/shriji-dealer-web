@@ -4,16 +4,16 @@
 
 ## Key Concepts
 
-- **Accessibility** (9 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
-- **accessibility.md** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
-- **Cognitive** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
-- **Hearing** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
-- **Mobility** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
-- **Speech** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
-- **Vision** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
+- **App Shortcuts** (6 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
+- **Best practices** (2 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
+- **app-shortcuts.md** (1 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
+- **Editorial guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
+- **Responding to App Shortcuts** (1 connections) — `.agents/skills/apple-design/references/hig/app-shortcuts.md`
 
 ## Relationships
 
@@ -21,7 +21,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/accessibility.md`
+- `.agents/skills/apple-design/references/hig/app-shortcuts.md`
 
 ## Audit Trail
 

@@ -4,11 +4,11 @@
 
 ## Key Concepts
 
-- **Image wells** (4 connections) — `.agents/skills/apple-design/references/hig/image-wells.md`
-- **image-wells.md** (1 connections) — `.agents/skills/apple-design/references/hig/image-wells.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/image-wells.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/image-wells.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/image-wells.md`
+- **Shriji Domestic Appliances — Sunshine Dealer Web** (4 connections) — `README.md`
+- **README.md** (1 connections) — `README.md`
+- **Documentation** (1 connections) — `README.md`
+- **Layout** (1 connections) — `README.md`
+- **Two things to know before you change anything** (1 connections) — `README.md`
 
 ## Relationships
 
@@ -16,7 +16,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/image-wells.md`
+- `README.md`
 
 ## Audit Trail
 

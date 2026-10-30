@@ -4,59 +4,67 @@
 
 ## Key Concepts
 
-- **workflow-compiler.mjs** (102 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **textUnits()** (33 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
-- **legend.mjs** (21 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
-- **renderLegend()** (14 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
-- **minimumNodeTextWidth()** (12 connections) — `.agents/skills/archify/renderers/shared/text-fit.mjs`
-- **createReadableLayout()** (12 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **text-fit.mjs** (11 connections) — `.agents/skills/archify/renderers/shared/text-fit.mjs`
-- **renderLegend()** (7 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **legendFootprint()** (6 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
-- **measureLegend()** (6 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
-- **relationshipLegendObstacles()** (5 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
-- **readableGroupBounds()** (5 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **authoredNodeWidth()** (4 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **compileWorkflowWithFeedback()** (4 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **authoredNodeHeight()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **compilerFailure()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **feedbackFailure()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **nodeWidthContributor()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **verticalIntervalsOverlap()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **workflowLabelWidth()** (3 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **legendY()** (2 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **measuredEntryWidth()** (2 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
-- **createLegacyLayout()** (2 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **stableCompare()** (2 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
-- **stableText()** (2 connections) — `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- **pool.js** (35 connections) — `backend/src/db/pool.js`
+- **env.js** (18 connections) — `backend/src/config/env.js`
+- **catalog.js** (16 connections) — `backend/src/services/catalog.js`
+- **env** (15 connections) — `backend/src/config/env.js`
+- **webhooks.js** (15 connections) — `backend/src/routes/webhooks.js`
+- **logger.js** (14 connections) — `backend/src/utils/logger.js`
+- **crmPoll.js** (13 connections) — `backend/src/jobs/crmPoll.js`
+- **applyCrmAccountState()** (13 connections) — `backend/src/services/dealerApp.js`
+- **log** (13 connections) — `backend/src/utils/logger.js`
+- **index.js** (11 connections) — `backend/src/jobs/index.js`
+- **catalogSync.js** (9 connections) — `backend/src/jobs/catalogSync.js`
+- **syncCatalog()** (7 connections) — `backend/src/services/catalog.js`
+- **catalogSync()** (5 connections) — `backend/src/jobs/catalogSync.js`
+- **crmPoll()** (5 connections) — `backend/src/jobs/crmPoll.js`
+- **isCommerceConfigured()** (5 connections) — `backend/src/services/commerceClient.js`
+- **catalogFor()** (4 connections) — `backend/src/services/catalog.js`
+- **loadCatalog()** (4 connections) — `backend/src/services/catalog.js`
+- **tokenCleanup()** (3 connections) — `backend/src/jobs/catalogSync.js`
+- **markPollRun()** (3 connections) — `backend/src/jobs/crmPoll.js`
+- **migrate-content.js** (3 connections) — `backend/scripts/migrate-content.js`
+- **test-storage.js** (3 connections) — `backend/scripts/test-storage.js`
+- **priceView()** (3 connections) — `backend/src/services/catalog.js`
+- **priceGate.test.mjs** (3 connections) — `backend/test/priceGate.test.mjs`
+- **crmSync.test.mjs** (2 connections) — `backend/test/crmSync.test.mjs`
+- **bool()** (1 connections) — `backend/src/config/env.js`
 - *... and 8 more nodes in this community*
 
 ## Relationships
 
-- [[Design System & UI Tokens]] (54 shared connections)
-- [[Pricing & Roles Skill]] (28 shared connections)
-- [[Community 51]] (16 shared connections)
-- [[Architecture Doc Generator]] (14 shared connections)
-- [[Community 45]] (11 shared connections)
-- [[Client Products Data Store]] (11 shared connections)
-- [[Community 108]] (9 shared connections)
-- [[Community 133]] (4 shared connections)
-- [[Community 300]] (4 shared connections)
-- [[Zoho API Diagnostic Script]] (2 shared connections)
-- [[Community 292]] (1 shared connections)
-- [[Community 150]] (1 shared connections)
+- [[Project Readme & Layout]] (31 shared connections)
+- [[Client Products Data Store]] (25 shared connections)
+- [[Community 40]] (20 shared connections)
+- [[Community 140]] (9 shared connections)
+- [[Community 50]] (8 shared connections)
+- [[Community 89]] (3 shared connections)
+- [[Community 185]] (1 shared connections)
+- [[Community 61]] (1 shared connections)
+- [[Community 44]] (1 shared connections)
+- [[Community 69]] (1 shared connections)
+- [[Pricing Regression Test Suite]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- `.agents/skills/archify/renderers/shared/legend.mjs`
-- `.agents/skills/archify/renderers/shared/text-fit.mjs`
-- `.agents/skills/archify/renderers/shared/utils.mjs`
-- `.agents/skills/archify/renderers/workflow/workflow-compiler.mjs`
+- `backend/scripts/migrate-content.js`
+- `backend/scripts/test-storage.js`
+- `backend/src/config/env.js`
+- `backend/src/db/pool.js`
+- `backend/src/jobs/catalogSync.js`
+- `backend/src/jobs/crmPoll.js`
+- `backend/src/jobs/index.js`
+- `backend/src/routes/webhooks.js`
+- `backend/src/services/catalog.js`
+- `backend/src/services/commerceClient.js`
+- `backend/src/services/dealerApp.js`
+- `backend/src/utils/logger.js`
+- `backend/test/crmSync.test.mjs`
+- `backend/test/priceGate.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 280 (100%)
+- EXTRACTED: 230 (100%)
 - INFERRED: 1 (0%)
 - AMBIGUOUS: 0 (0%)
 
