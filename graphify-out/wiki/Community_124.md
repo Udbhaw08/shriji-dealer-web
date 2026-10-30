@@ -1,36 +1,43 @@
 # Community 124
 
-> 15 nodes · cohesion 0.13
+> 14 nodes · cohesion 0.31
 
 ## Key Concepts
 
-- **Liquid Glass** (6 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
-- **Apple's rules** (5 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
-- **Cross-platform translation** (5 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
-- **liquid-glass.md** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
-- **Color on glass** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
-- **Flutter** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
-- **React Native** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
-- **Review checklist** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
-- **Standard materials beneath the glass** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
-- **SwiftUI, UIKit, and AppKit** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
-- **Tauri and Electron** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
-- **The two layers** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
-- **Where the material belongs** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
-- **Which variant** (1 connections) — `.agents/skills/apple-design/references/hig/liquid-glass.md`
+- **securityPhase2.test.mjs** (11 connections) — `backend/test/securityPhase2.test.mjs`
+- **dealerPricingAuth.js** (10 connections) — `api/_lib/dealerPricingAuth.js`
+- **getDealerPricingEligibility()** (8 connections) — `api/_lib/dealerPricingAuth.js`
+- **og.js** (7 connections) — `api/og.js`
+- **htmlEscape.js** (6 connections) — `api/_lib/htmlEscape.js`
+- **escapeHtml()** (6 connections) — `api/_lib/htmlEscape.js`
+- **sanitizeUrl()** (6 connections) — `api/_lib/htmlEscape.js`
+- **[id].js** (6 connections) — `api/products/[id].js`
+- **handler()** (5 connections) — `api/og.js`
+- **maskProductPricing()** (5 connections) — `api/_lib/dealerPricingAuth.js`
+- **sanitizeHost()** (4 connections) — `api/_lib/htmlEscape.js`
+- **handler()** (4 connections) — `api/products/[id].js`
+- **tokenCache** (1 connections) — `api/_lib/dealerPricingAuth.js`
+- **mockWebhookAuthCheck()** (1 connections) — `backend/test/securityPhase2.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Dependencies & Package Config]] (11 shared connections)
+- [[Community 54]] (5 shared connections)
+- [[Roles & Customer Sharing Spec]] (4 shared connections)
+- [[Graphify Knowledge Graph Skill]] (3 shared connections)
+- [[Community 43]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/liquid-glass.md`
+- `api/_lib/dealerPricingAuth.js`
+- `api/_lib/htmlEscape.js`
+- `api/og.js`
+- `api/products/[id].js`
+- `backend/test/securityPhase2.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 28 (100%)
+- EXTRACTED: 80 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

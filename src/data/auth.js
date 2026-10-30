@@ -293,9 +293,27 @@ export async function lookupStaffCode(code) {
   return data;
 }
 
-export async function staffSignup({ email, password, dealer_code, invite_code, full_name, phone }) {
+export async function staffSignup({
+  email,
+  password,
+  dealer_code,
+  invite_code,
+  full_name,
+  phone,
+  flowId,
+  verificationToken,
+}) {
   const data = await applyAuthResponse(await callBackend("/api/auth/staff/signup", json({
-    email, password, dealer_code, invite_code, full_name, phone,
+    email,
+    password,
+    dealer_code,
+    invite_code,
+    full_name,
+    phone,
+    flowId,
+    flow_id: flowId,
+    verificationToken,
+    verification_token: verificationToken,
   })));
   broadcastAuthChange("STAFF_SIGNUP");
   return data;

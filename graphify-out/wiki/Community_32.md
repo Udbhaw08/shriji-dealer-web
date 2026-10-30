@@ -1,63 +1,55 @@
 # Community 32
 
-> 40 nodes · cohesion 0.14
+> 39 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **Product.jsx** (41 connections) — `src/pages/Product.jsx`
-- **useLanguage()** (31 connections) — `src/data/i18n.js`
-- **dealer.js** (30 connections) — `src/data/dealer.js`
-- **Favorites.jsx** (20 connections) — `src/pages/Favorites.jsx`
-- **ProductCard.jsx** (19 connections) — `src/components/ProductCard.jsx`
-- **dealer.test.mjs** (18 connections) — `src/data/dealer.test.mjs`
-- **Product()** (16 connections) — `src/pages/Product.jsx`
-- **PriceBlock.jsx** (15 connections) — `src/components/PriceBlock.jsx`
-- **ProductCard()** (15 connections) — `src/components/ProductCard.jsx`
-- **priceFor()** (15 connections) — `src/data/dealer.js`
-- **useFavorites()** (15 connections) — `src/data/favoritesStore.js`
-- **inr()** (12 connections) — `src/data/dealer.js`
-- **Favorites()** (9 connections) — `src/pages/Favorites.jsx`
-- **viewerFor()** (8 connections) — `src/data/dealer.js`
-- **CustomerPrice()** (7 connections) — `src/components/PriceBlock.jsx`
-- **productSlug()** (7 connections) — `src/data/dealer.js`
-- **shareLink()** (7 connections) — `src/data/dealer.js`
-- **slugifyProduct()** (6 connections) — `src/data/dealer.js`
-- **tagFor()** (6 connections) — `src/data/dealer.js`
-- **DealerPrice()** (5 connections) — `src/components/PriceBlock.jsx`
-- **formatWhatsAppPhone()** (4 connections) — `src/data/dealer.js`
-- **tierOf()** (4 connections) — `src/data/dealer.js`
-- **DEALERS** (3 connections) — `src/data/dealer.js`
-- **isFavorite()** (3 connections) — `src/data/favoritesStore.js`
-- **getCachedProductDetail()** (3 connections) — `src/pages/Product.jsx`
-- *... and 15 more nodes in this community*
+- **offline-font-browser.test.mjs** (13 connections) — `.agents/skills/archify/test/offline-font-browser.test.mjs`
+- **cli.test.mjs** (11 connections) — `.agents/skills/archify/test/cli.test.mjs`
+- **offline-self-containment.test.mjs** (9 connections) — `.agents/skills/archify/test/offline-self-containment.test.mjs`
+- **generated-artifact-xml.test.mjs** (8 connections) — `.agents/skills/archify/test/generated-artifact-xml.test.mjs`
+- **offline-fonts.mjs** (7 connections) — `.agents/skills/archify/test/helpers/offline-fonts.mjs`
+- **inspectDocuments()** (5 connections) — `.agents/skills/archify/test/helpers/offline-fonts.mjs`
+- **xml.mjs** (5 connections) — `.agents/skills/archify/test/helpers/xml.mjs`
+- **assertFontCss()** (4 connections) — `.agents/skills/archify/test/helpers/offline-fonts.mjs`
+- **assertOfflineArtifact()** (4 connections) — `.agents/skills/archify/test/helpers/offline-fonts.mjs`
+- **extractSvgs()** (4 connections) — `.agents/skills/archify/test/helpers/xml.mjs`
+- **parseXml()** (3 connections) — `.agents/skills/archify/test/helpers/xml.mjs`
+- **visit()** (3 connections) — `.agents/skills/archify/test/helpers/xml.mjs`
+- **evaluate()** (2 connections) — `.agents/skills/archify/test/offline-font-browser.test.mjs`
+- **exported()** (2 connections) — `.agents/skills/archify/test/offline-font-browser.test.mjs`
+- **EXPECTED_FACES** (1 connections) — `.agents/skills/archify/test/helpers/offline-fonts.mjs`
+- **FONT_LICENSE** (1 connections) — `.agents/skills/archify/test/helpers/offline-fonts.mjs`
+- **cli** (1 connections) — `.agents/skills/archify/test/cli.test.mjs`
+- **copyInstalledSkill()** (1 connections) — `.agents/skills/archify/test/cli.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/cli.test.mjs`
+- **makeFakeOpeners()** (1 connections) — `.agents/skills/archify/test/cli.test.mjs`
+- **run()** (1 connections) — `.agents/skills/archify/test/cli.test.mjs`
+- **sha256()** (1 connections) — `.agents/skills/archify/test/cli.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/cli.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/cli.test.mjs`
+- **artifactRoots** (1 connections) — `.agents/skills/archify/test/generated-artifact-xml.test.mjs`
+- *... and 14 more nodes in this community*
 
 ## Relationships
 
-- [[Community 53]] (46 shared connections)
-- [[Zoho Integration Skill]] (28 shared connections)
-- [[Community 44]] (19 shared connections)
-- [[Mobile Responsive UI Skill]] (13 shared connections)
-- [[Community 170]] (6 shared connections)
-- [[Community 169]] (5 shared connections)
-- [[Community 110]] (3 shared connections)
-- [[Testing & Workflow Skill]] (2 shared connections)
+- [[Community 42]] (1 shared connections)
+- [[Community 148]] (1 shared connections)
+- [[Community 125]] (1 shared connections)
 
 ## Source Files
 
-- `src/components/PriceBlock.jsx`
-- `src/components/ProductCard.jsx`
-- `src/data/dealer.js`
-- `src/data/dealer.test.mjs`
-- `src/data/favoritesStore.js`
-- `src/data/i18n.js`
-- `src/data/trial-collection.test.mjs`
-- `src/pages/Favorites.jsx`
-- `src/pages/Product.jsx`
+- `.agents/skills/archify/test/cli.test.mjs`
+- `.agents/skills/archify/test/generated-artifact-xml.test.mjs`
+- `.agents/skills/archify/test/helpers/offline-fonts.mjs`
+- `.agents/skills/archify/test/helpers/xml.mjs`
+- `.agents/skills/archify/test/offline-font-browser.test.mjs`
+- `.agents/skills/archify/test/offline-self-containment.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 338 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 103 (98%)
+- INFERRED: 2 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

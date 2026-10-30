@@ -1,51 +1,62 @@
 # Zoho API Diagnostic Script
 
-> 44 nodes · cohesion 0.05
+> 41 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **properties** (30 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **label** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **pad** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **row** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **brand** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **from** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **fromSide** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **id** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **kind** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **labelAt** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **labelDx** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **labelDy** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **pos** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **route** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **sublabel** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **tag** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **to** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **toSide** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **variant** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **width** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- *... and 19 more nodes in this community*
+- **Product.jsx** (41 connections) — `src/pages/Product.jsx`
+- **dealer.js** (30 connections) — `src/data/dealer.js`
+- **Favorites.jsx** (20 connections) — `src/pages/Favorites.jsx`
+- **ProductCard.jsx** (19 connections) — `src/components/ProductCard.jsx`
+- **isDealer()** (18 connections) — `src/data/dealer.js`
+- **dealer.test.mjs** (18 connections) — `src/data/dealer.test.mjs`
+- **Product()** (16 connections) — `src/pages/Product.jsx`
+- **PriceBlock.jsx** (15 connections) — `src/components/PriceBlock.jsx`
+- **ProductCard()** (15 connections) — `src/components/ProductCard.jsx`
+- **priceFor()** (15 connections) — `src/data/dealer.js`
+- **useFavorites()** (15 connections) — `src/data/favoritesStore.js`
+- **inr()** (12 connections) — `src/data/dealer.js`
+- **viewerFor()** (8 connections) — `src/data/dealer.js`
+- **portalGate.js** (8 connections) — `src/data/portalGate.js`
+- **CustomerPrice()** (7 connections) — `src/components/PriceBlock.jsx`
+- **productSlug()** (7 connections) — `src/data/dealer.js`
+- **registerDealer()** (7 connections) — `src/data/dealer.js`
+- **shareLink()** (7 connections) — `src/data/dealer.js`
+- **slugifyProduct()** (6 connections) — `src/data/dealer.js`
+- **tagFor()** (6 connections) — `src/data/dealer.js`
+- **DealerPrice()** (5 connections) — `src/components/PriceBlock.jsx`
+- **formatWhatsAppPhone()** (4 connections) — `src/data/dealer.js`
+- **tierOf()** (4 connections) — `src/data/dealer.js`
+- **DEALERS** (3 connections) — `src/data/dealer.js`
+- **isFavorite()** (3 connections) — `src/data/favoritesStore.js`
+- *... and 16 more nodes in this community*
 
 ## Relationships
 
-- [[Community 126]] (5 shared connections)
-- [[Community 276]] (2 shared connections)
-- [[Community 469]] (1 shared connections)
-- [[Community 470]] (1 shared connections)
-- [[Community 359]] (1 shared connections)
+- [[Zoho Integration Architecture]] (65 shared connections)
+- [[Pricing & Roles Skill]] (19 shared connections)
+- [[Community 55]] (14 shared connections)
+- [[Community 87]] (6 shared connections)
+- [[Community 166]] (5 shared connections)
+- [[Community 106]] (3 shared connections)
+- [[Community 149]] (2 shared connections)
+- [[Testing & Workflow Skill]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/architecture.schema.json`
+- `src/components/PriceBlock.jsx`
+- `src/components/ProductCard.jsx`
+- `src/data/dealer.js`
+- `src/data/dealer.test.mjs`
+- `src/data/favoritesStore.js`
+- `src/data/portalGate.js`
+- `src/data/trial-collection.test.mjs`
+- `src/pages/Favorites.jsx`
+- `src/pages/Product.jsx`
 
 ## Audit Trail
 
-- EXTRACTED: 96 (100%)
+- EXTRACTED: 331 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,25 +1,24 @@
 # Community 116
 
-> 16 nodes · cohesion 0.12
+> 15 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **Color** (10 connections) — `.agents/skills/apple-design/references/hig/color.md`
-- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/color.md`
-- **Specifications** (3 connections) — `.agents/skills/apple-design/references/hig/color.md`
-- **Desktop (macOS)** (2 connections) — `.agents/skills/apple-design/references/hig/color.md`
-- **color.md** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
-- **App accent colors** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
-- **Color management** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
-- **Inclusive color** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
-- **iOS, iPadOS system gray colors** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
-- **Liquid Glass color** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
-- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
-- **System colors** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
-- **System colors** (1 connections) — `.agents/skills/apple-design/references/hig/color.md`
+- **Buttons** (8 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
+- **Desktop (macOS)** (5 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
+- **buttons.md** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
+- **Content** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
+- **Help buttons** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
+- **Image buttons** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
+- **Push buttons** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
+- **Role** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
+- **Square buttons** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
+- **Style** (1 connections) — `.agents/skills/apple-design/references/hig/buttons.md`
 
 ## Relationships
 
@@ -27,11 +26,11 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/color.md`
+- `.agents/skills/apple-design/references/hig/buttons.md`
 
 ## Audit Trail
 
-- EXTRACTED: 30 (100%)
+- EXTRACTED: 28 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -8,6 +8,7 @@ import {
   cleanName,
   isValidGstin,
   isValidPincode,
+  isGstRequiredTreatment,
 } from '../src/utils/validators.js';
 
 test('isValidEmail accepts only valid RFC 5322 emails with valid domains', () => {
@@ -102,3 +103,23 @@ test('isValidPincode validates 6-digit Indian PIN codes', () => {
   assert.equal(isValidPincode('4000001'), false); // 7 digits
   assert.equal(isValidPincode(''), false);
 });
+
+test('isGstRequiredTreatment enforces GSTIN only for Registered Regular and Composition', () => {
+  assert.equal(isGstRequiredTreatment('Registered Business - Regular'), true);
+  assert.equal(isGstRequiredTreatment('Registered Business - Composition'), true);
+  assert.equal(isGstRequiredTreatment('registered business - regular'), true);
+  assert.equal(isGstRequiredTreatment('Registered Business - Composite'), true);
+
+  // Unregistered businesses and Consumers do NOT require or possess GSTIN
+  assert.equal(isGstRequiredTreatment('Unregistered Business'), false);
+  assert.equal(isGstRequiredTreatment('unregistered business'), false);
+  assert.equal(isGstRequiredTreatment('Consumer'), false);
+  assert.equal(isGstRequiredTreatment('Consumers'), false);
+  assert.equal(isGstRequiredTreatment('consumer'), false);
+  assert.equal(isGstRequiredTreatment('Overseas'), false);
+  assert.equal(isGstRequiredTreatment('Special Economic Zone'), false);
+  assert.equal(isGstRequiredTreatment(''), false);
+  assert.equal(isGstRequiredTreatment(null), false);
+  assert.equal(isGstRequiredTreatment(undefined), false);
+});
+

@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **Multi-Tenant Dealer Schema** (2 connections) — `docs/architecture/multi-tenant-dealer-schema.md`
-- **multi-tenant-dealer-schema.md** (1 connections) — `docs/architecture/multi-tenant-dealer-schema.md`
-- **Workspace Isolation** (1 connections) — `docs/architecture/multi-tenant-dealer-schema.md`
+- **Vercel Production Deployment Checklist** (2 connections) — `docs/deployment/vercel-production-checklist.md`
+- **vercel-production-checklist.md** (1 connections) — `docs/deployment/vercel-production-checklist.md`
+- **Environment Variables** (1 connections) — `docs/deployment/vercel-production-checklist.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/architecture/multi-tenant-dealer-schema.md`
+- `docs/deployment/vercel-production-checklist.md`
 
 ## Audit Trail
 

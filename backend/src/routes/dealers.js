@@ -17,7 +17,7 @@ import * as crm from '../services/crmClient.js';
 const { updateDealerCodeInCrm, getDealerAccount } = crm;
 import { resolvePricebookId } from '../services/commerceClient.js';
 import { formatLoginCode, generateUniqueDealerCode } from '../utils/loginCode.js';
-import { isValidName, cleanName, isValidGstin, isValidPhone } from '../utils/validators.js';
+import { isValidName, cleanName, isValidGstin, isValidPhone, isGstRequiredTreatment } from '../utils/validators.js';
 import { env } from '../config/env.js';
 
 export const dealersRouter = Router();
@@ -210,7 +210,7 @@ dealersRouter.post('/apply', async (req, res, next) => {
     if (last_name && !isValidName(last_name)) {
       throw httpError(400, 'Last name should contain letters only (min 2 characters)');
     }
-    if (gst_treatment?.includes('Registered') && (!gst_number || !isValidGstin(gst_number))) {
+    if (isGstRequiredTreatment(gst_treatment) && (!gst_number || !isValidGstin(gst_number))) {
       throw httpError(400, 'Please enter a valid 15-character GSTIN (e.g. 27AABCR1234D1Z5)');
     }
     if (!req.user.email_verified) {
@@ -235,7 +235,7 @@ dealersRouter.post('/apply', async (req, res, next) => {
     const dealerId = await applyDealer({
       user: req.user,
       businessName: cleanName(business_name),
-      gstNumber: gst_number ? String(gst_number).trim().toUpperCase() : null,
+      gstNumber: isGstRequiredTreatment(gst_treatment) && gst_number ? String(gst_number).trim().toUpperCase() : null,
       gstTreatment: gst_treatment ? String(gst_treatment).trim() : null,
       address: address ? String(address).trim() : null,
       personName: cleanPerson,

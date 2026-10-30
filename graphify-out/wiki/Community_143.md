@@ -1,39 +1,35 @@
 # Community 143
 
-> 13 nodes · cohesion 0.27
+> 13 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **fail()** (15 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **usage()** (11 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **runNode()** (9 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commandDemo()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **exitFrom()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commandBrands()** (5 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commandCheck()** (5 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commandExamples()** (5 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commandVisualCheck()** (5 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commandDoctor()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **extractMigrationOptions()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commandGuide()** (2 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **listBrandMarks()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **Product** (12 connections) — `PRODUCT.md`
+- **PRODUCT.md** (1 connections) — `PRODUCT.md`
+- **Accessibility & Inclusion** (1 connections) — `PRODUCT.md`
+- **Brand Commitments** (1 connections) — `PRODUCT.md`
+- **Capabilities and Constraints** (1 connections) — `PRODUCT.md`
+- **Evidence on Hand** (1 connections) — `PRODUCT.md`
+- **Operating Context** (1 connections) — `PRODUCT.md`
+- **Platform** (1 connections) — `PRODUCT.md`
+- **Positioning** (1 connections) — `PRODUCT.md`
+- **Product Principles** (1 connections) — `PRODUCT.md`
+- **Product Purpose** (1 connections) — `PRODUCT.md`
+- **Stack** (1 connections) — `PRODUCT.md`
+- **Users** (1 connections) — `PRODUCT.md`
 
 ## Relationships
 
-- [[Community 50]] (27 shared connections)
-- [[Graphify Workflow]] (3 shared connections)
-- [[Community 299]] (3 shared connections)
-- [[Community 52]] (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/bin/archify.mjs`
-- `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- `PRODUCT.md`
 
 ## Audit Trail
 
-- EXTRACTED: 73 (95%)
-- INFERRED: 4 (5%)
+- EXTRACTED: 24 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

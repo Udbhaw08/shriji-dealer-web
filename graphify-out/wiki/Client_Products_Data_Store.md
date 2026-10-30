@@ -1,55 +1,54 @@
 # Client Products Data Store
 
-> 56 nodes · cohesion 0.06
+> 63 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **hash.js** (25 connections) — `backend/src/utils/hash.js`
-- **phase2DealerStaffOnboarding.test.mjs** (17 connections) — `backend/test/phase2DealerStaffOnboarding.test.mjs`
-- **loginCode.js** (17 connections) — `backend/src/utils/loginCode.js`
-- **dealerRegistrationTwoChannel.test.mjs** (15 connections) — `backend/test/dealerRegistrationTwoChannel.test.mjs`
-- **onboardingVerification.test.mjs** (15 connections) — `backend/test/onboardingVerification.test.mjs`
-- **hashOtp()** (10 connections) — `backend/src/utils/hash.js`
-- **verifyOtpHash()** (10 connections) — `backend/src/utils/hash.js`
-- **hash.test.mjs** (9 connections) — `backend/test/hash.test.mjs`
-- **sha256()** (9 connections) — `backend/src/utils/hash.js`
-- **formatLoginCode()** (8 connections) — `backend/src/utils/loginCode.js`
-- **generateLoginCode()** (8 connections) — `backend/src/utils/loginCode.js`
-- **loginCode.test.mjs** (7 connections) — `backend/test/loginCode.test.mjs`
-- **generateOtp()** (5 connections) — `backend/src/utils/hash.js`
-- **hashPassword()** (5 connections) — `backend/src/utils/hash.js`
-- **verifyPassword()** (4 connections) — `backend/src/utils/hash.js`
-- **isValidLoginCode()** (4 connections) — `backend/src/utils/loginCode.js`
-- **parseLoginCode()** (4 connections) — `backend/src/utils/loginCode.js`
-- **scryptKey()** (3 connections) — `backend/src/utils/hash.js`
-- **USER_CATEGORIES** (3 connections) — `backend/src/utils/loginCode.js`
-- **generateCode()** (2 connections) — `backend/src/utils/hash.js`
-- **randomToken()** (2 connections) — `backend/src/utils/hash.js`
-- **generateRandomDigits()** (2 connections) — `backend/src/utils/loginCode.js`
-- **generateRandomLetters()** (2 connections) — `backend/src/utils/loginCode.js`
-- **GST_TREATMENT_OPTIONS** (2 connections) — `backend/src/utils/loginCode.js`
-- **app** (1 connections) — `backend/test/dealerRegistrationTwoChannel.test.mjs`
-- *... and 31 more nodes in this community*
+- **ff()** (26 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **k()** (20 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **rt()** (20 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **ot()** (17 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **lu()** (16 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **at()** (14 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **dt()** (13 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **A()** (12 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **ju()** (12 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **fu()** (10 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **lt()** (10 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **tf()** (10 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **nt()** (9 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **O()** (9 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **st()** (9 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **vl()** (9 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **af()** (8 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **Ca()** (7 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **en()** (7 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **gl()** (7 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **ho()** (7 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **Jt()** (7 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **kf()** (7 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **lf()** (7 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **ml()** (7 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- *... and 38 more nodes in this community*
 
 ## Relationships
 
-- [[Master Codebase Architecture Reference]] (16 shared connections)
-- [[Live Pricing Audit Tool]] (14 shared connections)
-- [[Product Pages Specification]] (2 shared connections)
+- [[Price Presentation & Product UI]] (73 shared connections)
+- [[Master Codebase Architecture Reference]] (33 shared connections)
+- [[Product Requirements Documentation]] (28 shared connections)
+- [[Community 40]] (23 shared connections)
+- [[Community 47]] (10 shared connections)
+- [[Community 101]] (8 shared connections)
+- [[Community 39]] (6 shared connections)
+- [[Community 100]] (5 shared connections)
 
 ## Source Files
 
-- `backend/src/utils/hash.js`
-- `backend/src/utils/loginCode.js`
-- `backend/test/dealerRegistrationTwoChannel.test.mjs`
-- `backend/test/hash.test.mjs`
-- `backend/test/loginCode.test.mjs`
-- `backend/test/onboardingVerification.test.mjs`
-- `backend/test/phase2DealerStaffOnboarding.test.mjs`
+- `ios/App/App/public/assets/index-Cd7u1Aqo.js`
 
 ## Audit Trail
 
-- EXTRACTED: 220 (100%)
+- EXTRACTED: 460 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

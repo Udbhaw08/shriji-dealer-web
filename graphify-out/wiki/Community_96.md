@@ -1,41 +1,44 @@
 # Community 96
 
-> 19 nodes · cohesion 0.11
+> 18 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **workflow.schema.json** (8 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **semanticRelation** (5 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **$defs** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **from** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **to** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **properties** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **side** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **$id** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **required** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **$schema** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **required** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **enum** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **title** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **dl()** (26 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
+- **pe()** (13 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
+- **fl()** (10 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
+- **ye()** (10 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
+- **pl()** (9 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
+- **ia()** (8 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
+- **bo()** (7 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
+- **ua()** (7 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
+- **Do()** (6 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
+- **sl()** (6 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
+- **hm()** (5 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
+- **qi()** (5 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
+- **ol()** (4 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
+- **cl()** (3 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
+- **Vd()** (3 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
+- **Ym()** (3 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
+- **ge()** (2 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
+- **ll()** (2 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
 
 ## Relationships
 
-- [[Oxlint Linter Configuration]] (2 shared connections)
-- [[Community 105]] (1 shared connections)
+- [[Dealer Auth & Session Management]] (21 shared connections)
+- [[Product Pages Specification]] (13 shared connections)
+- [[Design System & UI Tokens]] (8 shared connections)
+- [[Pricing Regression Test Suite]] (8 shared connections)
+- [[Community 45]] (8 shared connections)
+- [[Community 38]] (5 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/workflow.schema.json`
+- `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
 
 ## Audit Trail
 
-- EXTRACTED: 39 (100%)
+- EXTRACTED: 129 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

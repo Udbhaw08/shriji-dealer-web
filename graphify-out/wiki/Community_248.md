@@ -1,32 +1,30 @@
 # Community 248
 
-> 9 nodes · cohesion 0.33
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **release-identity.test.mjs** (8 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
-- **writeFile()** (5 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
-- **stableUpdateManifest()** (3 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
-- **writeValidDevelopmentFixture()** (3 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
-- **writeValidStableFixture()** (3 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
-- **checker** (1 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
-- **here** (1 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
-- **runCheck()** (1 connections) — `.agents/skills/archify/test/release-identity.test.mjs`
+- **Boxes** (5 connections) — `.agents/skills/apple-design/references/hig/boxes.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/boxes.md`
+- **boxes.md** (1 connections) — `.agents/skills/apple-design/references/hig/boxes.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/boxes.md`
+- **Content** (1 connections) — `.agents/skills/apple-design/references/hig/boxes.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/boxes.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/boxes.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/boxes.md`
 
 ## Relationships
 
-- [[Community 75]] (1 shared connections)
-- [[Community 362]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/test/release-identity.test.mjs`
+- `.agents/skills/apple-design/references/hig/boxes.md`
 
 ## Audit Trail
 
-- EXTRACTED: 24 (92%)
-- INFERRED: 2 (8%)
+- EXTRACTED: 14 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

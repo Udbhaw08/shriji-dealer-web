@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **esm-CDaDaUT6.js** (1 connections) — `ios/App/App/public/assets/esm-CDaDaUT6.js`
-- **__vite__mapDeps()** (1 connections) — `ios/App/App/public/assets/esm-CDaDaUT6.js`
+- **accessibility.md** (1 connections) — `.agents/skills/swiftui-pro/references/accessibility.md`
+- **Accessibility** (1 connections) — `.agents/skills/swiftui-pro/references/accessibility.md`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `ios/App/App/public/assets/esm-CDaDaUT6.js`
+- `.agents/skills/swiftui-pro/references/accessibility.md`
 
 ## Audit Trail
 

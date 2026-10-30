@@ -1,13 +1,12 @@
 # Community 438
 
-> 4 nodes · cohesion 0.50
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **vercel.json** (3 connections) — `vercel.json`
-- **framework** (1 connections) — `vercel.json`
-- **headers** (1 connections) — `vercel.json`
-- **rewrites** (1 connections) — `vercel.json`
+- **Microservices Decoupled Architecture** (2 connections) — `docs/architecture/microservices-architecture.md`
+- **microservices-architecture.md** (1 connections) — `docs/architecture/microservices-architecture.md`
+- **Overview** (1 connections) — `docs/architecture/microservices-architecture.md`
 
 ## Relationships
 
@@ -15,11 +14,11 @@
 
 ## Source Files
 
-- `vercel.json`
+- `docs/architecture/microservices-architecture.md`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

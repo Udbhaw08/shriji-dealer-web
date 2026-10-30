@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **auditLog.js** (1 connections) — `backend/src/services/auditLog.js`
-- **recordAuditLog()** (1 connections) — `backend/src/services/auditLog.js`
+- **ci-scope.test.mjs** (1 connections) — `.agents/skills/archify/test/ci-scope.test.mjs`
+- **script** (1 connections) — `.agents/skills/archify/test/ci-scope.test.mjs`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `backend/src/services/auditLog.js`
+- `.agents/skills/archify/test/ci-scope.test.mjs`
 
 ## Audit Trail
 

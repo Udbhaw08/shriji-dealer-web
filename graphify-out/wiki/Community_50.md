@@ -1,53 +1,53 @@
 # Community 50
 
-> 32 nodes · cohesion 0.18
+> 30 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **archify.mjs** (50 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commandDeliver()** (20 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commandMigrate()** (17 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commandValidate()** (13 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commandRender()** (10 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **commandPreview()** (9 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **diagnostic()** (9 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **rendererPath()** (9 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **renderValidatedArchitecture()** (8 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **extractQualityArgs()** (7 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **extractRepoRootArgs()** (7 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **rejectCliArgument()** (7 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **assertEvidenceType()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **checkerDiagnostics()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **rendererEnv()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **rendererFailure()** (6 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **reportArtifactFailure()** (5 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **inputDiagnostic()** (4 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **engineeringProfileFromArtifact()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **migrationPathDiagnostics()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **migrationReport()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **reportArtifactArgumentFailure()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **reportDeliveryFailure()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **reportValidateFailure()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- **sourceEvidenceFromArtifact()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
-- *... and 7 more nodes in this community*
+- **architecture-delta.mjs** (65 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **compareArchitecture()** (12 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **fail()** (8 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **canonicalArchitecture()** (5 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **boundaryIndex()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **canonicalArchitectureJson()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **compareEntities()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **equal()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **normalizeRepository()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **canonical()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **extractArchitectureSvg()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **extractArtifactCss()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **presentationChanged()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **requireComparableShape()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **sortedObjects()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **stableIndex()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **addState()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **boundaryKey()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **fieldChanges()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **normalizeComponent()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **normalizedField()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **sortedBy()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **statusFor()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **summaryFor()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **BOUNDARY_FIELDS** (1 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- *... and 5 more nodes in this community*
 
 ## Relationships
 
-- [[Community 143]] (27 shared connections)
-- [[Community 299]] (11 shared connections)
-- [[Community 107]] (4 shared connections)
-- [[Community 136]] (3 shared connections)
-- [[Community 251]] (2 shared connections)
-- [[Community 64]] (2 shared connections)
+- [[Community 81]] (20 shared connections)
+- [[Community 167]] (12 shared connections)
+- [[Community 140]] (4 shared connections)
+- [[Community 294]] (4 shared connections)
+- [[Community 164]] (3 shared connections)
+- [[Community 36]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/bin/archify.mjs`
+- `.agents/skills/archify/delta/architecture-delta.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 221 (97%)
-- INFERRED: 6 (3%)
+- EXTRACTED: 149 (97%)
+- INFERRED: 4 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

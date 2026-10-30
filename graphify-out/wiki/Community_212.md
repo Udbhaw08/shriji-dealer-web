@@ -1,33 +1,31 @@
 # Community 212
 
-> 10 nodes · cohesion 0.20
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **v1-compatibility.test.mjs** (9 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
-- **validate()** (3 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
-- **check()** (1 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
-- **legacyDataflowDocument()** (1 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
-- **narrowExplicitViewBoxDocuments()** (1 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
-- **OFFICIAL_V1_EXAMPLES** (1 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/v1-compatibility.test.mjs`
+- **2. Customer vs. Dealer Price Resolution (`src/data/dealer.js`)** (4 connections) — `docs/PRICING-ARCHITECTURE.md`
+- **PRICING-ARCHITECTURE.md — Pricing Engine & Audit Specification** (4 connections) — `docs/PRICING-ARCHITECTURE.md`
+- **1. Source of Truth: Live Zoho Commerce Store API** (2 connections) — `docs/PRICING-ARCHITECTURE.md`
+- **PRICING-ARCHITECTURE.md** (1 connections) — `docs/PRICING-ARCHITECTURE.md`
+- **2.1 Customer View** (1 connections) — `docs/PRICING-ARCHITECTURE.md`
+- **2.2 Dealer View** (1 connections) — `docs/PRICING-ARCHITECTURE.md`
+- **2.3 Share Link Invariant** (1 connections) — `docs/PRICING-ARCHITECTURE.md`
+- **3. Automated Pricing Regression Protection** (1 connections) — `docs/PRICING-ARCHITECTURE.md`
+- **Rate Priority Hierarchy** (1 connections) — `docs/PRICING-ARCHITECTURE.md`
 
 ## Relationships
 
-- [[Community 97]] (1 shared connections)
-- [[Zoho Integration Architecture]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/test/v1-compatibility.test.mjs`
+- `docs/PRICING-ARCHITECTURE.md`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (90%)
-- INFERRED: 2 (10%)
+- EXTRACTED: 16 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

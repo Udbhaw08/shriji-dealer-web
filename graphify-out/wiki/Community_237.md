@@ -1,32 +1,30 @@
 # Community 237
 
-> 9 nodes · cohesion 0.31
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **items** (5 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **items** (5 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **type** (4 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **cards** (3 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **items** (3 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **additionalProperties** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **items** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **required** (2 connections) — `.agents/skills/archify/schemas/common.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/common.schema.json`
+- **Critical Mobile Responsiveness Safeguards** (6 connections) — `.agents/skills/shriji-responsive-ui/SKILL.md`
+- **Shriji Responsive UI Skill** (3 connections) — `.agents/skills/shriji-responsive-ui/SKILL.md`
+- **SKILL.md** (1 connections) — `.agents/skills/shriji-responsive-ui/SKILL.md`
+- **1. Viewport Zoom-Out Prevention** (1 connections) — `.agents/skills/shriji-responsive-ui/SKILL.md`
+- **2. CSS Grid Child Shrinking** (1 connections) — `.agents/skills/shriji-responsive-ui/SKILL.md`
+- **3. Product Card Rows on Mobile (`<= 719px`)** (1 connections) — `.agents/skills/shriji-responsive-ui/SKILL.md`
+- **4. Horizontal Scrollable Tabs (`.utabs`, `.tabs`)** (1 connections) — `.agents/skills/shriji-responsive-ui/SKILL.md`
+- **5. Hero Banner on Small Screens (`<= 640px`)** (1 connections) — `.agents/skills/shriji-responsive-ui/SKILL.md`
+- **Design System Tokens** (1 connections) — `.agents/skills/shriji-responsive-ui/SKILL.md`
 
 ## Relationships
 
-- [[Community 181]] (3 shared connections)
-- [[Community 78]] (1 shared connections)
-- [[Community 471]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/common.schema.json`
+- `.agents/skills/shriji-responsive-ui/SKILL.md`
 
 ## Audit Trail
 
-- EXTRACTED: 27 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

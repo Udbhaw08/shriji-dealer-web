@@ -1,35 +1,31 @@
 # Community 188
 
-> 10 nodes · cohesion 0.31
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **upload.js** (9 connections) — `api/upload.js`
-- **verifyAdminAuth()** (9 connections) — `api/_lib/adminAuth.js`
-- **adminAuth.js** (6 connections) — `api/_lib/adminAuth.js`
-- **handler()** (4 connections) — `api/upload.js`
-- **login.js** (3 connections) — `api/admin/login.js`
-- **handler()** (2 connections) — `api/admin/login.js`
-- **validateMagicBytes()** (2 connections) — `api/upload.js`
-- **ALLOWED_EXTENSIONS** (1 connections) — `api/upload.js`
-- **ALLOWED_FOLDERS** (1 connections) — `api/upload.js`
-- **MIME_TYPES** (1 connections) — `api/upload.js`
+- **AirPlay** (6 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
+- **Using AirPlay icons** (4 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
+- **airplay.md** (1 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
+- **Black AirPlay icon** (1 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
+- **Custom color AirPlay icon** (1 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
+- **Referring to AirPlay** (1 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
+- **White AirPlay icon** (1 connections) — `.agents/skills/apple-design/references/hig/airplay.md`
 
 ## Relationships
 
-- [[Product Pages Specification]] (4 shared connections)
-- [[Live Pricing Audit Tool]] (3 shared connections)
-- [[Community 72]] (3 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `api/_lib/adminAuth.js`
-- `api/admin/login.js`
-- `api/upload.js`
+- `.agents/skills/apple-design/references/hig/airplay.md`
 
 ## Audit Trail
 
-- EXTRACTED: 38 (100%)
+- EXTRACTED: 18 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -4,32 +4,34 @@
 
 ## Key Concepts
 
-- **Icons & Glyphs Guide** (10 connections) — `.agents/skills/refero-design/references/icons.md`
-- **Libraries** (4 connections) — `.agents/skills/refero-design/references/icons.md`
-- **icons.md** (1 connections) — `.agents/skills/refero-design/references/icons.md`
-- **Accessibility** (1 connections) — `.agents/skills/refero-design/references/icons.md`
-- **Color** (1 connections) — `.agents/skills/refero-design/references/icons.md`
-- **For Product UI (SVG-based)** (1 connections) — `.agents/skills/refero-design/references/icons.md`
-- **Icon Sizing** (1 connections) — `.agents/skills/refero-design/references/icons.md`
-- **Icon + Text Pairing** (1 connections) — `.agents/skills/refero-design/references/icons.md`
-- **Optical Corrections** (1 connections) — `.agents/skills/refero-design/references/icons.md`
-- **Pre-Ship Checklist** (1 connections) — `.agents/skills/refero-design/references/icons.md`
-- **Style Consistency** (1 connections) — `.agents/skills/refero-design/references/icons.md`
-- **Two Contexts** (1 connections) — `.agents/skills/refero-design/references/icons.md`
-- **Variable Glyph Systems** (1 connections) — `.agents/skills/refero-design/references/icons.md`
-- **When to Use What** (1 connections) — `.agents/skills/refero-design/references/icons.md`
+- **workflow-migration.test.mjs** (22 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **cli** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **copyFixture()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **explicitPinConflictWorkflow()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **fixture** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **heightConstrainedWorkflow()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **parseJsonOutput()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **profileDivergenceWorkflow()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **runMigration()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **runValidation()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **sha256()** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/workflow-migration.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 293]] (5 shared connections)
+- [[Community 131]] (3 shared connections)
+- [[Community 80]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/refero-design/references/icons.md`
+- `.agents/skills/archify/test/workflow-migration.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 26 (100%)
+- EXTRACTED: 35 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

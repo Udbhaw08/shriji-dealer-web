@@ -1,8 +1,8 @@
 # CODEBASE.md — Project Architecture & Feature Guide
 
 > **Auto-generated documentation**
-> Last synchronized: 2026-10-31T01:54:15.734+05:30 (GMT+5:30)
-> Total Project Files: 2263
+> Last synchronized: 2026-10-31T04:40:36.697+05:30 (GMT+5:30)
+> Total Project Files: 2273
 
 ---
 
@@ -100,19 +100,19 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 - **`src/pages/Home.jsx`** (25.5 KB)
 - **`src/pages/LegalPrivacy.jsx`** (5.8 KB)
 - **`src/pages/LegalTerms.jsx`** (4.2 KB)
-- **`src/pages/Login.jsx`** (85.5 KB)
+- **`src/pages/Login.jsx`** (84.9 KB)
 - **`src/pages/PrivacyPolicy.jsx`** (0.0 KB)
 - **`src/pages/Product.jsx`** (38.7 KB)
 - **`src/pages/Products.jsx`** (46.7 KB)
 - **`src/pages/Schemes.jsx`** (17.1 KB)
 - **`src/pages/StaffDashboard.jsx`** (47.4 KB)
-- **`src/pages/StaffJoin.jsx`** (26.6 KB)
+- **`src/pages/StaffJoin.jsx`** (3.5 KB)
 - **`src/pages/Support.jsx`** (17.0 KB)
 - **`src/pages/TermsOfService.jsx`** (0.0 KB)
 
 ### 4.2 Reusable Components (`src/components/` & `src/ui.jsx`)
 - **`src/components/A11yAnnouncer.jsx`** (0.5 KB)
-- **`src/components/BrandApplyFlow.jsx`** (51.5 KB)
+- **`src/components/BrandApplyFlow.jsx`** (51.8 KB)
 - **`src/components/EmailVerificationPrompt.jsx`** (10.8 KB)
 - **`src/components/ErrorBoundary.jsx`** (0.8 KB)
 - **`src/components/FileOrUrlInput.jsx`** (15.2 KB)
@@ -126,13 +126,14 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 - **`src/components/ProductCard.jsx`** (3.6 KB)
 - **`src/components/ProductSearchBar.jsx`** (16.6 KB)
 - **`src/components/SkipToContent.jsx`** (0.7 KB)
+- **`src/components/StaffJoinFlow.jsx`** (32.2 KB)
 - **`src/components/UnderMaintenance.jsx`** (2.1 KB)
 - **`src/ui.jsx`**: Core UI components (Header, Footer, Icon, Search, CategoryCarousel).
 
 ### 4.3 State & Business Logic (`src/data/`)
 - **`src/data/api.js`** (2.5 KB)
 - **`src/data/auth-session.test.mjs`** (9.0 KB)
-- **`src/data/auth.js`** (20.0 KB)
+- **`src/data/auth.js`** (20.2 KB)
 - **`src/data/dealer.js`** (9.2 KB)
 - **`src/data/dealer.test.mjs`** (4.3 KB)
 - **`src/data/favoritesStore.js`** (2.3 KB)
@@ -153,7 +154,7 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 - **`src/data/site.test.mjs`** (0.7 KB)
 - **`src/data/translations.js`** (32.9 KB)
 - **`src/data/trial-collection.test.mjs`** (5.4 KB)
-- **`src/data/validators.js`** (1.6 KB)
+- **`src/data/validators.js`** (1.9 KB)
 - **`src/data/video-banner.test.mjs`** (2.3 KB)
 
 ### 4.4 Zoho API & Serverless Handlers (`api/`)

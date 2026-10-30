@@ -1,47 +1,44 @@
 # Community 100
 
-> 18 nodes · cohesion 0.22
+> 18 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **fl()** (25 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
-- **pe()** (13 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
-- **ml()** (11 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
-- **pl()** (10 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
-- **da()** (9 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
-- **xe()** (9 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
-- **ye()** (9 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
-- **jo()** (7 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
-- **cl()** (6 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
-- **rn()** (5 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
-- **sl()** (5 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
-- **xo()** (5 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
-- **na()** (4 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
-- **Gi()** (3 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
-- **ll()** (3 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
-- **ol()** (3 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
-- **Vd()** (3 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
-- **Ym()** (3 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
+- **mc()** (11 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **kd()** (9 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **qs()** (9 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **ac()** (8 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **dh()** (6 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **ks()** (6 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **ct()** (5 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **js()** (5 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **yo()** (5 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **co()** (4 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **Yd()** (4 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **ec()** (3 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **ft()** (3 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **La()** (3 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **To()** (3 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **Gh()** (2 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **.unstable_scheduleHydration()** (2 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **vo()** (2 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (20 shared connections)
-- [[Product Brand & Business Vision]] (14 shared connections)
-- [[Pricing Regression Test Suite]] (9 shared connections)
-- [[Community 37]] (8 shared connections)
-- [[Community 31]] (5 shared connections)
-- [[Product Requirements Documentation]] (4 shared connections)
-- [[Community 58]] (4 shared connections)
-- [[Architecture Doc Generator]] (2 shared connections)
-- [[Community 122]] (1 shared connections)
+- [[Price Presentation & Product UI]] (19 shared connections)
+- [[Master Codebase Architecture Reference]] (12 shared connections)
+- [[Product Requirements Documentation]] (6 shared connections)
+- [[Client Products Data Store]] (5 shared connections)
+- [[Community 47]] (4 shared connections)
+- [[Community 40]] (2 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
+- `ios/App/App/public/assets/index-Cd7u1Aqo.js`
 
 ## Audit Trail
 
-- EXTRACTED: 133 (100%)
+- EXTRACTED: 90 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

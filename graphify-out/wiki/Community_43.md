@@ -1,62 +1,62 @@
 # Community 43
 
-> 35 nodes · cohesion 0.09
+> 34 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **render-dataflow.mjs** (78 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **legend.mjs** (21 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
-- **renderLegend()** (14 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
-- **svgAccessibleText()** (13 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **svgRootAttrs()** (13 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
-- **renderDefinitions()** (11 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
-- **resolveLegend()** (10 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
-- **renderSvg()** (8 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **renderSvg()** (6 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **renderSvg()** (6 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **renderLegend()** (6 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **renderSvg()** (6 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **legendFootprint()** (6 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
-- **measureLegend()** (6 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
-- **renderLegend()** (5 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **stageX()** (5 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **renderLegend()** (5 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- **componentFill** (5 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **componentText** (4 connections) — `.agents/skills/archify/renderers/shared/geometry.mjs`
-- **lifecycleAreaBottom()** (3 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **measureNode()** (2 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **routeVia()** (2 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **stageFrame()** (2 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- **legendY()** (2 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- **renderLifecycleRail()** (2 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- *... and 10 more nodes in this community*
+- **commerceClient.js** (22 connections) — `backend/src/services/commerceClient.js`
+- **env.js** (18 connections) — `backend/src/config/env.js`
+- **catalog.js** (16 connections) — `backend/src/services/catalog.js`
+- **crmPoll.js** (13 connections) — `backend/src/jobs/crmPoll.js`
+- **applyCrmAccountState()** (13 connections) — `backend/src/services/dealerApp.js`
+- **index.js** (11 connections) — `backend/src/jobs/index.js`
+- **catalogSync.js** (9 connections) — `backend/src/jobs/catalogSync.js`
+- **ensureContactPricebookForCrmAccount()** (9 connections) — `backend/src/services/commerceClient.js`
+- **syncCatalog()** (7 connections) — `backend/src/services/catalog.js`
+- **fetchCatalog()** (6 connections) — `backend/src/services/commerceClient.js`
+- **resolvePricebookId()** (6 connections) — `backend/src/services/commerceClient.js`
+- **catalogSync()** (5 connections) — `backend/src/jobs/catalogSync.js`
+- **crmPoll()** (5 connections) — `backend/src/jobs/crmPoll.js`
+- **booksFetch()** (5 connections) — `backend/src/services/commerceClient.js`
+- **commerceConfigured()** (5 connections) — `backend/src/services/commerceClient.js`
+- **commerceFetch()** (5 connections) — `backend/src/services/commerceClient.js`
+- **isCommerceConfigured()** (5 connections) — `backend/src/services/commerceClient.js`
+- **catalogFor()** (4 connections) — `backend/src/services/catalog.js`
+- **loadCatalog()** (4 connections) — `backend/src/services/catalog.js`
+- **assignPricebookToContact()** (4 connections) — `backend/src/services/commerceClient.js`
+- **tokenCleanup()** (3 connections) — `backend/src/jobs/catalogSync.js`
+- **markPollRun()** (3 connections) — `backend/src/jobs/crmPoll.js`
+- **priceView()** (3 connections) — `backend/src/services/catalog.js`
+- **deactivateCommerceContact()** (3 connections) — `backend/src/services/commerceClient.js`
+- **fetchCommercePricebooks()** (3 connections) — `backend/src/services/commerceClient.js`
+- *... and 9 more nodes in this community*
 
 ## Relationships
 
-- [[Graphify Knowledge Graph Skill]] (35 shared connections)
-- [[Zoho Backend & Proxy Endpoints]] (33 shared connections)
-- [[Community 40]] (27 shared connections)
-- [[Roles & Customer Sharing Spec]] (14 shared connections)
-- [[Zoho Integration Architecture]] (10 shared connections)
-- [[Community 109]] (10 shared connections)
-- [[Community 83]] (10 shared connections)
-- [[Graphify Workflow]] (1 shared connections)
+- [[Roles & Customer Sharing Spec]] (24 shared connections)
+- [[Graphify Knowledge Graph Skill]] (21 shared connections)
+- [[Community 41]] (12 shared connections)
+- [[Community 49]] (3 shared connections)
+- [[Dependencies & Package Config]] (2 shared connections)
+- [[Community 124]] (1 shared connections)
+- [[Live Pricing Audit Tool]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
-- `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
-- `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
-- `.agents/skills/archify/renderers/shared/cli.mjs`
-- `.agents/skills/archify/renderers/shared/geometry.mjs`
-- `.agents/skills/archify/renderers/shared/legend.mjs`
-- `.agents/skills/archify/renderers/shared/utils.mjs`
+- `backend/src/config/env.js`
+- `backend/src/jobs/catalogSync.js`
+- `backend/src/jobs/crmPoll.js`
+- `backend/src/jobs/index.js`
+- `backend/src/services/catalog.js`
+- `backend/src/services/commerceClient.js`
+- `backend/src/services/dealerApp.js`
+- `backend/test/crmSync.test.mjs`
+- `backend/test/priceGate.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 249 (99%)
-- INFERRED: 3 (1%)
+- EXTRACTED: 203 (100%)
+- INFERRED: 1 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

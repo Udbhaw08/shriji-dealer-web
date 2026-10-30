@@ -1,11 +1,10 @@
 # Community 546
 
-> 2 nodes · cohesion 1.00
+> 1 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **urlUtils.js** (1 connections) — `src/utils/urlUtils.js`
-- **buildUrlWithQuery()** (1 connections) — `src/utils/urlUtils.js`
+- **capacitor.settings.gradle** (0 connections) — `android/capacitor.settings.gradle`
 
 ## Relationships
 
@@ -13,11 +12,11 @@
 
 ## Source Files
 
-- `src/utils/urlUtils.js`
+- `android/capacitor.settings.gradle`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 0 (0%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

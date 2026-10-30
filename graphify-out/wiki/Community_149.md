@@ -1,37 +1,38 @@
 # Community 149
 
-> 13 nodes · cohesion 0.31
+> 12 nodes · cohesion 0.23
 
 ## Key Concepts
 
-- **focus-browser.test.mjs** (17 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
-- **run()** (8 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
-- **stable()** (6 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
-- **click()** (4 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
-- **load()** (4 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
-- **point()** (4 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
-- **key()** (3 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
-- **move()** (3 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
-- **select()** (3 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
-- **focus()** (2 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
-- **snapshot()** (2 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
-- **variant()** (1 connections) — `.agents/skills/archify/test/focus-browser.test.mjs`
+- **ContentAdminDashboard.jsx** (12 connections) — `src/pages/ContentAdminDashboard.jsx`
+- **video.js** (6 connections) — `src/utils/video.js`
+- **parseVideoUrl()** (5 connections) — `src/utils/video.js`
+- **FileOrUrlInput.jsx** (4 connections) — `src/components/FileOrUrlInput.jsx`
+- **video-banner.test.mjs** (3 connections) — `src/data/video-banner.test.mjs`
+- **FileOrUrlInput()** (2 connections) — `src/components/FileOrUrlInput.jsx`
+- **ContentAdminDashboard()** (2 connections) — `src/pages/ContentAdminDashboard.jsx`
+- **getVideoBadgeLabel()** (2 connections) — `src/utils/video.js`
+- **DEFAULT_BANNER_FORM** (1 connections) — `src/pages/ContentAdminDashboard.jsx`
+- **DEFAULT_BRANDING_FORM** (1 connections) — `src/pages/ContentAdminDashboard.jsx`
+- **DEFAULT_SCHEME_FORM** (1 connections) — `src/pages/ContentAdminDashboard.jsx`
+- **QUICK_COLORS** (1 connections) — `src/pages/ContentAdminDashboard.jsx`
 
 ## Relationships
 
-- [[Community 56]] (5 shared connections)
-- [[Community 65]] (3 shared connections)
-- [[Community 52]] (1 shared connections)
-- [[Community 131]] (1 shared connections)
+- [[Zoho Integration Architecture]] (6 shared connections)
+- [[Pricing & Roles Skill]] (2 shared connections)
+- [[Zoho API Diagnostic Script]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/focus-browser.test.mjs`
+- `src/components/FileOrUrlInput.jsx`
+- `src/data/video-banner.test.mjs`
+- `src/pages/ContentAdminDashboard.jsx`
+- `src/utils/video.js`
 
 ## Audit Trail
 
-- EXTRACTED: 58 (100%)
+- EXTRACTED: 40 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -4,15 +4,15 @@
 
 ## Key Concepts
 
-- **web-CJbP7iD3.js** (8 connections) — `android/app/src/main/assets/public/assets/web-CJbP7iD3.js`
-- **constructor()** (1 connections) — `android/app/src/main/assets/public/assets/web-CJbP7iD3.js`
-- **exitApp()** (1 connections) — `android/app/src/main/assets/public/assets/web-CJbP7iD3.js`
-- **getAppLanguage()** (1 connections) — `android/app/src/main/assets/public/assets/web-CJbP7iD3.js`
-- **getInfo()** (1 connections) — `android/app/src/main/assets/public/assets/web-CJbP7iD3.js`
-- **getLaunchUrl()** (1 connections) — `android/app/src/main/assets/public/assets/web-CJbP7iD3.js`
-- **getState()** (1 connections) — `android/app/src/main/assets/public/assets/web-CJbP7iD3.js`
-- **minimizeApp()** (1 connections) — `android/app/src/main/assets/public/assets/web-CJbP7iD3.js`
-- **toggleBackButtonHandler()** (1 connections) — `android/app/src/main/assets/public/assets/web-CJbP7iD3.js`
+- **Designing for games** (8 connections) — `.agents/skills/apple-design/references/hig/designing-for-games.md`
+- **designing-for-games.md** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-games.md`
+- **Adopt Apple technologies** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-games.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-games.md`
+- **Enable intuitive interactions** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-games.md`
+- **Jump into gameplay** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-games.md`
+- **Look stunning on every display** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-games.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-games.md`
+- **Welcome everyone** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-games.md`
 
 ## Relationships
 
@@ -20,7 +20,7 @@
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/web-CJbP7iD3.js`
+- `.agents/skills/apple-design/references/hig/designing-for-games.md`
 
 ## Audit Trail
 

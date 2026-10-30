@@ -45,3 +45,11 @@ export function isValidPincode(pin) {
   if (!pin) return false;
   return /^[1-9][0-9]{5}$/.test(String(pin).trim());
 }
+
+export function isGstRequiredTreatment(treatment) {
+  if (!treatment) return false;
+  const t = String(treatment).trim().toLowerCase();
+  if (t.includes("unregistered") || t.includes("consumer")) return false;
+  return t.includes("registered") || t.includes("composition") || t.includes("composite");
+}
+

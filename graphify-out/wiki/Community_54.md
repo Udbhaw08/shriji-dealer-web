@@ -1,49 +1,57 @@
 # Community 54
 
-> 29 nodes · cohesion 0.09
+> 28 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **AppDelegate** (10 connections) — `ios/App/App/AppDelegate.swift`
-- **.application()** (7 connections) — `ios/App/App/AppDelegate.swift`
-- **.scene()** (7 connections) — `ios/App/App/SceneDelegate.swift`
-- **UIApplication** (6 connections) — `ios/App/App/AppDelegate.swift`
-- **SceneDelegate** (5 connections) — `ios/App/App/SceneDelegate.swift`
-- **AppDelegate.swift** (3 connections) — `ios/App/App/AppDelegate.swift`
-- **SceneDelegate.swift** (3 connections) — `ios/App/App/SceneDelegate.swift`
-- **.applicationDidBecomeActive()** (2 connections) — `ios/App/App/AppDelegate.swift`
-- **.applicationDidEnterBackground()** (2 connections) — `ios/App/App/AppDelegate.swift`
-- **.applicationWillEnterForeground()** (2 connections) — `ios/App/App/AppDelegate.swift`
-- **.applicationWillResignActive()** (2 connections) — `ios/App/App/AppDelegate.swift`
-- **.applicationWillTerminate()** (2 connections) — `ios/App/App/AppDelegate.swift`
-- **Capacitor** (2 connections) — `ios/App/App/SceneDelegate.swift`
-- **UIWindow** (2 connections) — `ios/App/App/SceneDelegate.swift`
-- **UIKit** (2 connections) — `ios/App/App/SceneDelegate.swift`
-- **UIResponder** (2 connections)
-- **Any** (1 connections) — `ios/App/App/AppDelegate.swift`
-- **Bool** (1 connections) — `ios/App/App/AppDelegate.swift`
-- **UIScene** (1 connections) — `ios/App/App/AppDelegate.swift`
-- **UISceneSession** (1 connections) — `ios/App/App/AppDelegate.swift`
-- **UIWindow** (1 connections) — `ios/App/App/AppDelegate.swift`
-- **UIScene** (1 connections) — `ios/App/App/SceneDelegate.swift`
-- **UISceneSession** (1 connections) — `ios/App/App/SceneDelegate.swift`
-- **NSUserActivity** (1 connections) — `ios/App/App/SceneDelegate.swift`
-- **Set** (1 connections) — `ios/App/App/SceneDelegate.swift`
-- *... and 4 more nodes in this community*
+- **content.js** (21 connections) — `backend/src/services/content.js`
+- **vite.config.js** (20 connections) — `vite.config.js`
+- **content.js** (17 connections) — `backend/src/routes/content.js`
+- **content.js** (15 connections) — `api/content.js`
+- **handler()** (12 connections) — `api/content.js`
+- **zohoApiPlugin()** (12 connections) — `vite.config.js`
+- **getSupabaseBanners()** (9 connections) — `backend/src/services/content.js`
+- **getSupabaseSchemes()** (8 connections) — `backend/src/services/content.js`
+- **getHeroSliderSettings()** (7 connections) — `backend/src/services/content.js`
+- **getSupabaseBranding()** (7 connections) — `backend/src/services/content.js`
+- **getActiveContent()** (6 connections) — `backend/src/services/content.js`
+- **saveHeroSliderSettings()** (5 connections) — `backend/src/services/content.js`
+- **deleteStoreContent()** (4 connections) — `backend/src/services/content.js`
+- **getAllStoreContent()** (4 connections) — `backend/src/services/content.js`
+- **toggleStoreContentActive()** (4 connections) — `backend/src/services/content.js`
+- **upsertStoreContent()** (4 connections) — `backend/src/services/content.js`
+- **getContentService()** (3 connections) — `api/content.js`
+- **getContentService()** (3 connections) — `api/settings.js`
+- **handler()** (3 connections) — `api/settings.js`
+- **fetchZohoBanners()** (3 connections) — `api/_lib/zoho.js`
+- **fetchZohoSchemes()** (3 connections) — `api/_lib/zoho.js`
+- **settings.js** (2 connections) — `api/settings.js`
+- **getBackendApp()** (2 connections) — `vite.config.js`
+- **loadContentService()** (2 connections) — `vite.config.js`
+- **ALLOWED_CONTENT_TYPES** (1 connections) — `api/content.js`
+- *... and 3 more nodes in this community*
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Dependencies & Package Config]] (14 shared connections)
+- [[Graphify Knowledge Graph Skill]] (13 shared connections)
+- [[Community 63]] (7 shared connections)
+- [[Roles & Customer Sharing Spec]] (5 shared connections)
+- [[Community 124]] (5 shared connections)
 
 ## Source Files
 
-- `ios/App/App/AppDelegate.swift`
-- `ios/App/App/SceneDelegate.swift`
+- `api/_lib/zoho.js`
+- `api/content.js`
+- `api/settings.js`
+- `backend/src/routes/content.js`
+- `backend/src/services/content.js`
+- `vite.config.js`
 
 ## Audit Trail
 
-- EXTRACTED: 72 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 174 (97%)
+- INFERRED: 6 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

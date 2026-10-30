@@ -1,36 +1,35 @@
 # Community 127
 
-> 15 nodes · cohesion 0.13
+> 14 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **repository** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **properties** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **revision** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **url** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **link_mode** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **provider** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **enum** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **enum** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **required** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **pattern** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **minLength** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **Augmented reality** (13 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
+- **augmented-reality.md** (1 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
+- **Communicating with people** (1 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
+- **Designing object interactions** (1 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
+- **Handling interruptions** (1 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
+- **Helping people place objects** (1 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
+- **Icons and badges** (1 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
+- **Offering a multiuser experience** (1 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
+- **Providing coaching** (1 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
+- **Reacting to real-world objects** (1 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
+- **Suggesting problem resolutions** (1 connections) — `.agents/skills/apple-design/references/hig/augmented-reality.md`
 
 ## Relationships
 
-- [[Community 89]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/architecture.schema.json`
+- `.agents/skills/apple-design/references/hig/augmented-reality.md`
 
 ## Audit Trail
 
-- EXTRACTED: 29 (100%)
+- EXTRACTED: 26 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

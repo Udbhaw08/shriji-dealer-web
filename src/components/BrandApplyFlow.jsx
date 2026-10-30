@@ -7,7 +7,7 @@ import {
   verifyDealerRegistrationOtp,
 } from "../data/auth";
 import { GST_TREATMENT_OPTIONS } from "../data/loginCode";
-import { isValidEmail, isValidPhone, isValidName, isValidGstin, isValidPincode } from "../data/validators";
+import { isValidEmail, isValidPhone, isValidName, isValidGstin, isValidPincode, isGstRequiredTreatment } from "../data/validators";
 import { Icon } from "../ui";
 import OtpDispatchFeedback from "./OtpDispatchFeedback";
 
@@ -236,7 +236,8 @@ export default function BrandApplyFlow({ onBack }) {
       errs.person_name = "Owner name should contain letters only (min 2 characters).";
     }
 
-    if (form.gst_treatment.includes("Registered")) {
+    const isGstRequired = isGstRequiredTreatment(form.gst_treatment);
+    if (isGstRequired) {
       const cleanGst = form.gst_number.trim().toUpperCase();
       if (!cleanGst) {
         errs.gst_number = "GSTIN is required for registered businesses.";
@@ -266,13 +267,15 @@ export default function BrandApplyFlow({ onBack }) {
     setSubmitLoading(true);
     try {
       const fullAddress = [form.address_line, form.city, form.pin].filter(Boolean).join(", ");
+      const isGstRequired = isGstRequiredTreatment(form.gst_treatment);
+      const cleanGst = isGstRequired && form.gst_number.trim() ? form.gst_number.toUpperCase().trim() : undefined;
       const payload = {
         business_name: form.business_name.trim(),
         person_name: form.person_name.trim() || undefined,
         phone: verifiedPhone.replace(/\D/g, "") || form.phone.replace(/\D/g, ""),
         email: verifiedEmail.trim().toLowerCase() || form.email.trim().toLowerCase(),
         gst_treatment: form.gst_treatment,
-        gst_number: form.gst_number.trim() ? form.gst_number.toUpperCase().trim() : undefined,
+        gst_number: cleanGst,
         address: fullAddress || undefined,
         address_line: form.address_line.trim() || undefined,
         city: form.city.trim() || undefined,
@@ -1034,7 +1037,16 @@ export default function BrandApplyFlow({ onBack }) {
               <select
                 id="flow-gst-treatment"
                 value={form.gst_treatment}
-                onChange={(e) => setForm((f) => ({ ...f, gst_treatment: e.target.value }))}
+                onChange={(e) => {
+                  const val = e.target.value;
+                  const isRequired = isGstRequiredTreatment(val);
+                  setForm((f) => ({
+                    ...f,
+                    gst_treatment: val,
+                    gst_number: isRequired ? f.gst_number : "",
+                  }));
+                  setFieldErrors((fe) => ({ ...fe, gst_number: null }));
+                }}
                 style={{
                   width: "100%",
                   height: 48,
@@ -1047,7 +1059,7 @@ export default function BrandApplyFlow({ onBack }) {
                   color: "var(--tx)",
                 }}
               >
-                {GST_TREATMENT_OPTIONS.map((opt) => (
+                {GST_TREATMENT_OPTIONS.slice(0, 4).map((opt) => (
                   <option key={opt.value} value={opt.value}>
                     {opt.label}
                   </option>
@@ -1055,40 +1067,61 @@ export default function BrandApplyFlow({ onBack }) {
               </select>
             </div>
 
-            {/* Field: GSTIN Number */}
-            <div>
-              <label htmlFor="flow-gst-number" style={{ display: "block", fontSize: "0.84rem", fontWeight: 700, color: "var(--tx)", marginBottom: 6 }}>
-                GSTIN {form.gst_treatment.includes("Registered") ? <span style={{ color: "var(--err)" }}>*</span> : "(Optional)"}
-              </label>
-              <input
-                id="flow-gst-number"
-                type="text"
-                placeholder="27AABCR1234D1Z5"
-                value={form.gst_number}
-                onChange={(e) => {
-                  setForm((f) => ({ ...f, gst_number: e.target.value.toUpperCase().trim() }));
-                  setFieldErrors((fe) => ({ ...fe, gst_number: null }));
-                }}
+            {/* Field: GSTIN Number — ONLY rendered when GST Treatment is Registered (Regular or Composition) */}
+            {isGstRequiredTreatment(form.gst_treatment) ? (
+              <div>
+                <label htmlFor="flow-gst-number" style={{ display: "block", fontSize: "0.84rem", fontWeight: 700, color: "var(--tx)", marginBottom: 6 }}>
+                  GSTIN <span style={{ color: "var(--err)" }}>*</span>
+                </label>
+                <input
+                  id="flow-gst-number"
+                  type="text"
+                  placeholder="27AABCR1234D1Z5"
+                  value={form.gst_number}
+                  onChange={(e) => {
+                    setForm((f) => ({ ...f, gst_number: e.target.value.toUpperCase().trim() }));
+                    setFieldErrors((fe) => ({ ...fe, gst_number: null }));
+                  }}
+                  style={{
+                    width: "100%",
+                    height: 48,
+                    borderRadius: "var(--r-sm, 10px)",
+                    border: fieldErrors.gst_number ? "1.5px solid var(--err)" : "1.5px solid var(--line)",
+                    padding: "0 14px",
+                    fontSize: "1rem",
+                    fontFamily: "monospace",
+                    letterSpacing: "0.06em",
+                    textTransform: "uppercase",
+                    fontWeight: 700,
+                    boxSizing: "border-box",
+                  }}
+                />
+                {fieldErrors.gst_number && (
+                  <span style={{ color: "var(--err)", fontSize: "0.8rem", marginTop: 4, display: "block" }}>
+                    {fieldErrors.gst_number}
+                  </span>
+                )}
+              </div>
+            ) : (
+              <div
                 style={{
-                  width: "100%",
-                  height: 48,
+                  display: "flex",
+                  alignItems: "center",
+                  gap: 10,
+                  padding: "12px 14px",
                   borderRadius: "var(--r-sm, 10px)",
-                  border: fieldErrors.gst_number ? "1.5px solid var(--err)" : "1.5px solid var(--line)",
-                  padding: "0 14px",
-                  fontSize: "1rem",
-                  fontFamily: "monospace",
-                  letterSpacing: "0.06em",
-                  textTransform: "uppercase",
-                  fontWeight: 700,
-                  boxSizing: "border-box",
+                  background: "rgba(16, 185, 129, 0.08)",
+                  border: "1px solid rgba(16, 185, 129, 0.25)",
+                  color: "#065f46",
+                  fontSize: "0.84rem",
+                  fontWeight: 600,
+                  lineHeight: 1.4,
                 }}
-              />
-              {fieldErrors.gst_number && (
-                <span style={{ color: "var(--err)", fontSize: "0.8rem", marginTop: 4, display: "block" }}>
-                  {fieldErrors.gst_number}
-                </span>
-              )}
-            </div>
+              >
+                <span style={{ fontSize: "1.05rem" }}>✓</span>
+                <span>GSTIN is not required for unregistered businesses or consumer accounts.</span>
+              </div>
+            )}
 
             {/* Step 2 Buttons */}
             <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 12, marginTop: 10 }}>
@@ -1214,7 +1247,7 @@ export default function BrandApplyFlow({ onBack }) {
                 Application Summary Check
               </div>
               <div>
-                <strong>Business:</strong> {form.business_name} {form.gst_number ? `(${form.gst_number})` : ""}
+                <strong>Business:</strong> {form.business_name} {isGstRequiredTreatment(form.gst_treatment) && form.gst_number ? `(${form.gst_number})` : `• ${form.gst_treatment}`}
               </div>
               <div style={{ display: "flex", gap: 14, flexWrap: "wrap" }}>
                 <span>✓ Phone: +91 {verifiedPhone}</span>

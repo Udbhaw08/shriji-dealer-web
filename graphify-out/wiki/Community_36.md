@@ -1,51 +1,68 @@
 # Community 36
 
-> 39 nodes · cohesion 0.07
+> 37 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **scenarios.mjs** (15 connections) — `.agents/skills/archify/recipes/scenarios.mjs`
-- **FakeElement** (12 connections) — `.agents/skills/archify/test/start-page.test.mjs`
-- **gallery.test.mjs** (9 connections) — `.agents/skills/archify/test/gallery.test.mjs`
-- **start-page.test.mjs** (8 connections) — `.agents/skills/archify/test/start-page.test.mjs`
-- **guide.test.mjs** (6 connections) — `.agents/skills/archify/test/guide.test.mjs`
-- **recommendScenario()** (4 connections) — `.agents/skills/archify/recipes/scenarios.mjs`
-- **SCENARIO_RECIPES** (4 connections) — `.agents/skills/archify/recipes/scenarios.mjs`
-- **detectGuideLanguage()** (3 connections) — `.agents/skills/archify/recipes/scenarios.mjs`
-- **listScenarioRecipes()** (3 connections) — `.agents/skills/archify/recipes/scenarios.mjs`
-- **formatScenarioList()** (2 connections) — `.agents/skills/archify/recipes/scenarios.mjs`
-- **localized()** (2 connections) — `.agents/skills/archify/recipes/scenarios.mjs`
-- **normalized()** (2 connections) — `.agents/skills/archify/recipes/scenarios.mjs`
-- **publicGuideData()** (2 connections) — `.agents/skills/archify/recipes/scenarios.mjs`
-- **scoreRecipe()** (2 connections) — `.agents/skills/archify/recipes/scenarios.mjs`
-- **startPromptsFor()** (2 connections) — `.agents/skills/archify/recipes/scenarios.mjs`
-- **formatScenarioRecommendation()** (1 connections) — `.agents/skills/archify/recipes/scenarios.mjs`
-- **RAW_RECIPES** (1 connections) — `.agents/skills/archify/recipes/scenarios.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/gallery.test.mjs`
-- **generatedRoot** (1 connections) — `.agents/skills/archify/test/gallery.test.mjs`
-- **normalize()** (1 connections) — `.agents/skills/archify/test/gallery.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/gallery.test.mjs`
-- **sha256()** (1 connections) — `.agents/skills/archify/test/gallery.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/gallery.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/gallery.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/start-page.test.mjs`
-- *... and 14 more nodes in this community*
+- **esc()** (31 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **escapeHtml()** (26 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **utils.mjs** (26 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
+- **i18n.mjs** (21 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **translateMessage()** (21 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **animateAttr()** (16 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- **renderBrandMark()** (14 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **renderNode()** (13 connections) — `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- **renderState()** (13 connections) — `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- **focusNodeAttrs()** (13 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- **renderSemanticSigil()** (13 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
+- **renderComponent()** (12 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **renderParticipant()** (12 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- **brandLabelFitWidth()** (12 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **brandMetadataFor()** (12 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **focusNodeTitle()** (12 connections) — `.agents/skills/archify/renderers/shared/cli.mjs`
+- **fittedNodeFontSize()** (12 connections) — `.agents/skills/archify/renderers/shared/text-fit.mjs`
+- **applyTemplate()** (9 connections) — `.agents/skills/archify/renderers/shared/utils.mjs`
+- **renderMessage()** (8 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- **brandMarkFor()** (7 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **resolveLocale()** (7 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **messageLabel()** (6 connections) — `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- **componentContext()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- **markAttrs()** (4 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **viewerCatalog()** (4 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- *... and 12 more nodes in this community*
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Zoho Backend & Proxy Endpoints]] (40 shared connections)
+- [[Community 30]] (27 shared connections)
+- [[Community 31]] (27 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (16 shared connections)
+- [[Community 80]] (12 shared connections)
+- [[Architecture Doc Generator]] (12 shared connections)
+- [[Project Readme & Layout]] (7 shared connections)
+- [[Community 122]] (5 shared connections)
+- [[Community 167]] (3 shared connections)
+- [[Community 50]] (2 shared connections)
+- [[Community 81]] (2 shared connections)
+- [[Community 285]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/recipes/scenarios.mjs`
-- `.agents/skills/archify/test/gallery.test.mjs`
-- `.agents/skills/archify/test/guide.test.mjs`
-- `.agents/skills/archify/test/start-page.test.mjs`
+- `.agents/skills/archify/delta/architecture-delta.mjs`
+- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
+- `.agents/skills/archify/renderers/dataflow/render-dataflow.mjs`
+- `.agents/skills/archify/renderers/lifecycle/render-lifecycle.mjs`
+- `.agents/skills/archify/renderers/sequence/render-sequence.mjs`
+- `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- `.agents/skills/archify/renderers/shared/cli.mjs`
+- `.agents/skills/archify/renderers/shared/i18n.mjs`
+- `.agents/skills/archify/renderers/shared/text-fit.mjs`
+- `.agents/skills/archify/renderers/shared/utils.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 100 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 312 (89%)
+- INFERRED: 38 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

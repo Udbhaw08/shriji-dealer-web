@@ -1,54 +1,54 @@
 # Design System & UI Tokens
 
-> 59 nodes · cohesion 0.07
+> 72 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **kr()** (25 connections) — `ios/App/App/public/assets/index-u94l9tSd.js`
-- **Nr()** (21 connections) — `ios/App/App/public/assets/index-u94l9tSd.js`
-- **gf()** (20 connections) — `ios/App/App/public/assets/index-u94l9tSd.js`
-- **Ti()** (14 connections) — `ios/App/App/public/assets/index-u94l9tSd.js`
-- **Ei()** (12 connections) — `ios/App/App/public/assets/index-u94l9tSd.js`
-- **gc()** (11 connections) — `ios/App/App/public/assets/index-u94l9tSd.js`
-- **jr()** (11 connections) — `ios/App/App/public/assets/index-u94l9tSd.js`
-- **af()** (10 connections) — `ios/App/App/public/assets/index-u94l9tSd.js`
-- **ii()** (10 connections) — `ios/App/App/public/assets/index-u94l9tSd.js`
-- **Si()** (10 connections) — `ios/App/App/public/assets/index-u94l9tSd.js`
-- **hr()** (8 connections) — `ios/App/App/public/assets/index-u94l9tSd.js`
-- **kc()** (8 connections) — `ios/App/App/public/assets/index-u94l9tSd.js`
-- **ki()** (8 connections) — `ios/App/App/public/assets/index-u94l9tSd.js`
-- **qr()** (8 connections) — `ios/App/App/public/assets/index-u94l9tSd.js`
-- **xr()** (8 connections) — `ios/App/App/public/assets/index-u94l9tSd.js`
-- **br()** (7 connections) — `ios/App/App/public/assets/index-u94l9tSd.js`
-- **Fr()** (7 connections) — `ios/App/App/public/assets/index-u94l9tSd.js`
-- **hn()** (7 connections) — `ios/App/App/public/assets/index-u94l9tSd.js`
-- **Oi()** (7 connections) — `ios/App/App/public/assets/index-u94l9tSd.js`
-- **Ai()** (6 connections) — `ios/App/App/public/assets/index-u94l9tSd.js`
-- **ci()** (6 connections) — `ios/App/App/public/assets/index-u94l9tSd.js`
-- **Ir()** (6 connections) — `ios/App/App/public/assets/index-u94l9tSd.js`
-- **mr()** (6 connections) — `ios/App/App/public/assets/index-u94l9tSd.js`
-- **qc()** (6 connections) — `ios/App/App/public/assets/index-u94l9tSd.js`
-- **Rr()** (6 connections) — `ios/App/App/public/assets/index-u94l9tSd.js`
-- *... and 34 more nodes in this community*
+- **n()** (40 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
+- **get()** (27 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
+- **D()** (23 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
+- **np()** (20 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
+- **.addEventListener()** (19 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
+- **b()** (17 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
+- **h()** (16 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
+- **ja()** (15 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
+- **bm()** (14 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
+- **fp()** (14 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
+- **kt()** (13 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
+- **Xt()** (13 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
+- **.removeEventListener()** (12 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
+- **ep()** (11 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
+- **ip()** (11 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
+- **am()** (10 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
+- **tp()** (10 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
+- **l()** (9 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
+- **mm()** (9 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
+- **cn()** (8 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
+- **dn()** (8 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
+- **om()** (8 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
+- **tm()** (8 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
+- **E()** (7 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
+- **g()** (7 connections) — `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
+- *... and 47 more nodes in this community*
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (63 shared connections)
-- [[Dependencies & Package Config]] (25 shared connections)
-- [[Claude Agent Instructions]] (11 shared connections)
-- [[Pricing & Roles Skill]] (9 shared connections)
-- [[Community 38]] (8 shared connections)
-- [[Community 45]] (5 shared connections)
-- [[Community 51]] (4 shared connections)
-- [[Community 41]] (2 shared connections)
+- [[Dealer Auth & Session Management]] (84 shared connections)
+- [[Product Pages Specification]] (35 shared connections)
+- [[Pricing Regression Test Suite]] (28 shared connections)
+- [[Community 38]] (23 shared connections)
+- [[Community 45]] (15 shared connections)
+- [[Community 37]] (12 shared connections)
+- [[Community 96]] (8 shared connections)
+- [[Community 95]] (6 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-u94l9tSd.js`
+- `android/app/src/main/assets/public/assets/index-Cd7u1Aqo.js`
 
 ## Audit Trail
 
-- EXTRACTED: 379 (100%)
+- EXTRACTED: 547 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

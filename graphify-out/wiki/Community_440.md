@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **Zoho CRM Webhook Event Payloads** (2 connections) — `docs/api/webhook-event-types.md`
-- **webhook-event-types.md** (1 connections) — `docs/api/webhook-event-types.md`
-- **Event: dealer.approved** (1 connections) — `docs/api/webhook-event-types.md`
+- **Portal Access Gate Specification** (2 connections) — `docs/architecture/portal-gate-specification.md`
+- **portal-gate-specification.md** (1 connections) — `docs/architecture/portal-gate-specification.md`
+- **Gating Mechanism** (1 connections) — `docs/architecture/portal-gate-specification.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/api/webhook-event-types.md`
+- `docs/architecture/portal-gate-specification.md`
 
 ## Audit Trail
 

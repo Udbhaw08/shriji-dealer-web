@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **A11yAnnouncer.jsx** (1 connections) — `src/components/A11yAnnouncer.jsx`
-- **A11yAnnouncer()** (1 connections) — `src/components/A11yAnnouncer.jsx`
+- **.mcp.json** (1 connections) — `.mcp.json`
+- **supabase** (1 connections) — `.mcp.json`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `src/components/A11yAnnouncer.jsx`
+- `.mcp.json`
 
 ## Audit Trail
 

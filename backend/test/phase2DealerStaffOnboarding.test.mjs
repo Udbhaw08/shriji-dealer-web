@@ -29,6 +29,7 @@ const db = {
   otpCodes: [],
   refreshTokens: [],
   auditLog: [],
+  dealerRegistrationFlows: [],
 };
 
 let nextId = 2000;
@@ -39,6 +40,7 @@ function resetDb() {
   db.otpCodes = [];
   db.refreshTokens = [];
   db.auditLog = [];
+  db.dealerRegistrationFlows = [];
   nextId = 2000;
 }
 
@@ -205,8 +207,8 @@ function mockSql(strings, ...values) {
         role: 'dealer_staff',
         status: 'pending',
         dealer_id: values[4],
-        email_verified: false,
-        phone_verified: false,
+        email_verified: true,
+        phone_verified: true,
         can_see_dealer_price: true,
         created_at: new Date(),
       };
@@ -228,6 +230,35 @@ function mockSql(strings, ...values) {
     }
     if (newUser) db.users.push(newUser);
     return Promise.resolve(newUser ? [newUser] : []);
+  }
+
+  // DEALER REGISTRATION FLOWS — SELECT
+  if (qLower.includes('from dealer_registration_flows')) {
+    let matches = [...(db.dealerRegistrationFlows || [])];
+    if (query.includes('where id =')) {
+      const id = values[0];
+      matches = matches.filter((f) => f.id === id);
+    }
+    if (query.includes('consumed_at is null')) {
+      matches = matches.filter((f) => !f.consumed_at);
+    }
+    if (query.includes('expires_at > now()')) {
+      matches = matches.filter((f) => new Date(f.expires_at) > new Date());
+    }
+    if (query.includes('limit 1')) {
+      return Promise.resolve(matches.slice(0, 1));
+    }
+    return Promise.resolve(matches);
+  }
+
+  // DEALER REGISTRATION FLOWS — UPDATE
+  if (qLower.includes('update dealer_registration_flows')) {
+    if (query.includes('set consumed_at = now()')) {
+      const id = values[0];
+      const flow = (db.dealerRegistrationFlows || []).find((f) => f.id === id && !f.consumed_at);
+      if (flow) flow.consumed_at = new Date();
+      return Promise.resolve(flow ? [flow] : []);
+    }
   }
 
   // UPDATE users
@@ -386,6 +417,69 @@ test('POST /api/dealers/apply rejects registered GST treatment without valid 15-
   assert.equal(res.status, 400);
   const data = await res.json();
   assert.match(data.error, /Please enter a valid 15-character GSTIN/);
+});
+
+test('POST /api/dealers/apply rejects composition GST treatment without valid 15-char GSTIN', async () => {
+  const user = { id: 'u1-comp', email: 'comp@example.com', email_verified: true, phone: '9876543210', phone_verified: true, role: 'customer', status: 'active' };
+  db.users.push(user);
+
+  const res = await fetch(`${baseUrl}/api/dealers/apply`, {
+    method: 'POST',
+    headers: authHeader(user),
+    body: JSON.stringify({
+      business_name: 'Shriji Composite Store',
+      gst_treatment: 'Registered Business - Composition',
+      gst_number: '',
+    }),
+  });
+  assert.equal(res.status, 400);
+  const data = await res.json();
+  assert.match(data.error, /Please enter a valid 15-character GSTIN/);
+});
+
+test('POST /api/dealers/apply allows Unregistered Business without GSTIN and sets gst_number to null', async () => {
+  const user = { id: 'u-unreg', email: 'unreg@example.com', email_verified: true, phone: '9876543210', phone_verified: true, role: 'customer', status: 'active' };
+  db.users.push(user);
+
+  const res = await fetch(`${baseUrl}/api/dealers/apply`, {
+    method: 'POST',
+    headers: authHeader(user),
+    body: JSON.stringify({
+      business_name: 'Shriji Local Mart',
+      gst_treatment: 'Unregistered Business',
+      gst_number: 'LEAKED_GST_NUMBER', // Should be purged/ignored for unregistered business
+    }),
+  });
+  assert.equal(res.status, 201);
+  const data = await res.json();
+  assert.equal(data.ok, true);
+
+  const created = db.dealers.find((d) => d.id === data.dealer_id);
+  assert.ok(created);
+  assert.equal(created.gst_treatment, 'Unregistered Business');
+  assert.equal(created.gst_number, null);
+});
+
+test('POST /api/dealers/apply allows Consumer without GSTIN', async () => {
+  const user = { id: 'u-consumer', email: 'consumer@example.com', email_verified: true, phone: '9876543210', phone_verified: true, role: 'customer', status: 'active' };
+  db.users.push(user);
+
+  const res = await fetch(`${baseUrl}/api/dealers/apply`, {
+    method: 'POST',
+    headers: authHeader(user),
+    body: JSON.stringify({
+      business_name: 'Individual Retailer',
+      gst_treatment: 'Consumer',
+    }),
+  });
+  assert.equal(res.status, 201);
+  const data = await res.json();
+  assert.equal(data.ok, true);
+
+  const created = db.dealers.find((d) => d.id === data.dealer_id);
+  assert.ok(created);
+  assert.equal(created.gst_treatment, 'Consumer');
+  assert.equal(created.gst_number, null);
 });
 
 test('POST /api/dealers/apply enforces email and phone verification gate', async () => {
@@ -561,7 +655,24 @@ test('POST /api/auth/staff/lookup-code matches active staff invite code', async 
   assert.equal(data.dealer_code, 'DE-PUN-9922');
 });
 
-test('POST /api/auth/staff/signup validates input and registers pending staff member', async () => {
+test('POST /api/auth/staff/signup rejects unverified registration without flowId and verificationToken with 400', async () => {
+  const res = await fetch(`${baseUrl}/api/auth/staff/signup`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      dealer_code: 'DE-MOD-5544',
+      email: 'unverified@example.com',
+      phone: '9822334455',
+      password: 'SecurePassword123!',
+      full_name: 'Anand Verma',
+    }),
+  });
+  assert.equal(res.status, 400);
+  const data = await res.json();
+  assert.match(data.error, /Two-channel verification .* required/);
+});
+
+test('POST /api/auth/staff/signup validates input and registers pending staff member after two-channel verification', async () => {
   const dealerId = 'dealer-reg-1';
   db.dealers.push({
     id: dealerId,
@@ -570,6 +681,30 @@ test('POST /api/auth/staff/signup validates input and registers pending staff me
     status: 'approved',
     staff_limit: 5,
     owner_user_id: 'owner-1',
+    zoho_account_id: 'acc-mod-1',
+  });
+  db.users.push({
+    id: 'owner-1',
+    full_name: 'Store Owner',
+    email: 'owner@modernstores.com',
+    role: 'dealer',
+    status: 'approved',
+    zoho_contact_id: 'cnt-owner-1',
+  });
+
+  const rawToken = 'test-verification-token-staff-12345';
+  const tokenHash = sha256(rawToken);
+  const flowId = 'flow-staff-verified-1';
+
+  db.dealerRegistrationFlows.push({
+    id: flowId,
+    phone: '9822334455',
+    phone_verified: true,
+    email: 'staff.member@modernstores.com',
+    email_verified: true,
+    verification_token_hash: tokenHash,
+    expires_at: new Date(Date.now() + 30 * 60_000),
+    consumed_at: null,
   });
 
   const res = await fetch(`${baseUrl}/api/auth/staff/signup`, {
@@ -581,6 +716,8 @@ test('POST /api/auth/staff/signup validates input and registers pending staff me
       phone: '9822334455',
       password: 'SecurePassword123!',
       full_name: 'Anand Verma',
+      flowId,
+      verificationToken: rawToken,
     }),
   });
 
@@ -596,8 +733,22 @@ test('POST /api/auth/staff/signup validates input and registers pending staff me
   assert.equal(createdStaff.role, 'dealer_staff');
   assert.equal(createdStaff.status, 'pending');
   assert.equal(createdStaff.dealer_id, dealerId);
-  assert.equal(createdStaff.phone, '+919822334455');
+  assert.equal(createdStaff.phone, '9822334455');
+  assert.equal(createdStaff.phone_verified, true);
+  assert.equal(createdStaff.email_verified, true);
   assert.equal(createdStaff.full_name, 'Anand Verma');
+
+  // Verify flow is marked consumed
+  const flow = db.dealerRegistrationFlows.find((f) => f.id === flowId);
+  assert.ok(flow.consumed_at);
+
+  // Verify Zoho CRM Contact created for staff
+  const staffContact = crmCalls.createdContacts.find((c) => c.email === 'staff.member@modernstores.com');
+  assert.ok(staffContact);
+  assert.equal(staffContact.portalRole, 'Staff');
+  assert.equal(staffContact.userSource, 'ReStor Dealer Staff');
+  assert.equal(staffContact.accountId, 'acc-mod-1');
+  assert.equal(staffContact.reportingToContactId, 'cnt-owner-1');
 });
 
 test('POST /api/auth/staff/signup rejects duplicate phone number with 409', async () => {
@@ -613,9 +764,22 @@ test('POST /api/auth/staff/signup rejects duplicate phone number with 409', asyn
   db.users.push({
     id: 'existing-phone-user',
     email: 'other@example.com',
-    phone: '+919988776655',
+    phone: '9988776655',
     role: 'customer',
     status: 'active',
+  });
+
+  const rawToken = 'test-token-dup-phone';
+  const flowId = 'flow-dup-phone';
+  db.dealerRegistrationFlows.push({
+    id: flowId,
+    phone: '9988776655',
+    phone_verified: true,
+    email: 'newstaff@apex.com',
+    email_verified: true,
+    verification_token_hash: sha256(rawToken),
+    expires_at: new Date(Date.now() + 30 * 60_000),
+    consumed_at: null,
   });
 
   const res = await fetch(`${baseUrl}/api/auth/staff/signup`, {
@@ -627,12 +791,14 @@ test('POST /api/auth/staff/signup rejects duplicate phone number with 409', asyn
       phone: '9988776655',
       password: 'Password123!',
       full_name: 'Vijay Kale',
+      flowId,
+      verificationToken: rawToken,
     }),
   });
 
   assert.equal(res.status, 409);
   const data = await res.json();
-  assert.match(data.error, /Phone number already registered to another account/);
+  assert.match(data.error, /An account with this phone number is already registered/);
 });
 
 // 3. Status Convergence & CRM Reconciliation

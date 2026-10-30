@@ -1,49 +1,40 @@
 # Community 90
 
-> 19 nodes · cohesion 0.20
+> 19 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **vite.config.js** (20 connections) — `vite.config.js`
-- **zohoApiPlugin()** (12 connections) — `vite.config.js`
-- **og.js** (7 connections) — `api/og.js`
-- **download.js** (6 connections) — `api/download.js`
-- **htmlEscape.js** (6 connections) — `api/_lib/htmlEscape.js`
-- **escapeHtml()** (6 connections) — `api/_lib/htmlEscape.js`
-- **sanitizeUrl()** (6 connections) — `api/_lib/htmlEscape.js`
-- **handler()** (5 connections) — `api/download.js`
-- **handler()** (5 connections) — `api/og.js`
-- **ssrf.js** (5 connections) — `api/_lib/ssrf.js`
-- **validateSafeDownloadUrl()** (5 connections) — `api/_lib/ssrf.js`
-- **sanitizeHost()** (4 connections) — `api/_lib/htmlEscape.js`
-- **safeFetchWithRedirects()** (3 connections) — `api/download.js`
-- **isPrivateOrReservedIp()** (3 connections) — `api/_lib/ssrf.js`
-- **wrapJpegInPdf()** (2 connections) — `api/download.js`
-- **getBackendApp()** (2 connections) — `vite.config.js`
-- **loadContentService()** (2 connections) — `vite.config.js`
-- **ALLOWED_REMOTE_HOSTS** (1 connections) — `api/_lib/ssrf.js`
-- **liveAutoSyncPlugin()** (1 connections) — `vite.config.js`
+- **The menu bar** (15 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
+- **Desktop (macOS)** (2 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
+- **the-menu-bar.md** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
+- **Anatomy** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
+- **App menu** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
+- **App-specific menus** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
+- **Dynamic menu items** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
+- **Edit menu** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
+- **File menu** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
+- **Format menu** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
+- **Help menu** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
+- **Menu bar extras** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
+- **Tablet (iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
+- **View menu** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
+- **Window menu** (1 connections) — `.agents/skills/apple-design/references/hig/the-menu-bar.md`
 
 ## Relationships
 
-- [[Community 72]] (8 shared connections)
-- [[Community 57]] (7 shared connections)
-- [[Community 164]] (6 shared connections)
-- [[Community 48]] (4 shared connections)
-- [[Product Pages Specification]] (4 shared connections)
-- [[Community 252]] (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `api/_lib/htmlEscape.js`
-- `api/_lib/ssrf.js`
-- `api/download.js`
-- `api/og.js`
-- `vite.config.js`
+- `.agents/skills/apple-design/references/hig/the-menu-bar.md`
 
 ## Audit Trail
 
-- EXTRACTED: 101 (100%)
+- EXTRACTED: 36 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

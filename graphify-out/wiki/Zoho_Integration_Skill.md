@@ -1,69 +1,48 @@
 # Zoho Integration Skill
 
-> 46 nodes · cohesion 0.09
+> 43 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **ui.jsx** (45 connections) — `src/ui.jsx`
-- **Home.jsx** (26 connections) — `src/pages/Home.jsx`
-- **site.js** (24 connections) — `src/data/site.js`
-- **Icon()** (20 connections) — `src/ui.jsx`
-- **Schemes.jsx** (17 connections) — `src/pages/Schemes.jsx`
-- **Support.jsx** (17 connections) — `src/pages/Support.jsx`
-- **COMPANY** (16 connections) — `src/data/site.js`
-- **HeroSlider.jsx** (12 connections) — `src/components/HeroSlider.jsx`
-- **api.js** (12 connections) — `src/data/api.js`
-- **ContentAdminDashboard.jsx** (12 connections) — `src/pages/ContentAdminDashboard.jsx`
-- **UnderMaintenance.jsx** (8 connections) — `src/components/UnderMaintenance.jsx`
-- **video.js** (6 connections) — `src/utils/video.js`
-- **UnderMaintenance()** (5 connections) — `src/components/UnderMaintenance.jsx`
-- **LegalPrivacy.jsx** (5 connections) — `src/pages/LegalPrivacy.jsx`
-- **LegalTerms.jsx** (5 connections) — `src/pages/LegalTerms.jsx`
-- **PrivacyPolicy.jsx** (5 connections) — `src/pages/PrivacyPolicy.jsx`
-- **TermsOfService.jsx** (5 connections) — `src/pages/TermsOfService.jsx`
-- **parseVideoUrl()** (5 connections) — `src/utils/video.js`
-- **FileOrUrlInput.jsx** (4 connections) — `src/components/FileOrUrlInput.jsx`
-- **EnquiryButtons()** (4 connections) — `src/ui.jsx`
-- **HeroSlider()** (3 connections) — `src/components/HeroSlider.jsx`
-- **SCHEMES** (3 connections) — `src/data/site.js`
-- **STATS** (3 connections) — `src/data/site.js`
-- **video-banner.test.mjs** (3 connections) — `src/data/video-banner.test.mjs`
-- **FileOrUrlInput()** (2 connections) — `src/components/FileOrUrlInput.jsx`
-- *... and 21 more nodes in this community*
+- **Craft Details Guide** (11 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **2. Forms** (10 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **6. Accessibility Quick Wins** (6 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **4. Touch & Mobile** (5 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **5. Performance Patterns** (5 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **1. Focus States** (4 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **3. Images** (4 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **7. Navigation & State** (4 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **craft-details.md** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **8. Content Copy Rules** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **9. Anti-Patterns Checklist** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **Always Set Dimensions** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **Async Updates Need Announcements** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **Autocomplete Matters** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **AutoFocus Rules** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **Avoid Layout Reads in Render** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **Compound Controls: `:focus-within`** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **Destructive Actions Need Confirmation** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **Disable Spellcheck Where Appropriate** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **Error Handling** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **Heading Hierarchy** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **In React/Next.js** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **Input Types and Attributes** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **Keyboard Handlers** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- **Labels and Hit Targets** (1 connections) — `.agents/skills/refero-design/references/craft-details.md`
+- *... and 18 more nodes in this community*
 
 ## Relationships
 
-- [[Community 53]] (39 shared connections)
-- [[Community 32]] (28 shared connections)
-- [[Mobile Responsive UI Skill]] (16 shared connections)
-- [[Community 44]] (11 shared connections)
-- [[Testing & Workflow Skill]] (9 shared connections)
-- [[Community 170]] (5 shared connections)
-- [[Community 169]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `src/components/FileOrUrlInput.jsx`
-- `src/components/HeroSlider.jsx`
-- `src/components/UnderMaintenance.jsx`
-- `src/data/api.js`
-- `src/data/site.js`
-- `src/data/video-banner.test.mjs`
-- `src/pages/ContentAdminDashboard.jsx`
-- `src/pages/Home.jsx`
-- `src/pages/LegalPrivacy.jsx`
-- `src/pages/LegalTerms.jsx`
-- `src/pages/PrivacyPolicy.jsx`
-- `src/pages/Schemes.jsx`
-- `src/pages/Support.jsx`
-- `src/pages/TermsOfService.jsx`
-- `src/ui.jsx`
-- `src/utils/video.js`
+- `.agents/skills/refero-design/references/craft-details.md`
 
 ## Audit Trail
 
-- EXTRACTED: 298 (100%)
-- INFERRED: 1 (0%)
+- EXTRACTED: 84 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

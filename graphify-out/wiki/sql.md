@@ -1,8 +1,8 @@
 # sql
 
-> God node · 82 connections · `backend/src/db/pool.js`
+> God node · 80 connections · `backend/src/db/pool.js`
 
-**Community:** [[Live Pricing Audit Tool]]
+**Community:** [[Graphify Knowledge Graph Skill]]
 
 ## Connections by Relation
 
@@ -13,9 +13,9 @@
 - [[generateUniqueDealerCode()]] `INFERRED`
 - [[getDealerPricingEligibility()]] `EXTRACTED`
 - [[issueSession()]] `EXTRACTED`
+- [[applyDealer()]] `EXTRACTED`
 - [[syncCatalog()]] `EXTRACTED`
 - [[getHeroSliderSettings()]] `EXTRACTED`
-- [[applyDealer()]] `EXTRACTED`
 - [[verifyDealerRegistrationOtp()]] `EXTRACTED`
 - [[getActiveContent()]] `EXTRACTED`
 - [[provisionDealerInCrm()]] `EXTRACTED`

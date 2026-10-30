@@ -1,60 +1,47 @@
 # Community 44
 
-> 35 nodes · cohesion 0.11
+> 34 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **Products.jsx** (28 connections) — `src/pages/Products.jsx`
-- **productsStore.js** (25 connections) — `src/data/productsStore.js`
-- **ProductSearchBar.jsx** (15 connections) — `src/components/ProductSearchBar.jsx`
-- **useProducts()** (12 connections) — `src/data/productsStore.js`
-- **searchHelper.js** (11 connections) — `src/data/searchHelper.js`
-- **fetchLiveProducts()** (7 connections) — `src/data/productsStore.js`
-- **syncPricebookWithSession()** (7 connections) — `src/data/productsStore.js`
-- **ProductSearchBar()** (6 connections) — `src/components/ProductSearchBar.jsx`
-- **products.js** (5 connections) — `src/data/products.js`
-- **getSuggestions()** (5 connections) — `src/data/searchHelper.js`
-- **getAccessToken()** (4 connections) — `src/data/auth.js`
-- **filters.test.mjs** (4 connections) — `src/data/filters.test.mjs`
-- **filtersHelper.js** (4 connections) — `src/data/filtersHelper.js`
-- **loadCached()** (4 connections) — `src/data/productsStore.js`
-- **autocorrectQuery()** (4 connections) — `src/data/searchHelper.js`
-- **buildSearchDictionary()** (4 connections) — `src/data/searchHelper.js`
-- **getProductMotorType()** (3 connections) — `src/data/filtersHelper.js`
-- **getProductSize()** (3 connections) — `src/data/filtersHelper.js`
-- **emit()** (3 connections) — `src/data/productsStore.js`
-- **syncTagsLive()** (3 connections) — `src/data/productsStore.js`
-- **CATEGORIES** (2 connections) — `src/data/products.js`
-- **getCacheKey()** (2 connections) — `src/data/productsStore.js`
-- **sanitizeCategories()** (2 connections) — `src/data/productsStore.js`
-- **useProduct()** (2 connections) — `src/data/productsStore.js`
-- **getPopularSearches()** (2 connections) — `src/data/searchHelper.js`
-- *... and 10 more nodes in this community*
+- **Typography** (10 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **iOS, iPadOS Dynamic Type sizes** (8 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **iOS, iPadOS larger accessibility type sizes** (6 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **Specifications** (5 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **iOS, iPadOS, visionOS tracking values** (4 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **Tracking values** (3 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **typography.md** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **AX1** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **AX2** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **AX3** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **AX4** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **AX5** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **Conveying hierarchy** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **Ensuring legibility** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **Large (default)** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **macOS built-in text styles** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **macOS tracking values** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **Medium** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **New York** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- **SF Pro** (1 connections) — `.agents/skills/apple-design/references/hig/typography.md`
+- *... and 9 more nodes in this community*
 
 ## Relationships
 
-- [[Community 32]] (19 shared connections)
-- [[Zoho Integration Skill]] (11 shared connections)
-- [[Community 53]] (7 shared connections)
-- [[Mobile Responsive UI Skill]] (7 shared connections)
-- [[Testing & Workflow Skill]] (5 shared connections)
-- [[Community 170]] (2 shared connections)
-- [[Community 169]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `src/components/ProductSearchBar.jsx`
-- `src/data/auth.js`
-- `src/data/filters.test.mjs`
-- `src/data/filtersHelper.js`
-- `src/data/products.js`
-- `src/data/productsStore.js`
-- `src/data/searchHelper.js`
-- `src/pages/Products.jsx`
+- `.agents/skills/apple-design/references/hig/typography.md`
 
 ## Audit Trail
 
-- EXTRACTED: 178 (100%)
+- EXTRACTED: 66 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

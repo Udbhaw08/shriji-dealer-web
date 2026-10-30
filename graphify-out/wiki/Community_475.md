@@ -4,17 +4,17 @@
 
 ## Key Concepts
 
-- **stage** (3 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **minimum** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/dataflow.schema.json`
+- **title** (3 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **minLength** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/sequence.schema.json`
 
 ## Relationships
 
-- [[Graphify Agent Rules]] (1 shared connections)
+- [[Community 69]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/dataflow.schema.json`
+- `.agents/skills/archify/schemas/sequence.schema.json`
 
 ## Audit Trail
 

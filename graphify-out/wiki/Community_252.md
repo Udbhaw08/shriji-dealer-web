@@ -1,33 +1,29 @@
 # Community 252
 
-> 8 nodes · cohesion 0.32
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **createDealerContact()** (9 connections) — `api/_lib/zoho.js`
-- **getAccessToken()** (6 connections) — `api/_lib/zoho.js`
-- **loadEnv()** (5 connections) — `api/_lib/zoho.js`
-- **test-zoho-api.mjs** (4 connections) — `scripts/test-zoho-api.mjs`
-- **apply.js** (3 connections) — `api/dealer/apply.js`
-- **handler()** (2 connections) — `api/dealer/apply.js`
-- **readDiskCache()** (2 connections) — `api/_lib/zoho.js`
-- **{ dc, orgId }** (1 connections) — `scripts/test-zoho-api.mjs`
+- **Gauges** (6 connections) — `.agents/skills/apple-design/references/hig/gauges.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/gauges.md`
+- **gauges.md** (1 connections) — `.agents/skills/apple-design/references/hig/gauges.md`
+- **Anatomy** (1 connections) — `.agents/skills/apple-design/references/hig/gauges.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/gauges.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/gauges.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/gauges.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/gauges.md`
 
 ## Relationships
 
-- [[Community 48]] (6 shared connections)
-- [[Community 57]] (6 shared connections)
-- [[Community 90]] (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `api/_lib/zoho.js`
-- `api/dealer/apply.js`
-- `scripts/test-zoho-api.mjs`
+- `.agents/skills/apple-design/references/hig/gauges.md`
 
 ## Audit Trail
 
-- EXTRACTED: 32 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

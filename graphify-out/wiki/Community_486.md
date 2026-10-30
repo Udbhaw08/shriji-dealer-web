@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **Content Security Policy (CSP) Directives** (2 connections) — `docs/security/content-security-policy.md`
-- **content-security-policy.md** (1 connections) — `docs/security/content-security-policy.md`
-- **Directives** (1 connections) — `docs/security/content-security-policy.md`
+- **crmUserSourceContactSync.test.mjs** (2 connections) — `backend/test/crmUserSourceContactSync.test.mjs`
+- **crmCalls** (1 connections) — `backend/test/crmUserSourceContactSync.test.mjs`
+- **mockContactsUnderAccount** (1 connections) — `backend/test/crmUserSourceContactSync.test.mjs`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/security/content-security-policy.md`
+- `backend/test/crmUserSourceContactSync.test.mjs`
 
 ## Audit Trail
 

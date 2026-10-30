@@ -1,16 +1,15 @@
 # Community 340
 
-> 7 nodes · cohesion 0.29
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **semantic-zoom.test.mjs** (6 connections) — `.agents/skills/archify/test/semantic-zoom.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/semantic-zoom.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/semantic-zoom.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/semantic-zoom.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/semantic-zoom.test.mjs`
-- **svg()** (1 connections) — `.agents/skills/archify/test/semantic-zoom.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/semantic-zoom.test.mjs`
+- **Action sheets** (4 connections) — `.agents/skills/apple-design/references/hig/action-sheets.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/action-sheets.md`
+- **action-sheets.md** (1 connections) — `.agents/skills/apple-design/references/hig/action-sheets.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/action-sheets.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/action-sheets.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/action-sheets.md`
 
 ## Relationships
 
@@ -18,11 +17,11 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/semantic-zoom.test.mjs`
+- `.agents/skills/apple-design/references/hig/action-sheets.md`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
+- EXTRACTED: 10 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

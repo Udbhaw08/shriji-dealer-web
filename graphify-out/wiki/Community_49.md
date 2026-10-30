@@ -1,47 +1,53 @@
 # Community 49
 
-> 33 nodes · cohesion 0.06
+> 32 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **scripts** (15 connections) — `.agents/skills/archify/package.json`
-- **package.json** (11 connections) — `.agents/skills/archify/package.json`
-- **devDependencies** (5 connections) — `.agents/skills/archify/package.json`
-- **bin** (2 connections) — `.agents/skills/archify/package.json`
-- **engines** (2 connections) — `.agents/skills/archify/package.json`
-- **overrides** (2 connections) — `.agents/skills/archify/package.json`
-- **archify** (1 connections) — `.agents/skills/archify/package.json`
-- **description** (1 connections) — `.agents/skills/archify/package.json`
-- **ajv** (1 connections) — `.agents/skills/archify/package.json`
-- **parse5** (1 connections) — `.agents/skills/archify/package.json`
-- **saxes** (1 connections) — `.agents/skills/archify/package.json`
-- **simple-icons** (1 connections) — `.agents/skills/archify/package.json`
-- **node** (1 connections) — `.agents/skills/archify/package.json`
-- **license** (1 connections) — `.agents/skills/archify/package.json`
-- **name** (1 connections) — `.agents/skills/archify/package.json`
-- **fast-uri** (1 connections) — `.agents/skills/archify/package.json`
-- **private** (1 connections) — `.agents/skills/archify/package.json`
-- **build:gallery** (1 connections) — `.agents/skills/archify/package.json`
-- **build:guide** (1 connections) — `.agents/skills/archify/package.json`
-- **build:readme-showcase** (1 connections) — `.agents/skills/archify/package.json`
-- **build:start** (1 connections) — `.agents/skills/archify/package.json`
-- **check:brand-marks** (1 connections) — `.agents/skills/archify/package.json`
-- **check:release-identity** (1 connections) — `.agents/skills/archify/package.json`
-- **check:validators** (1 connections) — `.agents/skills/archify/package.json`
-- **check:viewer** (1 connections) — `.agents/skills/archify/package.json`
-- *... and 8 more nodes in this community*
+- **crmClient.js** (39 connections) — `backend/src/services/crmClient.js`
+- **normalizePhone()** (21 connections) — `backend/src/utils/phone.js`
+- **crmFetch()** (15 connections) — `backend/src/services/crmClient.js`
+- **reset-test-users.js** (11 connections) — `backend/scripts/reset-test-users.js`
+- **crmConfigured()** (9 connections) — `backend/src/services/crmClient.js`
+- **phone.js** (8 connections) — `backend/src/utils/phone.js`
+- **createDealerAccount()** (6 connections) — `backend/src/services/crmClient.js`
+- **createDealerContact()** (6 connections) — `backend/src/services/crmClient.js`
+- **interconnection.test.mjs** (6 connections) — `backend/test/interconnection.test.mjs`
+- **runReset()** (5 connections) — `backend/scripts/reset-test-users.js`
+- **findOwnerContactInAccount()** (5 connections) — `backend/src/services/crmClient.js`
+- **normalizeUserSource()** (5 connections) — `backend/src/services/crmClient.js`
+- **updateContactDetails()** (5 connections) — `backend/src/services/crmClient.js`
+- **updateDealerCodeInCrm()** (5 connections) — `backend/src/services/crmClient.js`
+- **resolveContactNames()** (4 connections) — `backend/src/services/crmClient.js`
+- **syncAccountUserSourceToContacts()** (4 connections) — `backend/src/services/crmClient.js`
+- **deactivateAccountInCrm()** (3 connections) — `backend/src/services/crmClient.js`
+- **deactivateContactInCrm()** (3 connections) — `backend/src/services/crmClient.js`
+- **getDealerAccount()** (3 connections) — `backend/src/services/crmClient.js`
+- **isCrmConfigured()** (3 connections) — `backend/src/services/crmClient.js`
+- **linkContactToBackendUser()** (3 connections) — `backend/src/services/crmClient.js`
+- **deleteCrmRecords()** (2 connections) — `backend/scripts/reset-test-users.js`
+- **searchCrmRecordIds()** (2 connections) — `backend/scripts/reset-test-users.js`
+- **getAccessToken()** (2 connections) — `backend/src/services/crmClient.js`
+- **getDealerContact()** (2 connections) — `backend/src/services/crmClient.js`
+- *... and 7 more nodes in this community*
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 41]] (27 shared connections)
+- [[Graphify Knowledge Graph Skill]] (7 shared connections)
+- [[Roles & Customer Sharing Spec]] (6 shared connections)
+- [[Community 43]] (3 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/package.json`
+- `backend/scripts/reset-test-users.js`
+- `backend/src/services/crmClient.js`
+- `backend/src/utils/phone.js`
+- `backend/test/interconnection.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 64 (100%)
+- EXTRACTED: 185 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

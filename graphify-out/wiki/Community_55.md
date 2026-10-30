@@ -1,47 +1,57 @@
 # Community 55
 
-> 29 nodes · cohesion 0.07
+> 28 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **Live Activities** (8 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Anatomy** (6 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Best practices** (6 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Presentation** (6 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Specifications** (5 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **live-activities.md** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Adding transitions and animating content updates** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **CarPlay** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **CarPlay dimensions** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Choosing colors** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Compact** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Compact presentation** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Creating Live Activity layouts** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Expanded** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Expanded presentation** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **iOS dimensions** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **iPadOS dimensions** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Lock Screen** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Lock Screen presentation** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **macOS dimensions** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Minimal** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- **Minimal presentation** (1 connections) — `.agents/skills/apple-design/references/hig/live-activities.md`
-- *... and 4 more nodes in this community*
+- **Products.jsx** (28 connections) — `src/pages/Products.jsx`
+- **i18n.js** (25 connections) — `src/data/i18n.js`
+- **ProductSearchBar.jsx** (15 connections) — `src/components/ProductSearchBar.jsx`
+- **searchHelper.js** (11 connections) — `src/data/searchHelper.js`
+- **getSuggestions()** (5 connections) — `src/data/searchHelper.js`
+- **filters.test.mjs** (4 connections) — `src/data/filters.test.mjs`
+- **filtersHelper.js** (4 connections) — `src/data/filtersHelper.js`
+- **autocorrectQuery()** (4 connections) — `src/data/searchHelper.js`
+- **buildSearchDictionary()** (4 connections) — `src/data/searchHelper.js`
+- **getProductMotorType()** (3 connections) — `src/data/filtersHelper.js`
+- **getProductSize()** (3 connections) — `src/data/filtersHelper.js`
+- **setLanguage()** (3 connections) — `src/data/i18n.js`
+- **tCat()** (3 connections) — `src/data/i18n.js`
+- **emit()** (2 connections) — `src/data/i18n.js`
+- **toggleLanguage()** (2 connections) — `src/data/i18n.js`
+- **getPopularSearches()** (2 connections) — `src/data/searchHelper.js`
+- **scoreProduct()** (2 connections) — `src/data/searchHelper.js`
+- **translations.js** (2 connections) — `src/data/translations.js`
+- **TRANSLATIONS** (2 connections) — `src/data/translations.js`
+- **cacheData** (1 connections) — `src/data/filters.test.mjs`
+- **currentLang** (1 connections) — `src/data/i18n.js`
+- **getInitialLang()** (1 connections) — `src/data/i18n.js`
+- **getLanguage()** (1 connections) — `src/data/i18n.js`
+- **listeners** (1 connections) — `src/data/i18n.js`
+- **COLLOQUIAL_SYNONYMS** (1 connections) — `src/data/searchHelper.js`
+- *... and 3 more nodes in this community*
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Zoho Integration Architecture]] (22 shared connections)
+- [[Zoho API Diagnostic Script]] (14 shared connections)
+- [[Pricing & Roles Skill]] (4 shared connections)
+- [[Community 87]] (2 shared connections)
+- [[Community 166]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/live-activities.md`
+- `src/components/ProductSearchBar.jsx`
+- `src/data/filters.test.mjs`
+- `src/data/filtersHelper.js`
+- `src/data/i18n.js`
+- `src/data/searchHelper.js`
+- `src/data/translations.js`
+- `src/pages/Products.jsx`
 
 ## Audit Trail
 
-- EXTRACTED: 56 (100%)
+- EXTRACTED: 133 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

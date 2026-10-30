@@ -1,60 +1,74 @@
 # Roles & Customer Sharing Spec
 
-> 51 nodes · cohesion 0.06
+> 55 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **render-architecture.mjs** (122 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **renderLegend()** (7 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **grid.mjs** (6 connections) — `.agents/skills/archify/renderers/architecture/grid.mjs`
-- **alignFacingPorts()** (6 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **buildLayoutReport()** (6 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **layoutBoundaryTitles()** (5 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **sideAwareBridgeCandidates()** (5 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **relationshipLegendObstacles()** (5 connections) — `.agents/skills/archify/renderers/shared/legend.mjs`
-- **resolveComponentPos()** (4 connections) — `.agents/skills/archify/renderers/architecture/grid.mjs`
-- **validateGridPlacement()** (4 connections) — `.agents/skills/archify/renderers/architecture/grid.mjs`
-- **boundaryLabelWidth()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **measureBoundaryTitle()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **resolveBoundaryTitles()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **routeClearsComponents()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **routeClearsEndpointComponents()** (4 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **minimumReadableSourceTextPx()** (4 connections) — `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
-- **layout-report.mjs** (4 connections) — `.agents/skills/archify/renderers/shared/layout-report.mjs`
-- **grid.test.mjs** (4 connections) — `.agents/skills/archify/test/grid.test.mjs`
-- **gridLayout()** (3 connections) — `.agents/skills/archify/renderers/architecture/grid.mjs`
-- **autoViewBoxFor()** (3 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **expandBoundaryForReadableTitle()** (3 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **resolvedViewBoxWidth()** (3 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **connectionPath()** (3 connections) — `.agents/skills/archify/renderers/shared/layout-report.mjs`
-- **connectionEndpointSide()** (2 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- **legendY()** (2 connections) — `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- *... and 26 more nodes in this community*
+- **server.js** (36 connections) — `backend/src/server.js`
+- **app.js** (30 connections) — `backend/src/app.js`
+- **compatibilitySuite.test.mjs** (20 connections) — `backend/test/compatibilitySuite.test.mjs`
+- **env** (15 connections) — `backend/src/config/env.js`
+- **webhooks.js** (15 connections) — `backend/src/routes/webhooks.js`
+- **logger.js** (14 connections) — `backend/src/utils/logger.js`
+- **log** (13 connections) — `backend/src/utils/logger.js`
+- **upload.js** (12 connections) — `backend/src/routes/upload.js`
+- **errorHandler.js** (10 connections) — `backend/src/middleware/errorHandler.js`
+- **rateLimit.js** (10 connections) — `backend/src/middleware/rateLimit.js`
+- **rateLimit()** (9 connections) — `backend/src/middleware/rateLimit.js`
+- **admin.js** (9 connections) — `backend/src/routes/admin.js`
+- **health.js** (9 connections) — `backend/src/routes/health.js`
+- **uploads.js** (9 connections) — `backend/src/routes/uploads.js`
+- **securityPhase3.test.mjs** (9 connections) — `backend/test/securityPhase3.test.mjs`
+- **prices.js** (7 connections) — `backend/src/routes/prices.js`
+- **migrate.js** (6 connections) — `backend/src/db/migrate.js`
+- **contentRouter** (5 connections) — `backend/src/routes/content.js`
+- **uploadRouter** (5 connections) — `backend/src/routes/upload.js`
+- **uploadsRouter** (5 connections) — `backend/src/routes/uploads.js`
+- **migrate()** (4 connections) — `backend/src/db/migrate.js`
+- **errorHandler()** (4 connections) — `backend/src/middleware/errorHandler.js`
+- **adminRouter** (4 connections) — `backend/src/routes/admin.js`
+- **app** (4 connections) — `backend/src/app.js`
+- **rateLimitFix.test.mjs** (4 connections) — `backend/test/rateLimitFix.test.mjs`
+- *... and 30 more nodes in this community*
 
 ## Relationships
 
-- [[Zoho Backend & Proxy Endpoints]] (35 shared connections)
-- [[Graphify Knowledge Graph Skill]] (21 shared connections)
-- [[Community 40]] (19 shared connections)
-- [[Community 43]] (14 shared connections)
-- [[Zoho Integration Architecture]] (5 shared connections)
-- [[Community 109]] (4 shared connections)
-- [[Community 52]] (3 shared connections)
-- [[Graphify Workflow]] (1 shared connections)
-- [[Community 83]] (1 shared connections)
+- [[Graphify Knowledge Graph Skill]] (33 shared connections)
+- [[Community 43]] (24 shared connections)
+- [[Community 41]] (19 shared connections)
+- [[Community 63]] (7 shared connections)
+- [[Community 49]] (6 shared connections)
+- [[Community 54]] (5 shared connections)
+- [[Community 124]] (4 shared connections)
+- [[Live Pricing Audit Tool]] (2 shared connections)
+- [[Dependencies & Package Config]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/architecture/grid.mjs`
-- `.agents/skills/archify/renderers/architecture/render-architecture.mjs`
-- `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
-- `.agents/skills/archify/renderers/shared/layout-report.mjs`
-- `.agents/skills/archify/renderers/shared/legend.mjs`
-- `.agents/skills/archify/test/grid.test.mjs`
+- `api/auth/[...path].js`
+- `api/dealers/[...path].js`
+- `backend/src/app.js`
+- `backend/src/config/env.js`
+- `backend/src/db/migrate.js`
+- `backend/src/jobs/index.js`
+- `backend/src/middleware/errorHandler.js`
+- `backend/src/middleware/rateLimit.js`
+- `backend/src/routes/admin.js`
+- `backend/src/routes/auth.js`
+- `backend/src/routes/content.js`
+- `backend/src/routes/dealers.js`
+- `backend/src/routes/health.js`
+- `backend/src/routes/prices.js`
+- `backend/src/routes/upload.js`
+- `backend/src/routes/uploads.js`
+- `backend/src/routes/webhooks.js`
+- `backend/src/server.js`
+- `backend/src/utils/logger.js`
+- `backend/test/compatibilitySuite.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 253 (100%)
+- EXTRACTED: 319 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

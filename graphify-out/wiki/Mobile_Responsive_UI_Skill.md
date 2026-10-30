@@ -1,66 +1,47 @@
 # Mobile Responsive UI Skill
 
-> 47 nodes · cohesion 0.11
+> 45 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **session.js** (54 connections) — `src/data/session.js`
-- **Login.jsx** (45 connections) — `src/pages/Login.jsx`
-- **DealerApply.jsx** (26 connections) — `src/pages/DealerApply.jsx`
-- **BrandApplyFlow.jsx** (23 connections) — `src/components/BrandApplyFlow.jsx`
-- **StaffDashboard.jsx** (16 connections) — `src/pages/StaffDashboard.jsx`
-- **revalidateSession()** (14 connections) — `src/data/session.js`
-- **StaffJoin.jsx** (14 connections) — `src/pages/StaffJoin.jsx`
-- **EmailVerificationPrompt.jsx** (12 connections) — `src/components/EmailVerificationPrompt.jsx`
-- **PhoneVerificationPrompt.jsx** (12 connections) — `src/components/PhoneVerificationPrompt.jsx`
-- **validators.js** (12 connections) — `src/data/validators.js`
-- **loginCode.js** (11 connections) — `src/data/loginCode.js`
-- **setSession()** (11 connections) — `src/data/session.js`
-- **apiUrl()** (9 connections) — `src/data/api.js`
-- **hasSession()** (8 connections) — `src/data/auth.js`
-- **signOut()** (8 connections) — `src/data/session.js`
-- **registerDealer()** (7 connections) — `src/data/dealer.js`
-- **isValidEmail()** (7 connections) — `src/data/validators.js`
-- **applyAsDealer()** (6 connections) — `src/data/auth.js`
-- **formatLoginCode()** (6 connections) — `src/data/loginCode.js`
-- **isValidName()** (6 connections) — `src/data/validators.js`
-- **isValidPhone()** (6 connections) — `src/data/validators.js`
-- **OtpDispatchFeedback.jsx** (5 connections) — `src/components/OtpDispatchFeedback.jsx`
-- **OtpDispatchFeedback()** (5 connections) — `src/components/OtpDispatchFeedback.jsx`
-- **switchToDealerSession()** (5 connections) — `src/data/session.js`
-- **BrandApplyFlow()** (4 connections) — `src/components/BrandApplyFlow.jsx`
-- *... and 22 more nodes in this community*
+- **scripts** (18 connections) — `package.json`
+- **dependencies** (16 connections) — `package.json`
+- **package.json** (7 connections) — `package.json`
+- **devDependencies** (6 connections) — `package.json`
+- **@capacitor/android** (1 connections) — `package.json`
+- **@capacitor/app** (1 connections) — `package.json`
+- **@capacitor/cli** (1 connections) — `package.json`
+- **@capacitor/core** (1 connections) — `package.json`
+- **@capacitor/ios** (1 connections) — `package.json`
+- **@capacitor/preferences** (1 connections) — `package.json`
+- **dotenv** (1 connections) — `package.json`
+- **express** (1 connections) — `package.json`
+- **google-auth-library** (1 connections) — `package.json`
+- **jsonwebtoken** (1 connections) — `package.json`
+- **postgres** (1 connections) — `package.json`
+- **react** (1 connections) — `package.json`
+- **react-dom** (1 connections) — `package.json`
+- **react-router-dom** (1 connections) — `package.json`
+- **resend** (1 connections) — `package.json`
+- **oxlint** (1 connections) — `package.json`
+- **@types/react** (1 connections) — `package.json`
+- **@types/react-dom** (1 connections) — `package.json`
+- **vite** (1 connections) — `package.json`
+- **@vitejs/plugin-react** (1 connections) — `package.json`
+- **name** (1 connections) — `package.json`
+- *... and 20 more nodes in this community*
 
 ## Relationships
 
-- [[Testing & Workflow Skill]] (60 shared connections)
-- [[Community 53]] (32 shared connections)
-- [[Zoho Integration Skill]] (16 shared connections)
-- [[Community 32]] (13 shared connections)
-- [[Community 44]] (7 shared connections)
-- [[Community 170]] (1 shared connections)
-- [[Community 169]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `src/components/BrandApplyFlow.jsx`
-- `src/components/EmailVerificationPrompt.jsx`
-- `src/components/OtpDispatchFeedback.jsx`
-- `src/components/PhoneVerificationPrompt.jsx`
-- `src/data/api.js`
-- `src/data/auth.js`
-- `src/data/dealer.js`
-- `src/data/loginCode.js`
-- `src/data/session.js`
-- `src/data/validators.js`
-- `src/pages/DealerApply.jsx`
-- `src/pages/Login.jsx`
-- `src/pages/StaffDashboard.jsx`
-- `src/pages/StaffJoin.jsx`
+- `package.json`
 
 ## Audit Trail
 
-- EXTRACTED: 376 (100%)
+- EXTRACTED: 88 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

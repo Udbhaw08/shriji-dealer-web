@@ -1,61 +1,55 @@
 # Community 47
 
-> 34 nodes · cohesion 0.13
+> 33 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **commerceClient.js** (22 connections) — `backend/src/services/commerceClient.js`
-- **catalog.js** (16 connections) — `backend/src/services/catalog.js`
-- **logger.js** (14 connections) — `backend/src/utils/logger.js`
-- **crmPoll.js** (13 connections) — `backend/src/jobs/crmPoll.js`
-- **applyCrmAccountState()** (13 connections) — `backend/src/services/dealerApp.js`
-- **log** (13 connections) — `backend/src/utils/logger.js`
-- **index.js** (11 connections) — `backend/src/jobs/index.js`
-- **errorHandler.js** (10 connections) — `backend/src/middleware/errorHandler.js`
-- **catalogSync.js** (9 connections) — `backend/src/jobs/catalogSync.js`
-- **ensureContactPricebookForCrmAccount()** (9 connections) — `backend/src/services/commerceClient.js`
-- **syncCatalog()** (7 connections) — `backend/src/services/catalog.js`
-- **fetchCatalog()** (6 connections) — `backend/src/services/commerceClient.js`
-- **resolvePricebookId()** (6 connections) — `backend/src/services/commerceClient.js`
-- **catalogSync()** (5 connections) — `backend/src/jobs/catalogSync.js`
-- **crmPoll()** (5 connections) — `backend/src/jobs/crmPoll.js`
-- **booksFetch()** (5 connections) — `backend/src/services/commerceClient.js`
-- **commerceConfigured()** (5 connections) — `backend/src/services/commerceClient.js`
-- **commerceFetch()** (5 connections) — `backend/src/services/commerceClient.js`
-- **isCommerceConfigured()** (5 connections) — `backend/src/services/commerceClient.js`
-- **catalogFor()** (4 connections) — `backend/src/services/catalog.js`
-- **loadCatalog()** (4 connections) — `backend/src/services/catalog.js`
-- **assignPricebookToContact()** (4 connections) — `backend/src/services/commerceClient.js`
-- **tokenCleanup()** (3 connections) — `backend/src/jobs/catalogSync.js`
-- **markPollRun()** (3 connections) — `backend/src/jobs/crmPoll.js`
-- **priceView()** (3 connections) — `backend/src/services/catalog.js`
-- *... and 9 more nodes in this community*
+- **il()** (37 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **zc()** (15 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **lm()** (13 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **tl()** (13 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **ra()** (12 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **rl()** (11 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **Oc()** (9 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **Ti()** (9 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **ve()** (9 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **pa()** (8 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **kc()** (7 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **ma()** (7 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **lh()** (6 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **be()** (5 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **fo()** (5 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **Lc()** (5 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **nl()** (5 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **po()** (5 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **Sa()** (5 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **aa()** (4 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **Dc()** (4 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **el()** (4 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **im()** (4 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **io()** (4 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **rm()** (4 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- *... and 8 more nodes in this community*
 
 ## Relationships
 
-- [[Live Pricing Audit Tool]] (23 shared connections)
-- [[Product Pages Specification]] (23 shared connections)
-- [[Master Codebase Architecture Reference]] (23 shared connections)
-- [[Community 48]] (1 shared connections)
-- [[Community 57]] (1 shared connections)
+- [[Price Presentation & Product UI]] (40 shared connections)
+- [[Master Codebase Architecture Reference]] (30 shared connections)
+- [[Product Requirements Documentation]] (15 shared connections)
+- [[Client Products Data Store]] (10 shared connections)
+- [[Community 101]] (8 shared connections)
+- [[Community 100]] (4 shared connections)
+- [[Community 39]] (3 shared connections)
+- [[Community 40]] (3 shared connections)
 
 ## Source Files
 
-- `backend/src/jobs/catalogSync.js`
-- `backend/src/jobs/crmPoll.js`
-- `backend/src/jobs/index.js`
-- `backend/src/middleware/errorHandler.js`
-- `backend/src/services/catalog.js`
-- `backend/src/services/commerceClient.js`
-- `backend/src/services/dealerApp.js`
-- `backend/src/utils/logger.js`
-- `backend/test/crmSync.test.mjs`
-- `backend/test/priceGate.test.mjs`
+- `ios/App/App/public/assets/index-Cd7u1Aqo.js`
 
 ## Audit Trail
 
-- EXTRACTED: 220 (100%)
-- INFERRED: 1 (0%)
+- EXTRACTED: 233 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,55 +1,47 @@
 # Community 29
 
-> 42 nodes · cohesion 0.05
+> 40 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **properties** (30 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **col** (4 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **height** (3 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **brand** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **channelX** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **channelY** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **from** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **id** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **labelDx** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **labelDy** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **lane** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **note** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **route** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **sublabel** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **tag** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **to** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **toSide** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **type** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **variant** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **yOffset** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **maximum** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **minimum** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- *... and 17 more nodes in this community*
+- **webm-artifact.smoke.mjs** (39 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **navigateReady()** (12 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **evaluate()** (11 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **delay()** (7 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **withTimeout()** (7 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **verifyArchitectureDeltaNavigator()** (5 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **captureCopiedShareCard()** (4 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **captureReachShareCard()** (4 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **captureRouteShareCard()** (4 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **captureRouteVisualMatrix()** (4 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **captureShareCard()** (4 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **verifyDynamicReducedMotionRoute()** (4 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **verifyResolvedLegendContract()** (3 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **verifySemanticPassportDismissal()** (3 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **devtoolsEndpoint()** (2 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **removeTempTree()** (2 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **waitForExit()** (2 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **chrome** (1 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **chromeProcess** (1 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **connectCdp()** (1 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **executable()** (1 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **ffmpeg** (1 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **freePort()** (1 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- **input** (1 connections) — `.agents/skills/archify/test/webm-artifact.smoke.mjs`
+- *... and 15 more nodes in this community*
 
 ## Relationships
 
-- [[Community 203]] (3 shared connections)
-- [[Community 476]] (1 shared connections)
-- [[Community 524]] (1 shared connections)
-- [[Community 477]] (1 shared connections)
-- [[Community 525]] (1 shared connections)
-- [[Community 478]] (1 shared connections)
-- [[Community 526]] (1 shared connections)
-- [[Community 422]] (1 shared connections)
-- [[Community 423]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/lifecycle.schema.json`
+- `.agents/skills/archify/test/webm-artifact.smoke.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 93 (100%)
+- EXTRACTED: 140 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

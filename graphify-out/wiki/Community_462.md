@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **Android Release Keystore & Bundle Guide** (2 connections) — `docs/mobile/android-keystore-generation.md`
-- **android-keystore-generation.md** (1 connections) — `docs/mobile/android-keystore-generation.md`
-- **Commands** (1 connections) — `docs/mobile/android-keystore-generation.md`
+- **Swift** (2 connections) — `.agents/skills/swiftui-pro/references/swift.md`
+- **swift.md** (1 connections) — `.agents/skills/swiftui-pro/references/swift.md`
+- **Swift Concurrency** (1 connections) — `.agents/skills/swiftui-pro/references/swift.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/mobile/android-keystore-generation.md`
+- `.agents/skills/swiftui-pro/references/swift.md`
 
 ## Audit Trail
 

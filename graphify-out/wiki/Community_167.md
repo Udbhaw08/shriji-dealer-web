@@ -1,38 +1,36 @@
 # Community 167
 
-> 12 nodes · cohesion 0.41
+> 11 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **repository-evidence.mjs** (15 connections) — `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
-- **verifyRepositoryEvidence()** (14 connections) — `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
-- **evidenceFailure()** (6 connections) — `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
-- **repository-location.mjs** (5 connections) — `.agents/skills/archify/renderers/shared/repository-location.mjs`
-- **parseRepositoryRemote()** (5 connections) — `.agents/skills/archify/renderers/shared/repository-location.mjs`
-- **gitValue()** (4 connections) — `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
-- **runGit()** (4 connections) — `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
-- **verifiedSourcePath()** (3 connections) — `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
-- **redactRepositoryRemote()** (3 connections) — `.agents/skills/archify/renderers/shared/repository-location.mjs`
-- **repositorySourceHref()** (3 connections) — `.agents/skills/archify/renderers/shared/repository-location.mjs`
-- **hasRepositoryEvidence()** (2 connections) — `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
-- **sourceLineCount()** (2 connections) — `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
+- **validateArchitectureDeltaHtml()** (11 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **renderArchitectureDeltaHtml()** (6 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **architectureDeltaChangeRows()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **reviewTargetTags()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **expectedReviewTargetSignature()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **primaryReviewTags()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **reviewIdentity()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **reviewPrimaryStates()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **reviewTargetSignature()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **safeJson()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **total()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
 
 ## Relationships
 
-- [[Zoho Integration Architecture]] (6 shared connections)
-- [[Community 141]] (3 shared connections)
-- [[Community 63]] (2 shared connections)
-- [[Community 115]] (1 shared connections)
+- [[Community 50]] (12 shared connections)
+- [[Community 36]] (3 shared connections)
+- [[Community 140]] (2 shared connections)
+- [[Community 294]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
-- `.agents/skills/archify/renderers/shared/repository-location.mjs`
+- `.agents/skills/archify/delta/architecture-delta.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 66 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 41 (95%)
+- INFERRED: 2 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **smsFallback.js** (1 connections) — `backend/src/services/smsFallback.js`
-- **sendSmsOtpFallback()** (1 connections) — `backend/src/services/smsFallback.js`
+- **asyncHandler.js** (1 connections) — `backend/src/utils/asyncHandler.js`
+- **asyncHandler()** (1 connections) — `backend/src/utils/asyncHandler.js`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `backend/src/services/smsFallback.js`
+- `backend/src/utils/asyncHandler.js`
 
 ## Audit Trail
 

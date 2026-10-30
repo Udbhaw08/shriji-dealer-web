@@ -6,7 +6,7 @@ import * as crm from './crmClient.js';
 import { ensureContactPricebookForCrmAccount } from './commerceClient.js';
 import { generateUniqueDealerCode } from '../utils/loginCode.js';
 import { normalizePhone } from '../utils/phone.js';
-import { normalizeEmail, isValidPhone, isValidEmail, cleanName, isValidGstin, isValidName } from '../utils/validators.js';
+import { normalizeEmail, isValidPhone, isValidEmail, cleanName, isValidGstin, isValidName, isGstRequiredTreatment } from '../utils/validators.js';
 import { generateOtp, hashOtp, verifyOtpHash } from '../utils/hash.js';
 import { sendEmailOtp, sendWhatsAppOtp } from './notifications.js';
 import { httpError } from '../middleware/errorHandler.js';
@@ -137,9 +137,12 @@ export async function applyDealer({ user, businessName, gstNumber, gstTreatment,
   // Auto-generate official Dealer Code in DE-ABC-1234 format
   const dealerCode = await generateUniqueDealerCode(sql, 'DE');
 
+  const isRegistered = isGstRequiredTreatment(gstTreatment);
+  const cleanGstNumber = isRegistered && gstNumber ? String(gstNumber).trim().toUpperCase() : null;
+
   const [dealer] = await sql`
     insert into dealers (owner_user_id, business_name, gst_number, gst_treatment, address, status, dealer_code)
-    values (${user.id}, ${businessName}, ${gstNumber || null}, ${gstTreatment || null}, ${address || null}, 'pending', ${dealerCode})
+    values (${user.id}, ${businessName}, ${cleanGstNumber}, ${gstTreatment || null}, ${address || null}, 'pending', ${dealerCode})
     returning id, dealer_code`;
 
   await sql`update users set role = 'dealer', status = 'pending', dealer_id = ${dealer.id},
@@ -188,7 +191,7 @@ export async function requestDealerRegistrationOtp({ flowId, channel, phone, ema
       throw httpError(400, 'Please enter a valid 10-digit Indian mobile number');
     }
 
-    // Check duplicate in users or dealers (only block if already a dealer or staff)
+    // Check duplicate in users or dealers (only block if already an active dealer or staff)
     const existing = await sql`
       select u.id, u.role, d.status as dealer_status
       from users u
@@ -196,10 +199,10 @@ export async function requestDealerRegistrationOtp({ flowId, channel, phone, ema
       where (u.phone = ${norm.nationalNumber}
          or u.phone = ${norm.e164}
          or u.phone like ${`%${norm.nationalNumber}`})
-        and (u.role = 'dealer' or u.role = 'dealer_staff' or d.id is not null)
+        and (u.role = 'dealer' or (u.role = 'dealer_staff' and u.status != 'pending') or d.id is not null)
       limit 1`;
     if (existing.length > 0) {
-      throw httpError(409, 'A dealer account with this phone number already exists. Please log in.');
+      throw httpError(409, 'An account with this phone number already exists. Please log in.');
     }
 
     let flow;
@@ -325,10 +328,10 @@ export async function requestDealerRegistrationOtp({ flowId, channel, phone, ema
       from users u
       left join dealers d on d.owner_user_id = u.id or d.id = u.dealer_id
       where lower(u.email) = ${cleanEmail}
-        and (u.role = 'dealer' or u.role = 'dealer_staff' or d.id is not null)
+        and (u.role = 'dealer' or (u.role = 'dealer_staff' and u.status != 'pending') or d.id is not null)
       limit 1`;
     if (existing.length > 0) {
-      throw httpError(409, 'A dealer account with this email address already exists. Please log in.');
+      throw httpError(409, 'An account with this email address already exists. Please log in.');
     }
 
     let flow;
@@ -687,7 +690,7 @@ export async function finalizeDealerRegistration(params) {
   if (last_name && !isValidName(last_name)) {
     throw httpError(400, 'Last name should contain letters only (min 2 characters)');
   }
-  if (gst_treatment?.includes('Registered') && (!gst_number || !isValidGstin(gst_number))) {
+  if (isGstRequiredTreatment(gst_treatment) && (!gst_number || !isValidGstin(gst_number))) {
     throw httpError(400, 'Please enter a valid 15-character GSTIN (e.g. 27AABCR1234D1Z5)');
   }
 
@@ -849,10 +852,13 @@ export async function finalizeDealerRegistration(params) {
       user = newUser;
     }
 
+    const isRegistered = isGstRequiredTreatment(gst_treatment);
+    const cleanGst = isRegistered && gst_number ? String(gst_number).trim().toUpperCase() : null;
+
     // Insert dealer application
     const [dealer] = await tx`
       insert into dealers (owner_user_id, business_name, gst_number, gst_treatment, address, city, state, pincode, status, dealer_code)
-      values (${user.id}, ${cleanBusinessName}, ${gst_number ? String(gst_number).trim().toUpperCase() : null}, ${gst_treatment ? String(gst_treatment).trim() : null}, ${address ? String(address).trim() : null}, ${cleanCity}, ${cleanState}, ${cleanPin}, 'pending', ${dealerCode})
+      values (${user.id}, ${cleanBusinessName}, ${cleanGst}, ${gst_treatment ? String(gst_treatment).trim() : null}, ${address ? String(address).trim() : null}, ${cleanCity}, ${cleanState}, ${cleanPin}, 'pending', ${dealerCode})
       returning *`;
 
     // Link dealer_id to user

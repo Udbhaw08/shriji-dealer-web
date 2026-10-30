@@ -1,45 +1,40 @@
 # Community 122
 
-> 15 nodes · cohesion 0.17
+> 15 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **q()** (13 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
-- **wa()** (10 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
-- **Iu()** (9 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
-- **fu()** (6 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
-- **Do()** (5 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
-- **Nu()** (5 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
-- **ba()** (4 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
-- **eo()** (4 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
-- **Ru()** (4 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
-- **xa()** (4 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
-- **du()** (3 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
-- **pu()** (3 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
-- **qn()** (3 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
-- **wp()** (3 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
-- **Ua()** (2 connections) — `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
+- **i18n.test.mjs** (20 connections) — `.agents/skills/archify/test/i18n.test.mjs`
+- **catalogKeys()** (2 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **SUPPORTED_LOCALES** (2 connections) — `.agents/skills/archify/renderers/shared/i18n.mjs`
+- **authoredExample()** (2 connections) — `.agents/skills/archify/test/i18n.test.mjs`
+- **evaluate()** (2 connections) — `.agents/skills/archify/test/i18n.test.mjs`
+- **example()** (2 connections) — `.agents/skills/archify/test/i18n.test.mjs`
+- **loadArtifact()** (2 connections) — `.agents/skills/archify/test/i18n.test.mjs`
+- **AUTHORED_TEXT_KEYS** (1 connections) — `.agents/skills/archify/test/i18n.test.mjs`
+- **cli** (1 connections) — `.agents/skills/archify/test/i18n.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/i18n.test.mjs`
+- **EXAMPLES** (1 connections) — `.agents/skills/archify/test/i18n.test.mjs`
+- **run()** (1 connections) — `.agents/skills/archify/test/i18n.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/i18n.test.mjs`
+- **templatePath** (1 connections) — `.agents/skills/archify/test/i18n.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/i18n.test.mjs`
 
 ## Relationships
 
-- [[Price Presentation & Product UI]] (16 shared connections)
-- [[Product Requirements Documentation]] (7 shared connections)
-- [[Pricing Regression Test Suite]] (7 shared connections)
-- [[Product Brand & Business Vision]] (4 shared connections)
-- [[Community 37]] (2 shared connections)
-- [[Community 58]] (2 shared connections)
-- [[Community 129]] (1 shared connections)
-- [[Community 100]] (1 shared connections)
-- [[Community 31]] (1 shared connections)
-- [[Architecture Doc Generator]] (1 shared connections)
+- [[Community 36]] (5 shared connections)
+- [[Community 42]] (1 shared connections)
+- [[Community 148]] (1 shared connections)
+- [[Community 125]] (1 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-u94l9tSd.js`
+- `.agents/skills/archify/renderers/shared/i18n.mjs`
+- `.agents/skills/archify/test/i18n.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 78 (100%)
+- EXTRACTED: 40 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

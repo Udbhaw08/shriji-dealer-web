@@ -1,20 +1,19 @@
 # Community 187
 
-> 11 nodes · cohesion 0.18
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **httpErrors.js** (5 connections) — `backend/src/utils/httpErrors.js`
-- **BadRequestError** (2 connections) — `backend/src/utils/httpErrors.js`
-- **ForbiddenError** (2 connections) — `backend/src/utils/httpErrors.js`
-- **HttpError** (2 connections) — `backend/src/utils/httpErrors.js`
-- **NotFoundError** (2 connections) — `backend/src/utils/httpErrors.js`
-- **UnauthorizedError** (2 connections) — `backend/src/utils/httpErrors.js`
-- **.constructor()** (1 connections) — `backend/src/utils/httpErrors.js`
-- **.constructor()** (1 connections) — `backend/src/utils/httpErrors.js`
-- **.constructor()** (1 connections) — `backend/src/utils/httpErrors.js`
-- **.constructor()** (1 connections) — `backend/src/utils/httpErrors.js`
-- **.constructor()** (1 connections) — `backend/src/utils/httpErrors.js`
+- **Accessibility** (9 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
+- **accessibility.md** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
+- **Cognitive** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
+- **Hearing** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
+- **Mobility** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
+- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
+- **Speech** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
+- **Vision** (1 connections) — `.agents/skills/apple-design/references/hig/accessibility.md`
 
 ## Relationships
 
@@ -22,11 +21,11 @@
 
 ## Source Files
 
-- `backend/src/utils/httpErrors.js`
+- `.agents/skills/apple-design/references/hig/accessibility.md`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
+- EXTRACTED: 18 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

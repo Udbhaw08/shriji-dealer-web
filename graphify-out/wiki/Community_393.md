@@ -4,23 +4,23 @@
 
 ## Key Concepts
 
-- **7. Vertical Rhythm** (5 connections) — `.agents/skills/refero-design/references/typography.md`
-- **CSS Implementation** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Example** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **Golden Rule** (1 connections) — `.agents/skills/refero-design/references/typography.md`
-- **The Simple Rule** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **render-examples.mjs** (4 connections) — `.agents/skills/archify/scripts/render-examples.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/scripts/render-examples.mjs`
+- **outputRoot** (1 connections) — `.agents/skills/archify/scripts/render-examples.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/scripts/render-examples.mjs`
+- **TARGETS** (1 connections) — `.agents/skills/archify/scripts/render-examples.mjs`
 
 ## Relationships
 
-- [[Community 235]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/refero-design/references/typography.md`
+- `.agents/skills/archify/scripts/render-examples.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

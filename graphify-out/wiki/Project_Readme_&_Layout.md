@@ -1,48 +1,57 @@
 # Project Readme & Layout
 
-> 45 nodes · cohesion 0.04
+> 43 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **scripts** (18 connections) — `package.json`
-- **dependencies** (16 connections) — `package.json`
-- **package.json** (7 connections) — `package.json`
-- **devDependencies** (6 connections) — `package.json`
-- **@capacitor/android** (1 connections) — `package.json`
-- **@capacitor/app** (1 connections) — `package.json`
-- **@capacitor/cli** (1 connections) — `package.json`
-- **@capacitor/core** (1 connections) — `package.json`
-- **@capacitor/ios** (1 connections) — `package.json`
-- **@capacitor/preferences** (1 connections) — `package.json`
-- **dotenv** (1 connections) — `package.json`
-- **express** (1 connections) — `package.json`
-- **google-auth-library** (1 connections) — `package.json`
-- **jsonwebtoken** (1 connections) — `package.json`
-- **postgres** (1 connections) — `package.json`
-- **react** (1 connections) — `package.json`
-- **react-dom** (1 connections) — `package.json`
-- **react-router-dom** (1 connections) — `package.json`
-- **resend** (1 connections) — `package.json`
-- **oxlint** (1 connections) — `package.json`
-- **@types/react** (1 connections) — `package.json`
-- **@types/react-dom** (1 connections) — `package.json`
-- **vite** (1 connections) — `package.json`
-- **@vitejs/plugin-react** (1 connections) — `package.json`
-- **name** (1 connections) — `package.json`
-- *... and 20 more nodes in this community*
+- **brand-marks.mjs** (51 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **brand-marks.test.mjs** (15 connections) — `.agents/skills/archify/test/brand-marks.test.mjs`
+- **captureRemoteBrand()** (7 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **prepareDiagramBrandMarks()** (7 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **captureBrandReference()** (6 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **findBrandMark()** (5 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **checkedFetch()** (4 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **isPrivateBrandAddress()** (4 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **resolveRequestTarget()** (4 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **asUrl()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **iconCandidates()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **imageData()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **ipv4Private()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **ipv6Private()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **lookupForms()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **readLimited()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **validateUrlShape()** (3 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **generated-brand-marks.mjs** (3 connections) — `.agents/skills/archify/renderers/shared/generated-brand-marks.mjs`
+- **BRAND_MARKS** (3 connections) — `.agents/skills/archify/renderers/shared/generated-brand-marks.mjs`
+- **attribute()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **beforeDeadline()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **captureTimeoutMilliseconds()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **domainMark()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **mapConcurrent()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- **remoteBrand()** (2 connections) — `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- *... and 18 more nodes in this community*
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 36]] (7 shared connections)
+- [[Architecture Doc Generator]] (6 shared connections)
+- [[Community 139]] (3 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (3 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (1 shared connections)
+- [[Community 30]] (1 shared connections)
+- [[Community 31]] (1 shared connections)
+- [[Community 80]] (1 shared connections)
 
 ## Source Files
 
-- `package.json`
+- `.agents/skills/archify/renderers/shared/brand-marks.mjs`
+- `.agents/skills/archify/renderers/shared/generated-brand-marks.mjs`
+- `.agents/skills/archify/test/brand-marks.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 88 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 164 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

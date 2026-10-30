@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **capacitor.build.gradle** (0 connections) — `android/app/capacitor.build.gradle`
+- **searchHelper.test.mjs** (0 connections) — `src/data/searchHelper.test.mjs`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `android/app/capacitor.build.gradle`
+- `src/data/searchHelper.test.mjs`
 
 ## Audit Trail
 

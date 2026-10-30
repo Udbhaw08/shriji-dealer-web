@@ -1,71 +1,57 @@
 # Live Pricing Audit Tool
 
-> 55 nodes · cohesion 0.08
+> 57 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **sql** (82 connections) — `backend/src/db/pool.js`
-- **dealers.js** (51 connections) — `backend/src/routes/dealers.js`
-- **pool.js** (36 connections) — `backend/src/db/pool.js`
-- **staff.js** (23 connections) — `backend/src/services/staff.js`
-- **audit()** (18 connections) — `backend/src/utils/audit.js`
-- **auth.js** (13 connections) — `backend/src/middleware/auth.js`
+- **hash.js** (25 connections) — `backend/src/utils/hash.js`
+- **phase2DealerStaffOnboarding.test.mjs** (17 connections) — `backend/test/phase2DealerStaffOnboarding.test.mjs`
+- **loginCode.js** (17 connections) — `backend/src/utils/loginCode.js`
+- **dealerRegistrationTwoChannel.test.mjs** (15 connections) — `backend/test/dealerRegistrationTwoChannel.test.mjs`
+- **onboardingVerification.test.mjs** (15 connections) — `backend/test/onboardingVerification.test.mjs`
+- **hashOtp()** (10 connections) — `backend/src/utils/hash.js`
+- **verifyOtpHash()** (10 connections) — `backend/src/utils/hash.js`
 - **generateUniqueDealerCode()** (10 connections) — `backend/src/utils/loginCode.js`
-- **applyDealer()** (7 connections) — `backend/src/services/dealerApp.js`
-- **audit.js** (7 connections) — `backend/src/utils/audit.js`
-- **sync-supabase-content.js** (6 connections) — `backend/scripts/sync-supabase-content.js`
-- **provisionDealerInCrm()** (6 connections) — `backend/src/services/dealerApp.js`
-- **createInvite()** (6 connections) — `backend/src/services/staff.js`
-- **jwtAuth()** (5 connections) — `backend/src/middleware/auth.js`
-- **requireAdmin()** (5 connections) — `backend/src/middleware/auth.js`
-- **seed-content.js** (4 connections) — `backend/scripts/seed-content.js`
-- **deactivateDealer()** (4 connections) — `backend/src/services/dealerApp.js`
-- **approveStaff()** (4 connections) — `backend/src/services/staff.js`
-- **deleteStaff()** (4 connections) — `backend/src/services/staff.js`
-- **holdStaff()** (4 connections) — `backend/src/services/staff.js`
-- **resumeStaff()** (4 connections) — `backend/src/services/staff.js`
-- **revokeStaff()** (4 connections) — `backend/src/services/staff.js`
-- **toggleAllStaffPrice()** (4 connections) — `backend/src/services/staff.js`
-- **toggleStaffPrice()** (4 connections) — `backend/src/services/staff.js`
-- **info.js** (3 connections) — `api/dealer/info.js`
-- **optionalAuth()** (3 connections) — `backend/src/middleware/auth.js`
-- *... and 30 more nodes in this community*
+- **hash.test.mjs** (9 connections) — `backend/test/hash.test.mjs`
+- **sha256()** (9 connections) — `backend/src/utils/hash.js`
+- **formatLoginCode()** (8 connections) — `backend/src/utils/loginCode.js`
+- **generateLoginCode()** (8 connections) — `backend/src/utils/loginCode.js`
+- **loginCode.test.mjs** (7 connections) — `backend/test/loginCode.test.mjs`
+- **generateOtp()** (5 connections) — `backend/src/utils/hash.js`
+- **hashPassword()** (5 connections) — `backend/src/utils/hash.js`
+- **verifyPassword()** (4 connections) — `backend/src/utils/hash.js`
+- **isValidLoginCode()** (4 connections) — `backend/src/utils/loginCode.js`
+- **parseLoginCode()** (4 connections) — `backend/src/utils/loginCode.js`
+- **scryptKey()** (3 connections) — `backend/src/utils/hash.js`
+- **USER_CATEGORIES** (3 connections) — `backend/src/utils/loginCode.js`
+- **generateCode()** (2 connections) — `backend/src/utils/hash.js`
+- **randomToken()** (2 connections) — `backend/src/utils/hash.js`
+- **generateRandomDigits()** (2 connections) — `backend/src/utils/loginCode.js`
+- **generateRandomLetters()** (2 connections) — `backend/src/utils/loginCode.js`
+- **GST_TREATMENT_OPTIONS** (2 connections) — `backend/src/utils/loginCode.js`
+- *... and 32 more nodes in this community*
 
 ## Relationships
 
-- [[Master Codebase Architecture Reference]] (42 shared connections)
-- [[Product Pages Specification]] (32 shared connections)
-- [[Community 47]] (23 shared connections)
-- [[Client Products Data Store]] (14 shared connections)
-- [[Community 72]] (13 shared connections)
-- [[Community 188]] (3 shared connections)
-- [[Community 164]] (3 shared connections)
-- [[Community 323]] (3 shared connections)
+- [[Community 41]] (17 shared connections)
+- [[Graphify Knowledge Graph Skill]] (12 shared connections)
+- [[Roles & Customer Sharing Spec]] (2 shared connections)
+- [[Community 43]] (1 shared connections)
 
 ## Source Files
 
-- `api/dealer/info.js`
-- `backend/scripts/check-readiness.js`
-- `backend/scripts/inspect-db.js`
-- `backend/scripts/migrate-content.js`
-- `backend/scripts/seed-content.js`
-- `backend/scripts/setup-buckets.js`
-- `backend/scripts/setup-policies.js`
-- `backend/scripts/sync-supabase-content.js`
-- `backend/scripts/test-storage.js`
-- `backend/src/db/pool.js`
-- `backend/src/middleware/auth.js`
-- `backend/src/routes/dealers.js`
-- `backend/src/services/dealerApp.js`
-- `backend/src/services/staff.js`
-- `backend/src/utils/audit.js`
+- `backend/src/utils/hash.js`
 - `backend/src/utils/loginCode.js`
-- `scripts/check_webhooks.mjs`
+- `backend/test/dealerRegistrationTwoChannel.test.mjs`
+- `backend/test/hash.test.mjs`
+- `backend/test/loginCode.test.mjs`
+- `backend/test/onboardingVerification.test.mjs`
+- `backend/test/phase2DealerStaffOnboarding.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 369 (99%)
-- INFERRED: 4 (1%)
+- EXTRACTED: 229 (100%)
+- INFERRED: 1 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

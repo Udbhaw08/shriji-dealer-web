@@ -1,29 +1,28 @@
 # Community 323
 
-> 7 nodes · cohesion 0.38
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **reset-test-users.js** (11 connections) — `backend/scripts/reset-test-users.js`
-- **runReset()** (5 connections) — `backend/scripts/reset-test-users.js`
-- **deleteCrmRecords()** (2 connections) — `backend/scripts/reset-test-users.js`
-- **searchCrmRecordIds()** (2 connections) — `backend/scripts/reset-test-users.js`
-- **args** (1 connections) — `backend/scripts/reset-test-users.js`
-- **customNumbers** (1 connections) — `backend/scripts/reset-test-users.js`
-- **isDryRun** (1 connections) — `backend/scripts/reset-test-users.js`
+- **finder.test.mjs** (6 connections) — `.agents/skills/archify/test/finder.test.mjs`
+- **CASES** (1 connections) — `.agents/skills/archify/test/finder.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/finder.test.mjs`
+- **render()** (1 connections) — `.agents/skills/archify/test/finder.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/finder.test.mjs`
+- **svg()** (1 connections) — `.agents/skills/archify/test/finder.test.mjs`
+- **tmp** (1 connections) — `.agents/skills/archify/test/finder.test.mjs`
 
 ## Relationships
 
-- [[Master Codebase Architecture Reference]] (4 shared connections)
-- [[Live Pricing Audit Tool]] (3 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `backend/scripts/reset-test-users.js`
+- `.agents/skills/archify/test/finder.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 23 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

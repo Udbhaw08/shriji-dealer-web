@@ -1,4 +1,5 @@
 import { Router } from 'express';
+import crypto from 'node:crypto';
 import { OAuth2Client } from 'google-auth-library';
 import { sql } from '../db/pool.js';
 import { hashPassword, verifyPassword, generateOtp, sha256, formatLoginCode, hashOtp, verifyOtpHash } from '../utils/hash.js';
@@ -387,53 +388,160 @@ authRouter.post('/staff/lookup-code', strictLimit, async (req, res, next) => {
 
 authRouter.post('/staff/signup', strictLimit, async (req, res, next) => {
   try {
-    const { email, password, invite_code, dealer_code, code, full_name, first_name, last_name, phone } = req.body || {};
+    const {
+      flowId,
+      flow_id,
+      verificationToken,
+      verification_token,
+      email,
+      password,
+      invite_code,
+      dealer_code,
+      code,
+      full_name,
+      first_name,
+      last_name,
+      phone,
+    } = req.body || {};
+
+    const cleanFlowId = flowId || flow_id;
+    const cleanToken = String(verificationToken || verification_token || '').trim();
+    if (!cleanFlowId || !cleanToken) {
+      throw httpError(400, 'Two-channel verification (mobile phone and email) is required before joining as staff');
+    }
+
+    const [flow] = await sql`
+      select * from dealer_registration_flows
+      where id = ${cleanFlowId} and consumed_at is null and expires_at > now()
+      limit 1`;
+    if (!flow) {
+      throw httpError(400, 'Verification session has expired or is invalid. Please verify again.');
+    }
+    if (!flow.phone_verified || !flow.email_verified) {
+      throw httpError(400, 'Both mobile phone and work email must be verified before completing registration');
+    }
+    const tokenHash = crypto.createHash('sha256').update(cleanToken).digest('hex');
+    if (tokenHash !== flow.verification_token_hash) {
+      throw httpError(401, 'Invalid verification token. Please start verification again.');
+    }
+
     const cleanEmail = normalizeEmail(email);
-    const inputCode = String(dealer_code || code || invite_code || '').trim();
-    if (!cleanEmail || !password || String(password).length < 8 || !inputCode) throw httpError(400, 'Email, password (8+ chars) and Dealer Code are required');
+    if (!cleanEmail) throw httpError(400, 'A valid work email address is required');
+    if (cleanEmail !== flow.email) {
+      throw httpError(400, 'Email address does not match verified email');
+    }
+
+    if (!phone) throw httpError(400, 'A valid 10-digit mobile number is required');
+    const norm = normalizePhone(phone);
+    if (!norm.nationalNumber || !isValidPhone(norm.nationalNumber)) {
+      throw httpError(400, 'Valid 10-digit mobile number is required');
+    }
+    if (norm.nationalNumber !== flow.phone) {
+      throw httpError(400, 'Mobile phone number does not match verified phone');
+    }
+    const cleanPhone = norm.nationalNumber;
+
+    if (!password || String(password).length < 8) {
+      throw httpError(400, 'A password of at least 8 characters is required');
+    }
     if (first_name && !isValidName(first_name)) throw httpError(400, 'First name should contain letters only (min 2 characters)');
     if (last_name && !isValidName(last_name)) throw httpError(400, 'Last name should contain letters only (min 2 characters)');
-    const name = full_name || [first_name, last_name].filter(Boolean).join(' ') || null;
-
-    let cleanPhone = null;
-    if (phone) {
-      const norm = normalizePhone(phone);
-      if (!norm.nationalNumber || !isValidPhone(norm.nationalNumber)) {
-        throw httpError(400, 'Valid 10-digit phone number is required');
-      }
-      cleanPhone = '+91' + norm.nationalNumber;
+    const name = full_name ? cleanName(full_name) : [cleanName(first_name), cleanName(last_name)].filter(Boolean).join(' ') || null;
+    if (!name || name.length < 2) {
+      throw httpError(400, 'Full name is required (letters only, min 2 characters)');
     }
+
+    const inputCode = String(dealer_code || code || invite_code || '').trim();
+    if (!inputCode) throw httpError(400, 'Store / Dealer Code is required');
 
     const duplicate = await sql`select id, role, status, phone from users where lower(email) = ${cleanEmail}`;
     const existing = duplicate[0];
-    if (existing && !((existing.role === 'dealer_staff' && existing.status === 'pending') || existing.role === 'customer')) throw httpError(409, 'Email already registered');
+    if (existing && !((existing.role === 'dealer_staff' && existing.status === 'pending') || existing.role === 'customer')) {
+      throw httpError(409, 'An account with this email is already registered. Please log in.');
+    }
 
-    if (cleanPhone) {
-      const phoneDup = await sql`select id from users where phone = ${cleanPhone} and (${existing?.id ? sql`id != ${existing.id}` : sql`true`}) limit 1`;
-      if (phoneDup.length) throw httpError(409, 'Phone number already registered to another account');
+    const phoneDup = await sql`select id from users where (phone = ${cleanPhone} or phone = ${'+91' + cleanPhone}) and (${existing?.id ? sql`id != ${existing.id}` : sql`true`}) limit 1`;
+    if (phoneDup.length) {
+      throw httpError(409, 'An account with this phone number is already registered. Please log in.');
     }
 
     const formatted = formatLoginCode(inputCode);
-    const dealers = await sql`select id, staff_limit from dealers where (lower(dealer_code) = lower(${inputCode}) or lower(dealer_code) = lower(${formatted})) and status = 'approved' limit 1`;
-    let dealerId, inviteId;
-    if (dealers[0]) {
-      dealerId = dealers[0].id;
+    const dealers = await sql`select id, staff_limit, zoho_account_id, dealer_code, owner_user_id from dealers where (lower(dealer_code) = lower(${inputCode}) or lower(dealer_code) = lower(${formatted})) and status = 'approved' limit 1`;
+    let dealerId, inviteId, targetDealer = dealers[0];
+    if (targetDealer) {
+      dealerId = targetDealer.id;
       const count = await sql`select count(*)::int as n from users where dealer_id = ${dealerId} and role = 'dealer_staff' and status in ('active', 'pending') and (${existing?.id ? sql`id != ${existing.id}` : sql`true`})`;
-      if (count[0].n >= dealers[0].staff_limit) throw httpError(409, 'This dealer has reached their staff limit');
+      if (count[0].n >= targetDealer.staff_limit) throw httpError(409, 'This dealer has reached their staff limit');
     } else {
       const rawHash = sha256(inputCode.toUpperCase()), formattedHash = sha256(formatted.toUpperCase());
-      const invites = await sql`select id, dealer_id, expires_at, revoked, used_by from staff_invites where (code_hash = ${rawHash} or code_hash = ${formattedHash}) limit 1`;
+      const invites = await sql`select si.id, si.dealer_id, si.expires_at, si.revoked, si.used_by, d.zoho_account_id, d.dealer_code, d.owner_user_id from staff_invites si join dealers d on d.id = si.dealer_id where (si.code_hash = ${rawHash} or si.code_hash = ${formattedHash}) limit 1`;
       const invite = invites[0];
-      if (!invite || invite.revoked || (invite.used_by && invite.used_by !== existing?.id) || new Date(invite.expires_at) < new Date()) throw httpError(401, 'Invalid or expired Dealer / Invite Code');
-      dealerId = invite.dealer_id; inviteId = invite.id;
+      if (!invite || invite.revoked || (invite.used_by && invite.used_by !== existing?.id) || new Date(invite.expires_at) < new Date()) {
+        throw httpError(401, 'Invalid or expired Dealer / Invite Code');
+      }
+      dealerId = invite.dealer_id;
+      inviteId = invite.id;
+      targetDealer = invite;
     }
+
+    // Atomically consume registration flow
+    await sql`update dealer_registration_flows set consumed_at = now() where id = ${flow.id}`;
+
     let user;
-    if (existing) [user] = await sql`update users set password_hash = ${await hashPassword(String(password))}, full_name = ${name ? String(name).trim() : null}, role = 'dealer_staff', status = 'pending', dealer_id = ${dealerId}, email = ${cleanEmail}, phone = coalesce(${cleanPhone}, phone) where id = ${existing.id} returning *`;
-    else [user] = await sql`insert into users (email, phone, password_hash, full_name, role, status, dealer_id) values (${cleanEmail}, ${cleanPhone}, ${await hashPassword(String(password))}, ${name ? String(name).trim() : null}, 'dealer_staff', 'pending', ${dealerId}) returning *`;
+    if (existing) {
+      [user] = await sql`
+        update users
+        set password_hash = ${await hashPassword(String(password))},
+            full_name = ${name},
+            role = 'dealer_staff',
+            status = 'pending',
+            dealer_id = ${dealerId},
+            email = ${cleanEmail},
+            phone = ${cleanPhone},
+            email_verified = true,
+            phone_verified = true
+        where id = ${existing.id}
+        returning *`;
+    } else {
+      [user] = await sql`
+        insert into users (
+          email, phone, password_hash, full_name, role, status, dealer_id, email_verified, phone_verified
+        ) values (
+          ${cleanEmail}, ${cleanPhone}, ${await hashPassword(String(password))}, ${name}, 'dealer_staff', 'pending', ${dealerId}, true, true
+        ) returning *`;
+    }
+
     if (inviteId) await sql`update staff_invites set used_by = ${user.id}, used_at = now() where id = ${inviteId}`;
     await audit(user.id, 'staff.signed_up', 'dealer', dealerId);
+
+    // Sync verified staff directly to Zoho CRM as Contact linked to Dealer Account
+    if (targetDealer?.zoho_account_id && crm.isCrmConfigured()) {
+      try {
+        const [ownerUser] = await sql`select zoho_contact_id from users where id = ${targetDealer.owner_user_id}`;
+        const contactId = await crm.createDealerContact({
+          accountId: targetDealer.zoho_account_id,
+          personName: name || cleanEmail.split('@')[0],
+          firstName: first_name,
+          lastName: last_name,
+          phone: cleanPhone,
+          email: cleanEmail,
+          portalRole: 'Staff',
+          userSource: 'ReStor Dealer Staff',
+          reportingToContactId: ownerUser?.zoho_contact_id || undefined,
+          dealerCode: targetDealer.dealer_code,
+          backendUserId: user.id,
+        });
+        await crm.linkContactToBackendUser(contactId, user.id, { userSource: 'ReStor Dealer Staff', role: 'dealer_staff' }).catch(() => {});
+        await sql`update users set zoho_contact_id = ${contactId} where id = ${user.id}`;
+        user.zoho_contact_id = contactId;
+        log.info(`[staff:signup] Created CRM Contact ${contactId} for verified staff ${user.id}`);
+      } catch (crmErr) {
+        log.warn(`[staff:signup] CRM Contact creation skipped/failed: ${crmErr.message}`);
+      }
+    }
+
     const owners = await sql`select owner_user_id from dealers where id = ${dealerId}`;
-    if (owners[0]) await notify(owners[0].owner_user_id, 'email', 'staff_pending_approval', { staffEmail: user.email });
+    if (owners[0]) await notify(owners[0].owner_user_id, 'email', 'staff_pending_approval', { staffEmail: user.email }).catch(() => {});
     res.status(201).json({ ok: true, status: 'pending', ...(await issueSession(user)) });
   } catch (error) { next(error); }
 });

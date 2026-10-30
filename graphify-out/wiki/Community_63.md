@@ -1,52 +1,53 @@
 # Community 63
 
-> 25 nodes · cohesion 0.13
+> 24 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **architecture-delta.mjs** (65 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **validateArchitectureDeltaHtml()** (11 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **renderArchitectureDeltaHtml()** (6 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **architectureDeltaChangeRows()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **compareEntities()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **reviewTargetTags()** (4 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **expectedReviewTargetSignature()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **primaryReviewTags()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **reviewIdentity()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **reviewPrimaryStates()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **sortedObjects()** (3 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **addState()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **fieldChanges()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **normalizeComponent()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **normalizedField()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **reviewTargetSignature()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **safeJson()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **statusFor()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **total()** (2 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **BOUNDARY_FIELDS** (1 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **codepointOrder()** (1 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **COMPONENT_FIELDS** (1 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **CONNECTION_FIELDS** (1 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **normalizeBoundary()** (1 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
-- **sorted()** (1 connections) — `.agents/skills/archify/delta/architecture-delta.mjs`
+- **securityPhase1.test.mjs** (16 connections) — `backend/test/securityPhase1.test.mjs`
+- **upload.js** (9 connections) — `api/upload.js`
+- **verifyAdminAuth()** (9 connections) — `api/_lib/adminAuth.js`
+- **download.js** (6 connections) — `api/download.js`
+- **adminAuth.js** (6 connections) — `api/_lib/adminAuth.js`
+- **handler()** (5 connections) — `api/download.js`
+- **ssrf.js** (5 connections) — `api/_lib/ssrf.js`
+- **validateSafeDownloadUrl()** (5 connections) — `api/_lib/ssrf.js`
+- **handler()** (4 connections) — `api/upload.js`
+- **login.js** (3 connections) — `api/admin/login.js`
+- **safeFetchWithRedirects()** (3 connections) — `api/download.js`
+- **isPrivateOrReservedIp()** (3 connections) — `api/_lib/ssrf.js`
+- **handler()** (2 connections) — `api/admin/login.js`
+- **wrapJpegInPdf()** (2 connections) — `api/download.js`
+- **validateMagicBytes()** (2 connections) — `api/upload.js`
+- **ALLOWED_EXTENSIONS** (1 connections) — `api/upload.js`
+- **ALLOWED_FOLDERS** (1 connections) — `api/upload.js`
+- **MIME_TYPES** (1 connections) — `api/upload.js`
+- **ALLOWED_REMOTE_HOSTS** (1 connections) — `api/_lib/ssrf.js`
+- **json()** (1 connections) — `backend/test/securityPhase1.test.mjs`
+- **sendFile()** (1 connections) — `backend/test/securityPhase1.test.mjs`
+- **setHeader()** (1 connections) — `backend/test/securityPhase1.test.mjs`
+- **status()** (1 connections) — `backend/test/securityPhase1.test.mjs`
+- **validateMagicBytes()** (1 connections) — `backend/test/securityPhase1.test.mjs`
 
 ## Relationships
 
-- [[Community 85]] (20 shared connections)
-- [[Community 115]] (18 shared connections)
-- [[Graphify Knowledge Graph Skill]] (5 shared connections)
-- [[Community 144]] (4 shared connections)
-- [[Community 167]] (2 shared connections)
-- [[Community 299]] (2 shared connections)
+- [[Community 54]] (7 shared connections)
+- [[Roles & Customer Sharing Spec]] (7 shared connections)
+- [[Graphify Knowledge Graph Skill]] (3 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/delta/architecture-delta.mjs`
+- `api/_lib/adminAuth.js`
+- `api/_lib/ssrf.js`
+- `api/admin/login.js`
+- `api/download.js`
+- `api/upload.js`
+- `backend/test/securityPhase1.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 129 (98%)
-- INFERRED: 2 (2%)
+- EXTRACTED: 89 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

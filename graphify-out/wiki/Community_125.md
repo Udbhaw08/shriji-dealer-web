@@ -1,36 +1,48 @@
 # Community 125
 
-> 15 nodes · cohesion 0.13
+> 14 nodes · cohesion 0.19
 
 ## Key Concepts
 
-- **Sign in with Apple** (6 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
-- **Using the system-provided buttons** (5 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
-- **Creating a custom Sign in with Apple button** (3 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
-- **Displaying buttons** (3 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
-- **sign-in-with-apple.md** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
-- **Black** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
-- **Button size and corner radius** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
-- **Collecting data** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
-- **Custom buttons with a logo and text** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
-- **Custom logo-only buttons** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
-- **Offering Sign in with Apple** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
-- **White** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
-- **White with outline** (1 connections) — `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- **findChrome()** (22 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **export-cleanup-browser.test.mjs** (8 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
+- **viewer-identifiers-browser.test.mjs** (7 connections) — `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
+- **evaluate()** (4 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
+- **executable()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **findOnPath()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **load()** (3 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
+- **load()** (3 connections) — `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
+- **run()** (3 connections) — `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
+- **exported()** (2 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
+- **cases** (1 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
+- **cases** (1 connections) — `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 60]] (7 shared connections)
+- [[Community 42]] (6 shared connections)
+- [[Community 88]] (2 shared connections)
+- [[Community 148]] (2 shared connections)
+- [[Community 144]] (1 shared connections)
+- [[Community 145]] (1 shared connections)
+- [[Community 122]] (1 shared connections)
+- [[Community 126]] (1 shared connections)
+- [[Community 32]] (1 shared connections)
+- [[Community 182]] (1 shared connections)
+- [[Community 244]] (1 shared connections)
+- [[Community 146]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/sign-in-with-apple.md`
+- `.agents/skills/archify/bin/visual-check.mjs`
+- `.agents/skills/archify/test/export-cleanup-browser.test.mjs`
+- `.agents/skills/archify/test/viewer-identifiers-browser.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 28 (100%)
+- EXTRACTED: 62 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

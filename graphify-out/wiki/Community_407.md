@@ -4,22 +4,22 @@
 
 ## Key Concepts
 
-- **Pricing Calculation & Zero-Leakage Rules Specification** (3 connections) — `docs/guides/pricing-rules.md`
-- **pricing-rules.md** (1 connections) — `docs/guides/pricing-rules.md`
-- **Overview** (1 connections) — `docs/guides/pricing-rules.md`
-- **Role Gating Rules** (1 connections) — `docs/guides/pricing-rules.md`
+- **14. Hierarchy Checklist** (4 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Anti-patterns** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Hierarchy Test** (1 connections) — `.agents/skills/refero-design/references/typography.md`
+- **Visual Weight Stack** (1 connections) — `.agents/skills/refero-design/references/typography.md`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 231]] (1 shared connections)
 
 ## Source Files
 
-- `docs/guides/pricing-rules.md`
+- `.agents/skills/refero-design/references/typography.md`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 7 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

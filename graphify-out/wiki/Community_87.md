@@ -1,41 +1,47 @@
 # Community 87
 
-> 20 nodes · cohesion 0.10
+> 19 nodes · cohesion 0.19
 
 ## Key Concepts
 
-- **Authoring contract** (12 connections) — `.agents/skills/archify/references/authoring-contract.md`
-- **Mode placement** (6 connections) — `.agents/skills/archify/references/authoring-contract.md`
-- **Executable geometry rules** (3 connections) — `.agents/skills/archify/references/authoring-contract.md`
-- **authoring-contract.md** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
-- **Architecture** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
-- **Dataflow** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
-- **Engineering profile default** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
-- **Hand-placed fallback** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
-- **Language consistency** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
-- **Legend contract** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
-- **Lifecycle** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
-- **Repair order** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
-- **Repository evidence** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
-- **Schema lookup** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
-- **Sequence** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
-- **Spacing and labels** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
-- **Title hierarchy** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
-- **Visual preset default** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
-- **Workflow** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
-- **Workflow layout contracts** (1 connections) — `.agents/skills/archify/references/authoring-contract.md`
+- **productsStore.js** (25 connections) — `src/data/productsStore.js`
+- **apiFetch()** (21 connections) — `src/data/api.js`
+- **api.js** (12 connections) — `src/data/api.js`
+- **apiUrl()** (9 connections) — `src/data/api.js`
+- **fetchLiveProducts()** (7 connections) — `src/data/productsStore.js`
+- **syncPricebookWithSession()** (7 connections) — `src/data/productsStore.js`
+- **products.js** (5 connections) — `src/data/products.js`
+- **getAccessToken()** (4 connections) — `src/data/auth.js`
+- **loadCached()** (4 connections) — `src/data/productsStore.js`
+- **emit()** (3 connections) — `src/data/productsStore.js`
+- **syncTagsLive()** (3 connections) — `src/data/productsStore.js`
+- **CATEGORIES** (2 connections) — `src/data/products.js`
+- **getCacheKey()** (2 connections) — `src/data/productsStore.js`
+- **sanitizeCategories()** (2 connections) — `src/data/productsStore.js`
+- **useProduct()** (2 connections) — `src/data/productsStore.js`
+- **PRODUCTS** (1 connections) — `src/data/products.js`
+- **listeners** (1 connections) — `src/data/productsStore.js`
+- **PREFERRED_ORDER** (1 connections) — `src/data/productsStore.js`
+- **storeState** (1 connections) — `src/data/productsStore.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Zoho Integration Architecture]] (15 shared connections)
+- [[Pricing & Roles Skill]] (12 shared connections)
+- [[Testing & Workflow Skill]] (11 shared connections)
+- [[Zoho API Diagnostic Script]] (6 shared connections)
+- [[Community 55]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/references/authoring-contract.md`
+- `src/data/api.js`
+- `src/data/auth.js`
+- `src/data/products.js`
+- `src/data/productsStore.js`
 
 ## Audit Trail
 
-- EXTRACTED: 38 (100%)
+- EXTRACTED: 112 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

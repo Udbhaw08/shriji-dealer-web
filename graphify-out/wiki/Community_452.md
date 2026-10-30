@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **Customer Share Link (?from=) Specification** (2 connections) — `docs/guides/customer-share-link-spec.md`
-- **customer-share-link-spec.md** (1 connections) — `docs/guides/customer-share-link-spec.md`
-- **Behavior** (1 connections) — `docs/guides/customer-share-link-spec.md`
+- **Volume Tier Discounts & Quantity Slabs** (2 connections) — `docs/guides/pricing-tiers-and-slabs.md`
+- **pricing-tiers-and-slabs.md** (1 connections) — `docs/guides/pricing-tiers-and-slabs.md`
+- **Slab Structure** (1 connections) — `docs/guides/pricing-tiers-and-slabs.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/guides/customer-share-link-spec.md`
+- `docs/guides/pricing-tiers-and-slabs.md`
 
 ## Audit Trail
 

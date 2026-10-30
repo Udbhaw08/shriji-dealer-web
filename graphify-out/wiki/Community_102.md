@@ -4,24 +4,24 @@
 
 ## Key Concepts
 
-- **DESIGN.md — the design system as actually built** (8 connections) — `docs/DESIGN.md`
-- **4. Components already built — reuse these** (7 connections) — `docs/DESIGN.md`
-- **2. Tokens** (4 connections) — `docs/DESIGN.md`
-- **DESIGN.md** (1 connections) — `docs/DESIGN.md`
-- **1. The direction in one paragraph** (1 connections) — `docs/DESIGN.md`
-- **3. Layout primitives** (1 connections) — `docs/DESIGN.md`
-- **5. Icons** (1 connections) — `docs/DESIGN.md`
-- **6. Responsive rules** (1 connections) — `docs/DESIGN.md`
-- **7. Motion and accessibility** (1 connections) — `docs/DESIGN.md`
-- **Actions** (1 connections) — `docs/DESIGN.md`
-- **Colour** (1 connections) — `docs/DESIGN.md`
-- **Content** (1 connections) — `docs/DESIGN.md`
-- **Detail** (1 connections) — `docs/DESIGN.md`
-- **Listing sidebar** (1 connections) — `docs/DESIGN.md`
-- **Navigation and filtering** (1 connections) — `docs/DESIGN.md`
-- **Product** (1 connections) — `docs/DESIGN.md`
-- **Spacing, radius, shadow, motion** (1 connections) — `docs/DESIGN.md`
-- **Type** (1 connections) — `docs/DESIGN.md`
+- **PRD — Shriji Domestic Appliances Dealer Web** (11 connections) — `PRD.md`
+- **3. Scope** (3 connections) — `PRD.md`
+- **6. Data** (3 connections) — `PRD.md`
+- **7. Evidence ledger — what is verified vs. what is sample** (3 connections) — `PRD.md`
+- **PRD.md** (1 connections) — `PRD.md`
+- **10. Conventions worth knowing** (1 connections) — `PRD.md`
+- **1. What this is** (1 connections) — `PRD.md`
+- **2. Who uses it** (1 connections) — `PRD.md`
+- **4. Stack** (1 connections) — `PRD.md`
+- **5. The pricing model — the core business rule** (1 connections) — `PRD.md`
+- **8. Roadmap** (1 connections) — `PRD.md`
+- **9. Decision log** (1 connections) — `PRD.md`
+- **Built and working** (1 connections) — `PRD.md`
+- **⚠️ Known discrepancy** (1 connections) — `PRD.md`
+- **Not built yet (and deliberately so)** (1 connections) — `PRD.md`
+- **Product record shape** (1 connections) — `PRD.md`
+- **Sample / invented for the draft — must stay labelled as such** (1 connections) — `PRD.md`
+- **Verified (scraped from shrijidomestic.com, 2026-09-18)** (1 connections) — `PRD.md`
 
 ## Relationships
 
@@ -29,7 +29,7 @@
 
 ## Source Files
 
-- `docs/DESIGN.md`
+- `PRD.md`
 
 ## Audit Trail
 

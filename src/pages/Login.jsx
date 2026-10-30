@@ -15,6 +15,7 @@ import { formatLoginCode } from "../data/loginCode";
 import { isValidEmail, isValidName, isValidPhone } from "../data/validators";
 import { Icon } from "../ui";
 import OtpDispatchFeedback from "../components/OtpDispatchFeedback";
+import StaffJoinFlow from "../components/StaffJoinFlow";
 
 const RESEND_COOLDOWN_SECONDS = 30;
 
@@ -41,6 +42,9 @@ export default function Login() {
       setSearchParams({});
     }
     setError(null);
+    setStaffSubmitError("");
+    setStep("phone");
+    setOtp(["", "", "", "", "", ""]);
   };
 
   useEffect(() => {
@@ -234,6 +238,9 @@ export default function Login() {
     } else if (selectedRole === "dealer" && freshSession?.role === "customer") {
       // User signed in via Dealer gateway, but doesn't have a dealer application yet
       navigate("/dealer/apply", { replace: true });
+    } else if (selectedRole === "staff" && freshSession?.role === "customer") {
+      // User signed in via Staff gateway, but hasn't linked to a showroom yet
+      navigate("/dealer/join", { replace: true });
     } else {
       navigate(hasSpecificTarget ? targetFrom : "/products", { replace: true });
     }
@@ -1437,7 +1444,7 @@ export default function Login() {
                         </h2>
                         <p style={{ margin: 0, color: "var(--tx-2)", fontSize: "0.86rem" }}>
                           {staffMode === "login"
-                            ? "Sign in with your registered work email and password to access your showroom."
+                            ? "Sign in with your registered WhatsApp number or work email to access your showroom."
                             : "Enter your store's Dealer / Business Code to join your showroom workspace."}
                         </p>
                       </div>
@@ -1458,7 +1465,7 @@ export default function Login() {
                           type="button"
                           role="tab"
                           aria-selected={staffMode === "login"}
-                          onClick={() => { setStaffMode("login"); setStaffSubmitError(""); setStaffLookupError(""); }}
+                          onClick={() => { setStaffMode("login"); setStaffSubmitError(""); setStaffLookupError(""); setError(null); }}
                           style={{
                             flex: 1,
                             border: "none",
@@ -1483,7 +1490,7 @@ export default function Login() {
                           type="button"
                           role="tab"
                           aria-selected={staffMode === "join"}
-                          onClick={() => { setStaffMode("join"); setStaffSubmitError(""); setStaffLookupError(""); }}
+                          onClick={() => { setStaffMode("join"); setStaffSubmitError(""); setStaffLookupError(""); setError(null); }}
                           style={{
                             flex: 1,
                             border: "none",
@@ -1506,87 +1513,294 @@ export default function Login() {
                         </button>
                       </div>
 
-                      {staffLookupError && (
-                        <div style={{ padding: "10px 12px", borderRadius: 8, background: "#fee2e2", color: "#991b1b", fontSize: "0.85rem", marginBottom: 14 }}>
-                          {staffLookupError}
-                        </div>
-                      )}
-                      {staffSubmitError && (
-                        <div style={{ padding: "10px 12px", borderRadius: 8, background: "#fee2e2", color: "#991b1b", fontSize: "0.85rem", marginBottom: 14 }}>
-                          {staffSubmitError}
-                        </div>
-                      )}
-
-                      {/* MODE 1: STAFF SIGN IN (EMAIL + PASSWORD) */}
+                      {/* MODE 1: STAFF SIGN IN (DUAL-METHOD: WHATSAPP OTP OR EMAIL PASSWORD) */}
                       {staffMode === "login" && (
-                        <form onSubmit={handleStaffLoginSubmit} style={{ display: "grid", gap: 14 }}>
-                          <div>
-                            <label htmlFor="staff-login-email-in" style={{ display: "block", fontSize: "0.82rem", fontWeight: 700, marginBottom: 4 }}>
-                              Work Email
-                            </label>
-                            <input
-                              id="staff-login-email-in"
-                              type="email"
-                              required
-                              placeholder="staff@dealership.com"
-                              autoComplete="email"
-                              value={staffLoginEmail}
-                              onChange={(e) => setStaffLoginEmail(e.target.value)}
-                              style={{ width: "100%", height: 46, borderRadius: 8, border: "1.5px solid var(--line, #cbd5e1)", padding: "0 12px", fontSize: "0.95rem" }}
-                            />
-                          </div>
-
-                          <div>
-                            <label htmlFor="staff-login-pass-in" style={{ display: "block", fontSize: "0.82rem", fontWeight: 700, marginBottom: 4 }}>
-                              Password
-                            </label>
-                            <div style={{ position: "relative" }}>
-                              <input
-                                id="staff-login-pass-in"
-                                type={staffShowPassword ? "text" : "password"}
-                                required
-                                placeholder="••••••••"
-                                autoComplete="current-password"
-                                value={staffLoginPassword}
-                                onChange={(e) => setStaffLoginPassword(e.target.value)}
-                                style={{ width: "100%", height: 46, borderRadius: 8, border: "1.5px solid var(--line, #cbd5e1)", padding: "0 40px 0 12px", fontSize: "0.95rem" }}
-                              />
-                              <button
-                                type="button"
-                                onClick={() => setStaffShowPassword((v) => !v)}
-                                style={{
-                                  position: "absolute",
-                                  right: 10,
-                                  top: "50%",
-                                  transform: "translateY(-50%)",
-                                  background: "transparent",
-                                  border: "none",
-                                  color: "var(--tx-3, #94a3b8)",
-                                  cursor: "pointer",
-                                  padding: 4,
-                                  display: "flex",
-                                }}
-                                aria-label={staffShowPassword ? "Hide password" : "Show password"}
-                              >
-                                <Icon name={staffShowPassword ? "eyeoff" : "eye"} size={16} />
-                              </button>
-                            </div>
-                          </div>
-
-                          <button
-                            type="submit"
-                            disabled={staffSubmitLoading || !staffLoginEmail || !staffLoginPassword}
-                            className="btn btn-navy btn-block"
-                            style={{ height: 48, fontWeight: 700, marginTop: 4 }}
+                        <div>
+                          {/* Method Selector Tabs: WhatsApp OTP vs Email Password */}
+                          <div
+                            style={{
+                              display: "grid",
+                              gridTemplateColumns: "1fr 1fr",
+                              gap: 6,
+                              padding: 4,
+                              background: "var(--bg-2, #f0f5fc)",
+                              borderRadius: "var(--r, 14px)",
+                              marginBottom: 18,
+                            }}
                           >
-                            {staffSubmitLoading ? "Signing in..." : "Sign In as Staff →"}
-                          </button>
+                            <button
+                              type="button"
+                              onClick={() => { setAuthMethod("whatsapp"); setError(null); setStaffSubmitError(""); }}
+                              style={{
+                                display: "flex",
+                                alignItems: "center",
+                                justifyContent: "center",
+                                gap: 6,
+                                minHeight: 42,
+                                border: "none",
+                                borderRadius: "var(--r-sm, 10px)",
+                                background: authMethod === "whatsapp" ? "#fff" : "transparent",
+                                fontWeight: authMethod === "whatsapp" ? 700 : 600,
+                                fontSize: "0.86rem",
+                                boxShadow: authMethod === "whatsapp" ? "0 2px 8px rgba(0,0,0,0.06)" : "none",
+                                cursor: "pointer",
+                              }}
+                            >
+                              <span style={{ color: "#25D366", display: "flex" }}>
+                                <Icon name="wa" size={16} />
+                              </span>
+                              WhatsApp OTP
+                            </button>
 
-                          <div style={{ textAlign: "center", marginTop: 8, fontSize: "0.85rem", color: "var(--tx-2, #64748b)" }}>
+                            <button
+                              type="button"
+                              onClick={() => { setAuthMethod("email"); setError(null); setStaffSubmitError(""); }}
+                              style={{
+                                display: "flex",
+                                alignItems: "center",
+                                justifyContent: "center",
+                                gap: 6,
+                                minHeight: 42,
+                                border: "none",
+                                borderRadius: "var(--r-sm, 10px)",
+                                background: authMethod === "email" ? "#fff" : "transparent",
+                                fontWeight: authMethod === "email" ? 700 : 600,
+                                fontSize: "0.86rem",
+                                boxShadow: authMethod === "email" ? "0 2px 8px rgba(0,0,0,0.06)" : "none",
+                                cursor: "pointer",
+                              }}
+                            >
+                              <Icon name="mail" size={16} />
+                              Email Password
+                            </button>
+                          </div>
+
+                          {(error || staffSubmitError) && (
+                            <div
+                              role="alert"
+                              style={{
+                                display: "flex",
+                                alignItems: "flex-start",
+                                gap: 10,
+                                padding: "10px 12px",
+                                borderRadius: 8,
+                                background: "var(--err-bg, #fde8e8)",
+                                color: "var(--err, #dc4545)",
+                                fontSize: "0.85rem",
+                                marginBottom: 16,
+                              }}
+                            >
+                              <Icon name="flame" size={16} />
+                              <div style={{ flex: 1 }}>{error || staffSubmitError}</div>
+                            </div>
+                          )}
+
+                          {/* SUB-METHOD A: STAFF WHATSAPP OTP */}
+                          {authMethod === "whatsapp" && (
+                            <div>
+                              {step === "phone" ? (
+                                <form onSubmit={handleSendOtp} style={{ display: "grid", gap: 14 }}>
+                                  <div>
+                                    <label htmlFor="staff-phone-otp-in" style={{ display: "block", fontSize: "0.82rem", fontWeight: 700, marginBottom: 6 }}>
+                                      Registered Staff WhatsApp Number
+                                    </label>
+                                    <div style={{ display: "flex", border: "1.5px solid var(--line, #cbd5e1)", borderRadius: "var(--r-sm, 10px)", overflow: "hidden", background: "#fff" }}>
+                                      <div style={{ padding: "0 14px", height: 48, display: "flex", alignItems: "center", background: "var(--bg-2, #f1f5f9)", borderRight: "1.5px solid var(--line, #cbd5e1)", fontWeight: 700, color: "var(--navy, #10263a)", fontSize: "0.95rem" }}>
+                                        +91
+                                      </div>
+                                      <input
+                                        id="staff-phone-otp-in"
+                                        type="tel"
+                                        inputMode="tel"
+                                        placeholder="98765 43210"
+                                        value={phone}
+                                        onChange={handlePhoneChange}
+                                        disabled={loading}
+                                        style={{ flex: 1, height: 48, border: "none", outline: "none", padding: "0 12px", fontSize: "1rem", fontWeight: 600 }}
+                                      />
+                                    </div>
+                                  </div>
+
+                                  <OtpDispatchFeedback loading={loading} channel="whatsapp" destination={phone} />
+
+                                  <button
+                                    type="submit"
+                                    disabled={!isPhoneValid || loading}
+                                    className="btn btn-navy btn-block"
+                                    style={{ height: 48, fontSize: "0.95rem", fontWeight: 700 }}
+                                  >
+                                    {loading ? (
+                                      <>
+                                        <span className="otp-btn-spinner" aria-hidden="true" />
+                                        <span>Sending WhatsApp OTP...</span>
+                                      </>
+                                    ) : (
+                                      "Send WhatsApp OTP"
+                                    )}
+                                  </button>
+                                </form>
+                              ) : (
+                                <div style={{ display: "grid", gap: 16 }}>
+                                  <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", fontSize: "0.84rem" }}>
+                                    <span>Sent to: <strong>+91 {phone}</strong></span>
+                                    <button
+                                      type="button"
+                                      onClick={() => setStep("phone")}
+                                      style={{ background: "transparent", border: "none", color: "var(--blue-ink, #1a73e8)", fontWeight: 700, cursor: "pointer" }}
+                                    >
+                                      Change
+                                    </button>
+                                  </div>
+
+                                  <div
+                                    onPaste={handleOtpPaste}
+                                    style={{
+                                      display: "grid",
+                                      gridTemplateColumns: "repeat(6, minmax(0, 1fr))",
+                                      gap: "clamp(6px, 1.8vw, 10px)",
+                                      width: "100%",
+                                      maxWidth: 340,
+                                      margin: "0 auto",
+                                      boxSizing: "border-box",
+                                    }}
+                                  >
+                                    {otp.map((digit, idx) => (
+                                      <input
+                                        key={idx}
+                                        ref={(el) => (otpInputRefs.current[idx] = el)}
+                                        type="text"
+                                        inputMode="numeric"
+                                        pattern="[0-9]*"
+                                        maxLength={6}
+                                        autoComplete={idx === 0 ? "one-time-code" : "off"}
+                                        value={digit}
+                                        onChange={(e) => handleOtpDigitChange(idx, e.target.value)}
+                                        onKeyDown={(e) => handleOtpKeyDown(idx, e)}
+                                        onPaste={handleOtpPaste}
+                                        disabled={loading}
+                                        style={{
+                                          width: "100%",
+                                          minWidth: 0,
+                                          maxWidth: "100%",
+                                          boxSizing: "border-box",
+                                          height: 52,
+                                          padding: 0,
+                                          textAlign: "center",
+                                          fontSize: "1.3rem",
+                                          fontWeight: 800,
+                                          borderRadius: 10,
+                                          border: digit ? "2px solid var(--navy, #10263a)" : "1.5px solid var(--line, #dce4ed)",
+                                          background: digit ? "var(--blue-50, #f0f7ff)" : "#fff",
+                                          color: "var(--navy, #10263a)",
+                                          outline: "none",
+                                          boxShadow: digit ? "0 2px 8px rgba(16, 38, 58, 0.08)" : "none",
+                                          transition: "all 0.15s ease",
+                                        }}
+                                      />
+                                    ))}
+                                  </div>
+
+                                  <button
+                                    type="button"
+                                    onClick={() => handleVerifyOtp()}
+                                    disabled={otp.join("").length !== 6 || loading}
+                                    className="btn btn-navy btn-block"
+                                    style={{ height: 48, fontWeight: 700 }}
+                                  >
+                                    {loading ? "Verifying..." : "Verify & Sign In as Staff →"}
+                                  </button>
+
+                                  <div style={{ textAlign: "center", fontSize: "0.84rem" }}>
+                                    {cooldown > 0 ? (
+                                      <span style={{ color: "var(--tx-3, #94a3b8)" }}>Resend code in {cooldown}s</span>
+                                    ) : (
+                                      <button
+                                        type="button"
+                                        onClick={handleResendOtp}
+                                        disabled={loading}
+                                        style={{ background: "transparent", border: "none", color: "var(--blue-ink, #1a73e8)", fontWeight: 700, cursor: "pointer", padding: 0 }}
+                                      >
+                                        Resend Code
+                                      </button>
+                                    )}
+                                  </div>
+                                </div>
+                              )}
+                            </div>
+                          )}
+
+                          {/* SUB-METHOD B: STAFF WORK EMAIL + PASSWORD */}
+                          {authMethod === "email" && (
+                            <form onSubmit={handleStaffLoginSubmit} style={{ display: "grid", gap: 14 }}>
+                              <div>
+                                <label htmlFor="staff-login-email-in" style={{ display: "block", fontSize: "0.82rem", fontWeight: 700, marginBottom: 4 }}>
+                                  Work Email
+                                </label>
+                                <input
+                                  id="staff-login-email-in"
+                                  type="email"
+                                  required
+                                  placeholder="staff@dealership.com"
+                                  autoComplete="email"
+                                  value={staffLoginEmail}
+                                  onChange={(e) => setStaffLoginEmail(e.target.value)}
+                                  style={{ width: "100%", height: 46, borderRadius: 8, border: "1.5px solid var(--line, #cbd5e1)", padding: "0 12px", fontSize: "0.95rem", boxSizing: "border-box" }}
+                                />
+                              </div>
+
+                              <div>
+                                <label htmlFor="staff-login-pass-in" style={{ display: "block", fontSize: "0.82rem", fontWeight: 700, marginBottom: 4 }}>
+                                  Password
+                                </label>
+                                <div style={{ position: "relative" }}>
+                                  <input
+                                    id="staff-login-pass-in"
+                                    type={staffShowPassword ? "text" : "password"}
+                                    required
+                                    placeholder="••••••••"
+                                    autoComplete="current-password"
+                                    value={staffLoginPassword}
+                                    onChange={(e) => setStaffLoginPassword(e.target.value)}
+                                    style={{ width: "100%", height: 46, borderRadius: 8, border: "1.5px solid var(--line, #cbd5e1)", padding: "0 40px 0 12px", fontSize: "0.95rem", boxSizing: "border-box" }}
+                                  />
+                                  <button
+                                    type="button"
+                                    onClick={() => setStaffShowPassword((v) => !v)}
+                                    style={{
+                                      position: "absolute",
+                                      right: 10,
+                                      top: "50%",
+                                      transform: "translateY(-50%)",
+                                      background: "transparent",
+                                      border: "none",
+                                      color: "var(--tx-3, #94a3b8)",
+                                      cursor: "pointer",
+                                      padding: 4,
+                                      display: "flex",
+                                    }}
+                                    aria-label={staffShowPassword ? "Hide password" : "Show password"}
+                                  >
+                                    <Icon name={staffShowPassword ? "eyeoff" : "eye"} size={16} />
+                                  </button>
+                                </div>
+                              </div>
+
+                              <button
+                                type="submit"
+                                disabled={staffSubmitLoading || !staffLoginEmail || !staffLoginPassword}
+                                className="btn btn-navy btn-block"
+                                style={{ height: 48, fontWeight: 700, marginTop: 4 }}
+                              >
+                                {staffSubmitLoading ? "Signing in..." : "Sign In as Staff →"}
+                              </button>
+                            </form>
+                          )}
+
+                          <div style={{ textAlign: "center", marginTop: 14, fontSize: "0.85rem", color: "var(--tx-2, #64748b)" }}>
                             First time joining your showroom?{" "}
                             <button
                               type="button"
-                              onClick={() => { setStaffMode("join"); setStaffSubmitError(""); }}
+                              onClick={() => { setStaffMode("join"); setStaffSubmitError(""); setError(null); }}
                               style={{
                                 background: "transparent",
                                 border: "none",
@@ -1600,223 +1814,16 @@ export default function Login() {
                               Join with Store Code
                             </button>
                           </div>
-                        </form>
+                        </div>
                       )}
 
-                      {/* MODE 2: STAFF JOIN WITH DEALER CODE */}
-                      {staffMode === "join" && (!staffStoreInfo ? (
-                        <form onSubmit={handleStaffLookup} style={{ display: "grid", gap: 14 }}>
-                          <div>
-                            <label htmlFor="staff-code-in" style={{ display: "block", fontSize: "0.82rem", fontWeight: 700, marginBottom: 6 }}>
-                              Store / Dealer Code
-                            </label>
-                            <input
-                              id="staff-code-in"
-                              type="text"
-                              placeholder="e.g. SHR-12345 or DE-ABC-1234"
-                              value={staffCode}
-                              onChange={(e) => {
-                                setStaffCode(formatLoginCode(e.target.value));
-                                setStaffLookupError("");
-                              }}
-                              style={{
-                                width: "100%",
-                                height: 48,
-                                borderRadius: "var(--r-sm, 10px)",
-                                border: "1.5px solid var(--line)",
-                                padding: "0 14px",
-                                fontSize: "1rem",
-                                fontWeight: 700,
-                                letterSpacing: "0.08em",
-                                textTransform: "uppercase",
-                              }}
-                            />
-                          </div>
-
-                          <button
-                            type="submit"
-                            disabled={staffLookupLoading || !staffCode.trim()}
-                            className="btn btn-navy btn-block"
-                            style={{ height: 48, fontWeight: 700 }}
-                          >
-                            {staffLookupLoading ? "Verifying Code..." : "Verify Store Code →"}
-                          </button>
-
-                          <div style={{ textAlign: "center", marginTop: 8, fontSize: "0.85rem", color: "var(--tx-2, #64748b)" }}>
-                            Already have staff access?{" "}
-                            <button
-                              type="button"
-                              onClick={() => { setStaffMode("login"); setStaffSubmitError(""); }}
-                              style={{
-                                background: "transparent",
-                                border: "none",
-                                color: "var(--brand, #0f172a)",
-                                fontWeight: 700,
-                                cursor: "pointer",
-                                textDecoration: "underline",
-                                padding: 0,
-                              }}
-                            >
-                              Sign In with Email
-                            </button>
-                          </div>
-                        </form>
-                      ) : (
-                        <form onSubmit={handleStaffSignupSubmit} style={{ display: "grid", gap: 14 }}>
-                          {/* Verified Store Card (SVG Icon, No Emoji) */}
-                          <div style={{ padding: "12px 14px", borderRadius: 10, background: "#f0fdf4", border: "1px solid #bbf7d0", display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-                            <div>
-                              <div style={{ display: "flex", alignItems: "center", gap: 6, fontSize: "0.78rem", fontWeight: 700, color: "#166534", textTransform: "uppercase" }}>
-                                <Icon name="check" size={13} />
-                                Verified Store
-                              </div>
-                              <div style={{ fontSize: "0.98rem", fontWeight: 800, color: "var(--tx)" }}>
-                                {staffStoreInfo.name || staffStoreInfo.business_name || "Authorized Dealership"}
-                              </div>
-                            </div>
-                            <button
-                              type="button"
-                              onClick={() => {
-                                setStaffStoreInfo(null);
-                                setStaffCode("");
-                              }}
-                              style={{ background: "transparent", border: "none", color: "var(--tx-3)", fontSize: "0.78rem", cursor: "pointer", textDecoration: "underline" }}
-                            >
-                              Change
-                            </button>
-                          </div>
-
-                          <div>
-                            <label htmlFor="staff-name-in" style={{ display: "block", fontSize: "0.82rem", fontWeight: 700, marginBottom: 4 }}>
-                              Full Name
-                            </label>
-                            <input
-                              id="staff-name-in"
-                              type="text"
-                              required
-                              placeholder="Rajesh Sharma"
-                              value={staffForm.fullName}
-                              onChange={(e) => setStaffForm((f) => ({ ...f, fullName: e.target.value }))}
-                              style={{ width: "100%", height: 46, borderRadius: 8, border: "1.5px solid var(--line)", padding: "0 12px" }}
-                            />
-                          </div>
-
-                          <div>
-                            <label htmlFor="staff-email-in" style={{ display: "block", fontSize: "0.82rem", fontWeight: 700, marginBottom: 4 }}>
-                              Work Email
-                            </label>
-                            <input
-                              id="staff-email-in"
-                              type="email"
-                              required
-                              placeholder="staff@dealership.com"
-                              value={staffForm.email}
-                              onChange={(e) => setStaffForm((f) => ({ ...f, email: e.target.value }))}
-                              style={{ width: "100%", height: 46, borderRadius: 8, border: "1.5px solid var(--line)", padding: "0 12px" }}
-                            />
-                          </div>
-
-                          <div>
-                            <label htmlFor="staff-phone-in" style={{ display: "block", fontSize: "0.82rem", fontWeight: 700, marginBottom: 4 }}>
-                              Mobile Number (10 digits) <span style={{ color: "var(--err, #dc2626)" }}>*</span>
-                            </label>
-                            <div style={{ display: "flex", alignItems: "center" }}>
-                              <span style={{
-                                display: "inline-flex",
-                                alignItems: "center",
-                                justifyContent: "center",
-                                height: 46,
-                                padding: "0 12px",
-                                background: "var(--bg-2, #f1f5f9)",
-                                border: "1.5px solid var(--line, #cbd5e1)",
-                                borderRight: "none",
-                                borderRadius: "8px 0 0 8px",
-                                fontSize: "0.9rem",
-                                fontWeight: 700,
-                                color: "var(--tx-2, #64748b)"
-                              }}>
-                                +91
-                              </span>
-                              <input
-                                id="staff-phone-in"
-                                type="tel"
-                                required
-                                maxLength={10}
-                                placeholder="9876543210"
-                                value={staffForm.phone}
-                                onChange={(e) => setStaffForm((f) => ({ ...f, phone: e.target.value.replace(/\D/g, "").slice(0, 10) }))}
-                                style={{
-                                  flex: 1,
-                                  height: 46,
-                                  borderRadius: "0 8px 8px 0",
-                                  border: "1.5px solid var(--line, #cbd5e1)",
-                                  padding: "0 12px",
-                                  fontSize: "0.95rem"
-                                }}
-                              />
-                            </div>
-                          </div>
-
-                          <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 10 }}>
-                            <div>
-                              <label htmlFor="staff-pass-in" style={{ display: "block", fontSize: "0.82rem", fontWeight: 700, marginBottom: 4 }}>
-                                Password
-                              </label>
-                              <input
-                                id="staff-pass-in"
-                                type="password"
-                                required
-                                placeholder="••••••••"
-                                value={staffForm.password}
-                                onChange={(e) => setStaffForm((f) => ({ ...f, password: e.target.value }))}
-                                style={{ width: "100%", height: 46, borderRadius: 8, border: "1.5px solid var(--line)", padding: "0 12px" }}
-                              />
-                            </div>
-                            <div>
-                              <label htmlFor="staff-cpass-in" style={{ display: "block", fontSize: "0.82rem", fontWeight: 700, marginBottom: 4 }}>
-                                Confirm
-                              </label>
-                              <input
-                                id="staff-cpass-in"
-                                type="password"
-                                required
-                                placeholder="••••••••"
-                                value={staffForm.confirmPassword}
-                                onChange={(e) => setStaffForm((f) => ({ ...f, confirmPassword: e.target.value }))}
-                                style={{ width: "100%", height: 46, borderRadius: 8, border: "1.5px solid var(--line)", padding: "0 12px" }}
-                              />
-                            </div>
-                          </div>
-
-                          <button
-                            type="submit"
-                            disabled={staffSubmitLoading}
-                            className="btn btn-navy btn-block"
-                            style={{ height: 48, fontWeight: 700, marginTop: 6 }}
-                          >
-                            {staffSubmitLoading ? "Submitting Registration..." : "Complete Staff Registration"}
-                          </button>
-
-                          <div style={{ textAlign: "center", marginTop: 8, fontSize: "0.85rem", color: "var(--tx-2, #64748b)" }}>
-                            Already have an account?{" "}
-                            <button
-                              type="button"
-                              onClick={() => { setStaffMode("login"); setStaffSubmitError(""); }}
-                              style={{
-                                background: "transparent",
-                                border: "none",
-                                color: "var(--brand, #0f172a)",
-                                fontWeight: 700,
-                                cursor: "pointer",
-                                textDecoration: "underline",
-                                padding: 0,
-                              }}
-                            >
-                              Sign In with Email
-                            </button>
-                          </div>
-                        </form>
-                      ))}
+                      {/* MODE 2: STAFF JOIN WITH DEALER CODE & TWO-CHANNEL VERIFICATION */}
+                      {staffMode === "join" && (
+                        <StaffJoinFlow
+                          onSwitchToLogin={() => { setStaffMode("login"); setError(null); setStaffSubmitError(""); }}
+                          onSuccess={() => navigate("/dealer/pending?kind=staff", { replace: true })}
+                        />
+                      )}
                     </div>
                   )}
                 </div>

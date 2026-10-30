@@ -1,33 +1,30 @@
 # Community 211
 
-> 10 nodes · cohesion 0.22
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **site-language-continuity.test.mjs** (12 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
-- **clickAndNavigate()** (2 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
-- **evaluate()** (2 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
-- **loadRuntime()** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
-- **navigate()** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
-- **navigationPath** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
-- **runtimePath** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
-- **startStaticServer()** (1 connections) — `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- **web-BllZ0_v7.js** (8 connections) — `android/app/src/main/assets/public/assets/web-BllZ0_v7.js`
+- **constructor()** (1 connections) — `android/app/src/main/assets/public/assets/web-BllZ0_v7.js`
+- **exitApp()** (1 connections) — `android/app/src/main/assets/public/assets/web-BllZ0_v7.js`
+- **getAppLanguage()** (1 connections) — `android/app/src/main/assets/public/assets/web-BllZ0_v7.js`
+- **getInfo()** (1 connections) — `android/app/src/main/assets/public/assets/web-BllZ0_v7.js`
+- **getLaunchUrl()** (1 connections) — `android/app/src/main/assets/public/assets/web-BllZ0_v7.js`
+- **getState()** (1 connections) — `android/app/src/main/assets/public/assets/web-BllZ0_v7.js`
+- **minimizeApp()** (1 connections) — `android/app/src/main/assets/public/assets/web-BllZ0_v7.js`
+- **toggleBackButtonHandler()** (1 connections) — `android/app/src/main/assets/public/assets/web-BllZ0_v7.js`
 
 ## Relationships
 
-- [[Community 52]] (1 shared connections)
-- [[Community 84]] (1 shared connections)
-- [[Community 131]] (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `.agents/skills/archify/test/site-language-continuity.test.mjs`
+- `android/app/src/main/assets/public/assets/web-BllZ0_v7.js`
 
 ## Audit Trail
 
-- EXTRACTED: 23 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

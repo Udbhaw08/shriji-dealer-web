@@ -1,20 +1,20 @@
 # Community 183
 
-> 11 nodes · cohesion 0.18
+> 11 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **multiAuth.test.mjs** (8 connections) — `backend/test/multiAuth.test.mjs`
-- **MockOAuth2Client** (3 connections) — `backend/test/multiAuth.test.mjs`
-- **app** (1 connections) — `backend/test/multiAuth.test.mjs`
-- **db** (1 connections) — `backend/test/multiAuth.test.mjs`
-- **.constructor()** (1 connections) — `backend/test/multiAuth.test.mjs`
-- **.verifyIdToken()** (1 connections) — `backend/test/multiAuth.test.mjs`
-- **mockSql()** (1 connections) — `backend/test/multiAuth.test.mjs`
-- **resetDb()** (1 connections) — `backend/test/multiAuth.test.mjs`
-- **startServer()** (1 connections) — `backend/test/multiAuth.test.mjs`
-- **stopServer()** (1 connections) — `backend/test/multiAuth.test.mjs`
-- **testEnv** (1 connections) — `backend/test/multiAuth.test.mjs`
+- **readme-showcase.test.mjs** (10 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
+- **inspectGif()** (2 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
+- **skipSubBlocks()** (2 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
+- **assetPath** (1 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
+- **git()** (1 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
+- **receiptPath** (1 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
+- **repoRoot** (1 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
+- **sha256()** (1 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
+- **writeStarHistoryCharts()** (1 connections) — `.agents/skills/archify/test/readme-showcase.test.mjs`
 
 ## Relationships
 
@@ -22,11 +22,11 @@
 
 ## Source Files
 
-- `backend/test/multiAuth.test.mjs`
+- `.agents/skills/archify/test/readme-showcase.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
+- EXTRACTED: 22 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

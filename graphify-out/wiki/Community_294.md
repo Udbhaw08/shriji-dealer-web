@@ -1,30 +1,34 @@
 # Community 294
 
-> 8 nodes · cohesion 0.25
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **story-director-strip.test.mjs** (7 connections) — `.agents/skills/archify/test/story-director-strip.test.mjs`
-- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/story-director-strip.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/story-director-strip.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/story-director-strip.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/story-director-strip.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/story-director-strip.test.mjs`
-- **template** (1 connections) — `.agents/skills/archify/test/story-director-strip.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/story-director-strip.test.mjs`
+- **commandCompare()** (20 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **commitComparePair()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **extractCompareOptions()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **formatDiagnostics()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **reportCompareFailure()** (3 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **compareCommitError()** (2 connections) — `.agents/skills/archify/bin/archify.mjs`
+- **compareReceiptPath()** (2 connections) — `.agents/skills/archify/bin/archify.mjs`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Community 48]] (11 shared connections)
+- [[Community 50]] (4 shared connections)
+- [[Community 139]] (3 shared connections)
+- [[Community 81]] (2 shared connections)
+- [[Community 167]] (2 shared connections)
+- [[Community 104]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/story-director-strip.test.mjs`
+- `.agents/skills/archify/bin/archify.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 27 (75%)
+- INFERRED: 9 (25%)
 - AMBIGUOUS: 0 (0%)
 
 ---

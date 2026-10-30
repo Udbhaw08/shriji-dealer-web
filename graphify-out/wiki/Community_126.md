@@ -1,37 +1,41 @@
 # Community 126
 
-> 15 nodes · cohesion 0.19
+> 14 nodes · cohesion 0.24
 
 ## Key Concepts
 
-- **items** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **items** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **items** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **sources** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **items** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **additionalProperties** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **required** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **boundaries** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **connections** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **maxItems** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **minItems** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **intent-trace-browser.test.mjs** (15 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **desktop-browser.mjs** (8 connections) — `.agents/skills/archify/test/helpers/desktop-browser.mjs`
+- **run()** (6 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **desktopBrowser()** (5 connections) — `.agents/skills/archify/test/helpers/desktop-browser.mjs`
+- **desktopPointerCheck()** (5 connections) — `.agents/skills/archify/test/helpers/desktop-browser.mjs`
+- **load()** (4 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **point()** (4 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **click()** (3 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **media()** (3 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **move()** (3 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **afterTimer()** (2 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **key()** (2 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **snapshot()** (2 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
 
 ## Relationships
 
-- [[Zoho API Diagnostic Script]] (5 shared connections)
-- [[Community 80]] (3 shared connections)
+- [[Community 60]] (9 shared connections)
+- [[Community 144]] (3 shared connections)
+- [[Community 145]] (3 shared connections)
+- [[Community 42]] (2 shared connections)
+- [[Community 148]] (1 shared connections)
+- [[Community 125]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/architecture.schema.json`
+- `.agents/skills/archify/test/helpers/desktop-browser.mjs`
+- `.agents/skills/archify/test/intent-trace-browser.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 48 (100%)
+- EXTRACTED: 63 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

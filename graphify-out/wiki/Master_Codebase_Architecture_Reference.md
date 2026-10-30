@@ -1,61 +1,54 @@
 # Master Codebase Architecture Reference
 
-> 60 nodes · cohesion 0.10
+> 78 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **auth.js** (55 connections) — `backend/src/routes/auth.js`
-- **dealerApp.js** (44 connections) — `backend/src/services/dealerApp.js`
-- **crmClient.js** (39 connections) — `backend/src/services/crmClient.js`
-- **normalizePhone()** (21 connections) — `backend/src/utils/phone.js`
-- **normalizeEmail()** (18 connections) — `backend/src/utils/validators.js`
-- **notifications.js** (16 connections) — `backend/src/services/notifications.js`
-- **crmFetch()** (15 connections) — `backend/src/services/crmClient.js`
-- **validators.js** (15 connections) — `backend/src/utils/validators.js`
-- **requestDealerRegistrationOtp()** (14 connections) — `backend/src/services/dealerApp.js`
-- **finalizeDealerRegistration()** (12 connections) — `backend/src/services/dealerApp.js`
-- **isValidPhone()** (11 connections) — `backend/src/utils/validators.js`
-- **crmConfigured()** (9 connections) — `backend/src/services/crmClient.js`
-- **cleanName()** (9 connections) — `backend/src/utils/validators.js`
-- **httpError()** (8 connections) — `backend/src/middleware/errorHandler.js`
-- **issueSession()** (8 connections) — `backend/src/routes/auth.js`
-- **validators.test.mjs** (8 connections) — `backend/test/validators.test.mjs`
-- **phone.js** (8 connections) — `backend/src/utils/phone.js`
-- **verifyDealerRegistrationOtp()** (7 connections) — `backend/src/services/dealerApp.js`
-- **sendWhatsAppOtp()** (7 connections) — `backend/src/services/notifications.js`
-- **isValidEmail()** (7 connections) — `backend/src/utils/validators.js`
-- **createDealerAccount()** (6 connections) — `backend/src/services/crmClient.js`
-- **createDealerContact()** (6 connections) — `backend/src/services/crmClient.js`
-- **interconnection.test.mjs** (6 connections) — `backend/test/interconnection.test.mjs`
-- **isValidName()** (6 connections) — `backend/src/utils/validators.js`
-- **findOwnerContactInAccount()** (5 connections) — `backend/src/services/crmClient.js`
-- *... and 35 more nodes in this community*
+- **i()** (67 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **zd()** (16 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **fc()** (15 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **jc()** (15 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **Md()** (15 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **wi()** (14 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **ea()** (13 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **Pi()** (13 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **qd()** (13 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **s()** (13 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **Cc()** (12 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **Nd()** (11 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **tc()** (11 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **c()** (10 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **Wc()** (10 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **fa()** (9 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **hh()** (9 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **yh()** (9 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **yi()** (9 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **et()** (8 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **Gd()** (8 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **rc()** (8 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **ef()** (7 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **Ei()** (7 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- **Go()** (7 connections) — `ios/App/App/public/assets/index-Cd7u1Aqo.js`
+- *... and 53 more nodes in this community*
 
 ## Relationships
 
-- [[Live Pricing Audit Tool]] (42 shared connections)
-- [[Community 47]] (23 shared connections)
-- [[Product Pages Specification]] (17 shared connections)
-- [[Client Products Data Store]] (16 shared connections)
-- [[Community 323]] (4 shared connections)
+- [[Price Presentation & Product UI]] (112 shared connections)
+- [[Product Requirements Documentation]] (35 shared connections)
+- [[Client Products Data Store]] (33 shared connections)
+- [[Community 47]] (30 shared connections)
+- [[Community 39]] (14 shared connections)
+- [[Community 101]] (13 shared connections)
+- [[Community 100]] (12 shared connections)
+- [[Community 40]] (6 shared connections)
 
 ## Source Files
 
-- `backend/src/middleware/errorHandler.js`
-- `backend/src/middleware/rateLimit.js`
-- `backend/src/routes/auth.js`
-- `backend/src/routes/dealers.js`
-- `backend/src/services/crmClient.js`
-- `backend/src/services/dealerApp.js`
-- `backend/src/services/notifications.js`
-- `backend/src/utils/phone.js`
-- `backend/src/utils/validators.js`
-- `backend/test/interconnection.test.mjs`
-- `backend/test/validators.test.mjs`
+- `ios/App/App/public/assets/index-Cd7u1Aqo.js`
 
 ## Audit Trail
 
-- EXTRACTED: 462 (100%)
+- EXTRACTED: 585 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

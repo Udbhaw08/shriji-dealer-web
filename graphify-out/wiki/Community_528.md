@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **test-supabase.mjs** (1 connections) — `scripts/test-supabase.mjs`
-- **test()** (1 connections) — `scripts/test-supabase.mjs`
+- **checkout-line-endings.test.mjs** (1 connections) — `.agents/skills/archify/test/checkout-line-endings.test.mjs`
+- **repoRoot** (1 connections) — `.agents/skills/archify/test/checkout-line-endings.test.mjs`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `scripts/test-supabase.mjs`
+- `.agents/skills/archify/test/checkout-line-endings.test.mjs`
 
 ## Audit Trail
 

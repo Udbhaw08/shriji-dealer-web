@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **Volume Tier Discounts & Quantity Slabs** (2 connections) — `docs/guides/pricing-tiers-and-slabs.md`
-- **pricing-tiers-and-slabs.md** (1 connections) — `docs/guides/pricing-tiers-and-slabs.md`
-- **Slab Structure** (1 connections) — `docs/guides/pricing-tiers-and-slabs.md`
+- **Android Release Keystore & Bundle Guide** (2 connections) — `docs/mobile/android-keystore-generation.md`
+- **android-keystore-generation.md** (1 connections) — `docs/mobile/android-keystore-generation.md`
+- **Commands** (1 connections) — `docs/mobile/android-keystore-generation.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/guides/pricing-tiers-and-slabs.md`
+- `docs/mobile/android-keystore-generation.md`
 
 ## Audit Trail
 

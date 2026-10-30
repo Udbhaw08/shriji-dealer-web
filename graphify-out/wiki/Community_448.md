@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **Zoho Commerce Inventory Synchronization** (2 connections) — `docs/architecture/zoho-inventory-sync.md`
-- **zoho-inventory-sync.md** (1 connections) — `docs/architecture/zoho-inventory-sync.md`
-- **Strategy** (1 connections) — `docs/architecture/zoho-inventory-sync.md`
+- **Dealer Onboarding & Approval Lifecycle** (2 connections) — `docs/guides/dealer-onboarding-flow.md`
+- **dealer-onboarding-flow.md** (1 connections) — `docs/guides/dealer-onboarding-flow.md`
+- **Lifecycle States** (1 connections) — `docs/guides/dealer-onboarding-flow.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/architecture/zoho-inventory-sync.md`
+- `docs/guides/dealer-onboarding-flow.md`
 
 ## Audit Trail
 
