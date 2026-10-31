@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **CacheManager** (4 connections) — `backend/src/services/cacheManager.js`
-- **cacheManager.js** (2 connections) — `backend/src/services/cacheManager.js`
-- **.constructor()** (1 connections) — `backend/src/services/cacheManager.js`
-- **.get()** (1 connections) — `backend/src/services/cacheManager.js`
-- **.set()** (1 connections) — `backend/src/services/cacheManager.js`
-- **globalCache** (1 connections) — `backend/src/services/cacheManager.js`
+- **Steppers** (4 connections) — `.agents/skills/apple-design/references/hig/steppers.md`
+- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/steppers.md`
+- **steppers.md** (1 connections) — `.agents/skills/apple-design/references/hig/steppers.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/steppers.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/steppers.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/steppers.md`
 
 ## Relationships
 
@@ -17,7 +17,7 @@
 
 ## Source Files
 
-- `backend/src/services/cacheManager.js`
+- `.agents/skills/apple-design/references/hig/steppers.md`
 
 ## Audit Trail
 

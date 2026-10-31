@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **dbHealthCheck.test.mjs** (0 connections) — `backend/test/dbHealthCheck.test.mjs`
+- **build_wiki.py** (0 connections) — `scripts/build_wiki.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `backend/test/dbHealthCheck.test.mjs`
+- `scripts/build_wiki.py`
 
 ## Audit Trail
 

@@ -39,7 +39,11 @@ webhooksRouter.all(['/crm/approval', '/crm/sync', '/crm/update', '/crm/webhook']
       });
     }
 
-    const headerSecret = req.headers['x-webhook-secret'];
+    const headerSecret =
+      req.headers['x-webhook-secret'] ||
+      req.headers['webhook-secret'] ||
+      req.headers['x-api-key'] ||
+      (req.headers.authorization?.startsWith('Bearer ') ? req.headers.authorization.slice(7) : null);
     if (typeof headerSecret !== 'string') {
       throw Object.assign(new Error('missing X-Webhook-Secret header'), {
         statusCode: 401,
@@ -73,6 +77,13 @@ webhooksRouter.all(['/crm/approval', '/crm/sync', '/crm/update', '/crm/webhook']
       return res.json({ ok: true, deduped: true });
     }
 
+    const rawBodyId =
+      typeof req.body === 'string' && /^\d{10,25}$/.test(req.body.trim())
+        ? req.body.trim()
+        : typeof req.body === 'number'
+          ? String(req.body)
+          : null;
+
     const refId =
       payload.id || query.id ||
       payload.account_id || query.account_id ||
@@ -80,7 +91,12 @@ webhooksRouter.all(['/crm/approval', '/crm/sync', '/crm/update', '/crm/webhook']
       payload.contact_id || query.contact_id ||
       payload.Contact_ID || query.Contact_ID ||
       payload.entity_id || query.entity_id ||
-      payload.data?.[0]?.id || null;
+      payload.data?.[0]?.id ||
+      req.headers['x-account-id'] ||
+      req.headers['x-contact-id'] ||
+      req.headers['account_id'] ||
+      rawBodyId ||
+      null;
 
     await sql`insert into webhook_events (source, ref_id, payload_hash, processed_at) values ('crm', ${String(refId || '')}, ${payloadHash}, now())`;
 
@@ -89,7 +105,7 @@ webhooksRouter.all(['/crm/approval', '/crm/sync', '/crm/update', '/crm/webhook']
       return res.json({ ok: true, ignored: 'no_id' });
     }
 
-    const explicitModule = payload.module || query.module || null;
+    const explicitModule = payload.module || query.module || req.headers['x-module'] || req.headers['module'] || null;
 
     // Check if this refId is a Contact
     let isContact = explicitModule === 'Contacts' || Boolean(payload.contact_id || query.contact_id || payload.Contact_ID || query.Contact_ID);

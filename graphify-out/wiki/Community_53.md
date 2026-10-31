@@ -1,62 +1,56 @@
 # Community 53
 
-> 31 nodes · cohesion 0.12
+> 27 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **visual-check.mjs** (50 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **runVisualCheck()** (18 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **desktop-readability.mjs** (9 connections) — `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
-- **adaptive-reader-layout.test.mjs** (9 connections) — `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
-- **desktop-reader-browser.test.mjs** (8 connections) — `.agents/skills/archify/test/desktop-reader-browser.test.mjs`
-- **DESKTOP_READABILITY_VIEWPORT** (5 connections) — `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
-- **observationDiagnostics()** (4 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **safeUnlink()** (4 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **writeAtomic()** (4 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **baseReceipt()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **cleanupCaptureSidecars()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **contactSheetHtml()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **failureDiagnostic()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **persistReceipt()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **sha256()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **sidecarPaths()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **htmlEscape()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **observation()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **screenshotKey()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **viewportSubject()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **CAPTURE_VIEWPORTS** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **EXIT** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **THEMES** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
-- **reader** (1 connections) — `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
-- *... and 6 more nodes in this community*
+- **dl()** (26 connections) — `android/app/src/main/assets/public/assets/index-5ksJPaSv.js`
+- **pe()** (13 connections) — `android/app/src/main/assets/public/assets/index-5ksJPaSv.js`
+- **fl()** (10 connections) — `android/app/src/main/assets/public/assets/index-5ksJPaSv.js`
+- **ye()** (10 connections) — `android/app/src/main/assets/public/assets/index-5ksJPaSv.js`
+- **pl()** (9 connections) — `android/app/src/main/assets/public/assets/index-5ksJPaSv.js`
+- **Sp()** (9 connections) — `android/app/src/main/assets/public/assets/index-5ksJPaSv.js`
+- **Do()** (8 connections) — `android/app/src/main/assets/public/assets/index-5ksJPaSv.js`
+- **su()** (7 connections) — `android/app/src/main/assets/public/assets/index-5ksJPaSv.js`
+- **bo()** (6 connections) — `android/app/src/main/assets/public/assets/index-5ksJPaSv.js`
+- **da()** (6 connections) — `android/app/src/main/assets/public/assets/index-5ksJPaSv.js`
+- **ia()** (6 connections) — `android/app/src/main/assets/public/assets/index-5ksJPaSv.js`
+- **me()** (6 connections) — `android/app/src/main/assets/public/assets/index-5ksJPaSv.js`
+- **sl()** (6 connections) — `android/app/src/main/assets/public/assets/index-5ksJPaSv.js`
+- **fa()** (5 connections) — `android/app/src/main/assets/public/assets/index-5ksJPaSv.js`
+- **hm()** (5 connections) — `android/app/src/main/assets/public/assets/index-5ksJPaSv.js`
+- **al()** (4 connections) — `android/app/src/main/assets/public/assets/index-5ksJPaSv.js`
+- **bl()** (4 connections) — `android/app/src/main/assets/public/assets/index-5ksJPaSv.js`
+- **kl()** (4 connections) — `android/app/src/main/assets/public/assets/index-5ksJPaSv.js`
+- **ol()** (4 connections) — `android/app/src/main/assets/public/assets/index-5ksJPaSv.js`
+- **qi()** (4 connections) — `android/app/src/main/assets/public/assets/index-5ksJPaSv.js`
+- **yc()** (4 connections) — `android/app/src/main/assets/public/assets/index-5ksJPaSv.js`
+- **he()** (3 connections) — `android/app/src/main/assets/public/assets/index-5ksJPaSv.js`
+- **Vd()** (3 connections) — `android/app/src/main/assets/public/assets/index-5ksJPaSv.js`
+- **Ym()** (3 connections) — `android/app/src/main/assets/public/assets/index-5ksJPaSv.js`
+- **aa()** (2 connections) — `android/app/src/main/assets/public/assets/index-5ksJPaSv.js`
+- *... and 2 more nodes in this community*
 
 ## Relationships
 
-- [[Community 90]] (8 shared connections)
-- [[Community 130]] (6 shared connections)
-- [[Community 58]] (5 shared connections)
-- [[Roles & Customer Sharing Spec]] (4 shared connections)
-- [[Community 71]] (3 shared connections)
-- [[Architecture Doc Generator]] (3 shared connections)
+- [[Product Pages Specification]] (27 shared connections)
+- [[Dealer Auth & Session Management]] (12 shared connections)
+- [[Dependencies & Package Config]] (10 shared connections)
+- [[Community 47]] (9 shared connections)
+- [[Community 43]] (9 shared connections)
+- [[Claude Agent Instructions]] (6 shared connections)
+- [[Community 76]] (5 shared connections)
 - [[Graphify Knowledge Graph Skill]] (2 shared connections)
-- [[Community 96]] (2 shared connections)
-- [[Community 110]] (2 shared connections)
-- [[Community 148]] (1 shared connections)
-- [[Community 149]] (1 shared connections)
-- [[Community 128]] (1 shared connections)
+- [[Community 62]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/bin/visual-check.mjs`
-- `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
-- `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
-- `.agents/skills/archify/test/desktop-reader-browser.test.mjs`
+- `android/app/src/main/assets/public/assets/index-5ksJPaSv.js`
 
 ## Audit Trail
 
-- EXTRACTED: 150 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 171 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

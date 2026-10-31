@@ -4,15 +4,15 @@
 
 ## Key Concepts
 
-- **web-DwEDhBJ9.js** (8 connections) — `ios/App/App/public/assets/web-DwEDhBJ9.js`
-- **constructor()** (1 connections) — `ios/App/App/public/assets/web-DwEDhBJ9.js`
-- **exitApp()** (1 connections) — `ios/App/App/public/assets/web-DwEDhBJ9.js`
-- **getAppLanguage()** (1 connections) — `ios/App/App/public/assets/web-DwEDhBJ9.js`
-- **getInfo()** (1 connections) — `ios/App/App/public/assets/web-DwEDhBJ9.js`
-- **getLaunchUrl()** (1 connections) — `ios/App/App/public/assets/web-DwEDhBJ9.js`
-- **getState()** (1 connections) — `ios/App/App/public/assets/web-DwEDhBJ9.js`
-- **minimizeApp()** (1 connections) — `ios/App/App/public/assets/web-DwEDhBJ9.js`
-- **toggleBackButtonHandler()** (1 connections) — `ios/App/App/public/assets/web-DwEDhBJ9.js`
+- **Sheets** (6 connections) — `.agents/skills/apple-design/references/hig/sheets.md`
+- **Platform considerations** (3 connections) — `.agents/skills/apple-design/references/hig/sheets.md`
+- **sheets.md** (1 connections) — `.agents/skills/apple-design/references/hig/sheets.md`
+- **Anatomy** (1 connections) — `.agents/skills/apple-design/references/hig/sheets.md`
+- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/sheets.md`
+- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/sheets.md`
+- **Desktop (macOS)** (1 connections) — `.agents/skills/apple-design/references/hig/sheets.md`
+- **Mobile (iOS, iPadOS)** (1 connections) — `.agents/skills/apple-design/references/hig/sheets.md`
+- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/sheets.md`
 
 ## Relationships
 
@@ -20,7 +20,7 @@
 
 ## Source Files
 
-- `ios/App/App/public/assets/web-DwEDhBJ9.js`
+- `.agents/skills/apple-design/references/hig/sheets.md`
 
 ## Audit Trail
 

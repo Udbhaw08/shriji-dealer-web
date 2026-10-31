@@ -1,55 +1,55 @@
 # Community 49
 
-> 32 nodes · cohesion 0.11
+> 31 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **il()** (39 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
-- **zc()** (14 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
-- **tl()** (13 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
-- **rl()** (12 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
-- **Wc()** (10 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
-- **Oc()** (9 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
-- **Sa()** (9 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
-- **ve()** (9 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
-- **Ei()** (7 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
-- **kc()** (7 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
-- **io()** (6 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
-- **lh()** (6 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
-- **wo()** (6 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
-- **ao()** (5 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
-- **be()** (5 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
-- **el()** (5 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
-- **Go()** (5 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
-- **ha()** (5 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
-- **nl()** (5 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
-- **ua()** (5 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
-- **im()** (4 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
-- **Lc()** (4 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
-- **po()** (4 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
-- **rm()** (4 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
-- **uc()** (4 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
-- *... and 7 more nodes in this community*
+- **k()** (20 connections) — `ios/App/App/public/assets/index-5ksJPaSv.js`
+- **rt()** (20 connections) — `ios/App/App/public/assets/index-5ksJPaSv.js`
+- **ot()** (17 connections) — `ios/App/App/public/assets/index-5ksJPaSv.js`
+- **A()** (14 connections) — `ios/App/App/public/assets/index-5ksJPaSv.js`
+- **at()** (14 connections) — `ios/App/App/public/assets/index-5ksJPaSv.js`
+- **dt()** (13 connections) — `ios/App/App/public/assets/index-5ksJPaSv.js`
+- **lt()** (10 connections) — `ios/App/App/public/assets/index-5ksJPaSv.js`
+- **nt()** (9 connections) — `ios/App/App/public/assets/index-5ksJPaSv.js`
+- **st()** (9 connections) — `ios/App/App/public/assets/index-5ksJPaSv.js`
+- **en()** (7 connections) — `ios/App/App/public/assets/index-5ksJPaSv.js`
+- **Jt()** (7 connections) — `ios/App/App/public/assets/index-5ksJPaSv.js`
+- **kf()** (7 connections) — `ios/App/App/public/assets/index-5ksJPaSv.js`
+- **P()** (7 connections) — `ios/App/App/public/assets/index-5ksJPaSv.js`
+- **tn()** (7 connections) — `ios/App/App/public/assets/index-5ksJPaSv.js`
+- **An()** (6 connections) — `ios/App/App/public/assets/index-5ksJPaSv.js`
+- **ke()** (6 connections) — `ios/App/App/public/assets/index-5ksJPaSv.js`
+- **eo()** (5 connections) — `ios/App/App/public/assets/index-5ksJPaSv.js`
+- **Gt()** (5 connections) — `ios/App/App/public/assets/index-5ksJPaSv.js`
+- **ie()** (5 connections) — `ios/App/App/public/assets/index-5ksJPaSv.js`
+- **Mt()** (5 connections) — `ios/App/App/public/assets/index-5ksJPaSv.js`
+- **re()** (5 connections) — `ios/App/App/public/assets/index-5ksJPaSv.js`
+- **ut()** (5 connections) — `ios/App/App/public/assets/index-5ksJPaSv.js`
+- **wn()** (5 connections) — `ios/App/App/public/assets/index-5ksJPaSv.js`
+- **yt()** (5 connections) — `ios/App/App/public/assets/index-5ksJPaSv.js`
+- **Bt()** (4 connections) — `ios/App/App/public/assets/index-5ksJPaSv.js`
+- *... and 6 more nodes in this community*
 
 ## Relationships
 
-- [[Master Codebase Architecture Reference]] (32 shared connections)
-- [[Dealer Auth & Session Management]] (28 shared connections)
-- [[Dependencies & Package Config]] (11 shared connections)
-- [[Mobile Responsive UI Skill]] (10 shared connections)
-- [[Community 60]] (9 shared connections)
-- [[Community 68]] (7 shared connections)
-- [[Community 54]] (7 shared connections)
-- [[Community 79]] (3 shared connections)
-- [[Agent Guidelines (AGENTS.md)]] (3 shared connections)
+- [[Master Codebase Architecture Reference]] (35 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (22 shared connections)
+- [[Price Presentation & Product UI]] (13 shared connections)
+- [[Community 65]] (10 shared connections)
+- [[Community 78]] (9 shared connections)
+- [[Community 64]] (8 shared connections)
+- [[Community 46]] (7 shared connections)
+- [[Project Readme & Layout]] (5 shared connections)
+- [[Pricing & Roles Skill]] (3 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-DpX2FidJ.js`
+- `ios/App/App/public/assets/index-5ksJPaSv.js`
 
 ## Audit Trail
 
-- EXTRACTED: 222 (100%)
+- EXTRACTED: 238 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

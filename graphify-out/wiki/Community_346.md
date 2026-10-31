@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **Modality** (5 connections) — `.agents/skills/apple-design/references/hig/modality.md`
-- **modality.md** (1 connections) — `.agents/skills/apple-design/references/hig/modality.md`
-- **Best practices** (1 connections) — `.agents/skills/apple-design/references/hig/modality.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/modality.md`
-- **Platform considerations** (1 connections) — `.agents/skills/apple-design/references/hig/modality.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/modality.md`
+- **ErrorBoundary** (5 connections) — `src/components/ErrorBoundary.jsx`
+- **ErrorBoundary.jsx** (1 connections) — `src/components/ErrorBoundary.jsx`
+- **.componentDidCatch()** (1 connections) — `src/components/ErrorBoundary.jsx`
+- **.constructor()** (1 connections) — `src/components/ErrorBoundary.jsx`
+- **.getDerivedStateFromError()** (1 connections) — `src/components/ErrorBoundary.jsx`
+- **.render()** (1 connections) — `src/components/ErrorBoundary.jsx`
 
 ## Relationships
 
@@ -17,7 +17,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/modality.md`
+- `src/components/ErrorBoundary.jsx`
 
 ## Audit Trail
 

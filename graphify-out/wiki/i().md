@@ -1,8 +1,8 @@
 # i()
 
-> God node · 68 connections · `android/app/src/main/assets/public/assets/index-DpX2FidJ.js`
+> God node · 68 connections · `android/app/src/main/assets/public/assets/index-5ksJPaSv.js`
 
-**Community:** [[Price Presentation & Product UI]]
+**Community:** [[Dealer Auth & Session Management]]
 
 ## Connections by Relation
 

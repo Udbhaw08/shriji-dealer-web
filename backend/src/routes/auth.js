@@ -167,7 +167,7 @@ authRouter.get('/diagnostic', async (_req, res) => {
     dbStatus = 'error';
     dbError = err.message;
   }
-
+  
   res.json({
     ok: true,
     has_database_url: Boolean(env.databaseUrl),
@@ -552,7 +552,7 @@ authRouter.post('/staff/signup', strictLimit, async (req, res, next) => {
 
 authRouter.get('/me', jwtAuth, async (req, res, next) => {
   try {
-    const user = await resolveUserWithDealer(req.user);
+    let user = await resolveUserWithDealer(req.user);
     const userDealerId = user?.dealer_id || null;
     let dealer = (await sql`select * from dealers where id = ${userDealerId} or owner_user_id = ${user.id} order by case when status = 'approved' then 1 when status = 'pending' then 2 else 3 end asc limit 1`)[0] || null;
     if (dealer?.zoho_account_id && crm.isCrmConfigured()) {

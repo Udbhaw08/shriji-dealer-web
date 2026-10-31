@@ -9,7 +9,7 @@ export const COMPANY = {
   phoneRaw: "917738369367",
   servicePhone: "+91 74004 20888",
   servicePhoneRaw: "917400420888",
-  email: "contact@shrijidomestic.com",
+  email: "hello@restor.in",
   address: "Motilal Nagar 1, Goregaon West, Mumbai",
   tagline: "Delivering the heart of every kitchen",
   about:

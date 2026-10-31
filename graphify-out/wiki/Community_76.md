@@ -1,46 +1,52 @@
 # Community 76
 
-> 24 nodes · cohesion 0.08
+> 23 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **properties** (11 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **viewBox** (6 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **title** (3 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **animation** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **locale** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **output** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **quality_profile** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **subtitle** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **views** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **visual_preset** (2 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **enum** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **enum** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **minLength** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **items** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **maxItems** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **minItems** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **prefixItems** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
-- **enum** (1 connections) — `.agents/skills/archify/schemas/workflow.schema.json`
+- **zd()** (16 connections) — `android/app/src/main/assets/public/assets/index-5ksJPaSv.js`
+- **qd()** (13 connections) — `android/app/src/main/assets/public/assets/index-5ksJPaSv.js`
+- **Nd()** (11 connections) — `android/app/src/main/assets/public/assets/index-5ksJPaSv.js`
+- **tf()** (10 connections) — `android/app/src/main/assets/public/assets/index-5ksJPaSv.js`
+- **et()** (8 connections) — `android/app/src/main/assets/public/assets/index-5ksJPaSv.js`
+- **Gd()** (8 connections) — `android/app/src/main/assets/public/assets/index-5ksJPaSv.js`
+- **ef()** (7 connections) — `android/app/src/main/assets/public/assets/index-5ksJPaSv.js`
+- **lf()** (7 connections) — `android/app/src/main/assets/public/assets/index-5ksJPaSv.js`
+- **Xo()** (7 connections) — `android/app/src/main/assets/public/assets/index-5ksJPaSv.js`
+- **Bd()** (6 connections) — `android/app/src/main/assets/public/assets/index-5ksJPaSv.js`
+- **gi()** (6 connections) — `android/app/src/main/assets/public/assets/index-5ksJPaSv.js`
+- **of()** (6 connections) — `android/app/src/main/assets/public/assets/index-5ksJPaSv.js`
+- **Rd()** (6 connections) — `android/app/src/main/assets/public/assets/index-5ksJPaSv.js`
+- **uf()** (6 connections) — `android/app/src/main/assets/public/assets/index-5ksJPaSv.js`
+- **Xd()** (6 connections) — `android/app/src/main/assets/public/assets/index-5ksJPaSv.js`
+- **sf()** (5 connections) — `android/app/src/main/assets/public/assets/index-5ksJPaSv.js`
+- **vc()** (5 connections) — `android/app/src/main/assets/public/assets/index-5ksJPaSv.js`
+- **cf()** (4 connections) — `android/app/src/main/assets/public/assets/index-5ksJPaSv.js`
+- **jf()** (4 connections) — `android/app/src/main/assets/public/assets/index-5ksJPaSv.js`
+- **Fd()** (3 connections) — `android/app/src/main/assets/public/assets/index-5ksJPaSv.js`
+- **Hd()** (3 connections) — `android/app/src/main/assets/public/assets/index-5ksJPaSv.js`
+- **Ud()** (3 connections) — `android/app/src/main/assets/public/assets/index-5ksJPaSv.js`
+- **hp()** (2 connections) — `android/app/src/main/assets/public/assets/index-5ksJPaSv.js`
 
 ## Relationships
 
-- [[Community 202]] (1 shared connections)
-- [[Community 115]] (1 shared connections)
+- [[Product Pages Specification]] (26 shared connections)
+- [[Dealer Auth & Session Management]] (11 shared connections)
+- [[Community 47]] (9 shared connections)
+- [[Graphify Knowledge Graph Skill]] (7 shared connections)
+- [[Community 53]] (5 shared connections)
+- [[Community 43]] (3 shared connections)
+- [[Dependencies & Package Config]] (3 shared connections)
+- [[Claude Agent Instructions]] (2 shared connections)
+- [[Community 62]] (2 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/workflow.schema.json`
+- `android/app/src/main/assets/public/assets/index-5ksJPaSv.js`
 
 ## Audit Trail
 
-- EXTRACTED: 48 (100%)
+- EXTRACTED: 152 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -44,7 +44,7 @@ function zohoApiPlugin() {
     configureServer(server) {
       server.middlewares.use(async (req, res, next) => {
         // Backend Auth & Dealers API middleware
-        if (req.url.startsWith('/api/auth') || req.url.startsWith('/api/dealers')) {
+        if (req.url.startsWith('/api/auth') || req.url.startsWith('/api/dealers') || req.url.startsWith('/api/webhooks') || req.url.startsWith('/webhooks')) {
           try {
             const app = await getBackendApp();
             return app(req, res, next);

@@ -33,10 +33,10 @@
 
 ## Relationships
 
-- [[Community 48]] (49 shared connections)
-- [[Vercel Deployment Routing]] (24 shared connections)
-- [[Live Pricing Audit Tool]] (4 shared connections)
-- [[Product Brand & Business Vision]] (1 shared connections)
+- [[Community 45]] (49 shared connections)
+- [[Testing & Workflow Skill]] (24 shared connections)
+- [[Product Brand & Business Vision]] (4 shared connections)
+- [[Zoho Integration Architecture]] (1 shared connections)
 
 ## Source Files
 

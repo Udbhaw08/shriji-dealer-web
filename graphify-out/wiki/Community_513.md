@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **esm-mkuG-jMg.js** (1 connections) — `ios/App/App/public/assets/esm-mkuG-jMg.js`
-- **__vite__mapDeps()** (1 connections) — `ios/App/App/public/assets/esm-mkuG-jMg.js`
+- **README.md** (1 connections) — `ios/App/CapApp-SPM/README.md`
+- **CapApp-SPM** (1 connections) — `ios/App/CapApp-SPM/README.md`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `ios/App/App/public/assets/esm-mkuG-jMg.js`
+- `ios/App/CapApp-SPM/README.md`
 
 ## Audit Trail
 

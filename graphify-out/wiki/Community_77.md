@@ -1,52 +1,44 @@
 # Community 77
 
-> 23 nodes · cohesion 0.17
+> 23 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **zd()** (16 connections) — `android/app/src/main/assets/public/assets/index-DpX2FidJ.js`
-- **qd()** (13 connections) — `android/app/src/main/assets/public/assets/index-DpX2FidJ.js`
-- **Nd()** (11 connections) — `android/app/src/main/assets/public/assets/index-DpX2FidJ.js`
-- **tf()** (10 connections) — `android/app/src/main/assets/public/assets/index-DpX2FidJ.js`
-- **et()** (8 connections) — `android/app/src/main/assets/public/assets/index-DpX2FidJ.js`
-- **Gd()** (8 connections) — `android/app/src/main/assets/public/assets/index-DpX2FidJ.js`
-- **ef()** (7 connections) — `android/app/src/main/assets/public/assets/index-DpX2FidJ.js`
-- **lf()** (7 connections) — `android/app/src/main/assets/public/assets/index-DpX2FidJ.js`
-- **Xo()** (7 connections) — `android/app/src/main/assets/public/assets/index-DpX2FidJ.js`
-- **Bd()** (6 connections) — `android/app/src/main/assets/public/assets/index-DpX2FidJ.js`
-- **gi()** (6 connections) — `android/app/src/main/assets/public/assets/index-DpX2FidJ.js`
-- **of()** (6 connections) — `android/app/src/main/assets/public/assets/index-DpX2FidJ.js`
-- **Rd()** (6 connections) — `android/app/src/main/assets/public/assets/index-DpX2FidJ.js`
-- **uf()** (6 connections) — `android/app/src/main/assets/public/assets/index-DpX2FidJ.js`
-- **Xd()** (6 connections) — `android/app/src/main/assets/public/assets/index-DpX2FidJ.js`
-- **sf()** (5 connections) — `android/app/src/main/assets/public/assets/index-DpX2FidJ.js`
-- **vc()** (5 connections) — `android/app/src/main/assets/public/assets/index-DpX2FidJ.js`
-- **cf()** (4 connections) — `android/app/src/main/assets/public/assets/index-DpX2FidJ.js`
-- **jf()** (4 connections) — `android/app/src/main/assets/public/assets/index-DpX2FidJ.js`
-- **Fd()** (3 connections) — `android/app/src/main/assets/public/assets/index-DpX2FidJ.js`
-- **Hd()** (3 connections) — `android/app/src/main/assets/public/assets/index-DpX2FidJ.js`
-- **Ud()** (3 connections) — `android/app/src/main/assets/public/assets/index-DpX2FidJ.js`
-- **hp()** (2 connections) — `android/app/src/main/assets/public/assets/index-DpX2FidJ.js`
+- **package.json** (9 connections) — `backend/package.json`
+- **dependencies** (7 connections) — `backend/package.json`
+- **scripts** (7 connections) — `backend/package.json`
+- **engines** (2 connections) — `backend/package.json`
+- **dotenv** (1 connections) — `backend/package.json`
+- **express** (1 connections) — `backend/package.json`
+- **google-auth-library** (1 connections) — `backend/package.json`
+- **jsonwebtoken** (1 connections) — `backend/package.json`
+- **postgres** (1 connections) — `backend/package.json`
+- **resend** (1 connections) — `backend/package.json`
+- **description** (1 connections) — `backend/package.json`
+- **node** (1 connections) — `backend/package.json`
+- **main** (1 connections) — `backend/package.json`
+- **name** (1 connections) — `backend/package.json`
+- **private** (1 connections) — `backend/package.json`
+- **build** (1 connections) — `backend/package.json`
+- **check:ready** (1 connections) — `backend/package.json`
+- **dev** (1 connections) — `backend/package.json`
+- **migrate** (1 connections) — `backend/package.json`
+- **start** (1 connections) — `backend/package.json`
+- **test** (1 connections) — `backend/package.json`
+- **type** (1 connections) — `backend/package.json`
+- **version** (1 connections) — `backend/package.json`
 
 ## Relationships
 
-- [[Product Pages Specification]] (26 shared connections)
-- [[Price Presentation & Product UI]] (11 shared connections)
-- [[Community 51]] (9 shared connections)
-- [[Pricing & Roles Skill]] (7 shared connections)
-- [[Community 67]] (5 shared connections)
-- [[Community 47]] (3 shared connections)
-- [[Zoho Backend & Proxy Endpoints]] (3 shared connections)
-- [[Claude Agent Instructions]] (2 shared connections)
-- [[Community 52]] (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-DpX2FidJ.js`
+- `backend/package.json`
 
 ## Audit Trail
 
-- EXTRACTED: 152 (100%)
+- EXTRACTED: 44 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

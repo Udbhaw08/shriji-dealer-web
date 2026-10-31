@@ -24,7 +24,7 @@
 
 ## Relationships
 
-- [[Product Brand & Business Vision]] (3 shared connections)
+- [[Zoho Integration Architecture]] (3 shared connections)
 
 ## Source Files
 

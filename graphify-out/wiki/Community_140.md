@@ -21,10 +21,11 @@
 
 ## Relationships
 
-- [[Community 46]] (9 shared connections)
-- [[Community 40]] (5 shared connections)
-- [[Project Readme & Layout]] (5 shared connections)
-- [[Client Products Data Store]] (1 shared connections)
+- [[Community 51]] (8 shared connections)
+- [[Live Pricing Audit Tool]] (7 shared connections)
+- [[Design System & UI Tokens]] (2 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (2 shared connections)
+- [[Product Requirements Documentation]] (1 shared connections)
 
 ## Source Files
 

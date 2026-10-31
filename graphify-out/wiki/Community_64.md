@@ -1,50 +1,54 @@
 # Community 64
 
-> 26 nodes · cohesion 0.13
+> 25 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **repository-evidence.mjs** (15 connections) — `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
-- **real-repository-proof.test.mjs** (15 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
-- **verifyRepositoryEvidence()** (14 connections) — `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
-- **evidenceFailure()** (6 connections) — `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
-- **repository-location.mjs** (5 connections) — `.agents/skills/archify/renderers/shared/repository-location.mjs`
-- **parseRepositoryRemote()** (5 connections) — `.agents/skills/archify/renderers/shared/repository-location.mjs`
-- **gitValue()** (4 connections) — `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
-- **runGit()** (4 connections) — `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
-- **verifiedSourcePath()** (3 connections) — `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
-- **redactRepositoryRemote()** (3 connections) — `.agents/skills/archify/renderers/shared/repository-location.mjs`
-- **repositorySourceHref()** (3 connections) — `.agents/skills/archify/renderers/shared/repository-location.mjs`
-- **hasRepositoryEvidence()** (2 connections) — `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
-- **sourceLineCount()** (2 connections) — `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
-- **automaticMcoRoot()** (2 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
-- **artifactPath** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
-- **cli** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
-- **connectionLabelGeometry()** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
-- **evidencePayload()** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
-- **experimentArtifactPath** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
-- **experimentSourcePath** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
-- **pinnedSource** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
-- **repoRoot** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
-- **shareCardPath** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/real-repository-proof.test.mjs`
-- *... and 1 more nodes in this community*
+- **dl()** (26 connections) — `ios/App/App/public/assets/index-5ksJPaSv.js`
+- **pe()** (13 connections) — `ios/App/App/public/assets/index-5ksJPaSv.js`
+- **fl()** (10 connections) — `ios/App/App/public/assets/index-5ksJPaSv.js`
+- **ye()** (10 connections) — `ios/App/App/public/assets/index-5ksJPaSv.js`
+- **pl()** (9 connections) — `ios/App/App/public/assets/index-5ksJPaSv.js`
+- **Sp()** (9 connections) — `ios/App/App/public/assets/index-5ksJPaSv.js`
+- **Do()** (8 connections) — `ios/App/App/public/assets/index-5ksJPaSv.js`
+- **su()** (7 connections) — `ios/App/App/public/assets/index-5ksJPaSv.js`
+- **bo()** (6 connections) — `ios/App/App/public/assets/index-5ksJPaSv.js`
+- **da()** (6 connections) — `ios/App/App/public/assets/index-5ksJPaSv.js`
+- **ia()** (6 connections) — `ios/App/App/public/assets/index-5ksJPaSv.js`
+- **sl()** (6 connections) — `ios/App/App/public/assets/index-5ksJPaSv.js`
+- **fa()** (5 connections) — `ios/App/App/public/assets/index-5ksJPaSv.js`
+- **hm()** (5 connections) — `ios/App/App/public/assets/index-5ksJPaSv.js`
+- **al()** (4 connections) — `ios/App/App/public/assets/index-5ksJPaSv.js`
+- **bl()** (4 connections) — `ios/App/App/public/assets/index-5ksJPaSv.js`
+- **kl()** (4 connections) — `ios/App/App/public/assets/index-5ksJPaSv.js`
+- **ol()** (4 connections) — `ios/App/App/public/assets/index-5ksJPaSv.js`
+- **qi()** (4 connections) — `ios/App/App/public/assets/index-5ksJPaSv.js`
+- **yc()** (4 connections) — `ios/App/App/public/assets/index-5ksJPaSv.js`
+- **Vd()** (3 connections) — `ios/App/App/public/assets/index-5ksJPaSv.js`
+- **Ym()** (3 connections) — `ios/App/App/public/assets/index-5ksJPaSv.js`
+- **aa()** (2 connections) — `ios/App/App/public/assets/index-5ksJPaSv.js`
+- **ge()** (2 connections) — `ios/App/App/public/assets/index-5ksJPaSv.js`
+- **ll()** (2 connections) — `ios/App/App/public/assets/index-5ksJPaSv.js`
 
 ## Relationships
 
-- [[Zoho Integration Architecture]] (6 shared connections)
-- [[Product Requirements Documentation]] (3 shared connections)
+- [[Master Codebase Architecture Reference]] (25 shared connections)
+- [[Price Presentation & Product UI]] (12 shared connections)
+- [[Zoho Backend & Proxy Endpoints]] (9 shared connections)
+- [[Community 49]] (8 shared connections)
+- [[Community 46]] (8 shared connections)
+- [[Project Readme & Layout]] (6 shared connections)
+- [[Community 78]] (5 shared connections)
+- [[Pricing & Roles Skill]] (2 shared connections)
+- [[Community 65]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/renderers/shared/repository-evidence.mjs`
-- `.agents/skills/archify/renderers/shared/repository-location.mjs`
-- `.agents/skills/archify/test/real-repository-proof.test.mjs`
+- `ios/App/App/public/assets/index-5ksJPaSv.js`
 
 ## Audit Trail
 
-- EXTRACTED: 95 (100%)
+- EXTRACTED: 162 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

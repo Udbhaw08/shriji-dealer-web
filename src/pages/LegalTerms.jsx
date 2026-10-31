@@ -60,7 +60,7 @@ export default function LegalTerms() {
           <p>For questions regarding these Terms, contact us at:</p>
           <div style={{ marginTop: "var(--s2)", paddingLeft: "var(--s3)", borderLeft: "3px solid var(--c-brand)" }}>
             <p><strong>Restor / {COMPANY.legal}</strong></p>
-            <p>Email: <a href="mailto:restortoday@gmail.com">restortoday@gmail.com</a></p>
+            <p>Email: <a href={`mailto:${COMPANY.email}`}>{COMPANY.email}</a></p>
             <p>Phone: <a href={`tel:${COMPANY.phoneRaw}`}>{COMPANY.phone}</a></p>
           </div>
         </section>

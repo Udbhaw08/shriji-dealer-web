@@ -142,7 +142,7 @@ Check this table before you state anything about this business as fact.
 ### Verified (scraped from shrijidomestic.com, 2026-09-18)
 
 - Legal name: Shriji Domestic Appliances Pvt. Ltd. · Brand: Sunshine (Sunshine India) · Founded 1999
-- Phone `+91 77383 69367` · Email `contact@shrijidomestic.com` · Motilal Nagar 1, Goregaon West, Mumbai
+- Phone `+91 77383 69367` · Email `hello@restor.in` · Motilal Nagar 1, Goregaon West, Mumbai
 - Stats: 25+ years · 1,000+ retailers · 4,500+ customers served monthly · 4,000+ products installed monthly
 - 162 product names, categories, finishes, burner counts and photographs
 - Incumbent site runs on Zoho Commerce; images served from `cdn2.zohoecommerce.com`

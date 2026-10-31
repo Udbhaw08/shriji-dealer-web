@@ -4,15 +4,15 @@
 
 ## Key Concepts
 
-- **Designing for games** (8 connections) — `.agents/skills/apple-design/references/hig/designing-for-games.md`
-- **designing-for-games.md** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-games.md`
-- **Adopt Apple technologies** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-games.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-games.md`
-- **Enable intuitive interactions** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-games.md`
-- **Jump into gameplay** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-games.md`
-- **Look stunning on every display** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-games.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-games.md`
-- **Welcome everyone** (1 connections) — `.agents/skills/apple-design/references/hig/designing-for-games.md`
+- **MockStorage** (6 connections) — `src/data/incognito.test.mjs`
+- **incognito.test.mjs** (3 connections) — `src/data/incognito.test.mjs`
+- **addEventListener()** (1 connections) — `src/data/incognito.test.mjs`
+- **.clear()** (1 connections) — `src/data/incognito.test.mjs`
+- **.constructor()** (1 connections) — `src/data/incognito.test.mjs`
+- **.getItem()** (1 connections) — `src/data/incognito.test.mjs`
+- **.removeItem()** (1 connections) — `src/data/incognito.test.mjs`
+- **.setItem()** (1 connections) — `src/data/incognito.test.mjs`
+- **removeEventListener()** (1 connections) — `src/data/incognito.test.mjs`
 
 ## Relationships
 
@@ -20,7 +20,7 @@
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/designing-for-games.md`
+- `src/data/incognito.test.mjs`
 
 ## Audit Trail
 

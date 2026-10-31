@@ -64,6 +64,22 @@
       "destination": "/api/dealers/[...path]"
     },
     {
+      "source": "/api/webhooks/(.*)",
+      "destination": "/api/webhooks/[...path]"
+    },
+    {
+      "source": "/api/webhooks",
+      "destination": "/api/webhooks/[...path]"
+    },
+    {
+      "source": "/webhooks/(.*)",
+      "destination": "/api/webhooks/[...path]"
+    },
+    {
+      "source": "/webhooks",
+      "destination": "/api/webhooks/[...path]"
+    },
+    {
       "source": "/api/(.*)",
       "destination": "/api/$1"
     },

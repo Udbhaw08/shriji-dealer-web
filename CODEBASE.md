@@ -1,8 +1,8 @@
 # CODEBASE.md — Project Architecture & Feature Guide
 
 > **Auto-generated documentation**
-> Last synchronized: 2026-10-31T05:08:47.423+05:30 (GMT+5:30)
-> Total Project Files: 2273
+> Last synchronized: 2026-10-31T15:08:34.022+05:30 (GMT+5:30)
+> Total Project Files: 2285
 
 ---
 
@@ -172,6 +172,7 @@ When a customer or non-logged-in user opens a link shared by a dealer:
 - **`api/products/[id].js`** (2.1 KB)
 - **`api/settings.js`** (1.0 KB)
 - **`api/upload.js`** (10.9 KB)
+- **`api/webhooks/[...path].js`** (1.3 KB)
 - **`api/_lib/adminAuth.js`** (1.6 KB)
 - **`api/_lib/dealerPricingAuth.js`** (6.2 KB)
 - **`api/_lib/htmlEscape.js`** (1.1 KB)

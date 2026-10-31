@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **errorHandler.test.mjs** (0 connections) — `backend/test/errorHandler.test.mjs`
+- **architecture** (0 connections) — `.agents/skills/archify/renderers/shared/generated-validators.mjs`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `backend/test/errorHandler.test.mjs`
+- `.agents/skills/archify/renderers/shared/generated-validators.mjs`
 
 ## Audit Trail
 

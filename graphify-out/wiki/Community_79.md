@@ -1,52 +1,45 @@
 # Community 79
 
-> 23 nodes · cohesion 0.17
+> 23 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **zd()** (16 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
-- **qd()** (13 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
-- **Nd()** (11 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
-- **tf()** (10 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
-- **et()** (8 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
-- **Gd()** (8 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
-- **ef()** (7 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
-- **lf()** (7 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
-- **Xo()** (7 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
-- **Bd()** (6 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
-- **gi()** (6 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
-- **of()** (6 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
-- **Rd()** (6 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
-- **uf()** (6 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
-- **Xd()** (6 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
-- **sf()** (5 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
-- **vc()** (5 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
-- **cf()** (4 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
-- **jf()** (4 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
-- **Fd()** (3 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
-- **Hd()** (3 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
-- **Ud()** (3 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
-- **hp()** (2 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
+- **properties** (8 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **layout** (5 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **cols** (4 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **cellH** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **cellW** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **gapX** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **gapY** (3 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **origin** (2 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **minimum** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **minimum** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **maximum** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **minimum** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **minimum** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **minimum** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **additionalProperties** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **required** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **type** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
+- **$ref** (1 connections) — `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Relationships
 
-- [[Master Codebase Architecture Reference]] (26 shared connections)
-- [[Dealer Auth & Session Management]] (11 shared connections)
-- [[Community 54]] (9 shared connections)
-- [[Mobile Responsive UI Skill]] (7 shared connections)
-- [[Community 60]] (5 shared connections)
-- [[Community 49]] (3 shared connections)
-- [[Dependencies & Package Config]] (3 shared connections)
-- [[Agent Guidelines (AGENTS.md)]] (2 shared connections)
-- [[Community 68]] (2 shared connections)
+- [[Community 179]] (1 shared connections)
+- [[Community 84]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-DpX2FidJ.js`
+- `.agents/skills/archify/schemas/architecture.schema.json`
 
 ## Audit Trail
 
-- EXTRACTED: 152 (100%)
+- EXTRACTED: 46 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,28 +1,30 @@
 # Community 325
 
-> 7 nodes · cohesion 0.29
+> 7 nodes · cohesion 0.38
 
 ## Key Concepts
 
-- **intent-trace.test.mjs** (6 connections) — `.agents/skills/archify/test/intent-trace.test.mjs`
-- **canonicalSvg()** (1 connections) — `.agents/skills/archify/test/intent-trace.test.mjs`
-- **CASES** (1 connections) — `.agents/skills/archify/test/intent-trace.test.mjs`
-- **__dirname** (1 connections) — `.agents/skills/archify/test/intent-trace.test.mjs`
-- **render()** (1 connections) — `.agents/skills/archify/test/intent-trace.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/intent-trace.test.mjs`
-- **tmp** (1 connections) — `.agents/skills/archify/test/intent-trace.test.mjs`
+- **reset-test-users.js** (11 connections) — `backend/scripts/reset-test-users.js`
+- **runReset()** (5 connections) — `backend/scripts/reset-test-users.js`
+- **deleteCrmRecords()** (2 connections) — `backend/scripts/reset-test-users.js`
+- **searchCrmRecordIds()** (2 connections) — `backend/scripts/reset-test-users.js`
+- **args** (1 connections) — `backend/scripts/reset-test-users.js`
+- **customNumbers** (1 connections) — `backend/scripts/reset-test-users.js`
+- **isDryRun** (1 connections) — `backend/scripts/reset-test-users.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (4 shared connections)
+- [[Live Pricing Audit Tool]] (2 shared connections)
+- [[Community 51]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/test/intent-trace.test.mjs`
+- `backend/scripts/reset-test-users.js`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
+- EXTRACTED: 23 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

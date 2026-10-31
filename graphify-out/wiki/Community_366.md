@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **repository-evidence-replacement.test.mjs** (5 connections) — `.agents/skills/archify/test/repository-evidence-replacement.test.mjs`
-- **cases** (1 connections) — `.agents/skills/archify/test/repository-evidence-replacement.test.mjs`
-- **checkEvidence()** (1 connections) — `.agents/skills/archify/test/repository-evidence-replacement.test.mjs`
-- **cli** (1 connections) — `.agents/skills/archify/test/repository-evidence-replacement.test.mjs`
-- **fixture()** (1 connections) — `.agents/skills/archify/test/repository-evidence-replacement.test.mjs`
-- **skillRoot** (1 connections) — `.agents/skills/archify/test/repository-evidence-replacement.test.mjs`
+- **MetricsTracker** (4 connections) — `backend/src/services/metrics.js`
+- **metrics.js** (2 connections) — `backend/src/services/metrics.js`
+- **metrics** (1 connections) — `backend/src/services/metrics.js`
+- **.constructor()** (1 connections) — `backend/src/services/metrics.js`
+- **.getSnapshot()** (1 connections) — `backend/src/services/metrics.js`
+- **.track()** (1 connections) — `backend/src/services/metrics.js`
 
 ## Relationships
 
@@ -17,7 +17,7 @@
 
 ## Source Files
 
-- `.agents/skills/archify/test/repository-evidence-replacement.test.mjs`
+- `backend/src/services/metrics.js`
 
 ## Audit Trail
 

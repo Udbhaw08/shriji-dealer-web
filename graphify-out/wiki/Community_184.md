@@ -4,17 +4,17 @@
 
 ## Key Concepts
 
-- **httpErrors.js** (5 connections) — `backend/src/utils/httpErrors.js`
-- **BadRequestError** (2 connections) — `backend/src/utils/httpErrors.js`
-- **ForbiddenError** (2 connections) — `backend/src/utils/httpErrors.js`
-- **HttpError** (2 connections) — `backend/src/utils/httpErrors.js`
-- **NotFoundError** (2 connections) — `backend/src/utils/httpErrors.js`
-- **UnauthorizedError** (2 connections) — `backend/src/utils/httpErrors.js`
-- **.constructor()** (1 connections) — `backend/src/utils/httpErrors.js`
-- **.constructor()** (1 connections) — `backend/src/utils/httpErrors.js`
-- **.constructor()** (1 connections) — `backend/src/utils/httpErrors.js`
-- **.constructor()** (1 connections) — `backend/src/utils/httpErrors.js`
-- **.constructor()** (1 connections) — `backend/src/utils/httpErrors.js`
+- **multiAuth.test.mjs** (8 connections) — `backend/test/multiAuth.test.mjs`
+- **MockOAuth2Client** (3 connections) — `backend/test/multiAuth.test.mjs`
+- **app** (1 connections) — `backend/test/multiAuth.test.mjs`
+- **db** (1 connections) — `backend/test/multiAuth.test.mjs`
+- **.constructor()** (1 connections) — `backend/test/multiAuth.test.mjs`
+- **.verifyIdToken()** (1 connections) — `backend/test/multiAuth.test.mjs`
+- **mockSql()** (1 connections) — `backend/test/multiAuth.test.mjs`
+- **resetDb()** (1 connections) — `backend/test/multiAuth.test.mjs`
+- **startServer()** (1 connections) — `backend/test/multiAuth.test.mjs`
+- **stopServer()** (1 connections) — `backend/test/multiAuth.test.mjs`
+- **testEnv** (1 connections) — `backend/test/multiAuth.test.mjs`
 
 ## Relationships
 
@@ -22,7 +22,7 @@
 
 ## Source Files
 
-- `backend/src/utils/httpErrors.js`
+- `backend/test/multiAuth.test.mjs`
 
 ## Audit Trail
 

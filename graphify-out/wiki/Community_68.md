@@ -1,54 +1,52 @@
 # Community 68
 
-> 25 nodes · cohesion 0.12
+> 24 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **na()** (18 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
-- **To()** (18 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
-- **mc()** (11 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
-- **so()** (9 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
-- **Ti()** (9 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
-- **ac()** (8 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
-- **co()** (8 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
-- **no()** (7 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
-- **oo()** (7 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
-- **bc()** (6 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
-- **df()** (6 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
-- **dh()** (6 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
-- **ct()** (5 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
-- **Er()** (5 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
-- **va()** (5 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
-- **xc()** (5 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
-- **yo()** (5 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
-- **zn()** (5 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
-- **ba()** (4 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
-- **La()** (4 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
-- **vo()** (4 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
-- **xa()** (4 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
-- **ya()** (4 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
-- **hi()** (3 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
-- **w()** (2 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
+- **intent-trace-browser.test.mjs** (15 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **semantic-lens-browser.test.mjs** (14 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **desktop-browser.mjs** (8 connections) — `.agents/skills/archify/test/helpers/desktop-browser.mjs`
+- **run()** (6 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **run()** (6 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **desktopBrowser()** (5 connections) — `.agents/skills/archify/test/helpers/desktop-browser.mjs`
+- **desktopPointerCheck()** (5 connections) — `.agents/skills/archify/test/helpers/desktop-browser.mjs`
+- **load()** (4 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **point()** (4 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **point()** (4 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **click()** (3 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **media()** (3 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **move()** (3 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **click()** (3 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **load()** (3 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **move()** (3 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **afterTimer()** (2 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **key()** (2 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **snapshot()** (2 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **hash()** (2 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **key()** (2 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **snapshot()** (2 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
 
 ## Relationships
 
-- [[Dealer Auth & Session Management]] (29 shared connections)
-- [[Master Codebase Architecture Reference]] (25 shared connections)
-- [[Community 54]] (10 shared connections)
-- [[Dependencies & Package Config]] (8 shared connections)
-- [[Agent Guidelines (AGENTS.md)]] (7 shared connections)
-- [[Community 49]] (7 shared connections)
-- [[Mobile Responsive UI Skill]] (5 shared connections)
-- [[Community 79]] (2 shared connections)
-- [[Community 60]] (1 shared connections)
+- [[Community 54]] (11 shared connections)
+- [[Community 48]] (3 shared connections)
+- [[Community 150]] (3 shared connections)
+- [[Community 151]] (3 shared connections)
+- [[Community 129]] (2 shared connections)
+- [[Community 90]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-DpX2FidJ.js`
+- `.agents/skills/archify/test/helpers/desktop-browser.mjs`
+- `.agents/skills/archify/test/intent-trace-browser.test.mjs`
+- `.agents/skills/archify/test/semantic-lens-browser.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 168 (100%)
+- EXTRACTED: 103 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

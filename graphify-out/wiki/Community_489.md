@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **crmUserSourceContactSync.test.mjs** (2 connections) — `backend/test/crmUserSourceContactSync.test.mjs`
-- **crmCalls** (1 connections) — `backend/test/crmUserSourceContactSync.test.mjs`
-- **mockContactsUnderAccount** (1 connections) — `backend/test/crmUserSourceContactSync.test.mjs`
+- **Content Security Policy (CSP) Directives** (2 connections) — `docs/security/content-security-policy.md`
+- **content-security-policy.md** (1 connections) — `docs/security/content-security-policy.md`
+- **Directives** (1 connections) — `docs/security/content-security-policy.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `backend/test/crmUserSourceContactSync.test.mjs`
+- `docs/security/content-security-policy.md`
 
 ## Audit Trail
 

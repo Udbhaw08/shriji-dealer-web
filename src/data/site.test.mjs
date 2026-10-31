@@ -5,7 +5,7 @@ test("site metadata has valid defaults and official contact channels", () => {
   const siteConfig = {
     brandName: "ReSTOR",
     companyName: "Shriji Domestic Appliances",
-    supportEmail: "support@restor.in",
+    supportEmail: "hello@restor.in",
     supportPhone: "+91 98200 00000",
   };
 

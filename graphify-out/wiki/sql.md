@@ -2,7 +2,7 @@
 
 > God node · 80 connections · `backend/src/db/pool.js`
 
-**Community:** [[Project Readme & Layout]]
+**Community:** [[Live Pricing Audit Tool]]
 
 ## Connections by Relation
 

@@ -27,12 +27,12 @@
 
 ## Relationships
 
-- [[Community 69]] (11 shared connections)
-- [[Community 61]] (7 shared connections)
-- [[Community 44]] (6 shared connections)
-- [[Client Products Data Store]] (4 shared connections)
-- [[Community 46]] (3 shared connections)
-- [[Project Readme & Layout]] (2 shared connections)
+- [[Community 66]] (11 shared connections)
+- [[Community 56]] (7 shared connections)
+- [[Community 41]] (6 shared connections)
+- [[Product Requirements Documentation]] (4 shared connections)
+- [[Community 51]] (3 shared connections)
+- [[Live Pricing Audit Tool]] (2 shared connections)
 
 ## Source Files
 

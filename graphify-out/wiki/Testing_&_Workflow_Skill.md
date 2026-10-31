@@ -1,53 +1,56 @@
 # Testing & Workflow Skill
 
-> 44 nodes · cohesion 0.05
+> 43 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **properties** (30 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **cornerRadius** (3 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **brand** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **channelX** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **channelY** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **from** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **fromSide** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **id** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **labelAt** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **labelDx** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **labelDy** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **lane** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **note** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **route** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **step** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **sublabel** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **tag** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **to** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **toSide** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **type** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **variant** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **yOffset** (2 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **$ref** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- **type** (1 connections) — `.agents/skills/archify/schemas/lifecycle.schema.json`
-- *... and 19 more nodes in this community*
+- **session.js** (60 connections) — `src/data/session.js`
+- **productsStore.js** (25 connections) — `src/data/productsStore.js`
+- **apiFetch()** (21 connections) — `src/data/api.js`
+- **setSession()** (13 connections) — `src/data/session.js`
+- **api.js** (12 connections) — `src/data/api.js`
+- **apiUrl()** (9 connections) — `src/data/api.js`
+- **syncPricebookWithSession()** (8 connections) — `src/data/productsStore.js`
+- **signOut()** (8 connections) — `src/data/session.js`
+- **registerDealer()** (7 connections) — `src/data/dealer.js`
+- **fetchLiveProducts()** (7 connections) — `src/data/productsStore.js`
+- **setIncognitoMode()** (7 connections) — `src/data/session.js`
+- **isIncognitoMode()** (6 connections) — `src/data/session.js`
+- **loadCachedSession()** (6 connections) — `src/data/session.js`
+- **products.js** (5 connections) — `src/data/products.js`
+- **applyIncognito()** (5 connections) — `src/data/session.js`
+- **switchToDealerSession()** (5 connections) — `src/data/session.js`
+- **getAccessToken()** (4 connections) — `src/data/auth.js`
+- **loadCached()** (4 connections) — `src/data/productsStore.js`
+- **switchToViewerSession()** (4 connections) — `src/data/session.js`
+- **toggleIncognitoMode()** (4 connections) — `src/data/session.js`
+- **sessionFromAuth()** (3 connections) — `src/data/auth.js`
+- **emit()** (3 connections) — `src/data/productsStore.js`
+- **syncTagsLive()** (3 connections) — `src/data/productsStore.js`
+- **emit()** (3 connections) — `src/data/session.js`
+- **onAuthBroadcast()** (2 connections) — `src/data/auth.js`
+- *... and 18 more nodes in this community*
 
 ## Relationships
 
-- [[Community 200]] (3 shared connections)
-- [[Community 417]] (1 shared connections)
-- [[Community 474]] (1 shared connections)
-- [[Community 475]] (1 shared connections)
-- [[Community 476]] (1 shared connections)
-- [[Community 418]] (1 shared connections)
-- [[Community 419]] (1 shared connections)
+- [[Product Brand & Business Vision]] (26 shared connections)
+- [[Community 30]] (24 shared connections)
+- [[Community 45]] (24 shared connections)
+- [[Zoho Integration Architecture]] (18 shared connections)
+- [[Community 55]] (3 shared connections)
 
 ## Source Files
 
-- `.agents/skills/archify/schemas/lifecycle.schema.json`
+- `src/data/api.js`
+- `src/data/auth.js`
+- `src/data/dealer.js`
+- `src/data/products.js`
+- `src/data/productsStore.js`
+- `src/data/session.js`
 
 ## Audit Trail
 
-- EXTRACTED: 95 (100%)
+- EXTRACTED: 257 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

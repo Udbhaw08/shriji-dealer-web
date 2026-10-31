@@ -2,7 +2,7 @@
 
 > God node · 45 connections · `src/data/session.js`
 
-**Community:** [[Live Pricing Audit Tool]]
+**Community:** [[Product Brand & Business Vision]]
 
 ## Connections by Relation
 

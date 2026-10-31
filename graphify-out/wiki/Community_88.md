@@ -28,18 +28,18 @@
 
 ## Relationships
 
-- [[Design System & UI Tokens]] (31 shared connections)
-- [[Pricing Hierarchy & Zero-Leakage Spec]] (14 shared connections)
-- [[Community 39]] (14 shared connections)
-- [[Community 42]] (10 shared connections)
-- [[Zoho Integration Architecture]] (8 shared connections)
-- [[Community 135]] (4 shared connections)
-- [[Community 295]] (4 shared connections)
-- [[Community 111]] (3 shared connections)
-- [[Community 151]] (1 shared connections)
-- [[Community 66]] (1 shared connections)
-- [[Community 142]] (1 shared connections)
-- [[Community 29]] (1 shared connections)
+- [[Client Products Data Store]] (21 shared connections)
+- [[Roles & Customer Sharing Spec]] (19 shared connections)
+- [[Zoho API Diagnostic Script]] (14 shared connections)
+- [[Community 35]] (12 shared connections)
+- [[Pricing Regression Test Suite]] (8 shared connections)
+- [[Community 57]] (7 shared connections)
+- [[Community 134]] (4 shared connections)
+- [[Community 300]] (4 shared connections)
+- [[Community 153]] (1 shared connections)
+- [[Community 61]] (1 shared connections)
+- [[Community 143]] (1 shared connections)
+- [[Graphify Workflow]] (1 shared connections)
 
 ## Source Files
 

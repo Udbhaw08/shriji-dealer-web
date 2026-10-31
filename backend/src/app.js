@@ -27,7 +27,9 @@ export function createApp() {
       }
       return next();
     }
-    express.json({ limit: '1mb', verify: (r, _res, buf) => { r.rawBody = buf; } })(req, res, next);
+    express.json({ limit: '1mb', verify: (r, _res, buf) => { r.rawBody = buf; } })(req, res, () => {
+      express.urlencoded({ extended: true, limit: '1mb' })(req, res, next);
+    });
   });
 
   // Fallback: Parse body from rawBody if client sent text/plain or omitted Content-Type

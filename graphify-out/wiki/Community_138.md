@@ -21,8 +21,8 @@
 
 ## Relationships
 
-- [[Community 37]] (5 shared connections)
-- [[Community 115]] (5 shared connections)
+- [[Agent Guidelines (AGENTS.md)]] (5 shared connections)
+- [[Community 87]] (5 shared connections)
 
 ## Source Files
 

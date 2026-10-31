@@ -1,47 +1,54 @@
 # Community 62
 
-> 26 nodes · cohesion 0.08
+> 25 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **Widgets** (9 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Best practices** (6 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Anatomy** (4 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Rendering modes** (4 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Mobile (iOS, iPadOS)** (3 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Specifications** (3 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Platform considerations** (2 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **widgets.md** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Accented** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Accessory widgets** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Adding interactivity** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Appearances** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Apple HomeView** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Change log** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Choosing margins and padding** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Displaying text in widgets** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Full-color** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **iOS dimensions** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **iPadOS dimensions** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Previews and placeholders** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Related guidelines** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **StandBy and CarPlay** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **System family widgets** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Updating widget content** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- **Using color** (1 connections) — `.agents/skills/apple-design/references/hig/widgets.md`
-- *... and 1 more nodes in this community*
+- **na()** (18 connections) — `android/app/src/main/assets/public/assets/index-5ksJPaSv.js`
+- **To()** (18 connections) — `android/app/src/main/assets/public/assets/index-5ksJPaSv.js`
+- **mc()** (11 connections) — `android/app/src/main/assets/public/assets/index-5ksJPaSv.js`
+- **so()** (9 connections) — `android/app/src/main/assets/public/assets/index-5ksJPaSv.js`
+- **Ti()** (9 connections) — `android/app/src/main/assets/public/assets/index-5ksJPaSv.js`
+- **ac()** (8 connections) — `android/app/src/main/assets/public/assets/index-5ksJPaSv.js`
+- **co()** (8 connections) — `android/app/src/main/assets/public/assets/index-5ksJPaSv.js`
+- **no()** (7 connections) — `android/app/src/main/assets/public/assets/index-5ksJPaSv.js`
+- **oo()** (7 connections) — `android/app/src/main/assets/public/assets/index-5ksJPaSv.js`
+- **bc()** (6 connections) — `android/app/src/main/assets/public/assets/index-5ksJPaSv.js`
+- **df()** (6 connections) — `android/app/src/main/assets/public/assets/index-5ksJPaSv.js`
+- **dh()** (6 connections) — `android/app/src/main/assets/public/assets/index-5ksJPaSv.js`
+- **ct()** (5 connections) — `android/app/src/main/assets/public/assets/index-5ksJPaSv.js`
+- **Er()** (5 connections) — `android/app/src/main/assets/public/assets/index-5ksJPaSv.js`
+- **va()** (5 connections) — `android/app/src/main/assets/public/assets/index-5ksJPaSv.js`
+- **xc()** (5 connections) — `android/app/src/main/assets/public/assets/index-5ksJPaSv.js`
+- **yo()** (5 connections) — `android/app/src/main/assets/public/assets/index-5ksJPaSv.js`
+- **zn()** (5 connections) — `android/app/src/main/assets/public/assets/index-5ksJPaSv.js`
+- **ba()** (4 connections) — `android/app/src/main/assets/public/assets/index-5ksJPaSv.js`
+- **La()** (4 connections) — `android/app/src/main/assets/public/assets/index-5ksJPaSv.js`
+- **vo()** (4 connections) — `android/app/src/main/assets/public/assets/index-5ksJPaSv.js`
+- **xa()** (4 connections) — `android/app/src/main/assets/public/assets/index-5ksJPaSv.js`
+- **ya()** (4 connections) — `android/app/src/main/assets/public/assets/index-5ksJPaSv.js`
+- **hi()** (3 connections) — `android/app/src/main/assets/public/assets/index-5ksJPaSv.js`
+- **w()** (2 connections) — `android/app/src/main/assets/public/assets/index-5ksJPaSv.js`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [[Dealer Auth & Session Management]] (29 shared connections)
+- [[Product Pages Specification]] (25 shared connections)
+- [[Community 47]] (10 shared connections)
+- [[Dependencies & Package Config]] (8 shared connections)
+- [[Claude Agent Instructions]] (7 shared connections)
+- [[Community 43]] (7 shared connections)
+- [[Graphify Knowledge Graph Skill]] (5 shared connections)
+- [[Community 76]] (2 shared connections)
+- [[Community 53]] (1 shared connections)
 
 ## Source Files
 
-- `.agents/skills/apple-design/references/hig/widgets.md`
+- `android/app/src/main/assets/public/assets/index-5ksJPaSv.js`
 
 ## Audit Trail
 
-- EXTRACTED: 50 (100%)
+- EXTRACTED: 168 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

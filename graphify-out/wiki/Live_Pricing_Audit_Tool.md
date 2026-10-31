@@ -1,74 +1,72 @@
 # Live Pricing Audit Tool
 
-> 52 nodes · cohesion 0.09
+> 52 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **main.jsx** (54 connections) — `src/main.jsx`
-- **ui.jsx** (51 connections) — `src/ui.jsx`
-- **useSession()** (45 connections) — `src/data/session.js`
-- **Home.jsx** (26 connections) — `src/pages/Home.jsx`
-- **site.js** (24 connections) — `src/data/site.js`
-- **Schemes.jsx** (17 connections) — `src/pages/Schemes.jsx`
-- **Support.jsx** (17 connections) — `src/pages/Support.jsx`
-- **COMPANY** (16 connections) — `src/data/site.js`
-- **isPortalGated()** (14 connections) — `src/data/portalGate.js`
-- **HeroSlider.jsx** (12 connections) — `src/components/HeroSlider.jsx`
-- **UnderMaintenance.jsx** (8 connections) — `src/components/UnderMaintenance.jsx`
-- **Home()** (8 connections) — `src/pages/Home.jsx`
-- **DealerPending.jsx** (6 connections) — `src/pages/DealerPending.jsx`
-- **Footer()** (6 connections) — `src/ui.jsx`
-- **UnderMaintenance()** (5 connections) — `src/components/UnderMaintenance.jsx`
-- **LegalPrivacy.jsx** (5 connections) — `src/pages/LegalPrivacy.jsx`
-- **LegalTerms.jsx** (5 connections) — `src/pages/LegalTerms.jsx`
-- **PrivacyPolicy.jsx** (5 connections) — `src/pages/PrivacyPolicy.jsx`
-- **Support()** (5 connections) — `src/pages/Support.jsx`
-- **TermsOfService.jsx** (5 connections) — `src/pages/TermsOfService.jsx`
-- **canUseIncognito()** (4 connections) — `src/data/session.js`
-- **DealerDashboard()** (4 connections) — `src/pages/DealerDashboard.jsx`
-- **StaffJoin()** (4 connections) — `src/pages/StaffJoin.jsx`
-- **EnquiryButtons()** (4 connections) — `src/ui.jsx`
-- **IncognitoToggle()** (4 connections) — `src/ui.jsx`
+- **sql** (80 connections) — `backend/src/db/pool.js`
+- **dealers.js** (52 connections) — `backend/src/routes/dealers.js`
+- **staff.js** (23 connections) — `backend/src/services/staff.js`
+- **audit()** (18 connections) — `backend/src/utils/audit.js`
+- **auth.js** (13 connections) — `backend/src/middleware/auth.js`
+- **applyCrmAccountState()** (13 connections) — `backend/src/services/dealerApp.js`
+- **generateUniqueDealerCode()** (10 connections) — `backend/src/utils/loginCode.js`
+- **issueSession()** (8 connections) — `backend/src/routes/auth.js`
+- **applyDealer()** (8 connections) — `backend/src/services/dealerApp.js`
+- **audit.js** (7 connections) — `backend/src/utils/audit.js`
+- **sync-supabase-content.js** (6 connections) — `backend/scripts/sync-supabase-content.js`
+- **provisionDealerInCrm()** (6 connections) — `backend/src/services/dealerApp.js`
+- **createInvite()** (6 connections) — `backend/src/services/staff.js`
+- **crmPoll()** (5 connections) — `backend/src/jobs/crmPoll.js`
+- **jwtAuth()** (5 connections) — `backend/src/middleware/auth.js`
+- **resolveUserWithDealer()** (4 connections) — `backend/src/routes/auth.js`
+- **seed-content.js** (4 connections) — `backend/scripts/seed-content.js`
+- **deactivateDealer()** (4 connections) — `backend/src/services/dealerApp.js`
+- **approveStaff()** (4 connections) — `backend/src/services/staff.js`
+- **deleteStaff()** (4 connections) — `backend/src/services/staff.js`
+- **holdStaff()** (4 connections) — `backend/src/services/staff.js`
+- **resumeStaff()** (4 connections) — `backend/src/services/staff.js`
+- **revokeStaff()** (4 connections) — `backend/src/services/staff.js`
+- **toggleAllStaffPrice()** (4 connections) — `backend/src/services/staff.js`
+- **toggleStaffPrice()** (4 connections) — `backend/src/services/staff.js`
 - *... and 27 more nodes in this community*
 
 ## Relationships
 
-- [[Product Brand & Business Vision]] (74 shared connections)
-- [[Community 48]] (39 shared connections)
-- [[Vercel Deployment Routing]] (26 shared connections)
-- [[Community 59]] (11 shared connections)
-- [[Community 152]] (6 shared connections)
-- [[Community 30]] (4 shared connections)
-- [[Community 395]] (1 shared connections)
-- [[Community 167]] (1 shared connections)
+- [[Pricing Hierarchy & Zero-Leakage Spec]] (34 shared connections)
+- [[Community 51]] (31 shared connections)
+- [[Design System & UI Tokens]] (26 shared connections)
+- [[Product Requirements Documentation]] (21 shared connections)
+- [[Community 56]] (8 shared connections)
+- [[Community 140]] (7 shared connections)
+- [[Community 189]] (2 shared connections)
+- [[Community 89]] (2 shared connections)
+- [[Community 325]] (2 shared connections)
 
 ## Source Files
 
-- `src/components/EmailVerificationPrompt.jsx`
-- `src/components/HeroSlider.jsx`
-- `src/components/NativeBackHandler.jsx`
-- `src/components/PhoneVerificationPrompt.jsx`
-- `src/components/UnderMaintenance.jsx`
-- `src/data/portalGate.js`
-- `src/data/session.js`
-- `src/data/site.js`
-- `src/main.jsx`
-- `src/pages/DealerApply.jsx`
-- `src/pages/DealerDashboard.jsx`
-- `src/pages/DealerPending.jsx`
-- `src/pages/Home.jsx`
-- `src/pages/LegalPrivacy.jsx`
-- `src/pages/LegalTerms.jsx`
-- `src/pages/PrivacyPolicy.jsx`
-- `src/pages/Schemes.jsx`
-- `src/pages/StaffJoin.jsx`
-- `src/pages/Support.jsx`
-- `src/pages/TermsOfService.jsx`
+- `api/dealer/info.js`
+- `backend/scripts/check-readiness.js`
+- `backend/scripts/inspect-db.js`
+- `backend/scripts/seed-content.js`
+- `backend/scripts/setup-buckets.js`
+- `backend/scripts/setup-policies.js`
+- `backend/scripts/sync-supabase-content.js`
+- `backend/src/db/pool.js`
+- `backend/src/jobs/crmPoll.js`
+- `backend/src/middleware/auth.js`
+- `backend/src/routes/auth.js`
+- `backend/src/routes/dealers.js`
+- `backend/src/services/dealerApp.js`
+- `backend/src/services/staff.js`
+- `backend/src/utils/audit.js`
+- `backend/src/utils/loginCode.js`
+- `backend/test/crmSync.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 409 (100%)
-- INFERRED: 1 (0%)
+- EXTRACTED: 351 (99%)
+- INFERRED: 4 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

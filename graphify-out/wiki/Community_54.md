@@ -1,56 +1,60 @@
 # Community 54
 
-> 31 nodes · cohesion 0.14
+> 27 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **k()** (20 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
-- **rt()** (20 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
-- **ot()** (17 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
-- **A()** (14 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
-- **at()** (14 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
-- **dt()** (13 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
-- **lt()** (10 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
-- **nt()** (9 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
-- **st()** (9 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
-- **en()** (7 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
-- **Jt()** (7 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
-- **kf()** (7 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
-- **P()** (7 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
-- **tn()** (7 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
-- **An()** (6 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
-- **ke()** (6 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
-- **eo()** (5 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
-- **Gt()** (5 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
-- **ie()** (5 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
-- **Mt()** (5 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
-- **re()** (5 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
-- **ut()** (5 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
-- **wn()** (5 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
-- **yt()** (5 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
-- **Bt()** (4 connections) — `ios/App/App/public/assets/index-DpX2FidJ.js`
-- *... and 6 more nodes in this community*
+- **.send()** (54 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **viewer-camera-browser.test.mjs** (11 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- **export-browser.test.mjs** (9 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
+- **motion-governor-browser.test.mjs** (9 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
+- **.inspect()** (5 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **run()** (5 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
+- **run()** (5 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
+- **load()** (4 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
+- **load()** (4 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- **run()** (4 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- **evaluate()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **click()** (3 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
+- **load()** (3 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
+- **record()** (3 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
+- **media()** (3 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
+- **screenshot()** (3 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
+- **stable()** (3 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- **viewport()** (3 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- **.waitFor()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **key()** (2 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
+- **snapshot()** (2 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
+- **screenshot()** (2 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- **snapshot()** (2 connections) — `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/export-browser.test.mjs`
+- **skillRoot** (1 connections) — `.agents/skills/archify/test/motion-governor-browser.test.mjs`
+- *... and 2 more nodes in this community*
 
 ## Relationships
 
-- [[Master Codebase Architecture Reference]] (35 shared connections)
-- [[Dependencies & Package Config]] (21 shared connections)
-- [[Dealer Auth & Session Management]] (13 shared connections)
-- [[Community 68]] (10 shared connections)
-- [[Community 60]] (9 shared connections)
-- [[Community 79]] (9 shared connections)
-- [[Community 49]] (7 shared connections)
-- [[Agent Guidelines (AGENTS.md)]] (5 shared connections)
-- [[Mobile Responsive UI Skill]] (3 shared connections)
+- [[Community 68]] (11 shared connections)
+- [[Community 97]] (8 shared connections)
+- [[Community 90]] (7 shared connections)
+- [[Community 129]] (7 shared connections)
+- [[Community 48]] (5 shared connections)
+- [[Community 150]] (5 shared connections)
+- [[Community 151]] (5 shared connections)
+- [[Community 185]] (4 shared connections)
+- [[Community 111]] (1 shared connections)
+- [[Community 300]] (1 shared connections)
 
 ## Source Files
 
-- `ios/App/App/public/assets/index-DpX2FidJ.js`
+- `.agents/skills/archify/bin/visual-check.mjs`
+- `.agents/skills/archify/test/export-browser.test.mjs`
+- `.agents/skills/archify/test/motion-governor-browser.test.mjs`
+- `.agents/skills/archify/test/viewer-camera-browser.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 238 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 146 (99%)
+- INFERRED: 2 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

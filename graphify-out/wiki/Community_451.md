@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **Dealer Onboarding & Approval Lifecycle** (2 connections) — `docs/guides/dealer-onboarding-flow.md`
-- **dealer-onboarding-flow.md** (1 connections) — `docs/guides/dealer-onboarding-flow.md`
-- **Lifecycle States** (1 connections) — `docs/guides/dealer-onboarding-flow.md`
+- **ReSTOR / Shriji Dealer Web Changelog** (2 connections) — `docs/CHANGELOG.md`
+- **CHANGELOG.md** (1 connections) — `docs/CHANGELOG.md`
+- **2026-10-25** (1 connections) — `docs/CHANGELOG.md`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `docs/guides/dealer-onboarding-flow.md`
+- `docs/CHANGELOG.md`
 
 ## Audit Trail
 

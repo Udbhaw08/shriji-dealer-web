@@ -1,67 +1,62 @@
 # Community 48
 
-> 32 nodes · cohesion 0.21
+> 31 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **Login.jsx** (47 connections) — `src/pages/Login.jsx`
-- **DealerApply.jsx** (26 connections) — `src/pages/DealerApply.jsx`
-- **BrandApplyFlow.jsx** (24 connections) — `src/components/BrandApplyFlow.jsx`
-- **Icon()** (22 connections) — `src/ui.jsx`
-- **StaffJoinFlow.jsx** (21 connections) — `src/components/StaffJoinFlow.jsx`
-- **StaffJoin.jsx** (18 connections) — `src/pages/StaffJoin.jsx`
-- **StaffDashboard.jsx** (16 connections) — `src/pages/StaffDashboard.jsx`
-- **revalidateSession()** (15 connections) — `src/data/session.js`
-- **validators.js** (14 connections) — `src/data/validators.js`
-- **EmailVerificationPrompt.jsx** (12 connections) — `src/components/EmailVerificationPrompt.jsx`
-- **PhoneVerificationPrompt.jsx** (12 connections) — `src/components/PhoneVerificationPrompt.jsx`
-- **loginCode.js** (12 connections) — `src/data/loginCode.js`
-- **isValidEmail()** (9 connections) — `src/data/validators.js`
-- **hasSession()** (8 connections) — `src/data/auth.js`
-- **formatLoginCode()** (8 connections) — `src/data/loginCode.js`
-- **isValidName()** (7 connections) — `src/data/validators.js`
-- **isValidPhone()** (7 connections) — `src/data/validators.js`
-- **OtpDispatchFeedback.jsx** (6 connections) — `src/components/OtpDispatchFeedback.jsx`
-- **OtpDispatchFeedback()** (6 connections) — `src/components/OtpDispatchFeedback.jsx`
-- **StaffJoinFlow()** (6 connections) — `src/components/StaffJoinFlow.jsx`
-- **applyAsDealer()** (6 connections) — `src/data/auth.js`
-- **lookupStaffCode()** (6 connections) — `src/data/auth.js`
-- **BrandApplyFlow()** (5 connections) — `src/components/BrandApplyFlow.jsx`
-- **StaffDashboard()** (5 connections) — `src/pages/StaffDashboard.jsx`
-- **GST_TREATMENT_OPTIONS** (4 connections) — `src/data/loginCode.js`
-- *... and 7 more nodes in this community*
+- **visual-check.mjs** (50 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **runVisualCheck()** (18 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **desktop-readability.mjs** (9 connections) — `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
+- **adaptive-reader-layout.test.mjs** (9 connections) — `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
+- **desktop-reader-browser.test.mjs** (8 connections) — `.agents/skills/archify/test/desktop-reader-browser.test.mjs`
+- **DESKTOP_READABILITY_VIEWPORT** (5 connections) — `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
+- **observationDiagnostics()** (4 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **safeUnlink()** (4 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **writeAtomic()** (4 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **baseReceipt()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **cleanupCaptureSidecars()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **contactSheetHtml()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **failureDiagnostic()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **persistReceipt()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **sha256()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **sidecarPaths()** (3 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **htmlEscape()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **observation()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **screenshotKey()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **viewportSubject()** (2 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **CAPTURE_VIEWPORTS** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **EXIT** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **THEMES** (1 connections) — `.agents/skills/archify/bin/visual-check.mjs`
+- **__dirname** (1 connections) — `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
+- **reader** (1 connections) — `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
+- *... and 6 more nodes in this community*
 
 ## Relationships
 
-- [[Community 30]] (49 shared connections)
-- [[Live Pricing Audit Tool]] (39 shared connections)
-- [[Vercel Deployment Routing]] (24 shared connections)
-- [[Product Brand & Business Vision]] (13 shared connections)
-- [[Community 59]] (3 shared connections)
-- [[Community 152]] (2 shared connections)
-- [[Community 167]] (1 shared connections)
+- [[Community 90]] (8 shared connections)
+- [[Community 129]] (6 shared connections)
+- [[Community 54]] (5 shared connections)
+- [[Architecture Doc Generator]] (4 shared connections)
+- [[Community 68]] (3 shared connections)
+- [[Mobile Responsive UI Skill]] (3 shared connections)
+- [[Community 144]] (2 shared connections)
+- [[Community 97]] (2 shared connections)
+- [[Community 111]] (2 shared connections)
+- [[Community 150]] (1 shared connections)
+- [[Community 151]] (1 shared connections)
+- [[Community 127]] (1 shared connections)
 
 ## Source Files
 
-- `src/components/BrandApplyFlow.jsx`
-- `src/components/EmailVerificationPrompt.jsx`
-- `src/components/OtpDispatchFeedback.jsx`
-- `src/components/PhoneVerificationPrompt.jsx`
-- `src/components/StaffJoinFlow.jsx`
-- `src/data/auth.js`
-- `src/data/loginCode.js`
-- `src/data/session.js`
-- `src/data/validators.js`
-- `src/pages/DealerApply.jsx`
-- `src/pages/Login.jsx`
-- `src/pages/StaffDashboard.jsx`
-- `src/pages/StaffJoin.jsx`
-- `src/ui.jsx`
+- `.agents/skills/archify/bin/visual-check.mjs`
+- `.agents/skills/archify/renderers/shared/desktop-readability.mjs`
+- `.agents/skills/archify/test/adaptive-reader-layout.test.mjs`
+- `.agents/skills/archify/test/desktop-reader-browser.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 339 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 150 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

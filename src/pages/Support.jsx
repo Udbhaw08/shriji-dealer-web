@@ -94,7 +94,7 @@ export default function Support() {
         subject: `Support Request: ${form.name.trim()} (${form.issueType})`,
         from_name: form.name.trim(),
         name: form.name.trim(),
-        email: form.email?.trim() || COMPANY.email || "support@shrijidomestic.com",
+        email: form.email?.trim() || COMPANY.email || "hello@restor.in",
         phone: form.phone.trim(),
         issue_type: form.issueType,
         message: form.details.trim() || "Support request submitted via website.",

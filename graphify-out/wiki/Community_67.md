@@ -1,55 +1,52 @@
 # Community 67
 
-> 25 nodes · cohesion 0.14
+> 24 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **dl()** (26 connections) — `android/app/src/main/assets/public/assets/index-DpX2FidJ.js`
-- **pe()** (13 connections) — `android/app/src/main/assets/public/assets/index-DpX2FidJ.js`
-- **fl()** (10 connections) — `android/app/src/main/assets/public/assets/index-DpX2FidJ.js`
-- **ye()** (10 connections) — `android/app/src/main/assets/public/assets/index-DpX2FidJ.js`
-- **pl()** (9 connections) — `android/app/src/main/assets/public/assets/index-DpX2FidJ.js`
-- **Sp()** (9 connections) — `android/app/src/main/assets/public/assets/index-DpX2FidJ.js`
-- **Do()** (8 connections) — `android/app/src/main/assets/public/assets/index-DpX2FidJ.js`
-- **su()** (7 connections) — `android/app/src/main/assets/public/assets/index-DpX2FidJ.js`
-- **bo()** (6 connections) — `android/app/src/main/assets/public/assets/index-DpX2FidJ.js`
-- **da()** (6 connections) — `android/app/src/main/assets/public/assets/index-DpX2FidJ.js`
-- **ia()** (6 connections) — `android/app/src/main/assets/public/assets/index-DpX2FidJ.js`
-- **sl()** (6 connections) — `android/app/src/main/assets/public/assets/index-DpX2FidJ.js`
-- **fa()** (5 connections) — `android/app/src/main/assets/public/assets/index-DpX2FidJ.js`
-- **hm()** (5 connections) — `android/app/src/main/assets/public/assets/index-DpX2FidJ.js`
-- **al()** (4 connections) — `android/app/src/main/assets/public/assets/index-DpX2FidJ.js`
-- **bl()** (4 connections) — `android/app/src/main/assets/public/assets/index-DpX2FidJ.js`
-- **kl()** (4 connections) — `android/app/src/main/assets/public/assets/index-DpX2FidJ.js`
-- **ol()** (4 connections) — `android/app/src/main/assets/public/assets/index-DpX2FidJ.js`
-- **qi()** (4 connections) — `android/app/src/main/assets/public/assets/index-DpX2FidJ.js`
-- **yc()** (4 connections) — `android/app/src/main/assets/public/assets/index-DpX2FidJ.js`
-- **Vd()** (3 connections) — `android/app/src/main/assets/public/assets/index-DpX2FidJ.js`
-- **Ym()** (3 connections) — `android/app/src/main/assets/public/assets/index-DpX2FidJ.js`
-- **aa()** (2 connections) — `android/app/src/main/assets/public/assets/index-DpX2FidJ.js`
-- **ge()** (2 connections) — `android/app/src/main/assets/public/assets/index-DpX2FidJ.js`
-- **ll()** (2 connections) — `android/app/src/main/assets/public/assets/index-DpX2FidJ.js`
+- **preview.mjs** (23 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **startPreview()** (10 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **cli-output-types.test.mjs** (10 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
+- **runPreview()** (3 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **compactMessage()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **initialAuthoredOutput()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **previewPage()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **redactDiagnostic()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **sha256()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **sourceDigest()** (2 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **cliPath** (1 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **diagramTypes** (1 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **here** (1 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **parseReceipt()** (1 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **responseHeaders()** (1 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **safeJson()** (1 connections) — `.agents/skills/archify/bin/preview.mjs`
+- **architecture** (1 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
+- **base** (1 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
+- **cli** (1 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
+- **head** (1 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
+- **root** (1 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
+- **run()** (1 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
+- **workflow** (1 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
+- **workspace()** (1 connections) — `.agents/skills/archify/test/cli-output-types.test.mjs`
 
 ## Relationships
 
-- [[Product Pages Specification]] (25 shared connections)
-- [[Price Presentation & Product UI]] (12 shared connections)
-- [[Zoho Backend & Proxy Endpoints]] (9 shared connections)
-- [[Community 51]] (8 shared connections)
-- [[Community 47]] (8 shared connections)
-- [[Claude Agent Instructions]] (6 shared connections)
-- [[Community 77]] (5 shared connections)
-- [[Pricing & Roles Skill]] (2 shared connections)
-- [[Community 52]] (1 shared connections)
+- [[Community 253]] (3 shared connections)
+- [[Community 110]] (3 shared connections)
+- [[Community 44]] (2 shared connections)
+- [[Community 210]] (2 shared connections)
+- [[Community 335]] (2 shared connections)
+- [[Community 250]] (2 shared connections)
 
 ## Source Files
 
-- `android/app/src/main/assets/public/assets/index-DpX2FidJ.js`
+- `.agents/skills/archify/bin/preview.mjs`
+- `.agents/skills/archify/test/cli-output-types.test.mjs`
 
 ## Audit Trail
 
-- EXTRACTED: 162 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 71 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

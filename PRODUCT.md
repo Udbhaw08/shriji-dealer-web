@@ -68,7 +68,7 @@ Real, scraped from shrijidomestic.com (2026-09-18):
 - 162 product names with category mapping and CDN image URLs → `src/data/products.js`
 - Stats: Since 1999 · 25+ Years in Business · 4500+ customers served each month · 4000+ products installed monthly · 1000+ retailers tapped
 - About copy: "Since 1999, we have been a leading distributor of domestic kitchen appliances, specializing in gas stoves and chimneys."
-- Contact: +91 77383 69367 · contact@shrijidomestic.com · Motilal Nagar 1, Goregaon West, Mumbai
+- Contact: +91 77383 69367 · hello@restor.in · Motilal Nagar 1, Goregaon West, Mumbai
 - Category hero images for all six categories
 
 **Absent — must not be fabricated as real:** prices, testimonials, dealer names, certifications, warranty terms, awards, GST/legal registration numbers. Where the demo needs placeholder content (scheme details, dealer testimonials), it is labelled as sample content.

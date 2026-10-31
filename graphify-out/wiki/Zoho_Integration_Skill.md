@@ -33,7 +33,7 @@
 
 ## Relationships
 
-- [[Zoho Integration Architecture]] (1 shared connections)
+- [[Pricing Regression Test Suite]] (1 shared connections)
 
 ## Source Files
 

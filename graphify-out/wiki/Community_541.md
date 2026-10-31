@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **urlUtils.js** (1 connections) — `src/utils/urlUtils.js`
-- **buildUrlWithQuery()** (1 connections) — `src/utils/urlUtils.js`
+- **clipboard.js** (1 connections) — `src/utils/clipboard.js`
+- **copyToClipboard()** (1 connections) — `src/utils/clipboard.js`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `src/utils/urlUtils.js`
+- `src/utils/clipboard.js`
 
 ## Audit Trail
 
